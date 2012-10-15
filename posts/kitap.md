@@ -15,42 +15,24 @@ düzeltmeye çalışacağım.
 
 Umarım herkesin yararlanacağı bir Türkçe kaynak olur.
 
-<div style="float:left; width: 230px">
-![CSS'e Başlangıç kitabı][]   
-
-</div>
-<div style="float:left; width: 260px;">
   ---------------- ------------------------------
-  ![download][]    [Download CSS'e Başlangıç][]
+  [Download CSS'e Başlangıç](http://98.131.10.194/dokumanlar/CSS_GIRIS.zip)
   Boyut: 2.77 MB
-  ---------------- ------------------------------
-
   ------------------ -----------------------------
-  ![download][]      [Download Kaynak Kodları][]
+  [Download Kaynak Kodları](http://98.131.10.194/dokumanlar/kodlar.zip)
   Kaynak: 63.50 KB
   ------------------ -----------------------------
-
-Alternatif ve hızlı bir çözüm(Rapidshare)
-
-  ---------------- ------------------------------------------
-  ![download][]    [Download CSS’e Başlangıç(Rapidshare)][]
-  Boyut: 2.77 MB
-  ---------------- ------------------------------------------
-
-Ömer Akın'ın pdf'e bookmarklar eklediği hali. Erişebilirliği daha iyi
-(Rapidshare)
+**Alternatif ve hızlı bir çözüm(Rapidshare)**
+  Ömer Akın'ın pdf'e bookmarklar eklediği hali. Erişebilirliği daha iyi(Rapidshare)
 
   ---------------- -------------------------------------------
-  ![download][]    [Download CSS’e Başlangıç(Rapidshare)][1]
+  [Download CSS’e Başlangıç(Rapidshare)](http://rapidshare.com/files/305881410/CSS_GIRIS.zip)
   Boyut: 2.12 MB
   ---------------- -------------------------------------------
 
-</p>
-</div>
-<div style="clear:left">
-###### Hata ve düzeltmeler
+## Hata ve düzeltmeler
 
--   [M. Ceyhun Güler][]'e düzeltmeler ve yardımlarından dolayı
+-   [M. Ceyhun Güler](http://www.jayhoon.com/)'e düzeltmeler ve yardımlarından dolayı
     teşekkürler
 -   @eburhan: Kitapta tek gördüğüm eksiklik “linklerin” çalışmaması. PDF
     formatına dönüştürürken linkleri de dönüştürseydiniz iyi olurdu.
@@ -87,19 +69,3 @@ Alternatif ve hızlı bir çözüm(Rapidshare)
     yardımı ile biçimlendirmemizi saglar.
 -   @Yılmazcan sayfa 23: http://www.bradsoft.com/topstyle/ yerine
     http://topstyle.en.softonic.com/
-
-</div>
-</p>
-
-  [CSS'e Başlangıç kitabı]: /images/css_kitabi.png
-  [download]: http://www.fatihhayrioglu.com/images/download.png
-    "download"
-  [Download CSS'e Başlangıç]: http://www.fatihhayrioglu.com/dokumanlar/CSS_GIRIS.zip
-    "Download CSS'e Başlangıç"
-  [Download Kaynak Kodları]: http://www.fatihhayrioglu.com/dokumanlar/kodlar.zip
-    "Download Kaynak Kodları"
-  [Download CSS’e Başlangıç(Rapidshare)]: http://rapidshare.com/files/95016847/CSS_GIRIS.zip
-    "Download CSS’e Başlangıç(Rapidshare)"
-  [1]: http://rapidshare.com/files/305881410/CSS_GIRIS.zip
-    "Download CSS’e Başlangıç(Rapidshare)"
-  [M. Ceyhun Güler]: http://www.jayhoon.com/

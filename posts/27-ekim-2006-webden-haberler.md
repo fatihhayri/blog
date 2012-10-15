@@ -1,4 +1,4 @@
-Title: Web&#039;den haberler
+Title: 27 Ekim 2006 Web&#039;den haberler
 Date: 2006-10-27 00:18
 Category: Haberler
 Tags: alistapart, arama motoru, Document object model, google, ie7, sitepoint, yui

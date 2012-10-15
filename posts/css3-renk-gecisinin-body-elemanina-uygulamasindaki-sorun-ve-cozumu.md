@@ -11,21 +11,23 @@ Sorun tam olarak bir sayfanın ardalanının tamamına renk geçişi uygulamak
 istediğimizde belli bir yere kadar uygulayıp kalan kısmını tekrar
 ettirerek istemediğimiz bir durum oluşmasına neden oluyor.
 
-<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/VUcqt/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
 Sorunun çözümünü aradığımda ilk sonuç [http://stackoverflow.com/][]
 sitesinde buldum biraz daha araştırınca benzer cevaplar gördüm ve
 sizlerle paylaşmak istedim.
 
+<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/VUcqt/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 **background-image** özelliğine eklenen renk geçişi kodu tekrar
 edecektir, biz bu tekrarı istemediğimiz için.
 
-[css] background-repeat: no-repeat; [/css]
+	:::css 
+	background-repeat: no-repeat;
 
 ekledik. Ayrıca uygulana renk geçişinin sayfa zemininde sabitlenmesi
 için
 
-[css] background-attachment: fixed; [/css]
+	:::css 
+	background-attachment: fixed;
 
 kodunu ekledik.
 
@@ -37,16 +39,11 @@ Diğer kod eklemeleri farklı tarayıcılar içindir.
 
 -   [http://stackoverflow.com/questions/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats][]
 -   [http://atomicrobotdesign.com/blog/htmlcss/use-css3-gradients-to-replace-your-sites-background/][]
--   [http://www.naprej.com/css3\_body\_background\_gradient][]
+-   [http://www.naprej.com/css3_body_background_gradient][]
 -   [http://www.richarddarling.com/drupal-css/css3-gradient-background-repeat-problem][]
 
-</p>
-
   [http://stackoverflow.com/]: http://stackoverflow.com/
-  [http://stackoverflow.com/questions/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats]:
-    http://stackoverflow.com/questions/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats
-  [http://atomicrobotdesign.com/blog/htmlcss/use-css3-gradients-to-replace-your-sites-background/]:
-    http://atomicrobotdesign.com/blog/htmlcss/use-css3-gradients-to-replace-your-sites-background/
-  [http://www.naprej.com/css3\_body\_background\_gradient]: http://www.naprej.com/css3_body_background_gradient
-  [http://www.richarddarling.com/drupal-css/css3-gradient-background-repeat-problem]:
-    http://www.richarddarling.com/drupal-css/css3-gradient-background-repeat-problem
+  [http://stackoverflow.com/questions/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats]: http://stackoverflow.com/questions/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats
+  [http://atomicrobotdesign.com/blog/htmlcss/use-css3-gradients-to-replace-your-sites-background/]: http://atomicrobotdesign.com/blog/htmlcss/use-css3-gradients-to-replace-your-sites-background/
+  [http://www.naprej.com/css3_body_background_gradient]: http://www.naprej.com/css3_body_background_gradient
+  [http://www.richarddarling.com/drupal-css/css3-gradient-background-repeat-problem]: http://www.richarddarling.com/drupal-css/css3-gradient-background-repeat-problem

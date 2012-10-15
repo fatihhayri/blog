@@ -1,4 +1,4 @@
-Title: Web&#039;den Haberler 
+Title: 03 Kasım 2006 Web&#039;den Haberler 
 Date: 2006-11-03 00:25
 Category: Haberler
 Tags: Ajax, CSS, Firefox, Javascript, w3schools, web

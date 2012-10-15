@@ -12,8 +12,8 @@ Sunuma erişmek isteyenlere [sunumun linki.][]
 
 Bu başlık şöyle çıktı; Hasan Yalçın’ın “[Modern Web Tasarımı][]” kitabı
 için HTML5 ve CSS3 yeniliklerini bir cümle ile anlatmak istersen ne
-dersin demesi ile başladı. “Geliştirilen kodlama teknolojilerinde, css3
-tasarımcıdan, html5 programcıdan rol çalıyor!” diye bir cümle kurmuştum.
+dersin demesi ile başladı. “Geliştirilen kodlama teknolojilerinde, css3
+tasarımcıdan, html5 programcıdan rol çalıyor!” diye bir cümle kurmuştum.
 Bu cümlenin CSS3 kısmı eksik kaldığını zamanla gördüm. CSS3 sadece
 tasarımcıdan değil Javascript’ten de rol çalışıyor bunu gördüm.
 
@@ -84,31 +84,48 @@ ile bir çok uygulama yapımı için kullanılıyor.
 
 radyo butonlar ve işaret kutuları label ile kullanılmaktadır.
 
-[html] \<input id="rad1" type="radio" name="rad"\> \<label
-for="rad1"\>Radio 1\</label\> [/html]
+	:::html
+	<input id="rad1" type="radio" name="rad">
+	<label for="rad1">Radio 1</label>
 
 for tanımı yardımı ile label ile radyo buton veya işaret kutusuna erişim
 sağlanır. for ile radyo buton ve işaret kutusu id’si aynı olmalıdır.
 
-[css] input[type="radio"]:checked+label{ font-weight: bold; } [/css]
+	:::css
+	input[type="radio"]:checked+label{ 
+		font-weight: bold; 
+	}
 
 Tanımı ile tıklama yakalama işini yapabiliyoruz.
 
 Hemen bunu basit bir gizle göster işini nasıl yaparız onu gösterelim.
 
-[html] \<input id="che1" type="checkbox" name="che"\> \<label
-for="che1"\>Radio 1\</label\> \<div class="icerikAlani"\>Gizli
-İçerik\</div\> [/html]
+	:::html
+	<input id="che1" type="checkbox" name="che">
+	<label for="che1">Radio 1</label>
+	<div class="icerikAlani">Gizli İçerik</div>
 
 Yukarıdaki koda birde div ekledik. Amacımız bir tıkla bu divi göstermek,
 eğer açıksa bir tıkla gizlemek.
 
-[css] input[type="checkbox"], .icerikAlani{ display:none; } label{
-color:blue; cursor:pointer; } input[type="checkbox"]:checked \~
-.icerikAlani{ display:block; }​ [/css]
+	:::css] 
+	input[type="checkbox"], 
+	.icerikAlani{ 
+		display:none; 
+	} 
+	
+	label{
+		color:blue; 
+		cursor:pointer; 
+	} 
+	
+	input[type="checkbox"]:checked ~ .icerikAlani{ 
+		display:block; 
+	}​ 
+
 <iframe style="width: 100%; height: 200px" src="http://jsfiddle.net/fatihhayri/ZSudF/embedded/css,result,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-Sadece bu kod yardımı ile gizle göster işini yapabiliyoruz. tilda(\~)
+Sadece bu kod yardımı ile gizle göster işini yapabiliyoruz. tilda(~)
 işareti Genel Kardeş Seçicisi yardımı ile aynı seviyede olan
 “icerikAlani” sınıfını buluyor ve gösteriyoruz.
 
@@ -125,20 +142,37 @@ beklememize gerek kalmadı.
 
 ![][2]
 
-[html] ​\<dl\> \<dt id="dn1"\>\<a href="\#dn1"\>Deneme
-Başlık\</a\>\</dt\> \<dd\>Deneme 1 İçerik\</dd\> \<dt id="dn2"\>\<a
-href="\#dn2"\>Deneme Başlık 2\</a\>\</dt\> \<dd\>Deneme 2 İçerik\</dd\>
-\</dl\>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
-[/html]
+	:::html
+	<dl>
+		<dt id="dn1">
+			<a href="#dn1">Deneme Başlık</a>
+		</dt>
+		<dd>Deneme 1 İçerik</dd>
+		<dt id="dn2">
+			<a href="#dn2">Deneme Başlık 2</a>
+		</dt>
+		<dd>Deneme 2 İçerik</dd>
+	</dl>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
 
 CSS kodu;
 
-[css] dt{ font-weight:bold; } dt:target + dd{ display:block; } dd{
-display:none; }​ [/css]
+	:::css
+	dt{ 
+		font-weight:bold; 
+	} 
+	
+	dt:target + dd{ 
+		display:block; 
+	} 
+	
+	dd{
+		display:none; 
+	}​ 
+
 <iframe style="width: 100%; height: 200px" src="http://jsfiddle.net/fatihhayri/3TwVF/embedded/css,result,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 :target sözde sınıfının dezavantajı sayfa imlecini ilgili içeriğe
-kaydırması ve adres barda \#tanim ile geçiş sağlanmasıdır. Geri tuşları
+kaydırması ve adres barda #tanim ile geçiş sağlanmasıdır. Geri tuşları
 biraz devre dışı kalıyor.
 
 Kardeş(Siblings) Seçiciler
@@ -147,21 +181,31 @@ Kardeş(Siblings) Seçiciler
 CSS'in bir diğer sorunu sadece kapsayıcı eleman içindeki elemanlara
 erişebilmesi.
 
-[html] \<p\>Deneme metni \<span\>bir\</span\>\</p\> \<div
-class="icerik"\>Burada içerik olsun\</div\> [/html]
+	:::html
+	<p>Deneme metni <span>bir</span></p> 
+	<div class="icerik">Burada içerik olsun</div> 
 
 CSS ile sadece bir kapsayıcı eleman içine müdahale edebilirken
 
-[css] p span{ /\* tanımlar \*/ } [/css]
+	:::css
+	p span{ 
+		/* tanımlar */ 
+	} 
 
 Kardeş seçiciler yardımı ile artık kapsayıcı içinde olmayan elemanlara
 da erişebiliyoruz.
 
-[css] p + div.icerik{ display:block; } [/css]
+	:::css
+	p + div.icerik{ 
+		display:block; 
+	} 
 
 veya
 
-[css] p \~ div.icerik{ display:block; } [/css]
+	:::css
+	p ~ div.icerik{ 
+		display:block; 
+	} 
 
 gibi tanımlar ile DOM’deki aynı seviyedeki elemana erişim
 sağlayabiliyoruz.
@@ -175,14 +219,16 @@ Bitişik Kardeş Seçicileri biribiri ardına gelen aynı seviyedeki
 elementlerden sonra gelenine stil tanımlamak için kullanılır. Tam olarak
 “Bir Ufak Kardeş Seçicisi” olmalıdır.
 
-</p>
 Bir örnek verelim bir başlığımız var ve sonrasında ard arda paragraflar
 geliyor. Biz başlık ile hemen ardından gelen paragrafın arasına mesafe
 koymak için bu seçiciyi kullanabiliriz.
 
-[html] \<body\> \<h2\>Başlık 2\</h2\> \<p\>Buraya \<em\>önemli\</em\> ve
-\<strong\>iyi\</strong\>kod gir\</p\> \<p\>Buraya \<em\>önemli\</em\> ve
-\<strong\>iyi\</strong\>kod gir\</p\> \</body\> [/html]
+	:::html
+	<body> 
+		<h2>Başlık 2</h2> 
+		<p>Buraya <em>önemli</em> ve <strong>iyi</strong>kod gir</p> 
+		<p>Buraya <em>önemli</em> ve <strong>iyi</strong>kod gir</p> 
+	</body> 
 
 Dökümanın yapısı:
 
@@ -191,7 +237,10 @@ Dökümanın yapısı:
 Biz burada h2 ve h3 arasında boşluk vermek için aşağıdaki kodu
 kullanırız:
 
-[css] h2 + p {    margin-top: 10px; } [/css]
+	:::css
+	h2 + p {
+		margin-top: 10px;
+	} 
 
 Bu seçiciyi ie7’nin seçicisini destekliyor.
 
@@ -213,7 +262,7 @@ seçicidir. Aynı kapsayıcıya sahip elemanların belirtilen elemandan
 sonraki aynı seviyedeki elemanların tümünü yakalamak için kullanılır.
 Burada dikkat edilmesi gereken konu belirtilen elemandan sonraki aynı
 seviyedeki elemanları seçiyor olması. Tanımlama yaparken araya işaret
-olarak tilde(\~) koyuyoru
+olarak tilde(~) koyuyoru
 
 ![][4]
 
@@ -221,13 +270,22 @@ Bir örnek yapacak olursak bir resmimiz var bunu sola hizalayacağız ve
 sağdanda metinler akacak. Bu resim ve paragraflar arasına padding
 tanımlamak için genel kardeş seçicisi birebirdir.
 
-[css] img{ float:left; } img \~ p{ padding-left:110px; } [/css]
+	:::css
+	img{ 
+		float:left;
+	} 
+	
+	img ~ p{ 
+		padding-left:110px;
+	} 
 
 html kodu
 
-[html] \<img src="kedi.jpg" width="96" height="96" alt="kedi" /\>
-\<p\>Kedi (Felis catus),...\</p\> \<p\>2,5 ile 12 kilo ...\</p\>
-\<p\>Kediler hoş görünüşlü, ..\</p\> [/html]
+	:::html
+	<img src="kedi.jpg" width="96" height="96" alt="kedi" />
+	<p>Kedi (Felis catus),...</p>
+	<p>2,5 ile 12 kilo ...</p>
+	<p>Kediler hoş görünüşlü, ..</p> 
 
 Bu seçiciyi ie7’nin seçicisini destekliyor.
 
@@ -264,7 +322,7 @@ Bu işi benzer bir mantık ile :target seçicisi yardımı ile yapabiliyoruz.
 -   [http://www.red-team-design.com/css3-accordion][]
 -   [http://www.hongkiat.com/blog/css-content-accordion/][]
 -   [http://css.dzone.com/articles/pure-css3-accordion][]
--   [http://aravindms.com/cody/accordioncs3\#contact][]
+-   [http://aravindms.com/cody/accordioncs3#contact][]
 -   [http://tympanus.net/codrops/2011/10/12/flexible-slide-to-top-accordion/][]
 -   [http://tympanus.net/codrops/2012/06/06/image-accordion-with-css3/][]
 
@@ -329,11 +387,11 @@ yapabiliyoruz.
 
 -   [http://tympanus.net/codrops/2011/12/26/css3-lightbox/][]
 -   [http://www.nealgrosskopf.com/tech/thread.php?pid=75][]
--   [http://alexindigo.github.com/lightbox/\#gallery][]
+-   [http://alexindigo.github.com/lightbox/#gallery][]
 -   [http://www.emanueleferonato.com/2007/08/22/create-a-lightbox-effect-only-with-css-no-javascript-needed/][]
 -   [http://www.paulrhayes.com/2011-03/css-modal/][]
 -   [http://www.webstuffshare.com/2012/04/create-elegant-modal-window-using-css-scale-transform/][]
--   [http://playground.deaxon.com/css/lightbox/\#home][]
+-   [http://playground.deaxon.com/css/lightbox/#home][]
 
 Animasyon, Efektler vd.
 -----------------------
@@ -364,7 +422,7 @@ Ancak uğraşması zevkli.
 -   [http://tympanus.net/codrops/2011/11/09/interactive-html5-typography/][]
 -   [http://tympanus.net/codrops/2011/11/07/animated-buttons-with-css3/][]
 -   [http://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/][]
--   [http://monkeyandcrow.com/blog/css3\_splitview/][] (spliteview)
+-   [http://monkeyandcrow.com/blog/css3_splitview/][] (spliteview)
 
 Tooltip
 -------
@@ -446,9 +504,8 @@ Kaynaklar
 -   [http://designshack.net/articles/css/using-checkboxes-to-toggle-css-and-create-click-events/][]
 -   [http://calebogden.com/css-target/][]
 -   [http://www.bilisimdergi.com/3-Katman-Mimarisi-ve-JavaScript-14-5.html][]
--   [http://cscie12.dce.harvard.edu/lecture\_notes/2010/20100324/handout.html][]
+-   [http://cscie12.dce.harvard.edu/lecture_notes/2010/20100324/handout.html][]
 
-</p>
 
   [jstanbul etkinliğinde]: http://jstanbul.org/2012/
   [sunumun linki.]: https://docs.google.com/presentation/d/13cNTBiY4ewyRpCwmKD_CyKgMs3z4md27YH-ZcVtubcA/edit
@@ -462,100 +519,68 @@ Kaynaklar
   [http://www.red-team-design.com/css3-accordion]: http://www.red-team-design.com/css3-accordion
   [http://www.hongkiat.com/blog/css-content-accordion/]: http://www.hongkiat.com/blog/css-content-accordion/
   [http://css.dzone.com/articles/pure-css3-accordion]: http://css.dzone.com/articles/pure-css3-accordion
-  [http://aravindms.com/cody/accordioncs3\#contact]: http://aravindms.com/cody/accordioncs3#contact
-  [http://tympanus.net/codrops/2011/10/12/flexible-slide-to-top-accordion/]:
-    http://tympanus.net/codrops/2011/10/12/flexible-slide-to-top-accordion/
+  [http://aravindms.com/cody/accordioncs3#contact]: http://aravindms.com/cody/accordioncs3#contact
+  [http://tympanus.net/codrops/2011/10/12/flexible-slide-to-top-accordion/]: http://tympanus.net/codrops/2011/10/12/flexible-slide-to-top-accordion/
   [http://tympanus.net/codrops/2012/06/06/image-accordion-with-css3/]: http://tympanus.net/codrops/2012/06/06/image-accordion-with-css3/
   [http://css-tricks.com/css3-tabs/]: http://css-tricks.com/css3-tabs/
   [http://www.sitepoint.com/css3-tabs-using-target-selector]: http://www.sitepoint.com/css3-tabs-using-target-selector
   [http://tympanus.net/Tutorials/CSS3ContentTabs/]: http://tympanus.net/Tutorials/CSS3ContentTabs/
   [http://www.webstuffshare.com/2010/01/updated-pure-css-tab-menu/]: http://www.webstuffshare.com/2010/01/updated-pure-css-tab-menu/
-  [http://coding.smashingmagazine.com/2012/04/25/pure-css3-cycling-slideshow/]:
-    http://coding.smashingmagazine.com/2012/04/25/pure-css3-cycling-slideshow/
-  [http://tympanus.net/codrops/2012/04/30/fluid-css3-slideshow-with-parallax-effect/]:
-    http://tympanus.net/codrops/2012/04/30/fluid-css3-slideshow-with-parallax-effect/
+  [http://coding.smashingmagazine.com/2012/04/25/pure-css3-cycling-slideshow/]: http://coding.smashingmagazine.com/2012/04/25/pure-css3-cycling-slideshow/
+  [http://tympanus.net/codrops/2012/04/30/fluid-css3-slideshow-with-parallax-effect/]:http://tympanus.net/codrops/2012/04/30/fluid-css3-slideshow-with-parallax-effect/
   [http://tympanus.net/Tutorials/CSS3SlidingImagePanels/]: http://tympanus.net/Tutorials/CSS3SlidingImagePanels/
-  [http://tympanus.net/codrops/2012/06/12/css-only-responsive-layout-with-smooth-transitions/]:
-    http://tympanus.net/codrops/2012/06/12/css-only-responsive-layout-with-smooth-transitions/
-  [http://tympanus.net/codrops/2012/01/02/fullscreen-background-image-slideshow-with-css3/]:
-    http://tympanus.net/codrops/2012/01/02/fullscreen-background-image-slideshow-with-css3/
+  [http://tympanus.net/codrops/2012/06/12/css-only-responsive-layout-with-smooth-transitions/]: http://tympanus.net/codrops/2012/06/12/css-only-responsive-layout-with-smooth-transitions/
+  [http://tympanus.net/codrops/2012/01/02/fullscreen-background-image-slideshow-with-css3/]: http://tympanus.net/codrops/2012/01/02/fullscreen-background-image-slideshow-with-css3/
   [http://tympanus.net/codrops/2011/12/21/slopy-elements-with-css3/]: http://tympanus.net/codrops/2011/12/21/slopy-elements-with-css3/
-  [http://tympanus.net/codrops/2011/11/21/elastic-image-slideshow-with-thumbnail-preview/]:
-    http://tympanus.net/codrops/2011/11/21/elastic-image-slideshow-with-thumbnail-preview/
+  [http://tympanus.net/codrops/2011/11/21/elastic-image-slideshow-with-thumbnail-preview/]: http://tympanus.net/codrops/2011/11/21/elastic-image-slideshow-with-thumbnail-preview/
   [http://tympanus.net/Tutorials/CircleNavigationEffect/]: http://tympanus.net/Tutorials/CircleNavigationEffect/
-  [http://tympanus.net/codrops/2012/03/23/responsive-content-navigator-with-css3/]:
-    http://tympanus.net/codrops/2012/03/23/responsive-content-navigator-with-css3/
+  [http://tympanus.net/codrops/2012/03/23/responsive-content-navigator-with-css3/]: http://tympanus.net/codrops/2012/03/23/responsive-content-navigator-with-css3/
   [http://www.c5theme.com/addons/responsive-slider/]: http://www.c5theme.com/addons/responsive-slider/
   [http://csscience.com/responsiveslidercss3/]: http://csscience.com/responsiveslidercss3/
   [http://tympanus.net/codrops/2011/12/26/css3-lightbox/]: http://tympanus.net/codrops/2011/12/26/css3-lightbox/
   [http://www.nealgrosskopf.com/tech/thread.php?pid=75]: http://www.nealgrosskopf.com/tech/thread.php?pid=75
-  [http://alexindigo.github.com/lightbox/\#gallery]: http://alexindigo.github.com/lightbox/#gallery
-  [http://www.emanueleferonato.com/2007/08/22/create-a-lightbox-effect-only-with-css-no-javascript-needed/]:
-    http://www.emanueleferonato.com/2007/08/22/create-a-lightbox-effect-only-with-css-no-javascript-needed/
+  [http://alexindigo.github.com/lightbox/#gallery]: http://alexindigo.github.com/lightbox/#gallery
+  [http://www.emanueleferonato.com/2007/08/22/create-a-lightbox-effect-only-with-css-no-javascript-needed/]: http://www.emanueleferonato.com/2007/08/22/create-a-lightbox-effect-only-with-css-no-javascript-needed/
   [http://www.paulrhayes.com/2011-03/css-modal/]: http://www.paulrhayes.com/2011-03/css-modal/
-  [http://www.webstuffshare.com/2012/04/create-elegant-modal-window-using-css-scale-transform/]:
-    http://www.webstuffshare.com/2012/04/create-elegant-modal-window-using-css-scale-transform/
-  [http://playground.deaxon.com/css/lightbox/\#home]: http://playground.deaxon.com/css/lightbox/#home
-  [http://tympanus.net/codrops/2011/12/07/splash-and-coming-soon-page-effects-with-css3/]:
-    http://tympanus.net/codrops/2011/12/07/splash-and-coming-soon-page-effects-with-css3/
-  [http://tympanus.net/codrops/2011/10/19/blur-menu-with-css3-transitions/]:
-    http://tympanus.net/codrops/2011/10/19/blur-menu-with-css3-transitions/
-  [http://tympanus.net/codrops/2012/05/22/creating-an-animated-3d-bouncing-ball-with-css3/]:
-    http://tympanus.net/codrops/2012/05/22/creating-an-animated-3d-bouncing-ball-with-css3/
-  [http://tympanus.net/codrops/2012/05/14/annotation-overlay-effect-with-css3/]:
-    http://tympanus.net/codrops/2012/05/14/annotation-overlay-effect-with-css3/
-  [http://tympanus.net/codrops/2012/05/21/animated-3d-bar-chart-with-css3/]:
-    http://tympanus.net/codrops/2012/05/21/animated-3d-bar-chart-with-css3/
-  [http://tympanus.net/codrops/2012/04/17/rotating-words-with-css-animations/]:
-    http://tympanus.net/codrops/2012/04/17/rotating-words-with-css-animations/
-  [http://tympanus.net/codrops/2012/01/10/animated-web-banners-with-css3/]:
-    http://tympanus.net/codrops/2012/01/10/animated-web-banners-with-css3/
-  [http://tympanus.net/codrops/2012/01/09/filter-functionality-with-css3/]:
-    http://tympanus.net/codrops/2012/01/09/filter-functionality-with-css3/
-  [http://tympanus.net/codrops/2011/12/12/experiments-with-background-clip-text/]:
-    http://tympanus.net/codrops/2011/12/12/experiments-with-background-clip-text/
-  [http://tympanus.net/codrops/2011/11/09/interactive-html5-typography/]:
-    http://tympanus.net/codrops/2011/11/09/interactive-html5-typography/
+  [http://www.webstuffshare.com/2012/04/create-elegant-modal-window-using-css-scale-transform/]: http://www.webstuffshare.com/2012/04/create-elegant-modal-window-using-css-scale-transform/
+  [http://playground.deaxon.com/css/lightbox/#home]: http://playground.deaxon.com/css/lightbox/#home
+  [http://tympanus.net/codrops/2011/12/07/splash-and-coming-soon-page-effects-with-css3/]: http://tympanus.net/codrops/2011/12/07/splash-and-coming-soon-page-effects-with-css3/
+  [http://tympanus.net/codrops/2011/10/19/blur-menu-with-css3-transitions/]: http://tympanus.net/codrops/2011/10/19/blur-menu-with-css3-transitions/
+  [http://tympanus.net/codrops/2012/05/22/creating-an-animated-3d-bouncing-ball-with-css3/]: http://tympanus.net/codrops/2012/05/22/creating-an-animated-3d-bouncing-ball-with-css3/
+  [http://tympanus.net/codrops/2012/05/14/annotation-overlay-effect-with-css3/]: http://tympanus.net/codrops/2012/05/14/annotation-overlay-effect-with-css3/
+  [http://tympanus.net/codrops/2012/05/21/animated-3d-bar-chart-with-css3/]: http://tympanus.net/codrops/2012/05/21/animated-3d-bar-chart-with-css3/
+  [http://tympanus.net/codrops/2012/04/17/rotating-words-with-css-animations/]: http://tympanus.net/codrops/2012/04/17/rotating-words-with-css-animations/
+  [http://tympanus.net/codrops/2012/01/10/animated-web-banners-with-css3/]: http://tympanus.net/codrops/2012/01/10/animated-web-banners-with-css3/
+  [http://tympanus.net/codrops/2012/01/09/filter-functionality-with-css3/]: http://tympanus.net/codrops/2012/01/09/filter-functionality-with-css3/
+  [http://tympanus.net/codrops/2011/12/12/experiments-with-background-clip-text/]: http://tympanus.net/codrops/2011/12/12/experiments-with-background-clip-text/
+  [http://tympanus.net/codrops/2011/11/09/interactive-html5-typography/]: http://tympanus.net/codrops/2011/11/09/interactive-html5-typography/
   [http://tympanus.net/codrops/2011/11/07/animated-buttons-with-css3/]: http://tympanus.net/codrops/2011/11/07/animated-buttons-with-css3/
-  [http://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/]:
-    http://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/
-  [http://monkeyandcrow.com/blog/css3\_splitview/]: http://monkeyandcrow.com/blog/css3_splitview/
+  [http://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/]: http://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/
+  [http://monkeyandcrow.com/blog/css3_splitview/]: http://monkeyandcrow.com/blog/css3_splitview/
   [http://www.red-team-design.com/css3-tooltips]: http://www.red-team-design.com/css3-tooltips
-  [http://tympanus.net/codrops/2012/02/01/how-to-create-animated-tooltips-with-css3/]:
-    http://tympanus.net/codrops/2012/02/01/how-to-create-animated-tooltips-with-css3/
+  [http://tympanus.net/codrops/2012/02/01/how-to-create-animated-tooltips-with-css3/]: http://tympanus.net/codrops/2012/02/01/how-to-create-animated-tooltips-with-css3/
   [http://sixrevisions.com/css/css-only-tooltips/]: http://sixrevisions.com/css/css-only-tooltips/
-  [http://tympanus.net/codrops/2011/10/24/creative-css3-animation-menus/]:
-    http://tympanus.net/codrops/2011/10/24/creative-css3-animation-menus/
+  [http://tympanus.net/codrops/2011/10/24/creative-css3-animation-menus/]: http://tympanus.net/codrops/2011/10/24/creative-css3-animation-menus/
   [http://webdesignerwall.com/tutorials/css3-dropdown-menu]: http://webdesignerwall.com/tutorials/css3-dropdown-menu
   [http://www.cssplay.co.uk/menus/cssplay-radial.html]: http://www.cssplay.co.uk/menus/cssplay-radial.html
-  [http://thecodeplayer.com/walkthrough/make-a-stopwatch-using-css3-without-images-or-javascript]:
-    http://thecodeplayer.com/walkthrough/make-a-stopwatch-using-css3-without-images-or-javascript
-  [http://acidmartin.wordpress.com/2011/09/26/css3-treevew-no-javascript/]:
-    http://acidmartin.wordpress.com/2011/09/26/css3-treevew-no-javascript/
-  [http://www.htmldrive.net/items/show/437/CSS3-only-horizontal-drop-line-tab-menu]:
-    http://www.htmldrive.net/items/show/437/CSS3-only-horizontal-drop-line-tab-menu
+  [http://thecodeplayer.com/walkthrough/make-a-stopwatch-using-css3-without-images-or-javascript]: http://thecodeplayer.com/walkthrough/make-a-stopwatch-using-css3-without-images-or-javascript
+  [http://acidmartin.wordpress.com/2011/09/26/css3-treevew-no-javascript/]: http://acidmartin.wordpress.com/2011/09/26/css3-treevew-no-javascript/
+  [http://www.htmldrive.net/items/show/437/CSS3-only-horizontal-drop-line-tab-menu]: http://www.htmldrive.net/items/show/437/CSS3-only-horizontal-drop-line-tab-menu
   [http://cssdeck.com/item/511/soothing-css3-dropdown-animation]: http://cssdeck.com/item/511/soothing-css3-dropdown-animation
   [http://tutorialzine.com/2010/06/css3-minimalistic-navigation-menu/]: http://tutorialzine.com/2010/06/css3-minimalistic-navigation-menu/
-  [http://www.webstuffshare.com/2010/04/nice-menu-css-animation-jquery-animate/]:
-    http://www.webstuffshare.com/2010/04/nice-menu-css-animation-jquery-animate/
+  [http://www.webstuffshare.com/2010/04/nice-menu-css-animation-jquery-animate/]: http://www.webstuffshare.com/2010/04/nice-menu-css-animation-jquery-animate/
   [http://www.thecssninja.com/css/custom-inputs-using-css]: http://www.thecssninja.com/css/custom-inputs-using-css
-  [http://www.wufoo.com/2011/06/13/custom-radio-buttons-and-checkboxes/]:
-    http://www.wufoo.com/2011/06/13/custom-radio-buttons-and-checkboxes/
+  [http://www.wufoo.com/2011/06/13/custom-radio-buttons-and-checkboxes/]: http://www.wufoo.com/2011/06/13/custom-radio-buttons-and-checkboxes/
   [http://proto.io/freebies/onoff/]: http://proto.io/freebies/onoff/
   [http://cssdeck.com/item/269/css-news-ticker]: http://cssdeck.com/item/269/css-news-ticker
   [http://cssdeck.com/item/513/colourful-css-loader]: http://cssdeck.com/item/513/colourful-css-loader
   [http://www.hongkiat.com/blog/css3-animation-advanced-marquee/]: http://www.hongkiat.com/blog/css3-animation-advanced-marquee/
-  [http://www.webstuffshare.com/2012/04/how-to-create-animated-list-view-using-css3-only/]:
-    http://www.webstuffshare.com/2012/04/how-to-create-animated-list-view-using-css3-only/
+  [http://www.webstuffshare.com/2012/04/how-to-create-animated-list-view-using-css3-only/]: http://www.webstuffshare.com/2012/04/how-to-create-animated-list-view-using-css3-only/
   [http://www.ryancollins.me/?p=1041]: http://www.ryancollins.me/?p=1041
-  [http://speckyboy.com/2010/04/26/30-pure-css-alternatives-to-javascript/]:
-    http://speckyboy.com/2010/04/26/30-pure-css-alternatives-to-javascript/
+  [http://speckyboy.com/2010/04/26/30-pure-css-alternatives-to-javascript/]: http://speckyboy.com/2010/04/26/30-pure-css-alternatives-to-javascript/
   [http://css-tricks.com/the-checkbox-hack/]: http://css-tricks.com/the-checkbox-hack/
   [http://www.inserthtml.com/2012/04/css-click-states/]: http://www.inserthtml.com/2012/04/css-click-states/
-  [http://designshack.net/articles/css/using-checkboxes-to-toggle-css-and-create-click-events/]:
-    http://designshack.net/articles/css/using-checkboxes-to-toggle-css-and-create-click-events/
+  [http://designshack.net/articles/css/using-checkboxes-to-toggle-css-and-create-click-events/]: http://designshack.net/articles/css/using-checkboxes-to-toggle-css-and-create-click-events/
   [http://calebogden.com/css-target/]: http://calebogden.com/css-target/
-  [http://www.bilisimdergi.com/3-Katman-Mimarisi-ve-JavaScript-14-5.html]:
-    http://www.bilisimdergi.com/3-Katman-Mimarisi-ve-JavaScript-14-5.html
-  [http://cscie12.dce.harvard.edu/lecture\_notes/2010/20100324/handout.html]:
-    http://cscie12.dce.harvard.edu/lecture_notes/2010/20100324/handout.html
+  [http://www.bilisimdergi.com/3-Katman-Mimarisi-ve-JavaScript-14-5.html]: http://www.bilisimdergi.com/3-Katman-Mimarisi-ve-JavaScript-14-5.html
+  [http://cscie12.dce.harvard.edu/lecture_notes/2010/20100324/handout.html]: http://cscie12.dce.harvard.edu/lecture_notes/2010/20100324/handout.html

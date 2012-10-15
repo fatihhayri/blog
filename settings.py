@@ -2,10 +2,11 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = 'Fatih'
-SITENAME = u'Fatih Hayrioğlu'
+SITENAME = u'Fatih Hayrioğlu\'nun not defteri'
+SITESUBTITLE = u'{ CSS, XHTML ve Javascript }'
 SITEURL = 'http://www.fatihhayrioglu.com'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Europe/Istanbul'
 
 DEFAULT_LANG = 'tr'
 THEME = 'theme'

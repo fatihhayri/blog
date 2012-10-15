@@ -202,11 +202,10 @@ Toplu
 
 ### Kaynaklar
 
--   [http://www.sitepoint.com/10-best-css3-code-generators/\#fbid=ovoh-eTTYCI][]
+-   [http://www.sitepoint.com/10-best-css3-code-generators/#fbid=ovoh-eTTYCI][]
 -   [http://www.webdesignerdepot.com/2012/04/15-great-html5-and-css3-generators/][]
 -   [http://line25.com/articles/handy-roundup-of-css3-generators-and-tools][]
--   [http://www.shoutmeloud.com/9-great-free-online-css-sprite-generator.html][]
-    (sprite araçları)
+-   [http://www.shoutmeloud.com/9-great-free-online-css-sprite-generator.html][] (sprite araçları)
 -   [http://www.catswhocode.com/blog/awesome-css3-generators-to-simplify-front-end-development][]
 
 </p>
@@ -246,12 +245,10 @@ Toplu
   [http://onlinefontconverter.com/]: http://onlinefontconverter.com/
   [http://ttf2eot.sebastiankippe.com/]: http://ttf2eot.sebastiankippe.com/
   [http://xmlgraphics.apache.org/batik/tools/font-converter.html]: http://xmlgraphics.apache.org/batik/tools/font-converter.html
-  [http://debray.jerome.free.fr/index.php?outils/Generateur-de-multi-colonnes-en-css3]:
-    http://debray.jerome.free.fr/index.php?outils/Generateur-de-multi-colonnes-en-css3
+  [http://debray.jerome.free.fr/index.php?outils/Generateur-de-multi-colonnes-en-css3]: http://debray.jerome.free.fr/index.php?outils/Generateur-de-multi-colonnes-en-css3
   [http://www.aaronlumsden.com/multicol/]: http://www.aaronlumsden.com/multicol/
   [http://cssarrowplease.com/]: http://cssarrowplease.com/
-  [http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on\_3d-transforms.htm]:
-    http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on_3d-transforms.htm
+  [http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on\_3d-transforms.htm]: http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on_3d-transforms.htm
   [http://html5-demos.appspot.com/static/css/filters/index.html]: http://html5-demos.appspot.com/static/css/filters/index.html
   [http://css3generator.com/]: http://css3generator.com/
   [http://www.css3.me/]: http://www.css3.me/
@@ -260,13 +257,8 @@ Toplu
   [http://www.webtutorialplus.com/css3-generator.aspx]: http://www.webtutorialplus.com/css3-generator.aspx
   [http://css3.pascal-seven.de/]: http://css3.pascal-seven.de/
   [http://www.layerstyles.org/builder.html]: http://www.layerstyles.org/builder.html
-  [http://www.sitepoint.com/10-best-css3-code-generators/\#fbid=ovoh-eTTYCI]:
-    http://www.sitepoint.com/10-best-css3-code-generators/#fbid=ovoh-eTTYCI
-  [http://www.webdesignerdepot.com/2012/04/15-great-html5-and-css3-generators/]:
-    http://www.webdesignerdepot.com/2012/04/15-great-html5-and-css3-generators/
-  [http://line25.com/articles/handy-roundup-of-css3-generators-and-tools]:
-    http://line25.com/articles/handy-roundup-of-css3-generators-and-tools
-  [http://www.shoutmeloud.com/9-great-free-online-css-sprite-generator.html]:
-    http://www.shoutmeloud.com/9-great-free-online-css-sprite-generator.html
-  [http://www.catswhocode.com/blog/awesome-css3-generators-to-simplify-front-end-development]:
-    http://www.catswhocode.com/blog/awesome-css3-generators-to-simplify-front-end-development
+  [http://www.sitepoint.com/10-best-css3-code-generators/#fbid=ovoh-eTTYCI]: http://www.sitepoint.com/10-best-css3-code-generators/#fbid=ovoh-eTTYCI
+  [http://www.webdesignerdepot.com/2012/04/15-great-html5-and-css3-generators/]: http://www.webdesignerdepot.com/2012/04/15-great-html5-and-css3-generators/
+  [http://line25.com/articles/handy-roundup-of-css3-generators-and-tools]: http://line25.com/articles/handy-roundup-of-css3-generators-and-tools
+  [http://www.shoutmeloud.com/9-great-free-online-css-sprite-generator.html]: http://www.shoutmeloud.com/9-great-free-online-css-sprite-generator.html
+  [http://www.catswhocode.com/blog/awesome-css3-generators-to-simplify-front-end-development]: http://www.catswhocode.com/blog/awesome-css3-generators-to-simplify-front-end-development

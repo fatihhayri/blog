@@ -1,4 +1,4 @@
-Title: Web&#039;den haberler
+Title: 2 Kasım 2006 Web&#039;den haberler
 Date: 2006-11-02 08:21
 Category: Haberler
 Tags: blog, dynamic drive, google, istatistik, jotspot, youtube

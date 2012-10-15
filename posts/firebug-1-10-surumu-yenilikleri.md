@@ -112,12 +112,10 @@ Google Geliştirme Aracı ile rekabete giren Firebug bu yeni sürüm ile bir
 
 -   [https://blog.getfirebug.com/2012/07/13/firebug-1-10-0/][]
 -   [http://hacks.mozilla.org/2012/07/firebug-1-10-new-features/][]
--   [http://www.sitepoint.com/firebug-1-10-whats-new/\#fbid=ovoh-eTTYCI][]
+-   [http://www.sitepoint.com/firebug-1-10-whats-new/#fbid=ovoh-eTTYCI][]
 -   [http://www.h-online.com/open/news/item/Firebug-1-10-released-with-new-cookie-manager-1641591.html][]
 -   [http://www.softwareishard.com/blog/firebug/firebug-tip-trace-styles/][]
 -   [https://getfirebug.com/cookies][]
-
-</p>
 
   []: https://lh5.googleusercontent.com/tKZ-6Kzyaf6STFtwuEUm95oGkQqWiJaAkwl3OxkloAty_KrqehN6L1xNaOv6RQWde9-J9oDn_1VXB29aGzEiVm-Sv1HM192D52tDjY2tx3awGo6ggQQ
   [1]: https://lh4.googleusercontent.com/eQvJVbwp0haG4ivJXEumOG1QiKjuzIiL-7lsfkjnnTV1_AT66lmUQ-BOXUlRJFSoo4ZxBTyy4XRmyYQc6WvtErNMbH_jrNNEQrF65SyvGevKVAfU_-0
@@ -130,9 +128,7 @@ Google Geliştirme Aracı ile rekabete giren Firebug bu yeni sürüm ile bir
   [79 geliştirme daha]: http://code.google.com/p/fbug/issues/list?can=1&q=label%3Afixed-1.10+label%3AType-Enhancement&colspec=ID+Type+Status+Owner+Test+Summary+Reporter&cells=tiles
   [https://blog.getfirebug.com/2012/07/13/firebug-1-10-0/]: https://blog.getfirebug.com/2012/07/13/firebug-1-10-0/
   [http://hacks.mozilla.org/2012/07/firebug-1-10-new-features/]: http://hacks.mozilla.org/2012/07/firebug-1-10-new-features/
-  [http://www.sitepoint.com/firebug-1-10-whats-new/\#fbid=ovoh-eTTYCI]: http://www.sitepoint.com/firebug-1-10-whats-new/#fbid=ovoh-eTTYCI
-  [http://www.h-online.com/open/news/item/Firebug-1-10-released-with-new-cookie-manager-1641591.html]:
-    http://www.h-online.com/open/news/item/Firebug-1-10-released-with-new-cookie-manager-1641591.html
-  [http://www.softwareishard.com/blog/firebug/firebug-tip-trace-styles/]:
-    http://www.softwareishard.com/blog/firebug/firebug-tip-trace-styles/
+  [http://www.sitepoint.com/firebug-1-10-whats-new/#fbid=ovoh-eTTYCI]: http://www.sitepoint.com/firebug-1-10-whats-new/#fbid=ovoh-eTTYCI
+  [http://www.h-online.com/open/news/item/Firebug-1-10-released-with-new-cookie-manager-1641591.html]: http://www.h-online.com/open/news/item/Firebug-1-10-released-with-new-cookie-manager-1641591.html
+  [http://www.softwareishard.com/blog/firebug/firebug-tip-trace-styles/]: http://www.softwareishard.com/blog/firebug/firebug-tip-trace-styles/
   [https://getfirebug.com/cookies]: https://getfirebug.com/cookies

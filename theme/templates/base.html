@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
         <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
-        <meta charset="utf-8" />
+        <meta charset="utf-8">
+        <meta http-equiv="PRAGMA" content="NO-CACHE">
+        <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
         {% if FEED_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
@@ -25,8 +27,24 @@
 
 <body id="index" class="home">
 {% include 'github.html' %}
+        <div id="searchBar" class="clearfix">
+            <section class="body">
+                <!-- SiteSearch Google -->
+                <form action="http://www.fatihhayrioglu.com/arama" id="cse-search-box">
+                  <div>
+                    <input type="hidden" name="cx" value="004780390133711217154:ljzeact7g-o" />
+                    <input type="hidden" name="cof" value="FORID:11" />
+                    <input type="hidden" name="ie" value="UTF-8" />
+                    <input type="text" name="q" size="31" />
+                    <input type="submit" name="sa" value="Ara" />
+                  </div>
+                </form>
+                <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=tr"></script>
+                <!-- SiteSearch Google -->
+            </section>
+        </div>
         <header id="banner" class="body">
-                <h1><a href="{{ SITEURL }}">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
+                <h1><a href="{{ SITEURL }}">{{ SITENAME }}</a>{% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</h1>
                 <nav><ul>
                 {% for title, link in MENUITEMS %}
                     <li><a href="{{ link }}">{{ title }}</a></li>
@@ -43,7 +61,7 @@
         <section id="extras" class="body">
         {% if LINKS %}
                 <div class="blogroll">
-                        <h2>blogroll</h2>
+                        <h2>Linkler</h2>
                         <ul>
                         {% for name, link in LINKS %}
                             <li><a href="{{ link }}">{{ name }}</a></li>
@@ -53,7 +71,7 @@
         {% endif %}
         {% if SOCIAL %}
                 <div class="social">
-                        <h2>social</h2>
+                        <h2>Sosyal</h2>
                         <ul>
                             <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate">atom feed</a></li>
                             {% if FEED_RSS %}

@@ -1,7 +1,7 @@
 Title: CSS3 Dönüştürme(Transforms) ve 3B Dönüştürme
 Date: 2012-09-11 13:50
 Category: Haberler
-Tags: css3, matrix3d, perspective, rotate3d, rotateX, rotateY, rotateZ, scale3d, scaleX, scaleY, scaleZ, transform-style, translate3d, translateX, translateY, translateZ
+Tags: css3, matrix3d, perspective, rotate3d, rotateX, rotateY, rotateZ, scale3d, scaleZ, transform-style, translate3d, translateZ
 
 CSS3 Dönüştürme özelliği 2 ve 3 boyutlu dönüştürme özelliği olmak üzere
 ikiye ayrılıyor. Daha önce [2 Boyutlu Dönüştürme özelliklerini][]
@@ -80,7 +80,10 @@ bağımsız olarak, 3 boyutlu bir gerçeklik izlenimi yaratır.” -
 [wikipedia.org][]  
 
 	:::css
-	div { transform: perspective(derinlik); }
+	div { 
+		transform: perspective(derinlik); 
+	}
+
 
 Derinlik değeri bir uzunluğu(px olarak) veya none değerlerini alır.
 
@@ -97,10 +100,12 @@ kodumuz normal perspective ataması olmayan bir kutu
 	:::css
 	transform: translate(0px, 0px, -200px);
 
+
 İkinci sağdaki kutu ise perspective uygulanmış kutu;
 
 	:::css
 	transform: perspective(500px) translate3d(0px, 0px, -200px);
+
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/Cjwcw/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
@@ -111,14 +116,16 @@ soldaki kutu
 	:::css
 	transform: rotatey(30deg);
 
+
 sağdaki kutu
 
 	:::css
 	transform: perspective(300px) rotatey(30deg);
+
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/HECGV/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-Perspektifi anlamak için güzel bir örnek
-[http://www.ryancollins.me/?p=993][]
+Perspektifi anlamak için güzel bir örnek [http://www.ryancollins.me/?p=993][]
 
 ### translateX, translateY, translateZ, translate3d
 
@@ -130,7 +137,10 @@ translateZ değeri z-ekseninde elemanı hareket ettirmeye yarar. Yüzde
 değeri almaz.  
 
 	:::css
-	div { transform: translateZ(uzunluk); }
+	div { 
+		transform: translateZ(uzunluk); 
+	}
+
 
 Uzunluk değeri bir sayıdır. Perspective özelliğini anlatırken verdiğimiz
 ilk örnekte bu özelliğe değinmiştik.
@@ -143,10 +153,15 @@ bir kısaltmadır.
 	:::css
 	translate3d(x, y, z)
 
+
 Bir örnek kod yazarsak
 
 	:::css
-	 div { transform: translate3d(20px, 60px, 30px); } 
+	 div { 
+	 	transform: translate3d(20px, 60px, 30px); 
+	} 
+
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/kTTm3/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Görünümü konumlandırma ile sağlayabilirdik ancak buradaki izometrik
@@ -163,7 +178,9 @@ tanımlayacağız.
 **- scaleZ**
 
 	:::css
-	div { transform: scaleZ(number); }
+	div { 
+		transform: scaleZ(number); 
+	}
 
 scaleZ tanımı biraz farklı davranır. Dönüşüm uygulanmış elemanlarda
 büyültme veya küçültme işlemi 3 boyutlu eksen yapmak mümkün değil.
@@ -172,7 +189,11 @@ etmektir. Bundan dolayı scaleZ değeri translateZ, rotate veya
 perspective değerlerinin bir ile kullanmak daha anlamlı olacaktır.
 
 	:::css
-	div {transform: perspective(500px) scaleZ(2) rotateX(45deg);}
+	div {
+		transform: perspective(500px) scaleZ(2) rotateX(45deg);
+	}
+
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/6Uaet/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Yıldız savaşları filmindeki yazılara benzer bir görüntü elde ediyoruz.
@@ -184,6 +205,7 @@ kısaltmadır.
 
 	:::css
 	scale3d(x, y, z)
+
 
 **rotateX, rotateY, rotateZ ve rotate3d**
 
@@ -198,7 +220,8 @@ Negatif değer alabilirler.
 **- rotateX**
 
 	:::css
-	rotateX(&lt;açı&gt;)
+	rotateX(<açı>)
+
 
 rotateX tanımı ile verilen açı değeri kadar saat yönünde elemanı
 x-ekseninde çevirmeye yarar.
@@ -211,7 +234,8 @@ eğilmiştir.
 **- rotateY**
 
 	:::css
-	rotateY(&lt;açı&gt;)
+	rotateY(<açı>)
+
 
 rotateY tanımı ile verilen açı değeri kadar saat yönünde elemanı
 y-ekseninde çevirmeye yarar.
@@ -224,7 +248,8 @@ eğilmiştir.
 **- rotateZ**
 
 	:::css
-	rotateZ(&lt;açı&gt;)
+	rotateZ(<açı>)
+
 
 rotateZ tanımı ile verilen açı değeri kadar saat yönünde elemanı
 z-ekseninde çevirmeye yarar.
@@ -237,8 +262,8 @@ eğilmiştir.
 **- rotate3d**
 
 	:::css
-	rotate3d(&lt;rakam&gt;, &lt;rakam&gt;, &lt;rakam&gt;,
-&lt;açı&gt;)
+	rotate3d(<rakam>, <rakam>, <rakam>,<açı>)
+
 
 rotate3d özelliği saat yönünde 3 boyutlu döndürme işlemi yapar. Son
 değer açı değerini verirken ilk üç değer vektörel tabanlı rakamlar
@@ -262,8 +287,10 @@ Bana biraz karışık gelen bir durum. Programatik olarak 3 boyutlu
 dönüşümleri yapmaya yarayan bir fonksiyon olarak tanımlayabilirim.  
 
 	:::css
-	div { transform: matrix3d( m01,m02,m03,m04, m05,m06,m07,m08,
-m09,m10,m11,m12, m13,m14,m15,m16); }
+	div { 
+	transform: matrix3d( m01,m02,m03,m04, m05,m06,m07,m08,m09,m10,m11,m12, m13,m14,m15,m16); 
+	}
+
 
 [http://www.eleqtriq.com/wp-content/static/demos/2010/css3d/matrix3dexplorer.html][]
 
@@ -274,7 +301,8 @@ Bu araç ile matrix3d daha kullanışlı oluyor.
 perspektif özelliği ile birlikte kullanılır, elemanın görüntülenen bakış
 açısının orijin noktasını değiştirmemizi sağlar. Elemanın perspektif
 görüntüsünün açısını değiştirir. x ve y değerleri alır. Başlangıç değeri
-kapsayıcının orta noktası olan 50% 50%’dir.   
+kapsayıcının orta noktası olan 50% 50%’dir.
+
 ![][1]
 
 x-değeri sol(left), sağ(right) ve orta(center) değerlerini alır.
@@ -299,6 +327,7 @@ benzer bir kullanımı var ek olarak z-ekseni tanımıda eklenmektedir.
 	:::css
 	transform-origin: x,y,z;
 
+
 z tanımı z-eksenindeki mesafeyi belirtmemiz için kullanılmaktadır.
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/s2vE2/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
@@ -314,16 +343,24 @@ değerlerini alıyor.
 [Carousel örneğinde][] bu özelliği daha iyi anlarız.  
 
 	:::css
-	 figure{ -webkit-backface-visibility:visible;
--moz-backface-visibility:visible; -ms-backface-visibility:visible;
--o-backface-visibility:visible; backface-visibility:visible; } 
+	figure{ 
+		-webkit-backface-visibility:visible;
+		-moz-backface-visibility:visible;
+		-ms-backface-visibility:visible;
+		-o-backface-visibility:visible; 
+		backface-visibility:visible; 
+	} 
 
 ![][3]
 
 	:::css
-	 figure{ -webkit-backface-visibility:hidden;
--moz-backface-visibility:hidden; -ms-backface-visibility:hidden;
--o-backface-visibility:hidden; backface-visibility:hidden; } 
+	figure{ 
+		-webkit-backface-visibility:hidden;
+		-moz-backface-visibility:hidden; 
+		-ms-backface-visibility:hidden;
+		-o-backface-visibility:hidden; 
+		backface-visibility:hidden; 
+	} 
 
 ![][4]
 
@@ -338,7 +375,6 @@ Chrome’un tam desteğine kavuştu. Aynı şeyi İnternet Explorer için
 söyleyemiyoruz maalesef. İnternet Explorer henüz yayınlanmayan 10.
 sürümünden itibaren destekliyor.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 12+ (-moz- öneki ile)  
 Chrome 12+ (-webkit- öneki ile)  
@@ -349,16 +385,15 @@ Mobil Tarayıcılar
 iOS Safari 3.2+ (-webkit- öneki ile)  
 Opera Mobile desteklemiyor  
 Android Browser 3.0+ (-webkit- öneki ile)  
+{: .tarayiciuyum }
 
-</div>
 ### Kaynaklar
 
 -   [http://www.w3.org/TR/css3-3d-transforms/][]
 -   [http://www.queness.com/post/11403/embrace-the-awesome-css-3d-transforms][]
 -   [http://coding.smashingmagazine.com/2012/01/06/adventures-in-the-third-dimension-css-3-d-transforms/][]
 -   [http://www.webstuffshare.com/2012/04/showing-product-information-with-css3-3d-transform/][]
--   [http://www.addyosmani.com/resources/3dstack/\#][] (jquery ile
-    birlikte güzel bir örnek)
+-   [http://www.addyosmani.com/resources/3dstack/][] (jquery ile birlikte güzel bir örnek)
 -   [http://www.webkit.org/blog/386/3d-transforms/][]
 -   [http://24ways.org/2010/intro-to-css-3d-transforms][]
 -   [http://sandbox.webpro.nl/css3/3d-transforms-interactive-demo.html][]
@@ -368,89 +403,68 @@ Android Browser 3.0+ (-webkit- öneki ile)
 -   [http://www.queness.com/post/11493/create-css-3d-transform-card-flip-gallery][]
 -   [http://www.eleqtriq.com/2010/05/understanding-css-3d-transforms/][]
 -   [http://www.netmagazine.com/features/20-stunning-examples-css-3d-transforms][]
--   [http://www.caniuse.com/\#feat=transforms3d][]
--   [http://bartaz.github.com/meetjs/css3d-summit/\#/title][]
+-   [http://www.caniuse.com/#feat=transforms3d][]
+-   [http://bartaz.github.com/meetjs/css3d-summit/#/title][]
 -   [http://www.developerdrive.com/2012/05/how-to-make-smooth-transitions-with-css3/][]
--   [http://tutorialzine.com/2012/02/apple-like-login-form/][] (apple
-    gibi form)
+-   [http://tutorialzine.com/2012/02/apple-like-login-form/][] (apple gibi form)
 -   [http://www.inserthtml.com/2012/03/css-3d-transforms/][]
 -   [http://www.inserthtml.com/2011/09/css3-3d-transforms-keyframes/][]
--   [https://developer.mozilla.org/en/CSS/transform-function\#translate3d%28%29][]
+-   [https://developer.mozilla.org/en/CSS/transform-function#translate3d%28%29][]
 -   [http://blogs.msdn.com/b/ie/archive/2012/02/02/css3-3d-transforms-in-ie10.aspx][]
--   [http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on\_3d-transforms.htm][]
+-   [http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on_3d-transforms.htm][]
 -   [http://msdn.microsoft.com/en-us/library/ie/hh673529%28v=vs.85%29.aspx][]
--   [http://www.found.co.uk/css3-3d-transforms-the-future-of-user-experience/][]
-    (kullanıcı deneyimlerine etkisi hakkında)
--   [http://www.html5-css3.fr/css3/transformations-3d-css3][] (fransızca
-    )
+-   [http://www.found.co.uk/css3-3d-transforms-the-future-of-user-experience/][] (kullanıcı deneyimlerine etkisi hakkında)
+-   [http://www.html5-css3.fr/css3/transformations-3d-css3][] (fransızca)
 -   [http://www.inserthtml.com/2012/03/css-3d-transforms/][]
 -   [http://www.satine.org/research/webkit/snowleopard/snowstack.html][]
--   [http://unformedbuilding.com/articles/learn-about-css-transforms/](http://unformedbuilding.com/articles/learn-about-css-transforms/)
-    japonca güzel
+-   [http://unformedbuilding.com/articles/learn-about-css-transforms/](http://unformedbuilding.com/articles/learn-about-css-transforms/) japonca güzel
 -   [https://developer.mozilla.org/en/CSS/transform-function][]
 -   [http://desandro.github.com/3dtransforms/docs/perspective.html][]
--   [http://caniuse.com/\#feat=transforms3d][]
+-   [http://caniuse.com/#feat=transforms3d][]
 
   [2 Boyutlu Dönüştürme özelliklerini]: http://www.fatihhayrioglu.com/css3-donusturme-ozellikleritransforms-ve-2b-donusturme/
   []: https://lh5.googleusercontent.com/FqOtVg0Y4BZkUpShrSu1wFcWannArGxh5edEiR-5YkTQQJbH_wPcaUFB5rb7AgazIxwKBc89hLsxobUZad1lQ9LuznL0eg9F_KXIdAMQEsGxFioDs0o
-  [http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-transform-style.html]:
-    http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-transform-style.html
+  [http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-transform-style.html]: http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-transform-style.html
   [nesnelerin]: http://tr.wikipedia.org/wiki/Nesne
   [wikipedia.org]: http://wikipedia.org/
   [http://www.ryancollins.me/?p=993]: http://www.ryancollins.me/?p=993
   [Kartezyen koordinat sistemi]: http://tr.wikipedia.org/wiki/Kartezyen_koordinat_sistemi
-  [http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-rotatexyz.html]:
-    http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-rotatexyz.html
-  [http://www.eleqtriq.com/wp-content/static/demos/2010/css3d/matrix3dexplorer.html]:
-    http://www.eleqtriq.com/wp-content/static/demos/2010/css3d/matrix3dexplorer.html
+  [http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-rotatexyz.html]: http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-rotatexyz.html
+  [http://www.eleqtriq.com/wp-content/static/demos/2010/css3d/matrix3dexplorer.html]: http://www.eleqtriq.com/wp-content/static/demos/2010/css3d/matrix3dexplorer.html
   [1]: https://lh3.googleusercontent.com/X06_E_pJOi7N5Ks5qP3b3PmAWRO6WGhSsmUGiqsvSUNi1E0Hy8uhCGnb1I9fG9XGSxypWDToKaS8UckIB8rCeL1_cu-b8eq4qMFMofq0lS3y8PsGd8M
   [2]: https://lh3.googleusercontent.com/JKKV66baIfWahnoL-PwOvPBdkfaZ1NQbwfhDbJK0OY5GvrlHY1Ae46Is4LO5NKNCeAKXIFAxNBbVonVpLiLqzfXDh_RRzQOo424GIX1BdhHfG3Z-l6U
-  [http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-perspective-origin.html]:
-    http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-perspective-origin.html
-  [http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-transform-origin.html]:
-    http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-transform-origin.html
+  [http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-perspective-origin.html]: http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-perspective-origin.html
+  [http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-transform-origin.html]: http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-transform-origin.html
   [Carousel örneğinde]: http://desandro.github.com/3dtransforms/examples/carousel-01.html
   [3]: https://lh5.googleusercontent.com/-_u7c5fYsGBuRvvC7sZcjcFv7cPrnxHdzIK_I9BSS1YAo-iCG7kqLabPr6nH70Ddy3gSBIf7qXQOcxWOOVTD84gOunmLxBwm_HOWZNFw1_1PKP2bF4I
   [4]: https://lh6.googleusercontent.com/4_txr7vPaKubClq_bmUHbO8e15bHpHPC9echzaXq1Qeu3DwwTIT4Gs060WD0dtA0rLNIOf0aI_yiglZJsJcYAO8JEWh2MdbuTPTSUf3Oo9taTgazbI8
   [http://www.w3.org/TR/css3-3d-transforms/]: http://www.w3.org/TR/css3-3d-transforms/
-  [http://www.queness.com/post/11403/embrace-the-awesome-css-3d-transforms]:
-    http://www.queness.com/post/11403/embrace-the-awesome-css-3d-transforms
-  [http://coding.smashingmagazine.com/2012/01/06/adventures-in-the-third-dimension-css-3-d-transforms/]:
-    http://coding.smashingmagazine.com/2012/01/06/adventures-in-the-third-dimension-css-3-d-transforms/
-  [http://www.webstuffshare.com/2012/04/showing-product-information-with-css3-3d-transform/]:
-    http://www.webstuffshare.com/2012/04/showing-product-information-with-css3-3d-transform/
-  [http://www.addyosmani.com/resources/3dstack/\#]: http://www.addyosmani.com/resources/3dstack/#
+  [http://www.queness.com/post/11403/embrace-the-awesome-css-3d-transforms]: http://www.queness.com/post/11403/embrace-the-awesome-css-3d-transforms
+  [http://coding.smashingmagazine.com/2012/01/06/adventures-in-the-third-dimension-css-3-d-transforms/]: http://coding.smashingmagazine.com/2012/01/06/adventures-in-the-third-dimension-css-3-d-transforms/
+  [http://www.webstuffshare.com/2012/04/showing-product-information-with-css3-3d-transform/]: http://www.webstuffshare.com/2012/04/showing-product-information-with-css3-3d-transform/
+  [http://www.addyosmani.com/resources/3dstack/]: http://www.addyosmani.com/resources/3dstack/
   [http://www.webkit.org/blog/386/3d-transforms/]: http://www.webkit.org/blog/386/3d-transforms/
   [http://24ways.org/2010/intro-to-css-3d-transforms]: http://24ways.org/2010/intro-to-css-3d-transforms
   [http://sandbox.webpro.nl/css3/3d-transforms-interactive-demo.html]: http://sandbox.webpro.nl/css3/3d-transforms-interactive-demo.html
   [http://2012.beercamp.com/]: http://2012.beercamp.com/
   [http://css3.bradshawenterprises.com/demos/cubecarousel.php]: http://css3.bradshawenterprises.com/demos/cubecarousel.php
-  [http://www.developerdrive.com/2012/04/transforming-elements-in-3d-using-css3/]:
-    http://www.developerdrive.com/2012/04/transforming-elements-in-3d-using-css3/
-  [http://www.queness.com/post/11493/create-css-3d-transform-card-flip-gallery]:
-    http://www.queness.com/post/11493/create-css-3d-transform-card-flip-gallery
+  [http://www.developerdrive.com/2012/04/transforming-elements-in-3d-using-css3/]: http://www.developerdrive.com/2012/04/transforming-elements-in-3d-using-css3/
+  [http://www.queness.com/post/11493/create-css-3d-transform-card-flip-gallery]: http://www.queness.com/post/11493/create-css-3d-transform-card-flip-gallery
   [http://www.eleqtriq.com/2010/05/understanding-css-3d-transforms/]: http://www.eleqtriq.com/2010/05/understanding-css-3d-transforms/
-  [http://www.netmagazine.com/features/20-stunning-examples-css-3d-transforms]:
-    http://www.netmagazine.com/features/20-stunning-examples-css-3d-transforms
-  [http://www.caniuse.com/\#feat=transforms3d]: http://www.caniuse.com/#feat=transforms3d
-  [http://bartaz.github.com/meetjs/css3d-summit/\#/title]: http://bartaz.github.com/meetjs/css3d-summit/#/title
-  [http://www.developerdrive.com/2012/05/how-to-make-smooth-transitions-with-css3/]:
-    http://www.developerdrive.com/2012/05/how-to-make-smooth-transitions-with-css3/
+  [http://www.netmagazine.com/features/20-stunning-examples-css-3d-transforms]: http://www.netmagazine.com/features/20-stunning-examples-css-3d-transforms
+  [http://www.caniuse.com/#feat=transforms3d]: http://www.caniuse.com/#feat=transforms3d
+  [http://bartaz.github.com/meetjs/css3d-summit/#/title]: http://bartaz.github.com/meetjs/css3d-summit/#/title
+  [http://www.developerdrive.com/2012/05/how-to-make-smooth-transitions-with-css3/]: http://www.developerdrive.com/2012/05/how-to-make-smooth-transitions-with-css3/
   [http://tutorialzine.com/2012/02/apple-like-login-form/]: http://tutorialzine.com/2012/02/apple-like-login-form/
   [http://www.inserthtml.com/2012/03/css-3d-transforms/]: http://www.inserthtml.com/2012/03/css-3d-transforms/
   [http://www.inserthtml.com/2011/09/css3-3d-transforms-keyframes/]: http://www.inserthtml.com/2011/09/css3-3d-transforms-keyframes/
-  [https://developer.mozilla.org/en/CSS/transform-function\#translate3d%28%29]:
-    https://developer.mozilla.org/en/CSS/transform-function#translate3d%28%29
-  [http://blogs.msdn.com/b/ie/archive/2012/02/02/css3-3d-transforms-in-ie10.aspx]:
-    http://blogs.msdn.com/b/ie/archive/2012/02/02/css3-3d-transforms-in-ie10.aspx
-  [http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on\_3d-transforms.htm]:
-    http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on_3d-transforms.htm
-  [http://msdn.microsoft.com/en-us/library/ie/hh673529%28v=vs.85%29.aspx]:
-    http://msdn.microsoft.com/en-us/library/ie/hh673529%28v=vs.85%29.aspx
-  [http://www.found.co.uk/css3-3d-transforms-the-future-of-user-experience/]:
-    http://www.found.co.uk/css3-3d-transforms-the-future-of-user-experience/
+  [https://developer.mozilla.org/en/CSS/transform-function#translate3d%28%29]: https://developer.mozilla.org/en/CSS/transform-function#translate3d%28%29
+  [http://blogs.msdn.com/b/ie/archive/2012/02/02/css3-3d-transforms-in-ie10.aspx]: http://blogs.msdn.com/b/ie/archive/2012/02/02/css3-3d-transforms-in-ie10.aspx
+  [http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on_3d-transforms.htm]: http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on_3d-transforms.htm
+  [http://msdn.microsoft.com/en-us/library/ie/hh673529%28v=vs.85%29.aspx]: http://msdn.microsoft.com/en-us/library/ie/hh673529%28v=vs.85%29.aspx
+  [http://www.found.co.uk/css3-3d-transforms-the-future-of-user-experience/]: http://www.found.co.uk/css3-3d-transforms-the-future-of-user-experience/
   [http://www.html5-css3.fr/css3/transformations-3d-css3]: http://www.html5-css3.fr/css3/transformations-3d-css3
   [http://www.satine.org/research/webkit/snowleopard/snowstack.html]: http://www.satine.org/research/webkit/snowleopard/snowstack.html
   [https://developer.mozilla.org/en/CSS/transform-function]: https://developer.mozilla.org/en/CSS/transform-function
   [http://desandro.github.com/3dtransforms/docs/perspective.html]: http://desandro.github.com/3dtransforms/docs/perspective.html
-  [http://caniuse.com/\#feat=transforms3d]: http://caniuse.com/#feat=transforms3d
+  [http://caniuse.com/#feat=transforms3d]: http://caniuse.com/#feat=transforms3d
