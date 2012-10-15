@@ -25,8 +25,6 @@ Tags: clearfix, e-posta, google reader, Haberler, web-form
     [Bağlantı][10]
 -   CSS'in sorunları üzerine yazılmış bir makale. [Bağlantı][11]
 
-</p>
-
   [Bağlantı]: http://revnode.com/oss/css/ "Dinamik CSS"
   [1]: http://www.nintendo.com/games/guide#qhardware=Wii&qesrbRating=&qplay=&qgenre=&qrelease=&
     "nintendo sitesi"
