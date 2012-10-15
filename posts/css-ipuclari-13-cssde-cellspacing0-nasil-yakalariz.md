@@ -1,0 +1,19 @@
+Title: CSS İpuçları 13 - CSS&#039;de Cellspacing=&quot;0&quot; nasıl yakalarız
+Date: 2007-08-02 09:24
+Category: CSS
+Tags: border-collapse, border-spacing, CSS, tablo
+
+Artık sayfalarımızı CSS ile oluşturup şekillendiriyoruz. Tabloların
+Cellspacing="0" atamasını css ile nasıl yaparız. İşte cevabı:
+
+[sourcecode language="css"] table{ border-spacing: 0px; border-collapse:
+collapse; } [/sourcecode] bu kadar.
+
+### Kaynak
+
+-   [http://www.mularien.com/blog/2007/07/29/css-tip-css-equivalent-to-cellspacing0/][]
+
+</p>
+
+  [http://www.mularien.com/blog/2007/07/29/css-tip-css-equivalent-to-cellspacing0/]:
+    http://www.mularien.com/blog/2007/07/29/css-tip-css-equivalent-to-cellspacing0/
