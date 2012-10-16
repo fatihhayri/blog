@@ -26,21 +26,24 @@ alanlar açıldığında görüntü problemi yaşamamış oluruz.
 
 CSS kodumuzda
 
-[css] .resimYukle{ background:url(/images/bg.gif) -9999px -9999px
-no-repeat} [/css]
+	:::css
+	 .resimYukle{ background:url(/images/bg.gif) -9999px -9999px
+no-repeat} 
 
 Bu durum için fazladan bir div açıp onun ardalanına bu resmi
 atayabiliridk ama eğer sayfa içinde ardalan tanımı olmayan bir eleman
 varsa bunu tanımlayarak fazladan bir divden kurtulmuş oluruz. Bir not bu
 kodu css kodumuzun sonuna eklememiz daha mantıklıdır.
 
-[css] .baskaBirEleman{ background:url(/images/bg.gif) -9999px -9999px
-no-repeat} [/css]
+	:::css
+	 .baskaBirEleman{ background:url(/images/bg.gif) -9999px -9999px
+no-repeat} 
 
 Benzer bir kodu :after seçicisi ve content özelliği ile de yapabiliriz.
 
-[css] body:after {content: url(img01.png) url(img02.png) url(img03.png)
-url(img04.png) url(img05.png)} [/css]
+	:::css
+	 body:after {content: url(img01.png) url(img02.png) url(img03.png)
+url(img04.png) url(img05.png)} 
 
 Bu kodu ie7 ve ie6 desteklemiyor maalesef.
 

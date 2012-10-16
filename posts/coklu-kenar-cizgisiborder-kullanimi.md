@@ -15,15 +15,17 @@ Burada basit bir yol ile bu işi nasıl yapacağımızı anlatacağım.
 padding değeri uygulanacak ikinci kenar çizgisi dikkate alınarak
 atanmalıdır.
 
-[css] #cokluKenarCizgisi {    border: 5px solid #FF0000;    padding:
-20px;    position: relative;    z-index: 10; } [/css]
+	:::css
+	 #cokluKenarCizgisi {    border: 5px solid #FF0000;    padding:
+20px;    position: relative;    z-index: 10; } 
 
 Sözde elemanlar ile ikinci kenar çizgisini ekleyelim. z-index eksi değer
 vererek içeriğin arkasına atarız.
 
-[css] #cokluKenarCizgisi:before {    position: absolute; border: 5px
+	:::css
+	 #cokluKenarCizgisi:before {    position: absolute; border: 5px
 solid #06F;    content: "";    display: block; bottom: 0;    left: 0;
-      right: 0;    top: 0;    z-index: -1; } [/css]
+      right: 0;    top: 0;    z-index: -1; } 
 <iframe style="width: 100%; height: 230px" src="http://jsfiddle.net/fatihhayri/L8ZHT/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Bu örnekte sadece iki kenar çizgisi için kod verildi, ancak yine sadece
@@ -34,12 +36,13 @@ ekleyebiliyoruz.
 Tek kenara çoklu çizgi genelde lazım olan bir kod olduğu için burada
 onuda paylaşıyorum.
 
-[css] #cokluKenarCizgisi {    background:#F0F0F0;    border-bottom:
+	:::css
+	 #cokluKenarCizgisi {    background:#F0F0F0;    border-bottom:
 2px solid #f00;    color: #000000;    padding: 10px 10px 11px;
    position: relative; } #cokluKenarCizgisi:before {
    background:#0FF;    bottom: 0;    content: "";    display: block;
    height: 1px;    left: 0;    position: absolute;    width: 100%; }
-[/css]
+
 <iframe style="width: 100%; height: 200px" src="http://jsfiddle.net/fatihhayri/c6e9s/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Daha falza örnek için
@@ -63,8 +66,9 @@ border-radius uygulanmış elemanlara bu metot kullanılabilir.
 
 İki kenar çizgisi oluşturmak için outline kullanılabilir.
 
-[css] #cokluKenarCizgisi {    border: 5px solid #FF0000;    padding:
-20px; outline: 5px solid blue; } [/css]
+	:::css
+	 #cokluKenarCizgisi {    border: 5px solid #FF0000;    padding:
+20px; outline: 5px solid blue; } 
 <iframe style="width: 100%; height: 280px" src="http://jsfiddle.net/fatihhayri/Aprbj/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 İkiden fazla kenar çigisi kullanamasakta iyi bir alternatif olarak
@@ -83,16 +87,18 @@ ie7 yine sorun
 
 ### box-shadow ile çoklu kenar çizgisi oluşturmak
 
-[css] #cokluKenarCizgisi {    border: 5px solid #FF0000;    padding:
+	:::css
+	 #cokluKenarCizgisi {    border: 5px solid #FF0000;    padding:
 10px;    -moz-box-shadow:0 0 0 5px #06F;   -webkit-box-shadow:0 0 0 5px
-#06F;   box-shadow:0 0 0 5px #06F; } [/css]
+#06F;   box-shadow:0 0 0 5px #06F; } 
 
 Çoklu gölge kullanımı ile birdne fazla kenar çizgiside ekleyebiliriz.
 
-[css] #cokluKenarCizgisi {    border: 5px solid #FF0000;    padding:
+	:::css
+	 #cokluKenarCizgisi {    border: 5px solid #FF0000;    padding:
 10px;    -moz-box-shadow:0 0 0 5px #06F, 0 0 0 10px #FF0;
 -webkit-box-shadow:0 0 0 5px #06F, 0 0 0 10px #FF0; box-shadow:0 0 0
-5px #06F, 0 0 0 10px #FF0; } [/css]
+5px #06F, 0 0 0 10px #FF0; } 
 <iframe style="width: 100%; height: 250px" src="http://jsfiddle.net/fatihhayri/bPmQG/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 <div class="tarayiciuyum">

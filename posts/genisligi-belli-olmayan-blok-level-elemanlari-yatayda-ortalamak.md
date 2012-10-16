@@ -26,23 +26,26 @@ geleneği bozmayayım.
 Alışkın olduğumuz bir menü kodu. CSS kodumuzu ekleyelim. İlk olarak
 kapsayıcı eleman tanımlarını yazalım.
 
-[css] #menuKapsulu{ float:left; width:100%; background:#369;
-overflow:hidden; position:relative; } [/css]
+	:::css
+	 #menuKapsulu{ float:left; width:100%; background:#369;
+overflow:hidden; position:relative; } 
 
 Menü kapsayıcısının sayfayı tam kaplaması için %100 değeri ve float:left
 değeri atandı.
 
-[css] #menuKapsulu ul{ clear:left; float:left; list-style:none;
+	:::css
+	 #menuKapsulu ul{ clear:left; float:left; list-style:none;
 margin:0; padding:0; position:relative; left:50%; text-align:center;
-background-color:#990000 } [/css]
+background-color:#990000 } 
 
 float:left değeri ile içeriği çepeçevre kapsaması sağlanıyor. left:50%
 değeri ile menu ortalanıyor. Ancak bu ortalama içeriğin genişliğini
 içermez.   
 
-[css] #menuKapsulu ul li{ display:block; float:left; list-style:none;
+	:::css
+	 #menuKapsulu ul li{ display:block; float:left; list-style:none;
 margin:0 10px 0 0; padding:10px 0; position:relative; right:50%; }
-[/css]
+
 
 Buradaki püf noktası; right:50% değeri ile menü genişliğinden dolayı
 sağa doğru kayan içeriği tam olarak ortalı hale getiriyoruz.
@@ -78,19 +81,21 @@ HTML kodumuz aynı;
 
 Ortalanacak alana margin:0 auto ve display:table tanımlarını yapıyoruz.  
 
-[css] #menuKapsulu ul{ list-style:none; margin-left: auto;
+	:::css
+	 #menuKapsulu ul{ list-style:none; margin-left: auto;
 margin-right: auto; display: table; } #menuKapsulu ul li{ float:left;
-margin:0 10px 0 0; padding:10px 0; } [/css]
+margin:0 10px 0 0; padding:10px 0; } 
 
 Sonuç istediğimiz gibi, ancak bir sorunumuz varki oda display:table
 özelliğini İnternet Explorer 6 ve 7. sürümleri desteklemiyor. Peki, ne
 olacak derseniz bu bir hasLayout sorunu ve çözüm için zoom:1 tanımı
 kullanmamız gerekiyor.
 
-[css] *:first-child+html #menuKapsulu{ text-align:center } * html
+	:::css
+	 *:first-child+html #menuKapsulu{ text-align:center } * html
 #menuKapsulu{ text-align:center } *:first-child+html #menuKapsulu ul{
 display: inline; zoom: 1; } * html #menuKapsulu ul{ display: inline;
-zoom: 1; } [/css]
+zoom: 1; } 
 
 Kapsayıcı kapsüle text-align:center tanımı yapıyoruz sonra listemize
 display:inline yapıyoruz. text-align:center inline elemanları ortalıyor

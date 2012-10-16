@@ -18,15 +18,17 @@ ardalan resimlerini nasıl tanımlayacağımızı anlatmaya çalışacağım.
 Bir önceki makalede de anlattığım gibi background-size özelliği bu iş
 için biçilmiş kaftandır. Çok basit bir kod ile istediğimize ulaşırız.
 
-[css] html { background: url(images/bg.jpg) no-repeat center center
+	:::css
+	 html { background: url(images/bg.jpg) no-repeat center center
 fixed; -webkit-background-size: cover; -moz-background-size: cover;
--o-background-size: cover; background-size: cover; } [/css]
+-o-background-size: cover; background-size: cover; } 
 
 Bir örnek yapalım
 
-[css] html{ background:url("zemin_resmi.jpg") 0 0 no-repeat fixed;
+	:::css
+	 html{ background:url("zemin_resmi.jpg") 0 0 no-repeat fixed;
 background-size:cover; -webkit-background-size:cover;
--moz-background-size:cover; -o-background-size:cover; } [/css]
+-moz-background-size:cover; -o-background-size:cover; } 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -55,37 +57,42 @@ Opera 9.5+(-o-), 10+(standart)
 desteklememesidir. İnternet Explorer için **filter** ile bir çözüm
 üretebiliriz.
 
-[css] filter:
+	:::css
+	 filter:
 progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.zemin_resmi.jpg',
 sizingMethod='scale'); -ms-filter:
 "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='zemin_resmi.jpg',
-sizingMethod='scale')"; [/css]
+sizingMethod='scale')"; 
 
 Bu kod ile ie içinde çözüm üretilmiş olacaktır. Linklerde ve içerik
 seçmede bazı orunlar olabiliyor.
 
 ### Tüm Tarayıcılar İçin Çözüm
 
-[css] <div id="tamEkranArdAlan"><img
+	:::css
+	 <div id="tamEkranArdAlan"><img
 src="http://www.fatihhayrioglu.com/images/emptybottles.jpg" width="100%"
-height="100%" /></div> <div id="icerik"> ... </div> [/css]
+height="100%" /></div> <div id="icerik"> ... </div> 
 
 Sayfamızı içerik ve ardalan resmi olarak ikiye ayırıyoruz.
 
-[css] html, body {height:100%; margin:0; padding:0;} [/css]
+	:::css
+	 html, body {height:100%; margin:0; padding:0;} 
 
 Sayfanın boşluklarını sıfırlıyoruz.
 
-[css] #tamEkranArdAlan {position:fixed; top:0; left:0; width:100%;
-height:100%;} [/css]
+	:::css
+	 #tamEkranArdAlan {position:fixed; top:0; left:0; width:100%;
+height:100%;} 
 
 Zemine yerleştirilecek resmi sabitleyip üstten ve soldan başlangıç
 noktasına yerleştiriyoruz ve genişlik ve yükseklik değerini %100
 veriyoruz.
 
-[css] #icerik {position:relative; z-index:1; width:650px; padding:20px;
+	:::css
+	 #icerik {position:relative; z-index:1; width:650px; padding:20px;
 font:14px/1.8em Arial; margin:40px auto; border-radius:10px;
-color:#333; background-color:#fff} [/css]
+color:#333; background-color:#fff} 
 
 İçerik alanını **postion:relative; z-index:1** değeri atayarak
 içerikteki seçilme ve linklerde sorun olmasını engelliyoruz. Diğer
@@ -93,9 +100,10 @@ tanımlar içerik alanının görselliğini ayarlamak içindir.
 
 Bu kodlar ie6 hariç çalışırken ie6’da çalışmıyor ie6’da çalışması için
 
-[css] *html {overflow-y:hidden;} *html body {overflow-y:auto;} *html
+	:::css
+	 *html {overflow-y:hidden;} *html body {overflow-y:auto;} *html
 #tamEkranArdAlan {position:absolute; z-index:-1;} *html #icerik
-{position:static;padding:20px;} [/css]
+{position:static;padding:20px;} 
 
 ie6 **postipon:fixed** desteklemediği için **postion:absolute** değeri
 tanımlıyoruz. İçerik alanınıda **postion:static** tanımlıyoruz. Kaydırma

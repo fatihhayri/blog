@@ -10,7 +10,8 @@ birçok yenilikte olduğu gibi bu özellikte basit bir şekilde
 sayfalarımıza güzel etkiler kazandırır. :target sözde sınıfı :hover
 seçicisi gibi dinamik bir seçicidir.
 
-[css] h3:target { background-color: #ff0 } [/css]
+	:::css
+	 h3:target { background-color: #ff0 } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:**  
@@ -90,7 +91,8 @@ belirginleştirilmiştir.
 
 ![][3]  
 
-[css] ol.references &gt; li:target { background-color:#def; } [/css]
+	:::css
+	 ol.references &gt; li:target { background-color:#def; } 
 
 Bunun dışında eğlenceli örnekler geliştirilmiştir.
 
@@ -100,7 +102,8 @@ Bunun dışında eğlenceli örnekler geliştirilmiştir.
 
 ![][4]
 
-[css] #faq>li:target>div{ display:block; } [/css]
+	:::css
+	 #faq>li:target>div{ display:block; } 
 
 örnekte gizle-göster ile basit bir akordeon içerik yapısı
 oluşturulabilir.
@@ -111,9 +114,10 @@ oluşturulabilir.
 
 ![][5]
 
-[css] dt:target+dd{ display:block; } dt:target img{ cursor:default;
+	:::css
+	 dt:target+dd{ display:block; } dt:target img{ cursor:default;
 border-bottom:5px solid #000; border-top:5px solid #000;
-margin-top:401px; } [/css]
+margin-top:401px; } 
 
 Örneğinde ise basit bir galeri yapısı kurulabilir.
 

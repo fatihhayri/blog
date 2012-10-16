@@ -43,18 +43,21 @@ kodlama için float ataması yapacağız bu Mac IE 5x versiyonlarda sorun
 çıkarır bunu engellemek için bu kodu Mac IE5x den gizleyeceğiz. CSS
 kodu:
 
-[css] .resimKutusu { background: url(images/golge.gif) no-repeat bottom
-right; clear: right; float: left; } [/css]
+	:::css
+	 .resimKutusu { background: url(images/golge.gif) no-repeat bottom
+right; clear: right; float: left; } 
 
 Gölge zemin resmini ortaya çıkarmak için margin tanımlarını yapmalıyız.
 
-[css] .resimKutusu img { margin: -5px 5px 5px -5px; } [/css]
+	:::css
+	 .resimKutusu img { margin: -5px 5px 5px -5px; } 
 
 Efekti daha belirgin ve güzel hale getirmek için padding ve kenarlık
 ataması yaparsak.
 
-[css] .resimKutusu img { background-color: #fff; border: 1px solid
-#a9a9a9; padding: 4px; margin: -5px 5px 5px -5px; } [/css]
+	:::css
+	 .resimKutusu img { background-color: #fff; border: 1px solid
+#a9a9a9; padding: 4px; margin: -5px 5px 5px -5px; } 
 
 Yukarıdaki kodun IE6 da çalışması için bir iki ekleme yapmalıyız.
 
@@ -62,7 +65,7 @@ Yukarıdaki kodun IE6 da çalışması için bir iki ekleme yapmalıyız.
 url(images/shadow.gif) no-repeat bottom right; clear: right; float:
 left; position: relative; } .resimKutusu img { background-color: #fff;
 border: 1px solid #a9a9a9; padding: 4px; display: block; margin: -5px
-5px 5px -5px; position: relative; } [/css]
+5px 5px -5px; position: relative; } 
 
 Kodlama IE5x versiyonlarda biraz sorunlu görünse de genelde
 uygulanabilir bir metottur. Bu metot uygulanabilirliğinin kolay olması
@@ -76,10 +79,11 @@ sebebiyle tercih edilebilir.
 bir önceki ile benzerlik taşır. Bu metottaki fark negatif margin vermek
 yerine göreceli(realtive) konumlandırma kullanmaktır.
 
-[css] .resimKapsulu { background: url(images/golge.gif) no-repeat bottom
+	:::css
+	 .resimKapsulu { background: url(images/golge.gif) no-repeat bottom
 right; float:left; line-height:0; } .resimKapsulu img {
 background:#fff; padding:4px; border:1px solid #a9a9a9;
-position:relative; left:-5px; top:-5px; } [/css]
+position:relative; left:-5px; top:-5px; } 
 
 IE5x de padding sorunu olsa da tüm web tarayıcılarında gayet güzel
 sonuçlar verir.
@@ -112,8 +116,9 @@ Bu metodu uygulamak için
 <span class="alternatifard">**resimKapsulu**</span> katmanına alt sağa
 dayalı bir gölge zemin resmi ekleyelim.
 
-[css] .resimKapsulu { background: url(images/golge2.gif) no-repeat right
-bottom; float: left; } [/css]
+	:::css
+	 .resimKapsulu { background: url(images/golge2.gif) no-repeat right
+bottom; float: left; } 
 
 Bu kapsayıcı katmanın içindeki katmanın üst sağına üstte oluşturduğumuz
 maske resmini ekleyelim. Bu resim gölge resminin üzerine binecektir ve
@@ -121,40 +126,46 @@ ortaya çok güzel bir gölge efekti çıkacaktır. İçteki katmana gölgenin
 ortaya çıkması için padding uygulayalım. Ayrıca gerçek gölge efektini
 yakalamak için png zemin resmini ekleyelim.
 
-[css] .resimKapsulu div { background: url(images/mask.png) no-repeat
+	:::css
+	 .resimKapsulu div { background: url(images/mask.png) no-repeat
 left top !important; background: url(images/mask.gif) no-repeat left
-top; padding: 0 5px 5px 0; } [/css]
+top; padding: 0 5px 5px 0; } 
 
 Bu kodu eski versiyon IE versiyonlarına uygun kod yazarsak:
 
-[css] .resimKapsulu div { background: url(images/mask.png) no-repeat
+	:::css
+	 .resimKapsulu div { background: url(images/mask.png) no-repeat
 left top !important; background: url(images/mask.gif) no-repeat left
 top; padding: 0 5px 5px 0; float: left; /* IE5.2/Mac duzeltmek icin
-yazildi */ } [/css]
+yazildi */ } 
 
 son olarakta efekti vurgulamak için kenarlık tanımı yapalım.
 
-[css] .resimKapsulu img { background-color: #fff; border: 1px solid
-#a9a9a9; padding: 4px; } [/css]
+	:::css
+	 .resimKapsulu img { background-color: #fff; border: 1px solid
+#a9a9a9; padding: 4px; } 
 
 gif ve png ikileminden hoşlanmayanlar için bir yöntem daha var. IE5.5
 den sonraki versiyonların desteklediği
 
-[css]
+	:::css
+	
 filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/mask.png',
-sizingMethod='crop'); [/css]
+sizingMethod='crop'); 
 
 Bu kodu ie versiyonları için eklemeliyiz, diğer web tarayıcılarında
 gizlemeliyiz.
 
-[css] .resimKapsulu div {
+	:::css
+	 .resimKapsulu div {
 filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/shadow2.png',
-sizingMethod='crop'); background: none; } [/css]
+sizingMethod='crop'); background: none; } 
 
 diğer web tarayıcılarında gizlemek için
 
-[css] <!–[if gte ie 5.5000]> <link rel="stylesheet" type="text/css"
-href="ie55.css"/> <![endif]–> [/css]
+	:::css
+	 <!–[if gte ie 5.5000]> <link rel="stylesheet" type="text/css"
+href="ie55.css"/> <![endif]–> 
 
 Böylece tüm yeni nesil web tarayıcılarında bu metodu sağlıklı bir
 şekilde kullanmış olduk.
@@ -187,24 +198,27 @@ height="300" alt="Dünya" /> </div> </div> </div> [/html]
 
 İlk önce en dıştaki katmana gölge zemin resmini atayalım:
 
-[css] .nesneKapsayici1 { background:url(images/golge.gif) no-repeat
-right bottom; float: left; } [/css]
+	:::css
+	 .nesneKapsayici1 { background:url(images/golge.gif) no-repeat
+right bottom; float: left; } 
 
 Sonra oluşturduğumuz iki adet gölge resminin bir tanesini üst sağ
 tarafa, diğerini alt sol tarafa zemin resmi olarak veriyoruz. Ayrıca tam
 resme göre gölge vermek için aşağıdaki gibi kodlama yapmalıyız:
 
-[css] .nesneKapsayici2 { background:url(images/altsol.gif) no-repeat
+	:::css
+	 .nesneKapsayici2 { background:url(images/altsol.gif) no-repeat
 left bottom; float: left; /* IE5.2/Mac duzeltmek icin yazildi */ }
 .nesneKapsayici3 { background:url(images/ustsag.gif) no-repeat top
 right; padding: 0 5px 5px 0; float: left; /* IE5.2/Mac duzeltmek icin
-yazildi */ } [/css]
+yazildi */ } 
 
 ve son olarak ta güzel bir efekt olması için kenarlık ve padding
 tanımlarını yapıyoruz:
 
-[css] .nesneKapsayici1 img { background-color: #fff; border: 1px solid
-#a9a9a9; padding: 4px; display: block; } [/css]
+	:::css
+	 .nesneKapsayici1 img { background-color: #fff; border: 1px solid
+#a9a9a9; padding: 4px; display: block; } 
 
 Örnek çalışmayı görmek için [tıklayınız.][3]
 

@@ -28,14 +28,16 @@ Normal box-shadow değerleri dikey ve yatayda değerler verilince hep
 açılı gölgeler veriyor. Biz tüm kutunun etrafına gölge vermek için; blur
 değeri ve spread  değerini kullanıyoruz.
 
-[css] div { -webkit-box-shadow: 0 0 6px 4px black; -moz-box-shadow: 0 0
-6px 4px black; box-shadow: 0 0 6px 4px black; } [/css]
+	:::css
+	 div { -webkit-box-shadow: 0 0 6px 4px black; -moz-box-shadow: 0 0
+6px 4px black; box-shadow: 0 0 6px 4px black; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/7wyeD/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 blur değeri spread  değerinden büyük ise farklı,
 
-[css] div { -webkit-box-shadow: 0 0 4px 6px black; -moz-box-shadow: 0 0
-4px 6px black; box-shadow: 0 0 4px 6px black; } [/css]
+	:::css
+	 div { -webkit-box-shadow: 0 0 4px 6px black; -moz-box-shadow: 0 0
+4px 6px black; box-shadow: 0 0 4px 6px black; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/NKXZG/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 blur değeri spread  değerinden küçük ise farklı bir gölge efekti
@@ -47,9 +49,10 @@ görüyoruz.
 için; spread  değeri yardımı ile yapılan bu etki için diğer değerler
 sıfırlanmalıdır.
 
-[css] div { border: 3px solid orange; -webkit-box-shadow: 0 0 0 3px
+	:::css
+	 div { border: 3px solid orange; -webkit-box-shadow: 0 0 0 3px
 black, 0 0 0 6px red; -moz-box-shadow: 0 0 0 3px black, 0 0 0 6px red;
-box-shadow: 0 0 0 3px black, 0 0 0 6px red; } [/css]
+box-shadow: 0 0 0 3px black, 0 0 0 6px red; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/RPqUC/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ### Tek Köşeye Gölge Vermek
@@ -62,17 +65,19 @@ görerek karar vermek size kalmış.
 **1. Yöntem** bir köşeye gölge verirken aynı zamanda diğer köşelere
 kenar çizgisi atayarak.
 
-[css] div { -webkit-box-shadow: 1px 0 2px black; -moz-box-shadow: 1px 0
-2px black; box-shadow: 1px 0 2px black; } [/css]
+	:::css
+	 div { -webkit-box-shadow: 1px 0 2px black; -moz-box-shadow: 1px 0
+2px black; box-shadow: 1px 0 2px black; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/3f7SU/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 **2. Yöntem** Diğer köşelere herhangi bir kenar çizgisi veya gölge
 atamadan sadece bir köşeye gölge tanımlamak;
 
-[css] div { width:250px; height:250px; background: white;
+	:::css
+	 div { width:250px; height:250px; background: white;
 -webkit-box-shadow: 0 0 0 4px white, 0 6px 4px black; -moz-box-shadow: 0
 0 0 4px white, 0 6px 4px black;    box-shadow: 0 0 0 4px white, 0 6px
-4px black; } [/css]
+4px black; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/juVMm/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Mantık olarak iki gölge tanımı yapıyoruz, birincisi spread ile kutu
@@ -83,18 +88,20 @@ fazla değer verip dışarı çıkmasını sağlıyoruz.
 **3. Yöntem** Bu örnekte kenar çizgisi oluşturulan yeni kutunun biraz
 içinde kalır.
 
-[css] div { width:250px; height:250px; background: white;
+	:::css
+	 div { width:250px; height:250px; background: white;
 -webkit-box-shadow: 0 0 0 4px white, 0 6px 4px black; -moz-box-shadow: 0
 0 0 4px white, 0 6px 4px black;    box-shadow: 0 0 0 4px white, 0 6px
-4px black;    border:1px solid #f00; } [/css]
+4px black;    border:1px solid #f00; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/5pVbj/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Eğer kenar çizgisi kullanılacaksa;
 
-[css] div { width:250px; height:250px; background: white;
+	:::css
+	 div { width:250px; height:250px; background: white;
 -webkit-box-shadow: 0 8px 6px -6px black; -moz-box-shadow: 0 8px 6px
 -6px black; box-shadow: 0 8px 6px -6px black;    border:1px solid #f00;
-} [/css]
+} 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/5pVbj/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Blur değeri kadar eksi spread değeri atayarak bu çözüm oluşturulmuştur.
@@ -102,11 +109,12 @@ Blur değeri kadar eksi spread değeri atayarak bu çözüm oluşturulmuştur.
 **4. Yöntem** :before seçicisi yardımı ile absolute tanımlı gölge
 eklenir.
 
-[css] div { width:250px; height:250px;    position: relative;
+	:::css
+	 div { width:250px; height:250px;    position: relative;
    padding: 0 7px 0 0;    overflow: hidden; } div:before {  position:
 absolute;  content: ' ';  top: 0px;  right: 7px;  bottom: 0;  left: 0;
  background-color: transparent;  box-shadow: 0 0 5px black;  border: 1px
-solid red; } [/css]
+solid red; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/x9Pbr/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Çıkmasını istediğimiz kenara padding tanımı yapılır, :before seçicisi
@@ -118,11 +126,12 @@ değer içermelidir.
 
 Yukarıdaki 4.yönteme benzer bir kullanım ile yapılır.
 
-[css] div { width:250px; height:250px; position: relative; padding: 7px
+	:::css
+	 div { width:250px; height:250px; position: relative; padding: 7px
 0 7px 7px; overflow: hidden; } div:before {  position: absolute;
  content: ' ';  top: 7px;  right: 7px;  bottom: -7px;  left: 7px;
  background-color: transparent;  box-shadow: 0 0 5px black;  border: 1px
-solid red; } [/css]
+solid red; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/j9bAp/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Yukarıdaki yöntemin tersi yapılır ve kaldırılacak köşeye eksi değer

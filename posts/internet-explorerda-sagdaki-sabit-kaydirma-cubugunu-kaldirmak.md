@@ -13,8 +13,9 @@ bu tip bir istek geliyor. Firefox, İnternet Explorer 8, Safari, Google
 Chrome gibi yeni nesil tarayıcılar eğer içerik uzun değilse kaydırma
 çubuğunu göstermiyor. Ancak ie6 ve ie7 de durum böyle değil. İçerik
 olsun yada olması sağda yatay kaydırma çubuğu daima görünüyor. Bu durumu
-eşitlemek için çok basit bir kod yazmamız yeteli oluyor. [css] html
-{overflow:auto;} [/css]
+eşitlemek için çok basit bir kod yazmamız yeteli oluyor. 	:::css
+	 html
+{overflow:auto;} 
 
 ### Kaynaklar
 

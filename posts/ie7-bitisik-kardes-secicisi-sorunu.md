@@ -24,7 +24,8 @@ tanımladığımız bildirimleri yorumlamıyor.
 
 CSS kodu
 
-[css] h2 + p { background-color: #fc0; } [/css]
+	:::css
+	 h2 + p { background-color: #fc0; } 
 <iframe style="width: 100%; height: 200px" src="http://jsfiddle.net/fatihhayri/Ubk9Q/embedded/result,html,css"></iframe>
 
 Uygulaması bütün tarayıcılarda sorunsuz çalışırken ie7’de sonuç

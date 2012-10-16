@@ -91,11 +91,12 @@ arıyor ve uyguluyor.
 href="http://www.bloggermint.com">hyperlink</a>. This is a sample <a
 href="mailto:bloggermint@gmail.com">bloggermint@gmail.com</a>. This
 is a sample <a href="ftp://bloggermint.com">FTP Server</a>. [/html]
-[css] a[href^='http'] { background: url(images/link.png) no-repeat
+	:::css
+	 a[href^='http'] { background: url(images/link.png) no-repeat
 left; padding-left:20px; } a[href^='mailto'] { background:
 url(images/email.png) no-repeat left; padding-left:20px; }
 a[href^='ftp'] { background: url(images/folder.png) no-repeat left;
-padding-left:20px; } [/css]
+padding-left:20px; } 
 
 Şeklinde link başlangıç değerine göre ikon atayabiliriz.
 
@@ -124,9 +125,10 @@ olarak $(dolar) işareti kullanılır.
 Bu seçiciyi kullanarak dokümanlara verilen linklerin başına kolayca ikon
 ekleyebiliriz.
 
-[css] a[href$='.pdf'] { background-image: url('pdf.png'); }
+	:::css
+	 a[href$='.pdf'] { background-image: url('pdf.png'); }
 a[href$='.doc'] { background-image: url('word.png'); } a[href$='.rss']
-{ background-image: url('feed.png'); } [/css]
+{ background-image: url('feed.png'); } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**   
@@ -152,7 +154,8 @@ kullanılır. Seçici işareti olarak * (yıldız) işareti kullanılır.
 Birçok yerde kullanılabilecek geniş kapsamlı bir kullanımı olan bir
 seçicidir.
 
-[css] a[title*='im'] {} [/css]
+	:::css
+	 a[title*='im'] {} 
 
 Sadece bir kısmı ile elemanı seçebilme imkanı sağlıyor. CSS2’dekinden
 farklı olarak.
@@ -176,13 +179,15 @@ Android Browser 2.1+
 Özellik seçicileri birlikte kullanma imkanımızda vardır. Birden fazla
 seçici ile seçimi daraltabiliriz.
 
-[css] p[class=highlight] a[title~=important] { background : #ffffcc; }
-[/css]
+	:::css
+	 p[class=highlight] a[title~=important] { background : #ffffcc; }
+
 
 Daha fazla özellik seçicisinide birleştirebiliriz.
 
-[css] a[href^='http://'][href*='/folder2/'][href$='.pdf'] {
-background:url(pdf.gif) 0 0 no-repeat; } [/css]
+	:::css
+	 a[href^='http://'][href*='/folder2/'][href$='.pdf'] {
+background:url(pdf.gif) 0 0 no-repeat; } 
 
 CSS3 ile gelen özellik seçicilerinin bir avantajıda ie7’ninde bu
 seçicileri destekliyor olmasıdır.
@@ -217,7 +222,8 @@ Bir örnek yapacak olursak bir resmimiz var bunu sola hizalayacağız ve
 sağdanda metinler akacak. Bu resim ve paragraflar arasına padding
 tanımlamak için genel kardeş seçicisi birebirdir.
 
-[css] img{ float:left; } img ~ p{ padding-left:110px; } [/css]
+	:::css
+	 img{ float:left; } img ~ p{ padding-left:110px; } 
 
 html kodu
 
@@ -284,8 +290,9 @@ checked="checked" type="checkbox"> [/html]
 yansıtmamız lazım. Bu sayede daha kullanıcı dostu formlar oluşturmuş
 olacağız.
 
-[css] :enabled { border: 2px solid #6374AB; } :disabled { border: 2px
-solid #00cc00; } :checked { display: inline-block; width: 4em; } [/css]
+	:::css
+	 :enabled { border: 2px solid #6374AB; } :disabled { border: 2px
+solid #00cc00; } :checked { display: inline-block; width: 4em; } 
 
 HTML kodumuz
 
@@ -334,15 +341,17 @@ tanımlanabilir.
 
 Rakama bir örnek verecek olursak, 3. sıradaki elemanı yakalamak için
 
-[css] p:nth-child(3) { color:#f00; } [/css]
+	:::css
+	 p:nth-child(3) { color:#f00; } 
 
 Belirli kelimelere bir örnek verecek olacaksak; odd(çift) ve even(tek)
 kelimelerinin kullanımı ile seçme işlemini gösterebiliriz. Zebra
 tablolardan hatırladığımız çift, tek satırlara tanımlama yapmak için
 kullanılabilir.
 
-[css] tr:nth-child(odd) { color:#f00; } tr:nth-child(even) {
-color:#ff0; } [/css]
+	:::css
+	 tr:nth-child(odd) { color:#f00; } tr:nth-child(even) {
+color:#ff0; } 
 <iframe style="width: 100%; height: 400px" src="http://jsfiddle.net/fatihhayri/F6UnC/embedded/result,css,html"></iframe>
 
 Formül için örnek verecek olursak; dinamik bir seçim oluşturmak için
@@ -350,7 +359,8 @@ gayet iyi sonuçlar verecek bir özelliktir. Matematik derslerindende
 hatırladığımız (an + b) a ve b değişkenlerdir. Benzer formüller ile
 eleman seçebilme imkanı veriyor.
 
-[css] p:nth-child(3n+0) {     background:#ff0000; } [/css]
+	:::css
+	 p:nth-child(3n+0) {     background:#ff0000; } 
 
 Bir tanım ile 3 katı olan elementleri yakalayabiliriz.
 
@@ -369,7 +379,8 @@ Opera 10.10+
 farklı olarak sıralama olarak baştan değilde sondan başlayarak seçmemizi
 sağlar.
 
-[css] tbody tr:nth-last-child(2) { background:#ff0000; } [/css]
+	:::css
+	 tbody tr:nth-last-child(2) { background:#ff0000; } 
 
 Tanımı ile tbody içindeki sondan 2. sıradaki satırı yakalamamızı sağlar.
 
@@ -389,7 +400,8 @@ Opera 10.10+
 elemanları seçerken, :nth-of-type() sözde seçicisi sadece aynı tip
 elemanları seçer.
 
-[css] p:nth-of-type(3) { background:#ff0; } [/css]
+	:::css
+	 p:nth-of-type(3) { background:#ff0; } 
 
 Örneğinde mesela paragraf elemanı ile aynı seviyedeki tüm paragrafları
 seçmemizi sağlar. Benzer şekilde :nth-child()  kullansa idik, aynı
@@ -417,7 +429,8 @@ doğru aynı seviyedeki ve aynı tipteki elemanları seçmek için yapılır.
 olsa aslında benzer özellikte çalışırlar, ancak bu ufak farklar bile
 bize çok büyük avantajlar sağlayacaktır.
 
-[css] p:nth-last-of-type(2) { background:#ff0; } [/css]
+	:::css
+	 p:nth-last-of-type(2) { background:#ff0; } 
 
 Aynı seviyedeki paragrafların sondan ikincisini yakalar bu seçici
 
@@ -438,7 +451,8 @@ seçmek için kullanılır. fisrt-child ilk elemanı seçmemizi sağlarken
 elemanların sonuncusunu bulmak bizim her zaman işimize yarayacaktır.
 :nth-last-child(1) aynı işi görür.
 
-[css] p:last-child { background:#ff0; } [/css]
+	:::css
+	 p:last-child { background:#ff0; } 
 
 Tanımı belirlenen paragraf ile aynı seviyedeki elemanların en
 sonuncusunu seçmemizi sağlar.
@@ -451,13 +465,15 @@ ayraç koyalım.
 
 Sondaki kenar çizgisi fazlalığı kaldırmak için
 
-[css] ul li:last-child a{     border-right:none; } [/css]
+	:::css
+	 ul li:last-child a{     border-right:none; } 
 
 kodu işimizi görecektir. Ayrıca ilk menü elemanı sol köşeleri ve son
 menü elemanının sağ köşeleri ovalleştirmek için;  
 
-[css] ul li:last-child a{ border-right:none; border-radius:0 15px 15px
-0; } ul li:first-child a{ border-radius:15px 0 0 15px; } [/css]
+	:::css
+	 ul li:last-child a{ border-right:none; border-radius:0 15px 15px
+0; } ul li:first-child a{ border-radius:15px 0 0 15px; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/GUKPu/embedded/result,css,html"></iframe>
 
 Önceden bu işleri yapmak için javascript kullanmak zorunda idik. Şimdi
@@ -477,7 +493,8 @@ Opera 10.10+
 :first-of-type sözde seçicisi aynı seviyedeki ilk aynı tipteki elemanı
 seçmek için kullanılır. :nth-of-type(1) aynı işi görür.
 
-[css] p:first-of-type { background:#ff0; } [/css]
+	:::css
+	 p:first-of-type { background:#ff0; } 
 
 Aynı seviyedeki ilk paragrafı seçmek için kullanılır.
 
@@ -495,7 +512,8 @@ Opera 10.10+
 :last-of-type sözde seçicisi aynı seviyedeki en son aynı tipteki elemanı
 seçmek için kullanılır.  :nth-last-of-type(1) ile aynı işi görür.
 
-[css] p:last-of-type { background:#ff0; } [/css]
+	:::css
+	 p:last-of-type { background:#ff0; } 
 
 Aynı seviyedeki paragrafların en sonuncusunu yakalar.
 
@@ -533,7 +551,8 @@ etiket adına sahip tek çocuğu olan elemanları seçmek için kullanılır.
 Tam karşılığı olmasada :first-of-type:last-of-type veya
 :nth-of-type(1):nth-last-of-type(1) aynı işi yapar.
 
-[css] ul.deneme > li > a:only-of-type { background:#ff0; } [/css]
+	:::css
+	 ul.deneme > li > a:only-of-type { background:#ff0; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/cEdgX/1/embedded/html,css,result"></iframe>
 
 Aynı seviyedeki bağlantılara sarı ardalan rengi tanımlayacaktır. Listede
@@ -555,12 +574,14 @@ Opera 10.10+
 ile aynı etkiyi yapar. buradaki asıl amaç xml ve diğer doküman tipleri
 için köke inebilmektir.
 
-[css] :root { background:#ff0; } [/css]
+	:::css
+	 :root { background:#ff0; } 
 
 HTML dokümanlarında ise html elemanını ezmek içinde kullanılabilir.
 
-[css] html{ background-color: #fff; } html:root { background-color:
-#000; } [/css]
+	:::css
+	 html{ background-color: #fff; } html:root { background-color:
+#000; } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
@@ -584,7 +605,8 @@ href="">deneme</a></li> <li><a href="">deneme</a></li>
 
 CSS kodu
 
-[css] ul.deneme > li:empty { background:#ff0; } [/css]
+	:::css
+	 ul.deneme > li:empty { background:#ff0; } 
 
 Yukarıdaki örnekte sadece ilk liste elemanı seçilecektir.
 
@@ -608,7 +630,8 @@ Olumsuzluk belirtmek için kullanılan sözde sınıftır. :not(seçici)
 
 CSS kodu
 
-[css] body :not(blockquote){ border:1px solid #ccc;} [/css]
+	:::css
+	 body :not(blockquote){ border:1px solid #ccc;} 
 
 kodu body içindeki tüm elemanlara kenar çizgisi ata, dipnot(blockquote)
 hariç şeklinde uygulanacaktır.
@@ -632,8 +655,9 @@ Opera 10.10+
 bakacağız. Seçili alan seçicisi olarak tanımlayabileceğimiz bu özellik
 seçilen alana css tanımları atamamızı sağlamaktadır.
 
-[css] ::-moz-selection { background:#c00; color:#fff; } ::selection {
-background:#c00; color:#fff; } [/css]
+	:::css
+	 ::-moz-selection { background:#c00; color:#fff; } ::selection {
+background:#c00; color:#fff; } 
 
 Ataması ile sitenin tümünde bir seçili alanları için bir tanımlama
 yapabiliriz.

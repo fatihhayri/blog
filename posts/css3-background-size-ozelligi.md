@@ -61,12 +61,13 @@ background-size:0 değeri resmin görünmemesini sağlar.
 CSS3 diğer özelliklerinde olduğu gibi background-size özelliğini
 destekleyen farklı tarayıcılar kendi öneklerini kullanmaktadır.  
 
-[css] .deneme { background-image: url(bg-image.png);
+	:::css
+	 .deneme { background-image: url(bg-image.png);
 -moz-background-size: 100% 100%;           /* Firefox 3.6 */
 -o-background-size: 100% 100%;           /* Opera 9.5 */
 -webkit-background-size: 100% 100%;           /* Safari 3.0, Chrome */
 background-size: 100% 100%;           /* w3c, Firefox 4.0, ie9  */ }
-[/css]
+
 
 <div class="tarayiciuyum">
 **Browser Uyumu:**  

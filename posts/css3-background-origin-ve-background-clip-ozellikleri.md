@@ -33,14 +33,15 @@ Aldığı değerleri kısaca açıklarsak
 
 ![][]
 
-[css] #kutu1 { -moz-background-origin: border;
+	:::css
+	 #kutu1 { -moz-background-origin: border;
 -webkit-background-origin: border; -webkit-background-origin:
 border-box; background-origin: border-box; } #kutu2 {
 -moz-background-origin: padding; -webkit-background-origin: padding;
 -webkit-background-origin: padding-box; background-origin: padding-box;
 } #kutu3 { -moz-background-origin: content; -webkit-background-origin:
 content; -webkit-background-origin: content-box; background-origin:
-content-box; } [/css]
+content-box; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/Rf6Mv/embedded/result,css,html"></iframe>
 
 **background-position:fixed** tanımlı elementlere etki etmez.
@@ -76,7 +77,8 @@ Aldığı değerleri kısaca açıklarsak
 **border-box** tanımı eğer **background-origin:border-box** ise
 uygulanır.
 
-[css] #kutu1{ -moz-background-origin: border;
+	:::css
+	 #kutu1{ -moz-background-origin: border;
 -webkit-background-origin: border; -webkit-background-origin:
 border-box; background-origin: border-box; -moz-background-clip:border;
 -webkit-background-clip:border; -webkit-background-clip:border-box;
@@ -88,7 +90,7 @@ background-clip:padding-box; } #kutu3{ -moz-background-origin: border;
 -webkit-background-origin: border; -webkit-background-origin:
 border-box; -moz-background-clip:content;
 -webkit-background-clip:content; -webkit-background-clip:content-box;
-background-clip:content-box; } [/css]
+background-clip:content-box; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/uzFeu/3/embedded/result,css,html"></iframe>
 
 **background-origin:border-box** olarak tanımladığımızda
@@ -124,11 +126,12 @@ Chrome ve Safari desteklemektedir. Bu değer atandığında metinin
 ardalanına resim uygulanıyor geri kalan kısımlara ise saydam ardalan
 olarak kalıyor.
 
-[css] #kutu1 { -moz-background-origin: border;
+	:::css
+	 #kutu1 { -moz-background-origin: border;
 -webkit-background-origin: border; -webkit-background-origin:
 border-box; background-origin: border-box; -webkit-background-clip:text;
 -webkit-text-fill-color:transparent; font:bold 72px Arial, Helvetica,
-sans-serif; } [/css]
+sans-serif; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/gqaC9/embedded/result,css,html"></iframe>
 
 **-webkit-text-fill-color:transparent** ile metnin ardalanını

@@ -52,7 +52,8 @@ translateY | scale | scaleX | scaleY | rotate | skew | skewX | skewY ]
 Aldığı değerleri dönüşüm fonksiyonları bölümünde detaylı bir şekilde
 inceleyeceğiz.
 
-[css] p{ transform: translate(-150px, 75px); } [/css]
+	:::css
+	 p{ transform: translate(-150px, 75px); } 
 
 Uygulandığı paragrafı kendi orijin noktasına göre 75px sağa ve 150px
 aşağıya öteleyecektir. Göreceli bir tanımda(örn: % gibi) referans olarak
@@ -80,14 +81,16 @@ döndürdüğümüzde elmanın ortasında göre işlem yapar.) Üstten 50% solda
 tanımlanabilir. İlk değeri X ekseninden mesafesini, ikinci değer Y
 sekseninden mesafesini tanımlar.
 
-[css] p{ transform-origin:0, 0; } [/css]
+	:::css
+	 p{ transform-origin:0, 0; } 
 
 Yüzde değerlerinde referans olarak elemanın kutu alanı alınır.
 
 Daha iyi anlamak için aşağıda da göreceğimiz döndürme(rotate)
 uygulayarak görelim.
 
-[css] transform: rotate(-10deg); [/css]
+	:::css
+	 transform: rotate(-10deg); 
 
 ![][1]
 
@@ -115,7 +118,8 @@ dönüştürme işlemlerini yapabiliyoruz. Biz burada bir CSS3 transform
 translate değeri elemanı bir noktadan başka bir noktaya taşımamızı
 sağlıyor.
 
-[css] translate (x, y) [/css]
+	:::css
+	 translate (x, y) 
 
 Bu sayede biz elemanı orijinal konumundan x-ekseninde soldan mesafesi ve
 y-ekseninde üstten mesafesini tanımlayarak taşıyabiliyoruz. Basit bir
@@ -123,7 +127,8 @@ kullanımı vardır.
 
 Bir örnek yapalım;
 
-[css] #tasinan{        transform:translate(150px,100px);   } [/css]
+	:::css
+	 #tasinan{        transform:translate(150px,100px);   } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/s6hZX/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 **- Eksene Özgü Yöntemler**
@@ -133,11 +138,13 @@ translateY özelliklerini kullanabiliriz.
 
 Yukarıdaki örneği
 
-[css] #tasinan{        transform:translateX(150px);    } [/css]
+	:::css
+	 #tasinan{        transform:translateX(150px);    } 
 
 aynı şekilde y ekseninde hareket için
 
-[css] #tasinan{        transform:translateY(100px);    } [/css]
+	:::css
+	 #tasinan{        transform:translateY(100px);    } 
 
 şeklinde uygulanabilir.
 
@@ -147,7 +154,8 @@ aynı şekilde y ekseninde hareket için
 animasyon oluşturabiliriz. Hem translate özelliğini daha iyi anlamış
 oluruz.
 
-[css] #tasinan{            transition: all 5s;    } [/css]
+	:::css
+	 #tasinan{            transition: all 5s;    } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/AF5hS/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Fare imlecinin mavi alan üzerine getirdiğimizde animasyonlu bir şekilde
@@ -160,11 +168,13 @@ rotate değeri yardımı ile sabit bir noktaya göre elemanı belirlenen açı
 ile döndürebiliyoruz. Bu sabit nokta transform-origin tanımı ile
 değiştirilebiliyor.
 
-[css] rotate(&lt;açı&gt;) [/css]
+	:::css
+	 rotate(&lt;açı&gt;) 
 
 Bir örnek ile konuyu daha iyi anlayalım.
 
-[css] .deneme{     transform:rotate(45deg); } [/css]
+	:::css
+	 .deneme{     transform:rotate(45deg); } 
 
 Yukarıdaki kod ile tanımlanan HTML elemanını 45 (deg-degrees)derece
 döndürdük. Saat yönüne çevirdiğimiz gibi, eksi değer vererek saat
@@ -176,7 +186,8 @@ rad(radyen) ve turn.
 turn değerini biraz daha inceleyelim. turn değeri dairenin etrafını
 gösteriyor.
 
-[css] .deneme{     transform:rotate(.5trun); } [/css]
+	:::css
+	 .deneme{     transform:rotate(.5trun); } 
 
 0.5 olarakta tanımlanabilecek bu değer elemanımızı yarım daire kadar
 döndürecektir.
@@ -187,8 +198,9 @@ döndürecektir.
 
 Bir örnekte animasyonlu yapalım.
 
-[css] .deneme{     transition: all 0.5s; } .deneme:hover{    
-transform:rotate(45deg); } [/css]
+	:::css
+	 .deneme{     transition: all 0.5s; } .deneme:hover{    
+transform:rotate(45deg); } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/aCKL9/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Yukarıdaki örnektede görüldüğü gibi birçok güzel uygulama bu yöntem ile
@@ -207,7 +219,8 @@ büyütebilir veya küçültebiliriz.
 
 Bir örnek ile konuyu daha iyi anlayalım.
 
-[css] .denemeBuyut{     transform:scale(1.5); } [/css]
+	:::css
+	 .denemeBuyut{     transform:scale(1.5); } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/eCb2C/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Daha iyi bir anlatım için örnekte iki kutu kullandım birisi kutunun
@@ -222,11 +235,13 @@ Elemanları sadece bir eksen ölçeklemek için scaleX ve scaleY
 
 Yukarıdaki örneği
 
-[css] .denemeBuyut{     transform:scaleX(1.5); } [/css]
+	:::css
+	 .denemeBuyut{     transform:scaleX(1.5); } 
 
 aynı şekilde y ekseninde hareket için
 
-[css] .denemeBuyut{     transform:scaleY(2); } [/css]
+	:::css
+	 .denemeBuyut{     transform:scaleY(2); } 
 
 şeklinde uygulanabilir.
 
@@ -251,7 +266,8 @@ y için farklı açı değerleride belirleyebiliyoruz.
 
 Bir örnek yapalım.
 
-[css] .deneme{     transform: skew(10deg, 20deg);    } [/css]
+	:::css
+	 .deneme{     transform: skew(10deg, 20deg);    } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/fRpmS/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 **- Eksene Özgü Yöntemler**
@@ -261,11 +277,13 @@ kullanabiliriz.
 
 Yukarıdaki örneği
 
-[css] .denemeBuyut{     transform:skewX(10deg); } [/css]
+	:::css
+	 .denemeBuyut{     transform:skewX(10deg); } 
 
 aynı şekilde y ekseninde eğiklik için
 
-[css] .denemeBuyut{     transform:skewY(20deg); } [/css]
+	:::css
+	 .denemeBuyut{     transform:skewY(20deg); } 
 
 şeklinde uygulanabilir.
 
@@ -281,8 +299,9 @@ Dönüşüm fonksiyonları yukarıda tanımladığımız gibi tek tek
 tanımlanabildiği gibi kısaltma olarak arada boşluk bırakılarak
 birliktede tanımlanabilir.
 
-[css] div {      transform: translate(10px 30%) scale(2.0) rotate(45deg)
-skew(5deg, 20deg); } [/css]
+	:::css
+	 div {      transform: translate(10px 30%) scale(2.0) rotate(45deg)
+skew(5deg, 20deg); } 
 
 Böylece kodlamamızda bayağı bir kısaltmaya gitmiş oluruz. Çoklu tanım
 uygulandığında bu fonksiyonlar soldan sağa doğru sırası ile
@@ -303,7 +322,8 @@ aşağıdaki şekilde gösterilir
 
 Bu yazımı css koduna çevirirsek;
 
-[css] transform: matrix(1.5, 0, 0, 1.2, 0, 0) [/css]
+	:::css
+	 transform: matrix(1.5, 0, 0, 1.2, 0, 0) 
 
 Matris değerleri hakkında daha fazla bilgi için
 [http://www.w3.org/TR/SVG/coords.html#EstablishingANewUserSpace][]

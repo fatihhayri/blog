@@ -58,8 +58,9 @@ yılındaki standartları desteklemektedir ve yeni standartlaşan
 tanımı yaparak başlıyoruz. Farklı tarayıcılar önek ile birlikte
 desteklemektedir;
 
-[css] #esnekKutu{ display: -webkit-box; display: -moz-box; display:
--ms-box; display: box; } [/css]
+	:::css
+	 #esnekKutu{ display: -webkit-box; display: -moz-box; display:
+-ms-box; display: box; } 
 
 Tanımı ile kapsayıcı elemanı tanımlıyoruz. Bu tanım ile kapsayıcı eleman
 içersindeki alt elemanların artık esnek yapılı olacağını ve EKYM
@@ -67,9 +68,10 @@ içersindeki alt elemanların artık esnek yapılı olacağını ve EKYM
 
 Çok basit bir şekilde kutularımızı yanyana dizebiliriz mesela
 
-[css] #esnekKutuKapsul{ display: box; display:-webkit-box;
+	:::css
+	 #esnekKutuKapsul{ display: box; display:-webkit-box;
 display:-moz-box; display:-ms-box; width:600px; border:1px solid #03C;
-} [/css]
+} 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/4KSzt/embedded/result,css,html"></iframe>
 
 Kapsayıcı tanımlanan **display:box** tanımı ile içindeki elemanlar birer
@@ -103,10 +105,11 @@ Bunlardan başka iki değer daha mevcuttur. **inline-axis** yatayda ve
 **block-axis** dikeyde sıralamayı sağlar. Bu tanımlar **horizontal** ve
 **vertical** gibi davranırlar.
 
-[css] #esnekKutuKapsul{ display: box; display:-webkit-box;
+	:::css
+	 #esnekKutuKapsul{ display: box; display:-webkit-box;
 display:-moz-box; box-orient:vertical; -moz-box-orient:vertical;
 -webkit-box-orient:vertical; width:200px; height:600px; border:1px solid
-#03C; } [/css]
+#03C; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/AsVDn/embedded/result,css,html"></iframe>
 
 **box-orient:vertical** ile esnek kutularımızı dikeyde sıraladık.
@@ -126,11 +129,12 @@ alan elemanlara
 sıralama yönünü belirler. İki değer alır; normal ve **reverse**.
 **reverse** tanımlandığında sıralama yönü normalin tam tersine döner.
 
-[css] #esnekKutuKapsul{ display: box; display:-webkit-box;
+	:::css
+	 #esnekKutuKapsul{ display: box; display:-webkit-box;
 display:-moz-box; box-orient:vertical; -moz-box-orient:vertical;
 -webkit-box-orient:vertical; box-direction: reverse; -moz-box-direction:
 reverse; -webkit-box-direction: reverse; width:200px; height:600px;
-border:1px solid #03C; } [/css]
+border:1px solid #03C; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/S4c44/embedded/result,css,html"></iframe>
 
 Yukarıdaki örnekte sıralama yukarıdan aşağı **Esnek Kutu1, Esnek Kutu2**
@@ -166,9 +170,10 @@ kalan boşluk alanına göre değerlendirme yapılır.
 Bu özellik tanımı 2009’da tanımlandı şu an yenileniyor **flex-pack**
 olarak değişecek. Tarayıcılar destekleyen kadar bu şekilde devam edecek.
 
-[css] #esnekKutuKapsul{ display: box; display:-webkit-box;
+	:::css
+	 #esnekKutuKapsul{ display: box; display:-webkit-box;
 display:-moz-box; width:600px; border:1px solid #03C; box-pack:center;
--webkit-box-pack:center; -moz-box-pack:center; } [/css]
+-webkit-box-pack:center; -moz-box-pack:center; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/MwWcm/embedded/result,css,html"></iframe>
 
 ### box-align
@@ -193,12 +198,13 @@ genişlikleri yayılacaktır. **start** ve **end** değerleri eğer
 horizantal tanımlı ise sol ve sağa yaslayacaktır, **vertical** tanımlı
 ise üste ve alta yaslayacaktır. **center** değeri ise ortalayacaktır.
 
-[css] #esnekKutuKapsul{ display: box; display:-webkit-box;
+	:::css
+	 #esnekKutuKapsul{ display: box; display:-webkit-box;
 display:-moz-box; width:600px; border:1px solid #03C;
 box-orient:horizantal; -moz-box-orient:horizantal;
 -webkit-box-orient:horizantal; box-align: center; -webkit-box-align:
 center; -moz-box-align: center; } .esnekKutu{ background-color:#999999;
-width:150px; height:150px; margin-right:15px; } [/css]
+width:150px; height:150px; margin-right:15px; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/ZYz2M/1/embedded/result,css,html"></iframe>
 
 ### box-lines
@@ -242,12 +248,13 @@ alan elemanların normal akıştaki alt elemanları
 **box-ordinal-group** özelliği kapsayıcı kutunun içindeki esnek
 kutuların sıralamasını belirlememizi sağlar.
 
-[css] #esnekKutu1 { box-ordinal-group: 2; -webkit-box-ordinal-group: 2;
+	:::css
+	 #esnekKutu1 { box-ordinal-group: 2; -webkit-box-ordinal-group: 2;
 -moz-box-ordinal-group: 2; background-color:#0CF; } #esnekKutu3 {
 box-ordinal-group: 2; -webkit-box-ordinal-group: 2;
 -moz-box-ordinal-group: 2; background-color:#9C3; } #esnekKutu4 {
 box-ordinal-group: 1; -webkit-box-ordinal-group: 1;
--moz-box-ordinal-group: 1; background-color:#FC9; } [/css]
+-moz-box-ordinal-group: 1; background-color:#FC9; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/TaFBM/embedded/result,css,html"></iframe>
 
 Dört adet kutumuz var. Bunların üç tanesine **box-ordinal-group** değeri
@@ -285,7 +292,8 @@ için toplam boşluk genişliği(Kapasayıcı eleman ile kutuların genişliği
 toplamı arasındaki fark) bu sayıya bölünerek elde edilen değer kutu
 genişliğini belirler.
 
-[css] #esnekKutuKapsul { background: gray; border: blue; display: box;
+	:::css
+	 #esnekKutuKapsul { background: gray; border: blue; display: box;
 display: -webkit-box; display: -moz-box; display: -ms-box; width:100%; }
 .esnekKutu { background-color:#999999; height:150px; } #esnekKutu1 {
 background-color:#0CF; border: orange solid 1px; box-flex: 2;
@@ -294,7 +302,7 @@ background: lightgray; border: red solid 1px; box-flex: 1;
 -webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; } #esnekKutu3 {
 background-color:#9C3; border: red solid 1px; box-flex: 0;
 -webkit-box-flex: 0; -moz-box-flex: 0; -ms-box-flex: 0; } #esnekKutu4 {
-background-color:#FC9; border: red solid 1px; } [/css]
+background-color:#FC9; border: red solid 1px; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/h7KAa/embedded/result,css,html"></iframe>
 
 Daha sabit bir örnek verelim; genişliği 600px olan kapsayıcı eleman ve
@@ -305,14 +313,15 @@ bir tanesinin **box-flex** değeri 2 olarak değiştirilirse, değiştirilen
 kutunun genişliği 250px(100 + 300/4 * 2 = 250) olurken diğer iki
 kutunun genişliği 175px(100 + 300/4 * 1 = 175) olacaktır.
 
-[css] #esnekKutuKapsul { background: gray; border: blue; display: box;
+	:::css
+	 #esnekKutuKapsul { background: gray; border: blue; display: box;
 display: -webkit-box; display: -moz-box; display: -ms-box; width:600px;
 } .esnekKutu { background-color:#999999; height:150px; width:100px; }
 #esnekKutu1 { background-color:#0CF; box-flex: 2; -webkit-box-flex: 2;
 -moz-box-flex: 2; -ms-box-flex: 2; } #esnekKutu2 { background:
 lightgray; box-flex: 1; -webkit-box-flex: 1; -moz-box-flex: 1;
 -ms-box-flex: 1; } #esnekKutu3 { background-color:#9C3; box-flex: 1;
--webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; } [/css]
+-webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/Dyjq2/embedded/result,css,html"></iframe>
 
 Eğer kutu genişlikleri toplamı kapsayıcı kutunun genişliğinden büyük ise

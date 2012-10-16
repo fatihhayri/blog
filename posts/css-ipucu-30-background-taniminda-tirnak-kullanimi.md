@@ -7,11 +7,13 @@ CSS kodu yazarken background tanımlarında bazı yerlerde tırnaklı tanım
 yapıldığını, bazı yerlerde ise tırnaksız tanım yapıldığını
 görmüşsünüzdür.
 
-[css] background("deneme.gif"); [/css]
+	:::css
+	 background("deneme.gif"); 
 
 veya
 
-[css] background(deneme.gif); [/css]
+	:::css
+	 background(deneme.gif); 
 
 Ben birkaç güne kadar arada bir farkın olmadığını düşünüyordum.(Aslında
 benim gibi özel durumlar hariç bir fark olmadığı hakkındaki düşüncem
@@ -27,12 +29,14 @@ tanımdan sonraki özelliklerin renklendirmesini bozuyor.
 
 ![][]  
 
-[css] background(deneme.gif?v={VERSION}); [/css]
+	:::css
+	 background(deneme.gif?v={VERSION}); 
 
 Dün ise eğer bu tanımı tırnak içinde yazarsam Dreamweaver otomatik
 tamamlaması ve kod renklendirmesini bozmadığını gördüm ve sevindim.
 
-[css] background("deneme.gif?v={VERSION}"); [/css]
+	:::css
+	 background("deneme.gif?v={VERSION}"); 
 
 ![][1]
 

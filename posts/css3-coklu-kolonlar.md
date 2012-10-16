@@ -55,8 +55,9 @@ Elemanı ayıracağımız kolon sayısını belirlememizi sağlar. Başlangıç
 değeri auto olarak tanımlıdır. Bu sayede sadece **column-width** tanımı
 ile ile
 
-[css] #cokluKolon{ -moz-column-count:3; -webkit-column-count:3;
-column-count:3; width:968px; margin:0 auto; } [/css]
+	:::css
+	 #cokluKolon{ -moz-column-count:3; -webkit-column-count:3;
+column-count:3; width:968px; margin:0 auto; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/HZZ8t/1/embedded/css,result,html"></iframe>
 
 Genişlik tanımı yapılmadan kolonlara bölme işlemi gerçekleşmiyor.
@@ -83,22 +84,25 @@ Elemanları kolonlara bölmek için diğer bir yöntemde **column-width** ile
 genişlik tanımı yapmaktır. Tarayıcılar belirlenen genişliğe göre
 kapsayıcının genişliğine göre otomatik olarak kolonlara bölecektir.
 
-[css] #cokluKolon{     -moz-column-width:150px;    
--webkit-column-width:150px;     column-width:150px;    } [/css]
+	:::css
+	 #cokluKolon{     -moz-column-width:150px;    
+-webkit-column-width:150px;     column-width:150px;    } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/SkXL4/1/embedded/css,result,html"></iframe>
 
 Bir genişlik tanımı yapılırsa **column-width** değeri tanımlandığı kadar
 kolona bölüyor.
 
-[css] #cokluKolon{     -moz-column-width:150px;    
+	:::css
+	 #cokluKolon{     -moz-column-width:150px;    
 -webkit-column-width:150px;     column-width:150px;     width:950px;   
-} [/css]
+} 
 
 column-width ile **column-count** aynı anda kullanabiliriz.
 
-[css] #cokluKolon{    -webkit-column-count: 2;    -moz-column-count: 2;
+	:::css
+	 #cokluKolon{    -webkit-column-count: 2;    -moz-column-count: 2;
    column-count: 2;    -webkit-column-width: 150px;
-   -moz-column-width: 150px;    column-width: 150px;        } [/css]
+   -moz-column-width: 150px;    column-width: 150px;        } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
@@ -119,7 +123,8 @@ Android Browser 2.1+
 **column-count** ve **column-width** değerlerini tek seferde
 kullanabileceğimiz bir kısayol tanımıdır.
 
-[css] div {columns: 200px 5;} [/css]
+	:::css
+	 div {columns: 200px 5;} 
 
 <div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
@@ -136,9 +141,10 @@ yapıldığında Firefox ve Google Chrome ile Opera farklı yorumluyor. Opera
 yorumlarken her halükarda **column-width** değerini üstün kılarken,
 Firefox ve Chrome **column-coun**t değerini üstün kılıyor.
 
-[css] #cokluKolon{    -webkit-column-count: 2;    -moz-column-count: 2;
+	:::css
+	 #cokluKolon{    -webkit-column-count: 2;    -moz-column-count: 2;
    column-count: 2;    -webkit-column-width: 150px;
-   -moz-column-width: 150px;    column-width: 150px;        } [/css]
+   -moz-column-width: 150px;    column-width: 150px;        } 
 
 Bu tanımda Firefox ve Chrome 2 kolonlu bir yapı gösteriyor ve genişlik
 olarak 150px tanımını görmüyor. Opera ise **column-width** değerini
@@ -151,8 +157,9 @@ margin anlamında kullanılır.
 
 Başlangıç değeri 1em olarak tanımlıdır.
 
-[css] #cokluKolon{    -webkit-column-gap: 50px;    -moz-column-gap:
-50px;    column-gap: 50px;        } [/css]
+	:::css
+	 #cokluKolon{    -webkit-column-gap: 50px;    -moz-column-gap:
+50px;    column-gap: 50px;        } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/vdnRk/1/embedded/css,result,html"></iframe>
 
 **column-gap**’in güzelliği son kolona bu boşluğu uygulamıyor olması.
@@ -178,9 +185,10 @@ ile benzer bir yapısı var. **column-rule-size,
 column-rule-style**ve**column-rule**-color gibi ayrı ayrı tanımlama
 yapılabileceği gibi **column-rule** kısaltması ile tanım yapabiliyoruz.
 
-[css] #cokluKolon{    -webkit-column-rule: 3px solid #000;
+	:::css
+	 #cokluKolon{    -webkit-column-rule: 3px solid #000;
    -moz-column-rule: 3px solid #000;    column-rule: 3px solid
-#000;        } [/css]
+#000;        } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/3SMhX/embedded/css,result,html"></iframe>
 
 **column-gap** gibi sadece aradaki kolonlara uygulanan bir özellik bu
@@ -255,8 +263,9 @@ sayısı 2,3,4 vs.) all değeri tüm kolonlar boyunca başlığın uzaması içi
 kullanılır. Sayı değerleri ise belirtilen sayıdaki kolonlarda uzamasını
 için kullanılır.
 
-[css] #cokluKolon h2{ -webkit-column-span:all; -moz-column-span:all;
-column-span:all; background-color:#0CF; } [/css]
+	:::css
+	 #cokluKolon h2{ -webkit-column-span:all; -moz-column-span:all;
+column-span:all; background-color:#0CF; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/x6B67/embedded/css,result,html"></iframe>
 
 Şu anda destekleyen tarayıcılar **all ve none** değerlerini destekliyor

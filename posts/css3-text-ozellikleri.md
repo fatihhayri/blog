@@ -30,7 +30,8 @@ lobortis. Donec odio nisl, vehicula vitae molestie ac, euismod ac nibh.
 
 CSS kodu
 
-[css] #link{ width:150px; border:1px solid #999; } [/css]
+	:::css
+	 #link{ width:150px; border:1px solid #999; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/AdWMx/embedded/result,html,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 **word-wrap** ile bu uzun kelimeyi aşağı atarak sayfadaki patlaklığı
@@ -101,8 +102,9 @@ desteği mevcut.
 Tanım yaparken ilk olarak yazı tipinin rengini yaparız, sonrada dış hat
 çizgisini tanımlarız.
 
-[css] font:bold 24px Arial, Helvetica, sans-serif; color: #c00;
--webkit-text-stroke: 1px #000; [/css]
+	:::css
+	 font:bold 24px Arial, Helvetica, sans-serif; color: #c00;
+-webkit-text-stroke: 1px #000; 
 
 <iframe style="width: 100%; height: 300px"
 src="http://jsfiddle.net/fatihhayri/3dsPG/embedded/"
@@ -116,9 +118,10 @@ Dış Çizgili ve Saydam zeminli Yazı Tipleri Oluşturmak
 Saydam zeminli yazı tipleri tanımlamak için **text-fill-color**
  özelliği kullanılır.
 
-[css] ont:bold 24px Arial, Helvetica, sans-serif; color: #c00;
+	:::css
+	 ont:bold 24px Arial, Helvetica, sans-serif; color: #c00;
 -webkit-text-stroke: 1px #000; -webkit-text-fill-color: transparent;
-[/css]
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/yWWbb/embedded/css,html,result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 <div class="tarayiciuyum">
@@ -164,7 +167,8 @@ ile aynı etkiyi yapar.
 justify uygulanmış bir metnin son satırının sağa yaslı olmasını
 istiyorsak
 
-[css] p { text-align: justify; -ms-text-align-last: right; } [/css]
+	:::css
+	 p { text-align: justify; -ms-text-align-last: right; } 
 
 ![][]
 
@@ -193,7 +197,8 @@ davranacaktır ancak farklı olarak sonuna üç nokta(...) koyacaktır.
 CSS3 ile birlikte üç nokta yerine kendi istediğimiz özel karkateri cümle
 satır sonuna ekleyebiliyoruz.
 
-[css] p { text-overflow: 'herhangibirsey'; } [/css]
+	:::css
+	 p { text-overflow: 'herhangibirsey'; } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  

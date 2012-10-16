@@ -93,13 +93,15 @@ tutarlılığı korumamızı sağlayacaktır. Benim seçtiğim renkler:
 
 CSS kodunu yazmaya başlayalım:
 
-[css] body { font: normal 11px auto "Trebuchet MS", Verdana, Arial,
-Helvetica, sans-serif; } #golKrallari { width: 700px; } [/css]
+	:::css
+	 body { font: normal 11px auto "Trebuchet MS", Verdana, Arial,
+Helvetica, sans-serif; } #golKrallari { width: 700px; } 
 
 Tablonun başlığını(**<caption>**) düzenleyelim
 
-[css] caption { padding: 0 0 5px 0; font: 14px "Trebuchet MS", Verdana,
-Arial, Helvetica, sans-serif; text-align: right; } [/css]
+	:::css
+	 caption { padding: 0 0 5px 0; font: 14px "Trebuchet MS", Verdana,
+Arial, Helvetica, sans-serif; text-align: right; } 
 
 Daha sonra kolon başlıklarını **<th>** kodlayalım. Burada başlıkların
 daha güzel görünmesi için kolon başlıklarının zeminine degradeli bir
@@ -107,13 +109,14 @@ zemin resmi koyalım. Ayrıca kolon ve satır başlıklarının birleştiği sol
 üst hücreyi diğerlerinden ayıracak(**.bgYok**) bir zemin resmi ve rengi
 olmadan kodlayalım:
 
-[css] th { font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica,
+	:::css
+	 th { font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica,
 sans-serif; color: #474747; border-bottom:1px solid #E0E0E0;
 border-right:1px solid #E0E0E0; border-top:1px solid #E0E0E0;
 letter-spacing: 2px; text-align: left; padding: 6px; background:
 #F3F3F3 url(images/tablo_baslik_zr.gif) repeat-x; } th.bgYok {
 border-top: 0; border-left: 0; border-right: 1px solid #E0E0E0;
-background: none; } [/css]
+background: none; } 
 
 ![][3]
 
@@ -129,35 +132,39 @@ Burada ikonlardan farklı olanın bordo-mavi olması ve bu satırın Fatih
 Tekke'ye denk gelmesi tamamen bir rastlantı dır :-)
 
 </div>
-[css] th.baslikIki { border-left: 1px solid #E0E0E0; border-top: 0;
+	:::css
+	 th.baslikIki { border-left: 1px solid #E0E0E0; border-top: 0;
 padding-left:25px; background: #fff url(images/top2.gif) 5px no-repeat;
 } th.baslikBir { border-left: 1px solid #E0E0E0; border-top: 0;
 padding-left:25px; background: #F3F3F3 url(images/top.gif) 5px
-no-repeat; } [/css]
+no-repeat; } 
 
 Veri içeren hücreler içinde kenarlık, zemin rengi, font rengi ve padding
 tanımlaması yapalım ve burada da birbirini takip eden satırlar için
 farklı renk uygulamasını yapalım. Bunun için bir sınıf
 oluşturup(**.tabloZRFark**) farklı satırlara atayalım.
 
-[css] td { border-bottom:1px solid #E0E0E0; border-right:1px solid
+	:::css
+	 td { border-bottom:1px solid #E0E0E0; border-right:1px solid
 #E0E0E0; background: #fff; padding: 6px; color: #474747; font:11px
 "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; } td.tabloZRFark
-{ background: #F3F3F3; color: #474747; } [/css]
+{ background: #F3F3F3; color: #474747; } 
 
 Tablonun alt kısmı içinde aşağıdaki kodu yazalım:
 
-[css] tfoot tr td{ text-align:right; border-left:1px solid #e0e0e0;
+	:::css
+	 tfoot tr td{ text-align:right; border-left:1px solid #e0e0e0;
 border-bottom:2px solid #e0e0e0; font:italic 9px "Trebuchet MS",
-Verdana, Arial, Helvetica, sans-serif; } [/css]
+Verdana, Arial, Helvetica, sans-serif; } 
 
 ![][4]
 
 Son olarak farenin imleci üzerine gelen satırın zemin rengini
 değiştirerek okunurluluğu arttırmak için aşağıdaki kodları yazalım:
 
-[css] #golKrallari tr.uzerineGelince td, #golKrallari
-tr.uzerineGelince th{ background:#474747; color:#f3f3f3; } [/css]
+	:::css
+	 #golKrallari tr.uzerineGelince td, #golKrallari
+tr.uzerineGelince th{ background:#474747; color:#f3f3f3; } 
 
 fare imlecinin satır üzerine geldiğinde çalışacak javascript kodu:
 
@@ -187,8 +194,9 @@ false} [/javascript]
 
 ile
 
-[css] #golKrallari tr.uzerineGelince td, #golKrallari
-tr.uzerineGelince th{ background:#474747; color:#f3f3f3; } [/css]
+	:::css
+	 #golKrallari tr.uzerineGelince td, #golKrallari
+tr.uzerineGelince th{ background:#474747; color:#f3f3f3; } 
 
 aynı olması. Evet tablomuz sona erdi.
 

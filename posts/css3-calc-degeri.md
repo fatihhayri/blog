@@ -22,8 +22,9 @@ geleceğiz.
 Genelde esnek yapılı alanlar ve sayfa düzeni oluştururken göreceli değer
 ve sabit margin, padding ve border tanımları ile sorun yaşarız.   
 
-[css] #sagKolon{ width:calc(300px - 1em); width:-moz-calc(300px - 1em);
-float:left; background-color:#CC9933; } [/css]
+	:::css
+	 #sagKolon{ width:calc(300px - 1em); width:-moz-calc(300px - 1em);
+float:left; background-color:#CC9933; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/VaBqn/3/embedded/css,result,html"></iframe>
 
 Firefox önek(**-moz-**) ile bu değeri desteklerken İnternet Explorer
@@ -34,12 +35,14 @@ olacaktır.
 
 Birden fazla işlem içinde kullanıma izin vardır.  
 
-[css] div { width: calc(100% - 20px + 2px*2); } [/css]
+	:::css
+	 div { width: calc(100% - 20px + 2px*2); } 
 
 İşlem sırası matematik ve javascriptten bildiğimiz gibi çarpma, bölme,
 mod, toplama , çıkarma sıralaması ile olur.  
 
-[css] p { margin: calc(1rem - 2px) calc(1rem - 1px) } [/css]
+	:::css
+	 p { margin: calc(1rem - 2px) calc(1rem - 1px) } 
 
 şeklinde margin üst/alt ve sağ/sol tanımları yapılabilir.   
 

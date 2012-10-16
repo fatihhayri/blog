@@ -33,13 +33,15 @@ Aldığı değerler
 Yazı akışının soldan sağa doğru değilde sağdan sola doğru olmasını
 css'in bu özelliği ile sağlayabiliyoruz.
 
-[css] body{ direction:rtl } [/css]
+	:::css
+	 body{ direction:rtl } 
 
 body elemanına vererek tüm siteyi sağdan sola doğru akmasını
 sağlayabildiğimiz gibi, sadece bir eleman ve içeriğinide sağdan sola
 doğru akmasını sağlayabiliyoruz.
 
-[css] div#deneme{ direction:rtl } [/css]
+	:::css
+	 div#deneme{ direction:rtl } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:**  

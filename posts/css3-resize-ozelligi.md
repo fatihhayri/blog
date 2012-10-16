@@ -22,8 +22,9 @@ hücreleri ve inline block elementler
 **none:** boyutlandırma seçeneğini kaldırır  
 **inherit:** kalıtsal olarak bu değeri üst elementten alır.
 
-[css] div{ overfloaw:auto; /* bu tanim gerekli */ resize:both; }
-[/css]
+	:::css
+	 div{ overfloaw:auto; /* bu tanim gerekli */ resize:both; }
+
 
 overflow değeri scroll, auto veya hidden değerlerinde etki ederken
 overflow: visible tanımında ise etki yapmaz.
@@ -35,16 +36,18 @@ kaldırabiliyoruz.
 
 Bir örnek yapalım
 
-[css] .icerik{ box-shadow: rgb(136, 136, 136) 5px 5px 5px;
+	:::css
+	 .icerik{ box-shadow: rgb(136, 136, 136) 5px 5px 5px;
 border-radius: 5px; resize: both; overflow: auto; border: 1px solid
-#dedede; padding:10px; width: 300px; height: 200px; } [/css]
+#dedede; padding:10px; width: 300px; height: 200px; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/aDnP6/3/embedded/result,css,html"></iframe>
 
 Sadece bir yöne boyutlandırabiliyoruz
 
-[css] .siir{ width: 170px; height: 200px; resize: vertical; overflow:
+	:::css
+	 .siir{ width: 170px; height: 200px; resize: vertical; overflow:
 hidden; position: relative; padding: 0 25px; border: 1px solid #DDD;
-font-family: georgia, serif; } [/css]
+font-family: georgia, serif; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/k2wHc/2/embedded/result,css,html"></iframe>
 
 min-height ve min-width değerleri ile boyutlandırmanın minimum
@@ -52,17 +55,19 @@ değerlerini belirleyebiliyoruz. Anı şekilde max-height ve max-width
 değerleri ile de maksimum değerleri belirlenebilir. Bu özelliklerle
 kullanıcının sayfa görünümünü bozmasını engelleyebiliriz.  
 
-[css] .siir{ width: 170px; height: 200px; resize: vertical; overflow:
+	:::css
+	 .siir{ width: 170px; height: 200px; resize: vertical; overflow:
 hidden; position: relative; padding: 0 25px; border: 1px solid #DDD;
 font-family: georgia, serif; max-height: 650px; min-height: 200px; }
-[/css]
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/yLZDQ/embedded/result,css,html"></iframe>
 
 Resimler için güzel bir uygulama olabilir.
 
-[css] .vasak{ width: 200px; margin: 0 10px; height: 150px; resize: both;
+	:::css
+	 .vasak{ width: 200px; margin: 0 10px; height: 150px; resize: both;
 overflow: hidden; position: relative; padding: 15px; border: 1px solid
-#DDD; } .vasak img{ width:100%; height:auto; } [/css]
+#DDD; } .vasak img{ width:100%; height:auto; } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/Xk3Gr/1/embedded/result,css,html"></iframe>
 
 </p>

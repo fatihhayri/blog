@@ -61,14 +61,16 @@ editörleri kullananların alışık olduğu bir kullanımı vardır.
 CSS3 renk geçişinin dezavantajlarından birisi farklı tarayıcılar için
 farklı kod yazma gereksinimidir.
 
-[css] background-image: linear-gradient(<point> || <angle>,]?
+	:::css
+	 background-image: linear-gradient(<point> || <angle>,]?
 <stop>, <stop> [, <stop>]*
-)</stop></stop></stop></angle></point> [/css]
+)</stop></stop></stop></angle></point> 
 
 Kod yukarıdaki gibi standartlaşsa da farklı tarayıcılar için farklı kod
 yazmamız gerekir. Doğrusal renk geçişi kodunun en basit hali.
 
-[css] background: linear-gradient(#fff,#f8b500); [/css]
+	:::css
+	 background: linear-gradient(#fff,#f8b500); 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/txQsL/embedded/result,css,html"></iframe>
 
 Renk geçişi en basit hali ile iki renk arasındaki geçiştir. Yukarıdaki
@@ -86,7 +88,8 @@ Yukarıdaki basit kodlamada renkleri yazdık ama açısını, yönünü
 belirlemedik. Yukarıdan aşağı, sağdan sola vd. gibi yönleri açı ile
 belirleyebiliriz. Yukarıdaki örnek için kodumuz şu şekilde değişecek
 
-[css] background-image: linear-gradient(top,#fff,#f8b500); [/css]
+	:::css
+	 background-image: linear-gradient(top,#fff,#f8b500); 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/d5Feg/embedded/result,css,html"></iframe>
 
 İlk rengin nereden başlayacağını belirledik ve virgül ile diğer
@@ -101,7 +104,8 @@ tanımları açı ile de yapabiliriz. 0deg(sol); 90deg(alt); 180deg(sağ);
 
 Yukarıdaki tanımı birde dereceli yapalım.
 
-[css] background-image: linear-gradient(270deg,#fff,#f8b500); [/css]
+	:::css
+	 background-image: linear-gradient(270deg,#fff,#f8b500); 
 
 Tabi açı olarak istediğimiz değeri vererek farklı renk geçişlerini de
 elde edebiliriz.
@@ -122,16 +126,18 @@ güzel renk geçişleri oluşturmamıza yardımcı olur.
 Durma noktalarınıda eklersek yukarıdaki kodumuz aşağıdaki gibi
 olacaktır.
 
-[css] background-image: linear-gradient(top,#fff 0%,#f8b500 100%);
-[/css]
+	:::css
+	 background-image: linear-gradient(top,#fff 0%,#f8b500 100%);
+
 
 Renk sıfır noktasından(0%) başlıyor ve son noktada(100%) geçiş bitiyor.
 
 Benzer şekilde araya renk ekleyebilir ve orta noktalardan başlayıp
 bitirebiliriz.
 
-[css] background: linear-gradient(top, #ffb76b 0%,#ffa73d 50%,#ff7c00
-51%,#ff7f04 100%); [/css]
+	:::css
+	 background: linear-gradient(top, #ffb76b 0%,#ffa73d 50%,#ff7c00
+51%,#ff7f04 100%); 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/jXLF6/embedded/result,css,html"></iframe>
 
 Görüldüğü gibi uygulanan renk geçişine ortada başka renkler eklenerek
@@ -156,8 +162,9 @@ da yararlanabiliriz.
 arasında değer alır, 0 etkisiz kılarken 1 değeri bize katı bir renk
 verir.
 
-[css] background: linear-gradient(top, rgba(255,255,255,1)
-0%,rgba(255,255,255,0) 100%); [/css]
+	:::css
+	 background: linear-gradient(top, rgba(255,255,255,1)
+0%,rgba(255,255,255,0) 100%); 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/3mdBt/2/embedded/result,css,html"></iframe>
 
 ### Renk Geçişi Tekrarı
@@ -166,8 +173,9 @@ Tanımladığımız renk geçişinin belli aralıklarla tekrarını sağlar. Bun
 için ayrı bir kod yazarız, ancak mantık doğrusal renk geçişi ile
 aynıdır.
 
-[css] background-image: repeating-linear-gradient(0deg,#f8b500,#FEF4B6
-20px, #f8b500 40px); [/css]
+	:::css
+	 background-image: repeating-linear-gradient(0deg,#f8b500,#FEF4B6
+20px, #f8b500 40px); 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/X8mK7/2/embedded/result,css,html"></iframe>
 
 repeating-linear-gradient özelliği linear-gradient ile benzer kullanıma
@@ -188,9 +196,10 @@ Renk geçişi background-images özelliğine atanıyor, background-images
 özelliği CSS3 ile birlikte çoklu kullanıma izin vermektedir. Aynı
 şekilde bir elamana birden fazla renk geçişi eklememizede izin veriyor.
 
-[css] background-image: linear-gradient(left top, #FF9900, #FF0000,
+	:::css
+	 background-image: linear-gradient(left top, #FF9900, #FF0000,
 transparent), -moz-linear-gradient(right top, #FF9900, #FF0000,
-transparent); [/css]
+transparent); 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/Fr4tq/2/embedded/result,css,html"></iframe>
 
 Yapmamız gerek sadece iki tanım arasını virgül ile ayırmak. Üst üste
@@ -224,8 +233,9 @@ renk geçişi bize özel şekil(daire ve elips) oluşturma imkanı verir.
 İnternet Explorer 10’nuncu sürümü hariç desteklemediği için
 uygulanabilirliği azalıyor. Uygulamak için beklememiz gerekiyor
 
-[css] radial-gradient( [<position> || <angle>,]? [<shape> ||
-<size>,]? <stop>, <stop>[, <stop>]* ) [/css]
+	:::css
+	 radial-gradient( [<position> || <angle>,]? [<shape> ||
+<size>,]? <stop>, <stop>[, <stop>]* ) 
 
 **position(konum):**background-position ile aynı şekilde yorumlanır.
 Başlangıç değeri center dir.
@@ -272,7 +282,8 @@ Bu terimleri uygulayarak daha iyi öğreneceğimizi düşünüyorum.
 
 En basit radyal renk geçişi
 
-[css] radial-gradient(circle farthest-side, #ff9900, #ff0000) [/css]
+	:::css
+	 radial-gradient(circle farthest-side, #ff9900, #ff0000) 
 
 [![][3]][]
 
@@ -289,8 +300,9 @@ En basit radyal renk geçişi
 Doğrusal renk geçişinde olduğu gibi radyal renk geçişinde de birden
 fazla renk eklemek için durma noktaları oluşturabiliyoruz.
 
-[css] radial-gradient(circle farthest-side, #FF9900, #FF0000,
-#FF9900); [/css]
+	:::css
+	 radial-gradient(circle farthest-side, #FF9900, #FF0000,
+#FF9900); 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/cfWpd/1/embedded/result,css,html"></iframe>
 
 <div class="tarayiciuyum">
@@ -304,8 +316,9 @@ fazla renk eklemek için durma noktaları oluşturabiliyoruz.
 Doğrusal renk geçişinde olduğu gibi tanımladığımız renk geçişlerini ufak
 bir özellik ismi değişimi ile tekrarını sağlayabiliyoruz.
 
-[css] repeating-radial-gradient(#FF9900, #FF9900 5px, #FF0000 5px,
-#FF0000 10px); [/css]
+	:::css
+	 repeating-radial-gradient(#FF9900, #FF9900 5px, #FF0000 5px,
+#FF0000 10px); 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/HgBCv/embedded/result,css,html"></iframe>
 
 Firefox3.6 ile birlikte gelen bu özelliği webkit desteklemeye başladı
@@ -323,10 +336,11 @@ muhtemelen gelecektir.
 Doğrusal renk geçişinde olduğu gibi kullanımı vardır. İki tanım arasına
 virgül konularak uygulanır.
 
-[css] background-image: radial-gradient(20% 50%, circle contain,
+	:::css
+	 background-image: radial-gradient(20% 50%, circle contain,
 #FF0000, #FF9900 95%, transparent), radial-gradient(50% 50%, circle
 contain, #FF0000, #FF9900 95%, transparent), radial-gradient(80%
-50%,circle contain, #FF0000, #FF9900 95%,transparent); [/css]
+50%,circle contain, #FF0000, #FF9900 95%,transparent); 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/HU7ym/embedded/result,css,html"></iframe>
 
 <div class="tarayiciuyum">

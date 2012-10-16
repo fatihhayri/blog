@@ -39,9 +39,10 @@ her takım için konum bulmak çok zor olur.
 
 İlk olarak tekrarı engellemek için genel bağlantıya tanımımızı yapalım
 
-[css]a.takimLogo{ display:block;
+	:::css
+	a.takimLogo{ display:block;
 background:url(../images/takim_logolari.gif) right 0 no-repeat;
-padding:8px 30px 8px 0; color:#0c2b90; text-decoration:underline}[/css]
+padding:8px 30px 8px 0; color:#0c2b90; text-decoration:underline}
 
 ![][1]
 
@@ -52,8 +53,9 @@ tercih ettim.
 
 [![][2]][]
 
-[css]div#icerikAlani table td div.logoTrabzon{ background-position:-3px
--107px}[/css]
+	:::css
+	div#icerikAlani table td div.logoTrabzon{ background-position:-3px
+-107px}
 
 Yukarı aşağı tuşları yardımı ile bulduğumuz değeri(-107px)
 background-position değeri olarak tanımlıyoruz.

@@ -26,12 +26,13 @@ eksilerinide bahsedip son kararı sizin vermenizi isteyeceğim.
 [font-face kullanımını][] anlattığım makalemi okuyarak yazıları sitelere
 nasıl gömdüğümüzü öğrenebilirsiniz.
 
-[css] @font-face { font-family: 'Graublau Web'; src:
+	:::css
+	 @font-face { font-family: 'Graublau Web'; src:
 url('GraublauWeb.eot'); src: local('Graublau Web Regular'),
 local('Graublau Web'), url('GraublauWeb.woff') format('woff'),
 url('GraublauWeb.svg#GraublauWeb') format('svg'),
 url('GraublauWeb.otf') format('opentype'); font-weight: normal;
-font-style: normal; } p { font-family: "Graublau Web", serif; } [/css]
+font-style: normal; } p { font-family: "Graublau Web", serif; } 
 
 şeklinde genel kullanımı göstermiştik. Benzer bir şekilde bir şekilli
 yazı tipi ekleyip ikon ekleyebiliriz.
@@ -41,20 +42,22 @@ sitelerden ücretsiz web ikonlarını alalım.
 
 ![][]
 
-[css] @font-face { font-family: 'ModernPictogramsNormal'; src:
+	:::css
+	 @font-face { font-family: 'ModernPictogramsNormal'; src:
 url('modernpics-webfont.eot'); src:
 url('modernpics-webfont.eot?#iefix') format('embedded-opentype'),
 url('modernpics-webfont.woff') format('woff'),
 url('modernpics-webfont.ttf') format('truetype'),
 url('modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
-font-weight: normal; font-style: normal; } [/css]
+font-weight: normal; font-style: normal; } 
 
 kodu ile yazı tipini sayfamızda çağırmış olduk. Menü elemanlarının her
 biri için seçtiğimiz ikonları atamak için ilgili elemanın
 öncesine(:before) yazı tipinde ilgili ikonu ifade eden harfi ekliyoruz.
 
-[css] li#alisveris a:before{ font:24px "ModernPictogramsNormal";
-content:"i"; color:#f00; padding-right:5px; } [/css]
+	:::css
+	 li#alisveris a:before{ font:24px "ModernPictogramsNormal";
+content:"i"; color:#f00; padding-right:5px; } 
 
 Alışveriş için seçtiğimiz sepet ikonun “i” harfi ile ifade edildiği için
 “i” harfini ekledik. Kodu biraz daha düzenli yazarsak.
@@ -103,20 +106,22 @@ silip sadece ikonu bırakarak yazı tipi dosya boyutunu küçültebiliriz.
 
 Bağlantısından küçük dosyayı indirebilirsiniz.
 
-[css] @font-face { font-family: 'AbakuTLSymSansRegular'; src:
+	:::css
+	 @font-face { font-family: 'AbakuTLSymSansRegular'; src:
 url('abakutlsymsans.eot'); src: url('abakutlsymsans.eot?#iefix')
 format('embedded-opentype'), url('abakutlsymsans.woff') format('woff'),
 url('abakutlsymsans.ttf') format('truetype'),
 url('abakutlsymsans.svg#AbakuTLSymSansRegular') format('svg');
-font-weight: normal; font-style: normal; } [/css]
+font-weight: normal; font-style: normal; } 
 
 [![][3]][]
 
 Şeklinde sayfaya ekledik. Sembol olunca rakamların başına konuyor. araya
 biraz da mesafe koyalım.(padding-right:5px bunun için)
 
-[css] p:before{ font-family: "AbakuTLSymSansRegular", serif;
-font-size:24px; content:"t"; padding-right:5px; } [/css]
+	:::css
+	 p:before{ font-family: "AbakuTLSymSansRegular", serif;
+font-size:24px; content:"t"; padding-right:5px; } 
 
 ile sayfamıza ekledik.
 

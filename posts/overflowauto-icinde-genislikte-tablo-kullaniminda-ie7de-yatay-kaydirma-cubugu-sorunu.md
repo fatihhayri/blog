@@ -35,7 +35,8 @@ dictumst.</td> <td>Sed sed leo elit, eu ultricies metus. </td>
 
 CSS Kodu
 
-[css] #kapsul{ width:40%; height:150px; overflow:auto} [/css]
+	:::css
+	 #kapsul{ width:40%; height:150px; overflow:auto} 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -71,8 +72,9 @@ platea dictumst.</td> <td>Sed sed leo elit, eu ultricies metus.
 
 CSS kodu
 
-[css] #kapsul{ width:40%; height:150px; zoom:1; overflow:auto;}
-#kapsulIci{zoom:1; } [/css]
+	:::css
+	 #kapsul{ width:40%; height:150px; zoom:1; overflow:auto;}
+#kapsulIci{zoom:1; } 
 
 Örneği görmek için [tıklayınız.][1]
 

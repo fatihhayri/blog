@@ -18,9 +18,10 @@ CSS3 geliştiricileri bu sorunu gördü ve çözüm üretildi. CSS3 background
 tanımında birden fazla resim tanımlamamıza izin veriyor. Birden fazla
 tanımı yapmak için aralarına virgül koyuyoruz.
 
-[css] background: url(image_1.jpg) top right no-repeat,
+	:::css
+	 background: url(image_1.jpg) top right no-repeat,
 url(image_2.gif) bottom right no-repeat, url(image_2.png) bottom right
-no-repeat; [/css]
+no-repeat; 
 
 **Browser Uyumu:**  
 Internet Explorer 9+  
@@ -49,12 +50,13 @@ Yapılı Butonlar yöntemi birde yeni bu tanım ile yapalım.
 
 CSS kodumuz
 
-[css] body { background-color:#363636 } a { display:block; font:bold
+	:::css
+	 body { background-color:#363636 } a { display:block; font:bold
 14px Arial, Helvetica, sans-serif; color:#363636; float:left;
 padding:5px 14px 0 14px; height:23px; text-decoration:none;
 background:url(cancanli_butonlar_ard_.gif) left top no-repeat,
 url(cancanli_butonlar_ard_.gif) right -58px no-repeat,
-url(cancanli_butonlar_ard_.gif) center -29px repeat-x } [/css]
+url(cancanli_butonlar_ard_.gif) center -29px repeat-x } 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -102,14 +104,15 @@ Rumi</cite> [/html]
 
 CSS kodu
 
-[css] blockquote { width: 224px; margin:0; padding:30px 12px 0 12px;
+	:::css
+	 blockquote { width: 224px; margin:0; padding:30px 12px 0 12px;
 color: #fff; text-align:center; font:bold 14px/1.7em Georgia, "Times
 New Roman", Times, serif; background: url(images/alinti_ard.gif) -490px
 0 no-repeat, url(images/alinti_ard.gif) -242px bottom repeat-y; } cite{
 font-size: 1.2em; padding-bottom:29px; display:block; text-align:center;
 color:#C6D9F1; text-decoration:underline; width:240px; background:
 url(images/alinti_ard.gif) no-repeat 1px bottom,
-url(images/alinti_ard.gif) -242px bottom repeat-y; } [/css]
+url(images/alinti_ard.gif) -242px bottom repeat-y; } 
 
 Aslında css kodumuz önceki koddan pek farkı yok. Farklı olan iki kısım
 var. background tanımları.
@@ -137,11 +140,12 @@ vitae rhoncus diam. </div> [/html]
 
 CSS kodu
 
-[css] #paralaks{ width:400px; height:180px; padding:5px;
+	:::css
+	 #paralaks{ width:400px; height:180px; padding:5px;
 background-image: url(images/cimen.png), url(images/agac.png),
 url(images/bulut.png), url(images/gokyuzu.png); background-repeat:
 repeat-x, no-repeat, repeat-x, repeat-x; background-position:0 0, 120px
-0, 0 0, 0 0; } [/css]
+0, 0 0, 0 0; } 
 
 Örneği görmek için [tıklayınız.][4]
 

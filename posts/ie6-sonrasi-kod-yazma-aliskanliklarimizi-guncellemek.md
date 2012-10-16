@@ -92,17 +92,19 @@ yazarken bile ie7’nin çıkmasını beklemişim.
 
 Basit Özellik Seçicisi
 
-[css] a [title] { color:#f00 } [/css]
+	:::css
+	 a [title] { color:#f00 } 
 
 Sadece title özelliği tanımlanmış bağlantı elementlerini yakalamamıza
 sağlar.
 
 **Özellik Değeri Seçicisi**
 
-[css] input[type="text"] {  border: 1px solid #177F75;
+	:::css
+	 input[type="text"] {  border: 1px solid #177F75;
  font-family:Verdana, Arial, Helvetica, sans-serif; }
 input[type="submit"]{  margin-left: 201px;  background-color: #00CC00;
-} [/css]
+} 
 
 Özellik değeri seçicisi daha fazla esneklik sağlar. Yukarıda örnekte
 görüldüğü gibi Form elemanlarını ayırmak zor oluyordu. Normal bir input
@@ -117,14 +119,16 @@ yazısında bu özelliğin bize ne kadar avantaj sağladığını görüyoruz.
 Bir etiketin özellik değerindeki boşluklarla ayrılmış kısımlarına göre
 tanımlama yapmamızı sağlar.
 
-[css] a[title~="Google"] { text-decoration:overline; } [/css]
+	:::css
+	 a[title~="Google"] { text-decoration:overline; } 
 
 **Dikkate Değer Özellik Seçicisi**
 
 Bir etiketin özellik değerindeki kesik çizgi(-) ile ayrılmış kısımlarına
 göre tanımlama yapmamızı sağlar.
 
-[css] *[lang|="en"] { color: red; } [/css]
+	:::css
+	 *[lang|="en"] { color: red; } 
 
 Bunların dışında CSS3 ile birlikte gelen Özellik seçicileride var. Daha
 gelişmiş özellikler ile gelen CSS3’ni de desteklemektedir. Makaleye
@@ -136,10 +140,11 @@ bunları yazmamışım bile ie6 desteklemiyor diye.
 
 Mesela web siteleri ile e-posta ayrımını yapmak için mesela
 
-[css] a[href^="http:"] { background:(&ldquo;baglanti.gif&rdquo;) 0 0
+	:::css
+	 a[href^="http:"] { background:(&ldquo;baglanti.gif&rdquo;) 0 0
 no-repeat; padding-left:15px; } a[href^="mailto:"] {
 background:(&ldquo;posta.gif&rdquo;) 0 0 no-repeat; padding-left:15px; }
-[/css]
+
 
 **Belirlenen Sözdizimi ile Biten Özellik Değer Seçicisi**
 
@@ -148,7 +153,8 @@ background:(&ldquo;posta.gif&rdquo;) 0 0 no-repeat; padding-left:15px; }
 Mesela farklı dosya tiplerine verilen bağlantıları ayırt etmek için
 bağlantıların başına ikon koymak istediğimizde
 
-[css] a[href$='.pdf'] {     display:inline-block;    
+	:::css
+	 a[href$='.pdf'] {     display:inline-block;    
 padding-left:20px;     line-height:18px;     background:transparent
 url(/Images/PDFIcon.gif) center left no-repeat; } a[href$='.doc'] {    
 display:inline-block;     padding-left:20px;     line-height:18px;    
@@ -156,14 +162,15 @@ background:transparent url(/Images/WordDocIcon.gif) center left
 no-repeat; } a[href$='.zip'], a[href$='.gzip'], a[href$='.rar'] {    
 display:inline-block;     padding-left:20px;     line-height:18px;    
 background:transparent url(/Images/ZIPIcon.gif) center left no-repeat; }
-[/css]
+
 
 **İçinde Belirlenen Sözdizimi Geçen Özellik Değer Seçicisi**
 
 Özellik içeriğinde belirlenen değerin geçip geçmemesine göre ayırt
 etmemizi sağlar.
 
-[css] a[href*="example.com"] { color:#ff0 } [/css]
+	:::css
+	 a[href*="example.com"] { color:#ff0 } 
 
 Sadece özellik seçicileri değil ayrıca çocuk seçicileri, bitişik kardeş
 seçicisi, :first-child
@@ -175,7 +182,8 @@ istediğimizde kullandığımız seçici. Bir menüde liste elemanlarına
 tanımlama yaparken tüm alt elemanlara değilde sadece ilk menü liste
 elemanlarına etki yapmasını istediğimizde çok işimize yarar mesela
 
-[css] ul > li{ list-style:none } [/css]
+	:::css
+	 ul > li{ list-style:none } 
 
 Çocuk seçicisi bizi fazla kod yazmaktan korur. Mesela bir menü için
 tanımlama yaptığımızda eğer menünün alt elemanlarına farklı stiller
@@ -197,7 +205,8 @@ belirtilen elemandan sonraki aynı seviyedeki elemanları seçmek için
 kullanılır. Seçici işareti olarak elemanlar arasına tilde(~) işareti
 konulur.
 
-[css] E ~ F {} [/css]
+	:::css
+	 E ~ F {} 
 
 Bitişik kardeş seçicisine göre daha avantajlı bir seçicidir. Burada
 dikkat edilmesi gereken bir durum vardır oda genel kardeş seçicisi
@@ -208,7 +217,8 @@ Bir örnek yapacak olursak bir resmimiz var bunu sola hizalayacağız ve
 sağdanda metinler akacak. Bu resim ve paragraflar arasına padding
 tanımlamak için genel kardeş seçicisi birebirdir.
 
-[css] img{     float:left; } img ~ p{     padding-left:110px; } [/css]
+	:::css
+	 img{     float:left; } img ~ p{     padding-left:110px; } 
 [html] <img src="kedi.jpg" width="96" height="96" alt="kedi" />
 <p>Kedi (Felis catus),...</p> <p>2,5 ile 12 kilo ...</p>
 <p>Kediler hoş görünüşlü, ..</p> [/html]
@@ -225,14 +235,16 @@ itibaren destekliyor.
 Mesela bir listemiz olsun yanyana sıraladığımız aralarında 10px’lik
 mesafelerin olduğu biz eğer tanımı
 
-[css] ul li{ margin-right:10px } [/css]
+	:::css
+	 ul li{ margin-right:10px } 
 
 şeklinde yaparsak listenin son elemanı sonrasınada 10px atayacaktır ve
 bu sorun olacaktır. Biz first-child seçicisini de düşünerek kodumuzu
 şöyle değiştirelim.
 
-[css] ul li{ margin-left:10px } ul li:first-child{ margin-left:0 }
-[/css]
+	:::css
+	 ul li{ margin-left:10px } ul li:first-child{ margin-left:0 }
+
 
 Evet sağ margin yerine sol margin verdik ama first-child ile
 istediğimizi elde ettik.
@@ -251,7 +263,8 @@ Ancak artık js kullanmadan açılır menüler yapabileceğiz. Tabi sadece
 menü değil tüm html elementlerinde :hover sahte sınıfını
 kullanabileceğiz.
 
-[css] ul li ul{ display:none } ul li:hover ul{ display:block } [/css]
+	:::css
+	 ul li ul{ display:none } ul li:hover ul{ display:block } 
 
 kodu kısaca bize menü oluşturma imkanı veriyor. liste öğesine bu şekilde
 yapılan tanımlarda alt menüye geçildiğinde ve üzerinde iken üst menüde
@@ -260,7 +273,8 @@ seçili görünecektir ve buda kullanıcı dostu bir görünüm sağlayacaktır.
 Ayrıca diğer alanlarda :hover kullanarak js olmadan gizle-göster yapma
 imkanımız var artık.
 
-[css] div > p{ display:none } div:hover > p{ display:block } [/css]
+	:::css
+	 div > p{ display:none } div:hover > p{ display:block } 
 
 :hover sahte seçicisinin nimetlerinden yaralanmayı unutmayın. Menülere
 özgürlük. Gizel-Göster CSS
@@ -304,15 +318,17 @@ değerlerini içerir kalan kısmıda içerik alanı değeri olarak belirlenir.�
 
 Bundan dolayı
 
-[css] #icerik{    width:230px;    padding:10px;    border:5px solid
+	:::css
+	 #icerik{    width:230px;    padding:10px;    border:5px solid
 #000; /* Bundan sonraki kısmı ie5win sakla */    voice-family:
 ""}"";    voice-family:inherit;    width:200px; } html>body
-#icerik {    width:200px; } [/css]
+#icerik {    width:200px; } 
 
 şeklinde bir css çözümü veya
 
-[css] #icerik{ width:200px; _width:230px; padding:10px; border:5px
-solid #000; } [/css]
+	:::css
+	 #icerik{ width:200px; _width:230px; padding:10px; border:5px
+solid #000; } 
 
 çözüm üretiyorduk. Yoksa sitemiz ie6’da yamuk görünüyordu. Bloklar aşağı
 kaçıyor hiç istemidiğimiz görüntüler ortaya çıkıyordu. Ama artık çift
@@ -333,8 +349,9 @@ ie6 postion özelliğinin fixed değerini desteklemiyordu. Bizde çözüm için
 ie6 birden fazla sınıf içeren elemanlara bu iki sınıfı kullanarak
 tanımlama yaptığımızda bunu görmüyordu.
 
-[html] <div class="liste onemli">    ... </div> [/html] [css]
-div.liste.onemli {    ... } [/css]
+[html] <div class="liste onemli">    ... </div> [/html] 	:::css
+	
+div.liste.onemli {    ... } 
 
 Tanımı yaptığımızda ie6 burada .onemli için tanım yapmış gibi
 davranıyordu. Artık daha kolay seçim yapabileceğiz. Ufak ama güzel bir

@@ -25,11 +25,13 @@ sürümler için javascript ile çözüm üretilir.
 [Daha önceki makalemde][] bahsettiğim gibi medya sorgularının en basit
 hali
 
-[css] <link rel="stylesheet" media="screen" href="ornek.css"> [/css]
+	:::css
+	 <link rel="stylesheet" media="screen" href="ornek.css"> 
 
 veya
 
-[css] @media ornek.css screen; [/css]
+	:::css
+	 @media ornek.css screen; 
 
 şeklindedir.
 
@@ -158,7 +160,8 @@ sağlar. Örneğin (color) and (orientation: landscape) and
 (min-device-width: 800px) tanımı; Görüntüleyen aracın renkli, yatayda ve
 en az 800px genişliğinde ise css dokümanı uygulanır.
 
-[css] @media (min-width:450px) and (max-width:950px) [/css]
+	:::css
+	 @media (min-width:450px) and (max-width:950px) 
 
 Bu durumda ise; genişliği en az 450px ve en fazla 950px olan araçlarda
 uygulanır.
@@ -167,15 +170,17 @@ uygulanır.
 Sorguya negatif ifade katar. Sonuç eğer doğru ise css dosyası
 uygulanmaz.
 
-[css] @media not screen and (color) [/css]
+	:::css
+	 @media not screen and (color) 
 
 Bilgisayar ve renkli ekran olmayan durumlarda uygulanır.
 
 **only**  
 Sadece bu şartlar geçerli olduğunda uygula anlamınadır.
 
-[css] @media only screen and  (color) {    body {background:blue} }
-[/css]
+	:::css
+	 @media only screen and  (color) {    body {background:blue} }
+
 
 Sadece bilgisayar ve renkli ekranlar olduğunda css dokümanı uygulanır.
 
@@ -184,15 +189,17 @@ parametre medya tipini gösteriyor sonra operatör ve ikinci parametre
 medya özelliği tanımlanıyor. Medya özellikleri parantez içinde
 tanımlanıyor.
 
-[css] @media screen and (ozellik:deger) { } [/css]
+	:::css
+	 @media screen and (ozellik:deger) { } 
 
 **Birden fazla sorgu**
 
 Birden fazla medya tipi için virgül ile birden fazla sorgu
 yapabiliyoruz.
 
-[css] @import url(print-color.css) print and (color), projection and
-(color); [/css]
+	:::css
+	 @import url(print-color.css) print and (color), projection and
+(color); 
 
 Sorgulardan biri geçerli ise print-color.css dokümanı uygulanır. Renkli
 yazıcı veya renkli projektörden birisi ile açılırsa print-color.css
@@ -211,7 +218,8 @@ görüntülenecektir.
 Yukarıdaki örneklerde görüldüğü gibi medya sorgularında medya
 özellikleri parantez için tanımlanmaktadır. Genel kullanım;
 
-[css] @media media and (ozellik:deger) { } [/css]
+	:::css
+	 @media media and (ozellik:deger) { } 
 
 Genelde kullanılan medya özelliklerini inceleyelim.
 
@@ -221,7 +229,8 @@ Genişlik(width) değeri web sitesinin görüntüleyen aracın genişliğine
 göre tanım yapmamızı sağlar. Buradaki genişlik tarayıcının(kaydırma
 çubukları dahil) genişliğine eşittir.
 
-[css] @media screen and (width:480px) { } [/css]
+	:::css
+	 @media screen and (width:480px) { } 
 
 Yukarıdaki tanım 480px genişlikte görüntülemede uygulanacaktır.
 
@@ -229,13 +238,15 @@ Genişlik tanımının ayrıca iki adet önekli kullanımlarıda mevcuttur. max-
 ve min- ön ekleri ile sabit bir değeri değilde belli bir değer aralığını
 kontrol edebilme imkanına sahibiz.
 
-[css] @media screen and (max-width:480px) { } [/css]
+	:::css
+	 @media screen and (max-width:480px) { } 
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/77SMV/embedded/css,result"></iframe>
 
 ve
 
-[css] @media screen and (min-width:680px) { } [/css]
+	:::css
+	 @media screen and (min-width:680px) { } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/bhLFF/embedded/css,result"></iframe>
 
 İlk örnekte genişliği en fazla 480px olana kadar uygulanır, ikinci
@@ -253,16 +264,18 @@ genişlik aygıtın genişliğini tanımlar. Genişlik değerinde olduğu gibi
 aygıt genişliği tanımlarındada max- ve min- ön ekleri vardır. Kullanımı
 benzerdir
 
-[css] @media media and (device-width:1024px) { } @media media and
+	:::css
+	 @media media and (device-width:1024px) { } @media media and
 (max-device-width:320px) { } @media media and (min-device-width:800px) {
-} [/css]
+} 
 
 Mobil araçlar için web sitesi geliştirirken bize çok yardımı dokunur bu
 özelliğin mesela iPhone için web sitemizi uyarlamak istediğimizde
 işimize yarar.
 
-[css] /* iphone */ @media screen and (max-device-width: 480px) { body
-{ background: #f00; } } [/css]
+	:::css
+	 /* iphone */ @media screen and (max-device-width: 480px) { body
+{ background: #f00; } } 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/Z8BnJ/embedded/css,result"></iframe>
 
 şeklinde iphone kullanıcılarını yakalayabiliriz. Bilgisayarımızda
@@ -280,7 +293,8 @@ sergileme imkanı veren medya özelliğidir.
 Tablet bilgisayarlar için genelde tercih edilir. iPad için site
 geliştirirken dikkate almalıyız.
 
-[css] @media screen and (orientation: portrait) { } [/css]
+	:::css
+	 @media screen and (orientation: portrait) { } 
 
 İki değer almaktadır; landscape veya portrait. landscape değeri
 tarayıcınızın genişliği yüksekliğinden büyük ise uygulanır, portrait
@@ -305,8 +319,9 @@ kullanımıda mevcuttur.
 ürettiği farklı oranlar(16:10, 15:10 vb.) için sorgular oluşturulup bu
 araçlar için web sitesi yapmak daha kolay hale getirilebilir.
 
-[css] @media tv and (aspect-ratio:16/9) { } @media tv and
-(device-aspect-ratio:16/9) { } [/css]
+	:::css
+	 @media tv and (aspect-ratio:16/9) { } @media tv and
+(device-aspect-ratio:16/9) { } 
 
 **pixel-ratio**
 
@@ -323,16 +338,18 @@ Farklı tarayıcılarda farklı önek ile uygulanmaktadır. webkit için
 Firefox için -moz-device-pixel-ratio, min--moz-device-pixel-ratio,
 max--moz-device-pixel-ratio şeklinde uygulanır.
 
-[css] div { background-image: url('image-dusuk.png'); } @media screen
+	:::css
+	 div { background-image: url('image-dusuk.png'); } @media screen
 and (-webkit-min-device-pixel-ratio: 2) { background-image:
-url('image-yuksek.png'); background-size: 100% 100%; } [/css]
+url('image-yuksek.png'); background-size: 100% 100%; } 
 
 Şeklinde uygulanır. iPhone4 ile ön plana çıkan bu özellik yardımı ile
 iPhone4 ayrımıda yapılabilir.
 
-[css] /* iphone 4 */</li> @media only screen and
+	:::css
+	 /* iphone 4 */</li> @media only screen and
 (-webkit-min-device-pixel-ratio: 2) {
-background-image:url(yuksek_cozunurluklu_resim.png); } [/css]
+background-image:url(yuksek_cozunurluklu_resim.png); } 
 
 Bu medya özelliklerinin dışında color, min-color, max-color,
 color-index, min-color-index, max-color-index, monochrome,
@@ -366,12 +383,13 @@ yapılan yöntemi çalıştırabildim açıkçası.
 Bu sitedeki scripti sitenize eklediğinizde ie’nin eski sürümleri ile
 olan sorununuz çözlüyor.
 
-[css] <link rel="stylesheet" type="text/css" href="ana.css" media="only
+	:::css
+	 <link rel="stylesheet" type="text/css" href="ana.css" media="only
 screen and (max-width: 480px)" /> <!--[if lt IE 9]> <script
 type="text/javascript"
 src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 <script src="jquery.mediaqueries.js"
-type="text/javascript"></script> <![endif]--> [/css]
+type="text/javascript"></script> <![endif]--> 
 
 IE9 öncesi tarayıcılar için böyle bir ekleme yaparak sorunu çözebiliriz.
 

@@ -8,8 +8,9 @@ Explorer 7. sürümünden sonra desteklemeye başlamış, yani ie6’da
 desteklemiyor. Internet Explorer 6’nın son günlerini yaşadığımız bu
 günlerde küçük bir bilgilendirme olarak geçeceğim bu sorunun çözümünü.
 
-[css] ul li a{ border-right:1px solid #f00 } ul li a:hover{
-border-right:1px solid transparent; } [/css]
+	:::css
+	 ul li a{ border-right:1px solid #f00 } ul li a:hover{
+border-right:1px solid transparent; } 
 
 Ardalanında renk geçişi olan bir menüde menü elemanları arasında kenar
 çizgisi olduğunu farz edelim. Menünün seçili veya üzerine geldiğinde ise
@@ -17,8 +18,9 @@ bu kenar çizgini kaldıralım. Kenar çizgisini sıfırlamak kaymaya neden
 olur. Saydam kenar çizgisi vermek kolay ve güzel çözümlerden biridir.
 Peki ie6 için ne yapacağız.
 
-[css] *html ul li a:hover{ border-color: pink; filter:
-chroma(color=pink); } [/css]
+	:::css
+	 *html ul li a:hover{ border-color: pink; filter:
+chroma(color=pink); } 
 
 *** html** sadece ie6’nın göreceği bir seçici, ilk olarka bir kenar
 çizgisi tanımlıyoruz(pink - pembe) sonrada **chroma** filtresi ile pembe

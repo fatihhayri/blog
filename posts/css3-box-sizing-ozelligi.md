@@ -45,8 +45,9 @@ değerlerinin içerip içermemesi gerektiğini tanımlama imkanı sağlıyor.
     Genişlik veya yükseklik değeri padding ve border değerlerinide
     içerir.
 
-[css] #kutu{ display:block; border:10px solid #069; padding:20px;
-width:200px; height:200px; background:#CCC; } [/css]
+	:::css
+	 #kutu{ display:block; border:10px solid #069; padding:20px;
+width:200px; height:200px; background:#CCC; } 
 <iframe style="width: 100%; height: 400px" src="http://jsfiddle.net/fatihhayri/ZeMYW/1/embedded/result,css,html"></iframe>
 
 Başlangıç değeri content-box’dır. Kutu genişliği 10px + 20px + 200 + 20
@@ -56,9 +57,10 @@ Farklı tarayıcılar önek ile destek sağlamaktadır. Firefox(-moz-),
 Chrome(-webkit-) ve Safari (-webkit-) Yukarıdaki koda box-border tanımı
 yapıldığında
 
-[css] #kutu{ display:block; border:10px solid #069; padding:20px;
+	:::css
+	 #kutu{ display:block; border:10px solid #069; padding:20px;
 width:200px; height:200px; background:#CCC; box-sizing:border-box;
--webkit-box-sizing:border-box; -moz-box-sizing:box-border; } [/css]
+-webkit-box-sizing:border-box; -moz-box-sizing:box-border; } 
 <iframe style="width: 100%; height: 400px" src="http://jsfiddle.net/fatihhayri/y6uyv/embedded/result,css,html"></iframe>
 
 Kutunun genişlik değeri 200px olacaktır. İçerik alanı genişlik değeri
@@ -67,10 +69,11 @@ ise 140px olacaktır.
 Her iki değerin kullanılabileceği yerler vardır. border-box tanımının
 esnek yapılı alanlarda bize avantaj sağlayacağı kesindir.
 
-[css] .kutuSol{ float: left; width: 30%; background-color: pink; border:
+	:::css
+	 .kutuSol{ float: left; width: 30%; background-color: pink; border:
 3px red dotted; height: 150px; } .kutuSag{ float: left;
 background-color: lightgreen; width: 70%; border: 3px green dotted;
-height: 150px; } [/css]
+height: 150px; } 
 <iframe style="width: 100%; height: 400px" src="http://jsfiddle.net/fatihhayri/jP3Dv/1/embedded/result,css,html"></iframe>
 
 Esnek yapılı bir içerikte genişlik tanımlarımızı yüzde olarak
@@ -82,12 +85,13 @@ yoktur. En azından [calc()][] özelliği tam desteklenene kadar yoktur.
 
 Çözüm olarak box-border tanımı ile sorunumuza çözüm üretebiliriz.
 
-[css] .kutuSol{ float: left; width: 30%; background-color: pink; border:
+	:::css
+	 .kutuSol{ float: left; width: 30%; background-color: pink; border:
 3px red dotted; height: 150px; box-sizing:border-box;
 -webkit-box-sizing:border-box; -moz-box-sizing:box-border; } .kutuSag{
 float: left; background-color: lightgreen; width: 70%; border: 3px green
 dotted; height: 150px; box-sizing:border-box;
--webkit-box-sizing:border-box; -moz-box-sizing:box-border } [/css]
+-webkit-box-sizing:border-box; -moz-box-sizing:box-border } 
 <iframe style="width: 100%; height: 400px" src="http://jsfiddle.net/fatihhayri/z2bQA/1/embedded/result,css,html"></iframe>
 
 Farklı araçlar ile web sayfaları gezilmeye başlayalı beri esnek yapılı

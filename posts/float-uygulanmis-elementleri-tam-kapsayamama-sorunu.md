@@ -119,10 +119,11 @@ makale yazan [dahaiyi.net][]'e çok teşekkürler.
 Bu yöntemi biraz daha kolaylaştıralım. Sonuçta macde ie kullanan
 kalmadağına göre kodumuzu
 
-[css] .clearfix:after { visibility: hidden; display: block; font-size:
+	:::css
+	 .clearfix:after { visibility: hidden; display: block; font-size:
 0; content: " "; clear: both; height: 0; } * html .clearfix { zoom: 1;
 } /* IE6 */ *:first-child+html .clearfix { zoom: 1; } /* IE7 */
-[/css]
+
 
 ###### CSS3 ile sorunun çözümü
 
