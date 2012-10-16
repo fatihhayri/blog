@@ -9,6 +9,10 @@ SITEURL = 'http://www.fatihhayrioglu.com'
 TIMEZONE = 'Europe/Istanbul'
 
 DEFAULT_LANG = 'tr'
+LOCALE = 'tr_TR'
+DATE_FORMAT = {
+   'tr': '%d %b %Y'
+}
 THEME = 'theme'
 
 DISPLAY_PAGES_ON_MENU = False
