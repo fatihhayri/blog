@@ -252,15 +252,12 @@ sitelerden kaldırmayı unutmayın.
   [http://www.fatihhayrioglu.com/ilk-harfi-buyukdrop-caps-paragraflar-olusturmak/]: http://www.fatihhayrioglu.com/ilk-harfi-buyukdrop-caps-paragraflar-olusturmak/
   [Float Uygulanmış Elementleri Tam Kapsayamama Sorunu]: http://www.fatihhayrioglu.com/float-uygulanmis-elementleri-tam-kapsayamama-sorunu/
   [Tablo Satırına Verilen Ardalan Resminin Tekrarlama Sorunu]: http://www.fatihhayrioglu.com/tablo-satirina-verilen-ardalan-resminin-tekrarlama-sorunu/
-  [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi
-  atamak]: http://www.fatihhayrioglu.com/internet-explorer-6-ve-7-icin-tablo-tr-elementine-kenar-cizgisi-atamak/
-  [İnternet Explorer’da sağdaki sabit kaydırma çubuğunu kaldırmak
-  sorunu]: http://www.fatihhayrioglu.com/internet-explorerda-sagdaki-sabit-kaydirma-cubugunu-kaldirmak/
+  [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi atamak]: http://www.fatihhayrioglu.com/internet-explorer-6-ve-7-icin-tablo-tr-elementine-kenar-cizgisi-atamak/
+  [İnternet Explorer’da sağdaki sabit kaydırma çubuğunu kaldırmak sorunu]: http://www.fatihhayrioglu.com/internet-explorerda-sagdaki-sabit-kaydirma-cubugunu-kaldirmak/
   [ie6/7′da postion:relative Uygulanmış Elemanlarda z-index Sorunu]: http://www.fatihhayrioglu.com/ie67da-postionrelative-uygulanmis-elemanlarda-z-index-sorunu/
   [overflow ve position:relative kullanımında ie sorunu]: http://www.fatihhayrioglu.com/overflow-ve-positionrelative-kullaniminda-ie-sorunu/
   [IE6 ve IE7′de bağlantılardaki cursor sorunu]: http://www.fatihhayrioglu.com/ie6-ve-ie7de-baglantilardaki-cursor-sorunu/
-  [overflow:auto içinde %100 genişlikte tablo kullanımında ie7’de yatay
-  kaydırma çubuğu sorunu]: http://www.fatihhayrioglu.com/overflowauto-icinde-genislikte-tablo-kullaniminda-ie7de-yatay-kaydirma-cubugu-sorunu/
+  [overflow:auto içinde %100 genişlikte tablo kullanımında ie7’de yatay kaydırma çubuğu sorunu]: http://www.fatihhayrioglu.com/overflowauto-icinde-genislikte-tablo-kullaniminda-ie7de-yatay-kaydirma-cubugu-sorunu/
   [İE7 Bitişik Kardeş Seçicisi Sorunu]: http://www.fatihhayrioglu.com/ie7-bitisik-kardes-secicisi-sorunu/
   [Kenar Boşluğu(Margin) Çökmesi]: http://www.fatihhayrioglu.com/kenar-boslugumargin-cokmesi/
   [border:hidden]: http://test.csswg.org/suites/css2.1/20110111/html4/border-conflict-w-001.htm
