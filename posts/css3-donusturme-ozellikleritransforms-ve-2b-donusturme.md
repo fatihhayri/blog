@@ -37,23 +37,24 @@ göstereceğim, tabi örneklerde tüm tarayıcı kodlarını kullanacağım.
 ### transform Özelliği
 
 transform özelliği **none**, bir veya daha fazla transform değeri alır.
+
 Genel kullanımı
 
-<div class="cssozelliktanimi">
-**Yapısı :** transform: none |
-<dönüştürme-fonksiyonu>[<dönüştürme-fonksiyonu>]*  
-**Aldığı Değerler :** [ none | matrix | translte | translateX |
-translateY | scale | scaleX | scaleY | rotate | skew | skewX | skewY ]  
+
+**Yapısı :** transform: none | <dönüştürme-fonksiyonu>[<dönüştürme-fonksiyonu>]*  
+**Aldığı Değerler :** [ none | matrix | translte | translateX | translateY | scale | scaleX | scaleY | rotate | skew | skewX | skewY ]  
 **Başlangıç değeri:** none   
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi }
 
-</div>
 Aldığı değerleri dönüşüm fonksiyonları bölümünde detaylı bir şekilde
 inceleyeceğiz.
 
 	:::css
-	 p{ transform: translate(-150px, 75px); } 
+	p{
+		transform: translate(-150px, 75px);
+	} 
 
 Uygulandığı paragrafı kendi orijin noktasına göre 75px sağa ve 150px
 aşağıya öteleyecektir. Göreceli bir tanımda(örn: % gibi) referans olarak
@@ -63,17 +64,13 @@ elemanın kapsayıcısını değil kendi orijinini alacaktır.
 
 Dönüşümün orjin olarak nereye referans alacağını tanımlamamızı sağlar.
 
-<div class="cssozelliktanimi">
 **Yapısı :** transform-origin: deger deger  
-**Aldığı Değerler :** [ [ [ <yüzde> | <değer> | left | center |
-right ] [ <yüzde>
-|<değer>|top|center|bottom]?]<değer>?]|[[[left|center| right ] || [
-top | center | bottom ] ] <değer>? ]  
+**Aldığı Değerler :** [ [ [ <yüzde> | <değer> | left | center | right ] [ <yüzde> |<değer>|top|center|bottom]?]<değer>?]|[[[left|center| right ] || [top | center | bottom ] ] <değer>? ]  
 **Başlangıç değeri:** 50% 50%  
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi }
 
-</div>
 Başlangıç değeri olarak 50% 50% gelir. Bu elemanın tam ortasını
 gösterir.(Bundan dolayı elemanı ölçeklendirdiğimizde veya
 döndürdüğümüzde elmanın ortasında göre işlem yapar.) Üstten 50% soldan
@@ -82,7 +79,9 @@ tanımlanabilir. İlk değeri X ekseninden mesafesini, ikinci değer Y
 sekseninden mesafesini tanımlar.
 
 	:::css
-	 p{ transform-origin:0, 0; } 
+	p{
+		transform-origin:0, 0;
+	} 
 
 Yüzde değerlerinde referans olarak elemanın kutu alanı alınır.
 
@@ -90,7 +89,7 @@ Daha iyi anlamak için aşağıda da göreceğimiz döndürme(rotate)
 uygulayarak görelim.
 
 	:::css
-	 transform: rotate(-10deg); 
+	transform: rotate(-10deg); 
 
 ![][1]
 
@@ -128,7 +127,10 @@ kullanımı vardır.
 Bir örnek yapalım;
 
 	:::css
-	 #tasinan{        transform:translate(150px,100px);   } 
+	 #tasinan{
+	 	transform:translate(150px,100px);
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/s6hZX/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 **- Eksene Özgü Yöntemler**
@@ -139,12 +141,16 @@ translateY özelliklerini kullanabiliriz.
 Yukarıdaki örneği
 
 	:::css
-	 #tasinan{        transform:translateX(150px);    } 
+	 #tasinan{
+	 	transform:translateX(150px);
+	} 
 
 aynı şekilde y ekseninde hareket için
 
 	:::css
-	 #tasinan{        transform:translateY(100px);    } 
+	 #tasinan{
+	 	transform:translateY(100px);
+	} 
 
 şeklinde uygulanabilir.
 
@@ -155,7 +161,10 @@ animasyon oluşturabiliriz. Hem translate özelliğini daha iyi anlamış
 oluruz.
 
 	:::css
-	 #tasinan{            transition: all 5s;    } 
+	 #tasinan{
+	 	transition: all 5s;
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/AF5hS/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Fare imlecinin mavi alan üzerine getirdiğimizde animasyonlu bir şekilde
@@ -169,12 +178,14 @@ ile döndürebiliyoruz. Bu sabit nokta transform-origin tanımı ile
 değiştirilebiliyor.
 
 	:::css
-	 rotate(&lt;açı&gt;) 
+	 rotate(<açı>) 
 
 Bir örnek ile konuyu daha iyi anlayalım.
 
 	:::css
-	 .deneme{     transform:rotate(45deg); } 
+	 .deneme{
+	 	transform:rotate(45deg);
+	} 
 
 Yukarıdaki kod ile tanımlanan HTML elemanını 45 (deg-degrees)derece
 döndürdük. Saat yönüne çevirdiğimiz gibi, eksi değer vererek saat
@@ -187,7 +198,9 @@ turn değerini biraz daha inceleyelim. turn değeri dairenin etrafını
 gösteriyor.
 
 	:::css
-	 .deneme{     transform:rotate(.5trun); } 
+	 .deneme{
+	 	transform:rotate(.5trun);
+	} 
 
 0.5 olarakta tanımlanabilecek bu değer elemanımızı yarım daire kadar
 döndürecektir.
@@ -199,8 +212,14 @@ döndürecektir.
 Bir örnekte animasyonlu yapalım.
 
 	:::css
-	 .deneme{     transition: all 0.5s; } .deneme:hover{    
-transform:rotate(45deg); } 
+	 .deneme{
+	 	transition: all 0.5s;
+	} 
+	
+	.deneme:hover{    
+		transform:rotate(45deg);
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/aCKL9/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Yukarıdaki örnektede görüldüğü gibi birçok güzel uygulama bu yöntem ile
@@ -220,7 +239,10 @@ büyütebilir veya küçültebiliriz.
 Bir örnek ile konuyu daha iyi anlayalım.
 
 	:::css
-	 .denemeBuyut{     transform:scale(1.5); } 
+	 .denemeBuyut{
+	 	transform:scale(1.5);
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/eCb2C/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Daha iyi bir anlatım için örnekte iki kutu kullandım birisi kutunun
@@ -236,12 +258,16 @@ Elemanları sadece bir eksen ölçeklemek için scaleX ve scaleY
 Yukarıdaki örneği
 
 	:::css
-	 .denemeBuyut{     transform:scaleX(1.5); } 
+	 .denemeBuyut{
+	 	transform:scaleX(1.5);
+	} 
 
 aynı şekilde y ekseninde hareket için
 
 	:::css
-	 .denemeBuyut{     transform:scaleY(2); } 
+	 .denemeBuyut{
+	 	transform:scaleY(2);
+	} 
 
 şeklinde uygulanabilir.
 
@@ -267,7 +293,10 @@ y için farklı açı değerleride belirleyebiliyoruz.
 Bir örnek yapalım.
 
 	:::css
-	 .deneme{     transform: skew(10deg, 20deg);    } 
+	 .deneme{
+	 	transform: skew(10deg, 20deg);
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/fRpmS/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 **- Eksene Özgü Yöntemler**
@@ -278,12 +307,16 @@ kullanabiliriz.
 Yukarıdaki örneği
 
 	:::css
-	 .denemeBuyut{     transform:skewX(10deg); } 
+	 .denemeBuyut{
+		transform:skewX(10deg);
+	} 
 
 aynı şekilde y ekseninde eğiklik için
 
 	:::css
-	 .denemeBuyut{     transform:skewY(20deg); } 
+	 .denemeBuyut{
+	 	transform:skewY(20deg);
+	} 
 
 şeklinde uygulanabilir.
 
@@ -300,8 +333,9 @@ tanımlanabildiği gibi kısaltma olarak arada boşluk bırakılarak
 birliktede tanımlanabilir.
 
 	:::css
-	 div {      transform: translate(10px 30%) scale(2.0) rotate(45deg)
-skew(5deg, 20deg); } 
+	 div {
+	 	transform: translate(10px 30%) scale(2.0) rotate(45deg) skew(5deg, 20deg);
+	} 
 
 Böylece kodlamamızda bayağı bir kısaltmaya gitmiş oluruz. Çoklu tanım
 uygulandığında bu fonksiyonlar soldan sağa doğru sırası ile
@@ -338,7 +372,6 @@ araçlar geliştirilmektedir. CSS3 2B dönüştürme için
 kullanılabilir. Bize bir çok bakımdan kolaylık sağlayan bir araç,
 denemeye değer.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 3.5+ (-moz- öneki ile)  
 Chrome 10+ (-webkit- öneki ile)  
@@ -349,8 +382,8 @@ Opera 10.6 (-o- öneki ile)
 iOS Safari 3.2+ (-webkit- öneki ile)  
 Opera Mobile 11+ (-o- öneki ile)  
 Android Browser 2.1+ (-webkit- öneki ile)
+{: .tarayiciuyum }
 
-</div>
 ie6-8 için çözüm [http://www.useragentman.com/IETransformsTranslator/][]
 sitesindeki araç ile üretilmiştir. Dönüştürme kadar esnek olmasada çok
 acil ihtiyaçlar için kullanılabilir.   
@@ -367,18 +400,15 @@ sağlayacaktır.
 
 -   [http://www.vanseodesign.com/css/transforms/][]
 -   [http://gazpo.com/2011/02/css3-transforms/][] (güzel)
--   [http://www.westciv.com/tools/transforms/index.html][] (çevrimiçi
-    araç)
+-   [http://www.westciv.com/tools/transforms/index.html][] (çevrimiçi araç)
 -   [http://www.w3.org/TR/css3-2d-transforms/][]
 -   [http://24ways.org/2009/going-nuts-with-css-transitions][]
 -   [http://www.the-art-of-web.com/css/css-animation/][]
 -   [http://css3.bradshawenterprises.com/][]
 -   [http://dev.opera.com/articles/view/css3-transitions-and-2d-transforms/][]
 -   [http://www.shayhowe.com/tutorial/css3-animated-owl-tutorial/][]
--   [http://www.t-infection.com/css3de-transforms-donusturme-islemleri/][]
-    (Türkçe kaynak)
--   [http://www.useragentman.com/IETransformsTranslator/][] (ie için
-    çözüm)
+-   [http://www.t-infection.com/css3de-transforms-donusturme-islemleri/][] (Türkçe kaynak)
+-   [http://www.useragentman.com/IETransformsTranslator/][] (ie için çözüm)
 -   [http://www.standardista.com/css3-transforms][]
 -   [http://www.webdesigncreare.co.uk/blog/html-css/css3-transforms.html][]
 -   [http://professionalaspnet.com/archive/2011/03/17/IE9-Supports-CSS3-Transforms_2100_.aspx][]
@@ -388,28 +418,23 @@ sağlayacaktır.
 -   [http://css3.bradshawenterprises.com/transforms/][]
 -   [http://doctype.com/javascript-image-zoom-css3-transforms-calculate-origin-example][]
 -   [http://designshack.co.uk/articles/css/achieving-multi-step-animations-with-css-transitions/][]
--   [http://www.impressivewebs.com/css3-transitions-without-hover/][]
-    (güzel animasyon olmuş)
+-   [http://www.impressivewebs.com/css3-transitions-without-hover/][] (güzel animasyon olmuş)
 -   [http://speckyboy.com/2011/08/15/how-to-build-a-fully-functional-css3-only-content-slider][]
 -   [http://www.impressivewebs.com/replace-flash-with-css3-animation/][]
 -   [http://www.netmagazine.com/tutorials/masterclass-css-animations][]
 -   [http://coding.smashingmagazine.com/2011/09/14/the-guide-to-css-animation-principles-and-examples/][]
--   [http://tympanus.net/codrops/2011/10/24/creative-css3-animation-menus/][]
-    (çok güzle menü örnekleri)
+-   [http://tympanus.net/codrops/2011/10/24/creative-css3-animation-menus/][] (çok güzle menü örnekleri)
 -   [http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/css3-transitions-and-transforms-from-scratch/][]
 -   [http://www.dynamicdrive.com/style/csslibrary/item/spinning_icons_using_css3_transform/][]
 -   [http://designshack.net/articles/css/mastering-mouse-enter-and-exit-events-with-css-transitions/][]
 -   [http://www.splashnology.com/article/cross-browser-2d-transformations-with-animation/1827/][]
 -   [http://www.htmlgoodies.com/html5/css/learn-css3-from-a-z-2d-transformations.html#fbid=CH7CpzZeM2i][]
 -   [http://johnbhall.com/iphone-4s/][] iphone 4s örnek
--   [http://www.dynamicdrive.com/style/csslibrary/item/spinning_icons_using_css3_transform/][]
-    Basit döndirme örneği
+-   [http://www.dynamicdrive.com/style/csslibrary/item/spinning_icons_using_css3_transform/][] Basit döndirme örneği
 -   [http://css3.bradshawenterprises.com/transforms/][]
 -   [http://css3playground.com/slinky.php][]
--   [http://coding.smashingmagazine.com/2010/04/28/css3-solutions-for-internet-explorer/][]
-    rotate ie için
--   [http://www.impressivewebs.com/alternative-units-css3-rotate-transforms/][]
-    (farklı değerler)
+-   [http://coding.smashingmagazine.com/2010/04/28/css3-solutions-for-internet-explorer/][] rotate ie için
+-   [http://www.impressivewebs.com/alternative-units-css3-rotate-transforms/][] (farklı değerler)
 -   [http://www.html5rocks.com/en/tutorials/webgl/webgl_transforms/][]
 -   [http://ricostacruz.com/jquery.transit/][] (jquery yardımı ile test)
 -   [http://www.blackinci.com/css/59-css3-ile-2ci-boyuta-gecis-transform.html][]
@@ -418,14 +443,10 @@ sağlayacaktır.
 -   [http://www.developerdrive.com/2012/02/skewing-web-page-elements-using-the-css3-skew-transform/][]
 -   [http://www.developerdrive.com/2012/05/rotating-web-page-elements-using-the-css3-rotate-transform/][]
 -   [http://www.webdirections.org/blog/2d-transforms-in-css3/][]
--   [http://www.impressivewebs.com/alternative-units-css3-rotate-transforms/][]
-    (rotate değerleri)
+-   [http://www.impressivewebs.com/alternative-units-css3-rotate-transforms/][] (rotate değerleri)
 -   [http://msdn.microsoft.com/en-us/magazine/gg709742.aspx][]
 -   [http://www.useragentman.com/blog/2011/01/07/css3-matrix-transform-for-the-mathematically-challenged/][]
--   [http://www.alsacreations.com/article/lire/1418-css3-transformations-2d.html][]
-    (yazıdan sonra)
-
-</p>
+-   [http://www.alsacreations.com/article/lire/1418-css3-transformations-2d.html][] (yazıdan sonra)
 
   []: https://lh5.googleusercontent.com/JcPwBvaI5FirsLOn05KPDROBP9kw5Dxl9Mt2TSekP1JgLmmxrkn9diiKqmt0XrVg2BnkV2vp-Dh0RxNBtSV-LsW84Dc1H02k5SIGYxiEo8A4kmNUyr0
   [1]: https://lh5.googleusercontent.com/ACGi7LXZqwCP3pSpRyK21hQojElg4DfwhpwEQDziAYMe4YDZTuphSOoF6W2Ib1Y-vbcOwpYcGxGy7wIrE0YD87EYXetxAvqed9fu1VKCMFS3g1RQi1c
