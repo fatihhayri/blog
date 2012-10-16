@@ -13,27 +13,31 @@ yazacağım. position:absolute metodu denen yöntem ile yazacağız kodu.
 
 HTML kodumuz
 
-[sourcecode language="html"] <div id="ortalaAlan"> Fatih Hayrioğlu'nun
-not defteri </div> [/sourcecode]
+	:::html
+	 <div id="ortalaAlan"> Fatih Hayrioğlu'nun
+not defteri </div> 
 
 CSS kodumuz yazmaya başlayalım
 
-[sourcecode language="css"] html, body {height: 100%;} body{margin:0;
-padding:0;} [/sourcecode]
+	:::css
+	 html, body {height: 100%;} body{margin:0;
+padding:0;} 
 
 İnternet explorer için ilk satırı ve body boşluklarını sıfırlamak içinde
 ikinci satırı yazdık.
 
-[sourcecode language="css"] #ortalaAlan { width: 300px; height: 80px;
-background-color:#fff; border:5px solid #E9E9E9; } [/sourcecode]
+	:::css
+	 #ortalaAlan { width: 300px; height: 80px;
+background-color:#fff; border:5px solid #E9E9E9; } 
 
 Sabit genişlik ve yükseklik veriyoruz ve genel tanımlarımızı yapıyoruz.
 Şimdi bu alanı ortalamak için kodumuzu yazalım.
 
-[sourcecode language="css"] #ortalaAlan { width: 300px; height: 80px;
+	:::css
+	 #ortalaAlan { width: 300px; height: 80px;
 background-color:#fff; border:5px solid #E9E9E9; position: absolute;
 left: 50%; top: 50%; margin-left: -150px; margin-top: -40px; }
-[/sourcecode]
+
 
 Yukarıdaki kodu incelersek, postion:absolute ve left:50% ve top:50%
 değerleri ile elemanımızı ortalıyoruz. Bu ortalama elemanımızın sıfır
@@ -47,18 +51,20 @@ kodlar elemanımızı dikeyde ve yatayda ortalayacaktır.
 
 Kodumuzu ve içeriğimiz biraz daha süslersek
 
-[sourcecode language="html"] <div id="ortalaAlan"> <p>Fatih
-Hayrioğlu'nun not defteri</p> </div> [/sourcecode]
+	:::html
+	 <div id="ortalaAlan"> <p>Fatih
+Hayrioğlu'nun not defteri</p> </div> 
 
 CSS kodumuzu
 
-[sourcecode language="css"] html, body {height: 100%;} body{margin:0;
+	:::css
+	 html, body {height: 100%;} body{margin:0;
 padding:0; background-color:#D2D2D2} #ortalaAlan { width: 300px;
 height: 80px; background-color:#fff; border:5px solid #E9E9E9;
 position: absolute; left: 50%; top: 50%; margin-left: -155px;
 margin-top: -45px; } #ortalaAlan p{ background:url(gudi.gif) 0 0
 no-repeat; color:##333333; font:24px "Trebuchet MS", Arial, Helvetica,
-sans-serif; padding-left:35px; margin:10px } [/sourcecode]
+sans-serif; padding-left:35px; margin:10px } 
 
 Border olarak eklediğimiz değerleride çıkardığımız için değerlerimiz
 -5px daha azalmıştır.

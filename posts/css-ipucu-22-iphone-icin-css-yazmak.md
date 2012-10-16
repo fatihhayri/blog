@@ -15,14 +15,16 @@ için(print)][] benzer bir yapıyı kullanmıştık.
 
 Kodumuz çok basit
 
-[sourcecode language="html"] <!--[if !IE]>–> <link media="only
+	:::html
+	 <!--[if !IE]>–> <link media="only
 screen and (max-device-width: 480px)" href="iPhone.css" type="text/css"
-rel="stylesheet" /> <!–<![endif]–> [/sourcecode]
+rel="stylesheet" /> <!–<![endif]–> 
 
 veyahut
 
-[sourcecode language="css"] @media only screen and (max-device-width:
-480px) {   body {color:#000;} } [/sourcecode]
+	:::css
+	 @media only screen and (max-device-width:
+480px) {   body {color:#000;} } 
 
 şeklinde bir tanımlamada yapabiliyoruz. İlk koddaki ie şartlı koşulu
 bazı eski ie sürümlerinde bu kodu algılama durumu içindir.

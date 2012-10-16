@@ -14,7 +14,7 @@ Kaldığımız yerden devam edersek. Linkleri yatay olarak dizmek için
 **display:inline** özelliğini kullanıyoruz:
 
 [sourcecode language='css'] ul.menu { list-style-type: none; padding: 0;
-margin: 0; } ul.menu li { display: inline; } [/sourcecode]
+margin: 0; } ul.menu li { display: inline; } 
 
 ![][]
 
@@ -22,7 +22,7 @@ Linklerin altındaki çizgileri kaldırıyoruz:
 
 [sourcecode language='css'] ul.menu { list-style-type: none; padding: 0;
 margin: 0; } ul.menu li { display: inline; } ul.menu li a {
-text-decoration: none; } [/sourcecode]
+text-decoration: none; } 
 
 ![][1]
 
@@ -30,7 +30,7 @@ Linkler arasına biraz boşluk veriyoruz:
 
 [sourcecode language='css'] ul.menu { list-style-type: none; padding: 0;
 margin: 0; } ul.menu li { display: inline; } ul.menu li a {
-text-decoration: none; padding: .2em 1em; } [/sourcecode]
+text-decoration: none; padding: .2em 1em; } 
 
 ![][2]
 
@@ -39,7 +39,7 @@ Menüyü biraz renklendiriyoruz:
 [sourcecode language='css']ul.menu { list-style-type: none; padding: 0;
 margin: 0; } ul.menu li { display: inline; } ul.menu li a {
 text-decoration: none; padding: .2em 1em; color: #1B1B1B;
-background-color: #E2E2E2; } [/sourcecode]
+background-color: #E2E2E2; } 
 
 ![][3]
 
@@ -50,7 +50,7 @@ atıyoruz:
 margin: 0; } ul.menu li { display: inline; } ul.menu li a {
 text-decoration: none; padding: .2em 1em; color: #1B1B1B;
 background-color: #E2E2E2; } ul.menu li a:hover { background-color:
-#999; } [/sourcecode]
+#999; } 
 
 Sonuç işte:
 

@@ -39,7 +39,7 @@ HTML kodumuzu yazalım
 -   [<span class="dis"><span class="ic"><span class="bilgi">HTML
     4</span></span></span>][]
 
-[/sourcecode]
+
 
 CSS kodunu kademe kademe açıklayarak yazarsak;
 
@@ -52,7 +52,7 @@ tanımlayıp resmin üzerinde istediğimiz konuma yerleştiriyoruz.
 
 [sourcecode language='css'] ul#foto{ width: 500px; height: 331px;
 position: relative; background: url(images/dexter.jpg) no-repeat;
-margin: 0; padding: 0; list-style: none; } [/sourcecode]
+margin: 0; padding: 0; list-style: none; } 
 
 Aşağıdaki kodda her bir haritalanacak nesne bir link olduğu için her
 birine tek tek atamaktansa genel bir tanım ile tüm linkleri mutlak
@@ -60,7 +60,7 @@ konumlandırıyoruz ve kenar çizgisini tanımlıyoruz.
 
 [sourcecode language='css'] ul#foto a { position: absolute; color:
 #000; text-decoration: none; border: 1px solid transparent; }
-[/sourcecode]
+
 
 Her bir haritalanacak eleman için genişlik yüksek tanımını yapıyor ve
 kapsayıcı elemana göre konumunu belirliyoruz. Ayrıca haritalanan
@@ -79,7 +79,7 @@ kullanıcıları için şimdilik bir çözüm yok.
 bottom: -25px; width: 100%; padding: 2px; background-color:#ffc;
 text-align: center; left: -30000px; font:11px Arial, Helvetica,
 sans-serif; margin-left: -60px; -moz-border-radius: 3px;
--webkit-border-radius: 3px; } [/sourcecode]
+-webkit-border-radius: 3px; } 
 
 Amacımız Flickr tipi bir resim haritası oluşturmak olduğu için, iki
 kenar çizgisi tanımı yapmak için iki adet <span> etiketi yazdık ve
@@ -93,14 +93,14 @@ etiketlerini kaldırabiliriz, daha sade bir görünüm olur.
 block; } ul#foto .dexter a .dis { width: 108px; height: 173px; }
 ul#foto .html a .dis { width: 48px; height: 78px; } ul#foto .dexter a
 .ic { width: 106px; height: 171px; } ul#foto .html a .ic { width: 46px;
-height: 76px; } [/sourcecode]
+height: 76px; } 
 
 Fare haritalanan alanların üzerine gelince çıkacak bilgilendirme
 alanının yerini belirliyoruz. - 3000px ile görüntüden çıkardığımız bilgi
 alanını görünür yapıp istediğimiz yere yerleştirdik.
 
 [sourcecode language='css']ul#foto a:hover .bilgi { left: 60px; }
-[/sourcecode]
+
 
 Tüm resmin üzerine gelindiğinde ve haritalanan alanların üzerine
 gelindiğinde kenar çizgi renklerini değiştirerek farklı bir görünüm
@@ -109,7 +109,7 @@ kazandırıyoruz.
 [sourcecode language='css'] ul#foto a:hover { border-color: #d4d82d; }
 ul#foto:hover a .dis, ul#foto a:hover .dis { border: 1px solid #000;
 } ul#foto:hover a .ic, ul#foto a:hover .ic { border: 1px solid #fff;
-} [/sourcecode]
+} 
 
 Sonuçta görsel ve işlevsel olarak çok güzel bir uygulama elde ettik.
 Uygulanabileceği yerler kısıtlıda olsa, uygulandığın da güzel bir

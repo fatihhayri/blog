@@ -12,14 +12,16 @@ ie6'da bazense ie6 ve ie7'de oluyor.
 
 Bir örnek verelim
 
-[sourcecode language="html"] <ul id="menu"> <li><a href="#">Menu
+	:::html
+	 <ul id="menu"> <li><a href="#">Menu
 Bir</a></li> <li><a href="#">Menu İki</a></li> <li><a
 href="#">Menu Üç</a></li> <li><a href="#">Menu Dört</a>
-</li> </ul> [/sourcecode]
+</li> </ul> 
 
 CSS kodumuzda da
 
-[sourcecode language="css"] ul#menu li a{ display:block} [/sourcecode]
+	:::css
+	 ul#menu li a{ display:block} 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -49,8 +51,9 @@ biri yapılması durumunda bu sorun düzelecektir.
 
 Biz bir tanesini seçelim.
 
-[sourcecode language="html"] * html ul#menu li a {height: 1px;}
-[/sourcecode]
+	:::html
+	 * html ul#menu li a {height: 1px;}
+
 
 Örneği görmek için [tıklayınız.][1]
 

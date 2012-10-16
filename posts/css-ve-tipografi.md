@@ -100,8 +100,9 @@ sans-serif fontlar daha popülerdir. Bu söylediğimden web'de hiç serif
 font kullanılmaz diye bir mana çıkaramayız elbette kullanılabilir ancak
 sans-serif daha çok tercih edilir. Genel font kullanımı:
 
-[sourcecode language="css"] body{ font-family:Arial, Helvetica,
-sans-serif } [/sourcecode]
+	:::css
+	 body{ font-family:Arial, Helvetica,
+sans-serif } 
 
 Şeklindedir. Burada birincil fontumuz Arial'dir alternatifi Helvatica ve
 yazı tipi ailesi sans-serif olduğunu belirtiyoruz. Normalde sadece Arial
@@ -148,21 +149,23 @@ boyutları önerilerini sıralayalım:
 
 Genel bir css kodunu yazarsak
 
-[sourcecode language="css"] body {font: 11px/1.5em "Lucida Grande"; }
+	:::css
+	 body {font: 11px/1.5em "Lucida Grande"; }
 h1, h2, h3, h4, h5, h6 {font-family: helvetica, arial, verdana,
 sans-serif; font-weight: normal;} h1 { font-size: 24px; } h2 {
 font-size: 18px; } h3 { font-size: 16px; line-height:2; } h4 {
 font-size: 13px; line-height:1.25; font-weight:bold; } h5 { font-size:
-12px; font-weight:bold; } h6 { font-size: 12px; } [/sourcecode]
+12px; font-weight:bold; } h6 { font-size: 12px; } 
 
 veya **em** cinsinden
 
-[sourcecode language="css"] body {font: 11px/1.5em "Lucida Grande";} h1,
+	:::css
+	 body {font: 11px/1.5em "Lucida Grande";} h1,
 h2, h3, h4, h5, h6 {font-family: helvetica, arial, verdana, sans-serif;
 font-weight: normal;} h1 { font-size: 3em; } h2 { font-size: 2em; } h3 {
 font-size: 1.5em; line-height:2; } h4 { font-size: 1.2em;
 line-height:1.25; font-weight:bold; } h5 { font-size: 1em;
-font-weight:bold; } h6 { font-size: 1em; } [/sourcecode]
+font-weight:bold; } h6 { font-size: 1em; } 
 
 Bu konuda çok güzel bir doküman hazırlayan [BluePrint CSS
 Anaçatısının][] tipografi kısmına göz atmanızı tavsiye ederim.
@@ -175,15 +178,17 @@ için genel kabul **yazı boyutunun1.4-1.6 katı** kadar bir mesafedir.
 
 ![Satırlar arası yükseklik][]
 
-[sourcecode language="css"] body { font-family: "Lucida Grande",
+	:::css
+	 body { font-family: "Lucida Grande",
 Helvetica, Arial, Verdana, sans-serif; line-height: 1.5em; }
-[/sourcecode]
+
 
 CSS kısaltmalarında tek yazı tipi değerine tüm yazı özellikleri ekleme
 imkanı sunar.
 
-[sourcecode language="css"] body { font:11px/1.5em "Lucida Grande",
-Helvetica, Arial, Verdana, sans-serif; } [/sourcecode]
+	:::css
+	 body { font:11px/1.5em "Lucida Grande",
+Helvetica, Arial, Verdana, sans-serif; } 
 
 ### Yazılara Vurgu Eklemek
 
@@ -195,7 +200,8 @@ Normalde yazı tiplerinin kalın halleride vardır ancak web yazı
 tiplerinde böyle bir seçim yapamıyoruz bu nedenle yazılarımıza kalınlık
 kazandırmak için
 
-[sourcecode language="css"] h1{ font-weight:bold; } [/sourcecode]
+	:::css
+	 h1{ font-weight:bold; } 
 
 kodunu kullanırız. Kalın yazılmış yazılar diğer yazılara göre  daha
 dikkat çekici görünecektir. Genelde başlıklar ve önemli alanlar
@@ -205,20 +211,23 @@ kalınlaştırılır.
 Eğik yazı şekli ekranda okunurluğu azaltsa da kullanıcıya farklı bir
 görünüm ile dikkat çeker.
 
-[sourcecode language="css"] blockquote { margin: 1.5em 0 1.5em 1.5em;
-color: #666; font-style: italic; } [/sourcecode]
+	:::css
+	 blockquote { margin: 1.5em 0 1.5em 1.5em;
+color: #666; font-style: italic; } 
 
 **Altıçizili:** Üçüncü olarak altı çizili yazılar kullanılır. Web'de
 genelde altı çizili yazılar link olarak kullanılır ve böyle algılanır.
 
-[sourcecode language="css"]a{ color: #125AA7; text-decoration:
-underline; outline: none; } [/sourcecode]
+	:::css
+	a{ color: #125AA7; text-decoration:
+underline; outline: none; } 
 
 **Renk:** Yazılarımızda farklı alanlara vurgu yapmak için kullanılan
 özelliklerden biride renk(color) özelliğidir. Meselahatalı alanları
 belirlemek için kırmızı renk kullanımı yaygındır.
 
-[sourcecode language="css"].hata{ color:#f00}[/sourcecode]
+	:::css
+	.hata{ color:#f00}
 
 **Büyük Yazı:** Vurgu yapmak için nadiren de olsa tipografi bakımdan
 buda kullanılabilir bir seçenektir ama en azkullanılan vurgu tipidir.
@@ -265,14 +274,16 @@ Bu özellikte genelde dokunulmayan özellikler arasındadır. Ancak her web
 sayfası aynıdeğerleri kullanacak diye bir şey yoktur. Bazen farklı
 sonuçlar elde etmek içinfarklı değerler kullanabiliriz.
 
-[sourcecode language="css"]p {word-spacing: .2em;} [/sourcecode]
+	:::css
+	p {word-spacing: .2em;} 
 
 ### Paragrafın ilk satırını içeriden başlatmak (text-indent)
 
 Birçok dergi, gazete ve yazıda karşılaştığımız bu yöntemi CSS yardımı
 ile çok basit bir şekilde yaparız.
 
-[sourcecode language="css"] p { text-indent: 2.5em; } [/sourcecode]
+	:::css
+	 p { text-indent: 2.5em; } 
 
 Göreceli değer kullanmak daha mantıklıdır.
 

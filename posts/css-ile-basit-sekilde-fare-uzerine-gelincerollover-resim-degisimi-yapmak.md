@@ -22,14 +22,14 @@ göstermek için koydum, normal resimde bu olmayacak)
 
 Xhtml kodumuzu yazalım
 
-[sourcecode language='html'][Ana Sayfaya Dön][][/sourcecode]
+[sourcecode language='html'][Ana Sayfaya Dön][]
 
 CSS kodumuzu yazalım
 
 [sourcecode language='css']a.anasayfayaDon { display: block; width:
 80px; height: 80px; background: url(images/degisen_resim.gif) 0 0
 no-repeat; text-decoration: none; text-indent:-999px; }
-a:hover.anasayfayaDon { background-position: -80px 0; }[/sourcecode]
+a:hover.anasayfayaDon { background-position: -80px 0; }
 
 Yöntemi daha önce anlattığımız gibi ardalan kaydırmaca yöntemidir.
 Hazırladığımız ardalan resminin ilk olarak istediğimiz kısmını

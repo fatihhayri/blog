@@ -35,13 +35,15 @@ bir çökme meydana gelir. Bir örnek yapalım.
 
 Html kodu:
 
-[sourcecode language="css"] <p>Lorem ipsum dolor sit amet,
+	:::css
+	 <p>Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit.<p> <p>Morbi eros lacus, volutpat at,
-interdum nec, dignissim at, turpis.</p> [/sourcecode]
+interdum nec, dignissim at, turpis.</p> 
 
 CSS kodu:
 
-[sourcecode language="css"] p{ margin:10px 0; } [/sourcecode]
+	:::css
+	 p{ margin:10px 0; } 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -59,8 +61,9 @@ Resim - 2 Görünen kenar boşluğu görünümü         
 olarak vereceğim, ayrıca makalenin sonundaki çözümlerde göz atmanızda
 yarar var.
 
-[sourcecode language="css"] p{ margin:10px 0; float:left; clear:both;
-width:100% } [/sourcecode]
+	:::css
+	 p{ margin:10px 0; float:left; clear:both;
+width:100% } 
 
 Bu kodlar sonrasında resim-1 deki görüntüyü alırız.
 
@@ -69,14 +72,16 @@ Bu kodlar sonrasında resim-1 deki görüntüyü alırız.
 Bir elemente ve içindeki elemente kenar boşluğu atadığımızda içte kalan
 elementin kenar boşlukları kaybolacaktır. Bir uygulama yapalım:
 
-[sourcecode language="css"] *{ margin:0; padding:0; } div#kapsul{
+	:::css
+	 *{ margin:0; padding:0; } div#kapsul{
 margin:10px; background-color:#0066CC; } p{ margin:10px;
-background-color:#0CF; } [/sourcecode]
+background-color:#0CF; } 
 
 Html kodu yazalım:
 
-[sourcecode language="html"] <div id="kapsul"> <p>Lorem ipsum dolor
-sit amet, consectetuer adipiscing elit.</p> </div> [/sourcecode]
+	:::html
+	 <div id="kapsul"> <p>Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.</p> </div> 
 
 Örneği görmek için [tıklayınız.][1]
 
@@ -96,7 +101,7 @@ eklersek ve paragrafın kenar boşluk değerini de 1px azaltırsak sorun
 
 [sourcecode language="css" highlight="7,11"] *{ margin:0; padding:0; }
 div#kapsul{ margin:10px; padding:1px; background-color:#0066CC; } p{
-margin:9px; background-color:#0CF; } [/sourcecode]
+margin:9px; background-color:#0CF; } 
 
 ### 3- Sadece İçteki Elemente Kenar Boşluğu Uyulanmış İç içe Bulunan Elementler Arasında Meydana Gelen Çökme
 
@@ -108,12 +113,13 @@ kenar boşlukları çökecektir.
 
 [sourcecode language="css" highlight="6"] *{ margin:0; padding:0; }
 div#kapsul{ margin:0; background-color:#0066CC; } p{ margin:10px;
-background-color:#0CF; } [/sourcecode]
+background-color:#0CF; } 
 
 Html kodu yazarsak:
 
-[sourcecode language="html"] <div id="kapsul"> <p>Lorem ipsum dolor
-sit amet, consectetuer adipiscing elit.</p> </div> [/sourcecode]
+	:::html
+	 <div id="kapsul"> <p>Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.</p> </div> 
 
 ![][2]  
 Resim -1 Görünen kenar boşluğu        

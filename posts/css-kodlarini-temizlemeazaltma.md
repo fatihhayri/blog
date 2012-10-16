@@ -41,7 +41,7 @@ Site hakkındaki yazılar
 -   [Siteler][]
 
 </div>
-[/sourcecode]
+
 
 Yukarıdaki kodlama bir çok web sitesinde kullanıla gelmiş bir yöntemdir.
 CSS'in gücünü ilk olarak keşfeden kodlamacılar her elemente bir sınıf
@@ -58,7 +58,7 @@ listelerimizinde yanındaki işaretleri kaldıralım:
 
 [sourcecode language='css'] .solkolonbaslik { font-family: Georgia,
 serif; color: #c63; border-bottom: 1px solid #ccc; } .solkolonlink {
-list-style-type: none; } .link { font-weight: bold; } [/sourcecode]
+list-style-type: none; } .link { font-weight: bold; } 
 
 Tanımladığımız özellikleri elementlere atadık, buradaki elementlerin
 kendine has tanımları vardır. Aynı yöntemi kullanrak tüm sayfamızı
@@ -84,7 +84,7 @@ Bu site benim hakkımdadır.
 -   [Yeni][]
 
 </div>
-[/sourcecode]
+
 
 Görüldüğü gibi tüm sınıf atamaları kaldırılmıştır. Peki tüm sınıfları
 kaldırdıysak elementlere nasıl atama yapacağız? Elemetnleri tanımlarken
@@ -105,7 +105,7 @@ yapabilriiz.
 
 [sourcecode language='css'] h3 { font-family: Georgia, serif; /* tüm h3
 ler için atama*/ } #icerikAlani h3 { color: red; } #menuAlani h3 {
-color: orange; } [/sourcecode]
+color: orange; } 
 
 Genel h3 elemetine serif font ailesi tanımlanmı, icerik alanındaki
 **h3** kırmızı, menu alanındaki **h3** kavuniçi olacaktır. Böylelikle
@@ -133,12 +133,12 @@ Bu site benim hakkımdadır.
 -   [Yeni][]
 
 </div>
-[/sourcecode]
+
 
 ve bu sınıf için css tanımı yapacak olursak.
 
 [sourcecode language='css'] a:link.kirmizilink { color: red; }
-[/sourcecode]
+
 
 Bu kodumuz sorunsuz çalışacaktır. Ancak bu kodlama metodunda ileriye
 dönük bir sorunuzmu olacaktır. Bu linklerin rengini değiştirip siyah
@@ -149,7 +149,7 @@ Bunun yerine doğal seçicileri kullanrak bu işlemi yapsa idik durum
 farklı olacaktır.
 
 [sourcecode language='css'] #SolKisim li a:link { color: red; }
-[/sourcecode]
+
 
 Bu tanımla bizim işimizi görecektir. Ayrıca bir değişiklik olduğunda
 sadece tanımı değiştirmemiz bize yetecektir. Bu metod bize kolay, temiz
@@ -169,7 +169,7 @@ kullanırız.
 -   [Bize Ulaşın][]
 
 </div>
-[/sourcecode]
+
 
 Yukarıdaki kodlmada da görüldüğü gibi bir liste ve bunu çevreleyen bir
 menu id'si verilmiş bir katman kullandık. Bu kullanımı tüm sitemizde
@@ -183,7 +183,7 @@ katman kullanımına gerek yoktur. Bu katmanı kaldıra biliriz.
 -   [Dersler][]
 -   [Bize Ulaşın][]
 
-[/sourcecode]
+
 
 Yukardaki gibi bir kodlama ile kavrayıcı katman kullanımı ile aynı
 işlemleri yapabiliriz buradaki **ul** elementi bir blok-level elementi
@@ -205,7 +205,7 @@ kurtulabiliriz.
 [sourcecode language='css'] p { font-family:Verdana, Arial, sans-serif }
 td { font-family:Verdana, Arial, sans-serif } li { font-family:Verdana,
 Arial, sans-serif } dt { font-family:Verdana, Arial, sans-serif } dd {
-font-family:Verdana, Arial, sans-serif } [/sourcecode]
+font-family:Verdana, Arial, sans-serif } 
 
 Yukarıdaki şekilde bir çok element içinde font tanımı yapmak yerine
 **body** elementi içinde bir tek font tanımı ile bu kargaşaya son
@@ -213,7 +213,7 @@ verebilriz. Bu site standartlarına uymayı kolaylaştıracak ve düzenleme
 kolaylığını sağlayacaktır.
 
 [sourcecode language='css'] body { font-family:Verdana, Arial,
-sans-serif } [/sourcecode]
+sans-serif } 
 
 ### 4- Uygun Benzer Stilleri Gruplamak
 
@@ -224,13 +224,13 @@ bölümler gruplanarak kod azaltılabilir.
 font-family:Verdana,sans-serif } h2 { font-size:110%; margin-bottom:0;
 font-family:Verdana,sans-serif } h3 { font-size:100%; margin-bottom:0;
 font-family:Verdana,sans-serif } h4 { font-size:100%; margin-bottom:0;
-font-family:Verdana,sans-serif } [/sourcecode]
+font-family:Verdana,sans-serif } 
 
 Bu kullanım yerine
 
 [sourcecode language='css'] h1,h2,h3,h4 { margin-bottom:0;
 font-family:Verdana,sans-serif } h1 { font-size:120% } h2 {
-font-size:110% } h3,h4 { font-size:100% } [/sourcecode]
+font-size:110% } h3,h4 { font-size:100% } 
 
 ### 5- CSS Kısaltmalarını kullanmak
 

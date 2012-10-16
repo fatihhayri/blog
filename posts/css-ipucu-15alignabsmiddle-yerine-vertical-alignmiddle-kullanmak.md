@@ -31,7 +31,7 @@ geçiyor. Bunun için bir CSS sınıfı oluşturup gerekli yerlerde bu sınıfı
 eklersek sorunumuz çözülüyor.
 
 [sourcecode language='css'] .absmiddle { vertical-align:middle; }
-[/sourcecode] Küçük bir ipucu olarak akılda kalmasında yarar var.
+ Küçük bir ipucu olarak akılda kalmasında yarar var.
 
 -   [http://www.webmasterworld.com/forum21/4250.htm][]
 -   [http://battleangel.org/2004/03/05/absmiddle-replacement/][]

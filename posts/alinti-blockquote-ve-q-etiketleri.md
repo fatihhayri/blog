@@ -37,11 +37,12 @@ bilgi vermek için kullanılabilir.
 Sizlere kısaca kod içerisinde alıntı kullanımını anlatacağız. Eğer cümle
 için bir alıntı yaptı iseniz, **<q>** etiketini kullanabilirsiniz.
 
-[sourcecode language="html"] <p>Bunu Mevlana'nın bir sözü ile
+	:::html
+	 <p>Bunu Mevlana'nın bir sözü ile
 destekleyelim <q>Nice insanlar gördüm, üzerinde elbisesi yok. Nice
 elbiseler gördüm, içinde insan yok.</q> ve <q>Ehil olmayanlara
 sabretmek ehil olanları parlatır.</q> sözleri bize yol gösterir.</p>
-[/sourcecode]
+
 
 Yeni nesil tarayıcılar bu kodu aşağıdaki gibi gösterecektir.
 
@@ -61,7 +62,7 @@ font-style:italic; } /* Safari ve Firefox icin */ html:not([dummy]) q
 Mevlana'nın bir sözü ile destekleyelim <q>Nice insanlar gördüm,
 üzerinde elbisesi yok. Nice elbiseler gördüm, içinde insan yok.</q> ve
 <q>Ehil olmayanlara sabretmek ehil olanları parlatır.</q> sözleri
-bize yol gösterir. </p> </body> </html> [/sourcecode]
+bize yol gösterir. </p> </body> </html> 
 
 ![Örnek IE][]
 
@@ -69,9 +70,10 @@ Böylelikle Internet Explorer da kodumuz farklı görünecektir.
 
 Bu etiketin birde dil özelliği vardır.
 
-[sourcecode language="html"] <p>I said, <q lang="en-us">Herman, do
+	:::html
+	 <p>I said, <q lang="en-us">Herman, do
 you like bubblegum? </q> And he said, <q lang="en-us">Yes, the kind
-that comes with a comic.</q></p> [/sourcecode]
+that comes with a comic.</q></p> 
 
 Tüm dil kodlarını öğrenmek için
 [www.w3.org/TR/html4/struct/dirlang.html#langcodes][] adresini ziyaret
@@ -91,7 +93,7 @@ http-equiv="Content-Type" content="text/html; charset=utf-8" />
 ol, hataları örtmede gece gibi ol, tevazuda toprak gibi ol, öfkede ölü
 gibi ol, her ne olursan ol, ya olduğun gibi görün, ya göründüğün gibi
 ol.</blockquote> <cite>Mevla'na Celaleddin-i Rumi</cite> </body>
-</html> [/sourcecode]
+</html> 
 
 ![Alıntı Örnek 1][]
 
@@ -128,7 +130,7 @@ url(images/alinti_alt.gif) no-repeat left bottom; } </style>
 kardeşlikte akarsu gibi ol, hataları örtmede gece gibi ol, tevazuda
 toprak gibi ol, öfkede ölü gibi ol, her ne olursan ol, ya olduğun gibi
 görün, ya göründüğün gibi ol.</p></blockquote> <cite>Mevla'na
-Celaleddin-i Rumi</cite> </body> </html> [/sourcecode]
+Celaleddin-i Rumi</cite> </body> </html> 
 
 ![Alıntı Örnek Sonuç][]
 

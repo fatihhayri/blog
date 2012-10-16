@@ -66,10 +66,12 @@ CSS1'de kalıtsallığı olmayan özelliklerin listesi:
 </div>
 Örnek bir kodlama yaparsak:
 
-[sourcecode language="css"] div#icerik { text-align: center; }
-[/sourcecode] [sourcecode language="html"] <div id="icerik"> Buradaki
+	:::css
+	 div#icerik { text-align: center; }
+ 	:::html
+	 <div id="icerik"> Buradaki
 içerik ortalanacaktır <p> text-align özelliğinin kalıtsallığı olduğu
-için buradaki içeirkte ortalanacaktır </p> </div> [/sourcecode]
+için buradaki içeirkte ortalanacaktır </p> </div> 
 
 ![][]
 
@@ -80,7 +82,8 @@ kalabilirsiniz, tecrübeyle sabit :)
 
 **Direk atamalar kalıtsallığı yok eder.**Örneğin yukarıda örnekte
 
-[sourcecode language="css"] p{ text-align: left; } [/sourcecode]
+	:::css
+	 p{ text-align: left; } 
 
 tanımlaması ile üst element olan **#icerik**'den kalıtsal olarak gelen
 **text-align: center;** tanımlamasını etkisiz kılar.
@@ -107,11 +110,12 @@ sağlamaktadır. Tüm elementlere(kalıtsallık özelliği olmayanlar dahil)
 *inherit* değeri atayabiliriz. *inherit* değeri atadığımız element üst
 elementinin değerlerini alacaktır. Bir örnek yapacak olursak:
 
-[sourcecode language="css"] div#icerik { border: 1px solid #000; }
-div#bilgi { border: inherit; } [/sourcecode] [sourcecode
+	:::css
+	 div#icerik { border: 1px solid #000; }
+div#bilgi { border: inherit; }  [sourcecode
 language="html"] <div id="icerik"> Bu içeriği kenarlığı olacaktır
 <div id="bilgi"> Bu bilgi de kenarlık bilgisini üstten elementten
-alarak kenarlığı olacaktır. </div> </div> [/sourcecode]
+alarak kenarlığı olacaktır. </div> </div> 
 
 ![][1]
 

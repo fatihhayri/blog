@@ -56,9 +56,10 @@ Bir pika 12 noktaya bölünür.</span></a> Örnek: font-size:2pc
 
 Yüzde değerleri her zaman diğer elementlere göre göreceli değerlerdir.
 
-[sourcecode language="css"] /* elementin font-size değerinin %150 si
+	:::css
+	 /* elementin font-size değerinin %150 si
 dir */ h4 { line-height: 150% } /* satır genişliğinin 10% nu */ p {
-text-indent: 10% } [/sourcecode]
+text-indent: 10% } 
 
 ### Renk Birimleri
 
@@ -69,9 +70,10 @@ RGB tanımlamasıda dört çeşittir.
 
 Renklerin ingilizce isimleri kullanılarak tanımlama yapılabilir.
 
-[sourcecode language="css"] p { color:black; } /* renk tanımı siyah
+	:::css
+	 p { color:black; } /* renk tanımı siyah
 olarak yapılıyor*/ h1{ background-color: red; } /* h1 başlığının
-ardalanı kırmızı tanımlanıyor */ [/sourcecode]
+ardalanı kırmızı tanımlanıyor */ 
 
 **RGB Renk Değerleri**
 
@@ -97,8 +99,9 @@ arasında bir tanımı vardır. Buna göre tanımlama yapılır. Örnek: h1
 
 URL tanımlaması için aşağıdaki gib bir tanımlama yapılır.
 
-[sourcecode language="css"]
-url(http://www.fatihhayrioglu.com/images/kucuk.gif) [/sourcecode]
+	:::css
+	
+url(http://www.fatihhayrioglu.com/images/kucuk.gif) 
 
 Burada tırnaksız ve tek tırnaklı kullanımları da standarda uygundur.
 

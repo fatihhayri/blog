@@ -30,17 +30,20 @@ biridir. Uygulanması en basit metot olması kullanımını arttırmıştır.
 Teknik çok basittir yerine resim konacak metin <span> etiketi içine
 alınır. Xhtml kodu:
 
-[sourcecode language="html"] <h1> <span>Selam</span> </h1>
-[/sourcecode]
+	:::html
+	 <h1> <span>Selam</span> </h1>
+
 
 Metin yerine görünecek resim <h1> etiketine uygulanır: CSS kodu
 
-[sourcecode language="css"] h1 { background:url(selam.gif) no-repeat;
-width: 62px; height: 19px; font-size:16px; } [/sourcecode]
+	:::css
+	 h1 { background:url(selam.gif) no-repeat;
+width: 62px; height: 19px; font-size:16px; } 
 
 ve son olarakta <span> etiketi içindeki metni gizlemek için:
 
-[sourcecode language="css"] span { display: none; } [/sourcecode]
+	:::css
+	 span { display: none; } 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -55,15 +58,17 @@ www.phark.net'in ürettiği bu teknik ekran okuyucuları tarafından
 görüntülenecektir, bu yönüyle FIR tekniğinden avantajlıdır. Ayrıca
 fazladan <span> etiketi üretmemesi yönüylede avantajlıdır. Html kodu:
 
-[sourcecode language="css"] <h1>Selam</h1> [/sourcecode]
+	:::css
+	 <h1>Selam</h1> 
 
 FIR tekniğinden farklı olarak bu teknikte **text-indent** değeri yüksek
 eksi değer(genelde -999px) verilerek ekranı dışına atılarak üretilir.
 CSS kodu:
 
-[sourcecode language="css"] h1 { text-indent: -999px;
+	:::css
+	 h1 { text-indent: -999px;
 background:url(selam.gif) no-repeat; width: 62px; height:19px; }
-[/sourcecode]
+
 
 Örneği görmek için [tıklayınız.][1]
 
@@ -82,23 +87,26 @@ metni görür.
 
 Bu metot için fazladan <span> etiketi üretilir. Html kodu:
 
-[sourcecode language="html"] <h1> <span></span>Selam </h1>
-[/sourcecode]
+	:::html
+	 <h1> <span></span>Selam </h1>
+
 
 <h1> etiketinin boyutları resmin boyutları ile aynı atanır ve göreceli
 olarak konumlandırılır. CSS kodu
 
-[sourcecode language="css"] h1 { width: 62px; height: 19px; position:
-relative; font-size:16px; } [/sourcecode]
+	:::css
+	 h1 { width: 62px; height: 19px; position:
+relative; font-size:16px; } 
 
 Ekstradan üretilen <span> etiketi mutlak konumlandırma ile
 konumlandırarak metnin üzerini kapatırız. Ayrıca boyutları %100
 verilerek tam kapanma sağlanır. Son olarakta görünecek resim zemin resmi
 olarak atanır.
 
-[sourcecode language="css"] h1 span { background: url(selam.gif)
+	:::css
+	 h1 span { background: url(selam.gif)
 no-repeat; position: absolute; width: 100%; height: 100%; }
-[/sourcecode]
+
 
 Örneği görmek için [tıklayınız.][2]
 
@@ -196,25 +204,28 @@ ben **fatih.swf** yaptım.
 Html dokümanınız açıp <head> içine aşağıdaki kodları eklememiz
 gerekiyor.
 
-[sourcecode language="html"] <link rel="stylesheet"
+	:::html
+	 <link rel="stylesheet"
 href="sIFR-screen.css" type="text/css" media="screen"> <link
 rel="stylesheet" href="sIFR-print.css" type="text/css" media="print">
-[/sourcecode]
+
 
 sonra bunların altına javascript dosyalarını ekleyelim.
 
-[sourcecode language="html"] <script src="sifr.js"
+	:::html
+	 <script src="sifr.js"
 type="text/javascript"></script></li> <script src="sifr-addons.js"
-type="text/javascript"></script> </li> [/sourcecode]
+type="text/javascript"></script> </li> 
 
 Sonra Html içeriğinin sonuna aşağıdaki kodu ekleyelim.
 
-[sourcecode language="javascript"] <script type="text/javascript">
+	:::javascript
+	 <script type="text/javascript">
 //<![CDATA[ /* Replacement calls. Please see documentation for more
 information. */ if(typeof sIFR == "function"){ // This is the older,
 ordered syntax sIFR.replaceElement("h2", "fatih.swf", "#000000",
 "#000000", "#FFFFFF", "#FFFFFF", 0, 0, 0, 0); }; //]]> </script>
-</body> </html> [/sourcecode]
+</body> </html> 
 
 Bu javascript kodunda metin yerine eklenecek swf fosyasını, metnin
 rengini, hangi elemente(etiket, id ve sınıf) uygulanacağını, padding,
@@ -226,9 +237,10 @@ inceleyerek bu konuda daha ayrıntılı bilgi edinebilirsiniz.
 
 **sIFR-screen.css** dokümanın açıyoruz.
 
-[sourcecode language="css"] .sIFR-hasFlash h2 { visibility: hidden;
+	:::css
+	 .sIFR-hasFlash h2 { visibility: hidden;
 letter-spacing: -7px; font-size: 36px; margin:0; padding:0; }
-[/sourcecode]
+
 
 Burada ekleyeceğimiz fontun ayarlarını yapıyoruz. font boyutunu kendi
 seçtiğimiz fonta göre ayarlıyoruz. Örnek dosya üzerinden gidersek bu css
@@ -249,7 +261,8 @@ yüklenmesidir. Bu sitemizin açılış hızına etki edecektir.
 Not(01.05.2008 eklendi): Bazen sFIR uyguladığımız metin ikinci satıra
 inmiyor bunun için başlığa bir genişlik tanımlamamız gerekiyor.
 
-[sourcecode language="css"] h1{width:250px} [/sourcecode]
+	:::css
+	 h1{width:250px} 
 
 [sIFR3][]'ün betası var ancak kararlı sürümü çıkmadı.
 

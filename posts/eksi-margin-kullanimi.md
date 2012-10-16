@@ -33,11 +33,13 @@ Eksi Margin'i iki yerde uygularız.
 Herhangi bir konumlandırma ataması yapılmayan tüm elemanlar sabit
 konumlandırılmıştır.
 
-[sourcecode language="css"] #kutu1 { width: 200px; height: 100px;
+	:::css
+	 #kutu1 { width: 200px; height: 100px;
 border: 2px solid #659ad8; background-color:#e5ecf9 } #kutu2 { width:
 200px; height: 100px; border: 2px solid #cd8a93;
-background-color:#ffb4bf } [/sourcecode] [sourcecode language="html"]
-<div id="kutu1"></div> <div id="kutu2"></div> [/sourcecode]
+background-color:#ffb4bf }  	:::html
+	
+<div id="kutu1"></div> <div id="kutu2"></div> 
 
 Örnke kodu görmek için [tıklayınız.][]
 
@@ -51,7 +53,7 @@ Alttaki kutuyu kendi üzerine doğru 20px çekecektir.
 [sourcecode language="css" highlight="6"] #kutu1 { width: 200px;
 height: 100px; border: 2px solid #659ad8; background-color:#e5ecf9;
 margin-bottom:-20px } #kutu2 { width: 200px; height: 100px; border: 2px
-solid #cd8a93; background-color:#ffb4bf } [/sourcecode]
+solid #cd8a93; background-color:#ffb4bf } 
 
 Örnke kodu görmek için [tıklayınız.][1]
 
@@ -62,7 +64,7 @@ Eğer ikinci kutuya yukarıdan eksi margin verirsek
 [sourcecode language="css" highlight="13"] #kutu1 { width: 200px;
 height: 100px; border: 2px solid #659ad8; background-color:#e5ecf9; }
 #kutu2 { width: 200px; height: 100px; border: 2px solid #cd8a93;
-background-color:#ffb4bf; margin-top:-20px } [/sourcecode]
+background-color:#ffb4bf; margin-top:-20px } 
 
 Örnke kodu görmek için [tıklayınız.][2]
 
@@ -84,9 +86,10 @@ kullanırız. Bu bize arama motorları içinde avantaj sağlar. 
 
 Normal bir içerik ve başlık kullanımına örnek verelim.
 
-[sourcecode language="html"] <p>Integer sagittis ... elementum. </p>
+	:::html
+	 <p>Integer sagittis ... elementum. </p>
 <h1>Donec id ultricies mi.</h1> <p>Lorem ipsum ... eros.</p>
-[/sourcecode]
+
 
 Görünüm aşağıdaki gibi olacaktır
 
@@ -103,7 +106,8 @@ Bir başka çözüm yolu ise ki bu daha kolaydır ve genelde tercih edilir.
 Başlık etiketinin alt margin değerine eksi değer vererek paragraf
 yaklaştırılır. 
 
-[sourcecode language="css"] h1{ margin-bottom:-20px } [/sourcecode]
+	:::css
+	 h1{ margin-bottom:-20px } 
 
 ![negatifmargin_baslik2][]
 
@@ -113,9 +117,9 @@ durumunda vardır.**
 [sourcecode language="css" highlight="11"] #kutu1 { width:200px;
 height: 130px; border: 2px solid #659ad8; background-color:#e5ecf9; }
 #kutu2 { height: 100px; border: 2px solid #cd8a93;
-background-color:#ffb4bf; margin:10px -20px } [/sourcecode] [sourcecode
+background-color:#ffb4bf; margin:10px -20px }  [sourcecode
 language="html"] <div id="kutu1"> <div id="kutu2"></div> </div>
-[/sourcecode]
+
 
 İçteki kutuya sağdan ve soldan eksi değerler verdiğimizde dış kutunu
 genişliğini otomatik olarak alan içerideki kutu sağ ve soldan verilen
@@ -144,7 +148,7 @@ tanımı yeterlidir.
 height: 130px; border: 2px solid #659ad8; background-color:#e5ecf9; }
 #kutu2 { height: 100px; border: 2px solid #cd8a93;
 background-color:#ffb4bf; margin:10px -20px; min-height:0 }
-[/sourcecode]
+
 
 ie6 için ise daha farklı bir kod yazmalıyız.
 
@@ -152,7 +156,7 @@ ie6 için ise daha farklı bir kod yazmalıyız.
 width:200px; border: 2px solid #659ad8; background-color:#e5ecf9; }
 #kutu2 { border: 2px solid #cd8a93; background-color:#ffb4bf;
 margin:10px -20px; } * html #kutu2{ position:relative; height:1px }
-[/sourcecode]
+
 
 Örnke kodu görmek için [tıklayınız.][4]
 
@@ -165,13 +169,15 @@ görür.
 
 Float uygulanmış iki elemanı düşünelim.
 
-[sourcecode language="css"] #kutu1 { float:left; width: 200px; height:
+	:::css
+	 #kutu1 { float:left; width: 200px; height:
 100px; border: 2px solid #659ad8; background-color:#e5ecf9; } #kutu2
 { float:left; width: 200px; height: 80px; border: 2px solid #cd8a93;
-background-color:#ffb4bf } [/sourcecode] [sourcecode language="html"]
+background-color:#ffb4bf }  	:::html
+	
 <div id="kutu1"> Lorem ipsum dolor sit amet, consectetur adipiscing
 elit. Donec id ultricies mi. </div> <div id="kutu2"> Etiam vel arcu
-nisl. Sed pharetra gravida diam sed mattis. </div> [/sourcecode]
+nisl. Sed pharetra gravida diam sed mattis. </div> 
 
 Birinci kutuya sağ eksi margin verdiğimizde
 
@@ -179,7 +185,7 @@ Birinci kutuya sağ eksi margin verdiğimizde
 200px; height: 100px; border: 2px solid #659ad8;
 background-color:#e5ecf9; margin-right:-50px } #kutu2 { float:left;
 width: 200px; height: 80px; border: 2px solid #cd8a93;
-background-color:#ffb4bf } [/sourcecode]
+background-color:#ffb4bf } 
 
 Örnke kodu görmek için [tıklayınız.][5]
 
@@ -207,19 +213,21 @@ olacaktır.
 [sourcecode language="css" highlight="6,10"] #kutu1 { float:left;
 width: 100%; height: 100px; background-color:#e5ecf9;
 margin-right:-200px } #kutu2 { float:left; width: 200px; height: 80px;
-background-color:#ffb4bf } [/sourcecode] [sourcecode language="html"]
+background-color:#ffb4bf }  	:::html
+	
 <div id="kutu1"> <p>Lorem ipsum dolor sit amet, consectetur
 adipiscing elit. Donec id ultricies mi.</p> </div> <div
 id="kutu2"> <p>Etiam vel arcu nisl. Sed pharetra gravida diam sed
-mattis.</p> </div> [/sourcecode]
+mattis.</p> </div> 
 
 ![float_eksimargin_esnek][]
 
 %100 içeriği sağ kolonun altında kalıyor. Bunu engellemek için
 içeriğindeki paragrafa sağ margin değeri atamalıyız.
 
-[sourcecode language="css"] #kutu1 p{ margin-right:220px }
-[/sourcecode]
+	:::css
+	 #kutu1 p{ margin-right:220px }
+
 
 Normalde 200px yeterli olacaktı ancak içerik ile sağ kolon arasına 20px
 lik bir mesafe koyarak birbirine yapışmasınıda engellemiş olduk.
@@ -232,7 +240,7 @@ rengini kaldırıp içindeki paragrafa vererek bu sorunu çözebiliriz.
 [sourcecode language="css" highlight="6,7,8,9,10"] #kutu1 { float:left;
 width: 100%; margin-right:-200px } #kutu1 p{ margin:0 220px 0 0;
 height: 100px; background-color:#e5ecf9; } #kutu2 { float:left; width:
-200px; height: 80px; background-color:#ffb4bf } [/sourcecode]
+200px; height: 80px; background-color:#ffb4bf } 
 
 Örnke kodu görmek için [tıklayınız.][6]
 
@@ -243,13 +251,15 @@ height: 100px; background-color:#e5ecf9; } #kutu2 { float:left; width:
 Yukarıda yan yana elemanlardaki durumu gösterdik peki iç içe elemanlarda
 eksi margin kullanımda nasıl sonuçlar çıkacaktır.
 
-[sourcecode language="css"] #kutu1 { float:left; width: 200px; height:
+	:::css
+	 #kutu1 { float:left; width: 200px; height:
 100px; border: 2px solid #659ad8; background-color:#e5ecf9; } #kutu2
 { float:right; width: 50px; height: 80px; border: 2px solid #cd8a93;
-background-color:#ffb4bf; } [/sourcecode] [sourcecode language="html"]
+background-color:#ffb4bf; }  	:::html
+	
 <div id="kutu1"> <div id="kutu2">Donec id ultricies mi.</div>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
-[/sourcecode]
+
 
 Örnke kodu görmek için [tıklayınız.][7]
 
@@ -262,7 +272,7 @@ kutu dışarısına çıkararak bir çok uygulamada işimizie yaracaktır.
 200px; height: 100px; border: 2px solid #659ad8;
 background-color:#e5ecf9; } #kutu2 { float:right; width: 80px; height:
 80px; border: 2px solid #cd8a93; background-color:#ffb4bf; margin:10px
--50px 0 0 } * html #kutu2{ position:relative; } [/sourcecode]
+-50px 0 0 } * html #kutu2{ position:relative; } 
 
 Örnke kodu görmek için [tıklayınız.][8]
 
@@ -272,13 +282,15 @@ Bir başka uygulama şeklide
 
 Bir içerik ve başlığı normal şekilde normal akış içerisinde iken
 
-[sourcecode language="css"] #kutu1 { float:left; border: 2px solid
+	:::css
+	 #kutu1 { float:left; border: 2px solid
 #659ad8; background-color:#e5ecf9; padding:0 20px } #kutu1 h2{
-border: 2px solid #cd8a93; background-color:#ffb4bf; } [/sourcecode]
-[sourcecode language="html"] <div id="kutu1"> <h2>Donec id ultricies
+border: 2px solid #cd8a93; background-color:#ffb4bf; } 
+	:::html
+	 <div id="kutu1"> <h2>Donec id ultricies
 mi.</h2> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Morbi porttitor vehicula nisl, et tincidunt sapien venenatis quis. ..
-felis.</p> </div> [/sourcecode]
+felis.</p> </div> 
 
 Örnke kodu görmek için [tıklayınız.][9]
 
@@ -288,7 +300,7 @@ Ancak buradaki başlığı kutu dışına alarak farklı bir görünüm elde
 edebiliriz.
 
 [sourcecode language="css" highlight="4"] #kutu1 h2{ border: 2px solid
-#cd8a93; background-color:#ffb4bf; margin-top:-20px } [/sourcecode]
+#cd8a93; background-color:#ffb4bf; margin-top:-20px } 
 
 Örnke kodu görmek için [tıklayınız.][10]
 
@@ -296,8 +308,9 @@ edebiliriz.
 
 ve tabi ie 6 için
 
-[sourcecode language="css"] * html #kutu1 h2{ position:relative;
-height:1px } [/sourcecode]
+	:::css
+	 * html #kutu1 h2{ position:relative;
+height:1px } 
 
 **Eksi Margin Uygulamaları**
 

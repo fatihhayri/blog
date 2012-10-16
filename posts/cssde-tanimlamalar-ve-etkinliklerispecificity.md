@@ -41,14 +41,14 @@ Değerini elde ederiz. Burada id değeri 100'ler basamağına sınıf değeri
 edilir.
 
 [sourcecode language='css'] ul h1 li.secili { color: yellow; }
-[/sourcecode]
+
 
 Yukarıdaki tanımlama da 0013 değerini elde ederiz.
 
 0 (kod içinde değil), 0 (id), 1 (secili sınıfı), 3 (ul h1 li seçicileri)
 = 0013
 
-[sourcecode language='css'] h1 { color: blue; } [/sourcecode]
+[sourcecode language='css'] h1 { color: blue; } 
 
 Bu tanımlamanın değeri 0001 dir. CSS belirlemeye göre yüksek değer
 alanın özelliği uygulanır. Her ikisinde de h1'e bir tanımlama
@@ -58,7 +58,7 @@ yapılmıştır. Ancak tanımlama sistemleri farklıdır. XHTML kodumuzdaki
 Bide öncelik için**!important** tanımlaması vardır. Eğer yukarıdaki koda
 **!important** eklersek
 
-[sourcecode language='css'] h1 { color: blue !important; } [/sourcecode]
+[sourcecode language='css'] h1 { color: blue !important; } 
 
 Tanımlama yukarıdaki gibi değiştirildiğinde h1 elementimiz mavi renkde
 görünecektir.

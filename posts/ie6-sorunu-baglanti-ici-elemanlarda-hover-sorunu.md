@@ -18,13 +18,15 @@ kaynaklardaki bir örneği vereceğim burada size ben.
 
 HTML kodu
 
-[sourcecode language="html"] <div> <a
-href="#">foo<span>bar</span></a> </div> [/sourcecode]
+	:::html
+	 <div> <a
+href="#">foo<span>bar</span></a> </div> 
 
 CSS Kodu
 
-[sourcecode language="css"] span { display: none; } a:hover span {
-display: inline; } [/sourcecode]
+	:::css
+	 span { display: none; } a:hover span {
+display: inline; } 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -42,8 +44,9 @@ sorunu ie7 çözmüş görünüşe göre.
 **padding-top:0** değeri atayıp sonrada **a:hover span** seçicisinede
 **padding-top:0** değeri atayınca oluyor.
 
-[sourcecode language="css"] a:hover{ padding-top:0; } span { display:
-none; } a:hover span { display: inline; padding-top:0; } [/sourcecode]
+	:::css
+	 a:hover{ padding-top:0; } span { display:
+none; } a:hover span { display: inline; padding-top:0; } 
 
 Örneği görmek için [tıklayınız.][1]
 

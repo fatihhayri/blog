@@ -16,7 +16,7 @@ Player;C:Program FilesVMwareVMware Player VMInst: 01/19/08
 19:41:29 Failed to create key SOFTWAREVMware, Inc.VMware
 Workstation: 5 VMInst: 01/19/08 19:41:29 Cannot add installation path to
 registry. VMInst: 01/19/08 19:41:29 Attaching to window with title
-"VMware Player" VMInst: 01/19/08 19:41:34 End Logging [/sourcecode]
+"VMware Player" VMInst: 01/19/08 19:41:34 End Logging 
 
 ### Çözüm
 

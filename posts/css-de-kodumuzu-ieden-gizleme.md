@@ -5,7 +5,7 @@ Tags: CSS, düzeltme, Firefox, gizle, hack, ie, ie6, important, internet explore
 
 Bir kodu İE'den gizlemek istiyorsak [sourcecode language='css'] p{
 color:red !important; /* bu kısmı ie6 görmeyecek*/ color:blue; }
-[/sourcecode]sayfa için kullandığımız paragraflar ie6 mavi ff kırmızı
+sayfa için kullandığımız paragraflar ie6 mavi ff kırmızı
 görünecektir. !important css ile etkinlik için kullanılan bir etikettir.
 !important tanımlı özellik daha önce yapılmış aynı özelliğin üzerine
 çıkar. CSS ile etkinlik hakkında daha fazla bilgi için [tıklayınız.][]

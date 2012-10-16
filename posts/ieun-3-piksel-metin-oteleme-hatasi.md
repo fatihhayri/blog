@@ -10,9 +10,10 @@ istediğinizde, ie5-6 versiyonlarında soldaki float uygulanmış element
 içeriği boyunda sağdaki metin soldan 3 piksel kadar içeriğini
 öteleyecektir. <!--more-->
 
-[sourcecode language="css"] .solKolon { float: left; width: 200px;
+	:::css
+	 .solKolon { float: left; width: 200px;
 background-color:#00CCFF; } p { margin-left: 200px;
-background-color:#CCCCCC; } [/sourcecode]
+background-color:#CCCCCC; } 
 
 ![][]
 
@@ -24,9 +25,10 @@ atadığımızda bu elementin boyutunu değiştirmeyecektir. Bu atama diğer
 web tarayıcılarını etkileyecektir bu nedenle diğer web tarayıcılarından
 bu kodu gizlemeliyiz.
 
-[sourcecode language="css"] /* E5-Mac gizleyelim. sadece IE-Win görsün
+	:::css
+	 /* E5-Mac gizleyelim. sadece IE-Win görsün
 bu kodu. */ * html p { height: 1%; } /* IE5/Mac den gizlemeye son
-*/ [/sourcecode]
+*/ 
 
 ![][1]
 
@@ -35,17 +37,19 @@ gibi bu alana float uygulandığında **margin-left:200px** tanımını IE iki
 kat görecektir bunu engellemek için **margin-left** değerini
 sıfırlamalıyız.
 
-[sourcecode language="css"] /* E5-Mac gizleyelim. sadece IE-Win görsün
+	:::css
+	 /* E5-Mac gizleyelim. sadece IE-Win görsün
 bu kodu. */ * html p { height: 1%; margin-left: 0; } /* IE5/Mac den
-gizlemeye son */ [/sourcecode]
+gizlemeye son */ 
 
 İçerideki boşluğu aldık ancak elementler arasında boşluk kaldı bunu
 kaldırmak için sağ margin değerine -3 piksel atama yapmalıyız.
 
-[sourcecode language="html"] /* E5-Mac gizleyelim. sadece IE-Win görsün
+	:::html
+	 /* E5-Mac gizleyelim. sadece IE-Win görsün
 bu kodu. */ * html p { height: 1%; margin-left: 0; } * html
 .solKolon { margin-right: -3px; } /* IE5/Mac den gizlemeye son */
-[/sourcecode]
+
 
 Bu tüm sorunlarımız çözecektir. Tabi float uygulanan elementin içinde
 resim yoksa. Resmin olduğu durumlarda sorun olacaktır. Bu sorunu çözmek
@@ -53,10 +57,11 @@ için IE5/Win için resmin sağına ve soluna -3 piksel margin ataması
 yapmalıyız. IE6 bu margin'leri görmemelidir. Bunun için kodumuz şöyle
 olacaktır:
 
-[sourcecode language="html"] /* E5-Mac gizleyelim. sadece IE-Win görsün
+	:::html
+	 /* E5-Mac gizleyelim. sadece IE-Win görsün
 bu kodu. */ * html p { height: 1%; margin-left: 0; } * html
 img.solKolon { margin: 0 -3px; margin: 0; } /* IE5/Mac den gizlemeye
-son */ [/sourcecode]
+son */ 
 
 Biliyorum bu kod bizim sade ve temiz kod mantığımıza çok ters ama
 yapılabilecek pek bir şey de yok. Bu CSS'in sorunu değil tamamen IE'nin

@@ -54,7 +54,8 @@ kalmasını isteriz. table-layout:fixed değeri tablo genişliğimizi
 sabitlememizi sağlar. table-layout:auto ise tablo genişliğini içeriğe
 göre arttırır.
 
-[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
@@ -82,7 +83,7 @@ YTL</td> <td>0,010 YTL</td> </tr> <tr> <td>1024/256'e
 kadar</td> <td>6</td> <td>39 YTL</td> <td>0,009 YTL</td>
 </tr> <tr> <td>2048/512'e kadar</td> <td>6</td>
 <td>49YTL</td> <td>0,009 YTL</td> </tr> </table> </body>
-</html> [/sourcecode]
+</html> 
 
 ![caption-side örneği][]
 
@@ -111,8 +112,9 @@ Bu özelliği IE(ie5+/mac destekliyor) desteklemiyor. Tüm tarayıcıların
 desteklediği şekilde kod yazmak için <caption>
 etiketinin**align**özelliği kullanılmalıdır. Örnek:
 
-[sourcecode language="html"] <caption align="bottom"> ve <caption
-align="top"> [/sourcecode]
+	:::html
+	 <caption align="bottom"> ve <caption
+align="top"> 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:**  
@@ -155,7 +157,8 @@ istesek bile tarayıcılar bu seferde iki kenarlığı bir bir üstü
 gösterecektir. Eğer**collapse**değeri verilirse iki hücre arasındaki
 mesafe kalkacaktır ve tek kenarlık görünecektir.
 
-[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
@@ -169,7 +172,7 @@ border-collapse: separate; } table.birlesik { border-collapse: collapse;
 <table border="0" cellspacing="0" class="birlesik"> <tr>
 <td>hücre1</td> <td>hücre2</td> </tr> <tr>
 <td>hücre3</td> <td>hücre4</td> </tr> </table> </body>
-</html> [/sourcecode]
+</html> 
 
 Örneği görmek için[tıklayınız.][3]
 
@@ -201,7 +204,8 @@ ve**border-collapse:separate**ile birlikte kullanılır. Eğer tek değer
 verilirse bu tüm kenarlar için geçerlidir, iki değer atanırsa ilki
 yatayda boşluk için ikincisi dikey de boşluk vermek için tanımlanmıştır.
 
-[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
@@ -215,7 +219,7 @@ border-collapse: separate; } td { border: 1px solid black; padding: 3px;
 <table border="0" cellspacing="0" class="birlesik"> <tr>
 <td>hücre1</td> <td>hücre2</td> </tr> <tr>
 <td>hücre3</td> <td>hücre4</td> </tr> </table> </body>
-</html> [/sourcecode]
+</html> 
 
 Örneği görmek için[tıklayınız.][4]
 
@@ -252,7 +256,8 @@ davranmasını sağlarız.
 
 Bu özellik Internet Explorer tarafından desteklenmemektedir.
 
-[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
@@ -265,7 +270,7 @@ cellspacing="0" class="goster"> <tr> <td></td>
 <td>hücre4</td> </tr> </table> &nbsp; <table border="0"
 cellspacing="0" class="gizle"> <tr> <td></td> <td>hücre2</td>
 </tr> <tr> <td>hücre3</td> <td>hücre4</td> </tr>
-</table> </body> </html> [/sourcecode]
+</table> </body> </html> 
 
 Örneği görmek için[tıklayınız.][5]
 

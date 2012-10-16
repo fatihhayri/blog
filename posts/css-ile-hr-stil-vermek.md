@@ -34,14 +34,14 @@ paylaşmak istedim.
 -   Tüm tarayıcılar**background-image** özelliğini destekliyor ancak
     Explorer ve Opera'da bazı sorunları var.
 
-[sourcecode language='css'] hr { border: 0; width: 80%; } [/sourcecode]
+[sourcecode language='css'] hr { border: 0; width: 80%; } 
 
 Bu kodlama IE ve Opera'da düzgün görünecektir. Ancak Firefox'ta
 görünmeyecektir. background-color ekleyerek kodumuzu Firefox'a da uygun
 hala getiriyoruz.
 
 [sourcecode language='css'] hr { color: #f00; background-color: #f00;
-height: 5px; } [/sourcecode]
+height: 5px; } 
 
 <hr / > elementine stil ataması yaparken color ve background-color
 özelliklerin her ikisini de kullanmalıyız. Yüksekliği 3px'in altındaki
@@ -53,7 +53,7 @@ değerler için Opera'nın eski sürümleri sorun çıkarıyor.
 ve Opera için **margin** özelliği kullanılır.
 
 [sourcecode language='css'] hr { text-align: right; /* ie icin */
-margin-right: 0; /* diger brovserlar icin */ } [/sourcecode]
+margin-right: 0; /* diger brovserlar icin */ } 
 
 <div class="ekstrabilgi">
 <hr> etiketini <hr /> şeklinde kullanmak Xhtml kuralları açısından
@@ -79,13 +79,13 @@ ve Opera'nın eski sürümlerinde sorun çıkarır. resmin etrafında kenarlık
 * * * * *
 
 </div>
-[/sourcecode]
+
 
 ve CSS kodu
 
 [sourcecode language='css'] div.hr { background: #fff
 url(/images/ayrac_zr.gif) no-repeat scroll center; height:28px;
-width:180px; } div.hr hr { display: none; } [/sourcecode]
+width:180px; } div.hr hr { display: none; } 
 
 Tüm web tarayıcılarında sorunsuz çalışacaktır. Yukarıdaki kodda <hr />
 etiketi bir <div> içine alarak css ile <hr /> etiketi görünmez

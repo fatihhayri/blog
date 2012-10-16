@@ -26,8 +26,9 @@ box-shadow yapısını inceleyelim.
 </div>
 Temel kullanımı.
 
-[sourcecode language="css"] .golgeliKutu { box-shadow: 3px 3px 4px
-#000; } [/sourcecode]
+	:::css
+	 .golgeliKutu { box-shadow: 3px 3px 4px
+#000; } 
 
 Değerler metinlere gölge verme(text-shadow) özelliği ile aynı anlamı
 taşır.
@@ -49,9 +50,10 @@ alır.
 Farklı tarayıcılar için ön ek kullanılarak çözüm üretilir. -moz Firefox
 için, -webkit Safari ve Google Chrome için.
 
-[sourcecode language="css"] .golgeliKutu { box-shadow: 3px 3px 4px
+	:::css
+	 .golgeliKutu { box-shadow: 3px 3px 4px
 #000; -moz-box-shadow: 3px 3px 4px #000; -webkit-box-shadow: 3px 3px
-4px #000; } [/sourcecode]
+4px #000; } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:**  
@@ -78,14 +80,15 @@ background:#CCC
 
 HTML kodu
 
-[sourcecode language="html"]<div class="golgeliKutu"> Lorem ipsum
+	:::html
+	<div class="golgeliKutu"> Lorem ipsum
 dolor sit amet, consectetur adipiscing elit. Vestibulum ullamcorper
 commodo fermentum. Proin eu sollicitudin neque. Sed enim tellus,
 condimentum sed interdum vitae, mattis et nisl. Sed nec nisl est,
 sagittis lobortis eros. Integer pharetra turpis eu est eleifend
 faucibus. Phasellus pulvinar massa sagittis nisl posuere at rhoncus
 velit blandit. Suspendisse potenti. Lorem ipsum dolor sit amet,
-consectetur adipiscing elit. </div> [/sourcecode]
+consectetur adipiscing elit. </div> 
 
 ![Gölgeli Kutu][]
 
@@ -102,14 +105,15 @@ box-shadow tanımında tek bir gölge tanımı yapılabildiği gibi, birden
 fazla gölge tanımıda yapılabilmektedir. Her bir tanım birbirinden virgül
 ile ayrılır.
 
-[sourcecode language="css"] .golgeliKutu { box-shadow: 0.5em -0.5em
+	:::css
+	 .golgeliKutu { box-shadow: 0.5em -0.5em
 0.4em red, 0.5em 0.5em 0.4em gold, -0.5em 0.5em 0.4em lime, -0.5em
 -0.5em 0.4em blue; -moz-box-shadow: 0.5em -0.5em 0.4em red, 0.5em 0.5em
 0.4em gold, -0.5em 0.5em 0.4em lime, -0.5em -0.5em 0.4em blue;
 -webkit-box-shadow: 0.5em -0.5em 0.4em red, 0.5em 0.5em 0.4em gold,
 -0.5em 0.5em 0.4em lime, -0.5em -0.5em 0.4em blue; width:250px;
 padding:5px; font:12px Arial, Helvetica, sans-serif; background:#CCC }
-[/sourcecode]
+
 
 ![Çoklu Gölgeli Kutu][]
 
@@ -120,10 +124,11 @@ padding:5px; font:12px Arial, Helvetica, sans-serif; background:#CCC }
 Kutulara gölge verirken kutu içinede gölge verebiliyoruz. inset eklemesi
 ile kutu içine gölge verme imkanımız var.
 
-[sourcecode language="css"] .golgeliKutu { box-shadow: inset 0 0 0.5em
+	:::css
+	 .golgeliKutu { box-shadow: inset 0 0 0.5em
 blue;; -moz-box-shadow: inset 0 0 0.5em blue; -webkit-box-shadow: inset
 0 0 0.5em blue; width:250px; padding:5px; font:12px Arial, Helvetica,
-sans-serif; } [/sourcecode]
+sans-serif; } 
 
 ![İçe Gölge][]
 
@@ -142,23 +147,25 @@ keskin gölgeler görürüz. X ve Y değerleri ile açı verebiliriz. Shadow
 filtresi daha gerçekçi çözümler üretir ancak shadow filtresinde de x ve
 y tanımlarını yapmamıza izin vermez.
 
-[sourcecode language="css"] /* For IE 8 */ -ms-filter:
+	:::css
+	 /* For IE 8 */ -ms-filter:
 "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135,
 Color='#000000')"; /* For IE 5.5 - 7 */ filter:
 progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135,
-Color='#000000'); [/sourcecode]
+Color='#000000'); 
 
 İE8 için farklı diğer ie'ler için farklı kodlar yazıyoruz. Bu kodu
 yukarıdaki kod ile birleştirirsek
 
-[sourcecode language="css"] .golgeliKutu { width:250px; font:12px Arial,
+	:::css
+	 .golgeliKutu { width:250px; font:12px Arial,
 Helvetica, sans-serif; background:#CCC; padding:5px; -moz-box-shadow:
 3px 3px 4px #000; -webkit-box-shadow: 3px 3px 4px #000; box-shadow:
 3px 3px 4px #000; /* For IE 8 */ -ms-filter:
 "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135,
 Color='#000000')"; /* For IE 5.5 - 7 */ filter:
 progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135,
-Color='#000000'); } [/sourcecode]
+Color='#000000'); } 
 
 ![ie gölgeli kutu][]
 

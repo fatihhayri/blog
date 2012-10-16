@@ -10,9 +10,10 @@ yardımı dokunur bir ihtimal diye yazıyorum.
 
 Javascript'te if..else şartlı ifadesini herkes biliyor.
 
-[sourcecode language="javascript"] if(kosul) { //kosulun gerçekleşmesi
+	:::javascript
+	 if(kosul) { //kosulun gerçekleşmesi
 halinde olacak olay } else{ //kosulun gerçekleşmemesi halinde olacak
-olay }[/sourcecode]
+olay }
 
 Bu kodu bir kere yazmak sorun değil ama bir çok programcı bilir ki bu
 bir kodlama da sadece bir kere yazılmaz ve çok fazla yazıncada bıkkınlık
@@ -27,8 +28,9 @@ kısa bir yazım şekli sunmuşlar.
 
 Bir örnek yapalım.
 
-[sourcecode language="javascript"] durum = (yas >= 18) ? "yetişkin" :
-"küçük"; [/sourcecode]
+	:::javascript
+	 durum = (yas >= 18) ? "yetişkin" :
+"küçük"; 
 
 **yas** değeri 18'den büyük ve eşit olması durumunda **durum**
 değişikeninin değeri "yetişkin" değilse "küçük" olacaktır.

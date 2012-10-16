@@ -10,7 +10,8 @@ bir javascript kodu yazdım. Sizlerede lazım olur diye buraya yazıyorum.
 
 javascript kodu:
 
-[sourcecode language="javascript"] function tckimlikkontorolu(tcno) {
+	:::javascript
+	 function tckimlikkontorolu(tcno) {
 var tckontrol,toplam; tckontrol = tcno; tcno = tcno.value; toplam =
 Number(tcno.substring(0,1)) + Number(tcno.substring(1,2)) +
 Number(tcno.substring(2,3)) + Number(tcno.substring(3,4)) +
@@ -19,13 +20,14 @@ Number(tcno.substring(6,7)) + Number(tcno.substring(7,8)) +
 Number(tcno.substring(8,9)) + Number(tcno.substring(9,10)); strtoplam =
 String(toplam); onunbirlerbas = strtoplam.substring(strtoplam.length,
 strtoplam.length-1); if(onunbirlerbas == tcno.substring(10,11)) {
-alert("doğru"); } else{ alert("yanlış"); } } [/sourcecode]
+alert("doğru"); } else{ alert("yanlış"); } } 
 
 html kodu:
 
-[sourcecode language="html"] <input name="tckimlikno" type="text"
+	:::html
+	 <input name="tckimlikno" type="text"
 id="tckimlikno" onblur="tckimlikkontorolu(this);" maxlength="11" />
-[/sourcecode]
+
 
 Ben bu kodu blur ile tetikledim siz bunu değiştirebilirsiniz. Çalışan
 kodu görmek için [tıklayınız.][]

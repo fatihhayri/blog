@@ -38,7 +38,7 @@ Editörü kısmından Tekil Yazı kısmını tıklayarak yazının sonuna
 
 [sourcecode language="php"]<p class="etiketler"><?php
 the_tags('<strong>Etiketler :</strong>', ', ', ' ');
-?></p>[/sourcecode]
+?></p>
 
 Kodunu ekledim. Ben sonuna ekledim ama siz bu kodu istediğiniz yere koya
 bilirisiniz.
@@ -47,7 +47,7 @@ Daha sonra Ana sayfa’nın sağ tarafına
 
 [sourcecode language="php"]<div id="etiketBulutu"><?php
 wp_tag_cloud('smallest=8&amp;largest=16&amp;number=50&amp;unit=pt');
-?></div>[/sourcecode]
+?></div>
 
 Kodunu ekledim ve ilgili CSS kodlarını ana stil dosyama
 ekledim.İkonlarımıda [http://www.iconlet.com/][] den aldım.

@@ -6,10 +6,11 @@ Tags: comment, CSS, fix, tekralayan-karakter, Web Standartları, XHTML, yorum
 Bu hata birden fazla float uygulanmış içiçe elementlerde meydana gelir.
 Son float uygulanmış elementin son karakterleri tekrarlar.
 
-[sourcecode language="html"] <div id="icerik"> <!-- icerik alani-->
+	:::html
+	 <div id="icerik"> <!-- icerik alani-->
 <div id="anaIcerik"> .... </div><!-- anaIcerik sonu --> <!--
 sagkolon baslangici --> <div id="sagKolon"> ... </div> </div>
-[/sourcecode]
+
 
 Örnek sayfayı görmek için [tıklayınız.][] (hatayı görmek için IE6 ile
 bakmalısınız.)
@@ -32,8 +33,9 @@ için en kolay ve sağlıklı yol bu bu yorumları kullanmamaktır.
 
 Ancak illa yorum kullanmalıyım derseniz onun içinde çözüm:
 
-[sourcecode language="html"] <!--[if !IE]>Yorumunu buraya yaz
-<![endif]--> [/sourcecode]
+	:::html
+	 <!--[if !IE]>Yorumunu buraya yaz
+<![endif]--> 
 
 şeklinde yorum satırlarınzı eklemelisiniz.
 

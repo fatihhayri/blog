@@ -40,61 +40,74 @@ yolu, tarayıcılara özel seçiciler içine kod yazmaktır.
 
 IE 6 ve altı
 
-[sourcecode language="css"]* html {}[/sourcecode]
+	:::css
+	* html {}
 
 IE 7 ve altı
 
-[sourcecode language="css"]*:first-child+html {} * html
-{}[/sourcecode]
+	:::css
+	*:first-child+html {} * html
+{}
 
 sadece IE 7 için
 
-[sourcecode language="css"]*:first-child+html {}[/sourcecode]
+	:::css
+	*:first-child+html {}
 
 IE 7 ve yeni nesil tarayıcılar için
 
-[sourcecode language="css"]html>body {}[/sourcecode]
+	:::css
+	html>body {}
 
 Yalnız yeni nesil tarayıcılar için (IE 7 dışında)
 
-[sourcecode language="css"]html>/**/body {}[/sourcecode]
+	:::css
+	html>/**/body {}
 
 sadece IE 8 için
 
-[sourcecode language="css"].test { property:value; property: value9;
-*property: value; }[/sourcecode]
+	:::css
+	.test { property:value; property: value9;
+*property: value; }
 
 Opera 9 ve altı sürümler için
 
-[sourcecode language="css"]html:first-child {}[/sourcecode]
+	:::css
+	html:first-child {}
 
 Safari
 
-[sourcecode language="css"]html[xmlns*=""] body:last-child
-{}[/sourcecode]
+	:::css
+	html[xmlns*=""] body:last-child
+{}
 
 Google Chrome and Safari 3.1
 
-[sourcecode language="css"]body:nth-of-type(1){}[/sourcecode]
+	:::css
+	body:nth-of-type(1){}
 
 Firefox 2
 
-[sourcecode language="css"].foo, x:-moz-any-link { } [/sourcecode]
+	:::css
+	.foo, x:-moz-any-link { } 
 
 FireFox 3
 
-[sourcecode language="css"].foo, x:-moz-any-link, x:default {
-}[/sourcecode]
+	:::css
+	.foo, x:-moz-any-link, x:default {
+}
 
 Firefox 2 ve 3 için yazdığımız kodu ie 7 de yorumluyor bunu engellemek
 için (Sonradan eklenmiştir.)
 
-[sourcecode language="css"] .foo, x:-moz-any-link { } .foo,
+	:::css
+	 .foo, x:-moz-any-link { } .foo,
 x:-moz-any-link, x:default { } *:first-child+html .foo{}/*ie7 icin
-normali yazin*/ [/sourcecode]
+normali yazin*/ 
 
-Sadece Firefox 3 [sourcecode language="css"]html>;/**/body .foo,
-x:-moz-any-link, x:default { }[/sourcecode]
+Sadece Firefox 3 	:::css
+	html>;/**/body .foo,
+x:-moz-any-link, x:default { }
 
 Burada önemli olan her tarayıcı farklı görünümünde bu metoda başvurmamak
 gerekir, çözümü olmayan sorunlarla karşılaştığımızda bu kodları
@@ -104,7 +117,8 @@ Bu kodları kullanma gereksinim genelde Internet Explorer 6 ve 7 için
 oluyor. Ama nadirende olsa diğer tarayıcıların düzeltmeleride lazım
 oluyor. Bir örnek yapalım
 
-[sourcecode language="css"] /* Firefox 1 */ .ozelSecici,
+	:::css
+	 /* Firefox 1 */ .ozelSecici,
 x:-moz-any-link { background-color:#ffd560; } /* Firefox 2 */
 .ozelSecici, x:-moz-any-link { background-color:#ab1b0b; } /* Firefox
 3 */ .ozelSecici, x:-moz-any-link, x:default {
@@ -115,12 +129,13 @@ body:nth-of-type(1) .ozelSecici{ background-color:#e6f0fa; } /* Opera
 background-color:#0098de; } /* ie 7 ve alt sürümler icin */
 *:first-child+html .ozelSecici{ background-color:#d4d0c8; } * html
 .ozelSecici{ background-color:#d4d0c8; } /* ie6 ve alti */ * html
-.ozelSecici{ background-color:#996666; }[/sourcecode]
+.ozelSecici{ background-color:#996666; }
 
 HTML kodu
 
-[sourcecode language="html"]<p
-class="ozelSecici">Tarayıcı</p>[/sourcecode]
+	:::html
+	<p
+class="ozelSecici">Tarayıcı</p>
 
 Örneği görmek için [tıklayınız.][]
 

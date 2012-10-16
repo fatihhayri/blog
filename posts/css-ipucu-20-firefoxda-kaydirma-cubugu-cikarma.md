@@ -6,5 +6,6 @@ Tags: Firefox, ipucu, kaydırma-çubuğu, mozilla, overflow
 Firefox İnternet Explorer'un tersine eğer sayfa yüksekliği kaydırma
 çubuğu çıkarmayacak kadar yüksekliğe sahip değilse kaydırma çubuğu
 çıkarmıyor. Bu özellikle çerçeveli sayfalarda sorun çıkarabilir. Bunun
-için bir çözüm. [sourcecode language="css"] html{
-overflow:-moz-scrollbars-vertical; } [/sourcecode]
+için bir çözüm. 	:::css
+	 html{
+overflow:-moz-scrollbars-vertical; } 

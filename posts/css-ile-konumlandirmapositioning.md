@@ -85,7 +85,7 @@ kayacaktır, eğer elementin sol(left) değerini 20px olarak tanımlarsak
 elementimiz soldan 20px sağa doğru kayacaktır.
 
 [sourcecode language='css'] p#FarkliParagraf{ position: relative; left:
-20px; top: 20px; } [/sourcecode]
+20px; top: 20px; } 
 
 ![CSS Nisbi konumlandırma][]
 
@@ -145,14 +145,14 @@ içindeki paragrafı mutlak konumlandırarak bu işhalledebilriz.
 
 [sourcecode language='css'] #adresler { width: 700px; height: 100px;
 position: relative; } #adresler .tel { position: absolute; right: 10px;
-bottom: 10px; text-align: right; } [/sourcecode] [sourcecode
+bottom: 10px; text-align: right; }  [sourcecode
 language='html']
 
 <div id="adresler">
 Tel: 0845 838 6163
 
 </div>
-[/sourcecode]
+
 
 Not:Bu kullanım gelişmiş tarayıcılar için geçerlidir. IE 5.5 veIE
 6(Windwos)'da bu sorun çıkarır. Sorunu engellemek için yükseklik ve

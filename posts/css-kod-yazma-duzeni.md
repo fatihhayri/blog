@@ -30,14 +30,15 @@ CSS dokümanınız indeksini hazırlayınız. Büyük projelerde tercih edilecek
 bir husus bence. Şimdiye kadar hiç uygulamadım ama büyük projelerde
 uygulamanın yararlı olacağını düşündüğüm bir uygulama
 
-[sourcecode language="css"]
+	:::css
+	
 /*------------------------------------------------------------------
 [CSS Kod indeksi] 1. Body 2. Üst Alan / #ustAlan 2.1. Menü / #menu 3.
 İçerik Alanı / #icerik 3.1. Sol Kolon / #solKolon 3.2. Sidebar /
 #yanKolon 3.2.1. RSS / #rss 3.2.2. Arama / #arama 3.2.3. Kutular /
 .kutu 4. Alt Alan / #altAlan
 -------------------------------------------------------------------*/
-[/sourcecode]
+
 
 ### 2. CSS dokümanınıza imzanızı atın
 
@@ -45,12 +46,13 @@ Kod yazarının veya yazarlarının imzası ve genel bilgilerini yazarak
 kodlarımızı başlamalıyız.(Bende bunu ara sıra unutuyorum. Ama unutmamak
 gerekli)
 
-[sourcecode language="css"]
+	:::css
+	
 /************************
 ************************ MYK Medya -
 http://myk-medya.com/ yahoyt.com fatih hayrioglu 28 Mayis 2009 ie6, ff,
 opera. chrome, safari ************************
-************************/ [/sourcecode]
+************************/ 
 
 ### 3. Seçici isimlendirirken standart ve anlamlı isimler verin
 
@@ -68,15 +70,17 @@ daha mantıklı ve anlamlı bir isimlendirmedir.
 harf küçük, sonraki kelimelerin baş harfi büyük ile başlar ve bitişik
 yazılır.
 
-[sourcecode language="css"] #icerikOzu{..} #solIcerikAlani{..}
-[/sourcecode]
+	:::css
+	 #icerikOzu{..} #solIcerikAlani{..}
+
 
 Bu benim standardım. Başka türlü standartlarda vardır. Her kesin
 kendince bir standardı olabilir. Mesela alt çizgiyle ayıranlar var.
 (-)Tire ile ayıranlar var.
 
-[sourcecode language="css"] #icerik_ozu{..} #sol-icerik-alani{..}
-[/sourcecode]
+	:::css
+	 #icerik_ozu{..} #sol-icerik-alani{..}
+
 
 Bu standardı herkes kendince yapabilir. Benim önerim aynı projede
 çalışan insanların aynı kodlama yöntemini kullanması, diğer türlü pek
@@ -89,22 +93,25 @@ CSS tanımlarında kısaltmaları kullanın. CSS kısaltmaları hakkında daha
 fazla bilgi için [http://www.fatihhayrioglu.com/cssde-kisaltmalar/][]
 okumanızı tavsiye ederim.
 
-[sourcecode language="css"] font-weight: bold; font-family: verdana,
-sans-serif; font-size: 11px; line-height: 15px; [/sourcecode]
+	:::css
+	 font-weight: bold; font-family: verdana,
+sans-serif; font-size: 11px; line-height: 15px; 
 
 yerine
 
-[sourcecode language="css"] font: bold 11px/15px verdana, sans-serif;
-[/sourcecode]
+	:::css
+	 font: bold 11px/15px verdana, sans-serif;
+
 
 ### 5. CSS dokümanlarınızı anlamlı bölümlere ayırın.
 
 Büyük projelerde css dokümanlarını birden fazla bölümlere ayırarak daha
 düzenli ve kolay kodlanabilir dokümanlar elde ederiz.
 
-[sourcecode language="css"] @import url(/css/iskelet.css); @import
+	:::css
+	 @import url(/css/iskelet.css); @import
 url(/css/fontlar.css); @import url(/css/renkler.css); @import
-url(/css/sifirlama.css); [/sourcecode]
+url(/css/sifirlama.css); 
 
 Ben yukarıdaki yöntemi genelde çok büyük projelerde kullanmayı tercih
 ediyorum. Normalde ve genellikle tek ve iki css dokümanı ile projeyi
@@ -114,7 +121,8 @@ Eğer CSS sıfırlama tekniklerinden birini kullanacaksam Bunu imzadan
 sonraya yazmak. Yada site genel tanımlarını başa yazmak. [YUI CSS
 Reset][] ve [Eric Meyer][]'in ki var mesela.
 
-[sourcecode language="css"]
+	:::css
+	
 /************************
 ************************ MYK Medya -
 http://myk-medya.com/ fatih hayrioglu 28 Mayis 2009 ie6, ff, opera.
@@ -125,7 +133,7 @@ sorunu */ .kapsayamamaSorunu:after {content: "."; display: block;
 height: 0; clear: both; visibility: hidden;} .kapsayamamaSorunu{display:
 inline-block;} /* IE-mac de bu bolumu sakla  */ * html
 .kapsayamamaSorunu{height: 1%;} .kapsayamamaSorunu {display: block;} /*
-IE-mac bu bolumu saklam artik */ /*kapsayamam sorunu */ [/sourcecode]
+IE-mac bu bolumu saklam artik */ /*kapsayamam sorunu */ 
 
 ### 6. Her satıra bir tanım yöntemini kullanın
 
@@ -134,8 +142,9 @@ elde edebiliriz.
 
 Ben daha önce her satıra bir özellik tanımı yapıyordum.
 
-[sourcecode language="css"] #aramaAlani{ float:left; width:265px;
-background-color:#fff; border:3px solid #525252; } [/sourcecode]
+	:::css
+	 #aramaAlani{ float:left; width:265px;
+background-color:#fff; border:3px solid #525252; } 
 
 Bu yöntemde kod açık ve görüntü olarak daha kullanışlı görünse de, fazla
 boşluklar sorun oluşturmaya başladı. CSS kodları çok uzayınca kaydırma
@@ -149,18 +158,20 @@ ederken fazla boşluklardan kurtulmam gerektiğiydi. Daha sonra bu
 yöntemin daha avantajlı olduğunu gördüm, ayrıca daha derli toplu kodlar
 oluşturmama yaradı. Bundan sonra böyle kod yazamaya başladım.
 
-[sourcecode language="css"] #anaKapsul{...}     #ustalan{...}    
+	:::css
+	 #anaKapsul{...}     #ustalan{...}    
 #icerikAlani{...}     #solIcerikAlani{...}     #sagIcerikAlani{...}
-#altAlan{...}    [/sourcecode]
+#altAlan{...}    
 
 Kodlarımızın daha okunabilir olması içinde girintili bir yapıyı tercih
 etmeliyiz.
 
-[sourcecode language="css"] #icerikAlani{float:left; clear:left;
+	:::css
+	 #icerikAlani{float:left; clear:left;
 padding-top:20px;}    #solIcerikAlani{float:left; width:647px;
 margin-right:13px} #icerikOzu{float:left; clear:left;
 margin-top:20px}    #sagIcerikAlani{float:left; width:300px;
-margin:0;}   [/sourcecode]
+margin:0;}   
 
 ### 7. Kodlarınızı yorum satırları ile açıklayıcı hale getirin.
 
@@ -169,7 +180,8 @@ Bölümleri ve özel alanları yorum kodu ile belirleyerek anlaşılabilirliği
 arttırabiliriz. Böylelikle bölümler arasında daha kolay ayrım
 yapabiliriz. Kod okunabilirliği daha fazla olacaktır.
 
-[sourcecode language="css"] #anaKapsul{margin:0 auto; width:960px;}    
+	:::css
+	 #anaKapsul{margin:0 auto; width:960px;}    
 /****************************************************
 ustalan   */ #ustalan{padding-top:20px;}
 /****************************************************
@@ -178,7 +190,7 @@ padding-top:20px;} /*sol icerik alani */    
 #solIcerikAlani{float:left; width:647px; margin-right:13px}
 #icerikOzu{float:left; clear:left; margin-top:20px} /* sagIcerikAlani
 */ #sagIcerikAlani{float:left; width:300px; margin:0;}       
-[/sourcecode]
+
 
 ### 8. CSS özellik tanımlarını sıralayın.
 
@@ -187,8 +199,9 @@ tanımlarını başta yazmak. CSS tabanlı kodlama yazarken site yapısını
 oluşturan özellikler(float, width, height gibi özellikleri) ilk sırada
 yazıp sonra diğer özellikleri yazmayı tercih ediniz.
 
-[sourcecode language="css"] #solIcerikAlani{float:left; width:647px;
-margin-right:13px} [/sourcecode]
+	:::css
+	 #solIcerikAlani{float:left; width:647px;
+margin-right:13px} 
 
 Burada bir diğer yöntemde özellikleri alfabetik sıraya göre yazmaktır.
 Buradaki amaç bir standart oluşturup göz aşinalığı sağlamak ve
@@ -262,7 +275,8 @@ olmalıya bir örnek yazarsak:
 
 XHTML kodu:
 
-[sourcecode language="html"] <div > <div > </div><!--[if
+	:::html
+	 <div > <div > </div><!--[if
 !IE]>ustAlan sonu<![endif]--> <div > <div > <div ><img
 src="images/promo.jpg" width="647" height="264" alt="Promo" /></div>
 <div > </div><!--[if !IE]>icerikOzu sonu<![endif]-->
@@ -270,11 +284,12 @@ src="images/promo.jpg" width="647" height="264" alt="Promo" /></div>
 </div><!--[if !IE]>sagIcerikAlani sonu<![endif]-->
 </div><!--[if !IE]>icerikAlani sonu<![endif]--> <div
 class="kapsayamamaSorunu"> </div> </div><!--[if !IE]>anaKapsul
-sonu<![endif]--> [/sourcecode]
+sonu<![endif]--> 
 
 CSS kodu
 
-[sourcecode language="css"]
+	:::css
+	
 /************************
 ************************ MYK Medya -
 http://myk-medya.com/ yahoyt.com fatih hayrioglu 28 Mayis 2009 ie6, ff,
@@ -300,7 +315,7 @@ sagIcerikAlani */     #sagIcerikAlani{float:left; width:300px;
 margin:0;}                
 /**************************************************
 altAlan */ #altAlan{clear:left; background-color:#404040;
-padding:12px; margin-bottom:20px;} [/sourcecode]
+padding:12px; margin-bottom:20px;} 
 
 ### Kaynaklar
 

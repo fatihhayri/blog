@@ -12,10 +12,11 @@ de daha fazlası var
 kütüphanesini kendi hostu üzerinden yüklememizi sağlıyor. Bu bize ön
 belleğe alınana dosyanın daha hızlı yüklenmesini sağlar.
 
-[sourcecode language="javascript"] <script type="text/javascript"
+	:::javascript
+	 <script type="text/javascript"
 src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
 <script type="text/javascript"> $(document).ready(function() {
-//isler burada }); </script> [/sourcecode]
+//isler burada }); </script> 
 
 Bu sayede jquery kütüphanesini her projeye eklerken kopyala yapıştır ile
 de uğraşmak zorunda kalmıyoruz. İstediğimiz her yerde jQuery kullanma
@@ -23,26 +24,30 @@ imkanıda veriyor bize bu kod.
 
 **2- jquery kısaltması:** jquery kodlarımzı yazarken bazen 
 
-[sourcecode language="javascript"] $(document).ready(function (){});
-[/sourcecode]
+	:::javascript
+	 $(document).ready(function (){});
+
 
 aklımıza gelmeye bilir
 
-[sourcecode language="javascript"] $(function (){}); [/sourcecode]
+	:::javascript
+	 $(function (){}); 
 
 bu daha kolay ve akılda kalıcı bence
 
 **3- fare üzerinde iken ve üzerinden gittiğinde**
 
-[sourcecode language="javascript"] $("li").hover( function () { // fare
+	:::javascript
+	 $("li").hover( function () { // fare
 üzerinde iken bunu yap }, function () { // fare kaçınca bunu yap } );
-[/sourcecode]
+
 
 **4- not seçicisi:** Bir seri elemana yaptırdığımız bir işi aradan bir
 tane elemanın yapmasını istiyorsak bu seçiciyi uygulayabiliriz.
 
-[sourcecode language="javascript"] $('ul#sekme li a').not("ul
-li#diger a").click(function(){ // yapılacak işler }); [/sourcecode]
+	:::javascript
+	 $('ul#sekme li a').not("ul
+li#diger a").click(function(){ // yapılacak işler }); 
 
 Yukarıdaki kodlamada biz sekmelere bir tanım yapıyoruz ama en son
 sekmeye tıklayınca bu işlemin yapılmasını istemiyoruz. Bu iş için
@@ -53,32 +58,37 @@ biçilmiş kaftan :not seçicisi
 http://www.fatihhayrioglu.com/jquery-ile-basit-sekme-yapimi/ anlatırken
 kullanmıştım.
 
-[sourcecode language="javascript"]
+	:::javascript
+	
 $(this).parent('li').addClass('sekmeSecili').siblings().removeClass('sekmeSecili');
-[/sourcecode]
+
 
 Bu kodda da görüldüğü gibi tıklanan sekmeye sekmeSecili sınıfı atıyoruz
 diğer sekmelerde aynı sınıf varsa onları kaldırıyoruz.
 
 **6- HTML içine jQuery den eleman eklemek:**
 
-[sourcecode language="javascript"] var ekleBunu = $('<div></div>');
-ekleBunu.attr("id","yeniKatman").appendTo("body"); [/sourcecode]
+	:::javascript
+	 var ekleBunu = $('<div></div>');
+ekleBunu.attr("id","yeniKatman").appendTo("body"); 
 
 **7- Bir elemanın varlığını kontrol etmek**
 
-[sourcecode language="javascript"] if ($("#someDiv").length) { // eğer
-varsa bunu yap } [/sourcecode]
+	:::javascript
+	 if ($("#someDiv").length) { // eğer
+varsa bunu yap } 
 
 **8- Kolay kullanılan tarayıcıyı yakalama**
 
-[sourcecode language="javascript"] $.browser.safari $.browser.msie
-$.browser.mozilla [/sourcecode]
+	:::javascript
+	 $.browser.safari $.browser.msie
+$.browser.mozilla 
 
 tarayıcı sürümünü yakalamak için
 
-[sourcecode language="javascript"] if ($.browser.msie &&
-$.browser.version <= 7 )  [/sourcecode]
+	:::javascript
+	 if ($.browser.msie &&
+$.browser.version <= 7 )  
 
 ### Kaynaklar
 

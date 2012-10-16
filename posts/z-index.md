@@ -46,10 +46,11 @@ CSS Profile 2.0
 Konumlandırma değeri relative, absolute ve fixed uygulanmış katmanların
 görünürlüğünü z-index ile ayarlayabiliriz.
 
-[sourcecode language="css"] div{ position:absolute; width:150px;
+	:::css
+	 div{ position:absolute; width:150px;
 height:150px; } div.bir { background: #FEB3BE; border:2px solid
 #CC8B94; top: 0; left: 0; } div.iki { background: #E5ECF9; border:2px
-solid #BCCCEB; top: 10px; left: 10px; } [/sourcecode]
+solid #BCCCEB; top: 10px; left: 10px; } 
 
 Yukarıda örnekte görüldüğü gibi katmanlar üst üste sıralanmıştır.
 Birbirinden 10px üst ve 10px soldan mesafe bırakılmıştır. Üstte kalan
@@ -57,9 +58,10 @@ katman alttakileri gizlemiştir. Tüm katmanların z-index değeri
 atanmamıştır bu nedenle başlangıç değeri olan z-index:auto değerini
 almışlardır.
 
-[sourcecode language="css"] <body> <div class='kapsul'> <div
+	:::css
+	 <body> <div class='kapsul'> <div
 class='bir'></div> <div class='iki'></div> </div> </body>
-[/sourcecode]
+
 
 z-index değeri otomatik olduğu için her katman html'deki sırasına göre
 yerleşmiştir. İlk başta yazılmış olanlar altta sonrakiler üstte olacak
@@ -82,7 +84,7 @@ katman görünümünü tersine dönecektir.
 width:150px; height:150px; } div.bir { background: #FEB3BE; border:2px
 solid #CC8B94; top: 0; left: 0; z-index:2 } div.iki { background:
 #E5ECF9; border:2px solid #BCCCEB; top: 10px; left: 10px; z-index:1 }
-[/sourcecode]
+
 
 <div align="center">
 ![][2]
@@ -92,9 +94,10 @@ solid #CC8B94; top: 0; left: 0; z-index:2 } div.iki { background:
 katmanlardaki z-index:auto değeri gibi davranır ve sayısal atamaları
 dikkate almaz.
 
-[sourcecode language="html"] <body> <div class='kapsul'> <div
+	:::html
+	 <body> <div class='kapsul'> <div
 class='bir'><div class='iki'></div></div> </div> </body>
-[/sourcecode]
+
 
 z-index değeri yüksek olmasına rağmen bir sınıfını alan katmana altta
 kalacaktır. Çünkü iç içe geçmiş elementlerde z-index'e atanan sayısal

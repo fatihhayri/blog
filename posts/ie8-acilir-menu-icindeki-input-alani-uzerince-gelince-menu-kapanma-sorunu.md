@@ -16,7 +16,8 @@ ama kod sitenin dinamik kısımlarında çalışırken statik kısımlarında
 Bu iş ile bir projede karşılaştım, proje ismini açıklamak sakıncalı
 olabilir diye ben size benzer bir örnek kodunu vereceğim. 
 
-[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
@@ -32,7 +33,7 @@ top:18px; left:0} a div input{ background:transparent} </style>
 </head> <body> <a href="javascript:;">menu aç <div><input
 type="text" /></div> </a> <p><img
 src="http://www.fatihhayrioglu.com/wp-content/ie7_kaydirma_cubugu.jpg"
-width="450" height="398" /></p> </body> </html> [/sourcecode]
+width="450" height="398" /></p> </body> </html> 
 
 Örneği görmek için [tıklayınız.][]
 

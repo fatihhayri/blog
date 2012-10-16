@@ -49,8 +49,9 @@ kabul ediyor.**
 Bu gibi değerleri kullanmak için aşağıdaki gibi bir atama yapmalıyız.
 Elips şeklinde sonuçlar elde etmke için (/) ayracı kullanılır.
 
-[sourcecode language="css"] -webkit-border-radius:  40px 10px;
--moz-border-radius:  40px/10px; border-radius:  40px/10px; [/sourcecode]
+	:::css
+	 -webkit-border-radius:  40px 10px;
+-moz-border-radius:  40px/10px; border-radius:  40px/10px; 
 
 **Uygulama**
 
@@ -65,10 +66,11 @@ bu durum düzelir. 
 
 İlk örneğimizi yapalım
 
-[sourcecode language="css"] div#kutu { width: 400px; padding: 20px;
+	:::css
+	 div#kutu { width: 400px; padding: 20px;
 border-radius: 10px; /* Standart */ -moz-border-radius: 10px; /*
 Firefox */ -webkit-border-radius: 10px; /* Safari ve Chrome */
-background: #F00; margin-bottom: 10px; } [/sourcecode]
+background: #F00; margin-bottom: 10px; } 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -76,12 +78,13 @@ background: #F00; margin-bottom: 10px; } [/sourcecode]
 
 İkinci örnek
 
-[sourcecode language="css"] div#kutu{ width: 400px; padding: 20px;
+	:::css
+	 div#kutu{ width: 400px; padding: 20px;
 border-top-right-radius: 10px; border-bottom-left-radius: 10px;
 -moz-border-radius-topright: 10px; -moz-border-radius-bottomleft: 10px;
 -webkit-border-top-right-radius: 10px;
 -webkit-border-bottom-left-radius: 10px; background: #F00;
-white-space:pre } [/sourcecode]
+white-space:pre } 
 
 Örneği görmek için [tıklayınız.][1]
 
@@ -128,9 +131,10 @@ olmaması. Yazdığımız border-radius değerini alıp desteklemeyen
 tarayıcılara göre kod yazıyor. Script tanımını css kodu içerisinden
 yapıyoruz.
 
-[sourcecode language="css"] .curved { border-radius:10px;
+	:::css
+	 .curved { border-radius:10px;
 -moz-border-radius:10px; -webkit-border-radius:10px;
-behavior:url(border-radius.htc); } [/sourcecode]
+behavior:url(border-radius.htc); } 
 
 Köşe yumuşatması güzeldir. 4.8 kb'lık dosya boyutu ile çok cazip boyuta
 sahip.

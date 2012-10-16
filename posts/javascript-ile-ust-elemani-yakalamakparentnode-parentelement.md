@@ -14,7 +14,8 @@ seferinde.
 Daha sonra aramalar sonucu her ikisininde çalıştırdığı
 <span>parentNode</span> özelliğini kullanmaya karar verdim.
 
-[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
@@ -24,7 +25,7 @@ id="DugmeFormu"> <input id="Dugme" type="button" value="Üst elemanı
 göster" onclick="ustEleman();"> </form> <script
 language="JavaScript"> function ustEleman() { var m =
 document.getElementById("Dugme").parentNode.id; alert("Üst elemanı:
-"+'"'+m+'"'); } </script> </body> </html> [/sourcecode]
+"+'"'+m+'"'); } </script> </body> </html> 
 
 Örnek sayfayı görmek için [tıklayınız.][]
 

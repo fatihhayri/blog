@@ -22,7 +22,7 @@ kısmı Yönetim ekranında "Eklenti Yöneticisi" kısmından "Terong Related
 Links" seçip değiştirmelisiniz.
 
 [sourcecode language="php"]$text .= "<p style="margin-top:
-10px;"><strong>Related Articles:</strong></p>";[/sourcecode]
+10px;"><strong>Related Articles:</strong></p>";
 
 ​241. satırdaki yukarudaki kodu aşağıdaki gibi değiştirin(Tabi burada
 yazan "İlgili Linkler:" benim seçimim sizde sayfada görüntülenmesini
@@ -30,7 +30,7 @@ istediğiniz başlığı buraya yaza bilirsiniz) ve Güncelle düğmesine
 tıklayın. İşlem Tamam
 
 [sourcecode language="php"]$text .= "<p style="margin-top:
-10px;"><strong>İlgili Linkler:</strong></p>";[/sourcecode]
+10px;"><strong>İlgili Linkler:</strong></p>";
 
 </p>
 

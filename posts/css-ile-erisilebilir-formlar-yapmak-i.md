@@ -28,7 +28,8 @@ Basit bir form yapısını planlayarak başlayalım. Web sitelerinde en çok
 kullanılan formlar kullanıcı giriş formlarıdır. Beraberce CSS ile
 planlanmış bir kullanıcı girişi formu yapalım. Xhtml kodunu yazalım.
 
-[sourcecode language="html"] <form action="/gonder/login"
+	:::html
+	 <form action="/gonder/login"
 id="kullaniciGiris" method="post"> <dl> <dt><label
 for="ad">Kullanıcı Adı :</label></dt> <dd><input type="text"
 id"ad" name="ad" /></dd> <dt><label
@@ -36,7 +37,7 @@ for="eposta">Eposta:</label></dt> <dd><input type="text"
 id="eposta" name="eposta" /></dd> <dt><label for="hatirla">Beni
 hatırla</label></dt> <dd><input type="checkbox" id="hatirla"
 name="hatirla" /></dd> <dt><input type="submit" value="Gönder"
-/></dt> </dl> </form> [/sourcecode]
+/></dt> </dl> </form> 
 
 ![Login Ekranının Firefox Ekran görüntüsü][]
 
@@ -53,14 +54,16 @@ hatırla metnine tıkladığımızda işret kutusu işlevi gösterir.
 Bu formu tablo ile yaptığımız gibi yanyana koymak için genişlik ve float
 tanımı yapıyoruz.
 
-[sourcecode language="css"] form dt { width: 8em; float: left;
-text-align: right; margin-right: 0.5em; display: block; } [/sourcecode]
+	:::css
+	 form dt { width: 8em; float: left;
+text-align: right; margin-right: 0.5em; display: block; } 
 
 Sağdaki form elemanları ile soldakiler arasına boşluk bırakmak için
 genişlik değeri veriyoruz.
 
-[sourcecode language="css"] form dd { margin-left: 4.5em; }
-[/sourcecode]
+	:::css
+	 form dd { margin-left: 4.5em; }
+
 
 ![][]
 
@@ -69,30 +72,34 @@ ile kodladık. Şimdi görünüşünü düzeltelim.
 
 Metinlerimizi font tanımı yapalım:
 
-[sourcecode language="css"] form dt { width: 8em; float: left;
+	:::css
+	 form dt { width: 8em; float: left;
 text-align: right; margin-right: 0.5em; display: block; font:12px Arial,
-Helvetica, sans-serif; } [/sourcecode]
+Helvetica, sans-serif; } 
 
 Metin giriş alanlarını standart görünümünden çıkarıp kendi istediğimiz
 renklere büründürelim.
 
-[sourcecode language="html"] <dd><input name="ad" type="text"
-class="metinAlani" id"ad" /></dd> [/sourcecode] [sourcecode
+	:::html
+	 <dd><input name="ad" type="text"
+class="metinAlani" id"ad" /></dd>  [sourcecode
 language="css"] input.metinAlani { color: #781351; background-color:
 #b5c9e2; border: 1px solid #31557f; font:10px Arial, Helvetica,
-sans-serif; } [/sourcecode]
+sans-serif; } 
 
 Gönder düğmesinin şeklini değiştirelim. Burada renk uyumu form
 alanlarımızın daha hoş görünmesi için önemlidir. Renk seçimi yaparken
 genelde site bütünlüğünü bozmamak için site genel renk değerleri
 seçilir. Ama bu bir kural değildir.
 
-[sourcecode language="html"] <dt><input type="submit" class="gonder"
-value="Gönder" /></dt> [/sourcecode] [sourcecode language="css"]
+	:::html
+	 <dt><input type="submit" class="gonder"
+value="Gönder" /></dt>  	:::css
+	
 input.gonder { color: #224059; background-color: #b5c9e2; border-top:
 2px #cce3ff solid; border-left: 2px #cce3ff solid; border-bottom: 2px
 #31557f solid; border-right: 2px #31557f solid; font:bold 12px Arial,
-Helvetica, sans-serif; } [/sourcecode]
+Helvetica, sans-serif; } 
 
 Yukarıda gönder düğmesinin kenarlık renk seçimini yaparken sağ ve alt
 kısma daha koyu, sol ve üst kısma daha açık renk vererek düğmemize 3
@@ -106,7 +113,8 @@ yazalım. Bu işlemler için Html'in
 ve <legend> etiketlerini kullanacağız.
 
 </p>
-[sourcecode language="html"] <form action="/gonder/login"
+	:::html
+	 <form action="/gonder/login"
 id="kullaniciGiris" method="post"> <fieldset> <legend>Kullanıcı
 Girişi</legend> <dl> <dt><label for="ad">Kullanıcı
 Adı:</label></dt> <dd><input name="ad" type="text"
@@ -116,14 +124,15 @@ type="text" class="metinAlani" id="eposta" /></dd> <dt><label
 for="hatirla">Beni hatırla</label></dt> <dd><input
 type="checkbox" id="hatirla" name="hatirla" /></dd> <dt><input
 type="submit" class="gonder" value="Gönder" /></dt> </dl>
-</fieldset> </form> [/sourcecode]
+</fieldset> </form> 
 
 CSS ile yeni eklediğimiz alanların görünümünü düzeltelim.
 
-[sourcecode language="css"] fieldset { border: 1px solid #31557f;
+	:::css
+	 fieldset { border: 1px solid #31557f;
 width: 15em; padding-bottom:0.5em; } legend { color: #224059;
 background-color: #b5c9e2; border: 1px solid #31557f; padding: 2px 6px
-} [/sourcecode]
+} 
 
 ![][1]
 

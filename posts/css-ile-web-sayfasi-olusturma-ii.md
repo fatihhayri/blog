@@ -48,7 +48,7 @@ font-family:Arial, Helvetica, sans-serif; } #sayfa{ width:72em;
 margin:0 auto; text-align:left; } #ustAlan { width:72em; } #anaMenu {
 float: left; width: 18em; } #KapsayiciAlan { float: right; width: 52em;
 } #icerik { float: left; width: 32em; } #BannerAlani{ float: right;
-width: 20em; } #altAlan { width:72em; clear: both; } [/sourcecode]
+width: 20em; } #altAlan { width:72em; clear: both; } 
 
 Burada body elementi font boyutunu 1em eşit olan font-size:62.5%;
 atamasını yaptık. Daha sonra sayfadaki birimleri bu değeri baz alarak

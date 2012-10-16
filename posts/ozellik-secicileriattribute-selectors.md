@@ -24,8 +24,9 @@ etiketin özelliklerine veya özellik değerlerine göre tanımlama yapmamızı
 sağlar. Bir örnek verecek olursak sayfamızdaki bir resme(örn:
 grafik.gif) kenarlık ataması yapmak istersek:
 
-[sourcecode language="css"] img[src="grafik.gif"]{ border: 1px solid
-#000; } [/sourcecode]
+	:::css
+	 img[src="grafik.gif"]{ border: 1px solid
+#000; } 
 
 Dört çeşit Özellik Seçicisi vardır.
 
@@ -38,7 +39,8 @@ yapmamızı sağlar.
 
 Bir örnek yapalım
 
-[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
@@ -46,7 +48,7 @@ http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>CSS'in yapısı</title> <style type="text/css"> img[alt] {
 border: 5px solid lime } </style> </head> <body> <img
 src="logo.gif" alt="Logo" width="32" height="41" /> </body> </html>
-[/sourcecode]
+
 
 Örneği görmek için [tıklayınız.][]
 
@@ -73,7 +75,8 @@ Bir etiketin özellik değerine göre tanımlama yapmamızı sağlar.
 
 Bir örnek yapalım
 
-[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
@@ -83,7 +86,7 @@ input[type="text"] { border: 1px solid #000; width: 150px; } </style>
 </head> <body> <p>Adınız : <input type="text" name="ad" /></p>
 <p>Cinsiyetiniz: <input type="radio" name="cinsiyet" id="erkek" />
 Erkek <input type="radio" name="cinsiyet" id="kadin" /> Kadın </p>
-</body> </html> [/sourcecode]
+</body> </html> 
 
 Örneği görmek için [tıklayınız.][1]
 
@@ -113,7 +116,8 @@ tanımlama yapmamızı sağlar.
 
 Bir örnek yapalım
 
-[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
@@ -124,7 +128,7 @@ a[title~="Google"] { text-decoration:overline; } </style> </head>
 seç">gooogle </a> </p> <p><a href="http://www.yahoo.com"
 title="Yahoo seç">yahoo </a> </p> <p><a
 href="http://www.fatihhayrioglu.com" title="Fatih">fatih </a> </p>
-</body> </html> [/sourcecode]
+</body> </html> 
 
 Örneği görmek için [tıklayınız.][2]
 
@@ -151,7 +155,8 @@ göre tanımlama yapmamızı sağlar.
 
 Bir örnek yapalım
 
-[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
@@ -160,7 +165,7 @@ http-equiv="Content-Type" content="text/html; charset=utf-8" />
 *[lang|="en"] { color: red; } </style> </head> <body> <h1
 lang="en">Hello!</h1> <p lang="en-us">Greetings!</p> <div
 lang="en-au">G’day!</div> <p lang="fr">Bonjour!</p> <h4
-lang="cy-en">Jrooana!</h4> </body> </html> [/sourcecode]
+lang="cy-en">Jrooana!</h4> </body> </html> 
 
 Örneği görmek için [tıklayınız.][3]
 

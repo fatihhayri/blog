@@ -23,7 +23,7 @@ yazmaya başlayalım:
 -   [Hakkımızda][]
 -   [Ürünler][]
 
-[/sourcecode]
+
 
 Kodlama sonucu görüntü aşağıdaki gibi olacaktır.
 
@@ -34,7 +34,7 @@ Kodlama sonucu görüntü aşağıdaki gibi olacaktır.
 Her linkin başındaki imgeleri kaldırmak için:
 
 [sourcecode language='css'] ul.menu { list-style-type: none; }
-[/sourcecode]
+
 
 <div align="center">
 ![][1]
@@ -46,7 +46,7 @@ tarayıcılarda padding uygularken bazılarında margin uygular) mesafesi
 uygular bu mesafeyi sıfırlamak için:
 
 [sourcecode language='css'] ul.menu { list-style-type: none; padding: 0;
-margin: 0; } [/sourcecode]
+margin: 0; } 
 
 ![][2]
 
@@ -60,12 +60,12 @@ Dikey menülerde linkler yukarıdan aşağı doğru sıralanmıştır. Link
 elementi(a) inline-elementtir, her linke rollover özelliği kazandırmak
 için:
 
-[sourcecode language='css'] ul.menu a { display: block; } [/sourcecode]
+[sourcecode language='css'] ul.menu a { display: block; } 
 
 Biraz görselliği arttırırsak:
 
 [sourcecode language='css'] ul.menu a { display: block; color: #1B1B1B;
-background-color: #E2E2E2; } [/sourcecode]
+background-color: #E2E2E2; } 
 
 ![][3]
 
@@ -73,7 +73,7 @@ Linkler web tarayıcısının genişliği kadar uzayacaktır, kendi istediğimiz
 genişliğe sahip olmak için:
 
 [sourcecode language='css'] ul.menu a { display: block; color: #1B1B1B;
-background-color: #E2E2E2; width:8em; } [/sourcecode]
+background-color: #E2E2E2; width:8em; } 
 
 ![][4]
 
@@ -81,7 +81,7 @@ Linkler arasına biraz boşluk verelim:
 
 [sourcecode language='css'] ul.menu a { display: block; color: #1B1B1B;
 background-color: #E2E2E2; width:8em; padding: .2em .8em; }
-[/sourcecode]
+
 
 ![][5]
 
@@ -89,21 +89,21 @@ Linklerin altındaki çizgileri kaldıralım:
 
 [sourcecode language='css'] ul.menu a { display: block; color: #1B1B1B;
 background-color: #E2E2E2; width:8em; padding: .2em .8em;
-text-decoration: none; } [/sourcecode]
+text-decoration: none; } 
 
 ![][6]
 
 şžimdi linklerimize rollover efekti vermek için a:hover kullanacağız:
 
 [sourcecode language='css'] ul.menu a:hover { background-color: #999; }
-[/sourcecode]
+
 
 ![][7]
 
 son olarak linklerin arasını ayıralım:
 
 [sourcecode language='css'] ul.menu li { margin: 0 0 .2em 0; }
-[/sourcecode] İşte menümüzün son hali
+ İşte menümüzün son hali
 <iframe src="/dokumanlar/menu.htm" width="250" height="200" frameborder="0" scroll="auto"></iframe>
 
 </p>

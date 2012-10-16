@@ -28,7 +28,7 @@ yorum satırı ekleyin: [sourcecode language='html']
 .....
 
 </div>
-<!-- alt kısım sonu --> [/sourcecode] Yukarıdaki yöntem küçük çaplı
+<!-- alt kısım sonu -->  Yukarıdaki yöntem küçük çaplı
 sitelerde lazım olmaya bilir ancak büyük içerikli sitelerde çok büyük
 faydaları vardır.
 

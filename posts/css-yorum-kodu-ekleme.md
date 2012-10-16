@@ -11,9 +11,10 @@ bu kodlar önemli bilgiler içerecektir.
 
 CSS'de yorum eklemek çok kolaydır.
 
-[sourcecode language="css"] /* Genel Stiller */ body { font-size:
+	:::css
+	 /* Genel Stiller */ body { font-size:
 67.5%; /* genel font tanımı */ } /* Birden fazla satır içeren kodları
-bu şekilde kullanabilriz. */ [/sourcecode]
+bu şekilde kullanabilriz. */ 
 
 </p>
 

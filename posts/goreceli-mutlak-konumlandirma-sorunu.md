@@ -29,7 +29,7 @@ uygulanmış kapsayıcı katmana genişlik ve yükseklik vermektir.
 uygulanan bir yöntemdir.
 
 [sourcecode language='css'] /* IE-mac den gizle */ * html
-.container1 {height: 1%;} /* IE-mac den gizleme sonu */ [/sourcecode]
+.container1 {height: 1%;} /* IE-mac den gizleme sonu */ 
 
 ### Kaynak
 

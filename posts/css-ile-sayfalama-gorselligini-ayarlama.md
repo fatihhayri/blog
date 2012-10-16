@@ -57,18 +57,20 @@ sayfalamalarda;
 
 XHTML Kodu:
 
-[sourcecode language="html"] <div class="sayfalama"><span
+	:::html
+	 <div class="sayfalama"><span
 class="pasif">&#171; Önceki</span><span
 class="secili">1</span><a href="/page/2/">2</a><a
 href="/page/3/">3</a><a href="/page/4/">4</a><a
 href="/page/5/">5</a><a href="/page/6/">6</a><a
 href="/page/7/">7</a>...<a href="/page/199/">199</a><a
 href="/page/200/">200</a><a href="/page/2/" class="next">Sonraki
-&#187;</a></div> [/sourcecode]
+&#187;</a></div> 
 
 CSS Kodumuz:
 
-[sourcecode language="css"] .sayfalama {     padding: 3px;     margin:
+	:::css
+	 .sayfalama {     padding: 3px;     margin:
 3px;     text-align:center; } .sayfalama a {     padding: 2px 5px 2px
 5px;     margin: 2px;     border: 1px solid #EEE;     text-decoration:
 none;     color: #036CB4; } .sayfalama a:hover, .sayfalama a:active {
@@ -77,7 +79,7 @@ none;     color: #036CB4; } .sayfalama a:hover, .sayfalama a:active {
 #036CB4;     font-weight: bold;     background-color: #036CB4;   
  color: #FFF; } .sayfalama .pasif {     padding: 2px 5px 2px 5px;   
  margin: 2px;     border: 1px solid #EEE;     color: #DDD; }
-[/sourcecode]
+
 
 ![Site Sayfalama][]
 
@@ -103,7 +105,8 @@ yöntem listeler ile sayfalama;
 
 XHTML
 
-[sourcecode language="html"] <ul class="sayfalama"> <li><a
+	:::html
+	 <ul class="sayfalama"> <li><a
 href="">|<</a></li> <li><a href="">Önceki</a></li>
 <li><span>1</span></li> <li><a href="" title="Sayfa
 2">2</a></li> <li><a href="" title="Sayfa 3">3</a></li>
@@ -114,18 +117,19 @@ title="Sayfa 5">5</a></li> <li><a href="" title="Sayfa
 title="Sayfa 9">9</a></li> <li><a href="" title="Sayfa
 10">10</a></li> <li><a href=""
 title="Sonraki">Sonraki</a></li> <li><a href="" title="İlk
-Sayfa">>|</a></li> </ul> [/sourcecode]
+Sayfa">>|</a></li> </ul> 
 
 CSS kodu
 
-[sourcecode language="css"] ul.sayfalama { margin:0 auto; width:530px;
+	:::css
+	 ul.sayfalama { margin:0 auto; width:530px;
 padding:10px 0 0 0; clear:left } ul.sayfalama li { font:bold 12px
 Tahoma, Geneva, sans-serif; color:#fff; float:left; list-style:none;
 margin:0 2px; background:#005689; } ul.sayfalama li span { padding:5px
 8px; display:block } ul.sayfalama li a { font:bold 12px Tahoma, Geneva,
 sans-serif; color:#005689; text-decoration:none;
 background-color:#e2e2e2; padding:5px 8px; display:block } ul.sayfalama
-li a:hover { background-color:#005689; color:#e2e2e2; } [/sourcecode]
+li a:hover { background-color:#005689; color:#e2e2e2; } 
 
 </p>
 ![Yahoyt Sayfalama][]
@@ -138,7 +142,8 @@ Son olarakda bonus.com.tr kampanyalarda yaptığım sayfalama.
 
 XHTML kodu
 
-[sourcecode language="html"] <ul class="sayfalama kapsayamamaSorunu">
+	:::html
+	 <ul class="sayfalama kapsayamamaSorunu">
 <li class="oncekiSayfa"><a href="javascript:;">önceki</a></li>
 <li class="seciliSayfaNo"><a href="/page/1/">1</a></li>
 <li><a href="/page/2/">2</a></li> <li><a
@@ -149,11 +154,12 @@ href="/page/6/">6</a></li> <li><a
 href="/page/7/">7</a></li> <li><a
 href="/page/8/">8</a></li> <li><a
 href="/page/9/">9</a></li> <li class="sonrakiSayfa"><a
-href="/page/2/">sonraki</a></li> </ul> [/sourcecode]
+href="/page/2/">sonraki</a></li> </ul> 
 
 CSS kodu:
 
-[sourcecode language="css"] ul.sayfalama{ padding: 3px;
+	:::css
+	 ul.sayfalama{ padding: 3px;
 border-bottom:1px solid #e7e7e7; border-top:1px solid #e7e7e7; }
 ul.sayfalama li{ list-style:none; float:left; margin-right:10px;
 line-height:15px; } ul.sayfalama li.seciliSayfaNo{ background:
@@ -167,7 +173,7 @@ background: url(images/sayfalama_ard.gif) 0 -36px no-repeat;
 text-decoration: none;   text-indent:-9999px; } ul.sayfalama
 li.sonrakiSayfa a{ display: block;   width: 6px;   height: 10px;
 margin:3px 0 0 0; background: url(images/sayfalama_ard.gif) 0 -52px
-no-repeat; text-decoration: none;   text-indent:-9999px; } [/sourcecode]
+no-repeat; text-decoration: none;   text-indent:-9999px; } 
 
 Listeleri yanyana koyup, seçili olan ardalanına yuvarlak kenarlı olması
 için li'ye ardalanın sag kısmını li içindeki bağlantıyada sol kısmını

@@ -6,5 +6,6 @@ Tags: CSS, kalıtsallık, yazı tipi
 Genel özellikleri bir kere tanımlayarak tekrarlardan kurtulabiliriz. Bu
 sitemizi hız ve tutarlılık kazandıracaktır. Örneğin sitemizde kullanılan
 genel yazı tipi ve yazı tipi rengini body içinde tanımlayarak bir çok
-tekrarı engellemiş oluruz. [sourcecode language="css"] body {
-font:Arial, Helvetica, sans-serif; color: #474747 } [/sourcecode]
+tekrarı engellemiş oluruz. 	:::css
+	 body {
+font:Arial, Helvetica, sans-serif; color: #474747 } 

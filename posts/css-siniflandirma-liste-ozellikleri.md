@@ -26,9 +26,10 @@ elementler:** [display][] değeri list-item alan elementler
 list-style-images özelliği **none** değeri aldığında veya resim
 görüntülenemediğinde kullanılır.
 
-[sourcecode language="css"] ul.arabalar { list-style-type: none } ol ol
+	:::css
+	 ul.arabalar { list-style-type: none } ol ol
 ol { list-style-type: lower-roman /* i ii iii iv v gibi. */ }
-[/sourcecode]
+
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
@@ -43,8 +44,9 @@ elementler:** [display][] değeri list-item alan elementler
 **Kalıtsallık:** Var
 
 **list-style-image** özelliği list-style işaretinin yerine resim koymak
-için kullanılır. [sourcecode language="css"] ul{ list-style-image:
-url(mavitop.gif) } [/sourcecode]
+için kullanılır. 	:::css
+	 ul{ list-style-image:
+url(mavitop.gif) } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
@@ -60,8 +62,9 @@ tüm elementler **Kalıtsallık:** Yok
 **list-style-position** özelliği **list-item** işaretlerin metinin
 içinden(inside) veya soldan dışında(outside) mı olacağını belirler.
 
-[sourcecode language="css"] ul{ list-style-position: inside }
-[/sourcecode]
+	:::css
+	 ul{ list-style-position: inside }
+
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
@@ -80,8 +83,9 @@ elementler **Kalıtsallık:** Var
 **list-style** özelliği list-style-type, list-style-position ve
 list-style-image özelliklerinin kısayoludur.
 
-[sourcecode language="css"] ul{ list-style: disc outside } ol{
-list-style: decimal inside } [/sourcecode]
+	:::css
+	 ul{ list-style: disc outside } ol{
+list-style: decimal inside } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
@@ -99,7 +103,8 @@ belirler. değer alır. **normal:** birden fazla boşluğu tek boşluk gibi
 sayar. **pre :** birden fazla boşluğu birleştirmez. **nowrap :** <br>
 etiketi hariç alt satıra geçişe izin vermez.
 
-[sourcecode language="css"] p { white-space: pre; } [/sourcecode]
+	:::css
+	 p { white-space: pre; } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
@@ -124,8 +129,9 @@ uygulmasında kullanılan bir özelliktir.
 
 Bu dört özellik çok kullanıldıkları için üzerinde duruldu.
 
-[sourcecode language="css"] p { display: inline; } em { display: block;
-} [/sourcecode]
+	:::css
+	 p { display: inline; } em { display: block;
+} 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+

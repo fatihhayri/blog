@@ -12,12 +12,12 @@ inceleyelim. <!--more-->
 ### 1- Genişleyebilir blok-level elementleri ortalamak
 
 [sourcecode language='css'] .ortala { margin-left: 10%; margin-right:
-10%; } [/sourcecode] [sourcecode language='html']
+10%; }  [sourcecode language='html']
 
 Lorem Ipsum is simply dummy text of the printing and
 typesettingindustry.
 
-[/sourcecode]
+
 
 Genişliği sabit olmayan, genişleyebilir blok-level elementlerin
 ortalanması için bu metod kullanılır. Tüm web tarayıcılı bu metodu
@@ -35,7 +35,7 @@ margin-right değerleri auto verilirse bu blokun ortalanması anlamına
 gelir."**
 
 [sourcecode language='css'] .ortala2 { margin-left: auto; margin-right:
-auto; width: 50em; } [/sourcecode]
+auto; width: 50em; } 
 
 NN4 (Mac and Win), Win/IE4, Win/IE5, Win/IE5.5, Win/IE6 (Garip mod :
 quirks-mode) web tarayıcılıar bu kodu desteklememektedir.
@@ -47,7 +47,7 @@ Bu metodu desteklemeyen web tarayıcıları için body etiketine
 **text-align:center** ataması yaptığımızda sorun çözülmüş demektir.
 
 [sourcecode language='css'] body { text-align: center; } .ortala2 {
-margin-left: auto; margin-right: auto; width: 50em; } [/sourcecode]
+margin-left: auto; margin-right: auto; width: 50em; } 
 
 Yanlız bir sorunumuz daha var. **text-align:center** ataması body
 içindeki tüm elementlerin ortalanmasına neden olacaktır. Bunu engellemek
@@ -56,7 +56,7 @@ değerine(yani sola yaslamalıyız) çevirmeliyiz.
 
 [sourcecode language='css'] body { text-align: center; } .ortala2 {
 margin-left: auto; margin-right: auto; width: 50em; text-align: left; }
-[/sourcecode]
+
 
 Bu kodlama tüm web tarayıcılarında çalışacaktır.(NN4 hariç)
 
@@ -70,7 +70,7 @@ konumlandırılmış elementin **margin-left** değeri element genişliğinin
 yarısı(1/2) kadar verilerek sağlanır.
 
 [sourcecode language='css'] .ortala3 { width: 720px; position: relative;
-left: 50%; margin-left: -360px; } [/sourcecode]
+left: 50%; margin-left: -360px; } 
 
 Burada sizlere bir iki metodla element ortalamayı gösterdik. Siz
 kullandığınız yer ve ihtiyaçlarınıza göre bunlardan birini

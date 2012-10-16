@@ -19,7 +19,7 @@ Distinct sözcügü kullanılır.
 
 [sourcecode language="sql"]SELECT DISTINCT kullanici.Email,
 kullanici.Name, kullanici.Surname FROM kullanici INNER JOIN images ON
-kullanici.Id = images.UyeId[/sourcecode]
+kullanici.Id = images.UyeId
 
 Şekline yazınca oluyor. Bu kod sonucu e-postalar tekil olduğu için
 tekrar eden verilerden kurtulmuş oluyorum.

@@ -12,8 +12,9 @@ bu konuyu göz atmıştım.
 
 ### Birinci Yöntem
 
-[sourcecode language="css"] body { height: 100%; width: 100%; margin: 0;
-} [/sourcecode]
+	:::css
+	 body { height: 100%; width: 100%; margin: 0;
+} 
 
 şeklinde bir kod. Ancak bu kod ne yazık ki Firefox ve Opera'da
 çalışmıyor. Yada çalışması için html sayfamızdan DOCTYPE'ı silmemiz
@@ -27,10 +28,11 @@ swfobject.embedSWF("test.swf", "myContent", "100%", "100%", "9.0.0",
 
 Genişlik ve yüksekliğini 100% veriyoruz ve css kodumuzu yazıyoruz.
 
-[sourcecode language="css"] /* hide from ie on mac */ html { height:
+	:::css
+	 /* hide from ie on mac */ html { height:
 100%; overflow: hidden; } #myContent { height: 100%; } /* end hide */
 body { height: 100%; margin: 0; padding: 0; background-color: #090; }
-[/sourcecode]
+
 
 Örneği görmek için [tıklayınız][]
 

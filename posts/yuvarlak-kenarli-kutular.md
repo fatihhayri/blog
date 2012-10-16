@@ -26,24 +26,27 @@ alta ve üste koyacağımız kutuları hazırlayalım.
 
 XHTML kodumuzu yazarsak:
 
-[sourcecode language="html"] <div class="yuvarlakKutu">
-<h2>Başlık</h2> <p>İçerik</p> </div> [/sourcecode]
+	:::html
+	 <div class="yuvarlakKutu">
+<h2>Başlık</h2> <p>İçerik</p> </div> 
 
 alt_yuvarlak.gif resmini **.yuvarlakKutu** kapsayıcı katmanının alt
 kısımına dayalı olarak zemin resmi olarak atıyoruz. Ayrıca
 **.yuvarlakKutu** zemin resminin bitiminden itibaren zemin dolgu
 rengini(#84E0FF) atıyoruz.
 
-[sourcecode language="css"] .yuvarlakKutu { width: 200px; background:
+	:::css
+	 .yuvarlakKutu { width: 200px; background:
 #84E0FF url(images/alt_yuvarlak.gif) no-repeat left bottom; }
 .yuvarlakKutu h2 { background: url(images/ust_yuvarlak.gif) no-repeat
-left top; } [/sourcecode]
+left top; } 
 
 Başlık ve içeriğinin kutunun kenarlarına yapışmaması için padding
 değerlerini ayarlamalıyız:
 
-[sourcecode language="css"] .yuvarlakKutu h2 { padding: 10px 20px 0
-20px; } .yuvarlakKutu p { padding: 0 20px 10px 20px; } [/sourcecode]
+	:::css
+	 .yuvarlakKutu h2 { padding: 10px 20px 0
+20px; } .yuvarlakKutu p { padding: 0 20px 10px 20px; } 
 
 Örnek kodları indirmek için [tıklayınız.][]
 
@@ -63,15 +66,17 @@ farz edelim. İki adet resim hazırlarız.
 Diğer bir yöntem ise kutuyu üç kısıma bölerek yapmaktır ki bu daha esnek
 bir yöntemdir.
 
-[sourcecode language="css"] .yuvarlakKutu { width: 424px; background:
+	:::css
+	 .yuvarlakKutu { width: 424px; background:
 url(images/orta_yuvarlak.gif) repeat-y; } .yuvarlakKutu h2 {
 background: url(images/ust3_yuvarlak.gif) no-repeat left top;
 padding-top: 20px; } .yuvarlakKutu .altYuvarlak { background:
 url(images/alt3_yuvarlak.gif) no-repeat left bottom; padding-bottom:
 20px; } .yuvarlakKutu h2, .yuvarlakKutu p { padding-left: 20px;
-padding-right: 20px; } [/sourcecode] [sourcecode language="html"] <div
+padding-right: 20px; }  	:::html
+	 <div
 class="yuvarlakKutu"> <h2>Başlık</h2> <p
-class="altYuvarlak">İçerk</p> </div> [/sourcecode]
+class="altYuvarlak">İçerk</p> </div> 
 
 Örnek kodları indirmek için [tıklayınız.][4]
 
@@ -85,24 +90,26 @@ olacak. Bu dört resim için artı katmanlara ihtiyacımız olacaktır, bu
 katmanlar kodumuzu biraz temiz kod üretimi dışına çıkarsada işimizi
 görecektir:
 
-[sourcecode language="html"] <div class="yuvarlakKutu"> <div
+	:::html
+	 <div class="yuvarlakKutu"> <div
 class="yuvarlakKutuDisi"> <div class="yuvarlakKutuIci">
 <h2>Başlık</h2> <p>İçerik</p> </div> </div> </div>
-[/sourcecode]
+
 
 Dört resimin iki tanesi üst köşeleri yuvarlamak için, iki tanesi alt
 köşeleri yuvarlamak için kullanacağız.
 
 ![][5]
 
-[sourcecode language="css"] .yuvarlakKutu { width: 20em; background:
+	:::css
+	 .yuvarlakKutu { width: 20em; background:
 #effce7 url(images/alt_sol.gif) no-repeat left bottom; }
 .yuvarlakKutuDisi { background: url(images/alt_sag.gif) no-repeat right
 bottom; padding-bottom: 5%; } .yuvarlakKutuIci { background:
 url(images/ust_sol.gif) no-repeat left top; } .yuvarlakKutu h2 {
 background: url(images/ust_sag.gif) no-repeat right top; padding-top:
 5%; } .yuvarlakKutu h2, .yuvarlakKutu p { padding-left: 5%;
-padding-right: 5%; } [/sourcecode]
+padding-right: 5%; } 
 
 Yukarıdaki örnekte esneklik sağlamak için değerler (% ve em) gibi görece
 değerler verilerek font boyutunun arttırılması durumlarında esnek bir

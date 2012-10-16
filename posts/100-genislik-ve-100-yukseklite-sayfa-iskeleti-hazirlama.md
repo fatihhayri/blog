@@ -25,7 +25,8 @@ içerik) ve alt kısmı olan bir sayfa iskeleti oluşturalım. Burada sol
 menü alanının genişliğini sabit tutup sağdaki içerik alanının
 genişliğini esnek yapacağız. Xhtml kodu:
 
-[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
@@ -37,11 +38,12 @@ id="ustAlan"> üst alan </div> <div id="solAlan">Menü</div> <div
 id="icerikAlani"> Lorem ipsum dolor sit amet, ..., tempor at, sem.
 <p>Sed adipiscing, ... in ligula. </p> </div> <div
 class="tampon"></div> </div> <div id="altAlan"> <p>Alt
-Kısım</p> </div> </body> </html> [/sourcecode]
+Kısım</p> </div> </body> </html> 
 
 CSS Kodu
 
-[sourcecode language="css"] * { margin: 0; } html, body { height: 100%;
+	:::css
+	 * { margin: 0; } html, body { height: 100%;
 font-size:62.5%; font-family:Arial, Helvetica, sans-serif; } body{
 background:#F78200 url(../images/genel_zr.gif) top left repeat-y; }
 /* usalan tanimlari */ #ustAlan { height: 6.4em;
@@ -52,7 +54,7 @@ clear:both; width: 15em; height: 15em; margin-bottom: 1em; }
 #icerikAlani { margin: 0 0 1em 16em; font:1em Arial, Helvetica,
 sans-serif; } #altAlan, .tampon { height: 4em; /* .tampon ile altAlan
 yuksekligi ayni olmali */ } #altAlan{ text-align:center; color:#036;
-background-color:#cfc; } [/sourcecode]
+background-color:#cfc; } 
 
 Örnek kodu görmek için [tıklayınız.][]
 
@@ -84,7 +86,8 @@ işaretlenmiştir.
 
 Xhtml kodu:
 
-[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
@@ -97,11 +100,12 @@ id="sagAlan"> <p>Sağ Alan </p></div> <div id="icerikAlani">
 Lorem ipsum dolor sit amet, ... sem. <p>Sed adipiscing, ... ligula.
 </p> </div> <div class="tampon"></div> </div> <div
 id="altAlan"> <p>Alt Kısım</p> </div> </body> </html>
-[/sourcecode]
+
 
 CSS Kodu
 
-[sourcecode language="css"] * { margin: 0; } html, body { height: 100%;
+	:::css
+	 * { margin: 0; } html, body { height: 100%;
 font-size:62.5%; font-family:Arial, Helvetica, sans-serif; } body{
 background:#F78200 url(../images/genel_zr.gif) top left repeat-y; }
 /* usalan tanimlari */ #ustAlan { height: 6.4em;
@@ -114,7 +118,7 @@ clear:both; width: 15em; height: 15em; margin-bottom: 1em; }
 sans-serif; } #altAlan, .tampon { height: 4em; /* .tampon ile altAlan
 yuksekligi ayni olmali */ } #altAlan{ text-align:center; color:#036;
 background-color:#cfc; } /* 3 kolon lu yapi */ #sagAlan { float:
-right; width: 15em; } [/sourcecode]
+right; width: 15em; } 
 
 Örnek kodu görmek için [tıklayınız.][1]
 

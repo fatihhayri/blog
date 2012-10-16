@@ -23,11 +23,11 @@ buradan alır, HTML seçilen element anlamındadır. Bildirim bloğu süslü
 parantezle açılır ve kapanır. Bildirimler arasında " ; " noktalı virgül
 kullanılır. özellik ve değerler birbirinden " : " iki nokta üstüste ile
 ayrılır. [sourcecode language='css'] h1 {font: medium Arial;}
-[/sourcecode]şeklinde arada boşluk verilerekde bildirm yapılabilir.
+şeklinde arada boşluk verilerekde bildirm yapılabilir.
 Burada ilki font'un boyutunu ikincisi ise font ismini gösterir. İleride
 bu konuya daha ayrıntılı gireceğiz. Ayrıca sadece font etiketine özel "
 / " kullanımı vardır örnek aşağıda: [sourcecode language='css'] h1
-{font: medium/120% Arial;} [/sourcecode]Burada " / " Seçicinin font
+{font: medium/120% Arial;} Burada " / " Seçicinin font
 boyutunu ve satır yüksekliğini gösterir.(font_boyutu/satir_yuksekliği)
 
 ##### Gruplama
@@ -35,7 +35,7 @@ boyutunu ve satır yüksekliğini gösterir.(font_boyutu/satir_yuksekliği)
 Yukarıda hep bir Seçici'yi sadece bir HTML elementine atamayı gördük,
 Birden fazla HTML elementine de atama yapabilirz, buna **gruplama**
 denir. Gruplama Seçicilerde yapıldığı gibi Bildirmlerde de yapılabilir.
-[sourcecode language='css'] p, h3 {font-family: Arial;} [/sourcecode]
+[sourcecode language='css'] p, h3 {font-family: Arial;} 
 
 <div class="not">
 <div class="notbaslik">
@@ -54,7 +54,7 @@ gruplanabilir. Gruplama tasarımcılara büyük kolaylıklar sağlar.
 Bildirim'lerimizi de gruplayabiliriz, bununla ilgili yukarıda örnekler
 mevcut. Bir veya daha fazla Seçiciye bir den fazla bildirim ekleye
 biliriz. [sourcecode language='css'] p, h3 { font-family: Arial;
-font-size:2; font-weight: bold; } [/sourcecode] Seçiciler ikiye ayrılır.
+font-size:2; font-weight: bold; }  Seçiciler ikiye ayrılır.
 Sınıf Seçicisi ve Id Seçicisi. CSS ile işlenmemiş bir dökümanda
 başlangıçta bir plan yaparak hangi içeriğin Sınıf Seçicisi hangi
 Seçicicinin Id Seçicisi olacağını planlamalıyız.
@@ -66,7 +66,7 @@ kullanırız. Bir örnek verecek olursak; hazırlayacağımız dökümanda iki
 adet paragraf tanımlaması yapacağımızı planlıyoruz. Bunlardan biri sağa
 dayalı, diğeri ise ortalı olmasını istiyoruz [sourcecode language='css']
 p.sagadaya {text-align: right} p.ortala {text-align: center}
-[/sourcecode]Bu Seçicileri sayfamızda uygulamak için; [sourcecode
+Bu Seçicileri sayfamızda uygulamak için; [sourcecode
 language='html']
 
 Aynı HTML elementine farklı özellikler atamak için Sınıf Seçicisini
@@ -74,27 +74,27 @@ kullanırız.
 
 Yukarıdaki bilgiyi dikkatlice okumalısınız
 
-[/sourcecode] Birde önemli bir tanımlama yapacağınızı düşünün, ancak
+ Birde önemli bir tanımlama yapacağınızı düşünün, ancak
 sadece bir HTML elementine değilde istediğiniz sayıda HTML elementinde
 bunu kullanmak isterseniz; [sourcecode language='css'] .ortala {
-text-align: center } [/sourcecode] Bu tanımlamayı yaptıktan sonra
+text-align: center }  Bu tanımlamayı yaptıktan sonra
 istedğimiz her HTML elementine bu sınıfı uygulayabiliriz. [sourcecode
 language='css'] <span class="ortala"> Burada birşeyler yazar </span>
 
 Burada da başka bişeyler yazar
 
-[/sourcecode] **Çoklu sınıflar,** birden fazla sınıfı bir HTML
+ **Çoklu sınıflar,** birden fazla sınıfı bir HTML
 elementine uygulamak için kullanılır. [sourcecode language='css']
 
 Ülkemizde meydana gelen trafik kazalarının yaklaşık % 90'ı insanların
 hataları sonucu eydana gelmektedir.
 
-[/sourcecode] Yukarıdaki örnekte görüldüğü gibi bir **uyari** Sınıfımız
+ Yukarıdaki örnekte görüldüğü gibi bir **uyari** Sınıfımız
 birde **onemli** Sınıfımız mevcut. Bazı metinlerin **önemli uyarı**
 olacağı düşüncesi ile böyle bir atama yapılabilir. Bunun için
 kullanıcığımız kod; [sourcecode language='css'] .onemli { font-weight:
 bold; } .uyari { font-style: italic; } .onemli.uyari { background:
-silver; } [/sourcecode] Önemli metinler için kalın, uyari için italiktik
+silver; }  Önemli metinler için kalın, uyari için italiktik
 atmalar yapıyoruz. Birde her ikisine birden de atama yapabiliyoruz.
 Dikkat ederseniz **class="onemli uyari"** olarak atama yaparken CSS
 Seçicisinde **.onemli.uyari** şeklinde yazıyoruz.
@@ -105,13 +105,13 @@ Id Seçicisi Sınıf Seçicisinden farklıdır. Sınıf Seçicisi sayfada birden
 fazla elemente atanırken Id Seçicisi sadece bir tane elemente atanır.
 Seçicisi adının başında # işareti olan Seçiciler Id Seçicisidir.
 [sourcecode language='css'] ... #mavi { background:blue; } #kirmizi {
-background:red; } [/sourcecode] [sourcecode language='html']
+background:red; }  [sourcecode language='html']
 
 Bu yazının arkafon rengi mavi
 
 Bu yazının arkafon rengi kırmızı
 
-[/sourcecode]
+
 
 ##### Sınıf mı? Id mi?
 
@@ -124,11 +124,11 @@ Seçicisini bir kez kullanmalıyız. Birden fazla kullanacağımız elementler
 için Sınıf Seçicisini kullanmalıyız. Bu kodumuzu daha kullanışlı ve
 temiz yapacaktır. Sınıf ve Id Seçicileri küçük-büyük harfe karşı
 duyarlıdır; [sourcecode language='css'] p.onemliBilgi { font-weight:
-bold; } [/sourcecode] ve kullanımıda; [sourcecode language='html']
+bold; }  ve kullanımıda; [sourcecode language='html']
 
 Uygulama olmaz .
 
-[/sourcecode] Yukarıdaki kod uygulanmayacaktır çünkü " **B** " bir yerde
+ Yukarıdaki kod uygulanmayacaktır çünkü " **B** " bir yerde
 büyük birde küçük kullanılmıştır. Bazı eski tarayıcılar bu kuralın
 dışında kalabilir.
 

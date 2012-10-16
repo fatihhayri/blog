@@ -53,9 +53,10 @@ CSS Profile 2.0
 **overflow:visible** Overflow'ın başlangıç değeri visible'dır. Bu değer
 taşma olan kısımların gösterilmesini sağlar.
 
-[sourcecode language="css"] div#solMenu { position: absolute; top: 0;
+	:::css
+	 div#solMenu { position: absolute; top: 0;
 left: 0; width: 200px; height: 120px; background: #BBB; overflow:
-visible; } [/sourcecode]
+visible; } 
 
 ![overflow][]  
 Kodun yeni nesil tarayıcılardaki görünümü
@@ -67,9 +68,10 @@ rağmen taşan bölümler gösterilmiştir.
 yinede taşan kısımlara ulaşılması için kaydırma çubuğu çıkması için
 scroll özelliği ekleriz.
 
-[sourcecode language="css"] div#solMenu { position: absolute; top: 0;
+	:::css
+	 div#solMenu { position: absolute; top: 0;
 left: 0; width: 200px; height: 120px; background: #BBB; overflow:
-scroll; } [/sourcecode]
+scroll; } 
 
 ![overflow scroll][]  
 overflow:scrool olma durumu
@@ -77,9 +79,10 @@ overflow:scrool olma durumu
 **overflow:hidden** Eğer overflow:hidden değeri atarsak. Sınırladığımız
 kutunun dışına taşan kısımlar gösterilmeyecektir.
 
-[sourcecode language="css"] div#solMenu { position: absolute; top: 0;
+	:::css
+	 div#solMenu { position: absolute; top: 0;
 left: 0; width: 200px; height: 120px; background: #BBB; overflow:
-hidden; } [/sourcecode]
+hidden; } 
 
 kodu bu şekilde değiştirdiğimizde görüntü aşağıdaki gibi olacaktır.
 
@@ -90,9 +93,10 @@ atayınca kutu içeriğine göre otomatik işlem yapacaktır. Eğer taşma
 olmuyorsa kaydırma çubuğu çıkmayacaktır. Ama eğer içerik taşıyorsa
 kaydırma çubuğu çıkacaktır.
 
-[sourcecode language="css"] div#solMenu { position: absolute; top: 0;
+	:::css
+	 div#solMenu { position: absolute; top: 0;
 left: 0; width: 200px; height: 120px; background: #BBB; overflow:
-hidden; } [/sourcecode]
+hidden; } 
 
 ![overflow:auto][]
 
@@ -185,13 +189,15 @@ Bir örnek yapalım.
 
 CSS kodu:
 
-[sourcecode language="css"] .kirpma{ position:absolute; clip:rect(50px
-130px 153px 40px); } [/sourcecode]
+	:::css
+	 .kirpma{ position:absolute; clip:rect(50px
+130px 153px 40px); } 
 
 HTML kodu:
 
-[sourcecode language="html"]<ol> <div class="kirpma"> <img
-src="recepemice.jpg" alt="ahmet emice" /> </div> [/sourcecode]
+	:::html
+	<ol> <div class="kirpma"> <img
+src="recepemice.jpg" alt="ahmet emice" /> </div> 
 
 ![Kırpma][]  
 örneğin görüntüsü
@@ -221,7 +227,8 @@ visible ise element görünür. Eğer değeri hidden ise element görünmezdir.
 Eğer bir elementin görünürlük değeri hidden olarak atanmış ise element
 sayfa yapısındaki yeri korur ancak gözle görülmez.
 
-[sourcecode language="html"]<ol> <html> <head> <title>visibility
+	:::html
+	<ol> <html> <head> <title>visibility
 Örneği</title> <meta http-equiv="Content-Type" content="text/html;
 charset=utf-8" /> <style> <li class="alternatifard">body
 {font-family: sans-serif; font-weight: bold; font-size: 14px}</li>
@@ -232,7 +239,7 @@ style="visibility: hidden; background-color:#f00; border:1px solid
 style="visibility: visible">Görünür Başlık</h1> <p style="font-size:
 large">Görünür metin parçası<b style="visibility: hidden">görünmez
 metin parçası</b> ve burası görünüyor.</p> </body> </html>
-</ol>[/sourcecode]
+</ol>
 
 ![Visibility örneği][]
 
@@ -250,15 +257,17 @@ değildir. Örnek yaparsak
 
 CSS kodu
 
-[sourcecode language="css"] p.gorunmez {visibility: hidden;} p.gorunmez
-strong {visibility: visible;} [/sourcecode]
+	:::css
+	 p.gorunmez {visibility: hidden;} p.gorunmez
+strong {visibility: visible;} 
 
 HTML kodu
 
-[sourcecode language="css"] <p class="gorunmez" <strong>Lorem ipsum
+	:::css
+	 <p class="gorunmez" <strong>Lorem ipsum
 dolor sit amet</strong>, consectetuer adipiscing elit. Cras sem. In
 sagittis mauris eu turpis. Mauris ut lorem nec pede consequat suscipit.
-</p> [/sourcecode]
+</p> 
 
 ![visibility hiyerarşi][]
 

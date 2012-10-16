@@ -19,16 +19,18 @@ overflow uyguladığım elemanın dışına çıkıyor ve scroll olmuyor.
 
 Şöyle küçük bir örnek durumu daha iyi gösterecektir.
 
-[sourcecode language="html"] <div id="icerikAlani"> <p>İlk
+	:::html
+	 <div id="icerikAlani"> <p>İlk
 paragaraf</p> <p class="relative">position:relative uygulanan
-kısım</p> </div> [/sourcecode]
+kısım</p> </div> 
 
 CSS kodu da şöyle
 
-[sourcecode language="css"] #icerikAlani{ height:80px; overflow:auto;
+	:::css
+	 #icerikAlani{ height:80px; overflow:auto;
 width:200px; height:80px; background-color:#ccc } .relative{
 position:relative; background-color:lightblue; width:150px; }
-[/sourcecode]
+
 
 Sonuca ie 6 ve 7 ile baktığımızda aşağıdaki gibi bir sorun ile
 karşılaşacağız.
@@ -43,7 +45,7 @@ position:relative tanımı yaparak sorunu giderebilirsiniz.
 [sourcecode language="css" highlight="7"] #icerikAlani{ height:80px;
 overflow:auto; width:200px; height:80px; background-color:#ccc;
 position:relative; } .relative{ position:relative;
-background-color:lightblue; width:150px; } [/sourcecode]
+background-color:lightblue; width:150px; } 
 
 ### Kaynaklar
 

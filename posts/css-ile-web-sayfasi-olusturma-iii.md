@@ -22,7 +22,7 @@ Bu metodda yapılan iki kolon bir kapsayıcı katman içine alınarak iki
 kolonun zemin resmi bu kapsayıcı katmana tanımlanmaktır.
 
 [sourcecode language='css'] #kapsayiciKolon { background: #fff
-url(zemin_ard.gif) repeat-y left top; } [/sourcecode]
+url(zemin_ard.gif) repeat-y left top; } 
 
 Aynı şekilde üç kolonlu yapılar içinde çözüm üretilebilir. Sabit
 genişlikte sayfalarda Aksak Kolonları düzeltmek bu kadar kolaydır. Esnek
@@ -38,7 +38,7 @@ konulandırıldığında, atanan değerler hem üst elemente göre, hem de
 elementin kendine göre konumunu belirler. Örneğin:
 
 [sourcecode language='css'] background: #fff url(resim.gif) no-repeat
-25% 10%; [/sourcecode]
+25% 10%; 
 
 Yukarıdaki tanımlama sonucunda zemin resmi hem üst elementin %10 üst ve
 %25 solundan mesafe alacaktır, hemde kendi içinde %10 üst ve %25 soldan
@@ -72,7 +72,7 @@ formatında yapmalıyız.
 
 [sourcecode language='css'] #KapsayiciAlan { width: 85%; margin: 0
 auto; text-align: left; background: #fff
-url(images/sol_zemin_resmi.gif) repeat-y 23% 0; } [/sourcecode]
+url(images/sol_zemin_resmi.gif) repeat-y 23% 0; } 
 
 Benzer şekilde ikinci bir içerik oluşturarak sağda kalan iki kolona aynı
 metod uygulanabilir. Yine 2000 piksel genişliğinde 10 piksel
@@ -86,7 +86,7 @@ tane daha **ikinciKapsayiciAlan** eklemeliyiz. Bu yeni
 **ikinciKapsayiciAlan**'nınada zemin resmi atamalıyız.
 
 [sourcecode language='css'] #ikinciKapsayiciAlan { background:
-url(images/sag_zemin_resmi.gif) repeat-y 77% 0; } [/sourcecode]
+url(images/sag_zemin_resmi.gif) repeat-y 77% 0; } 
 
 Bu şekilde çok güzel bir 3 kolonlu likit bir sayfa elde ederiz.
 

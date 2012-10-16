@@ -25,8 +25,9 @@ elementler:** tüm elementler **Kalıtsallık:** Var
 </div>
 **color** metinlerimizin rengini tanımlamamız için kullanılır.
 
-[sourcecode language="css"] p{ color:#f00; /* kırmızı renk kodu */ }
-[/sourcecode]
+	:::css
+	 p{ color:#f00; /* kırmızı renk kodu */ }
+
 
 Renk kullanımına daha önce değinmiştik. Detay için [tıklayınız.][renk]
 
@@ -60,14 +61,16 @@ Metinlerin kullanılacağı font ailesini belirlemek için kullanılır.
 Birden fazla fontailesi kullanılacaksa aralarına virgül (,) konur.
 Genelde son font ailesiolarak soysal font ailesi yazılır. Örnek:
 
-[sourcecode language="css"] p { font-family: Verdana, Arial, Helvetica,
-sans-serif; } [/sourcecode]
+	:::css
+	 p { font-family: Verdana, Arial, Helvetica,
+sans-serif; } 
 
 Eğer font ismi bir den fazla kelimeden olşuyorsa çift tırnak içine
 alınır.Örn:
 
-[sourcecode language="css"] h1 { font-family: Georgia, "Times New
-Roman", serif; } [/sourcecode]
+	:::css
+	 h1 { font-family: Georgia, "Times New
+Roman", serif; } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
@@ -97,9 +100,10 @@ CSS, Font boyutlandırmaya daha esnek tanımlama yapmamızı olanak sağladı.
 Mesela 11px değeri HTML'de2 ve 3 değeri arasında bir değer denk geliyor
 ve HTML font elementi ile birlikte kullanılamıyordu.CSS'de font boyutunu
 belirlemek için bir çok birim kullanılır. Örn: px, em,pt, in, cm vd.
-[sourcecode language="css"] td { font-size :12px; } td { font-size :
+	:::css
+	 td { font-size :12px; } td { font-size :
 150%; } td { font-size : xx-small; } td { font-size : x-large; }
-[/sourcecode]
+
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
@@ -119,7 +123,8 @@ Fontun kalınlık incelik durumunu belirler.
 **100(ince)-900(kalın)**arasında bir değer alabildiği gibi bold, bolder
 ve normal değerlerini de alır.
 
-[sourcecode language="css"] p{ font-weight: bolder; } [/sourcecode]
+	:::css
+	 p{ font-weight: bolder; } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
@@ -136,8 +141,9 @@ elementler:** tüm elementler **Kalıtsallık:** Var
 </div>
 Fontun eğik(italiktik) olup olamamasını belirler.
 
-[sourcecode language="css"] p { font-style: italic; } h4{ font-style:
-oblique; } [/sourcecode]
+	:::css
+	 p { font-style: italic; } h4{ font-style:
+oblique; } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
@@ -155,8 +161,9 @@ elementler:** tüm elementler **Kalıtsallık:** Var
 Metnin küçü-büyük harf ile gösterilmesini belirler. İki değer alır.
 **normal | small-caps.**
 
-[sourcecode language="css"] span { font-variant: small-caps; }
-[/sourcecode]
+	:::css
+	 span { font-variant: small-caps; }
+
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
@@ -177,8 +184,9 @@ değerinide tek sefer de tanımlamak için kullanılır. Bir [kısaltmadır][].
 elementler:** tüm elementler **Kalıtsallık:** Var
 
 </div>
-[sourcecode language="css"] h2 { font: bold italic 200%/1.2 Verdana,
-Helvetica, Arial, sans-serif; } [/sourcecode]
+	:::css
+	 h2 { font: bold italic 200%/1.2 Verdana,
+Helvetica, Arial, sans-serif; } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+

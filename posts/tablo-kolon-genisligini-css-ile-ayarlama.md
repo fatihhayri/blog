@@ -10,8 +10,9 @@ Google bize web hakkında örnekleri ile de yardım ediyor. Gmail'de tablo
 genişliğini sabitlemenin daha doğrusu metinin tablo genişliğine göre
 overflow:hiden uygulamasını gösteren güzel bir yöntem
 
-[sourcecode language="css"] .grid { table-layout: fixed; } .grid * td {
-empty-cells: show; overflow: hidden; width: 100%; } [/sourcecode]
+	:::css
+	 .grid { table-layout: fixed; } .grid * td {
+empty-cells: show; overflow: hidden; width: 100%; } 
 
 ![Gmail Tablo genişliği][]
 

@@ -12,9 +12,10 @@ Explorer'un(8. sürüm dahil) desteğinin söz konusu olmaması.
 
 Kodlama çok basit
 
-[sourcecode language="css"] ::-moz-selection {     background:#c00;   
+	:::css
+	 ::-moz-selection {     background:#c00;   
  color:#fff; } ::selection {     background:#c00;     color:#fff; }
-[/sourcecode]
+
 
 Kodlamanın birinci kısmı(**::-moz-selection**) mozilla tabanlı yani
 Firefox için ikinci kısmı ise normal CSS 3 ile birlikte gelen koddur.
@@ -23,9 +24,10 @@ Webkit tabanlı tarayıcılar ve Opera 9.5 bu kodu destekliyor.
 Ayrıca diğer seçicilerede bunu uygulayabiliyoruz. Bağlantılar için
 farklı bir renk tanımlayalım mesela
 
-[sourcecode language="css"] a::-moz-selection {     background:#1259C7;
+	:::css
+	 a::-moz-selection {     background:#1259C7;
     color:#fff; } a::selection {     background:#1259C7;   
- color:#fff; } [/sourcecode]
+ color:#fff; } 
 
 Örnek olarak bu sitede herhangi bir metni seçince göreceksiniz.
 

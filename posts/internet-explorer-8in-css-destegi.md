@@ -35,23 +35,26 @@ ie8'de. Bu sürümdeki en büyük gelişme budur.
 Klavyeden elementlere odaklanmamızı sağlayan ve erişebilirlik için
 önemli olan bu özellik İnternet Exploerer 8 ile geldi
 
-[sourcecode language="css"] a:focus { border: solid 1px red; }
-[/sourcecode]
+	:::css
+	 a:focus { border: solid 1px red; }
+
 
 ### :before and :after Sözde Elementleri
 
 Bir elemanın öncesine ve sonrasına **content** özelliği ile birlikte
 içerik eklememizi sağlayan bu özellik ie8 ile birlikte geldi.
 
-[sourcecode language="css"] #box:before { content: "Not:"; }
-#box:after { content: "son"; } [/sourcecode]
+	:::css
+	 #box:before { content: "Not:"; }
+#box:after { content: "son"; } 
 
 ### :lang() Sözde sınıfı
 
 Sayfa içeriğinde farklı dilde kullanılan içeriği yakalamak için
 kullanılan bir seçicidir.
 
-[sourcecode language="css"] :lang(fr) { tanimlar } [/sourcecode]
+	:::css
+	 :lang(fr) { tanimlar } 
 
 ### :active Sözde sınıfı işlevselliği arttı
 

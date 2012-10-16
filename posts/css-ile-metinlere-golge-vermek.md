@@ -35,8 +35,9 @@ Kalıtsallık: Yok
 </div>
 text-shadow değeri 4 kısımdan oluşur. Bir örnek ile açıklayalım.   
 
-[sourcecode language="css"] .title { text-shadow: 3px 2px 1px #000; }
-[/sourcecode]
+	:::css
+	 .title { text-shadow: 3px 2px 1px #000; }
+
 
 3px; İlk değer yataydaki mesafe içindir Artı değerler metnin sağından
 itibaren uzaklık değeridir, negatif değerler metnin soluna doğru
@@ -60,9 +61,10 @@ kullanımında üst üste binmesi durumunda normal sıralamada başta olan
 üstte sonradan tanımlananlar altta kalırken CSS3 ile birlikte bu durum
 değişti. CSS3'de tam tersi bir durum söz konusu.
 
-[sourcecode language="html"] color: #000; background: #000;
+	:::html
+	 color: #000; background: #000;
 text-shadow: 0 0 4px #ccc, 0 -5px 4px #ff3, 2px -10px 6px #fd3, -2px
--15px 11px #f80, 2px -18px 18px #f20; [/sourcecode]
+-15px 11px #f80, 2px -18px 18px #f20; 
 
 Virgül ile ayrılarak birden fazla gölge kullanılabilir.
 
@@ -86,9 +88,10 @@ gelmiştir.
 Konuyu daha iyi anlamak ve sonuçlarını görmek için bir kaç örnek
 yapalım.
 
-[sourcecode language="css"] p{ font:14px Arial, Helvetica, sans-serif;
+	:::css
+	 p{ font:14px Arial, Helvetica, sans-serif;
 color: #000; background: #fff; text-shadow: 2px 2px 3px #000; }
-[/sourcecode]
+
 
 [![][]][]
 
@@ -96,9 +99,10 @@ color: #000; background: #fff; text-shadow: 2px 2px 3px #000; }
 
 İkinci örneğimizide gölge açısını değiştirmek için eksi değer veririz.
 
-[sourcecode language="css"] p{ font:16px Arial, Helvetica, sans-serif;
+	:::css
+	 p{ font:16px Arial, Helvetica, sans-serif;
 color: #000; background: #fff; text-shadow: 2px -2px 3px #000; }
-[/sourcecode]
+
 
 [![][1]][]
 
@@ -106,9 +110,10 @@ color: #000; background: #fff; text-shadow: 2px -2px 3px #000; }
 
 Bir çok değişik denemeler ile farklı görünümler elde edebiliriz.
 
-[sourcecode language="css"] p{ font:16px Arial, Helvetica, sans-serif;
+	:::css
+	 p{ font:16px Arial, Helvetica, sans-serif;
 color: #343434; background: #b6d53c; text-shadow: 1px 1px #fff;
-padding:10px } [/sourcecode]
+padding:10px } 
 
 [![][3]][]
 
@@ -116,9 +121,10 @@ padding:10px } [/sourcecode]
 
 Gölge yardımı ile ışıltı efekti vermek.
 
-[sourcecode language="css"] p{ font:bold 16px Arial, Helvetica,
+	:::css
+	 p{ font:bold 16px Arial, Helvetica,
 sans-serif; color: #fff; background: #000; text-shadow: 1px 1px 6px
-#fff; padding:10px } [/sourcecode]
+#fff; padding:10px } 
 
 [![][5]][]
 
@@ -126,10 +132,11 @@ sans-serif; color: #fff; background: #000; text-shadow: 1px 1px 6px
 
 Çoklu gölge yardımı ile ateş efekti verelim
 
-[sourcecode language="css"] font:bold 16px Arial, Helvetica, sans-serif;
+	:::css
+	 font:bold 16px Arial, Helvetica, sans-serif;
 color: #fff; background: #000; text-shadow: 0 0 4px white, 0 -5px 4px
 #FFFF33, 2px -10px 6px #FFDD33, -2px -15px 11px #FF8800, 2px -25px
-18px #FF2200; padding:30px 20px [/sourcecode]
+18px #FF2200; padding:30px 20px 
 
 [![][7]][]
 
@@ -159,8 +166,9 @@ uygulanacak metini <span> etiketi içine alıp span etiketine ie gölge
 
 **Shadow filtresi**  
 
-[sourcecode language="css"]filter: Shadow(color='#0000ff',
-Direction=135, Strength=4);[/sourcecode]
+	:::css
+	filter: Shadow(color='#0000ff',
+Direction=135, Strength=4);
 
 Bu uygulama sonucunda aşağıdaki görüntüyü elde ederiz.
 
@@ -177,10 +185,11 @@ belli açılarda kullanılabilir.
 Glow filtresi metin etrafında çevreleyen bir katman oluşturur ve görüntü
 olarak gölge etkisi verir.
 
-[sourcecode language="css"] <!--[if IE]><style type="text/css">
+	:::css
+	 <!--[if IE]><style type="text/css">
 p.shadowed span { display: block; width: 100%; filter:
 glow(color=#0000ff,strength=2); } </style><![endif]-->
-[/sourcecode]
+
 
 Örneği görmek için [tıklayınız.][12]
 
@@ -204,17 +213,19 @@ fazla geçmesi ve fazladan etiket eklemesidir.
 
 Kodlaması çok basittir.
 
-[sourcecode language="html"] <div class="baslik"> <h1>Lorem ipsum
+	:::html
+	 <div class="baslik"> <h1>Lorem ipsum
 dolor sit amet consectetuer</h1> <h6>Lorem ipsum dolor sit amet
-consectetuer</h6> </div> [/sourcecode]
+consectetuer</h6> </div> 
 
 CSS kodu
 
-[sourcecode language="css"] .baslik { position:relative;
+	:::css
+	 .baslik { position:relative;
 font-family:arial; } .baslik h1 { position:absolute; top:2px; left:2px;
 font-size:30px; color:#C9D8E9; padding:0; margin:0; } .baslik h6 {
 position:absolute; top:0; left:0; font-size:30px; color:#4471A2;
-padding:0; margin:0; } [/sourcecode]
+padding:0; margin:0; } 
 
 Sonuç aşağıda göründüğü gibi olur.
 

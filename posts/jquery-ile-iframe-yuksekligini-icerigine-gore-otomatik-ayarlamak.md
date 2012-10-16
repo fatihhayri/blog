@@ -27,20 +27,23 @@ anlatacağım.
 Sayfamıza ilk olarak jQuery kütüphanesini eklemeliyiz. Bu script
 dosyasının ilk sırada olması önemli jQuery için.
 
-[sourcecode language="html"] <script type="text/javascript"
-src="script/jquery.js"></script> [/sourcecode]
+	:::html
+	 <script type="text/javascript"
+src="script/jquery.js"></script> 
 
 Iframe otomatik yükseklik vermek için kullandığımız eklenti kodu.
 
-[sourcecode language="html"]<script type="text/javascript"
-src="script/jquery.autoheight.js"></script>[/sourcecode]
+	:::html
+	<script type="text/javascript"
+src="script/jquery.autoheight.js"></script>
 
 Sayfaya eklediğimiz iframe kodunda yapmamız gereken sadece
 class="autoHeight" eklemek.
 
-[sourcecode language="html"]<iframe id="listeCercevesi"
+	:::html
+	<iframe id="listeCercevesi"
 name="listeCercevesi" class="autoHeight" scrolling="auto"
-frameborder="0" src="/liste.aspx"></iframe>[/sourcecode]
+frameborder="0" src="/liste.aspx"></iframe>
 
 Örnek sayfayı görmek için [tıklayın.][] (sonspring.com alınmıştır)
 

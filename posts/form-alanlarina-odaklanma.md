@@ -14,10 +14,11 @@ belirgin hale getirmeyi göreceğiz.<!--more-->
 açıklayaıcı bir bilgi gireceğiz ve kullanıcı bu alana
 odaklandığında(onfocus) metni sileceğiz.
 
-[sourcecode language="html"] <p> Ad Soyad<br /> <input type="text"
+	:::html
+	 <p> Ad Soyad<br /> <input type="text"
 id="ara" name="ara" value="Ara"
 onfocus="if(this.value=='Ara'){this.value=''};"
-onblur="if(this.value==''){this.value='Ara'};" /> </p> [/sourcecode]
+onblur="if(this.value==''){this.value='Ara'};" /> </p> 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -31,12 +32,13 @@ alanın(if(this.value=='')) bir biri ile aynı olmasıdır.
 İkinci örneğimizde bu efekte zemin rengi özelliğinide katarak daha güzel
 bir etki vereceğiz.
 
-[sourcecode language="html"] <p>Ad Soyad<br /> <input type="text"
+	:::html
+	 <p>Ad Soyad<br /> <input type="text"
 id="ara" name="ara" value="Ara"
 onfocus="if(this.value=='Ara'){this.value='';
 this.style.backgroundColor='#efefef'};"
 onblur="if(this.value==''){this.value='Ara';
-this.style.backgroundColor='#ffffff'};" /> </p> [/sourcecode]
+this.style.backgroundColor='#ffffff'};" /> </p> 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -49,7 +51,8 @@ elemanların alt alta sıralanmasından oluşur. son örneğimizde bu
 elementler arasında kullanıcının odaklandığı elementini kapsayan alanın
 zemin rengini değiştirerek dikkati bu alana çekeceğiz.
 
-[sourcecode language="html"] <style type="text/css"> .odaklan{
+	:::html
+	 <style type="text/css"> .odaklan{
 background-color: #FFFFE0; padding:10px 5px; border:1px solid #CCCCCC;
 } .normal{ background-color:#FFFFFF; padding:10px 5px; } </style> <p
 class="normal">Ad Soyad<br /> <input type="text" id="ara" name="ara"
@@ -58,7 +61,7 @@ this.style.backgroundColor='#efefef';
 this.parentNode.className='odaklan'};"
 onblur="if(this.value==''){this.value='Ara';
 this.style.backgroundColor='#ffffff';
-this.parentNode.className='normal'};" /> </p> [/sourcecode]
+this.parentNode.className='normal'};" /> </p> 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -71,18 +74,20 @@ Bu işlemleri aslında biz CSS ilede yapabiliriz. :focus özelliği bu
 işlevi görür, ancak bu özellikleri IE desteklemediği için bu özelliği
 kullanamıyoruz.
 
-[sourcecode language="css"] input:focus { background-color: #FFFFE0;
-color: white; } [/sourcecode]
+	:::css
+	 input:focus { background-color: #FFFFE0;
+color: white; } 
 
 Bu kodu IE'nin desteklemesi için bir javascript kodu eklememiz
 gerekiyor.
 
-[sourcecode language="javascript"] sfFocus = function() { var sfEls =
+	:::javascript
+	 sfFocus = function() { var sfEls =
 document.getElementsByTagName("INPUT"); for (var i=0; i<sfEls.length;
 i++) { sfEls[i].onfocus=function() { this.className+=" sffocus"; }
 sfEls[i].onblur=function() { this.className=this.className.replace(new
 RegExp(" sffocusb"), ""); } } } if (window.attachEvent)
-window.attachEvent("onload", sfFocus); [/sourcecode]
+window.attachEvent("onload", sfFocus); 
 
 Örneği görmek için [tıklayınız.][1]
 

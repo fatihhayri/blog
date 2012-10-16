@@ -30,7 +30,8 @@ odaklanma çizgileri sorun çıkarıyor. Bir örnek yapalım.
 En son projelerimden bonus.com.tr'de böyle bir sorun ile karşılaştığımda
 buna bir çözüm aradım. İlk kodum şöyle idi.
 
-[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
@@ -46,7 +47,7 @@ margin:5px 0 0 4px; border:none; background-color:#F6FFD4 } </style>
 </head> <body> <div class="aramaMetinKutusu"> <input type="text"
 name="arama" onfocus="this.parentNode.className='aramaMetinKutusuOdak'"
 onblur="this.parentNode.className='aramaMetinKutusu'" /> </div>
-</body> </html> [/sourcecode]
+</body> </html> 
 
 Bu kodlarım Firefox ve IE'de sorunsuz çalıştı. Daha sonra sayfayı Google
 Chrome'da test ettiğimde aşağıdaki gibi bir sorun ile karşılaştım.
@@ -56,7 +57,8 @@ Chrome'da test ettiğimde aşağıdaki gibi bir sorun ile karşılaştım.
 Sorunun çözümünü araştırdığımda dış kenar çizgisini sıfırlamam
 gerektiğini gördüm.  
 
-[sourcecode language="css"] input{ outline:0 } [/sourcecode]
+	:::css
+	 input{ outline:0 } 
 
 tanımı bizi çözüme ulaştırdı.
 

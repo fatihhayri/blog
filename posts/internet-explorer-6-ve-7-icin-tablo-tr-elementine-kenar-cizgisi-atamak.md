@@ -7,8 +7,9 @@ Yine bir İnternet Explorer sorunu ile karşı karşıyayız. Bu seferki
 sorunum ile bir tablo satırına alt kenar çizgisi tanım yapınca
 karşılaştım. 
 
-[sourcecode language="css"] table{border-collapse:collapse} table
-tr{border-bottom:1px solid #000;} [/sourcecode]
+	:::css
+	 table{border-collapse:collapse} table
+tr{border-bottom:1px solid #000;} 
 
 Gayet basit normal bir tanım. Ancak ie6 ve 7 için durum öyle değil.
 Karmaşık gelmiş olmalı ki bu atamayı uygulamadı.
@@ -19,8 +20,9 @@ Peki İnternet Explorer 6 ve 7 için nasıl bir çözüm üretmeliyiz. Satıra
 değilde satırı oluşturan hücrelere kenar çizgisi verirsek sorunumuz
 ortadan kalkıyor.
 
-[sourcecode language="css"] table{border-collapse:collapse} table
-td{border-bottom:1px solid #000;} [/sourcecode]
+	:::css
+	 table{border-collapse:collapse} table
+td{border-bottom:1px solid #000;} 
 
 Örneği görmek için [tıklayınız.][]
 

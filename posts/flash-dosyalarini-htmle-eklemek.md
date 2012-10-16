@@ -80,17 +80,18 @@ href="http://www.adobe.com/go/getflashplayer"><img
 src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
 alt="Get Adobe Flash player" /></a></p> </div> <!--[if
 !IE]>--> </object> <!--<![endif]--> </object> </div>
-</body> </html> [/sourcecode]
+</body> </html> 
 
 Kodu iki kısıma ayıralım. İlk head içerisindeki javascript kısmı ve body
 içerisindeki html kısmı
 
 **head içerisindeki javascript kısmı**
 
-[sourcecode language="html"] <script type="text/javascript"
+	:::html
+	 <script type="text/javascript"
 src="swfobject.js"></script> <script type="text/javascript">
 swfobject.registerObject("myId", "9.0.0", "expressInstall.swf");
-</script> [/sourcecode]
+</script> 
 
 registerObject fonksiyonuna html içindeki elemanın id'sini(myId), flash
 sürümünü ve flash olmayanlar için yüklemeye yönlendiren dosyanın
@@ -127,12 +128,13 @@ Bu kodumuzda head içindeki ve body içindeki kısımları ile ikiye ayrılır.
 
 **body içerisindeki kısmı**
 
-[sourcecode language="html"] <div id="myContent"> <h1>Alternatif
+	:::html
+	 <div id="myContent"> <h1>Alternatif
 içerik</h1> <p>Kullanıcının bilgisayarında flash yüklü değilse
 burayı gösterecek <a
 href="http://www.adobe.com/go/getflashplayer"><img
 src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
-alt="Get Adobe Flash player" /></a></p> </div> [/sourcecode]
+alt="Get Adobe Flash player" /></a></p> </div> 
 
 Dinamik kodlama ile flash(swf) dosyalarının eklenme mantığı şöyledir;
 bir eleman oluşturulur ve bu elemana dinamik olarak özellikleri atanır
@@ -142,10 +144,11 @@ yazdığımız içeriği kullanıcı görüyor, flash var ise de flash görünü
 
 **head içindeki kısımları**
 
-[sourcecode language="html"] <script type="text/javascript"
+	:::html
+	 <script type="text/javascript"
 src="swfobject.js"></script> <script type="text/javascript">
 swfobject.embedSWF("test.swf", "myContent", "300", "120", "9.0.0",
-"expressInstall.swf"); </script> [/sourcecode]
+"expressInstall.swf"); </script> 
 
 swfobject.js dosyasını ekliyoruz. Sonrada html içerisine ekleyeceğimiz
 swf dosyasının bilgilerini giriyoruz. Sırası ile incelersek
@@ -163,21 +166,23 @@ Dinamik yöntemin avantajlarını sayarken kolay kullanımı olduğunu
 söylemiştik. Mesela yeni parametre eklerken kodumuzu söyle değiştirmemiz
 yeterli olacaktır
 
-[sourcecode language="javascript"] var flashvars = {}; flashvars.xmlPath
+	:::javascript
+	 var flashvars = {}; flashvars.xmlPath
 = "xml/data.xml"; var params = {}; params.menu = "false"; params.wmode =
 "opaque"; var attributes = {}; attributes.id = "myDynamicContent";
 attributes.name = "myDynamicContent"; swfobject.embedSWF("test.swf",
 "myAlternativeContent", "300", "120", "9.0.0", false, flashvars, params,
-attributes); [/sourcecode]
+attributes); 
 
 İlk başta değişkenleri tanımlayıp sonra embed kodu içine ekliyoruz. Bir
 başka şekli ile
 
-[sourcecode language="javascript"] <script type="text/javascript">
+	:::javascript
+	 <script type="text/javascript">
 swfobject.embedSWF("test.swf", "myContent", "300", "120",
 "9.0.0","expressInstall.swf", {xmlPath:"xml/data.xml"}, {menu:"false",
 wmode:"opaque"}, {id:"myDynamicContent",name:"myDynamicContent"});
-</script> [/sourcecode]
+</script> 
 
 şeklinde de yazabiliyoruz. Parametre olarak ben genelde ya flashvars ile
 xml yolunu yazıyorum, yada wmode özelliğini yazıyorum. Diğerlerini pek

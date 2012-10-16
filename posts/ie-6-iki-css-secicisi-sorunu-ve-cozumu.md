@@ -20,12 +20,13 @@ gerektiğinde aynı elemana .bolumA, .bolumB, vd. gibi sınıflar atadım.
 Bir bölümü olmayan sayfalarda ana resmimi görünecek bölümü olan
 sayfalarda ise ilgili resim görünecekti. 
 
-[sourcecode language="css"] #tanitimAlani{ background:transparent
+	:::css
+	 #tanitimAlani{ background:transparent
 url(../images/genel.jpg) no-repeat scroll center top; text-align:center;
 width:100%; } #tanitimAlani.bolumA { background:transparent
 url(../images/bolumA.jpg) no-repeat scroll center top; }
 #tanitimAlani.bolumB { background:transparent url(../images/bolumB.jpg)
-no-repeat scroll center top; } [/sourcecode]
+no-repeat scroll center top; } 
 
 Tanımı ile yapıyordum. Bu düşüncem tüm tarayıcılarda sorunsuz çalışırken
 ie6 sorun çıkardı. İlk atanan genel resmini gösterdi sadece, bölüm
@@ -37,12 +38,13 @@ id ile atadığım genel ardalan resmi tanımı kaldırıp genel içinde bir
 sınıf(.bolumGenel) tanımladım ve bu sorunu aştım. Yani kodumu şöyle
 değiştirdim.
 
-[sourcecode language="css"] #tanitimalani{ text-align:center;
+	:::css
+	 #tanitimalani{ text-align:center;
 width:100%; } .bolumA { background:transparent url(../images/bolumA.jpg)
 no-repeat scroll center top; } .bolumB { background:transparent
 url(../images/bolumB.jpg) no-repeat scroll center top; } .bolumGenel {
 background:transparent url(../images/genel.jpg) no-repeat scroll center
-top; } [/sourcecode]
+top; } 
 
 hribar.info'nun yaptığı örnek güzel inceleyin.
 

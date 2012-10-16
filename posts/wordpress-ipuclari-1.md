@@ -6,7 +6,8 @@ Tags: daha-fazla-linki, WordPress
 Yazdığınız kodların anasayfada özeti görünsün daha sonrası tıklayınca
 çıksın istiyorsanız, kod için yazının kesileceği yere
 
-[sourcecode language="html"]<!- -more- -> [/sourcecode]
+	:::html
+	<!- -more- -> 
 
 yazmanız yeterli. Tireler arasında boşluk yok. Wordpress'in kod
 yazmadaki sorunu nedenli ile böyle yazdım.

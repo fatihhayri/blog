@@ -13,7 +13,8 @@ eklenir. Firefox 2 ve alt sürümlerinde pading-right değeri uygulandığı
 satıriçi elemanın tümüne uygulanacaktır. Bu problem Padding-left'de
 yoktur.
 
-[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <style> div#kapsul {
@@ -21,7 +22,7 @@ width: 260px; border: 1px dotted #999; margin: 40px } span#metin {
 background: red; padding: 0 3em 0 0;} </style> </head> <body>
 <div id="kapsul"> <span id="metin">This is a longer line with some
 more text to see how the line will wrap in container</span> </div>
-</body> </html> [/sourcecode]
+</body> </html> 
 
 Örnek sayfayı görmak için [tıklayınız][].
 

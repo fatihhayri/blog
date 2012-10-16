@@ -21,7 +21,7 @@ min-width, min-height kapsayıcı kutunun minimum alacağı değerleri
 belirtmek için kullanırız.
 
 [sourcecode language='css'] p.menu { float:left; width:200px;
-min-width:150px; } [/sourcecode]
+min-width:150px; } 
 
 <div class="tarayiciuyum">
 **Web Tarayıcı Uyumu:**
@@ -53,7 +53,7 @@ max-width, max-height kapsayıcı kutunun maksimum alacağı değerleri
 belirtmek için kullanırız.
 
 [sourcecode language='css'] p.menu { float:left; width:200px;
-max-width:400px; }[/sourcecode]
+max-width:400px; }
 
 <div class="tarayiciuyum">
 **Web Tarayıcı Uyumu:**
@@ -85,7 +85,7 @@ document.body.clientWidth > 1200? "1200px" : "auto"); }
 ....
 
 </div>
-[/sourcecode]
+
 
 Yukarıdaki tanımlamda css içerisinde javascript komutları
 kullanılmıştır. Bu tanımlamaları sadece IE anlayacaktır ve
@@ -95,7 +95,7 @@ atanan değeri alacak değilse auto değeri alacaktır.
 Ayrıca min-height için daha kısa bir çözüm vardır
 
 [sourcecode language='css'] #menu { min-height:500px; height:auto
-!important; height:500px; } [/sourcecode]
+!important; height:500px; } 
 
 </p>
 

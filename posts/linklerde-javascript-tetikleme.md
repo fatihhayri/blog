@@ -7,9 +7,10 @@ Javascript kodlarını tetiklemenin bir yöntemi de link ile çağırmaktır.
 Web tarayıcıları **javascript:** kodunu gördüğünde bu kodu bir
 javascript kodu olarak yorumlayacaklardır.
 
-[sourcecode language="html"] <a
+	:::html
+	 <a
 href="javascript:window.alert('JavaScript denemesi'):">Dene bakalım
-</a> [/sourcecode]
+</a> 
 
 </p>
 

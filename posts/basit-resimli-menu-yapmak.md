@@ -27,12 +27,13 @@ metotta ise tek resim yüklenecek ve bu bize performans kazandıracaktır.
 
 Çok basit bir xhtml kodu var. Birçok menü örneğinde olduğu gibi ul kodu;
 
-[sourcecode language="html"] <ul class="menu"> <li
+	:::html
+	 <ul class="menu"> <li
 id="mAnasayfa"><a href="#">Ana Sayfa</a></li> <li
 id="mUrunler"><a href="#">Ürünler</a></li> <li
 id="mHizmetler"><a href="#">Hizmetler</a></li> <li
 id="mBizeUlasin"><a href="#">Bize Ulaşın</a></li> </ul>
-[/sourcecode]
+
 
 Menümüzün resimlerini tek bir resim dosyası olarak hazırlayacağız. Biz
 burada normal ve fare imleci üzerine geldiğindeki halini(:hover) koyduk
@@ -44,37 +45,42 @@ ama bunlara seçili ve tıklama durumlarınıda eklenebilir.
 
 ul için genel sıfırlama kodlarımızı yazalım
 
-[sourcecode language="css"] ul.menu{ margin:0; padding:0;
-list-style:none; width:480px; height:40px; } [/sourcecode]
+	:::css
+	 ul.menu{ margin:0; padding:0;
+list-style:none; width:480px; height:40px; } 
 
 Sırasız listelerin her nesnesini(li) yan yana dizmek için float:left
 tanımını yapmalıyız.
 
-[sourcecode language="css"] ul.menu li{ float:left; } [/sourcecode]
+	:::css
+	 ul.menu li{ float:left; } 
 
 Linkler için genel tanımlarımızı yapalım
 
-[sourcecode language="css"] ul li a{ display:block; width:120px;
+	:::css
+	 ul li a{ display:block; width:120px;
 height:40px; text-indent:-9999px; outline:none; text-decoration:none;
 background:url(images/basit_resimli_menu.jpg) 0 0 no-repeat; }
-[/sourcecode]
+
 
 Her bir menü nesnesinin yukarıdaki resimdeki konumunu belirlemeye geldi
 sıra.
 
-[sourcecode language="css"] li#mAnasayfa a{background-position:0 0;}
+	:::css
+	 li#mAnasayfa a{background-position:0 0;}
 li#mUrunler a{background-position:-120px 0;} li#mHizmetler
 a{background-position:-240px 0;} li#mBizeUlasin
-a{background-position:-360px 0;} [/sourcecode]
+a{background-position:-360px 0;} 
 
 Basit bir şekilde resimli bir menü oluşturduk. Tabi buna birde fare
 üzerine geldiğindeki durumu ekleyerek daha belirgin bir hale
 getirebiliriz.
 
-[sourcecode language="css"] li#mAnasayfa a:hover{background-position:0
+	:::css
+	 li#mAnasayfa a:hover{background-position:0
 -40px;} li#mUrunler a:hover{background-position:-120px -40px;}
 li#mHizmetler a:hover{background-position:-240px -40px;}
-li#mBizeUlasin a:hover{background-position:-360px -40px;} [/sourcecode]
+li#mBizeUlasin a:hover{background-position:-360px -40px;} 
 
 Örneği görmek için [tıklayınız][]
 

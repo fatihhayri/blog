@@ -27,7 +27,8 @@ kendi asıl genişliğidir. (Örneğin bir resmin genişliği gibi) Yüzde
 değeri [ebveyn elementi][] kıstas alarak uygulanır. Negatif değeri
 almaz.
 
-[sourcecode language="css"] p { width: 200px; } [/sourcecode]
+	:::css
+	 p { width: 200px; } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's
@@ -47,7 +48,8 @@ değeri alır. Elementlerin başlangıçtaki yükseklik değeri **auto** yani
 kendi asıl yüksekliğidir. (Örneğin bir resmin yüksekliği gibi) Negatif
 değeri almaz.
 
-[sourcecode language="css"] h2 { height: 0.25in; } [/sourcecode]
+	:::css
+	 h2 { height: 0.25in; } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer 4+ Netscape 6+ Opera 3.6+ W3C's
@@ -69,8 +71,9 @@ akar. Bu HTML3,2 deki resime(**img**) uygulanan **align="left"** ve
 **table** için bu özelliği kullanmamıza izin veriyordu. **float**
 özelliği sonraki derslerde daha ayrıntılı gösterilecektir. **float**
 özelliği CSS ile tablosuz web sitesi oluşturma metodunun en önemli
-öğelerinden biridir. [sourcecode language="css"] p img { float: left;
-margin: 25px; } [/sourcecode]
+öğelerinden biridir. 	:::css
+	 p img { float: left;
+margin: 25px; } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's
@@ -93,7 +96,8 @@ sonraki derslerde daha ayrıntılı gösterilecektir. **clear** özelliği CSS
 ile tablosuz web sitesi oluşturma metodunun en önemli öğelerinden
 biridir.
 
-[sourcecode language="css"] h3 { clear: left; } [/sourcecode]
+	:::css
+	 h3 { clear: left; } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer 3+ Netscape 4+ Opera 4+ W3C's CSS

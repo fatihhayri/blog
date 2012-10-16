@@ -10,6 +10,8 @@ XHTML elementi olarak kullandığımız seçicileri küçük harfle yazarak bu
 sorunu bertaraf etmiş oluruz. HTML ve XHTML'in her ikisinde de
 özellikler(attributes) küçük büyük harfe duyarlıdır. Eğer farklı harf
 büyüklükleri kullanıyorsanız buna çok fazla dikkat etmelisiniz.
-[sourcecode language="css"] .DenemeYazisi{ font:12px Arial, Verdan,
-serif } [/sourcecode] [sourcecode language="html"] <p
-class="DenemeYazisi">Dikkatli ol!</p> [/sourcecode]
+	:::css
+	 .DenemeYazisi{ font:12px Arial, Verdan,
+serif }  	:::html
+	 <p
+class="DenemeYazisi">Dikkatli ol!</p> 

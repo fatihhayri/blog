@@ -20,7 +20,7 @@ bir özelliktir.
 değeri >][] | [<yüzde>][<uzunluk değeri >] **Başlnagıç değeri:** 0
 **Uygulanabilen elementler:** Blok-level elementler **Kalıtsallık:** Var
 
-[sourcecode language='css'] p { text-indent: 10px; } [/sourcecode]
+[sourcecode language='css'] p { text-indent: 10px; } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:** Internet Explorer 3+ Netscape 4+ Opera 3.6+ W3C's CSS
@@ -37,7 +37,7 @@ değeri >][] | [<yüzde>][<uzunluk değeri >] | inherit **Başlnagıç
 değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **Kalıtsallık:** Yok
 
-[sourcecode language='css'] p { text-align: justify; } [/sourcecode]
+[sourcecode language='css'] p { text-align: justify; } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:** Internet Explorer 3+ Netscape 4+ Opera 3.6+ W3C's CSS
@@ -63,7 +63,7 @@ text-top | middle | bottom | text-bottom **Başlnagıç değeri:** baseline
 **Uygulanabilen elementler:** inline elementler **Kalıtsallık:** Yok
 
 [sourcecode language='css'] img { vertical-align: baseline; }
-[/sourcecode]
+
 
 <div class="tarayiciuyum">
 **Browser Uyumu:** Internet Explorer 4+ Netscape 6+ Opera 3.6+ W3C's CSS
@@ -80,7 +80,7 @@ Satırlar arasındaki yüksekliği belirler. **normal**, **pixel** veya
 [<yüzde>][<uzunluk değeri >] **Başlnagıç değeri:** normal
 **Uygulanabilen elementler:** tüm elementler **Kalıtsallık:** Var
 
-[sourcecode language='css'] div{ line-height:30px } [/sourcecode]
+[sourcecode language='css'] div{ line-height:30px } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:** Internet Explorer 3+ Netscape 4+ Opera 3.6+ W3C's CSS
@@ -95,7 +95,7 @@ Kelimeler arasındaki boşluk değerini belirler. Eksi değer alabilir.
 [<uzunluk değeri >][] **Başlnagıç değeri:** normal **Uygulanabilen
 elementler:** tüm elementler **Kalıtsallık:** Var
 
-[sourcecode language='css'] p { word-spacing: 10px; } [/sourcecode]
+[sourcecode language='css'] p { word-spacing: 10px; } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:** Internet Explorer 4.5+(Mac); 6 (Windows) Netscape 6+
@@ -110,7 +110,7 @@ Harfler arasındaki boşluk değerini belirler. Eksi değer alabilir.
 [<uzunluk değeri >][] **Başlnagıç değeri:** normal **Uygulanabilen
 elementler:** tüm elementler **Kalıtsallık:** Var
 
-[sourcecode language='css'] p { letter-spacing: 5px; } [/sourcecode]
+[sourcecode language='css'] p { letter-spacing: 5px; } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's CSS
@@ -130,7 +130,7 @@ capitalize | uppercase | lowercase **Başlnagıç değeri:** none
 **Uygulanabilen elementler:** tüm elementler **Kalıtsallık:** Var
 
 [sourcecode language='css'] p { text-transform: capitalize; }
-[/sourcecode]
+
 
 <div class="tarayiciuyum">
 **Browser Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's CSS
@@ -147,7 +147,7 @@ underline || overline || line-through || blink ] **Başlnagıç değeri:**
 none **Uygulanabilen elementler:** tüm elementler **Kalıtsallık:** Yok
 
 [sourcecode language='css'] a:link, a:visited, a:active {
-text-decoration: none } [/sourcecode]
+text-decoration: none } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:** Internet Explorer 3+ Netscape 4+ Opera 3.6+ W3C's CSS

@@ -11,7 +11,8 @@ yeniden düzenlenmiştir.
 [Bir önceki makalede][] dikey açılır menüleri gördük. Bu makalede yatay
 açılır menülere bir örnek vereceğiz. Html kodumuz aynı olsun <!--more-->
 
-[sourcecode language="html"] <ul id="menu" > <li><a
+	:::html
+	 <ul id="menu" > <li><a
 href="#">Anasayfa</a></li> <li><a href="#">Haberler</a>
 <ul> <li><a href="#">şžirket Haberleri </a></li> <li><a
 href="#">Yurt içi Haberleri </a></li> <li><a href="#">Yurt
@@ -20,15 +21,16 @@ href="#">Ürünler</a> <ul> <li><a
 href="#">Tencere</a></li> <li><a href="#">Tava</a></li>
 <li><a href="#">Ütü</a></li> <li><a href="#">Tost Makinesi
 </a></li> <li><a href="#">El Süpürgesi </a></li> </ul>
-</li> </ul> [/sourcecode]
+</li> </ul> 
 
 ![][]
 
 İlk olarak satır başı boşluklarını ve imgeleri kaldıralım. Dikey menüde
 olduğu gibi.
 
-[sourcecode language="css"] ul#menu, ul#menu ul { list-style: none;
-margin: 0; padding: 0; } [/sourcecode]
+	:::css
+	 ul#menu, ul#menu ul { list-style: none;
+margin: 0; padding: 0; } 
 
 Daha sonra menümüzü yatay hale getirmek için **float**özelliğini
 kullanalım. Normalde bunun için **display:inline** kodunu da
@@ -47,60 +49,68 @@ olacaktır ve bu kullanım ile çok güzel sonuçlar elde edeceğiz.
 [CSS ile konumlandırma(positioning)][]
 
 </div>
-[sourcecode language="css"] ul#menu li { float: left; position:
-relative; width: 150px; } [/sourcecode]
+	:::css
+	 ul#menu li { float: left; position:
+relative; width: 150px; } 
 
 Sonra ikincil linkleri sayfaya ilk açıldığında görünmez(display:none)
 yapalım. Birincil linklere göre konumlandırmak için postion:absolute
 özelliği ve top:19px (satır yüksekliği 15px + 2px alttan(sonra
 ekleyeceğiz) + 2px üstten(sonra ekleyeceğiz)) özelliğini kullanalım.
 
-[sourcecode language="css"] ul#menu li ul { display: none; position:
+	:::css
+	 ul#menu li ul { display: none; position:
 absolute; top: 19px; /* yukseklik 15px + sonradan eklenecek paddingler
-4px toplam 19px */ left: 0; } [/sourcecode]
+4px toplam 19px */ left: 0; } 
 
 Yalnız burada IE sorun çıkaracaktır. IE ve Opera ikincil menüleri
 konumlandırmasında sorun çıkarır, bunu engellemek için:
 
-[sourcecode language="css"] ul#menu li > ul { top: auto; left: auto; }
-[/sourcecode]
+	:::css
+	 ul#menu li > ul { top: auto; left: auto; }
+
 
 ![][1]
 
 Görünümü biraz güzelleştirelim:
 
-[sourcecode language="css"] ul#menu li a { font: bold 11px arial,
+	:::css
+	 ul#menu li a { font: bold 11px arial,
 helvetica, sans-serif; display: block; border-width: 1px; border-style:
 solid; border-color: #ccc #888 #555 #bbb; margin: 0; padding: 2px
 3px; color: #000; background: #efefef; text-decoration: none; }
-[/sourcecode]
+
 
 ve rollover hali için:
 
-[sourcecode language="css"] ul#menu li a:hover { color: #a00;
-background: #fff; } [/sourcecode]
+	:::css
+	 ul#menu li a:hover { color: #a00;
+background: #fff; } 
 
 Sonra birincil linklerin üzerine gelince ikincil linklerin görünmesi
 için:
 
-[sourcecode language="css"] ul#menu li:hover ul { display: block; }
-[/sourcecode]
+	:::css
+	 ul#menu li:hover ul { display: block; }
+
 
 [Önceki makalede][Bir önceki makalede] belirttiğimiz gibi bu kod IE'de
 çalışmayacaktır. IE'de çalışması için aşağıdaki kodları yazmalıyız.
 
-[sourcecode language="javascript"] startList = function() { if
+	:::javascript
+	 startList = function() { if
 (document.all&&document.getElementById) { navRoot =
 document.getElementById("menu"); for (i=0; i<navRoot.childNodes.length;
 i++) { node = navRoot.childNodes[i]; if (node.nodeName=="LI") {
 node.onmouseover=function() { this.className+=" over"; }
 node.onmouseout=function() { this.className=this.className.replace("
-over", ""); } } } } } window.onload=startList; [/sourcecode]
+over", ""); } } } } } window.onload=startList; 
 
 Ayrıca aşağıdaki kodu da eklemeliyiz.
 
-[sourcecode language="css"] ul#menu li:hover ul, ul#menu li.over ul{
-display: block; } [/sourcecode]
+	:::css
+	 ul#menu li:hover ul, ul#menu li.over ul{
+display: block; } 
 
 Önemli bir not olarak koddaki <span class="alternatifard">*<ul
 id="**menu**" >*</span> ve javascriptteki

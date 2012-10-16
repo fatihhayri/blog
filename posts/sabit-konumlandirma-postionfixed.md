@@ -36,7 +36,8 @@ aramaya sevk ediyor. Buda bize bir makale yazma gereksinimi doğuruyor.
 İlk metodumuz normal konumlandırma özelliğinin fixed uygulanmış
 şeklidir.
 
-[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <style
@@ -56,7 +57,7 @@ scelerisque enim. Pellentesque orci. Maecenas at neque. Sed non diam ac
 turpis pretium dictum. Phasellus ligula felis, aliquet nec, tristique
 non, posuere a, magna. Duis eu quam quis tortor vehicula sodales. Donec
 et mi eget augue bibendum interdum. Proin dapibus odio.</p> </body>
-</html> [/sourcecode]
+</html> 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -72,7 +73,8 @@ metodda bu komut yardımı ile **position:fixed** sorununu çözeceğiz.
 **expression()** yardımı ile daha önce IE'nin [min-width ve min-height
 sorununu][] çözdüğümüzü hatırlayın.
 
-[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
 http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -85,7 +87,7 @@ url(’http://’) fixed; } div#ustAlan { position: absolute; top:
 expression(eval(documentElement.scrollTop)); } </style> <![endif]–>
 </head> <body> <div id="ustAlan">Sabit Konumlandırma</div> <div
 id="icerik"> <p>Lorem ipsum dolor sit amet ….</p> </div>
-</body> </html> [/sourcecode]
+</body> </html> 
 
 ![Sabit Konumlandırma][]
 
@@ -101,16 +103,18 @@ yardımı ile belirlenip sabitlenmiştir.
 
 Ayrıca alt alanı sabitlemek için
 
-[sourcecode language="css"] bottom: auto; top:
+	:::css
+	 bottom: auto; top:
 expression((documentElement.scrollTop + documentElement.clientHeight –
-this.clientHeight)); [/sourcecode]
+this.clientHeight)); 
 
 Kodlaması kullanılır. Örneği görmek için [tıklayınız.][2]
 
 Sabitlemek istediğimiz nesneyi üstten 10piksel aşağıda sabitlemek için
 
-[sourcecode language="css"] top:
-expression(eval(documentElement.scrollTop) + 10); [/sourcecode]
+	:::css
+	 top:
+expression(eval(documentElement.scrollTop) + 10); 
 
 şeklinde kodlarız. Bu kodlama tekniği kullanılarak birçok farklı şablon
 elde edilebilir.

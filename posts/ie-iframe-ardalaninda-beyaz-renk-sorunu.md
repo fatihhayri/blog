@@ -9,5 +9,5 @@ olan sitelerde sorun değil ama ardalanında resim veya farklı renk olan
 sitelerde sorun çıkarıyor. Bu durumu engellemek için <iframe> koduna
 çok basit bir özellik eklemesi yeterli oluyor. [sourcecode
 language="html"] <iframe allowtransparency="true"></iframe>
-[/sourcecode] Örnek:
+ Örnek:
 http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/allowTransparency.htm

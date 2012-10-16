@@ -11,7 +11,7 @@ eklenir. Genel kullanımı:
 
 [sourcecode language='html']
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-[/sourcecode] <!--more-->
+ <!--more-->
 
 Burada dökümanımızın XHTML 1.0 verisyonu dikkate alınarak yazıldığı ve
 kullanılan bu kuralların linki verilmiştir. Linkin kullanılmadığı
@@ -82,21 +82,21 @@ kullanmanız çok önelidir.
 
 [sourcecode language='html']
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-[/sourcecode]
+
 
 Bu kullanım sayfanın **HTML 4.01** kurallarının geçerli olduğu bir HTML
 dosyası olduğunu gösterir.
 
 [sourcecode language='html']
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-[/sourcecode]
+
 
 Bu kullanım sayfanın **hem HTML hemde XHTML** kurallarının geçerli
 olduğunu bir XHTML dosyası olduğunu gösterir.
 
 [sourcecode language='html']
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-[/sourcecode]
+
 
 Bu kullanım sayfanın **sadece XHTML1.0**kurallarının geçerli olduğu bir
 XHTML sayfası olduğunu gösterir. Bu kodlama yapıldığıında tüm XHTML
@@ -105,7 +105,7 @@ yazılması gibi.
 
 [sourcecode language='html']
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
-[/sourcecode]
+
 
 Bu kullanım sayfanın bir **XHTML çerçeve(frame)**sayfası olduğunu
 gösterir. Kullanımı azaldı.

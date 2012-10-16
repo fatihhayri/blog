@@ -6,8 +6,9 @@ Tags: border-collapse, border-spacing, CSS, tablo
 Artık sayfalarımızı CSS ile oluşturup şekillendiriyoruz. Tabloların
 Cellspacing="0" atamasını css ile nasıl yaparız. İşte cevabı:
 
-[sourcecode language="css"] table{ border-spacing: 0px; border-collapse:
-collapse; } [/sourcecode] bu kadar.
+	:::css
+	 table{ border-spacing: 0px; border-collapse:
+collapse; }  bu kadar.
 
 ### Kaynak
 

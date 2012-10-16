@@ -25,8 +25,9 @@ istenmeyen tanımlar Çocuk Seçicileri kullanarak gizlenebilir.
 Her tanımlamadan sonra ikinci bir tanımlama olarak kullanılır. İkinci
 tanımlama çocuk seçicisi olmalıdır.
 
-[sourcecode language="css"] .icerik h3 {height:21px;} .icerik > h3
-{height:auto; min-height:21px;} [/sourcecode]
+	:::css
+	 .icerik h3 {height:21px;} .icerik > h3
+{height:auto; min-height:21px;} 
 
 [IE 7 Çocuk Seçicilerini desteklemektedir.][] Bu metot uygulanırken bu
 dikkate alınmalıdır.
@@ -45,23 +46,25 @@ kullanılır.
 yapabiliriz. Bu bize bir çok avantaj sağlar. Bu avantajları hata
 ayıklamak içinde kullanabiliriz.
 
-[sourcecode language="html"] <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML
+	:::html
+	 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML
 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <title>Test</title>
 <style type="text/css"> p{background: red; /* Tüm web tarayıcılarında
 görünür */} body[class|="sayfaYapisi"] p{ background: green; /* IE 7
 ve Yeni web tarayıcılarında görünür Opera hariç */} </style>
 </head> <body class="sayfaYapisi"> <p>Test</p> </body>
-</html> [/sourcecode]
+</html> 
 
 ### Genel Seçicileri (*) Kullanarak Hata Ayıklamak
 
 Her ne kadar bu hata IE7 ile birlikte düzeltildiyse de çok kullanışlı
 bir hata ayıklama metodudur. Kullanımı çok basittir.
 
-[sourcecode language="css"] a:hover {border: 1px dotted black;} * html
+	:::css
+	 a:hover {border: 1px dotted black;} * html
 a:hover { // bu tanımlamayı ie6+ ve altı versiyonlarda görünmeyecektir.
-border-style: solid; } [/sourcecode]
+border-style: solid; } 
 
 ### Ters Bölü İşareti() İle Hata Ayıklama
 
@@ -71,8 +74,9 @@ kodu yazarken en çok ihtiyacımız olan genişlik tanımının IE5x
 versiyonlarda yanlış algılanmasıdır. bu hatayı düzeltmek için bu yöntem
 kullanılabilir.
 
-[sourcecode language="css"] #icerik { width: 770px; width: 750px; /*
-ie5x - win bu kodu görmeyecek */ } [/sourcecode]
+	:::css
+	 #icerik { width: 770px; width: 750px; /*
+ie5x - win bu kodu görmeyecek */ } 
 
 Ben şahsen kutu modelinde hata ayıklamak için [tantek][]'in kullandığı
 [metodu][] kullanıyorum, daha sağlıklı ve tüm web tarayıcıları göze
@@ -83,8 +87,9 @@ yönteminde kullanıldığını bilelim.
 
 Bu yöntemde IE4-6 versiyonlarda hata düzeltmek için kullanılabilir.
 
-[sourcecode language="css"] #menu { position: fixed; _position:
-static; } [/sourcecode]
+	:::css
+	 #menu { position: fixed; _position:
+static; } 
 
 Burada yeni nesil web tarayıcıları ikinci tanımlamayı görecek ve buna
 göre yorumlama yapacaktır. Ancak IE4-6/win versiyonları (_)
@@ -97,17 +102,19 @@ edecektir.
 bir çok hatanın IE'den kaynaklanmasıdır tabi. şžimdi kullanacağımız
 metod ise Opera için bir hata ayıklamasıdır.
 
-[sourcecode language="css"] .solAlan { background-image: none } /*
+	:::css
+	 .solAlan { background-image: none } /*
 Asagidaki bolum Opera 6 ve altı veya IE6/win görünmeyecek */
 head:first-child+body .solAlan { background-image: url(menu.png);
-background-attachment: fixed; } [/sourcecode]
+background-attachment: fixed; } 
 
 Bu yöntem hem Opera 6 ve altı hem de IE6 ve altı versiyonlar için
 geçerlidir. Sadece Opera 6 ve altı versiyonlar için kod yazmak istersek
 
-[sourcecode language="css"] html>body div.alt { color: red; /*
+	:::css
+	 html>body div.alt { color: red; /*
 sadece Opera 6 için */ } head:first-child+body div.alt { color: black;
-} [/sourcecode]
+} 
 
 ### Yorum Kodları içinde () Kullanımı ile IE/Mac'de Hata Ayıklama
 
@@ -115,8 +122,9 @@ IE/Mac versiyonlarında yorum satırı içindeki ters bölme işaretini()
 yorumlamamaktadır. Bu nedenle IE/Mac versiyonlarında hata ayıklamak için
 bu yöntem kullanılabilir.
 
-[sourcecode language="css"] /* bu alani IE5/Mac den gizleyelim */ *
-html { height: 1px; } /* hata ayiklama sonu */ [/sourcecode]
+	:::css
+	 /* bu alani IE5/Mac den gizleyelim */ *
+html { height: 1px; } /* hata ayiklama sonu */ 
 
 Bunların dışında kutu modeli hata ayıklaması için kullandığımız
 [tantek][1]'in yöntemi, [Css de kodumuzu İE'den gizleme][] adlı makalede

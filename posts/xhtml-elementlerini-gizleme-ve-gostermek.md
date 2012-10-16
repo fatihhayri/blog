@@ -3,16 +3,18 @@ Date: 2006-09-07 19:11
 Category: Javascript
 Tags: eleman gizle, fonksiyon, göster-gizle, Javascript
 
-[sourcecode language="javascript"] function gostergizle(elementid){
+	:::javascript
+	 function gostergizle(elementid){
 document.getElementById(elementid).style.display=
 (document.getElementById(elementid).style.display!="block")? "block" :
-"none" } [/sourcecode]
+"none" } 
 
 kod kısmında da
 
-[sourcecode language="html"] <a
+	:::html
+	 <a
 href="javascript:gostergizle('haber')">haber</a> <div
-id="haber">haberler .......</div> [/sourcecode]
+id="haber">haberler .......</div> 
 
 Bu hem elementlerimizi göstermeye hemde gizlemeye yarayan bir fonksiyon.
 Basit ve kullanışlı bir fonksiyon

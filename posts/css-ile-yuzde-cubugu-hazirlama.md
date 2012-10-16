@@ -19,13 +19,13 @@ halledeceğiz. Anlamlı kodlama açısından avantajlıdır.
 Sayfamıza saydam bir resim ekleriz ve ardalan konumunu kod içinde
 belirleriz
 
-[sourcecode language="xhtml"]![%45][] [/sourcecode]
+[sourcecode language="xhtml"]![%45][] 
 
 Sonrasında CSS kodumuzu yazarsak;
 
 [sourcecode language='css']img.yuzdeCubugu { background:
 url(/images/yuzdeCubugu_ard.gif) top left no-repeat; padding: 0;
-margin: 0; } [/sourcecode]
+margin: 0; } 
 
 Kod kısmı bu kadar. Evet bu kadar kod ile yüzde çubuğunu oluşturduk.
 Kodun mantığını incelersek;
@@ -65,7 +65,7 @@ Obama (%56)
 
 McCain (%44)
 
-![%44][%56] [/sourcecode]
+![%44][%56] 
 
 Yüzde çubuğunun genişliğini 100px yaptım ki, ayarlaması kolay olsun.
 Resim genişliğinin 104px görünmesinin nedeni 2px sağdan ve 2px soldan
@@ -84,7 +84,7 @@ color:#666; } p{ font:bold 12px Arial, Helvetica, sans-serif;
 margin-bottom:5px; color:#666; } img.yuzde1 {
 background:url(gosteri1.gif) 0 0 no-repeat; padding: 0; margin: 0; }
 img.yuzde2 { background:url(gosteri2.gif) 0 0 no-repeat; padding: 0;
-margin: 0; } [/sourcecode]
+margin: 0; } 
 
 ![anket sonuç ekranı][]
 

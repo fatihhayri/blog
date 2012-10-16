@@ -38,7 +38,7 @@ CSS'in olaya el atması ile tüm elementler için kullanıla geldi. Ayrıca
 float özelliği çoklu kolon oluşturmak için de kullanılır.
 
 [sourcecode language='css'] img { float:left; margin:0 4px 4px 0; }
-[/sourcecode]
+
 
 **float:left** ataması yapılan resim sola dayanacak ve metin bu resmin
 etrafını saracaktır.
@@ -49,7 +49,7 @@ etrafını saracaktır.
 
 ... paragraf metni ...
 
-[/sourcecode]
+
 
 Bir elemente float uygulandığında, float uygulanan kutu kapsayıcı
 kutunun veya diğer float kutusunun dış kenarının sağına veya soluna
@@ -68,7 +68,7 @@ kutunun en soluna dayanmıştır. Diğer iki kutu ise normal akışına devam
 etmektedir.
 
 [sourcecode language='css'] p { float:left; width:200px; margin:0; } img
-{ float:left; margin:0 4px 4px 0; } [/sourcecode]
+{ float:left; margin:0 4px 4px 0; } 
 
 Burada her iki elemente de float uygulanarak metnin resmi sarmasına son
 verilmiştir. Bu çoklu kolon oluşturma tekniğinin basit bir örneğidir.

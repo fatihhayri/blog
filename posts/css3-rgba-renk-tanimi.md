@@ -7,7 +7,8 @@ CSS ile renk değeri ataması yapılırken çeşitli yöntemler kullanıyoruz.
 Daha önce [CSS Birimleri][]  makalemizde anlatmıştık. İki tip renk
 tanımı var. Renk isimleri ile tanımlama(İngilizce renk isimleri)
 
-[sourcecode language="css"] background-color:red [/sourcecode]
+	:::css
+	 background-color:red 
 
 tanımı kırmızı renkli bir ardalan elde etmemizi sağlar
 
@@ -15,14 +16,16 @@ RGB(Red-Green-Blue) yani Kırmızı-Yeşil-Mavi renklerin baz alındığı renk
 standardı. Açıkçası ben projelerimde her zaman rgb standardını
 kullanmaktayım.
 
-[sourcecode language="css"] background-color:#ff0000 [/sourcecode]
+	:::css
+	 background-color:#ff0000 
 
 Tanımı kırmızı renkte ardalanlar elde etmemizi sağlar. Bu tanımı birde
 kısaltması mevcuttur. Eğer bir birine benzer 2’li elemanlardan oluşan
 bir renk tanımı varsa yukarıdaki gibi benzer değerleri bir kere
 yazarakta aynı sonucu elde edebiliriz.
 
-[sourcecode language="css"] background-color:#f00 [/sourcecode]
+	:::css
+	 background-color:#f00 
 
 Yukarıdaki tanımda bize kırmızı rengi verecektir.
 
@@ -49,37 +52,42 @@ değerler bize saydamlık etkisi tanımlamamızı sağlayacaktır.
 
 Normalde css ile renk tanımı yaparken
 
-[sourcecode language="css"] background-color:#1259C7 [/sourcecode]
+	:::css
+	 background-color:#1259C7 
 
 tanımı kullanıyorum. Benzer şekilde
 
-[sourcecode language="css"] <li>background-color:rgb(18,89,199)</li>
-[/sourcecode]
+	:::css
+	 <li>background-color:rgb(18,89,199)</li>
+
 
 Tanımıda bize aynı sonucu verir. RGBA ile dördüncü değer olarak alfa
 saydamlık derecesini ekleriz.
 
-[sourcecode language="css"] background-color:rgba(18,89,199,0.4)
-[/sourcecode]
+	:::css
+	 background-color:rgba(18,89,199,0.4)
+
 
 Şeklinde bir tanım yapıyoruz. 0.4 değeri bize % 40’lık bir saydamlık
 sağlayacaktır.
 
 Durumu daha iyi anlamak için bir örnek yapalım
 
-[sourcecode language="css"] p.renk1{
+	:::css
+	 p.renk1{
 background-color:rgba(18,89,199,0.2); width:70px; height:70px} p.renk2{
 background-color:rgba(18,89,199,0.4); width:70px; height:70px} p.renk3{
 background-color:rgba(18,89,199,0.6); width:70px; height:70px} p.renk4{
 background-color:rgba(18,89,199,0.8); width:70px; height:70px} p.renk5{
 background-color:rgba(18,89,199,1); width:70px; height:70px}
-[/sourcecode]
+
 
 HTML kodu
 
-[sourcecode language="html"] <p class="renk1"></p> <p
+	:::html
+	 <p class="renk1"></p> <p
 class="renk2"></p> <p class="renk3"></p> <p
-class="renk4"></p> <p class="renk5"></p> [/sourcecode]
+class="renk4"></p> <p class="renk5"></p> 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -95,9 +103,10 @@ Farklı kullanım alanları ve birçok avantajı vardır bizim için bu
 tanımın. Örneği Facebook lightbox’ı olarak nitelendirilen bir görüntüyü
 elde etmek çok basit bir hal alıyor bu özelliği kullanarak.
 
-[sourcecode language="css"] ... border:10px solid rgba(0, 0, 0, 0.2);
+	:::css
+	 ... border:10px solid rgba(0, 0, 0, 0.2);
 border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius:
-10px; ... [/sourcecode]
+10px; ... 
 
 Örneği görmek için [tıklayınız.][2]
 
@@ -132,9 +141,10 @@ CSS Profile 3.0
 
 Çözüm için CSS-Tricks’te bir çözüm önerisi var
 
-[sourcecode language="css"] p.renk1{ background: rgb(200, 54, 54); /*
+	:::css
+	 p.renk1{ background: rgb(200, 54, 54); /*
 desteklemeyenler icin */ background: rgba(200, 54, 54, 0.5); }
-[/sourcecode]
+
 
 Bu çözüm önerisinde desteklemeyen tarayıcılarda katı renk hali
 görüntülenirken destekleyen tarayıcılar için saydam hali
@@ -142,10 +152,11 @@ görüntülenecektir.
 
 Diğer bir yöntem;
 
-[sourcecode language="html"] <!--[if IE]> <style type="text/css">
+	:::html
+	 <!--[if IE]> <style type="text/css">
 .color-block { background:transparent;
 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000050,endColorstr=#99000050);
-zoom: 1; } </style> <![endif]--> [/sourcecode]
+zoom: 1; } </style> <![endif]--> 
 
 Şeklinde sadece ie için üretilen bir kod ile çözüm sağlanır destekleyen
 tarayıcılar için standart kod kullanılır.

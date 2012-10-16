@@ -9,9 +9,10 @@ yapma olanağı sağlar. Adım adım gidersek <!--more-->
 
 **1.Adım** Başlangıç olarak her zamanki gibi XHTML kodumuzu yazalım:
 
-[sourcecode language="html"]<ul> <li><a href="#">Ana
+	:::html
+	<ul> <li><a href="#">Ana
 Sayfa</a></li> <li><a href="#">Haberler</a></li> <li><a
-href="#">Ürünler</a></li> </ul>[/sourcecode]
+href="#">Ürünler</a></li> </ul>
 
 <div class="class=" ekstrabilgi"">
 Tekniğin özeti şu menü oluşturmak için hazırlanan XHTML kodunda sırasız
@@ -23,9 +24,10 @@ sağlamak.
 **2. Adım** Daha önceki menü örneklerinden de alışkın olduğumuz
 margin,padding ve liste imgelerini kaldırma işlemini yapalım:
 
-[sourcecode language="css"] ul { margin: 0; padding: 0; list-style:
+	:::css
+	 ul { margin: 0; padding: 0; list-style:
 none; width: 600px; float: left; border-bottom: 1px solid gray; }
-[/sourcecode]
+
 
 **3. Adım** Yukarıda bahsettiğimiz metodu uygulamak için iki adet resim
 hazırlamalıyız.
@@ -41,8 +43,9 @@ yapıyoruz ve sağ zemin
 resmini(<span class="alternatifard">sekme_sag_resim.gif</span>)
 uyguluyoruz:
 
-[sourcecode language="css"] ul li { float: left; background:
-url(images/sekme_sag_resim.gif) no-repeat top right; } [/sourcecode]
+	:::css
+	 ul li { float: left; background:
+url(images/sekme_sag_resim.gif) no-repeat top right; } 
 
 **5. Adım** Daha önceki örneklerde gördüğümüz gibi tüm sekmeye link
 vermek için **display:block** tanımlaması yapıyoruz, sekmenin sol
@@ -53,16 +56,18 @@ ekliyoruz, tüm sekmelerde aynı yüksekliği yakalamak için
 alt çizgilerini kaldırıyoruz ve IE Mac ortamında sorun çıkarmaması için
 **float:left** ekliyoruz:
 
-[sourcecode language="css"]<ol> li a {
+	:::css
+	<ol> li a {
 background:url(images/sekme_sol_resim.gif) no-repeat left top;
 display: block; padding: 0 2em; line-height: 2.5em; text-decoration:
-none; float: left; color:#000; } [/sourcecode]
+none; float: left; color:#000; } 
 
 **6. Adım** Güzel bir görünüm katmak için basit bir rollover efekti
 verelim:
 
-[sourcecode language="css"] ul a:hover { color: #9D9C9C; }
-[/sourcecode]
+	:::css
+	 ul a:hover { color: #9D9C9C; }
+
 
 Örnek kodları indirmek için [tıklayınız.][]
 

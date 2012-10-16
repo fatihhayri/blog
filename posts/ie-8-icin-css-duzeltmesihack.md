@@ -10,15 +10,17 @@ görmüştüm. İnternet Explorer 8'in hızlı yayılması ile alakalı.
 Burada ie8'de css düzeltmesi yapmamız gerektiğinde nasıl bir yol
 izleyeceğimiz konusunda bir ipucu vereceğim.
 
-[sourcecode language="css"] .uyari { color /***/: red9 }
-[/sourcecode]
+	:::css
+	 .uyari { color /***/: red9 }
+
 
 Bir çok yerde bu kodun tek başına ie8 için yeterli olduğu yazıyor. Ama
 ben test ettiğimde ie7'de bu kodu görüyor. Bunun için
 
-[sourcecode language="css"] .uyari{color:blue} /* tum taricilar */
+	:::css
+	 .uyari{color:blue} /* tum taricilar */
 .uyari { color /***/: red9 } /* ie8 ve ie 7 */ *+html
-.uyari{color:blue} /* ie 7 */ [/sourcecode]
+.uyari{color:blue} /* ie 7 */ 
 
 Şeklinde bir çözüm işimize yaracaktır.
 
@@ -26,14 +28,16 @@ ben test ettiğimde ie7'de bu kodu görüyor. Bunun için
 
 Ayrıca şartlı yorumlar yardımı ile de yapabiliriz.
 
-[sourcecode language="html"] <!–[if gte IE 8]> <style
+	:::html
+	 <!–[if gte IE 8]> <style
 type="text/css"> .uyari { color: red; } </style> <![endif]–>
-[/sourcecode]
+
 
 Ayrıca daha önce bahsettiğimiz ie7 gibi yorumlama kodu var.
 
-[sourcecode language="html"]<meta http-equiv="X-UA-Compatible"
-content="IE=EmulateIE7" />[/sourcecode]
+	:::html
+	<meta http-equiv="X-UA-Compatible"
+content="IE=EmulateIE7" />
 
 Testlerimi [ietester][] ile yaptım.
 

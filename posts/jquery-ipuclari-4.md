@@ -40,15 +40,17 @@ yakalayabiliriz.
 
 Bir örnek verelim.
 
-[sourcecode language="html"] <ul> <li>Adana</li>
+	:::html
+	 <ul> <li>Adana</li>
 <li>Ankara</li> <li class="secili">İstanbul</li>
-<li>İzmir</li> <li>Trabzon</li> </ul> [/sourcecode]
+<li>İzmir</li> <li>Trabzon</li> </ul> 
 
 Şeklindeki bir html kodundan
 
-[sourcecode language="javascript"]
+	:::javascript
+	
 $('li.secili').next().css('border-bottom', '1px solid #999');
-[/sourcecode]
+
 
 next() fonksiyonu yardımı ile bir sonraki elemanı yakalayabiliriz.
 
@@ -61,15 +63,17 @@ yakalayabiliriz.
 
 Bir örnek verelim.
 
-[sourcecode language="html"] <ul> <li>Adana</li>
+	:::html
+	 <ul> <li>Adana</li>
 <li>Ankara</li> <li class="secili">İstanbul</li>
-<li>İzmir</li> <li>Trabzon</li> </ul> [/sourcecode]
+<li>İzmir</li> <li>Trabzon</li> </ul> 
 
 Şeklindeki bir html kodundan
 
-[sourcecode language="javascript"]
+	:::javascript
+	
 $('li.secili').prev().css('border-bottom', '1px solid #999');
-[/sourcecode]
+
 
 prev() fonksiyonu yardımı ile bir önceki elemanı yakalayabiliriz.  
 
@@ -79,9 +83,10 @@ prev() fonksiyonu yardımı ile bir önceki elemanı yakalayabiliriz.
 
 Bir üst elemanı bulma. Geriye bir adet üst eleman döndürür.
 
-[sourcecode language="javascript"]
+	:::javascript
+	
 $('td.secili').parent().css('border-bottom', '#999');
-$('div').parent('.large').css('font-size', '14px'); [/sourcecode]
+$('div').parent('.large').css('font-size', '14px'); 
 
 İlk kod üst elemanı yakalarken, ikinci satırda ise seçme işlemini biraz
 daha daraltarak .large sınıfı tanımlı olan üst  elmanı yakala diyoruz.
@@ -90,10 +95,11 @@ daha daraltarak .large sınıfı tanımlı olan üst  elmanı yakala diyoruz.
 
 Belirlenen elemanın tüm üst elemanlarını bulmaya yarar.
 
-[sourcecode language="javascript"]
+	:::javascript
+	
 $('li').parents().css('background-color', 'red');
 $('li').parents(&quot;ul&quot;).css('background-color', 'red');
-[/sourcecode]
+
 
 İlk satır li'nin tüm üst elemanlarını yakalarken, ikinci satır li'nin
 tüm **ul** etiketli üst elemanlarını yakalar.
@@ -102,15 +108,17 @@ tüm **ul** etiketli üst elemanlarını yakalar.
 
 En yakın üst elemanı bulmak içindir.
 
-[sourcecode language="javascript"] $(document).ready(function() {
+	:::javascript
+	 $(document).ready(function() {
 $('li.urunler').closest('ul').css('background-color', 'red'); });
-[/sourcecode]
+
 
 HTML
 
-[sourcecode language="html"] <ul> <li>Üst Menü <ul> <li
+	:::html
+	 <ul> <li>Üst Menü <ul> <li
 class="urunler">Ürün 1</li> <li class="urunler">Ürün 2</li>
-</ul> </li> </ul> [/sourcecode]
+</ul> </li> </ul> 
 
 İçiçe girmiş birçok listede yukarıdaki tanım 'urunler' sınıfı
 tanımlanmış öğenin ilk üst ul elemanını yakalamamıza yardım eder.
@@ -122,9 +130,10 @@ yakalama amacı ile console.log kullanıyoruz. Daha önceleri javascript
 ile kod yazarken alert fonksiyonun çok kullanırdım. Şimdi aynı işi
 **console.log** yapıyor ancak popup çıkarıp bizi rahatsız etmiyor.
 
-[sourcecode language="javascript"] var count = 0; while(count < 1000) {
+	:::javascript
+	 var count = 0; while(count < 1000) {
 count++; console.log(count); setTimeout("takistHesapla";, 1000); }
-[/sourcecode]
+
 
 yazın ve Firebug'ın console sekmesine bakın. Bu kod Chrome'da da
 çalışıyor.
@@ -140,8 +149,9 @@ jQuery 1.4 ile birlikte gelen yeni bir özellik olan delay()
 animasyonlarımıza belli bir süre ara vermemizi sağlat, daha önceleri bu
 işi yapmak için setTimeout metodunu kullanıyorduk.
 
-[sourcecode language="javascript"]
-$("div").fadeIn().delay(4000).fadeOut(); [/sourcecode]
+	:::javascript
+	
+$("div").fadeIn().delay(4000).fadeOut(); 
 
 Örneği görmek için [tıklayınız.][1]
 
@@ -154,16 +164,18 @@ jQuery 1.4 ile birlikte gelen bir başka yeni özellik **has()**
 metodudur. Daha önceki sürümlerde :has seçicisi vardı, şimdi **has()**
 metodu ile daha kolay yakalama işi yapabileceğiz.
 
-[sourcecode language="html"] <ul> <li>list item 1</li> <li>list
+	:::html
+	 <ul> <li>list item 1</li> <li>list
 item 2 <ul> <li>list item 2-a</li> <li>list item 2-b</li>
 </ul> </li> <li>list item 3</li> <li>list item 4</li>
-</ul> [/sourcecode]
+</ul> 
 
 Yukarıdaki kodda alt menüsü olan li elemanını yakalamak için bu metodu
 kullanabiliriz.
 
-[sourcecode language="javascript"]
-$('li').has('ul').css('background-color', 'red'); [/sourcecode]
+	:::javascript
+	
+$('li').has('ul').css('background-color', 'red'); 
 
 Örneği görmek için [tıklayınız.][2]
 

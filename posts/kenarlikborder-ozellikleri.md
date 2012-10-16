@@ -42,7 +42,7 @@ veya üç değer ataması yapılmış ise [margin][]'de gördüğümüz sıralam
 konusudur.
 
 [sourcecode language='css'] p.yeni { border-style: solid; }
-[/sourcecode]
+
 
 <div class="tarayiciuyum">
 **Browser Uyumu:**  
@@ -69,7 +69,7 @@ border-left-style** border-style özelliğinin her kenara ayrı ayrı
 atamasını yapabilmek için kullanılır.
 
 [sourcecode language='css'] h1{ border-style: solid; border-left-style:
-none; } [/sourcecode]
+none; } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:**  
@@ -100,7 +100,7 @@ margin: 5px; background-color: silver; border-style: solid;
 border-width: 1px; }
 
 </ol>
-[/sourcecode]
+
 
 <div class="tarayiciuyum">
 **Browser Uyumu:**  
@@ -127,7 +127,7 @@ border-left-width** border-width özelliğinin her kenara ayrı ayrı
 atamasını yapabilmek için kullanılır.
 
 [sourcecode language='css'] h2 { border-left-width: medium;
-border-style: solid; } [/sourcecode]
+border-style: solid; } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:**  
@@ -153,7 +153,7 @@ CSS Profile 1.0
 **bordercolor** ile benzerdir.
 
 [sourcecode language='css'] p { border-style: solid; border-color: gray;
-} [/sourcecode]
+} 
 
 Tek değer tüm kenarlık renklerini belirler, her kenar için ayrı renk
 tanımlamasıda yapılabilir.
@@ -186,7 +186,7 @@ CSS2 ile birlikte gelen transparent özelliği vardır ki bu kenarlığı yok
 etmez sadece görünmez yapar.
 
 [sourcecode language='css'] p { border-style: solid; border-color: gray;
-} [/sourcecode]
+} 
 
 Tek değer tüm kenarlık renklerini belirler, her kenar için ayrı renk
 tanımlamasıda yapılabilir.
@@ -213,14 +213,14 @@ CSS Profile 1.0
 için kullanılır. Bir [kısaltmadır][].
 
 [sourcecode language='css'] h1 { border: thick silver solid; }
-[/sourcecode]
+
 
 Bu özellikleri tek tek atamak isteseydik şöyle bir kod yazmamız
 gerekecekti.
 
 [sourcecode language='css'] h1 { border-top: thick silver solid;
 border-bottom: thick silver solid; border-right: thick silver solid;
-border-left: thick silver solid; }[/sourcecode]
+border-left: thick silver solid; }
 
 <div class="tarayiciuyum">
 **Browser Uyumu:**  

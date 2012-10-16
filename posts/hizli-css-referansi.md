@@ -38,8 +38,9 @@ isimleri
 * Bu işaretin anlamı bu özelliğin 1'den 4'e kadar değer alabileceğini
 gösterir. Örneğin:
 
-[sourcecode language="css"] p.deneme { border-style: solid dashed dotted
-solid; } [/sourcecode]
+	:::css
+	 p.deneme { border-style: solid dashed dotted
+solid; } 
 
 #### CSS - Zemin(BACKGROUND) Özellikleri
 
@@ -73,7 +74,8 @@ Elementlerin zeminine bir renk atamak için kullanılır.
 
 **Örnek:**
 
-[sourcecode language="css"] p { background-color: #ddd; } [/sourcecode]
+	:::css
+	 p { background-color: #ddd; } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
@@ -92,8 +94,9 @@ Elementlerin zeminine resim eklemek için kullanılır.
 
 **Örnek:**
 
-[sourcecode language="css"] body { background-image:
-url(/images/deneme.gif) } [/sourcecode]
+	:::css
+	 body { background-image:
+url(/images/deneme.gif) } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
@@ -113,8 +116,9 @@ resmin tekrarı ile özellikleri belirler.
 
 **Örnek:**
 
-[sourcecode language="css"] body { background: white url(deneme.gif);
-background-repeat: repeat-x; } [/sourcecode]
+	:::css
+	 body { background: white url(deneme.gif);
+background-repeat: repeat-x; } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
@@ -134,8 +138,9 @@ scroll etmesini veya sayfanın zeminin de çakılı kalmasını sağlar.
 
 **Örnek:**
 
-[sourcecode language="css"] body { background: white url(deneme.gif);
-background-attachment: fixed; } [/sourcecode]
+	:::css
+	 body { background: white url(deneme.gif);
+background-attachment: fixed; } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
@@ -189,9 +194,10 @@ edilecektir. Yüzde değerler ve uzunluk değerleri eksi değerler alabilir.
 
 **Örnek:**
 
-[sourcecode language="css"] body { background-image: url(deneme.gif);
+	:::css
+	 body { background-image: url(deneme.gif);
 background-repeat: no-repeat; background-position: center; }
-[/sourcecode]
+
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
@@ -213,10 +219,11 @@ kullanımı sağlar.
 
 **Örnek:**
 
-[sourcecode language="css"] body{ background: white url(deneme.gif) }
+	:::css
+	 body{ background: white url(deneme.gif) }
 blockquote { background: #f00 } p { background:
 url(../images/deneme.png) #f00 fixed } table{ background: #0c0
-url(deneme.jpg) no-repeat bottom right } [/sourcecode]
+url(deneme.jpg) no-repeat bottom right } 
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+

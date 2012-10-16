@@ -18,14 +18,16 @@ Kendi sorunlarım ve araştırıp bulduğu genel sorunlar:
 = tanımlama operatörü, == iki değeri eşitlemek için kullanılır. Genelde
 bir karışık oluyor
 
-[sourcecode language="javascript"] var nDeger = deneme.gif ;
-[/sourcecode] == örnek verecek olursak; [sourcecode
+	:::javascript
+	 var nDeger = deneme.gif ;
+ == örnek verecek olursak; [sourcecode
 language="javascript"] if(nDeger == fatih.gif){ alert("Fatih geldi"); }
-[/sourcecode]
+
 
 genelde karşılaştığım hata
 
-[sourcecode language="javascript"] if(MyVar = "xyz") [/sourcecode]
+	:::javascript
+	 if(MyVar = "xyz") 
 
 ### Tırnak İşaretleri
 
@@ -63,8 +65,9 @@ listesini [rezerver edilmiş kelimeler][] linkinden bulabilirsiniz.
 Javascript ile kod yazarken küçük büyük harflere dikkat etmeliyiz. Küçük
 büyük harf bir çok hataya neden olur.
 
-[sourcecode language="javascript"] var adSoyad = "Fatih Hayrioğlu"; If
-(adSoyad == "fatih hayrioğlu") [/sourcecode]
+	:::javascript
+	 var adSoyad = "Fatih Hayrioğlu"; If
+(adSoyad == "fatih hayrioğlu") 
 
 Yukarıdaki kodda iki adet hata var. İlk hata If kullanımı. Javascript
 bize If konusunda sorun olduğunu söylemez, ama IE "Object expected"
@@ -80,16 +83,19 @@ aynı şey değildir.
 Javascript'te +(artı) işareti hem sayısal toplama hemde string
 birleştirmek için kullanılır. Karıştırmamak lazım.
 
-[sourcecode language="javascript"] 1 + 1 = 2 [/sourcecode]
+	:::javascript
+	 1 + 1 = 2 
 
 ve
 
-[sourcecode language="javascript"] '1' + '1' = '11' [/sourcecode]
+	:::javascript
+	 '1' + '1' = '11' 
 
 Ayrıca string birleştirirken tırnak işareti ile kullanılmalıdır.
 
-[sourcecode language="javascript"] myString = myName + " ekle " +
-myString ; [/sourcecode]
+	:::javascript
+	 myString = myName + " ekle " +
+myString ; 
 
 ### Javascript: sözde protokolünün kullanımı
 
@@ -97,8 +103,9 @@ Javascript: sözde protokolü onClick gibi olay tetikleyicileri ile
 kullanılmaz. Bu kullanım URL'lerde olur Örneğin <a> etiketin href
 özelliğinde ve <form> etiketinin action özelliğinde
 
-[sourcecode language="html"] <a href="javascript:pencereAc();">Pencere
-Ac</a> [/sourcecode]
+	:::html
+	 <a href="javascript:pencereAc();">Pencere
+Ac</a> 
 
 ### document.write
 

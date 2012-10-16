@@ -115,12 +115,13 @@ bile bir şeyler içerir.
 
 XHTML sayfamız
 
-[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
 http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>FanatikMarşlar.Com</title> </head> <body> </body>
-</html> [/sourcecode]
+</html> 
 
 Bu dokümanı Adobe DreamWeaver ile oluşturduğumda dw benim için
 oluşturuyor.
@@ -134,20 +135,22 @@ oluşturuyor.
 
 İlk yaptığım iş başlık kısmını değiştirmek olur.
 
-[sourcecode language="html"] <title>FanatikMarşlar.Com</title>
-[/sourcecode]
+	:::html
+	 <title>FanatikMarşlar.Com</title>
+
 
 Daha sonra boş bir css dokümanı oluştururum. Genelde isim verirken ana,
 main, iskelet, veya sirket_adi nokta css şeklinde tanımlarım bu seferde
 site ismini tanımlıyorum **fanatikmarslar.css** Oluşturduğum bu dokümana
 sırası ile imza alanımı ve sıfırlama kodlarını ekliyorum.
 
-[sourcecode language="css"]
+	:::css
+	
 /************************
 ************************ Fanatik Marşlar -
 http://fanatikmarslar.com/ fatih hayrioglu 24 Eylul 2009 ie6, ff, opera,
 chrome, safari ************************
-************************/ [/sourcecode]
+************************/ 
 
 Bunu benim imzam olarak nitelendirebilirsiniz. Genelde tüm projelerime
 eklerim. Bazılarında unuttuğumda oluyor. Daha sonra css sıfırlama
@@ -156,7 +159,8 @@ kullanmam kendi ufak bir iki tekniğim vardır onları yazar geçerim. Ama
 bu sefer bazı sıfırlama kodlarının elenmiş halini kullandım ve koduma
 ekledim. Bide kapsayamama sorunu kodunu ekledim.
 
-[sourcecode language="css"] /* Css Sifirlama */ html, body, div, span,
+	:::css
+	 /* Css Sifirlama */ html, body, div, span,
 applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
 abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins,
 kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,
@@ -174,7 +178,7 @@ elemanları kapsayamama sorunu */ .kapsayamamaSorunu:after {content:
 .kapsayamamaSorunu {display: inline-block;} /* IE-mac de bu bolumu
 sakla  */ * html .kapsayamamaSorunu {height: 1%;} .kapsayamamaSorunu
 {display: block;} /* IE-mac bu bolumu saklam artik */ /* Css
-Sifirlama */ [/sourcecode]
+Sifirlama */ 
 
 CSS sıfırlama tekniğini kısaca açıklarsak; Farklı tarayıcılarda farklı
 şekillerde yorumlanan html elemanlarının özelliklerini her tarayıcıda
@@ -184,8 +188,9 @@ p{margin:0; padding:0}
 
 Daha sonra xhtml sayfamıza css kodumuzu ekleyelim.
 
-[sourcecode language="html"] <style type="text/css"> <!-- @import
-url("style/fanatikmarslar.css"); --> </style> [/sourcecode]
+	:::html
+	 <style type="text/css"> <!-- @import
+url("style/fanatikmarslar.css"); --> </style> 
 
 Bundan sonra genelde ben psd'yi açıp sırası ile eskizde çizdiğim yapıya
 uygun olarak kodlamama başlarım. Bunun dışında bir yöntem daha vardır ki

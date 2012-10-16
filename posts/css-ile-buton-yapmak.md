@@ -53,16 +53,18 @@ olarak alabiliriz basit butonlara
 
 HTML kodu
 
-[sourcecode language="html"] <input type="submit" class="gonder"
-value="Gönder" /> [/sourcecode]
+	:::html
+	 <input type="submit" class="gonder"
+value="Gönder" /> 
 
 CSS kodu
 
-[sourcecode language="css"] input.gonder { color: #224059;
+	:::css
+	 input.gonder { color: #224059;
 background-color: #b5c9e2; border-top: 2px #cce3ff solid; border-left:
 2px #cce3ff solid; border-bottom: 2px #31557f solid; border-right: 2px
 #31557f solid; font:bold 12px Arial, Helvetica, sans-serif; }
-[/sourcecode]
+
 
 ![][1]
 
@@ -86,12 +88,14 @@ efektli görünüm elde ederiz.
 
 HTML Kodu
 
-[sourcecode language="html"] <a class="buton" href="#"><span>3
-boyutlu buton</span></a> [/sourcecode]
+	:::html
+	 <a class="buton" href="#"><span>3
+boyutlu buton</span></a> 
 
 CSS kodumuzu yukarıdaki belirttiğimiz gib yazalım
 
-[sourcecode language="css"] a.buton{ float:left; font-size:14px;
+	:::css
+	 a.buton{ float:left; font-size:14px;
 font-weight:bold; border-top:1px solid #999; border-left:1px solid
 #999; border-right:1px solid #333; border-bottom:1px solid #333;
 color:#333; width:auto; text-decoration:none } a.buton:hover{
@@ -102,7 +106,7 @@ repeat-x; float:left; line-height:24px; height:24px; padding:0 10px;
 border-right:1px solid #777; border-bottom:1px solid #777; }
 a.buton:hover span{ border:none; border-top:1px solid #777;
 border-left:1px solid #777; background:#d4d0c8
-url(buton_fare_ard.gif) repeat-x; cursor:pointer; } [/sourcecode]
+url(buton_fare_ard.gif) repeat-x; cursor:pointer; } 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -155,38 +159,43 @@ resmini gösteriyoruz. Kodu yazarsak daha iyi anlayacaksınız.
 
 HTML kodu;
 
-[sourcecode language="html"] <a href="#"><span>Örnek Buton
-Metni</span></a> [/sourcecode]
+	:::html
+	 <a href="#"><span>Örnek Buton
+Metni</span></a> 
 
 CSS Kodu
 
-[sourcecode language="css"] a{display:block; float:left; width:auto;
+	:::css
+	 a{display:block; float:left; width:auto;
 background:url(cancanli_butonlar_normal.gif) 0 0 no-repeat;
 text-decoration:none; font-size:14px; font-weight:bold} a
 span{display:block; float:left; cursor:pointer;
 background:url(cancanli_butonlar_normal.gif) right -36px no-repeat;
 height:28px; padding:0 20px; line-height:28px; color:#363636}
-[/sourcecode]
+
 
 a span için eklenen
 
-[sourcecode language="css"] float:left; cursor:pointer; [/sourcecode]
+	:::css
+	 float:left; cursor:pointer; 
 
 özellikleri ie6'daki genişlik sorununu gidermek için eklenmiştir.
 
 Bu örneğe fare üzerine geldiğindeki halinide ekleyelim
 
-[sourcecode language="css"] /* fare geldi kac */
+	:::css
+	 /* fare geldi kac */
 a:hover{background:url(cancanli_butonlar_ard.gif) 0 -68px no-repeat;}
 a:hover span{background:url(cancanli_butonlar_ard.gif) right -100px
-no-repeat; color:#706e6e} [/sourcecode]
+no-repeat; color:#706e6e} 
 
 Son olarakta odaklanma halini ekleyerek bu örneği bitirelim.
 
-[sourcecode language="css"] /* buraya odaklan odaklan */
+	:::css
+	 /* buraya odaklan odaklan */
 a:focus{background:url(cancanli_butonlar_ard.gif) 0 -134px no-repeat;}
 a:focus span{background:url(cancanli_butonlar_ard.gif) right -164px
-no-repeat; color:#363636} [/sourcecode]
+no-repeat; color:#363636} 
 
 Örneği görmek için [tıklayınız.][7]
 
@@ -200,49 +209,55 @@ janjanlı güzel butonlar geliştirebiliyoruz. Ayrıca bu işi çok kolay bir
 
 HTML kodu
 
-[sourcecode language="html"] <a href="#" class="buton">CSS3
-Buton</a> [/sourcecode]
+	:::html
+	 <a href="#" class="buton">CSS3
+Buton</a> 
 
 Evet html kodummuz bu kadar.
 
 CSS Kodlarını yazalım
 
-[sourcecode language="css"] a.buton{ background:#2981E4; padding:5px
+	:::css
+	 a.buton{ background:#2981E4; padding:5px
 10px; text-decoration:none; color:#fff; font:bold 14px Arial,
-Helvetica, sans-serif; } [/sourcecode]
+Helvetica, sans-serif; } 
 
 Şimdide CSS3 özellikleri ile bu örneğimizi geliştirelim.
 
 İlk olarak köşeleri yuvarlatıyoruz.
 
-[sourcecode language="css"] a.buton{ background:#2981E4; padding:5px
+	:::css
+	 a.buton{ background:#2981E4; padding:5px
 10px; text-decoration:none; color:#fff; font:bold 14px Arial,
 Helvetica, sans-serif; -moz-border-radius: 7px; -webkit-border-radius:
-7px; border-radius: 7px; } [/sourcecode]
+7px; border-radius: 7px; } 
 
 Gölge verelim
 
-[sourcecode language="css"] a.buton{ background:#2981E4; padding:5px
+	:::css
+	 a.buton{ background:#2981E4; padding:5px
 10px; text-decoration:none; color:#fff; font:bold 20px Arial,
 Helvetica, sans-serif; -moz-border-radius: 7px; -webkit-border-radius:
 7px; border-radius: 7px; box-shadow: 3px 3px 4px #000; -moz-box-shadow:
-0 1px 2px #000; -webkit-box-shadow: 3px 3px 4px #000; } [/sourcecode]
+0 1px 2px #000; -webkit-box-shadow: 3px 3px 4px #000; } 
 
 Metine gölge verelim
 
-[sourcecode language="css"] a.buton{ background:#2981E4; padding:5px
+	:::css
+	 a.buton{ background:#2981E4; padding:5px
 10px; text-decoration:none; color:#fff; font:bold 20px Arial,
 Helvetica, sans-serif; -moz-border-radius: 7px; -webkit-border-radius:
 7px; border-radius: 7px; box-shadow: 0 1px 2px #000; -moz-box-shadow: 0
 1px 2px #000; -webkit-box-shadow: 0 1px 2px #000; text-shadow: 0 -1px
-1px rgba(0, 0, 0, 0.25); } [/sourcecode]
+1px rgba(0, 0, 0, 0.25); } 
 
 ![][9]
 
 Şimdide fare üzerine geldiğindeki halinide ekleyelim.
 
-[sourcecode language="css"] a.buton:hover{ background-color:#006699;
-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); } [/sourcecode]
+	:::css
+	 a.buton:hover{ background-color:#006699;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); } 
 
 Örneği görmek için [tıklayınız.][10]
 
@@ -250,7 +265,8 @@ text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); } [/sourcecode]
 
 Bu sefer CSS3'ün renk geçişi(gradients) özelliğindende yararlanalım.
 
-[sourcecode language="css"] a.buton{ background:#d21b00; background:
+	:::css
+	 a.buton{ background:#d21b00; background:
 -moz-linear-gradient(top, #d21b00, #8e0700); background:
 -webkit-gradient(linear, left top, left bottom, from(#d21b00),
 to(#8e0700)); padding:20px 25px; text-decoration:none; color:#fff;
@@ -264,7 +280,7 @@ background: -moz-linear-gradient(top, #8e0700, #d21b00); background:
 to(#d21b00)); text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75); box-shadow: 0
 -1px 2px rgba(0, 0, 0, 0.75); -moz-box-shadow: 0 -1px 2px rgba(0, 0, 0,
 0.75); -webkit-box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.75); }
-[/sourcecode]
+
 
 Örneği görmek için [tıklayınız.][11]
 

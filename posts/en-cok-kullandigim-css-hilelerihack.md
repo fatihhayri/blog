@@ -34,13 +34,13 @@ tanımladığımızda uygulanan bu yöntem için yazdığımız kod aşağıdad�
 [sourcecode language='css']#icerik{ width:230px; padding:10px;
 margin:5px; /* Bundan sonraki kısmı ie5win sakla */ voice-family:
 ""}""; voice-family:inherit; width:200px; } html>body #icerik {
-width:200px; }[/sourcecode]
+width:200px; }
 
 Sorun olan kodumuza biz sadece
 
 [sourcecode language='css']voice-family: ""}"";
 voice-family:inherit; width:200px; } html>body #icerik { width:200px;
-} [/sourcecode]
+} 
 
 Bölümünü uygulamamız yeterlidir. Daha sonra eğer genişlik ise genişliği
 yükseklik ise yüksekliği ayarlamamız gerekir. Daha sonra **html>body
@@ -62,7 +62,7 @@ Kodumuz;
 height: 0; clear: both; visibility: hidden; } .kapsul {display:
 inline-block;} /* IE-mac de bu bolumu sakla  */ * html .kapsul
 {height: 1%;} .kapsul {display: block;} /* IE-mac bu bolumu saklam
-artik */ [/sourcecode]
+artik */ 
 
   
 Bu kodda **.kapsul** yerine kendi nesne ismimizi yazmamız yeterlidir.
@@ -75,7 +75,7 @@ html yorum satırlarıdır ve çözüm için
 
 [sourcecode
 language='html']<!--[if !IE]>Yorumunu buraya yaz <![endif]-->
-[/sourcecode]
+
 
 Kodunu yazarız. Ben burada yorum yazarken bu sorunla karşılaşabilirim
 diye tüm yorumlarımı bu şekilde yazarak bu sorundan kaçınmaya
@@ -87,7 +87,7 @@ Son zamanlarda gelen işlerde çok rastlamam nedeni ile bu listeye son
 anda ilave ettim. IE6'nın desteklemediği min-height özelliği için
 
 [sourcecode language='css']min-height:500px; height:auto !important;
-height:500px;[/sourcecode]
+height:500px;
 
 yazmamız yeterli.
 

@@ -24,7 +24,7 @@ konular </a></strong>! hazırladık <ul> <li>Konu Başlıkları :
 <li>Armut</li> <li>Karpuz</li> </ol> </li> </ul> </li>
 <li>...vd.</li> </ul> <p>Ayrıntılılı bilgi çin <a
 href="mailto:bilgi@zerzebvat.com"> mesaj gönder </a></p> </body>
-</html> [/sourcecode] CSS'in güçlü olmasının en büyük nedeni (X)HTML
+</html>  CSS'in güçlü olmasının en büyük nedeni (X)HTML
 elementleri arasındaki ilişkiden yararlanmasıdır. (X)HTML dökümanları
 gizli bir hiyararşi ile oluşturulur. Bu hiyerarşi içinde tüm (X)HTML
 elementleri kendilerine uygun bir yer bulur. Bu ilişkiyi biz **soy
@@ -59,14 +59,16 @@ tanımlaması yapılarak her **h1** elementi altındaki **em** elementini
 tek tek seçerek bu sınıfı uygulamamız gerekir ki bunun **font** etiketi
 uygulmasından farkı yoktur. Açıkcası bu işlemi yapmak uzun zaman
 alacaktır. Ancak Torun Seçicisi kullanarak bu işi kolayca yapabilriz.
-örnek kod yazarsak: [sourcecode language="css"] h1 em { color: gray; }
-[/sourcecode] Bu kod dökümandaki atası **h1** olan tüm **em**
+örnek kod yazarsak: 	:::css
+	 h1 em { color: gray; }
+ Bu kod dökümandaki atası **h1** olan tüm **em**
 elementlerini gri yapacaktır. Diğer **em**'ler ise bu kuralı
 uygulamayacaktır. Torun Seçicilerde, seçici kısmı birbirinden bir
 boşlukla ayrılmış iki veya daha fazla seçiciden oluşur. Aradaki boşluk
 bağlayıcı özellik taşır. Sadece iki elementle sınırlı değiliz, sınırsız
-element tanımlayabiliriz. [sourcecode language="css"] ul ol ul em {
-color: gray; } [/sourcecode] Torun Seçiciler çok kuvvetli olabilirler.
+element tanımlayabiliriz. 	:::css
+	 ul ol ul em {
+color: gray; }  Torun Seçiciler çok kuvvetli olabilirler.
 Onlar (X)HTML ile yapılmasının imkanı olmayan işler yaparlar. Örnek bir
 dökümanda iki adet alan oluşturduğumuzu düşünün birinci alanın
 ardalanı(background) mavi, ikinci alanın ardaalanının beyaz olduğunu
@@ -77,11 +79,12 @@ Seçicilerindedir; ilk alan içindeki linklere farklı renk diğerlerine
 farklı renk tanımlaması yaparak bu işi halledebiliriz. [sourcecode
 language="css"] td.sidebar { background: blue; } td.main { background:
 white; } td.sidebar a:link { color: white; } td.main a:link { color:
-blue; } [/sourcecode] Bir örnek daha verelim. **blockquote** ve **p**
+blue; }  Bir örnek daha verelim. **blockquote** ve **p**
 elementleri içindeki **b** elementi ile **blockquote** içinde ve normal
 paragraf içinde geçen **b** elementlerine özel bir atama yapmak
-istiyoruz bunun için kod yazarsak: [sourcecode language="css"]
-blockquote b, p b { color: gray; } [/sourcecode] Koda dikkat edersek her
+istiyoruz bunun için kod yazarsak: 	:::css
+	
+blockquote b, p b { color: gray; }  Koda dikkat edersek her
 iki atamayı ayrı ayrı yapmak yerine araya bir virgül koyarak birlikte
 yaptığımızı görürsünüz.
 
@@ -101,10 +104,10 @@ ayrıntılı bir ayrım yapmak isteyebiliriz. Örneğin bir **h1** elementinin
 altındaki**strong** elementlerinden **sadece** Çocuk Elementi için
 tanımlamalar yapmak istersek (torun elementleri hariç), Bunun için çocuk
 bağlayıcısını kullanırız ( > ) büyüktür işareti [sourcecode
-language="css"] h1 > strong { color: red; } [/sourcecode] [sourcecode
+language="css"] h1 > strong { color: red; }  [sourcecode
 language="html"]<h1>Bu <strong>koda</strong>
 uygulanacaktır.</h1> <h1>Bu <em>koddaki <strong> bu kısım
-</strong></em> uygulama dışıdır..</h1> [/sourcecode] Yukardaki
+</strong></em> uygulama dışıdır..</h1>  Yukardaki
 durumda sadece ilk **strong** elementi için tanımlama gerçekleşecektir
 ikincisi için herhangi bir stil tanımı uygulanmayacaktır.
 
@@ -117,7 +120,8 @@ Ancak **p** elementi **strong**'un ebeveyni değildir. Biz burada p > a
 ve a > strong şeklinde tanımlama yapabilriz ancak p > strong
 tanımlamasını yapamayız. Birde aynı seçici içinde hem torun
 birleştiricisini hemde çocuk birleştiricisini kullanabiliriz.
-[sourcecode language="css"] table.summary td > p [/sourcecode]
+	:::css
+	 table.summary td > p 
 
 <div class="tarayiciuyum">
 **Browser Uyumu** :
@@ -135,16 +139,18 @@ elementlerden sonra gelenine stil tanımlamak için kullanılır. Tam olarak
 "Bir Ufak Kardeş Seçicisi" olmalıdır. Bir örnek verelim bir başlığımız
 var ve sonrasında ard arda paragraflar geliyor. Biz başlık ile hemen
 ardından gelen paragrafın arasına mesafe koymak için bu seçiciyi
-kullanabiliriz. [sourcecode language="html"] <body> <h2>Başlık
+kullanabiliriz. 	:::html
+	 <body> <h2>Başlık
 2</h2> <p>Buraya <em>önemli</em> ve <strong>iyi</strong>kod
 gir</p> <p>Buraya <em>önemli</em> ve <strong>iyi</strong>kod
-gir</p> </body> [/sourcecode] Dökümanın yapısı:
+gir</p> </body>  Dökümanın yapısı:
 
 ![][2]
 
 Biz burada **h2** ve **h3** arasında boşluk vermek için aşağıdaki kodu
-kullanırız: [sourcecode language="css"] h2 + p { margin-top: 10px; }
-[/sourcecode]
+kullanırız: 	:::css
+	 h2 + p { margin-top: 10px; }
+
 
 <div class="tarayiciuyum">
 **Browser Uyumu** :
@@ -168,11 +174,13 @@ Genel Seçiciler bir elementi bütüne uygulamak için kullanılır bu işlem
 için * işareti kullanılır. Aşağıdaki kod tüm elementleri kırmızı
 yapacaktır.
 
-[sourcecode language="css"] * { color:red; } [/sourcecode]
+	:::css
+	 * { color:red; } 
 
 Ayrıca bir katmanın içindeki sınıflara uygulamak istersek
 
-[sourcecode language="css"] div .uyari * { color:red; } [/sourcecode]
+	:::css
+	 div .uyari * { color:red; } 
 
 katman, .uyari sınıfı içindeki tüm elementler kırmızı olacaktır.
 

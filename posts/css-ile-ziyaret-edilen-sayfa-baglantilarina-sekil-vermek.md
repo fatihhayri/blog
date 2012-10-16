@@ -28,7 +28,8 @@ değiştirmediğimiz müddetçe. Biz bağlantıya genel tanım yaptığımızda 
 özellik bir bakıma göz ardı edilecektir. Bir çok projede bu tanımlamayı
 yazpıyoruz.
 
-[sourcecode language="css"] a{color:#f00;} [/sourcecode]
+	:::css
+	 a{color:#f00;} 
 
 ![genel_bag_renk][]
 
@@ -38,8 +39,9 @@ ziyaret edilmiş sayfa stilinide belirler.
 Bizim amacımız ziyaret edilmiş bağlantıları farklı stil ile belirterek
 ayrımı göstermek. Bir çok yerde  yazı üstünü çizerek belirlenir.
 
-[sourcecode language="css"] a:visited { text-decoration: line-through; }
-[/sourcecode]
+	:::css
+	 a:visited { text-decoration: line-through; }
+
 
 ![ziy_sayfa_uzeri_ciz][]
 
@@ -49,9 +51,10 @@ Diğer bir yöntemde ardalan resmi koymak. Bu yöntem ile hoş bir görüntüde
 sağlamış oluyoruz. [http://www.evalotta.net/][] sitesi buna çok güzel
 bir örnek.
 
-[sourcecode language="css"] a:visited { padding-right:20px;
+	:::css
+	 a:visited { padding-right:20px;
 background:url(images/ziyaret_edilmis_baglanti.gif) right top
-no-repeat; color:#666; text-decoration:none; } [/sourcecode]
+no-repeat; color:#666; text-decoration:none; } 
 
 ![ziy_sayfa_oki][]
 

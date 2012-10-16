@@ -28,7 +28,7 @@ değeri **print** atanır.
 
 [sourcecode language='html']
 <link rel="stylesheet" type="text/css" href="ciktistil.css" media="print">
-[/sourcecode]
+
 
 Diğer bir yöntemde import kullanımıdır.
 
@@ -38,7 +38,7 @@ Diğer bir yöntemde import kullanımıdır.
     @import url("webicin.css") screen; 
     @import url("ciktial.css") print; 
 </style>
-[/sourcecode]
+
 
 ### Çıktıya Uygun CSS Hazırlarken Dikkat Edilecek Hususlar
 
@@ -52,14 +52,14 @@ içindeki h1 veya p için yapılan sans-serfi fontları serif fontlarla
 değiştirelim.
 
 [sourcecode language='css'] h1, p { font-family: Garamond, "Times New
-Roman", Times, serif; } [/sourcecode]
+Roman", Times, serif; } 
 
 Web için verilen değerler **px** veya **em** yerine **pt** değeri
 kullanılmalıdır. Çıktı alırken daha iyi sonuçlar verir.
 
 [sourcecode language='css'] h1 { font: 24pt Garamond, "Times New Roman",
 Times, serif; } p { font: 12pt Garamond, "Times New Roman", Times,
-serif; } [/sourcecode]
+serif; } 
 
 Ayrıca **line-height** değeri, **font-weight** değeri, **word-spacing**
 ve **text-align** değerlerini de çıktı ama durumu için düzenlemeliyiz.
@@ -78,7 +78,7 @@ Bir elementin **display** özelliğini "**none**" yaparak çıktı alırken
 görütülenmesini engelleriz. Örneğin solmenu için #SolMenu tanımlması
 yapmış isek
 
-[sourcecode language='css'] #SolMenu{ display:none } [/sourcecode]
+[sourcecode language='css'] #SolMenu{ display:none } 
 
 kodu ile bu bölümü çıktı alırken görüntü dışında bırakacağız. Bu yöntemi
 formlar, menüler, bannerlar, ana resimler hariç diğer resimler vb.
@@ -90,13 +90,13 @@ gereksiz bölümleri bu şekilde çıkarmalıyız.
 görünmesi için aralarına belirli mesafeler vermeliyiz.
 
 [sourcecode language='css'] table { margin-top:10px; } div { margin:10px
-} [/sourcecode]
+} 
 
 Çıktı alacağımız sayfalarda **px** vd. birimler yerine **inç** birimini
 kullanmak daha iyi sonuçlar verir.
 
 [sourcecode language='css'] table{ margin:sin } div{ margin:1in }
-[/sourcecode]
+
 
 Renklerle ilgili olarakta şunu söyleyebilriz ki, web sitelerinde bir çok
 renk kullanılır ancak bu renklerin çıktı alırken görünümü web

@@ -33,8 +33,9 @@ okunduğunu düşünerek kodumu yazardım ama gerçek böyle değilmiş.
 **Tarayıcılar CSS seçicilerini sağdan solda doğru okurlar.** Tabi bu
 bilgiden sonra yazdığımız kodları buna göre düşünerek yazmalıyız.
 
-[sourcecode language="css"] ul li a#smUrunler{color:#000;
-background:url(../images/menu.png) 0 0 no-repeat; } [/sourcecode]
+	:::css
+	 ul li a#smUrunler{color:#000;
+background:url(../images/menu.png) 0 0 no-repeat; } 
 
 Yukarıdaki tanımlamada ilk olarak tarayıcı doküman içinde geçen
 a#smUrunler seçicisini bulacaktır, bu seçiciye anahtar seçici deniyor.
@@ -43,15 +44,17 @@ Bir bakıma elemanı yakalamak için anahtar oluyor tarayıcıya.
 Bu bize gösteriyorki css kodlarımızı yazarken buna dikkat etmemiz ve
 buna göre kod yazmamız gerekiyor.
 
-[sourcecode language="css"] ul#solMenu li a{color:#000;
-background:url(../images/menu.png) 0 0 no-repeat; } [/sourcecode]
+	:::css
+	 ul#solMenu li a{color:#000;
+background:url(../images/menu.png) 0 0 no-repeat; } 
 
 şeklindeki bir tanım önerilmiyor. Bu tanımda sağdan sola doğru
 yorumlandığını düşünürsek dokümandaki tüm bağlantıları(<a>)
 arayacaktır tarayıcı. Bunun yerine
 
-[sourcecode language="css"] ul li a#smUrunler{color:#000;
-background:url(../images/menu.png) 0 0 no-repeat; } [/sourcecode]
+	:::css
+	 ul li a#smUrunler{color:#000;
+background:url(../images/menu.png) 0 0 no-repeat; } 
 
 Tanılaması daha efektif bir sonuç verecektir. Tarayıcı direk olarak
 a#smUrunler seçicisi ile elemanı bulacaktır.
@@ -72,11 +75,13 @@ CSS seçicilerini yazarken son tanımda evrensel bir seçici kullanmayın.
 Tekil seçiciler zaten en hızlı erişilen seçicilerdir. Bunları tekrar
 etiket ile nitelemeye gerek yoktur.
 
-[sourcecode language="css"] a#slUrunler{...} [/sourcecode]
+	:::css
+	 a#slUrunler{...} 
 
 yerine
 
-[sourcecode language="css"] #smUrunler{...} [/sourcecode]
+	:::css
+	 #smUrunler{...} 
 
 şeklinde kullanın.
 
@@ -88,22 +93,26 @@ zamanlarda çok kullanıyordum bu tanımlamayı, artık veda edeceğiz.
 **Sınıf Seçicileri etiketlerle nitelemeyin**  
 Yukarıda anlattığımız gibi burası içinde geçerlidir.
 
-[sourcecode language="css"] td.taraftarSayi{} [/sourcecode]
+	:::css
+	 td.taraftarSayi{} 
 
 yerine
 
-[sourcecode language="css"] .taraftarSayi{} [/sourcecode]
+	:::css
+	 .taraftarSayi{} 
 
 şeklinde kullanın.
 
 **Torun Seçiciler veya çocuk Seçicler Yerine Özel sınıflar Atayın**  
 Uzun seçici listesi kullanmak yerine daha özel bir sınıf tanımı yapın.
 
-[sourcecode language="css"] ul li a{...} [/sourcecode]
+	:::css
+	 ul li a{...} 
 
 yerine a'ya smUrunler sınıfını atayıp
 
-[sourcecode language="css"] .smUrunler{...} [/sourcecode]
+	:::css
+	 .smUrunler{...} 
 
 şeklinde kullanın.
 
@@ -115,12 +124,14 @@ Seçici tiplerinden torun seçicileri en yavaş yöntemlerden biridir.
 **Etiket Kategorilerinde Çocuk Seçicileri Kullanmayın**  
 Etiket tabanlı çocuk seçicileriniz yerine özel seçici kullanınız.
 
-[sourcecode language="css"] treehead > treerow > treecell {...}
-[/sourcecode]
+	:::css
+	 treehead > treerow > treecell {...}
+
 
 yerine
 
-[sourcecode language="css"] .treecell-header {...} [/sourcecode]
+	:::css
+	 .treecell-header {...} 
 
 kullanın.
 

@@ -15,16 +15,18 @@ Biz bunlardan şartlı Yorumların kullanımını öğreneceğiz. şartlı Yorum
 Internet Explorer 5 versiyonu ile birlikte kullanılmaya başlanmıştır.
 şartlı Yorumlar xhtml kodunun yorumlanıp yorumlanmayacağını belirler.
 
-[sourcecode language="html"] <!--[if IE]> Bu kod Interner Explorer 5
-ve üzeri versiyonlarda çalışır. <![endif]--> [/sourcecode]
+	:::html
+	 <!--[if IE]> Bu kod Interner Explorer 5
+ve üzeri versiyonlarda çalışır. <![endif]--> 
 
 Bu kodlama bizim bir çok hatayı ayıklamamız için biçilmiş kaftandır.
 Ayrıca şartlı komutlar bize versiyon farklılıklarına göre kod
 yazmamızıda sağlar
 
-[sourcecode language="css"] <!--[if IE 6]> <style type='text/css'>
+	:::css
+	 <!--[if IE 6]> <style type='text/css'>
 a:link, a:visited, a:active { text-decoration: none; } </style>
-<![endif]--> [/sourcecode]
+<![endif]--> 
 
 Bu kod ile sadece IE 6 versiyonunda linklerin altının çizilmesini
 engellemiş oluyoruz.
@@ -33,9 +35,10 @@ Eğer bir kuralı yugulamka istiyor isek ve bu kuralı belli bir web
 tarayıcısından gizlemek istediğimiz durumlarda şartlı Komuta (!)
 operatörünü ekleyerek bunu sağlayabiliriz.
 
-[sourcecode language="html"] <!--[if !IE 6]> <style type='text/css'>
+	:::html
+	 <!--[if !IE 6]> <style type='text/css'>
 a:link, a:visited, a:active { text-decoration: none; } </style>
-<![endif]--> [/sourcecode]
+<![endif]--> 
 
 Bu kod ile sadece IE6'da bu kodun uygulanmasını engelledik.
 
@@ -51,9 +54,10 @@ Bunun gibi başka işlevsel operatörlerde mevcuttur.
 
  
 
-[sourcecode language="html"] <!--[if lt IE 6]> <style
+	:::html
+	 <!--[if lt IE 6]> <style
 type="text/css"> @import ("ie.css"); </style> <![endif]–>
-[/sourcecode]
+
 
 Birçok hata ayıklama metodunda şartlı Komutlar kullanılabilir.
 

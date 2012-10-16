@@ -11,9 +11,9 @@ boyutlarını en aza indirmiş oluruz.<!--more-->
 
 Normalde bir font tanımlarken 4 adet CSS kodu kullanılır: [sourcecode
 language='css'] font-weight: bold; font-family: verdana, sans-serif;
-font-size: 11px; line-height: 15px; [/sourcecode]Kısaltma olarak
+font-size: 11px; line-height: 15px; Kısaltma olarak
 kullanlan kod ise tek satır: [sourcecode language='css'] font: bold
-11px/15px verdana, sans-serif; [/sourcecode]
+11px/15px verdana, sans-serif; 
 
 ###### 2. Background
 
@@ -21,9 +21,9 @@ Background tanımlarken 5 adet atama yapmamız gerekirken kısaltma
 kullanarak tek tanıma indirebilriz. [sourcecode language='css']
 background-color: #000; background-image: url(ard.jpg);
 background-repeat: no-repeat; background-attachment: fixed;
-background-position: 50px 50px; [/sourcecode] Kısaltırsak: [sourcecode
+background-position: 50px 50px;  Kısaltırsak: [sourcecode
 language='css'] background: { #000 url(ard.jpg) no-repeat fixed 50px
-50px; } [/sourcecode]
+50px; } 
 
 ###### 3. Renkler(Hex-decimal)
 
@@ -42,17 +42,17 @@ Kısaltılmış olanı **color: #fff;** kullanmanız daha avantajlıdır.
 Kenarklık tanımlamalarında her özellik için bir tanımlama yapılır. örnek
 olarak bir elementin üst kenarına atama yapmak için: [sourcecode
 language='css'] border-top-width: 2px; border-top-style: dashed;
-border-top-color: #f00; [/sourcecode] Kısaltırsak: [sourcecode
-language='css'] border-top: 2px dashed #f00; [/sourcecode] Bu
+border-top-color: #f00;  Kısaltırsak: [sourcecode
+language='css'] border-top: 2px dashed #f00;  Bu
 özellikleri tüm kenarlara uygulmak için: [sourcecode language='css']
-border: 2px dashed #f00; [/sourcecode]
+border: 2px dashed #f00; 
 
 ###### 5. Margin ve Padding'ler
 
 Margin ve paddingler de normal tanımlama şöyledir: [sourcecode
 language='css'] margin-top: 10px; margin-right: 5px; margin-bottom:
-20px; margin-left: 15px; [/sourcecode]kıslatılmış hali: [sourcecode
-language='css']margin: 10px 5px 20px 15px;[/sourcecode] Burada
+20px; margin-left: 15px; kıslatılmış hali: [sourcecode
+language='css']margin: 10px 5px 20px 15px; Burada
 öznitelikler sağdan başlayarak saat yönünde devam eder. Aşağıda çeşitli
 kısaltma yöntemleri birlikte verilmiştir:
 
@@ -68,17 +68,17 @@ sağ, alt ve sol
 
 Liste tanılmalrında da kısaltmalar mümkündür [sourcecode language='css']
 ul { list-style-type:square; list-style-position:inside;
-list-style-image:url(image.png); } [/sourcecode] Kısaltırsak;
+list-style-image:url(image.png); }  Kısaltırsak;
 [sourcecode language='css'] ul li { list-style:square inside
 url(image.png); } /* burda özel bir durum vardır eğer resim yoksa yedek
-olarak square özelliği gösterilecektir. */ [/sourcecode]
+olarak square özelliği gösterilecektir. */ 
 
 ###### 7. Sıfır '0' ın Kısaltma olarak kullanılması
 
 Kısaltmalarda son olarak '0' ın kullanımına değineceğiz. Normalde bir
 elemente değer ataması yapılırken değerin yanına birimi de yazılır(örn:
 3px, 0.2em vd.), Ancak sıfır '0' için bu zorunlu değilidir. [sourcecode
-language='css']padding:0;[/sourcecode] Bu durumun bir istisnası
+language='css']padding:0; Bu durumun bir istisnası
 mevcuttur oda yüzde değerlerinde atama yapılırken **0%**olarak atama
 yapılmalıdır.
 

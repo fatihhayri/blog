@@ -43,14 +43,16 @@ Orta kısmı iki kolona ayırıyorum. solOrtaAlan ve icerikalaniSag adını
 verdim. İki kolonu yan yana koymak için float ve genişlik tanımlarını
 yapıyoruz.
 
-[sourcecode language="html"] <div id="solOrtaAlan"> ... </div> <div
-id="icerikalaniSag"> ... </div> [/sourcecode]
+	:::html
+	 <div id="solOrtaAlan"> ... </div> <div
+id="icerikalaniSag"> ... </div> 
 
 CSS kodunu yazalım
 
-[sourcecode language="css"] #solOrtaAlan{float:left; width:650px;
+	:::css
+	 #solOrtaAlan{float:left; width:650px;
 margin:0 20px 0 10px; font:14px Arial, Helvetica, sans-serif;
-display:inline} #icerikalaniSag {float:left; width:300px} [/sourcecode]
+display:inline} #icerikalaniSag {float:left; width:300px} 
 
 **Sol Orta Alan**
 
@@ -62,7 +64,8 @@ Kodlamaya sol orta alandan devam ediyorum.
 
 **Başlık**
 
-[sourcecode language="html"]<h1>Marşlar</h1>[/sourcecode]
+	:::html
+	<h1>Marşlar</h1>
 
 Başlığımızı h1 ile tanımlıyoruz. Hem anlamlı kodlama hemde arama
 motorlarına uygun kodlama açısından sayfa başlığını h1 ile tanımlıyoruz.
@@ -74,20 +77,22 @@ burada gerekmediği için tanımları yapmadık.
 Sıralama kısmına yaparken bu alanı sırasız listeler ile yapmayı
 düşündüm.
 
-[sourcecode language="html"] <div id="siralamAlani"> <ul>
+	:::html
+	 <div id="siralamAlani"> <ul>
 <li><strong>Sıralama:</strong></li> <li><a
 href="">Karışık</a></li> <li><a href="">Popüler</a></li>
 <li><a href="">Oley!</a></li> <li><a href=""
 class="secili">Alfabetik</a></li> <li><a href="">En Çok
 Tıklanan</a></li> <li><a href="">En Son Eklenen</a></li>
-</ul> </div> [/sourcecode]
+</ul> </div> 
 
 Dışına bir katman atamamın nedeni ardalan resmi ve diğer öğeler ile olan
 ilişkileri ayarlamak içindir. Sıralama öğelerinden bir tanesine göre
 sıralama yapılacak ve başındaki ok ikonu aşağı bakacağı için bu öğeye
 bir sınıf tanımlıyorum diğerlerinden ayırmak için
 
-[sourcecode language="css"] div#siralamAlani{
+	:::css
+	 div#siralamAlani{
 background:url(../images/siralama_ard.gif) 0 0 no-repeat; height:38px;}
 div#siralamAlani ul{padding:10px 0 0 10px} div#siralamAlani ul
 li{display:inline;} div#siralamAlani ul li strong{display:block;
@@ -97,37 +102,40 @@ background:url(../images/genel_resim.gif) right -388px no-repeat;
 float:left; font:bold 14px Arial, Helvetica, sans-serif; color:#0c2b90;
 padding-right:15px; margin-right:10px} div#siralamAlani ul li
 a.secili{background:url(../images/genel_resim.gif) right -354px
-no-repeat;} [/sourcecode]
+no-repeat;} 
 
 **Listeleme Tablosu**
 
 Listeleme tablosunun bir kaç kolonu hariç ana sayfadaki tablodan bir
 farkı yoktur. Benzer bir anlayış ile burayı kodlayalım.
 
-[sourcecode language="css"] table.genelTablo{border-collapse:collapse; }
+	:::css
+	 table.genelTablo{border-collapse:collapse; }
 table.genelTablo th{font:bold 14px Arial, Helvetica, sans-serif;
 color:#000; padding:5px 2px; text-align:left} table.genelTablo
 th.ortala{text-align:center} table.genelTablo tr.enAlt td{border:0}
 table.genelTablo td{padding:1px 2px; font:14px Arial, Helvetica,
 sans-serif; color:#828282; border-bottom:1px solid #d5d5d5;}
-[/sourcecode]
+
 
 Listeleme tablosunun ana sayfadan farklı olan kısmı en sağdaki oylama
 gösterme alanı
 
-[sourcecode language="html"]<td><p class="oley"><strong
-class="ucKupa">3 Kupa</strong></p></td>[/sourcecode]
+	:::html
+	<td><p class="oley"><strong
+class="ucKupa">3 Kupa</strong></p></td>
 
 Sadece oyu göstereceğimiz için bu şekilde kodladık.
 
-[sourcecode language="css"] #solOrtaAlan table td
+	:::css
+	 #solOrtaAlan table td
 p.oley{background:url(../images/genel_resim.gif) 0 -483px no-repeat;
 width:93px; height:21px; margin:0} table td p.oley strong{display:block;
 background:url(../images/genel_resim.gif) 0 -459px no-repeat;
 text-indent:-9999px; height:21px} table td p.oley strong.birKupa{
 width:18px;} table td p.oley strong.ikiKupa{ width:37px;} table td
 p.oley strong.ucKupa{ width:56px;} table td p.oley strong.dortKupa{
-width:75px;} table td p.oley strong.besKupa{ width:95px;} [/sourcecode]
+width:75px;} table td p.oley strong.besKupa{ width:95px;} 
 
 #solOrtaAlan table td p.oley tanımını niye p.oley şeklinde yapmıyoruzda
 bu kadar uzun yapıyoruz derseniz, üstten gelen kalıtsal tanımlar alt
@@ -145,7 +153,8 @@ başlıyorum.
 kodladığım bir kodu kopyalıyorum. Bu yöntemi seçmemde programcı
 arkadaşım Mustafa'nın etkiside var.
 
-[sourcecode language="html"] <div class="sayfalama"> <ul>
+	:::html
+	 <div class="sayfalama"> <ul>
 <li><span>|&lt;</span></li> <li><span>Önceki</span></li>
 <li><span>1</span></li> <li><a href="#">2</a></li> <li
 ><a href="#">3</a></li> <li ><a href="#">4</a></li>
@@ -154,21 +163,22 @@ href="#">6</a></li> <li ><a href="#">7</a></li> <li
 ><a href="#">8</a></li> <li ><a href="#">9</a></li>
 <li ><a href="#">10</a></li> <li ><a
 href="#">Sonraki</a></li> <li class="sayfalmaSonu"><a
-href="#">&gt;|</a></li> </ul> </div> [/sourcecode]
+href="#">&gt;|</a></li> </ul> </div> 
 
 Sayısız listeler ile listelediğimiz sayfa sayılarının farklı bölümlerini
 belirlemek için <li><span>1</span></li> şeklinde tanımlama
 yapıyoruz. Normal bağlantılarıda <li><a href="">2</a></li>
 şeklinde tanımlıyoruz. CSS kodunu yazalım.
 
-[sourcecode language="css"] /* sayfalama */ div.sayfalama ul{margin:0
+	:::css
+	 /* sayfalama */ div.sayfalama ul{margin:0
 auto; width:530px; padding:10px 0 0 0; clear:left} div.sayfalama ul
 li{font:bold 12px Tahoma, Geneva, sans-serif; color:#fff; float:left;
 list-style:none; margin:0 2px; background:#80a3b7;} div.sayfalama ul li
 span{padding:5px 8px; display:block} div.sayfalama ul li a{font:bold
 12px Tahoma, Geneva, sans-serif ; color:#80a3b7; text-decoration:none;
 background-color:#f0f0f0; padding:5px 8px; display:block} div.sayfalama
-ul li a:hover{background-color:#80a3b7; color:#f0f0f0;} [/sourcecode]
+ul li a:hover{background-color:#80a3b7; color:#f0f0f0;} 
 
 **İçerik Alanı Sağ**
 
@@ -176,9 +186,10 @@ ul li a:hover{background-color:#80a3b7; color:#f0f0f0;} [/sourcecode]
 ve kategori listesi. Her iki alanda ana sayfada mevcut olduğu için aynı
 kodları buraya taşıyoruz.
 
-[sourcecode language="html"]<div id="sagBannerAlani"><img
+	:::html
+	<div id="sagBannerAlani"><img
 src="images/band_website_banner.jpg" width="300" height="250"
-alt="Web" /></div>[/sourcecode]
+alt="Web" /></div>
 
 Sağ banner alanı diye ayrı bir isim vermemin nedeni, kodlaması aynı olsa
 da site yayına girdikten sonra ana sayfa ve alt sayfaya farklı bannerlar
@@ -214,23 +225,26 @@ ekliyoruz.
 Her satırın altında bir çizgi olduğu için her satırı bir katman içine
 alıp bu katmanada bir sınıf tanılayarak bu işi çözebiliriz.
 
-[sourcecode language="css"].formAlani{border-top:1px solid #e0e0e0;
+	:::css
+	.formAlani{border-top:1px solid #e0e0e0;
 border-bottom:1px solid #e0e0e0; padding:10px; margin:10px 0;
-clear:left;}[/sourcecode]
+clear:left;}
 
 clear:left; tanımı her satırın soldan başlaması için yapıldı.
 
 İlk form alanı için bir label ve birde select alanımız var
 
-[sourcecode language="html"]<div class="formAlani"><label>Lig
+	:::html
+	<div class="formAlani"><label>Lig
 Seçiniz:</label><select><option>--------------</option><option>Turkcell
-Süper Lig</option></select></div>[/sourcecode]
+Süper Lig</option></select></div>
 
 CSS kodunu yazalım
 
-[sourcecode language="css"] .formAlani label{margin-right:10px;
+	:::css
+	 .formAlani label{margin-right:10px;
 width:135px; display:block; float:left;} .formAlani select{width:180px;
-font:12px Arial, Helvetica, sans-serif;} [/sourcecode]
+font:12px Arial, Helvetica, sans-serif;} 
 
 **Seçilen Ligdeki Takımlar Alanı**
 
@@ -238,22 +252,24 @@ Bu alanı kodlarken sayısız listeleri kullandım. Listelere bir genişlik
 ve float tanımı yaparak yan yana dize bilirim. Genişlikleri verirken 3
 tanesini yan yana duracak şekilde ayarladım.
 
-[sourcecode language="html"] <ul class="secilenLigler"> <li> <input
+	:::html
+	 <ul class="secilenLigler"> <li> <input
 type="radio" name="takimSec" /><div
 class="logoTrabzon">Trabzon</div> <label>Trabzon Spor Klubü
 Tesisleri</label></li> <li> <input type="radio" name="takimSec"
 /><div class="logoFenerbahce">Fenerbahçe</div>
 <label>Fenerbahçe</label></li> <li> <input type="radio"
 name="takimSec" /><div class="logoAnkara">Ankaraspor</div>
-<label>Ankaraspor</label></li> ....... </ul> [/sourcecode]
+<label>Ankaraspor</label></li> ....... </ul> 
 
 CSS kodları
 
-[sourcecode language="css"] ul.secilenLigler{width:575px; margin:0 auto}
+	:::css
+	 ul.secilenLigler{width:575px; margin:0 auto}
 ul.secilenLigler li{float:left; width:170px; margin:0 20px 10px 0;
 color:#828282;} ul.secilenLigler li div{float:left} ul.secilenLigler li
 label{position:relative; top:8px} ul.secilenLigler li input{float:left;
-position:relative; top:8px; margin-right:10px} [/sourcecode]
+position:relative; top:8px; margin-right:10px} 
 
 Her takım alanı için radyo butonu, logo için bir katman, takım adı için
 bir label tanımladım ve bunları yan yana dizmek için float:left tanımı
@@ -264,7 +280,8 @@ içindir.
 Yukarıda bahsettiğim gibi form alanlarını kodlarken sayısız
 listeleri(ul) kullanıyorum burada da
 
-[sourcecode language="html"] <div class="formAlani"> <ul>
+	:::html
+	 <div class="formAlani"> <ul>
 <li><label>Kategori
 Seçiniz:</label><select><option>--------------</option><option>Turkcell
 Süper Lig</option></select></li> <li><label>Tezahüratın
@@ -275,11 +292,12 @@ linki:</label><input type="text" /></li>
 tanıtım:</label><input type="text" /></li> <li><label
 class="genisEtiket">Kayıtlı bir tezahüratınız varsa buradan
 yükleyiniz:</label> <input type="file" /></li> </ul> </div>
-[/sourcecode]
+
 
 CSS kodu
 
-[sourcecode language="css"] .formAlani p{margin-bottom:10px} .formAlani
+	:::css
+	 .formAlani p{margin-bottom:10px} .formAlani
 label{margin-right:10px; width:135px; display:block; float:left;}
 .formAlani label.genisEtiket{width:310px} .formAlani
 textarea{width:625px; height:210px; border:1px solid #e8e8e8;
@@ -287,18 +305,20 @@ margin-top:8px; font:12px Arial, Helvetica, sans-serif; padding:3px;}
 .formAlani ul li{margin-bottom:10px} .formAlani input{border:1px solid
 #e8e8e8; font:12px Arial, Helvetica, sans-serif; padding:3px;
 width:300px} .formAlani select{width:180px; font:12px Arial, Helvetica,
-sans-serif;} .formAlani select.darSelect{width:75px;} [/sourcecode]
+sans-serif;} .formAlani select.darSelect{width:75px;} 
 
 Son olarakta gönder düğmesini koyuyorum.
 
-[sourcecode language="html"]<input type="button" value="Gönder"
-class="gonderBut" />[/sourcecode]
+	:::html
+	<input type="button" value="Gönder"
+class="gonderBut" />
 
 CSS kodu
 
-[sourcecode language="css"]input.gonderBut{width:170px; height:45px;
+	:::css
+	input.gonderBut{width:170px; height:45px;
 float:right; font:bold italic 24px Arial, Helvetica, sans-serif;
-color:#434343; cursor:pointer}[/sourcecode]
+color:#434343; cursor:pointer}
 
 Böylece Tezahürat Ekle sayfamızı bitirmiş oluyoruz.
 
@@ -313,19 +333,21 @@ Başlık ve açıklama kısmını kodluyoruz. Başlık ve ilk paragraf bir önce
 sayfa ile aynı. Başlık yanındaki logo ve takım ismi kısmına biraz
 değinelim.
 
-[sourcecode language="html"]<div id="dinleTakimi"><div
+	:::html
+	<div id="dinleTakimi"><div
 class="logoTrabzon">Trabzon</div>
-<span>Trabzon</span>[/sourcecode]
+<span>Trabzon</span>
 
 Logo için iki ayrı katman oluşturuyorum. Bunun nedeni logoların geneli
 için bir sınıf tanımlıyorum. Ayrıca ikinci katmanda her bir takım için
 tanımlanacak özellikler için. CSS kodunu yazarsak;
 
-[sourcecode language="css"] div#dinleTakimi{float:left; width:180px;
+	:::css
+	 div#dinleTakimi{float:left; width:180px;
 margin-left:20px; position:relative; top:-4px} div#dinleTakimi
 div{float:left;} div#dinleTakimi span{ position:relative; bottom:-10px;
 font:14px Arial, Helvetica, sans-serif; color:#828282;
-padding-left:6px} [/sourcecode]
+padding-left:6px} 
 
 Burada şöyle bir şey var. Başlığın uzunluğu belli olmadığı için sadece
 logo ve takım adına float tanımı ve genişlik tanımı yaptık. Böylece
@@ -335,7 +357,8 @@ duracaktır.
 Sekmeleri kodlarken daha önce yazdığım [jquery ile sekme yapımını][]
 anlattığım makaledeki gibi yapacağız.
 
-[sourcecode language="javascript"] <script type="text/javascript"
+	:::javascript
+	 <script type="text/javascript"
 src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <script type="text/javascript"> $(document).ready(function() {
 $('div.sekmeAlani ul#tezahuratSekme li a').not("div.sekmeAlani
@@ -344,13 +367,14 @@ li.pasif a").click(function(){
 $(this).parent('li').addClass('normal').siblings().removeClass('normal');
 var mevcutSinif = this.className.slice(0,2); $('div.sekmeAlani >
 div').hide().filter('div.'+mevcutSinif).show(); }); $('.sekmeAlani
-ul#tezahuratSekme li a:first').click(); }); </script> [/sourcecode]
+ul#tezahuratSekme li a:first').click(); }); </script> 
 
 Buradaki tek fark favoriler kısmını sekmeli yapının dışında tutmak için.
 jquery'nin :not() fonksiyonunu kullandık. Bu fonksiyonun anlamı bu
 elementlere uygula not fonksiyonu ile belirtilen elemana uygulamadır.
 
-[sourcecode language="html"] <div class="sekmeAlani"> <ul
+	:::html
+	 <div class="sekmeAlani"> <ul
 id="tezahuratSekme" class="kapsayamamaSorunu"> <li class="s1
 normal"><a href="javascript:void(0);" class="s1 dinle">Tezahürat
 Dinle</a></li> <li class="s2 pasif"><a href="javascript:void(0);"
@@ -360,11 +384,12 @@ Ekle</a></li> </ul> <div class="s1"> <div
 id="sesOynatici"><img src="images/ses_oynatici.gif" width="333"
 height="50" alt="ses" /></div> </div> <div class="s2"> <div
 id="videoOynatici"><img src="images/video_player.gif" width="320"
-height="260" alt="video" /></div> </div> </div> [/sourcecode]
+height="260" alt="video" /></div> </div> </div> 
 
 CSS kodlarını yazarsak;
 
-[sourcecode language="css"] ul#tezahuratSekme{border-bottom:1px solid
+	:::css
+	 ul#tezahuratSekme{border-bottom:1px solid
 #ccc; padding-left:30px} ul#tezahuratSekme li{float:left;
 height:39px;} ul#tezahuratSekme li a{display:block; padding:15px 45px 0
 50px; color:#000; font-size:14px} ul#tezahuratSekme
@@ -388,7 +413,7 @@ a:hover{background:url(../images/tez_din_ikon.gif) 18px -419px
 no-repeat;} ul#tezahuratSekme li#favEkle a#favorimedenCikar,
 ul#tezahuratSekme li#favEkle
 a#favorimedenCikar:hover{background:url(../images/tez_din_ikon.gif)
-18px -368px no-repeat;} [/sourcecode]
+18px -368px no-repeat;} 
 
 **Tezahürat Bilgi Alanı**
 
@@ -400,7 +425,8 @@ Bu alanı bir katman içine alıp ardalan rengini bu katman veriyoruz.
 İçine sol ve sağ kolonlar için iki katman oluşturup içerikleri buraya
 koyuyoruz. İçerikleride bir paragraf içinde kodluyoruz.
 
-[sourcecode language="html"] <div id="tezahuratBilgi"
+	:::html
+	 <div id="tezahuratBilgi"
 class="kapsayamamaSorunu"> <div id="tezahuratBilgiSol"> <p>Ekleyen:
 <a href="">Hasan</a> <span>27 Ağustos 2009'da
 Eklendi</span></p> <p>Link Paylaş: <input type="text"
@@ -414,11 +440,12 @@ class='ikiYildiz'>2</a></li><li><a href='#' title='3 puan'
 class='ucYildiz'>3</a></li><li><a href='#' title='4 puan'
 class='dortYildiz'>4</a></li><li><a href='#' title='5puan'
 class='besYildiz'>5</a></li></ul></p> </div> </div>
-[/sourcecode]
+
 
 CSS koduda şöyle olacak;
 
-[sourcecode language="css"] #tezahuratBilgi{margin:1px 0;
+	:::css
+	 #tezahuratBilgi{margin:1px 0;
 background-color:#eee; padding:13px 10px 0 10px}
 #tezahuratBilgiSol{float:left; width:390px} #tezahuratBilgiSol a{
 color:#0c2b90} #tezahuratBilgiSol p{margin-bottom:10px}
@@ -426,7 +453,7 @@ color:#0c2b90} #tezahuratBilgiSol p{margin-bottom:10px}
 Helvetica, sans-serif; color:#cccccc; width:200px}
 #tezahuratBilgiSag{float:left; width:240px} #tezahuratBilgiSag
 p{margin:0 0 15px 0} #tezahuratBilgiSag p span{float:left;}
-[/sourcecode]
+
 
 Etiketler, Önce Söyle, Sonra Yorumla vb. başlıkların ikonlarını sprite
 tekniği ile resimlerini hazırlayıp başlıkların başına ardalan resmi ile
@@ -435,9 +462,10 @@ koyuyoruz.
 Etiketler için padding ve ardalan rengi tanımlıyoruz. hover hallerini
 hazırlıyoruz.
 
-[sourcecode language="css"] div#etiketler a{padding:2px 4px;
+	:::css
+	 div#etiketler a{padding:2px 4px;
 background-color:#eee; color:#666; font-size:14px} div#etiketler
-a:hover{background-color:#666; color:#eee;} [/sourcecode]
+a:hover{background-color:#666; color:#eee;} 
 
 **Önce Söyle**
 
@@ -445,9 +473,10 @@ a:hover{background-color:#666; color:#eee;} [/sourcecode]
 blockquote içine koydum. Aslında bunun için de bir katman açıp
 koyabilirdik, tercih meselesi. Ardalan resmini sağ alta sabitliyoruz.
 
-[sourcecode language="css"] blockquote.tezahuratMetni{ background:#eee
+	:::css
+	 blockquote.tezahuratMetni{ background:#eee
 url(../images/tezahurat_zem.gif) right bottom no-repeat; padding:20px
-50px 20px 30px; margin-bottom:1px; font-style:italic} [/sourcecode]
+50px 20px 30px; margin-bottom:1px; font-style:italic} 
 
 **Yorum Alanı**
 
@@ -464,7 +493,8 @@ Son olarakta "Sende Yaz" kısmını kodluyoruz. Başlığı yukarıdaki
 başlıklar gibi yazıyoruz. Yorum yazma kısmına bir textarea yapıp
 genişlik, yükseklik ve kenar çizgisi tanımlarını yapıyoruz.
 
-[sourcecode language="css"] div.yorumalani{border-bottom:1px solid
+	:::css
+	 div.yorumalani{border-bottom:1px solid
 #e0e0e0; margin-bottom:12px} div.yAvatar{float:left; width:60px}
 div.yorumAlaniSag{float:left; width:590px} div.yorumAlaniSag
 strong{color:#a1a1a1; display:block; clear:left; margin:10px 0 5px 0}
@@ -484,7 +514,7 @@ font-weight:bold;} li.notr{color:#000; font-weight:bold;}
 h3.senYaz{background:url(../images/tez_din_ikon.gif) 0 -168px
 no-repeat; padding:15px 0 3px 32px} #solOrtaAlan textarea{border:1px
 solid #e1e1e1; width:642px; margin-bottom:20px; height:100px}
-[/sourcecode]
+
 
 Tezahürat Dinle/İzle sayfasınıda tamamlamış oluyoruz.
 
@@ -504,24 +534,27 @@ paragraflar, tablo yapısı, resimler, listeler, vb. yapıları içerir.
 Fanatikmarşlar.com'un şablon sayfasına baktığımızda başlık, paragraf ve
 uyarı mesajları şeklinde oluşmaktadır.
 
-[sourcecode language="css"] #anaKapsul h1.hata{color:#e40000}
-#anaKapsul h1.onay{color:#1f6600} [/sourcecode]
+	:::css
+	 #anaKapsul h1.hata{color:#e40000}
+#anaKapsul h1.onay{color:#1f6600} 
 
 Bilgi kutusunu oluştururken yuvarlak kenarlı olduğu için, iki elamana
 ihtiyaç var. Bunun için kapsayıcı div ve içine paragrafa koyduk.
 
-[sourcecode language="html"] <div class="bilgiKutusu">
+	:::html
+	 <div class="bilgiKutusu">
 <p><strong>Bu kullanıcı adı zaten alınmış, başka bir tane deneyin.
-</strong></p> </div> [/sourcecode]
+</strong></p> </div> 
 
 CSS Kodları
 
-[sourcecode language="css"] div.bilgiKutusu{ background:#2d2d2d
+	:::css
+	 div.bilgiKutusu{ background:#2d2d2d
 url(../images/bilgi_kutusu.gif) 0 0 no-repeat; margin-bottom:20px;
 font:bold 14px Arial, Helvetica, sans-serif; color:#fff}
 div.bilgiKutusu p{background:url(../images/bilgi_kutusu.gif) -650px
 bottom no-repeat; padding:10px;} div.bilgiKutusu p
-strong{color:#ffc000} [/sourcecode]
+strong{color:#ffc000} 
 
 Alt sayfaların kodlamasını böylelikle bitirdik. Site kodlarken değişik
 tasarımlarda olsa genelde benzer yapılar olduğu için yaklaşık olarak

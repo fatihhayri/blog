@@ -33,7 +33,7 @@ anti-aliased metinlerin kullanıldığı durumlarda kullanılır.
 -   [Muz][]
 -   [Kivi][]
 
-[/sourcecode]
+
 
 Görüldüğü gibi diğer menü başlangıcından farkı olmayan-bir ek hariç- bir
 kodlama. Hariç olan ek her menu elemanına bir **id** atamamız. Çünkü her
@@ -51,14 +51,14 @@ Menüdeki margin, padding ve imgeleri kaldıralım. Boyutlarını ve konumunu
 tanımlayalım:
 
 [sourcecode language='css'] ul#menu { height: 54px; width: 500px;
-margin: 0; padding: 0; position: relative; } [/sourcecode]
+margin: 0; padding: 0; position: relative; } 
 
 ![][1]
 
 Menümüzü yatay olarak sıralamak için
 
 [sourcecode language='css'] ul#menu li { list-style: none; position:
-absolute; } [/sourcecode]
+absolute; } 
 
 ![][2]
 
@@ -67,7 +67,7 @@ tanımlama yapıyoruz, hepsini kendine has kapsama alanı olması için
 blokladık(display:block) ve konumlandırdık(postion:relative).
 
 [sourcecode language='css'] ul#menu li a { height: 54px; display:
-block; position:relative; } [/sourcecode]
+block; position:relative; } 
 
 Her menü elemanı için kendi genişliği ve arkaplan resmindeki(menu.jpg)
 yerini belirleyelim.
@@ -77,19 +77,19 @@ url(images/menu.jpg) 0 0 no-repeat; } #armut a{ width:142px;
 background: url(images/menu.jpg) -130px 0 no-repeat; } #muz a{
 width:120px; background: url(images/menu.jpg) -272px 0 no-repeat; }
 #kivi a{ width:108px; background: url(images/menu.jpg) -392px 0
-no-repeat; } [/sourcecode]
+no-repeat; } 
 
 ve tüm menü elementlerinin soldan konumu belirleyelim.
 
 [sourcecode language='css'] #elma {left: 0px;} #armut {left: 130px;}
-#muz {left: 272px;} #kivi {left: 392px;} [/sourcecode]
+#muz {left: 272px;} #kivi {left: 392px;} 
 
 ![][3]
 
 Resimler üzerindeki metinleri kaldırmak için
 
 [sourcecode language='css'] ul#menu li a { text-indent: -9999px;
-text-decoration: none; } [/sourcecode]
+text-decoration: none; } 
 
 ![][4]
 
@@ -102,7 +102,7 @@ url(images/menu.jpg) 0 -54px no-repeat; } #armut a:hover{ width:142px;
 background: url(images/menu.jpg) -130px -54px no-repeat; } #muz
 a:hover{ width:120px; background: url(images/menu.jpg) -272px -54px
 no-repeat; } #kivi a:hover{ width:108px; background:
-url(images/menu.jpg) -392px -54px no-repeat; } [/sourcecode]
+url(images/menu.jpg) -392px -54px no-repeat; } 
 
 ![][5]
 
@@ -117,12 +117,12 @@ Bizde öyle yapalım. Mesela **Muz** bölümünde olduğumuzu farz edelim.
 -   [Muz][]
 -   [Kivi][]
 
-[/sourcecode] [sourcecode language='css'] #elma a.secili{ width:130px;
+ [sourcecode language='css'] #elma a.secili{ width:130px;
 background: url(images/menu.jpg) 0 -54px no-repeat; } #armut a.secili{
 width:142px; background: url(images/menu.jpg) -130px -54px no-repeat; }
 #muz a.secili{ width:120px; background: url(images/menu.jpg) -272px
 -54px no-repeat; } #kivi a.secili{ width:108px; background:
-url(images/menu.jpg) -392px -54px no-repeat; } [/sourcecode]
+url(images/menu.jpg) -392px -54px no-repeat; } 
 <iframe src="/dokumanlar/menu_5.html" width="500" height="110" frameborder="0" scrolling="no"></iframe>
 
 Örnek kodları indirmek için [tıklayınız.][]
