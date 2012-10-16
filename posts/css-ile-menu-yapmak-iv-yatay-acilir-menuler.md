@@ -11,23 +11,23 @@ yeniden düzenlenmiştir.
 [Bir önceki makalede][] dikey açılır menüleri gördük. Bu makalede yatay
 açılır menülere bir örnek vereceğiz. Html kodumuz aynı olsun <!--more-->
 
-[sourcecode language="html"] \<ul id="menu" \> \<li\>\<a
-href="\#"\>Anasayfa\</a\>\</li\> \<li\>\<a href="\#"\>Haberler\</a\>
-\<ul\> \<li\>\<a href="\#"\>şžirket Haberleri \</a\>\</li\> \<li\>\<a
-href="\#"\>Yurt içi Haberleri \</a\>\</li\> \<li\>\<a href="\#"\>Yurt
-dışı Haberleri\</a\>\</li\> \</ul\> \</li\> \<li\>\<a
-href="\#"\>Ürünler\</a\> \<ul\> \<li\>\<a
-href="\#"\>Tencere\</a\>\</li\> \<li\>\<a href="\#"\>Tava\</a\>\</li\>
-\<li\>\<a href="\#"\>Ütü\</a\>\</li\> \<li\>\<a href="\#"\>Tost Makinesi
-\</a\>\</li\> \<li\>\<a href="\#"\>El Süpürgesi \</a\>\</li\> \</ul\>
-\</li\> \</ul\> [/sourcecode]
+[sourcecode language="html"] <ul id="menu" > <li><a
+href="#">Anasayfa</a></li> <li><a href="#">Haberler</a>
+<ul> <li><a href="#">şžirket Haberleri </a></li> <li><a
+href="#">Yurt içi Haberleri </a></li> <li><a href="#">Yurt
+dışı Haberleri</a></li> </ul> </li> <li><a
+href="#">Ürünler</a> <ul> <li><a
+href="#">Tencere</a></li> <li><a href="#">Tava</a></li>
+<li><a href="#">Ütü</a></li> <li><a href="#">Tost Makinesi
+</a></li> <li><a href="#">El Süpürgesi </a></li> </ul>
+</li> </ul> [/sourcecode]
 
 ![][]
 
 İlk olarak satır başı boşluklarını ve imgeleri kaldıralım. Dikey menüde
 olduğu gibi.
 
-[sourcecode language="css"] ul\#menu, ul\#menu ul { list-style: none;
+[sourcecode language="css"] ul#menu, ul#menu ul { list-style: none;
 margin: 0; padding: 0; } [/sourcecode]
 
 Daha sonra menümüzü yatay hale getirmek için **float**özelliğini
@@ -47,7 +47,7 @@ olacaktır ve bu kullanım ile çok güzel sonuçlar elde edeceğiz.
 [CSS ile konumlandırma(positioning)][]
 
 </div>
-[sourcecode language="css"] ul\#menu li { float: left; position:
+[sourcecode language="css"] ul#menu li { float: left; position:
 relative; width: 150px; } [/sourcecode]
 
 Sonra ikincil linkleri sayfaya ilk açıldığında görünmez(display:none)
@@ -55,35 +55,35 @@ yapalım. Birincil linklere göre konumlandırmak için postion:absolute
 özelliği ve top:19px (satır yüksekliği 15px + 2px alttan(sonra
 ekleyeceğiz) + 2px üstten(sonra ekleyeceğiz)) özelliğini kullanalım.
 
-[sourcecode language="css"] ul\#menu li ul { display: none; position:
-absolute; top: 19px; /\* yukseklik 15px + sonradan eklenecek paddingler
-4px toplam 19px \*/ left: 0; } [/sourcecode]
+[sourcecode language="css"] ul#menu li ul { display: none; position:
+absolute; top: 19px; /* yukseklik 15px + sonradan eklenecek paddingler
+4px toplam 19px */ left: 0; } [/sourcecode]
 
 Yalnız burada IE sorun çıkaracaktır. IE ve Opera ikincil menüleri
 konumlandırmasında sorun çıkarır, bunu engellemek için:
 
-[sourcecode language="css"] ul\#menu li \> ul { top: auto; left: auto; }
+[sourcecode language="css"] ul#menu li > ul { top: auto; left: auto; }
 [/sourcecode]
 
 ![][1]
 
 Görünümü biraz güzelleştirelim:
 
-[sourcecode language="css"] ul\#menu li a { font: bold 11px arial,
+[sourcecode language="css"] ul#menu li a { font: bold 11px arial,
 helvetica, sans-serif; display: block; border-width: 1px; border-style:
-solid; border-color: \#ccc \#888 \#555 \#bbb; margin: 0; padding: 2px
-3px; color: \#000; background: \#efefef; text-decoration: none; }
+solid; border-color: #ccc #888 #555 #bbb; margin: 0; padding: 2px
+3px; color: #000; background: #efefef; text-decoration: none; }
 [/sourcecode]
 
 ve rollover hali için:
 
-[sourcecode language="css"] ul\#menu li a:hover { color: \#a00;
-background: \#fff; } [/sourcecode]
+[sourcecode language="css"] ul#menu li a:hover { color: #a00;
+background: #fff; } [/sourcecode]
 
 Sonra birincil linklerin üzerine gelince ikincil linklerin görünmesi
 için:
 
-[sourcecode language="css"] ul\#menu li:hover ul { display: block; }
+[sourcecode language="css"] ul#menu li:hover ul { display: block; }
 [/sourcecode]
 
 [Önceki makalede][Bir önceki makalede] belirttiğimiz gibi bu kod IE'de
@@ -91,7 +91,7 @@ için:
 
 [sourcecode language="javascript"] startList = function() { if
 (document.all&&document.getElementById) { navRoot =
-document.getElementById("menu"); for (i=0; i\<navRoot.childNodes.length;
+document.getElementById("menu"); for (i=0; i<navRoot.childNodes.length;
 i++) { node = navRoot.childNodes[i]; if (node.nodeName=="LI") {
 node.onmouseover=function() { this.className+=" over"; }
 node.onmouseout=function() { this.className=this.className.replace("
@@ -99,11 +99,11 @@ over", ""); } } } } } window.onload=startList; [/sourcecode]
 
 Ayrıca aşağıdaki kodu da eklemeliyiz.
 
-[sourcecode language="css"] ul\#menu li:hover ul, ul\#menu li.over ul{
+[sourcecode language="css"] ul#menu li:hover ul, ul#menu li.over ul{
 display: block; } [/sourcecode]
 
-Önemli bir not olarak koddaki <span class="alternatifard">*\<ul
-id="**menu**" \>*</span> ve javascriptteki
+Önemli bir not olarak koddaki <span class="alternatifard">*<ul
+id="**menu**" >*</span> ve javascriptteki
 <span class="alternatifard">*navRoot =
 document.getElementById("**menu**");*</span> aynı olmasına dikkat
 edelim.
@@ -124,7 +124,7 @@ alt kademeli, değişik renklerde ve değişik ebatlarda menü yapılabilir.
 
 -   [http://www.alistapart.com/articles/dropdowns/][]
 -   [http://www.compassdesigns.net/][]
--   [http://www.tanfa.co.uk/css/examples/menu/tutorial-h.asp\#hs6][]
+-   [http://www.tanfa.co.uk/css/examples/menu/tutorial-h.asp#hs6][]
 -   [http://www.cssplay.co.uk/menus/index.html][]
 
 </p>
@@ -137,5 +137,5 @@ alt kademeli, değişik renklerde ve değişik ebatlarda menü yapılabilir.
   [indir]: http://www.fatihhayrioglu.com/dokumanlar/menu4yeni.zip
   [http://www.alistapart.com/articles/dropdowns/]: http://www.alistapart.com/articles/dropdowns/
   [http://www.compassdesigns.net/]: http://www.compassdesigns.net/tutorials/joomla-tutorials/css-drop-down-menu.html
-  [http://www.tanfa.co.uk/css/examples/menu/tutorial-h.asp\#hs6]: http://www.tanfa.co.uk/css/examples/menu/tutorial-h.asp#hs6
+  [http://www.tanfa.co.uk/css/examples/menu/tutorial-h.asp#hs6]: http://www.tanfa.co.uk/css/examples/menu/tutorial-h.asp#hs6
   [http://www.cssplay.co.uk/menus/index.html]: http://www.cssplay.co.uk/menus/index.html

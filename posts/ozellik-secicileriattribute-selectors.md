@@ -25,7 +25,7 @@ sağlar. Bir örnek verecek olursak sayfamızdaki bir resme(örn:
 grafik.gif) kenarlık ataması yapmak istersek:
 
 [sourcecode language="css"] img[src="grafik.gif"]{ border: 1px solid
-\#000; } [/sourcecode]
+#000; } [/sourcecode]
 
 Dört çeşit Özellik Seçicisi vardır.
 
@@ -38,19 +38,19 @@ yapmamızı sağlar.
 
 Bir örnek yapalım
 
-[sourcecode language="html"] \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"\> \<html
-xmlns="http://www.w3.org/1999/xhtml"\> \<head\> \<meta
-http-equiv="Content-Type" content="text/html; charset=utf-8" /\>
-\<title\>CSS'in yapısı\</title\> \<style type="text/css"\> img[alt] {
-border: 5px solid lime } \</style\> \</head\> \<body\> \<img
-src="logo.gif" alt="Logo" width="32" height="41" /\> \</body\> \</html\>
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
+xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
+http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CSS'in yapısı</title> <style type="text/css"> img[alt] {
+border: 5px solid lime } </style> </head> <body> <img
+src="logo.gif" alt="Logo" width="32" height="41" /> </body> </html>
 [/sourcecode]
 
 Örneği görmek için [tıklayınız.][]
 
-Yukarıdaki kodlamada birden fazla \<img\> tanımı vardır. Ama biz sadece
+Yukarıdaki kodlamada birden fazla <img> tanımı vardır. Ama biz sadece
 alt tanımı yaptıklarımıza belli özellikler atamak istiyoruz. Bunun için
 Basit Özellik Seçicisini kullanabiliriz.
 
@@ -73,22 +73,22 @@ Bir etiketin özellik değerine göre tanımlama yapmamızı sağlar.
 
 Bir örnek yapalım
 
-[sourcecode language="html"] \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"\> \<html
-xmlns="http://www.w3.org/1999/xhtml"\> \<head\> \<meta
-http-equiv="Content-Type" content="text/html; charset=utf-8" /\>
-\<title\>CSS'in yapısı\</title\> \<style type="text/css"\>
-input[type="text"] { border: 1px solid \#000; width: 150px; } \</style\>
-\</head\> \<body\> \<p\>Adınız : \<input type="text" name="ad" /\>\</p\>
-\<p\>Cinsiyetiniz: \<input type="radio" name="cinsiyet" id="erkek" /\>
-Erkek \<input type="radio" name="cinsiyet" id="kadin" /\> Kadın \</p\>
-\</body\> \</html\> [/sourcecode]
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
+xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
+http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CSS'in yapısı</title> <style type="text/css">
+input[type="text"] { border: 1px solid #000; width: 150px; } </style>
+</head> <body> <p>Adınız : <input type="text" name="ad" /></p>
+<p>Cinsiyetiniz: <input type="radio" name="cinsiyet" id="erkek" />
+Erkek <input type="radio" name="cinsiyet" id="kadin" /> Kadın </p>
+</body> </html> [/sourcecode]
 
 Örneği görmek için [tıklayınız.][1]
 
 Genelde formlarda tanımlama yaparken sadece metin girisi yaptıgımız
-alanlara atama yapmakta zorlanırız. Bunun sebebi \<input\> etiketini
+alanlara atama yapmakta zorlanırız. Bunun sebebi <input> etiketini
 sadece metin girisi için kullanılmamasıdır, radyo buton ve isaretleme
 kutuları içinde bu etiketin kullanılmasıdır. Özellik Degeri Seçicisi bu
 sorunu kökten çözer. Yukarıdaki örnekte görüldügü gibi
@@ -113,18 +113,18 @@ tanımlama yapmamızı sağlar.
 
 Bir örnek yapalım
 
-[sourcecode language="html"] \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"\> \<html
-xmlns="http://www.w3.org/1999/xhtml"\> \<head\> \<meta
-http-equiv="Content-Type" content="text/html; charset=utf-8" /\>
-\<title\>CSS'in yapısı\</title\> \<style type="text/css"\>
-a[title\~="Google"] { text-decoration:overline; } \</style\> \</head\>
-\<body\> \<p\>\<a href="http://www.google.com" title="Google
-seç"\>gooogle \</a\> \</p\> \<p\>\<a href="http://www.yahoo.com"
-title="Yahoo seç"\>yahoo \</a\> \</p\> \<p\>\<a
-href="http://www.fatihhayrioglu.com" title="Fatih"\>fatih \</a\> \</p\>
-\</body\> \</html\> [/sourcecode]
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
+xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
+http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CSS'in yapısı</title> <style type="text/css">
+a[title~="Google"] { text-decoration:overline; } </style> </head>
+<body> <p><a href="http://www.google.com" title="Google
+seç">gooogle </a> </p> <p><a href="http://www.yahoo.com"
+title="Yahoo seç">yahoo </a> </p> <p><a
+href="http://www.fatihhayrioglu.com" title="Fatih">fatih </a> </p>
+</body> </html> [/sourcecode]
 
 Örneği görmek için [tıklayınız.][2]
 
@@ -151,16 +151,16 @@ göre tanımlama yapmamızı sağlar.
 
 Bir örnek yapalım
 
-[sourcecode language="html"] \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"\> \<html
-xmlns="http://www.w3.org/1999/xhtml"\> \<head\> \<meta
-http-equiv="Content-Type" content="text/html; charset=utf-8" /\>
-\<title\>CSS'in yapısı\</title\> \<style type="text/css"\>
-\*[lang|="en"] { color: red; } \</style\> \</head\> \<body\> \<h1
-lang="en"\>Hello!\</h1\> \<p lang="en-us"\>Greetings!\</p\> \<div
-lang="en-au"\>G’day!\</div\> \<p lang="fr"\>Bonjour!\</p\> \<h4
-lang="cy-en"\>Jrooana!\</h4\> \</body\> \</html\> [/sourcecode]
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
+xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
+http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CSS'in yapısı</title> <style type="text/css">
+*[lang|="en"] { color: red; } </style> </head> <body> <h1
+lang="en">Hello!</h1> <p lang="en-us">Greetings!</p> <div
+lang="en-au">G’day!</div> <p lang="fr">Bonjour!</p> <h4
+lang="cy-en">Jrooana!</h4> </body> </html> [/sourcecode]
 
 Örneği görmek için [tıklayınız.][3]
 

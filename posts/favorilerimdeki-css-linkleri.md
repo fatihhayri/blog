@@ -41,7 +41,7 @@ Category: CSS
 -   [W3C - Baba][]
 -   [Web Design, CSS İpuclari][]
 -   [Yahoo! Groups][]
--   [/\* Position Is Everything \*/ Modern browser bugs explained in
+-   [/* Position Is Everything */ Modern browser bugs explained in
     detail!][]
 -   [Web Design References: Cascading Style Sheets][]
 -   [Real World Style][]
@@ -87,7 +87,7 @@ Category: CSS
   [W3C - Baba]: http://www.w3c.org/Style/CSS/
   [Web Design, CSS İpuclari]: http://webdesign.about.com/cs/css/qt/
   [Yahoo! Groups]: http://groups.yahoo.com/group/highfivebabble/messagesearch/13016?query=css
-  [/\* Position Is Everything \*/ Modern browser bugs explained in
+  [/* Position Is Everything */ Modern browser bugs explained in
   detail!]: http://www.positioniseverything.net/index.php
   [Web Design References: Cascading Style Sheets]: http://www.d.umn.edu/itss/support/Training/Online/webdesign/css.html
   [Real World Style]: http://realworldstyle.com/

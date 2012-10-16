@@ -3,7 +3,7 @@ Date: 2008-01-10 22:32
 Category: CSS, XHTML
 Tags: CSS, div yüksekliği sorunu, ie, internet explorer, XHTML
 
-[sourcecode language='css'] our\_style { height: 1px; width: 100px;
+[sourcecode language='css'] our_style { height: 1px; width: 100px;
 background-color: black; }[/sourcecode] [sourcecode language='html']
 
 <div class="test">

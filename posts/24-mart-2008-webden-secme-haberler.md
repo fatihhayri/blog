@@ -24,7 +24,7 @@ Tags: Ajax, ASP.NET, flash, form, Google Analytics, mootools, safari, Windows Pr
 -   Apple'ın tarayıcısı Safari'nin yeni sürümünde web geliştiriciler
     için güzel bir araç var sitenizi farklı tarayıcılardaki görünümünü
     bizlere sunuyor. Gerçekten hoş olmuş. Başlangıçta bu menü pasif
-    geliyor aktifleştirmek için Edit -\> Preferences.. oradanda Advanced
+    geliyor aktifleştirmek için Edit -> Preferences.. oradanda Advanced
     sekmesinden "Show Devolop menu in menu bar" yazısını yanındaki
     işaret kutucuğunu işaretlemelisiniz. [Bağlantı][8]
 -   "CSS kod düzeni ve okunabilirlik" [Bağlantı][9]

@@ -19,7 +19,7 @@ sorunlar yaşanabilir.
 Bu özellik uygulana eleman içindeki akışın yönünü belirler.
 
 <div class="cssozelliktanimi">
-Yapısı : direction: \<deger\>  
+Yapısı : direction: <deger>  
 Aldığı Değerler : ltr | rtl | inherit  
 Başlangıç değeri: ltr  
 Kalıtsallık: Var
@@ -39,7 +39,7 @@ body elemanına vererek tüm siteyi sağdan sola doğru akmasını
 sağlayabildiğimiz gibi, sadece bir eleman ve içeriğinide sağdan sola
 doğru akmasını sağlayabiliyoruz.
 
-[css] div\#deneme{ direction:rtl } [/css]
+[css] div#deneme{ direction:rtl } [/css]
 
 <div class="tarayiciuyum">
 **Browser Uyumu:**  

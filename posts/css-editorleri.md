@@ -29,7 +29,7 @@ erişim vb.
 -   Windows için **TopStyle** [http://www.bradsoft.com/topstyle/][]
 
 -   Windows ve Mac OS X için **Style Master**
-    [http://www.westciv.com/style\_master/][]
+    [http://www.westciv.com/style_master/][]
 
 -   Mac OS X **CSSEdit** [http://www.macrabbit.com/cssedit/][]
 
@@ -64,7 +64,7 @@ editör daha mevcuttur.
 </p>
 
   [http://www.bradsoft.com/topstyle/]: http://www.bradsoft.com/topstyle/
-  [http://www.westciv.com/style\_master/]: http://www.westciv.com/style_master/
+  [http://www.westciv.com/style_master/]: http://www.westciv.com/style_master/
   [http://www.macrabbit.com/cssedit/]: http://www.macrabbit.com/cssedit/
   [http://www.microsoft.com/frontpage/]: http://www.microsoft.com/frontpage/
   [http://www.macromedia.com/software/dreamweaver/]: http://www.macromedia.com/software/dreamweaver/

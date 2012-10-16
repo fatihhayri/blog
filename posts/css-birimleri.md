@@ -56,8 +56,8 @@ Bir pika 12 noktaya bölünür.</span></a> Örnek: font-size:2pc
 
 Yüzde değerleri her zaman diğer elementlere göre göreceli değerlerdir.
 
-[sourcecode language="css"] /\* elementin font-size değerinin %150 si
-dir \*/ h4 { line-height: 150% } /\* satır genişliğinin 10% nu \*/ p {
+[sourcecode language="css"] /* elementin font-size değerinin %150 si
+dir */ h4 { line-height: 150% } /* satır genişliğinin 10% nu */ p {
 text-indent: 10% } [/sourcecode]
 
 ### Renk Birimleri
@@ -69,20 +69,20 @@ RGB tanımlamasıda dört çeşittir.
 
 Renklerin ingilizce isimleri kullanılarak tanımlama yapılabilir.
 
-[sourcecode language="css"] p { color:black; } /\* renk tanımı siyah
-olarak yapılıyor\*/ h1{ background-color: red; } /\* h1 başlığının
-ardalanı kırmızı tanımlanıyor \*/ [/sourcecode]
+[sourcecode language="css"] p { color:black; } /* renk tanımı siyah
+olarak yapılıyor*/ h1{ background-color: red; } /* h1 başlığının
+ardalanı kırmızı tanımlanıyor */ [/sourcecode]
 
 **RGB Renk Değerleri**
 
 CSS'de renk tanımlamak için kullanılan asıl yöntem budur. RGB
 tanımlamanında dört çeşidi vardır.
 
-**\#RRGGBB :** Burada, **RR**, **GG**, ve **BB,**sırasıylakırmızı (red),
+**#RRGGBB :** Burada, **RR**, **GG**, ve **BB,**sırasıylakırmızı (red),
 yeşil (green) ve mavi (blue) renklerin toplam renk içindeki yoğunluğunu
-gösteren hekzadesimal sayılardır. Örnek: color:\#ff0000; (kırmızı)
+gösteren hekzadesimal sayılardır. Örnek: color:#ff0000; (kırmızı)
 
-**\#RGB:** Yukardaki yöntemin kısaltmasıdır. Aynı değerleri taşıyan grup
+**#RGB:** Yukardaki yöntemin kısaltmasıdır. Aynı değerleri taşıyan grup
 değerleri birleştirilir. Örnek: color:f00; (kırmızı)
 
 **rgb(R,G,B):**Bu RGB renklerinin ondalık sayma düzeninde 0 ile 255

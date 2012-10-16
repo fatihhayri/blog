@@ -25,36 +25,36 @@ Stil uygulanmamış listeyi(ham HTML) görmek için [tıklayınız.][]
 
 Bu kısım liste elemanları ile oluşturulmaktadır.
 
-[sourcecode language="html"] \<div class="smallbox"\> \<h3\>Okuduğum
-kitaplar\</h3\> \<ul\> \<li\>\<a
+[sourcecode language="html"] <div class="smallbox"> <h3>Okuduğum
+kitaplar</h3> <ul> <li><a
 href="http://www.fatihhayrioglu.com/?p=468" title="Sürgünden Soykırma
-Ermeni İddaları – Yusuf Halaçoğlu"\>Sürgünden Soykırma Ermeni İddaları –
-Yusuf Halaçoğlu\</a\>\</li\> \<li\>\<a
+Ermeni İddaları – Yusuf Halaçoğlu">Sürgünden Soykırma Ermeni İddaları –
+Yusuf Halaçoğlu</a></li> <li><a
 href="http://www.fatihhayrioglu.com/?p=465" title="Avrupa Türkiyesi’ni
-Kaybımız Rumeli’nin Elden Çıkışı – Yılmaz Öztuna"\>Avrupa Türkiyesi’ni
-Kaybımız Rumeli’nin Elden Çıkışı – Yılmaz Öztuna\</a\>\</li\> \<li\>\<a
+Kaybımız Rumeli’nin Elden Çıkışı – Yılmaz Öztuna">Avrupa Türkiyesi’ni
+Kaybımız Rumeli’nin Elden Çıkışı – Yılmaz Öztuna</a></li> <li><a
 href="http://www.fatihhayrioglu.com/?p=458" title="Batının Oluşumu –
-Christopher DAWSON"\>Batının Oluşumu – Christopher DAWSON\</a\>\</li\>
-\<li\>\<a href="http://www.fatihhayrioglu.com/?p=439" title="Ölüm Daha
-Güzeldi – Mehmet Niyazi "\>Ölüm Daha Güzeldi – Mehmet Niyazi
-\</a\>\</li\> \<li\>\<a href="http://www.fatihhayrioglu.com/?p=436"
-title="Petrol Fırtınası – Raif Karadağ"\>Petrol Fırtınası – Raif
-Karadağ\</a\>\</li\> \<li\>\<a
+Christopher DAWSON">Batının Oluşumu – Christopher DAWSON</a></li>
+<li><a href="http://www.fatihhayrioglu.com/?p=439" title="Ölüm Daha
+Güzeldi – Mehmet Niyazi ">Ölüm Daha Güzeldi – Mehmet Niyazi
+</a></li> <li><a href="http://www.fatihhayrioglu.com/?p=436"
+title="Petrol Fırtınası – Raif Karadağ">Petrol Fırtınası – Raif
+Karadağ</a></li> <li><a
 href="http://www.fatihhayrioglu.com/?p=426" title="CSS Mastery: Advanced
-Web Standards Solutions – Andy Budd"\>CSS Mastery: Advanced Web
-Standards Solutions – Andy Budd\</a\>\</li\> \<li\>\<a
+Web Standards Solutions – Andy Budd">CSS Mastery: Advanced Web
+Standards Solutions – Andy Budd</a></li> <li><a
 href="http://www.fatihhayrioglu.com/?p=415" title="Tarih Boyunca Doğu
-Karadeniz’de Etnik Yapılanmalar ve Pontus – Haşim Albayrak"\>Tarih
+Karadeniz’de Etnik Yapılanmalar ve Pontus – Haşim Albayrak">Tarih
 Boyunca Doğu Karadeniz’de Etnik Yapılanmalar ve Pontus – Haşim
-Albayrak\</a\>\</li\> \<li\>\<a
+Albayrak</a></li> <li><a
 href="http://www.fatihhayrioglu.com/?p=406" title="Süleyman Çelebi ve
-Mevlid-i Şerif – Ahmed Aymutlu"\>Süleyman Çelebi ve Mevlid-i Şerif –
-Ahmed Aymutlu\</a\>\</li\> \<li\>\<a
+Mevlid-i Şerif – Ahmed Aymutlu">Süleyman Çelebi ve Mevlid-i Şerif –
+Ahmed Aymutlu</a></li> <li><a
 href="http://www.fatihhayrioglu.com/?p=402" title="İçimizde Bir Yer –
-Ahmet Altan"\>İçimizde Bir Yer – Ahmet Altan\</a\>\</li\> \<li\>\<a
+Ahmet Altan">İçimizde Bir Yer – Ahmet Altan</a></li> <li><a
 href="http://www.fatihhayrioglu.com/?p=398" title="Adnan Menderes’in
-Günlüğü – Taşkın Tuna"\>Adnan Menderes’in Günlüğü – Taşkın
-Tuna\</a\>\</li\> \</ul\> \</div\> [/sourcecode]
+Günlüğü – Taşkın Tuna">Adnan Menderes’in Günlüğü – Taşkın
+Tuna</a></li> </ul> </div> [/sourcecode]
 
 Yapacağımız düzenlemeyi düşünerek ilk olarak ardalanı oturtalım, ardalan
 resmi için aşağıdaki resimleri hazırladım:
@@ -65,37 +65,37 @@ Kullanılacak ardalanlar
 Alt kısımdaki diğer alanlardan ayırmak için bazı id tanımlamaları
 yaptım:
 
-[sourcecode language="html" highlight="1,3"] \<div
-id="okudugumKitaplarKapsul" class="smallbox"\> \<h3\>Okuduğum
-kitaplar\</h3\> \<ul id="okudugumKitaplar"\> \<li\>\<a
+[sourcecode language="html" highlight="1,3"] <div
+id="okudugumKitaplarKapsul" class="smallbox"> <h3>Okuduğum
+kitaplar</h3> <ul id="okudugumKitaplar"> <li><a
 href="http://www.fatihhayrioglu.com/?p=468" title="Sürgünden Soykırma
-Ermeni İddaları – Yusuf Halaçoğlu"\>Sürgünden Soykırma Ermeni İddaları –
-Yusuf Halaçoğlu\</a\>\</li\> \<li\>\<a
+Ermeni İddaları – Yusuf Halaçoğlu">Sürgünden Soykırma Ermeni İddaları –
+Yusuf Halaçoğlu</a></li> <li><a
 href="http://www.fatihhayrioglu.com/?p=465" title="Avrupa Türkiyesi’ni
-Kaybımız Rumeli’nin Elden Çıkışı – Yılmaz Öztuna"\>Avrupa Türkiyesi’ni
-Kaybımız Rumeli’nin Elden Çıkışı – Yılmaz Öztuna\</a\>\</li\> \<li\>\<a
+Kaybımız Rumeli’nin Elden Çıkışı – Yılmaz Öztuna">Avrupa Türkiyesi’ni
+Kaybımız Rumeli’nin Elden Çıkışı – Yılmaz Öztuna</a></li> <li><a
 href="http://www.fatihhayrioglu.com/?p=458" title="Batının Oluşumu –
-Christopher DAWSON"\>Batının Oluşumu – Christopher DAWSON\</a\>\</li\>
-\<li\>\<a href="http://www.fatihhayrioglu.com/?p=439" title="Ölüm Daha
-Güzeldi – Mehmet Niyazi "\>Ölüm Daha Güzeldi – Mehmet Niyazi
-\</a\>\</li\> \<li\>\<a href="http://www.fatihhayrioglu.com/?p=436"
-title="Petrol Fırtınası – Raif Karadağ"\>Petrol Fırtınası – Raif
-Karadağ\</a\>\</li\> \<li\>\<a
+Christopher DAWSON">Batının Oluşumu – Christopher DAWSON</a></li>
+<li><a href="http://www.fatihhayrioglu.com/?p=439" title="Ölüm Daha
+Güzeldi – Mehmet Niyazi ">Ölüm Daha Güzeldi – Mehmet Niyazi
+</a></li> <li><a href="http://www.fatihhayrioglu.com/?p=436"
+title="Petrol Fırtınası – Raif Karadağ">Petrol Fırtınası – Raif
+Karadağ</a></li> <li><a
 href="http://www.fatihhayrioglu.com/?p=426" title="CSS Mastery: Advanced
-Web Standards Solutions – Andy Budd"\>CSS Mastery: Advanced Web
-Standards Solutions – Andy Budd\</a\>\</li\> \<li\>\<a
+Web Standards Solutions – Andy Budd">CSS Mastery: Advanced Web
+Standards Solutions – Andy Budd</a></li> <li><a
 href="http://www.fatihhayrioglu.com/?p=415" title="Tarih Boyunca Doğu
-Karadeniz’de Etnik Yapılanmalar ve Pontus – Haşim Albayrak"\>Tarih
+Karadeniz’de Etnik Yapılanmalar ve Pontus – Haşim Albayrak">Tarih
 Boyunca Doğu Karadeniz’de Etnik Yapılanmalar ve Pontus – Haşim
-Albayrak\</a\>\</li\> \<li\>\<a
+Albayrak</a></li> <li><a
 href="http://www.fatihhayrioglu.com/?p=406" title="Süleyman Çelebi ve
-Mevlid-i Şerif – Ahmed Aymutlu"\>Süleyman Çelebi ve Mevlid-i Şerif –
-Ahmed Aymutlu\</a\>\</li\> \<li\>\<a
+Mevlid-i Şerif – Ahmed Aymutlu">Süleyman Çelebi ve Mevlid-i Şerif –
+Ahmed Aymutlu</a></li> <li><a
 href="http://www.fatihhayrioglu.com/?p=402" title="İçimizde Bir Yer –
-Ahmet Altan"\>İçimizde Bir Yer – Ahmet Altan\</a\>\</li\> \<li\>\<a
+Ahmet Altan">İçimizde Bir Yer – Ahmet Altan</a></li> <li><a
 href="http://www.fatihhayrioglu.com/?p=398" title="Adnan Menderes’in
-Günlüğü – Taşkın Tuna"\>Adnan Menderes’in Günlüğü – Taşkın
-Tuna\</a\>\</li\> \</ul\> \</div\> [/sourcecode]
+Günlüğü – Taşkın Tuna">Adnan Menderes’in Günlüğü – Taşkın
+Tuna</a></li> </ul> </div> [/sourcecode]
 
 CSS kodunu yazmaya başlarsak:
 
@@ -103,24 +103,24 @@ CSS kodunu yazmaya başlarsak:
 tanımladığımız katmana verelim. Ardalan tanımı yanı sıra genişlik, kenar
 dış boşluğu(margin), ve kenar iç boşluğu(padding) tanımları yapılmıştır.
 
-[sourcecode language="css" highlight="1"] \#okudugumKitaplarKapsul{
-background:url(images/okudugum\_kitap\_ust.gif) top left no-repeat;
+[sourcecode language="css" highlight="1"] #okudugumKitaplarKapsul{
+background:url(images/okudugum_kitap_ust.gif) top left no-repeat;
 margin:0; padding:0 0 10px 0; width:240px; } [/sourcecode]
 
 Başlık tanımlarını yapalım:
 
-[sourcecode language="css"] \#okudugumKitaplarKapsul h3{ font:bold 18px
+[sourcecode language="css"] #okudugumKitaplarKapsul h3{ font:bold 18px
 'Frutiger Linotype','Lucida Grande','Trebuchet MS',sans-serif;
-color:\#fff; margin:0; padding:10px 0 0 10px; } [/sourcecode]
+color:#fff; margin:0; padding:10px 0 0 10px; } [/sourcecode]
 
 Oval kapsülün alt kısmınıda listemizin(ul) altına koyarsak oval ardalan
 kısmını elde etmiş olacağız. Ardalan tanımında resmi ekledik, resmin
-doldurduğu kısımdan sonrası içinde ardalan rengini(\#0f3461) tanımladık
+doldurduğu kısımdan sonrası içinde ardalan rengini(#0f3461) tanımladık
 ve böylelikle oval kapsülümüz tamamladık.
 
-[sourcecode language="css" highlight="4"] ul\#okudugumKitaplar{
-margin:0; padding:10px; background:\#0f3461
-url(images/okudugum\_kitap\_alt.gif) bottom left no-repeat; }
+[sourcecode language="css" highlight="4"] ul#okudugumKitaplar{
+margin:0; padding:10px; background:#0f3461
+url(images/okudugum_kitap_alt.gif) bottom left no-repeat; }
 [/sourcecode]
 
 Bu kodlardan sonra sayfamız aşağıdaki gibi görünecektir. [Örnek 2][]
@@ -136,17 +136,17 @@ piksellik bir resim bizim işimizi görecektir. Bu 2 piksellik çizgiyi
 repeat-x ile tekrarlattığımızda tam bir hat şeklinde bir kesikli bir
 çizgi elde etmiş olacağız.
 
-[sourcecode language="css" highlight="4"] ul\#okudugumKitaplar li{
+[sourcecode language="css" highlight="4"] ul#okudugumKitaplar li{
 display:block; padding:0 0 2px 0;
-background:url(images/kitap\_altcizgi.gif) bottom left repeat-x;
+background:url(images/kitap_altcizgi.gif) bottom left repeat-x;
 list-style:none; } [/sourcecode]
 
 Linklere blok görünümü kazandırmak için **display:block** tanımlaması
 yapacağız.
 
-[sourcecode language="css" highlight="4"] ul\#okudugumKitaplar li a{
+[sourcecode language="css" highlight="4"] ul#okudugumKitaplar li a{
 font:12px Verdana, Arial, Helvetica, sans-serif; text-decoration:none;
-display:block; color:\#fff; } [/sourcecode]
+display:block; color:#fff; } [/sourcecode]
 
 İki adet kitap ikonu oluşturmalıyız, biri normal hali diğeride üzerine
 geldiğimizde görünecek halleri. Ben bunu [http://www.iconlet.com/][]'den
@@ -154,21 +154,21 @@ aldım. Ardalan resmi olarak tanımlayalım.
 
 ![][2]
 
-[sourcecode language="css" highlight="2,6"] ul\#okudugumKitaplar li a{
-background:url(images/kita\_ikon\_normal.gif) 1px 7px no-repeat;
+[sourcecode language="css" highlight="2,6"] ul#okudugumKitaplar li a{
+background:url(images/kita_ikon_normal.gif) 1px 7px no-repeat;
 font:12px Verdana, Arial, Helvetica, sans-serif; text-decoration:none;
-display:block; padding:5px 0pt 5px 30px; color:\#fff; } [/sourcecode]
+display:block; padding:5px 0pt 5px 30px; color:#fff; } [/sourcecode]
 
 Burada bir sorunumuz olacaktır. Kitap linklerinden bazıları uzun iken
 bazıları kısa tek satır olacaktır ve bu durumda sola koyduğumuz kitap
 ikonunun belli bir kısmı görünmeyecektir. Bu durumu düzeltmek için bir
 minimum yükseklik tanımı yapacağız.
 
-[sourcecode language="css" highlight="7,8,9"] ul\#okudugumKitaplar li a{
-background:url(images/kita\_ikon\_normal.gif) 1px 7px no-repeat;
+[sourcecode language="css" highlight="7,8,9"] ul#okudugumKitaplar li a{
+background:url(images/kita_ikon_normal.gif) 1px 7px no-repeat;
 font:12px Verdana, Arial, Helvetica, sans-serif; text-decoration:none;
 display:block; padding:5px 0pt 5px 30px; min-height:25px; height:auto
-!important;/\* ie 6 icin \*/ height:25px; color:\#fff; } [/sourcecode]
+!important;/* ie 6 icin */ height:25px; color:#fff; } [/sourcecode]
 
 Sonuç aşağıdaki gibi görünecektir. Sonuç sayfasını görmek için
 [tıklayınız.][3]

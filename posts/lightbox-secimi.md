@@ -65,7 +65,7 @@ avantajları ile birlikte yazarsanız memnun olurum.
 
 Not: Bir uyarı eğer sayfa içinde z-index değeri içeren bir nesneniz
 varsa ve slimbox bu nesnenin altında kalıyorsa. slimebox.css da
-\#lbCenter z-index değeri olarak 9999 verin
+#lbCenter z-index değeri olarak 9999 verin
 
 ###### Kaynaklar
 
@@ -81,7 +81,7 @@ varsa ve slimbox bu nesnenin altında kalıyorsa. slimebox.css da
     listesi)
 -   [http://jadedpixel.stikipad.com/design/show/A+Better+Lightbox][]
     (karşılaştırma)
--   [http://homepage.mac.com/yukikun/software/slimbox\_ex/][]
+-   [http://homepage.mac.com/yukikun/software/slimbox_ex/][]
     (geliştirilmiş sildebox)
 -   [http://www.chazzuka.com/blog/index.php?p=21&][] (karşılaştırma)
 -   [http://www.phatfusion.net/lightbox/index.htm][] (slimebox
@@ -101,6 +101,6 @@ varsa ve slimbox bu nesnenin altında kalıyorsa. slimebox.css da
   [http://scripts.ajaxflakes.com/category/lightbox/]: http://scripts.ajaxflakes.com/category/lightbox/
   [http://www.ajaxrain.com/tag.php?tag=popup&page=1]: http://www.ajaxrain.com/tag.php?tag=popup&page=1
   [http://jadedpixel.stikipad.com/design/show/A+Better+Lightbox]: http://jadedpixel.stikipad.com/design/show/A+Better+Lightbox
-  [http://homepage.mac.com/yukikun/software/slimbox\_ex/]: http://homepage.mac.com/yukikun/software/slimbox_ex/
+  [http://homepage.mac.com/yukikun/software/slimbox_ex/]: http://homepage.mac.com/yukikun/software/slimbox_ex/
   [http://www.chazzuka.com/blog/index.php?p=21&]: http://www.chazzuka.com/blog/index.php?p=21&
   [http://www.phatfusion.net/lightbox/index.htm]: http://www.phatfusion.net/lightbox/index.htm

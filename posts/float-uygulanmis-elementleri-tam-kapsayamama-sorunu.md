@@ -23,15 +23,15 @@ Bir örnek yaparsak daha iyi anlayacağız.
 
 CSS kodu:
 
-[sourcecode language="css"] .kapsul { border: 1px solid \#000; padding:
+[sourcecode language="css"] .kapsul { border: 1px solid #000; padding:
 2px; } img { float: left; } [/sourcecode]
 
 Html kodu:
 
-[sourcecode language="html"] \<div class="kapsul"\> \<img
-src="koy\_01.jpg" alt="Bizim köy" weight="250" height="160" /\>
-\<p\>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. \</p\>
-\</div\> [/sourcecode]
+[sourcecode language="html"] <div class="kapsul"> <img
+src="koy_01.jpg" alt="Bizim köy" weight="250" height="160" />
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+</div> [/sourcecode]
 
 Örneği görmek için [tıklayınız.][]
 
@@ -53,9 +53,9 @@ yapabiliriz.
 Geneldekutuların içeriğine göre uzamasını isteriz. Bu sorunu çözmek
 küçük bir yapısalekleme yapmak yeterli olacaktır.  
   
-[sourcecode language="html"] \<div class="kapsul"\> \<img
-src="resim.png"\> \<p\>Lorem ipsum dolor sit amet, consectetuer
-adipiscing elit. \</p\> \<div style="clear:both;"\>\</div\> \</div\>
+[sourcecode language="html"] <div class="kapsul"> <img
+src="resim.png"> <p>Lorem ipsum dolor sit amet, consectetuer
+adipiscing elit. </p> <div style="clear:both;"></div> </div>
 [/sourcecode] Buşekilde sorunumuzu çözmüş oluruz ancak bu sorunla
 karşılaştığımız heryerde bu eklemeyi yapmak zorun kalacağız ve sırf bu
 düzeltme için boşbir div ekleyeceğiz. Buda mantıklı(semantik) kodlama
@@ -81,9 +81,9 @@ sorun halledilebilir ancakMozilla Firefox'un yeni sürümlerinde bu metot
 sorun çıkarıyor.
 
 [sourcecode language="css"] .kapsul:after { content: "."; display:
-block; height: 0; clear: both; visibility: hidden; } /\*IE-mac den bu
-bolumu sakla \\\*/ \* html .clearfix {height: 1%;} /\* IE-mac bu bolumu
-saklama artik \*/ [/sourcecode]
+block; height: 0; clear: both; visibility: hidden; } /*IE-mac den bu
+bolumu sakla */ * html .clearfix {height: 1%;} /* IE-mac bu bolumu
+saklama artik */ [/sourcecode]
 
 Tabibu kod burada kalmıyor çünkü IE ile sorunları var. Normalde IE'nin
 float uygulanmış elementin tamamı kapsamama sorunu diye bir problemi(bu
@@ -91,7 +91,7 @@ ilginç bir durumdur) yoktur, ancak float uygulanmış elemente genişlik ve
 yükseklik tanımı yapılmadığında sorun ortaya çıkıyor. Bunu engellemek
 için sadece IE/Win gördüğü kapsayıcı elementin yüksekliğine %1 ataması
 yaparız. Ancak bu kısımı IE/Mac'lerden saklamamız gerek bunun için ters
-bölme(\\) işaretini kullanırız böylelikle IE/Mac sürümü komut satırının
+bölme() işaretini kullanırız böylelikle IE/Mac sürümü komut satırının
 devam ettiğini farz ederek bu satırı görmez.
 
 Sıra geldi IE/Mac'de sorunu aşmaya, IE/Mac'deki sorunu aşmak için
@@ -101,9 +101,9 @@ tarayıcılarının bundan etkilenmemesi için IE/Mac'den gizlediğimiz alana
 
 [sourcecode language="css"] .kapsul:after { content: "."; display:
 block; height: 0; clear: both; visibility: hidden; } .kapsul {display:
-inline-block;} /\*IE-mac de bu bolumu sakla \\ \*/ \* html .kapsul
-{height: 1%;} .kapsul {display: block;} /\* IE-mac bu bolumu saklam
-artik \*/ [/sourcecode]
+inline-block;} /*IE-mac de bu bolumu sakla  */ * html .kapsul
+{height: 1%;} .kapsul {display: block;} /* IE-mac bu bolumu saklam
+artik */ [/sourcecode]
 
 Örneğin son halini görmek için [tıklayınız.][1]
 
@@ -120,8 +120,8 @@ Bu yöntemi biraz daha kolaylaştıralım. Sonuçta macde ie kullanan
 kalmadağına göre kodumuzu
 
 [css] .clearfix:after { visibility: hidden; display: block; font-size:
-0; content: " "; clear: both; height: 0; } \* html .clearfix { zoom: 1;
-} /\* IE6 \*/ \*:first-child+html .clearfix { zoom: 1; } /\* IE7 \*/
+0; content: " "; clear: both; height: 0; } * html .clearfix { zoom: 1;
+} /* IE6 */ *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 [/css]
 
 ###### CSS3 ile sorunun çözümü
@@ -153,8 +153,8 @@ hızlı bir şekilde çözmek mümkün oluyor.
 -   [http://www.dahaiyi.net/yazilar/temiz-bir-clearfix-metodu/][dahaiyi.net]
 -   [http://csscreator.com/?q=attributes/containedfloat.php][]
 -   [http://css-discuss.incutio.com/?page=ClearingSpace][]
--   [http://www.cs.hmc.edu/\~mbrubeck/clear-after/][]
--   [http://www.w3.org/TR/2002/WD-css3-box-20021024/\#the-clear-after][clear-after]  
+-   [http://www.cs.hmc.edu/~mbrubeck/clear-after/][]
+-   [http://www.w3.org/TR/2002/WD-css3-box-20021024/#the-clear-after][clear-after]  
 
 </p>
 
@@ -176,4 +176,4 @@ hızlı bir şekilde çözmek mümkün oluyor.
   [http://www.complexspiral.com/publications/containing-floats/]: http://www.complexspiral.com/publications/containing-floats/
   [http://csscreator.com/?q=attributes/containedfloat.php]: http://csscreator.com/?q=attributes/containedfloat.php
   [http://css-discuss.incutio.com/?page=ClearingSpace]: http://css-discuss.incutio.com/?page=ClearingSpace
-  [http://www.cs.hmc.edu/\~mbrubeck/clear-after/]: http://www.cs.hmc.edu/~mbrubeck/clear-after/
+  [http://www.cs.hmc.edu/~mbrubeck/clear-after/]: http://www.cs.hmc.edu/~mbrubeck/clear-after/

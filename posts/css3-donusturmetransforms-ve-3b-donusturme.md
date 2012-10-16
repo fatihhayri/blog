@@ -88,7 +88,7 @@ bağımsız olarak, 3 boyutlu bir gerçeklik izlenimi yaratır.” -
 Derinlik değeri bir uzunluğu(px olarak) veya none değerlerini alır.
 
 **Yapısı :** transform: perspective(derinlik)   
-**Aldığı Değerler :**none | \<uzunluk\>  
+**Aldığı Değerler :**none | <uzunluk>  
 **Başlangıç değeri:** none   
 **Uygulanabilen elementler:** Blok-level ve satır içi elemanlar  
 **Kalıtsallık:** Yok

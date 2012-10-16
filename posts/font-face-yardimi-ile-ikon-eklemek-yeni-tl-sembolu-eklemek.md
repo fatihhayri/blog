@@ -29,7 +29,7 @@ nasıl gömdüğümüzü öğrenebilirsiniz.
 [css] @font-face { font-family: 'Graublau Web'; src:
 url('GraublauWeb.eot'); src: local('Graublau Web Regular'),
 local('Graublau Web'), url('GraublauWeb.woff') format('woff'),
-url('GraublauWeb.svg\#GraublauWeb') format('svg'),
+url('GraublauWeb.svg#GraublauWeb') format('svg'),
 url('GraublauWeb.otf') format('opentype'); font-weight: normal;
 font-style: normal; } p { font-family: "Graublau Web", serif; } [/css]
 
@@ -43,31 +43,31 @@ sitelerden ücretsiz web ikonlarını alalım.
 
 [css] @font-face { font-family: 'ModernPictogramsNormal'; src:
 url('modernpics-webfont.eot'); src:
-url('modernpics-webfont.eot?\#iefix') format('embedded-opentype'),
+url('modernpics-webfont.eot?#iefix') format('embedded-opentype'),
 url('modernpics-webfont.woff') format('woff'),
 url('modernpics-webfont.ttf') format('truetype'),
-url('modernpics-webfont.svg\#ModernPictogramsNormal') format('svg');
+url('modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
 font-weight: normal; font-style: normal; } [/css]
 
 kodu ile yazı tipini sayfamızda çağırmış olduk. Menü elemanlarının her
 biri için seçtiğimiz ikonları atamak için ilgili elemanın
 öncesine(:before) yazı tipinde ilgili ikonu ifade eden harfi ekliyoruz.
 
-[css] li\#alisveris a:before{ font:24px "ModernPictogramsNormal";
-content:"i"; color:\#f00; padding-right:5px; } [/css]
+[css] li#alisveris a:before{ font:24px "ModernPictogramsNormal";
+content:"i"; color:#f00; padding-right:5px; } [/css]
 
 Alışveriş için seçtiğimiz sepet ikonun “i” harfi ile ifade edildiği için
 “i” harfini ekledik. Kodu biraz daha düzenli yazarsak.
 
 [![][1]][]
 
-Örnek: [http://www.fatihhayrioglu.com/dokumanlar/fontface\_ikon.html][]
+Örnek: [http://www.fatihhayrioglu.com/dokumanlar/fontface_ikon.html][]
 
 Örnekte gördüğümüz gibi bir çok yerde ikonlarımızı CSS yardımı ile
 ekleyip boyutunu, rengini kolayca değiştirebiliriz.
 
 Bir başka örnek:
-[http://www.fatihhayrioglu.com/fontface/fontface\_ikon\_buton.html][]
+[http://www.fatihhayrioglu.com/fontface/fontface_ikon_buton.html][]
 
 [![][2]][]
 
@@ -104,10 +104,10 @@ silip sadece ikonu bırakarak yazı tipi dosya boyutunu küçültebiliriz.
 Bağlantısından küçük dosyayı indirebilirsiniz.
 
 [css] @font-face { font-family: 'AbakuTLSymSansRegular'; src:
-url('abakutlsymsans.eot'); src: url('abakutlsymsans.eot?\#iefix')
+url('abakutlsymsans.eot'); src: url('abakutlsymsans.eot?#iefix')
 format('embedded-opentype'), url('abakutlsymsans.woff') format('woff'),
 url('abakutlsymsans.ttf') format('truetype'),
-url('abakutlsymsans.svg\#AbakuTLSymSansRegular') format('svg');
+url('abakutlsymsans.svg#AbakuTLSymSansRegular') format('svg');
 font-weight: normal; font-style: normal; } [/css]
 
 [![][3]][]
@@ -120,13 +120,13 @@ font-size:24px; content:"t"; padding-right:5px; } [/css]
 
 ile sayfamıza ekledik.
 
-Örnek: [http://www.fatihhayrioglu.com/fontface/tl\_deneme.html][]
+Örnek: [http://www.fatihhayrioglu.com/fontface/tl_deneme.html][]
 
 ### Kaynaklar
 
 -   [http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-ever-thought-about-using-font-face-for-icons/][]
--   [http://developer.appdirect.com/blog/make\_beautiful\_icons\_with\_image\_sprites\_css3\_font\_face\_or\_svg][]
--   [http://ikwebdesigner.com/special-characters/\#howto][]
+-   [http://developer.appdirect.com/blog/make_beautiful_icons_with_image_sprites_css3_font_face_or_svg][]
+-   [http://ikwebdesigner.com/special-characters/#howto][]
 -   [http://www.sitepoint.com/webfont-icons/][]
 -   [http://zocial.smcllns.com/sample.html][]
 -   [http://speckyboy.com/2012/02/13/20-fontface-icon-sets][]
@@ -146,8 +146,8 @@ ile sayfamıza ekledik.
   [1]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.44.09-AM.png
     "Screen shot 2012-03-08 at 10.44.09 AM"
   [![][1]]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.44.09-AM.png
-  [http://www.fatihhayrioglu.com/dokumanlar/fontface\_ikon.html]: http://www.fatihhayrioglu.com/dokumanlar/fontface_ikon.html
-  [http://www.fatihhayrioglu.com/fontface/fontface\_ikon\_buton.html]: http://www.fatihhayrioglu.com/fontface/fontface_ikon_buton.html
+  [http://www.fatihhayrioglu.com/dokumanlar/fontface_ikon.html]: http://www.fatihhayrioglu.com/dokumanlar/fontface_ikon.html
+  [http://www.fatihhayrioglu.com/fontface/fontface_ikon_buton.html]: http://www.fatihhayrioglu.com/fontface/fontface_ikon_buton.html
   [2]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.45.36-AM.png
     "Screen shot 2012-03-08 at 10.45.36 AM"
   [![][2]]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.45.36-AM.png
@@ -155,12 +155,12 @@ ile sayfamıza ekledik.
   [3]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.47.01-AM.png
     "Screen shot 2012-03-08 at 10.47.01 AM"
   [![][3]]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.47.01-AM.png
-  [http://www.fatihhayrioglu.com/fontface/tl\_deneme.html]: http://www.fatihhayrioglu.com/fontface/tl_deneme.html
+  [http://www.fatihhayrioglu.com/fontface/tl_deneme.html]: http://www.fatihhayrioglu.com/fontface/tl_deneme.html
   [http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-ever-thought-about-using-font-face-for-icons/]:
     http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-ever-thought-about-using-font-face-for-icons/
-  [http://developer.appdirect.com/blog/make\_beautiful\_icons\_with\_image\_sprites\_css3\_font\_face\_or\_svg]:
+  [http://developer.appdirect.com/blog/make_beautiful_icons_with_image_sprites_css3_font_face_or_svg]:
     http://developer.appdirect.com/blog/make_beautiful_icons_with_image_sprites_css3_font_face_or_svg
-  [http://ikwebdesigner.com/special-characters/\#howto]: http://ikwebdesigner.com/special-characters/#howto
+  [http://ikwebdesigner.com/special-characters/#howto]: http://ikwebdesigner.com/special-characters/#howto
   [http://www.sitepoint.com/webfont-icons/]: http://www.sitepoint.com/webfont-icons/
   [http://zocial.smcllns.com/sample.html]: http://zocial.smcllns.com/sample.html
   [http://speckyboy.com/2012/02/13/20-fontface-icon-sets]: http://speckyboy.com/2012/02/13/20-fontface-icon-sets

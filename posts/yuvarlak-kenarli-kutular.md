@@ -20,23 +20,23 @@ kutumuzu oluşturabiliriz.
 200px genişliğinde bir yuvarlak kenarlı kutu olşuturmak için ilk önce
 alta ve üste koyacağımız kutuları hazırlayalım.
 
-![][] ust\_yuvarlak.gif
+![][] ust_yuvarlak.gif
 
-![][1] alt\_yuvarlak.gif
+![][1] alt_yuvarlak.gif
 
 XHTML kodumuzu yazarsak:
 
-[sourcecode language="html"] \<div class="yuvarlakKutu"\>
-\<h2\>Başlık\</h2\> \<p\>İçerik\</p\> \</div\> [/sourcecode]
+[sourcecode language="html"] <div class="yuvarlakKutu">
+<h2>Başlık</h2> <p>İçerik</p> </div> [/sourcecode]
 
-alt\_yuvarlak.gif resmini **.yuvarlakKutu** kapsayıcı katmanının alt
+alt_yuvarlak.gif resmini **.yuvarlakKutu** kapsayıcı katmanının alt
 kısımına dayalı olarak zemin resmi olarak atıyoruz. Ayrıca
 **.yuvarlakKutu** zemin resminin bitiminden itibaren zemin dolgu
-rengini(\#84E0FF) atıyoruz.
+rengini(#84E0FF) atıyoruz.
 
 [sourcecode language="css"] .yuvarlakKutu { width: 200px; background:
-\#84E0FF url(images/alt\_yuvarlak.gif) no-repeat left bottom; }
-.yuvarlakKutu h2 { background: url(images/ust\_yuvarlak.gif) no-repeat
+#84E0FF url(images/alt_yuvarlak.gif) no-repeat left bottom; }
+.yuvarlakKutu h2 { background: url(images/ust_yuvarlak.gif) no-repeat
 left top; } [/sourcecode]
 
 Başlık ve içeriğinin kutunun kenarlarına yapışmaması için padding
@@ -56,22 +56,22 @@ ama kutu yüksekliği kabul edilebilir bir yükseklik ise. Yukarıdaki metod
 ile bunu yapmak için bu kutunu maksimum 300px genişliğe çıkabileceğini
 farz edelim. İki adet resim hazırlarız.
 
-![][2] ust2\_yuvarlak.gif
+![][2] ust2_yuvarlak.gif
 
-![][3] alt2\_yuvarlak.gif
+![][3] alt2_yuvarlak.gif
 
 Diğer bir yöntem ise kutuyu üç kısıma bölerek yapmaktır ki bu daha esnek
 bir yöntemdir.
 
 [sourcecode language="css"] .yuvarlakKutu { width: 424px; background:
-url(images/orta\_yuvarlak.gif) repeat-y; } .yuvarlakKutu h2 {
-background: url(images/ust3\_yuvarlak.gif) no-repeat left top;
+url(images/orta_yuvarlak.gif) repeat-y; } .yuvarlakKutu h2 {
+background: url(images/ust3_yuvarlak.gif) no-repeat left top;
 padding-top: 20px; } .yuvarlakKutu .altYuvarlak { background:
-url(images/alt3\_yuvarlak.gif) no-repeat left bottom; padding-bottom:
+url(images/alt3_yuvarlak.gif) no-repeat left bottom; padding-bottom:
 20px; } .yuvarlakKutu h2, .yuvarlakKutu p { padding-left: 20px;
-padding-right: 20px; } [/sourcecode] [sourcecode language="html"] \<div
-class="yuvarlakKutu"\> \<h2\>Başlık\</h2\> \<p
-class="altYuvarlak"\>İçerk\</p\> \</div\> [/sourcecode]
+padding-right: 20px; } [/sourcecode] [sourcecode language="html"] <div
+class="yuvarlakKutu"> <h2>Başlık</h2> <p
+class="altYuvarlak">İçerk</p> </div> [/sourcecode]
 
 Örnek kodları indirmek için [tıklayınız.][4]
 
@@ -85,9 +85,9 @@ olacak. Bu dört resim için artı katmanlara ihtiyacımız olacaktır, bu
 katmanlar kodumuzu biraz temiz kod üretimi dışına çıkarsada işimizi
 görecektir:
 
-[sourcecode language="html"] \<div class="yuvarlakKutu"\> \<div
-class="yuvarlakKutuDisi"\> \<div class="yuvarlakKutuIci"\>
-\<h2\>Başlık\</h2\> \<p\>İçerik\</p\> \</div\> \</div\> \</div\>
+[sourcecode language="html"] <div class="yuvarlakKutu"> <div
+class="yuvarlakKutuDisi"> <div class="yuvarlakKutuIci">
+<h2>Başlık</h2> <p>İçerik</p> </div> </div> </div>
 [/sourcecode]
 
 Dört resimin iki tanesi üst köşeleri yuvarlamak için, iki tanesi alt
@@ -96,11 +96,11 @@ köşeleri yuvarlamak için kullanacağız.
 ![][5]
 
 [sourcecode language="css"] .yuvarlakKutu { width: 20em; background:
-\#effce7 url(images/alt\_sol.gif) no-repeat left bottom; }
-.yuvarlakKutuDisi { background: url(images/alt\_sag.gif) no-repeat right
+#effce7 url(images/alt_sol.gif) no-repeat left bottom; }
+.yuvarlakKutuDisi { background: url(images/alt_sag.gif) no-repeat right
 bottom; padding-bottom: 5%; } .yuvarlakKutuIci { background:
-url(images/ust\_sol.gif) no-repeat left top; } .yuvarlakKutu h2 {
-background: url(images/ust\_sag.gif) no-repeat right top; padding-top:
+url(images/ust_sol.gif) no-repeat left top; } .yuvarlakKutu h2 {
+background: url(images/ust_sag.gif) no-repeat right top; padding-top:
 5%; } .yuvarlakKutu h2, .yuvarlakKutu p { padding-left: 5%;
 padding-right: 5%; } [/sourcecode]
 

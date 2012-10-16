@@ -18,14 +18,14 @@ sağlar. CSS fontlar üzerinde tam hakimolmamızı sağlar. <!--more-->
 ### color
 
 <div class="cssozelliktanimi">
-**Yapısı :** color: \<deger\> **Aldığı Değerler :**\<[renk][]\> |
+**Yapısı :** color: <deger> **Aldığı Değerler :**<[renk][]> |
 inherit **Başlangıç değeri:**web tarayıcısı belirler **Uygulanabilen
 elementler:** tüm elementler **Kalıtsallık:** Var
 
 </div>
 **color** metinlerimizin rengini tanımlamamız için kullanılır.
 
-[sourcecode language="css"] p{ color:\#f00; /\* kırmızı renk kodu \*/ }
+[sourcecode language="css"] p{ color:#f00; /* kırmızı renk kodu */ }
 [/sourcecode]
 
 Renk kullanımına daha önce değinmiştik. Detay için [tıklayınız.][renk]
@@ -38,13 +38,13 @@ W3C's CSS Level 1+
 ### font-family
 
 <div class="cssozelliktanimi">
-**Yapısı :** font-family : [[\<font aile ismi \> | \<soysal aile ismi
-\>],]\* [\<font aile ismi \> | \<soysal aile ismi \>] | inherit **Aldığı
+**Yapısı :** font-family : [[<font aile ismi > | <soysal aile ismi
+>],]* [<font aile ismi > | <soysal aile ismi >] | inherit **Aldığı
 Değerler :**
 
-\<font aile ismi \>- herhangi bir font ailesi ismi kullanılabilir.
+<font aile ismi >- herhangi bir font ailesi ismi kullanılabilir.
 
-\<soysal aile ismi \>
+<soysal aile ismi >
 
 -   **serif** (*örn:* Times)
 -   **sans-serif** (*örn:* Arial or Helvetica)
@@ -77,17 +77,17 @@ W3C's CSS Level 1+
 ### font-size
 
 <div class="cssozelliktanimi">
-**Yapısı :**font-size: \<kesin değerler \> | \<göreceli değerler \> |
-\<[uzunluk][renk]\> | \<[yüzde][renk]\> **Aldığı Değerler :**
+**Yapısı :**font-size: <kesin değerler > | <göreceli değerler > |
+<[uzunluk][renk]> | <[yüzde][renk]> **Aldığı Değerler :**
 
--   \<kesin değerler \>
+-   <kesin değerler >
     -   xx-small | x-small | small | medium | large | x-large | xx-large
 
--   \<göreceli değerler \>
+-   <göreceli değerler >
     -   larger | smaller
 
--   [\<uzunluk\>][renk]
--   [\<yüzde\>][renk] (üst elementlere(ebveyn) bağlı olarak)
+-   [<uzunluk>][renk]
+-   [<yüzde>][renk] (üst elementlere(ebveyn) bağlı olarak)
 
 **Başlangıç değeri:**medium **Uygulanabilen elementler:** tüm elementler
 **Kalıtsallık:** Var
@@ -109,7 +109,7 @@ W3C's CSS Level 1+
 ### font-weight
 
 <div class="cssozelliktanimi">
-**Yapısı :**font-weight: \<değer\> **Aldığı Değerler :**normal |
+**Yapısı :**font-weight: <değer> **Aldığı Değerler :**normal |
 **bold** | **bolder** | lighter | 100 | 200 | 300 | 400 | 500 | **600**
 | **700** | **800** | **900** **Başlangıç değeri:**normal
 **Uygulanabilen elementler:** tüm elementler **Kalıtsallık:** Var
@@ -129,7 +129,7 @@ W3C's CSS Level 1+
 ### font-style
 
 <div class="cssozelliktanimi">
-**Yapısı :**font-style: \<değer\> **Aldığı Değerler :** normal | italic
+**Yapısı :**font-style: <değer> **Aldığı Değerler :** normal | italic
 | oblique | inherit **Başlangıç değeri:**normal **Uygulanabilen
 elementler:** tüm elementler **Kalıtsallık:** Var
 
@@ -147,7 +147,7 @@ W3C's CSS Level 1+
 ### font-variant
 
 <div class="cssozelliktanimi">
-**Yapısı :**font-variant: \<değer\> **Aldığı Değerler :**normal |
+**Yapısı :**font-variant: <değer> **Aldığı Değerler :**normal |
 small-caps | inherit **Başlangıç değeri:**normal **Uygulanabilen
 elementler:** tüm elementler **Kalıtsallık:** Var
 
@@ -171,9 +171,9 @@ Yukardı anlatılan font özelliklerinin hatta ek olrak **line-height**
 değerinide tek sefer de tanımlamak için kullanılır. Bir [kısaltmadır][].
 
 <div class="cssozelliktanimi">
-**Yapısı :**font: \<değer\> **Aldığı Değerler :**[ \<font-style\> ||
-\<font-variant\> || \<font-weight\> ]? \<font-size\> [ / \<line-height\>
-]? \<font-family\> **Başlangıç değeri:**tanımsız **Uygulanabilen
+**Yapısı :**font: <değer> **Aldığı Değerler :**[ <font-style> ||
+<font-variant> || <font-weight> ]? <font-size> [ / <line-height>
+]? <font-family> **Başlangıç değeri:**tanımsız **Uygulanabilen
 elementler:** tüm elementler **Kalıtsallık:** Var
 
 </div>

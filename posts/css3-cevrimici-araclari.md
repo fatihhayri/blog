@@ -140,7 +140,7 @@ CSS ile ok
 Transform
 ---------
 
--   [http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on\_3d-transforms.htm][]
+-   [http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on_3d-transforms.htm][]
 
 Filtre
 ------
@@ -248,7 +248,7 @@ Toplu
   [http://debray.jerome.free.fr/index.php?outils/Generateur-de-multi-colonnes-en-css3]: http://debray.jerome.free.fr/index.php?outils/Generateur-de-multi-colonnes-en-css3
   [http://www.aaronlumsden.com/multicol/]: http://www.aaronlumsden.com/multicol/
   [http://cssarrowplease.com/]: http://cssarrowplease.com/
-  [http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on\_3d-transforms.htm]: http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on_3d-transforms.htm
+  [http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on_3d-transforms.htm]: http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on_3d-transforms.htm
   [http://html5-demos.appspot.com/static/css/filters/index.html]: http://html5-demos.appspot.com/static/css/filters/index.html
   [http://css3generator.com/]: http://css3generator.com/
   [http://www.css3.me/]: http://www.css3.me/

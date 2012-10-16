@@ -24,30 +24,30 @@ olmadı.
 
 Bu hafta sonu etiket bulutu ve etiket ekleme işlemini gerçekleştirdim.
 Yaptığım işlemleri sizlerle paylaşmak istedim.  
-İlk olarak yeni sürüm ile eklediğim tabloların(wp\_terms,
-wp\_term\_taxonomy) içerik alanlarının karşılaştırma alanı kısmını
-“utf8\_general\_ci” çevirmem oldu.
+İlk olarak yeni sürüm ile eklediğim tabloların(wp_terms,
+wp_term_taxonomy) içerik alanlarının karşılaştırma alanı kısmını
+“utf8_general_ci” çevirmem oldu.
 
-Daha sonra WordPress 2.3.3’ün ilk defa güzel bir yönün gördüm. Yönet -\>
+Daha sonra WordPress 2.3.3’ün ilk defa güzel bir yönün gördüm. Yönet ->
 İçe aktar kısmında “Ultimate Tag Warrior etiketlerini yeni etiketleme
 yapısına aktar.” Seçeneğini gördüm. Bu kısım 4 aşamadan oluşuyor ve bize
 kolayca eski etiketlerimiz yeni sisteme adapte etmemizi sağlıyor.
 
-Daha sonra etiketleri her yazının sonuna eklemek için Görünüm -\> Tema
+Daha sonra etiketleri her yazının sonuna eklemek için Görünüm -> Tema
 Editörü kısmından Tekil Yazı kısmını tıklayarak yazının sonuna
 
-[sourcecode language="php"]\<p class="etiketler"\>\<?php
-the\_tags('\<strong\>Etiketler :\</strong\>', ', ', ' ');
-?\>\</p\>[/sourcecode]
+[sourcecode language="php"]<p class="etiketler"><?php
+the_tags('<strong>Etiketler :</strong>', ', ', ' ');
+?></p>[/sourcecode]
 
 Kodunu ekledim. Ben sonuna ekledim ama siz bu kodu istediğiniz yere koya
 bilirisiniz.
 
 Daha sonra Ana sayfa’nın sağ tarafına
 
-[sourcecode language="php"]\<div id="etiketBulutu"\>\<?php
-wp\_tag\_cloud('smallest=8&amp;largest=16&amp;number=50&amp;unit=pt');
-?\>\</div\>[/sourcecode]
+[sourcecode language="php"]<div id="etiketBulutu"><?php
+wp_tag_cloud('smallest=8&amp;largest=16&amp;number=50&amp;unit=pt');
+?></div>[/sourcecode]
 
 Kodunu ekledim ve ilgili CSS kodlarını ana stil dosyama
 ekledim.İkonlarımıda [http://www.iconlet.com/][] den aldım.
@@ -65,7 +65,7 @@ Herkese bulutlu ve yağmurlu günler diliyorum. Malum susuz kaldık.
 ### Kaynak
 
 -   [http://alexbrie.net/1836/how-to-import-ultimate-warrior-tags-into-wordpress-23-and-how-to-easily-backup-your-wordpress-database/][]
--   [http://codex.wordpress.org/Template\_Tags/wp\_tag\_cloud\#Cloud\_displayed\_under\_Popular\_Tags\_title][]
+-   [http://codex.wordpress.org/Template_Tags/wp_tag_cloud#Cloud_displayed_under_Popular_Tags_title][]
 -   http://poplarware.com/tagplugin.html
 
 </p>
@@ -76,5 +76,5 @@ Herkese bulutlu ve yağmurlu günler diliyorum. Malum susuz kaldık.
   [Advanced Tag Entry]: http://poplarware.com/tagplugin.html
   [http://alexbrie.net/1836/how-to-import-ultimate-warrior-tags-into-wordpress-23-and-how-to-easily-backup-your-wordpress-database/]:
     http://alexbrie.net/1836/how-to-import-ultimate-warrior-tags-into-wordpress-23-and-how-to-easily-backup-your-wordpress-database/
-  [http://codex.wordpress.org/Template\_Tags/wp\_tag\_cloud\#Cloud\_displayed\_under\_Popular\_Tags\_title]:
+  [http://codex.wordpress.org/Template_Tags/wp_tag_cloud#Cloud_displayed_under_Popular_Tags_title]:
     http://codex.wordpress.org/Template_Tags/wp_tag_cloud#Cloud_displayed_under_Popular_Tags_title

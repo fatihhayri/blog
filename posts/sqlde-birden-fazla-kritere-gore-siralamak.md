@@ -9,13 +9,13 @@ sıralamasını yaparken duruma göre farklılık gösterebiliyor bunu
 engellemek için ikinci bir kritere göre sıralama yapmak en güzel
 çözüm.<!--more-->
 
-1.  Select \* From veritabani\_adi Order by Tarih
+1.  Select * From veritabani_adi Order by Tarih
 
 şeklinde bir sıralama yaptığımızı düşünelim. Aynı tarihlerin
 sıralamasında sorun çıkarsa ikinci bir kriter ekleyelim. Bu işlem çok
 kolay virgülden sonra diğer kriteri yazmak yeterli.
 
-1.  Select \* From veritabani\_adi Order by Tarih, ID
+1.  Select * From veritabani_adi Order by Tarih, ID
 
 Bu kadar kolay. Bu bilgiyi bana öğreten Halil'e teşekkürlerimi sunarım.
 

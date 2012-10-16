@@ -66,10 +66,10 @@ CSS1'de kalıtsallığı olmayan özelliklerin listesi:
 </div>
 Örnek bir kodlama yaparsak:
 
-[sourcecode language="css"] div\#icerik { text-align: center; }
-[/sourcecode] [sourcecode language="html"] \<div id="icerik"\> Buradaki
-içerik ortalanacaktır \<p\> text-align özelliğinin kalıtsallığı olduğu
-için buradaki içeirkte ortalanacaktır \</p\> \</div\> [/sourcecode]
+[sourcecode language="css"] div#icerik { text-align: center; }
+[/sourcecode] [sourcecode language="html"] <div id="icerik"> Buradaki
+içerik ortalanacaktır <p> text-align özelliğinin kalıtsallığı olduğu
+için buradaki içeirkte ortalanacaktır </p> </div> [/sourcecode]
 
 ![][]
 
@@ -82,7 +82,7 @@ kalabilirsiniz, tecrübeyle sabit :)
 
 [sourcecode language="css"] p{ text-align: left; } [/sourcecode]
 
-tanımlaması ile üst element olan **\#icerik**'den kalıtsal olarak gelen
+tanımlaması ile üst element olan **#icerik**'den kalıtsal olarak gelen
 **text-align: center;** tanımlamasını etkisiz kılar.
 
 <div class="ekstrabilgi">
@@ -107,11 +107,11 @@ sağlamaktadır. Tüm elementlere(kalıtsallık özelliği olmayanlar dahil)
 *inherit* değeri atayabiliriz. *inherit* değeri atadığımız element üst
 elementinin değerlerini alacaktır. Bir örnek yapacak olursak:
 
-[sourcecode language="css"] div\#icerik { border: 1px solid \#000; }
-div\#bilgi { border: inherit; } [/sourcecode] [sourcecode
-language="html"] \<div id="icerik"\> Bu içeriği kenarlığı olacaktır
-\<div id="bilgi"\> Bu bilgi de kenarlık bilgisini üstten elementten
-alarak kenarlığı olacaktır. \</div\> \</div\> [/sourcecode]
+[sourcecode language="css"] div#icerik { border: 1px solid #000; }
+div#bilgi { border: inherit; } [/sourcecode] [sourcecode
+language="html"] <div id="icerik"> Bu içeriği kenarlığı olacaktır
+<div id="bilgi"> Bu bilgi de kenarlık bilgisini üstten elementten
+alarak kenarlığı olacaktır. </div> </div> [/sourcecode]
 
 ![][1]
 
@@ -122,7 +122,7 @@ nedeni ile de bir çok sorunla karşılaştığımızıda unutmayalım.
 
 -   [http://www.simplebits.com/][]
 -   [http://www.devarticles.com][]
--   [http://www.w3.org/TR/REC-CSS1\#inheritance][]
+-   [http://www.w3.org/TR/REC-CSS1#inheritance][]
 -   [http://www.adobe.com/][]
 -   [http://www.creativepro.com/][]
 -   [http://meyerweb.com/][]
@@ -135,7 +135,7 @@ nedeni ile de bir çok sorunla karşılaştığımızıda unutmayalım.
   [1]: /dokumanlar/kalitsallik_ornek2.gif
   [http://www.simplebits.com/]: http://www.simplebits.com/notebook/2003/04/15/css_inheritance.html
   [http://www.devarticles.com]: http://www.devarticles.com/c/a/Web-Style-Sheets/Learn-CSS-Introduction-to-Inheritance-Specificity-and-Cascade/3/
-  [http://www.w3.org/TR/REC-CSS1\#inheritance]: http://www.w3.org/TR/REC-CSS1#inheritance
+  [http://www.w3.org/TR/REC-CSS1#inheritance]: http://www.w3.org/TR/REC-CSS1#inheritance
   [http://www.adobe.com/]: http://www.adobe.com/devnet/dreamweaver/articles/css_inheritance.html
   [http://www.creativepro.com/]: http://www.creativepro.com/story/feature/14776.html
   [http://meyerweb.com/]: http://meyerweb.com/eric/articles/webrev/199903.html

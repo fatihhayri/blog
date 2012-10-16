@@ -20,27 +20,27 @@ paylaşacağım, siz kendinize uygun olan metodu uygulayabilirsiniz.
 Genelde bu yöntemi anlatırken menü örnekleri üzerinden anlatılmış bende
 geleneği bozmayayım.
 
-[html] \<div id="menuKapsulu"\> \<ul\> \<li\>Elma\</li\>
-\<li\>Armut\</li\> \<li\>Malta Eriği\</li\> \</ul\> \</div\> [/html]
+[html] <div id="menuKapsulu"> <ul> <li>Elma</li>
+<li>Armut</li> <li>Malta Eriği</li> </ul> </div> [/html]
 
 Alışkın olduğumuz bir menü kodu. CSS kodumuzu ekleyelim. İlk olarak
 kapsayıcı eleman tanımlarını yazalım.
 
-[css] \#menuKapsulu{ float:left; width:100%; background:\#369;
+[css] #menuKapsulu{ float:left; width:100%; background:#369;
 overflow:hidden; position:relative; } [/css]
 
 Menü kapsayıcısının sayfayı tam kaplaması için %100 değeri ve float:left
 değeri atandı.
 
-[css] \#menuKapsulu ul{ clear:left; float:left; list-style:none;
+[css] #menuKapsulu ul{ clear:left; float:left; list-style:none;
 margin:0; padding:0; position:relative; left:50%; text-align:center;
-background-color:\#990000 } [/css]
+background-color:#990000 } [/css]
 
 float:left değeri ile içeriği çepeçevre kapsaması sağlanıyor. left:50%
 değeri ile menu ortalanıyor. Ancak bu ortalama içeriğin genişliğini
 içermez.   
 
-[css] \#menuKapsulu ul li{ display:block; float:left; list-style:none;
+[css] #menuKapsulu ul li{ display:block; float:left; list-style:none;
 margin:0 10px 0 0; padding:10px 0; position:relative; right:50%; }
 [/css]
 
@@ -73,13 +73,13 @@ tanımını bu sefer genişliği belli olmayan alanlar içinde kullanıyoruz.
 
 HTML kodumuz aynı;  
 
-[html] \<div id="menuKapsulu"\> \<ul\> \<li\>Elma\</li\>
-\<li\>Armut\</li\> \<li\>Malta Eriği\</li\> \</ul\> \</div\> [/html]
+[html] <div id="menuKapsulu"> <ul> <li>Elma</li>
+<li>Armut</li> <li>Malta Eriği</li> </ul> </div> [/html]
 
 Ortalanacak alana margin:0 auto ve display:table tanımlarını yapıyoruz.  
 
-[css] \#menuKapsulu ul{ list-style:none; margin-left: auto;
-margin-right: auto; display: table; } \#menuKapsulu ul li{ float:left;
+[css] #menuKapsulu ul{ list-style:none; margin-left: auto;
+margin-right: auto; display: table; } #menuKapsulu ul li{ float:left;
 margin:0 10px 0 0; padding:10px 0; } [/css]
 
 Sonuç istediğimiz gibi, ancak bir sorunumuz varki oda display:table
@@ -87,9 +87,9 @@ Sonuç istediğimiz gibi, ancak bir sorunumuz varki oda display:table
 olacak derseniz bu bir hasLayout sorunu ve çözüm için zoom:1 tanımı
 kullanmamız gerekiyor.
 
-[css] \*:first-child+html \#menuKapsulu{ text-align:center } \* html
-\#menuKapsulu{ text-align:center } \*:first-child+html \#menuKapsulu ul{
-display: inline; zoom: 1; } \* html \#menuKapsulu ul{ display: inline;
+[css] *:first-child+html #menuKapsulu{ text-align:center } * html
+#menuKapsulu{ text-align:center } *:first-child+html #menuKapsulu ul{
+display: inline; zoom: 1; } * html #menuKapsulu ul{ display: inline;
 zoom: 1; } [/css]
 
 Kapsayıcı kapsüle text-align:center tanımı yapıyoruz sonra listemize
@@ -117,19 +117,19 @@ Kalın sağlıcakla.
 
 ### Kaynaklar
 
--   [http://css-discuss.incutio.com/wiki/Centering\_Block\_Element][]
+-   [http://css-discuss.incutio.com/wiki/Centering_Block_Element][]
 -   [http://www.solstice.co.il/blog/2008-02-26/horizontally-centering-content-dynamic-width-css][]
 -   [http://matthewjamestaylor.com/blog/beautiful-css-centered-menus-no-hacks-full-cross-browser-support][]
 -   [http://haslayout.net/css-tuts/Horizontal-Centering][]
 -   [http://www.katcode.com/css-horizontally-centering-div-of-unknown-width/][]
--   [http://www.tightcss.com/centering/center\_variable\_width.htm][]
+-   [http://www.tightcss.com/centering/center_variable_width.htm][]
 
 </p>
 
   []: http://www.fatihhayrioglu.com/wp-content/gb_ortalama1.gif
     "gb_ortalama"
   [![][]]: http://www.fatihhayrioglu.com/wp-content/gb_ortalama1.gif
-  [http://css-discuss.incutio.com/wiki/Centering\_Block\_Element]: http://css-discuss.incutio.com/wiki/Centering_Block_Element
+  [http://css-discuss.incutio.com/wiki/Centering_Block_Element]: http://css-discuss.incutio.com/wiki/Centering_Block_Element
   [http://www.solstice.co.il/blog/2008-02-26/horizontally-centering-content-dynamic-width-css]:
     http://www.solstice.co.il/blog/2008-02-26/horizontally-centering-content-dynamic-width-css
   [http://matthewjamestaylor.com/blog/beautiful-css-centered-menus-no-hacks-full-cross-browser-support]:
@@ -137,4 +137,4 @@ Kalın sağlıcakla.
   [http://haslayout.net/css-tuts/Horizontal-Centering]: http://haslayout.net/css-tuts/Horizontal-Centering
   [http://www.katcode.com/css-horizontally-centering-div-of-unknown-width/]:
     http://www.katcode.com/css-horizontally-centering-div-of-unknown-width/
-  [http://www.tightcss.com/centering/center\_variable\_width.htm]: http://www.tightcss.com/centering/center_variable_width.htm
+  [http://www.tightcss.com/centering/center_variable_width.htm]: http://www.tightcss.com/centering/center_variable_width.htm

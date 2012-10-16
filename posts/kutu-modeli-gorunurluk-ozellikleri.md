@@ -19,7 +19,7 @@ sıralanmıştır.
 
 ### Overflow
 
-**Yapısı:** overflow: \<deger\>  
+**Yapısı:** overflow: <deger>  
 **Aldığı Değerler:** visible | hidden | scroll | auto | inherit  
 **Başlnagıç değeri:** visible  
 **Uygulanabilen elementler:** blok-level elementler ve replacement
@@ -53,8 +53,8 @@ CSS Profile 2.0
 **overflow:visible** Overflow'ın başlangıç değeri visible'dır. Bu değer
 taşma olan kısımların gösterilmesini sağlar.
 
-[sourcecode language="css"] div\#solMenu { position: absolute; top: 0;
-left: 0; width: 200px; height: 120px; background: \#BBB; overflow:
+[sourcecode language="css"] div#solMenu { position: absolute; top: 0;
+left: 0; width: 200px; height: 120px; background: #BBB; overflow:
 visible; } [/sourcecode]
 
 ![overflow][]  
@@ -67,8 +67,8 @@ rağmen taşan bölümler gösterilmiştir.
 yinede taşan kısımlara ulaşılması için kaydırma çubuğu çıkması için
 scroll özelliği ekleriz.
 
-[sourcecode language="css"] div\#solMenu { position: absolute; top: 0;
-left: 0; width: 200px; height: 120px; background: \#BBB; overflow:
+[sourcecode language="css"] div#solMenu { position: absolute; top: 0;
+left: 0; width: 200px; height: 120px; background: #BBB; overflow:
 scroll; } [/sourcecode]
 
 ![overflow scroll][]  
@@ -77,8 +77,8 @@ overflow:scrool olma durumu
 **overflow:hidden** Eğer overflow:hidden değeri atarsak. Sınırladığımız
 kutunun dışına taşan kısımlar gösterilmeyecektir.
 
-[sourcecode language="css"] div\#solMenu { position: absolute; top: 0;
-left: 0; width: 200px; height: 120px; background: \#BBB; overflow:
+[sourcecode language="css"] div#solMenu { position: absolute; top: 0;
+left: 0; width: 200px; height: 120px; background: #BBB; overflow:
 hidden; } [/sourcecode]
 
 kodu bu şekilde değiştirdiğimizde görüntü aşağıdaki gibi olacaktır.
@@ -90,8 +90,8 @@ atayınca kutu içeriğine göre otomatik işlem yapacaktır. Eğer taşma
 olmuyorsa kaydırma çubuğu çıkmayacaktır. Ama eğer içerik taşıyorsa
 kaydırma çubuğu çıkacaktır.
 
-[sourcecode language="css"] div\#solMenu { position: absolute; top: 0;
-left: 0; width: 200px; height: 120px; background: \#BBB; overflow:
+[sourcecode language="css"] div#solMenu { position: absolute; top: 0;
+left: 0; width: 200px; height: 120px; background: #BBB; overflow:
 hidden; } [/sourcecode]
 
 ![overflow:auto][]
@@ -138,7 +138,7 @@ CSS Profile 3.0
 </div>
 ###### clip
 
-**Yapısı :** clip: rect(\<üst\>,\<sağ\>,\<alt\>,\<sol\>)  
+**Yapısı :** clip: rect(<üst>,<sağ>,<alt>,<sol>)  
 **Aldığı Değerler :** rect(top, right, bottom, left) | auto | inherit  
 **Başlangıç değeri:** auto  
 **Uygulanabilen elementler:** mutlak konumlandır uygulanmış elementler
@@ -190,8 +190,8 @@ CSS kodu:
 
 HTML kodu:
 
-[sourcecode language="html"]\<ol\> \<div class="kirpma"\> \<img
-src="recepemice.jpg" alt="ahmet emice" /\> \</div\> [/sourcecode]
+[sourcecode language="html"]<ol> <div class="kirpma"> <img
+src="recepemice.jpg" alt="ahmet emice" /> </div> [/sourcecode]
 
 ![Kırpma][]  
 örneğin görüntüsü
@@ -200,7 +200,7 @@ src="recepemice.jpg" alt="ahmet emice" /\> \</div\> [/sourcecode]
 
 ### visibility
 
-**Yapısı :** visibility: \<deger\>  
+**Yapısı :** visibility: <deger>  
 **Aldığı Değerler :** visible | hidden | collapse | inherit  
 **Başlnagıç değeri:** visible  
 **Uygulanabilen elementler:** tüm elementlere  
@@ -221,18 +221,18 @@ visible ise element görünür. Eğer değeri hidden ise element görünmezdir.
 Eğer bir elementin görünürlük değeri hidden olarak atanmış ise element
 sayfa yapısındaki yeri korur ancak gözle görülmez.
 
-[sourcecode language="html"]\<ol\> \<html\> \<head\> \<title\>visibility
-Örneği\</title\> \<meta http-equiv="Content-Type" content="text/html;
-charset=utf-8" /\> \<style\> \<li class="alternatifard"\>body
-{font-family: sans-serif; font-weight: bold; font-size: 14px}\</li\>
-\</style\> \<li class="alternatifard"\>\</head\> \<body\> \<h1
-style="visibility: visible"\>Görünür Başlık\</h1\> \<h1
-style="visibility: hidden; background-color:\#f00; border:1px solid
-\#000; margin:20px 0; padding-top:10px;"\>Görünmez Başlık\</h1\> \<h1
-style="visibility: visible"\>Görünür Başlık\</h1\> \<p style="font-size:
-large"\>Görünür metin parçası\<b style="visibility: hidden"\>görünmez
-metin parçası\</b\> ve burası görünüyor.\</p\> \</body\> \</html\>
-\</ol\>[/sourcecode]
+[sourcecode language="html"]<ol> <html> <head> <title>visibility
+Örneği</title> <meta http-equiv="Content-Type" content="text/html;
+charset=utf-8" /> <style> <li class="alternatifard">body
+{font-family: sans-serif; font-weight: bold; font-size: 14px}</li>
+</style> <li class="alternatifard"></head> <body> <h1
+style="visibility: visible">Görünür Başlık</h1> <h1
+style="visibility: hidden; background-color:#f00; border:1px solid
+#000; margin:20px 0; padding-top:10px;">Görünmez Başlık</h1> <h1
+style="visibility: visible">Görünür Başlık</h1> <p style="font-size:
+large">Görünür metin parçası<b style="visibility: hidden">görünmez
+metin parçası</b> ve burası görünüyor.</p> </body> </html>
+</ol>[/sourcecode]
 
 ![Visibility örneği][]
 
@@ -255,10 +255,10 @@ strong {visibility: visible;} [/sourcecode]
 
 HTML kodu
 
-[sourcecode language="css"] \<p class="gorunmez" \<strong\>Lorem ipsum
-dolor sit amet\</strong\>, consectetuer adipiscing elit. Cras sem. In
+[sourcecode language="css"] <p class="gorunmez" <strong>Lorem ipsum
+dolor sit amet</strong>, consectetuer adipiscing elit. Cras sem. In
 sagittis mauris eu turpis. Mauris ut lorem nec pede consequat suscipit.
-\</p\> [/sourcecode]
+</p> [/sourcecode]
 
 ![visibility hiyerarşi][]
 
@@ -273,8 +273,8 @@ display:none özelliği kullanılır.
 
 -   [http://www.w3.org/TR/CSS21/visufx.html][]
 -   [http://www.seifi.org/css/creating-thumbnails-using-the-css-clip-property.html][]
--   [http://www.ibloomstudios.com/articles/misunderstood\_css\_clip/][]
--   [http://www.w3schools.com/css/pr\_pos\_clip.asp][]
+-   [http://www.ibloomstudios.com/articles/misunderstood_css_clip/][]
+-   [http://www.w3schools.com/css/pr_pos_clip.asp][]
 
 </p>
 
@@ -297,5 +297,5 @@ display:none özelliği kullanılır.
   [http://www.w3.org/TR/CSS21/visufx.html]: http://www.w3.org/TR/CSS21/visufx.html
   [http://www.seifi.org/css/creating-thumbnails-using-the-css-clip-property.html]:
     http://www.seifi.org/css/creating-thumbnails-using-the-css-clip-property.html
-  [http://www.ibloomstudios.com/articles/misunderstood\_css\_clip/]: http://www.ibloomstudios.com/articles/misunderstood_css_clip/
-  [http://www.w3schools.com/css/pr\_pos\_clip.asp]: http://www.w3schools.com/css/pr_pos_clip.asp
+  [http://www.ibloomstudios.com/articles/misunderstood_css_clip/]: http://www.ibloomstudios.com/articles/misunderstood_css_clip/
+  [http://www.w3schools.com/css/pr_pos_clip.asp]: http://www.w3schools.com/css/pr_pos_clip.asp

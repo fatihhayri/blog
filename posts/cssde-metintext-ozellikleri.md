@@ -16,8 +16,8 @@ kontrol eder. Metin özellikleri metin düzeni için çok avantajlı
 Paragrafların ilk cümlelerin soldan içeriye kaydırılması için kullanılan
 bir özelliktir.
 
-**Yapısı :** text-indent: \<deger\> **Aldığı Değerler :** [\<uzunluk
-değeri \>][] | [\<yüzde\>][\<uzunluk değeri \>] **Başlnagıç değeri:** 0
+**Yapısı :** text-indent: <deger> **Aldığı Değerler :** [<uzunluk
+değeri >][] | [<yüzde>][<uzunluk değeri >] **Başlnagıç değeri:** 0
 **Uygulanabilen elementler:** Blok-level elementler **Kalıtsallık:** Var
 
 [sourcecode language='css'] p { text-indent: 10px; } [/sourcecode]
@@ -32,8 +32,8 @@ Level 1+ CSS Profile 1.0
 Bir elemntin diğerlerine göre hizasını berlilemek için kullanılır.
 Sadece metinler için kullanılmaz, diğer elementler içinde kullanılır.
 
-**Yapısı :** text-align: \<deger\> **Aldığı Değerler :** [\<uzunluk
-değeri \>][] | [\<yüzde\>][\<uzunluk değeri \>] | inherit **Başlnagıç
+**Yapısı :** text-align: <deger> **Aldığı Değerler :** [<uzunluk
+değeri >][] | [<yüzde>][<uzunluk değeri >] | inherit **Başlnagıç
 değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **Kalıtsallık:** Yok
 
@@ -57,8 +57,8 @@ Bir elementin içeriğinin dikey hizalaması için kullanılır.
 -   bottom : Alt (Elemente göre)
 -   text-bottom : Alt(Metin içeriğine göre)
 
-**Yapısı :** vertical-align: \<deger\> **Aldığı Değerler
-:**[\<yüzde\>][\<uzunluk değeri \>] | baseline | sub | super | top |
+**Yapısı :** vertical-align: <deger> **Aldığı Değerler
+:**[<yüzde>][<uzunluk değeri >] | baseline | sub | super | top |
 text-top | middle | bottom | text-bottom **Başlnagıç değeri:** baseline
 **Uygulanabilen elementler:** inline elementler **Kalıtsallık:** Yok
 
@@ -75,9 +75,9 @@ Level 1+ CSS Profile 1.0
 Satırlar arasındaki yüksekliği belirler. **normal**, **pixel** veya
 **yüzde**değerlerin den birini alabilir.
 
-**Yapısı :** line-height: \<deger\> **Aldığı Değerler :** normal |
-[\<sayı\>][\<uzunluk değeri \>] | [\<uzunluk değeri \>][] |
-[\<yüzde\>][\<uzunluk değeri \>] **Başlnagıç değeri:** normal
+**Yapısı :** line-height: <deger> **Aldığı Değerler :** normal |
+[<sayı>][<uzunluk değeri >] | [<uzunluk değeri >][] |
+[<yüzde>][<uzunluk değeri >] **Başlnagıç değeri:** normal
 **Uygulanabilen elementler:** tüm elementler **Kalıtsallık:** Var
 
 [sourcecode language='css'] div{ line-height:30px } [/sourcecode]
@@ -91,8 +91,8 @@ Level 1+ CSS Profile 1.0
 
 Kelimeler arasındaki boşluk değerini belirler. Eksi değer alabilir.
 
-**Yapısı :** word-spacing: \<deger\> **Aldığı Değerler :** normal |
-[\<uzunluk değeri \>][] **Başlnagıç değeri:** normal **Uygulanabilen
+**Yapısı :** word-spacing: <deger> **Aldığı Değerler :** normal |
+[<uzunluk değeri >][] **Başlnagıç değeri:** normal **Uygulanabilen
 elementler:** tüm elementler **Kalıtsallık:** Var
 
 [sourcecode language='css'] p { word-spacing: 10px; } [/sourcecode]
@@ -106,8 +106,8 @@ Opera 3.6+ W3C's CSS Level 2+
 
 Harfler arasındaki boşluk değerini belirler. Eksi değer alabilir.
 
-**Yapısı :** letter-spacing: \<deger\> **Aldığı Değerler :** normal |
-[\<uzunluk değeri \>][] **Başlnagıç değeri:** normal **Uygulanabilen
+**Yapısı :** letter-spacing: <deger> **Aldığı Değerler :** normal |
+[<uzunluk değeri >][] **Başlnagıç değeri:** normal **Uygulanabilen
 elementler:** tüm elementler **Kalıtsallık:** Var
 
 [sourcecode language='css'] p { letter-spacing: 5px; } [/sourcecode]
@@ -125,7 +125,7 @@ Metnin Büyük-Küçük harf çevirmek için kullanılır.
 -   **lowercase**(hepsini küçük harf yap)
 -   **capitalize**(sadece baş harfleri büyük yap)
 
-**Yapısı :** text-transform: \<deger\> **Aldığı Değerler :** none |
+**Yapısı :** text-transform: <deger> **Aldığı Değerler :** none |
 capitalize | uppercase | lowercase **Başlnagıç değeri:** none
 **Uygulanabilen elementler:** tüm elementler **Kalıtsallık:** Var
 
@@ -142,7 +142,7 @@ Level 1+ CSS Profile 1.0
 Bu özellik metinlerimize özel işaretler koymamızı sağlar. Örneğin
 metinlerizinaltını çizmek gibi.
 
-**Yapısı :** text-decoration: \<deger\> **Aldığı Değerler :**none | [
+**Yapısı :** text-decoration: <deger> **Aldığı Değerler :**none | [
 underline || overline || line-through || blink ] **Başlnagıç değeri:**
 none **Uygulanabilen elementler:** tüm elementler **Kalıtsallık:** Yok
 
@@ -161,4 +161,4 @@ Bu özellik CSS2 ile birlikte geldi ancak internet tarayıcıları bu
 
 </p>
 
-  [\<uzunluk değeri \>]: http://www.fatihhayrioglu.com/?p=95
+  [<uzunluk değeri >]: http://www.fatihhayrioglu.com/?p=95

@@ -22,8 +22,8 @@ grafik [zurb.com][] sitesinden alınmıştır.
 
 border-image kod yapısı
 
--   border-image: \<resim\_kaynagi\> \<bolum {1,4}\> / \<genislik
-    {1,4}\> \<dis\_hat\> \<tekrar{1,2}\>;
+-   border-image: <resim_kaynagi> <bolum {1,4}> / <genislik
+    {1,4}> <dis_hat> <tekrar{1,2}>;
 
 Firefox, Chrome, Safari ve Opera gibi yeni nesil tarayıcılar
 destekliyor. Diğer özelliklerde olduğu gibi önek ile destekliyorlar.
@@ -142,28 +142,28 @@ dolayı şimdilik kaydı ile **border-image** kısaltması kullanılmalıdır.
 Yukarıda konu daha iyi anlaşılması için ayrı ayrı gösterilmiştir.
 
 [css] .test{ width:300px; height:300px; border-width: 33px;
--moz-border-image: url(border\_image\_desen.png) 33 stretch;
--webkit-border-image: url(border\_image\_desen.png) 33 stretch;
--o-border-image: url(border\_image\_desen.png) 33 stretch; border-image:
-url(border\_image\_desen.png) 33 stretch; } [/css]
+-moz-border-image: url(border_image_desen.png) 33 stretch;
+-webkit-border-image: url(border_image_desen.png) 33 stretch;
+-o-border-image: url(border_image_desen.png) 33 stretch; border-image:
+url(border_image_desen.png) 33 stretch; } [/css]
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/myzQX/25/embedded/result,css,html"></iframe>  
 strech
 
 [css] .test{ width:300px; height:300px; border-width: 33px;
--moz-border-image: url(border\_image\_desen.png) 33 repeat;
--webkit-border-image: url(border\_image\_desen.png) 33 repeat;
--o-border-image: url(border\_image\_desen.png) 33 repeat; border-image:
-url(border\_image\_desen.png) 33 repeat; } [/css]
+-moz-border-image: url(border_image_desen.png) 33 repeat;
+-webkit-border-image: url(border_image_desen.png) 33 repeat;
+-o-border-image: url(border_image_desen.png) 33 repeat; border-image:
+url(border_image_desen.png) 33 repeat; } [/css]
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/egcdh/1/embedded/result,css,html"></iframe>  
 repeat
 
 [css] .test{ width:300px; height:300px; border-width: 33px;
--moz-border-image: url(border\_image\_desen.png) 33 round;
--webkit-border-image: url(/border\_image\_desen.png) 33 round;
--o-border-image: url(border\_image\_desen.png) 33 round; border-image:
-url(border\_image\_desen.png) 33 round; } [/css]
+-moz-border-image: url(border_image_desen.png) 33 round;
+-webkit-border-image: url(/border_image_desen.png) 33 round;
+-o-border-image: url(border_image_desen.png) 33 round; border-image:
+url(border_image_desen.png) 33 round; } [/css]
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/VnJnz/1/embedded/result,css,html"></iframe>  
 round
@@ -218,7 +218,7 @@ uygulanabilirliği var.
 
 **Kaynaklar**
 
--   [http://www.w3.org/TR/css3-background/\#border-images][]
+-   [http://www.w3.org/TR/css3-background/#border-images][]
 -   [http://www.css3.info/preview/border-image/][]
 -   [http://www.sitepoint.com/css3-border-image/][] (güzel)
 -   [http://css-tricks.com/6883-understanding-border-image/][]
@@ -229,14 +229,14 @@ uygulanabilirliği var.
 -   [http://ejohn.org/blog/border-image-in-firefox/][] (farklı örnekler)
 -   [https://developer.mozilla.org/en/CSS/-moz-border-image][]
     (standartlar)
--   [http://www.dynamicdrive.com/style/csslibrary/item/image\_frames\_using\_css3\_border\_image/][]
+-   [http://www.dynamicdrive.com/style/csslibrary/item/image_frames_using_css3_border_image/][]
     (güzel örnekler)
 -   [http://caniuse.com/border-image][] (destek listesi)
 -   [http://ensightful.com/walrus-ivory-tusk-with-animals][] (örnek)
 -   [http://border-image.com/][http://border-image.com] (çevrimiçi araç)
 -   [http://www.norabrowndesign.com/css-experiments/border-image-anim.html][]
     (örnek)
--   [http://dev.opera.com/articles/view/css3-border-background-boxshadow/\#border-image][]
+-   [http://dev.opera.com/articles/view/css3-border-background-boxshadow/#border-image][]
 -   [http://people.opera.com/pepelsbey/experiments/bdi/][]
 -   [http://ejohn.org/blog/border-image-in-firefox/][]
 -   [http://michaelhan.net/wordsets/20/][]
@@ -253,7 +253,7 @@ uygulanabilirliği var.
     http://www.norabrowndesign.com/css-experiments/border-image-anim.html
   [2]: https://lh6.googleusercontent.com/EGaD-qHZbUWYstl-bWzS4gXGZVIUOtjTzSC4Ts4RCV2Nlp5mwP5Frxw6E_T3Vnx368_00tmTvv0mQzolvTXvD8w4JZoMyna8Q2GfdP0xSCgyFg7zfNI
   [3]: https://lh6.googleusercontent.com/_f6rtZcfaMwrcVDUnEySHv5YRELXr-_IGpMxshGjOjbx2Uisj_kAPqenT7FpwiqPMQcRIM4-1Yua0CxixYh3JUPpe4xIZegphhG6X9skfbMF9JPsGU4
-  [http://www.w3.org/TR/css3-background/\#border-images]: http://www.w3.org/TR/css3-background/#border-images
+  [http://www.w3.org/TR/css3-background/#border-images]: http://www.w3.org/TR/css3-background/#border-images
   [http://www.css3.info/preview/border-image/]: http://www.css3.info/preview/border-image/
   [http://www.sitepoint.com/css3-border-image/]: http://www.sitepoint.com/css3-border-image/
   [http://css-tricks.com/6883-understanding-border-image/]: http://css-tricks.com/6883-understanding-border-image/
@@ -265,11 +265,11 @@ uygulanabilirliği var.
   [http://www.suburban-glory.com/blog?page=111]: http://www.suburban-glory.com/blog?page=111
   [http://ejohn.org/blog/border-image-in-firefox/]: http://ejohn.org/blog/border-image-in-firefox/
   [https://developer.mozilla.org/en/CSS/-moz-border-image]: https://developer.mozilla.org/en/CSS/-moz-border-image
-  [http://www.dynamicdrive.com/style/csslibrary/item/image\_frames\_using\_css3\_border\_image/]:
+  [http://www.dynamicdrive.com/style/csslibrary/item/image_frames_using_css3_border_image/]:
     http://www.dynamicdrive.com/style/csslibrary/item/image_frames_using_css3_border_image/
   [http://caniuse.com/border-image]: http://caniuse.com/border-image
   [http://ensightful.com/walrus-ivory-tusk-with-animals]: http://ensightful.com/walrus-ivory-tusk-with-animals
-  [http://dev.opera.com/articles/view/css3-border-background-boxshadow/\#border-image]:
+  [http://dev.opera.com/articles/view/css3-border-background-boxshadow/#border-image]:
     http://dev.opera.com/articles/view/css3-border-background-boxshadow/#border-image
   [http://people.opera.com/pepelsbey/experiments/bdi/]: http://people.opera.com/pepelsbey/experiments/bdi/
   [http://michaelhan.net/wordsets/20/]: http://michaelhan.net/wordsets/20/

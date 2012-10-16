@@ -19,8 +19,8 @@ atın. <!--more-->
 
 ### margin-top<a name="01"></a>
 
-**Yapısı :** margin-top: \<deger\> **Aldığı Değerler :** [\<uzunluk
-değeri \>][] | [\<yüzde\>][\<uzunluk değeri \>] | auto **Başlnagıç
+**Yapısı :** margin-top: <deger> **Aldığı Değerler :** [<uzunluk
+değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
 değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **Kalıtsallık:** Yok
 
@@ -36,8 +36,8 @@ Level 1+ CSS Profile 1.0
 </div>
 ### margin-right <a name="02"></a>
 
-**Yapısı :** margin-right: \<deger\> **Aldığı Değerler :** [\<uzunluk
-değeri \>][] | [\<yüzde\>][\<uzunluk değeri \>] | auto **Başlnagıç
+**Yapısı :** margin-right: <deger> **Aldığı Değerler :** [<uzunluk
+değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
 değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **Kalıtsallık:** Yok
 
@@ -53,8 +53,8 @@ Level 1+ CSS Profile 1.0
 </div>
 ### margin-bottom<a name="03"></a>
 
-**Yapısı :** margin-bottom: \<deger\> **Aldığı Değerler :** [\<uzunluk
-değeri \>][] | [\<yüzde\>][\<uzunluk değeri \>] | auto **Başlnagıç
+**Yapısı :** margin-bottom: <deger> **Aldığı Değerler :** [<uzunluk
+değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
 değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **Kalıtsallık:** Yok
 
@@ -69,8 +69,8 @@ Level 1+ CSS Profile 1.0
 </div>
 ### margin-left<a name="04"></a>
 
-**Yapısı :** margin-left: \<deger\> **Aldığı Değerler :** [\<uzunluk
-değeri \>][] | [\<yüzde\>][\<uzunluk değeri \>] | auto **Başlnagıç
+**Yapısı :** margin-left: <deger> **Aldığı Değerler :** [<uzunluk
+değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
 değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **Kalıtsallık:** Yok
 
@@ -86,8 +86,8 @@ Level 1+ CSS Profile 1.0
 </div>
 ### margin<a name="05"></a>
 
-**Yapısı :** margin: \<deger\> **Aldığı Değerler :** [[\<percentage\>][]
-| [\<length\>][\<percentage\>] |auto]{1,4} **Başlnagıç değeri:**
+**Yapısı :** margin: <deger> **Aldığı Değerler :** [[<percentage>][]
+| [<length>][<percentage>] |auto]{1,4} **Başlnagıç değeri:**
 Tanımsız **Uygulanabilen elementler:** tüm elementler **Kalıtsallık:**
 Yok
 
@@ -103,11 +103,11 @@ yukarıda **h1** için margin değerleri sıralaması şöyledir:
 
 ikili ve üçlü kullanımda mevcuttur
 
-[sourcecode language='css'] h1 {margin: 0.25em 0 0.5em;} /\* esittir
-'0.25em 0 0.5em 0' \*/ h2 {margin: 0.15em 0.2em;} /\* esittir '0.15em
-0.2em 0.15em 0.2em' \*/ p {margin: 0.5em 10px;} /\* esittir '0.5em 10px
-0.5em 10px' \*/ p.close {margin: 0.1em;} /\* esittir '0.1em 0.1em 0.1em
-0.1em' \*/ [/sourcecode]
+[sourcecode language='css'] h1 {margin: 0.25em 0 0.5em;} /* esittir
+'0.25em 0 0.5em 0' */ h2 {margin: 0.15em 0.2em;} /* esittir '0.15em
+0.2em 0.15em 0.2em' */ p {margin: 0.5em 10px;} /* esittir '0.5em 10px
+0.5em 10px' */ p.close {margin: 0.1em;} /* esittir '0.1em 0.1em 0.1em
+0.1em' */ [/sourcecode]
 
 <div class="tarayiciuyum">
 **Browser Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's CSS
@@ -118,5 +118,5 @@ Level 1+ CSS Profile 1.0
 
   [Box modellerine]: http://www.fatihhayrioglu.com/?p=13
   [Kutu Modeli]: http://fatihhayrioglu.com/images/basit_boxmodel.gif
-  [\<uzunluk değeri \>]: http://www.fatihhayrioglu.com/?p=95
-  [\<percentage\>]: #
+  [<uzunluk değeri >]: http://www.fatihhayrioglu.com/?p=95
+  [<percentage>]: #

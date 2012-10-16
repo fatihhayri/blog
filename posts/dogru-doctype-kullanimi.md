@@ -49,7 +49,7 @@ kutu modeline bakmalıyız. IE6 başlangıçta Standart Mod da [Kutu
 Modeli][] doğru görünürken Garip Mod da ise sorun çıkarır. IE5 ve
 aşağısında bu sorun vardır, ayrıca Opera 7 ve üsrü Garip Mod da IE gibi
 davranır. Bunun dışında ufak tefek sorunlar da vardır. Hekzedesimal renk
-tanımında \# kullanımına ihtiyaç duymama, CSS'de değer kullanılmadığında
+tanımında # kullanımına ihtiyaç duymama, CSS'de değer kullanılmadığında
 birimi piksel olarak tanınması vb. sorunlar olarak sıralayabiliriz.
 
 Mozilla ve Safaride bir üçüncü mod vardır, ancak Standart Mod'dan çok

@@ -26,8 +26,8 @@ değiştirildiğinde uygulanır.
 
 ![][]
 
-**Yapısı:z-index: \<deger\>  
-Aldığı Değerler:\<[sayısal değer][] \> | auto | inherit  
+**Yapısı:z-index: <deger>  
+Aldığı Değerler:<[sayısal değer][] > | auto | inherit  
 Başlangıç değeri:auto  
 Uygulanabilen elementler:postion uygulanan elementlere  
 Kalıtsallık:Yok**
@@ -47,9 +47,9 @@ Konumlandırma değeri relative, absolute ve fixed uygulanmış katmanların
 görünürlüğünü z-index ile ayarlayabiliriz.
 
 [sourcecode language="css"] div{ position:absolute; width:150px;
-height:150px; } div.bir { background: \#FEB3BE; border:2px solid
-\#CC8B94; top: 0; left: 0; } div.iki { background: \#E5ECF9; border:2px
-solid \#BCCCEB; top: 10px; left: 10px; } [/sourcecode]
+height:150px; } div.bir { background: #FEB3BE; border:2px solid
+#CC8B94; top: 0; left: 0; } div.iki { background: #E5ECF9; border:2px
+solid #BCCCEB; top: 10px; left: 10px; } [/sourcecode]
 
 Yukarıda örnekte görüldüğü gibi katmanlar üst üste sıralanmıştır.
 Birbirinden 10px üst ve 10px soldan mesafe bırakılmıştır. Üstte kalan
@@ -57,8 +57,8 @@ katman alttakileri gizlemiştir. Tüm katmanların z-index değeri
 atanmamıştır bu nedenle başlangıç değeri olan z-index:auto değerini
 almışlardır.
 
-[sourcecode language="css"] \<body\> \<div class='kapsul'\> \<div
-class='bir'\>\</div\> \<div class='iki'\>\</div\> \</div\> \</body\>
+[sourcecode language="css"] <body> <div class='kapsul'> <div
+class='bir'></div> <div class='iki'></div> </div> </body>
 [/sourcecode]
 
 z-index değeri otomatik olduğu için her katman html'deki sırasına göre
@@ -79,9 +79,9 @@ z-index değerini 2 versek. Mavi katmanın z-index değerini 1 verirsek
 katman görünümünü tersine dönecektir.
 
 [sourcecode language="css" highlight="11,18"] div{ position:absolute;
-width:150px; height:150px; } div.bir { background: \#FEB3BE; border:2px
-solid \#CC8B94; top: 0; left: 0; z-index:2 } div.iki { background:
-\#E5ECF9; border:2px solid \#BCCCEB; top: 10px; left: 10px; z-index:1 }
+width:150px; height:150px; } div.bir { background: #FEB3BE; border:2px
+solid #CC8B94; top: 0; left: 0; z-index:2 } div.iki { background:
+#E5ECF9; border:2px solid #BCCCEB; top: 10px; left: 10px; z-index:1 }
 [/sourcecode]
 
 <div align="center">
@@ -92,8 +92,8 @@ solid \#CC8B94; top: 0; left: 0; z-index:2 } div.iki { background:
 katmanlardaki z-index:auto değeri gibi davranır ve sayısal atamaları
 dikkate almaz.
 
-[sourcecode language="html"] \<body\> \<div class='kapsul'\> \<div
-class='bir'\>\<div class='iki'\>\</div\>\</div\> \</div\> \</body\>
+[sourcecode language="html"] <body> <div class='kapsul'> <div
+class='bir'><div class='iki'></div></div> </div> </body>
 [/sourcecode]
 
 z-index değeri yüksek olmasına rağmen bir sınıfını alan katmana altta
@@ -149,8 +149,8 @@ listeledik bu linklerdeki çözümleri incelemenizi tavsiye ederiz. Karşıma
     (flash ve html elemtnleri)
 -   [http://www.blooberry.com/indexdot/css/properties/position/zindex.htm][]
     (tarayıcı destek)
--   [http://www.westciv.com/style\_master/academy/css\_tutorial/properties/page\_layout.html\#z-index][]
--   [http://developer.mozilla.org/en/docs/Understanding\_CSS\_z-index][]
+-   [http://www.westciv.com/style_master/academy/css_tutorial/properties/page_layout.html#z-index][]
+-   [http://developer.mozilla.org/en/docs/Understanding_CSS_z-index][]
 -   [http://css-discuss.incutio.com/?page=OverlappingAndZIndex][]
 -   [http://csscreator.com/blog/z-index][]
 -   [http://www.fatihhayrioglu.com/?p=151][]
@@ -166,7 +166,7 @@ listeledik bu linklerdeki çözümleri incelemenizi tavsiye ederiz. Karşıma
 -   [http://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html][]
 -   [http://www.hedgerwow.com/360/bugs/css-select-free.html][]
 -   [http://blogs.msdn.com/ie/archive/2006/01/17/514076.aspx][]
--   [http://randsco.com/index.php/2005/09/11/changing\_z\_index\_on\_hover][]
+-   [http://randsco.com/index.php/2005/09/11/changing_z_index_on_hover][]
 
 </p>
 
@@ -180,9 +180,9 @@ listeledik bu linklerdeki çözümleri incelemenizi tavsiye ederiz. Karşıma
     http://joshuaink2006.johnoxton.co.uk/blog/82/flash-content-and-z-index
   [http://www.blooberry.com/indexdot/css/properties/position/zindex.htm]:
     http://www.blooberry.com/indexdot/css/properties/position/zindex.htm
-  [http://www.westciv.com/style\_master/academy/css\_tutorial/properties/page\_layout.html\#z-index]:
+  [http://www.westciv.com/style_master/academy/css_tutorial/properties/page_layout.html#z-index]:
     http://www.westciv.com/style_master/academy/css_tutorial/properties/page_layout.html#z-index
-  [http://developer.mozilla.org/en/docs/Understanding\_CSS\_z-index]: http://developer.mozilla.org/en/docs/Understanding_CSS_z-index
+  [http://developer.mozilla.org/en/docs/Understanding_CSS_z-index]: http://developer.mozilla.org/en/docs/Understanding_CSS_z-index
   [http://css-discuss.incutio.com/?page=OverlappingAndZIndex]: http://css-discuss.incutio.com/?page=OverlappingAndZIndex
   [http://csscreator.com/blog/z-index]: http://csscreator.com/blog/z-index
   [http://www.fatihhayrioglu.com/?p=151]: http://www.fatihhayrioglu.com/?p=151
@@ -193,5 +193,5 @@ listeledik bu linklerdeki çözümleri incelemenizi tavsiye ederiz. Karşıma
   [http://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html]: http://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html
   [http://www.hedgerwow.com/360/bugs/css-select-free.html]: http://www.hedgerwow.com/360/bugs/css-select-free.html
   [http://blogs.msdn.com/ie/archive/2006/01/17/514076.aspx]: http://blogs.msdn.com/ie/archive/2006/01/17/514076.aspx
-  [http://randsco.com/index.php/2005/09/11/changing\_z\_index\_on\_hover]:
+  [http://randsco.com/index.php/2005/09/11/changing_z_index_on_hover]:
     http://randsco.com/index.php/2005/09/11/changing_z_index_on_hover

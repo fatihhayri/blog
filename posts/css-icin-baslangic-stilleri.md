@@ -17,7 +17,7 @@ adresi bilgilerini eklemesini seviyorum. CSS dokümanında yapılan
 değişikliklerin not edilmesi veya notların nerede olduğunun yazılması
 bize dokümanı tekrar incelerken ve değişiklik yaparken yardımcı olur.
 
-1.  /\*-------------------------------------------------------------------------  
+1.  /*-------------------------------------------------------------------------  
 2.  [client] Screen Stil Dosyası  
 3.  version : 1.0  
 4.  tarih : 01/03/07
@@ -25,7 +25,7 @@ bize dokümanı tekrar incelerken ve değişiklik yaparken yardımcı olur.
 6.  eposta : [siz at domain dot com]  
 7.  website : [website adresiniz]  
 8.  version geçmişi : [dosyanın bulunduğu yer]  
-9.  -------------------------------------------------------------------------\*/
+9.  -------------------------------------------------------------------------*/
 
 ###### **Stil Dosyanızı Nasıl Bölümleyeceğinize Karar Verin**
 
@@ -35,8 +35,8 @@ bile. Gerçekten bazı CSS yazarları stil dosyasını bölmeyi tercih
 ederler. Bu bir kişisel seçim meselesidir. Bundan sonra başlangıç stil
 dosyamın içinde, başka bir stil dosyasını çekebileceğim bir bölümüm var.
 
-1.  /\* Diğer Stil Dosyalarını Dahil Etmek -Import-  
-2.  -------------------------------------------------------------------------\*/  
+1.  /* Diğer Stil Dosyalarını Dahil Etmek -Import-  
+2.  -------------------------------------------------------------------------*/  
 3.  @import url("typography.css");
 
 ###### **Başlangıç Stillerini Sıfırlamak -Silmek-**
@@ -48,8 +48,8 @@ elementlerin yeniden yapılandırılması için kullanılan evrensel bir kural
 olarak yeterli buluyorum. Bu dosyanın birçok projede kullanımında
 herhangi bir performans sorunu yaşamadım.
 
-1.  /\* Padding ve Margin’lerin Silinmesi -Sıfırlanması- \*/  
-2.  \*   
+1.  /* Padding ve Margin’lerin Silinmesi -Sıfırlanması- */  
+2.  *   
 3.  {  
 4.  margin: 0;  
 5.  padding: 0;  
@@ -100,16 +100,16 @@ beyaz bir arka plan uygular.
 3.  font: 62.5%/1.5 "Lucida Grande", "Lucida Sans", Tahoma, Verdana,
     sans-serif;  
 4.  background: url(/images/wallpaper.png) repeat;  
-5.  color: \#000000;   
+5.  color: #000000;   
 6.  text-align:center;  
 7.  }  
-8.  \#wrapper  
+8.  #wrapper  
 9.  {   
 10. width:980px;   
 11. text-align:left;   
 12. margin-left:auto;   
 13. margin-right:auto;   
-14. background-color: \#FFFFFF;  
+14. background-color: #FFFFFF;  
 15. }
 
 ###### **Tipografinin Düzenlenmesi**
@@ -150,16 +150,16 @@ sayfaların veya şablonların bölümlerini kullanarak ayırırım. Her proje
 değişik olacaktır. Fakat ben bazı bölümleri başlangıçta yerleştiririm ve
 sonra eğer önemliyse değiştiririm.
 
-1.  /\* Header  
-2.  -------------------------------------------------------------------------\*/  
-3.  /\* Navigation  
-4.  -------------------------------------------------------------------------\*/  
-5.  /\* Footer  
-6.  -------------------------------------------------------------------------\*/  
-7.  /\* Homepage  
-8.  -------------------------------------------------------------------------\*/  
-9.  /\* Your template  
-10. -------------------------------------------------------------------------\*/
+1.  /* Header  
+2.  -------------------------------------------------------------------------*/  
+3.  /* Navigation  
+4.  -------------------------------------------------------------------------*/  
+5.  /* Footer  
+6.  -------------------------------------------------------------------------*/  
+7.  /* Homepage  
+8.  -------------------------------------------------------------------------*/  
+9.  /* Your template  
+10. -------------------------------------------------------------------------*/
 
 ###### **Formlar**
 
@@ -167,12 +167,12 @@ Formlarda başlangıç olarak, yazıyı kutunun kenarından öteye taşımak iç
 text giriş kutularına birazcık padding veririm ve kutuya gri border
 rengi veririm.
 
-1.  /\* Formlar  
-2.  -------------------------------------------------------------------------\*/  
+1.  /* Formlar  
+2.  -------------------------------------------------------------------------*/  
 3.  input.text  
 4.  {  
 5.  padding: 3px;  
-6.  border: 1px solid \#999999;   
+6.  border: 1px solid #999999;   
 7.  }
 
 ###### **Tablolar**
@@ -181,8 +181,8 @@ Son olarak tablolar için yine [Andy Budd'un][] başlangıcını kullanırım.
 Böylece tablo içinde nerde olduğumu biliyorum. Bunun çok işe yaradığını
 düşünüyorum.
 
-1.  /\* Tablolar  
-2.  -------------------------------------------------------------------------\*/  
+1.  /* Tablolar  
+2.  -------------------------------------------------------------------------*/  
 3.  table  
 4.  {   
 5.  border-spacing: 0;  
@@ -199,27 +199,27 @@ düşünüyorum.
 Başlangıç XHTML kodum aşağıdaki gibidir. Normalde print stil dosyama
 ikonları ve RSS beslemelerini proje progresses -?- olarak eklerim.
 
-1.  \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"\>  
-2.  \<html xmlns="http://www.w3.org/1999/xhtml" \>  
-3.  \<head\>  
-4.  \<title\>Sayfa Başlığı Buraya\</title\>  
-5.  \<style type="text/css" media="screen"\>@import
-    "/css/screen.css";\</style\>  
-6.  \<meta name="DC.title" content="Başlık buraya" /\>  
-7.  \<meta name="DC.subject" content="Anahtar kelimeler buraya" /\>  
-8.  \<meta name="DC.description" content="Tanım buraya" /\>  
-9.  \<meta name="DC.format" content="text/html" /\>  
-10. \<meta name="DC.publisher" content="Yayımcı buraya" /\>  
-11. \<meta name="DC.language" content="en" /\>  
-12. \<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"
-    /\>  
-13. \</head\>  
-14. \<body\>  
-15. \<div id="wrapper"\>  
-16. \</div\>  
-17. \</body\>  
-18. \</html\>
+1.  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">  
+2.  <html xmlns="http://www.w3.org/1999/xhtml" >  
+3.  <head>  
+4.  <title>Sayfa Başlığı Buraya</title>  
+5.  <style type="text/css" media="screen">@import
+    "/css/screen.css";</style>  
+6.  <meta name="DC.title" content="Başlık buraya" />  
+7.  <meta name="DC.subject" content="Anahtar kelimeler buraya" />  
+8.  <meta name="DC.description" content="Tanım buraya" />  
+9.  <meta name="DC.format" content="text/html" />  
+10. <meta name="DC.publisher" content="Yayımcı buraya" />  
+11. <meta name="DC.language" content="en" />  
+12. <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"
+    />  
+13. </head>  
+14. <body>  
+15. <div id="wrapper">  
+16. </div>  
+17. </body>  
+18. </html>
 
 ###### **Kişisel Seçim Meselesi**
 
@@ -231,7 +231,7 @@ Eğer başlangıç dosyalarımın bir kopyasını isterseniz [buradan
 alabilirsiniz.][]
 
 > Bu makale
-> [http://www.shapeshed.com/journal/default\_styles\_for\_css/][]
+> [http://www.shapeshed.com/journal/default_styles_for_css/][]
 > adresinden Türkçe'ye **eDe** tarafından çevirilmiştir. eDe'ye
 > teşekkürler.
 
@@ -244,4 +244,4 @@ alabilirsiniz.][]
   [Richard Rutter’un yaklaşımını]: http://clagnut.com/blog/348/
   [Andy Budd'un]: http://www.andybudd.com/
   [buradan alabilirsiniz.]: http://www.shapeshed.com/downloads/default_css.zip
-  [http://www.shapeshed.com/journal/default\_styles\_for\_css/]: http://www.shapeshed.com/journal/default_styles_for_css/
+  [http://www.shapeshed.com/journal/default_styles_for_css/]: http://www.shapeshed.com/journal/default_styles_for_css/

@@ -21,12 +21,12 @@ gelelim ve hemen bir örnek yapalım.
 
 HTML kodu;
 
-[html] \<h1\>\<span\>Ged tortor odio\</span\>\</h1\> [/html]
+[html] <h1><span>Ged tortor odio</span></h1> [/html]
 
 CSS kodu;
 
-[css] h1{border-bottom:3px solid \#9faf41;} h1 span{float:left;
-padding:0 10px; background-color:\#111; margin-left:10px;
+[css] h1{border-bottom:3px solid #9faf41;} h1 span{float:left;
+padding:0 10px; background-color:#111; margin-left:10px;
 margin-top:-15px; display:block; font-size:24px} [/css]
 
 Örneği görmek için [tıklayınız.][]

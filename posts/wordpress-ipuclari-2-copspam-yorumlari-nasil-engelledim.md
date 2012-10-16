@@ -6,13 +6,13 @@ Tags: WordPress
 WordPress kurduğumdan beri her gün istisnasız çöp yorum geliyordu. Bunu
 engellemek için eklenti aramaya koyuldum ve birtane buldum.<!--more-->
 [Peter's Custom Anti-Spam Image Plugin for Wordpress][] buradan dosyayı
-indirdim. - zipli dosyayı açtım ve **custom\_anti\_spam.php** dosyasını
+indirdim. - zipli dosyayı açtım ve **custom_anti_spam.php** dosyasını
 wp-content/plugins ve jenkinsv.ttf font dosyasını da sitemin ana
-dizinine(root) belirtildiği gibi koydum. - **custom\_anti\_spam.php**
+dizinine(root) belirtildiği gibi koydum. - **custom_anti_spam.php**
 dosyasında 15-24 satırlar arasındaki anti-çöp kelimlerini kendime göre
-değiştirdim.(humurgan, vizara vd.) - **custom\_anti\_spam.php** içindeki
+değiştirdim.(humurgan, vizara vd.) - **custom_anti_spam.php** içindeki
 sayfada görünecek ingilizce bölümleri Türkçeleştirdim. -
-**custom\_anti\_spam.php** düzenlerken [Crimson editor][]
+**custom_anti_spam.php** düzenlerken [Crimson editor][]
 kullandım.([Türkçe karakter sorunun][] çıkmasın diye) - wordpress admin
 panelinden pluginler(eklentiler) kısmına girerek eklediğim bu eklentiyi
 aktif ettim. Artık çöp yorum gelmiyor yaşasın.

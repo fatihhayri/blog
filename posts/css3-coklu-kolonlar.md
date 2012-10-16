@@ -25,7 +25,7 @@ genişliğini ve ara alanlar oluşturmak için bu özellikleri kullanırız.
 -   columns
 -   column-gap
 -   column-rule
--   column-break veya break-\*
+-   column-break veya break-*
 -   column-span
 -   column-fill
 
@@ -39,7 +39,7 @@ genişliğini ve ara alanlar oluşturmak için bu özellikleri kullanırız.
 Yeni nesil tarayıcıların tümünün(ie hariç) desteklediği özellikler ve
 
 -   columns
--   column-break veya break-\*
+-   column-break veya break-*
 -   column-span
 -   column-fill
 
@@ -55,7 +55,7 @@ Elemanı ayıracağımız kolon sayısını belirlememizi sağlar. Başlangıç
 değeri auto olarak tanımlıdır. Bu sayede sadece **column-width** tanımı
 ile ile
 
-[css] \#cokluKolon{ -moz-column-count:3; -webkit-column-count:3;
+[css] #cokluKolon{ -moz-column-count:3; -webkit-column-count:3;
 column-count:3; width:968px; margin:0 auto; } [/css]
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/HZZ8t/1/embedded/css,result,html"></iframe>
 
@@ -83,20 +83,20 @@ Elemanları kolonlara bölmek için diğer bir yöntemde **column-width** ile
 genişlik tanımı yapmaktır. Tarayıcılar belirlenen genişliğe göre
 kapsayıcının genişliğine göre otomatik olarak kolonlara bölecektir.
 
-[css] \#cokluKolon{     -moz-column-width:150px;    
+[css] #cokluKolon{     -moz-column-width:150px;    
 -webkit-column-width:150px;     column-width:150px;    } [/css]
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/SkXL4/1/embedded/css,result,html"></iframe>
 
 Bir genişlik tanımı yapılırsa **column-width** değeri tanımlandığı kadar
 kolona bölüyor.
 
-[css] \#cokluKolon{     -moz-column-width:150px;    
+[css] #cokluKolon{     -moz-column-width:150px;    
 -webkit-column-width:150px;     column-width:150px;     width:950px;   
 } [/css]
 
 column-width ile **column-count** aynı anda kullanabiliriz.
 
-[css] \#cokluKolon{    -webkit-column-count: 2;    -moz-column-count: 2;
+[css] #cokluKolon{    -webkit-column-count: 2;    -moz-column-count: 2;
    column-count: 2;    -webkit-column-width: 150px;
    -moz-column-width: 150px;    column-width: 150px;        } [/css]
 
@@ -136,7 +136,7 @@ yapıldığında Firefox ve Google Chrome ile Opera farklı yorumluyor. Opera
 yorumlarken her halükarda **column-width** değerini üstün kılarken,
 Firefox ve Chrome **column-coun**t değerini üstün kılıyor.
 
-[css] \#cokluKolon{    -webkit-column-count: 2;    -moz-column-count: 2;
+[css] #cokluKolon{    -webkit-column-count: 2;    -moz-column-count: 2;
    column-count: 2;    -webkit-column-width: 150px;
    -moz-column-width: 150px;    column-width: 150px;        } [/css]
 
@@ -151,7 +151,7 @@ margin anlamında kullanılır.
 
 Başlangıç değeri 1em olarak tanımlıdır.
 
-[css] \#cokluKolon{    -webkit-column-gap: 50px;    -moz-column-gap:
+[css] #cokluKolon{    -webkit-column-gap: 50px;    -moz-column-gap:
 50px;    column-gap: 50px;        } [/css]
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/vdnRk/1/embedded/css,result,html"></iframe>
 
@@ -178,9 +178,9 @@ ile benzer bir yapısı var. **column-rule-size,
 column-rule-style**ve**column-rule**-color gibi ayrı ayrı tanımlama
 yapılabileceği gibi **column-rule** kısaltması ile tanım yapabiliyoruz.
 
-[css] \#cokluKolon{    -webkit-column-rule: 3px solid \#000;
-   -moz-column-rule: 3px solid \#000;    column-rule: 3px solid
-\#000;        } [/css]
+[css] #cokluKolon{    -webkit-column-rule: 3px solid #000;
+   -moz-column-rule: 3px solid #000;    column-rule: 3px solid
+#000;        } [/css]
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/3SMhX/embedded/css,result,html"></iframe>
 
 **column-gap** gibi sadece aradaki kolonlara uygulanan bir özellik bu
@@ -255,8 +255,8 @@ sayısı 2,3,4 vs.) all değeri tüm kolonlar boyunca başlığın uzaması içi
 kullanılır. Sayı değerleri ise belirtilen sayıdaki kolonlarda uzamasını
 için kullanılır.
 
-[css] \#cokluKolon h2{ -webkit-column-span:all; -moz-column-span:all;
-column-span:all; background-color:\#0CF; } [/css]
+[css] #cokluKolon h2{ -webkit-column-span:all; -moz-column-span:all;
+column-span:all; background-color:#0CF; } [/css]
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/x6B67/embedded/css,result,html"></iframe>
 
 Şu anda destekleyen tarayıcılar **all ve none** değerlerini destekliyor
@@ -351,13 +351,13 @@ Kalın sağlıcakla
 -   [http://dev.opera.com/articles/view/css3-multi-column-layout/][]
     (güzel)
 -   [http://www.my-html-codes.com/css3-multiple-columns][] (orta)
--   [http://www.456bereastreet.com/archive/200509/css3\_multicolumn\_layout\_considered\_harmful/][]
+-   [http://www.456bereastreet.com/archive/200509/css3_multicolumn_layout_considered_harmful/][]
     (basit)
--   [https://developer.mozilla.org/en/CSS3\_Columns][] (basit)
+-   [https://developer.mozilla.org/en/CSS3_Columns][] (basit)
 -   [http://www.red-team-design.com/multi-column-text-using-css3][]
     (örnekli)
--   [http://www.stuffandnonsense.co.uk/archives/css3\_multi-column\_thriller.html][]
--   [http://www.superiorwebsys.com/blog/20/Creating\_A\_Multi-Column\_Layout\_Using\_CSS3/][]
+-   [http://www.stuffandnonsense.co.uk/archives/css3_multi-column_thriller.html][]
+-   [http://www.superiorwebsys.com/blog/20/Creating_A_Multi-Column_Layout_Using_CSS3/][]
     (görsel)
 -   [http://caniuse.com/multicolumn][] (tarayıcı destek)
 -   [http://people.opera.com/pepelsbey/experiments/multicol/][] (güzel
@@ -397,13 +397,13 @@ Kalın sağlıcakla
     http://kmsm.ca/2010/an-almost-complete-guide-to-css3-multi-column-layouts/
   [http://dev.opera.com/articles/view/css3-multi-column-layout/]: http://dev.opera.com/articles/view/css3-multi-column-layout/
   [http://www.my-html-codes.com/css3-multiple-columns]: http://www.my-html-codes.com/css3-multiple-columns
-  [http://www.456bereastreet.com/archive/200509/css3\_multicolumn\_layout\_considered\_harmful/]:
+  [http://www.456bereastreet.com/archive/200509/css3_multicolumn_layout_considered_harmful/]:
     http://www.456bereastreet.com/archive/200509/css3_multicolumn_layout_considered_harmful/
-  [https://developer.mozilla.org/en/CSS3\_Columns]: https://developer.mozilla.org/en/CSS3_Columns
+  [https://developer.mozilla.org/en/CSS3_Columns]: https://developer.mozilla.org/en/CSS3_Columns
   [http://www.red-team-design.com/multi-column-text-using-css3]: http://www.red-team-design.com/multi-column-text-using-css3
-  [http://www.stuffandnonsense.co.uk/archives/css3\_multi-column\_thriller.html]:
+  [http://www.stuffandnonsense.co.uk/archives/css3_multi-column_thriller.html]:
     http://www.stuffandnonsense.co.uk/archives/css3_multi-column_thriller.html
-  [http://www.superiorwebsys.com/blog/20/Creating\_A\_Multi-Column\_Layout\_Using\_CSS3/]:
+  [http://www.superiorwebsys.com/blog/20/Creating_A_Multi-Column_Layout_Using_CSS3/]:
     http://www.superiorwebsys.com/blog/20/Creating_A_Multi-Column_Layout_Using_CSS3/
   [http://caniuse.com/multicolumn]: http://caniuse.com/multicolumn
   [http://people.opera.com/pepelsbey/experiments/multicol/]: http://people.opera.com/pepelsbey/experiments/multicol/

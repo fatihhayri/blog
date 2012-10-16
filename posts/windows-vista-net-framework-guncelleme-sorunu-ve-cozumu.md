@@ -17,7 +17,7 @@ buldum buraya yazmayı düşündüm.
 [http://blogs.msdn.com/astebner/archive/2006/05/30/611355.aspx][]
 buradaki .NET Framework cleanup tool aracını yükleyip eski .net
 framework sürüm veya sürümlerini kaldırmanız gerekiyor. Dosyayı direk
-[http://cid-27e6a35d1a492af7.skydrive.live.com/self.aspx/Blog\_Tools/dotnetfx\_cleanup\_tool.zip][]
+[http://cid-27e6a35d1a492af7.skydrive.live.com/self.aspx/Blog_Tools/dotnetfx_cleanup_tool.zip][]
 buradan indirebilirsiniz.
 
 Kurup eski sürümleri kaldır dedikten sonra bilgisayarınızı yeniden
@@ -47,7 +47,7 @@ Kaynaklar
 
   [http://blogs.msdn.com/astebner/archive/2006/05/30/611355.aspx]: http://blogs.msdn.com/astebner/archive/2006/05/30/611355.aspx
     "http://blogs.msdn.com/astebner/archive/2006/05/30/611355.aspx"
-  [http://cid-27e6a35d1a492af7.skydrive.live.com/self.aspx/Blog\_Tools/dotnetfx\_cleanup\_tool.zip]:
+  [http://cid-27e6a35d1a492af7.skydrive.live.com/self.aspx/Blog_Tools/dotnetfx_cleanup_tool.zip]:
     http://cid-27e6a35d1a492af7.skydrive.live.com/self.aspx/Blog_Tools/dotnetfx_cleanup_tool.zip
     "http://cid-27e6a35d1a492af7.skydrive.live.com/self.aspx/Blog_Tools/dotnetfx_cleanup_tool.zip"
   [http://www.microsoft.com/downloads/details.aspx?displaylang=tr&FamilyID=ab99342f-5d1a-413d-8319-81da479ab0d7]:

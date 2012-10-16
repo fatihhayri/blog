@@ -22,7 +22,7 @@ CSS kodu yazarken bazı standartlar oluşturmanın avantajlarından
 bahsettik yukarıda. Peki bu standartlar nasıl olmalı neler yapmalıyız ki
 optimum kod elde edelim.
 
-![css\_duzenleme2][]
+![css_duzenleme2][]
 
 ### 1. CSS doküman indeksini oluşturun
 
@@ -31,12 +31,12 @@ bir husus bence. Şimdiye kadar hiç uygulamadım ama büyük projelerde
 uygulamanın yararlı olacağını düşündüğüm bir uygulama
 
 [sourcecode language="css"]
-/\*------------------------------------------------------------------
-[CSS Kod indeksi] 1. Body 2. Üst Alan / \#ustAlan 2.1. Menü / \#menu 3.
-İçerik Alanı / \#icerik 3.1. Sol Kolon / \#solKolon 3.2. Sidebar /
-\#yanKolon 3.2.1. RSS / \#rss 3.2.2. Arama / \#arama 3.2.3. Kutular /
-.kutu 4. Alt Alan / \#altAlan
--------------------------------------------------------------------\*/
+/*------------------------------------------------------------------
+[CSS Kod indeksi] 1. Body 2. Üst Alan / #ustAlan 2.1. Menü / #menu 3.
+İçerik Alanı / #icerik 3.1. Sol Kolon / #solKolon 3.2. Sidebar /
+#yanKolon 3.2.1. RSS / #rss 3.2.2. Arama / #arama 3.2.3. Kutular /
+.kutu 4. Alt Alan / #altAlan
+-------------------------------------------------------------------*/
 [/sourcecode]
 
 ### 2. CSS dokümanınıza imzanızı atın
@@ -46,11 +46,11 @@ kodlarımızı başlamalıyız.(Bende bunu ara sıra unutuyorum. Ama unutmamak
 gerekli)
 
 [sourcecode language="css"]
-/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* MYK Medya -
+/************************
+************************ MYK Medya -
 http://myk-medya.com/ yahoyt.com fatih hayrioglu 28 Mayis 2009 ie6, ff,
-opera. chrome, safari \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/ [/sourcecode]
+opera. chrome, safari ************************
+************************/ [/sourcecode]
 
 ### 3. Seçici isimlendirirken standart ve anlamlı isimler verin
 
@@ -61,21 +61,21 @@ sonrası için çok büyük kolaylık sağlayacaktır. XHTML kodların nasıl bi
 anlamı(body, p, form vd.) varsa, kendi oluşturduğumuz seçici isimlerinde
 bir anlamı olması mantıklıdır.
 
-**\#maviKutu** yerine **\#haberKutusu** veya **\#haberAlani** tanımı
+**#maviKutu** yerine **#haberKutusu** veya **#haberAlani** tanımı
 daha mantıklı ve anlamlı bir isimlendirmedir.
 
 İsimlendirmede bir standardınız olsun. Benim standardım bu konuda ilk
 harf küçük, sonraki kelimelerin baş harfi büyük ile başlar ve bitişik
 yazılır.
 
-[sourcecode language="css"] \#icerikOzu{..} \#solIcerikAlani{..}
+[sourcecode language="css"] #icerikOzu{..} #solIcerikAlani{..}
 [/sourcecode]
 
 Bu benim standardım. Başka türlü standartlarda vardır. Her kesin
 kendince bir standardı olabilir. Mesela alt çizgiyle ayıranlar var.
 (-)Tire ile ayıranlar var.
 
-[sourcecode language="css"] \#icerik\_ozu{..} \#sol-icerik-alani{..}
+[sourcecode language="css"] #icerik_ozu{..} #sol-icerik-alani{..}
 [/sourcecode]
 
 Bu standardı herkes kendince yapabilir. Benim önerim aynı projede
@@ -115,17 +115,17 @@ sonraya yazmak. Yada site genel tanımlarını başa yazmak. [YUI CSS
 Reset][] ve [Eric Meyer][]'in ki var mesela.
 
 [sourcecode language="css"]
-/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* MYK Medya -
+/************************
+************************ MYK Medya -
 http://myk-medya.com/ fatih hayrioglu 28 Mayis 2009 ie6, ff, opera.
-chrome, safari \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/ body{margin:0;
-padding:0;} ul{margin:0; padding:0; list-style:none;} /\*kapsayamam
-sorunu \*/ .kapsayamamaSorunu:after {content: "."; display: block;
+chrome, safari ************************
+************************/ body{margin:0;
+padding:0;} ul{margin:0; padding:0; list-style:none;} /*kapsayamam
+sorunu */ .kapsayamamaSorunu:after {content: "."; display: block;
 height: 0; clear: both; visibility: hidden;} .kapsayamamaSorunu{display:
-inline-block;} /\* IE-mac de bu bolumu sakla \\ \*/ \* html
-.kapsayamamaSorunu{height: 1%;} .kapsayamamaSorunu {display: block;} /\*
-IE-mac bu bolumu saklam artik \*/ /\*kapsayamam sorunu \*/ [/sourcecode]
+inline-block;} /* IE-mac de bu bolumu sakla  */ * html
+.kapsayamamaSorunu{height: 1%;} .kapsayamamaSorunu {display: block;} /*
+IE-mac bu bolumu saklam artik */ /*kapsayamam sorunu */ [/sourcecode]
 
 ### 6. Her satıra bir tanım yöntemini kullanın
 
@@ -134,8 +134,8 @@ elde edebiliriz.
 
 Ben daha önce her satıra bir özellik tanımı yapıyordum.
 
-[sourcecode language="css"] \#aramaAlani{ float:left; width:265px;
-background-color:\#fff; border:3px solid \#525252; } [/sourcecode]
+[sourcecode language="css"] #aramaAlani{ float:left; width:265px;
+background-color:#fff; border:3px solid #525252; } [/sourcecode]
 
 Bu yöntemde kod açık ve görüntü olarak daha kullanışlı görünse de, fazla
 boşluklar sorun oluşturmaya başladı. CSS kodları çok uzayınca kaydırma
@@ -149,17 +149,17 @@ ederken fazla boşluklardan kurtulmam gerektiğiydi. Daha sonra bu
 yöntemin daha avantajlı olduğunu gördüm, ayrıca daha derli toplu kodlar
 oluşturmama yaradı. Bundan sonra böyle kod yazamaya başladım.
 
-[sourcecode language="css"] \#anaKapsul{...}     \#ustalan{...}    
-\#icerikAlani{...}     \#solIcerikAlani{...}     \#sagIcerikAlani{...}
-\#altAlan{...}    [/sourcecode]
+[sourcecode language="css"] #anaKapsul{...}     #ustalan{...}    
+#icerikAlani{...}     #solIcerikAlani{...}     #sagIcerikAlani{...}
+#altAlan{...}    [/sourcecode]
 
 Kodlarımızın daha okunabilir olması içinde girintili bir yapıyı tercih
 etmeliyiz.
 
-[sourcecode language="css"] \#icerikAlani{float:left; clear:left;
-padding-top:20px;}    \#solIcerikAlani{float:left; width:647px;
-margin-right:13px} \#icerikOzu{float:left; clear:left;
-margin-top:20px}    \#sagIcerikAlani{float:left; width:300px;
+[sourcecode language="css"] #icerikAlani{float:left; clear:left;
+padding-top:20px;}    #solIcerikAlani{float:left; width:647px;
+margin-right:13px} #icerikOzu{float:left; clear:left;
+margin-top:20px}    #sagIcerikAlani{float:left; width:300px;
 margin:0;}   [/sourcecode]
 
 ### 7. Kodlarınızı yorum satırları ile açıklayıcı hale getirin.
@@ -169,15 +169,15 @@ Bölümleri ve özel alanları yorum kodu ile belirleyerek anlaşılabilirliği
 arttırabiliriz. Böylelikle bölümler arasında daha kolay ayrım
 yapabiliriz. Kod okunabilirliği daha fazla olacaktır.
 
-[sourcecode language="css"] \#anaKapsul{margin:0 auto; width:960px;}    
-/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-ustalan   \*/ \#ustalan{padding-top:20px;}
-/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-icerikAlani   \*/ \#icerikAlani{float:left; clear:left;
-padding-top:20px;} /\*sol icerik alani \*/    
-\#solIcerikAlani{float:left; width:647px; margin-right:13px}
-\#icerikOzu{float:left; clear:left; margin-top:20px} /\* sagIcerikAlani
-\*/ \#sagIcerikAlani{float:left; width:300px; margin:0;}       
+[sourcecode language="css"] #anaKapsul{margin:0 auto; width:960px;}    
+/****************************************************
+ustalan   */ #ustalan{padding-top:20px;}
+/****************************************************
+icerikAlani   */ #icerikAlani{float:left; clear:left;
+padding-top:20px;} /*sol icerik alani */    
+#solIcerikAlani{float:left; width:647px; margin-right:13px}
+#icerikOzu{float:left; clear:left; margin-top:20px} /* sagIcerikAlani
+*/ #sagIcerikAlani{float:left; width:300px; margin:0;}       
 [/sourcecode]
 
 ### 8. CSS özellik tanımlarını sıralayın.
@@ -187,7 +187,7 @@ tanımlarını başta yazmak. CSS tabanlı kodlama yazarken site yapısını
 oluşturan özellikler(float, width, height gibi özellikleri) ilk sırada
 yazıp sonra diğer özellikleri yazmayı tercih ediniz.
 
-[sourcecode language="css"] \#solIcerikAlani{float:left; width:647px;
+[sourcecode language="css"] #solIcerikAlani{float:left; width:647px;
 margin-right:13px} [/sourcecode]
 
 Burada bir diğer yöntemde özellikleri alfabetik sıraya göre yazmaktır.
@@ -224,33 +224,33 @@ Gelelim CSS Editörlerinin bizim CSS düzenine katkılarına
 oluyor. Bu özellik kod yazma hızımızı arttırıyor ve yanlış yazımları
 engelliyor.
 
-![dw\_duz\_01][]
+![dw_duz_01][]
 
 **10.2** Kodların renklendirilmesi de editörün güzel özelliklerinden
 biridir. Seçici, özellik, tanım ve yorum satırı ayrımı bize göstererek
 kod ayrımına yardımcı olur ve daha okunabilir kod görünümü sağlar.
 
-![dw\_duz\_02][]
+![dw_duz_02][]
 
 **10.3** Sık kullandığımız css düzeltmelerini(hack) snippets(dw
 özelliği) alanına ekleyerek hız kazanabiliriz. Daha hızlı olmak için bu
 tanımlara bir kısa yol bile atayabilirisiniz.
 
-![dw\_duz\_03][]
+![dw_duz_03][]
 
 **10.4** Dreamweaver'ın stil dosyalarını standarda oturmak çok kolay.
 
-Edit -\> Preferences.. tıklayınca gelen pencereden Code Format kısmını
+Edit -> Preferences.. tıklayınca gelen pencereden Code Format kısmını
 seçince sağ tarafta CSS.. düğmesine tıklayınca CSS doküman formatını
 ayarlama ekranından css düzenimizi ayarlayabiliyoruz.
 
-![dw\_stil\_ayarlama][]
+![dw_stil_ayarlama][]
 
 Notepad ++ daki hizalama çizgileride çok güzel dw olmaması çok üzücü.
 DW'da hala tam olarak istedikleri karşılaya bilmiş değil, ama bildiğim
 en iyi editör.
 
-![hiza\_cizgileri][]
+![hiza_cizgileri][]
 
 ### Sonuç
 
@@ -262,53 +262,53 @@ olmalıya bir örnek yazarsak:
 
 XHTML kodu:
 
-[sourcecode language="html"] \<div \> \<div \> \</div\>\<!--[if
-!IE]\>ustAlan sonu\<![endif]--\> \<div \> \<div \> \<div \>\<img
-src="images/promo.jpg" width="647" height="264" alt="Promo" /\>\</div\>
-\<div \> \</div\>\<!--[if !IE]\>icerikOzu sonu\<![endif]--\>
-\</div\>\<!--[if !IE]\>solIcerikAlani sonu\<![endif]--\> \<div \>
-\</div\>\<!--[if !IE]\>sagIcerikAlani sonu\<![endif]--\>
-\</div\>\<!--[if !IE]\>icerikAlani sonu\<![endif]--\> \<div
-class="kapsayamamaSorunu"\> \</div\> \</div\>\<!--[if !IE]\>anaKapsul
-sonu\<![endif]--\> [/sourcecode]
+[sourcecode language="html"] <div > <div > </div><!--[if
+!IE]>ustAlan sonu<![endif]--> <div > <div > <div ><img
+src="images/promo.jpg" width="647" height="264" alt="Promo" /></div>
+<div > </div><!--[if !IE]>icerikOzu sonu<![endif]-->
+</div><!--[if !IE]>solIcerikAlani sonu<![endif]--> <div >
+</div><!--[if !IE]>sagIcerikAlani sonu<![endif]-->
+</div><!--[if !IE]>icerikAlani sonu<![endif]--> <div
+class="kapsayamamaSorunu"> </div> </div><!--[if !IE]>anaKapsul
+sonu<![endif]--> [/sourcecode]
 
 CSS kodu
 
 [sourcecode language="css"]
-/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* MYK Medya -
+/************************
+************************ MYK Medya -
 http://myk-medya.com/ yahoyt.com fatih hayrioglu 28 Mayis 2009 ie6, ff,
-opera. chrome, safari \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*/
-/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-Genel Tanımlar   \*/ body{margin:0; padding:0;} ul{margin:0; padding:0;
-list-style:none;} /\*kapsayamam sorunu \*/     .kapsayamamaSorunu:after
+opera. chrome, safari ************************
+************************/
+/**************************************************
+Genel Tanımlar   */ body{margin:0; padding:0;} ul{margin:0; padding:0;
+list-style:none;} /*kapsayamam sorunu */     .kapsayamamaSorunu:after
 {content: "."; display: block; height: 0; clear: both; visibility:
-hidden;}     .kapsayamamaSorunu{display: inline-block;}     /\* IE-mac
-de bu bolumu sakla \\ \*/     \* html .kapsayamamaSorunu{height: 1%;}   
- .kapsayamamaSorunu {display: block;}     /\* IE-mac bu bolumu saklam
-artik \*/ /\*kapsayamam sorunu \*/ \#anaKapsul{margin:0 auto;
+hidden;}     .kapsayamamaSorunu{display: inline-block;}     /* IE-mac
+de bu bolumu sakla  */     * html .kapsayamamaSorunu{height: 1%;}   
+ .kapsayamamaSorunu {display: block;}     /* IE-mac bu bolumu saklam
+artik */ /*kapsayamam sorunu */ #anaKapsul{margin:0 auto;
 width:960px;}    
-/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-ustalan   \*/ \#ustalan{padding-top:20px;}             
-/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-icerikAlani   \*/ \#icerikAlani{float:left; clear:left;
-padding-top:20px;}      /\*sol icerik alani \*/       
- \#solIcerikAlani{float:left; width:647px; margin-right:13px}   
- \#icerikOzu{float:left; clear:left; margin-top:20px}      /\*
-sagIcerikAlani \*/     \#sagIcerikAlani{float:left; width:300px;
+/**************************************************
+ustalan   */ #ustalan{padding-top:20px;}             
+/**************************************************
+icerikAlani   */ #icerikAlani{float:left; clear:left;
+padding-top:20px;}      /*sol icerik alani */       
+ #solIcerikAlani{float:left; width:647px; margin-right:13px}   
+ #icerikOzu{float:left; clear:left; margin-top:20px}      /*
+sagIcerikAlani */     #sagIcerikAlani{float:left; width:300px;
 margin:0;}                
-/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-altAlan \*/ \#altAlan{clear:left; background-color:\#404040;
+/**************************************************
+altAlan */ #altAlan{clear:left; background-color:#404040;
 padding:12px; margin-bottom:20px;} [/sourcecode]
 
 ### Kaynaklar
 
 -   [http://www.webdesignerdepot.com/2009/05/10-best-css-practices-to-improve-your-code/][]
--   [https://developer.mozilla.org/en/Underscores\_in\_class\_and\_ID\_Names][]
+-   [https://developer.mozilla.org/en/Underscores_in_class_and_ID_Names][]
     (isimlendirme)
 -   [http://davidwalsh.name/format-css-files][] (güzel örnek)
--   [http://help.adobe.com/en\_US/Dreamweaver/10.0\_Using/WS6A10E93F-6587-4e1b-956C-03CBD7F678BBa.html][]
+-   [http://help.adobe.com/en_US/Dreamweaver/10.0_Using/WS6A10E93F-6587-4e1b-956C-03CBD7F678BBa.html][]
     (dw ayarları)
 -   [http://www.smashingmagazine.com/2008/05/02/improving-code-readability-with-css-styleguides/][]
     (süper)
@@ -321,11 +321,11 @@ padding:12px; margin-bottom:20px;} [/sourcecode]
 -   [http://css-tricks.com/video-screencasts/8-css-formatting/][]
     (video)
 -   [http://www.graphicrating.com/2009/02/23/css-code-readability-tips/][]
--   [http://developer.yahoo.com/performance/rules.html\#num\_http][]
+-   [http://developer.yahoo.com/performance/rules.html#num_http][]
 
 </p>
 
-  [css\_duzenleme2]: http://www.fatihhayrioglu.com/wp-content/css_duzenleme2.gif
+  [css_duzenleme2]: http://www.fatihhayrioglu.com/wp-content/css_duzenleme2.gif
     "css_duzenleme2"
   [http://www.fatihhayrioglu.com/cssde-kisaltmalar/]: http://www.fatihhayrioglu.com/cssde-kisaltmalar/
     "http://www.fatihhayrioglu.com/cssde-kisaltmalar/"
@@ -333,25 +333,25 @@ padding:12px; margin-bottom:20px;} [/sourcecode]
   [Eric Meyer]: http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
     "Eric Meyer"
   [yazdığım]: http://www.fatihhayrioglu.com/css-editorleri/ "yazdığım"
-  [dw\_duz\_01]: http://www.fatihhayrioglu.com/wp-content/dw_duz_01.gif
+  [dw_duz_01]: http://www.fatihhayrioglu.com/wp-content/dw_duz_01.gif
     "dw_duz_01"
-  [dw\_duz\_02]: http://www.fatihhayrioglu.com/wp-content/dw_duz_02.gif
+  [dw_duz_02]: http://www.fatihhayrioglu.com/wp-content/dw_duz_02.gif
     "dw_duz_02"
-  [dw\_duz\_03]: http://www.fatihhayrioglu.com/wp-content/dw_duz_03.gif
+  [dw_duz_03]: http://www.fatihhayrioglu.com/wp-content/dw_duz_03.gif
     "dw_duz_03"
-  [dw\_stil\_ayarlama]: http://www.fatihhayrioglu.com/wp-content/dw_stil_ayarlama.gif
+  [dw_stil_ayarlama]: http://www.fatihhayrioglu.com/wp-content/dw_stil_ayarlama.gif
     "dw_stil_ayarlama"
-  [hiza\_cizgileri]: http://www.fatihhayrioglu.com/wp-content/hiza_cizgileri.gif
+  [hiza_cizgileri]: http://www.fatihhayrioglu.com/wp-content/hiza_cizgileri.gif
     "hiza_cizgileri"
   [http://www.webdesignerdepot.com/2009/05/10-best-css-practices-to-improve-your-code/]:
     http://www.webdesignerdepot.com/2009/05/10-best-css-practices-to-improve-your-code/
     "http://www.webdesignerdepot.com/2009/05/10-best-css-practices-to-improve-your-code/"
-  [https://developer.mozilla.org/en/Underscores\_in\_class\_and\_ID\_Names]:
+  [https://developer.mozilla.org/en/Underscores_in_class_and_ID_Names]:
     https://developer.mozilla.org/en/Underscores_in_class_and_ID_Names
     "https://developer.mozilla.org/en/Underscores_in_class_and_ID_Names"
   [http://davidwalsh.name/format-css-files]: http://davidwalsh.name/format-css-files
     "http://davidwalsh.name/format-css-files"
-  [http://help.adobe.com/en\_US/Dreamweaver/10.0\_Using/WS6A10E93F-6587-4e1b-956C-03CBD7F678BBa.html]:
+  [http://help.adobe.com/en_US/Dreamweaver/10.0_Using/WS6A10E93F-6587-4e1b-956C-03CBD7F678BBa.html]:
     http://help.adobe.com/en_US/Dreamweaver/10.0_Using/WS6A10E93F-6587-4e1b-956C-03CBD7F678BBa.html
     "http://help.adobe.com/en_US/Dreamweaver/10.0_Using/WS6A10E93F-6587-4e1b-956C-03CBD7F678BBa.html"
   [http://www.smashingmagazine.com/2008/05/02/improving-code-readability-with-css-styleguides/]:
@@ -374,5 +374,5 @@ padding:12px; margin-bottom:20px;} [/sourcecode]
     "http://css-tricks.com/video-screencasts/8-css-formatting/"
   [http://www.graphicrating.com/2009/02/23/css-code-readability-tips/]: http://www.graphicrating.com/2009/02/23/css-code-readability-tips/
     "http://www.graphicrating.com/2009/02/23/css-code-readability-tips/"
-  [http://developer.yahoo.com/performance/rules.html\#num\_http]: http://developer.yahoo.com/performance/rules.html#num_http
+  [http://developer.yahoo.com/performance/rules.html#num_http]: http://developer.yahoo.com/performance/rules.html#num_http
     "http://developer.yahoo.com/performance/rules.html#num_http"

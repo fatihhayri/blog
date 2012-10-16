@@ -27,7 +27,7 @@ kısa bir yazım şekli sunmuşlar.
 
 Bir örnek yapalım.
 
-[sourcecode language="javascript"] durum = (yas \>= 18) ? "yetişkin" :
+[sourcecode language="javascript"] durum = (yas >= 18) ? "yetişkin" :
 "küçük"; [/sourcecode]
 
 **yas** değeri 18'den büyük ve eşit olması durumunda **durum**
@@ -36,11 +36,11 @@ değişikeninin değeri "yetişkin" değilse "küçük" olacaktır.
 ###### Kaynaklar
 
 -   [http://javascriptant.com/articles/28/the-conditional-operator-ternary-operactor][]
--   [http://developer.mozilla.org/en/docs/Core\_JavaScript\_1.5\_Guide:Operators:Special\_Operators][]
+-   [http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Operators:Special_Operators][]
 
 </p>
 
   [http://javascriptant.com/articles/28/the-conditional-operator-ternary-operactor]:
     http://javascriptant.com/articles/28/the-conditional-operator-ternary-operactor
-  [http://developer.mozilla.org/en/docs/Core\_JavaScript\_1.5\_Guide:Operators:Special\_Operators]:
+  [http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Operators:Special_Operators]:
     http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Operators:Special_Operators

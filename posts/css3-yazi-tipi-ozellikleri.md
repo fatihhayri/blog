@@ -119,17 +119,17 @@ Kalın sağlıcakla
 
 -   [http://www.w3.org/TR/css3-fonts/][]
 -   [http://www.css3.info/more-type-control-with-css3-fonts/][]
--   [http://www.quackit.com/css/properties/css\_font-size-adjust.cfm][]
+-   [http://www.quackit.com/css/properties/css_font-size-adjust.cfm][]
 -   [http://webdesignernotebook.com/css/the-little-known-font-size-adjust-css3-property/][]
--   [http://www.fonttester.com/help/css\_property/font-size-adjust.html][]
--   [http://www.blackinci.com/css/15-css-font-ozellikleri.html\#adjust][]
+-   [http://www.fonttester.com/help/css_property/font-size-adjust.html][]
+-   [http://www.blackinci.com/css/15-css-font-ozellikleri.html#adjust][]
 -   [http://webdesign.about.com/od/styleproperties/p/blspfontsizeadj.htm][]
 -   [https://developer.mozilla.org/samples/cssref/font-size-adjust.html][]
 -   [http://css-infos.net/property/-webkit-text-size-adjust][]
 -   [http://www.emdpi.com/cssfontsizeadjust.html][]
 -   [http://www.impressivewebs.com/little-known-css3-type/][]
 -   [https://developer.mozilla.org/en/CSS/font-size-adjust][]
--   [http://www.w3.org/TR/WD-font/\#font-size-adjust][]
+-   [http://www.w3.org/TR/WD-font/#font-size-adjust][]
 -   [http://www.siku-siku.com/blog/2010/11/22/preserving-the-x-height-of-your-preferred-font-choice/][]
 -   [http://babylon-design.com/mais-c-est-quoi-au-juste-font-size-adjust/][]
     ()
@@ -137,7 +137,7 @@ Kalın sağlıcakla
     (Almanca güzel)
 -   [http://www.webspaceworks.com/resources/fonts-web-typography/43/][]
     (oran değerleri)
--   [http://www.fonttester.com/help/css\_property/font-size-adjust.html][]
+-   [http://www.fonttester.com/help/css_property/font-size-adjust.html][]
 -   [http://www.opera.com/docs/specs/presto27/css/fonts/][] (font
     desteği)
 -   [http://stuff4designers.com/2011/03/15/how-to-use-font-size-adjust/][]
@@ -146,7 +146,7 @@ Kalın sağlıcakla
 -   [http://brunildo.org/test/xheight.pl][] (font-size-adjusting -
     örnek)
 -   [http://www.xhtml-lab.com/css3-reference/font-size-adjust][] (güzel)
--   [http://www.w3schools.com/cssref/css3\_pr\_font-stretch.asp][]
+-   [http://www.w3schools.com/cssref/css3_pr_font-stretch.asp][]
     (font-stretch)
 -   [https://developer.mozilla.org/en/CSS/font-stretch][] (font-stretch)
 -   [http://msdn.microsoft.com/library/ff974090.aspx][] (font-stretch)
@@ -172,11 +172,11 @@ Kalın sağlıcakla
   [1]: https://lh4.googleusercontent.com/aMIBse-JRBvgYWQD0dMw5EFWhV4HCBeSYKeLfJS-6UMGSdHv0YsQiIA60djkovRsZ0dK8zLYak1yxEt6LdGHv4WGE2cagkiMqBlmrPdT1c_zyURGC0g
   [http://www.w3.org/TR/css3-fonts/]: http://www.w3.org/TR/css3-fonts/
   [http://www.css3.info/more-type-control-with-css3-fonts/]: http://www.css3.info/more-type-control-with-css3-fonts/
-  [http://www.quackit.com/css/properties/css\_font-size-adjust.cfm]: http://www.quackit.com/css/properties/css_font-size-adjust.cfm
+  [http://www.quackit.com/css/properties/css_font-size-adjust.cfm]: http://www.quackit.com/css/properties/css_font-size-adjust.cfm
   [http://webdesignernotebook.com/css/the-little-known-font-size-adjust-css3-property/]:
     http://webdesignernotebook.com/css/the-little-known-font-size-adjust-css3-property/
-  [http://www.fonttester.com/help/css\_property/font-size-adjust.html]: http://www.fonttester.com/help/css_property/font-size-adjust.html
-  [http://www.blackinci.com/css/15-css-font-ozellikleri.html\#adjust]: http://www.blackinci.com/css/15-css-font-ozellikleri.html#adjust
+  [http://www.fonttester.com/help/css_property/font-size-adjust.html]: http://www.fonttester.com/help/css_property/font-size-adjust.html
+  [http://www.blackinci.com/css/15-css-font-ozellikleri.html#adjust]: http://www.blackinci.com/css/15-css-font-ozellikleri.html#adjust
   [http://webdesign.about.com/od/styleproperties/p/blspfontsizeadj.htm]:
     http://webdesign.about.com/od/styleproperties/p/blspfontsizeadj.htm
   [https://developer.mozilla.org/samples/cssref/font-size-adjust.html]: https://developer.mozilla.org/samples/cssref/font-size-adjust.html
@@ -184,7 +184,7 @@ Kalın sağlıcakla
   [http://www.emdpi.com/cssfontsizeadjust.html]: http://www.emdpi.com/cssfontsizeadjust.html
   [http://www.impressivewebs.com/little-known-css3-type/]: http://www.impressivewebs.com/little-known-css3-type/
   [https://developer.mozilla.org/en/CSS/font-size-adjust]: https://developer.mozilla.org/en/CSS/font-size-adjust
-  [http://www.w3.org/TR/WD-font/\#font-size-adjust]: http://www.w3.org/TR/WD-font/#font-size-adjust
+  [http://www.w3.org/TR/WD-font/#font-size-adjust]: http://www.w3.org/TR/WD-font/#font-size-adjust
   [http://www.siku-siku.com/blog/2010/11/22/preserving-the-x-height-of-your-preferred-font-choice/]:
     http://www.siku-siku.com/blog/2010/11/22/preserving-the-x-height-of-your-preferred-font-choice/
   [http://babylon-design.com/mais-c-est-quoi-au-juste-font-size-adjust/]:
@@ -198,7 +198,7 @@ Kalın sağlıcakla
     http://webforfreaks.com/cssandtype/index.php?chemin=content/2011-06-11/
   [http://brunildo.org/test/xheight.pl]: http://brunildo.org/test/xheight.pl
   [http://www.xhtml-lab.com/css3-reference/font-size-adjust]: http://www.xhtml-lab.com/css3-reference/font-size-adjust
-  [http://www.w3schools.com/cssref/css3\_pr\_font-stretch.asp]: http://www.w3schools.com/cssref/css3_pr_font-stretch.asp
+  [http://www.w3schools.com/cssref/css3_pr_font-stretch.asp]: http://www.w3schools.com/cssref/css3_pr_font-stretch.asp
   [https://developer.mozilla.org/en/CSS/font-stretch]: https://developer.mozilla.org/en/CSS/font-stretch
   [http://msdn.microsoft.com/library/ff974090.aspx]: http://msdn.microsoft.com/library/ff974090.aspx
   [http://meyerweb.com/eric/css/tests/css3/show.php?p=font-stretch]: http://meyerweb.com/eric/css/tests/css3/show.php?p=font-stretch

@@ -28,15 +28,15 @@ uygulanmış kapsayıcı katmana genişlik ve yükseklik vermektir.
 İkinci bir çözüm olarak yükseklik göreceli olduğu durumlar için
 uygulanan bir yöntemdir.
 
-[sourcecode language='css'] /\* IE-mac den gizle \\\*/ \* html
-.container1 {height: 1%;} /\* IE-mac den gizleme sonu \*/ [/sourcecode]
+[sourcecode language='css'] /* IE-mac den gizle */ * html
+.container1 {height: 1%;} /* IE-mac den gizleme sonu */ [/sourcecode]
 
 ### Kaynak
 
--   [http://www.positioniseverything.net/abs\_relbugs.html][]
+-   [http://www.positioniseverything.net/abs_relbugs.html][]
 
 </p>
 
   []: /images/konumlandirma_hata_ff.gif
   [1]: /images/konumlandirma_hata_ie.gif
-  [http://www.positioniseverything.net/abs\_relbugs.html]: http://www.positioniseverything.net/abs_relbugs.html
+  [http://www.positioniseverything.net/abs_relbugs.html]: http://www.positioniseverything.net/abs_relbugs.html

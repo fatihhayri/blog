@@ -101,7 +101,7 @@ videoları izlemenizi öneririm.
 -   [http://labs.adobe.com/technologies/dreamweavercs4/][]
 -   [http://www.wz2k.co.uk/index.php/2008/05/dreamweaver-cs4-beta-released/][]
 -   [http://www.communitymx.com/content/article.cfm?cid=6D4C1][]
--   [http://www.flashmagazine.com/News/detail/dreamweaver\_fireworks\_and\_soundbooth\_cs4/][]
+-   [http://www.flashmagazine.com/News/detail/dreamweaver_fireworks_and_soundbooth_cs4/][]
 -   [http://movielibrary.lynda.com/html/modPage.asp?ID=592][]
 
 </p>
@@ -121,5 +121,5 @@ videoları izlemenizi öneririm.
   [http://www.wz2k.co.uk/index.php/2008/05/dreamweaver-cs4-beta-released/]:
     http://www.wz2k.co.uk/index.php/2008/05/dreamweaver-cs4-beta-released/
   [http://www.communitymx.com/content/article.cfm?cid=6D4C1]: http://www.communitymx.com/content/article.cfm?cid=6D4C1
-  [http://www.flashmagazine.com/News/detail/dreamweaver\_fireworks\_and\_soundbooth\_cs4/]:
+  [http://www.flashmagazine.com/News/detail/dreamweaver_fireworks_and_soundbooth_cs4/]:
     http://www.flashmagazine.com/News/detail/dreamweaver_fireworks_and_soundbooth_cs4/

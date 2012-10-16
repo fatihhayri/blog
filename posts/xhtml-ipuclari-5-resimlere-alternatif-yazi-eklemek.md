@@ -9,7 +9,7 @@ indeksleyecektir(arama motorlarında daha üst sıralar) ve gelişmiş web
 tarayıcıları tooltip olarak gösterecektir bu metni. Daha çok
 bilgilendirici metinlerin kullanılması daha iyidir.
 
-1.  \<img src="/images/xhml\_dorulama.gif" alt="XHTML Uygun Kod" /\>
+1.  <img src="/images/xhml_dorulama.gif" alt="XHTML Uygun Kod" />
 
 </p>
 

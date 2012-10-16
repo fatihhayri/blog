@@ -10,20 +10,20 @@ javascript'e ihtiyaç olmamasına karşın IE7'den önceki sürümler için
 javascript kodu gerekmektedir. <!--more-->
 
 Açılır menü yapmak için daha önceki menü örneklerinde olduğu gibi
-sıralanmamış listeleri(\<ul\>) kullanacağız. Buradaki fark alt
+sıralanmamış listeleri(<ul>) kullanacağız. Buradaki fark alt
 kategorilerin yani üzerine gelince açılacak menünün bir alt sırlanmış
 liste olarak eklenmesidir.
 
-[sourcecode language="html"] \<ul id="menu" \> \<li\>\<a
-href="\#"\>Anasayfa\</a\>\</li\> \<li\>\<a href="\#"\>Haberler\</a\>
-\<ul\> \<li\>\<a href="\#"\>şžirket Haberleri \</a\>\</li\> \<li\>\<a
-href="\#"\>Yurt içi Haberleri \</a\>\</li\> \<li\>\<a href="\#"\>Yurt
-dışı Haberleri\</a\>\</li\> \</ul\> \</li\> \<li\>\<a
-href="\#"\>Ürünler\</a\> \<ul\> \<li\>\<a
-href="\#"\>Tencere\</a\>\</li\> \<li\>\<a href="\#"\>Tava\</a\>\</li\>
-\<li\>\<a href="\#"\>Ütü\</a\>\</li\> \<li\>\<a href="\#"\>Tost Makinesi
-\</a\>\</li\> \<li\>\<a href="\#"\>El Süpürgesi \</a\>\</li\> \</ul\>
-\</li\> \</ul\> [/sourcecode]
+[sourcecode language="html"] <ul id="menu" > <li><a
+href="#">Anasayfa</a></li> <li><a href="#">Haberler</a>
+<ul> <li><a href="#">şžirket Haberleri </a></li> <li><a
+href="#">Yurt içi Haberleri </a></li> <li><a href="#">Yurt
+dışı Haberleri</a></li> </ul> </li> <li><a
+href="#">Ürünler</a> <ul> <li><a
+href="#">Tencere</a></li> <li><a href="#">Tava</a></li>
+<li><a href="#">Ütü</a></li> <li><a href="#">Tost Makinesi
+</a></li> <li><a href="#">El Süpürgesi </a></li> </ul>
+</li> </ul> [/sourcecode]
 
 ![][]
 
@@ -63,15 +63,15 @@ alttaki linkin üst kenarlığı üst üste bineceğinde alt kenarlık değerini
 sıfırlayalım.
 
 [sourcecode language="css"] ul li a { display: block; text-decoration:
-none; background-color: \#E2E2E2; padding: 5px; border:1px solid \#000;
+none; background-color: #E2E2E2; padding: 5px; border:1px solid #000;
 border-bottom:0; } [/sourcecode]
 
 Bu kodu yazdığımızda IE linkler arasına boşluk koyacaktır(IE7 de hala bu
 sorun devam ediyor) bu durumu düzeltmek için:
 
-[sourcecode language="css"] /\* IE. gizle \\\*/ \* html ul li { float:
-left; height: 1%; } \* html ul li a { height: 1%; } /\* IE den gizleme
-sonu \*/ [/sourcecode]
+[sourcecode language="css"] /* IE. gizle */ * html ul li { float:
+left; height: 1%; } * html ul li a { height: 1%; } /* IE den gizleme
+sonu */ [/sourcecode]
 
 ![][3]
 
@@ -79,7 +79,7 @@ En alttaki çizgimiz eksik kalmaması için ilk link ul'sinin alt kenarlık
 tanım yaparız.
 
 [sourcecode language="css"] ul { margin: 0; padding: 0; list-style:
-none; width: 150px; border-bottom: 1px solid \#00; } [/sourcecode]
+none; width: 150px; border-bottom: 1px solid #00; } [/sourcecode]
 
 ![][4]
 
@@ -94,7 +94,7 @@ IE7'den öncesi bu kodu desteklemez.
 
 <div class="ekstrabilgi">
 Internet Explorer 7. versiyonuna kadar :hover pseudo sınıfını sadece
-linklerde (\<a\>) uygulanmasını destekler diğer elementlerde bu
+linklerde (<a>) uygulanmasını destekler diğer elementlerde bu
 özelliğin kullanımını desteklemez.
 
 </div>
@@ -103,7 +103,7 @@ kodu yazacağız.
 
 [sourcecode language="javascript"] startList = function() { if
 (document.all&&document.getElementById) { navRoot =
-document.getElementById("menu"); for (i=0; i\<navRoot.childNodes.length;
+document.getElementById("menu"); for (i=0; i<navRoot.childNodes.length;
 i++) { node = navRoot.childNodes[i]; if (node.nodeName=="LI") {
 node.onmouseover=function() { this.className+=" over"; }
 node.onmouseout=function() { this.className=this.className.replace("
@@ -117,7 +117,7 @@ Ayrıca aşağıdaki kodu da eklemeliyiz.
 [sourcecode language="css"] li:hover ul, li.over ul{ display: block; }
 [/sourcecode]
 
-Ayrıca kod daki<span class="alternatifard">\<ul id="**menu**" \></span>
+Ayrıca kod daki<span class="alternatifard"><ul id="**menu**" ></span>
 ve javascriptteki <span class="alternatifard">navRoot =
 document.getElementById("**menu**");</span> aynı olmasına dikkat edelim.
 

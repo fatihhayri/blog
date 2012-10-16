@@ -30,26 +30,26 @@ gösteren bir göstergedir.
 
 Örnek bir sayfa ile devam edelim.
 
-[http://fatihhayrioglu.com/dokumanlar/fare\_degisen\_resim.html][]
+[http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html][]
 
 ![][1]
 
 Yukarıdaki resimde sunucuya yapılan iki isteğin sıralaması ile birlikte
 göstermektedir. İlk istek sayfanın kendisi, ikinci istek ise
-**degisen\_resim.gif** resmi.
+**degisen_resim.gif** resmi.
 
 Her girdi istek hakkında genel bir bilgiyi gösterir. Zaman çizelgeside
 grafiksel olarak yüklenme zamanını gösteriyor.
 
-Net sekmesi bize **fare\_degisen\_resim\_klavye.html** içeriğinin 418ms
-de yüklendiğini ve **degisen\_resim.gif**resmininde 146ms de
+Net sekmesi bize **fare_degisen_resim_klavye.html** içeriğinin 418ms
+de yüklendiğini ve **degisen_resim.gif**resmininde 146ms de
 yüklendiğini gösteriyor.
 
 Net sekmesi bize ilk bakışta aşağıdaki bilgileri verir;
 
 -   HTTP istek metodunu (GET)
 -   Cevap durumu ve açıklaması (200 OK)
--   İstem dosya ismini(fare\_degisen\_resim\_klavye.html) ve fare
+-   İstem dosya ismini(fare_degisen_resim_klavye.html) ve fare
     imlecini üzerine getirirsek hangi adresten çektiğini gösterir.
 -   Cevapların hangi barındırma hizmetinde geldiği (fatihhayrioglu.com)
 -   Cevabın boyutu (778Byte)
@@ -216,7 +216,7 @@ açıkça gösterir ve düzeltmemiz için önerilerde bulunur.
   []: http://www.fatihhayrioglu.com/wp-content/fh_firebug_net_sekme-298x300.gif
     "fh_firebug_net_sekme"
   [![][]]: http://www.fatihhayrioglu.com/wp-content/fh_firebug_net_sekme.gif
-  [http://fatihhayrioglu.com/dokumanlar/fare\_degisen\_resim.html]: http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html
+  [http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html]: http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html
     "http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html"
   [1]: http://docs.google.com/File?id=dhctmbn6_408d43xkbc6_b
   [2]: http://www.fatihhayrioglu.com/wp-content/firebug_net3-300x8.gif

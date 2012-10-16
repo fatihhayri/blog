@@ -9,7 +9,7 @@ CSS3 **word-wrap** özelliği diğer CSS3 özelliklerinden farklı olarak tüm
 tarayıcılar(IE dahil) tarafından desteklenmektedir.
 
 <div class="cssozelliktanimi">
-**Yapısı :**word-wrap: \<deger\>  
+**Yapısı :**word-wrap: <deger>  
 **Aldığı Değerler:** normal | break-word   
 **Başlangıç değeri:** normal  
 **Uygulanabilen elementler:** Tüm Elemanlara  
@@ -23,14 +23,14 @@ satır başına atmak için kullanılır.
 Bir örnek verecek olursak 150px genişliğindeki bir alan içinde bir
 metnimiz olsun.
 
-[html] \<div id="link"\>
+[html] <div id="link">
 Loremipsumdolorsitametconsecteturadipiscingelit. Nam semper venenatis
 lobortis. Donec odio nisl, vehicula vitae molestie ac, euismod ac nibh.
-\</div\> [/html]
+</div> [/html]
 
 CSS kodu
 
-[css] \#link{ width:150px; border:1px solid \#999; } [/css]
+[css] #link{ width:150px; border:1px solid #999; } [/css]
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/AdWMx/embedded/result,html,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 **word-wrap** ile bu uzun kelimeyi aşağı atarak sayfadaki patlaklığı
@@ -61,7 +61,7 @@ Android Browser 2.1+
 **word-wrap**’in kelimeye yaptığı etkiyi **text-wrap** metinlere yapar.
 
 <div class="cssozelliktanimi">
-**Yapısı :** text-wrap: \<deger\>  
+**Yapısı :** text-wrap: <deger>  
 **Aldığı Değerler:** normal | none | unrestricted | suppress   
 **Başlangıç değeri:** normal  
 **Uygulanabilen elementler:**Tüm Elemanlara  
@@ -92,7 +92,7 @@ sağlıyor. Şu an sadece webkit tabanlı tarayıcıların(Safari, Chrome)
 desteği mevcut.
 
 <div class="cssozelliktanimi">
-**Yapısı :**text-stroke: \<deger\>  
+**Yapısı :**text-stroke: <deger>  
 **Aldığı Değerler :** thickness | blur | color   
 **Başlangıç değeri:** none  
 **Kalıtsallık:**Var
@@ -101,12 +101,12 @@ desteği mevcut.
 Tanım yaparken ilk olarak yazı tipinin rengini yaparız, sonrada dış hat
 çizgisini tanımlarız.
 
-[css] font:bold 24px Arial, Helvetica, sans-serif; color: \#c00;
--webkit-text-stroke: 1px \#000; [/css]
+[css] font:bold 24px Arial, Helvetica, sans-serif; color: #c00;
+-webkit-text-stroke: 1px #000; [/css]
 
-\<iframe style="width: 100%; height: 300px"
+<iframe style="width: 100%; height: 300px"
 src="http://jsfiddle.net/fatihhayri/3dsPG/embedded/"
-allowfullscreen="allowfullscreen" frameborder="0"\>\</iframe\>
+allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 **text-stroke** tanımının ilk değeri dış çizgisinin kalınlığını ikinci
 tanım rengini belirler.
@@ -116,8 +116,8 @@ Dış Çizgili ve Saydam zeminli Yazı Tipleri Oluşturmak
 Saydam zeminli yazı tipleri tanımlamak için **text-fill-color**
  özelliği kullanılır.
 
-[css] ont:bold 24px Arial, Helvetica, sans-serif; color: \#c00;
--webkit-text-stroke: 1px \#000; -webkit-text-fill-color: transparent;
+[css] ont:bold 24px Arial, Helvetica, sans-serif; color: #c00;
+-webkit-text-stroke: 1px #000; -webkit-text-fill-color: transparent;
 [/css]
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/yWWbb/embedded/css,html,result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
@@ -155,7 +155,7 @@ elemanların satırlarının hizalanmasını sağlar. Bu özellik **text-align**
 ile aynı etkiyi yapar.
 
 <div class="cssozelliktanimi">
-**Yapısı :**text-align-last: \<deger\>  
+**Yapısı :**text-align-last: <deger>  
 **Aldığı Değerler :** center | end | justify | left | right | start   
 **Başlangıç değeri:** start  
 **Kalıtsallık:** Var
@@ -175,7 +175,7 @@ Blok kapsayıcı elemanı içindeki satır içi elemanın içeriğini
 **overflow:visible** tanımı yapılmamış olmalıdır.
 
 <div class="cssozelliktanimi">
-**Yapısı :** text-overflow: \<deger\>  
+**Yapısı :** text-overflow: <deger>  
 **Aldığı Değerler :** clip | ellipsis  
 **Başlangıç değeri:**clip  
 **Uygulanabilen elementler:** Blok-level Elemanlara  
@@ -219,7 +219,7 @@ yorumlarlar; text-rendering özelliği bu farklılıkları bizim kontrolümüze
 sunana bir özelliktir.
 
 <div class="cssozelliktanimi">
-**Yapısı :**text-rendering: \<deger\>  
+**Yapısı :**text-rendering: <deger>  
 **Aldığı Değerler :** auto | optimizeSpeed | optimizeLegibility |
 geometricPrecision | inherit  
 **Başlangıç değeri:** auto  
@@ -274,7 +274,7 @@ sağlıyor. Liste ikonları ve çift tırnakları metin bloğu dışına çıkar
 daha güzel sonuçlar almamızı sağlıyor.
 
 <div class="cssozelliktanimi">
-**Yapısı :** hanging-punctuation: \<deger\>  
+**Yapısı :** hanging-punctuation: <deger>  
 **Aldığı Değerler :** none | start | end | end-edge  
 **Başlangıç değeri:**none  
 **Kalıtsallık:** Var
@@ -317,11 +317,11 @@ Kalın sağlıcakla.
 -   [http://www.impressivewebs.com/css-white-space/][]
 -   [http://www.quirksmode.org/css/stroke.html][]
 -   [http://www.impressivewebs.com/word-wrap-css3/][]
--   [http://www.fatihhayrioglu.com/satir-donusuword-wrap-firefox-sorunu-nasil-cozulur/\#idc-cover][]
+-   [http://www.fatihhayrioglu.com/satir-donusuword-wrap-firefox-sorunu-nasil-cozulur/#idc-cover][]
 -   [http://webdesignerwall.com/tutorials/word-wrap-force-text-to-wrap][]
 -   [https://developer.mozilla.org/en/CSS/text-align][]
 -   [https://developer.mozilla.org/en/CSS/text-overflow][]
--   [http://www.456bereastreet.com/archive/201105/clipping\_text\_with\_css3\_text-overflow/][]
+-   [http://www.456bereastreet.com/archive/201105/clipping_text_with_css3_text-overflow/][]
 -   [http://www.cssplay.co.uk/menu/text-overflow.html][] (örnek)
 -   [http://www.css3.info/preview/text-overflow/][]
 -   [http://deepubalan.com/blog/2010/11/27/text-overflow-css3-property-explained-pure-css-solution-to-get-ellipsis/][]
@@ -353,11 +353,11 @@ Kalın sağlıcakla.
   [http://code.stephenmorley.org/html-and-css/white-space-handling/]: http://code.stephenmorley.org/html-and-css/white-space-handling/
   [http://www.impressivewebs.com/css-white-space/]: http://www.impressivewebs.com/css-white-space/
   [http://www.quirksmode.org/css/stroke.html]: http://www.quirksmode.org/css/stroke.html
-  [http://www.fatihhayrioglu.com/satir-donusuword-wrap-firefox-sorunu-nasil-cozulur/\#idc-cover]:
+  [http://www.fatihhayrioglu.com/satir-donusuword-wrap-firefox-sorunu-nasil-cozulur/#idc-cover]:
     http://www.fatihhayrioglu.com/satir-donusuword-wrap-firefox-sorunu-nasil-cozulur/#idc-cover
   [http://webdesignerwall.com/tutorials/word-wrap-force-text-to-wrap]: http://webdesignerwall.com/tutorials/word-wrap-force-text-to-wrap
   [https://developer.mozilla.org/en/CSS/text-align]: https://developer.mozilla.org/en/CSS/text-align
-  [http://www.456bereastreet.com/archive/201105/clipping\_text\_with\_css3\_text-overflow/]:
+  [http://www.456bereastreet.com/archive/201105/clipping_text_with_css3_text-overflow/]:
     http://www.456bereastreet.com/archive/201105/clipping_text_with_css3_text-overflow/
   [http://www.cssplay.co.uk/menu/text-overflow.html]: http://www.cssplay.co.uk/menu/text-overflow.html
   [http://www.css3.info/preview/text-overflow/]: http://www.css3.info/preview/text-overflow/

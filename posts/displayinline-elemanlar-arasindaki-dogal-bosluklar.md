@@ -7,8 +7,8 @@ Daha önce gözüme çarpmamış olmaması ilginç geldi. Belki çarpmıştırda
 es geçmişimdir. Durumu şöyle açıklayayım. Basit bir menü oluşturmak
 istedim.
 
-[sourcecode language="html"] \<ul\> \<li\>deneme\</li\>
-\<li\>olarak\</li\> \<li\>bir örnek \</li\> \</ul\> [/sourcecode]
+[sourcecode language="html"] <ul> <li>deneme</li>
+<li>olarak</li> <li>bir örnek </li> </ul> [/sourcecode]
 
 Yatay bir menü olacağı için
 
@@ -18,7 +18,7 @@ eklemesini yaptım, daha sonra da padding değerleri ekleyince fark ortaya
 çıktı.
 
 [sourcecode language="css"] ul li{ padding:0 12px;
-background-color:\#999} [/sourcecode]
+background-color:#999} [/sourcecode]
 
 İşin aslı İnternet Explorer 6 ve 7’de istediğim gibi olurken yeni nesil
 tarayıcılarda arada fazladan boşluklar atanmış gördüm. margin:0 değeri
@@ -36,8 +36,8 @@ biri
 
 Diğer bir çözüm yolu ise aradaki boşlukları kaldırmak.
 
-[sourcecode language="html"] \<ul\>
-\<li\>deneme\</li\>\<li\>olarak\</li\>\<li\>bir örnek \</li\> \</ul\>
+[sourcecode language="html"] <ul>
+<li>deneme</li><li>olarak</li><li>bir örnek </li> </ul>
 [/sourcecode]
 
 </p>

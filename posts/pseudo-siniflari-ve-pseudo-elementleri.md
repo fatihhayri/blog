@@ -17,7 +17,7 @@ sınıf ve elemtleri HTML class özelliği olarak belirtilmemiştir. Normal
 sınıflar pseudo sınıf ve elementleri ile kullanılabilir. [sourcecode
 language="css"] a.disariyalinkller:link, a.disariyalinkller:visited {
 color: maroon; } [/sourcecode] Aynı şekilde id seçicileri ile birlikte
-de kullanılabilirler [sourcecode language="css"] a\#altkisim:link{
+de kullanılabilirler [sourcecode language="css"] a#altkisim:link{
 font-weight: bold; } [/sourcecode] Pseudo sınıflarını da ikiye ayıra
 biliriz. **Link Pseduo Sınıfıları** ve **Dinamik Pseudo Sınıfları**
 
@@ -75,12 +75,12 @@ language="css"] input:focus { background: silver; font-weight: bold; }
 Diğer bir pseudo sınıfımız **:first-child**'dır. **first:child:**
 Belirtilen elementin ilk Çocuk Elementine stil atamak için kullanılır.
 [sourcecode language="css"] p:first-child { font-weight: bold; }
-li:first-child { color:\#f00; } [/sourcecode] [sourcecode
-language="html"] \<div\> \<p\>Bu paragraf ilk çocuk elementidir ve sonuç
-olarak kalın olacaktır\</p\> \<ul\> \<li\>Bu liste ilk çocuk elementidir
-ve font rengi kırmızı olacak\</li\> \<li\>Bu \<strong\>çocuk element
-\</strong\>değil\</li\> \<li\>Bu da değil\</li\> \</ul\> \<p\>Bu pragraf
-\<em\>bir\</em\> çocuk element değil.\</p\> \</div\> [/sourcecode]
+li:first-child { color:#f00; } [/sourcecode] [sourcecode
+language="html"] <div> <p>Bu paragraf ilk çocuk elementidir ve sonuç
+olarak kalın olacaktır</p> <ul> <li>Bu liste ilk çocuk elementidir
+ve font rengi kırmızı olacak</li> <li>Bu <strong>çocuk element
+</strong>değil</li> <li>Bu da değil</li> </ul> <p>Bu pragraf
+<em>bir</em> çocuk element değil.</p> </div> [/sourcecode]
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer 7.0+ Firefox+ Chrome+ Safari+
@@ -92,9 +92,9 @@ Opera+
 Lang pseudo sınıfı içerikteki bir elemente farklı bir dil de yazmamızı
 sağlar. Atanabilecek dil listesi ve kullanılacak kısaltmalara [ISO 639
 and RFC 1776 standards][] erişebilirsiniz. [sourcecode language="html"]
-\<html\> \<head\> \<title\>lang test\</title\> \<style type="text/css"\>
-p:lang(fr) { color: red; } \</style\> \</head\>\<body\> \<p
-lang="fr"\>Bonjour le monde!\</p\> \</body\> \</html\> [/sourcecode]
+<html> <head> <title>lang test</title> <style type="text/css">
+p:lang(fr) { color: red; } </style> </head><body> <p
+lang="fr">Bonjour le monde!</p> </body> </html> [/sourcecode]
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer 8.0+ Firefox+ Chrome+ Safari+
@@ -125,8 +125,8 @@ elemntlere yoktur. CSS2.1 de Dört adet Pseudo Element Seçicisi vardır:
 Bir blok-level elementin ilk harfine stil tanımlması yapmak için
 kullanılır. Örnek verecek olursak h1 elementinin baş harfinin büyük
 olması için : [sourcecode language="css"] h1:first-letter { font-size:
-200%; } [/sourcecode] [sourcecode language="html"] \<h1\>Bu büyük bir
-başlık\</h1\> [/sourcecode]
+200%; } [/sourcecode] [sourcecode language="html"] <h1>Bu büyük bir
+başlık</h1> [/sourcecode]
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer 7.0+ Firefox+ Chrome+ Safari+

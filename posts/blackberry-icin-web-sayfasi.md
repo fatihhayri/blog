@@ -10,8 +10,8 @@ bir kontrol ile istemcinin kullandığı aracı bulup ona göre yönlendirme
 yapmalıyız. İstemci(örn: javascript) taraflı bir kontrolü yapamıyoruz
 çünkü desteklemiyor. Bu nedenle sunucu taraflı kod ile yapıyoruz. Eğer
 blackberry kullanıcı iseniz sizi BlackBerry.html sayfasına gönderecek.
-ASP ile bunu yapalım. [sourcecode language='vb'] \<% userAgent =
-Request.ServerVariables("HTTP\_USER\_AGENT") userAgent =
+ASP ile bunu yapalım. [sourcecode language='vb'] <% userAgent =
+Request.ServerVariables("HTTP_USER_AGENT") userAgent =
 lcase(userAgent) if Instr(userAgent, "blackberry") then
-response.redirect("BlackBerry.html") end if %\> [/sourcecode] Aynı şeyi
+response.redirect("BlackBerry.html") end if %> [/sourcecode] Aynı şeyi
 php ve diğer sunucu taraflı kod ile de yapılabilir

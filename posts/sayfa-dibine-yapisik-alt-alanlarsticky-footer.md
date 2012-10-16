@@ -3,7 +3,7 @@ Date: 2009-06-12 13:58
 Category: CSS, Web Standartları, XHTML
 Tags: alta-yapışık-alanlar, CSS, kapsayamama-sorunu, sticky-footer
 
-![yapisik\_altalan][]Bir çok sitede karşılaştığımız sayfanın dibine
+![yapisik_altalan][]Bir çok sitede karşılaştığımız sayfanın dibine
 yapışık alt kısımları bu makalede anlatmaya çalışacağım. Bunu hiç
 javascript kullanmadan sadece css yardımı ile yapacağız.
 
@@ -24,24 +24,24 @@ Kodumuzu yazmaya başlarsak.
 
 XHTML kodu:
 
-[sourcecode language="html"] \<div id="kapsul"\> \<div id="ustAlan"\>
-\<h1\>Lorem ipsum dolor sit amet\</h1\> \</div\> \<div
-id="icerikAlani"\> \<div id="icerik"\> \</div\> \<div
-id="icerikSagAlani"\> \</div\> \</div\> \</div\> \<div id="altAlan"\>
-\</div\> [/sourcecode]
+[sourcecode language="html"] <div id="kapsul"> <div id="ustAlan">
+<h1>Lorem ipsum dolor sit amet</h1> </div> <div
+id="icerikAlani"> <div id="icerik"> </div> <div
+id="icerikSagAlani"> </div> </div> </div> <div id="altAlan">
+</div> [/sourcecode]
 
 XHTML kodunda dikkate değer olan kısım içerik alanı ve alt alanı iki
 farklı bölüm olarak kodlamamız. **altAlan** ve diğer alanları kapsayan
-bir kapsayıcı katmandan(**\#kapsul**) oluşuyor kodumuz. Bizim yaptığımız
+bir kapsayıcı katmandan(**#kapsul**) oluşuyor kodumuz. Bizim yaptığımız
 örnekte üst alanı ve iki kolonlu içerik kısmını kapsayıcı katman içine
 alıyoruz.
 
 CSS Kodu
 
-[sourcecode language="css"] html, body, \#kapsul {height: 100%;} body \>
-\#kapsul {height: auto; min-height: 100%;} \#icerik {padding-bottom:
-133px;} /\* altAlan yukseligi ile ayni olmali \*/ \#altAlan { position:
-relative; margin-top: -133px; /\* altAlan yuksekliginin eksi degeri \*/
+[sourcecode language="css"] html, body, #kapsul {height: 100%;} body >
+#kapsul {height: auto; min-height: 100%;} #icerik {padding-bottom:
+133px;} /* altAlan yukseligi ile ayni olmali */ #altAlan { position:
+relative; margin-top: -133px; /* altAlan yuksekliginin eksi degeri */
 height: 133px; clear:both; } [/sourcecode]
 
 Buradaki 133px tanımına dikkat etmemiz gerekiyor. 133px altAlan
@@ -67,18 +67,18 @@ makalemiz anlattığımız yöntemi kullanıyoruz.
 
 [sourcecode language="css"] .kapsayamamaSorunu:after {content: ".";
 display: block; height: 0; clear: both; visibility: hidden;}
-.kapsayamamaSorunu {display: inline-block;} /\*IE-mac de bu bolumu sakla
-\\ \*/ \* html .kapsayamamaSorunu {height: 1%;} .kapsayamamaSorunu
-{display: block;} /\* IE-mac bu bolumu saklam artik \*/ [/sourcecode]
+.kapsayamamaSorunu {display: inline-block;} /*IE-mac de bu bolumu sakla
+ */ * html .kapsayamamaSorunu {height: 1%;} .kapsayamamaSorunu
+{display: block;} /* IE-mac bu bolumu saklam artik */ [/sourcecode]
 
-Bu sınıfı tanımlıyoruz ve içeriği kapsayan(\#icerikAlani) katmana
+Bu sınıfı tanımlıyoruz ve içeriği kapsayan(#icerikAlani) katmana
 atıyoruz.
 
-[sourcecode language="html"] \<div id="kapsul"\> \<div id="ustAlan"
-class="kapsayamamaSorunu"\> \<h1\>Lorem ipsum dolor sit amet\</h1\>
-\</div\> \<div id="icerikAlani" class="kapsayamamaSorunu"\> \<div
-id="icerik"\> \</div\> \<div id="icerikSagAlani"\> \</div\> \</div\>
-\</div\> \<div id="altAlan"\> \</div\> [/sourcecode]
+[sourcecode language="html"] <div id="kapsul"> <div id="ustAlan"
+class="kapsayamamaSorunu"> <h1>Lorem ipsum dolor sit amet</h1>
+</div> <div id="icerikAlani" class="kapsayamamaSorunu"> <div
+id="icerik"> </div> <div id="icerikSagAlani"> </div> </div>
+</div> <div id="altAlan"> </div> [/sourcecode]
 
 Bu yöntemin ryanfait.com'un yöntemine göre en büyük avantajı bence
 ryanfait.com'un yöntemindeki anlamsız tampon katmanı gibi bir fazla
@@ -97,10 +97,10 @@ yerine padding kullanın.
 çıkabileceği söyleniyor. Eğer yazı tipi boyutunu piksel(px) vb. kesin
 değerler ile belirlerseniz bu tip sorunları engelleyebilirsiniz.
 
-- Son olarakta asp.net ile oluşturulan sayfalarda \<form\> elemanı ile
+- Son olarakta asp.net ile oluşturulan sayfalarda <form> elemanı ile
 kapsanan sayfanızda sorun çıkabilir. Bunu engellemek için kodunuzu
 
-[sourcecode language="css"] html, body, form, \#kapsul {height: 100%;}
+[sourcecode language="css"] html, body, form, #kapsul {height: 100%;}
 [/sourcecode]
 
 şeklinde değiştirmelisiniz. [][]
@@ -119,7 +119,7 @@ kapsanan sayfanızda sorun çıkabilir. Bunu engellemek için kodunuzu
 
 </p>
 
-  [yapisik\_altalan]: http://www.fatihhayrioglu.com/wp-content/yapisik_altalan.gif
+  [yapisik_altalan]: http://www.fatihhayrioglu.com/wp-content/yapisik_altalan.gif
     "yapisik_altalan"
   [cssstickyfooter.com]: http://www.cssstickyfooter.com
     "cssstickyfooter.com"

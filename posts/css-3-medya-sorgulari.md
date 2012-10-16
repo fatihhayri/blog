@@ -25,7 +25,7 @@ sürümler için javascript ile çözüm üretilir.
 [Daha önceki makalemde][] bahsettiğim gibi medya sorgularının en basit
 hali
 
-[css] \<link rel="stylesheet" media="screen" href="ornek.css"\> [/css]
+[css] <link rel="stylesheet" media="screen" href="ornek.css"> [/css]
 
 veya
 
@@ -261,8 +261,8 @@ Mobil araçlar için web sitesi geliştirirken bize çok yardımı dokunur bu
 özelliğin mesela iPhone için web sitemizi uyarlamak istediğimizde
 işimize yarar.
 
-[css] /\* iphone \*/ @media screen and (max-device-width: 480px) { body
-{ background: \#f00; } } [/css]
+[css] /* iphone */ @media screen and (max-device-width: 480px) { body
+{ background: #f00; } } [/css]
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/Z8BnJ/embedded/css,result"></iframe>
 
 şeklinde iphone kullanıcılarını yakalayabiliriz. Bilgisayarımızda
@@ -330,9 +330,9 @@ url('image-yuksek.png'); background-size: 100% 100%; } [/css]
 Şeklinde uygulanır. iPhone4 ile ön plana çıkan bu özellik yardımı ile
 iPhone4 ayrımıda yapılabilir.
 
-[css] /\* iphone 4 \*/\</li\> @media only screen and
+[css] /* iphone 4 */</li> @media only screen and
 (-webkit-min-device-pixel-ratio: 2) {
-background-image:url(yuksek\_cozunurluklu\_resim.png); } [/css]
+background-image:url(yuksek_cozunurluklu_resim.png); } [/css]
 
 Bu medya özelliklerinin dışında color, min-color, max-color,
 color-index, min-color-index, max-color-index, monochrome,
@@ -340,7 +340,7 @@ min-monochrome, max-monochrome, resolution, min-resolution,
 max-resolution, scan, grid medya özellikleride vardır. Ayrıca Firefox
 mobile için tanımladığı kendine ait medya özellikleride bulunmaktadır.
 Bu medya özellikleri hakkındaki detaylı bilgiye
-[https://developer.mozilla.org/en/CSS/media\_queries][] sitesinden
+[https://developer.mozilla.org/en/CSS/media_queries][] sitesinden
 erişebilirsiniz.
 
 <div class="tarayiciuyum">
@@ -366,12 +366,12 @@ yapılan yöntemi çalıştırabildim açıkçası.
 Bu sitedeki scripti sitenize eklediğinizde ie’nin eski sürümleri ile
 olan sorununuz çözlüyor.
 
-[css] \<link rel="stylesheet" type="text/css" href="ana.css" media="only
-screen and (max-width: 480px)" /\> \<!--[if lt IE 9]\> \<script
+[css] <link rel="stylesheet" type="text/css" href="ana.css" media="only
+screen and (max-width: 480px)" /> <!--[if lt IE 9]> <script
 type="text/javascript"
-src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"\>\</script\>
-\<script src="jquery.mediaqueries.js"
-type="text/javascript"\>\</script\> \<![endif]--\> [/css]
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="jquery.mediaqueries.js"
+type="text/javascript"></script> <![endif]--> [/css]
 
 IE9 öncesi tarayıcılar için böyle bir ekleme yaparak sorunu çözebiliriz.
 
@@ -393,7 +393,7 @@ mi ama olmadı.
 -   [http://www.catswhocode.com/blog/create-an-adaptable-website-layout-with-css3-media-queries][]
 -   [http://webdesignerwall.com/tutorials/adaptive-mobile-design-with-css3-media-queries][]
 -   [http://webdesignerwall.com/tutorials/css3-media-queries][]
--   [https://developer.mozilla.org/en/CSS/media\_queries][]
+-   [https://developer.mozilla.org/en/CSS/media_queries][]
 -   [http://coding.smashingmagazine.com/2010/07/19/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/][]
 -   [http://www.1stwebdesigner.com/css/how-to-use-css3-orientation-media-queries/][]
 -   [http://ie.microsoft.com/testdrive/HTML5/CSS3MediaQueries/Default.html][]
@@ -420,9 +420,9 @@ mi ama olmadı.
 -   [http://richardshepherd.com/css-media-queries-jquery/][]
 -   [http://css.dzone.com/news/bulletproof-css3-media-queries][]
 -   [http://tests.zerointerface.nl/css3-mediaqueries/][] (test sitesi)
--   [http://www.sercaneraslan.com/css/index.php?page=medya\_tipleri][]
+-   [http://www.sercaneraslan.com/css/index.php?page=medya_tipleri][]
 -   [http://coding.smashingmagazine.com/2010/07/19/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/][]
--   [http://www.quirksmode.org/blog/archives/2010/08/combining\_media.html][]
+-   [http://www.quirksmode.org/blog/archives/2010/08/combining_media.html][]
 -   [http://blogs.msdn.com/b/ie/archive/2011/01/12/the-css-corner-css3-media-queries.aspx][]
 
 </p>
@@ -430,7 +430,7 @@ mi ama olmadı.
   [yazıcıdan çıktı alırken]: http://www.fatihhayrioglu.com/cssde-cikti-alma-print/
   [Daha önceki makalemde]: http://www.fatihhayrioglu.com/cssi-web-sayfalarina-eklemek/
   []: https://lh5.googleusercontent.com/9yAALxAE9OnXDazyBZKrx8y8o4r5okr3Qw8TJ6av63m5eB_I6Ap-nCYuglYAcrwBuqpgrCx5vaBTcMLjBiPZM-KdAohf98yMjgErENZ_3A75y8x8
-  [https://developer.mozilla.org/en/CSS/media\_queries]: https://developer.mozilla.org/en/CSS/media_queries
+  [https://developer.mozilla.org/en/CSS/media_queries]: https://developer.mozilla.org/en/CSS/media_queries
   [http://protofunc.com/scripts/jquery/mediaqueries/]: http://protofunc.com/scripts/jquery/mediaqueries/
   [http://www.w3.org/TR/css3-mediaqueries/]: http://www.w3.org/TR/css3-mediaqueries/
   [http://www.css3.info/modules/compatibility-table-media-queries/]: http://www.css3.info/modules/compatibility-table-media-queries/
@@ -471,8 +471,8 @@ mi ama olmadı.
   [http://richardshepherd.com/css-media-queries-jquery/]: http://richardshepherd.com/css-media-queries-jquery/
   [http://css.dzone.com/news/bulletproof-css3-media-queries]: http://css.dzone.com/news/bulletproof-css3-media-queries
   [http://tests.zerointerface.nl/css3-mediaqueries/]: http://tests.zerointerface.nl/css3-mediaqueries/
-  [http://www.sercaneraslan.com/css/index.php?page=medya\_tipleri]: http://www.sercaneraslan.com/css/index.php?page=medya_tipleri
-  [http://www.quirksmode.org/blog/archives/2010/08/combining\_media.html]:
+  [http://www.sercaneraslan.com/css/index.php?page=medya_tipleri]: http://www.sercaneraslan.com/css/index.php?page=medya_tipleri
+  [http://www.quirksmode.org/blog/archives/2010/08/combining_media.html]:
     http://www.quirksmode.org/blog/archives/2010/08/combining_media.html
   [http://blogs.msdn.com/b/ie/archive/2011/01/12/the-css-corner-css3-media-queries.aspx]:
     http://blogs.msdn.com/b/ie/archive/2011/01/12/the-css-corner-css3-media-queries.aspx

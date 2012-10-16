@@ -6,12 +6,12 @@ Tags: CSS, liste, menü, ul, Web Standartları, XHTML
 Web sitelerinin vazgeçilmez öğelerinde biridir menüler. Menüler
 kullanıcının oluşturduğumuz sayfalara hızlı erişimini sağlar. Bir çok
 site de Ürünler, İletişim, Hakkımızda vb. bölümlerini menü öğesi olarak
-görürüz. Bu makalede sırasız listeler(\<ul\>)ve CSS yardımı ile menü
+görürüz. Bu makalede sırasız listeler(<ul>)ve CSS yardımı ile menü
 yapımını anlatacağız. CSS ile yapılan menüler esnek, kolay
 düzenlenebilir, güzel görünen ve rollover efekti uygulana bilen
 menülerdir. <!--more-->
 
-Sırasız listeler(\<ul\>) ilk olarak listeleme işlemleri için kullanılsa
+Sırasız listeler(<ul>) ilk olarak listeleme işlemleri için kullanılsa
 da CSS'in yükselişi ile birlikte menü oluşturmak için kullanılmaya
 başlandı. Aslında menülerde bir bakıma link listeleri olduğu düşünülürse
 işlevinin dışında kullanılmadığı da doğru bir tespittir. Kodumuzu
@@ -40,7 +40,7 @@ Her linkin başındaki imgeleri kaldırmak için:
 ![][1]
 
 </div>
-Bir çok web tarayıcısı sırasız listeleri(\<ul\>) yorumlarken yukarıda
+Bir çok web tarayıcısı sırasız listeleri(<ul>) yorumlarken yukarıda
 görüldüğü gibi otomatik olarak soldan bir padding/margin(bazı
 tarayıcılarda padding uygularken bazılarında margin uygular) mesafesi
 uygular bu mesafeyi sıfırlamak için:
@@ -64,38 +64,38 @@ için:
 
 Biraz görselliği arttırırsak:
 
-[sourcecode language='css'] ul.menu a { display: block; color: \#1B1B1B;
-background-color: \#E2E2E2; } [/sourcecode]
+[sourcecode language='css'] ul.menu a { display: block; color: #1B1B1B;
+background-color: #E2E2E2; } [/sourcecode]
 
 ![][3]
 
 Linkler web tarayıcısının genişliği kadar uzayacaktır, kendi istediğimiz
 genişliğe sahip olmak için:
 
-[sourcecode language='css'] ul.menu a { display: block; color: \#1B1B1B;
-background-color: \#E2E2E2; width:8em; } [/sourcecode]
+[sourcecode language='css'] ul.menu a { display: block; color: #1B1B1B;
+background-color: #E2E2E2; width:8em; } [/sourcecode]
 
 ![][4]
 
 Linkler arasına biraz boşluk verelim:
 
-[sourcecode language='css'] ul.menu a { display: block; color: \#1B1B1B;
-background-color: \#E2E2E2; width:8em; padding: .2em .8em; }
+[sourcecode language='css'] ul.menu a { display: block; color: #1B1B1B;
+background-color: #E2E2E2; width:8em; padding: .2em .8em; }
 [/sourcecode]
 
 ![][5]
 
 Linklerin altındaki çizgileri kaldıralım:
 
-[sourcecode language='css'] ul.menu a { display: block; color: \#1B1B1B;
-background-color: \#E2E2E2; width:8em; padding: .2em .8em;
+[sourcecode language='css'] ul.menu a { display: block; color: #1B1B1B;
+background-color: #E2E2E2; width:8em; padding: .2em .8em;
 text-decoration: none; } [/sourcecode]
 
 ![][6]
 
 şžimdi linklerimize rollover efekti vermek için a:hover kullanacağız:
 
-[sourcecode language='css'] ul.menu a:hover { background-color: \#999; }
+[sourcecode language='css'] ul.menu a:hover { background-color: #999; }
 [/sourcecode]
 
 ![][7]

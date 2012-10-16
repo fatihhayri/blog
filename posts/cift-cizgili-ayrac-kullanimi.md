@@ -10,23 +10,23 @@ kullanıyorum, ama bazende soldaki öğenin sağ kenar çizgisine bir renk,
 sağdaki öğenin sol kenar çizgisine farklı bir renk atayarak çözüm
 üretmeyi deniyorum.  
 
-[sourcecode language="css"] /\* clearfix \*/ .clearfix:after { content:
+[sourcecode language="css"] /* clearfix */ .clearfix:after { content:
 "."; display: block; height: 0; clear: both; visibility: hidden; }
-.clearfix { display: inline-block; } \* html .clearfix { height: 1%; }
+.clearfix { display: inline-block; } * html .clearfix { height: 1%; }
 .clearfix { display: block; } ul{ margin:0 auto; padding:10px;
-background-color:\#008bc6; width:450px;} ul li{ list-style:none;
-float:left; border-right:1px solid \#046e9b; border-left:1px solid
-\#05a3e6;} ul li a{ display:block; text-decoration:none; color:\#fff;
+background-color:#008bc6; width:450px;} ul li{ list-style:none;
+float:left; border-right:1px solid #046e9b; border-left:1px solid
+#05a3e6;} ul li a{ display:block; text-decoration:none; color:#fff;
 font:bold 12px Arial, Helvetica, sans-serif; margin-right:10px;
 padding:0 10px} [/sourcecode]
 
 HTML
 
-[sourcecode language="html"] \<ul class="clearfix"\> \<li\>\<a
-href=""\>Bak postacı\</a\>\</li\> \<li\>\<a
-href=""\>geliyor\</a\>\</li\> \<li\>\<a href=""\>selam
-veriyor\</a\>\</li\> \<li\>\<a href=""\>her kes ona bakıyor\</a\>\</li\>
-\</ul\> [/sourcecode]
+[sourcecode language="html"] <ul class="clearfix"> <li><a
+href="">Bak postacı</a></li> <li><a
+href="">geliyor</a></li> <li><a href="">selam
+veriyor</a></li> <li><a href="">her kes ona bakıyor</a></li>
+</ul> [/sourcecode]
 
 Örneği görmek için [tıklayınız.][]
 
@@ -44,10 +44,10 @@ border-right:0;} [/sourcecode]
 Bu uygulamayı dikey menü olarakta yapabiliriz.
 
 [sourcecode language="css"] ul{ margin:0 auto; padding:10px;
-background-color:\#008bc6; width:200px;} ul li{ list-style:none;
-border-top:1px solid \#046e9b; border-bottom:1px solid \#05a3e6;} ul
+background-color:#008bc6; width:200px;} ul li{ list-style:none;
+border-top:1px solid #046e9b; border-bottom:1px solid #05a3e6;} ul
 li.ilkOge{ border-top:0;} ul li.sonOge{ border-bottom:0;} ul li a{
-display:block; text-decoration:none; color:\#fff; font:bold 12px Arial,
+display:block; text-decoration:none; color:#fff; font:bold 12px Arial,
 Helvetica, sans-serif; margin-right:10px; padding:10px 0} [/sourcecode]
 
 Örneği görmek için [tıklayınız.][2]
@@ -62,13 +62,13 @@ Explorer’da çalışmayacaktır.
 
 HTML kodu
 
-[sourcecode language="html"] \<a href=""\>+ \<span\>Çizgili
-buton\</span\>\</a\> [/sourcecode]
+[sourcecode language="html"] <a href="">+ <span>Çizgili
+buton</span></a> [/sourcecode]
 
 CSS kodu
 
-[sourcecode language="css" highlight="10"] a{ background-color:\#ed145b;
-padding:5px 10px; color:\#fff; text-decoration:none; font-weight:bold;
+[sourcecode language="css" highlight="10"] a{ background-color:#ed145b;
+padding:5px 10px; color:#fff; text-decoration:none; font-weight:bold;
 font-size:16px; } a span{ border-left:2px groove rgba(144, 71, 95,
 0.55); display:inline-block; padding-left:6px } [/sourcecode]
 

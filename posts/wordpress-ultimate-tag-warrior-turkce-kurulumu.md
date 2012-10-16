@@ -4,7 +4,7 @@ Category: WordPress
 Tags: Ultimate-Tag-Warrior, Ultimate-Tag-Warrior-Türkçe, WordPress
 
 İlk olarak drym.net den Türkçesini indirin [link][]
-*UTW3-141WP2\_Türkçe\_karakter\_uyumlu* klasörü içindeki *plugin*
+*UTW3-141WP2_Türkçe_karakter_uyumlu* klasörü içindeki *plugin*
 klasöründekileri */wp-content/plugins* klasörüne *themes*
 klasöründekileri */wp-content/themes* klasörüne atın. <!--more--> Sonra
 WordPress Yönetici Ekranından **Eklentiler** bölümünden bu

@@ -22,18 +22,18 @@ Peki, biz sayısal değeri küçük olan tanımın etkin olmasını istersek ne
 yapabiliriz? Bu sorunun cevabı ve bu ihtiyacı karşılayan tanım
 !important tanımıdır. Bir örnekle durumu gösterelim
 
-[sourcecode language="html"] \<ul class="menu"\> \<li\>Menü 1\</li\>
-\<li\>Menü 2\</li\> \<li\>Menü 3 \<ul\> \<li class="deneme"\>Alt
-Menü\</li\> \</ul\> \</li\> \<li\>Menü 4\</li\> \</ul\> [/sourcecode]
+[sourcecode language="html"] <ul class="menu"> <li>Menü 1</li>
+<li>Menü 2</li> <li>Menü 3 <ul> <li class="deneme">Alt
+Menü</li> </ul> </li> <li>Menü 4</li> </ul> [/sourcecode]
 
 CSS kodumuzda aşağıdaki gibi olsun
 
-[sourcecode language="css"] ul.menu li{ background-color:\#3CF; }
-li.deneme{ background-color:\#f00; } [/sourcecode]
+[sourcecode language="css"] ul.menu li{ background-color:#3CF; }
+li.deneme{ background-color:#f00; } [/sourcecode]
 
 Örneği görmek için [tıklayınız.][]
 
-Kodumuza göre tüm li background rengi **\#3CF**olsun ama .deneme sınıfı
+Kodumuza göre tüm li background rengi **#3CF**olsun ama .deneme sınıfı
 tanımladığımız li'nin ki kırmızı olsun diyoruz, ancak sonuç istediğimiz
 gibi olmuyor.
 
@@ -51,7 +51,7 @@ bulunmaktadır. Bir tanesi istediğimiz atamanın üste çıkması için seçici
 değerini arttırmak, yani örnek kodumuzda bu li.deneme yerine ul
 li.deneme şeklinde yaparak seçici etkinliğini arttırarak yapmaktır.
 
-[sourcecode language="css"] ul.menu li.deneme{ background-color:\#F00; }
+[sourcecode language="css"] ul.menu li.deneme{ background-color:#F00; }
 [/sourcecode]
 
 Örneği görmek için [tıklayınız.][2]
@@ -65,7 +65,7 @@ Diğer bir çözüm ise etkin olmasını istediğimiz tanımın sonuna kardeşim
 bu önemli bunu etkin yap demek, yani sonuna !important eklemek ile
 olur.  
 
-[sourcecode language="css"] li.deneme{ background-color:\#f00
+[sourcecode language="css"] li.deneme{ background-color:#f00
 !important; } [/sourcecode]
 
 Örneği görmek için [tıklayınız.][3]
@@ -96,13 +96,13 @@ acil bir düzeltme gerektiğin genelde lazım oluyor important tanımı. Eğer
 html içinden bir tanım yapıldı ise css ile yaptığımız hiç bir tanım
 satıriçi kodu ezemiyecektir. Tek çare important tanımıdır.
 
-[sourcecode language="html"] \<ul style="background-color:\#3CF"\>
-\<li\>Deneme\</li\> \<ul\> [/sourcecode]
+[sourcecode language="html"] <ul style="background-color:#3CF">
+<li>Deneme</li> <ul> [/sourcecode]
 
 Tanımı olsun biz bu elemanı background rengini değiştirmek istersek
 sadece important ile değiştirebiliriz.
 
-[sourcecode language="css"] li.deneme{ background-color:\#f00
+[sourcecode language="css"] li.deneme{ background-color:#f00
 !important; } [/sourcecode]
 
 Tanımı li elemanının background rengini kırmızı yapacaktır.

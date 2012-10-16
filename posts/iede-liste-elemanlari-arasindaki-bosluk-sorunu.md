@@ -12,14 +12,14 @@ ie6'da bazense ie6 ve ie7'de oluyor.
 
 Bir örnek verelim
 
-[sourcecode language="html"] \<ul id="menu"\> \<li\>\<a href="\#"\>Menu
-Bir\</a\>\</li\> \<li\>\<a href="\#"\>Menu İki\</a\>\</li\> \<li\>\<a
-href="\#"\>Menu Üç\</a\>\</li\> \<li\>\<a href="\#"\>Menu Dört\</a\>
-\</li\> \</ul\> [/sourcecode]
+[sourcecode language="html"] <ul id="menu"> <li><a href="#">Menu
+Bir</a></li> <li><a href="#">Menu İki</a></li> <li><a
+href="#">Menu Üç</a></li> <li><a href="#">Menu Dört</a>
+</li> </ul> [/sourcecode]
 
 CSS kodumuzda da
 
-[sourcecode language="css"] ul\#menu li a{ display:block} [/sourcecode]
+[sourcecode language="css"] ul#menu li a{ display:block} [/sourcecode]
 
 Örneği görmek için [tıklayınız.][]
 
@@ -34,22 +34,22 @@ biri yapılması durumunda bu sorun düzelecektir.
 **display:** inline-block  
 **height:** herhangi bir değeri  
 **float:** left veya right  
-**\*max-height:** herhangi bir değeri  
-**\*max-width:** herhangi bir değeri  
-**\*min-height:** herhangi bir değeri  
-**\*min-width:** herhangi bir değeri  
-**\*overflow:** not visible  
+***max-height:** herhangi bir değeri  
+***max-width:** herhangi bir değeri  
+***min-height:** herhangi bir değeri  
+***min-width:** herhangi bir değeri  
+***overflow:** not visible  
 **position:** absolute  
 **width:** herhangi bir değeri  
 **writing-mode:** tb-rl  
 **zoom:** herhangi bir değeri
 
 </p>
-\* ie7 de geçerli.
+* ie7 de geçerli.
 
 Biz bir tanesini seçelim.
 
-[sourcecode language="html"] \* html ul\#menu li a {height: 1px;}
+[sourcecode language="html"] * html ul#menu li a {height: 1px;}
 [/sourcecode]
 
 Örneği görmek için [tıklayınız.][1]

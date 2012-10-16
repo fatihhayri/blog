@@ -10,9 +10,9 @@ document.getElementById(elementid).style.display=
 
 kod kısmında da
 
-[sourcecode language="html"] \<a
-href="javascript:gostergizle('haber')"\>haber\</a\> \<div
-id="haber"\>haberler .......\</div\> [/sourcecode]
+[sourcecode language="html"] <a
+href="javascript:gostergizle('haber')">haber</a> <div
+id="haber">haberler .......</div> [/sourcecode]
 
 Bu hem elementlerimizi göstermeye hemde gizlemeye yarayan bir fonksiyon.
 Basit ve kullanışlı bir fonksiyon

@@ -87,7 +87,7 @@ padding değerlerinin içerip içermemesi gerektiğini tanımlama imkanı
 sağlıyor. Detaylı bilgi için [tıklayınız.][]
 
 **:active Sözde sınıfı**işlevselliği arttı ie7’de sadece
-bağlantılara(\<a\>) verilirken artık tüm HTML elementlerini kapsıyor.
+bağlantılara(<a>) verilirken artık tüm HTML elementlerini kapsıyor.
 
 **IE8 Geliştirici Aracı geldi:** Firebug kadar olmasada ie içinde böyle
 bir aracın olması büyük bir avantaj. CSS özelliklerini görebilmek ve
@@ -144,7 +144,7 @@ https://developer.mozilla.org/en/DOM/window.onhashchange
 -   @import tanımlarındaki ie7 sorunları yok artık.
 -   [border:hidden][] sorunu yok artık
 -   [border-style outset renk farklılığı sorunu][] yok artık
--   \<p\> elementi standart padding değeri ie7’de farklı idi. Şimdi
+-   <p> elementi standart padding değeri ie7’de farklı idi. Şimdi
     çözüldü.
 -   Microsoft’un kutu modeli kabülü ile w3c’nin kutu modeli arasındaki
     fark artık yok.
@@ -210,7 +210,7 @@ sitelerden kaldırmayı unutmayın.
 -   [http://www.fatihhayrioglu.com/internet-explorer-8e-kisa-bir-bakis/][]
 -   [http://msdn.microsoft.com/en-us/library/cc304082(VS.85).aspx][]
 -   [http://blog.zimbra.com/blog/archives/2006/10/ie-7-vs-ie-6.html][]
--   [http://www.nuricankaya.com/default.asp?gunluk\_id=407][] (ie8
+-   [http://www.nuricankaya.com/default.asp?gunluk_id=407][] (ie8
     kitabı)
 -   [http://jclaes.blogspot.com/2010/11/html5-new-in-javascript-selector-api.html][]
     (querySelector desteği)
@@ -222,15 +222,15 @@ sitelerden kaldırmayı unutmayın.
     (güzel)
 -   [http://blogs.msdn.com/b/ie/archive/2009/03/12/site-compatibility-and-ie8.aspx][]
 -   [http://www.standardista.com/browsers/ie8-css-support-hac][] (güzel)
--   [http://www.quirksmode.org/css/contents.html\#t15][]
--   [http://www.computerworld.com/s/article/9217279/Google\_to\_dump\_support\_for\_Microsoft\_s\_IE7][]
+-   [http://www.quirksmode.org/css/contents.html#t15][]
+-   [http://www.computerworld.com/s/article/9217279/Google_to_dump_support_for_Microsoft_s_IE7][]
 -   [http://thenextweb.com/facebook/2011/12/30/not-a-fan-of-timeline-on-facebook-use-ie7-facebook-stopped-supporting-it/][]
 -   [http://drupal.org/node/1217788][]
 -   [http://theie7countdown.com/][]
 -   [http://howlingdogthemes.com/wordpress-development/wp-to-drop-ie7-support/][]
 -   [http://gmailblog.blogspot.com/2011/06/our-plans-to-support-modern-browsers.html][]
 -   [http://blogs.missouristate.edu/web/2012/03/26/goodbye-ie7-we-wont-miss-you/][]
--   [http://caniuse.com/\#compare=y&b1=ie+7&b2=ie+8][]
+-   [http://caniuse.com/#compare=y&b1=ie+7&b2=ie+8][]
 
 </p>
 
@@ -301,7 +301,7 @@ sitelerden kaldırmayı unutmayın.
   [http://www.fatihhayrioglu.com/internet-explorer-8e-kisa-bir-bakis/]: http://www.fatihhayrioglu.com/internet-explorer-8e-kisa-bir-bakis/
   [http://msdn.microsoft.com/en-us/library/cc304082(VS.85).aspx]: http://msdn.microsoft.com/en-us/library/cc304082(VS.85).aspx
   [http://blog.zimbra.com/blog/archives/2006/10/ie-7-vs-ie-6.html]: http://blog.zimbra.com/blog/archives/2006/10/ie-7-vs-ie-6.html
-  [http://www.nuricankaya.com/default.asp?gunluk\_id=407]: http://www.nuricankaya.com/default.asp?gunluk_id=407
+  [http://www.nuricankaya.com/default.asp?gunluk_id=407]: http://www.nuricankaya.com/default.asp?gunluk_id=407
   [http://jclaes.blogspot.com/2010/11/html5-new-in-javascript-selector-api.html]:
     http://jclaes.blogspot.com/2010/11/html5-new-in-javascript-selector-api.html
   [http://msdn.microsoft.com/en-us/library/cc304082(v=vs.85).aspx]: http://msdn.microsoft.com/en-us/library/cc304082(v=vs.85).aspx
@@ -311,8 +311,8 @@ sitelerden kaldırmayı unutmayın.
   [http://coding.smashingmagazine.com/2009/10/14/css-differences-in-internet-explorer-6-7-and-8/]:
     http://coding.smashingmagazine.com/2009/10/14/css-differences-in-internet-explorer-6-7-and-8/
   [http://www.standardista.com/browsers/ie8-css-support-hac]: http://www.standardista.com/browsers/ie8-css-support-hac
-  [http://www.quirksmode.org/css/contents.html\#t15]: http://www.quirksmode.org/css/contents.html#t15
-  [http://www.computerworld.com/s/article/9217279/Google\_to\_dump\_support\_for\_Microsoft\_s\_IE7]:
+  [http://www.quirksmode.org/css/contents.html#t15]: http://www.quirksmode.org/css/contents.html#t15
+  [http://www.computerworld.com/s/article/9217279/Google_to_dump_support_for_Microsoft_s_IE7]:
     http://www.computerworld.com/s/article/9217279/Google_to_dump_support_for_Microsoft_s_IE7
   [http://thenextweb.com/facebook/2011/12/30/not-a-fan-of-timeline-on-facebook-use-ie7-facebook-stopped-supporting-it/]:
     http://thenextweb.com/facebook/2011/12/30/not-a-fan-of-timeline-on-facebook-use-ie7-facebook-stopped-supporting-it/
@@ -324,4 +324,4 @@ sitelerden kaldırmayı unutmayın.
     http://gmailblog.blogspot.com/2011/06/our-plans-to-support-modern-browsers.html
   [http://blogs.missouristate.edu/web/2012/03/26/goodbye-ie7-we-wont-miss-you/]:
     http://blogs.missouristate.edu/web/2012/03/26/goodbye-ie7-we-wont-miss-you/
-  [http://caniuse.com/\#compare=y&b1=ie+7&b2=ie+8]: http://caniuse.com/#compare=y&b1=ie+7&b2=ie+8
+  [http://caniuse.com/#compare=y&b1=ie+7&b2=ie+8]: http://caniuse.com/#compare=y&b1=ie+7&b2=ie+8

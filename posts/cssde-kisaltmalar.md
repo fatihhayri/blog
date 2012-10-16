@@ -19,33 +19,33 @@ kullanlan kod ise tek satır: [sourcecode language='css'] font: bold
 
 Background tanımlarken 5 adet atama yapmamız gerekirken kısaltma
 kullanarak tek tanıma indirebilriz. [sourcecode language='css']
-background-color: \#000; background-image: url(ard.jpg);
+background-color: #000; background-image: url(ard.jpg);
 background-repeat: no-repeat; background-attachment: fixed;
 background-position: 50px 50px; [/sourcecode] Kısaltırsak: [sourcecode
-language='css'] background: { \#000 url(ard.jpg) no-repeat fixed 50px
+language='css'] background: { #000 url(ard.jpg) no-repeat fixed 50px
 50px; } [/sourcecode]
 
 ###### 3. Renkler(Hex-decimal)
 
 CSS stillerinde renkler genelde hex-decimal renk kodu ile tanımlanır
-örneğin **color: \#ff0000;**
+örneğin **color: #ff0000;**
 <span style="color: #ff0000">kırmızı</span>. Renkler 6 karakterle
 gösterilsede bir çok renk(web tabanlı) 3 karakterin tekrarlanması ile
 oluşturulur. Örneğin, kırmızı'nın hex-decimal kodunun kısaltırsak
-**color: \#f00;**. Buradaki her karakter hex-decimal koddaki iki
+**color: #f00;**. Buradaki her karakter hex-decimal koddaki iki
 karaktere karşılık gelmektedir. Mesela, beyaz renk kullanacağınızda,
-**color: white;** veya **color: \#ffffff;** kulanımı önermeyiz.
-Kısaltılmış olanı **color: \#fff;** kullanmanız daha avantajlıdır.
+**color: white;** veya **color: #ffffff;** kulanımı önermeyiz.
+Kısaltılmış olanı **color: #fff;** kullanmanız daha avantajlıdır.
 
 ###### 4. Border
 
 Kenarklık tanımlamalarında her özellik için bir tanımlama yapılır. örnek
 olarak bir elementin üst kenarına atama yapmak için: [sourcecode
 language='css'] border-top-width: 2px; border-top-style: dashed;
-border-top-color: \#f00; [/sourcecode] Kısaltırsak: [sourcecode
-language='css'] border-top: 2px dashed \#f00; [/sourcecode] Bu
+border-top-color: #f00; [/sourcecode] Kısaltırsak: [sourcecode
+language='css'] border-top: 2px dashed #f00; [/sourcecode] Bu
 özellikleri tüm kenarlara uygulmak için: [sourcecode language='css']
-border: 2px dashed \#f00; [/sourcecode]
+border: 2px dashed #f00; [/sourcecode]
 
 ###### 5. Margin ve Padding'ler
 
@@ -70,8 +70,8 @@ Liste tanılmalrında da kısaltmalar mümkündür [sourcecode language='css']
 ul { list-style-type:square; list-style-position:inside;
 list-style-image:url(image.png); } [/sourcecode] Kısaltırsak;
 [sourcecode language='css'] ul li { list-style:square inside
-url(image.png); } /\* burda özel bir durum vardır eğer resim yoksa yedek
-olarak square özelliği gösterilecektir. \*/ [/sourcecode]
+url(image.png); } /* burda özel bir durum vardır eğer resim yoksa yedek
+olarak square özelliği gösterilecektir. */ [/sourcecode]
 
 ###### 7. Sıfır '0' ın Kısaltma olarak kullanılması
 

@@ -109,13 +109,13 @@ Ne diyelim Internet Explorer 6'ya ölüm.
 -   [http://wisdump.com/web-programming/campaigns-to-kill-the-web-browser-that-just-wont-die-internet-explorer-6/][]
 -   [http://cdharrison.com/2008/09/04/death-to-ie6/][]
 -   [http://www.webmaster-source.com/2008/09/04/fighting-internet-explorer-6/][]
--   [http://leblog.exuberance.com/2006/03/the\_explorer\_ta.html][]
+-   [http://leblog.exuberance.com/2006/03/the_explorer_ta.html][]
 -   [http://www.siberkultur.com/?q=37signals-ie6-destegini-kaldiriyor][]
 -   [http://www.w3counter.com/globalstats.php][]
 -   [http://www.thecounter.com/stats/2008/August/browser.php][]
 -   [http://www.savethedevelopers.org/][]
 -   [http://sonspring.com/journal/time-to-drop-ie6][]
--   [http://www.infoq.com/news/2008/07/ie6\_on\_its\_way\_out][]
+-   [http://www.infoq.com/news/2008/07/ie6_on_its_way_out][]
 -   [http://www.sitepoint.com/blogs/2008/08/25/is-it-time-to-ditch-ie6/][]
 -   [http://css-tricks.com/why-people-still-use-ie-6/][]
 -   [http://elliotjaystocks.com/blog/archive/2008/death-to-ie6/][]
@@ -155,13 +155,13 @@ Ne diyelim Internet Explorer 6'ya ölüm.
   [http://cdharrison.com/2008/09/04/death-to-ie6/]: http://cdharrison.com/2008/09/04/death-to-ie6/
   [http://www.webmaster-source.com/2008/09/04/fighting-internet-explorer-6/]:
     http://www.webmaster-source.com/2008/09/04/fighting-internet-explorer-6/
-  [http://leblog.exuberance.com/2006/03/the\_explorer\_ta.html]: http://leblog.exuberance.com/2006/03/the_explorer_ta.html
+  [http://leblog.exuberance.com/2006/03/the_explorer_ta.html]: http://leblog.exuberance.com/2006/03/the_explorer_ta.html
   [http://www.siberkultur.com/?q=37signals-ie6-destegini-kaldiriyor]: http://www.siberkultur.com/?q=37signals-ie6-destegini-kaldiriyor
   [http://www.w3counter.com/globalstats.php]: http://www.w3counter.com/globalstats.php
   [http://www.thecounter.com/stats/2008/August/browser.php]: http://www.thecounter.com/stats/2008/August/browser.php
   [http://www.savethedevelopers.org/]: http://www.savethedevelopers.org/
   [http://sonspring.com/journal/time-to-drop-ie6]: http://sonspring.com/journal/time-to-drop-ie6
-  [http://www.infoq.com/news/2008/07/ie6\_on\_its\_way\_out]: http://www.infoq.com/news/2008/07/ie6_on_its_way_out
+  [http://www.infoq.com/news/2008/07/ie6_on_its_way_out]: http://www.infoq.com/news/2008/07/ie6_on_its_way_out
   [http://www.sitepoint.com/blogs/2008/08/25/is-it-time-to-ditch-ie6/]: http://www.sitepoint.com/blogs/2008/08/25/is-it-time-to-ditch-ie6/
   [http://elliotjaystocks.com/blog/archive/2008/death-to-ie6/]: http://elliotjaystocks.com/blog/archive/2008/death-to-ie6/
   [http://iedeathmarch.org/]: http://iedeathmarch.org/

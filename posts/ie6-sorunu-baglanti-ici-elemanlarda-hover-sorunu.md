@@ -18,8 +18,8 @@ kaynaklardaki bir örneği vereceğim burada size ben.
 
 HTML kodu
 
-[sourcecode language="html"] \<div\> \<a
-href="\#"\>foo\<span\>bar\</span\>\</a\> \</div\> [/sourcecode]
+[sourcecode language="html"] <div> <a
+href="#">foo<span>bar</span></a> </div> [/sourcecode]
 
 CSS Kodu
 

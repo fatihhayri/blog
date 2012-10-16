@@ -36,15 +36,15 @@ aramaya sevk ediyor. Buda bize bir makale yazma gereksinimi doğuruyor.
 İlk metodumuz normal konumlandırma özelliğinin fixed uygulanmış
 şeklidir.
 
-[sourcecode language="html"] \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"\> \<html
-xmlns="http://www.w3.org/1999/xhtml"\> \<head\> \<style
-type="text/css"\> body { margin:0; padding:0; } div\#ustKisim {
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
+xmlns="http://www.w3.org/1999/xhtml"> <head> <style
+type="text/css"> body { margin:0; padding:0; } div#ustKisim {
 position:fixed; background: gray; color: yellow; height:50px;
-width:100%; top:0; left:0; } div\#icerik { margin:75px 0 0 0; }
-\</style\> \</head\> \<body\> \<div id="ustKisim"\>Lorem ipsum dolor sit
-amet\</div\> \<div id="icerik"\> \<p\>Lorem ipsum dolor sit amet,
+width:100%; top:0; left:0; } div#icerik { margin:75px 0 0 0; }
+</style> </head> <body> <div id="ustKisim">Lorem ipsum dolor sit
+amet</div> <div id="icerik"> <p>Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit. Aliquam nec erat. Fusce magna massa,
 nonummy eget, aliquam tempus, imperdiet vel, odio. Sed mauris. Quisque
 sodales urna vitae lorem. Vestibulum aliquet, odio aliquam convallis
@@ -55,8 +55,8 @@ in, auctor sit amet, massa. Integer interdum. Nunc condimentum
 scelerisque enim. Pellentesque orci. Maecenas at neque. Sed non diam ac
 turpis pretium dictum. Phasellus ligula felis, aliquet nec, tristique
 non, posuere a, magna. Duis eu quam quis tortor vehicula sodales. Donec
-et mi eget augue bibendum interdum. Proin dapibus odio.\</p\> \</body\>
-\</html\> [/sourcecode]
+et mi eget augue bibendum interdum. Proin dapibus odio.</p> </body>
+</html> [/sourcecode]
 
 Örneği görmek için [tıklayınız.][]
 
@@ -72,20 +72,20 @@ metodda bu komut yardımı ile **position:fixed** sorununu çözeceğiz.
 **expression()** yardımı ile daha önce IE'nin [min-width ve min-height
 sorununu][] çözdüğümüzü hatırlayın.
 
-[sourcecode language="html"] \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
-1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"\>
-\<html xmlns="http://www.w3.org/1999/xhtml"\> \<head\> \<meta
-http-equiv="Content-Type" content="text/html; charset=utf-8" /\>
-\<title\>Sabit Konumlandırma\</title\> \<style\> body { background:
-\#ffc; font: 12px sans-serif; margin: 0; padding: 0; } div\#ustAlan {
+[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
+http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sabit Konumlandırma</title> <style> body { background:
+#ffc; font: 12px sans-serif; margin: 0; padding: 0; } div#ustAlan {
 width: 100%; height: 100px; background: pink; position: fixed; top: 0;
-left: 0; z-index:100; } \#icerik{ position:absolute; top:105px; }
-\</style\> \<!–[if lt IE 7]\> \<style\> body { background: \#ffc
-url(’http://’) fixed; } div\#ustAlan { position: absolute; top:
-expression(eval(documentElement.scrollTop)); } \</style\> \<![endif]–\>
-\</head\> \<body\> \<div id="ustAlan"\>Sabit Konumlandırma\</div\> \<div
-id="icerik"\> \<p\>Lorem ipsum dolor sit amet ….\</p\> \</div\>
-\</body\> \</html\> [/sourcecode]
+left: 0; z-index:100; } #icerik{ position:absolute; top:105px; }
+</style> <!–[if lt IE 7]> <style> body { background: #ffc
+url(’http://’) fixed; } div#ustAlan { position: absolute; top:
+expression(eval(documentElement.scrollTop)); } </style> <![endif]–>
+</head> <body> <div id="ustAlan">Sabit Konumlandırma</div> <div
+id="icerik"> <p>Lorem ipsum dolor sit amet ….</p> </div>
+</body> </html> [/sourcecode]
 
 ![Sabit Konumlandırma][]
 
@@ -140,7 +140,7 @@ linklerini kaynaklar kısmında sizlere vereceğim.
 -   [http://www.cssplay.co.uk/layouts/fixed.html][]
 -   [http://www.cssplay.co.uk/layouts/body2.html][]
 -   [http://www.cssplay.co.uk/layouts/fixit.html][]  
--   [http://www.gunlaug.no/contents/wd\_additions\_15.html][]
+-   [http://www.gunlaug.no/contents/wd_additions_15.html][]
 -   [http://www.gunesintamicinde.com/ie-6-ve-position-fixed-problemi/][]  
 
 </p>
@@ -163,5 +163,5 @@ linklerini kaynaklar kısmında sizlere vereceğim.
   [http://www.cssplay.co.uk/layouts/fixed.html]: http://www.cssplay.co.uk/layouts/fixed.html
   [http://www.cssplay.co.uk/layouts/body2.html]: http://www.cssplay.co.uk/layouts/body2.html
   [http://www.cssplay.co.uk/layouts/fixit.html]: http://www.cssplay.co.uk/layouts/fixit.html
-  [http://www.gunlaug.no/contents/wd\_additions\_15.html]: http://www.gunlaug.no/contents/wd_additions_15.html
+  [http://www.gunlaug.no/contents/wd_additions_15.html]: http://www.gunlaug.no/contents/wd_additions_15.html
   [http://www.gunesintamicinde.com/ie-6-ve-position-fixed-problemi/]: http://www.gunesintamicinde.com/ie-6-ve-position-fixed-problemi/

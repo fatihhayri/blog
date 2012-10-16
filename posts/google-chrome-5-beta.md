@@ -27,7 +27,7 @@ bahsetmeye.<!--more-->
 -   **%35'e varan hızlanma.** Google Chrome 5 beta test sonuçları mevcut
     tarayıcıların en hızlısı olduğunu gösteriyor. Google %35'e varan
     hızlanma olduğunu söylüyor. Geliştirilen javascript V8 motorunun
-    bunda etkisi büyük. http://www.youtube.com/watch?v=\_oarMXGq3gI
+    bunda etkisi büyük. http://www.youtube.com/watch?v=_oarMXGq3gI
 -   **Google Chrome Senkronizasyonu.**Google Chrome senkronizasyon
     ekranından Favoriler, Özellikler ve Temaları senkron kullanabilmemiz
     sağlanıyor. Google kullanıcı bilgileri ile bu imkanını sağlaması
@@ -109,7 +109,7 @@ bu durumun dışında tutmalı. 
 -   [http://thenextweb.com/tr/2010/05/05/yuzde-35-daha-hizli-yeni-chrome-beta-yayinlandi][]
 -   [http://shiftdelete.net/en-hizlisi-google-chrome-20392.html][]
 -   [http://chrome.blogspot.com/2010/05/pedal-to-chrome-metal-our-fastest-beta.html][]
--   [http://download.cnet.com/Google-Chrome-beta/3000-2356\_4-10958228.html][]
+-   [http://download.cnet.com/Google-Chrome-beta/3000-2356_4-10958228.html][]
 
 </p>
 
@@ -125,5 +125,5 @@ bu durumun dışında tutmalı. 
   [http://shiftdelete.net/en-hizlisi-google-chrome-20392.html]: http://shiftdelete.net/en-hizlisi-google-chrome-20392.html
   [http://chrome.blogspot.com/2010/05/pedal-to-chrome-metal-our-fastest-beta.html]:
     http://chrome.blogspot.com/2010/05/pedal-to-chrome-metal-our-fastest-beta.html
-  [http://download.cnet.com/Google-Chrome-beta/3000-2356\_4-10958228.html]:
+  [http://download.cnet.com/Google-Chrome-beta/3000-2356_4-10958228.html]:
     http://download.cnet.com/Google-Chrome-beta/3000-2356_4-10958228.html

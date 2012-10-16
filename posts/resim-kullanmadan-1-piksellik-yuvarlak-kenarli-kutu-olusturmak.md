@@ -27,13 +27,13 @@ elde ederiz. Bu işlemi iki şekilde yapabiliriz.
 
 HTML kodu
 
-[sourcecode language="html"] \<div class="kutu1"\> \<p\>{ CSS, XHTML ve
-Javascript }\</p\> \</div\> [/sourcecode]
+[sourcecode language="html"] <div class="kutu1"> <p>{ CSS, XHTML ve
+Javascript }</p> </div> [/sourcecode]
 
 CSS kodu
 
-[sourcecode language="css"] .kutu1{ background:\#3274D0; margin:0 1px;
-padding:1px 0; } .kutu1 p{ background:\#3274D0; margin:0 -1px;
+[sourcecode language="css"] .kutu1{ background:#3274D0; margin:0 1px;
+padding:1px 0; } .kutu1 p{ background:#3274D0; margin:0 -1px;
 padding:2px; } [/sourcecode]
 
 ![][1]
@@ -44,14 +44,14 @@ padding:2px; } [/sourcecode]
 
 HTML Kodumuz yine aynı
 
-[sourcecode language="html"] \<div class="kutu1"\> \<p\>{ CSS, XHTML ve
-Javascript }\</p\> \</div\> [/sourcecode]
+[sourcecode language="html"] <div class="kutu1"> <p>{ CSS, XHTML ve
+Javascript }</p> </div> [/sourcecode]
 
 CSS kodumuz
 
-[sourcecode language="css"] .kutu1{ background:\#848484; border:1px
-solid \#848484; border-left-width:0; border-right-width:0; margin:0 1px;
-} .kutu1 p{ background:\#d3d3d3; border:1px solid \#848484;
+[sourcecode language="css"] .kutu1{ background:#848484; border:1px
+solid #848484; border-left-width:0; border-right-width:0; margin:0 1px;
+} .kutu1 p{ background:#d3d3d3; border:1px solid #848484;
 border-top-width:0; border-bottom-width:0; margin:0 -1px; padding:2px; }
 [/sourcecode]
 
@@ -65,20 +65,20 @@ Bu yöntemleri butonlarımızda da kullanabiliriz.
 
 HTML Kodumuz
 
-[sourcecode language="html"] \<ul\> \<li\>\<a
-href=""\>\<span\>Bursaspor\</span\>\</a\>\</li\> \<li\>\<a
-href=""\>\<span\>Trabzonspor\</span\>\</a\>\</li\> \<li\>\<a
-href=""\>\<span\>Kayserispor\</span\>\</a\>\</li\> \</ul\> [/sourcecode]
+[sourcecode language="html"] <ul> <li><a
+href=""><span>Bursaspor</span></a></li> <li><a
+href=""><span>Trabzonspor</span></a></li> <li><a
+href=""><span>Kayserispor</span></a></li> </ul> [/sourcecode]
 
 CSS kodumuz
 
 [sourcecode language="css"] ul{margin:0; padding:0; width:250px} ul li{
 list-style: none; margin-bottom:5px} ul li a{display:block;
-background:\#3274D0; margin:0 1px; padding:1px 0; position: relative;
-text-decoration:none;} ul li a span{background:\#3274D0; margin:0 -1px;
-padding:2px; display: block; color:\#fff} ul li
-a:hover{background:\#fff;} ul li a:hover span{background:\#fff;
-color:\#3274D0} [/sourcecode]
+background:#3274D0; margin:0 1px; padding:1px 0; position: relative;
+text-decoration:none;} ul li a span{background:#3274D0; margin:0 -1px;
+padding:2px; display: block; color:#fff} ul li
+a:hover{background:#fff;} ul li a:hover span{background:#fff;
+color:#3274D0} [/sourcecode]
 
 ![][4]
 
@@ -96,7 +96,7 @@ Hadi kalın sağlıcakla.
 ### Kaynaklar
 
 -   [http://dmitry-baranovskiy.tumblr.com/post/34061791/one-pixel-rounded-corners][]
--   [http://www.askthecssguy.com/2008/03/one\_pixel\_notched\_corners\_as\_u.html][]
+-   [http://www.askthecssguy.com/2008/03/one_pixel_notched_corners_as_u.html][]
 -   [http://www.onderhond.com/blog/work/1px-rounded-corners][]
 -   [http://www.alistapart.com/articles/mountaintop/][]
 
@@ -115,7 +115,7 @@ Hadi kalın sağlıcakla.
   [5]: http://fatihhayrioglu.com/dokumanlar/1px_yuvarlak_kenar_1_hover.html
   [http://dmitry-baranovskiy.tumblr.com/post/34061791/one-pixel-rounded-corners]:
     http://dmitry-baranovskiy.tumblr.com/post/34061791/one-pixel-rounded-corners
-  [http://www.askthecssguy.com/2008/03/one\_pixel\_notched\_corners\_as\_u.html]:
+  [http://www.askthecssguy.com/2008/03/one_pixel_notched_corners_as_u.html]:
     http://www.askthecssguy.com/2008/03/one_pixel_notched_corners_as_u.html
   [http://www.onderhond.com/blog/work/1px-rounded-corners]: http://www.onderhond.com/blog/work/1px-rounded-corners
   [http://www.alistapart.com/articles/mountaintop/]: http://www.alistapart.com/articles/mountaintop/

@@ -6,7 +6,7 @@ Tags: .net, CSS, google maps, jquery, metin yerine resim koymak, mikroformat, mo
 -   Web çalışanları üzerinde yapılan bir anket sonuçları. [Bağlantı][]
 -   Asp.net sayfalarda form alanlarına odaklandığında ardalanı
     değiştirmek için yöntem. [Bağlantı][1]
--   "Explorer'da \<pre\> tag'i ile innerHTML kullanmak" [Bağlantı][2]
+-   "Explorer'da <pre> tag'i ile innerHTML kullanmak" [Bağlantı][2]
 -   Asp.net'de Google Map kontrolü 1.Kısım [Bağlantı][3]
 -   45'den fazla güzel WordPress teması. [Bağlantı][4]
 -   CSS ile 9 adet metin yerine resim koyma metodu. [Bağlantı][5]

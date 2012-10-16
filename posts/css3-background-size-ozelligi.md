@@ -7,8 +7,8 @@ background-size özelliği background-image ile tanımlanan resmin
 boyutlarını tanımlamamıza yarar.
 
 <div class="cssozelliktanimi" style="width:460px; margin-top:10px">
-**Yapısı :** background-size: [\<bg-size\>[, \<bg-size\> ]  
-**Aldığı Değerler :** [ \<yuzde\_deger\> | \<uzunluk\> | auto ] |
+**Yapısı :** background-size: [<bg-size>[, <bg-size> ]  
+**Aldığı Değerler :** [ <yuzde_deger> | <uzunluk> | auto ] |
 contain | cover  
 **Başlangıç değeri:** auto  
 **Uygulanabilen elementler:** tüm elementler  
@@ -62,10 +62,10 @@ CSS3 diğer özelliklerinde olduğu gibi background-size özelliğini
 destekleyen farklı tarayıcılar kendi öneklerini kullanmaktadır.  
 
 [css] .deneme { background-image: url(bg-image.png);
--moz-background-size: 100% 100%;           /\* Firefox 3.6 \*/
--o-background-size: 100% 100%;           /\* Opera 9.5 \*/
--webkit-background-size: 100% 100%;           /\* Safari 3.0, Chrome \*/
-background-size: 100% 100%;           /\* w3c, Firefox 4.0, ie9  \*/ }
+-moz-background-size: 100% 100%;           /* Firefox 3.6 */
+-o-background-size: 100% 100%;           /* Opera 9.5 */
+-webkit-background-size: 100% 100%;           /* Safari 3.0, Chrome */
+background-size: 100% 100%;           /* w3c, Firefox 4.0, ie9  */ }
 [/css]
 
 <div class="tarayiciuyum">
@@ -104,12 +104,12 @@ Kalın sağlıcakla
 
 -   [http://www.w3.org/TR/2002/WD-css3-background-20020802/][]
 -   [https://developer.mozilla.org/en/CSS/background-size][]
--   [https://developer.mozilla.org/en/CSS/Scaling\_background\_images][]
+-   [https://developer.mozilla.org/en/CSS/Scaling_background_images][]
 -   [http://robertnyman.com/css3/background-size/background-size.html][]
 -   [http://dev.opera.com/articles/view/css-text-shadows-and-background-sizing/][]
 -   [http://hacks.mozilla.org/2009/12/css-backgrounds-firefox-36/][]
 -   [http://www.css3.info/preview/background-size/][]
--   [http://www.w3schools.com/cssref/css3\_pr\_background-size.asp][]
+-   [http://www.w3schools.com/cssref/css3_pr_background-size.asp][]
 -   [http://markupflux.com/2011/01/17/how-to-make-a-full-screen-background-image-that-scales-and-crops-as-needed/][]
     (ie)
 -   [http://www.quirksmode.org/css/background.html][]
@@ -121,12 +121,12 @@ Kalın sağlıcakla
 -   [http://css-tricks.com/3458-perfect-full-page-background-image/][]
     (tam ekran)
 -   [http://www.cssplay.co.uk/boxes/css3-background.html][] (örnek)
--   [http://www.pziecina.com/design/turorial\_demos/resize\_background.php][]
+-   [http://www.pziecina.com/design/turorial_demos/resize_background.php][]
     (tam ekran)
 -   [http://www.alistapart.com/articles/supersize-that-background-please/][]
 -   [http://whereswalden.com/files/mozilla/background-size/more-examples.html][]
     (örnekler)
--   [http://dev.w3.org/csswg/css3-page/img\_scale.png][]
+-   [http://dev.w3.org/csswg/css3-page/img_scale.png][]
 -   [][]
 
 </p>
@@ -136,13 +136,13 @@ Kalın sağlıcakla
     http://whereswalden.com/files/mozilla/background-size/more-examples.html
   [http://www.w3.org/TR/2002/WD-css3-background-20020802/]: http://www.w3.org/TR/2002/WD-css3-background-20020802/
   [https://developer.mozilla.org/en/CSS/background-size]: https://developer.mozilla.org/en/CSS/background-size
-  [https://developer.mozilla.org/en/CSS/Scaling\_background\_images]: https://developer.mozilla.org/en/CSS/Scaling_background_images
+  [https://developer.mozilla.org/en/CSS/Scaling_background_images]: https://developer.mozilla.org/en/CSS/Scaling_background_images
   [http://robertnyman.com/css3/background-size/background-size.html]: http://robertnyman.com/css3/background-size/background-size.html
   [http://dev.opera.com/articles/view/css-text-shadows-and-background-sizing/]:
     http://dev.opera.com/articles/view/css-text-shadows-and-background-sizing/
   [http://hacks.mozilla.org/2009/12/css-backgrounds-firefox-36/]: http://hacks.mozilla.org/2009/12/css-backgrounds-firefox-36/
   [http://www.css3.info/preview/background-size/]: http://www.css3.info/preview/background-size/
-  [http://www.w3schools.com/cssref/css3\_pr\_background-size.asp]: http://www.w3schools.com/cssref/css3_pr_background-size.asp
+  [http://www.w3schools.com/cssref/css3_pr_background-size.asp]: http://www.w3schools.com/cssref/css3_pr_background-size.asp
   [http://markupflux.com/2011/01/17/how-to-make-a-full-screen-background-image-that-scales-and-crops-as-needed/]:
     http://markupflux.com/2011/01/17/how-to-make-a-full-screen-background-image-that-scales-and-crops-as-needed/
   [http://www.quirksmode.org/css/background.html]: http://www.quirksmode.org/css/background.html
@@ -152,10 +152,10 @@ Kalın sağlıcakla
   [http://www.css3.info/liquid-faux-columns-with-background-size/]: http://www.css3.info/liquid-faux-columns-with-background-size/
   [http://css-tricks.com/3458-perfect-full-page-background-image/]: http://css-tricks.com/3458-perfect-full-page-background-image/
   [http://www.cssplay.co.uk/boxes/css3-background.html]: http://www.cssplay.co.uk/boxes/css3-background.html
-  [http://www.pziecina.com/design/turorial\_demos/resize\_background.php]:
+  [http://www.pziecina.com/design/turorial_demos/resize_background.php]:
     http://www.pziecina.com/design/turorial_demos/resize_background.php
   [http://www.alistapart.com/articles/supersize-that-background-please/]:
     http://www.alistapart.com/articles/supersize-that-background-please/
-  [http://dev.w3.org/csswg/css3-page/img\_scale.png]: http://dev.w3.org/csswg/css3-page/img_scale.png
+  [http://dev.w3.org/csswg/css3-page/img_scale.png]: http://dev.w3.org/csswg/css3-page/img_scale.png
   []: http://www.netmagazine.com/tutorials/take-advantage-css-background-size-property
     "http://www.netmagazine.com/tutorials/take-advantage-css-background-size-property"

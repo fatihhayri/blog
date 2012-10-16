@@ -319,7 +319,7 @@ olan yenilikleri takip etmek ve geri kalmamaktır. Ferruh Mavituna'nın
     (Google Reader yazıları)
 -   [http://mashable.com/2009/05/19/google-reader-2/][]
 -   [http://lifehacker.com/5625876/google-reader-cuts-the-clutter-with-fullscreen-mode-new-shortcuts][]
--   [http://www.readwriteweb.com/archives/6\_ways\_to\_filter\_your\_rss\_feeds.php][]
+-   [http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php][]
     (RSS filtreleme)
 -   [http://mashable.com/2007/08/23/google-reader-firefox/][] (Firefox
     eklentileri)
@@ -396,7 +396,7 @@ olan yenilikleri takip etmek ve geri kalmamaktır. Ferruh Mavituna'nın
   [http://lifehacker.com/5625876/google-reader-cuts-the-clutter-with-fullscreen-mode-new-shortcuts]:
     http://lifehacker.com/5625876/google-reader-cuts-the-clutter-with-fullscreen-mode-new-shortcuts
     "http://lifehacker.com/5625876/google-reader-cuts-the-clutter-with-fullscreen-mode-new-shortcuts"
-  [http://www.readwriteweb.com/archives/6\_ways\_to\_filter\_your\_rss\_feeds.php]:
+  [http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php]:
     http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php
     "http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php"
   [http://mashable.com/2007/08/23/google-reader-firefox/]: http://mashable.com/2007/08/23/google-reader-firefox/

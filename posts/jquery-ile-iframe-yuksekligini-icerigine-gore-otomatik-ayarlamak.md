@@ -27,20 +27,20 @@ anlatacağım.
 Sayfamıza ilk olarak jQuery kütüphanesini eklemeliyiz. Bu script
 dosyasının ilk sırada olması önemli jQuery için.
 
-[sourcecode language="html"] \<script type="text/javascript"
-src="script/jquery.js"\>\</script\> [/sourcecode]
+[sourcecode language="html"] <script type="text/javascript"
+src="script/jquery.js"></script> [/sourcecode]
 
 Iframe otomatik yükseklik vermek için kullandığımız eklenti kodu.
 
-[sourcecode language="html"]\<script type="text/javascript"
-src="script/jquery.autoheight.js"\>\</script\>[/sourcecode]
+[sourcecode language="html"]<script type="text/javascript"
+src="script/jquery.autoheight.js"></script>[/sourcecode]
 
 Sayfaya eklediğimiz iframe kodunda yapmamız gereken sadece
 class="autoHeight" eklemek.
 
-[sourcecode language="html"]\<iframe id="listeCercevesi"
+[sourcecode language="html"]<iframe id="listeCercevesi"
 name="listeCercevesi" class="autoHeight" scrolling="auto"
-frameborder="0" src="/liste.aspx"\>\</iframe\>[/sourcecode]
+frameborder="0" src="/liste.aspx"></iframe>[/sourcecode]
 
 Örnek sayfayı görmek için [tıklayın.][] (sonspring.com alınmıştır)
 
@@ -62,7 +62,7 @@ frameborder="0" src="/liste.aspx"\>\</iframe\>[/sourcecode]
 ### Kaynaklar
 
 -   [http://www.lost-in-code.com/programming/jquery-auto-iframe-height/][]
--   [http://lib.mobius.tw/jquery/myplugin/iframe\_autoHeight/api.htm][]
+-   [http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm][]
 -   [http://jbscdev.blogspot.com/2007/08/automatic-iframe-height-sizing-using.html][]
 -   [http://sonspring.com/journal/jquery-iframe-sizing][]
 
@@ -75,7 +75,7 @@ frameborder="0" src="/liste.aspx"\>\</iframe\>[/sourcecode]
   [tıklayın.]: /dokumanlar/iframe_code/index.html
   [http://www.lost-in-code.com/programming/jquery-auto-iframe-height/]: http://www.lost-in-code.com/programming/jquery-auto-iframe-height/
     "http://www.lost-in-code.com/programming/jquery-auto-iframe-height/"
-  [http://lib.mobius.tw/jquery/myplugin/iframe\_autoHeight/api.htm]: http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm
+  [http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm]: http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm
     "http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm"
   [http://jbscdev.blogspot.com/2007/08/automatic-iframe-height-sizing-using.html]:
     http://jbscdev.blogspot.com/2007/08/automatic-iframe-height-sizing-using.html

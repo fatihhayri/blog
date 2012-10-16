@@ -30,8 +30,8 @@ verelim.
 
 Xhtml kodu:
 
-[html] \<div class="resimKutusu"\>\<img src="resim.jpg" width="300"
-height="300" alt="Vizara Köyü – Sürmene " /\>\</div\> [/html]
+[html] <div class="resimKutusu"><img src="resim.jpg" width="300"
+height="300" alt="Vizara Köyü – Sürmene " /></div> [/html]
 
 Yukarıdaki kodda görüldüğü gibi bir resim ve onu kapsayan bir katmanımız
 var. Kapsayıcı katmana(.resimKutu) gölge zemin resmini atayacağız.
@@ -53,15 +53,15 @@ Gölge zemin resmini ortaya çıkarmak için margin tanımlarını yapmalıyız.
 Efekti daha belirgin ve güzel hale getirmek için padding ve kenarlık
 ataması yaparsak.
 
-[css] .resimKutusu img { background-color: \#fff; border: 1px solid
-\#a9a9a9; padding: 4px; margin: -5px 5px 5px -5px; } [/css]
+[css] .resimKutusu img { background-color: #fff; border: 1px solid
+#a9a9a9; padding: 4px; margin: -5px 5px 5px -5px; } [/css]
 
 Yukarıdaki kodun IE6 da çalışması için bir iki ekleme yapmalıyız.
 
 [css highlight="5,11,13"] .resimKutusu { background:
 url(images/shadow.gif) no-repeat bottom right; clear: right; float:
-left; position: relative; } .resimKutusu img { background-color: \#fff;
-border: 1px solid \#a9a9a9; padding: 4px; display: block; margin: -5px
+left; position: relative; } .resimKutusu img { background-color: #fff;
+border: 1px solid #a9a9a9; padding: 4px; display: block; margin: -5px
 5px 5px -5px; position: relative; } [/css]
 
 Kodlama IE5x versiyonlarda biraz sorunlu görünse de genelde
@@ -78,7 +78,7 @@ yerine göreceli(realtive) konumlandırma kullanmaktır.
 
 [css] .resimKapsulu { background: url(images/golge.gif) no-repeat bottom
 right; float:left; line-height:0; } .resimKapsulu img {
-background:\#fff; padding:4px; border:1px solid \#a9a9a9;
+background:#fff; padding:4px; border:1px solid #a9a9a9;
 position:relative; left:-5px; top:-5px; } [/css]
 
 IE5x de padding sorunu olsa da tüm web tarayıcılarında gayet güzel
@@ -104,9 +104,9 @@ versiyonları için .gif oluşturalım.
 
 ![Maske PNG örneği][]
 
-[html] \<div class="resimKapsulu"\> \<div\> \<img
-src="images/koy\_01.jpg" width="250" height="165" alt="Vizara Köyü –
-Sürmene" /\> \</div\> \</div\> [/html]
+[html] <div class="resimKapsulu"> <div> <img
+src="images/koy_01.jpg" width="250" height="165" alt="Vizara Köyü –
+Sürmene" /> </div> </div> [/html]
 
 Bu metodu uygulamak için
 <span class="alternatifard">**resimKapsulu**</span> katmanına alt sağa
@@ -129,13 +129,13 @@ Bu kodu eski versiyon IE versiyonlarına uygun kod yazarsak:
 
 [css] .resimKapsulu div { background: url(images/mask.png) no-repeat
 left top !important; background: url(images/mask.gif) no-repeat left
-top; padding: 0 5px 5px 0; float: left; /\* IE5.2/Mac duzeltmek icin
-yazildi \*/ } [/css]
+top; padding: 0 5px 5px 0; float: left; /* IE5.2/Mac duzeltmek icin
+yazildi */ } [/css]
 
 son olarakta efekti vurgulamak için kenarlık tanımı yapalım.
 
-[css] .resimKapsulu img { background-color: \#fff; border: 1px solid
-\#a9a9a9; padding: 4px; } [/css]
+[css] .resimKapsulu img { background-color: #fff; border: 1px solid
+#a9a9a9; padding: 4px; } [/css]
 
 gif ve png ikileminden hoşlanmayanlar için bir yöntem daha var. IE5.5
 den sonraki versiyonların desteklediği
@@ -153,8 +153,8 @@ sizingMethod='crop'); background: none; } [/css]
 
 diğer web tarayıcılarında gizlemek için
 
-[css] \<!–[if gte ie 5.5000]\> \<link rel="stylesheet" type="text/css"
-href="ie55.css"/\> \<![endif]–\> [/css]
+[css] <!–[if gte ie 5.5000]> <link rel="stylesheet" type="text/css"
+href="ie55.css"/> <![endif]–> [/css]
 
 Böylece tüm yeni nesil web tarayıcılarında bu metodu sağlıklı bir
 şekilde kullanmış olduk.
@@ -181,9 +181,9 @@ katmanın sağ üst kısmına gölge kenarı vererek yapılır.
 </div>
 Temel html kodu:
 
-[html] \<div class="nesneKapsayici1"\> \<div class="nesneKapsayici2"\>
-\<div class="nesneKapsayici3"\> \<img src="images/dunya.jpg" width="300"
-height="300" alt="Dünya" /\> \</div\> \</div\> \</div\> [/html]
+[html] <div class="nesneKapsayici1"> <div class="nesneKapsayici2">
+<div class="nesneKapsayici3"> <img src="images/dunya.jpg" width="300"
+height="300" alt="Dünya" /> </div> </div> </div> [/html]
 
 İlk önce en dıştaki katmana gölge zemin resmini atayalım:
 
@@ -195,16 +195,16 @@ tarafa, diğerini alt sol tarafa zemin resmi olarak veriyoruz. Ayrıca tam
 resme göre gölge vermek için aşağıdaki gibi kodlama yapmalıyız:
 
 [css] .nesneKapsayici2 { background:url(images/altsol.gif) no-repeat
-left bottom; float: left; /\* IE5.2/Mac duzeltmek icin yazildi \*/ }
+left bottom; float: left; /* IE5.2/Mac duzeltmek icin yazildi */ }
 .nesneKapsayici3 { background:url(images/ustsag.gif) no-repeat top
-right; padding: 0 5px 5px 0; float: left; /\* IE5.2/Mac duzeltmek icin
-yazildi \*/ } [/css]
+right; padding: 0 5px 5px 0; float: left; /* IE5.2/Mac duzeltmek icin
+yazildi */ } [/css]
 
 ve son olarak ta güzel bir efekt olması için kenarlık ve padding
 tanımlarını yapıyoruz:
 
-[css] .nesneKapsayici1 img { background-color: \#fff; border: 1px solid
-\#a9a9a9; padding: 4px; display: block; } [/css]
+[css] .nesneKapsayici1 img { background-color: #fff; border: 1px solid
+#a9a9a9; padding: 4px; display: block; } [/css]
 
 Örnek çalışmayı görmek için [tıklayınız.][3]
 

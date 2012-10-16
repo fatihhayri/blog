@@ -24,7 +24,7 @@ adlandırılan bu teknik temel mantık olarak
 [javascript] document.createElement("section") [/javascript]
 
 ile HTML5 eleman desteği olmayan tarayıcılar için js yardımı ile eleman
-oluşturarak çözüyor. Birde **\<section\>** ve diğer blok-level etiketler
+oluşturarak çözüyor. Birde **<section>** ve diğer blok-level etiketler
 için **display: block** eklemesini yapıyor.
 
 Javascript’i pasif yapan kullanıcılar için bazı çekinceleri olan
@@ -35,14 +35,14 @@ Kullanımı çok basit. Internet Explorer 9 öncesi için [şartlı yorumlar][]
 ile kontrolü koyup diğer tarayıcılarda yüklenmesini engelleyerek daha
 mantıklı bir işlem yapıyoruz.
 
-[html] \<!--[if lt IE 9]\> \<script src="dist/html5shiv.js"\>
-\</script\> \<![endif]--\> [/html]
+[html] <!--[if lt IE 9]> <script src="dist/html5shiv.js">
+</script> <![endif]--> [/html]
 
 Ayrıca google hostunda da barındırılıyor bu kod
 
-[html] \<!--[if lt IE 9]\> \<script
-src="http://html5shim.googlecode.com/svn/trunk/html5.js"\>\</script\>
-\<![endif]--\> [/html]
+[html] <!--[if lt IE 9]> <script
+src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--> [/html]
 
 Bu şekilde daha hızlı bir erişim sağlanmış olur. Tabi büyük projelerin
 kendilerinde barındırmaları daha mantıklı.
@@ -57,7 +57,7 @@ desteği için [Modernizr][] incelemekte yarar var.
 -   [http://ejohn.org/blog/html5-doctype/][]
 -   [http://ejohn.org/blog/html5-shiv/][]
 -   [http://www.pcpro.co.uk/blogs/2011/03/07/making-html5-work-in-old-versions-of-internet-explorer/][]
--   [http://drupal.org/project/remysharp\_html5shim][]
+-   [http://drupal.org/project/remysharp_html5shim][]
 -   [http://debeterevormgever.nl/en/articles/html5-elements-ie-without-javascript][]
     (js siz çözüm.)
 -   [http://paulirish.com/2011/the-history-of-the-html5-shiv/][] (html5
@@ -76,7 +76,7 @@ desteği için [Modernizr][] incelemekte yarar var.
   [http://ejohn.org/blog/html5-shiv/]: http://ejohn.org/blog/html5-shiv/
   [http://www.pcpro.co.uk/blogs/2011/03/07/making-html5-work-in-old-versions-of-internet-explorer/]:
     http://www.pcpro.co.uk/blogs/2011/03/07/making-html5-work-in-old-versions-of-internet-explorer/
-  [http://drupal.org/project/remysharp\_html5shim]: http://drupal.org/project/remysharp_html5shim
+  [http://drupal.org/project/remysharp_html5shim]: http://drupal.org/project/remysharp_html5shim
   [http://debeterevormgever.nl/en/articles/html5-elements-ie-without-javascript]:
     http://debeterevormgever.nl/en/articles/html5-elements-ie-without-javascript
   [http://paulirish.com/2011/the-history-of-the-html5-shiv/]: http://paulirish.com/2011/the-history-of-the-html5-shiv/

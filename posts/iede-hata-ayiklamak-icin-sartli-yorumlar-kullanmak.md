@@ -15,16 +15,16 @@ Biz bunlardan şartlı Yorumların kullanımını öğreneceğiz. şartlı Yorum
 Internet Explorer 5 versiyonu ile birlikte kullanılmaya başlanmıştır.
 şartlı Yorumlar xhtml kodunun yorumlanıp yorumlanmayacağını belirler.
 
-[sourcecode language="html"] \<!--[if IE]\> Bu kod Interner Explorer 5
-ve üzeri versiyonlarda çalışır. \<![endif]--\> [/sourcecode]
+[sourcecode language="html"] <!--[if IE]> Bu kod Interner Explorer 5
+ve üzeri versiyonlarda çalışır. <![endif]--> [/sourcecode]
 
 Bu kodlama bizim bir çok hatayı ayıklamamız için biçilmiş kaftandır.
 Ayrıca şartlı komutlar bize versiyon farklılıklarına göre kod
 yazmamızıda sağlar
 
-[sourcecode language="css"] \<!--[if IE 6]\> \<style type='text/css'\>
-a:link, a:visited, a:active { text-decoration: none; } \</style\>
-\<![endif]--\> [/sourcecode]
+[sourcecode language="css"] <!--[if IE 6]> <style type='text/css'>
+a:link, a:visited, a:active { text-decoration: none; } </style>
+<![endif]--> [/sourcecode]
 
 Bu kod ile sadece IE 6 versiyonunda linklerin altının çizilmesini
 engellemiş oluyoruz.
@@ -33,9 +33,9 @@ Eğer bir kuralı yugulamka istiyor isek ve bu kuralı belli bir web
 tarayıcısından gizlemek istediğimiz durumlarda şartlı Komuta (!)
 operatörünü ekleyerek bunu sağlayabiliriz.
 
-[sourcecode language="html"] \<!--[if !IE 6]\> \<style type='text/css'\>
-a:link, a:visited, a:active { text-decoration: none; } \</style\>
-\<![endif]--\> [/sourcecode]
+[sourcecode language="html"] <!--[if !IE 6]> <style type='text/css'>
+a:link, a:visited, a:active { text-decoration: none; } </style>
+<![endif]--> [/sourcecode]
 
 Bu kod ile sadece IE6'da bu kodun uygulanmasını engelledik.
 
@@ -43,16 +43,16 @@ Bunun gibi başka işlevsel operatörlerde mevcuttur.
 
   Operatör   Açıklama                Örnek
   ---------- ----------------------- ------------------------
-  gt         - den büyük             \<!--[if IE gt 5.5]\>
-  gte        - den büyük veya eşit   \<!--[if IE gte 5.5]\>
-  lt         - den küçük             \<!--[if IE lt 5.5]\>
-  lte        - den küçük veya eşit   \<!--[if IE lte 5.5]\>
-  !          değilse                 \<!--[if !IE 5.5]\>
+  gt         - den büyük             <!--[if IE gt 5.5]>
+  gte        - den büyük veya eşit   <!--[if IE gte 5.5]>
+  lt         - den küçük             <!--[if IE lt 5.5]>
+  lte        - den küçük veya eşit   <!--[if IE lte 5.5]>
+  !          değilse                 <!--[if !IE 5.5]>
 
  
 
-[sourcecode language="html"] \<!--[if lt IE 6]\> \<style
-type="text/css"\> @import ("ie.css"); \</style\> \<![endif]–\>
+[sourcecode language="html"] <!--[if lt IE 6]> <style
+type="text/css"> @import ("ie.css"); </style> <![endif]–>
 [/sourcecode]
 
 Birçok hata ayıklama metodunda şartlı Komutlar kullanılabilir.

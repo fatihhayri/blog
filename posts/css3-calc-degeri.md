@@ -13,7 +13,7 @@ CSS değerleri listesine yeni ve fonsiyornel bir ekleme olacaktır
 sayesinde css özelliklerine atanan değerlerde hesaplama yapabileme
 imkanı sağlayacaktır.
 
-Toplama(+), çıkarma(-), çarpma(\*), bölme(/) ve modül(mod) kullanma
+Toplama(+), çıkarma(-), çarpma(*), bölme(/) ve modül(mod) kullanma
 imkanı sağlıyor.
 
 Daha önce yaşadığımız bir çok sorunun üstesinden bu değer sayesinde
@@ -22,8 +22,8 @@ geleceğiz.
 Genelde esnek yapılı alanlar ve sayfa düzeni oluştururken göreceli değer
 ve sabit margin, padding ve border tanımları ile sorun yaşarız.   
 
-[css] \#sagKolon{ width:calc(300px - 1em); width:-moz-calc(300px - 1em);
-float:left; background-color:\#CC9933; } [/css]
+[css] #sagKolon{ width:calc(300px - 1em); width:-moz-calc(300px - 1em);
+float:left; background-color:#CC9933; } [/css]
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/VaBqn/3/embedded/css,result,html"></iframe>
 
 Firefox önek(**-moz-**) ile bu değeri desteklerken İnternet Explorer
@@ -34,7 +34,7 @@ olacaktır.
 
 Birden fazla işlem içinde kullanıma izin vardır.  
 
-[css] div { width: calc(100% - 20px + 2px\*2); } [/css]
+[css] div { width: calc(100% - 20px + 2px*2); } [/css]
 
 İşlem sırası matematik ve javascriptten bildiğimiz gibi çarpma, bölme,
 mod, toplama , çıkarma sıralaması ile olur.  
@@ -64,8 +64,8 @@ webkit tabanlı tarayıcılarda calc() değerini destekliyor artık. 20 Şubat
 -   [http://caniuse.com/calc][] (destek listesi)
 -   [http://mynthon.net/howto/-/webdev/css3-testsuite-calc-property-for-calculating-size.txt][]
     (örnek)
--   [http://bloqk.com/makale/css\_calc\_kullanimi.html][]
--   [http://www.thecssninja.com/demo/css\_calc/][] (örnek)
+-   [http://bloqk.com/makale/css_calc_kullanimi.html][]
+-   [http://www.thecssninja.com/demo/css_calc/][] (örnek)
 -   [http://www.sitepoint.com/css3-calc-function][]
 
 </p>
@@ -77,6 +77,6 @@ webkit tabanlı tarayıcılarda calc() değerini destekliyor artık. 20 Şubat
   [http://caniuse.com/calc]: http://caniuse.com/calc
   [http://mynthon.net/howto/-/webdev/css3-testsuite-calc-property-for-calculating-size.txt]:
     http://mynthon.net/howto/-/webdev/css3-testsuite-calc-property-for-calculating-size.txt
-  [http://bloqk.com/makale/css\_calc\_kullanimi.html]: http://bloqk.com/makale/css_calc_kullanimi.html
-  [http://www.thecssninja.com/demo/css\_calc/]: http://www.thecssninja.com/demo/css_calc/
+  [http://bloqk.com/makale/css_calc_kullanimi.html]: http://bloqk.com/makale/css_calc_kullanimi.html
+  [http://www.thecssninja.com/demo/css_calc/]: http://www.thecssninja.com/demo/css_calc/
   [http://www.sitepoint.com/css3-calc-function]: http://www.sitepoint.com/css3-calc-function

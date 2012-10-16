@@ -23,8 +23,8 @@ alert("doğru"); } else{ alert("yanlış"); } } [/sourcecode]
 
 html kodu:
 
-[sourcecode language="html"] \<input name="tckimlikno" type="text"
-id="tckimlikno" onblur="tckimlikkontorolu(this);" maxlength="11" /\>
+[sourcecode language="html"] <input name="tckimlikno" type="text"
+id="tckimlikno" onblur="tckimlikkontorolu(this);" maxlength="11" />
 [/sourcecode]
 
 Ben bu kodu blur ile tetikledim siz bunu değiştirebilirsiniz. Çalışan

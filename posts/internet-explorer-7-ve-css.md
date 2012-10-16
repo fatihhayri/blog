@@ -16,8 +16,8 @@ Bu makale IE7 ile çözülen CSS hatalarına bir göz atacağız.
 Artık IE için ayrıca CSS kodlarımızı düzenlemeyeceğiz(Bir süre daha
 kodlayacağız tabi IE 7 yaygınlaşana kadar). Buna sevinmeliyiz. IE7 ile
 birlikte 200'e yakın CSS sorununu düzeltildiğini söylüyor Microsoft. Tüm
-bu düzeltmelerin [\<!DOCTYPE\> switch][]'da çalıştığını [Garip
-Mod][\<!DOCTYPE\> switch]'da ise IE6 gibi yorumlayacağını söylüyor ona
+bu düzeltmelerin [<!DOCTYPE> switch][]'da çalıştığını [Garip
+Mod][<!DOCTYPE> switch]'da ise IE6 gibi yorumlayacağını söylüyor ona
 göre.
 
 ### IE7 ile Düzelen Genel Sorunlar
@@ -99,11 +99,11 @@ padding-bottom: 1px; } [/sourcecode]
     (Bu sayede menu oluştururken IE için script yazmayacağız, tabi bunu
     için erken daha)
 -   **Background-attachment: fixed** tüm elementlerde çalışıyor
--   **\<?xml\>** ön tanımlamasını **[Garip Mod][\<!DOCTYPE\> switch]**
+-   **<?xml>** ön tanımlamasını **[Garip Mod][<!DOCTYPE> switch]**
     olarak algılamıyor artık
 -   **Overflow** şimdi çalışıyor(Bunun anlamı kutular artık otomatik
     büyümeyecek.)
--   Derleyici Hataları : \* html, \_property and /\*\*/ yorum hataları
+-   Derleyici Hataları : * html, _property and /**/ yorum hataları
     düzeltilmiş
 -   Mutlak Konumlandırılmış elelmnetlerde genişlik auto   
     left ve right değerlerindeki sorunlar giderilmiş
@@ -138,7 +138,7 @@ Tüm liste için [tıklayınız][13].
 
 </p>
 
-  [\<!DOCTYPE\> switch]: http://www.fatihhayrioglu.com/?p=164
+  [<!DOCTYPE> switch]: http://www.fatihhayrioglu.com/?p=164
   [tıklayınız]: http://www.positioniseverything.net/explorer/peekaboo.html
   [tıklayınız.]: http://www.positioniseverything.net/explorer/guillotine.html
   [1]: http://www.fatihhayrioglu.com/?p=232

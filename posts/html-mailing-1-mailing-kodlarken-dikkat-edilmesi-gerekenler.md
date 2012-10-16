@@ -67,7 +67,7 @@ ama Allah'tan genelde basit yapılara sahip oldukları için sorun olmuyor.
 Birçok mailng html çevrildikten sonra toplu olarak gönderim için çeşitli
 programlar kullanılır. Bu programların göndericiler için çeşitli
 kısıtlamaları vardır. Bunlardan bir tanesi, genelde hazırlana html
-kodunun sadece \<body\> etiketleri içerisindeki kodu eklememize izin
+kodunun sadece <body> etiketleri içerisindeki kodu eklememize izin
 vermesidir.
 
 Bu nedenle dışarıdan eklenen .css dosyaları mailinglerimize ekleyemeyiz.
@@ -75,8 +75,8 @@ Bunu destekleyen programlar var ise de benim çalıştığım birçok müşterid
 bu programlar yoktu. Bundan dolayıdır ki css kodlarımızı satıriçi
 yazmalıyız. Aşağıdaki örnekte görüldüğü gibi
 
-[html] \<p style="font-family:Arial; font-size:12px; color:\#999"\>Lorem
-ipsum dolor sit amet, consectetur adipiscing elit. \</p\> [/html]
+[html] <p style="font-family:Arial; font-size:12px; color:#999">Lorem
+ipsum dolor sit amet, consectetur adipiscing elit. </p> [/html]
 
 Tabi kodları yazarken yukarıdaki destek listelerini dikkate almalıyız.
 
@@ -92,19 +92,19 @@ bilgisayarına yükleyemeyeceğimiz için bunları kendi sitemiz üzerine
 yükleyip hazırladığımız mailing içeriğine bu resimleri kendi sitemiz
 üzerinde okutmalıyız. Örneğin
 
-[html] \<img src="http://www.firmaadi.com/mailings/images/ustalan.jpg"
-width="450" height="120" alt="Firma\_Adi" /\> [/html]
+[html] <img src="http://www.firmaadi.com/mailings/images/ustalan.jpg"
+width="450" height="120" alt="Firma_Adi" /> [/html]
 
 Web siteleri gibi hareket edemeyeceğimiz diğer bir konu ise bağlantıları
 yerel olarak vermeyeceğimiz konusudur. Bağlantılarımızıda yerel
 veremeyiz örneğin
 
-[html] \<a href="hakkimizda.html"\>Hakkımızda\</a\> [/html]
+[html] <a href="hakkimizda.html">Hakkımızda</a> [/html]
 
 Şeklinde bir bağlantı kırık bir bağlantı olacaktır. Bunun yerine
 
-[html] \<a
-href="http://www.firmaadi.com/hakkimizda.html"\>Hakkımızda\</a\> [/html]
+[html] <a
+href="http://www.firmaadi.com/hakkimizda.html">Hakkımızda</a> [/html]
 
 Şekline olmalıdır.
 
@@ -135,7 +135,7 @@ kullanışlı hale getirin.
 
 Mailing genişliği web sitesi genişlik standartlarında farklıdır. Mailing
 okuyucular olarak Outlook ve Thunderbird gibi araçların 3 kolonlu
-yapıları göz önüne alınarak tasarlamalıyız. 1024\*768px çözünürlüğe göre
+yapıları göz önüne alınarak tasarlamalıyız. 1024*768px çözünürlüğe göre
 mailingimizi tasarladığımızda 3 kolonlu bir yapıda mailing genişliğimiz
 750px veya daha düşük olacaktır. Tasarım yaparken bunu dikkate almak
 önemlidir.
@@ -161,8 +161,8 @@ Ayrıca birçok mailing programı flash desteklemez bu nedenle mailing
 kodlarımıza flash import edemeyiz.
 
 Bazı HTML etiketlerini kullanılması anlamsız ve sorun yaratabilir. Bu
-etiketleri sıralayalım; \<META\>, \<BASE\>, \<LINK\>, \<SCRIPT\>,
-\<FRAMESET\>, \<FRAME\>, \<IFRAME\> ve yorum kodu \<!-- yorum --\>
+etiketleri sıralayalım; <META>, <BASE>, <LINK>, <SCRIPT>,
+<FRAMESET>, <FRAME>, <IFRAME> ve yorum kodu <!-- yorum -->
 
 **Spam Mailden Kaçınmak için Yapmamız Gerekenler**
 
@@ -180,7 +180,7 @@ Kısaca spama yakalanmamak için dikkat etmemiz gerekenleri listeleyelim
     www.sirketadi.com/xxx şekliden adreslere gitmeli.
 -   Domaininiz karalistede mi değil mi kontrol edin. Çeşitli siteler var
     bu konuda tarama yapabileceğiniz.
-    [http://www.blacklistmonitoring.com/lookup/email\_blacklist\_IP\_address\_lookup.php][]
+    [http://www.blacklistmonitoring.com/lookup/email_blacklist_IP_address_lookup.php][]
 -   Mailiniz yüklenmemesi durumunda alternatif bir bağlantı oluşturun ve
     mailinizi altına ekleyin.
 -   Kullanıcıların listenizden çıkabilmelerin sağlayacak bir link
@@ -215,7 +215,7 @@ Kalın sağlıcakla.
 -   [http://thinkvitamin.com/features/design/ensuring-your-html-emails-look-great-and-get-delivered/][]
 -   [http://www.anandgraves.com/html-email-guide][] (iyi)  
 -   [http://www.email-standards.org/][] (iyi)  
--   [http://www.mailchimp.com/articles/email\_marketing\_guide/][] (iyi)
+-   [http://www.mailchimp.com/articles/email_marketing_guide/][] (iyi)
 -   [http://css-tricks.com/using-css-in-html-emails-the-real-story/][]
 -   [http://www.email-standards.org/clients/][]
 -   [http://www.campaignmonitor.com/css/][]
@@ -227,7 +227,7 @@ Kalın sağlıcakla.
   [tıklayınız.]: http://www.campaignmonitor.com/css/ "tıklayınız."
   [email-standards.org]: http://www.email-standards.org/clients/
     "email-standards.org"
-  [http://www.blacklistmonitoring.com/lookup/email\_blacklist\_IP\_address\_lookup.php]:
+  [http://www.blacklistmonitoring.com/lookup/email_blacklist_IP_address_lookup.php]:
     http://www.blacklistmonitoring.com/lookup/email_blacklist_IP_address_lookup.php
     "http://www.blacklistmonitoring.com/lookup/email_blacklist_IP_address_lookup.php"
   [http://www.viget.com/inspire/tips-for-coding-html-email/]: http://www.viget.com/inspire/tips-for-coding-html-email/
@@ -239,7 +239,7 @@ Kalın sağlıcakla.
     "http://www.anandgraves.com/html-email-guide"
   [http://www.email-standards.org/]: http://www.email-standards.org/
     "http://www.email-standards.org/"
-  [http://www.mailchimp.com/articles/email\_marketing\_guide/]: http://www.mailchimp.com/articles/email_marketing_guide/
+  [http://www.mailchimp.com/articles/email_marketing_guide/]: http://www.mailchimp.com/articles/email_marketing_guide/
     "http://www.mailchimp.com/articles/email_marketing_guide/"
   [http://css-tricks.com/using-css-in-html-emails-the-real-story/]: http://css-tricks.com/using-css-in-html-emails-the-real-story/
     "http://css-tricks.com/using-css-in-html-emails-the-real-story/"

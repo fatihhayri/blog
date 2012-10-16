@@ -21,16 +21,16 @@ stilini değiştirme imkanı sunar, böylece kullanıcıya sen burayı daha
 ziyaret edilmiş bağlantılara kendileri standart bir stil atarlar. Mesela
 Firefox altını çizili ve mor renkli yapıyor.
 
-![stadart\_ff][]
+![stadart_ff][]
 
 Tarayıcılar bize bu ayrımı gösterir, tabi biz bağlantı tanımları
 değiştirmediğimiz müddetçe. Biz bağlantıya genel tanım yaptığımızda bu
 özellik bir bakıma göz ardı edilecektir. Bir çok projede bu tanımlamayı
 yazpıyoruz.
 
-[sourcecode language="css"] a{color:\#f00;} [/sourcecode]
+[sourcecode language="css"] a{color:#f00;} [/sourcecode]
 
-![genel\_bag\_renk][]
+![genel_bag_renk][]
 
 Yukarıdaki tanımlama tüm bağlantı tipleri için genel bir tanımdır ve
 ziyaret edilmiş sayfa stilinide belirler.
@@ -41,7 +41,7 @@ ayrımı göstermek. Bir çok yerde  yazı üstünü çizerek belirlenir.
 [sourcecode language="css"] a:visited { text-decoration: line-through; }
 [/sourcecode]
 
-![ziy\_sayfa\_uzeri\_ciz][]
+![ziy_sayfa_uzeri_ciz][]
 
 Örneği görmek için [tıklayınız.][]
 
@@ -50,10 +50,10 @@ sağlamış oluyoruz. [http://www.evalotta.net/][] sitesi buna çok güzel
 bir örnek.
 
 [sourcecode language="css"] a:visited { padding-right:20px;
-background:url(images/ziyaret\_edilmis\_baglanti.gif) right top
-no-repeat; color:\#666; text-decoration:none; } [/sourcecode]
+background:url(images/ziyaret_edilmis_baglanti.gif) right top
+no-repeat; color:#666; text-decoration:none; } [/sourcecode]
 
-![ziy\_sayfa\_oki][]
+![ziy_sayfa_oki][]
 
 Örneği görmek için [tıklayınız.][1]
 
@@ -66,10 +66,10 @@ Kaynak
 ------
 
 -   [http://9lessons.blogspot.com/2009/06/css-visited-tips-strike-out.html][]
--   [http://webdesign.maratz.com/lab/visited\_links\_styling/][]
--   [http://www.webmonkey.com/tutorial/Control\_Visited\_Link\_Colors\_With\_CSS][]
+-   [http://webdesign.maratz.com/lab/visited_links_styling/][]
+-   [http://www.webmonkey.com/tutorial/Control_Visited_Link_Colors_With_CSS][]
 -   [http://css-tricks.com/put-checkmarks-next-to-visted-links-with-pure-css/][]
--   [http://www.westciv.com/style\_master/house/tutorials/quick/visited\_links/index.html][]
+-   [http://www.westciv.com/style_master/house/tutorials/quick/visited_links/index.html][]
 -   [http://onemarco.com/2007/06/06/better-visited-links/][]
 -   [http://www.sitepoint.com/blogs/2004/05/23/getting-creative-with-visited-links/][]
 -   [http://www.useit.com/alertbox/20040510.html][]
@@ -80,28 +80,28 @@ Kaynak
     "Sözde sınıf ve elementler kısmında"
   [http://www.evalotta.net/]: http://www.evalotta.net/
     "http://www.evalotta.net/"
-  [stadart\_ff]: http://www.fatihhayrioglu.com/wp-content/stadart_ff.gif
+  [stadart_ff]: http://www.fatihhayrioglu.com/wp-content/stadart_ff.gif
     "stadart_ff"
-  [genel\_bag\_renk]: http://www.fatihhayrioglu.com/wp-content/genel_bag_renk.gif
+  [genel_bag_renk]: http://www.fatihhayrioglu.com/wp-content/genel_bag_renk.gif
     "genel_bag_renk"
-  [ziy\_sayfa\_uzeri\_ciz]: http://www.fatihhayrioglu.com/wp-content/ziy_sayfa_uzeri_ciz.gif
+  [ziy_sayfa_uzeri_ciz]: http://www.fatihhayrioglu.com/wp-content/ziy_sayfa_uzeri_ciz.gif
     "ziy_sayfa_uzeri_ciz"
   [tıklayınız.]: /dokumanlar/ziyaret_edilmis_baglantilar.html
-  [ziy\_sayfa\_oki]: http://www.fatihhayrioglu.com/wp-content/ziy_sayfa_oki.gif
+  [ziy_sayfa_oki]: http://www.fatihhayrioglu.com/wp-content/ziy_sayfa_oki.gif
     "ziy_sayfa_oki"
   [1]: /dokumanlar/ziyaret_edilmis_baglantilar2.html
   [http://9lessons.blogspot.com/2009/06/css-visited-tips-strike-out.html]:
     http://9lessons.blogspot.com/2009/06/css-visited-tips-strike-out.html
     "http://9lessons.blogspot.com/2009/06/css-visited-tips-strike-out.html"
-  [http://webdesign.maratz.com/lab/visited\_links\_styling/]: http://webdesign.maratz.com/lab/visited_links_styling/
+  [http://webdesign.maratz.com/lab/visited_links_styling/]: http://webdesign.maratz.com/lab/visited_links_styling/
     "http://webdesign.maratz.com/lab/visited_links_styling/"
-  [http://www.webmonkey.com/tutorial/Control\_Visited\_Link\_Colors\_With\_CSS]:
+  [http://www.webmonkey.com/tutorial/Control_Visited_Link_Colors_With_CSS]:
     http://www.webmonkey.com/tutorial/Control_Visited_Link_Colors_With_CSS
     "http://www.webmonkey.com/tutorial/Control_Visited_Link_Colors_With_CSS"
   [http://css-tricks.com/put-checkmarks-next-to-visted-links-with-pure-css/]:
     http://css-tricks.com/put-checkmarks-next-to-visted-links-with-pure-css/
     "http://css-tricks.com/put-checkmarks-next-to-visted-links-with-pure-css/"
-  [http://www.westciv.com/style\_master/house/tutorials/quick/visited\_links/index.html]:
+  [http://www.westciv.com/style_master/house/tutorials/quick/visited_links/index.html]:
     http://www.westciv.com/style_master/house/tutorials/quick/visited_links/index.html
     "http://www.westciv.com/style_master/house/tutorials/quick/visited_links/index.html"
   [http://onemarco.com/2007/06/06/better-visited-links/]: http://onemarco.com/2007/06/06/better-visited-links/

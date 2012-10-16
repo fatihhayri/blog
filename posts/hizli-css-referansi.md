@@ -26,8 +26,8 @@ Sırası ile aşağıdaki özelliklere değinilecektir.
 Burada standart bir özellik tanımı kullanılacaktır.
 
 <div class="cssozelliktanimi">
-**Yapısı :** özellik\_ismi: \<deger\>  
-**Aldığı Değerler :** alınan\_deger1 | alınan\_deger2 {1,4}\*   
+**Yapısı :** özellik_ismi: <deger>  
+**Aldığı Değerler :** alınan_deger1 | alınan_deger2 {1,4}*   
 **Başlangıç değeri:** Özelliğin atama yapılmadığı zaman ki değeri   
 **Uygulanabilen elementler:** özelliğin uygulanacağı elementlerin
 isimleri   
@@ -35,7 +35,7 @@ isimleri
 çocuk ve torun elementlerini) etkileyip etkilemeyeceği
 
 </div>
-\* Bu işaretin anlamı bu özelliğin 1'den 4'e kadar değer alabileceğini
+* Bu işaretin anlamı bu özelliğin 1'den 4'e kadar değer alabileceğini
 gösterir. Örneğin:
 
 [sourcecode language="css"] p.deneme { border-style: solid dashed dotted
@@ -65,7 +65,7 @@ Zemin özelliklerini tek tek incelersek:
 
 Elementlerin zeminine bir renk atamak için kullanılır.
 
-**Yapısı :** background-color: \<deger\>  
+**Yapısı :** background-color: <deger>  
 **Aldığı Değerler :** [renk][] | transparent  
 **Başlangıç değeri:** transparent  
 **Uygulanabilen elementler:** tüm elementler  
@@ -73,7 +73,7 @@ Elementlerin zeminine bir renk atamak için kullanılır.
 
 **Örnek:**
 
-[sourcecode language="css"] p { background-color: \#ddd; } [/sourcecode]
+[sourcecode language="css"] p { background-color: #ddd; } [/sourcecode]
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
@@ -84,7 +84,7 @@ W3C's CSS Level 1+
 
 Elementlerin zeminine resim eklemek için kullanılır.
 
-**Yapısı :** background-image: \<deger\>  
+**Yapısı :** background-image: <deger>  
 **Aldığı Değerler :** [url][renk] | none   
 **Başlangıç değeri:** none   
 **Uygulanabilen elementler:** tüm elementler  
@@ -105,7 +105,7 @@ W3C's CSS Level 1+
 **background-repeat** özelliği **background-image** ile zemine eklenen
 resmin tekrarı ile özellikleri belirler.
 
-**Yapısı :** background-image: \<deger\>  
+**Yapısı :** background-image: <deger>  
 **Aldığı Değerler :** repeat | repeat-x | repeat-y | no-repeat   
 **Başlangıç değeri:** repeat   
 **Uygulanabilen elementler:** tüm elementler  
@@ -126,7 +126,7 @@ W3C's CSS Level 1+
 **background-attachment** özelliği zemine eklenen resmin sayfa ile
 scroll etmesini veya sayfanın zeminin de çakılı kalmasını sağlar.
 
-**Yapısı :** background-attachment: \<deger\>  
+**Yapısı :** background-attachment: <deger>  
 **Aldığı Değerler :** scroll | fixed   
 **Başlangıç değeri:** scroll   
 **Uygulanabilen elementler:** tüm elementler  
@@ -150,8 +150,8 @@ ve replaced(Bu elementler kendine özgü boyutları olan elementler olarak
 tanımlanabilir. Örn: **IMG**, **INPUT**, **TEXTAREA**, **SELECT**, ve
 **OBJECT**) elementlere uygulanır.
 
-**Yapısı :** background-position: \<deger\>  
-**Aldığı Değerler :** [[\<percentage\>][renk] | [\<length\>][renk]]{1,2}
+**Yapısı :** background-position: <deger>  
+**Aldığı Değerler :** [[<percentage>][renk] | [<length>][renk]]{1,2}
 | [top | center | bottom] || [left | center | right]  
 **Başlangıç değeri:** 0% 0%   
 **Uygulanabilen elementler:** [Block-level ve replaced
@@ -203,10 +203,10 @@ W3C's CSS Level 1+
 Bu özellik Zemin(background) ile ilgili tüm özelliklerin bir arada
 kullanımı sağlar.
 
-**Yapısı :** background: \<deger\>  
-**Aldığı Değerler :** <background-color>\<background-color\> ||
-\<background-image\> || \<background-repeat\> ||
-\<background-attachment\> || \<background-position\>   
+**Yapısı :** background: <deger>  
+**Aldığı Değerler :** <background-color><background-color> ||
+<background-image> || <background-repeat> ||
+<background-attachment> || <background-position>   
 **Başlangıç değeri:** Tanımsız   
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
@@ -214,8 +214,8 @@ kullanımı sağlar.
 **Örnek:**
 
 [sourcecode language="css"] body{ background: white url(deneme.gif) }
-blockquote { background: \#f00 } p { background:
-url(../images/deneme.png) \#f00 fixed } table{ background: \#0c0
+blockquote { background: #f00 } p { background:
+url(../images/deneme.png) #f00 fixed } table{ background: #0c0
 url(deneme.jpg) no-repeat bottom right } [/sourcecode]
 
 <div class="tarayiciuyum">

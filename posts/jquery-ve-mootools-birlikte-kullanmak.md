@@ -6,7 +6,7 @@ Tags: Javascript, jquery, mootools
 Ben genellikle jQuery ile çalışıyorum, ama bazen diğer javascript
 kütüphaneleride kullanmak gerekiyor. Bende yeni projemde mootools'un
 multibox lightbox kolonunu kullandım. Tabi jquery ve mootools ile
-birlikte kullanmamdan dolayı hata vermeye başladı. Çözüm çok basit \$
+birlikte kullanmamdan dolayı hata vermeye başladı. Çözüm çok basit $
 işareti yerine jQuery yazmak yeterli. [sourcecode
-language='javascript']\$.ajax[/sourcecode] yerine [sourcecode
+language='javascript']$.ajax[/sourcecode] yerine [sourcecode
 language='javascript']jQuery.ajax[/sourcecode]

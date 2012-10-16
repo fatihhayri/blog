@@ -20,11 +20,11 @@ gerektiğinde aynı elemana .bolumA, .bolumB, vd. gibi sınıflar atadım.
 Bir bölümü olmayan sayfalarda ana resmimi görünecek bölümü olan
 sayfalarda ise ilgili resim görünecekti. 
 
-[sourcecode language="css"] \#tanitimAlani{ background:transparent
+[sourcecode language="css"] #tanitimAlani{ background:transparent
 url(../images/genel.jpg) no-repeat scroll center top; text-align:center;
-width:100%; } \#tanitimAlani.bolumA { background:transparent
+width:100%; } #tanitimAlani.bolumA { background:transparent
 url(../images/bolumA.jpg) no-repeat scroll center top; }
-\#tanitimAlani.bolumB { background:transparent url(../images/bolumB.jpg)
+#tanitimAlani.bolumB { background:transparent url(../images/bolumB.jpg)
 no-repeat scroll center top; } [/sourcecode]
 
 Tanımı ile yapıyordum. Bu düşüncem tüm tarayıcılarda sorunsuz çalışırken
@@ -37,7 +37,7 @@ id ile atadığım genel ardalan resmi tanımı kaldırıp genel içinde bir
 sınıf(.bolumGenel) tanımladım ve bu sorunu aştım. Yani kodumu şöyle
 değiştirdim.
 
-[sourcecode language="css"] \#tanitimalani{ text-align:center;
+[sourcecode language="css"] #tanitimalani{ text-align:center;
 width:100%; } .bolumA { background:transparent url(../images/bolumA.jpg)
 no-repeat scroll center top; } .bolumB { background:transparent
 url(../images/bolumB.jpg) no-repeat scroll center top; } .bolumGenel {
@@ -46,7 +46,7 @@ top; } [/sourcecode]
 
 hribar.info'nun yaptığı örnek güzel inceleyin.
 
-[http://hribar.info/static/projects/multi-class\_ie6\_bug/error.html][]
+[http://hribar.info/static/projects/multi-class_ie6_bug/error.html][]
 
 ###  Kaynaklar
 
@@ -58,7 +58,7 @@ hribar.info'nun yaptığı örnek güzel inceleyin.
 
 </p>
 
-  [http://hribar.info/static/projects/multi-class\_ie6\_bug/error.html]:
+  [http://hribar.info/static/projects/multi-class_ie6_bug/error.html]:
     http://hribar.info/static/projects/multi-class_ie6_bug/error.html
   [http://paulirish.com/2008/the-two-css-selector-bugs-in-ie6/]: http://paulirish.com/2008/the-two-css-selector-bugs-in-ie6/
     "http://paulirish.com/2008/the-two-css-selector-bugs-in-ie6/"

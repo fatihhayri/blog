@@ -23,9 +23,9 @@ birleştirerek HTTP istek sayısını azaltabiliriz. [sourcecode
 language='html']
 <link rel="stylesheet" href="/style/iskelet.css" type="text/css"></link>
 [/sourcecode] gibi iskelet.css içeriğinin yapısı ise aşağıdaki gibi
-olacaktır. [sourcecode language='css'] /\* all media \*/ @media all {
-body { color:\#666; font:13px arial, helvetica, sans-serif; padding:20px
-0 30px 0; } } @media print { body { color:\#000; font:12px arial,
+olacaktır. [sourcecode language='css'] /* all media */ @media all {
+body { color:#666; font:13px arial, helvetica, sans-serif; padding:20px
+0 30px 0; } } @media print { body { color:#000; font:12px arial,
 helvetica, sans-serif; padding:0; } } [/sourcecode] şeklinde yaparak css
 dosyalarımızı tek dosya içerisinde toplayabiliriz. Daha fazla sayıda css
 dosyası kullanmamız durumunda ise sunucu veya istemci taraflı kod
@@ -36,7 +36,7 @@ aşağıda veriyorum.
 ### Kaynak
 
 -   [http://davidwalsh.name/combine-css-media-styles-file][]   
--   [http://developer.yahoo.com/performance/rules.html\#num\_http][]  
+-   [http://developer.yahoo.com/performance/rules.html#num_http][]  
 -   [http://www.vulgarisoip.com/2007/06/21/minify-your-external-javascript-and-css-with-php/][]  
 -   [http://www.websiteoptimization.com/speed/tweak/http/][]  
 -   [http://www.javascriptkit.com/javatutors/loadjavascriptcss.shtml][]  
@@ -52,7 +52,7 @@ aşağıda veriyorum.
     "optimizedenonce"
   [http://davidwalsh.name/combine-css-media-styles-file]: http://davidwalsh.name/combine-css-media-styles-file
     "http://davidwalsh.name/combine-css-media-styles-file"
-  [http://developer.yahoo.com/performance/rules.html\#num\_http]: http://developer.yahoo.com/performance/rules.html#num_http
+  [http://developer.yahoo.com/performance/rules.html#num_http]: http://developer.yahoo.com/performance/rules.html#num_http
     "http://developer.yahoo.com/performance/rules.html#num_http"
   [http://www.vulgarisoip.com/2007/06/21/minify-your-external-javascript-and-css-with-php/]:
     http://www.vulgarisoip.com/2007/06/21/minify-your-external-javascript-and-css-with-php/

@@ -17,8 +17,8 @@ box-shadow yapısını inceleyelim.
  
 
 <div class="cssozelliktanimi">
-**Yapısı :** box-shadow: \<deger\>, \<deger\>  
-**Aldığı Değerler :** none | \<gölge\> [ , \<gölge\> ]\*   
+**Yapısı :** box-shadow: <deger>, <deger>  
+**Aldığı Değerler :** none | <gölge> [ , <gölge> ]*   
 **Başlangıç değeri:**tanımlama yok   
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:**Yok
@@ -27,7 +27,7 @@ box-shadow yapısını inceleyelim.
 Temel kullanımı.
 
 [sourcecode language="css"] .golgeliKutu { box-shadow: 3px 3px 4px
-\#000; } [/sourcecode]
+#000; } [/sourcecode]
 
 Değerler metinlere gölge verme(text-shadow) özelliği ile aynı anlamı
 taşır.
@@ -44,14 +44,14 @@ mesafesini gösterir.
 kullanılır. Bulanık yatay ve dikey için verilen değerler göre şekil
 alır.
 
-**\#000;** renk değeri. Gölgenin renk değerini gösterir.
+**#000;** renk değeri. Gölgenin renk değerini gösterir.
 
 Farklı tarayıcılar için ön ek kullanılarak çözüm üretilir. -moz Firefox
 için, -webkit Safari ve Google Chrome için.
 
 [sourcecode language="css"] .golgeliKutu { box-shadow: 3px 3px 4px
-\#000; -moz-box-shadow: 3px 3px 4px \#000; -webkit-box-shadow: 3px 3px
-4px \#000; } [/sourcecode]
+#000; -moz-box-shadow: 3px 3px 4px #000; -webkit-box-shadow: 3px 3px
+4px #000; } [/sourcecode]
 
 <div class="tarayiciuyum">
 **Tarayıcı Uyumu:**  
@@ -67,25 +67,25 @@ CSS Profile 3.0
 Örnek bir kutu görmek için bir kaç tanım daha ekleyelim.
 
 .golgeliKutu {  
-box-shadow: 3px 3px 4px \#000;  
--moz-box-shadow: 3px 3px 4px \#000;  
--webkit-box-shadow: 3px 3px 4px \#000;  
+box-shadow: 3px 3px 4px #000;  
+-moz-box-shadow: 3px 3px 4px #000;  
+-webkit-box-shadow: 3px 3px 4px #000;  
 width:250px;  
 padding:5px;  
 font:12px Arial, Helvetica, sans-serif;  
-background:\#CCC  
+background:#CCC  
 }
 
 HTML kodu
 
-[sourcecode language="html"]\<div class="golgeliKutu"\> Lorem ipsum
+[sourcecode language="html"]<div class="golgeliKutu"> Lorem ipsum
 dolor sit amet, consectetur adipiscing elit. Vestibulum ullamcorper
 commodo fermentum. Proin eu sollicitudin neque. Sed enim tellus,
 condimentum sed interdum vitae, mattis et nisl. Sed nec nisl est,
 sagittis lobortis eros. Integer pharetra turpis eu est eleifend
 faucibus. Phasellus pulvinar massa sagittis nisl posuere at rhoncus
 velit blandit. Suspendisse potenti. Lorem ipsum dolor sit amet,
-consectetur adipiscing elit. \</div\> [/sourcecode]
+consectetur adipiscing elit. </div> [/sourcecode]
 
 ![Gölgeli Kutu][]
 
@@ -108,7 +108,7 @@ ile ayrılır.
 0.4em gold, -0.5em 0.5em 0.4em lime, -0.5em -0.5em 0.4em blue;
 -webkit-box-shadow: 0.5em -0.5em 0.4em red, 0.5em 0.5em 0.4em gold,
 -0.5em 0.5em 0.4em lime, -0.5em -0.5em 0.4em blue; width:250px;
-padding:5px; font:12px Arial, Helvetica, sans-serif; background:\#CCC }
+padding:5px; font:12px Arial, Helvetica, sans-serif; background:#CCC }
 [/sourcecode]
 
 ![Çoklu Gölgeli Kutu][]
@@ -142,23 +142,23 @@ keskin gölgeler görürüz. X ve Y değerleri ile açı verebiliriz. Shadow
 filtresi daha gerçekçi çözümler üretir ancak shadow filtresinde de x ve
 y tanımlarını yapmamıza izin vermez.
 
-[sourcecode language="css"] /\* For IE 8 \*/ -ms-filter:
+[sourcecode language="css"] /* For IE 8 */ -ms-filter:
 "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135,
-Color='\#000000')"; /\* For IE 5.5 - 7 \*/ filter:
+Color='#000000')"; /* For IE 5.5 - 7 */ filter:
 progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135,
-Color='\#000000'); [/sourcecode]
+Color='#000000'); [/sourcecode]
 
 İE8 için farklı diğer ie'ler için farklı kodlar yazıyoruz. Bu kodu
 yukarıdaki kod ile birleştirirsek
 
 [sourcecode language="css"] .golgeliKutu { width:250px; font:12px Arial,
-Helvetica, sans-serif; background:\#CCC; padding:5px; -moz-box-shadow:
-3px 3px 4px \#000; -webkit-box-shadow: 3px 3px 4px \#000; box-shadow:
-3px 3px 4px \#000; /\* For IE 8 \*/ -ms-filter:
+Helvetica, sans-serif; background:#CCC; padding:5px; -moz-box-shadow:
+3px 3px 4px #000; -webkit-box-shadow: 3px 3px 4px #000; box-shadow:
+3px 3px 4px #000; /* For IE 8 */ -ms-filter:
 "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135,
-Color='\#000000')"; /\* For IE 5.5 - 7 \*/ filter:
+Color='#000000')"; /* For IE 5.5 - 7 */ filter:
 progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135,
-Color='\#000000'); } [/sourcecode]
+Color='#000000'); } [/sourcecode]
 
 ![ie gölgeli kutu][]
 
@@ -169,7 +169,7 @@ kullanılabilir.
 
 ### Kaynaklar
 
--   [http://www.w3.org/TR/css3-background/\#box-shadow][]
+-   [http://www.w3.org/TR/css3-background/#box-shadow][]
 -   [http://robertnyman.com/2010/03/16/drop-shadow-with-css-for-all-web-browsers/][]
 -   [http://www.ruzee.com/blog/shadedborder][] (javascript)
 -   [http://dimox.net/cross-browser-css3-box-shadow/][]
@@ -182,7 +182,7 @@ kullanılabilir.
     üretici)
 -   [http://css-tricks.com/snippets/css/css-box-shadow/][]
 -   [http://markusstange.wordpress.com/2009/02/15/fun-with-box-shadows/][]
--   [http://www.elektronotdienst-nuernberg.de/bugs/box-shadow\_inset.html][]
+-   [http://www.elektronotdienst-nuernberg.de/bugs/box-shadow_inset.html][]
 -   [http://davidwalsh.name/css-box-shadow][]
 
 ### Yazı Sonrası Linkler
@@ -199,7 +199,7 @@ kullanılabilir.
   [2]: http://fatihhayrioglu.com/dokumanlar/box_shadow/golgeli_kutu_icegolge.html
   [ie gölgeli kutu]: http://fatihhayrioglu.com/dokumanlar/box_shadow/box_shadow_ie.gif
   [3]: http://fatihhayrioglu.com/dokumanlar/box_shadow/golgeli_kutu_ie.html
-  [http://www.w3.org/TR/css3-background/\#box-shadow]: http://www.w3.org/TR/css3-background/#box-shadow
+  [http://www.w3.org/TR/css3-background/#box-shadow]: http://www.w3.org/TR/css3-background/#box-shadow
   [http://robertnyman.com/2010/03/16/drop-shadow-with-css-for-all-web-browsers/]:
     http://robertnyman.com/2010/03/16/drop-shadow-with-css-for-all-web-browsers/
   [http://www.ruzee.com/blog/shadedborder]: http://www.ruzee.com/blog/shadedborder
@@ -213,7 +213,7 @@ kullanılabilir.
   [http://www.westciv.com/tools/boxshadows/index.html]: http://www.westciv.com/tools/boxshadows/index.html
   [http://css-tricks.com/snippets/css/css-box-shadow/]: http://css-tricks.com/snippets/css/css-box-shadow/
   [http://markusstange.wordpress.com/2009/02/15/fun-with-box-shadows/]: http://markusstange.wordpress.com/2009/02/15/fun-with-box-shadows/
-  [http://www.elektronotdienst-nuernberg.de/bugs/box-shadow\_inset.html]:
+  [http://www.elektronotdienst-nuernberg.de/bugs/box-shadow_inset.html]:
     http://www.elektronotdienst-nuernberg.de/bugs/box-shadow_inset.html
   [http://davidwalsh.name/css-box-shadow]: http://davidwalsh.name/css-box-shadow
   [http://blog.w3conversions.com/2011/09/css3-spread-value-and-box-shadow-on-one-side-only/]:

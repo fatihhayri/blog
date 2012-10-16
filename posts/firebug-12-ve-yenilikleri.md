@@ -36,7 +36,7 @@ John Resig'in söylediğine göre görünüşte o kadar önemli olmasada bu
 sürümün en önemli özelliği olarak gösteriyor.  
   
 Bu özelliğin bize ne gibi avantajı var derseniz.
-[https://wiki.mozilla.org/User:Rcampbell/Firebug\_performance][] bu
+[https://wiki.mozilla.org/User:Rcampbell/Firebug_performance][] bu
 çalışmaya göz atmanızı öneririm. Her pencerede FireBug Javascript
 panelinin açık olması performansı ciddi mana da etkiliyor. Bu nedenle
 böyle özellik ekleyerek FireBug'ın bir handikapınıda gidermişler.  
@@ -103,13 +103,13 @@ Bu arada FireBug 1.3 çalışmalarına başlanmış bile.
 ###### Kaynaklar
 
 -   [http://ejohn.org/blog/firebug-12-released/][]
--   [http://code.google.com/p/fbug/source/browse/branches/firebug1.2/docs/ReleaseNotes\_1.2.txt][]
+-   [http://code.google.com/p/fbug/source/browse/branches/firebug1.2/docs/ReleaseNotes_1.2.txt][]
 -   [https://addons.mozilla.org/en-US/firefox/addon/1843][]
 -   [http://www.railsjedi.com/posts/24-Firebug-1-2-Excitement][]
     açılmıyorsa
     [http://64.233.183.104/search?q=cache:nJW1FmPsOkUJ:www.railsjedi.com/posts/24-Firebug-1-2-Excitement+Firebug+1+2+Excitement&hl=en&ct=clnk&cd=1&client=firefox-a][]
 -   [http://ajaxian.com/archives/firebug-12-beta-for-firefox-3-rc-1][]
--   [http://blog.mozilla.com/about\_mozilla/2008/08/25/firebug-12-released/][]
+-   [http://blog.mozilla.com/about_mozilla/2008/08/25/firebug-12-released/][]
 -   [http://www.ajaxonomy.com/2008/javascript/firebug-12-released][]
 -   [http://ajaxian.com/archives/firebug-12-the-final-release-is-out-there][]
 -   [http://ostatic.com/171732-blog/firebug-group-releases-1-2][]
@@ -120,7 +120,7 @@ Bu arada FireBug 1.3 çalışmalarına başlanmış bile.
   []: http://www.fatihhayrioglu.com/wp-content/firebug_12.jpg "FireBug"
   [![][]]: http://www.fatihhayrioglu.com/wp-content/firebug_12.jpg
   [FireBug'ın genel özelliklerinden]: http://www.fatihhayrioglu.com/?p=564
-  [https://wiki.mozilla.org/User:Rcampbell/Firebug\_performance]: https://wiki.mozilla.org/User:Rcampbell/Firebug_performance
+  [https://wiki.mozilla.org/User:Rcampbell/Firebug_performance]: https://wiki.mozilla.org/User:Rcampbell/Firebug_performance
   [FireBug ikonu]: /images/firebug_ikon.gif
   [Fare üzerine gelince]: /images/firebug_uzer_gel.gif
   [Site]: /images/site.gif
@@ -130,7 +130,7 @@ Bu arada FireBug 1.3 çalışmalarına başlanmış bile.
   [https://addons.mozilla.org/en-US/firefox/addon/7575]: https://addons.mozilla.org/en-US/firefox/addon/7575
   [Renklendirme Sonrası]: /images/renklendir.gif
   [http://ejohn.org/blog/firebug-12-released/]: http://ejohn.org/blog/firebug-12-released/
-  [http://code.google.com/p/fbug/source/browse/branches/firebug1.2/docs/ReleaseNotes\_1.2.txt]:
+  [http://code.google.com/p/fbug/source/browse/branches/firebug1.2/docs/ReleaseNotes_1.2.txt]:
     http://code.google.com/p/fbug/source/browse/branches/firebug1.2/docs/ReleaseNotes_1.2.txt
     "http://code.google.com/p/fbug/source/browse/branches/firebug1.2/docs/ReleaseNotes_1.2.txt"
   [https://addons.mozilla.org/en-US/firefox/addon/1843]: https://addons.mozilla.org/en-US/firefox/addon/1843
@@ -138,7 +138,7 @@ Bu arada FireBug 1.3 çalışmalarına başlanmış bile.
   [http://64.233.183.104/search?q=cache:nJW1FmPsOkUJ:www.railsjedi.com/posts/24-Firebug-1-2-Excitement+Firebug+1+2+Excitement&hl=en&ct=clnk&cd=1&client=firefox-a]:
     http://64.233.183.104/search?q=cache:nJW1FmPsOkUJ:www.railsjedi.com/posts/24-Firebug-1-2-Excitement+Firebug+1+2+Excitement&hl=en&ct=clnk&cd=1&client=firefox-a
   [http://ajaxian.com/archives/firebug-12-beta-for-firefox-3-rc-1]: http://ajaxian.com/archives/firebug-12-beta-for-firefox-3-rc-1
-  [http://blog.mozilla.com/about\_mozilla/2008/08/25/firebug-12-released/]:
+  [http://blog.mozilla.com/about_mozilla/2008/08/25/firebug-12-released/]:
     http://blog.mozilla.com/about_mozilla/2008/08/25/firebug-12-released/
   [http://www.ajaxonomy.com/2008/javascript/firebug-12-released]: http://www.ajaxonomy.com/2008/javascript/firebug-12-released
   [http://ajaxian.com/archives/firebug-12-the-final-release-is-out-there]:

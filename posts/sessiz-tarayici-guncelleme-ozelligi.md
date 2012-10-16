@@ -39,7 +39,7 @@ yeniliklerini kullanmak için ayıracağız.
 
 -   [http://robertnyman.com/2011/04/14/web-browser-versions-are-dead-automatic-updates-is-the-future/][]
 -   [http://lea.verou.me/2009/02/silent-automatic-updates-are-the-way-to-go/][]
--   [http://www.sitepoint.com/microsoft-adds-ie-auto-update/\#fbid=qIRziNGN-f6][]
+-   [http://www.sitepoint.com/microsoft-adds-ie-auto-update/#fbid=qIRziNGN-f6][]
 -   [http://venturebeat.com/2012/04/24/firefox-12/][]
 -   [http://www.teknoblog.com/internet/internet-explorera-getirilen-otomatik-guncelleme-ozelligi-ie9un-kullanimini-artiriyor.html?][]
 -   [http://davidwalsh.name/silent-browser-upgrades][]
@@ -50,7 +50,7 @@ yeniliklerini kullanmak için ayıracağız.
     http://robertnyman.com/2011/04/14/web-browser-versions-are-dead-automatic-updates-is-the-future/
   [http://lea.verou.me/2009/02/silent-automatic-updates-are-the-way-to-go/]:
     http://lea.verou.me/2009/02/silent-automatic-updates-are-the-way-to-go/
-  [http://www.sitepoint.com/microsoft-adds-ie-auto-update/\#fbid=qIRziNGN-f6]:
+  [http://www.sitepoint.com/microsoft-adds-ie-auto-update/#fbid=qIRziNGN-f6]:
     http://www.sitepoint.com/microsoft-adds-ie-auto-update/#fbid=qIRziNGN-f6
   [http://venturebeat.com/2012/04/24/firefox-12/]: http://venturebeat.com/2012/04/24/firefox-12/
   [http://www.teknoblog.com/internet/internet-explorera-getirilen-otomatik-guncelleme-ozelligi-ie9un-kullanimini-artiriyor.html?]:

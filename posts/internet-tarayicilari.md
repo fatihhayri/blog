@@ -11,7 +11,7 @@ programlardır. "Vikipedia"
 Şu an genelde kullanılan tarayıcılar: Internet Explorer, Mozilla
 Firefox, Opera ve Safari <!--more-->
 
-[http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline\_of\_web\_browsers.svg][]
+[http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg][]
 
 İnternet tarayıcılarının gelişimini anlaya bilmek için güzel bir resim
 bence.
@@ -124,8 +124,8 @@ olması şart bence.
 
 -   [http://www.fatihhayrioglu.com/?p=470][]
 -   [http://www.fatihhayrioglu.com/?p=259][]  
--   [http://www.bilgisayartoplulugu.com/index.php?option=com\_content&view=article&id=16:hangi-internet-taraycs-daha-iyi&catid=6:web&Itemid=11][]
--   [http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline\_of\_web\_browsers.svg][]  
+-   [http://www.bilgisayartoplulugu.com/index.php?option=com_content&view=article&id=16:hangi-internet-taraycs-daha-iyi&catid=6:web&Itemid=11][]
+-   [http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg][]  
 
 not: Son olarak Nisan 2008'da tarayıcı kullanım oranları.
 [http://www.favbrowser.com/internet-explorer-opera-mini-gains-firefox-and-safari-loses-april-08/][]
@@ -133,7 +133,7 @@ not: Son olarak Nisan 2008'da tarayıcı kullanım oranları.
 </p>
 
   [İnternet Tarayıcıları]: /images/tarayicilar.png
-  [http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline\_of\_web\_browsers.svg]:
+  [http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg]:
     http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg
   [Acid]: http://www.webstandards.org/action/acid3/
     "web standartları testi"
@@ -141,7 +141,7 @@ not: Son olarak Nisan 2008'da tarayıcı kullanım oranları.
     "web tarayıcıları testi"
   [http://www.fatihhayrioglu.com/?p=470]: http://www.fatihhayrioglu.com/?p=470
   [http://www.fatihhayrioglu.com/?p=259]: http://www.fatihhayrioglu.com/?p=259
-  [http://www.bilgisayartoplulugu.com/index.php?option=com\_content&view=article&id=16:hangi-internet-taraycs-daha-iyi&catid=6:web&Itemid=11]:
+  [http://www.bilgisayartoplulugu.com/index.php?option=com_content&view=article&id=16:hangi-internet-taraycs-daha-iyi&catid=6:web&Itemid=11]:
     http://www.bilgisayartoplulugu.com/index.php?option=com_content&view=article&id=16:hangi-internet-taraycs-daha-iyi&catid=6:web&Itemid=11
   [http://www.favbrowser.com/internet-explorer-opera-mini-gains-firefox-and-safari-loses-april-08/]:
     http://www.favbrowser.com/internet-explorer-opera-mini-gains-firefox-and-safari-loses-april-08/

@@ -30,28 +30,28 @@ odaklanma çizgileri sorun çıkarıyor. Bir örnek yapalım.
 En son projelerimden bonus.com.tr'de böyle bir sorun ile karşılaştığımda
 buna bir çözüm aradım. İlk kodum şöyle idi.
 
-[sourcecode language="html"] \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"\> \<html
-xmlns="http://www.w3.org/1999/xhtml"\> \<head\> \<meta
-http-equiv="Content-Type" content="text/html; charset=utf-8" /\>
-\<title\>Untitled Document\</title\> \<style type="text/css"\>
-body{background-color:\#52c520;} .aramaMetinKutusu{
-background:url(images/arama\_zemini.gif) 0 0 no-repeat; width:202px;
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
+xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
+http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title> <style type="text/css">
+body{background-color:#52c520;} .aramaMetinKutusu{
+background:url(images/arama_zemini.gif) 0 0 no-repeat; width:202px;
 height:29px; } .aramaMetinKutusuOdak{
-background:url(images/arama\_zemini.gif) 0 -31px no-repeat; width:202px;
+background:url(images/arama_zemini.gif) 0 -31px no-repeat; width:202px;
 height:29px; } .aramaMetinKutusu input{ width:190px; margin:5px 0 0 4px;
 border:none; } .aramaMetinKutusuOdak input:focus{ width:190px;
-margin:5px 0 0 4px; border:none; background-color:\#F6FFD4 } \</style\>
-\</head\> \<body\> \<div class="aramaMetinKutusu"\> \<input type="text"
+margin:5px 0 0 4px; border:none; background-color:#F6FFD4 } </style>
+</head> <body> <div class="aramaMetinKutusu"> <input type="text"
 name="arama" onfocus="this.parentNode.className='aramaMetinKutusuOdak'"
-onblur="this.parentNode.className='aramaMetinKutusu'" /\> \</div\>
-\</body\> \</html\> [/sourcecode]
+onblur="this.parentNode.className='aramaMetinKutusu'" /> </div>
+</body> </html> [/sourcecode]
 
 Bu kodlarım Firefox ve IE'de sorunsuz çalıştı. Daha sonra sayfayı Google
 Chrome'da test ettiğimde aşağıdaki gibi bir sorun ile karşılaştım.
 
-![chrome\_odak][]
+![chrome_odak][]
 
 Sorunun çözümünü araştırdığımda dış kenar çizgisini sıfırlamam
 gerektiğini gördüm.  
@@ -81,7 +81,7 @@ tanım yaptığımız için klavye kullananlar için sorun olmayacaktır.
   [1]: http://docs.google.com/File?id=dhctmbn6_224cg7bjcg8_b
   [2]: http://docs.google.com/File?id=dhctmbn6_225hk8dtkfm_b
   [3]: http://docs.google.com/File?id=dhctmbn6_226fc3jdqrx_b
-  [chrome\_odak]: http://www.fatihhayrioglu.com/wp-content/chrome_odak.gif
+  [chrome_odak]: http://www.fatihhayrioglu.com/wp-content/chrome_odak.gif
     "chrome_odak"
   [tıklayınız.]: /dokumanlar/metingirdi_kaldir_2.html
   [http://gandamanurung.com/css/how-to-get-rid-textinput-blue-border-in-safari/]:

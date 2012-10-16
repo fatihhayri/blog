@@ -17,7 +17,7 @@ background:url(images/southpark.gif) 0 0 no-repeat; height:130px; }
 sorunsuz çalışırken IE ve Webkit tabanlı tarayıcılarda sorun
 çıkaracaktır. Çözüm için [sourcecode language="css"] table tr{
 background:url(images/southpark.gif) 0 0 no-repeat; height:130px;
-position:relative; } table tr td{ color:\#fff; font:12px Arial,
+position:relative; } table tr td{ color:#fff; font:12px Arial,
 Helvetica, sans-serif; background:none; } [/sourcecode]
 
 ![İE düzeltişmiş görüntüsü][]

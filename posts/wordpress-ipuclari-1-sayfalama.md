@@ -15,8 +15,8 @@ ve admin ekranına gidip aktif ettim.
 Daha sonra bu sayfalama bölümünün bulunduğu yere bende index.php(sizde
 farklı dosyalar olabilir. footer.php gibi) aşağıdaki kodu ekledim.
 
-[sourcecode language="php"]\<?php if(function\_exists('wp\_pagenavi')) {
-wp\_pagenavi(); } ?\> [/sourcecode]
+[sourcecode language="php"]<?php if(function_exists('wp_pagenavi')) {
+wp_pagenavi(); } ?> [/sourcecode]
 
 Daha sonra **pagenavi.php** dosyasını Crimson Editörde açarak Türkçe
 karakter ayarını yaparak (Document-Encoding-UTF-8 Encoding w/o BOM) 47.

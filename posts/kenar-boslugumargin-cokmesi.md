@@ -35,9 +35,9 @@ bir çökme meydana gelir. Bir örnek yapalım.
 
 Html kodu:
 
-[sourcecode language="css"] \<p\>Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit.\<p\> \<p\>Morbi eros lacus, volutpat at,
-interdum nec, dignissim at, turpis.\</p\> [/sourcecode]
+[sourcecode language="css"] <p>Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit.<p> <p>Morbi eros lacus, volutpat at,
+interdum nec, dignissim at, turpis.</p> [/sourcecode]
 
 CSS kodu:
 
@@ -69,14 +69,14 @@ Bu kodlar sonrasında resim-1 deki görüntüyü alırız.
 Bir elemente ve içindeki elemente kenar boşluğu atadığımızda içte kalan
 elementin kenar boşlukları kaybolacaktır. Bir uygulama yapalım:
 
-[sourcecode language="css"] \*{ margin:0; padding:0; } div\#kapsul{
-margin:10px; background-color:\#0066CC; } p{ margin:10px;
-background-color:\#0CF; } [/sourcecode]
+[sourcecode language="css"] *{ margin:0; padding:0; } div#kapsul{
+margin:10px; background-color:#0066CC; } p{ margin:10px;
+background-color:#0CF; } [/sourcecode]
 
 Html kodu yazalım:
 
-[sourcecode language="html"] \<div id="kapsul"\> \<p\>Lorem ipsum dolor
-sit amet, consectetuer adipiscing elit.\</p\> \</div\> [/sourcecode]
+[sourcecode language="html"] <div id="kapsul"> <p>Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.</p> </div> [/sourcecode]
 
 Örneği görmek için [tıklayınız.][1]
 
@@ -94,9 +94,9 @@ Resim - 2 Olması gereken kenar boşluğu
 eklersek ve paragrafın kenar boşluk değerini de 1px azaltırsak sorun
 çözülür. Kodu aşağıdaki gibi değiştirirsek sorunumuz hallolacaktır.
 
-[sourcecode language="css" highlight="7,11"] \*{ margin:0; padding:0; }
-div\#kapsul{ margin:10px; padding:1px; background-color:\#0066CC; } p{
-margin:9px; background-color:\#0CF; } [/sourcecode]
+[sourcecode language="css" highlight="7,11"] *{ margin:0; padding:0; }
+div#kapsul{ margin:10px; padding:1px; background-color:#0066CC; } p{
+margin:9px; background-color:#0CF; } [/sourcecode]
 
 ### 3- Sadece İçteki Elemente Kenar Boşluğu Uyulanmış İç içe Bulunan Elementler Arasında Meydana Gelen Çökme
 
@@ -106,14 +106,14 @@ varken(margin:10px) dıştaki **kapsul** nesnesinin kenar boşluğu
 değerinin sıfır olması durumunda meydana gelir. İçteki elementin dikey
 kenar boşlukları çökecektir.
 
-[sourcecode language="css" highlight="6"] \*{ margin:0; padding:0; }
-div\#kapsul{ margin:0; background-color:\#0066CC; } p{ margin:10px;
-background-color:\#0CF; } [/sourcecode]
+[sourcecode language="css" highlight="6"] *{ margin:0; padding:0; }
+div#kapsul{ margin:0; background-color:#0066CC; } p{ margin:10px;
+background-color:#0CF; } [/sourcecode]
 
 Html kodu yazarsak:
 
-[sourcecode language="html"] \<div id="kapsul"\> \<p\>Lorem ipsum dolor
-sit amet, consectetuer adipiscing elit.\</p\> \</div\> [/sourcecode]
+[sourcecode language="html"] <div id="kapsul"> <p>Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.</p> </div> [/sourcecode]
 
 ![][2]  
 Resim -1 Görünen kenar boşluğu        
@@ -144,10 +144,10 @@ hakkındaki aşağıdaki bilgilerde bize çözüm konusunda yardımcı olacaktı
 
 ### Kaynaklar
 
--   [http://www.w3.org/TR/CSS21/box.html\#collapsing-margins][W3C]
--   [http://www.andybudd.com/archives/2003/11/no\_margin\_for\_error/][]
+-   [http://www.w3.org/TR/CSS21/box.html#collapsing-margins][W3C]
+-   [http://www.andybudd.com/archives/2003/11/no_margin_for_error/][]
 -   [http://www.search-this.com/2007/05/07/wheres-my-margin-gone-or-why-111/][]
--   [http://www.ryznardesign.com/web\_coding/tests/2004/preventing\_margin\_collapse.html][]
+-   [http://www.ryznardesign.com/web_coding/tests/2004/preventing_margin_collapse.html][]
 -   [http://maxdesign.com.au/presentation/workshop/slide46.htm][]
 -   [http://reference.sitepoint.com/css/collapsingmargins][]
 -   [http://www.seifi.org/css/understanding-taming-collapsing-margins-in-css.html][]
@@ -165,10 +165,10 @@ hakkındaki aşağıdaki bilgilerde bize çözüm konusunda yardımcı olacaktı
   [2]: /images/margin_cokmesi31.gif
   [3]: /images/margin_cokmesi32.gif
   [4]: /dokumanlar/margin_cokmesi_03.html
-  [http://www.andybudd.com/archives/2003/11/no\_margin\_for\_error/]: http://www.andybudd.com/archives/2003/11/no_margin_for_error/
+  [http://www.andybudd.com/archives/2003/11/no_margin_for_error/]: http://www.andybudd.com/archives/2003/11/no_margin_for_error/
   [http://www.search-this.com/2007/05/07/wheres-my-margin-gone-or-why-111/]:
     http://www.search-this.com/2007/05/07/wheres-my-margin-gone-or-why-111/
-  [http://www.ryznardesign.com/web\_coding/tests/2004/preventing\_margin\_collapse.html]:
+  [http://www.ryznardesign.com/web_coding/tests/2004/preventing_margin_collapse.html]:
     http://www.ryznardesign.com/web_coding/tests/2004/preventing_margin_collapse.html
   [http://maxdesign.com.au/presentation/workshop/slide46.htm]: http://maxdesign.com.au/presentation/workshop/slide46.htm
   [http://reference.sitepoint.com/css/collapsingmargins]: http://reference.sitepoint.com/css/collapsingmargins

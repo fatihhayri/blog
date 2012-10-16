@@ -65,7 +65,7 @@ url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
 
 ### Video ve Auido Desteği
 
-HTML 5 ile birlikte gelen \<video\> ve\< auido\> elemanı desteği Firefox
+HTML 5 ile birlikte gelen <video> ve< auido> elemanı desteği Firefox
 3.1 ile birlikte geliyor. Bu elemanlar sayesinde görüntülü ve işitsel
 öğeleri web sayfalarına eklemek daha basit olacak. Ayrıca Javascript ile
 bu nesneleri etkileşimli kullanabileceğiz.
@@ -80,10 +80,10 @@ diyebiliriz.
 
 [![][1]][]
 
-\^ işareti ile geçmişte gezdiğimiz sayfalarda arama yapabiliyoruz.  
-\* işareti ile favorimize eklediğimiz sitelerde arama yapabiliyoruz  
+^ işareti ile geçmişte gezdiğimiz sayfalarda arama yapabiliyoruz.  
+* işareti ile favorimize eklediğimiz sitelerde arama yapabiliyoruz  
 + işareti ile eklediğimiz etiketlerde arama yapabiliyoruz.  
-\# işareti hem başlıkta hemde etiketde arama yapmak için kullanıyor.  
+# işareti hem başlıkta hemde etiketde arama yapmak için kullanıyor.  
 
 ### Yeni Javascript Motoru - TraceMonkey
 
@@ -148,11 +148,11 @@ getirilecek.
 -   [http://lifehacker.com/5049728/firefox-31-to-enable-color-profile-support-by-default][]
 -   [http://lifehacker.com/5062744/firefox-31-to-include-smarter-session-restore][]
 -   [http://lifehacker.com/5063202/firefox-31-beta-1-now-available-for-download-first-look][]
--   [http://www.readwriteweb.com/archives/firefox\_31\_beta\_1\_geolocation.php][]
+-   [http://www.readwriteweb.com/archives/firefox_31_beta_1_geolocation.php][]
 -   [http://blogs.zdnet.com/hardware/?p=2781][]
--   [http://news.cnet.com/8301-17939\_109-10066397-2.html?part=rss&tag=feed&subj=Webware][]
+-   [http://news.cnet.com/8301-17939_109-10066397-2.html?part=rss&tag=feed&subj=Webware][]
 -   [http://ed.agadak.net/2008/07/firefox-31-restricts-matches-keywords][]
--   [http://www.tgdaily.com/html\_tmp/content-view-39752-140.html][]
+-   [http://www.tgdaily.com/html_tmp/content-view-39752-140.html][]
 -   [http://www.informationweek.com/galleries/showImage.jhtml?galleryID=263&articleID=211201744][]
 -   [http://www.pclabs.com.tr/2008/05/23/mozilla-firefox-31-bu-sene-sonunda-cikiyor/][]
 
@@ -187,13 +187,13 @@ getirilecek.
     http://lifehacker.com/5062744/firefox-31-to-include-smarter-session-restore
   [http://lifehacker.com/5063202/firefox-31-beta-1-now-available-for-download-first-look]:
     http://lifehacker.com/5063202/firefox-31-beta-1-now-available-for-download-first-look
-  [http://www.readwriteweb.com/archives/firefox\_31\_beta\_1\_geolocation.php]:
+  [http://www.readwriteweb.com/archives/firefox_31_beta_1_geolocation.php]:
     http://www.readwriteweb.com/archives/firefox_31_beta_1_geolocation.php
   [http://blogs.zdnet.com/hardware/?p=2781]: http://blogs.zdnet.com/hardware/?p=2781
-  [http://news.cnet.com/8301-17939\_109-10066397-2.html?part=rss&tag=feed&subj=Webware]:
+  [http://news.cnet.com/8301-17939_109-10066397-2.html?part=rss&tag=feed&subj=Webware]:
     http://news.cnet.com/8301-17939_109-10066397-2.html?part=rss&tag=feed&subj=Webware
   [http://ed.agadak.net/2008/07/firefox-31-restricts-matches-keywords]: http://ed.agadak.net/2008/07/firefox-31-restricts-matches-keywords
-  [http://www.tgdaily.com/html\_tmp/content-view-39752-140.html]: http://www.tgdaily.com/html_tmp/content-view-39752-140.html
+  [http://www.tgdaily.com/html_tmp/content-view-39752-140.html]: http://www.tgdaily.com/html_tmp/content-view-39752-140.html
   [http://www.informationweek.com/galleries/showImage.jhtml?galleryID=263&articleID=211201744]:
     http://www.informationweek.com/galleries/showImage.jhtml?galleryID=263&articleID=211201744
   [http://www.pclabs.com.tr/2008/05/23/mozilla-firefox-31-bu-sene-sonunda-cikiyor/]:

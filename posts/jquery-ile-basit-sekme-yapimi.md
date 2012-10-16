@@ -3,7 +3,7 @@ Date: 2009-05-25 09:40
 Category: Javascript
 Tags: Javascript, jquery, sekme
 
-![sekme\_ornek][]Web sitelerinden uzun içerikler her zaman kullanıcıyı
+![sekme_ornek][]Web sitelerinden uzun içerikler her zaman kullanıcıyı
 itmiştir. Bunun için çeşitli çözümler üretilmiştir ve üretilmeyede
 çalışılıyor. Yeterli alanların olmadığı durumlarda veya uzun içerikleri
 olan sayfalarda sekme kullanımı yardımımıza koşar. Birçok sitede bu ve
@@ -15,17 +15,17 @@ içerik yapımı jQuery ile çok basit. Bunu burada beraber göreceğiz.
 
 XHTML kodumuz:
 
-[sourcecode language="html"] \<div class="sekmeAlani"\> \<!--[if
-!IE]\>sekmeler\<![endif]--\> \<ul class="sekmeler"\> \<li
-class="s1"\>\<a href="javascript:void(0);"
-class="s1"\>Sekme1\</a\>\</li\> \<li class="s2"\>\<a
-href="javascript:void(0);" class="s2"\>Sekme2\</a\>\</li\> \<li
-class="s3"\>\<a href="javascript:void(0);"
-class="s3"\>Sekme3\</a\>\</li\> \<li class="s4"\>\<a
-href="javascript:void(0);" class="s4"\>Sekme4\</a\>\</li\> \</ul\>    
-\<!--[if !IE]\>sekme icerikleri\<![endif]--\> \<div
-class="s1"\>...\</div\> \<div class="s2"\>...\</div\> \<div
-class="s3"\>...\</div\> \<div class="s4"\>...\</div\> \</div\>
+[sourcecode language="html"] <div class="sekmeAlani"> <!--[if
+!IE]>sekmeler<![endif]--> <ul class="sekmeler"> <li
+class="s1"><a href="javascript:void(0);"
+class="s1">Sekme1</a></li> <li class="s2"><a
+href="javascript:void(0);" class="s2">Sekme2</a></li> <li
+class="s3"><a href="javascript:void(0);"
+class="s3">Sekme3</a></li> <li class="s4"><a
+href="javascript:void(0);" class="s4">Sekme4</a></li> </ul>    
+<!--[if !IE]>sekme icerikleri<![endif]--> <div
+class="s1">...</div> <div class="s2">...</div> <div
+class="s3">...</div> <div class="s4">...</div> </div>
 [/sourcecode]
 
 Burada aslında href="javascript:void(0);" özelliğini kullanmayabiliriz,
@@ -38,25 +38,25 @@ Hemen uygulamaya geçersek.
 Kodumuza jQuery kütüphanesini ekleyelim. Firefox'un YSlow eklentisinin
 belirttiği gibi javascript kodlarını sayfamızın altına koyalım.
 
-[sourcecode language="html"] \<script type="text/javascript"
-src="jquery.js"\>\</script\> \</body\> \</html\> [/sourcecode]
+[sourcecode language="html"] <script type="text/javascript"
+src="jquery.js"></script> </body> </html> [/sourcecode]
 
 jQuery kodumuzu yazmaya başlayalım. Mantık olarak sekmeli menüler olsun,
 sekmeli içerikler olsun aynıdır. Sekmelere tıklayınca o sekmeye ait
 içerikler görünecek, diğerleri görünmez olacaktır. bu mantığa göre
 kodumuzu yazalım.
 
-[sourcecode language="javascript"] \$(document).ready(function() {     
-\$('div.sekmeAlani ul.sekmeler li a').click(function(){    
- \$(this).parent('li').addClass('sekmeSecili').siblings().removeClass('sekmeSecili');  
+[sourcecode language="javascript"] $(document).ready(function() {     
+$('div.sekmeAlani ul.sekmeler li a').click(function(){    
+ $(this).parent('li').addClass('sekmeSecili').siblings().removeClass('sekmeSecili');  
                                             var mevcutSinif =
-this.className.slice(0,2);        \$('div.sekmeAlani \>
+this.className.slice(0,2);        $('div.sekmeAlani >
 div').hide().filter('div.'+mevcutSinif).show();          });
-\$('.sekmeAlani ul.sekmeler li a:first').click(); }); [/sourcecode]
+$('.sekmeAlani ul.sekmeler li a:first').click(); }); [/sourcecode]
 
 Kodumuz sadece bu kadar.   
   
-**\$(document).ready(function() { .. });** jQuery'nin stadart kodu.
+**$(document).ready(function() { .. });** jQuery'nin stadart kodu.
 
 ​5. satırdaki kodda; sekme linklerine tıklanınca yapılacak işlemleri
 tetikliyoruz.
@@ -74,11 +74,11 @@ sınıflarda atanmış olabilir. Bu sınıf adı bize ilişkili sekme içeriğin
 göstermek için yardımcı olacaktır.
 
 ​8. satırda içerikleri gizleme ve gösterme işini
-çözüyoruz.**\$('div.sekmeAlani \> div')** kodu bize **sekmeAlani**'nının
+çözüyoruz.**$('div.sekmeAlani > div')** kodu bize **sekmeAlani**'nının
 birincil div'lerini yani sekme içeriğini kapsayan katmanları gizlememizi
 sağlıyor. Böylelikle sekme içinde **div** kullansak bile bunlar görünmez
 olmuyor bu bir çok sekme kodunda göz ardı edilen bir husustur. CSS'de de
-olan çocuk seçiciler(**\>**) jQueryde gönül rahatlığı ile
+olan çocuk seçiciler(**>**) jQueryde gönül rahatlığı ile
 kullanabiliyoruz çünkü ie6 desteğini jQuery hallediyor. jQuery'nin bize
 sunduğu avantajlardan biride **filter()** fonksiyonudur. Bu sayede biz
 tüm sekme içeriğini kapsayan div'leri gizle ama bu tıkladığımzın(bu
@@ -125,7 +125,7 @@ Safari 3.2.2 sürümlerinde test ettim.
 
 </p>
 
-  [sekme\_ornek]: http://www.fatihhayrioglu.com/wp-content/sekme_ornek-150x90.gif
+  [sekme_ornek]: http://www.fatihhayrioglu.com/wp-content/sekme_ornek-150x90.gif
     "sekme_ornek"
   [Orhan Ekici]: http://orhanekici.info/ "Orhan Ekici"
   [jQuery UI]: http://jqueryui.com/ "jQuery UI"

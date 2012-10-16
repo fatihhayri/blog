@@ -8,7 +8,7 @@ Tags: csharp, CSS, Dust-Me, Firefox, google, Haberler, jquery, web, WordPress
     eklentisi. [Link][1]
 -   Web ile alakalı güzel ve renkli bir site açılmış. [Link][2]
 -   Firefox tablarını kontrol etmenin 10 yolu. [Link][3]
--   C\# ve .Net kullanlara güzel araçlar ve öneriler. [Link][4]
+-   C# ve .Net kullanlara güzel araçlar ve öneriler. [Link][4]
 -   Ünlü javascript kütüphanelerinden jquery hakkında 10 ipuçu.
     [Link][5] buda ikinci 10 . [Link][6]
 -   Web programcıları ve geliştricileri için 120 adet araç ve kaynak.

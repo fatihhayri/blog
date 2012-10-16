@@ -26,7 +26,7 @@ bence en az 4-5 aylık(Firefox'un eski sürümlerinin yerini Firefox 3.5
 alması için) bir süre sonra tam anlamıyla bir projede kullanılabilir.
 Tabi tek sorunumuz bu ise.
 
-![fontface\_destek\_tablosu][]
+![fontface_destek_tablosu][]
 
 Kaynak: [Vikipedia][]
 
@@ -110,7 +110,7 @@ kaç sorunuda gidermek için [Paul Irish][]'in yazdığı makaleden
 [sourcecode language="css"] @font-face { font-family: 'Graublau Web';
 src: url('GraublauWeb.eot'); src: local('Graublau Web Regular'),
 local('Graublau Web'), url('GraublauWeb.woff') format('woff'),
-url('GraublauWeb.svg\#GraublauWeb') format('svg'),
+url('GraublauWeb.svg#GraublauWeb') format('svg'),
 url('GraublauWeb.otf') format('opentype'); font-weight: normal;
 font-style: normal; } p { font-family: "Graublau Web", serif; }
 [/sourcecode]
@@ -140,18 +140,18 @@ diğer farklı yazı tipi üretme araçları
 .ttf ve .eot uzantılı dosyalarım hazırsa kodu yazmaya başlayabiliriz.
 
 [sourcecode language="css"] @font-face { font-family: 'TR Centurion Old
-Italic'; src: url('TR\_Centurion\_Old\_Italik.eot'); src: local('TR
+Italic'; src: url('TR_Centurion_Old_Italik.eot'); src: local('TR
 Centurion Old Italic'), local('TRCenturionOldItalic'),
-url('TR\_Centurion\_Old\_Italik.woff') format('woff'),
-url('TR\_Centurion\_Old\_Italik.svg\#TRCenturionOldItalic')
-format('svg'), url('TR\_Centurion\_Old\_Italik.TTF') format('truetype');
+url('TR_Centurion_Old_Italik.woff') format('woff'),
+url('TR_Centurion_Old_Italik.svg#TRCenturionOldItalic')
+format('svg'), url('TR_Centurion_Old_Italik.TTF') format('truetype');
 } [/sourcecode]
 
 Daha sonra bu yazı tipini sayfamızda kullanabiliriz.
 
 [sourcecode language="css"] h1{font:44px 'TR Centurion Old Italic',
-Arial, sans-serif; color:\#1259C7;} h3{font:24px 'TR Centurion Old
-Italic', Arial, sans-serif; color:\#1259C7;}
+Arial, sans-serif; color:#1259C7;} h3{font:24px 'TR Centurion Old
+Italic', Arial, sans-serif; color:#1259C7;}
 p.ilkParagraf{font:16px/1.5em 'TR Centurion Old Italic', Arial,
 sans-serif;} [/sourcecode]
 
@@ -271,7 +271,7 @@ aksaklığımız oldu ise affola.
 -   [http://www.useragentman.com/blog/2009/09/20/font-face-in-depth/][]
     (ayrıntılı makale)
 -   [http://nickcowie.com/2008/font-face/][]
--   [http://www.w3.org/TR/css3-webfonts/\#font-descriptions][]
+-   [http://www.w3.org/TR/css3-webfonts/#font-descriptions][]
 -   [http://paulirish.com/2009/bulletproof-font-face-implementation-syntax/][]
     (kod yapısı)
 -   [http://www.kadirgunay.com/font-face-kullanimi-ve-kolayliklari.html][]
@@ -288,8 +288,8 @@ aksaklığımız oldu ise affola.
 -   <div>
     [http://www.stevesouders.com/blog/2009/10/13/font-face-and-performance/][](hız)
     </div>
--   [http://snook.ca/archives/html\_and\_css/becoming-a-font-embedding-master][]
--   [http://randsco.com/index.php/2009/09/04/better\_font\_face\_syntax][]
+-   [http://snook.ca/archives/html_and_css/becoming-a-font-embedding-master][]
+-   [http://randsco.com/index.php/2009/09/04/better_font_face_syntax][]
 -   [http://hacks.mozilla.org/2009/10/font-control-for-designers/][]
     (Firefox 3.6 ile yeni font tipi desteği)
 -   [http://www.font-face.com/][]
@@ -321,7 +321,7 @@ aksaklığımız oldu ise affola.
     "sIFR"
   [Cufón]: http://www.yakuter.com/cufon-bir-sifr-alternatifi-hakkinda-her-sey/
     "Cufón"
-  [fontface\_destek\_tablosu]: http://www.fatihhayrioglu.com/wp-content/fontface_destek_tablosu.gif
+  [fontface_destek_tablosu]: http://www.fatihhayrioglu.com/wp-content/fontface_destek_tablosu.gif
     "fontface_destek_tablosu"
   [Vikipedia]: http://en.wikipedia.org/wiki/Web_typography "Vikipedia"
   [Batik]: http://xmlgraphics.apache.org/batik/tools/font-converter.html
@@ -354,7 +354,7 @@ aksaklığımız oldu ise affola.
     "http://www.useragentman.com/blog/2009/09/20/font-face-in-depth/"
   [http://nickcowie.com/2008/font-face/]: http://nickcowie.com/2008/font-face/
     "http://nickcowie.com/2008/font-face/"
-  [http://www.w3.org/TR/css3-webfonts/\#font-descriptions]: http://www.w3.org/TR/css3-webfonts/#font-descriptions
+  [http://www.w3.org/TR/css3-webfonts/#font-descriptions]: http://www.w3.org/TR/css3-webfonts/#font-descriptions
     "http://www.w3.org/TR/css3-webfonts/#font-descriptions"
   [http://paulirish.com/2009/bulletproof-font-face-implementation-syntax/]:
     http://paulirish.com/2009/bulletproof-font-face-implementation-syntax/
@@ -380,10 +380,10 @@ aksaklığımız oldu ise affola.
   [http://www.stevesouders.com/blog/2009/10/13/font-face-and-performance/]:
     http://www.stevesouders.com/blog/2009/10/13/font-face-and-performance/
     "http://www.stevesouders.com/blog/2009/10/13/font-face-and-performance/"
-  [http://snook.ca/archives/html\_and\_css/becoming-a-font-embedding-master]:
+  [http://snook.ca/archives/html_and_css/becoming-a-font-embedding-master]:
     http://snook.ca/archives/html_and_css/becoming-a-font-embedding-master
     "http://snook.ca/archives/html_and_css/becoming-a-font-embedding-master"
-  [http://randsco.com/index.php/2009/09/04/better\_font\_face\_syntax]: http://randsco.com/index.php/2009/09/04/better_font_face_syntax
+  [http://randsco.com/index.php/2009/09/04/better_font_face_syntax]: http://randsco.com/index.php/2009/09/04/better_font_face_syntax
     "http://randsco.com/index.php/2009/09/04/better_font_face_syntax"
   [http://hacks.mozilla.org/2009/10/font-control-for-designers/]: http://hacks.mozilla.org/2009/10/font-control-for-designers/
     "http://hacks.mozilla.org/2009/10/font-control-for-designers/"

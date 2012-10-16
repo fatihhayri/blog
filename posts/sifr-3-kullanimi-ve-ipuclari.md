@@ -46,12 +46,12 @@ görünmeyecektir, sadece web sunucusu kurulu makinelerde çalışacaktır. Bu
 daha önceden meydana gelen bazı sorunları gidermek için eklenmiş bir
 özelliktir.
 
-[sourcecode language="css"] \<link rel="stylesheet"
-href="style/sIFR-screen.css" type="text/css" media="screen" /\> \<link
+[sourcecode language="css"] <link rel="stylesheet"
+href="style/sIFR-screen.css" type="text/css" media="screen" /> <link
 rel="stylesheet" href="style/sIFR-print.css" type="text/css"
-media="print" /\> \<script type="text/javascript"
-src="js/sifr.js"\>\</script\> \<script type="text/javascript"
-src="js/sifr-config.js"\>\</script\> [/sourcecode]
+media="print" /> <script type="text/javascript"
+src="js/sifr.js"></script> <script type="text/javascript"
+src="js/sifr-config.js"></script> [/sourcecode]
 
 Yukarıdaki bir ekleme ile sIFR harici dosyalarını sayfamıza eklemeliyiz.
 
@@ -59,11 +59,11 @@ Bu dosyaları yerlerine koyup sayfamıza kodu ekledikten sonra yapacağımız
 ilk şey **sifr-config.js** dosyasını açıp swf dosyamızın yerini doğru
 bir şekilde eklemek olmalıdır.
 
-[sourcecode language="javascript"] var yazi\_tipi = { src:
-'/dosya\_yolu/yazi\_tipi.swf' }; sIFR.activate(yazi\_tipi);
-sIFR.replace(yazi\_tipi, { selector: 'h2' }); [/sourcecode]
+[sourcecode language="javascript"] var yazi_tipi = { src:
+'/dosya_yolu/yazi_tipi.swf' }; sIFR.activate(yazi_tipi);
+sIFR.replace(yazi_tipi, { selector: 'h2' }); [/sourcecode]
 
-Şeklinde örnek aldığımız kodlardan **yazi\_tipi** adı geçen yerlere
+Şeklinde örnek aldığımız kodlardan **yazi_tipi** adı geçen yerlere
 kendi dosya ismimizi yazmalıyız.
 
 **sIFR metnine Stil Vermek**
@@ -72,9 +72,9 @@ sIFR ile eklediğimiz metinlere css kodları ile özellik tanımı
 yapabiliriz. Alışık olduğumuz CSS özellik tanımlarını kullanma olanağı
 vererek bize çok büyük avantaj sağlıyor.
 
-[sourcecode language="javascript"] sIFR.replace(yazi\_tipi, { selector:
+[sourcecode language="javascript"] sIFR.replace(yazi_tipi, { selector:
 'h2', css: [ '.sIFR-root { font-size:36px; font-weight:bold;
-color:\#ff0000; letter-spacing: -1.5}' ] }); [/sourcecode]
+color:#ff0000; letter-spacing: -1.5}' ] }); [/sourcecode]
 
 Örnek olması için yukarıda kodları yazdım, ancak bu kısma istediğimiz
 kodları ekleyebiliriz. letter-spacing tanımı ile harfler arası mesafeyi
@@ -83,7 +83,7 @@ ayarlayabiliriz. Değeri verirken birimini yazmıyoruz. Benzer şekilde bir
 
 **Satır yüksekliğini ayarlamak**
 
-[sourcecode language="javascript"] sIFR.replace(yazi\_tipi, { selector:
+[sourcecode language="javascript"] sIFR.replace(yazi_tipi, { selector:
 'h2', css: [ '.sIFR-root { font-size:36px; font-weight:bold; leading: 1;
 letter-spacing: -1.5}' ] }); [/sourcecode]
 
@@ -93,20 +93,20 @@ kullanılmaz. Eksi değer alabilir.
 
 **sIFR metinlerine bağlantı eklemek ve stil tanımlarını yapmak**
 
-sIFR uygulana metinlere bağlantı(\<a\>) ekleyebiliriz, bağlantı
+sIFR uygulana metinlere bağlantı(<a>) ekleyebiliriz, bağlantı
 eklediğimizde bunun için birde stil tanımı yapmalıyız.
 
 HTML kodu
 
-[sourcecode language="html"] \<h2\>\<a href="\#"\>Başlık\</a\>\</h2\>
+[sourcecode language="html"] <h2><a href="#">Başlık</a></h2>
 [/sourcecode]
 
 sifr-config.js dosyasında
 
-[sourcecode language="javascript"] sIFR.replace(yazi\_tipi, { selector:
+[sourcecode language="javascript"] sIFR.replace(yazi_tipi, { selector:
 'h2' ,css: [ '.sIFR-root { text-align: center; font-weight: bold; }' ,'a
-{ text-decoration: none; }' ,'a:link { color: \#000000; }' ,'a:hover {
-color: \#CCCCCC; }' ] }); [/sourcecode]
+{ text-decoration: none; }' ,'a:link { color: #000000; }' ,'a:hover {
+color: #CCCCCC; }' ] }); [/sourcecode]
 
 Yukarıdaki tanımlama ile eklediğimiz bağlantının farklı durumları içinde
 tanım yapabiliyoruz. 
@@ -114,10 +114,10 @@ tanım yapabiliyoruz. 
 Benzer şekilde sIFR uyguladığımız eleman içindeki elemanlarada stil
 ekleyebiliriz. Örneğin
 
-[sourcecode language="javascript"] sIFR.replace(yazi\_tipi, { selector:
+[sourcecode language="javascript"] sIFR.replace(yazi_tipi, { selector:
 'h2', css: [ '.sIFR-root { font-size:24px; font-weight:normal;
-color:\#9f0000; }', 'em { font-style:italic; }', 'strong {
-font-weight:bold; color:\#333333; }' ] }); [/sourcecode]
+color:#9f0000; }', 'em { font-style:italic; }', 'strong {
+font-weight:bold; color:#333333; }' ] }); [/sourcecode]
 
 Böylece sIFR içindeki her elemana farklı renk tanımı yapabiliriz.
 
@@ -127,9 +127,9 @@ sIFR ile eklediğimiz metnin altında kalan alanlar nedeni ile bazen
 saydam olarak eklemek isteriz.  Yapmamız gereken çok basittir. Bir satır
 kod ile ardalanı saydam yapabiliriz.
 
-[sourcecode language="javascript"] sIFR.replace(yazi\_tipi, { selector:
+[sourcecode language="javascript"] sIFR.replace(yazi_tipi, { selector:
 'h2', css: [ '.sIFR-root { font-size:36px; font-weight:bold;
-color:\#ff0000; }' ], wmode: 'transparent' }); [/sourcecode]
+color:#ff0000; }' ], wmode: 'transparent' }); [/sourcecode]
 
 **wmode: 'transparent'**eklemesi işimizi görecektir.
 
@@ -140,10 +140,10 @@ sFIR sayfa yüklendiğinde uygulandığından diğer sekmelerdeki metinlere
 uygulanmayacaktır. Diğer sekmelerdeki metinlerede uygulamak için her
 sekme için uygulanan sFIR fonksiyonu çağırmalıyız.
 
-[sourcecode language="javascript"] \$(tabs).click(function () { // her
+[sourcecode language="javascript"] $(tabs).click(function () { // her
 sekme icin uygulana tanimlar //diger eylemler // uygulana sFIR
 fonksiyonunun tetikliyoruz. sIFR.replace(baslik, { selector: 'h1'
-,wmode: 'transparent' ,css: [ '.sIFR-root { margin:0; color: \#009200;
+,wmode: 'transparent' ,css: [ '.sIFR-root { margin:0; color: #009200;
 font-size:20px;}' ] }); }); [/sourcecode]
 
 ### Sonuç

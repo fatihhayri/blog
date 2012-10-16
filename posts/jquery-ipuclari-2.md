@@ -15,7 +15,7 @@ oluşturmak. jQuery bu iş için bize toggle() fonksiyonunu tanımlamış.
 Çeşitli kullanım şekilleri olsada ben size burada en basit şeklini
 anlatacağım.
 
-[sourcecode language="javascript"]\$('p.hidden').toggle ();[/sourcecode]
+[sourcecode language="javascript"]$('p.hidden').toggle ();[/sourcecode]
 
 Bu kadar basit bir kod ile işlem tamamdır. toggle() fonksiyonuna çeşitli
 animasyonlar ve işler ekleyebiliyoruz. Gayet kullanışlı bir özellik.
@@ -25,7 +25,7 @@ animasyonlar ve işler ekleyebiliyoruz. Gayet kullanışlı bir özellik.
 Yukarıda yaptığımız uygulamaya ek olarak tetiklenen elemana bir sınıf
 tanımlamak için
 
-[sourcecode language="javascript"]\$('p.hidden').toggleClass
+[sourcecode language="javascript"]$('p.hidden').toggleClass
 ("acik");[/sourcecode]
 
 bu kod sayesinde mesela çok basit şekilde aç-kapa butonu yapabiliriz.
@@ -37,7 +37,7 @@ ile sorun yaşıyoruz. [Ben bu sorun için bir çözüm bulmuştum ancak
 Hüseyin Mert daha iyi bir çözüm buldu.][] Ben bu çözümü burada sizlerle
 paylaşmak istedim.
 
-[sourcecode language="javascript"] \$("a").click(function(event){
+[sourcecode language="javascript"] $("a").click(function(event){
 event.preventDefault(); // yapılacaklar }); [/sourcecode]
 
 Böylece sorunu aşmış oluyoruz. Hüseyin Mert'e teşekkürler tekrar.
@@ -47,8 +47,8 @@ Böylece sorunu aşmış oluyoruz. Hüseyin Mert'e teşekkürler tekrar.
 Bir çok metodu ard arda aynı elemana yazmaktansa zincirleme kullanabilme
 özelliği sunuyor bize jQuery.
 
-[sourcecode language="javascript"]\$('p.ilkParagraf').css ('color',
-'\#ff0000').text ('Giriş').addClass ('yazi').fadeTo (1000,
+[sourcecode language="javascript"]$('p.ilkParagraf').css ('color',
+'#ff0000').text ('Giriş').addClass ('yazi').fadeTo (1000,
 1);[/sourcecode]
 
 Yukarıdaki örnekte görüldüğü gibi ard arda metotları kullanabiliriz.
@@ -59,12 +59,12 @@ Ancak çok fazla kullanmanın performansı etkilediğini unutmadan bu
 
 jquery ile kontrol kutularını kontrol etmenin bir kaç yolu var
 
-[sourcecode language="javascript"] if(\$('\#deneme:checked').val() !=
+[sourcecode language="javascript"] if($('#deneme:checked').val() !=
 null) { // işaretli ise bunu yap } //veya
-if(\$('\#deneme:checked').length != 0) { // işaretli ise bunu yap }
-//veya \$('input[name=deneme]').is(':checked')
-\$('input[name=deneme]').attr('checked') // işaretli veya degil
-\$('input[name=deneme]').attr('checked', true); [/sourcecode]
+if($('#deneme:checked').length != 0) { // işaretli ise bunu yap }
+//veya $('input[name=deneme]').is(':checked')
+$('input[name=deneme]').attr('checked') // işaretli veya degil
+$('input[name=deneme]').attr('checked', true); [/sourcecode]
 
 ### 6 - Arama metinlerini değiştirmek
 
@@ -73,12 +73,12 @@ Arama kutuları içine açıklayıcı metinler yazarız. "Anahtar Kelime",
 odaklandığında bu metni kaldırmalıyız ve kullanıcı bir şey yazmadan
 çıkarsa o zamanda genel yazdığımız metni geri getirmeliyiz.
 
-[sourcecode language="javascript"] var aramaKutusu = \$("\#aramaAlani");
+[sourcecode language="javascript"] var aramaKutusu = $("#aramaAlani");
 var aramaKutusuBasDeg = "Aranacak Kelime"; aramaKutusu.attr("value",
 aramaKutusuBasDeg); aramaKutusu.focus(function(){
-if(jQuery.trim(\$(this).attr("value")) == aramaKutusuBasDeg)
-\$(this).attr("value", ""); }); aramaKutusu.blur(function(){
-if(jQuery.trim(\$(this).attr("value")) == "") \$(this).attr("value",
+if(jQuery.trim($(this).attr("value")) == aramaKutusuBasDeg)
+$(this).attr("value", ""); }); aramaKutusu.blur(function(){
+if(jQuery.trim($(this).attr("value")) == "") $(this).attr("value",
 aramaKutusuBasDeg); }) [/sourcecode]
 
 **Güncelleme:** Bu kullanımın daha basit bir şekli var. yedincisenol'un
@@ -88,13 +88,13 @@ yazdığı kod daha basit ve kullanışlı.
 (o.value==o.defaultValue){o.value="";} else
 if(o.value==""){o.value=o.defaultValue;}o.onblur=function(){doldur(o)}}
 [/sourcecode] ve kodu sonra çağırmak için (jquery ile) [sourcecode
-language="javascript"] \$("\#inputId").focus(function(){ doldur(this)
+language="javascript"] $("#inputId").focus(function(){ doldur(this)
 }); [/sourcecode]
 
 veya html içinden
 
-[sourcecode language="html"] \<input name="adınız" value="Adınızı
-girini" onfocus="doldur(this)"/\> [/sourcecode]
+[sourcecode language="html"] <input name="adınız" value="Adınızı
+girini" onfocus="doldur(this)"/> [/sourcecode]
 
 Kod için yedincisenol'a teşekkürler
 
@@ -105,21 +105,21 @@ stil tanımlarız. Bunu javascript ile uzun yoldan yaparken jquery ile tek
 satır kod ile yapabiliyoruz
 
 [sourcecode
-language="javascript"]\$("tr:nth-child(odd)").addClass("farkliSatir");[/sourcecode]
+language="javascript"]$("tr:nth-child(odd)").addClass("farkliSatir");[/sourcecode]
 
 ### 8 - Çok tekrarlanan seçicileri bir değişkene tanımlamak
 
-[sourcecode language="javascript"] \$('p.ilkParagraf').css ('color',
-'\#000000'); \$('p.ilkParagraf').text ('Giriş');
-\$('p.ilkParagraf').addClass ('yazi'); \$('p.ilkParagraf').fadeTo (1000,
+[sourcecode language="javascript"] $('p.ilkParagraf').css ('color',
+'#000000'); $('p.ilkParagraf').text ('Giriş');
+$('p.ilkParagraf').addClass ('yazi'); $('p.ilkParagraf').fadeTo (1000,
 1); [/sourcecode]
 
 Yukarıdaki gibi bir kullanımda çok fazla tekrarlayan bir seçiciye bir
 değişkene atayıp daha optimum bir kod elde edebiliriz.
 
-[sourcecode language="javascript"] var \$p = \$('p.ilkParagraf');
-\$p.css ('color', '\#000000'); \$p.text ('Giriş'); \$p.addClass
-('yazi'); \$p.fadeTo (1000, 1); [/sourcecode]
+[sourcecode language="javascript"] var $p = $('p.ilkParagraf');
+$p.css ('color', '#000000'); $p.text ('Giriş'); $p.addClass
+('yazi'); $p.fadeTo (1000, 1); [/sourcecode]
 
 Bu kullanım ile eleman ilk başta bir değişkene atanıp ön belleğe
 alınıyor ve daha hızlı erişiliyor.

@@ -17,16 +17,16 @@ koyarız. (Sliding Door) esnek yapılar olarak adlandırılan yöntem
 kullandığımızda başımıza geliyor.
 
 [sourcecode language="css"] a { display:block; float:left; width:auto;
-background:url(cancanli\_butonlar\_ard.gif) 0 0 no-repeat;
+background:url(cancanli_butonlar_ard.gif) 0 0 no-repeat;
 text-decoration:none; font-size:14px; font-weight:bold } a span {
-display:block; float:left; background:url(cancanli\_butonlar\_ard.gif)
+display:block; float:left; background:url(cancanli_butonlar_ard.gif)
 right -36px no-repeat; height:28px; width:150px; padding:0 20px;
-line-height:28px; color:\#363636 } [/sourcecode]
+line-height:28px; color:#363636 } [/sourcecode]
 
 HTML kodu
 
-[sourcecode language="html"] \<a href="\#"\>\<span\>Örnek Buton
-Metni\</span\>\</a\> [/sourcecode]
+[sourcecode language="html"] <a href="#"><span>Örnek Buton
+Metni</span></a> [/sourcecode]
 
 Örneği görmek için [tıklayınız.][]
 
@@ -45,9 +45,9 @@ tarayıcılarda normal olarak el işareti görüntülenecektir.
 Çözümü çok basit tabi
 
 [sourcecode language="css" highlight="9"] a span { display:block;
-float:left; background:url(cancanli\_butonlar\_ard.gif) right -36px
+float:left; background:url(cancanli_butonlar_ard.gif) right -36px
 no-repeat; height:28px; width:150px; padding:0 20px; line-height:28px;
-color:\#363636; cursor:pointer } [/sourcecode]
+color:#363636; cursor:pointer } [/sourcecode]
 
 cursor:pointer özelliğini eklemek yeterli oluyor.
 

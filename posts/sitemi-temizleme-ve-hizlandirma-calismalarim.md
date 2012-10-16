@@ -8,10 +8,10 @@ başladım. Siteyi daha hızlı hale nasıl getirebilirim diye araştırdım.
 Tam olarak bir karar veremesem de cach ile ilgili bir eklenti kurmayı
 düşünüyordum. Muhammet Sevim’in önerisi üzerine [wp-Cache][] eklentisini
 kurdum. Ayrıca eklentileri kurunca veritabanına bir sürü tablo atıyor
-Wordpress, bunun yanında sitenin hızını etkileyecek wp\_options
+Wordpress, bunun yanında sitenin hızını etkileyecek wp_options
 tablosunu değerler atıyor. WordPress’in eksikliklerinden birisi eklenti
 eklerken oluşturduğu tabloları ve diğer bilgileri kaldıramıyoruz.
-dmry.net'de [bahsedilen][] eklenti ile wp\_options’taki bilgileri
+dmry.net'de [bahsedilen][] eklenti ile wp_options’taki bilgileri
 silebiliyoruz. (Tablodaki girdi sayısını 336'dan 229'a indirdim) Ama
 eklentiye ait tüm bilgileri silemiyoruz. WordPress için Windows’daki
 Program Ekle/Kaldır’ın kaldırı gibi eklenen eklentinin tüm bileşenlerini

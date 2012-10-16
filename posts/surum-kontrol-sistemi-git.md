@@ -84,11 +84,11 @@ satırlarını kullanıyoruz.
 **git status:** Bulunduğumuz durumu gösteren koddur. Yapılan
 değişiklikleri, eklemeler ve silinen dosyaları gösterir.
 
-[php] \$git status [/php]
+[php] $git status [/php]
 
 **git branch:**Oluşturulan dallanmaları(brach) görmek için
 
-[php] \$git branch [/php]
+[php] $git branch [/php]
 
 **git-create-branch:** Bu kod sadece bizim şirkete özel bir kod,
 (kendime notlar) :D Yeni bir dallanma(branch) oluşturmak için. -x
@@ -97,43 +97,43 @@ kullanılan iki kategori var düzeltme(fix) ve özellik(feature).
 Düzeltme(fix) için -x ; Özellik(feature) için -e kısa yollarını
 kullanıyoruz.
 
-[php] \$git-create-branch -x dallanma\_ismi [/php]
+[php] $git-create-branch -x dallanma_ismi [/php]
 
 **git pull:**master’dan güncel hali almak için
 
-[php] \$git pull [/php]
+[php] $git pull [/php]
 
 **git add:**Depoya bir dosya eklemek için
 
-[php] \$git add dosya\_yolu/dosya\_adi [/php]
+[php] $git add dosya_yolu/dosya_adi [/php]
 
 Birden fazla dosya eklemek için arada boşluk bırakarak ekleme
 yapılabiliyor.
 
-[php] \$git add dosya\_yolu/dosya\_adi dosya\_yolu/dosya\_adi
-dosya\_yolu/dosya\_adi [/php]
+[php] $git add dosya_yolu/dosya_adi dosya_yolu/dosya_adi
+dosya_yolu/dosya_adi [/php]
 
 **git commit:** Değişiklikleri yaptıktan sonra yorum ekliyoruz. -am
 kısaltması all ve message baş harflerini ifade eder.
 
-[php] \$git commit -am "yorum\_yaz" [/php]
+[php] $git commit -am "yorum_yaz" [/php]
 
 **git push:** Yorumu yazdıktan sonra dosyaları gönderiyoruz
 
-[php] \$git push [/php]
+[php] $git push [/php]
 
 **git checkout:** Dallanma(Branch) değiştirmek için   
 
-[php] \$git checkout branch\_ismi [/php]
+[php] $git checkout branch_ismi [/php]
 
 ilk defa geçilen bir branch ise   
 
-[php] \$git checkout origin/feature/branch\_ismi --track [/php]
+[php] $git checkout origin/feature/branch_ismi --track [/php]
 
 **git grep:** Mevcut branch içinde bir kelime veya ifadeleri bulamak
 için
 
-[php] \$git grep "aranacak\_kelime" [/php]
+[php] $git grep "aranacak_kelime" [/php]
 
 komutunu kullanıyoruz.
 
@@ -141,25 +141,25 @@ komutunu kullanıyoruz.
 şeyler yaptı ise çakışma(conflict) oluyor, düzeltmek için
 birleştirme(merge) işlemini yapıyoruz.
 
-[php] \$git merge master [/php]
+[php] $git merge master [/php]
 
 veya
 
-[php] \$git merge origin [/php]
+[php] $git merge origin [/php]
 
 yapıp değişiklikleri görebiliyoruz. Bu komutu yazdıktan sonra çakışmanın
 olduğu dosyayı açıyoruz.
 
-\# MASTER / ORIGIN
+# MASTER / ORIGIN
 
 git merge master  
 git merge origin
 
-\# \<\<\<\<\< HEAD  
+# <<<<< HEAD  
 @MASTER  
 ======================  
 @REVISION-2  
-\>\>\>\>\>\>\>\>\>\>\>\>
+>>>>>>>>>>>>
 
 Şeklinde bir işaretlerle karşılaşırız. Burada hangi alan doğru ise onu
 bırakıp diğer alanı silerek dosyayı kaydediyoruz ve dosyanın son hali o
@@ -167,7 +167,7 @@ oluyor.
 
 **git help:** son olarak bir komut hakkında yardım almak için   
 
-[php] \$git help komut\_adi [/php]
+[php] $git help komut_adi [/php]
 
 ile komut hakkında bilgi alabiliyoruz.
 
@@ -187,12 +187,12 @@ Kaynaklar
 -   [http://www.kodcu.com/2011/04/git-mi-subversion-mi/][]
 -   [http://net.tutsplus.com/tutorials/other/the-perfect-workflow-with-git-github-and-ssh/][]
 -   [http://net.tutsplus.com/tutorials/other/easy-version-control-with-git/][]
--   [http://tr.wikipedia.org/wiki/S%C3%BCr%C3%BCm\_Kontrol\_Sistemi][]
--   [http://book.git-scm.com/4\_finding\_with\_git\_grep.html][]
+-   [http://tr.wikipedia.org/wiki/S%C3%BCr%C3%BCm_Kontrol_Sistemi][]
+-   [http://book.git-scm.com/4_finding_with_git_grep.html][]
 -   [http://www.kitware.com/products/html/DistributedVersionControlTheFutureOfHistory.html][]
 -   [http://www.ndpsoftware.com/git-cheatsheet.html][]
 -   [http://www.kimbs.cn/2010/11/git-essence/][]
--   [http://people.core.gen.tr/\~aycan.irican/web/publish/GitSKS.html][]
+-   [http://people.core.gen.tr/~aycan.irican/web/publish/GitSKS.html][]
     (1)
 
 </p>
@@ -212,10 +212,10 @@ Kaynaklar
     http://net.tutsplus.com/tutorials/other/the-perfect-workflow-with-git-github-and-ssh/
   [http://net.tutsplus.com/tutorials/other/easy-version-control-with-git/]:
     http://net.tutsplus.com/tutorials/other/easy-version-control-with-git/
-  [http://tr.wikipedia.org/wiki/S%C3%BCr%C3%BCm\_Kontrol\_Sistemi]: http://tr.wikipedia.org/wiki/S%C3%BCr%C3%BCm_Kontrol_Sistemi
-  [http://book.git-scm.com/4\_finding\_with\_git\_grep.html]: http://book.git-scm.com/4_finding_with_git_grep.html
+  [http://tr.wikipedia.org/wiki/S%C3%BCr%C3%BCm_Kontrol_Sistemi]: http://tr.wikipedia.org/wiki/S%C3%BCr%C3%BCm_Kontrol_Sistemi
+  [http://book.git-scm.com/4_finding_with_git_grep.html]: http://book.git-scm.com/4_finding_with_git_grep.html
   [http://www.kitware.com/products/html/DistributedVersionControlTheFutureOfHistory.html]:
     http://www.kitware.com/products/html/DistributedVersionControlTheFutureOfHistory.html
   [http://www.ndpsoftware.com/git-cheatsheet.html]: http://www.ndpsoftware.com/git-cheatsheet.html
   [http://www.kimbs.cn/2010/11/git-essence/]: http://www.kimbs.cn/2010/11/git-essence/
-  [http://people.core.gen.tr/\~aycan.irican/web/publish/GitSKS.html]: http://people.core.gen.tr/%7Eaycan.irican/web/publish/GitSKS.html
+  [http://people.core.gen.tr/~aycan.irican/web/publish/GitSKS.html]: http://people.core.gen.tr/%7Eaycan.irican/web/publish/GitSKS.html

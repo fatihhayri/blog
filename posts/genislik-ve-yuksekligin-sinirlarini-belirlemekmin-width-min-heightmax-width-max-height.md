@@ -9,9 +9,9 @@ ile sınarlandırabilriz. Bu özellikler CSS2 ile birlikte gelmiştir.
 
 ###### min-width, min-height
 
-**Yapısı :** min-width, min-height: \<deger\>  
-**Aldığı Değerler :** [\<uzunluk değeri \>][] | [\<yüzde\>][\<uzunluk
-değeri \>] | inherit  
+**Yapısı :** min-width, min-height: <deger>  
+**Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk
+değeri >] | inherit  
 **Başlnagıç değeri:** 0   
 **Uygulanabilen elementler:** inline nonreplacement elementler ve tablo
 elementlere  
@@ -41,9 +41,9 @@ Aynı şekilde max-width ve max-height tanımlamalarıda yapılır.
 
 ###### max-width, max-height
 
-**Yapısı :** max-width, max-height: \<deger\>  
-**Aldığı Değerler :** [\<uzunluk değeri \>][] | [\<yüzde\>][\<uzunluk
-değeri \>] | none | inherit  
+**Yapısı :** max-width, max-height: <deger>  
+**Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk
+değeri >] | none | inherit  
 **Başlnagıç değeri:** 0   
 **Uygulanabilen elementler:** inline nonreplacement elementler ve tablo
 elementlere  
@@ -77,9 +77,9 @@ IE için bir çözüm vardır. **expression()** özelliği bu özellik sadece IE
 tarafından yorumlanır. Bu özellik dinamik özellik olarak tanımlanır.
 Yani bu kod normalde bir javascript kodudur.
 
-[sourcecode language='css'] \#icerik { min-width: 600px; max-width:
-1200px; width:expression(document.body.clientWidth \< 600? "600px" :
-document.body.clientWidth \> 1200? "1200px" : "auto"); }
+[sourcecode language='css'] #icerik { min-width: 600px; max-width:
+1200px; width:expression(document.body.clientWidth < 600? "600px" :
+document.body.clientWidth > 1200? "1200px" : "auto"); }
 
 <div id="icerik">
 ....
@@ -94,9 +94,9 @@ atanan değeri alacak değilse auto değeri alacaktır.
 
 Ayrıca min-height için daha kısa bir çözüm vardır
 
-[sourcecode language='css'] \#menu { min-height:500px; height:auto
+[sourcecode language='css'] #menu { min-height:500px; height:auto
 !important; height:500px; } [/sourcecode]
 
 </p>
 
-  [\<uzunluk değeri \>]: http://www.fatihhayrioglu.com/?p=95
+  [<uzunluk değeri >]: http://www.fatihhayrioglu.com/?p=95

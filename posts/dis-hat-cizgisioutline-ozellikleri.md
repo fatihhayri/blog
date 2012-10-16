@@ -36,7 +36,7 @@ erişmesini sağlamak değil mi?
 
 Dış hat çizgisinin biçemini belirlemek için kullanırız.
 
-**Yapısı:** outline-style: \<deger\>  
+**Yapısı:** outline-style: <deger>  
 **Aldığı değerler:** none | dotted | dashed | solid | double | groove |
 ridge | inset | outset | inherit  
 **Başlangıç değeri:** none **Uygulanabilen elemanlar:** Tüm elemanlara
@@ -73,14 +73,14 @@ CSS 2+
 Atandığı elemanın dışına çizilen hattın kalınlığını belirlemek için
 kullanırız.
 
-**Yapısı:** outline-width: \<deger\>  
+**Yapısı:** outline-width: <deger>  
 **Aldığı değerler:** thin | medium | thick | length | inherit  
 **Başlangıç değeri:** Medium  
 **Uygulanabilen elemanlar:** Tüm elemanlara  
 **Kalıtsallık:** Yok
 
 Dış hat çizgisi genişliği border-width gibi CSS uzunluk değerlerini (px,
-pt, em) ve anahtar kelimeler(thin \<= medium \<= thick) alır, ancak
+pt, em) ve anahtar kelimeler(thin <= medium <= thick) alır, ancak
 yüzde değer ve eksi değer almaz.
 
 <div class="tarayiciuyum">
@@ -97,7 +97,7 @@ CSS 2+
 Atandığı elemanın dışına çizilen hattın rengini belirlemek için
 kullanırız.
 
-**Yapısı:** outline-color: \<deger\>  
+**Yapısı:** outline-color: <deger>  
 **Aldığı Değerler:** color | invert | inherit  
 **Başlangıç değeri:** invert  
 **Uygulanabilen elemanlar:** tüm elemanlara  
@@ -120,9 +120,9 @@ CSS 2+
 Dış hat çizgisi(outline) özelliği yukarıda gördüğümüz özelliklerin tek
 seferde kullanılmasını sağlayan bir kısa yoldur.
 
-**Yapısı:** outline: \<deger\>  
-**Aldığı Değerler:** [ \<outline-color\> || \<outline-style\> ||
-\<outlinewidth\>] | inherit  
+**Yapısı:** outline: <deger>  
+**Aldığı Değerler:** [ <outline-color> || <outline-style> ||
+<outlinewidth>] | inherit  
 **Başlangıç değeri:** Tanımlı değildir  
 **Uygulanabilen elemanlar:** Tüm elemanlara  
 **Kalıtsallık:** Yok

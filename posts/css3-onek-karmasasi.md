@@ -30,25 +30,25 @@ Bir örnek vererek işin ne kadar kötü göründüğüne bakabiliriz. CSS renk
 geçişi özelliğini tanımlamak için bir kod yazmamız gerektiğinde
 aşağıdaki gibi bir kod bloğunu eklememiz gerekiyor.
 
-[css] background: \#1e5799; /\* Old browsers \*/ background:
--moz-linear-gradient(top, \#1e5799 0%, \#2989d8 50%, \#207cca 51%,
-\#7db9e8 100%); /\* FF3.6+ \*/ background: -webkit-gradient(linear, left
-top, left bottom, color-stop(0%,\#1e5799), color-stop(50%,\#2989d8),
-color-stop(51%,\#207cca), color-stop(100%,\#7db9e8)); /\*
-Chrome,Safari4+ \*/ background: -webkit-linear-gradient(top, \#1e5799
-0%,\#2989d8 50%,\#207cca 51%,\#7db9e8 100%); /\* Chrome10+,Safari5.1+
-\*/ background: -o-linear-gradient(top, \#1e5799 0%,\#2989d8
-50%,\#207cca 51%,\#7db9e8 100%); /\* Opera 11.10+ \*/ background:
--ms-linear-gradient(top, \#1e5799 0%,\#2989d8 50%,\#207cca 51%,\#7db9e8
-100%); /\* IE10+ \*/ background: linear-gradient(top, \#1e5799
-0%,\#2989d8 50%,\#207cca 51%,\#7db9e8 100%); /\* W3C \*/ filter:
-progid:DXImageTransform.Microsoft.gradient( startColorstr='\#1e5799',
-endColorstr='\#7db9e8',GradientType=0 ); /\* IE6-9 \*/ [/css]
+[css] background: #1e5799; /* Old browsers */ background:
+-moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%,
+#7db9e8 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left
+top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8),
+color-stop(51%,#207cca), color-stop(100%,#7db9e8)); /*
+Chrome,Safari4+ */ background: -webkit-linear-gradient(top, #1e5799
+0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+
+*/ background: -o-linear-gradient(top, #1e5799 0%,#2989d8
+50%,#207cca 51%,#7db9e8 100%); /* Opera 11.10+ */ background:
+-ms-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8
+100%); /* IE10+ */ background: linear-gradient(top, #1e5799
+0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C */ filter:
+progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799',
+endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */ [/css]
 
 Şeklinde bir renk geçişi tanımı göz korkutuyor. Bu kod aslında tek satır
 
-[css] background: linear-gradient(top, \#1e5799 0%,\#2989d8 50%,\#207cca
-51%,\#7db9e8 100%); [/css]
+[css] background: linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca
+51%,#7db9e8 100%); [/css]
 
 Ancak farklı tarayıcılar için kod yazınca yukarıdaki hali alıyor.
 
@@ -107,8 +107,8 @@ tanımlarımızı bu tanım üzerinden yaparak önek sorununu halledebiliriz.
 
 **SASS**
 
-[css] @mixin border-radius(\$values) { -webkit-border-radius: \$values;
--moz-border-radius: \$values; border-radius: \$values; } div { @include
+[css] @mixin border-radius($values) { -webkit-border-radius: $values;
+-moz-border-radius: $values; border-radius: $values; } div { @include
 border-radius(10px); } [/css] [css] .border-radius(@values) {
 -webkit-border-radius: @values; -moz-border-radius: @values;
 border-radius: @values; } div { .border-radius(10px); } [/css]
@@ -154,11 +154,11 @@ Zamanla göreceği bakalım neler olacak.
 -   [http://www.webresourcesdepot.com/instantly-prefix-css3-code-prefixmycss/][]
     (araçlar)
 -   [http://reference.sitepoint.com/css/vendorspecific][]
--   [http://www.quirksmode.org/blog/archives/2010/03/css\_vendor\_pref.html][]
+-   [http://www.quirksmode.org/blog/archives/2010/03/css_vendor_pref.html][]
 -   [http://www.mightymeta.co.uk/1103/no-more-need-for-some-css3-vendor-prefixes/][]
 -   [http://www.alistapart.com/articles/prefix-or-posthack/][]
 -   [http://www.webmonkey.com/2010/09/firefox-4-to-drop-some-css-vendor-prefixes/][]
--   [http://snook.ca/archives/html\_and\_css/not-supported][]
+-   [http://snook.ca/archives/html_and_css/not-supported][]
 -   [http://css-tricks.com/7361-ordering-css3-properties/][]
 -   [http://coding.smashingmagazine.com/2011/10/12/prefixfree-break-free-from-css-prefix-hell/][]
     (çözüm)
@@ -195,14 +195,14 @@ Zamanla göreceği bakalım neler olacak.
   [http://www.webresourcesdepot.com/instantly-prefix-css3-code-prefixmycss/]:
     http://www.webresourcesdepot.com/instantly-prefix-css3-code-prefixmycss/
   [http://reference.sitepoint.com/css/vendorspecific]: http://reference.sitepoint.com/css/vendorspecific
-  [http://www.quirksmode.org/blog/archives/2010/03/css\_vendor\_pref.html]:
+  [http://www.quirksmode.org/blog/archives/2010/03/css_vendor_pref.html]:
     http://www.quirksmode.org/blog/archives/2010/03/css_vendor_pref.html
   [http://www.mightymeta.co.uk/1103/no-more-need-for-some-css3-vendor-prefixes/]:
     http://www.mightymeta.co.uk/1103/no-more-need-for-some-css3-vendor-prefixes/
   [http://www.alistapart.com/articles/prefix-or-posthack/]: http://www.alistapart.com/articles/prefix-or-posthack/
   [http://www.webmonkey.com/2010/09/firefox-4-to-drop-some-css-vendor-prefixes/]:
     http://www.webmonkey.com/2010/09/firefox-4-to-drop-some-css-vendor-prefixes/
-  [http://snook.ca/archives/html\_and\_css/not-supported]: http://snook.ca/archives/html_and_css/not-supported
+  [http://snook.ca/archives/html_and_css/not-supported]: http://snook.ca/archives/html_and_css/not-supported
   [http://css-tricks.com/7361-ordering-css3-properties/]: http://css-tricks.com/7361-ordering-css3-properties/
   [http://coding.smashingmagazine.com/2011/10/12/prefixfree-break-free-from-css-prefix-hell/]:
     http://coding.smashingmagazine.com/2011/10/12/prefixfree-break-free-from-css-prefix-hell/

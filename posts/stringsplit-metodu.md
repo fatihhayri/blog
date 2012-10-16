@@ -36,11 +36,11 @@ sonuç aşağıdaki gibi olacaktır.
 
 Bir tane de regular expression kullanarak örnek yaparsak.
 
-[sourcecode language="html"] \<html\> \<head\> \</head\> \<body\>
-\<script\> sayiRegExp = new RegExp("[0-9]", "g"); ilkDeyim =
-"A0B1C2D3E4F5G"; harfDizi = ilkDeyim.split(sayiRegExp); for(i=0; i \<
+[sourcecode language="html"] <html> <head> </head> <body>
+<script> sayiRegExp = new RegExp("[0-9]", "g"); ilkDeyim =
+"A0B1C2D3E4F5G"; harfDizi = ilkDeyim.split(sayiRegExp); for(i=0; i <
 harfDizi.length; i++) { document.write(harfDizi[i]);
-document.write("\<br/\>"); } \</script\> \</body\> \</html\>
+document.write("<br/>"); } </script> </body> </html>
 [/sourcecode]
 
 Yukarıdaki kodun sonucunda aşağıdaki gibi olacaktır.

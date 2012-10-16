@@ -10,7 +10,7 @@ Tags: blog, Firefox, Freelance, google, Haberler, Javascript, lightbox
 -   Blog işinin suyunu çıkarmayan 69 teknolojik blog. Blogların zamanla
     suyu çıkıyor ama bunlar hala taze imiş. [Link][2]
 -   Google bir satın alma daha yapmış. Postini adlı güvenlik şirketini
-    625 Milyon \$'a almış. [Link][3]
+    625 Milyon $'a almış. [Link][3]
 -   BlogcuBlogu.com'dan "Blog Yazmayı Kolaylaştıran Firefox Eklentileri"
     adlı bir makale. [Link][4]
 -   Javascript ile select elementine option eklemeyi anlatan kısa güzel

@@ -19,8 +19,8 @@ sınırlandırılabiliyor. Bize bu imkanı CSS3’ün **background-clip** ve
 sınırlarını belirler. CSS3’den önce bu sabit bir değer olarak
 padding-box idi. Bu özellik bize farklı konumlandırma imkanı sağlar.
 
-**Yapısı:** background-origin: \<bg-box\>  
-**Aldığı Değerler:**\<bg-box\> border-box | padding-box | content-box  
+**Yapısı:** background-origin: <bg-box>  
+**Aldığı Değerler:**<bg-box> border-box | padding-box | content-box  
 **Başlangıç değeri:**padding-box  
 **Uygulanabilen elementler:** Tüm elementler  
 **Kalıtsallık:** Yok
@@ -33,12 +33,12 @@ Aldığı değerleri kısaca açıklarsak
 
 ![][]
 
-[css] \#kutu1 { -moz-background-origin: border;
+[css] #kutu1 { -moz-background-origin: border;
 -webkit-background-origin: border; -webkit-background-origin:
-border-box; background-origin: border-box; } \#kutu2 {
+border-box; background-origin: border-box; } #kutu2 {
 -moz-background-origin: padding; -webkit-background-origin: padding;
 -webkit-background-origin: padding-box; background-origin: padding-box;
-} \#kutu3 { -moz-background-origin: content; -webkit-background-origin:
+} #kutu3 { -moz-background-origin: content; -webkit-background-origin:
 content; -webkit-background-origin: content-box; background-origin:
 content-box; } [/css]
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/Rf6Mv/embedded/result,css,html"></iframe>
@@ -58,8 +58,8 @@ Opera 10.5
 padding dahil içerik alanı sabit olarak geliyordu, artık border alanıda
 dahil edilebiliyor veya padding alanı kapsamdan çıkarılabiliyor
 
-**Yapısı:** background-clip: \<bg-box\>  
-**Aldığı Değerler:** \<bg-box\> border-box | padding-box | content-box  
+**Yapısı:** background-clip: <bg-box>  
+**Aldığı Değerler:** <bg-box> border-box | padding-box | content-box  
 **Başlangıç değeri:** border-box  
 **Uygulanabilen elementler:** Tüm elementler  
 **Kalıtsallık:** Yok
@@ -76,15 +76,15 @@ Aldığı değerleri kısaca açıklarsak
 **border-box** tanımı eğer **background-origin:border-box** ise
 uygulanır.
 
-[css] \#kutu1{ -moz-background-origin: border;
+[css] #kutu1{ -moz-background-origin: border;
 -webkit-background-origin: border; -webkit-background-origin:
 border-box; background-origin: border-box; -moz-background-clip:border;
 -webkit-background-clip:border; -webkit-background-clip:border-box;
-background-clip:border-box; } \#kutu2{ -moz-background-origin: border;
+background-clip:border-box; } #kutu2{ -moz-background-origin: border;
 -webkit-background-origin: border; -webkit-background-origin:
 border-box; -moz-background-clip:padding;
 -webkit-background-clip:padding; -webkit-background-clip:padding-box;
-background-clip:padding-box; } \#kutu3{ -moz-background-origin: border;
+background-clip:padding-box; } #kutu3{ -moz-background-origin: border;
 -webkit-background-origin: border; -webkit-background-origin:
 border-box; -moz-background-clip:content;
 -webkit-background-clip:content; -webkit-background-clip:content-box;
@@ -124,7 +124,7 @@ Chrome ve Safari desteklemektedir. Bu değer atandığında metinin
 ardalanına resim uygulanıyor geri kalan kısımlara ise saydam ardalan
 olarak kalıyor.
 
-[css] \#kutu1 { -moz-background-origin: border;
+[css] #kutu1 { -moz-background-origin: border;
 -webkit-background-origin: border; -webkit-background-origin:
 border-box; background-origin: border-box; -webkit-background-clip:text;
 -webkit-text-fill-color:transparent; font:bold 72px Arial, Helvetica,
@@ -141,7 +141,7 @@ Chrome ve Safari desteklediği için pek kullanışlı değil.
 -   [http://www.css3.info/preview/background-origin-and-background-clip/][]
 -   [http://www.w3.org/TR/css3-background/][]
 -   [http://www.quirksmode.org/css/background.html][]
--   [http://www.w3schools.com/cssref/css3\_pr\_background-clip.asp][]
+-   [http://www.w3schools.com/cssref/css3_pr_background-clip.asp][]
 -   [http://www.standardista.com/css3/css3-background-properties/][]
 -   [http://css-tricks.com/7423-transparent-borders-with-background-clip/][]
 -   [https://developer.mozilla.org/en/CSS/background-clip][]
@@ -168,7 +168,7 @@ Chrome ve Safari desteklediği için pek kullanışlı değil.
     http://www.css3.info/preview/background-origin-and-background-clip/
   [http://www.w3.org/TR/css3-background/]: http://www.w3.org/TR/css3-background/
   [http://www.quirksmode.org/css/background.html]: http://www.quirksmode.org/css/background.html
-  [http://www.w3schools.com/cssref/css3\_pr\_background-clip.asp]: http://www.w3schools.com/cssref/css3_pr_background-clip.asp
+  [http://www.w3schools.com/cssref/css3_pr_background-clip.asp]: http://www.w3schools.com/cssref/css3_pr_background-clip.asp
   [http://www.standardista.com/css3/css3-background-properties/]: http://www.standardista.com/css3/css3-background-properties/
   [http://css-tricks.com/7423-transparent-borders-with-background-clip/]:
     http://css-tricks.com/7423-transparent-borders-with-background-clip/

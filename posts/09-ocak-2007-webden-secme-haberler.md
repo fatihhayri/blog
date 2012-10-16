@@ -18,7 +18,7 @@ Tags: arama motoru, CSS, Firefox, google reader, html, tab, tipografi, web2.0, y
 -   Firefox 2006'da çok büyük çıkış yapmış [Link][6]
 -   Browster linklerin nereye gittiğini bize küçük resimle gösteriyormuş
     [Link][7]
--   Yahoo 10 Milyon \$'a [MyBlogLog][] satın aldığı söylentileri var.
+-   Yahoo 10 Milyon $'a [MyBlogLog][] satın aldığı söylentileri var.
 -   [Dreamweaver Sayfası][]ndan çok güzel bir makale **Dreamweaver ve
     CSS Kullanarak Sayfa Ara Yüz Tasarımı (Layout) Yapmak** [Link][8]
 

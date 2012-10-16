@@ -107,14 +107,14 @@ Kalın sağlıcakla
     1.konu
 -   [http://phrogz.net/css/WhyTablesAreBadForLayout.html][] (madde
     madde)
--   [http://resources.bravenet.com/articles/site\_building/CSS/tables\_bad\_css\_good/][]
+-   [http://resources.bravenet.com/articles/site_building/CSS/tables_bad_css_good/][]
     (genel anlatım)
 -   [http://www.sitepoint.com/article/tables-vs-css/][] (güzel anlatım,
     ama geniş)
 -   [http://webdesign.about.com/od/layout/a/aa111102a.htm][] (güzel)
 -   [http://www.chromaticsites.com/web-design-blog/2008-04-03/13-reasons-why-css-is-superior-to-tables-in-website-design/][]
     (çok geniş ve güze lanlatım)
--   [http://www.andybudd.com/archives/2004/05/an\_objective\_look\_at\_table\_based\_vs\_css\_based\_design/][]
+-   [http://www.andybudd.com/archives/2004/05/an_objective_look_at_table_based_vs_css_based_design/][]
     (farklı bakış açısı)
 -   [http://www.stopdesign.com/present/2004/ddw-seattle/tables/][]
     (grafiklerle anlatım)
@@ -132,13 +132,13 @@ Kalın sağlıcakla
   [http://www.smashingmagazine.com/2009/04/08/from-table-hell-to-div-hell/]:
     http://www.smashingmagazine.com/2009/04/08/from-table-hell-to-div-hell/
   [http://phrogz.net/css/WhyTablesAreBadForLayout.html]: http://phrogz.net/css/WhyTablesAreBadForLayout.html
-  [http://resources.bravenet.com/articles/site\_building/CSS/tables\_bad\_css\_good/]:
+  [http://resources.bravenet.com/articles/site_building/CSS/tables_bad_css_good/]:
     http://resources.bravenet.com/articles/site_building/CSS/tables_bad_css_good/
   [http://www.sitepoint.com/article/tables-vs-css/]: http://www.sitepoint.com/article/tables-vs-css/
   [http://webdesign.about.com/od/layout/a/aa111102a.htm]: http://webdesign.about.com/od/layout/a/aa111102a.htm
   [http://www.chromaticsites.com/web-design-blog/2008-04-03/13-reasons-why-css-is-superior-to-tables-in-website-design/]:
     http://www.chromaticsites.com/web-design-blog/2008-04-03/13-reasons-why-css-is-superior-to-tables-in-website-design/
-  [http://www.andybudd.com/archives/2004/05/an\_objective\_look\_at\_table\_based\_vs\_css\_based\_design/]:
+  [http://www.andybudd.com/archives/2004/05/an_objective_look_at_table_based_vs_css_based_design/]:
     http://www.andybudd.com/archives/2004/05/an_objective_look_at_table_based_vs_css_based_design/
   [http://www.stopdesign.com/present/2004/ddw-seattle/tables/]: http://www.stopdesign.com/present/2004/ddw-seattle/tables/
   [http://osman.borutecene.com/tablosuz-tasarim-fetisi-ve-erisilebilirligi-zayif-web-standartlari/]:

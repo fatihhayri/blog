@@ -52,10 +52,10 @@ Umarım herkesin yararlanacağı bir Türkçe kaynak olur.
     çalışmıyor.
 -   @crazy- 27.sayfanın ilk kelimesi "kullanılırız." olması biraz garip
     kaçmış. Bu kelime "kullanılır" veya "kullanırız" şeklimde olmalı.
--   @Barış Saraç - Sayfa 134 -\> "Aldıgı Degerler: disc | " Doğrusu
+-   @Barış Saraç - Sayfa 134 -> "Aldıgı Degerler: disc | " Doğrusu
     "Aldıgı Degerler: disk |  
-    sayfa 156 -\> "kullanıldıgında soruna nende oluyor."  
-    sayfa 165 -\> 2. h1 kodu doğrusu h1.diğer olmalı
+    sayfa 156 -> "kullanıldıgında soruna nende oluyor."  
+    sayfa 165 -> 2. h1 kodu doğrusu h1.diğer olmalı
 -   @helzvog - Fatih Hayrioglu, 1978 Trabzon/Sürmene dogmustur. 'de veya
     doğumludur şeklinde olması gerekliydi.
 -   @Hakan - 15.sayfada Sitenizde tam DOCTYPE bildirimi ve strict DTD

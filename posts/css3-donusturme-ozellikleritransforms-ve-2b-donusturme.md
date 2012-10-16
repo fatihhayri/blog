@@ -41,7 +41,7 @@ Genel kullanımı
 
 <div class="cssozelliktanimi">
 **Yapısı :** transform: none |
-\<dönüştürme-fonksiyonu\>[\<dönüştürme-fonksiyonu\>]\*  
+<dönüştürme-fonksiyonu>[<dönüştürme-fonksiyonu>]*  
 **Aldığı Değerler :** [ none | matrix | translte | translateX |
 translateY | scale | scaleX | scaleY | rotate | skew | skewX | skewY ]  
 **Başlangıç değeri:** none   
@@ -64,10 +64,10 @@ Dönüşümün orjin olarak nereye referans alacağını tanımlamamızı sağla
 
 <div class="cssozelliktanimi">
 **Yapısı :** transform-origin: deger deger  
-**Aldığı Değerler :** [ [ [ \<yüzde\> | \<değer\> | left | center |
-right ] [ \<yüzde\>
-|\<değer\>|top|center|bottom]?]\<değer\>?]|[[[left|center| right ] || [
-top | center | bottom ] ] \<değer\>? ]  
+**Aldığı Değerler :** [ [ [ <yüzde> | <değer> | left | center |
+right ] [ <yüzde>
+|<değer>|top|center|bottom]?]<değer>?]|[[[left|center| right ] || [
+top | center | bottom ] ] <değer>? ]  
 **Başlangıç değeri:** 50% 50%  
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
@@ -123,7 +123,7 @@ kullanımı vardır.
 
 Bir örnek yapalım;
 
-[css] \#tasinan{        transform:translate(150px,100px);   } [/css]
+[css] #tasinan{        transform:translate(150px,100px);   } [/css]
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/s6hZX/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 **- Eksene Özgü Yöntemler**
@@ -133,11 +133,11 @@ translateY özelliklerini kullanabiliriz.
 
 Yukarıdaki örneği
 
-[css] \#tasinan{        transform:translateX(150px);    } [/css]
+[css] #tasinan{        transform:translateX(150px);    } [/css]
 
 aynı şekilde y ekseninde hareket için
 
-[css] \#tasinan{        transform:translateY(100px);    } [/css]
+[css] #tasinan{        transform:translateY(100px);    } [/css]
 
 şeklinde uygulanabilir.
 
@@ -147,7 +147,7 @@ aynı şekilde y ekseninde hareket için
 animasyon oluşturabiliriz. Hem translate özelliğini daha iyi anlamış
 oluruz.
 
-[css] \#tasinan{            transition: all 5s;    } [/css]
+[css] #tasinan{            transition: all 5s;    } [/css]
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/AF5hS/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Fare imlecinin mavi alan üzerine getirdiğimizde animasyonlu bir şekilde
@@ -201,9 +201,9 @@ büyütebilir veya küçültebiliriz.
 
 3 adet ölçeklendirme fonksiyonu vardır.
 
--   scale(\<sayı\>[, \<sayı\>])
--   scaleX(\<sayı\>)
--   scaleY(\<sayı\>)
+-   scale(<sayı>[, <sayı>])
+-   scaleX(<sayı>)
+-   scaleY(<sayı>)
 
 Bir örnek ile konuyu daha iyi anlayalım.
 
@@ -242,9 +242,9 @@ skew ile eleman veya eleman gruplarına X ve Y eksenin için belirli
 açılar verilerek eğiklik ve yamukluk elde edebiliyoruz. 3 adet skew
 tanımımız vardır;
 
--   skew(\<açı\> [, \<açı\>])
--   skewX(\<açı\>)
--   skewY(\<açı\>)
+-   skew(<açı> [, <açı>])
+-   skewX(<açı>)
+-   skewY(<açı>)
 
 Eğiklik tanımı yaparken tek tanım yapabildiğimiz gibi iki tanım ile x ve
 y için farklı açı değerleride belirleyebiliyoruz.
@@ -306,7 +306,7 @@ Bu yazımı css koduna çevirirsek;
 [css] transform: matrix(1.5, 0, 0, 1.2, 0, 0) [/css]
 
 Matris değerleri hakkında daha fazla bilgi için
-[http://www.w3.org/TR/SVG/coords.html\#EstablishingANewUserSpace][]
+[http://www.w3.org/TR/SVG/coords.html#EstablishingANewUserSpace][]
 inceleyin.
 
 ### Çevrimiçi Dönüşüm Aracı
@@ -361,7 +361,7 @@ sağlayacaktır.
     çözüm)
 -   [http://www.standardista.com/css3-transforms][]
 -   [http://www.webdesigncreare.co.uk/blog/html-css/css3-transforms.html][]
--   [http://professionalaspnet.com/archive/2011/03/17/IE9-Supports-CSS3-Transforms\_2100\_.aspx][]
+-   [http://professionalaspnet.com/archive/2011/03/17/IE9-Supports-CSS3-Transforms_2100_.aspx][]
 -   [http://www.sitepoint.com/a-primer-on-css3-transforms/][]
 -   [https://developer.mozilla.org/en/css/-moz-transform][]
 -   [http://blog.typekit.com/2011/01/25/case-study-getting-hardboiled-with-css3-2d-transforms/][]
@@ -377,12 +377,12 @@ sağlayacaktır.
 -   [http://tympanus.net/codrops/2011/10/24/creative-css3-animation-menus/][]
     (çok güzle menü örnekleri)
 -   [http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/css3-transitions-and-transforms-from-scratch/][]
--   [http://www.dynamicdrive.com/style/csslibrary/item/spinning\_icons\_using\_css3\_transform/][]
+-   [http://www.dynamicdrive.com/style/csslibrary/item/spinning_icons_using_css3_transform/][]
 -   [http://designshack.net/articles/css/mastering-mouse-enter-and-exit-events-with-css-transitions/][]
 -   [http://www.splashnology.com/article/cross-browser-2d-transformations-with-animation/1827/][]
--   [http://www.htmlgoodies.com/html5/css/learn-css3-from-a-z-2d-transformations.html\#fbid=CH7CpzZeM2i][]
+-   [http://www.htmlgoodies.com/html5/css/learn-css3-from-a-z-2d-transformations.html#fbid=CH7CpzZeM2i][]
 -   [http://johnbhall.com/iphone-4s/][] iphone 4s örnek
--   [http://www.dynamicdrive.com/style/csslibrary/item/spinning\_icons\_using\_css3\_transform/][]
+-   [http://www.dynamicdrive.com/style/csslibrary/item/spinning_icons_using_css3_transform/][]
     Basit döndirme örneği
 -   [http://css3.bradshawenterprises.com/transforms/][]
 -   [http://css3playground.com/slinky.php][]
@@ -390,7 +390,7 @@ sağlayacaktır.
     rotate ie için
 -   [http://www.impressivewebs.com/alternative-units-css3-rotate-transforms/][]
     (farklı değerler)
--   [http://www.html5rocks.com/en/tutorials/webgl/webgl\_transforms/][]
+-   [http://www.html5rocks.com/en/tutorials/webgl/webgl_transforms/][]
 -   [http://ricostacruz.com/jquery.transit/][] (jquery yardımı ile test)
 -   [http://www.blackinci.com/css/59-css3-ile-2ci-boyuta-gecis-transform.html][]
 -   [http://www.developerdrive.com/2012/02/moving-web-page-elements-using-the-css3-translate-transform/][]
@@ -410,7 +410,7 @@ sağlayacaktır.
   []: https://lh5.googleusercontent.com/JcPwBvaI5FirsLOn05KPDROBP9kw5Dxl9Mt2TSekP1JgLmmxrkn9diiKqmt0XrVg2BnkV2vp-Dh0RxNBtSV-LsW84Dc1H02k5SIGYxiEo8A4kmNUyr0
   [1]: https://lh5.googleusercontent.com/ACGi7LXZqwCP3pSpRyK21hQojElg4DfwhpwEQDziAYMe4YDZTuphSOoF6W2Ib1Y-vbcOwpYcGxGy7wIrE0YD87EYXetxAvqed9fu1VKCMFS3g1RQi1c
   [w3c’nin geliştirmekte olduğu matris sistemi]: http://www.w3.org/TR/SVG/coords.html#TransformMatrixDefined
-  [http://www.w3.org/TR/SVG/coords.html\#EstablishingANewUserSpace]: http://www.w3.org/TR/SVG/coords.html#EstablishingANewUserSpace
+  [http://www.w3.org/TR/SVG/coords.html#EstablishingANewUserSpace]: http://www.w3.org/TR/SVG/coords.html#EstablishingANewUserSpace
   [http://westciv.com/tools/transforms/index.html]: http://westciv.com/tools/transforms/index.html
   [http://www.useragentman.com/IETransformsTranslator/]: http://www.useragentman.com/IETransformsTranslator/
   [http://www.vanseodesign.com/css/transforms/]: http://www.vanseodesign.com/css/transforms/
@@ -427,7 +427,7 @@ sağlayacaktır.
   [http://www.standardista.com/css3-transforms]: http://www.standardista.com/css3-transforms
   [http://www.webdesigncreare.co.uk/blog/html-css/css3-transforms.html]:
     http://www.webdesigncreare.co.uk/blog/html-css/css3-transforms.html
-  [http://professionalaspnet.com/archive/2011/03/17/IE9-Supports-CSS3-Transforms\_2100\_.aspx]:
+  [http://professionalaspnet.com/archive/2011/03/17/IE9-Supports-CSS3-Transforms_2100_.aspx]:
     http://professionalaspnet.com/archive/2011/03/17/IE9-Supports-CSS3-Transforms_2100_.aspx
   [http://www.sitepoint.com/a-primer-on-css3-transforms/]: http://www.sitepoint.com/a-primer-on-css3-transforms/
   [https://developer.mozilla.org/en/css/-moz-transform]: https://developer.mozilla.org/en/css/-moz-transform
@@ -449,13 +449,13 @@ sağlayacaktır.
     http://tympanus.net/codrops/2011/10/24/creative-css3-animation-menus/
   [http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/css3-transitions-and-transforms-from-scratch/]:
     http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/css3-transitions-and-transforms-from-scratch/
-  [http://www.dynamicdrive.com/style/csslibrary/item/spinning\_icons\_using\_css3\_transform/]:
+  [http://www.dynamicdrive.com/style/csslibrary/item/spinning_icons_using_css3_transform/]:
     http://www.dynamicdrive.com/style/csslibrary/item/spinning_icons_using_css3_transform/
   [http://designshack.net/articles/css/mastering-mouse-enter-and-exit-events-with-css-transitions/]:
     http://designshack.net/articles/css/mastering-mouse-enter-and-exit-events-with-css-transitions/
   [http://www.splashnology.com/article/cross-browser-2d-transformations-with-animation/1827/]:
     http://www.splashnology.com/article/cross-browser-2d-transformations-with-animation/1827/
-  [http://www.htmlgoodies.com/html5/css/learn-css3-from-a-z-2d-transformations.html\#fbid=CH7CpzZeM2i]:
+  [http://www.htmlgoodies.com/html5/css/learn-css3-from-a-z-2d-transformations.html#fbid=CH7CpzZeM2i]:
     http://www.htmlgoodies.com/html5/css/learn-css3-from-a-z-2d-transformations.html#fbid=CH7CpzZeM2i
   [http://johnbhall.com/iphone-4s/]: http://johnbhall.com/iphone-4s/
   [http://css3playground.com/slinky.php]: http://css3playground.com/slinky.php
@@ -463,7 +463,7 @@ sağlayacaktır.
     http://coding.smashingmagazine.com/2010/04/28/css3-solutions-for-internet-explorer/
   [http://www.impressivewebs.com/alternative-units-css3-rotate-transforms/]:
     http://www.impressivewebs.com/alternative-units-css3-rotate-transforms/
-  [http://www.html5rocks.com/en/tutorials/webgl/webgl\_transforms/]: http://www.html5rocks.com/en/tutorials/webgl/webgl_transforms/
+  [http://www.html5rocks.com/en/tutorials/webgl/webgl_transforms/]: http://www.html5rocks.com/en/tutorials/webgl/webgl_transforms/
   [http://ricostacruz.com/jquery.transit/]: http://ricostacruz.com/jquery.transit/
   [http://www.blackinci.com/css/59-css3-ile-2ci-boyuta-gecis-transform.html]:
     http://www.blackinci.com/css/59-css3-ile-2ci-boyuta-gecis-transform.html

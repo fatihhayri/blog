@@ -9,5 +9,5 @@ hata gelebilir. Bu gayet normal bir haldir. Mesele bu hataları
 kenar çizgisi(border) atamaktır. [sourcecode language="css"] li a {
 border: 1px solid red; } [/sourcecode] Diğer bir yöntemde elemente
 ardalan rengi(background-color) uygulamaktır. [sourcecode
-language="css"] \#icerikalani { background-color:\#999; } [/sourcecode]
+language="css"] #icerikalani { background-color:#999; } [/sourcecode]
 Böylece elementin etki alanı görülecek ve hatayı tespit kolaylaşacaktır.

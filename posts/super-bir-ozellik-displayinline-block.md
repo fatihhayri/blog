@@ -24,23 +24,23 @@ bir içeriğimiz olsun ve bu içerikteki belli bir kısmı paragraf etiketi
 içine alalım ve bunlara sırası ile **display:block**, **display:inline**
 ve **display:inline-block** tanımları atayalım
 
-[sourcecode language="html"] \<div id="denemeBir"\> Lorem ipsum dolor
-sit amet... \<p\>Praesent id nunc eros. Integer mauris orci, venenatis
-ac tempor ut, gravida ac diam. \</p\> Pellentesque...\</div\> \<div
-id="denemeIki"\>Quisque at venenatis nulla...\<p\>Nam fermentum
-porttitor hendrerit.\</p\> Mauris ante nulla..\</div\> \<div
-id="denemeUc"\> Sed urna neque...\<p\>Sed est lacus, laoreet at
-malesuada quis, convallis ut nibh.\</p\> Sed dapibus...\</div\>
+[sourcecode language="html"] <div id="denemeBir"> Lorem ipsum dolor
+sit amet... <p>Praesent id nunc eros. Integer mauris orci, venenatis
+ac tempor ut, gravida ac diam. </p> Pellentesque...</div> <div
+id="denemeIki">Quisque at venenatis nulla...<p>Nam fermentum
+porttitor hendrerit.</p> Mauris ante nulla..</div> <div
+id="denemeUc"> Sed urna neque...<p>Sed est lacus, laoreet at
+malesuada quis, convallis ut nibh.</p> Sed dapibus...</div>
 [/sourcecode]
 
 CSS kodu
 
 [sourcecode language="css"] div {margin: 10px 0; border: 1px solid
-\#000;} p {border: 1px dotted \#000;} div\#denemeBir p {display: block;
-width: 50px; text-align: center; background-color:\#FF0} div\#denemeIki
+#000;} p {border: 1px dotted #000;} div#denemeBir p {display: block;
+width: 50px; text-align: center; background-color:#FF0} div#denemeIki
 p {display: inline; width: 50px; text-align: center;
-background-color:\#0FF} div\#denemeUc p {display: inline-block; width:
-50px; text-align: center; background-color:\#F0F} [/sourcecode]
+background-color:#0FF} div#denemeUc p {display: inline-block; width:
+50px; text-align: center; background-color:#F0F} [/sourcecode]
 
 Örneği görmek için [tıklayınız.][]
 
@@ -66,15 +66,15 @@ kullanırız neler yapabiliriz buna bakalım.
 
 ### Float kullanmadan display:inline-block ile elemanları yan yana dizmek
 
-[sourcecode language="html"] \<div id="menu"\> \<a href=""\>Ana
-Sayfa\</a\> \<a href=""\>Ürünler\</a\> \<a href=""\>İletişim\</a\>
-\</div\> [/sourcecode]
+[sourcecode language="html"] <div id="menu"> <a href="">Ana
+Sayfa</a> <a href="">Ürünler</a> <a href="">İletişim</a>
+</div> [/sourcecode]
 
 CSS kodumuzu yazalım;
 
-[sourcecode language="css"] \#menu a{ width:150px; height:50px; display:
-inline-block; margin:0; padding:5px; color: \#1B1B1B; background-color:
-\#E2E2E2; text-decoration: none; border-top:5px solid \#999 }
+[sourcecode language="css"] #menu a{ width:150px; height:50px; display:
+inline-block; margin:0; padding:5px; color: #1B1B1B; background-color:
+#E2E2E2; text-decoration: none; border-top:5px solid #999 }
 [/sourcecode]
 
 Örneği görmek için [tıklayınız.][1]
@@ -97,9 +97,9 @@ seviyedeki elemanlar arasında olduğunu unutmamak lazım.
 Bir örnek yapalım. Yan yana dizilmiş üç kutu hazırlayalım ve bunları
 kapsayıcı katmana göre dikey olarak üstte, ortada ve altta hizalayalım.
 
-[sourcecode language="html"] \<div class="anaKapsul"\> \<div
-class="solKutu"\>Sol\</div\> \<div class="ortaKutu"\>Orta\</div\> \<div
-class="sagKutu"\>Sağ\</div\> \</div\> [/sourcecode]
+[sourcecode language="html"] <div class="anaKapsul"> <div
+class="solKutu">Sol</div> <div class="ortaKutu">Orta</div> <div
+class="sagKutu">Sağ</div> </div> [/sourcecode]
 
 CSS kodumuzu yazalım. [sourcecode language="css"] .anaKapsul { border:
 1px gray solid; padding: 5px; text-align: center; } .solKutu { display:
@@ -121,8 +121,8 @@ elemnalara **display:inline ve zoom:1** tanımı yapmalıyız. Bunun için
 [tüm tarayıcılar için düzeltmeler][] kısmındaki kodlardan
 yararlanacağım.
 
-[sourcecode language="css"] \*:first-child+html div.anaKapsul
-div{display:inline; zoom: 1;} \* html div.anaKapsul div{display:inline;
+[sourcecode language="css"] *:first-child+html div.anaKapsul
+div{display:inline; zoom: 1;} * html div.anaKapsul div{display:inline;
 zoom: 1;} [/sourcecode]
 
 Bu kodları ekledikten sonra sorunumuz düzeldi.
@@ -135,7 +135,7 @@ Bu kodları ekledikten sonra sorunumuz düzeldi.
 -   [http://blog.mozilla.com/webdev/2009/02/20/cross-browser-inline-block/][]
 -   [http://kempwire.com/browsers/firefox-2-does-not-support-inline-block.html][]
 -   [http://robertnyman.com/2010/02/24/css-display-inline-block-why-it-rocks-and-why-it-sucks/][]
--   [http://www.quirksmode.org/css/display.html\#t03][]
+-   [http://www.quirksmode.org/css/display.html#t03][]
 -   [http://blog.ternstyle.us/blog/float-vs-inline-block][]
 -   [http://www.sitepoint.com/forums/showthread.php?t=596130][] (sorun )
 
@@ -165,6 +165,6 @@ Bu kodları ekledikten sonra sorunumuz düzeldi.
     http://kempwire.com/browsers/firefox-2-does-not-support-inline-block.html
   [http://robertnyman.com/2010/02/24/css-display-inline-block-why-it-rocks-and-why-it-sucks/]:
     http://robertnyman.com/2010/02/24/css-display-inline-block-why-it-rocks-and-why-it-sucks/
-  [http://www.quirksmode.org/css/display.html\#t03]: http://www.quirksmode.org/css/display.html#t03
+  [http://www.quirksmode.org/css/display.html#t03]: http://www.quirksmode.org/css/display.html#t03
   [http://blog.ternstyle.us/blog/float-vs-inline-block]: http://blog.ternstyle.us/blog/float-vs-inline-block
   [http://www.sitepoint.com/forums/showthread.php?t=596130]: http://www.sitepoint.com/forums/showthread.php?t=596130

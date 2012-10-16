@@ -29,7 +29,7 @@ eleman arasında bir çizgi konuyor.
 
 Tam bu noktada Genel Kardeş Seçicileri devreye giriyor.
 
-[css] li \~ li { border-top:1px solid \#f00; padding-top:5px;
+[css] li ~ li { border-top:1px solid #f00; padding-top:5px;
 margin-top:5px; } [/css]
 <iframe style="width: 100%; height: 200px" src="http://jsfiddle.net/fatihhayri/CZxWW/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 

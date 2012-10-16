@@ -13,8 +13,8 @@ Bu ipucunu burada paylaşma ihtiyacı duydum.
 
 Çözüm şöyle;
 
-**C:\\Program Files\\Adobe\\Adobe Dreamweaver
-CS4\\configuration\\CodeHints** (Bu yol tam uymaya bilir farklı işletim
+**C:Program FilesAdobeAdobe Dreamweaver
+CS4configurationCodeHints** (Bu yol tam uymaya bilir farklı işletim
 sistemlerinde farklı yerlerde olabilir, ama bu yol size bir fikir
 verecektir)Klasörü içindeki **CodeHints.xml** xml dosyasında
 istemediğimiz etiketleri kaldırıyoruz.
@@ -22,8 +22,8 @@ istemediğimiz etiketleri kaldırıyoruz.
 Örneğin benim ilk kaldırdığım kod widows kodu. Bu kod için xml
 dosyasındaki aşağıdaki kodu silmek gerekiyor.
 
-[xml]\<menuitem label="widows" value="widows:"
-icon="shared/mm/images/hintMisc.gif" /\>[/xml]
+[xml]<menuitem label="widows" value="widows:"
+icon="shared/mm/images/hintMisc.gif" />[/xml]
 
 Bunun dışında xml dokümanındaki kullanmadığım ve bir daha
 kullanmayacağım css kodlarını sildim. Silerken dikkat edin bu dosya

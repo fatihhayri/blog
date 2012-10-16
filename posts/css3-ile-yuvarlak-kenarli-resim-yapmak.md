@@ -7,11 +7,11 @@ Bir resminize kenar çizgisi tanımı yapıp daha sonrada köşelerini
 ovalleştirmek istediğinizde köşelerdeki kenar çizgilerinde sorun
 yaşıyoruz.
 
-[html] \<!DOCTYPE html\> \<html\> \<head\> \<meta charset="utf-8"\>
-\<title\>border-radius\</title\> \<style\> img{ border:2px solid \#999;
+[html] <!DOCTYPE html> <html> <head> <meta charset="utf-8">
+<title>border-radius</title> <style> img{ border:2px solid #999;
 -webkit-border-radius:8px; -moz-border-radius:8px; border-radius:8px;}
-\</style\> \</head\> \<body\> \<img src="gudi.jpg" width="75"
-height="75" /\> \</body\> \</html\> [/html]
+</style> </head> <body> <img src="gudi.jpg" width="75"
+height="75" /> </body> </html> [/html]
 
 Örneği görmek için [tıklayınız.][]
 
@@ -28,14 +28,14 @@ uğraşacaktı.
 Çözüm için dışa bir kapsayıcı div atayıp kenar çizgisi tanımını bu
 katmana yaparak çözebiliyoruz.
 
-[html] \<!DOCTYPE html\> \<html\> \<head\> \<meta charset="utf-8"\>
-\<title\>css3\</title\> \<style\> .resimKapsulu{border:2px solid \#999;
+[html] <!DOCTYPE html> <html> <head> <meta charset="utf-8">
+<title>css3</title> <style> .resimKapsulu{border:2px solid #999;
 width:75px; height:75px; -webkit-border-radius:12px;
 -moz-border-radius:12px; border-radius:12px;} .resimKapsulu
 img{width:75px; height:75px; -webkit-border-radius:10px;
--moz-border-radius:10px; border-radius:10px;} \</style\> \</head\>
-\<body\> \<div class="resimKapsulu"\>\<img src="gudi.jpg" width="75"
-height="75" /\>\</div\> \</body\> \</html\> [/html]
+-moz-border-radius:10px; border-radius:10px;} </style> </head>
+<body> <div class="resimKapsulu"><img src="gudi.jpg" width="75"
+height="75" /></div> </body> </html> [/html]
 
 Örneği görmek için [tıklayınız.][1]
 
@@ -59,11 +59,11 @@ makalesindeki yöntemden yaralanabiliriz.
 
 HTML kodumuzu şöyle değiştirelim
 
--   \<div class="resimKapsulu" style="background: url(gudi.jpg)
-    no-repeat center center; width: 75px; height: 75px;"\>
--      \<img src="gudi.jpg" width="75" height="75" style="opacity: 0;"
-    /\>
--   \</div\>
+-   <div class="resimKapsulu" style="background: url(gudi.jpg)
+    no-repeat center center; width: 75px; height: 75px;">
+-      <img src="gudi.jpg" width="75" height="75" style="opacity: 0;"
+    />
+-   </div>
 
 Resme saydamlık verilip görünmez yapılıyor ve satır için css kodları
 tanımlanıyor, amaç buradaki kodları jquery yardımı ile bg olarak
@@ -71,23 +71,23 @@ tanımlamak .
 
 jQuery kodumuz
 
-[html] \<!DOCTYPE html\> \<html\> \<head\> \<meta charset="utf-8"\>
-\<title\>css3\</title\> \<script type="text/javascript"
-src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"\>\</script\>
-\<script type="text/javascript"\> \$(document).ready(function() {
-\$(".resimKapsulu").load(function() { \$(this).wrap(function(){ return
-'\<span class="' + \$(this).attr('class') + '" style="background:url(' +
-\$(this).attr('src') + ') no-repeat center center; width: ' +
-\$(this).width() + 'px; height: ' + \$(this).height() + 'px;" /\>'; });
-\$(this).css("opacity","0"); }); }); \</script\> \<style\>
-.resimKapsulu{border:2px solid \#999; width:75px; height:75px;
+[html] <!DOCTYPE html> <html> <head> <meta charset="utf-8">
+<title>css3</title> <script type="text/javascript"
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript"> $(document).ready(function() {
+$(".resimKapsulu").load(function() { $(this).wrap(function(){ return
+'<span class="' + $(this).attr('class') + '" style="background:url(' +
+$(this).attr('src') + ') no-repeat center center; width: ' +
+$(this).width() + 'px; height: ' + $(this).height() + 'px;" />'; });
+$(this).css("opacity","0"); }); }); </script> <style>
+.resimKapsulu{border:2px solid #999; width:75px; height:75px;
 -webkit-border-radius:12px; -moz-border-radius:12px;
 border-radius:12px;} .resimKapsulu img{width:75px; height:75px;
 -webkit-border-radius:10px; -moz-border-radius:10px;
-border-radius:10px;} \</style\> \</head\> \<body\> \<div
+border-radius:10px;} </style> </head> <body> <div
 class="resimKapsulu" style="background: url(gudi.jpg) no-repeat center
-center; width: 75px; height: 75px;"\> \<img src="gudi.jpg" width="75"
-height="75" style="opacity: 0;" /\> \</div\> \</body\> \</html\> [/html]
+center; width: 75px; height: 75px;"> <img src="gudi.jpg" width="75"
+height="75" style="opacity: 0;" /> </div> </body> </html> [/html]
 
 Örneği görmek için [tıklayınız.][3]
 

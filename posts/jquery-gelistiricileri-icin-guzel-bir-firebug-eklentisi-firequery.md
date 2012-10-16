@@ -36,8 +36,8 @@ Bu durum dinamik olarak eklediğimiz jQuery verilerini kontrol ederken
 Test sayfasında h1 elemanına tanımlana aşağıdaki fonksiyon kodunu
 görüyoruz.
 
-[javascript] \$('h1').bind('click', function() {
-\$(this).css('background-color', '\#fee'); }); [/javascript]
+[javascript] $('h1').bind('click', function() {
+$(this).css('background-color', '#fee'); }); [/javascript]
 
 Bu tanımı FireBug HTML sekmesinde FireQuery yardımı ile aşağıdaki gibi
 görürüz.

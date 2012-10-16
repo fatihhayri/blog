@@ -16,22 +16,22 @@ solid red; background: gray; z-index: 1000; } [/sourcecode]
 
 HTML kısmı
 
-[sourcecode language="html"] \<div class="anaKatman"\> \<div
-class="acilanBolum"\> Curabitur dapibus lacus elit. Maecenas nec ligula
+[sourcecode language="html"] <div class="anaKatman"> <div
+class="acilanBolum"> Curabitur dapibus lacus elit. Maecenas nec ligula
 ipsum. Vivamus accumsan sollicitudin augue, vel sollicitudin mi varius
 sed. Proin in erat sit amet dolor tincidunt scelerisque eget nec felis.
-Curabitur dapibus lacus elit. Maecenas nec ligula ipsum. \</div\> Lorem
+Curabitur dapibus lacus elit. Maecenas nec ligula ipsum. </div> Lorem
 ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non diam
 sit amet erat facilisis ultrices id vel turpis. Etiam pulvinar arcu ac
 felis pretium mollis. Etiam augue orci, iaculis non mollis et, venenatis
-vel ipsum. \</div\> \<div class="anaKatman"\> Pellentesque sodales
+vel ipsum. </div> <div class="anaKatman"> Pellentesque sodales
 vehicula dictum. Nulla facilisi. Integer eget lectus eros. Class aptent
 taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-himenaeos. Integer imperdiet dictum interdum. \</div\> \<div
-class="anaKatman"\> Pellentesque sodales vehicula dictum. Nulla
+himenaeos. Integer imperdiet dictum interdum. </div> <div
+class="anaKatman"> Pellentesque sodales vehicula dictum. Nulla
 facilisi. Integer eget lectus eros. Class aptent taciti sociosqu ad
 litora torquent per conubia nostra, per inceptos himenaeos. Integer
-imperdiet dictum interdum. \</div\> [/sourcecode]
+imperdiet dictum interdum. </div> [/sourcecode]
 
 Örneği görmek için [tıklayınız.][]
 
@@ -53,23 +53,23 @@ değerleri 10, 20, 30 gibi.
 
 HTMl kodunu aşağıdaki gibi değiştirince sorun çözüldü.
 
-[sourcecode language="html"] \<div class="anaKatman" style="z-index:3"\>
-\<div class="acilanBolum"\> Curabitur dapibus lacus elit. Maecenas nec
+[sourcecode language="html"] <div class="anaKatman" style="z-index:3">
+<div class="acilanBolum"> Curabitur dapibus lacus elit. Maecenas nec
 ligula ipsum. Vivamus accumsan sollicitudin augue, vel sollicitudin mi
 varius sed. Proin in erat sit amet dolor tincidunt scelerisque eget nec
-felis. Curabitur dapibus lacus elit. Maecenas nec ligula ipsum. \</div\>
+felis. Curabitur dapibus lacus elit. Maecenas nec ligula ipsum. </div>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non
 diam sit amet erat facilisis ultrices id vel turpis. Etiam pulvinar arcu
 ac felis pretium mollis. Etiam augue orci, iaculis non mollis et,
-venenatis vel ipsum. \</div\> \<div class="anaKatman"
-style="z-index:2"\> Pellentesque sodales vehicula dictum. Nulla
+venenatis vel ipsum. </div> <div class="anaKatman"
+style="z-index:2"> Pellentesque sodales vehicula dictum. Nulla
 facilisi. Integer eget lectus eros. Class aptent taciti sociosqu ad
 litora torquent per conubia nostra, per inceptos himenaeos. Integer
-imperdiet dictum interdum. \</div\> \<div class="anaKatman"
-style="z-index:1"\> Pellentesque sodales vehicula dictum. Nulla
+imperdiet dictum interdum. </div> <div class="anaKatman"
+style="z-index:1"> Pellentesque sodales vehicula dictum. Nulla
 facilisi. Integer eget lectus eros. Class aptent taciti sociosqu ad
 litora torquent per conubia nostra, per inceptos himenaeos. Integer
-imperdiet dictum interdum. \</div\> [/sourcecode]
+imperdiet dictum interdum. </div> [/sourcecode]
 
 Örneği görmek için [tıklayınız.][2]
 
@@ -78,7 +78,7 @@ imperdiet dictum interdum. \</div\> [/sourcecode]
 ### Kaynaklar
 
 -   [Beginning CSS: Cascading Style Sheets for Web Design][]
--   [http://benhollis.net/experiments/ie7\_tests/zindex.html][]
+-   [http://benhollis.net/experiments/ie7_tests/zindex.html][]
 
 </p>
 
@@ -89,5 +89,5 @@ imperdiet dictum interdum. \</div\> [/sourcecode]
   [3]: http://docs.google.com/File?id=dhctmbn6_399f9hf3mg7_b
   [Beginning CSS: Cascading Style Sheets for Web Design]: http://www.wrox.com/WileyCDA/WroxTitle/productCd-0764576429.html
     "Beginning CSS: Cascading Style Sheets for Web Design"
-  [http://benhollis.net/experiments/ie7\_tests/zindex.html]: http://benhollis.net/experiments/ie7_tests/zindex.html
+  [http://benhollis.net/experiments/ie7_tests/zindex.html]: http://benhollis.net/experiments/ie7_tests/zindex.html
     "http://benhollis.net/experiments/ie7_tests/zindex.html"

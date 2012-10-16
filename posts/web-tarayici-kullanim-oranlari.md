@@ -12,9 +12,9 @@ aşağıdaki grafikte görünmektedir.
 ![Web Tarayacı Oranları - Eylül 2006][]
 
 Ayrıca web kodlamacıların ünlü sitesi w3schools'un değerleri biraz daha
-farklı : [http://www.w3schools.com/browsers/browsers\_stats.asp][]
+farklı : [http://www.w3schools.com/browsers/browsers_stats.asp][]
 
 </p>
 
   [Web Tarayacı Oranları - Eylül 2006]: /images/tarayici_oranlari.gif
-  [http://www.w3schools.com/browsers/browsers\_stats.asp]: http://www.w3schools.com/browsers/browsers_stats.asp
+  [http://www.w3schools.com/browsers/browsers_stats.asp]: http://www.w3schools.com/browsers/browsers_stats.asp

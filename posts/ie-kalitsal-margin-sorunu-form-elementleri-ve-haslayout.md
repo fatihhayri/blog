@@ -16,16 +16,16 @@ karşılaşıyorum.<!--more-->
 
 yukarıdaki gibi bir tasarımı koda çevirirken
 
-[sourcecode language="html"] \<div class="dis"\> \<div
-class="ic"\>\<input type="text" value="Arama" /\>\</div\> \</div\>
+[sourcecode language="html"] <div class="dis"> <div
+class="ic"><input type="text" value="Arama" /></div> </div>
 [/sourcecode]
 
 CSS kodu
 
 [sourcecode language="css"] div.dis{ margin-left:65px; } div.ic{
-width:241px; height:25px; background:url(arama\_ardalan.gif) 0 0
+width:241px; height:25px; background:url(arama_ardalan.gif) 0 0
 no-repeat } div.ic input{ border:0; background:none; width:204px;
-margin:4px 0 0 5px; font-size:11px; color:\#534013; } [/sourcecode]
+margin:4px 0 0 5px; font-size:11px; color:#534013; } [/sourcecode]
 
 Örneği görmek için [tıklayınız.][]
 
@@ -66,7 +66,7 @@ elemanında bu sorun ile karşılaşılmıyor.
 
 ### Kaynak
 
--   [http://www.positioniseverything.net/explorer/inherited\_margin.html][]
+-   [http://www.positioniseverything.net/explorer/inherited_margin.html][]
 
 </p>
 
@@ -85,5 +85,5 @@ elemanında bu sorun ile karşılaşılmıyor.
   [4]: http://www.fatihhayrioglu.com/wp-content/margin_inherit_ie_c.gif
     "margin_inherit_ie_c"
   [![][4]]: http://www.fatihhayrioglu.com/wp-content/margin_inherit_ie_c.gif
-  [http://www.positioniseverything.net/explorer/inherited\_margin.html]:
+  [http://www.positioniseverything.net/explorer/inherited_margin.html]:
     http://www.positioniseverything.net/explorer/inherited_margin.html

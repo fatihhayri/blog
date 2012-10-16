@@ -15,8 +15,8 @@ Kutu modeli özelliklerine devam ediyoruz. Sırasıyla aşağıdaki
 
 ### width<a name="01"></a>
 
-**Yapısı :** width: \<deger\> **Aldığı Değerler :** [\<uzunluk değeri
-\>][] | [\<yüzde\>][\<uzunluk değeri \>] | auto | inherit **Başlnagıç
+**Yapısı :** width: <deger> **Aldığı Değerler :** [<uzunluk değeri
+>][] | [<yüzde>][<uzunluk değeri >] | auto | inherit **Başlnagıç
 değeri:** auto **Uygulanabilen elementler:** [Block-level ve replaced
 elementler][] **Kalıtsallık:** Yok
 
@@ -36,8 +36,8 @@ CSS Level 1+ CSS Profile 1.0
 </div>
 ### height <a name="02"></a>
 
-**Yapısı :** height: \<deger\> **Aldığı Değerler :** [\<uzunluk değeri
-\>][] | auto | inherit **Başlangıç değeri:** auto **Uygulanabilen
+**Yapısı :** height: <deger> **Aldığı Değerler :** [<uzunluk değeri
+>][] | auto | inherit **Başlangıç değeri:** auto **Uygulanabilen
 elementler:** [Block-level ve replaced elementler][] **Kalıtsallık:**
 Yok
 
@@ -56,7 +56,7 @@ CSS Level 1+ CSS Profile 1.0
 </div>
 ### float<a name="03"></a>
 
-**Yapısı :** float: \<deger\> **Aldığı Değerler :** left | right | none
+**Yapısı :** float: <deger> **Aldığı Değerler :** left | right | none
 |inherit **Başlnagıç değeri:** none **Uygulanabilen elementler:** tüm
 elementler **Kalıtsallık:** Yok
 
@@ -79,7 +79,7 @@ CSS Level 1+ CSS Profile 1.0
 </div>
 ### clear<a name="04"></a>
 
-**Yapısı :** clear: \<deger\> **Aldığı Değerler :** none | left | right
+**Yapısı :** clear: <deger> **Aldığı Değerler :** none | left | right
 | both **Başlnagıç değeri:** tanımsız **Uygulanabilen elementler:** tüm
 elementler **Kalıtsallık:** Yok
 
@@ -103,6 +103,6 @@ Level 1+ CSS Profile 1.0
 </p>
 
   [Kutu Modeli]: http://fatihhayrioglu.com/images/basit_boxmodel.gif
-  [\<uzunluk değeri \>]: http://www.fatihhayrioglu.com/?p=95
+  [<uzunluk değeri >]: http://www.fatihhayrioglu.com/?p=95
   [Block-level ve replaced elementler]: http://www.fatihhayrioglu.com/?p=13
   [ebveyn elementi]: http://www.fatihhayrioglu.com/?p=62

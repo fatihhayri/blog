@@ -75,10 +75,10 @@ Sitemizdeki bazı elementler çıktı almamızda bize lazım olmayacaktır
 yöntemide **display:none**'dır.
 
 Bir elementin **display** özelliğini "**none**" yaparak çıktı alırken
-görütülenmesini engelleriz. Örneğin solmenu için \#SolMenu tanımlması
+görütülenmesini engelleriz. Örneğin solmenu için #SolMenu tanımlması
 yapmış isek
 
-[sourcecode language='css'] \#SolMenu{ display:none } [/sourcecode]
+[sourcecode language='css'] #SolMenu{ display:none } [/sourcecode]
 
 kodu ile bu bölümü çıktı alırken görüntü dışında bırakacağız. Bu yöntemi
 formlar, menüler, bannerlar, ana resimler hariç diğer resimler vb.

@@ -70,7 +70,7 @@ numaralı yerini kimseye kaptırmıyor.
 
 ### Kaynaklar
 
--   [http://getfirebug.com/wiki/index.php/Firebug\_Release\_Notes][]
+-   [http://getfirebug.com/wiki/index.php/Firebug_Release_Notes][]
 -   [http://www.softwareishard.com/blog/][]
 -   [http://lifehacker.com/5453025/firebug-15-updates-with-new-features-still-a-web-developers-dream][]
 -   [http://hacks.mozilla.org/2010/01/firebug-1-5-a-closer-look/][]
@@ -91,7 +91,7 @@ numaralı yerini kimseye kaptırmıyor.
   [3]: http://www.fatihhayrioglu.com/wp-content/net_panel.gif
     "net_panel"
   [![][3]]: http://www.fatihhayrioglu.com/wp-content/net_panel.gif
-  [http://getfirebug.com/wiki/index.php/Firebug\_Release\_Notes]: http://getfirebug.com/wiki/index.php/Firebug_Release_Notes
+  [http://getfirebug.com/wiki/index.php/Firebug_Release_Notes]: http://getfirebug.com/wiki/index.php/Firebug_Release_Notes
     "http://getfirebug.com/wiki/index.php/Firebug_Release_Notes"
   [http://www.softwareishard.com/blog/]: http://www.softwareishard.com/blog/
     "http://www.softwareishard.com/blog/"

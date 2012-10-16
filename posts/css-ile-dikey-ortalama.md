@@ -36,26 +36,26 @@ ortalanmak istenen elemente **vertical-align** tanımı yaparak element
 dikeyde ortalanır. (Bu özelliği IE kavrayamamaktadır. Kavramamakta da
 ısrarlıdır. IE 7 display:table ve türevlerini desteklemiyor.)
 
-İki çözüm vardır altçizgi(\_) ve (\#) ile yapılan bir çözüm vardır.
-IE(IE7 hariç) (\_) ile tanımlanan kodu görmediği için yorumlamayacaktır.
-\# ile başlayan kodları tüm IE versiyonları(IE7 dahil) görmeyecektir. Bu
+İki çözüm vardır altçizgi(_) ve (#) ile yapılan bir çözüm vardır.
+IE(IE7 hariç) (_) ile tanımlanan kodu görmediği için yorumlamayacaktır.
+# ile başlayan kodları tüm IE versiyonları(IE7 dahil) görmeyecektir. Bu
 işaretlerin kullanım amacı tüm versiyonlarda aynı sonucu elde etmektir.
 
 Aşağıdaki kod IE5+,FF, Opera 7, Konqueror 3.0.3 altında standart ve
 [garip mod][] da çalışıyor.
 
-[sourcecode language="html"] \<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML
-4.01//EN"\> \<html\> \<head\> \<title\>CSS ile dikey ortalama\</title\>
-\<style\> \#Kapsul{ display: table; height: 400px; \#position: relative;
-overflow: hidden; border: 1px solid green; } \#IcerikAlani{ \#position:
-absolute; \#top: 50%; display: table-cell; vertical-align: middle; }
-\#alan{ \#position: relative; \#top: -50%; border: 1px solid green; }
-\</style\> \</head\> \<body\> \<div id="Kapsul"\> \<div
-id="IcerikAlani"\> \<div id="alan"\>Lorem Ipsum is simply dummy text of
+[sourcecode language="html"] <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML
+4.01//EN"> <html> <head> <title>CSS ile dikey ortalama</title>
+<style> #Kapsul{ display: table; height: 400px; #position: relative;
+overflow: hidden; border: 1px solid green; } #IcerikAlani{ #position:
+absolute; #top: 50%; display: table-cell; vertical-align: middle; }
+#alan{ #position: relative; #top: -50%; border: 1px solid green; }
+</style> </head> <body> <div id="Kapsul"> <div
+id="IcerikAlani"> <div id="alan">Lorem Ipsum is simply dummy text of
 the printing and typesetting industry. Lorem Ipsum has been the
 industry's standard dummy text ever since the 1500s, when an unknown
 printer took a galley of type and scrambled it to make a type specimen
-book. \</div\> \</div\> \</div\> \</body\> \</html\> [/sourcecode]
+book. </div> </div> </div> </body> </html> [/sourcecode]
 
 Örneği görmek için [tıklayınız.][]
 

@@ -27,11 +27,11 @@ metotta ise tek resim yüklenecek ve bu bize performans kazandıracaktır.
 
 Çok basit bir xhtml kodu var. Birçok menü örneğinde olduğu gibi ul kodu;
 
-[sourcecode language="html"] \<ul class="menu"\> \<li
-id="mAnasayfa"\>\<a href="\#"\>Ana Sayfa\</a\>\</li\> \<li
-id="mUrunler"\>\<a href="\#"\>Ürünler\</a\>\</li\> \<li
-id="mHizmetler"\>\<a href="\#"\>Hizmetler\</a\>\</li\> \<li
-id="mBizeUlasin"\>\<a href="\#"\>Bize Ulaşın\</a\>\</li\> \</ul\>
+[sourcecode language="html"] <ul class="menu"> <li
+id="mAnasayfa"><a href="#">Ana Sayfa</a></li> <li
+id="mUrunler"><a href="#">Ürünler</a></li> <li
+id="mHizmetler"><a href="#">Hizmetler</a></li> <li
+id="mBizeUlasin"><a href="#">Bize Ulaşın</a></li> </ul>
 [/sourcecode]
 
 Menümüzün resimlerini tek bir resim dosyası olarak hazırlayacağız. Biz
@@ -56,25 +56,25 @@ Linkler için genel tanımlarımızı yapalım
 
 [sourcecode language="css"] ul li a{ display:block; width:120px;
 height:40px; text-indent:-9999px; outline:none; text-decoration:none;
-background:url(images/basit\_resimli\_menu.jpg) 0 0 no-repeat; }
+background:url(images/basit_resimli_menu.jpg) 0 0 no-repeat; }
 [/sourcecode]
 
 Her bir menü nesnesinin yukarıdaki resimdeki konumunu belirlemeye geldi
 sıra.
 
-[sourcecode language="css"] li\#mAnasayfa a{background-position:0 0;}
-li\#mUrunler a{background-position:-120px 0;} li\#mHizmetler
-a{background-position:-240px 0;} li\#mBizeUlasin
+[sourcecode language="css"] li#mAnasayfa a{background-position:0 0;}
+li#mUrunler a{background-position:-120px 0;} li#mHizmetler
+a{background-position:-240px 0;} li#mBizeUlasin
 a{background-position:-360px 0;} [/sourcecode]
 
 Basit bir şekilde resimli bir menü oluşturduk. Tabi buna birde fare
 üzerine geldiğindeki durumu ekleyerek daha belirgin bir hale
 getirebiliriz.
 
-[sourcecode language="css"] li\#mAnasayfa a:hover{background-position:0
--40px;} li\#mUrunler a:hover{background-position:-120px -40px;}
-li\#mHizmetler a:hover{background-position:-240px -40px;}
-li\#mBizeUlasin a:hover{background-position:-360px -40px;} [/sourcecode]
+[sourcecode language="css"] li#mAnasayfa a:hover{background-position:0
+-40px;} li#mUrunler a:hover{background-position:-120px -40px;}
+li#mHizmetler a:hover{background-position:-240px -40px;}
+li#mBizeUlasin a:hover{background-position:-360px -40px;} [/sourcecode]
 
 Örneği görmek için [tıklayınız][]
 
@@ -95,7 +95,7 @@ Kaynaklar
 -   [http://www.webdesignerwall.com/tutorials/advanced-css-menu/][]
 -   [http://superfluousbanter.org/archives/2004/05/navigation-matrix-reloaded/][]
 -   [http://www.3point7designs.com/blog/2006/07/24/accessible-css-roll-over-images/][]
--   [http://simplebits.com/notebook/2003/09/30/accessible\_imagetab\_rollovers.html][]
+-   [http://simplebits.com/notebook/2003/09/30/accessible_imagetab_rollovers.html][]
 -   [http://inobscuro.com/tutorials/read/19/][]   
 -   [http://dragan.yourtree.org/blog/en/2007/04/10/pure-css-rollover-menu/][]
 -   [http://www.webvamp.co.uk/blog/coding/css-image-rollovers/][]
@@ -117,7 +117,7 @@ Kaynaklar
   [http://www.3point7designs.com/blog/2006/07/24/accessible-css-roll-over-images/]:
     http://www.3point7designs.com/blog/2006/07/24/accessible-css-roll-over-images/
     "http://www.3point7designs.com/blog/2006/07/24/accessible-css-roll-over-images/"
-  [http://simplebits.com/notebook/2003/09/30/accessible\_imagetab\_rollovers.html]:
+  [http://simplebits.com/notebook/2003/09/30/accessible_imagetab_rollovers.html]:
     http://simplebits.com/notebook/2003/09/30/accessible_imagetab_rollovers.html
     "http://simplebits.com/notebook/2003/09/30/accessible_imagetab_rollovers.html"
   [http://inobscuro.com/tutorials/read/19/]: http://inobscuro.com/tutorials/read/19/

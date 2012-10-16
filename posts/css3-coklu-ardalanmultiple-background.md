@@ -18,8 +18,8 @@ CSS3 geliştiricileri bu sorunu gördü ve çözüm üretildi. CSS3 background
 tanımında birden fazla resim tanımlamamıza izin veriyor. Birden fazla
 tanımı yapmak için aralarına virgül koyuyoruz.
 
-[css] background: url(image\_1.jpg) top right no-repeat,
-url(image\_2.gif) bottom right no-repeat, url(image\_2.png) bottom right
+[css] background: url(image_1.jpg) top right no-repeat,
+url(image_2.gif) bottom right no-repeat, url(image_2.png) bottom right
 no-repeat; [/css]
 
 **Browser Uyumu:**  
@@ -45,16 +45,16 @@ Bu yöntemi kullanarak daha önce yaptığımız [css ile buton yapmak][CSS
 ile buton yapmak] konumuzda anlattığımız Görselliği Arttırılmış Esnek
 Yapılı Butonlar yöntemi birde yeni bu tanım ile yapalım.
 
-[html] \<a href=""\>Örnek Buton Metni\</a\> [/html]
+[html] <a href="">Örnek Buton Metni</a> [/html]
 
 CSS kodumuz
 
-[css] body { background-color:\#363636 } a { display:block; font:bold
-14px Arial, Helvetica, sans-serif; color:\#363636; float:left;
+[css] body { background-color:#363636 } a { display:block; font:bold
+14px Arial, Helvetica, sans-serif; color:#363636; float:left;
 padding:5px 14px 0 14px; height:23px; text-decoration:none;
-background:url(cancanli\_butonlar\_ard\_.gif) left top no-repeat,
-url(cancanli\_butonlar\_ard\_.gif) right -58px no-repeat,
-url(cancanli\_butonlar\_ard\_.gif) center -29px repeat-x } [/css]
+background:url(cancanli_butonlar_ard_.gif) left top no-repeat,
+url(cancanli_butonlar_ard_.gif) right -58px no-repeat,
+url(cancanli_butonlar_ard_.gif) center -29px repeat-x } [/css]
 
 Örneği görmek için [tıklayınız.][]
 
@@ -94,22 +94,22 @@ CSS Sprite resmimiz aşağıdaki gibi tek resim olacaktır.
 
 HTML kodu
 
-[html] \<blockquote\>Sevgide güneş gibi ol, dostluk ve kardeşlikte
+[html] <blockquote>Sevgide güneş gibi ol, dostluk ve kardeşlikte
 akarsu gibi ol, hataları örtmede gece gibi ol, tevazuda toprak gibi ol,
 öfkede ölü gibi ol, her ne olursan ol, ya olduğun gibi görün, ya
-göründüğün gibi ol.\</blockquote\> \<cite\>Mevla'na Celaleddin-i
-Rumi\</cite\> [/html]
+göründüğün gibi ol.</blockquote> <cite>Mevla'na Celaleddin-i
+Rumi</cite> [/html]
 
 CSS kodu
 
 [css] blockquote { width: 224px; margin:0; padding:30px 12px 0 12px;
-color: \#fff; text-align:center; font:bold 14px/1.7em Georgia, "Times
-New Roman", Times, serif; background: url(images/alinti\_ard.gif) -490px
-0 no-repeat, url(images/alinti\_ard.gif) -242px bottom repeat-y; } cite{
+color: #fff; text-align:center; font:bold 14px/1.7em Georgia, "Times
+New Roman", Times, serif; background: url(images/alinti_ard.gif) -490px
+0 no-repeat, url(images/alinti_ard.gif) -242px bottom repeat-y; } cite{
 font-size: 1.2em; padding-bottom:29px; display:block; text-align:center;
-color:\#C6D9F1; text-decoration:underline; width:240px; background:
-url(images/alinti\_ard.gif) no-repeat 1px bottom,
-url(images/alinti\_ard.gif) -242px bottom repeat-y; } [/css]
+color:#C6D9F1; text-decoration:underline; width:240px; background:
+url(images/alinti_ard.gif) no-repeat 1px bottom,
+url(images/alinti_ard.gif) -242px bottom repeat-y; } [/css]
 
 Aslında css kodumuz önceki koddan pek farkı yok. Farklı olan iki kısım
 var. background tanımları.
@@ -130,14 +130,14 @@ kısmına girmeyeceğiz.
 
 HTML kodu
 
-[html] \<div id="paralaks"\> Lorem ipsum dolor sit amet, consectetur
+[html] <div id="paralaks"> Lorem ipsum dolor sit amet, consectetur
 adipiscing elit. Pellentesque quam lacus, consequat eget sodales non,
 ultrices vitae arcu. Vivamus quis felis sit amet mi malesuada gravida
-vitae rhoncus diam. \</div\> [/html]
+vitae rhoncus diam. </div> [/html]
 
 CSS kodu
 
-[css] \#paralaks{ width:400px; height:180px; padding:5px;
+[css] #paralaks{ width:400px; height:180px; padding:5px;
 background-image: url(images/cimen.png), url(images/agac.png),
 url(images/bulut.png), url(images/gokyuzu.png); background-repeat:
 repeat-x, no-repeat, repeat-x, repeat-x; background-position:0 0, 120px
@@ -175,9 +175,9 @@ Kalın sağlıcakla.
 
 -   [http://helephant.com/2009/11/css3-multiple-background-images/][]
 -   [http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/][]
--   [http://dev.opera.com/articles/view/css3-border-background-boxshadow/\#multiple-background][]
+-   [http://dev.opera.com/articles/view/css3-border-background-boxshadow/#multiple-background][]
 -   [http://www.smashingmagazine.com/2010/04/28/css3-solutions-for-internet-explorer/][]
--   [http://www.w3.org/TR/css3-background/\#the-background-image][]
+-   [http://www.w3.org/TR/css3-background/#the-background-image][]
 -   [http://www.zenelements.com/blog/css3-background-images/][]
 -   [http://event-horizon.twiddles.com/sites/experimental/css3-bg/][]
 -   [http://css-tricks.com/css3-multiple-backgrounds-obsoletes-sliding-doors/][]
@@ -185,7 +185,7 @@ Kalın sağlıcakla.
 -   [http://www.mightymeta.co.uk/progressive-decoration-with-css3-multiple-backgrounds/][]
 -   [http://www.lifeathighroad.com/css3-lessons/css3-lessons-multiple-background-images/][]
     (4 köşe resim)
--   [http://www.paulrhayes.com/experiments/parallax/\#experiment][]
+-   [http://www.paulrhayes.com/experiments/parallax/#experiment][]
     (örnek)
 
 </p>
@@ -211,11 +211,11 @@ Kalın sağlıcakla.
   [http://helephant.com/2009/11/css3-multiple-background-images/]: http://helephant.com/2009/11/css3-multiple-background-images/
   [http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/]:
     http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/
-  [http://dev.opera.com/articles/view/css3-border-background-boxshadow/\#multiple-background]:
+  [http://dev.opera.com/articles/view/css3-border-background-boxshadow/#multiple-background]:
     http://dev.opera.com/articles/view/css3-border-background-boxshadow/#multiple-background
   [http://www.smashingmagazine.com/2010/04/28/css3-solutions-for-internet-explorer/]:
     http://www.smashingmagazine.com/2010/04/28/css3-solutions-for-internet-explorer/
-  [http://www.w3.org/TR/css3-background/\#the-background-image]: http://www.w3.org/TR/css3-background/#the-background-image
+  [http://www.w3.org/TR/css3-background/#the-background-image]: http://www.w3.org/TR/css3-background/#the-background-image
   [http://www.zenelements.com/blog/css3-background-images/]: http://www.zenelements.com/blog/css3-background-images/
   [http://event-horizon.twiddles.com/sites/experimental/css3-bg/]: http://event-horizon.twiddles.com/sites/experimental/css3-bg/
   [http://css-tricks.com/css3-multiple-backgrounds-obsoletes-sliding-doors/]:
@@ -225,4 +225,4 @@ Kalın sağlıcakla.
     http://www.mightymeta.co.uk/progressive-decoration-with-css3-multiple-backgrounds/
   [http://www.lifeathighroad.com/css3-lessons/css3-lessons-multiple-background-images/]:
     http://www.lifeathighroad.com/css3-lessons/css3-lessons-multiple-background-images/
-  [http://www.paulrhayes.com/experiments/parallax/\#experiment]: http://www.paulrhayes.com/experiments/parallax/#experiment
+  [http://www.paulrhayes.com/experiments/parallax/#experiment]: http://www.paulrhayes.com/experiments/parallax/#experiment

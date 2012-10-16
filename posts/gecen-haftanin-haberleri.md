@@ -5,7 +5,7 @@ Tags: CSS, gmail, google, Google-Calendar
 
 -   Superonline sitesini yenilemiş. Kodlaması gayet güzel. Ancak
     reklamlar siteyi çekilmez kılıyor. [Link][]
--   Google Calendar notlarınızı SMS ile hatırlatıyor. C\# Türk ilgili
+-   Google Calendar notlarınızı SMS ile hatırlatıyor. C# Türk ilgili
     duyurusu. [Link][1]
 -   Safari stroke(font etrafında kenarlık verme) özelliğini çıkardı ve
     destekliyor. Ancak daha standartlaşmadığı için kullanılması

@@ -19,26 +19,26 @@ sistem, buda sitemizin daha hızlı açılmasını sağlayacaktır.
 
 Kodlar aşağıdaki gibi;
 
-[html highlight="9"] \<!DOCTYPE html\> \<html\> \<head\>
-\<title\>Başlık\</title\> \</head\> \<body\> \<script
-type="text/javascript"\> var \_gaq = \_gaq || [];
-\_gaq.push(['\_setAccount', 'UA-XXXXX-X']);
-\_gaq.push(['\_trackPageview']); (function() { var ga =
+[html highlight="9"] <!DOCTYPE html> <html> <head>
+<title>Başlık</title> </head> <body> <script
+type="text/javascript"> var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-XXXXX-X']);
+_gaq.push(['_trackPageview']); (function() { var ga =
 document.createElement('script'); ga.type = 'text/javascript'; ga.async
 = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl'
 : 'http://www') + '.google-analytics.com/ga.js';
 (document.getElementsByTagName('head')[0] ||
 document.getElementsByTagName('body')[0]).appendChild(ga); })();
-\</script\> \<!-- site icegi buradan sonra gelir --\> \</body\>
-\</html\> [/html]
+</script> <!-- site icegi buradan sonra gelir --> </body>
+</html> [/html]
 
 Kodumuz eskisi gibi karmaşık ama siz karmaşıklığa aldanmayın. Burada
 yapacağımız şey çok basit. 9. satırdaki **UA-XXXXXXX-X** kısım yerine
 gooagle analytics'in bize verdiği kodu yerleştirmek.
 
 Burada dikkat edeceğimiz bir husus daha vardır. Normalde javascript
-kodlarının \</head\> öncesine yazmamız önerilir, sitemizin performansı
-için. Ancak asenkaron nalytics kodları \<head\> etiketi içinde yazmanız
+kodlarının </head> öncesine yazmamız önerilir, sitemizin performansı
+için. Ancak asenkaron nalytics kodları <head> etiketi içinde yazmanız
 öneriliyor.
 
 Sonuçta ben kullanıyorum gayet iyi, hızlandı site. Çok büyük beklentiye
@@ -52,7 +52,7 @@ girmeyin ama hızda bir atış olduğu hissediliyor.
 -   [http://webmasterformat.com/news/google-analytics-asynchronous-tracking][]
 -   [http://www.webresourcesdepot.com/tracking-new-rss-subscribers-with-google-analytics-to-understand-them-better/][]
 -   [http://code.google.com/apis/analytics/docs/tracking/asyncTracking.html][]
--   [http://www.webmonkey.com/blog/New\_Asynchronous\_Script\_Stops\_Google\_Analytics\_From\_Slowing\_Down\_Your\_Site][]
+-   [http://www.webmonkey.com/blog/New_Asynchronous_Script_Stops_Google_Analytics_From_Slowing_Down_Your_Site][]
 -   [http://ajaxian.com/archives/google-analytics-unblocks-the-web-w-async-support][]
 -   [http://www.webresourcesdepot.com/new-google-analytics-code-for-better-load-times/][]
 -   [http://www.stevesouders.com/blog/2009/12/01/google-analytics-goes-async/][]
@@ -77,7 +77,7 @@ girmeyin ama hızda bir atış olduğu hissediliyor.
   [http://www.webresourcesdepot.com/tracking-new-rss-subscribers-with-google-analytics-to-understand-them-better/]:
     http://www.webresourcesdepot.com/tracking-new-rss-subscribers-with-google-analytics-to-understand-them-better/
     "http://www.webresourcesdepot.com/tracking-new-rss-subscribers-with-google-analytics-to-understand-them-better/"
-  [http://www.webmonkey.com/blog/New\_Asynchronous\_Script\_Stops\_Google\_Analytics\_From\_Slowing\_Down\_Your\_Site]:
+  [http://www.webmonkey.com/blog/New_Asynchronous_Script_Stops_Google_Analytics_From_Slowing_Down_Your_Site]:
     http://www.webmonkey.com/blog/New_Asynchronous_Script_Stops_Google_Analytics_From_Slowing_Down_Your_Site
     "http://www.webmonkey.com/blog/New_Asynchronous_Script_Stops_Google_Analytics_From_Slowing_Down_Your_Site"
   [http://ajaxian.com/archives/google-analytics-unblocks-the-web-w-async-support]:

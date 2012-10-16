@@ -146,7 +146,7 @@ yükselme yaşansa bile daha sonra düşüşün devam edeceğini düşünüyorum
 ### Kaynaklar
 
 -   [http://articles.sitepoint.com/article/whats-new-in-ie9][]  
--   [http://lifehacker.com/\#!5638885/internet-explorer-screenshot-tour-the-best-new-features-in-ie9][]  
+-   [http://lifehacker.com/#!5638885/internet-explorer-screenshot-tour-the-best-new-features-in-ie9][]  
 -   [http://windows.microsoft.com/tr-TR/internet-explorer/products/ie-9/features/fast][]  
 -   [http://blogs.msdn.com/ie/archive/2010/03/16/IE9-Platform-Preview-Feedback.aspx][]
 -   [http://blogs.msdn.com/ie/archive/2010/03/16/html5-hardware-accelerated-first-ie9-platform-preview-available-for-developers.aspx][]
@@ -166,13 +166,13 @@ yükselme yaşansa bile daha sonra düşüşün devam edeceğini düşünüyorum
 -   [http://shiftdelete.net/internet-explorer-9dan-kotu-haber-19178.html][] (windows
     xp desteğinin olmamaası)
 -   [http://web.archive.org/web/20010602021058/microsoft.com/windows/ie/preview/default.asp][]
--   [http://www.computerworld.com/s/article/9185338/Internet\_Explorer\_9\_beta\_strips\_down\_for\_speed][]
+-   [http://www.computerworld.com/s/article/9185338/Internet_Explorer_9_beta_strips_down_for_speed][]
 -   **[http://www.bildirgec.org/yazi/internet-explorer-9-un-beta][]**
 -   **[http://gizmodo.com/5638742/internet-explorer-9-uh-nice][]**
 -   **[http://lifehacker.com/5638885/internet-explorer-screenshot-tour-the-best-new-features-in-ie9][]**
 -   **[http://www.turk.internet.com/portal/yazigoster.php?yaziid=29437][]**
--   **[http://www.nuricankaya.com/default.asp?gunluk\_id=455][]**
--   **[http://www.nuricankaya.com/resimler/2010\_Eylul/ie9guide.pdf][]  
+-   **[http://www.nuricankaya.com/default.asp?gunluk_id=455][]**
+-   **[http://www.nuricankaya.com/resimler/2010_Eylul/ie9guide.pdf][]  
    **
 -   **[http://www.engadget.com/2011/03/14/internet-explorer-9-launches-tonight-weve-got-your-early-look/][]  
    **
@@ -192,7 +192,7 @@ yükselme yaşansa bile daha sonra düşüşün devam edeceğini düşünüyorum
   [4]: https://docs.google.com/File?id=dhctmbn6_4824b9d8xhq_b
   [http://articles.sitepoint.com/article/whats-new-in-ie9]: http://articles.sitepoint.com/article/whats-new-in-ie9
     "http://articles.sitepoint.com/article/whats-new-in-ie9"
-  [http://lifehacker.com/\#!5638885/internet-explorer-screenshot-tour-the-best-new-features-in-ie9]:
+  [http://lifehacker.com/#!5638885/internet-explorer-screenshot-tour-the-best-new-features-in-ie9]:
     http://lifehacker.com/#!5638885/internet-explorer-screenshot-tour-the-best-new-features-in-ie9
   [http://windows.microsoft.com/tr-TR/internet-explorer/products/ie-9/features/fast]:
     http://windows.microsoft.com/tr-TR/internet-explorer/products/ie-9/features/fast
@@ -240,7 +240,7 @@ yükselme yaşansa bile daha sonra düşüşün devam edeceğini düşünüyorum
   [http://web.archive.org/web/20010602021058/microsoft.com/windows/ie/preview/default.asp]:
     http://web.archive.org/web/20010602021058/microsoft.com/windows/ie/preview/default.asp
     "http://web.archive.org/web/20010602021058/microsoft.com/windows/ie/preview/default.asp"
-  [http://www.computerworld.com/s/article/9185338/Internet\_Explorer\_9\_beta\_strips\_down\_for\_speed]:
+  [http://www.computerworld.com/s/article/9185338/Internet_Explorer_9_beta_strips_down_for_speed]:
     http://www.computerworld.com/s/article/9185338/Internet_Explorer_9_beta_strips_down_for_speed
     "http://www.computerworld.com/s/article/9185338/Internet_Explorer_9_beta_strips_down_for_speed"
   [http://www.bildirgec.org/yazi/internet-explorer-9-un-beta]: http://www.bildirgec.org/yazi/internet-explorer-9-un-beta
@@ -252,9 +252,9 @@ yükselme yaşansa bile daha sonra düşüşün devam edeceğini düşünüyorum
     "http://lifehacker.com/5638885/internet-explorer-screenshot-tour-the-best-new-features-in-ie9"
   [http://www.turk.internet.com/portal/yazigoster.php?yaziid=29437]: http://www.turk.internet.com/portal/yazigoster.php?yaziid=29437
     "http://www.turk.internet.com/portal/yazigoster.php?yaziid=29437"
-  [http://www.nuricankaya.com/default.asp?gunluk\_id=455]: http://www.nuricankaya.com/default.asp?gunluk_id=455
+  [http://www.nuricankaya.com/default.asp?gunluk_id=455]: http://www.nuricankaya.com/default.asp?gunluk_id=455
     "http://www.nuricankaya.com/default.asp?gunluk_id=455"
-  [http://www.nuricankaya.com/resimler/2010\_Eylul/ie9guide.pdf]: http://www.nuricankaya.com/resimler/2010_Eylul/ie9guide.pdf
+  [http://www.nuricankaya.com/resimler/2010_Eylul/ie9guide.pdf]: http://www.nuricankaya.com/resimler/2010_Eylul/ie9guide.pdf
     "http://www.nuricankaya.com/resimler/2010_Eylul/ie9guide.pdf"
   [http://www.engadget.com/2011/03/14/internet-explorer-9-launches-tonight-weve-got-your-early-look/]:
     http://www.engadget.com/2011/03/14/internet-explorer-9-launches-tonight-weve-got-your-early-look/

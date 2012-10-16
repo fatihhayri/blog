@@ -46,7 +46,7 @@ yaşıyoruz. Kod yazım formatımızı düzenli yaparsak bu sorunu çözebiliriz
 Çoğu zaman karşılaştığımız sorunlardan bir taneside doküman
 hiyerarşisine göre daha oluşturulmamış bir nesneye erişmek istediğimizde
 "abs has no properties" gibi bir hata ile karşılaşırız. Genelde
-javascript dosyalarını \<head\> etiketi içinde tanımlarız ve sayfa
+javascript dosyalarını <head> etiketi içinde tanımlarız ve sayfa
 yüklenirken bir işlev yapılmasını istediğimizde böyle bir hata alırız.
 Eğer sayfa ilk yüklendiğinde bir şey yapmak istiyorsak bu kodu sayfa
 sonuna koymalıyız, yada yapmak istediğimiz işi sayfadaki bir nesne ile
@@ -94,11 +94,11 @@ myString ; [/sourcecode]
 ### Javascript: sözde protokolünün kullanımı
 
 Javascript: sözde protokolü onClick gibi olay tetikleyicileri ile
-kullanılmaz. Bu kullanım URL'lerde olur Örneğin \<a\> etiketin href
-özelliğinde ve \<form\> etiketinin action özelliğinde
+kullanılmaz. Bu kullanım URL'lerde olur Örneğin <a> etiketin href
+özelliğinde ve <form> etiketinin action özelliğinde
 
-[sourcecode language="html"] \<a href="javascript:pencereAc();"\>Pencere
-Ac\</a\> [/sourcecode]
+[sourcecode language="html"] <a href="javascript:pencereAc();">Pencere
+Ac</a> [/sourcecode]
 
 ### document.write
 
@@ -115,29 +115,29 @@ araç.
 
 ### Kaynaklar
 
--   <span>JavaScript: The Good Parts Ek b \*\*\*\*\* </span>
+-   <span>JavaScript: The Good Parts Ek b ***** </span>
 -   [http://www.dynamicsitesolutions.com/javascript/mistakes/][] (kısa
-    kısa) \*\*\*
--   [http://www.netmechanic.com/news/vol4/javascript\_no23.htm][]
-    (ayrıntılı) \*\*\*\*
--   [http://weblogs.asp.net/bleroy/archive/2005/02/15/Three-common-mistakes-in-JavaScript-\_2F00\_-EcmaScript.aspx][]
-    \*\*\*
+    kısa) ***
+-   [http://www.netmechanic.com/news/vol4/javascript_no23.htm][]
+    (ayrıntılı) ****
+-   [http://weblogs.asp.net/bleroy/archive/2005/02/15/Three-common-mistakes-in-JavaScript-_2F00_-EcmaScript.aspx][]
+    ***
 -   [http://javascript.about.com/od/reference/a/error.htm][] (ayrıntılı)
-    \*\*\*
--   [http://www.c-point.com/javascript\_tutorial/common\_mistakes.htm][]
-    \*\*
+    ***
+-   [http://www.c-point.com/javascript_tutorial/common_mistakes.htm][]
+    **
 -   [http://javascript.internet.com/debug-guide.html][] (ayrıntılı)
-    \*\*\*\*
+    ****
 -   [http://swik.net/JavaScript/Common+JavaScript+Development+Mistakes][]
-    \*\*
--   [http://www.javascriptlint.com/][] \*
--   [http://www.ddj.com/184412486][] \*\*
+    **
+-   [http://www.javascriptlint.com/][] *
+-   [http://www.ddj.com/184412486][] **
 -   [http://www.sitepoint.com/blogs/2004/08/18/five-common-mistakes-in-influencing-others/][]
-    \*\*
+    **
 -   [http://www.javascriptsearch.com/guides/Beginner/articles/070625Mistakes.html][]
-    (kısa kısa) \*\*
--   [http://www.webmonkey.com/98/29/index4a\_page3.html?tw=programming][]
-    \*\*\*
+    (kısa kısa) **
+-   [http://www.webmonkey.com/98/29/index4a_page3.html?tw=programming][]
+    ***
 -   [Beginning JavaScript][]
 
 </p>
@@ -145,11 +145,11 @@ araç.
   [rezerver edilmiş kelimeler]: http://javascript.about.com/library/blreserved.htm
     "rezerver edilmiş kelimeler"
   [http://www.dynamicsitesolutions.com/javascript/mistakes/]: http://www.dynamicsitesolutions.com/javascript/mistakes/
-  [http://www.netmechanic.com/news/vol4/javascript\_no23.htm]: http://www.netmechanic.com/news/vol4/javascript_no23.htm
-  [http://weblogs.asp.net/bleroy/archive/2005/02/15/Three-common-mistakes-in-JavaScript-\_2F00\_-EcmaScript.aspx]:
+  [http://www.netmechanic.com/news/vol4/javascript_no23.htm]: http://www.netmechanic.com/news/vol4/javascript_no23.htm
+  [http://weblogs.asp.net/bleroy/archive/2005/02/15/Three-common-mistakes-in-JavaScript-_2F00_-EcmaScript.aspx]:
     http://weblogs.asp.net/bleroy/archive/2005/02/15/Three-common-mistakes-in-JavaScript-_2F00_-EcmaScript.aspx
   [http://javascript.about.com/od/reference/a/error.htm]: http://javascript.about.com/od/reference/a/error.htm
-  [http://www.c-point.com/javascript\_tutorial/common\_mistakes.htm]: http://www.c-point.com/javascript_tutorial/common_mistakes.htm
+  [http://www.c-point.com/javascript_tutorial/common_mistakes.htm]: http://www.c-point.com/javascript_tutorial/common_mistakes.htm
   [http://javascript.internet.com/debug-guide.html]: http://javascript.internet.com/debug-guide.html
   [http://swik.net/JavaScript/Common+JavaScript+Development+Mistakes]: http://swik.net/JavaScript/Common+JavaScript+Development+Mistakes
   [http://www.javascriptlint.com/]: http://www.javascriptlint.com/
@@ -158,6 +158,6 @@ araç.
     http://www.sitepoint.com/blogs/2004/08/18/five-common-mistakes-in-influencing-others/
   [http://www.javascriptsearch.com/guides/Beginner/articles/070625Mistakes.html]:
     http://www.javascriptsearch.com/guides/Beginner/articles/070625Mistakes.html
-  [http://www.webmonkey.com/98/29/index4a\_page3.html?tw=programming]: http://www.webmonkey.com/98/29/index4a_page3.html?tw=programming
+  [http://www.webmonkey.com/98/29/index4a_page3.html?tw=programming]: http://www.webmonkey.com/98/29/index4a_page3.html?tw=programming
   [Beginning JavaScript]: http://www.wrox.com/WileyCDA/WroxTitle/productCd-0764555871.html
     "Beginning JavaScript"

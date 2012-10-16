@@ -7,7 +7,7 @@ Vista'ya alışmadığımı itiraf etmeliyim. Bu gün birden IE7 flash
 dosyalarını göstermemeye başladı. Gittim adobe'un sitesine ve flash
 player'ı tekrar indirdim. Kurulum tamam dedi ancak IE7 hala bazı
 sayfalarda flash dosyalarını göstermiyor. Neyse sorunun çözümü
-**C:\\Windows\\System32\\Macromed\\Flash** IE7 kapattıktan sonra
+**C:WindowsSystem32MacromedFlash** IE7 kapattıktan sonra
 klasörüne gidip **FlashUtil9b.exe** çalıştırmaktan geçiyor. Çalıştırınca
 kendini güncelliyor ve sorun gideriliyor. Benim anlamadığım bunu her
 kullanıcı yapacak ise çok saçma bir şey olduğu. Sonuç olarak sizde böyle

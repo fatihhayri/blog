@@ -24,7 +24,7 @@ fixed; -webkit-background-size: cover; -moz-background-size: cover;
 
 Bir örnek yapalım
 
-[css] html{ background:url("zemin\_resmi.jpg") 0 0 no-repeat fixed;
+[css] html{ background:url("zemin_resmi.jpg") 0 0 no-repeat fixed;
 background-size:cover; -webkit-background-size:cover;
 -moz-background-size:cover; -o-background-size:cover; } [/css]
 
@@ -33,7 +33,7 @@ background-size:cover; -webkit-background-size:cover;
 ![][]
 
 Ardalan resmini
-[http://interfacelift.com/wallpaper/details/2421/empty\_bottles.html][]
+[http://interfacelift.com/wallpaper/details/2421/empty_bottles.html][]
 aldım.
 
 **html** elementine vermemizin nedeni **body** tanımlamalarında bazı
@@ -56,9 +56,9 @@ desteklememesidir. İnternet Explorer için **filter** ile bir çözüm
 üretebiliriz.
 
 [css] filter:
-progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.zemin\_resmi.jpg',
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.zemin_resmi.jpg',
 sizingMethod='scale'); -ms-filter:
-"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='zemin\_resmi.jpg',
+"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='zemin_resmi.jpg',
 sizingMethod='scale')"; [/css]
 
 Bu kod ile ie içinde çözüm üretilmiş olacaktır. Linklerde ve içerik
@@ -66,9 +66,9 @@ seçmede bazı orunlar olabiliyor.
 
 ### Tüm Tarayıcılar İçin Çözüm
 
-[css] \<div id="tamEkranArdAlan"\>\<img
+[css] <div id="tamEkranArdAlan"><img
 src="http://www.fatihhayrioglu.com/images/emptybottles.jpg" width="100%"
-height="100%" /\>\</div\> \<div id="icerik"\> ... \</div\> [/css]
+height="100%" /></div> <div id="icerik"> ... </div> [/css]
 
 Sayfamızı içerik ve ardalan resmi olarak ikiye ayırıyoruz.
 
@@ -76,16 +76,16 @@ Sayfamızı içerik ve ardalan resmi olarak ikiye ayırıyoruz.
 
 Sayfanın boşluklarını sıfırlıyoruz.
 
-[css] \#tamEkranArdAlan {position:fixed; top:0; left:0; width:100%;
+[css] #tamEkranArdAlan {position:fixed; top:0; left:0; width:100%;
 height:100%;} [/css]
 
 Zemine yerleştirilecek resmi sabitleyip üstten ve soldan başlangıç
 noktasına yerleştiriyoruz ve genişlik ve yükseklik değerini %100
 veriyoruz.
 
-[css] \#icerik {position:relative; z-index:1; width:650px; padding:20px;
+[css] #icerik {position:relative; z-index:1; width:650px; padding:20px;
 font:14px/1.8em Arial; margin:40px auto; border-radius:10px;
-color:\#333; background-color:\#fff} [/css]
+color:#333; background-color:#fff} [/css]
 
 İçerik alanını **postion:relative; z-index:1** değeri atayarak
 içerikteki seçilme ve linklerde sorun olmasını engelliyoruz. Diğer
@@ -93,8 +93,8 @@ tanımlar içerik alanının görselliğini ayarlamak içindir.
 
 Bu kodlar ie6 hariç çalışırken ie6’da çalışmıyor ie6’da çalışması için
 
-[css] \*html {overflow-y:hidden;} \*html body {overflow-y:auto;} \*html
-\#tamEkranArdAlan {position:absolute; z-index:-1;} \*html \#icerik
+[css] *html {overflow-y:hidden;} *html body {overflow-y:auto;} *html
+#tamEkranArdAlan {position:absolute; z-index:-1;} *html #icerik
 {position:static;padding:20px;} [/css]
 
 ie6 **postipon:fixed** desteklemediği için **postion:absolute** değeri
@@ -129,12 +129,12 @@ Kalın sağlıcakla
 ### Kaynaklar
 
 -   [http://css-tricks.com/3458-perfect-full-page-background-image/][]
--   [http://cookbooks.adobe.com/post\_Scale\_Background\_image\_to\_browser\_size-17590.html][]
+-   [http://cookbooks.adobe.com/post_Scale_Background_image_to_browser_size-17590.html][]
 -   [http://www.paulmccrodden.com/2011/02/problems-css3-background-size-cover-iefilters/][]
--   [http://www.pziecina.com/design/turorial\_demos/resize\_background.php][]
+-   [http://www.pziecina.com/design/turorial_demos/resize_background.php][]
 -   [http://css-tricks.com/766-how-to-resizeable-background-image/][]
 -   [http://paulmason.name/blog/item/full-screen-background-image-pure-css-code][]
--   [http://www.quackit.com/html/codes/html\_stretch\_background\_image.cfm][]
+-   [http://www.quackit.com/html/codes/html_stretch_background_image.cfm][]
 -   [http://www.cssplay.co.uk/layouts/background.html][]
 
 </p>
@@ -142,18 +142,18 @@ Kalın sağlıcakla
   [CSS3’ün background-size özelliğini anlattım]: http://www.fatihhayrioglu.com/css3-background-size-ozelligi/
   [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/tam_sayfa_bg.html
   []: https://lh6.googleusercontent.com/x55IiCT52mJIMb9oYddTeHpX7Ww7ti3puoZiped0VQ-SflPtR_mrldscvuWoco7aOWi0dbQ2llnOVRuch-2dgpR_LSkZU76CiKam4NThM2DYry7j-Po
-  [http://interfacelift.com/wallpaper/details/2421/empty\_bottles.html]:
+  [http://interfacelift.com/wallpaper/details/2421/empty_bottles.html]:
     http://interfacelift.com/wallpaper/details/2421/empty_bottles.html
   [http://css-tricks.com/3458-perfect-full-page-background-image/]: http://css-tricks.com/3458-perfect-full-page-background-image/
-  [http://cookbooks.adobe.com/post\_Scale\_Background\_image\_to\_browser\_size-17590.html]:
+  [http://cookbooks.adobe.com/post_Scale_Background_image_to_browser_size-17590.html]:
     http://cookbooks.adobe.com/post_Scale_Background_image_to_browser_size-17590.html
   [http://www.paulmccrodden.com/2011/02/problems-css3-background-size-cover-iefilters/]:
     http://www.paulmccrodden.com/2011/02/problems-css3-background-size-cover-iefilters/
-  [http://www.pziecina.com/design/turorial\_demos/resize\_background.php]:
+  [http://www.pziecina.com/design/turorial_demos/resize_background.php]:
     http://www.pziecina.com/design/turorial_demos/resize_background.php
   [http://css-tricks.com/766-how-to-resizeable-background-image/]: http://css-tricks.com/766-how-to-resizeable-background-image/
   [http://paulmason.name/blog/item/full-screen-background-image-pure-css-code]:
     http://paulmason.name/blog/item/full-screen-background-image-pure-css-code
-  [http://www.quackit.com/html/codes/html\_stretch\_background\_image.cfm]:
+  [http://www.quackit.com/html/codes/html_stretch_background_image.cfm]:
     http://www.quackit.com/html/codes/html_stretch_background_image.cfm
   [http://www.cssplay.co.uk/layouts/background.html]: http://www.cssplay.co.uk/layouts/background.html

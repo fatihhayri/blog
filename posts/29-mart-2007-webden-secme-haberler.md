@@ -30,7 +30,7 @@ Tags: ceviz.net, CSS, Dreamweaver, Faux Column, google maps, Haberler, Javascrip
 -   En yaratıcı favori ikonlarına sahip sitelerin listesi.[Link][12]
 -   GfxDizayn DW yenilikleri hakkında bir kaç not.[Link][13]
 -   Ceviz.net yeni bir yarışma düzenliyor "Programlama Yarışması"
-    kazanana 1000\$verilecekmiş. [Link][14]
+    kazanana 1000$verilecekmiş. [Link][14]
 
 </p>
 

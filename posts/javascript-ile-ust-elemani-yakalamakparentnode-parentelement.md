@@ -14,30 +14,30 @@ seferinde.
 Daha sonra aramalar sonucu her ikisininde çalıştırdığı
 <span>parentNode</span> özelliğini kullanmaya karar verdim.
 
-[sourcecode language="html"] \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"\> \<html
-xmlns="http://www.w3.org/1999/xhtml"\> \<head\> \<meta
-http-equiv="Content-Type" content="text/html; charset=utf-8" /\>
-\<title\>parentNode örnek sayfası\</title\> \</head\> \<body\> \<form
-id="DugmeFormu"\> \<input id="Dugme" type="button" value="Üst elemanı
-göster" onclick="ustEleman();"\> \</form\> \<script
-language="JavaScript"\> function ustEleman() { var m =
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
+xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
+http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>parentNode örnek sayfası</title> </head> <body> <form
+id="DugmeFormu"> <input id="Dugme" type="button" value="Üst elemanı
+göster" onclick="ustEleman();"> </form> <script
+language="JavaScript"> function ustEleman() { var m =
 document.getElementById("Dugme").parentNode.id; alert("Üst elemanı:
-"+'"'+m+'"'); } \</script\> \</body\> \</html\> [/sourcecode]
+"+'"'+m+'"'); } </script> </body> </html> [/sourcecode]
 
 Örnek sayfayı görmek için [tıklayınız.][]
 
 ### Kaynaklar
 
--   [http://www.w3schools.com/htmldom/dom\_nodetree.asp][]
+-   [http://www.w3schools.com/htmldom/dom_nodetree.asp][]
 -   [http://www.java2s.com/Code/JavaScriptReference/Javascript-Properties/parentNodeSyntaxandNote.htm][]
 -   [http://ronsguide.com/js/parentnode/][]
 
 </p>
 
   [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/parentNode.htm
-  [http://www.w3schools.com/htmldom/dom\_nodetree.asp]: http://www.w3schools.com/htmldom/dom_nodetree.asp
+  [http://www.w3schools.com/htmldom/dom_nodetree.asp]: http://www.w3schools.com/htmldom/dom_nodetree.asp
   [http://www.java2s.com/Code/JavaScriptReference/Javascript-Properties/parentNodeSyntaxandNote.htm]:
     http://www.java2s.com/Code/JavaScriptReference/Javascript-Properties/parentNodeSyntaxandNote.htm
   [http://ronsguide.com/js/parentnode/]: http://ronsguide.com/js/parentnode/

@@ -12,7 +12,7 @@ sıralayalım:
 -   body içinde kullanılan **background** yerine **background-images**
 -   body içinde kullanılan **link**, **alink**, **vlink** yerine CSS
     tabanlı **:link**, **:visited** ve **:active**
--   **align**özelliği yerine (örn:\<div align="center"\>...\</div\>)
+-   **align**özelliği yerine (örn:<div align="center">...</div>)
     **text-align**kullanılmaktadır
 -   Bunların haricinde resimleri(**img**) için kullanılan **width** ve
     **height** değerleri ile tablolar için kullanılan **cellspacing** ve

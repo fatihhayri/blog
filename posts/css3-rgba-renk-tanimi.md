@@ -15,14 +15,14 @@ RGB(Red-Green-Blue) yani Kırmızı-Yeşil-Mavi renklerin baz alındığı renk
 standardı. Açıkçası ben projelerimde her zaman rgb standardını
 kullanmaktayım.
 
-[sourcecode language="css"] background-color:\#ff0000 [/sourcecode]
+[sourcecode language="css"] background-color:#ff0000 [/sourcecode]
 
 Tanımı kırmızı renkte ardalanlar elde etmemizi sağlar. Bu tanımı birde
 kısaltması mevcuttur. Eğer bir birine benzer 2’li elemanlardan oluşan
 bir renk tanımı varsa yukarıdaki gibi benzer değerleri bir kere
 yazarakta aynı sonucu elde edebiliriz.
 
-[sourcecode language="css"] background-color:\#f00 [/sourcecode]
+[sourcecode language="css"] background-color:#f00 [/sourcecode]
 
 Yukarıdaki tanımda bize kırmızı rengi verecektir.
 
@@ -49,11 +49,11 @@ değerler bize saydamlık etkisi tanımlamamızı sağlayacaktır.
 
 Normalde css ile renk tanımı yaparken
 
-[sourcecode language="css"] background-color:\#1259C7 [/sourcecode]
+[sourcecode language="css"] background-color:#1259C7 [/sourcecode]
 
 tanımı kullanıyorum. Benzer şekilde
 
-[sourcecode language="css"] \<li\>background-color:rgb(18,89,199)\</li\>
+[sourcecode language="css"] <li>background-color:rgb(18,89,199)</li>
 [/sourcecode]
 
 Tanımıda bize aynı sonucu verir. RGBA ile dördüncü değer olarak alfa
@@ -77,9 +77,9 @@ background-color:rgba(18,89,199,1); width:70px; height:70px}
 
 HTML kodu
 
-[sourcecode language="html"] \<p class="renk1"\>\</p\> \<p
-class="renk2"\>\</p\> \<p class="renk3"\>\</p\> \<p
-class="renk4"\>\</p\> \<p class="renk5"\>\</p\> [/sourcecode]
+[sourcecode language="html"] <p class="renk1"></p> <p
+class="renk2"></p> <p class="renk3"></p> <p
+class="renk4"></p> <p class="renk5"></p> [/sourcecode]
 
 Örneği görmek için [tıklayınız.][]
 
@@ -132,8 +132,8 @@ CSS Profile 3.0
 
 Çözüm için CSS-Tricks’te bir çözüm önerisi var
 
-[sourcecode language="css"] p.renk1{ background: rgb(200, 54, 54); /\*
-desteklemeyenler icin \*/ background: rgba(200, 54, 54, 0.5); }
+[sourcecode language="css"] p.renk1{ background: rgb(200, 54, 54); /*
+desteklemeyenler icin */ background: rgba(200, 54, 54, 0.5); }
 [/sourcecode]
 
 Bu çözüm önerisinde desteklemeyen tarayıcılarda katı renk hali
@@ -142,10 +142,10 @@ görüntülenecektir.
 
 Diğer bir yöntem;
 
-[sourcecode language="html"] \<!--[if IE]\> \<style type="text/css"\>
+[sourcecode language="html"] <!--[if IE]> <style type="text/css">
 .color-block { background:transparent;
-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=\#99000050,endColorstr=\#99000050);
-zoom: 1; } \</style\> \<![endif]--\> [/sourcecode]
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000050,endColorstr=#99000050);
+zoom: 1; } </style> <![endif]--> [/sourcecode]
 
 Şeklinde sadece ie için üretilen bir kod ile çözüm sağlanır destekleyen
 tarayıcılar için standart kod kullanılır.
@@ -153,10 +153,10 @@ tarayıcılar için standart kod kullanılır.
 ### Kaynaklar
 
 -   [http://24ways.org/2009/working-with-rgba-colour][]
--   [http://www.w3.org/TR/css3-color/\#rgba-color][]
+-   [http://www.w3.org/TR/css3-color/#rgba-color][]
 -   [http://css-tricks.com/rgba-browser-support/][]
 -   [http://www.gograybox.com/blog/qt-css3-rgba/][]
--   [http://forabeautifulweb.com/blog/about/is\_css3\_rgba\_ready\_to\_rock][]
+-   [http://forabeautifulweb.com/blog/about/is_css3_rgba_ready_to_rock][]
 -   [http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/][]
 -   [http://www.css3.info/introduction-opacity-rgba/][]
 -   [http://dorward.me.uk/www/css/alpha-colour/][]
@@ -178,10 +178,10 @@ tarayıcılar için standart kod kullanılır.
     http://nicewebtype.com/notes/2009/07/12/rgba-text-shadow-in-safari-firefox/
   [box-shadow]: http://www.fatihhayrioglu.com/kutulara-golge-vermek-box-shadow/
   [http://24ways.org/2009/working-with-rgba-colour]: http://24ways.org/2009/working-with-rgba-colour
-  [http://www.w3.org/TR/css3-color/\#rgba-color]: http://www.w3.org/TR/css3-color/#rgba-color
+  [http://www.w3.org/TR/css3-color/#rgba-color]: http://www.w3.org/TR/css3-color/#rgba-color
   [http://css-tricks.com/rgba-browser-support/]: http://css-tricks.com/rgba-browser-support/
   [http://www.gograybox.com/blog/qt-css3-rgba/]: http://www.gograybox.com/blog/qt-css3-rgba/
-  [http://forabeautifulweb.com/blog/about/is\_css3\_rgba\_ready\_to\_rock]:
+  [http://forabeautifulweb.com/blog/about/is_css3_rgba_ready_to_rock]:
     http://forabeautifulweb.com/blog/about/is_css3_rgba_ready_to_rock
   [http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/]:
     http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/

@@ -27,18 +27,18 @@ anlatacağız ve avantaj, dezavantajlarını sizlerle paylaşacağız.
 
 Todd Fahrner arkadaşımızın ürettiği bu kod en popüler metotlardan
 biridir. Uygulanması en basit metot olması kullanımını arttırmıştır.
-Teknik çok basittir yerine resim konacak metin \<span\> etiketi içine
+Teknik çok basittir yerine resim konacak metin <span> etiketi içine
 alınır. Xhtml kodu:
 
-[sourcecode language="html"] \<h1\> \<span\>Selam\</span\> \</h1\>
+[sourcecode language="html"] <h1> <span>Selam</span> </h1>
 [/sourcecode]
 
-Metin yerine görünecek resim \<h1\> etiketine uygulanır: CSS kodu
+Metin yerine görünecek resim <h1> etiketine uygulanır: CSS kodu
 
 [sourcecode language="css"] h1 { background:url(selam.gif) no-repeat;
 width: 62px; height: 19px; font-size:16px; } [/sourcecode]
 
-ve son olarakta \<span\> etiketi içindeki metni gizlemek için:
+ve son olarakta <span> etiketi içindeki metni gizlemek için:
 
 [sourcecode language="css"] span { display: none; } [/sourcecode]
 
@@ -53,9 +53,9 @@ gidermek için başka yöntemler geliştirilmiştir.
 
 www.phark.net'in ürettiği bu teknik ekran okuyucuları tarafından
 görüntülenecektir, bu yönüyle FIR tekniğinden avantajlıdır. Ayrıca
-fazladan \<span\> etiketi üretmemesi yönüylede avantajlıdır. Html kodu:
+fazladan <span> etiketi üretmemesi yönüylede avantajlıdır. Html kodu:
 
-[sourcecode language="css"] \<h1\>Selam\</h1\> [/sourcecode]
+[sourcecode language="css"] <h1>Selam</h1> [/sourcecode]
 
 FIR tekniğinden farklı olarak bu teknikte **text-indent** değeri yüksek
 eksi değer(genelde -999px) verilerek ekranı dışına atılarak üretilir.
@@ -76,22 +76,22 @@ sayfalarda sorun yaşayacaktır. Biz bu tekniği [CSS ile Menü Oluşturmak V
 
 Tom Gilder ve Levin Alexander bu kodlamayı geliştirmiştir. Ekran
 okuyucularında ve resim görüntülemeyi iptal eden kullanıcılarda sorunsuz
-çalışır. Bu teknikte boş bir \<span\> etiketi ile yazının üzeri
+çalışır. Bu teknikte boş bir <span> etiketi ile yazının üzeri
 kapatılır, eğer resimleri kapatıp sitenizi ziyaret eden olursa altındaki
 metni görür.
 
-Bu metot için fazladan \<span\> etiketi üretilir. Html kodu:
+Bu metot için fazladan <span> etiketi üretilir. Html kodu:
 
-[sourcecode language="html"] \<h1\> \<span\>\</span\>Selam \</h1\>
+[sourcecode language="html"] <h1> <span></span>Selam </h1>
 [/sourcecode]
 
-\<h1\> etiketinin boyutları resmin boyutları ile aynı atanır ve göreceli
+<h1> etiketinin boyutları resmin boyutları ile aynı atanır ve göreceli
 olarak konumlandırılır. CSS kodu
 
 [sourcecode language="css"] h1 { width: 62px; height: 19px; position:
 relative; font-size:16px; } [/sourcecode]
 
-Ekstradan üretilen \<span\> etiketi mutlak konumlandırma ile
+Ekstradan üretilen <span> etiketi mutlak konumlandırma ile
 konumlandırarak metnin üzerini kapatırız. Ayrıca boyutları %100
 verilerek tam kapanma sağlanır. Son olarakta görünecek resim zemin resmi
 olarak atanır.
@@ -103,11 +103,11 @@ no-repeat; position: absolute; width: 100%; height: 100%; }
 Örneği görmek için [tıklayınız.][2]
 
 Bu metot hem ekran okuyucuları hemde resim göstermeyen tarayıcılarda
-sorunsuz çalışır. Tek dezavantajı fazladan bir \<span\> etiketi
+sorunsuz çalışır. Tek dezavantajı fazladan bir <span> etiketi
 eklenmesidir.
 
 <div class="ekstrabilgi">
-Fakat bu metodun boş, anlamsız, ekstra bir \<span\> elementi ile
+Fakat bu metodun boş, anlamsız, ekstra bir <span> elementi ile
 gerçekleştirilmesi, "web anlamlılığı" bakımından iyi bir davranış değil.
 "Web Anlamlılığı" bize her HTML elementinin bir görevi olması gerektiği
 ve gereksiz kodlamadan kaçmamızı söylüyor. [Mehmet Doğan][]
@@ -193,28 +193,28 @@ ben **fatih.swf** yaptım.
 
 **HTML**
 
-Html dokümanınız açıp \<head\> içine aşağıdaki kodları eklememiz
+Html dokümanınız açıp <head> içine aşağıdaki kodları eklememiz
 gerekiyor.
 
-[sourcecode language="html"] \<link rel="stylesheet"
-href="sIFR-screen.css" type="text/css" media="screen"\> \<link
-rel="stylesheet" href="sIFR-print.css" type="text/css" media="print"\>
+[sourcecode language="html"] <link rel="stylesheet"
+href="sIFR-screen.css" type="text/css" media="screen"> <link
+rel="stylesheet" href="sIFR-print.css" type="text/css" media="print">
 [/sourcecode]
 
 sonra bunların altına javascript dosyalarını ekleyelim.
 
-[sourcecode language="html"] \<script src="sifr.js"
-type="text/javascript"\>\</script\>\</li\> \<script src="sifr-addons.js"
-type="text/javascript"\>\</script\> \</li\> [/sourcecode]
+[sourcecode language="html"] <script src="sifr.js"
+type="text/javascript"></script></li> <script src="sifr-addons.js"
+type="text/javascript"></script> </li> [/sourcecode]
 
 Sonra Html içeriğinin sonuna aşağıdaki kodu ekleyelim.
 
-[sourcecode language="javascript"] \<script type="text/javascript"\>
-//\<![CDATA[ /\* Replacement calls. Please see documentation for more
-information. \*/ if(typeof sIFR == "function"){ // This is the older,
-ordered syntax sIFR.replaceElement("h2", "fatih.swf", "\#000000",
-"\#000000", "\#FFFFFF", "\#FFFFFF", 0, 0, 0, 0); }; //]]\> \</script\>
-\</body\> \</html\> [/sourcecode]
+[sourcecode language="javascript"] <script type="text/javascript">
+//<![CDATA[ /* Replacement calls. Please see documentation for more
+information. */ if(typeof sIFR == "function"){ // This is the older,
+ordered syntax sIFR.replaceElement("h2", "fatih.swf", "#000000",
+"#000000", "#FFFFFF", "#FFFFFF", 0, 0, 0, 0); }; //]]> </script>
+</body> </html> [/sourcecode]
 
 Bu javascript kodunda metin yerine eklenecek swf fosyasını, metnin
 rengini, hangi elemente(etiket, id ve sınıf) uygulanacağını, padding,
@@ -262,16 +262,16 @@ başlıklar için kullanmak gayet mantıklı. Takdir ve seçim sizin.
 
 ### Kaynaklar
 
--   [http://www.altiustutasarim.com/arsiv/2005/03/css\_fir\_teknigi.php][Mehmet
+-   [http://www.altiustutasarim.com/arsiv/2005/03/css_fir_teknigi.php][Mehmet
     Doğan]
 -   [http://www.ampsoft.net/­webdesign-l/image-button.html][]
 -   [http://www.mezzoblue.com/tests/revised-image-replacement/][]
--   [http://www.digital-web.com/articles/in\_defense\_of\_fahrner\_image\_replacement/][]
+-   [http://www.digital-web.com/articles/in_defense_of_fahrner_image_replacement/][]
 -   [http://alistapart.com/articles/fir/][]
 -   [http://www.mikeindustries.com/sifr/][buradan]
--   [http://webdesign.maratz.com/lab/multi\_color\_sifr/][]
+-   [http://webdesign.maratz.com/lab/multi_color_sifr/][]
 -   [http://usabletype.com/weblog/how-and-when-to-use-sifr/][]
--   [http://www.adobe.com/devnet/dreamweaver/articles/sifr\_demo.html][Introduction
+-   [http://www.adobe.com/devnet/dreamweaver/articles/sifr_demo.html][Introduction
     to Scalable Inman Flash Replacement (sIFR)]
 -   [http://novemberborn.net/sifr3/beta1][sIFR3]
 -   [http://labs.tom-lee.com/HeadingReplacement/Alpha/][]
@@ -294,9 +294,9 @@ başlıklar için kullanmak gayet mantıklı. Takdir ve seçim sizin.
   [sIFR3]: http://novemberborn.net/sifr3/beta1
   [http://www.ampsoft.net/­webdesign-l/image-button.html]: http://www.ampsoft.net/­webdesign-l/image-button.html
   [http://www.mezzoblue.com/tests/revised-image-replacement/]: http://www.mezzoblue.com/tests/revised-image-replacement/
-  [http://www.digital-web.com/articles/in\_defense\_of\_fahrner\_image\_replacement/]:
+  [http://www.digital-web.com/articles/in_defense_of_fahrner_image_replacement/]:
     http://www.digital-web.com/articles/in_defense_of_fahrner_image_replacement/
   [http://alistapart.com/articles/fir/]: http://alistapart.com/articles/fir/
-  [http://webdesign.maratz.com/lab/multi\_color\_sifr/]: http://webdesign.maratz.com/lab/multi_color_sifr/
+  [http://webdesign.maratz.com/lab/multi_color_sifr/]: http://webdesign.maratz.com/lab/multi_color_sifr/
   [http://usabletype.com/weblog/how-and-when-to-use-sifr/]: http://usabletype.com/weblog/how-and-when-to-use-sifr/
   [http://labs.tom-lee.com/HeadingReplacement/Alpha/]: http://labs.tom-lee.com/HeadingReplacement/Alpha/

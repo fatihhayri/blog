@@ -33,14 +33,14 @@ yapmasını bekler. İşte sorunda tam burada başlar.
 hasLayout özelliği bir CSS özelliği değildir, yani biz hasLayout:true
 diye bir tanım yaparak bu sorunları halledemiyoruz.
 
--   [\<html\>][],[\<body\>][]
--   [\<table\>][],[\<tr\>][],[\<th\>][],[\<td\>][]
--   [\<iframe\>][],[\<embed\>][] (non-standard
-    element),[\<object\>][],[\<applet\>][]
--   [\<img\>][]
--   [\<hr\>][]
--   [\<input\>][],[\<button\>][],[\<select\>][],[\<textarea\>][],[\<fieldset\>][],[\<legend\>][]
--   \<marquee\> (don't ever use this one, non-standard and annoying)
+-   [<html>][],[<body>][]
+-   [<table>][],[<tr>][],[<th>][],[<td>][]
+-   [<iframe>][],[<embed>][] (non-standard
+    element),[<object>][],[<applet>][]
+-   [<img>][]
+-   [<hr>][]
+-   [<input>][],[<button>][],[<select>][],[<textarea>][],[<fieldset>][],[<legend>][]
+-   <marquee> (don't ever use this one, non-standard and annoying)
 
 Etiketlerinin başlangıç hasLayout değeri true olarak geliyor.
 
@@ -126,24 +126,24 @@ Kalın sağlıcakla
 
   [Mosaic]: http://en.wikipedia.org/wiki/Mosaic_web_browser
   [Trident]: http://en.wikipedia.org/wiki/Trident_(layout_engine)
-  [\<html\>]: http://www.w3.org/TR/html401/struct/global.html#edef-HTML
-  [\<body\>]: http://www.w3.org/TR/html401/struct/global.html#edef-BODY
-  [\<table\>]: http://www.w3.org/TR/html401/struct/tables.html#edef-TABLE
-  [\<tr\>]: http://www.w3.org/TR/html401/struct/tables.html#edef-TR
-  [\<th\>]: http://www.w3.org/TR/html401/struct/tables.html#edef-TH
-  [\<td\>]: http://www.w3.org/TR/html401/struct/tables.html#edef-TD
-  [\<iframe\>]: http://www.w3.org/TR/html401/present/frames.html#edef-IFRAME
-  [\<embed\>]: http://alistapart.com/articles/byebyeembed
-  [\<object\>]: http://www.w3.org/TR/html401/struct/objects.html#edef-OBJECT
-  [\<applet\>]: http://www.w3.org/TR/html401/struct/objects.html#edef-APPLET
-  [\<img\>]: http://www.w3.org/TR/html401/struct/objects.html#edef-IMG
-  [\<hr\>]: http://www.w3.org/TR/html401/present/graphics.html#edef-HR
-  [\<input\>]: http://www.w3.org/TR/html401/interact/forms.html#edef-INPUT
-  [\<button\>]: http://www.w3.org/TR/html401/interact/forms.html#edef-BUTTON
-  [\<select\>]: http://www.w3.org/TR/html401/interact/forms.html#edef-SELECT
-  [\<textarea\>]: http://www.w3.org/TR/html401/interact/forms.html#edef-TEXTAREA
-  [\<fieldset\>]: http://www.w3.org/TR/html401/interact/forms.html#edef-FIELDSET
-  [\<legend\>]: http://www.w3.org/TR/html401/interact/forms.html#edef-LEGEND
+  [<html>]: http://www.w3.org/TR/html401/struct/global.html#edef-HTML
+  [<body>]: http://www.w3.org/TR/html401/struct/global.html#edef-BODY
+  [<table>]: http://www.w3.org/TR/html401/struct/tables.html#edef-TABLE
+  [<tr>]: http://www.w3.org/TR/html401/struct/tables.html#edef-TR
+  [<th>]: http://www.w3.org/TR/html401/struct/tables.html#edef-TH
+  [<td>]: http://www.w3.org/TR/html401/struct/tables.html#edef-TD
+  [<iframe>]: http://www.w3.org/TR/html401/present/frames.html#edef-IFRAME
+  [<embed>]: http://alistapart.com/articles/byebyeembed
+  [<object>]: http://www.w3.org/TR/html401/struct/objects.html#edef-OBJECT
+  [<applet>]: http://www.w3.org/TR/html401/struct/objects.html#edef-APPLET
+  [<img>]: http://www.w3.org/TR/html401/struct/objects.html#edef-IMG
+  [<hr>]: http://www.w3.org/TR/html401/present/graphics.html#edef-HR
+  [<input>]: http://www.w3.org/TR/html401/interact/forms.html#edef-INPUT
+  [<button>]: http://www.w3.org/TR/html401/interact/forms.html#edef-BUTTON
+  [<select>]: http://www.w3.org/TR/html401/interact/forms.html#edef-SELECT
+  [<textarea>]: http://www.w3.org/TR/html401/interact/forms.html#edef-TEXTAREA
+  [<fieldset>]: http://www.w3.org/TR/html401/interact/forms.html#edef-FIELDSET
+  [<legend>]: http://www.w3.org/TR/html401/interact/forms.html#edef-LEGEND
   [ie6’yı öldürdük]: http://www.fatihhayrioglu.com/ie6-sonrasi-kod-yazma-aliskanliklarimizi-guncellemek/
   [%7(makaleyi yazdığımda idi şimdi %4,5 kadar düştü)]: http://labs.sahibinden.com/yazi/sahibinden-com-ziyaretcileri-2011-yili-teknoloji-analizi/
   [http://haslayout.net/haslayout]: http://haslayout.net/haslayout

@@ -22,7 +22,7 @@ kullandığım metin yerine resim koyma metodunu kullanarak yaptığım
 
 -   [http://www.fatihhayrioglu.com/css-ile-basit-sekilde-fare-uzerine-gelincerollover-resim-degisimi-yapmak/][]
 -   [http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/][]
--   [http://www.fatihhayrioglu.com/dokumanlar/basit\_resimli\_menu.html][]
+-   [http://www.fatihhayrioglu.com/dokumanlar/basit_resimli_menu.html][]
 
 text-indent:-9999px  ile görünmez yaptığımız metinleri outline ile
 görünür hale getirdiğimizde pek hoş görüntüler ile karşılaşmayız.
@@ -68,7 +68,7 @@ yardımcımız alttaki tarayıcı çubuğunda her tab tuşuna bastığımızda
 bağlantıdan bağlantıya geçişlerde durum çubuğunda bağlantıların
 gösterilmesidir.
 
-[sourcecode language="css"] a {color: \#004276; text-decoration: none;
+[sourcecode language="css"] a {color: #004276; text-decoration: none;
 outline: none; } [/sourcecode]
 
 tanımı nedeni ile dış hat çizgileri bize yardımcı olmayacaktır. 
@@ -78,7 +78,7 @@ outline değeri standart bırakılmış ve ayrıca odaklanmalar için ayrı bir
 tanım yapılmıştır. 
 
 [sourcecode language="css"] a:active, a:focus, a:hover {
-background-color:\#FFFFCC; color:\#BF1722; text-decoration:underline; }
+background-color:#FFFFCC; color:#BF1722; text-decoration:underline; }
 [/sourcecode]
 
 Tanımları yardımı ile odaklanılan bağlantılar daha belirgin hale
@@ -113,7 +113,7 @@ klavyenin tab'ı ile geldiğinde de uygulayalım. outline'ı kaldıralım
 tabi.
 
 [sourcecode language="css"] a.anasayfayaDon { display: block; width:
-80px; height: 80px; background: url(images/degisen\_resim.gif) 0 0
+80px; height: 80px; background: url(images/degisen_resim.gif) 0 0
 no-repeat; text-decoration: none; text-indent:-999px; }
 a:hover.anasayfayaDon, a:focus.anasayfayaDon { background-position:
 -80px 0; outline:none; } [/sourcecode]
@@ -151,7 +151,7 @@ sonunda örneğimiz ie de de çalışacaktır.
 -   [http://arjaneising.nl/css/dont-remove-the-outline-from-links][]
     (kaldırılmamalı)
 -   [http://www.karlrixon.co.uk/articles/css/remove-button-focus-outline-using-css/][]
--   [http://www.456bereastreet.com/archive/200905/do\_not\_remove\_the\_outline\_from\_links\_and\_form\_controls/][]
+-   [http://www.456bereastreet.com/archive/200905/do_not_remove_the_outline_from_links_and_form_controls/][]
     (kaldırılmamalı)
 -   [http://jlaine.net/2007/1/23/hidden-css-stuff-the-outline-property][]
 -   [http://sonspring.com/journal/removing-dotted-links][]
@@ -171,7 +171,7 @@ sonunda örneğimiz ie de de çalışacaktır.
   [http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/]:
     http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/
     "http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/"
-  [http://www.fatihhayrioglu.com/dokumanlar/basit\_resimli\_menu.html]: http://www.fatihhayrioglu.com/dokumanlar/basit_resimli_menu.html
+  [http://www.fatihhayrioglu.com/dokumanlar/basit_resimli_menu.html]: http://www.fatihhayrioglu.com/dokumanlar/basit_resimli_menu.html
     "http://www.fatihhayrioglu.com/dokumanlar/basit_resimli_menu.html"
   [outline çizgileri]: /images/outline_cizgi.gif
   [outline çizgi düzeltme]: /images/outline_cizgi_ff.gif
@@ -199,7 +199,7 @@ sonunda örneğimiz ie de de çalışacaktır.
   [http://www.karlrixon.co.uk/articles/css/remove-button-focus-outline-using-css/]:
     http://www.karlrixon.co.uk/articles/css/remove-button-focus-outline-using-css/
     "http://www.karlrixon.co.uk/articles/css/remove-button-focus-outline-using-css/"
-  [http://www.456bereastreet.com/archive/200905/do\_not\_remove\_the\_outline\_from\_links\_and\_form\_controls/]:
+  [http://www.456bereastreet.com/archive/200905/do_not_remove_the_outline_from_links_and_form_controls/]:
     http://www.456bereastreet.com/archive/200905/do_not_remove_the_outline_from_links_and_form_controls/
     "http://www.456bereastreet.com/archive/200905/do_not_remove_the_outline_from_links_and_form_controls/"
   [http://jlaine.net/2007/1/23/hidden-css-stuff-the-outline-property]: http://jlaine.net/2007/1/23/hidden-css-stuff-the-outline-property

@@ -19,15 +19,15 @@ Web sitelerini kodlarken belli yapısal kısımlara ayırırız. Üst kısım,
 içerik kısmı, sol-sağ kolonlar, menü alanı, alt kısım ve içerik alanı.
 HTML5 geliştiricileride bunları düşünmüşler ve bu alanların her biri
 için bir element tanımlamışlar. Biz şu an kodlama yaparken bu alanlar
-için genel \<div\> elementini kullanmaktayız, yeni elementlerle bu tekil
-element(\<div\>) yerine her kısım için bir element kullanma imkanımız
+için genel <div> elementini kullanmaktayız, yeni elementlerle bu tekil
+element(<div>) yerine her kısım için bir element kullanma imkanımız
 olacak. Bu web sayfalarını kodlarken bize bir çok avantaj sağlayacaktır.
 CSS kodlması açısındanda Buelementlere biraz göz atalım.
 
 **section:** Kitabın bir bölümü, bölümün bir kısmı veya gerçekte HTML
 sayfamızın herhangi bir kısmını tanımlamak için kullanabiliriz.  
 **header:** Web sayfamızın üst kısım olarak belirlediğimiz kısımı
-tanımlamak için kullanabiliriz. \<head\> ile karıştırmayalım.  
+tanımlamak için kullanabiliriz. <head> ile karıştırmayalım.  
 **footer:** Web sitemizde alt kısım olarak belirlediğimiz kısımı
 tanımlamak için kullanabiliriz.  
 **nav:** Diğer sayfalara link verilen kısımlar, menü oluşturduğumuz
@@ -48,7 +48,7 @@ içeriğin yanına iliştirilmiş alanları tanımlamak için kullanabiliriz.
 güzel element. Hem şekil hemde açıklmasını içeren bir element  
 **dialog:** Bu element ismindende anlaşıldığı gibi diyalog, karşıklık
 sohbet içeren sayfaları daha kolay kodlamamız için eklenmiştir. Bu
-element \<dd\> ve \<dt\> elementlerini alt element olarak kullanır.
+element <dd> ve <dt> elementlerini alt element olarak kullanır.
 
 ![][1]
 

@@ -22,7 +22,7 @@ pointer event özelliği aslında SVG içerikleri için uygulanan bir
 özelliktir.
 
 <div class="cssozelliktanimi">
-**Yapısı :**pointer-events: \<deger\>  
+**Yapısı :**pointer-events: <deger>  
 **Aldığı Değerler:** auto | none | visiblePainted | visibleFill |
 visibleStroke | visible | painted | fill | stroke | all | inherit   
 **Başlangıç değeri:** auto   
@@ -43,11 +43,11 @@ stroke ve all: Sadece SVG içindir.
 
 Bir örnek ile durumu daha iyi görelim.
 
--   \<ul class="menu"\>
--   \<li\>\<a href="index.html"\>Ana Sayfa\</a\>\</li\>
--   \<li\>\<a href="hakkimizda.html" class=”on”\>Hakkımızda\</a\>\</li\>
--   \<li\>\<a href="urunler.html"\>Ürünler\</a\>\</li\>
--   \</ul\>
+-   <ul class="menu">
+-   <li><a href="index.html">Ana Sayfa</a></li>
+-   <li><a href="hakkimizda.html" class=”on”>Hakkımızda</a></li>
+-   <li><a href="urunler.html">Ürünler</a></li>
+-   </ul>
 
 Hakkımızda sayfasında olduğumuzda kullanıcının hakkımızda linkine
 tıklaması mantıklı değildir, hakkımızda bağlantısının fare tıklama

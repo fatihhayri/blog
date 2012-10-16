@@ -33,15 +33,15 @@ Sayfa ve site sabit bir genişlikte ve ortalı olduğu için ana bir
 kapsül(**anaKapsul**) için alıyorum. katmanı kapattığım yere bir not
 düşüyorum ki nerede bittiğini bilelim.
 
-[sourcecode language="html"] \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"\> \<html
-xmlns="http://www.w3.org/1999/xhtml"\> \<head\> \<meta
-http-equiv="Content-Type" content="text/html; charset=utf-8" /\>
-\<title\>FanatikMarşlar.Com\</title\> \<style type="text/css"\> \<!--
-@import url("style/fanatikmarslar.css"); --\> \</style\> \</head\>
-\<body\> \<div id="anaKapsul"\> \</div\>\<!--[if !IE]\>anaKapsul
-sonu\<![endif]--\> \</body\> \</html\> [/sourcecode]
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
+xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
+http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>FanatikMarşlar.Com</title> <style type="text/css"> <!--
+@import url("style/fanatikmarslar.css"); --> </style> </head>
+<body> <div id="anaKapsul"> </div><!--[if !IE]>anaKapsul
+sonu<![endif]--> </body> </html> [/sourcecode]
 
 İE6 ile bazı sorunları yaşamamak için yorum satırlarını biraz daha
 farklı kodluyorum. Detay için [IE6'un Tekrarlayan Karakter Sorunu][]
@@ -53,10 +53,10 @@ kolay oluyor eklemesi.
 fanatikmarslar.css dosyasını ve yazmaya başlayalım.
 
 [sourcecode language="css"]
-/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-genel tanimlar \*/ body{ background:url(../images/ardalan.jpg) 0 0
-repeat;} \#anaKapsul{width:990px; margin:20px auto; background:\#fff
-url(../images/ust\_ard.gif) 0 0 no-repeat;} [/sourcecode]
+/**************************************************
+genel tanimlar */ body{ background:url(../images/ardalan.jpg) 0 0
+repeat;} #anaKapsul{width:990px; margin:20px auto; background:#fff
+url(../images/ust_ard.gif) 0 0 no-repeat;} [/sourcecode]
 
 Ayrıca sayfa kenarları oval bunları ardalan resmi olarak anaKapsul
 ardalan resmi olarak tanımlayabiliriz.
@@ -87,17 +87,17 @@ boşluğu mesafelerini(margin) tanımlıyoruz.
 
 HTML kodu
 
-[sourcecode language="html"] \<div id="logoBannerAlani"
-class="kapsayamamaSorunu"\> \<div id="logo"\>\<img src="images/logo.gif"
-width="226" height="126" alt="Fanatikmarslar.com" /\>\</div\> \<div
-id="ustBanneralani"\>\<img src="images/ust\_banner.gif" width="728"
-height="90" /\>\</div\> \</div\> [/sourcecode]
+[sourcecode language="html"] <div id="logoBannerAlani"
+class="kapsayamamaSorunu"> <div id="logo"><img src="images/logo.gif"
+width="226" height="126" alt="Fanatikmarslar.com" /></div> <div
+id="ustBanneralani"><img src="images/ust_banner.gif" width="728"
+height="90" /></div> </div> [/sourcecode]
 
 CSS Kodu
 
-[sourcecode language="css"] \#logoBannerAlani{margin-bottom:10px;}
-\#logo{float:left; width:226px; position:relative; top:-14px; left:6px;}
-\#ustBanneralani{float:left; width:728px; margin:14px 0 0 16px}
+[sourcecode language="css"] #logoBannerAlani{margin-bottom:10px;}
+#logo{float:left; width:226px; position:relative; top:-14px; left:6px;}
+#ustBanneralani{float:left; width:728px; margin:14px 0 0 16px}
 [/sourcecode]
 
 **Menü ve Arama Alanı**
@@ -116,16 +116,16 @@ type="submit" elemanına direk erişemediğimizden. input ve button
 elemanlarımıza float:left ve genişlik tanımı yaparak yan yana koyuyoruz
 ve yine yorum kodlarımızı ekliyoruz.
 
-[sourcecode language="html"] \<div id="menuAramaAlani"
-class="kapsayamamaSorunu"\> \<div id="aramaAlani"\> \<input type="text"
+[sourcecode language="html"] <div id="menuAramaAlani"
+class="kapsayamamaSorunu"> <div id="aramaAlani"> <input type="text"
 id="ara" name="ara" value="Arama"
 onfocus="if(this.value=='Arama'){this.value=''};"
-onblur="if(this.value==''){this.value='Arama'};" /\>
-\<button\>\</button\> \</div\> \<ul id="ustMenu"\> \<li\>Sesi
-Kapat\</li\> \<li\>\<a href=""\>Giriş Yap\</a\>\</li\> \<li\>\<a
-href=""\>Sen de Katıl!\</a\>\</li\> \<li\>\<a href=""\>Fanatik Marşlar
-Nedir?\</a\>\</li\> \</ul\> \</div\>\<!--[if
-!IE]\>menuAramaAlani\<![endif]--\> [/sourcecode]
+onblur="if(this.value==''){this.value='Arama'};" />
+<button></button> </div> <ul id="ustMenu"> <li>Sesi
+Kapat</li> <li><a href="">Giriş Yap</a></li> <li><a
+href="">Sen de Katıl!</a></li> <li><a href="">Fanatik Marşlar
+Nedir?</a></li> </ul> </div><!--[if
+!IE]>menuAramaAlani<![endif]--> [/sourcecode]
 
 **Büyük Resim**
 
@@ -138,9 +138,9 @@ yapıyoruz. ie6'da alttan 1px kadar fazlalık vardı bu durumda ie6 özel
 kodu ile aştım. ie6 için bottom:-1px; tanımı yaptım. Tarayıcılar için
 özel kodlar hakkında detaylı bilgi için [tıklayınız][]
 
-[sourcecode language="html"] \<div id="buyukResim"\> \<a href=""\>\<img
-src="images/tezahurat\_gonder\_but.jpg" width="181" height="45"
-alt="Tezahürat Gönder" /\>\</a\> \</div\> [/sourcecode]
+[sourcecode language="html"] <div id="buyukResim"> <a href=""><img
+src="images/tezahurat_gonder_but.jpg" width="181" height="45"
+alt="Tezahürat Gönder" /></a> </div> [/sourcecode]
 
 **Önemli Sözler**
 
@@ -149,8 +149,8 @@ akış dışına çıkarmalıydım. Bunun için **position:relative** tanımı v
 genişlik ve yükseklik tanımı yaptım. Ana kapsayıcı katmanın dışına
 çıkarmak içinde eksi left ve margin-right değeri verdim ve oldu.
 
-[sourcecode language="html"] \<div id="manset"\> \<p\>"Real Madrid'den
-korkmuyoruz"\<strong\>Didier Deschamps\</strong\>\</p\> \</div\>
+[sourcecode language="html"] <div id="manset"> <p>"Real Madrid'den
+korkmuyoruz"<strong>Didier Deschamps</strong></p> </div>
 [/sourcecode]
 
 ### İçerik Alanının kodlaması
@@ -167,13 +167,13 @@ Başlıklara h1 ile tanımlıyoruz ve özelliklerini veriyoruz.
 
 Html kodu;
 
-[sourcecode language="html"] \<div id="solIcerikAlani"\> \<h1\>Tezahürat
-Ligleri\</h1\> ..... \</div\> [/sourcecode]
+[sourcecode language="html"] <div id="solIcerikAlani"> <h1>Tezahürat
+Ligleri</h1> ..... </div> [/sourcecode]
 
 CSS kodu;
 
-[sourcecode language="css"] \#solIcerikAlani{float:left; width:200px;
-margin-right:20px} \#solIcerikAlani h1{margin-left:10px} [/sourcecode]
+[sourcecode language="css"] #solIcerikAlani{float:left; width:200px;
+margin-right:20px} #solIcerikAlani h1{margin-left:10px} [/sourcecode]
 
 **Lig Menüsü**
 
@@ -187,21 +187,21 @@ makalemi okuyunuz.
 
 HTML Kodu
 
-[sourcecode language="html"] \<ul id="ligMenu"\> \<li id="superLig"\>\<a
-href=""\>Turkcell Super Lig\</a\>\</li\> \<li id="birinciLig"\>\<a
-href=""\>Bank Asya 1. Lig\</a\>\</li\> \<li id="digerLigler"\>\<a
-href=""\>Diğer Ligler\</a\>\</li\> \<li id="dunyadanTezahuratlar"\>\<a
-href=""\>Dünyadan Tezahüratlar\</a\>\</li\> \</ul\> [/sourcecode]
+[sourcecode language="html"] <ul id="ligMenu"> <li id="superLig"><a
+href="">Turkcell Super Lig</a></li> <li id="birinciLig"><a
+href="">Bank Asya 1. Lig</a></li> <li id="digerLigler"><a
+href="">Diğer Ligler</a></li> <li id="dunyadanTezahuratlar"><a
+href="">Dünyadan Tezahüratlar</a></li> </ul> [/sourcecode]
 
 CSS Kodu
 
-[sourcecode language="css"] ul\#ligMenu{margin-bottom:10px} ul\#ligMenu
-li{ background:url(../images/lig\_menu.gif) 0 0 no-repeat;} ul\#ligMenu
+[sourcecode language="css"] ul#ligMenu{margin-bottom:10px} ul#ligMenu
+li{ background:url(../images/lig_menu.gif) 0 0 no-repeat;} ul#ligMenu
 li a{text-indent:-9999px; display:block; margin-bottom:1px; width:200px;
-height:45px; } ul\#ligMenu li\#superLig{ background-position:0 0;}
-ul\#ligMenu li\#birinciLig{background-position:0 -46px;} ul\#ligMenu
-li\#digerLigler{background-position:0 -92px;} ul\#ligMenu
-li\#dunyadanTezahuratlar{background-position:0 -138px;} [/sourcecode]
+height:45px; } ul#ligMenu li#superLig{ background-position:0 0;}
+ul#ligMenu li#birinciLig{background-position:0 -46px;} ul#ligMenu
+li#digerLigler{background-position:0 -92px;} ul#ligMenu
+li#dunyadanTezahuratlar{background-position:0 -138px;} [/sourcecode]
 
 **Zirvedeki Taraftarlar**
 
@@ -235,13 +235,13 @@ düzenli duracaktır.
 Logoları bir resim olarak hazırlayıp css sprite(ardalan kaydırma)
 yöntemi ile bu logoları kodladık.
 
-[sourcecode language="html"] \<tr class="farkliSatir"\> \<td width="16%"
-align="center" valign="middle" class="taraftarSayi"\>1\</td\> \<td
-width="18%" align="center" valign="middle"\>\<div
-class="logoTrabzon"\>Trabzon\</div\>\</td\> \<td width="51%"
-valign="middle"\>\<a href=""\>\<strong\>Fatih\</strong\>
-Trabzon\</a\>\</td\> \<td width="15%" align="center"
-valign="middle"\>\<strong\>28\</strong\>\</td\> \</tr\> [/sourcecode]
+[sourcecode language="html"] <tr class="farkliSatir"> <td width="16%"
+align="center" valign="middle" class="taraftarSayi">1</td> <td
+width="18%" align="center" valign="middle"><div
+class="logoTrabzon">Trabzon</div></td> <td width="51%"
+valign="middle"><a href=""><strong>Fatih</strong>
+Trabzon</a></td> <td width="15%" align="center"
+valign="middle"><strong>28</strong></td> </tr> [/sourcecode]
 
 Tablonun tek satırını incelersek kod yapısını anlayacağız. tr'deki
 **farkliSatir** sınıfı bir satırın açık bir satırın daha kapalı bir renk
@@ -259,17 +259,17 @@ resim ve tek istek olduğu için bu zaman aşımından kurtulmuş oluyoruz.
 
 [![][4]][]
 
-[sourcecode language="css"] table\#taraftarZirveTablo td div{
+[sourcecode language="css"] table#taraftarZirveTablo td div{
 display:block; width:32px; height:32px; text-indent:-9999px;
-background:url(../images/takim\_logolari.gif) 0 0 no-repeat} .... ....
-div\#icerikAlani div.logoTrabzon{ background-position:right -105px}
-div\#icerikAlani div.logoGalatasaray{ background-position:right -69px}
-div\#icerikAlani div.logoFenerbahce{ background-position:right 2px}
-div\#icerikAlani div.logoGaziantep{ background-position:right -574px}
+background:url(../images/takim_logolari.gif) 0 0 no-repeat} .... ....
+div#icerikAlani div.logoTrabzon{ background-position:right -105px}
+div#icerikAlani div.logoGalatasaray{ background-position:right -69px}
+div#icerikAlani div.logoFenerbahce{ background-position:right 2px}
+div#icerikAlani div.logoGaziantep{ background-position:right -574px}
 ...... [/sourcecode]
 
 Logoları daha optimum kodlamak için iki farklı tanım ile aynı kodun
-tekrarını önledik. **table\#taraftarZirveTablo td div** tanımında genel
+tekrarını önledik. **table#taraftarZirveTablo td div** tanımında genel
 özellikleri tanımladık, daha sonra her takım logosu için sadece
 **background-position** tanımı yaptık, böylece her takım için birbirini
 tekrarlayan kodları tek elde topladık ve kodumuz daha az oldu.
@@ -291,18 +291,18 @@ tekniğini kullanırken daha dikkatli olmalıyız.
 
 HTML kodu
 
-[sourcecode language="html"] \<h1\>Takımını Destekle!\</h1\> \<a
-id="tezahuratgonderBanner" href=""\>Sende tezahürat gönder takımını
-Tezahürat Ligi'nde Şampiyon yap!\</a\> \<h1\>Takip Et!\</h1\> \<a
-id="twitterTakip" href=""\>Fanatik Marşları Twitter'da takip edin\</a\>
+[sourcecode language="html"] <h1>Takımını Destekle!</h1> <a
+id="tezahuratgonderBanner" href="">Sende tezahürat gönder takımını
+Tezahürat Ligi'nde Şampiyon yap!</a> <h1>Takip Et!</h1> <a
+id="twitterTakip" href="">Fanatik Marşları Twitter'da takip edin</a>
 [/sourcecode]
 
 CSS kodu;
 
-[sourcecode language="css"] a\#tezahuratgonderBanner{
-background:url(../images/genel\_resim.gif) 0 -88px no-repeat;
+[sourcecode language="css"] a#tezahuratgonderBanner{
+background:url(../images/genel_resim.gif) 0 -88px no-repeat;
 width:188px; height:88px; display:block; text-indent:-9999px; margin:0 0
-10px 10px} a\#twitterTakip{background:url(../images/genel\_resim.gif) 0
+10px 10px} a#twitterTakip{background:url(../images/genel_resim.gif) 0
 -176px no-repeat; width:175px; height:50px; display:block;
 text-indent:-9999px; margin-left:10px} [/sourcecode]
 
@@ -312,13 +312,13 @@ Böylece sol kolon kodlamasını bitirdik.
 
 Orta içerik alanının genişlik ve float tanımı yapıyoruz.
 
-[sourcecode language="css"] \#ortaIcerikAlani{float:left; width:440px;
+[sourcecode language="css"] #ortaIcerikAlani{float:left; width:440px;
 margin-right:20px} [/sourcecode]
 
 Sonra üstteki resmi ekliyoruz.
 
-[sourcecode language="html"] \<img src="images/orta\_resim.jpg"
-width="440" height="250" alt="Fanatikler" /\> [/sourcecode]
+[sourcecode language="html"] <img src="images/orta_resim.jpg"
+width="440" height="250" alt="Fanatikler" /> [/sourcecode]
 
 Sonra Lig Tablosunu kodlamaya başlıyoruz.
 
@@ -332,11 +332,11 @@ kullanabiliyoruz. Ancak resim olarak hazırlasa idik, iki ayrı resim
 hazırlamak ve eklemek durumunda olacaktık, buda daha fazla http isteği
 demek oluyor.
 
-[sourcecode language="css"] div\#ligTabloUstu{ display:block;
+[sourcecode language="css"] div#ligTabloUstu{ display:block;
 text-indent:-9999px; width:440px; height:5px;
-background:url(../images/puan\_tablosu.gif) 0 0 no-repeat} ....
-div\#ligTablosuAlti{display:block; text-indent:-9999px; width:440px;
-height:5px; background:url(../images/puan\_tablosu.gif) 0 bottom
+background:url(../images/puan_tablosu.gif) 0 0 no-repeat} ....
+div#ligTablosuAlti{display:block; text-indent:-9999px; width:440px;
+height:5px; background:url(../images/puan_tablosu.gif) 0 bottom
 no-repeat}} [/sourcecode]
 
 Tabloyuda bir katman içini alıp kenar boşluğunu katmandan vereceğiz. Bu
@@ -344,10 +344,10 @@ kenar boşluklarını tablo içindende verebilirdik, ancak tablomuz işlevi
 dışında kullanmış olurduk, tablo sadece lig tablosu amacı ile kullanmak
 daha anlamlı.
 
-[sourcecode language="css"] div\#ligTabloKapsul{width:440px; padding:0
-5px; background-color:\#f3f3f3; voice-family: "\\"}\\"";
-voice-family:inherit; width:430px;} html\>body
-div\#div\#ligTabloKapsul{width:430px;} [/sourcecode]
+[sourcecode language="css"] div#ligTabloKapsul{width:440px; padding:0
+5px; background-color:#f3f3f3; voice-family: ""}"";
+voice-family:inherit; width:430px;} html>body
+div#div#ligTabloKapsul{width:430px;} [/sourcecode]
 
 Yukarıdaki kodlamada fazladan kodlar dikkatinizi çekmiştir. Kutu modeli
 sorunu olarak Türkçeleştirdiğimiz "box model hack" yöntemidir bu. Bir
@@ -364,8 +364,8 @@ kenar çizgimiz(border) var.
 
 En sağ kolon için bir sınıf tanımı yapıp kolon boyunca bunu uyguluyoruz.
 
-[sourcecode language="css"] table\#ligTablosu td.sayi{font:bold 18px
-Arial, Helvetica, sans-serif; color:\#acd1e1} [/sourcecode]
+[sourcecode language="css"] table#ligTablosu td.sayi{font:bold 18px
+Arial, Helvetica, sans-serif; color:#acd1e1} [/sourcecode]
 
 Her satırın altındaki kenar çizgisini atamak için ilk olarak (tr)
 elemanına tanımladım ancak burada ie6 ile sorun yaşadım. Çözüm için
@@ -377,21 +377,21 @@ karşılaştığımda çözümü nerede bulacağımı biliyorum. Tabi birde
 insanlarla paylaşıp aynı sorunu yaşayan insanlara yardımcı olmak gibi
 güzel bir yanıda var.
 
-[sourcecode language="css"] table\#ligTablosu{border-collapse:collapse;
-} table\#ligTablosu td{padding:1px 2px; font:14px Arial, Helvetica,
-sans-serif; color:\#828282; border-bottom:1px solid \#d5d5d5;}
+[sourcecode language="css"] table#ligTablosu{border-collapse:collapse;
+} table#ligTablosu td{padding:1px 2px; font:14px Arial, Helvetica,
+sans-serif; color:#828282; border-bottom:1px solid #d5d5d5;}
 [/sourcecode]
 
 En son satırda kenar çizgisi olmayacağı için son satıra bir sınıf atayıp
 kenar çizgisini kaldırdım.
 
-[sourcecode language="css"] table\#ligTablosu tr.enAlt td{border:0}
+[sourcecode language="css"] table#ligTablosu tr.enAlt td{border:0}
 [/sourcecode]
 
 Ayrıca tablo baş kısmı için içerikten farklı tanımları yaptım (table th)
 
-[sourcecode language="css"] table\#ligTablosu th{font:bold 14px Arial,
-Helvetica, sans-serif; color:\#000; padding:5px 2px} [/sourcecode]
+[sourcecode language="css"] table#ligTablosu th{font:bold 14px Arial,
+Helvetica, sans-serif; color:#000; padding:5px 2px} [/sourcecode]
 
 **Takım Adı ve Armaları**
 
@@ -400,10 +400,10 @@ kodları kullanıyoruz. Bunu yukarıda sol kolona ait toplu kodlarda
 görebilirsiniz. Aynı tanımlar olduğu için sadece virgül ie yanına
 seçiciyi ekledik.
 
-[sourcecode language="css"] div\#icerikAlani div.logoWerderBremen,
+[sourcecode language="css"] div#icerikAlani div.logoWerderBremen,
 a.WerderBremen{background-position:right -1440px} [/sourcecode]
 
-görüldüğü gibi **div\#icerikAlani div.logoWerderBremen** kısmı ile
+görüldüğü gibi **div#icerikAlani div.logoWerderBremen** kısmı ile
 **a.WerderBremen** kısmına aynı tanımlar yapıldığı için virgül ile
 ayrılmıştır. Böylece daha kısa kod ve daha optimize kodlar elde
 edilmiştir.
@@ -412,8 +412,8 @@ Sol kolonda kullanmadığımız ama burada lazım olan aşağıdaki kodlarıda
 ekledik.
 
 [sourcecode language="css"] a.takimLogo{ display:block;
-background:url(../images/takim\_logolari.gif) right 0 no-repeat;
-padding:8px 30px 8px 0; color:\#0c2b90; text-decoration:underline}
+background:url(../images/takim_logolari.gif) right 0 no-repeat;
+padding:8px 30px 8px 0; color:#0c2b90; text-decoration:underline}
 a.takimLogo:hover{text-decoration:none;} [/sourcecode]
 
 ### Sağ İçerik Alanının Kodlanması
@@ -422,7 +422,7 @@ a.takimLogo:hover{text-decoration:none;} [/sourcecode]
 verdik ve diğer kolonları yanında durması için genişlik tanımı ve
 float:left tanımı yaptık.
 
-[sourcecode language="css"] \#sagIcerikAlani{float:left; width:300px}
+[sourcecode language="css"] #sagIcerikAlani{float:left; width:300px}
 [/sourcecode]
 
 İlk olarak banner alanını hazırlıyoruz. Normalde ben buraya resmi direk
@@ -430,9 +430,9 @@ koyabilirdim, ancak banner flash ise ve buraya javascript ile
 eklenecekse bir id'ye ihtiyaç duyulabilir diye, bir katman içine
 alıyorum resmi.
 
-[sourcecode language="html"] \<div id="sagBannerAlani"\>\<img
-src="images/band\_website\_banner.jpg" width="300" height="250"
-alt="Web" /\>\</div\> [/sourcecode]
+[sourcecode language="html"] <div id="sagBannerAlani"><img
+src="images/band_website_banner.jpg" width="300" height="250"
+alt="Web" /></div> [/sourcecode]
 
 Not: Bir HTMLci, daha cancanlı isimlendirme ile Arayüz Kod geliştiricisi
 sadece kod yazmak ile kalmaz aynı zamanda yazdığın kodun nereye
@@ -444,38 +444,38 @@ bakıma bir programcı gibi düşünerek kodunu daha esnek yazmalıdır.
 Kategoriler kısmını blok şeklide kodlayacağım. Her kategoriye bir satır
 olacak şekilde kodlamak için burada "ul li" listelerini kullandım.
 
-[sourcecode language="html"] \<ul id="lKategoriiler"\> \<li
-id="kMarslar"\>\<a href=""\>\<strong\>Marşlar\</strong\>All the
-legendary football terrace anthems are here. \</a\>\</li\> \<li
-id="kEglenceliTezahuratlar"\>\<a href=""\>\<strong\>Eğlenceli
-Tezahüratlar\</strong\>All the legendary football terrace anthems are
-here. \</a\>\</li\> \<li id="kSohretlerGecidi"\>\<a
-href=""\>\<strong\>Şöhretler Geçidi\</strong\>All the legendary football
-terrace anthems are here. \</a\>\</li\> \<li id="k18"\>\<a
-href=""\>\<strong\>+18\</strong\>All the legendary football terrace
-anthems are here. \</a\>\</li\> \<li id="kNostaljikTezahuratlar"\>\<a
-href=""\>\<strong\>Nostaljik Tezahüratlar\</strong\>All the legendary
-football terrace anthems are here. \</a\>\</li\> \</ul\> [/sourcecode]
+[sourcecode language="html"] <ul id="lKategoriiler"> <li
+id="kMarslar"><a href=""><strong>Marşlar</strong>All the
+legendary football terrace anthems are here. </a></li> <li
+id="kEglenceliTezahuratlar"><a href=""><strong>Eğlenceli
+Tezahüratlar</strong>All the legendary football terrace anthems are
+here. </a></li> <li id="kSohretlerGecidi"><a
+href=""><strong>Şöhretler Geçidi</strong>All the legendary football
+terrace anthems are here. </a></li> <li id="k18"><a
+href=""><strong>+18</strong>All the legendary football terrace
+anthems are here. </a></li> <li id="kNostaljikTezahuratlar"><a
+href=""><strong>Nostaljik Tezahüratlar</strong>All the legendary
+football terrace anthems are here. </a></li> </ul> [/sourcecode]
 
 Her öğenin farklı ikonu olduğu için her liste öğesine bir id vereceğiz
 ve buna göre atamalarımızı yapacağız. Listede bir başlık ve içerik alanı
 var bu ayrımı sağlamak için başlık kısmını strong etiketi içine
 alıyoruz.
 
-[sourcecode language="css"] \#sagIcerikAlani
-ul\#lKategoriiler{width:300px; float:left; font-family:Arial, Helvetica,
-sans-serif; margin-bottom:10px} ul\#lKategoriiler li a{ display:block;
-background:\#eeeeee url(../images/notalar.gif) 0 0 no-repeat;
+[sourcecode language="css"] #sagIcerikAlani
+ul#lKategoriiler{width:300px; float:left; font-family:Arial, Helvetica,
+sans-serif; margin-bottom:10px} ul#lKategoriiler li a{ display:block;
+background:#eeeeee url(../images/notalar.gif) 0 0 no-repeat;
 margin-bottom:2px; padding:10px 5px 10px 40px; font-size:12px;
-color:\#000} ul\#lKategoriiler li a:hover{background:\#dbdbdb
-url(../images/notalar.gif) 0 0 no-repeat;} ul\#lKategoriiler
-li\#kMarslar a{ background-position:0 -2px;} ul\#lKategoriiler
-li\#kEglenceliTezahuratlar a{ background-position:0 -72px;}
-ul\#lKategoriiler li\#kSohretlerGecidi a{ background-position:0 -141px;}
-ul\#lKategoriiler li\#k18 a{ background-position:0 -215px;}
-ul\#lKategoriiler li\#kNostaljikTezahuratlar a{ background-position:0
--289px;} ul\#lKategoriiler li a strong{display:block; font:bold 14px
-Arial, Helvetica, sans-serif; color:\#0c2b90} [/sourcecode]
+color:#000} ul#lKategoriiler li a:hover{background:#dbdbdb
+url(../images/notalar.gif) 0 0 no-repeat;} ul#lKategoriiler
+li#kMarslar a{ background-position:0 -2px;} ul#lKategoriiler
+li#kEglenceliTezahuratlar a{ background-position:0 -72px;}
+ul#lKategoriiler li#kSohretlerGecidi a{ background-position:0 -141px;}
+ul#lKategoriiler li#k18 a{ background-position:0 -215px;}
+ul#lKategoriiler li#kNostaljikTezahuratlar a{ background-position:0
+-289px;} ul#lKategoriiler li a strong{display:block; font:bold 14px
+Arial, Helvetica, sans-serif; color:#0c2b90} [/sourcecode]
 
 **Videolar**
 
@@ -485,13 +485,13 @@ kullanıyoruz.
 
 Oylama html kodu
 
-[sourcecode language="html"] \<ul class='oylama'\> \<li class='mevcutOy'
-style="width:60px"\>3/5 Yıldız\</li\> \<li\>\<a href='\#' title='1 puan'
-class='birYildiz'\>1\</a\>\</li\> \<li\>\<a href='\#' title='2 puan'
-class='ikiYildiz'\>2\</a\>\</li\> \<li\>\<a href='\#' title='3 puan'
-class='ucYildiz'\>3\</a\>\</li\> \<li\>\<a href='\#' title='4 puan'
-class='dortYildiz'\>4\</a\>\</li\> \<li\>\<a href='\#' title='5puan'
-class='besYildiz'\>5\</a\>\</li\> \</ul\> [/sourcecode]
+[sourcecode language="html"] <ul class='oylama'> <li class='mevcutOy'
+style="width:60px">3/5 Yıldız</li> <li><a href='#' title='1 puan'
+class='birYildiz'>1</a></li> <li><a href='#' title='2 puan'
+class='ikiYildiz'>2</a></li> <li><a href='#' title='3 puan'
+class='ucYildiz'>3</a></li> <li><a href='#' title='4 puan'
+class='dortYildiz'>4</a></li> <li><a href='#' title='5puan'
+class='besYildiz'>5</a></li> </ul> [/sourcecode]
 
 5 adet yıldızımız var birde mevcut durumu gösteren bir li öğemiz. Burada
 da ardalan kaydırma metodu kullanarak oylama kısmı kodlanmıştır.
@@ -527,28 +527,28 @@ Sabit genişliği ve yüksekliği olan bir alan ve yan yana dizilmiş
 öğelerimiz var. Yukarıda bir çok defa uyguladığımız listeler ve ardalan
 kaydırma metodunu burada da uyguluyoruz.
 
-[sourcecode language="html"] \<div id="sosyalAlan"
-class="kapsayamamaSorunu"\> \<ul\> \<li id="sBaslik"\>Sosyal
-Medya\</li\> \<li id="sRSS"\>\<a href=""\>RSS\</a\>\</li\> \<li
-id="sFacebook"\>\<a href=""\>facebook\</a\>\</li\> \<li
-id="sFriendfeed"\>\<a href=""\>friendfeed\</a\>\</li\> \<li
-id="sTwitter"\>\<a href=""\>twitter\</a\>\</li\> \<li id="sYoutube"\>\<a
-href=""\>youtube\</a\>\</li\> \</ul\> \</div\> [/sourcecode]
+[sourcecode language="html"] <div id="sosyalAlan"
+class="kapsayamamaSorunu"> <ul> <li id="sBaslik">Sosyal
+Medya</li> <li id="sRSS"><a href="">RSS</a></li> <li
+id="sFacebook"><a href="">facebook</a></li> <li
+id="sFriendfeed"><a href="">friendfeed</a></li> <li
+id="sTwitter"><a href="">twitter</a></li> <li id="sYoutube"><a
+href="">youtube</a></li> </ul> </div> [/sourcecode]
 
 CSS Kodu
 
-[sourcecode language="css"] /\* sosyalAlan \*/ \#sosyalAlan{width:990px;
-margin:0 auto; background:url(../images/yatay\_ayrac.gif) 0 0 no-repeat;
-height:71px} \#sosyalAlan ul{float:right; width:310px; margin:30px 10px
-0 0;} \#sosyalAlan ul li{float:left;
-background:url(../images/sosyal\_medya.gif) 0 0 no-repeat;
-text-indent:-9999px; margin-right:12px} \#sosyalAlan ul li\#sBaslik{
-background-position:0 0; width:114px; height:23px} \#sosyalAlan ul
-li\#sRSS{ background-position:-125px 0; width:23px;} \#sosyalAlan ul
-li\#sFacebook{ background-position:-158px 0; width:23px} \#sosyalAlan ul
-li\#sFriendfeed{ background-position:-192px 0; width:23px;} \#sosyalAlan
-ul li\#sTwitter{ background-position:-226px 0; width:23px} \#sosyalAlan
-ul li\#sYoutube{ background-position:-260px 0; width:23px;} \#sosyalAlan
+[sourcecode language="css"] /* sosyalAlan */ #sosyalAlan{width:990px;
+margin:0 auto; background:url(../images/yatay_ayrac.gif) 0 0 no-repeat;
+height:71px} #sosyalAlan ul{float:right; width:310px; margin:30px 10px
+0 0;} #sosyalAlan ul li{float:left;
+background:url(../images/sosyal_medya.gif) 0 0 no-repeat;
+text-indent:-9999px; margin-right:12px} #sosyalAlan ul li#sBaslik{
+background-position:0 0; width:114px; height:23px} #sosyalAlan ul
+li#sRSS{ background-position:-125px 0; width:23px;} #sosyalAlan ul
+li#sFacebook{ background-position:-158px 0; width:23px} #sosyalAlan ul
+li#sFriendfeed{ background-position:-192px 0; width:23px;} #sosyalAlan
+ul li#sTwitter{ background-position:-226px 0; width:23px} #sosyalAlan
+ul li#sYoutube{ background-position:-260px 0; width:23px;} #sosyalAlan
 ul li a{display:block; height:23px;} [/sourcecode]
 
 **Alt Alanın Kodlanması**
@@ -558,10 +558,10 @@ görürüz. Sabit bir genişliği ve yüksekliği var. Tüm alt kısmı kapsayan
 bir background resmi var. Bu değerlendirmeleri yaptıktan sonra kodumuzu
 yazarsak.
 
-[sourcecode language="css"] \#altAlan{ background:url(../images/alt.png)
+[sourcecode language="css"] #altAlan{ background:url(../images/alt.png)
 0 0 no-repeat; width:990px; height:122px; margin:0 auto;
-padding-top:10px; voice-family: "\\"}\\""; voice-family:inherit;
-height:112px;} html\>body \#altAlan{height:112px;} [/sourcecode]
+padding-top:10px; voice-family: ""}""; voice-family:inherit;
+height:112px;} html>body #altAlan{height:112px;} [/sourcecode]
 
 Yukarıda bahsettiğimiz gibi bir elemana genişlik veya yükseklik tanımı
 yaptıktan sonra padding ve/veya border tanımı yaptığımızda kutu modeli
@@ -569,14 +569,14 @@ sorunu ile karşılaşmamak için farklı bir kod yazıyoruz. Ayrıca ardalan
 resmindeki geçiş nedeni ile saydam png koymalıyız. Saydam pngler
 ie6'daki sorununu çözmek için kodumuz
 
-[sourcecode language="css"] \#altAlan{ background:url(../images/alt.png)
+[sourcecode language="css"] #altAlan{ background:url(../images/alt.png)
 0 0 no-repeat; width:990px; height:122px; margin:0 auto;
-padding-top:10px; voice-family: "\\"}\\""; voice-family:inherit;
-height:112px;} html\>body \#altAlan{height:112px;} \* html
-\#altAlan{background:transparent;
+padding-top:10px; voice-family: ""}""; voice-family:inherit;
+height:112px;} html>body #altAlan{height:112px;} * html
+#altAlan{background:transparent;
 filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/alt.png',
-sizingMethod='crop');} \* html \#altAlan a, \* html \#altAlan input, \*
-html \#altAlan button{position:relative; z-index:1} [/sourcecode]
+sizingMethod='crop');} * html #altAlan a, * html #altAlan input, *
+html #altAlan button{position:relative; z-index:1} [/sourcecode]
 
 şeklinde olmalıdır. Ayrıntılı bilgi için Internet Explorer 6 için saydam
 PNG desteği adlı makalemi okuyunuz.
@@ -584,43 +584,43 @@ PNG desteği adlı makalemi okuyunuz.
 Alttaki logoyu yerleştirmek için genişlik ve **float** tanımı yapıyoruz.
 Bu resmide CSS Sprite ile genel resimden çekiyoruz.
 
-[sourcecode language="css"] \#logoAltta{
-background:url(../images/genel\_resim.gif) 0 -236px no-repeat;
+[sourcecode language="css"] #logoAltta{
+background:url(../images/genel_resim.gif) 0 -236px no-repeat;
 width:123px; height:69px; text-indent:-9999px; margin:0 20px 0 10px;
 float:left;} [/sourcecode]
 
 Ortadaki linkler ve copyright kısmını liste ve paragraflı bir yapı ile
 kodluyoruz.
 
-[sourcecode language="html"] \<div id="altLinkler"\> \<ul\>\<li\>\<a
-href="" title="Telif Hakları"\>Telif Hakları\</a\>\</li\>\<li\>\<a
+[sourcecode language="html"] <div id="altLinkler"> <ul><li><a
+href="" title="Telif Hakları">Telif Hakları</a></li><li><a
 href="" title="İletişim"
-class="sonAltLink"\>İletişim\</a\>\</li\>\</ul\> \<p\>© 2009 Fanatik
-Marşlar. Her hakkı saklıdır. Kaynak gösterilmeden kullanılamaz.\</p\>
-\<ul\>\<li\>\<a href="" title="Marşlar"\>Marşlar\</a\>\</li\>\<li\>\<a
-href="" title="Eğlenceli Tezahüratlar"\>Eğlenceli
-Tezahüratlar\</a\>\</li\>\<li\>\<a href="" title="Şöhretler
-Geçidi"\>Şöhretler Geçidi\</a\>\</li\>\<li\>\<a href=""
-title="Klasikler"\>Klasikler\</a\>\</li\>\<li\>\<a href=""
-title="+18"\>+18\</a\>\</li\>\<li\>\<a href="" class="sonAltLink"
-title="Nostaljik Tezahüratlar"\>Nostaljik
-Tezahüratlar\</a\>\</li\>\</ul\> \</div\> [/sourcecode]
+class="sonAltLink">İletişim</a></li></ul> <p>© 2009 Fanatik
+Marşlar. Her hakkı saklıdır. Kaynak gösterilmeden kullanılamaz.</p>
+<ul><li><a href="" title="Marşlar">Marşlar</a></li><li><a
+href="" title="Eğlenceli Tezahüratlar">Eğlenceli
+Tezahüratlar</a></li><li><a href="" title="Şöhretler
+Geçidi">Şöhretler Geçidi</a></li><li><a href=""
+title="Klasikler">Klasikler</a></li><li><a href=""
+title="+18">+18</a></li><li><a href="" class="sonAltLink"
+title="Nostaljik Tezahüratlar">Nostaljik
+Tezahüratlar</a></li></ul> </div> [/sourcecode]
 
 Listeleri yan yana dizmek için li'ye display:inline tanımı yapıyoruz.
 
-[sourcecode language="css"] \#altLinkler{float:left; width:635px;
-font:12px Arial, Helvetica, sans-serif; padding-top:10px} \#altLinkler
-p{margin:3px 0} \#altLinkler ul li{display:inline;} \#altLinkler ul li
-a{color:\#0c2b90; background:url(../images/genel\_resim.gif) right
--312px no-repeat; padding-right:8px; margin-right:5px} \#altLinkler ul
-li a.sonAltLink{background:none;} \#altLinkler ul li
+[sourcecode language="css"] #altLinkler{float:left; width:635px;
+font:12px Arial, Helvetica, sans-serif; padding-top:10px} #altLinkler
+p{margin:3px 0} #altLinkler ul li{display:inline;} #altLinkler ul li
+a{color:#0c2b90; background:url(../images/genel_resim.gif) right
+-312px no-repeat; padding-right:8px; margin-right:5px} #altLinkler ul
+li a.sonAltLink{background:none;} #altLinkler ul li
 a:hover{text-decoration:underline} [/sourcecode]
 
 Son olarakta RSS ve e-posta üyeliği kısmını kodluyoruz.
 
-[sourcecode language="html"] \<div id="rssEpostaUye"\> \<a href=""
-id="altRSSLink"\>RSS\</a\> \<p\>E-posta Üyeliği\</p\> \<input
-type="text" /\> \<button\>Gönder\</button\> \</div\> [/sourcecode]
+[sourcecode language="html"] <div id="rssEpostaUye"> <a href=""
+id="altRSSLink">RSS</a> <p>E-posta Üyeliği</p> <input
+type="text" /> <button>Gönder</button> </div> [/sourcecode]
 
 Bu gibi durumlarda şöyle bir seçim yapıyorum. Kapsayıcı bir katman
 içinde tek kullanımlık html elemanları koyarak css kodlamayı daha kolay

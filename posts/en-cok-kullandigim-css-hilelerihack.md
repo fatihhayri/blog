@@ -31,20 +31,20 @@ tarafından oluşturulan bir hiledir.
 Kutu genişliği tanımlanmışsa ve padding veya kenar çizgiside
 tanımladığımızda uygulanan bu yöntem için yazdığımız kod aşağıdadır
 
-[sourcecode language='css']\#icerik{ width:230px; padding:10px;
-margin:5px; /\* Bundan sonraki kısmı ie5win sakla \*/ voice-family:
-"\\"}\\""; voice-family:inherit; width:200px; } html\>body \#icerik {
+[sourcecode language='css']#icerik{ width:230px; padding:10px;
+margin:5px; /* Bundan sonraki kısmı ie5win sakla */ voice-family:
+""}""; voice-family:inherit; width:200px; } html>body #icerik {
 width:200px; }[/sourcecode]
 
 Sorun olan kodumuza biz sadece
 
-[sourcecode language='css']voice-family: "\\"}\\"";
-voice-family:inherit; width:200px; } html\>body \#icerik { width:200px;
+[sourcecode language='css']voice-family: ""}"";
+voice-family:inherit; width:200px; } html>body #icerik { width:200px;
 } [/sourcecode]
 
 Bölümünü uygulamamız yeterlidir. Daha sonra eğer genişlik ise genişliği
-yükseklik ise yüksekliği ayarlamamız gerekir. Daha sonra **html\>body
-\#icerik** kısmından **\#icerik** yerine kendi nesne adımızı yazmalıyız.
+yükseklik ise yüksekliği ayarlamamız gerekir. Daha sonra **html>body
+#icerik** kısmından **#icerik** yerine kendi nesne adımızı yazmalıyız.
 
 ### 2- Float uygulanmış nesnelerin kapsayamama sorunu
 
@@ -60,9 +60,9 @@ Kodumuz;
 
 [sourcecode language='css'].kapsul:after { content: "."; display: block;
 height: 0; clear: both; visibility: hidden; } .kapsul {display:
-inline-block;} /\* IE-mac de bu bolumu sakla \\ \*/ \* html .kapsul
-{height: 1%;} .kapsul {display: block;} /\* IE-mac bu bolumu saklam
-artik \*/ [/sourcecode]
+inline-block;} /* IE-mac de bu bolumu sakla  */ * html .kapsul
+{height: 1%;} .kapsul {display: block;} /* IE-mac bu bolumu saklam
+artik */ [/sourcecode]
 
   
 Bu kodda **.kapsul** yerine kendi nesne ismimizi yazmamız yeterlidir.
@@ -98,7 +98,7 @@ defasında siteye girip bu kodları kopyalamak sorun oluyor, bu nedenle
 Adobe Dreamweaver'ın Snippets Aracı ile bu sorunu giderdim.
 
 Dreamweaver'da Snippets eklemek çok basit. İlk olarak eğer açık değilse
-Snippets penceresini açmak için üst menüden **Window -\> Sineppets**
+Snippets penceresini açmak için üst menüden **Window -> Sineppets**
 veya **shift+F9** kısayolu ile açabiliriz. Açtıktan sonra farenin sağ
 tuşuna basarak **New Sineppet** tıklayalım.
 

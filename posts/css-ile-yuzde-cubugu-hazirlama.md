@@ -24,7 +24,7 @@ belirleriz
 Sonrasında CSS kodumuzu yazarsak;
 
 [sourcecode language='css']img.yuzdeCubugu { background:
-url(/images/yuzdeCubugu\_ard.gif) top left no-repeat; padding: 0;
+url(/images/yuzdeCubugu_ard.gif) top left no-repeat; padding: 0;
 margin: 0; } [/sourcecode]
 
 Kod kısmı bu kadar. Evet bu kadar kod ile yüzde çubuğunu oluşturduk.
@@ -80,8 +80,8 @@ Aynı şekilde **McCain**'in yüzdesini de hesaplarsak. 100 - 44 - = -54px
 CSS kodumuz;
 
 [sourcecode language='css'] h1{ font:18px Arial, Helvetica, sans-serif;
-color:\#666; } p{ font:bold 12px Arial, Helvetica, sans-serif;
-margin-bottom:5px; color:\#666; } img.yuzde1 {
+color:#666; } p{ font:bold 12px Arial, Helvetica, sans-serif;
+margin-bottom:5px; color:#666; } img.yuzde1 {
 background:url(gosteri1.gif) 0 0 no-repeat; padding: 0; margin: 0; }
 img.yuzde2 { background:url(gosteri2.gif) 0 0 no-repeat; padding: 0;
 margin: 0; } [/sourcecode]
@@ -99,7 +99,7 @@ test edilmiştir.
 -   [http://pootato.org/tutorials/css/css-progress-bar/][]
 -   [http://www.barenakedapp.com/the-design/displaying-percentages][]
 -   [http://www.webappers.com/2007/07/31/webappers-simple-ajax-progress-bar-with-css/][]
--   [http://mattberseth.com/blog/2008/07/jqueryui\_progressbar\_widget.html][]
+-   [http://mattberseth.com/blog/2008/07/jqueryui_progressbar_widget.html][]
 -   [http://www.dmry.net/css-ile-basit-bir-ilerleme-durum-cubugu-yapimi][]
 
 </p>
@@ -118,6 +118,6 @@ test edilmiştir.
   [http://www.barenakedapp.com/the-design/displaying-percentages]: http://www.barenakedapp.com/the-design/displaying-percentages
   [http://www.webappers.com/2007/07/31/webappers-simple-ajax-progress-bar-with-css/]:
     http://www.webappers.com/2007/07/31/webappers-simple-ajax-progress-bar-with-css/
-  [http://mattberseth.com/blog/2008/07/jqueryui\_progressbar\_widget.html]:
+  [http://mattberseth.com/blog/2008/07/jqueryui_progressbar_widget.html]:
     http://mattberseth.com/blog/2008/07/jqueryui_progressbar_widget.html
   [http://www.dmry.net/css-ile-basit-bir-ilerleme-durum-cubugu-yapimi]: http://www.dmry.net/css-ile-basit-bir-ilerleme-durum-cubugu-yapimi

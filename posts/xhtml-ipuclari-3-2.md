@@ -6,7 +6,7 @@ Bazı kullanıcı giriş alanlarında(textbox) daha önceden girilen
 değerlerin hafızada tutulmasını istemeyiz. Örneğin kullanıcı adı vb.
 Bunun için çok kısa bir kod eklememiz yeterlidir.
 
-1.  \<input type="text" autocomplete="off" /\>
+1.  <input type="text" autocomplete="off" />
 
 </p>
 

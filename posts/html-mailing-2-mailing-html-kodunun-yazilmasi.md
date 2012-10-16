@@ -63,22 +63,22 @@ Yukarıdaki ekranda gördüğümüz şekilde format tercihini yapıyoruz.
 Genelde az renkli alanlar gif seçilir çok renk olan yerler ise jpg
 seçilir. Her parça için bu işlem yapıldıktan sonra Kaydet butonuna
 tıklıyoruz. Karşımıza çıkan pencerede Kayıt Türü seçeneğinden “HTML and
-Images (\*.html) ” seçeneğini seçiyoruz. Bu seçenek bizim yerimize html
+Images (*.html) ” seçeneğini seçiyoruz. Bu seçenek bizim yerimize html
 oluşturur ve resimlerimizide otomatik olarak images klasörü içine
 kaydeder.
 
 Daha sonra ufak tefek düzeltmeler için html sayfamızı bir html editörü
-ile açarız. \<body\> bg rengi olarak beyaz atanmış olarak gelir
+ile açarız. <body> bg rengi olarak beyaz atanmış olarak gelir
 htmlimiz, bizim bg rengimiz gridir bu atamayı yaparız.
 
-[html]\<body bgcolor="\#858585" leftmargin="0" topmargin="0"
-marginwidth="0" marginheight="0"\>[/html]
+[html]<body bgcolor="#858585" leftmargin="0" topmargin="0"
+marginwidth="0" marginheight="0">[/html]
 
 Daha sonra mailing ortalamak için table elementine align=”center”
 eklemesi yaparız.
 
-[html]\<table width="638" height="572" border="0" align="center"
-cellpadding="0" cellspacing="0" id="Table\_01"\>[/html]
+[html]<table width="638" height="572" border="0" align="center"
+cellpadding="0" cellspacing="0" id="Table_01">[/html]
 
 Daha sonra bir önceki makalemizde önerdiğimiz eklemeleri yaparız.
 Resimlerin alt etiketini doldururuz. Resimlerin bulunduğu yeri tam
@@ -92,27 +92,27 @@ olarak kodlamak için resmi bu tablo hücresine bg resmi olarak
 tanımlarız. Resim tek renk görünsede aslında degradeli bir yapıya sahip
 olduğu için tablo hücresinin bg resmi olarak tanımlıyoruz.
 
-[html]\<td colspan="2" background="images/odul\_mailing\_04.gif"
-width="638" height="172"\>\</td\>[/html]
+[html]<td colspan="2" background="images/odul_mailing_04.gif"
+width="638" height="172"></td>[/html]
 
 Daha sonra metinleri bu hücrenin içine yerleştirip stillerini ve
 biçimlerini tanımlıyoruz.
 
-[html] \<td colspan="2" background="images/odul\_mailing\_04.gif"
+[html] <td colspan="2" background="images/odul_mailing_04.gif"
 width="638" height="172" style="font-family:Arial, Helvetica,
-sans-serif; font-size:13px; color:\#444444; padding-left:15px;
-padding-right:15px"\>\<p\>\<a href="\#"
-style="color:\#95ad62"\>Phasellus vitae\</a\> metus at elit commodo
+sans-serif; font-size:13px; color:#444444; padding-left:15px;
+padding-right:15px"><p><a href="#"
+style="color:#95ad62">Phasellus vitae</a> metus at elit commodo
 sollicitudin. Quisque bibendum risus non urna consequat ut luctus erat
-pulvinar. \<strong\>Proin libero eros\</strong\>, dapibus vel accumsan
+pulvinar. <strong>Proin libero eros</strong>, dapibus vel accumsan
 sed, malesuada eu urna. Integer lorem urna, venenatis sit amet interdum
-tincidunt, tristique in sem. \</p\> \<p\>\<a href="\#"
-style="color:\#95ad62"\>Morbi ornare\</a\> , \<strong\>nterdum elit, ac
-sollicitudin enim convallis sit amet. Suspendisse potenti.\</strong\>
+tincidunt, tristique in sem. </p> <p><a href="#"
+style="color:#95ad62">Morbi ornare</a> , <strong>nterdum elit, ac
+sollicitudin enim convallis sit amet. Suspendisse potenti.</strong>
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-ridiculus mus. \</p\> \<p\>Cras porta aliquet viverra. Nulla facilisi.
-Praesent quam neque, suscipit \<a href="\#"
-style="color:\#95ad62"\>scelerisque\</a\>\</p\>\</td\> [/html]
+ridiculus mus. </p> <p>Cras porta aliquet viverra. Nulla facilisi.
+Praesent quam neque, suscipit <a href="#"
+style="color:#95ad62">scelerisque</a></p></td> [/html]
 
 CSS kodlarımızı satıriçine yazdık, bu nedenle dikkat ediniz bağlantılara
 tanımladığımız rengi her bir bağlantıya tek tek tanımladık. Mailing
@@ -148,12 +148,12 @@ Sağlıcakla kalın.
 ### Kaynaklar
 
 -   [http://www.mediaministryblog.com/2009/08/how-to-create-a-free-email-newsletter/][]
--   [http://www.anandgraves.com/html-email-guide/\#unnecessary\_htmltags][]
+-   [http://www.anandgraves.com/html-email-guide/#unnecessary_htmltags][]
 -   [http://css-tricks.com/using-css-in-html-emails-the-real-story/][]
 -   [http://www.devwebpro.com/create-an-email-newsletter-template-part-2/][]
 -   [http://24ways.org/2009/rock-solid-html-emails][]
 -   [http://www.tuttoaster.com/code-an-email-newsletter-from-psd-to-html/][]
--   [http://sixrevisions.com/web\_design/creating-html-emails/][]</a>
+-   [http://sixrevisions.com/web_design/creating-html-emails/][]</a>
 
 </p>
 
@@ -181,7 +181,7 @@ Sağlıcakla kalın.
   [http://www.campaignmonitor.com/templates/]: http://www.campaignmonitor.com/templates/
   [http://www.mediaministryblog.com/2009/08/how-to-create-a-free-email-newsletter/]:
     http://www.mediaministryblog.com/2009/08/how-to-create-a-free-email-newsletter/
-  [http://www.anandgraves.com/html-email-guide/\#unnecessary\_htmltags]:
+  [http://www.anandgraves.com/html-email-guide/#unnecessary_htmltags]:
     http://www.anandgraves.com/html-email-guide/#unnecessary_htmltags
   [http://css-tricks.com/using-css-in-html-emails-the-real-story/]: http://css-tricks.com/using-css-in-html-emails-the-real-story/
   [http://www.devwebpro.com/create-an-email-newsletter-template-part-2/]:
@@ -189,4 +189,4 @@ Sağlıcakla kalın.
   [http://24ways.org/2009/rock-solid-html-emails]: http://24ways.org/2009/rock-solid-html-emails
   [http://www.tuttoaster.com/code-an-email-newsletter-from-psd-to-html/]:
     http://www.tuttoaster.com/code-an-email-newsletter-from-psd-to-html/
-  [http://sixrevisions.com/web\_design/creating-html-emails/]: http://sixrevisions.com/web_design/creating-html-emails/
+  [http://sixrevisions.com/web_design/creating-html-emails/]: http://sixrevisions.com/web_design/creating-html-emails/

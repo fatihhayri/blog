@@ -40,29 +40,29 @@ yolu, tarayıcılara özel seçiciler içine kod yazmaktır.
 
 IE 6 ve altı
 
-[sourcecode language="css"]\* html {}[/sourcecode]
+[sourcecode language="css"]* html {}[/sourcecode]
 
 IE 7 ve altı
 
-[sourcecode language="css"]\*:first-child+html {} \* html
+[sourcecode language="css"]*:first-child+html {} * html
 {}[/sourcecode]
 
 sadece IE 7 için
 
-[sourcecode language="css"]\*:first-child+html {}[/sourcecode]
+[sourcecode language="css"]*:first-child+html {}[/sourcecode]
 
 IE 7 ve yeni nesil tarayıcılar için
 
-[sourcecode language="css"]html\>body {}[/sourcecode]
+[sourcecode language="css"]html>body {}[/sourcecode]
 
 Yalnız yeni nesil tarayıcılar için (IE 7 dışında)
 
-[sourcecode language="css"]html\>/\*\*/body {}[/sourcecode]
+[sourcecode language="css"]html>/**/body {}[/sourcecode]
 
 sadece IE 8 için
 
-[sourcecode language="css"].test { property:value; property: value\\9;
-\*property: value; }[/sourcecode]
+[sourcecode language="css"].test { property:value; property: value9;
+*property: value; }[/sourcecode]
 
 Opera 9 ve altı sürümler için
 
@@ -70,7 +70,7 @@ Opera 9 ve altı sürümler için
 
 Safari
 
-[sourcecode language="css"]html[xmlns\*=""] body:last-child
+[sourcecode language="css"]html[xmlns*=""] body:last-child
 {}[/sourcecode]
 
 Google Chrome and Safari 3.1
@@ -90,10 +90,10 @@ Firefox 2 ve 3 için yazdığımız kodu ie 7 de yorumluyor bunu engellemek
 için (Sonradan eklenmiştir.)
 
 [sourcecode language="css"] .foo, x:-moz-any-link { } .foo,
-x:-moz-any-link, x:default { } \*:first-child+html .foo{}/\*ie7 icin
-normali yazin\*/ [/sourcecode]
+x:-moz-any-link, x:default { } *:first-child+html .foo{}/*ie7 icin
+normali yazin*/ [/sourcecode]
 
-Sadece Firefox 3 [sourcecode language="css"]html\>;/\*\*/body .foo,
+Sadece Firefox 3 [sourcecode language="css"]html>;/**/body .foo,
 x:-moz-any-link, x:default { }[/sourcecode]
 
 Burada önemli olan her tarayıcı farklı görünümünde bu metoda başvurmamak
@@ -104,23 +104,23 @@ Bu kodları kullanma gereksinim genelde Internet Explorer 6 ve 7 için
 oluyor. Ama nadirende olsa diğer tarayıcıların düzeltmeleride lazım
 oluyor. Bir örnek yapalım
 
-[sourcecode language="css"] /\* Firefox 1 \*/ .ozelSecici,
-x:-moz-any-link { background-color:\#ffd560; } /\* Firefox 2 \*/
-.ozelSecici, x:-moz-any-link { background-color:\#ab1b0b; } /\* Firefox
-3 \*/ .ozelSecici, x:-moz-any-link, x:default {
-background-color:\#e6831f; } /\* Google Chrome and Safari 3.1 \*/
-body:nth-of-type(1) .ozelSecici{ background-color:\#e6f0fa; } /\* Opera
-9 ve altı \*/ html:first-child .ozelSecici{ background-color:\#a91614; }
-/\* ie7 icin \*/ \*:first-child+html .ozelSecici{
-background-color:\#0098de; } /\* ie 7 ve alt sürümler icin \*/
-\*:first-child+html .ozelSecici{ background-color:\#d4d0c8; } \* html
-.ozelSecici{ background-color:\#d4d0c8; } /\* ie6 ve alti \*/ \* html
-.ozelSecici{ background-color:\#996666; }[/sourcecode]
+[sourcecode language="css"] /* Firefox 1 */ .ozelSecici,
+x:-moz-any-link { background-color:#ffd560; } /* Firefox 2 */
+.ozelSecici, x:-moz-any-link { background-color:#ab1b0b; } /* Firefox
+3 */ .ozelSecici, x:-moz-any-link, x:default {
+background-color:#e6831f; } /* Google Chrome and Safari 3.1 */
+body:nth-of-type(1) .ozelSecici{ background-color:#e6f0fa; } /* Opera
+9 ve altı */ html:first-child .ozelSecici{ background-color:#a91614; }
+/* ie7 icin */ *:first-child+html .ozelSecici{
+background-color:#0098de; } /* ie 7 ve alt sürümler icin */
+*:first-child+html .ozelSecici{ background-color:#d4d0c8; } * html
+.ozelSecici{ background-color:#d4d0c8; } /* ie6 ve alti */ * html
+.ozelSecici{ background-color:#996666; }[/sourcecode]
 
 HTML kodu
 
-[sourcecode language="html"]\<p
-class="ozelSecici"\>Tarayıcı\</p\>[/sourcecode]
+[sourcecode language="html"]<p
+class="ozelSecici">Tarayıcı</p>[/sourcecode]
 
 Örneği görmek için [tıklayınız.][]
 
@@ -132,16 +132,16 @@ sonuçları alırız.
 Sayfa Google Chrome 0.3.154.9, Safari 3.1.2, Firefox 3.0.4/2.0.0.14,
 Internet Explorer 7/6/5.5, Opera 9.6 ile test edilmiştir.
 
--   [http://www.webdevout.net/css-hacks][] (\*\*\*\*\*)
+-   [http://www.webdevout.net/css-hacks][] (*****)
 -   [http://www.javascriptkit.com/dhtmltutors/csshacks2.shtml][]
 -   [http://vikaskhera.wordpress.com/2008/08/02/css-hacks-browser-specific-selectors/][]
-    (\*\*\*\*)
--   [http://centricle.com/ref/css/filters/][] Önemli bir liste(\*\*\*\*)
--   [http://www.siberkultur.com/?q=css-hackleri][] (\*\*\*)
+    (****)
+-   [http://centricle.com/ref/css/filters/][] Önemli bir liste(****)
+-   [http://www.siberkultur.com/?q=css-hackleri][] (***)
 -   [http://www.sitepoint.com/article/browser-specific-css-hacks/][]
-    (\*\*\*) sürümler eski
+    (***) sürümler eski
 -   [http://www.artypapers.com/csshelppile/category.php?2][]
--   [http://rafael.adm.br/css\_browser\_selector/][]
+-   [http://rafael.adm.br/css_browser_selector/][]
 -   [http://css-discuss.incutio.com/?page=CssHack][]
 -   [http://snipplr.com/view/7043/firefox-3-css-hack/][]
 -   [http://pornel.net/firefoxhack][]
@@ -176,7 +176,7 @@ Internet Explorer 7/6/5.5, Opera 9.6 ile test edilmiştir.
     "http://www.sitepoint.com/article/browser-specific-css-hacks/"
   [http://www.artypapers.com/csshelppile/category.php?2]: http://www.artypapers.com/csshelppile/category.php?2
     "http://www.artypapers.com/csshelppile/category.php?2"
-  [http://rafael.adm.br/css\_browser\_selector/]: http://rafael.adm.br/css_browser_selector/
+  [http://rafael.adm.br/css_browser_selector/]: http://rafael.adm.br/css_browser_selector/
     "http://rafael.adm.br/css_browser_selector/"
   [http://css-discuss.incutio.com/?page=CssHack]: http://css-discuss.incutio.com/?page=CssHack
     "http://css-discuss.incutio.com/?page=CssHack"

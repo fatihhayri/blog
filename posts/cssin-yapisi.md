@@ -28,7 +28,7 @@ Burada ilki font'un boyutunu ikincisi ise font ismini gösterir. İleride
 bu konuya daha ayrıntılı gireceğiz. Ayrıca sadece font etiketine özel "
 / " kullanımı vardır örnek aşağıda: [sourcecode language='css'] h1
 {font: medium/120% Arial;} [/sourcecode]Burada " / " Seçicinin font
-boyutunu ve satır yüksekliğini gösterir.(font\_boyutu/satir\_yuksekliği)
+boyutunu ve satır yüksekliğini gösterir.(font_boyutu/satir_yuksekliği)
 
 ##### Gruplama
 
@@ -43,7 +43,7 @@ Not
 
 </div>
 CSS2 ile birlikte Evrensel Seçici(universal selector) Seçiciler arasına
-katılmıştır, " \* " ile gösterilir. \* {color: red;} tüm elementleri
+katılmıştır, " * " ile gösterilir. * {color: red;} tüm elementleri
 kırmızı yapar. Bir anlamda gruplama yapar. Ayrıntılı bilgi için [W3][]
 
 </div>
@@ -103,8 +103,8 @@ Seçicisinde **.onemli.uyari** şeklinde yazıyoruz.
 
 Id Seçicisi Sınıf Seçicisinden farklıdır. Sınıf Seçicisi sayfada birden
 fazla elemente atanırken Id Seçicisi sadece bir tane elemente atanır.
-Seçicisi adının başında \# işareti olan Seçiciler Id Seçicisidir.
-[sourcecode language='css'] ... \#mavi { background:blue; } \#kirmizi {
+Seçicisi adının başında # işareti olan Seçiciler Id Seçicisidir.
+[sourcecode language='css'] ... #mavi { background:blue; } #kirmizi {
 background:red; } [/sourcecode] [sourcecode language='html']
 
 Bu yazının arkafon rengi mavi

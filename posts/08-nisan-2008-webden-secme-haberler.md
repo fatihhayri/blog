@@ -4,7 +4,7 @@ Category: Haberler
 Tags: css teknikleri, GQuery, Javascript, WordPress
 
 -   Google GWT ve jquery birleştirip GQuery doğmuş. [Bağlantı][]
--   C\# ve javascript işbirlirğini sağlamak. ExtSharp [Bağlantı][1]
+-   C# ve javascript işbirlirğini sağlamak. ExtSharp [Bağlantı][1]
 -   Web sitlerini optimize etmenin yolları. [Bağlantı][2]
 -   Mootools ile ana sayfasındakine benzer bir menü yapmayı anlatan
     güzel bir makale. [Bağlantı][3]

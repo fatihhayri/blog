@@ -61,14 +61,14 @@ aynıdır.
 Dosya ve klasörleri silmek için kullanılır. Silme işlemlerinde her zaman
 dikkatli olmak lazım.
 
-[bash] rm deneme.html rm images\_klasoru [/bash]
+[bash] rm deneme.html rm images_klasoru [/bash]
 
 ### cp (copy) ve mv (move)
 
 Çok basit bir kullanımı vardır. İlk parametre kopyalanacak dosyayı
 ikinci parametre ise hedefi gösterir.
 
-[bash] cp deneme.html \~/dosya/deneme.html [/bash]
+[bash] cp deneme.html ~/dosya/deneme.html [/bash]
 
 Eğer taşımak istiyorsanız, aynı şekilde kullanabiliriz.
 
@@ -117,7 +117,7 @@ komutları ve ipuçlarını paylaşacağım.
 Bir branchdeki veya bir dosya üzerindeki değişiklikleri görmek için
 branchde iken
 
-[php] \$git log [/php]
+[php] $git log [/php]
 
 yazarız bu komut bize
 
@@ -135,14 +135,14 @@ commit … ile başlayan satırda verilen numara yapılan ve gönderilen her
 iş için farklıdır biz bu sözdizimini kullanarak iki farklı gönderi
 arasındaki farkı bulabiliriz.
 
-[php] \$git diff f491239170cb1463c7c3cd970862d6de636ba787
+[php] $git diff f491239170cb1463c7c3cd970862d6de636ba787
 7950659dc9ef7f2b50b18010622299c508bfdfc3  Html/index.html [/php]
 
 İki farklı branchdeki HTML/index.html dosyasındaki farklılıkları
 gösterir yukarıdaki kod. Farkları renkli görmek için --color
 parametresini kullanabiliriz.
 
-[php] \$git diff --color  d76192b2c7a61d2aea62c7aec21e14cda72f9e32
+[php] $git diff --color  d76192b2c7a61d2aea62c7aec21e14cda72f9e32
 fe0dba7b841e86b095d2aefbd6bd755a0d9d1e90  Html/index.html [/php]
 
 Eklenenleri yeşil, çıkarılanları kırmızı renkte gösterecektir. Ayrımı
@@ -152,7 +152,7 @@ görmek için renkler güzel oluyor.
 
 git branch -d: Yanlışlıkla açtığımız branchlerı silmek için
 
-[php] \$git branch -d branch\_ismi [/php]
+[php] $git branch -d branch_ismi [/php]
 
 ### Kısayol kullanmak
 
@@ -167,17 +167,17 @@ bağlantısından edinebilirsiniz.
 
 Global congif dosyasına eklemek için
 
-[php] \$git config --global alias.ci commit [/php]
+[php] $git config --global alias.ci commit [/php]
 
 **ci** kısaltma **commit** normali. Eğer projeye özgü kısayollar
 oluşturmak için
 
-[php] \$git config alias.ci commit [/php]
+[php] $git config alias.ci commit [/php]
 
 **--global** parametresini kaldırmamız yeterli olacaktır. git config
 dosyasını görmek için
 
-[php] \$git config --edit [/php]
+[php] $git config --edit [/php]
 
 yazmamız yeterli burada eklediğimiz kısayolları görebiliriz. Benim
 listem aşağıdaki gibi.  
@@ -198,18 +198,18 @@ bağlantıda Git kaynakları listelenmiş. Git’in güzel yanlarında birisi
 
 ### Başka Branch’den dosya almak
 
-[php] \$git checkout branch\_adi dosya\_adi [/php]
+[php] $git checkout branch_adi dosya_adi [/php]
 
 Benzer bir şekilde branchde yaptığımız değişikliği geri almak için
 master’dan dosyayı alabiliriz.
 
-[php] git checkout master dosya\_adi [/php]
+[php] git checkout master dosya_adi [/php]
 
 ### Değişen dosya isimleri
 
 Çalıştığımız branchde değişiklik yaptığımız dosyaları görmek için
 
-[php] \$git diff master --name-only [/php]
+[php] $git diff master --name-only [/php]
 
 kodunu kullanıyoruz.
 

@@ -28,7 +28,7 @@ mutlak elemanın konumlandırması tekniğidir. Resmimizi içeren göreceli
 konumlandırılmış bir elaman koyup resim üzerinde belirteceğimiz
 noktalarıda mutlak konumlandıracağız ve bu noktaları farenin üzerine
 geldiğinde belirtip ilgili açıklamayı göstereceğiz. Flickr'dakine benzer
-bir görüntü olması için iki fazladan \<span\> ekleyeceğiz, bunları
+bir görüntü olması için iki fazladan <span> ekleyeceğiz, bunları
 kaldırada biliriz.
 
 HTML kodumuzu yazalım
@@ -44,13 +44,13 @@ HTML kodumuzu yazalım
 CSS kodunu kademe kademe açıklayarak yazarsak;
 
 Burada resmimizi ul elemanı ardalan resmi olarak atadık. Bu teknikde
-önemli olan dıştaki kapsayıcı elemanı(ul\#foto) göreceli konumlandırıp,
+önemli olan dıştaki kapsayıcı elemanı(ul#foto) göreceli konumlandırıp,
 fare üzerine geldiğinde resmin etrafını çizip bilgisini göstermek. Bu
-resimde üzerini çizdiğimiz ve bilgisini gösterdiğimiz elemanlarada(\<li
-class="dexter"\> ve \<li class="html"\>) mutlak konumlandırma ile
+resimde üzerini çizdiğimiz ve bilgisini gösterdiğimiz elemanlarada(<li
+class="dexter"> ve <li class="html">) mutlak konumlandırma ile
 tanımlayıp resmin üzerinde istediğimiz konuma yerleştiriyoruz.
 
-[sourcecode language='css'] ul\#foto{ width: 500px; height: 331px;
+[sourcecode language='css'] ul#foto{ width: 500px; height: 331px;
 position: relative; background: url(images/dexter.jpg) no-repeat;
 margin: 0; padding: 0; list-style: none; } [/sourcecode]
 
@@ -58,8 +58,8 @@ Aşağıdaki kodda her bir haritalanacak nesne bir link olduğu için her
 birine tek tek atamaktansa genel bir tanım ile tüm linkleri mutlak
 konumlandırıyoruz ve kenar çizgisini tanımlıyoruz.
 
-[sourcecode language='css'] ul\#foto a { position: absolute; color:
-\#000; text-decoration: none; border: 1px solid transparent; }
+[sourcecode language='css'] ul#foto a { position: absolute; color:
+#000; text-decoration: none; border: 1px solid transparent; }
 [/sourcecode]
 
 Her bir haritalanacak eleman için genişlik yüksek tanımını yapıyor ve
@@ -73,42 +73,42 @@ yaptık. Firefox için -moz-border-radius: 3px; Safari ve Google Chrome
 için  -webkit-border-radius: 3px; tanımlarını yaptık. Internet Explorer
 kullanıcıları için şimdilik bir çözüm yok.
 
-[sourcecode language='css'] ul\#foto .dexter a { width: 110px; height:
-175px; top: 25px; left: 60px; } ul\#foto .html a { width: 50px; height:
-80px; top: 195px; left: 408px; } ul\#foto a .bilgi { position: absolute;
-bottom: -25px; width: 100%; padding: 2px; background-color:\#ffc;
+[sourcecode language='css'] ul#foto .dexter a { width: 110px; height:
+175px; top: 25px; left: 60px; } ul#foto .html a { width: 50px; height:
+80px; top: 195px; left: 408px; } ul#foto a .bilgi { position: absolute;
+bottom: -25px; width: 100%; padding: 2px; background-color:#ffc;
 text-align: center; left: -30000px; font:11px Arial, Helvetica,
 sans-serif; margin-left: -60px; -moz-border-radius: 3px;
 -webkit-border-radius: 3px; } [/sourcecode]
 
 Amacımız Flickr tipi bir resim haritası oluşturmak olduğu için, iki
-kenar çizgisi tanımı yapmak için iki adet \<span\> etiketi yazdık ve
+kenar çizgisi tanımı yapmak için iki adet <span> etiketi yazdık ve
 bunlara dış(.dis) ve iç(.ic) sınıfları tanımladık. Tanımladığımız her
 bir dis ve ic nesnesine haritaladığımız nesnelerin genişlik ve
 yükseklerinin 2px daha düşük değerlerini vererek üst üste binmelerini
-önledik ve görünümünü düzenlemiş olduk. Eğer istersek bu \<span\>
+önledik ve görünümünü düzenlemiş olduk. Eğer istersek bu <span>
 etiketlerini kaldırabiliriz, daha sade bir görünüm olur.
 
-[sourcecode language='css'] ul\#foto a .dis, ul\#foto a .ic { display:
-block; } ul\#foto .dexter a .dis { width: 108px; height: 173px; }
-ul\#foto .html a .dis { width: 48px; height: 78px; } ul\#foto .dexter a
-.ic { width: 106px; height: 171px; } ul\#foto .html a .ic { width: 46px;
+[sourcecode language='css'] ul#foto a .dis, ul#foto a .ic { display:
+block; } ul#foto .dexter a .dis { width: 108px; height: 173px; }
+ul#foto .html a .dis { width: 48px; height: 78px; } ul#foto .dexter a
+.ic { width: 106px; height: 171px; } ul#foto .html a .ic { width: 46px;
 height: 76px; } [/sourcecode]
 
 Fare haritalanan alanların üzerine gelince çıkacak bilgilendirme
 alanının yerini belirliyoruz. - 3000px ile görüntüden çıkardığımız bilgi
 alanını görünür yapıp istediğimiz yere yerleştirdik.
 
-[sourcecode language='css']ul\#foto a:hover .bilgi { left: 60px; }
+[sourcecode language='css']ul#foto a:hover .bilgi { left: 60px; }
 [/sourcecode]
 
 Tüm resmin üzerine gelindiğinde ve haritalanan alanların üzerine
 gelindiğinde kenar çizgi renklerini değiştirerek farklı bir görünüm
 kazandırıyoruz.
 
-[sourcecode language='css'] ul\#foto a:hover { border-color: \#d4d82d; }
-ul\#foto:hover a .dis, ul\#foto a:hover .dis { border: 1px solid \#000;
-} ul\#foto:hover a .ic, ul\#foto a:hover .ic { border: 1px solid \#fff;
+[sourcecode language='css'] ul#foto a:hover { border-color: #d4d82d; }
+ul#foto:hover a .dis, ul#foto a:hover .dis { border: 1px solid #000;
+} ul#foto:hover a .ic, ul#foto a:hover .ic { border: 1px solid #fff;
 } [/sourcecode]
 
 Sonuçta görsel ve işlevsel olarak çok güzel bir uygulama elde ettik.
@@ -127,7 +127,7 @@ avantaj sağlar.
 -   [http://maxxu.casacolor.ro/css-exp/css-image-maps.html][]
 -   [http://www.marketingtechblog.com/2007/10/02/css-image-map/][]
 -   [http://www.frederikvig.com/temp.html][] 
--   [http://www.cssplay.co.uk/menu/old\_master.html][]
+-   [http://www.cssplay.co.uk/menu/old_master.html][]
 
 </p>
 
@@ -153,5 +153,5 @@ avantaj sağlar.
     "http://www.marketingtechblog.com/2007/10/02/css-image-map/"
   [http://www.frederikvig.com/temp.html]: http://www.frederikvig.com/temp.html
     "http://www.frederikvig.com/temp.html"
-  [http://www.cssplay.co.uk/menu/old\_master.html]: http://www.cssplay.co.uk/menu/old_master.html
+  [http://www.cssplay.co.uk/menu/old_master.html]: http://www.cssplay.co.uk/menu/old_master.html
     "http://www.cssplay.co.uk/menu/old_master.html"

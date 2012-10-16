@@ -6,8 +6,8 @@ Tags: Javascript, kodu gizle, XHTML
 Eski versiyon web tarayıcılarında javascript kodlarımız saklamak için
 aşağıdaki yöntemi kullanırız.
 
-[sourcecode language="html"] \<script language="JavaScript"\>\<!--// ...
-//--\>\</script\> [/sourcecode]
+[sourcecode language="html"] <script language="JavaScript"><!--// ...
+//--></script> [/sourcecode]
 
 Eğer bu yöntemi dışarıdan javascirpt kodu çağırdığımız sayfalarda
 kullanırsak. Eski web tarayıcıları bu kodu göremeyecek ve geçecektir. Bu

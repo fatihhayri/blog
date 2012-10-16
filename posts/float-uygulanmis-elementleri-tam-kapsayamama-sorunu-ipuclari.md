@@ -12,10 +12,10 @@ Kapsayamama sorunu yaşadığımız katman içinde eğer selectbox var ise
 Firefox 3'de bu selectbox tıklanabilir olmuyor. Açılmıyor yani Kodumuz
 aşağıdaki gibi [sourcecode language='css'] .kapsayamamaSorunu: after {
 content: "."; display: block; height: 0; clear: both; visibility:
-hidden; } .kapsayamamaSorunu {display: inline-block;} /\*IE-mac de bu
-bolumu sakla \\ \*/ \* html .kapsayamamaSorunu {height: 1%;}
-.kapsayamamaSorunu {display: block;} /\* IE-mac bu bolumu saklam artik
-\*/ [/sourcecode] sorunu çözümü ise .kapsayamamaSorunu ile :after
+hidden; } .kapsayamamaSorunu {display: inline-block;} /*IE-mac de bu
+bolumu sakla  */ * html .kapsayamamaSorunu {height: 1%;}
+.kapsayamamaSorunu {display: block;} /* IE-mac bu bolumu saklam artik
+*/ [/sourcecode] sorunu çözümü ise .kapsayamamaSorunu ile :after
 arasındaki boşluğu kapatmak .kapsayamamaSorunu:after [sourcecode
 language='css'] .kapsayamamaSorunu:after { content: "."; display: block;
 height: 0; clear: both; visibility: hidden; } [/sourcecode] Küçük bir
@@ -29,9 +29,9 @@ için bu kodu yazıyordum. Sonra bunu bir sınıfa atayıp gerekli yerlerde
 bu sınıfı kullanmanın daha avantajlı olacağını düşündüm. [sourcecode
 language='css'] .kapsayamamaSorunu:after {content: "."; display: block;
 height: 0; clear: both; visibility: hidden;} .kapsayamamaSorunu
-{display: inline-block;} /\*IE-mac de bu bolumu sakla \\ \*/ \* html
+{display: inline-block;} /*IE-mac de bu bolumu sakla  */ * html
 .kapsayamamaSorunu {height: 1%;} .kapsayamamaSorunu {display: block;}
-/\* IE-mac bu bolumu saklam artik \*/ [/sourcecode] [sourcecode
+/* IE-mac bu bolumu saklam artik */ [/sourcecode] [sourcecode
 language='html']
 
 <div id="icerik" class="kapsayamamaSorunu">
@@ -44,7 +44,7 @@ language='html']
 ![][]
 
 </div>
-[/sourcecode] \#icerik ve .resimAlani bu sorun ile karşılaştığımızı
+[/sourcecode] #icerik ve .resimAlani bu sorun ile karşılaştığımızı
 düşünelim. Tek tek bu kodu yazmaktansa .kapsayamamaSorunu isimli bir
 sınıf tanımlayıp sorunumuz ile karşılaştığımız her yerde bu sınıfı
 tanımlarız. Tek tanımla ile işimizi hallettik.

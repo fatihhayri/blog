@@ -102,7 +102,7 @@ Date: 2006-08-05 22:06
     -   [CSS ile Resim Haritaları(imagemap) yapmak][]
     -   [CSS ile Basit Şekilde Fare Üzerine Gelince(Rollover) Resim
         Değişimi Yapmak][]
-    -   [CSS ile \<hr /\> Stil Vermek][]
+    -   [CSS ile <hr /> Stil Vermek][]
     -   [CSS ile sayfalama görselliğini ayarlama][]
     -   [Sayfa Dibine Yapışık Alt Alanlar(Sticky Footer)][]
     -   [CSS ile Ziyaret Edilen Sayfa Bağlantılarına Şekil Vermek][]
@@ -125,7 +125,7 @@ Date: 2006-08-05 22:06
     -   [Çoklu Kenar Çizgisi(Border) Kullanımı][]
     -   [@font-face yardımı ile ikon eklemek – Yeni TL sembolü
         eklemek][]
-    -   [\~ "Genel Kardeş Seçicisini" Cümle İçinde Kullanalım][]
+    -   [~ "Genel Kardeş Seçicisini" Cümle İçinde Kullanalım][]
     -   [İnternet Explorer 7'yi Bitirmeli miyiz?][]
 
 -   CSS Problemleri ve Çözüm Önerileri
@@ -384,7 +384,7 @@ Date: 2006-08-05 22:06
   [CSS ile Yüzde Çubuğu Hazırlama]: http://www.fatihhayrioglu.com/css-ile-yuzde-cubugu-hazirlama/
   [CSS ile Resim Haritaları(imagemap) yapmak]: http://www.fatihhayrioglu.com/css-ile-resim-haritalariimagemap-yapmak/
   [CSS ile Basit Şekilde Fare Üzerine Gelince(Rollover) Resim Değişimi Yapmak]: http://www.fatihhayrioglu.com/css-ile-basit-sekilde-fare-uzerine-gelincerollover-resim-degisimi-yapmak/
-  [CSS ile \<hr /\> Stil Vermek]: http://www.fatihhayrioglu.com/css-ile-hr-stil-vermek/
+  [CSS ile <hr /> Stil Vermek]: http://www.fatihhayrioglu.com/css-ile-hr-stil-vermek/
   [CSS ile sayfalama görselliğini ayarlama]: http://www.fatihhayrioglu.com/css-ile-sayfalama-gorselligini-ayarlama/
   [Sayfa Dibine Yapışık Alt Alanlar(Sticky Footer)]: http://www.fatihhayrioglu.com/sayfa-dibine-yapisik-alt-alanlarsticky-footer/
   [CSS ile Ziyaret Edilen Sayfa Bağlantılarına Şekil Vermek]: http://www.fatihhayrioglu.com/css-ile-ziyaret-edilen-sayfa-baglantilarina-sekil-vermek/
@@ -404,7 +404,7 @@ Date: 2006-08-05 22:06
   [Saydam Kenar Çizgileri Oluşturmak]: http://www.fatihhayrioglu.com/saydam-kenar-cizgileri-olusturmak/
   [Çoklu Kenar Çizgisi(Border) Kullanımı]: http://www.fatihhayrioglu.com/coklu-kenar-cizgisiborder-kullanimi/
   [@font-face yardımı ile ikon eklemek – Yeni TL sembolü eklemek]: http://www.fatihhayrioglu.com/font-face-yardimi-ile-ikon-eklemek-yeni-tl-sembolu-eklemek/
-  [\~ "Genel Kardeş Seçicisini" Cümle İçinde Kullanalım]: http://www.fatihhayrioglu.com/genel-kardes-secicisini-cumle-icinde-kullanalim/
+  [~ "Genel Kardeş Seçicisini" Cümle İçinde Kullanalım]: http://www.fatihhayrioglu.com/genel-kardes-secicisini-cumle-icinde-kullanalim/
   [İnternet Explorer 7'yi Bitirmeli miyiz?]: http://www.fatihhayrioglu.com/internet-explorer-7-bitirmeli-miyiz/
   [IE'de Hata Ayıklamak için şartlı Yorumlar Kullanmak]: http://www.fatihhayrioglu.com/iede-hata-ayiklamak-icin-sartli-yorumlar-kullanmak/
   [CSS Hata Ayıklama Yöntemleri]: http://www.fatihhayrioglu.com/css-hata-ayiklama-yontemleri/

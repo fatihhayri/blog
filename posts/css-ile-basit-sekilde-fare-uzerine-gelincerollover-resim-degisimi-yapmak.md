@@ -27,7 +27,7 @@ Xhtml kodumuzu yazalım
 CSS kodumuzu yazalım
 
 [sourcecode language='css']a.anasayfayaDon { display: block; width:
-80px; height: 80px; background: url(images/degisen\_resim.gif) 0 0
+80px; height: 80px; background: url(images/degisen_resim.gif) 0 0
 no-repeat; text-decoration: none; text-indent:-999px; }
 a:hover.anasayfayaDon { background-position: -80px 0; }[/sourcecode]
 

@@ -86,14 +86,14 @@ içinde kalır.
 [css] div { width:250px; height:250px; background: white;
 -webkit-box-shadow: 0 0 0 4px white, 0 6px 4px black; -moz-box-shadow: 0
 0 0 4px white, 0 6px 4px black;    box-shadow: 0 0 0 4px white, 0 6px
-4px black;    border:1px solid \#f00; } [/css]
+4px black;    border:1px solid #f00; } [/css]
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/5pVbj/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Eğer kenar çizgisi kullanılacaksa;
 
 [css] div { width:250px; height:250px; background: white;
 -webkit-box-shadow: 0 8px 6px -6px black; -moz-box-shadow: 0 8px 6px
--6px black; box-shadow: 0 8px 6px -6px black;    border:1px solid \#f00;
+-6px black; box-shadow: 0 8px 6px -6px black;    border:1px solid #f00;
 } [/css]
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/5pVbj/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 

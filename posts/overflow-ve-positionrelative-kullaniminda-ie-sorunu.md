@@ -19,14 +19,14 @@ overflow uyguladığım elemanın dışına çıkıyor ve scroll olmuyor.
 
 Şöyle küçük bir örnek durumu daha iyi gösterecektir.
 
-[sourcecode language="html"] \<div id="icerikAlani"\> \<p\>İlk
-paragaraf\</p\> \<p class="relative"\>position:relative uygulanan
-kısım\</p\> \</div\> [/sourcecode]
+[sourcecode language="html"] <div id="icerikAlani"> <p>İlk
+paragaraf</p> <p class="relative">position:relative uygulanan
+kısım</p> </div> [/sourcecode]
 
 CSS kodu da şöyle
 
-[sourcecode language="css"] \#icerikAlani{ height:80px; overflow:auto;
-width:200px; height:80px; background-color:\#ccc } .relative{
+[sourcecode language="css"] #icerikAlani{ height:80px; overflow:auto;
+width:200px; height:80px; background-color:#ccc } .relative{
 position:relative; background-color:lightblue; width:150px; }
 [/sourcecode]
 
@@ -40,15 +40,15 @@ karşılaşacağız.
 Sorunun çözümü ise çok basit. overflow uyguladığımız elemana
 position:relative tanımı yaparak sorunu giderebilirsiniz.
 
-[sourcecode language="css" highlight="7"] \#icerikAlani{ height:80px;
-overflow:auto; width:200px; height:80px; background-color:\#ccc;
+[sourcecode language="css" highlight="7"] #icerikAlani{ height:80px;
+overflow:auto; width:200px; height:80px; background-color:#ccc;
 position:relative; } .relative{ position:relative;
 background-color:lightblue; width:150px; } [/sourcecode]
 
 ### Kaynaklar
 
--   [http://snook.ca/archives/html\_and\_css/position\_relative\_overflow\_ie/][]
--   [http://www.rowanw.com/bugs/overflow\_relative.htm][]
+-   [http://snook.ca/archives/html_and_css/position_relative_overflow_ie/][]
+-   [http://www.rowanw.com/bugs/overflow_relative.htm][]
 -   [http://dustyreagan.com/workaround-to-ies-overflow-auto-and/][]
 
 </p>
@@ -57,7 +57,7 @@ background-color:lightblue; width:150px; } [/sourcecode]
   []: http://www.fatihhayrioglu.com/wp-content/position_relative_overflow_ie.jpg
     "position_relative_overflow_ie"
   [![][]]: http://www.fatihhayrioglu.com/wp-content/position_relative_overflow_ie.jpg
-  [http://snook.ca/archives/html\_and\_css/position\_relative\_overflow\_ie/]:
+  [http://snook.ca/archives/html_and_css/position_relative_overflow_ie/]:
     http://snook.ca/archives/html_and_css/position_relative_overflow_ie/
-  [http://www.rowanw.com/bugs/overflow\_relative.htm]: http://www.rowanw.com/bugs/overflow_relative.htm
+  [http://www.rowanw.com/bugs/overflow_relative.htm]: http://www.rowanw.com/bugs/overflow_relative.htm
   [http://dustyreagan.com/workaround-to-ies-overflow-auto-and/]: http://dustyreagan.com/workaround-to-ies-overflow-auto-and/

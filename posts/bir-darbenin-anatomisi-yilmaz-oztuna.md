@@ -3,7 +3,7 @@ Date: 2006-06-28 23:10
 Category: Kitaplar
 Tags: Kitaplar
 
-![birdarbenin\_anatomisi.jpg][]Gizli kalmış tarihi aydınlatan mükemmel
+![birdarbenin_anatomisi.jpg][]Gizli kalmış tarihi aydınlatan mükemmel
 bir kitap. Osmanlının yıklışa geçtiği dönemi Sultan Abdulaziz'in katilin
 anlatan bir kitap. Herşeyi tüm çıplaklığı ile anlatan bir
 kitap.<!--more--> Arka Kapak: Yılmaz Öztuna bu kitabında 1876 askeri
@@ -16,4 +16,4 @@ yapısı üzerinde derinlemesine etkileri vardır. 1979 eylülünde kaleme
 alınan bu kitap 1982 yılında sakıncalı görülüp yayınlanamadı. O tarihten
 bu yana bir çok baskı yaptı. Gözden geçirilmiş 5. baskısını sunuyoruz.
 
-  [birdarbenin\_anatomisi.jpg]: http://www.fatihhayrioglu.com/wp-content/birdarbenin_anatomisi.thumbnail.jpg
+  [birdarbenin_anatomisi.jpg]: http://www.fatihhayrioglu.com/wp-content/birdarbenin_anatomisi.thumbnail.jpg

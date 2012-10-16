@@ -79,7 +79,7 @@ seçicileri geldi.
 **Belirlenen Sözdizimi ile Başlayan Özellik Değer Seçicisi**
 
 Tüm sözdizimi yerine ...ile başlayan elemanı seçmek için kullanılır.
-Belirtilen sözdizimi ile başlayan elemanlar seçilir. (\^) şapka işareti
+Belirtilen sözdizimi ile başlayan elemanlar seçilir. (^) şapka işareti
 ile kullanılır.
 
 ![][]
@@ -87,14 +87,14 @@ ile kullanılır.
 Bu tanımlama ile belirtilen sözdizimi ile başlayan özellik değerini
 arıyor ve uyguluyor.
 
-[html] This is a sample \<a
-href="http://www.bloggermint.com"\>hyperlink\</a\>. This is a sample \<a
-href="mailto:bloggermint@gmail.com"\>bloggermint@gmail.com\</a\>. This
-is a sample \<a href="ftp://bloggermint.com"\>FTP Server\</a\>. [/html]
-[css] a[href\^='http'] { background: url(images/link.png) no-repeat
-left; padding-left:20px; } a[href\^='mailto'] { background:
+[html] This is a sample <a
+href="http://www.bloggermint.com">hyperlink</a>. This is a sample <a
+href="mailto:bloggermint@gmail.com">bloggermint@gmail.com</a>. This
+is a sample <a href="ftp://bloggermint.com">FTP Server</a>. [/html]
+[css] a[href^='http'] { background: url(images/link.png) no-repeat
+left; padding-left:20px; } a[href^='mailto'] { background:
 url(images/email.png) no-repeat left; padding-left:20px; }
-a[href\^='ftp'] { background: url(images/folder.png) no-repeat left;
+a[href^='ftp'] { background: url(images/folder.png) no-repeat left;
 padding-left:20px; } [/css]
 
 Şeklinde link başlangıç değerine göre ikon atayabiliriz.
@@ -117,15 +117,15 @@ Android Browser 2.1+
 
 Belirlenen sözdizimi ile biten elemanları seçmek için kullanılır.
 Başlangıç sözdizimi ile seçme ile aynı şekilde çalışır. Seçici işareti
-olarak \$(dolar) işareti kullanılır.
+olarak $(dolar) işareti kullanılır.
 
 ![][1]
 
 Bu seçiciyi kullanarak dokümanlara verilen linklerin başına kolayca ikon
 ekleyebiliriz.
 
-[css] a[href\$='.pdf'] { background-image: url('pdf.png'); }
-a[href\$='.doc'] { background-image: url('word.png'); } a[href\$='.rss']
+[css] a[href$='.pdf'] { background-image: url('pdf.png'); }
+a[href$='.doc'] { background-image: url('word.png'); } a[href$='.rss']
 { background-image: url('feed.png'); } [/css]
 
 <div class="tarayiciuyum">
@@ -145,14 +145,14 @@ Android Browser 2.1+
 **İçinde Belirlenen Sözdizimi Geçen Özellik Değer Seçicisi**
 
 Belirlenen sözdizimi özellik değerinde geçen elemanları seçmek için
-kullanılır. Seçici işareti olarak \* (yıldız) işareti kullanılır.
+kullanılır. Seçici işareti olarak * (yıldız) işareti kullanılır.
 
 ![][2]
 
 Birçok yerde kullanılabilecek geniş kapsamlı bir kullanımı olan bir
 seçicidir.
 
-[css] a[title\*='im'] {} [/css]
+[css] a[title*='im'] {} [/css]
 
 Sadece bir kısmı ile elemanı seçebilme imkanı sağlıyor. CSS2’dekinden
 farklı olarak.
@@ -176,12 +176,12 @@ Android Browser 2.1+
 Özellik seçicileri birlikte kullanma imkanımızda vardır. Birden fazla
 seçici ile seçimi daraltabiliriz.
 
-[css] p[class=highlight] a[title\~=important] { background : \#ffffcc; }
+[css] p[class=highlight] a[title~=important] { background : #ffffcc; }
 [/css]
 
 Daha fazla özellik seçicisinide birleştirebiliriz.
 
-[css] a[href\^='http://'][href\*='/folder2/'][href\$='.pdf'] {
+[css] a[href^='http://'][href*='/folder2/'][href$='.pdf'] {
 background:url(pdf.gif) 0 0 no-repeat; } [/css]
 
 CSS3 ile gelen özellik seçicilerinin bir avantajıda ie7’ninde bu
@@ -209,7 +209,7 @@ seçicidir. Aynı kapsayıcıya sahip elemanların belirtilen elemandan
 sonraki aynı seviyedeki elemanların tümünü yakalamak için kullanılır.
 Burada dikkat edilmesi gereken konu belirtilen elemandan sonraki aynı
 seviyedeki elemanları seçiyor olması. Tanımlama yaparken araya işaret
-olarak tilde(\~) koyuyoruz.
+olarak tilde(~) koyuyoruz.
 
 ![][3]
 
@@ -217,13 +217,13 @@ Bir örnek yapacak olursak bir resmimiz var bunu sola hizalayacağız ve
 sağdanda metinler akacak. Bu resim ve paragraflar arasına padding
 tanımlamak için genel kardeş seçicisi birebirdir.
 
-[css] img{ float:left; } img \~ p{ padding-left:110px; } [/css]
+[css] img{ float:left; } img ~ p{ padding-left:110px; } [/css]
 
 html kodu
 
-[html] \<img src="kedi.jpg" width="96" height="96" alt="kedi" /\>
-\<p\>Kedi (Felis catus),...\</p\> \<p\>2,5 ile 12 kilo ...\</p\>
-\<p\>Kediler hoş görünüşlü, ..\</p\> [/html]
+[html] <img src="kedi.jpg" width="96" height="96" alt="kedi" />
+<p>Kedi (Felis catus),...</p> <p>2,5 ile 12 kilo ...</p>
+<p>Kediler hoş görünüşlü, ..</p> [/html]
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/KGkAK/1/embedded/result,css,html"></iframe>
 
 Bu seçiciyi ie7’nin seçicisini destekliyor.
@@ -277,21 +277,21 @@ edebiliriz. 3 adet durum söz konusu
 
 Form elemanlarında bu durumlar HTML olarak
 
-[html] \<textarea disabled="disabled"\>\</textarea\> \<input
-checked="checked" type="checkbox"\> [/html]
+[html] <textarea disabled="disabled"></textarea> <input
+checked="checked" type="checkbox"> [/html]
 
 şekilde tanımlanır. Form elemanlarının bu durumlarını kullanıcıya
 yansıtmamız lazım. Bu sayede daha kullanıcı dostu formlar oluşturmuş
 olacağız.
 
-[css] :enabled { border: 2px solid \#6374AB; } :disabled { border: 2px
-solid \#00cc00; } :checked { display: inline-block; width: 4em; } [/css]
+[css] :enabled { border: 2px solid #6374AB; } :disabled { border: 2px
+solid #00cc00; } :checked { display: inline-block; width: 4em; } [/css]
 
 HTML kodumuz
 
-[html] \<form id="testForm"\> \<input\> \<input type="checkbox"\>
-\<input type="radio" name="test"\> \<input type="radio" name="test"\>
-\<input type="submit"\> \</form\> [/html]
+[html] <form id="testForm"> <input> <input type="checkbox">
+<input type="radio" name="test"> <input type="radio" name="test">
+<input type="submit"> </form> [/html]
 <iframe style="width: 100%; height: 180px" src="http://jsfiddle.net/fatihhayri/KM9B4/embedded/result,css,html"></iframe>
 
 Basit bir örnek vermiş olsak dahi bu seçiciler ile neler
@@ -334,15 +334,15 @@ tanımlanabilir.
 
 Rakama bir örnek verecek olursak, 3. sıradaki elemanı yakalamak için
 
-[css] p:nth-child(3) { color:\#f00; } [/css]
+[css] p:nth-child(3) { color:#f00; } [/css]
 
 Belirli kelimelere bir örnek verecek olacaksak; odd(çift) ve even(tek)
 kelimelerinin kullanımı ile seçme işlemini gösterebiliriz. Zebra
 tablolardan hatırladığımız çift, tek satırlara tanımlama yapmak için
 kullanılabilir.
 
-[css] tr:nth-child(odd) { color:\#f00; } tr:nth-child(even) {
-color:\#ff0; } [/css]
+[css] tr:nth-child(odd) { color:#f00; } tr:nth-child(even) {
+color:#ff0; } [/css]
 <iframe style="width: 100%; height: 400px" src="http://jsfiddle.net/fatihhayri/F6UnC/embedded/result,css,html"></iframe>
 
 Formül için örnek verecek olursak; dinamik bir seçim oluşturmak için
@@ -350,7 +350,7 @@ gayet iyi sonuçlar verecek bir özelliktir. Matematik derslerindende
 hatırladığımız (an + b) a ve b değişkenlerdir. Benzer formüller ile
 eleman seçebilme imkanı veriyor.
 
-[css] p:nth-child(3n+0) {     background:\#ff0000; } [/css]
+[css] p:nth-child(3n+0) {     background:#ff0000; } [/css]
 
 Bir tanım ile 3 katı olan elementleri yakalayabiliriz.
 
@@ -369,7 +369,7 @@ Opera 10.10+
 farklı olarak sıralama olarak baştan değilde sondan başlayarak seçmemizi
 sağlar.
 
-[css] tbody tr:nth-last-child(2) { background:\#ff0000; } [/css]
+[css] tbody tr:nth-last-child(2) { background:#ff0000; } [/css]
 
 Tanımı ile tbody içindeki sondan 2. sıradaki satırı yakalamamızı sağlar.
 
@@ -389,7 +389,7 @@ Opera 10.10+
 elemanları seçerken, :nth-of-type() sözde seçicisi sadece aynı tip
 elemanları seçer.
 
-[css] p:nth-of-type(3) { background:\#ff0; } [/css]
+[css] p:nth-of-type(3) { background:#ff0; } [/css]
 
 Örneğinde mesela paragraf elemanı ile aynı seviyedeki tüm paragrafları
 seçmemizi sağlar. Benzer şekilde :nth-child()  kullansa idik, aynı
@@ -417,7 +417,7 @@ doğru aynı seviyedeki ve aynı tipteki elemanları seçmek için yapılır.
 olsa aslında benzer özellikte çalışırlar, ancak bu ufak farklar bile
 bize çok büyük avantajlar sağlayacaktır.
 
-[css] p:nth-last-of-type(2) { background:\#ff0; } [/css]
+[css] p:nth-last-of-type(2) { background:#ff0; } [/css]
 
 Aynı seviyedeki paragrafların sondan ikincisini yakalar bu seçici
 
@@ -438,7 +438,7 @@ seçmek için kullanılır. fisrt-child ilk elemanı seçmemizi sağlarken
 elemanların sonuncusunu bulmak bizim her zaman işimize yarayacaktır.
 :nth-last-child(1) aynı işi görür.
 
-[css] p:last-child { background:\#ff0; } [/css]
+[css] p:last-child { background:#ff0; } [/css]
 
 Tanımı belirlenen paragraf ile aynı seviyedeki elemanların en
 sonuncusunu seçmemizi sağlar.
@@ -477,7 +477,7 @@ Opera 10.10+
 :first-of-type sözde seçicisi aynı seviyedeki ilk aynı tipteki elemanı
 seçmek için kullanılır. :nth-of-type(1) aynı işi görür.
 
-[css] p:first-of-type { background:\#ff0; } [/css]
+[css] p:first-of-type { background:#ff0; } [/css]
 
 Aynı seviyedeki ilk paragrafı seçmek için kullanılır.
 
@@ -495,7 +495,7 @@ Opera 10.10+
 :last-of-type sözde seçicisi aynı seviyedeki en son aynı tipteki elemanı
 seçmek için kullanılır.  :nth-last-of-type(1) ile aynı işi görür.
 
-[css] p:last-of-type { background:\#ff0; } [/css]
+[css] p:last-of-type { background:#ff0; } [/css]
 
 Aynı seviyedeki paragrafların en sonuncusunu yakalar.
 
@@ -533,7 +533,7 @@ etiket adına sahip tek çocuğu olan elemanları seçmek için kullanılır.
 Tam karşılığı olmasada :first-of-type:last-of-type veya
 :nth-of-type(1):nth-last-of-type(1) aynı işi yapar.
 
-[css] ul.deneme \> li \> a:only-of-type { background:\#ff0; } [/css]
+[css] ul.deneme > li > a:only-of-type { background:#ff0; } [/css]
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/cEdgX/1/embedded/html,css,result"></iframe>
 
 Aynı seviyedeki bağlantılara sarı ardalan rengi tanımlayacaktır. Listede
@@ -555,12 +555,12 @@ Opera 10.10+
 ile aynı etkiyi yapar. buradaki asıl amaç xml ve diğer doküman tipleri
 için köke inebilmektir.
 
-[css] :root { background:\#ff0; } [/css]
+[css] :root { background:#ff0; } [/css]
 
 HTML dokümanlarında ise html elemanını ezmek içinde kullanılabilir.
 
-[css] html{ background-color: \#fff; } html:root { background-color:
-\#000; } [/css]
+[css] html{ background-color: #fff; } html:root { background-color:
+#000; } [/css]
 
 <div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
@@ -576,15 +576,15 @@ Opera 9.5+
 :empty sözde seçicisi alt elemanı(çocuk) olmayan elemanları yakalamak
 için kullanılır. Metinlerde buna dahildir.
 
-[html] \<ul class="deneme"\> \<li\>\</li\> \<li\>\<a
-href=""\>deneme\</a\>\</li\> \<li\>\<strong\>\</strong\>\</li\>
-\<li\>\<a href=""\>deneme\</a\> \<ul\> \<li\>\<a
-href=""\>deneme\</a\>\</li\> \<li\>\<a href=""\>deneme\</a\>\</li\>
-\</ul\> \</li\> \</ul\> [/html]
+[html] <ul class="deneme"> <li></li> <li><a
+href="">deneme</a></li> <li><strong></strong></li>
+<li><a href="">deneme</a> <ul> <li><a
+href="">deneme</a></li> <li><a href="">deneme</a></li>
+</ul> </li> </ul> [/html]
 
 CSS kodu
 
-[css] ul.deneme \> li:empty { background:\#ff0; } [/css]
+[css] ul.deneme > li:empty { background:#ff0; } [/css]
 
 Yukarıdaki örnekte sadece ilk liste elemanı seçilecektir.
 
@@ -602,13 +602,13 @@ Opera 10.10+
 Olumsuzluk belirtmek için kullanılan sözde sınıftır. :not(seçici)
 şeklinde kullanılır. Jquery’den alışık olduğumuz bir seçicidir.
 
-[html] \<h1\>Deneme\</h1\> \<h2\>Alt Başlık\</h2\> \<p\>İçerik...\</p\>
-\<p\>İçerik...\</p\> \<p\>İçerik...\</p\>
-\<blockquote\>Dipnot\</blockquote\> [/html]
+[html] <h1>Deneme</h1> <h2>Alt Başlık</h2> <p>İçerik...</p>
+<p>İçerik...</p> <p>İçerik...</p>
+<blockquote>Dipnot</blockquote> [/html]
 
 CSS kodu
 
-[css] body :not(blockquote){ border:1px solid \#ccc;} [/css]
+[css] body :not(blockquote){ border:1px solid #ccc;} [/css]
 
 kodu body içindeki tüm elemanlara kenar çizgisi ata, dipnot(blockquote)
 hariç şeklinde uygulanacaktır.
@@ -632,8 +632,8 @@ Opera 10.10+
 bakacağız. Seçili alan seçicisi olarak tanımlayabileceğimiz bu özellik
 seçilen alana css tanımları atamamızı sağlamaktadır.
 
-[css] ::-moz-selection { background:\#c00; color:\#fff; } ::selection {
-background:\#c00; color:\#fff; } [/css]
+[css] ::-moz-selection { background:#c00; color:#fff; } ::selection {
+background:#c00; color:#fff; } [/css]
 
 Ataması ile sitenin tümünde bir seçili alanları için bir tanımlama
 yapabiliriz.
@@ -655,7 +655,7 @@ Opera 10.10+
 ### Kaynaklar
 
 -   [http://www.w3.org/TR/css3-selectors/][]
--   [http://www.456bereastreet.com/archive/200601/css\_3\_selectors\_explained/][]
+-   [http://www.456bereastreet.com/archive/200601/css_3_selectors_explained/][]
     (Detaylı)
 -   [http://www.adobe.com/devnet/dreamweaver/articles/css-selectors-pt2.html][]
     (detaylı örnekli)
@@ -664,9 +664,9 @@ Opera 10.10+
 -   [http://24ways.org/2009/cleaner-code-with-css3-selectors][]
     (örmeklerle açıklanmış)
 -   [http://ie.microsoft.com/testdrive/HTML5/CSS3Selectors/Default.html][]
--   [http://www.w3schools.com/cssref/css\_selectors.asp][] (seçici
+-   [http://www.w3schools.com/cssref/css_selectors.asp][] (seçici
     listesi)
--   [http://www.quirksmode.org/blog/archives/2010/06/ies\_big\_leap\_fo.html][]
+-   [http://www.quirksmode.org/blog/archives/2010/06/ies_big_leap_fo.html][]
 -   [http://www.quirksmode.org/css/contents.html][] (tarayıcı destek
     listesi)
 -   [http://selectivizr.com/][] (ie için çözüm)
@@ -681,7 +681,7 @@ Opera 10.10+
 -   [http://perishablepress.com/awesome-new-css3-selectors/][] (ilginç)
 -   [http://developer.practicalecommerce.com/articles/2386-Taking-CSS3-Selectors-to-the-Nth][]
     (nth seçicisi)
--   [https://developer.mozilla.org/en/firefox\_3.5\_for\_developers][]
+-   [https://developer.mozilla.org/en/firefox_3.5_for_developers][]
 -   [https://developer.mozilla.org/en/CSS/%3Achecked][] (:checked
     seçicisi)
 -   [https://developer.mozilla.org/en/CSS/:nth-child][]
@@ -706,7 +706,7 @@ Opera 10.10+
   [5]: https://lh4.googleusercontent.com/xT4YjtxJM9wckC5nB68tYXZKVtNX2e72lsYCXcgivCGpxRCWZBKEzGIKQB4eb8S6isRl-3ZNo7_V1B__nrqbHMXASIwqQusVGqvAGcOuyfe3bstNIsY
   [Daha önce görselliği dikkatimi]: http://www.fatihhayrioglu.com/css-ile-secilen-metinlerin-rengini-degistirmek/
   [http://www.w3.org/TR/css3-selectors/]: http://www.w3.org/TR/css3-selectors/
-  [http://www.456bereastreet.com/archive/200601/css\_3\_selectors\_explained/]:
+  [http://www.456bereastreet.com/archive/200601/css_3_selectors_explained/]:
     http://www.456bereastreet.com/archive/200601/css_3_selectors_explained/
   [http://www.adobe.com/devnet/dreamweaver/articles/css-selectors-pt2.html]:
     http://www.adobe.com/devnet/dreamweaver/articles/css-selectors-pt2.html
@@ -715,8 +715,8 @@ Opera 10.10+
   [http://tools.css3.info/selectors-test/test.html]: http://tools.css3.info/selectors-test/test.html
   [http://24ways.org/2009/cleaner-code-with-css3-selectors]: http://24ways.org/2009/cleaner-code-with-css3-selectors
   [http://ie.microsoft.com/testdrive/HTML5/CSS3Selectors/Default.html]: http://ie.microsoft.com/testdrive/HTML5/CSS3Selectors/Default.html
-  [http://www.w3schools.com/cssref/css\_selectors.asp]: http://www.w3schools.com/cssref/css_selectors.asp
-  [http://www.quirksmode.org/blog/archives/2010/06/ies\_big\_leap\_fo.html]:
+  [http://www.w3schools.com/cssref/css_selectors.asp]: http://www.w3schools.com/cssref/css_selectors.asp
+  [http://www.quirksmode.org/blog/archives/2010/06/ies_big_leap_fo.html]:
     http://www.quirksmode.org/blog/archives/2010/06/ies_big_leap_fo.html
   [http://www.quirksmode.org/css/contents.html]: http://www.quirksmode.org/css/contents.html
   [http://selectivizr.com/]: http://selectivizr.com/
@@ -732,7 +732,7 @@ Opera 10.10+
   [http://perishablepress.com/awesome-new-css3-selectors/]: http://perishablepress.com/awesome-new-css3-selectors/
   [http://developer.practicalecommerce.com/articles/2386-Taking-CSS3-Selectors-to-the-Nth]:
     http://developer.practicalecommerce.com/articles/2386-Taking-CSS3-Selectors-to-the-Nth
-  [https://developer.mozilla.org/en/firefox\_3.5\_for\_developers]: https://developer.mozilla.org/en/firefox_3.5_for_developers
+  [https://developer.mozilla.org/en/firefox_3.5_for_developers]: https://developer.mozilla.org/en/firefox_3.5_for_developers
   [https://developer.mozilla.org/en/CSS/%3Achecked]: https://developer.mozilla.org/en/CSS/%3Achecked
   [https://developer.mozilla.org/en/CSS/:nth-child]: https://developer.mozilla.org/en/CSS/:nth-child
   [https://developer.mozilla.org/en/CSS/:empty]: https://developer.mozilla.org/en/CSS/:empty

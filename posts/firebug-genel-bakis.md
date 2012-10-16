@@ -75,7 +75,7 @@ FireBug menüsündeki seçenekleri tek tek tanımlarsak:
     özellik önemli, çünkü ajax tabanlı bazı sitelerde FireBug
     yavaşlamalara neden olabilir. Gmail'e girdiğinizde bazen bu yönde
     hatalar alırsınız.
--   **Disable Firebug for \*\*\*\***: Belli sitelerde firebug'ınızın
+-   **Disable Firebug for ******: Belli sitelerde firebug'ınızın
     pasif olmasını istediğinizde bu seçeneği tıklayınız. Ben Gmail için
     bu seçeneği işaretledim. Çünkü firebug'a her zaman ihtiyaç duyduğum
     için devamlı kapalı tutmak hoşuma gitmiyor.
@@ -146,7 +146,7 @@ göreceğiz.
 -   [http://blog.veanndesign.com/2008/04/12/everything-about-firebug-21-great-resources/][]
 -   [http://alternateidea.com/blog/articles/2006/05/12/an-in-depth-look-at-the-future-of-javascript-debugging-with-firebug][]
 -   [http://groups.google.com/group/firebug][]
--   [http://www.seifi.org/javascript/firebug\_tips\_and\_tricks.html][]
+-   [http://www.seifi.org/javascript/firebug_tips_and_tricks.html][]
 -   [http://www.webdeneyimleri.com/firebug-firefox-eklentisi/][Volkan
     Görgülü'nün video anlatımı]  
 -   [http://www.bildirgec.org/yazi/firebug-web-gelistirimi-gelistirildi][]  
@@ -188,7 +188,7 @@ göreceğiz.
   [http://alternateidea.com/blog/articles/2006/05/12/an-in-depth-look-at-the-future-of-javascript-debugging-with-firebug]:
     http://alternateidea.com/blog/articles/2006/05/12/an-in-depth-look-at-the-future-of-javascript-debugging-with-firebug
   [http://groups.google.com/group/firebug]: http://groups.google.com/group/firebug
-  [http://www.seifi.org/javascript/firebug\_tips\_and\_tricks.html]: http://www.seifi.org/javascript/firebug_tips_and_tricks.html
+  [http://www.seifi.org/javascript/firebug_tips_and_tricks.html]: http://www.seifi.org/javascript/firebug_tips_and_tricks.html
   [http://www.bildirgec.org/yazi/firebug-web-gelistirimi-gelistirildi]: http://www.bildirgec.org/yazi/firebug-web-gelistirimi-gelistirildi
   [http://www.burcudogan.com/firebug-ve-hata-ayiklama-sanati-83.html]: http://www.burcudogan.com/firebug-ve-hata-ayiklama-sanati-83.html
   [http://code.google.com/p/fbug/source/browse/branches/firebug1.1/locale/tr-TR/firebug.dtd?r=350]:

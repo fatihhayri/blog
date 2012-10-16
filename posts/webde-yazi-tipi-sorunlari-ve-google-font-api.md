@@ -120,13 +120,13 @@ Kalın Sağlıcakla
 ### Kaynaklar
 
 -   [http://www.ozdtasarim.com/blog/googledan-font-face-hizmeti-google-font-api.html][]
--   [http://code.google.com/apis/webfonts/docs/getting\_started.html][]
+-   [http://code.google.com/apis/webfonts/docs/getting_started.html][]
 -   [http://css-tricks.com/google-font-api-interview/][]
 -   [http://designshack.co.uk/articles/css/how-to-use-the-new-google-font-api][]
 -   [http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-google-fonts-api-youre-going-to-love-this/][]
 -   [http://www.bloggerbuster.com/2010/05/how-to-use-googles-font-api-with.html][]
 -   [http://mashable.com/2010/05/27/type-and-the-web][]
--   [http://sixrevisions.com/web\_design/google-font-api-guide/][]
+-   [http://sixrevisions.com/web_design/google-font-api-guide/][]
 
 </p>
 
@@ -152,7 +152,7 @@ Kalın Sağlıcakla
   [http://www.ozdtasarim.com/blog/googledan-font-face-hizmeti-google-font-api.html]:
     http://www.ozdtasarim.com/blog/googledan-font-face-hizmeti-google-font-api.html
     "http://www.ozdtasarim.com/blog/googledan-font-face-hizmeti-google-font-api.html"
-  [http://code.google.com/apis/webfonts/docs/getting\_started.html]: http://code.google.com/apis/webfonts/docs/getting_started.html
+  [http://code.google.com/apis/webfonts/docs/getting_started.html]: http://code.google.com/apis/webfonts/docs/getting_started.html
     "http://code.google.com/apis/webfonts/docs/getting_started.html"
   [http://css-tricks.com/google-font-api-interview/]: http://css-tricks.com/google-font-api-interview/
     "http://css-tricks.com/google-font-api-interview/"
@@ -167,5 +167,5 @@ Kalın Sağlıcakla
     "http://www.bloggerbuster.com/2010/05/how-to-use-googles-font-api-with.html"
   [http://mashable.com/2010/05/27/type-and-the-web]: http://mashable.com/2010/05/27/type-and-the-web
     "http://mashable.com/2010/05/27/type-and-the-web"
-  [http://sixrevisions.com/web\_design/google-font-api-guide/]: http://sixrevisions.com/web_design/google-font-api-guide/
+  [http://sixrevisions.com/web_design/google-font-api-guide/]: http://sixrevisions.com/web_design/google-font-api-guide/
     "http://sixrevisions.com/web_design/google-font-api-guide/"

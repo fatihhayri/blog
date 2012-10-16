@@ -18,9 +18,9 @@ tasarımları tercih ediyor. Bu arada şunuda söylemeden geçemeyeceğim bazı
 sitelerde hiç hoş durmuyor yuvarlak kenar, her şeyi yerinde ve göz
 zevkine uygun kullanmak en iyisi.<!--more-->
 
-**Yapısı :** \<border-radius\>{1,4} [ / \<border-radius\>{1,4}]?  
-**Aldığı Değerler :** [ \<uzunluk\> | \<yüzde\> ] [ \<uzunluk\> |
-\<yüzde\> ]?   
+**Yapısı :** <border-radius>{1,4} [ / <border-radius>{1,4}]?  
+**Aldığı Değerler :** [ <uzunluk> | <yüzde> ] [ <uzunluk> |
+<yüzde> ]?   
 **Başlangıç değeri:** tanımlama yok   
 **Uygulanabilen elementler:**tüm elementler ve tabiki tablo elementine
 border-collapse değeri collapse olarak atalı ise uygulanır  
@@ -65,10 +65,10 @@ bu durum düzelir. 
 
 İlk örneğimizi yapalım
 
-[sourcecode language="css"] div\#kutu { width: 400px; padding: 20px;
-border-radius: 10px; /\* Standart \*/ -moz-border-radius: 10px; /\*
-Firefox \*/ -webkit-border-radius: 10px; /\* Safari ve Chrome \*/
-background: \#F00; margin-bottom: 10px; } [/sourcecode]
+[sourcecode language="css"] div#kutu { width: 400px; padding: 20px;
+border-radius: 10px; /* Standart */ -moz-border-radius: 10px; /*
+Firefox */ -webkit-border-radius: 10px; /* Safari ve Chrome */
+background: #F00; margin-bottom: 10px; } [/sourcecode]
 
 Örneği görmek için [tıklayınız.][]
 
@@ -76,11 +76,11 @@ background: \#F00; margin-bottom: 10px; } [/sourcecode]
 
 İkinci örnek
 
-[sourcecode language="css"] div\#kutu{ width: 400px; padding: 20px;
+[sourcecode language="css"] div#kutu{ width: 400px; padding: 20px;
 border-top-right-radius: 10px; border-bottom-left-radius: 10px;
 -moz-border-radius-topright: 10px; -moz-border-radius-bottomleft: 10px;
 -webkit-border-top-right-radius: 10px;
--webkit-border-bottom-left-radius: 10px; background: \#F00;
+-webkit-border-bottom-left-radius: 10px; background: #F00;
 white-space:pre } [/sourcecode]
 
 Örneği görmek için [tıklayınız.][1]
@@ -180,9 +180,9 @@ sitesinde olduğu gibi.)
 -   [http://www.netzgesta.de/corner/][] (javascript)
 -   [http://www.curvycorners.net/demos/][] (javascript)
 -   [http://www.html.it/articoli/niftycube/index.html][] (javascript)
--   [http://www.dillerdesign.com/experiment/DD\_roundies/\#animation][]
+-   [http://www.dillerdesign.com/experiment/DD_roundies/#animation][]
     (javascript)
--   [http://www.w3.org/TR/css3-background/\#border-radius][]
+-   [http://www.w3.org/TR/css3-background/#border-radius][]
 -   [http://www.htmlremix.com/css/curved-corner-border-radius-cross-browser][]
     (javascript)
 -   [http://doctype.com/having-trouble-styling-cross-browser-buttons-input-submit][]
@@ -235,9 +235,9 @@ sitesinde olduğu gibi.)
     "http://www.curvycorners.net/demos/"
   [http://www.html.it/articoli/niftycube/index.html]: http://www.html.it/articoli/niftycube/index.html
     "http://www.html.it/articoli/niftycube/index.html"
-  [http://www.dillerdesign.com/experiment/DD\_roundies/\#animation]: http://www.dillerdesign.com/experiment/DD_roundies/#animation
+  [http://www.dillerdesign.com/experiment/DD_roundies/#animation]: http://www.dillerdesign.com/experiment/DD_roundies/#animation
     "http://www.dillerdesign.com/experiment/DD_roundies/#animation"
-  [http://www.w3.org/TR/css3-background/\#border-radius]: http://www.w3.org/TR/css3-background/#border-radius
+  [http://www.w3.org/TR/css3-background/#border-radius]: http://www.w3.org/TR/css3-background/#border-radius
     "http://www.w3.org/TR/css3-background/#border-radius"
   [http://www.htmlremix.com/css/curved-corner-border-radius-cross-browser]:
     http://www.htmlremix.com/css/curved-corner-border-radius-cross-browser

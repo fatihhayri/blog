@@ -16,7 +16,7 @@ bazende malware olarak adlandırılan kullanıcının bilgisayarına sızan bir
 virüs yükletmeye çalışıyor. Eklenen bu iframe genelde gizli olarak
 kodlandığı için(visibility:hidden) göremiyoruz.
 
-![iframe\_kodu][]
+![iframe_kodu][]
 
 Belli bir süre sonra Google siteyi tararken bu kodlamayı görüyor ve
 linki takip edincede siteden virüs yayılmaya çalışıyor diye sitenizi
@@ -48,7 +48,7 @@ tercih etmenizi öneririm)
 -   Burada iki tür doğrulama isteniyor bizden **Meta tag** ve **HTML
     file** diye iki yolumuz var. Ben Meta tag'i seçip ilerliyorum. 
 -   Site bize bir meta etiketi veriyor. Bu kodu alıp
-    sitemize(\<head\>...\</head\> arasına) ekliyoruz. Sadece ana sayfaya
+    sitemize(<head>...</head> arasına) ekliyoruz. Sadece ana sayfaya
     eklemek yeterli. 
 
 ![google-webmaster-tools][]
@@ -72,7 +72,7 @@ saldırgan site listesinden çıkarıyor.
 
 </p>
 
-  [iframe\_kodu]: http://www.fatihhayrioglu.com/wp-content/iframe_kodu1.gif
+  [iframe_kodu]: http://www.fatihhayrioglu.com/wp-content/iframe_kodu1.gif
     "iframe_kodu"
   [google-warning]: http://www.fatihhayrioglu.com/wp-content/google-warning-300x127.jpg
     "google-warning"

@@ -11,19 +11,19 @@ sitesinden][] yükledim. Görünümü değiştirmek için stil dosyama bir satı
 css kodu ekledim.
 
 1.  p.comment-page-numbers a{
-2.  color:\#333;
+2.  color:#333;
 3.  }
 
 Tek sorunum sıralamada her sayfayı 1,2,3...10 diye sıralaması idi. Benim
 eski kodumda bir "i" değerini arttırarak bu değeri verdiği için
 
-1.  \<?php echo \$i; ?\>
+1.  <?php echo $i; ?>
 
 şeklinde yorum sayısını yazdırıyordum. Burada yorum sayısını düzgün
 sayması için yukarıdaki kodu
 
-1.  \<?php echo \$comment\_number; \$comment\_number +=
-    \$comment\_delta;?\>
+1.  <?php echo $comment_number; $comment_number +=
+    $comment_delta;?>
 
 bu kod ile değiştirdim düzeldi.
 

@@ -33,28 +33,28 @@ okunduğunu düşünerek kodumu yazardım ama gerçek böyle değilmiş.
 **Tarayıcılar CSS seçicilerini sağdan solda doğru okurlar.** Tabi bu
 bilgiden sonra yazdığımız kodları buna göre düşünerek yazmalıyız.
 
-[sourcecode language="css"] ul li a\#smUrunler{color:\#000;
+[sourcecode language="css"] ul li a#smUrunler{color:#000;
 background:url(../images/menu.png) 0 0 no-repeat; } [/sourcecode]
 
 Yukarıdaki tanımlamada ilk olarak tarayıcı doküman içinde geçen
-a\#smUrunler seçicisini bulacaktır, bu seçiciye anahtar seçici deniyor.
+a#smUrunler seçicisini bulacaktır, bu seçiciye anahtar seçici deniyor.
 Bir bakıma elemanı yakalamak için anahtar oluyor tarayıcıya.
 
 Bu bize gösteriyorki css kodlarımızı yazarken buna dikkat etmemiz ve
 buna göre kod yazmamız gerekiyor.
 
-[sourcecode language="css"] ul\#solMenu li a{color:\#000;
+[sourcecode language="css"] ul#solMenu li a{color:#000;
 background:url(../images/menu.png) 0 0 no-repeat; } [/sourcecode]
 
 şeklindeki bir tanım önerilmiyor. Bu tanımda sağdan sola doğru
-yorumlandığını düşünürsek dokümandaki tüm bağlantıları(\<a\>)
+yorumlandığını düşünürsek dokümandaki tüm bağlantıları(<a>)
 arayacaktır tarayıcı. Bunun yerine
 
-[sourcecode language="css"] ul li a\#smUrunler{color:\#000;
+[sourcecode language="css"] ul li a#smUrunler{color:#000;
 background:url(../images/menu.png) 0 0 no-repeat; } [/sourcecode]
 
 Tanılaması daha efektif bir sonuç verecektir. Tarayıcı direk olarak
-a\#smUrunler seçicisi ile elemanı bulacaktır.
+a#smUrunler seçicisi ile elemanı bulacaktır.
 
 [stevesouders.com'un test sayfasını][] incelersek sonucu daha iyi
 anlayacağız.
@@ -72,11 +72,11 @@ CSS seçicilerini yazarken son tanımda evrensel bir seçici kullanmayın.
 Tekil seçiciler zaten en hızlı erişilen seçicilerdir. Bunları tekrar
 etiket ile nitelemeye gerek yoktur.
 
-[sourcecode language="css"] a\#slUrunler{...} [/sourcecode]
+[sourcecode language="css"] a#slUrunler{...} [/sourcecode]
 
 yerine
 
-[sourcecode language="css"] \#smUrunler{...} [/sourcecode]
+[sourcecode language="css"] #smUrunler{...} [/sourcecode]
 
 şeklinde kullanın.
 
@@ -115,7 +115,7 @@ Seçici tiplerinden torun seçicileri en yavaş yöntemlerden biridir.
 **Etiket Kategorilerinde Çocuk Seçicileri Kullanmayın**  
 Etiket tabanlı çocuk seçicileriniz yerine özel seçici kullanınız.
 
-[sourcecode language="css"] treehead \> treerow \> treecell {...}
+[sourcecode language="css"] treehead > treerow > treecell {...}
 [/sourcecode]
 
 yerine
@@ -146,23 +146,23 @@ yazayım bu büyük buna böyle yazayım diye bir ayrım yapmasıda pek
 mantıklı ve mümkün değildir. Bu nedenle kendi standardımızı en iyiye
 göre yapalım proje küçük olmuş, büyük olmuş bizi ilgilendirmesin.
 
--   [https://developer.mozilla.org/en/Writing\_Efficient\_CSS][]
+-   [https://developer.mozilla.org/en/Writing_Efficient_CSS][]
 -   [http://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/][]
 -   O'Reilly - Even Faster Websites.pdf 14. konu
 -   [http://www.stevesouders.com/blog/2009/03/10/performance-impact-of-css-selectors/][]
 -   [http://ajaxian.com/archives/css-child-selector-performance][]
 -   [http://jackslocum.com/blog/2007/07/10/css-selectors-speed-myths/][]
 -   [http://hacks.mozilla.org/2009/06/dom-selectors-api/][]
--   [http://www.shauninman.com/archive/2008/05/05/css\_qualified\_selectors][]
+-   [http://www.shauninman.com/archive/2008/05/05/css_qualified_selectors][]
 -   [http://blog.archive.jpsykes.com/153/more-css-performance-testing-pt-3/][]
 -   [http://www.infoq.com/news/2009/01/jquery-1.3][]
 -   [http://code.google.com/speed/page-speed/docs/rendering.html][]
     (google'dan notlar)
 -   [http://fatagnus.com/guidelines-for-writing-efficient-css-selectors/][]
--   [http://www.shauninman.com/archive/2008/05/05/css\_qualified\_selectors][]
+-   [http://www.shauninman.com/archive/2008/05/05/css_qualified_selectors][]
 -   [http://css-tricks.com/efficiently-rendering-css/][]
 -   [http://www.nuvographics.com/articles/efficientcss/][]
--   [http://www.css-101.org/descendant-selector/go\_fetch\_yourself.php][]
+-   [http://www.css-101.org/descendant-selector/go_fetch_yourself.php][]
     (yeni)
 
 </p>
@@ -179,7 +179,7 @@ göre yapalım proje küçük olmuş, büyük olmuş bizi ilgilendirmesin.
     "stevesouders.com'un test sayfasını"
   [google'un önerileride]: http://code.google.com/speed/page-speed/docs/rendering.html
     "google'un önerileride"
-  [https://developer.mozilla.org/en/Writing\_Efficient\_CSS]: https://developer.mozilla.org/en/Writing_Efficient_CSS
+  [https://developer.mozilla.org/en/Writing_Efficient_CSS]: https://developer.mozilla.org/en/Writing_Efficient_CSS
     "https://developer.mozilla.org/en/Writing_Efficient_CSS"
   [http://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/]:
     http://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/
@@ -193,7 +193,7 @@ göre yapalım proje küçük olmuş, büyük olmuş bizi ilgilendirmesin.
     "http://jackslocum.com/blog/2007/07/10/css-selectors-speed-myths/"
   [http://hacks.mozilla.org/2009/06/dom-selectors-api/]: http://hacks.mozilla.org/2009/06/dom-selectors-api/
     "http://hacks.mozilla.org/2009/06/dom-selectors-api/"
-  [http://www.shauninman.com/archive/2008/05/05/css\_qualified\_selectors]:
+  [http://www.shauninman.com/archive/2008/05/05/css_qualified_selectors]:
     http://www.shauninman.com/archive/2008/05/05/css_qualified_selectors
     "http://www.shauninman.com/archive/2008/05/05/css_qualified_selectors"
   [http://blog.archive.jpsykes.com/153/more-css-performance-testing-pt-3/]:
@@ -210,4 +210,4 @@ göre yapalım proje küçük olmuş, büyük olmuş bizi ilgilendirmesin.
     "http://css-tricks.com/efficiently-rendering-css/"
   [http://www.nuvographics.com/articles/efficientcss/]: http://www.nuvographics.com/articles/efficientcss/
     "http://www.nuvographics.com/articles/efficientcss/"
-  [http://www.css-101.org/descendant-selector/go\_fetch\_yourself.php]: http://www.css-101.org/descendant-selector/go_fetch_yourself.php
+  [http://www.css-101.org/descendant-selector/go_fetch_yourself.php]: http://www.css-101.org/descendant-selector/go_fetch_yourself.php

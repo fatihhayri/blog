@@ -14,16 +14,16 @@ ie6 liste background özelliklerini(resim veya renk) görmüyor.
 
 Bu durmu bir örnek ile gösterelim.
 
-[sourcecode language="html"] \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
+[sourcecode language="html"] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"\> \<html
-xmlns="http://www.w3.org/1999/xhtml"\> \<head\> \<meta
-http-equiv="Content-Type" content="text/html; charset=utf-8" /\>
-\<title\>ie lsite ardalan sorunu\</title\> \<style\> \#menuKapsul{
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
+xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
+http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ie lsite ardalan sorunu</title> <style> #menuKapsul{
 position:relative; float:left; } ul li{ background:url(ikon.gif) 3px 9px
-no-repeat; list-style:none; padding-left:12px; } \</style\> \</head\>
-\<body\> \<div id="menuKapsul"\> \<ul\> \<li\>Liste 1\</li\> \<li\>Liste
-2\</li\> \<li\>Liste 3\</li\> \</ul\> \</div\> \</body\> \</html\>
+no-repeat; list-style:none; padding-left:12px; } </style> </head>
+<body> <div id="menuKapsul"> <ul> <li>Liste 1</li> <li>Liste
+2</li> <li>Liste 3</li> </ul> </div> </body> </html>
 [/sourcecode]
 
 Yukarı görülen basit bir listenin ardalanına resim yerleştiriyoruz.

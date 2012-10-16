@@ -14,7 +14,7 @@ Tags: Ajax, CSS, Google-Gear, GridView, Haberler, silverlight, yahoo
     [Link][4]
 -   Yahoo Javascript Tiyatrosundan sayfalarımızı hızlandırmanın 1 yolunu
     anlatan güzel bir video. [Link][5]
--   C\# nedir "Microsoft Silverlight nedir?" adlı bir makale yayımlamış.
+-   C# nedir "Microsoft Silverlight nedir?" adlı bir makale yayımlamış.
     [Link][6]
 -   GridView ile nasıl düzenleme yapılacağını anlatan güzel bir makale.
     [Link][7]

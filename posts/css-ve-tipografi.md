@@ -206,19 +206,19 @@ Eğik yazı şekli ekranda okunurluğu azaltsa da kullanıcıya farklı bir
 görünüm ile dikkat çeker.
 
 [sourcecode language="css"] blockquote { margin: 1.5em 0 1.5em 1.5em;
-color: \#666; font-style: italic; } [/sourcecode]
+color: #666; font-style: italic; } [/sourcecode]
 
 **Altıçizili:** Üçüncü olarak altı çizili yazılar kullanılır. Web'de
 genelde altı çizili yazılar link olarak kullanılır ve böyle algılanır.
 
-[sourcecode language="css"]a{ color: \#125AA7; text-decoration:
+[sourcecode language="css"]a{ color: #125AA7; text-decoration:
 underline; outline: none; } [/sourcecode]
 
 **Renk:** Yazılarımızda farklı alanlara vurgu yapmak için kullanılan
 özelliklerden biride renk(color) özelliğidir. Meselahatalı alanları
 belirlemek için kırmızı renk kullanımı yaygındır.
 
-[sourcecode language="css"].hata{ color:\#f00}[/sourcecode]
+[sourcecode language="css"].hata{ color:#f00}[/sourcecode]
 
 **Büyük Yazı:** Vurgu yapmak için nadiren de olsa tipografi bakımdan
 buda kullanılabilir bir seçenektir ama en azkullanılan vurgu tipidir.
@@ -296,10 +296,10 @@ Sınırları zorlayan güzel örnekler
 
 -   [http://webtypography.net/toc/][]
 -   [http://www.sitepoint.com/print/anatomy-web-fonts][]
--   [http://www.markboulton.co.uk/journal/comments/five\_simple\_steps\_to\_better\_typography/][]
--   [http://www.digital-web.com/articles/css\_typography/][] (css ve
+-   [http://www.markboulton.co.uk/journal/comments/five_simple_steps_to_better_typography/][]
+-   [http://www.digital-web.com/articles/css_typography/][] (css ve
     tipografi hakkında genel bir yazı)
--   [http://www.digital-web.com/articles/css\_101/][] (uygulamalı css ve
+-   [http://www.digital-web.com/articles/css_101/][] (uygulamalı css ve
     tipografi)  
 -   [http://www.fotografya.gen.tr/issue-6/hasip.html][İnternetteki
     Tipografi Sorunları ve GörselKirlenmeye Karşı Öneriler] (genel
@@ -351,10 +351,10 @@ Sınırları zorlayan güzel örnekler
   [3point7designs.com]: http://www.3point7designs.com/advanced_type.html
   [http://webtypography.net/toc/]: http://webtypography.net/toc/%20
   [http://www.sitepoint.com/print/anatomy-web-fonts]: http://www.sitepoint.com/print/anatomy-web-fonts
-  [http://www.markboulton.co.uk/journal/comments/five\_simple\_steps\_to\_better\_typography/]:
+  [http://www.markboulton.co.uk/journal/comments/five_simple_steps_to_better_typography/]:
     http://www.markboulton.co.uk/journal/comments/five_simple_steps_to_better_typography/
-  [http://www.digital-web.com/articles/css\_typography/]: http://www.digital-web.com/articles/css_typography/
-  [http://www.digital-web.com/articles/css\_101/]: http://www.digital-web.com/articles/css_101/
+  [http://www.digital-web.com/articles/css_typography/]: http://www.digital-web.com/articles/css_typography/
+  [http://www.digital-web.com/articles/css_101/]: http://www.digital-web.com/articles/css_101/
   [http://www.webmonkey.com/design/fonts/tutorials/tutorial3.html]: http://www.webmonkey.com/design/fonts/tutorials/tutorial3.html
   [http://clagnut.com/search/index.php?q=typography]: http://clagnut.com/search/index.php?q=typography
   [http://www.wpdfd.com/issues/23/typography/]: http://www.wpdfd.com/issues/23/typography/

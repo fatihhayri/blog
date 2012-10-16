@@ -13,8 +13,8 @@ getirebiliriz. Bu itibarla aydınlarımızın ve gençlerimizin kendi
 tarihleri hakkında muhtelif cihetlerden bilgi edinebilecekleri eserlere
 ihtiyaç duydukları muhakkaktır.Ütüken, işte bu mülahazalarla, Türk tarih
 ve mÃ»sıkÃ®sine yaptığı değerli hizmetler ve verdiği kıymetli eserlerle
-haklı bir şöhret kazanan değerli yazar Yılmaz Ã?ztuna\\'nın \\"Tarih
-Sohbetleri\\"ni üç cilt halinde sunmaktan şeref duyar. Ayrıntılı bilgi
+haklı bir şöhret kazanan değerli yazar Yılmaz Ã?ztuna'nın "Tarih
+Sohbetleri"ni üç cilt halinde sunmaktan şeref duyar. Ayrıntılı bilgi
 için [tıklayınız.][]
 
   [252-7.jpg]: http://www.fatihhayrioglu.com/wp-content/252-7.thumbnail.jpg

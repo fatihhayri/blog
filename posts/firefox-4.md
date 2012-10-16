@@ -84,11 +84,11 @@ kullandığınız yerden erişmenizi sağlıyor bu özellik.
 -   HTML5 yorumlama motoru geliştirildi,
 -   HTML5 Form elemanları, form doğrulama ve form özellikleri desteğini
     arttırıldı,
--   HTML 5 Yapısal elemanları desteği sunuyor. \<article\>, \<section\>,
-    \<nav\>, \<aside\>, \<hgroup\>, \<header\> ve \<footer\>,
+-   HTML 5 Yapısal elemanları desteği sunuyor. <article>, <section>,
+    <nav>, <aside>, <hgroup>, <header> ve <footer>,
 -   HTML5 hidden özelliğini destekliyor,
--   Yeni HTML5 özelliklerini destekliyor: \<mark\>, \<figure\> ve
-    \<figcaption\>,
+-   Yeni HTML5 özelliklerini destekliyor: <mark>, <figure> ve
+    <figcaption>,
 -   WebSocket APı desteği sağlıyor,
 -   WebGL desteği sunuyor,
 -   Google’un çıkardığı WebM video formatı desteği sunuyor,
@@ -133,7 +133,7 @@ pekişecektir.
 Son olarak rekabet güzel şey.
 
 Yeni nesil tarayıcıların Hız testi
-http://lifehacker.com/\#!5784396/browser-speed-tests-firefox-4-internet-explorer-9-chrome-11-and-more
+http://lifehacker.com/#!5784396/browser-speed-tests-firefox-4-internet-explorer-9-chrome-11-and-more
 
 ### Kaynaklar
 
@@ -145,10 +145,10 @@ http://lifehacker.com/\#!5784396/browser-speed-tests-firefox-4-internet-explorer
 -   [http://hacks.mozilla.org/category/firefox-4/][]
 -   [http://blog.mozilla.com/blog/2011/03/18/check-out-what%E2%80%99s-coming-soon-in-firefox-4-2/][]
 -   [http://www.webrazzi.com/2011/03/22/firefox-4/][]
--   [http://lifehacker.com/\#!5784255/whats-new-and-awesome-in-firefox-4][]
+-   [http://lifehacker.com/#!5784255/whats-new-and-awesome-in-firefox-4][]
 -   [http://hacks.mozilla.org/2011/03/firefox4-performance/][]
 -   [http://www.favbrowser.com/download-firefox-4-final/][]
--   [https://developer.mozilla.org/en/Firefox\_4\_for\_developers][]
+-   [https://developer.mozilla.org/en/Firefox_4_for_developers][]
 
 </p>
 
@@ -164,8 +164,8 @@ http://lifehacker.com/\#!5784396/browser-speed-tests-firefox-4-internet-explorer
   [http://blog.mozilla.com/blog/2011/03/18/check-out-what%E2%80%99s-coming-soon-in-firefox-4-2/]:
     http://blog.mozilla.com/blog/2011/03/18/check-out-what%E2%80%99s-coming-soon-in-firefox-4-2/
   [http://www.webrazzi.com/2011/03/22/firefox-4/]: http://www.webrazzi.com/2011/03/22/firefox-4/
-  [http://lifehacker.com/\#!5784255/whats-new-and-awesome-in-firefox-4]:
+  [http://lifehacker.com/#!5784255/whats-new-and-awesome-in-firefox-4]:
     http://lifehacker.com/#!5784255/whats-new-and-awesome-in-firefox-4
   [http://hacks.mozilla.org/2011/03/firefox4-performance/]: http://hacks.mozilla.org/2011/03/firefox4-performance/
   [http://www.favbrowser.com/download-firefox-4-final/]: http://www.favbrowser.com/download-firefox-4-final/
-  [https://developer.mozilla.org/en/Firefox\_4\_for\_developers]: https://developer.mozilla.org/en/Firefox_4_for_developers
+  [https://developer.mozilla.org/en/Firefox_4_for_developers]: https://developer.mozilla.org/en/Firefox_4_for_developers

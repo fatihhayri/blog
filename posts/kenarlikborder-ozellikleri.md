@@ -24,7 +24,7 @@ Sırasıyla incelersek:
 ### border-style
 
 <div class="cssozelliktanimi">
-**Yapısı :** border-style: \<deger\>  
+**Yapısı :** border-style: <deger>  
 **Aldığı Değerler :** [ none | hidden | dotted | dashed | solid |
 double | groove | ridge | inset | outset ]{1,4} | inherit  
 **Başlnagıç değeri:**tanımlama yok   
@@ -56,7 +56,7 @@ CSS Profile 1.0
 ### border-top-style, border-right-style, border-bottom-style, border-left-style
 
 <div class="cssozelliktanimi">
-**Yapısı :** border-[top,left,right,bottom]-style: \<deger\>  
+**Yapısı :** border-[top,left,right,bottom]-style: <deger>  
 **Aldığı Değerler :** none | hidden | dotted | dashed | solid | double
 | groove | ridge | inset | outset | inherit  
 **Başlangıç değeri:** tanımlama yok   
@@ -83,8 +83,8 @@ CSS Profile 1.0
 ### border-width
 
 <div class="cssozelliktanimi">
-**Yapısı :** border-width: \<deger\>  
-**Aldığı Değerler :** [ thin | medium | thick | \<[uzunluk değeri][]\>
+**Yapısı :** border-width: <deger>  
+**Aldığı Değerler :** [ thin | medium | thick | <[uzunluk değeri][]>
 ]{1,4} | inherit  
 **Başlnagıç değeri:** tanımlama yok  
 **Uygulanabilen elementler:** tüm elementler  
@@ -114,8 +114,8 @@ CSS Profile 1.0
 ### border-top-width, border-right-width, border-bottom-width, border-left-width
 
 <div class="cssozelliktanimi">
-**Yapısı :** border-[top,left,right,bottom]-width: \<deger\>  
-**Aldığı Değerler :** thin | medium | thick | \<[uzunluk değeri][] \> |
+**Yapısı :** border-[top,left,right,bottom]-width: <deger>  
+**Aldığı Değerler :** thin | medium | thick | <[uzunluk değeri][] > |
 inherit  
 **Başlnagıç değeri:** tanımlama yok  
 **Uygulanabilen elementler:** tüm elementler  
@@ -141,8 +141,8 @@ CSS Profile 1.0
 ### border-color
 
 <div class="cssozelliktanimi">
-**Yapısı :** border-color: \<deger\>  
-**Aldığı Değerler :** [ \<[renk][uzunluk değeri]\> | transparent ]{1,4}
+**Yapısı :** border-color: <deger>  
+**Aldığı Değerler :** [ <[renk][uzunluk değeri]> | transparent ]{1,4}
 | inherit  
 **Başlnagıç değeri:** tanımlama yok  
 **Uygulanabilen elementler:** tüm elementler  
@@ -170,8 +170,8 @@ CSS Profile 1.0
 ### border-top-color, border-right-color, border-bottom-color, border-left-color
 
 <div class="cssozelliktanimi">
-**Yapısı :** border-[top,left,right,bottom]-color: \<deger\>  
-**Aldığı Değerler :** [ \<[renk][uzunluk değeri]\> | transparent ]{1,4}
+**Yapısı :** border-[top,left,right,bottom]-color: <deger>  
+**Aldığı Değerler :** [ <[renk][uzunluk değeri]> | transparent ]{1,4}
 | inherit  
 **Başlnagıç değeri:** tanımlama yok  
 **Uygulanabilen elementler:** tüm elementler  
@@ -202,9 +202,9 @@ CSS Profile 1.0
 </div>
 ### border
 
-**Yapısı :** border: \<[deger][uzunluk değeri]\>  
-**Aldığı Değerler :** \<border-width\> | \<border-style\> |
-\<[renk][uzunluk değeri]\>   
+**Yapısı :** border: <[deger][uzunluk değeri]>  
+**Aldığı Değerler :** <border-width> | <border-style> |
+<[renk][uzunluk değeri]>   
 **Başlnagıç değeri:** tanımlama yok  
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok

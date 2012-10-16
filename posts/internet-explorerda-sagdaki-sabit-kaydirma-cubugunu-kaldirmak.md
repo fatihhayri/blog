@@ -19,7 +19,7 @@ eşitlemek için çok basit bir kod yazmamız yeteli oluyor. [css] html
 ### Kaynaklar
 
 -   [http://www.webmasterworld.com/forum21/10389.htm][]
--   [http://www.experts-exchange.com/Web\_Development/Web\_Languages-Standards/HTML/Q\_22759180.html][]
+-   [http://www.experts-exchange.com/Web_Development/Web_Languages-Standards/HTML/Q_22759180.html][]
 
 </p>
 
@@ -28,6 +28,6 @@ eşitlemek için çok basit bir kod yazmamız yeteli oluyor. [css] html
   [![][]]: http://www.fatihhayrioglu.com/wp-content/ie7_kaydirma_cubugu.jpg
   [http://www.webmasterworld.com/forum21/10389.htm]: http://www.webmasterworld.com/forum21/10389.htm
     "http://www.webmasterworld.com/forum21/10389.htm"
-  [http://www.experts-exchange.com/Web\_Development/Web\_Languages-Standards/HTML/Q\_22759180.html]:
+  [http://www.experts-exchange.com/Web_Development/Web_Languages-Standards/HTML/Q_22759180.html]:
     http://www.experts-exchange.com/Web_Development/Web_Languages-Standards/HTML/Q_22759180.html
     "http://www.experts-exchange.com/Web_Development/Web_Languages-Standards/HTML/Q_22759180.html"

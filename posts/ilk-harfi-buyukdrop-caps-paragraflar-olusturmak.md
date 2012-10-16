@@ -38,17 +38,17 @@ desteklemesi.<!--more-->
 
 HTML kodlarımız
 
-[sourcecode language="html"] \<p class="introduction"\>Lorem ipsum dolor
+[sourcecode language="html"] <p class="introduction">Lorem ipsum dolor
 sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-dolore eu fugiat nulla pariatur.\</p\> [/sourcecode]
+dolore eu fugiat nulla pariatur.</p> [/sourcecode]
 
 CSS kodlarımız
 
-[sourcecode language="css"] p{ width:350px; background-color:\#272722;
-padding:10px; color:\#fff; } p.introduction:first-letter { font-size:
+[sourcecode language="css"] p{ width:350px; background-color:#272722;
+padding:10px; color:#fff; } p.introduction:first-letter { font-size:
 4.2em; float: left; line-height: 1em; margin: 0.13em 0.13em 0.13em 0; }
 [/sourcecode]
 
@@ -82,9 +82,9 @@ görüntü elde edebiliriz. Yazı tipini(PaladinFLF)
 
 [sourcecode language="css"] @font-face { font-family:
 'PaladinFLFRegular'; src: url('PaladinFLF.eot'); src: local('☺'),
-url('PaladinFLF.ttf') format('truetype'), url('PaladinFLF.svg\#webfont')
-format('svg'); } p{width:350px; background-color:\#272722; padding:10px;
-color:\#fff;} p.introduction:first-letter { font: 4.2em/1em
+url('PaladinFLF.ttf') format('truetype'), url('PaladinFLF.svg#webfont')
+format('svg'); } p{width:350px; background-color:#272722; padding:10px;
+color:#fff;} p.introduction:first-letter { font: 4.2em/1em
 'PaladinFLFRegular', Arial, sans-serif; float: left; margin: 0.13em
 0.13em 0.13em 0; } [/sourcecode]
 
@@ -98,21 +98,21 @@ color:\#fff;} p.introduction:first-letter { font: 4.2em/1em
 
 [sourcecode language="css"] @font-face { font-family:
 'PaladinFLFRegular'; src: url('PaladinFLF.eot'); src: local('☺'),
-url('PaladinFLF.ttf') format('truetype'), url('PaladinFLF.svg\#webfont')
-format('svg'); } p{ width:350px; background-color:\#272722;
-padding:10px; color:\#fff; } p.introduction:first-letter { font:
+url('PaladinFLF.ttf') format('truetype'), url('PaladinFLF.svg#webfont')
+format('svg'); } p{ width:350px; background-color:#272722;
+padding:10px; color:#fff; } p.introduction:first-letter { font:
 4.2em/0.6em 'PaladinFLFRegular', Arial, sans-serif; float: left; margin:
-0.13em 0.13em 0 0; border:3px solid \#fff; padding:0.13em;
-background-color:\#F30; line-height:1em; } [/sourcecode]
+0.13em 0.13em 0 0; border:3px solid #fff; padding:0.13em;
+background-color:#F30; line-height:1em; } [/sourcecode]
 
 HTML kodları
 
-[sourcecode language="html"] \<p class="introduction"\>Lorem ipsum dolor
+[sourcecode language="html"] <p class="introduction">Lorem ipsum dolor
 sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-dolore eu fugiat nulla pariatur.\</p\> [/sourcecode]
+dolore eu fugiat nulla pariatur.</p> [/sourcecode]
 
 Örneği görmek için [tıklayınız.][5]
 
@@ -124,12 +124,12 @@ Harfin ardalanına bir resim koyup üzerine harfi koymayı deniyorum.
 
 [sourcecode language="css"] @font-face { font-family:
 'PaladinFLFRegular'; src: url('PaladinFLF.eot'); src: local('☺'),
-url('PaladinFLF.ttf') format('truetype'), url('PaladinFLF.svg\#webfont')
-format('svg'); } p{ width:350px; background-color:\#272722;
-padding:10px; color:\#fff; } p.introduction:first-letter { font: 4em/1em
+url('PaladinFLF.ttf') format('truetype'), url('PaladinFLF.svg#webfont')
+format('svg'); } p{ width:350px; background-color:#272722;
+padding:10px; color:#fff; } p.introduction:first-letter { font: 4em/1em
 'PaladinFLFRegular', Arial, sans-serif; float: left; margin: 0.13em
-0.13em 0 0; padding:0.4em 0.5em 0.4em 0.3em ; background-color:\#F30;
-background:url(t.jpg) 0 0 no-repeat; text-shadow:2px 2px 2px \#999 }
+0.13em 0 0; padding:0.4em 0.5em 0.4em 0.3em ; background-color:#F30;
+background:url(t.jpg) 0 0 no-repeat; text-shadow:2px 2px 2px #999 }
 [/sourcecode]
 
 Örneği görmek için [tıklayınız.][7]
@@ -144,18 +144,18 @@ Firefox ile yukarıdaki gibi güzel bir sonuç elde ediyoruz. Ancak
 Bu duruma çözüm üretmek için bir kaç yol var. İlki resmi direk içeriğe
 ekleyip **float:left** ile sola yaslayarak çözmek 
 
-[sourcecode language="css"] p{ width:350px; background-color:\#272722;
-padding:10px; color:\#fff; } p.introduction img { float:left;
+[sourcecode language="css"] p{ width:350px; background-color:#272722;
+padding:10px; color:#fff; } p.introduction img { float:left;
 margin-right:0.8em } [/sourcecode]
 
 HTML kodu
 
-[sourcecode language="html"] \<p class="introduction"\>\<img
-src="t1.jpg" width="93" height="100" /\>empor incididunt ut labore et
+[sourcecode language="html"] <p class="introduction"><img
+src="t1.jpg" width="93" height="100" />empor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
 ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
 dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Velit esse cillum dolore eu fugiat nulla pariatur\</p\>
+nulla pariatur. Velit esse cillum dolore eu fugiat nulla pariatur</p>
 [/sourcecode]
 
 Örneği görmek için [tıklayınız.][10]
@@ -168,7 +168,7 @@ tanımlamaktır.
 ### CSS3 ile ekstra kod kullanmadan
 
 Sayfamızın ilk paragrafının ilk harfine uygulama yapıyoruz.
-[first-child][] seçicisi bu imkanı bize sağlar. ancak bu özelliği ie \<
+[first-child][] seçicisi bu imkanı bize sağlar. ancak bu özelliği ie <
 9 desteklemiyor.
 
 [sourcecode language="css"] p:first-child:first-letter{ font-size:
@@ -179,7 +179,7 @@ Sayfamızın ilk paragrafının ilk harfine uygulama yapıyoruz.
 
 -   [http://www.sitepoint.com/blogs/2010/04/15/a-simple-css-drop-cap/][]
 -   [http://safalra.com/web-design/typography/css-drop-caps/][]
--   [http://www.texaswebdevelopers.com/blog/template\_permalink.asp?id=111][]
+-   [http://www.texaswebdevelopers.com/blog/template_permalink.asp?id=111][]
     özel fontlar ile 
 -   [http://www.pauldruce.com/CSS%20DROP%20CAP][] (bazı sorunlar ve
     çözüm)
@@ -192,7 +192,7 @@ Sayfamızın ilk paragrafının ilk harfine uygulama yapıyoruz.
 -   [http://dailydropcap.com/][] (günlük örnekler)
 -   [http://jackosborne.co.uk/articles/pseudo-drop-caps/][]
 -   [http://www.akxl.net/labs/articles/text-wrapped-drop-caps-in-css-using-the-first-letter-selector/][]
--   [http://www.users.globalnet.co.uk/\~arcus/html/dropcaps.html][]
+-   [http://www.users.globalnet.co.uk/~arcus/html/dropcaps.html][]
 
 </p>
 
@@ -219,7 +219,7 @@ Sayfamızın ilk paragrafının ilk harfine uygulama yapıyoruz.
     "first-child"
   [http://www.sitepoint.com/blogs/2010/04/15/a-simple-css-drop-cap/]: http://www.sitepoint.com/blogs/2010/04/15/a-simple-css-drop-cap/
   [http://safalra.com/web-design/typography/css-drop-caps/]: http://safalra.com/web-design/typography/css-drop-caps/
-  [http://www.texaswebdevelopers.com/blog/template\_permalink.asp?id=111]:
+  [http://www.texaswebdevelopers.com/blog/template_permalink.asp?id=111]:
     http://www.texaswebdevelopers.com/blog/template_permalink.asp?id=111
     "http://www.texaswebdevelopers.com/blog/template_permalink.asp?id=111"
   [http://www.pauldruce.com/CSS%20DROP%20CAP]: http://www.pauldruce.com/CSS%20DROP%20CAP
@@ -232,4 +232,4 @@ Sayfamızın ilk paragrafının ilk harfine uygulama yapıyoruz.
   [http://jackosborne.co.uk/articles/pseudo-drop-caps/]: http://jackosborne.co.uk/articles/pseudo-drop-caps/
   [http://www.akxl.net/labs/articles/text-wrapped-drop-caps-in-css-using-the-first-letter-selector/]:
     http://www.akxl.net/labs/articles/text-wrapped-drop-caps-in-css-using-the-first-letter-selector/
-  [http://www.users.globalnet.co.uk/\~arcus/html/dropcaps.html]: http://www.users.globalnet.co.uk/~arcus/html/dropcaps.html
+  [http://www.users.globalnet.co.uk/~arcus/html/dropcaps.html]: http://www.users.globalnet.co.uk/~arcus/html/dropcaps.html

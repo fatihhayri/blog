@@ -29,7 +29,7 @@ emsalsiz azimle tahakkuk ettirmiştir: “Ya İstanbul beni alacak ya da ben
 İstanbul’u alacağım!” Bir müjde… Bir ideal… Bir azim… Ve cihana payitaht
 olan İstanbul. Tarihi tanımak, bugünü keşfetmek, yarını kuşatmaktır.
 Şâh-ı Cihan kitabı, bu yolda bir nebze pay sahibi olursa kendimizi
-bahtiyar sayacağız. \*\*\* Doğu ve batı dillerini çok iyi bilen Fatih,
+bahtiyar sayacağız. *** Doğu ve batı dillerini çok iyi bilen Fatih,
 aynı zamanda birçok bilim dalında da kendini yetiştirmiştir. İlime ve
 ilim adamına büyük değer vermiş, ilim adamlarını himaye etmekten büyük
 haz almıştır. Onun zamanında Osmanlı ülkesi tam bir bilim yuvası haline

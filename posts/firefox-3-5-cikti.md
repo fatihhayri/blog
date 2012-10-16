@@ -61,7 +61,7 @@ durumda. Ayrıca Her sekmeyi kendi başına tek olarak görmek ve
 
 Firefox 3.5 ile birlikte ikonunu da yeniledi.
 
-![clip\_image002][]
+![clip_image002][]
 
 Firefox 3.5 indirmek için [tıklayınız.][]
 
@@ -69,9 +69,9 @@ Firefox 3.5 indirmek için [tıklayınız.][]
 
 -   [http://www.dkszone.net/2009/06/new-features-in-firefox-35.html][]
 -   [http://www.youtube.com/watch?v=k5Zbc-Rg6e8][]
--   [https://developer.mozilla.org/en/Firefox\_3.5\_for\_developers][]
+-   [https://developer.mozilla.org/en/Firefox_3.5_for_developers][]
     (web geliştiriciler için yenilikler)
--   [http://www.maximumpc.com/article/features/9\_amazing\_new\_features\_firefox\_35][]
+-   [http://www.maximumpc.com/article/features/9_amazing_new_features_firefox_35][]
 -   [http://www.marcozehe.de/2009/06/26/new-accessibility-features-in-firefox-3-5/][]
     (erişebilirlik açısından)
 -   [http://osrevolution.com/os-software/firefox-35-features-review][]
@@ -83,13 +83,13 @@ Firefox 3.5 indirmek için [tıklayınız.][]
     "firefox-128"
   [Firefox 3.1 yenilikleri]: http://www.fatihhayrioglu.com/firefox-31-yenilikleri/
     "Firefox 3.1 yenilikleri"
-  [clip\_image002]: http://www.fatihhayrioglu.com/wp-content/clip_image002.gif
+  [clip_image002]: http://www.fatihhayrioglu.com/wp-content/clip_image002.gif
     "clip_image002"
   [tıklayınız.]: http://www.mozilla.com/en-US/
   [http://www.dkszone.net/2009/06/new-features-in-firefox-35.html]: http://www.dkszone.net/2009/06/new-features-in-firefox-35.html
   [http://www.youtube.com/watch?v=k5Zbc-Rg6e8]: http://www.youtube.com/watch?v=k5Zbc-Rg6e8
-  [https://developer.mozilla.org/en/Firefox\_3.5\_for\_developers]: https://developer.mozilla.org/en/Firefox_3.5_for_developers
-  [http://www.maximumpc.com/article/features/9\_amazing\_new\_features\_firefox\_35]:
+  [https://developer.mozilla.org/en/Firefox_3.5_for_developers]: https://developer.mozilla.org/en/Firefox_3.5_for_developers
+  [http://www.maximumpc.com/article/features/9_amazing_new_features_firefox_35]:
     http://www.maximumpc.com/article/features/9_amazing_new_features_firefox_35
   [http://www.marcozehe.de/2009/06/26/new-accessibility-features-in-firefox-3-5/]:
     http://www.marcozehe.de/2009/06/26/new-accessibility-features-in-firefox-3-5/

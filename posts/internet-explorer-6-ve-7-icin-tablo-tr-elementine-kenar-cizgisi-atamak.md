@@ -8,7 +8,7 @@ sorunum ile bir tablo satırına alt kenar çizgisi tanım yapınca
 karşılaştım. 
 
 [sourcecode language="css"] table{border-collapse:collapse} table
-tr{border-bottom:1px solid \#000;} [/sourcecode]
+tr{border-bottom:1px solid #000;} [/sourcecode]
 
 Gayet basit normal bir tanım. Ancak ie6 ve 7 için durum öyle değil.
 Karmaşık gelmiş olmalı ki bu atamayı uygulamadı.
@@ -20,7 +20,7 @@ değilde satırı oluşturan hücrelere kenar çizgisi verirsek sorunumuz
 ortadan kalkıyor.
 
 [sourcecode language="css"] table{border-collapse:collapse} table
-td{border-bottom:1px solid \#000;} [/sourcecode]
+td{border-bottom:1px solid #000;} [/sourcecode]
 
 Örneği görmek için [tıklayınız.][]
 

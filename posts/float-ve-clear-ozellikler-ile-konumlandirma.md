@@ -18,7 +18,7 @@ element float uygulanmış elementin altında konumlanacaktır.
 
 ### float
 
-**Yapısı :** float: \<deger\> **Aldığı Değerler :**left | right | none |
+**Yapısı :** float: <deger> **Aldığı Değerler :**left | right | none |
 inherit **Başlangıç değeri:** none **Uygulanabilen elementler:** tüm
 elementler **Kalıtsallık:** Yok
 
@@ -84,7 +84,7 @@ kullanılır bunu aşığda göreceğiz. ![][3]
 
 ### clear
 
-**Yapısı :** clear: \<deger\> **Aldığı Değerler :**none | left | right |
+**Yapısı :** clear: <deger> **Aldığı Değerler :**none | left | right |
 both **Başlangıç değeri:** tanımsız **Uygulanabilen elementler:** tüm
 elementler **Kalıtsallık:** Yok
 

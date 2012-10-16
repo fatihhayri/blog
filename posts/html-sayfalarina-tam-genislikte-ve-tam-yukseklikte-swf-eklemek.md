@@ -27,9 +27,9 @@ swfobject.embedSWF("test.swf", "myContent", "100%", "100%", "9.0.0",
 
 Genişlik ve yüksekliğini 100% veriyoruz ve css kodumuzu yazıyoruz.
 
-[sourcecode language="css"] /\* hide from ie on mac \\\*/ html { height:
-100%; overflow: hidden; } \#myContent { height: 100%; } /\* end hide \*/
-body { height: 100%; margin: 0; padding: 0; background-color: \#090; }
+[sourcecode language="css"] /* hide from ie on mac */ html { height:
+100%; overflow: hidden; } #myContent { height: 100%; } /* end hide */
+body { height: 100%; margin: 0; padding: 0; background-color: #090; }
 [/sourcecode]
 
 Örneği görmek için [tıklayınız][]

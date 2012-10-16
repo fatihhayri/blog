@@ -14,17 +14,17 @@ gerekir.<!--more-->
 Seçici(Selector) ve Döküman arasındaki ilişkiyi anlayabilmemiz için,
 dökümanların nasıl planlandığını tekrar gözden geçirmemiz gerekir.
 Aşağıdaki basit (X)HTML dökümanı üzerine biraz düşünelim: [sourcecode
-language="html"] \<html\> \<head\> \<title\> CSS (X)HTML Hiyerarşisi
-\</title\> \</head\> \<body\> \<h1\>CSS\<em\>(X)HTML Hiyerarşisi
-\</em\>\</h1\> Sitemize hoş geldiniz \<em\>Merhaba\</em\>biz
-\<strong\>sizler için \<a href="konu.html"\> bazı \<em\>önemli\</em\>
-konular \</a\>\</strong\>! hazırladık \<ul\> \<li\>Konu Başlıkları :
-\<ul\> \<li\>\<strong\>Asıl\</strong\> Giriş\</li\> \<li\>Önsöz\</li\>
-\<li\>\<em\>ilk\</em\> bölüm: \<ol\> \<li\>Elma\</li\>
-\<li\>Armut\</li\> \<li\>Karpuz\</li\> \</ol\> \</li\> \</ul\> \</li\>
-\<li\>...vd.\</li\> \</ul\> \<p\>Ayrıntılılı bilgi çin \<a
-href="mailto:bilgi@zerzebvat.com"\> mesaj gönder \</a\>\</p\> \</body\>
-\</html\> [/sourcecode] CSS'in güçlü olmasının en büyük nedeni (X)HTML
+language="html"] <html> <head> <title> CSS (X)HTML Hiyerarşisi
+</title> </head> <body> <h1>CSS<em>(X)HTML Hiyerarşisi
+</em></h1> Sitemize hoş geldiniz <em>Merhaba</em>biz
+<strong>sizler için <a href="konu.html"> bazı <em>önemli</em>
+konular </a></strong>! hazırladık <ul> <li>Konu Başlıkları :
+<ul> <li><strong>Asıl</strong> Giriş</li> <li>Önsöz</li>
+<li><em>ilk</em> bölüm: <ol> <li>Elma</li>
+<li>Armut</li> <li>Karpuz</li> </ol> </li> </ul> </li>
+<li>...vd.</li> </ul> <p>Ayrıntılılı bilgi çin <a
+href="mailto:bilgi@zerzebvat.com"> mesaj gönder </a></p> </body>
+</html> [/sourcecode] CSS'in güçlü olmasının en büyük nedeni (X)HTML
 elementleri arasındaki ilişkiden yararlanmasıdır. (X)HTML dökümanları
 gizli bir hiyararşi ile oluşturulur. Bu hiyerarşi içinde tüm (X)HTML
 elementleri kendilerine uygun bir yer bulur. Bu ilişkiyi biz **soy
@@ -100,11 +100,11 @@ Bazı durumlarda keyfi olarak bir torun seçicisi kullanmaktansa daha
 ayrıntılı bir ayrım yapmak isteyebiliriz. Örneğin bir **h1** elementinin
 altındaki**strong** elementlerinden **sadece** Çocuk Elementi için
 tanımlamalar yapmak istersek (torun elementleri hariç), Bunun için çocuk
-bağlayıcısını kullanırız ( \> ) büyüktür işareti [sourcecode
-language="css"] h1 \> strong { color: red; } [/sourcecode] [sourcecode
-language="html"]\<h1\>Bu \<strong\>koda\</strong\>
-uygulanacaktır.\</h1\> \<h1\>Bu \<em\>koddaki \<strong\> bu kısım
-\</strong\>\</em\> uygulama dışıdır..\</h1\> [/sourcecode] Yukardaki
+bağlayıcısını kullanırız ( > ) büyüktür işareti [sourcecode
+language="css"] h1 > strong { color: red; } [/sourcecode] [sourcecode
+language="html"]<h1>Bu <strong>koda</strong>
+uygulanacaktır.</h1> <h1>Bu <em>koddaki <strong> bu kısım
+</strong></em> uygulama dışıdır..</h1> [/sourcecode] Yukardaki
 durumda sadece ilk **strong** elementi için tanımlama gerçekleşecektir
 ikincisi için herhangi bir stil tanımı uygulanmayacaktır.
 
@@ -113,11 +113,11 @@ ikincisi için herhangi bir stil tanımı uygulanmayacaktır.
 Yukarıda ana örneğimizin bir kısmı gösterilemektedir. Ebeveyn-çocuk
 ilişkisini daha iyi anlamak için hazırlanmıştır. **a**elementi
 **strong**'un ebevenynidir. **p** elementide **a** nın ebeveynidir.
-Ancak **p** elementi **strong**'un ebeveyni değildir. Biz burada p \> a
-ve a \> strong şeklinde tanımlama yapabilriz ancak p \> strong
+Ancak **p** elementi **strong**'un ebeveyni değildir. Biz burada p > a
+ve a > strong şeklinde tanımlama yapabilriz ancak p > strong
 tanımlamasını yapamayız. Birde aynı seçici içinde hem torun
 birleştiricisini hemde çocuk birleştiricisini kullanabiliriz.
-[sourcecode language="css"] table.summary td \> p [/sourcecode]
+[sourcecode language="css"] table.summary td > p [/sourcecode]
 
 <div class="tarayiciuyum">
 **Browser Uyumu** :
@@ -135,10 +135,10 @@ elementlerden sonra gelenine stil tanımlamak için kullanılır. Tam olarak
 "Bir Ufak Kardeş Seçicisi" olmalıdır. Bir örnek verelim bir başlığımız
 var ve sonrasında ard arda paragraflar geliyor. Biz başlık ile hemen
 ardından gelen paragrafın arasına mesafe koymak için bu seçiciyi
-kullanabiliriz. [sourcecode language="html"] \<body\> \<h2\>Başlık
-2\</h2\> \<p\>Buraya \<em\>önemli\</em\> ve \<strong\>iyi\</strong\>kod
-gir\</p\> \<p\>Buraya \<em\>önemli\</em\> ve \<strong\>iyi\</strong\>kod
-gir\</p\> \</body\> [/sourcecode] Dökümanın yapısı:
+kullanabiliriz. [sourcecode language="html"] <body> <h2>Başlık
+2</h2> <p>Buraya <em>önemli</em> ve <strong>iyi</strong>kod
+gir</p> <p>Buraya <em>önemli</em> ve <strong>iyi</strong>kod
+gir</p> </body> [/sourcecode] Dökümanın yapısı:
 
 ![][2]
 
@@ -165,14 +165,14 @@ nedenle kullanımı konusunda dikkat etmeliyiz.
 ###### Genel Seçiciler
 
 Genel Seçiciler bir elementi bütüne uygulamak için kullanılır bu işlem
-için \* işareti kullanılır. Aşağıdaki kod tüm elementleri kırmızı
+için * işareti kullanılır. Aşağıdaki kod tüm elementleri kırmızı
 yapacaktır.
 
-[sourcecode language="css"] \* { color:red; } [/sourcecode]
+[sourcecode language="css"] * { color:red; } [/sourcecode]
 
 Ayrıca bir katmanın içindeki sınıflara uygulamak istersek
 
-[sourcecode language="css"] div .uyari \* { color:red; } [/sourcecode]
+[sourcecode language="css"] div .uyari * { color:red; } [/sourcecode]
 
 katman, .uyari sınıfı içindeki tüm elementler kırmızı olacaktır.
 

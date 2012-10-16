@@ -50,15 +50,15 @@ Daha fazla HTML5, CSS3 ve DOM özelliği desteği geldi.
     mesajlaşma servisi, çok kullanıcılı oyunlar vb çok güzel uygulamalar
     yapma imkanı sağlıyor. Aslında ajax teknolojisinin
     standartlaştırılmış hali gibi geldi bana.
--   HTML5 \<progress\> etiketi destekleniyor. ::-moz-progress-bar
+-   HTML5 <progress> etiketi destekleniyor. ::-moz-progress-bar
     özelliği ile stilini ayarlayabiliyoruz.
 -   Yeni -moz-orient özelliği örneğin progress barın dikey mi yataymı
     olacağını ayarlayabiliyoruz.
 
 -   HTML5 ses ve video elementlerinde metinleri izleyebilmemizi sağlayan
-    \<track\> elementini destekliyor.
+    <track> elementini destekliyor.
 -   CSS3 border-radius özelliği artık iframelerde uygulanabiliyor.
--   Özel veri özelliklerine(data-\*) DOM’un element.dataset özelliği
+-   Özel veri özelliklerine(data-*) DOM’un element.dataset özelliği
     erişebilme imkanı sağlıyor.
 -   [-moz-text-decoration-color][] Bu yeni özellik text decorations’a
     renk veriyor, örneğin underlines, overlines ve strikethroughs olarka
@@ -86,8 +86,8 @@ Daha fazla HTML5, CSS3 ve DOM özelliği desteği geldi.
 -   [http://venturebeat.com/2011/08/16/firefox-6/][]
 -   [http://hacks.mozilla.org/2011/08/firefox6/][]
 -   [http://www.sitepoint.com/firefox-6-whats-new/][]
--   [https://developer.mozilla.org/en/Firefox\_6\_for\_developers][tıklayınız.]
--   [http://www.pcworld.com/businesscenter/article/229447/ready\_for\_firefox\_6\_heres\_whats\_on\_the\_way.html][]
+-   [https://developer.mozilla.org/en/Firefox_6_for_developers][tıklayınız.]
+-   [http://www.pcworld.com/businesscenter/article/229447/ready_for_firefox_6_heres_whats_on_the_way.html][]
 
 </p>
 
@@ -108,5 +108,5 @@ Daha fazla HTML5, CSS3 ve DOM özelliği desteği geldi.
   [http://venturebeat.com/2011/08/16/firefox-6/]: http://venturebeat.com/2011/08/16/firefox-6/
   [http://hacks.mozilla.org/2011/08/firefox6/]: http://hacks.mozilla.org/2011/08/firefox6/
   [http://www.sitepoint.com/firefox-6-whats-new/]: http://www.sitepoint.com/firefox-6-whats-new/
-  [http://www.pcworld.com/businesscenter/article/229447/ready\_for\_firefox\_6\_heres\_whats\_on\_the\_way.html]:
+  [http://www.pcworld.com/businesscenter/article/229447/ready_for_firefox_6_heres_whats_on_the_way.html]:
     http://www.pcworld.com/businesscenter/article/229447/ready_for_firefox_6_heres_whats_on_the_way.html

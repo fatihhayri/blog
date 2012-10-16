@@ -16,7 +16,7 @@ display ve white-space özelliklerinden de bahsedilecektir. <!--more-->
 
 ### list-style-type <a name="02"></a>
 
-**Yapısı :** list-style-type: \<deger\> **Aldığı Değerler :** disc |
+**Yapısı :** list-style-type: <deger> **Aldığı Değerler :** disc |
 circle | square | decimal | lower-roman | upper-roman | lower-alpha |
 upper-alpha | none **Başlangıç değeri:** disc **Uygulanabilen
 elementler:** [display][] değeri list-item alan elementler
@@ -27,7 +27,7 @@ list-style-images özelliği **none** değeri aldığında veya resim
 görüntülenemediğinde kullanılır.
 
 [sourcecode language="css"] ul.arabalar { list-style-type: none } ol ol
-ol { list-style-type: lower-roman /\* i ii iii iv v gibi. \*/ }
+ol { list-style-type: lower-roman /* i ii iii iv v gibi. */ }
 [/sourcecode]
 
 <div class="tarayiciuyum">
@@ -37,8 +37,8 @@ W3C's CSS Level 2+
 </div>
 ### list-style-image<a name="03"></a>
 
-**Yapısı :** list-style-image: \<deger\> **Aldığı Değerler :**
-\<[url][]\> | none **Başlangıç değeri:** none **Uygulanabilen
+**Yapısı :** list-style-image: <deger> **Aldığı Değerler :**
+<[url][]> | none **Başlangıç değeri:** none **Uygulanabilen
 elementler:** [display][] değeri list-item alan elementler
 **Kalıtsallık:** Var
 
@@ -53,7 +53,7 @@ W3C's CSS Level 2+
 </div>
 ### list-style-position<a name="04"></a>
 
-**Yapısı :** list-style-position: \<deger\> **Aldığı Değerler :** inside
+**Yapısı :** list-style-position: <deger> **Aldığı Değerler :** inside
 | outside **Başlangıç değeri:** outside **Uygulanabilen elementler:**
 tüm elementler **Kalıtsallık:** Yok
 
@@ -71,8 +71,8 @@ W3C's CSS Level 2+
 ### list-style<a name="01"></a>
 
 <div class="cssozelliktanimi" id="ozelliktanim">
-**Yapısı :** list-style: \<deger\> **Aldığı Değerler :**
-\<list-style-type\> |\<list-style-position\> | \<[url][]\> **Başlangıç
+**Yapısı :** list-style: <deger> **Aldığı Değerler :**
+<list-style-type> |<list-style-position> | <[url][]> **Başlangıç
 değeri:**0 **Uygulanabilen elementler:** display değeri list-item alan
 elementler **Kalıtsallık:** Var
 
@@ -90,13 +90,13 @@ W3C's CSS Level 2+
 </div>
 ### white-space<a name="05"></a>
 
-**Yapısı :** white-space: \<deger\> **Aldığı Değerler :** normal | pre |
+**Yapısı :** white-space: <deger> **Aldığı Değerler :** normal | pre |
 nowrap **Başlangıç değeri:** normal **Uygulanabilen elementler:**
 [Block-level elementler][] **Kalıtsallık:** Var
 
 **white-space**özelliği elemetlerin boşluklarının nasıl işlem göreceğini
 belirler. değer alır. **normal:** birden fazla boşluğu tek boşluk gibi
-sayar. **pre :** birden fazla boşluğu birleştirmez. **nowrap :** \<br\>
+sayar. **pre :** birden fazla boşluğu birleştirmez. **nowrap :** <br>
 etiketi hariç alt satıra geçişe izin vermez.
 
 [sourcecode language="css"] p { white-space: pre; } [/sourcecode]
@@ -108,7 +108,7 @@ W3C's CSS Level 2+
 </div>
 ### display<a name="06" id="06"></a>
 
-**Yapısı :** display: \<deger\> **Aldığı Değerler :** none | inline |
+**Yapısı :** display: <deger> **Aldığı Değerler :** none | inline |
 block | inline-block | list-item | run-in | table | inline-table |
 table-row-group | table-header-group | table-footer-group | table-row |
 table-column-group | table-column | table-cell | table-caption | inherit

@@ -9,14 +9,14 @@ yapma olanağı sağlar. Adım adım gidersek <!--more-->
 
 **1.Adım** Başlangıç olarak her zamanki gibi XHTML kodumuzu yazalım:
 
-[sourcecode language="html"]\<ul\> \<li\>\<a href="\#"\>Ana
-Sayfa\</a\>\</li\> \<li\>\<a href="\#"\>Haberler\</a\>\</li\> \<li\>\<a
-href="\#"\>Ürünler\</a\>\</li\> \</ul\>[/sourcecode]
+[sourcecode language="html"]<ul> <li><a href="#">Ana
+Sayfa</a></li> <li><a href="#">Haberler</a></li> <li><a
+href="#">Ürünler</a></li> </ul>[/sourcecode]
 
 <div class="class=" ekstrabilgi"">
 Tekniğin özeti şu menü oluşturmak için hazırlanan XHTML kodunda sırasız
-listeler(li) bir zemin resmi(sekme\_sag\_resim.gif) ve link
-elementine(a) bir zemin resmi(sekme\_sol\_resim.gif) atayarak esneklik
+listeler(li) bir zemin resmi(sekme_sag_resim.gif) ve link
+elementine(a) bir zemin resmi(sekme_sol_resim.gif) atayarak esneklik
 sağlamak.
 
 </div>
@@ -38,30 +38,30 @@ menü görünümünün bozulmaması içindir.
 
 **4. Adım** Menüyü yatayda sıralamak için **float:left** tanımlaması
 yapıyoruz ve sağ zemin
-resmini(<span class="alternatifard">sekme\_sag\_resim.gif</span>)
+resmini(<span class="alternatifard">sekme_sag_resim.gif</span>)
 uyguluyoruz:
 
 [sourcecode language="css"] ul li { float: left; background:
-url(images/sekme\_sag\_resim.gif) no-repeat top right; } [/sourcecode]
+url(images/sekme_sag_resim.gif) no-repeat top right; } [/sourcecode]
 
 **5. Adım** Daha önceki örneklerde gördüğümüz gibi tüm sekmeye link
 vermek için **display:block** tanımlaması yapıyoruz, sekmenin sol
-kısmını tamamlamak için zemin resmi olarak(sekme\_sol\_resim.gif)
+kısmını tamamlamak için zemin resmi olarak(sekme_sol_resim.gif)
 ekliyoruz, tüm sekmelerde aynı yüksekliği yakalamak için
 **line-height**tanımlamasını yapıyoruz,
 <span class="alternatifard">**text-decoration: none**</span> ile link
 alt çizgilerini kaldırıyoruz ve IE Mac ortamında sorun çıkarmaması için
 **float:left** ekliyoruz:
 
-[sourcecode language="css"]\<ol\> li a {
-background:url(images/sekme\_sol\_resim.gif) no-repeat left top;
+[sourcecode language="css"]<ol> li a {
+background:url(images/sekme_sol_resim.gif) no-repeat left top;
 display: block; padding: 0 2em; line-height: 2.5em; text-decoration:
-none; float: left; color:\#000; } [/sourcecode]
+none; float: left; color:#000; } [/sourcecode]
 
 **6. Adım** Güzel bir görünüm katmak için basit bir rollover efekti
 verelim:
 
-[sourcecode language="css"] ul a:hover { color: \#9D9C9C; }
+[sourcecode language="css"] ul a:hover { color: #9D9C9C; }
 [/sourcecode]
 
 Örnek kodları indirmek için [tıklayınız.][]

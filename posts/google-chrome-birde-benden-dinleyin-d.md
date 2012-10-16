@@ -20,30 +20,30 @@ Benim gördüğüm tek sorun kısayol background tanımında tanımlanan
 renkerler gelmiyor. Sayfa yenileme ve 5-10 saniye geçtikten sonra
 geliyor.
 
-1.  background:\#f00 url(../images/ardalan.gif) top left repaet-x;
+1.  background:#f00 url(../images/ardalan.gif) top left repaet-x;
 
-ardalan rengi olan \#f00 gelmiyor.
+ardalan rengi olan #f00 gelmiyor.
 
 CSS filtrelemesi olarak Safari için kullanılan filtreleme
 kullanılabilir.
 
-1.  \<html\>
-2.  \<head\>
-3.  \<style\>
+1.  <html>
+2.  <head>
+3.  <style>
 4.  body:nth-of-type(1) p{
-5.     color: \#ff0000; // sadece safari ve chrome görecek
+5.     color: #ff0000; // sadece safari ve chrome görecek
 6.  }
-7.  \</style\>
-8.  \</html\>
-9.  \<body\>
-10. \<p\>deneme olarak bunu yazıyorum\</p\>
-11. \</body\>
-12. \</html\>
+7.  </style>
+8.  </html>
+9.  <body>
+10. <p>deneme olarak bunu yazıyorum</p>
+11. </body>
+12. </html>
 
 Javascript ile yakalamak içinde 
 
-1.  var is\_chrome = navigator.userAgent.toLowerCase().indexOf('chrome')
-    \> -1;
+1.  var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome')
+    > -1;
 
 </p>
 yeterli oluyor. Ayrıca javascript hata yakalama konsolu
@@ -83,12 +83,12 @@ Türkçe kaynak
 -   [http://cnetturkiye.com/haberler/1267][]
 -   [http://www.savassakar.com/?p=2029][]
 -   [http://www.kurumsalhaberler.com/google/bultenler/googledan-yeni-web-tarayicisi-google-chrome][]
--   [http://www.potkal.com/yazi\_icerik.asp?y1405][]
+-   [http://www.potkal.com/yazi_icerik.asp?y1405][]
 -   [http://www.mondaynay.com/2008/09/google-chrome-beta-web-browser/][]
 -   [http://www.blicca.com/programlar/internet-tarayicilari/google-chrome-beta.html][]
 -   [http://turk.internet.com/haber/yazigoster.php3?yazi21847][]
 -   [http://www.burakkutbay.com/google-chrome-tarayici-analizi/][]
--   [http://www.chip.com.tr/konu/Google-Chrome-dan-ilk-guvenlik-acigi\_8529.html][]
+-   [http://www.chip.com.tr/konu/Google-Chrome-dan-ilk-guvenlik-acigi_8529.html][]
 -   [http://blog-tr-ego.blogspot.com/2008/09/chrome-nedir.html][]
 -   [http://notoku.com/google-chrome-acik-kaynakli-tarayici-projesi/][]
 -   [http://zokoba.blogspot.com/2008/09/google-chrome-ilk-izlenimler.html][]
@@ -108,7 +108,7 @@ Genel kaynak
 -   [http://blogs.zdnet.com/hardware/?p=2481][]
 -   [http://googlesystem.blogspot.com/2008/09/google-chromes-about-pages.html][]
 -   [http://lifehacker.com/5044484/google-chrome-first-look][]
--   [http://www.readwriteweb.com/archives/does\_google\_have\_rights\_to\_all.php][]
+-   [http://www.readwriteweb.com/archives/does_google_have_rights_to_all.php][]
 -   [http://mashable.com/2008/09/03/awesome-google-chrome/][]
 -   [http://mashable.com/2008/09/02/chrome-windows/][]
 -   [http://www.niallkennedy.com/blog/2008/09/google-chrome.html][]
@@ -117,8 +117,8 @@ Genel kaynak
 -   [http://www.techcrunch.com/2008/09/02/getclicky-analytics-service-tracking-2-google-chrome-usage/][]
 -   [http://ptech.allthingsd.com/20080902/first-test-of-googles-new-browser/][]
 -   [http://webworkerdaily.com/2008/09/02/google-chrome-is-it-ready-for-web-workers/][]
--   [http://news.cnet.com/8301-17939\_109-10030718-2.html?part=rss&tag=feed&subj=Webware][]
--   [http://news.cnet.com/8301-17939\_109-10030962-2.html?part=rss&tag=feed&subj=Webware][]
+-   [http://news.cnet.com/8301-17939_109-10030718-2.html?part=rss&tag=feed&subj=Webware][]
+-   [http://news.cnet.com/8301-17939_109-10030962-2.html?part=rss&tag=feed&subj=Webware][]
 -   [http://internetducttape.com/2008/09/02/why-google-chrome-isnt-my-default-browser/][]
 -   [http://www.zeldman.com/2008/09/03/a-bug-in-google-chrome/][]
 -   [http://www.evotech.net/blog/2008/09/css-hack-for-google-chrome-and-safari-31/][]
@@ -150,13 +150,13 @@ javascript motoru 
   [http://www.savassakar.com/?p=2029]: http://www.savassakar.com/?p=2029
   [http://www.kurumsalhaberler.com/google/bultenler/googledan-yeni-web-tarayicisi-google-chrome]:
     http://www.kurumsalhaberler.com/google/bultenler/googledan-yeni-web-tarayicisi-google-chrome
-  [http://www.potkal.com/yazi\_icerik.asp?y1405]: http://www.potkal.com/yazi_icerik.asp?y1405
+  [http://www.potkal.com/yazi_icerik.asp?y1405]: http://www.potkal.com/yazi_icerik.asp?y1405
   [http://www.mondaynay.com/2008/09/google-chrome-beta-web-browser/]: http://www.mondaynay.com/2008/09/google-chrome-beta-web-browser/
   [http://www.blicca.com/programlar/internet-tarayicilari/google-chrome-beta.html]:
     http://www.blicca.com/programlar/internet-tarayicilari/google-chrome-beta.html
   [http://turk.internet.com/haber/yazigoster.php3?yazi21847]: http://turk.internet.com/haber/yazigoster.php3?yazi21847
   [http://www.burakkutbay.com/google-chrome-tarayici-analizi/]: http://www.burakkutbay.com/google-chrome-tarayici-analizi/
-  [http://www.chip.com.tr/konu/Google-Chrome-dan-ilk-guvenlik-acigi\_8529.html]:
+  [http://www.chip.com.tr/konu/Google-Chrome-dan-ilk-guvenlik-acigi_8529.html]:
     http://www.chip.com.tr/konu/Google-Chrome-dan-ilk-guvenlik-acigi_8529.html
   [http://blog-tr-ego.blogspot.com/2008/09/chrome-nedir.html]: http://blog-tr-ego.blogspot.com/2008/09/chrome-nedir.html
   [http://notoku.com/google-chrome-acik-kaynakli-tarayici-projesi/]: http://notoku.com/google-chrome-acik-kaynakli-tarayici-projesi/
@@ -180,7 +180,7 @@ javascript motoru 
   [http://googlesystem.blogspot.com/2008/09/google-chromes-about-pages.html]:
     http://googlesystem.blogspot.com/2008/09/google-chromes-about-pages.html
   [http://lifehacker.com/5044484/google-chrome-first-look]: http://lifehacker.com/5044484/google-chrome-first-look
-  [http://www.readwriteweb.com/archives/does\_google\_have\_rights\_to\_all.php]:
+  [http://www.readwriteweb.com/archives/does_google_have_rights_to_all.php]:
     http://www.readwriteweb.com/archives/does_google_have_rights_to_all.php
   [http://mashable.com/2008/09/02/chrome-windows/]: http://mashable.com/2008/09/02/chrome-windows/
   [http://www.niallkennedy.com/blog/2008/09/google-chrome.html]: http://www.niallkennedy.com/blog/2008/09/google-chrome.html
@@ -192,9 +192,9 @@ javascript motoru 
     http://ptech.allthingsd.com/20080902/first-test-of-googles-new-browser/
   [http://webworkerdaily.com/2008/09/02/google-chrome-is-it-ready-for-web-workers/]:
     http://webworkerdaily.com/2008/09/02/google-chrome-is-it-ready-for-web-workers/
-  [http://news.cnet.com/8301-17939\_109-10030718-2.html?part=rss&tag=feed&subj=Webware]:
+  [http://news.cnet.com/8301-17939_109-10030718-2.html?part=rss&tag=feed&subj=Webware]:
     http://news.cnet.com/8301-17939_109-10030718-2.html?part=rss&tag=feed&subj=Webware
-  [http://news.cnet.com/8301-17939\_109-10030962-2.html?part=rss&tag=feed&subj=Webware]:
+  [http://news.cnet.com/8301-17939_109-10030962-2.html?part=rss&tag=feed&subj=Webware]:
     http://news.cnet.com/8301-17939_109-10030962-2.html?part=rss&tag=feed&subj=Webware
   [http://internetducttape.com/2008/09/02/why-google-chrome-isnt-my-default-browser/]:
     http://internetducttape.com/2008/09/02/why-google-chrome-isnt-my-default-browser/

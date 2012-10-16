@@ -23,7 +23,7 @@ oluşturmazlar. Örnek: a, strong,span
 
 Ancak bizbu elementlerin başlangıç değerlerini **display** özelliği ile
 değiştirebilriz. Yani biz bir inline-level element olan bir
-linki(\<a\>....\</a\>) blok-level bir elemente dönüştürebiliriz. Aynı
+linki(<a>....</a>) blok-level bir elemente dönüştürebiliriz. Aynı
 şekilde bilr blok-level elementi inline elemente dönüştürebilriz.
 
 CSS'deüç temel konumlandırma şekli vardır: **normal
@@ -46,7 +46,7 @@ değerleri etkisizdir.
 
 ### position
 
-**Yapısı :** position: \<deger\> **Aldığı Değerler :**static | relative
+**Yapısı :** position: <deger> **Aldığı Değerler :**static | relative
 | absolute | fixed | inherit **Başlangıç değeri:** static
 **Uygulanabilen elementler:** tüm elementler **Kalıtsallık:** Yok
 
@@ -60,8 +60,8 @@ CSS Profile 2.0
 </div>
 ### top, right, bottom, left
 
-**Yapısı :** top, right, bottom, left : \<deger\> **Aldığı Değerler
-:**\<[uzunluk][]\> | \<[yüzde][uzunluk]\> | auto | inherit **Başlangıç
+**Yapısı :** top, right, bottom, left : <deger> **Aldığı Değerler
+:**<[uzunluk][]> | <[yüzde][uzunluk]> | auto | inherit **Başlangıç
 değeri:** auto **Uygulanabilen elementler:** postion uygulanan
 elementlere **Kalıtsallık:** Yok
 
@@ -84,7 +84,7 @@ değerine 20px tanımlarsak element bulunduğu yerden 20px aşağıya
 kayacaktır, eğer elementin sol(left) değerini 20px olarak tanımlarsak
 elementimiz soldan 20px sağa doğru kayacaktır.
 
-[sourcecode language='css'] p\#FarkliParagraf{ position: relative; left:
+[sourcecode language='css'] p#FarkliParagraf{ position: relative; left:
 20px; top: 20px; } [/sourcecode]
 
 ![CSS Nisbi konumlandırma][]
@@ -126,8 +126,8 @@ ise altta kalacaktır.
 
 ### z-index
 
-**Yapısı :** z-index: \<deger\> **Aldığı Değerler :**\<[sayısal
-değer][uzunluk] \> | auto | inherit **Başlangıç değeri:** auto
+**Yapısı :** z-index: <deger> **Aldığı Değerler :**<[sayısal
+değer][uzunluk] > | auto | inherit **Başlangıç değeri:** auto
 **Uygulanabilen elementler:** postion uygulanan elementlere
 **Kalıtsallık:** Yok
 
@@ -143,8 +143,8 @@ CSS Profile 2.0
 olmasını istiyorsak. Dıştaki içerik kutusunugöreceli konumlandırıp
 içindeki paragrafı mutlak konumlandırarak bu işhalledebilriz.
 
-[sourcecode language='css'] \#adresler { width: 700px; height: 100px;
-position: relative; } \#adresler .tel { position: absolute; right: 10px;
+[sourcecode language='css'] #adresler { width: 700px; height: 100px;
+position: relative; } #adresler .tel { position: absolute; right: 10px;
 bottom: 10px; text-align: right; } [/sourcecode] [sourcecode
 language='html']
 

@@ -32,17 +32,17 @@ benim hoşuma gitmiyor.
 
 CSS ile bu işi yapan bir örnek verelim.
 
-[sourcecode language="css"] div\#preloaded-images {  position: absolute;
+[sourcecode language="css"] div#preloaded-images {  position: absolute;
  overflow: hidden;  left: -9999px;  top: -9999px;  height: 1px;  width:
 1px; } [/sourcecode]
 
 HTML kodu
 
-[sourcecode language="html"] \<div id="preloaded-images"\> \<img
+[sourcecode language="html"] <div id="preloaded-images"> <img
 src="http://deneme.com/image-01.png" width="1" height="1" alt="Image 01"
-/\> \<img src="http://deneme.com/image-02.png" width="1" height="1"
-alt="Image 02" /\> \<img src="http://deneme.com/image-03.png" width="1"
-height="1" alt="Image 03" /\> \</div\> [/sourcecode]
+/> <img src="http://deneme.com/image-02.png" width="1" height="1"
+alt="Image 02" /> <img src="http://deneme.com/image-03.png" width="1"
+height="1" alt="Image 03" /> </div> [/sourcecode]
 
 Yukarıda görüldüğü gibi html içine eklenen resimler CSS yardımı ile
 kullanıcının göremeyeceği bölgelere itilmiştir. Bu şekilde bir çözüm
@@ -74,10 +74,10 @@ Yukarıdaki javascript kodu işimizi görecektir.
 jQuery ile daha kısa ve basit bir kod ile bu işi yapabiliriz.
 
 [sourcecode language="javascript"] // resim onyükleme fonksiyonu
-jQuery.preloadImages = function() { for(var i = 0; i\<arguments.length;
-i++) { jQuery("\<img\>").attr("src", arguments[i]); } }; // yükleme yap
-\$.preloadImages("images/dexter.jpg", "images/saydam\_ardalan1.gif",
-"images/ornek\_sayfa.jpg"); [/sourcecode]
+jQuery.preloadImages = function() { for(var i = 0; i<arguments.length;
+i++) { jQuery("<img>").attr("src", arguments[i]); } }; // yükleme yap
+$.preloadImages("images/dexter.jpg", "images/saydam_ardalan1.gif",
+"images/ornek_sayfa.jpg"); [/sourcecode]
 
 [![][]][]
 
@@ -90,14 +90,14 @@ yüklemeliyiz.
 
 Bunun için kodumuzu aşağıdaki değiştirmeliyiz.
 
-[sourcecode language="javascript"] \$(document).ready(function() {
-\$(window).bind('load', function() { // resim onyükleme fonksiyonu
-jQuery.preloadImages = function() { for(var i = 0; i\<arguments.length;
-i++) { jQuery("\<img\>").attr("src", arguments[i]); } }; // yükleme yap
-\$.preloadImages("images/dexter.jpg", "images/saydam\_ardalan1.gif",
-"images/ornek\_sayfa.jpg"); }); }); [/sourcecode]
+[sourcecode language="javascript"] $(document).ready(function() {
+$(window).bind('load', function() { // resim onyükleme fonksiyonu
+jQuery.preloadImages = function() { for(var i = 0; i<arguments.length;
+i++) { jQuery("<img>").attr("src", arguments[i]); } }; // yükleme yap
+$.preloadImages("images/dexter.jpg", "images/saydam_ardalan1.gif",
+"images/ornek_sayfa.jpg"); }); }); [/sourcecode]
 
-Eklediğimiz sadece \$(window).bind(‘load’ function()) kısmıdır. Burada
+Eklediğimiz sadece $(window).bind(‘load’ function()) kısmıdır. Burada
 sayfa yüklendikten sonra bu işlemi yap diyoruz.
 
 Örneği görmek için [tıklayınız.][]
@@ -128,7 +128,7 @@ Kalın sağlıacakla
 -   [http://elouai.com/javascript-preload-images.php][]
 -   [http://www.javascriptkit.com/script/script2/preloadimage.shtml][]
 -   [http://stackoverflow.com/questions/761263/what-is-the-best-way-to-preload-multiple-images-in-javascript/761332][]
--   [http://www.filamentgroup.com/lab/update\_automatically\_preload\_images\_from\_css\_with\_jquery/][]
+-   [http://www.filamentgroup.com/lab/update_automatically_preload_images_from_css_with_jquery/][]
 -   [http://snipplr.com/view.php?codeview&id=9612][]
 
 </p>
@@ -148,6 +148,6 @@ Kalın sağlıacakla
   [http://www.javascriptkit.com/script/script2/preloadimage.shtml]: http://www.javascriptkit.com/script/script2/preloadimage.shtml
   [http://stackoverflow.com/questions/761263/what-is-the-best-way-to-preload-multiple-images-in-javascript/761332]:
     http://stackoverflow.com/questions/761263/what-is-the-best-way-to-preload-multiple-images-in-javascript/761332
-  [http://www.filamentgroup.com/lab/update\_automatically\_preload\_images\_from\_css\_with\_jquery/]:
+  [http://www.filamentgroup.com/lab/update_automatically_preload_images_from_css_with_jquery/]:
     http://www.filamentgroup.com/lab/update_automatically_preload_images_from_css_with_jquery/
   [http://snipplr.com/view.php?codeview&id=9612]: http://snipplr.com/view.php?codeview&id=9612

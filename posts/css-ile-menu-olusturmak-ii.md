@@ -38,8 +38,8 @@ Menüyü biraz renklendiriyoruz:
 
 [sourcecode language='css']ul.menu { list-style-type: none; padding: 0;
 margin: 0; } ul.menu li { display: inline; } ul.menu li a {
-text-decoration: none; padding: .2em 1em; color: \#1B1B1B;
-background-color: \#E2E2E2; } [/sourcecode]
+text-decoration: none; padding: .2em 1em; color: #1B1B1B;
+background-color: #E2E2E2; } [/sourcecode]
 
 ![][3]
 
@@ -48,9 +48,9 @@ atıyoruz:
 
 [sourcecode language='css'] ul.menu { list-style-type: none; padding: 0;
 margin: 0; } ul.menu li { display: inline; } ul.menu li a {
-text-decoration: none; padding: .2em 1em; color: \#1B1B1B;
-background-color: \#E2E2E2; } ul.menu li a:hover { background-color:
-\#999; } [/sourcecode]
+text-decoration: none; padding: .2em 1em; color: #1B1B1B;
+background-color: #E2E2E2; } ul.menu li a:hover { background-color:
+#999; } [/sourcecode]
 
 Sonuç işte:
 
@@ -65,7 +65,7 @@ aşağıda verdiğimiz Kaynaklar kısmında ve gerekse İnternette aratarak bir
 
 -   [http://css.maxdesign.com.au/][]
 -   [http://www.cssplay.co.uk/menus/index.html][]
--   [http://www.alvit.de/handbook/\#navmenus][]
+-   [http://www.alvit.de/handbook/#navmenus][]
 -   [http://exploding-boy.com/images/EBmenus/menus.html][]
 
 </p>
@@ -77,5 +77,5 @@ aşağıda verdiğimiz Kaynaklar kısmında ve gerekse İnternette aratarak bir
   [3]: /images/menu_resim4.gif
   [http://css.maxdesign.com.au/]: http://css.maxdesign.com.au/
   [http://www.cssplay.co.uk/menus/index.html]: http://www.cssplay.co.uk/menus/index.html
-  [http://www.alvit.de/handbook/\#navmenus]: http://www.alvit.de/handbook/#navmenus
+  [http://www.alvit.de/handbook/#navmenus]: http://www.alvit.de/handbook/#navmenus
   [http://exploding-boy.com/images/EBmenus/menus.html]: http://exploding-boy.com/images/EBmenus/menus.html

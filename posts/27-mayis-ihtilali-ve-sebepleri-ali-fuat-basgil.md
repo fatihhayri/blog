@@ -3,7 +3,7 @@ Date: 2007-04-12 08:14
 Category: Kitaplar
 Tags: Kitaplar
 
-![27mayis\_iht\_sebepleri][]</a>İlk baskısı 1966 yılında yapılmış olan
+![27mayis_iht_sebepleri][]</a>İlk baskısı 1966 yılında yapılmış olan
 '27 Mayıs İhtilali ve Sebepleri', kitabın yazarı olan Ord. Prof. Ali
 Fuad Başgil'in ölümünün 40. yılı anısına tekrar basılmış. Kitapta o
 dönemde yaşananların yakın bir tanığı olan Başgil, ihtilali anlatıyor.
@@ -15,5 +15,5 @@ anlatmıyor belki ama dönemi yaşayan önemli tanıklardan birisinin gözüyle
 kitabın sonundaki dava belgeleri, oda yayıncının eklemesi. Ayrıntılı
 bilgi için [tıklayınız.][]
 
-  [27mayis\_iht\_sebepleri]: http://www.fatihhayrioglu.com/wp-content/27mayis_iht_sebepleri.kucukresim.jpg
+  [27mayis_iht_sebepleri]: http://www.fatihhayrioglu.com/wp-content/27mayis_iht_sebepleri.kucukresim.jpg
   [tıklayınız.]: http://www.netkitap.com/kitap/67617/27_mayis_ihtil%E2li_ve_sebepleri.htm

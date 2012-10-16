@@ -79,9 +79,9 @@ Sitenizde sadece kayıtlı üyelerinizin erişebilecekleri haber makaleleri
 varsa onları Google sonuçlarının dışında bırakmak isteyebilirsiniz. Bunu
 yapmak için basitçe bir META etiketini html dosyasına ekleyin, dosya
 yaklaşık şöyle başlayacaktır:  
-*\<html\>*  
-*\<head\>*  
-*\<meta name="googlebot" content="noindex"\>*  
+*<html>*  
+*<head>*  
+*<meta name="googlebot" content="noindex">*  
 *...*  
 Bu ilgili dosyanın Google tarafından indekslenmesini durdurur. META
 etiketleri özellikle tekil -bağımsız- dosyaları düzenleme izniniz varsa
