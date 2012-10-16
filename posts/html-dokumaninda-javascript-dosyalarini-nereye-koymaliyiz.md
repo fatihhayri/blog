@@ -29,8 +29,9 @@ Aynı kodu ayrı bir javascript dosyası olarak hazırlayıp .js uzantısı ile
 kaydedersek ve bunu html dokümana eklersek buda harici bir javascript
 dosyası ekleme kısmına girer.
 
-[javascript] function merhaba() { alert ("Merhaba Dünya! Sene 2011") }
-[/javascript]
+	:::javascript
+	 function merhaba() { alert ("Merhaba Dünya! Sene 2011") }
+
 
 Bu dosyayı merhaba.js olarak kaydedip, sonra
 

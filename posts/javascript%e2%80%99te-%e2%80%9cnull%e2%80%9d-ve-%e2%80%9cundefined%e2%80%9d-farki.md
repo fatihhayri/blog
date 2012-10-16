@@ -9,14 +9,16 @@ iki ayrı durum olarak kabul eder.
 **null;** boş değer anlamına gelen özel bir değerdir. **typeof null**
 bize nesne döndürür.
 
-[javascript] <script> var testDegiskeni = null; alert(testDegiskeni);
-//null alert(typeof testDegiskeni); //object </script> [/javascript]
+	:::javascript
+	 <script> var testDegiskeni = null; alert(testDegiskeni);
+//null alert(typeof testDegiskeni); //object </script> 
 
 **undefined** değişken bildirilmiş ama henüz değeri atanmamış demektir.
 
-[javascript] <script> var testDegiskeni; alert(testDegiskeni); //
+	:::javascript
+	 <script> var testDegiskeni; alert(testDegiskeni); //
 undefined alert(typeof testDegiskeni); //undefined </script>
-[/javascript]
+
 
 Yukarıdaki örneklerde gördüğümüz gibi **null** özel bir nesne iken
 **undefined** tip olarak **undefiend** döndürür.
@@ -30,8 +32,9 @@ demektir.
 
 ### undefined ve null kontrolü
 
-[javascript] if(typeof(test) !== 'undefined' && test != null) { //test
-değişkenin kullanabiliriz } [/javascript]
+	:::javascript
+	 if(typeof(test) !== 'undefined' && test != null) { //test
+değişkenin kullanabiliriz } 
 
 ### Kaynak
 

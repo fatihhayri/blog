@@ -21,7 +21,8 @@ karşılaşıyoruz.
 Javascript ile üretilen güzel bir çözüm mevcut. **html5shiv** olarak
 adlandırılan bu teknik temel mantık olarak
 
-[javascript] document.createElement("section") [/javascript]
+	:::javascript
+	 document.createElement("section") 
 
 ile HTML5 eleman desteği olmayan tarayıcılar için js yardımı ile eleman
 oluşturarak çözüyor. Birde **<section>** ve diğer blok-level etiketler

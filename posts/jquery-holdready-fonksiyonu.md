@@ -18,9 +18,10 @@ gibi durumlarda araya girip bu dosyaları yükletmemiz gerekir ve sonra
 işleyişi devam ettirmemiz gerekir. İşte bu gibi durumlarda holdReady
 fonksiyonu kullanılabilir.
 
-[javascript] $.holdReady(true); // biraz bekle
+	:::javascript
+	 $.holdReady(true); // biraz bekle
 $.getScript("myplugin.js", function() { // dosyayi yukledik
-$.holdReady(false); // simdi sen isine donebilirsin }); [/javascript]
+$.holdReady(false); // simdi sen isine donebilirsin }); 
 
 Bu metot <head> içinde document.ready olayından önce çağrılmalıdır.
 Eğer sonrasında çağrılırsa işlevsiz kalır. En iyi kullanım yeri jquery
@@ -43,8 +44,9 @@ $("p").css("background-color", "#9C6"); alert("iki"); }); </script>
 
 Eklediğimiz deneme.js
 
-[javascript] // ilk yüklenecek dosya $("p").css("background-color",
-"#ff0"); alert("bir"); [/javascript]
+	:::javascript
+	 // ilk yüklenecek dosya $("p").css("background-color",
+"#ff0"); alert("bir"); 
 
 Örneği görmek için [tıklayınız.][]
 

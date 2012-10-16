@@ -170,7 +170,8 @@ tr.uzerineGelince th{ background:#474747; color:#f3f3f3; }
 
 fare imlecinin satır üzerine geldiğinde çalışacak javascript kodu:
 
-[javascript] function uzerinegelince() { if (document.getElementById &&
+	:::javascript
+	 function uzerinegelince() { if (document.getElementById &&
 document.createTextNode) { var
 tables=document.getElementsByTagName('table'); for (var
 i=0;i<tables.length;i++) { if(tables[i].className=='uzerinde') { var
@@ -178,7 +179,7 @@ trs=tables[i].getElementsByTagName('tr'); for(var j=0;j<trs.length;j++)
 { if(trs[j].parentNode.nodeName=='TBODY') {
 trs[j].onmouseover=function(){this.className='uzerineGelince';return
 false} trs[j].onmouseout=function(){this.className='';return false} } }
-} } } } [/javascript]
+} } } } 
 
 Bu kodu tetiklemek için:
 
@@ -191,9 +192,10 @@ var. İlki tablodaki class="**uzerinde**" ve javasciriptteki
 if(tables[i].className=='**uzerinde**') aynı olması, ikincisi
 javascriptteki
 
-[javascript]
+	:::javascript
+	
 trs[j].onmouseover=function(){this.className='uzerineGelince';return
-false} [/javascript]
+false} 
 
 ile
 
