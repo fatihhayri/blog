@@ -20,7 +20,8 @@ HTML Kodu(Tabloya verilen border ve bordercolor tanımları örneğe
 görsellik kazandırmak için eklenmiştir, sorun ile alakalı kodlar
 değildir.)
 
-[html] <div id="kapsul"> <table width="100%" cellspacing="0"
+	:::html
+	 <div id="kapsul"> <table width="100%" cellspacing="0"
 cellpadding="0" border="1" bordercolor="#0000FF"> <tr> <td>Lorem
 ipsum dolor sit amet, consectetur adipiscing elit. </td> <td>Mauris
 facilisis elementum ipsum nec semper. </td> <td>Vestibulum nec
@@ -31,7 +32,7 @@ imperdiet.</td> <td>Pellentesque sagittis ultrices laoreet.</td>
 sed leo elit, eu ultricies metus. </td> <td>Aenean massa
 nulla.</td> </tr> <tr> <td>In hac habitasse platea
 dictumst.</td> <td>Sed sed leo elit, eu ultricies metus. </td>
-<td>Aenean massa nulla.</td> </tr> </table> </div> [/html]
+<td>Aenean massa nulla.</td> </tr> </table> </div> 
 
 CSS Kodu
 
@@ -56,7 +57,8 @@ gereken kaydırma çubuğu yatayda da çıkıyor.
 overflow:auto verdiğimiz katmana, hemde yeni oluşturduğumuz katmana
 zoom:1 özelliği atıyoruz.
 
-[html] <div id="kapsul"> <div id="kapsulIci"> <table width="100%"
+	:::html
+	 <div id="kapsul"> <div id="kapsulIci"> <table width="100%"
 cellspacing="0" cellpadding="0" border="1" bordercolor="#0000FF">
 <tr> <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </td> <td>Mauris facilisis elementum ipsum nec semper. </td>
@@ -68,7 +70,7 @@ dictumst.</td> <td>Sed sed leo elit, eu ultricies metus. </td>
 <td>Aenean massa nulla.</td> </tr> <tr> <td>In hac habitasse
 platea dictumst.</td> <td>Sed sed leo elit, eu ultricies metus.
 </td> <td>Aenean massa nulla.</td> </tr> </table> </div>
-</div> [/html]
+</div> 
 
 CSS kodu
 
@@ -80,8 +82,9 @@ CSS kodu
 
 Ayrıca yukarıdaki çözüm ie6 bazen sorun çıkarıyor, bu gibi durumlarda
 
-[html] <!--[if lt IE 7]><style> #kapsulIci { overflow: auto; }
-</style><![endif]--> [/html]
+	:::html
+	 <!--[if lt IE 7]><style> #kapsulIci { overflow: auto; }
+</style><![endif]--> 
 
 Eklememiz gerekiyor.
 

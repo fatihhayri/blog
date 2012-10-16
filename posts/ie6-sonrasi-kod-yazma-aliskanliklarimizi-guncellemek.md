@@ -219,9 +219,10 @@ tanımlamak için genel kardeş seçicisi birebirdir.
 
 	:::css
 	 img{     float:left; } img ~ p{     padding-left:110px; } 
-[html] <img src="kedi.jpg" width="96" height="96" alt="kedi" />
+	:::html
+	 <img src="kedi.jpg" width="96" height="96" alt="kedi" />
 <p>Kedi (Felis catus),...</p> <p>2,5 ile 12 kilo ...</p>
-<p>Kediler hoş görünüşlü, ..</p> [/html]
+<p>Kediler hoş görünüşlü, ..</p> 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/KGkAK/1/embedded/result,css,html"></iframe>
 
 **:first-child sözde seçicisi**
@@ -349,7 +350,8 @@ ie6 postion özelliğinin fixed değerini desteklemiyordu. Bizde çözüm için
 ie6 birden fazla sınıf içeren elemanlara bu iki sınıfı kullanarak
 tanımlama yaptığımızda bunu görmüyordu.
 
-[html] <div class="liste onemli">    ... </div> [/html] 	:::css
+	:::html
+	 <div class="liste onemli">    ... </div>  	:::css
 	
 div.liste.onemli {    ... } 
 

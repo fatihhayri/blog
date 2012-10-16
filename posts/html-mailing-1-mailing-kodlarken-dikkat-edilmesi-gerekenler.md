@@ -75,8 +75,9 @@ Bunu destekleyen programlar var ise de benim çalıştığım birçok müşterid
 bu programlar yoktu. Bundan dolayıdır ki css kodlarımızı satıriçi
 yazmalıyız. Aşağıdaki örnekte görüldüğü gibi
 
-[html] <p style="font-family:Arial; font-size:12px; color:#999">Lorem
-ipsum dolor sit amet, consectetur adipiscing elit. </p> [/html]
+	:::html
+	 <p style="font-family:Arial; font-size:12px; color:#999">Lorem
+ipsum dolor sit amet, consectetur adipiscing elit. </p> 
 
 Tabi kodları yazarken yukarıdaki destek listelerini dikkate almalıyız.
 
@@ -92,19 +93,22 @@ bilgisayarına yükleyemeyeceğimiz için bunları kendi sitemiz üzerine
 yükleyip hazırladığımız mailing içeriğine bu resimleri kendi sitemiz
 üzerinde okutmalıyız. Örneğin
 
-[html] <img src="http://www.firmaadi.com/mailings/images/ustalan.jpg"
-width="450" height="120" alt="Firma_Adi" /> [/html]
+	:::html
+	 <img src="http://www.firmaadi.com/mailings/images/ustalan.jpg"
+width="450" height="120" alt="Firma_Adi" /> 
 
 Web siteleri gibi hareket edemeyeceğimiz diğer bir konu ise bağlantıları
 yerel olarak vermeyeceğimiz konusudur. Bağlantılarımızıda yerel
 veremeyiz örneğin
 
-[html] <a href="hakkimizda.html">Hakkımızda</a> [/html]
+	:::html
+	 <a href="hakkimizda.html">Hakkımızda</a> 
 
 Şeklinde bir bağlantı kırık bir bağlantı olacaktır. Bunun yerine
 
-[html] <a
-href="http://www.firmaadi.com/hakkimizda.html">Hakkımızda</a> [/html]
+	:::html
+	 <a
+href="http://www.firmaadi.com/hakkimizda.html">Hakkımızda</a> 
 
 Şekline olmalıdır.
 

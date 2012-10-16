@@ -27,14 +27,16 @@ daha okunaklı, kodlaması daha kolay ve güzel hale getireceğiz.
 
 Tabloların genel yapısı aşağıdaki gibidir.
 
-[html] <table> <tr> <td>... içerik ...</td> </tr> </table>
-[/html]
+	:::html
+	 <table> <tr> <td>... içerik ...</td> </tr> </table>
+
 
 Yukarıda kullanılan tablo yapısı genelde kullanılan tablo yapısıdır.
 Ancak tüm araçlara uyumu, erişebilirliği ve kolay kodlama için daha
 gelişmiş bir tablo kodlaması kullanılmalıdır. Örnek
 
-[html] <table cellspacing="1" class="uzerinde" id="golKrallari"
+	:::html
+	 <table cellspacing="1" class="uzerinde" id="golKrallari"
 summary="Türkiye Süper Ligi’nin son 3 yılında en çok gol atan futbolcu
 listesi"> <caption>1. LİG TARİHİNDEKİ GOL KRALLARI(SON 3
 YIL)</caption> <thead> <tr> <th scope="col" abbr="sezon"
@@ -56,7 +58,7 @@ class="baslikBir">2005 – 2006</th> <td class="tabloZRFark">GÖKHAN
 class="tabloZRFark">32</td> <td class="tabloZRFark">25</td> <td
 class="tabloZRFark">0.78</td> </tr> </tbody> <tfoot> <tr>
 <td colspan="6">Kaynak: Fatih Futbol Okulu(F.F.O)</td> </tr>
-</tfoot> </table> [/html]
+</tfoot> </table> 
 
 ![][2]
 
@@ -180,7 +182,8 @@ false} trs[j].onmouseout=function(){this.className='';return false} } }
 
 Bu kodu tetiklemek için:
 
-[html] <body onload="uzerinegelince()"> [/html]
+	:::html
+	 <body onload="uzerinegelince()"> 
 
 kodunu yazalım. Fare imlecinin üzerine geldiğinde satır zemin rengi ve
 metin renginin değişmesi bölümün de bir iki dikkat edilmesi gereken yer

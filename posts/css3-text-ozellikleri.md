@@ -23,10 +23,11 @@ satır başına atmak için kullanılır.
 Bir örnek verecek olursak 150px genişliğindeki bir alan içinde bir
 metnimiz olsun.
 
-[html] <div id="link">
+	:::html
+	 <div id="link">
 Loremipsumdolorsitametconsecteturadipiscingelit. Nam semper venenatis
 lobortis. Donec odio nisl, vehicula vitae molestie ac, euismod ac nibh.
-</div> [/html]
+</div> 
 
 CSS kodu
 

@@ -34,11 +34,12 @@ Sadede gelelim ve biz kendi hiyerarşik yerimimizi yapalım.
 
 HTML kodu;
 
-[html] <ul id="yerimi" class="kapsul"> <li><a href="#">Ana
+	:::html
+	 <ul id="yerimi" class="kapsul"> <li><a href="#">Ana
 Sayfa</a></li> <li><a href="#">Birinci alt Menü</a></li>
 <li><a href="#">İkinci alt Menü</a></li> <li><a
 href="#">Üçüncü alt menü</a></li> <li>Bulunduğumuz sayfa</li>
-</ul> [/html]
+</ul> 
 
 Gelelim CSS kodumuza, liste başlangıç değerlerini sıfırlayalım.
 Listelerin başındaki sabit yuvarlak ikonları kaldırıp, etrafındaki

@@ -21,7 +21,8 @@ gelelim ve hemen bir örnek yapalım.
 
 HTML kodu;
 
-[html] <h1><span>Ged tortor odio</span></h1> [/html]
+	:::html
+	 <h1><span>Ged tortor odio</span></h1> 
 
 CSS kodu;
 

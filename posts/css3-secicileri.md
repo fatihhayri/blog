@@ -87,10 +87,11 @@ ile kullanılır.
 Bu tanımlama ile belirtilen sözdizimi ile başlayan özellik değerini
 arıyor ve uyguluyor.
 
-[html] This is a sample <a
+	:::html
+	 This is a sample <a
 href="http://www.bloggermint.com">hyperlink</a>. This is a sample <a
 href="mailto:bloggermint@gmail.com">bloggermint@gmail.com</a>. This
-is a sample <a href="ftp://bloggermint.com">FTP Server</a>. [/html]
+is a sample <a href="ftp://bloggermint.com">FTP Server</a>. 
 	:::css
 	 a[href^='http'] { background: url(images/link.png) no-repeat
 left; padding-left:20px; } a[href^='mailto'] { background:
@@ -227,9 +228,10 @@ tanımlamak için genel kardeş seçicisi birebirdir.
 
 html kodu
 
-[html] <img src="kedi.jpg" width="96" height="96" alt="kedi" />
+	:::html
+	 <img src="kedi.jpg" width="96" height="96" alt="kedi" />
 <p>Kedi (Felis catus),...</p> <p>2,5 ile 12 kilo ...</p>
-<p>Kediler hoş görünüşlü, ..</p> [/html]
+<p>Kediler hoş görünüşlü, ..</p> 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/KGkAK/1/embedded/result,css,html"></iframe>
 
 Bu seçiciyi ie7’nin seçicisini destekliyor.
@@ -283,8 +285,9 @@ edebiliriz. 3 adet durum söz konusu
 
 Form elemanlarında bu durumlar HTML olarak
 
-[html] <textarea disabled="disabled"></textarea> <input
-checked="checked" type="checkbox"> [/html]
+	:::html
+	 <textarea disabled="disabled"></textarea> <input
+checked="checked" type="checkbox"> 
 
 şekilde tanımlanır. Form elemanlarının bu durumlarını kullanıcıya
 yansıtmamız lazım. Bu sayede daha kullanıcı dostu formlar oluşturmuş
@@ -296,9 +299,10 @@ solid #00cc00; } :checked { display: inline-block; width: 4em; }
 
 HTML kodumuz
 
-[html] <form id="testForm"> <input> <input type="checkbox">
+	:::html
+	 <form id="testForm"> <input> <input type="checkbox">
 <input type="radio" name="test"> <input type="radio" name="test">
-<input type="submit"> </form> [/html]
+<input type="submit"> </form> 
 <iframe style="width: 100%; height: 180px" src="http://jsfiddle.net/fatihhayri/KM9B4/embedded/result,css,html"></iframe>
 
 Basit bir örnek vermiş olsak dahi bu seçiciler ile neler
@@ -597,11 +601,12 @@ Opera 9.5+
 :empty sözde seçicisi alt elemanı(çocuk) olmayan elemanları yakalamak
 için kullanılır. Metinlerde buna dahildir.
 
-[html] <ul class="deneme"> <li></li> <li><a
+	:::html
+	 <ul class="deneme"> <li></li> <li><a
 href="">deneme</a></li> <li><strong></strong></li>
 <li><a href="">deneme</a> <ul> <li><a
 href="">deneme</a></li> <li><a href="">deneme</a></li>
-</ul> </li> </ul> [/html]
+</ul> </li> </ul> 
 
 CSS kodu
 
@@ -624,9 +629,10 @@ Opera 10.10+
 Olumsuzluk belirtmek için kullanılan sözde sınıftır. :not(seçici)
 şeklinde kullanılır. Jquery’den alışık olduğumuz bir seçicidir.
 
-[html] <h1>Deneme</h1> <h2>Alt Başlık</h2> <p>İçerik...</p>
+	:::html
+	 <h1>Deneme</h1> <h2>Alt Başlık</h2> <p>İçerik...</p>
 <p>İçerik...</p> <p>İçerik...</p>
-<blockquote>Dipnot</blockquote> [/html]
+<blockquote>Dipnot</blockquote> 
 
 CSS kodu
 

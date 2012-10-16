@@ -14,13 +14,14 @@ başlamıştım.
 
 İlk örnek şöyle idi;
 
-[html] <html> <head> <title>Merhaba Dünya!</title> <script>
+	:::html
+	 <html> <head> <title>Merhaba Dünya!</title> <script>
 function merhaba() //merhaba isimli fonksiyonu deklare ediyoruz { //bu,
 fonksiyonun başlama işareti alert ("Merhaba Dünya!") //fonksiyonun
 komutu ve komutun gerektirdiği metin } //bu fonksiyonun bitme işareti
 </script> </head> <body> <b>Merhaba Dünya</b><br> <form>
 <button onclick=merhaba()>TIKLAYINI!</button> </form> </body>
-<html> [/html]
+<html> 
 
 Bu satıriçi kodlamaya örnek olarak verilebilir.
 
@@ -33,12 +34,13 @@ dosyası ekleme kısmına girer.
 
 Bu dosyayı merhaba.js olarak kaydedip, sonra
 
-[html] <html> <head> <meta http-equiv="Content-Type"
+	:::html
+	 <html> <head> <meta http-equiv="Content-Type"
 content="text/html; charset=windows-1254"> <title>Merhaba
 Dünya!</title> <script src="merhaba.js"> </script> </head>
 <bodyY> <b>Merhaba Dünya</b><br> <form> <input type="submit"
 name="button1" value="TIKLAYIN!" onclick="merhaba()"> </form>
-</body> </html> [/html]
+</body> </html> 
 
 Şeklinde HTML dokümanına ekleriz.
 
@@ -72,11 +74,12 @@ dosyası yüklenip, işlendikten sonra diğer sayfa üyeleri yüklenir.
 Javascript dosyası yüklenip işlenmesi bitene kadar sayfa boş bir sayfa
 olarak görünür, tabi buda istenen bir durum değildir.
 
-[html] <html> <head> <title>Javascript yükleme yeri</title>
+	:::html
+	 <html> <head> <title>Javascript yükleme yeri</title>
 <script type="text/javascript" src="script1.js"></script> <script
 type="text/javascript" src="script2.js"></script> <link
 rel="stylesheet" type="text/css" href="stil.css"> </head> <body>
-<p>İçerik Burada</p> </body> </html> [/html]
+<p>İçerik Burada</p> </body> </html> 
 
 Sayfa başına konan javascript dosyalarının yüklenme zamanı aşağıdaki
 grafikte görüldüğü gibidir
@@ -115,8 +118,9 @@ HTML4 ile birlikte <script> etiketi içine defer özelliği eklenmiştir.
 sayfa yüklendikten sonra yüklenir ve çalıştırılır. Bu özelliği İnternet
 Explorer 4+ ve Firefox3.5+ desteklemektedir.
 
-[html] <script type="text/javascript" src="script1.js"
-defer></script> [/html]
+	:::html
+	 <script type="text/javascript" src="script1.js"
+defer></script> 
 
 şeklinde kullanılır. Bu dosyayı html dokümanının istediğimiz yerine
 koyabiliriz. Tüm tarayıcıların desteklmemesi kullanımı konusunda bizi

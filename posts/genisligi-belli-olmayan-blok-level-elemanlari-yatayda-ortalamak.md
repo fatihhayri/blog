@@ -20,8 +20,9 @@ paylaşacağım, siz kendinize uygun olan metodu uygulayabilirsiniz.
 Genelde bu yöntemi anlatırken menü örnekleri üzerinden anlatılmış bende
 geleneği bozmayayım.
 
-[html] <div id="menuKapsulu"> <ul> <li>Elma</li>
-<li>Armut</li> <li>Malta Eriği</li> </ul> </div> [/html]
+	:::html
+	 <div id="menuKapsulu"> <ul> <li>Elma</li>
+<li>Armut</li> <li>Malta Eriği</li> </ul> </div> 
 
 Alışkın olduğumuz bir menü kodu. CSS kodumuzu ekleyelim. İlk olarak
 kapsayıcı eleman tanımlarını yazalım.
@@ -76,8 +77,9 @@ tanımını bu sefer genişliği belli olmayan alanlar içinde kullanıyoruz.
 
 HTML kodumuz aynı;  
 
-[html] <div id="menuKapsulu"> <ul> <li>Elma</li>
-<li>Armut</li> <li>Malta Eriği</li> </ul> </div> [/html]
+	:::html
+	 <div id="menuKapsulu"> <ul> <li>Elma</li>
+<li>Armut</li> <li>Malta Eriği</li> </ul> </div> 
 
 Ortalanacak alana margin:0 auto ve display:table tanımlarını yapıyoruz.  
 

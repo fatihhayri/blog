@@ -22,7 +22,8 @@ ardalan resmini tanımlarız ve konumunuda sayfa dışına vererek(-9999px)
 görünmez yaparız. Böylelikle resim yüklenmiş olur ve sonradan yüklenen
 alanlar açıldığında görüntü problemi yaşamamış oluruz.
 
-[html] <div class="resimYukle"></div> [/html]
+	:::html
+	 <div class="resimYukle"></div> 
 
 CSS kodumuzda
 

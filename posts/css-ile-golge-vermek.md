@@ -30,8 +30,9 @@ verelim.
 
 Xhtml kodu:
 
-[html] <div class="resimKutusu"><img src="resim.jpg" width="300"
-height="300" alt="Vizara Köyü – Sürmene " /></div> [/html]
+	:::html
+	 <div class="resimKutusu"><img src="resim.jpg" width="300"
+height="300" alt="Vizara Köyü – Sürmene " /></div> 
 
 Yukarıdaki kodda görüldüğü gibi bir resim ve onu kapsayan bir katmanımız
 var. Kapsayıcı katmana(.resimKutu) gölge zemin resmini atayacağız.
@@ -108,9 +109,10 @@ versiyonları için .gif oluşturalım.
 
 ![Maske PNG örneği][]
 
-[html] <div class="resimKapsulu"> <div> <img
+	:::html
+	 <div class="resimKapsulu"> <div> <img
 src="images/koy_01.jpg" width="250" height="165" alt="Vizara Köyü –
-Sürmene" /> </div> </div> [/html]
+Sürmene" /> </div> </div> 
 
 Bu metodu uygulamak için
 <span class="alternatifard">**resimKapsulu**</span> katmanına alt sağa
@@ -192,9 +194,10 @@ katmanın sağ üst kısmına gölge kenarı vererek yapılır.
 </div>
 Temel html kodu:
 
-[html] <div class="nesneKapsayici1"> <div class="nesneKapsayici2">
+	:::html
+	 <div class="nesneKapsayici1"> <div class="nesneKapsayici2">
 <div class="nesneKapsayici3"> <img src="images/dunya.jpg" width="300"
-height="300" alt="Dünya" /> </div> </div> </div> [/html]
+height="300" alt="Dünya" /> </div> </div> </div> 
 
 İlk önce en dıştaki katmana gölge zemin resmini atayalım:
 

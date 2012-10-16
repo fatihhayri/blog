@@ -24,14 +24,16 @@ yapmış.
 
 Şimdiye kadar ve hala kullanmakta olduğumuz bir doctype örneği,
 
-[html] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> [/html]
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
 
 Yukarıdaki HTML etiketi bize bu html dokümanının xhtml 1.0 olduğunu ve
 Transitional ise hem HTML hemde XHTML kurallarının bu dokümanda geçerli
 olduğunu gösteriyor. Peki HTML5’de bu işi nasıl yapıyoruz.
 
-[html] <!DOCTYPE html> [/html]
+	:::html
+	 <!DOCTYPE html> 
 
 Bu kadar, kısa ve hafıza da kalıcı. HTML kodlarını Not Defteri ile
  yazdığım dönemlerde çok çekerdim bu Doctype tanımlarında. Git bir
@@ -46,8 +48,9 @@ HTML5 öncesi sürümler SGML kökenli diller olduğu için DTD tanımlarına
 gereksinim duyardı ancak HTML5 SGML kökenli olmadığı için buna gerek
 duymaz.
 
-[html] <!DOCTYPE HTML> <html> <head> </head> <body> ...
-</body> </html> [/html]
+	:::html
+	 <!DOCTYPE HTML> <html> <head> </head> <body> ...
+</body> </html> 
 
 Peki burada bir sürüm numarası yok nasıl sonraki sürümler ile bunu
 ayıracağız?
@@ -66,8 +69,9 @@ yinede bir tanım yapmak iyidir. İE’nin ne yapacağı belli olmaz.
 Html dokümanlarını çevreleyen kapsayıcı bir elemandır <html> html5
 öncesinde tanımımız
 
-[html] <html xmlns="http://www.w3.org/1999/xhtml" lang="en"
-xml:lang="en"> [/html]
+	:::html
+	 <html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+xml:lang="en"> 
 
 Şeklinde idi. Buradaki xmlns değeri bu dokümanın anaçatısının
 [http://www.w3.org/1999/xhtml][] kullandığını gösteriyor. HTML5
@@ -75,7 +79,8 @@ anaçatısı belli olduğu için tekrar tanımlamaya gerek duymuyor ve ayrıca
 iki adet dil tanımınında gereksiz olduğunu kabul ediyor ve sonuçta
 html5’teki tanımımız;
 
-[html] <html lang="en"></html> [/html]
+	:::html
+	 <html lang="en"></html> 
 
 şeklinde oluyor.
 
@@ -86,43 +91,50 @@ etiketleride ciddi manada basit hale getirmiştir.
 
 Karakter kodu için kullandığımız
 
-[html] <meta http-equiv="Content-Type" content="text/html;
-charset=utf-8" /> [/html]
+	:::html
+	 <meta http-equiv="Content-Type" content="text/html;
+charset=utf-8" /> 
 
 Yerine HTML5 karışılığı
 
-[html] <meta charset="UTF-8"> [/html]
+	:::html
+	 <meta charset="UTF-8"> 
 
 Gayet basit ve akılda kalıcı.
 
 Gelelim script eklemek için kullandığımız koda;
 
-[html] <script type="text/javascript" src="dosya_adi.js"></script>
-[/html]
+	:::html
+	 <script type="text/javascript" src="dosya_adi.js"></script>
+
 
 HTML5'de ise;
 
-[html] <script src="file.js"></script> [/html]
+	:::html
+	 <script src="file.js"></script> 
 
 Benzer şekilde ilişkilendirilmiş dokümanlar için kullandığımız
 
-[html] <link rel="stylesheet" href="style-original.css" type="text/css"
-/> [/html]
+	:::html
+	 <link rel="stylesheet" href="style-original.css" type="text/css"
+/> 
 
 yerine HTML5'de
 
-[html] <link rel="stylesheet" href="style-original.css" /> [/html]
+	:::html
+	 <link rel="stylesheet" href="style-original.css" /> 
 
 İşin kısacası, tüm tanımları olabildiğince kısaltmışlar. Süperde
 yapmışlar, şimdiye kadar bize çektirdikleri eziyet neydi kardeşim.
 
 Sonuç olarak bir HTML5 basit yapısı
 
-[html] <!DOCTYPE html> <html lang=""> <head> <meta
+	:::html
+	 <!DOCTYPE html> <html lang=""> <head> <meta
 charset="utf-8"> <title></title> <meta name="description"
 content="" /> <meta name="keywords" content="" /> <meta
 name="robots" content="" /> </head> <body> </body> </html>
-[/html]
+
 
 Şeklinde olacaktır.
 

@@ -24,7 +24,8 @@ Chrome 2+
 </div>
 Sayfa içi bağlantıları nasıl yaptığımı hatırlayalım.
 
-[html] <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	:::html
+	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
 http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -61,7 +62,7 @@ yapmaktadır...</p> <p><a href="#tepe">yukarı</a></p> </div>
 <p><strong>Halk</strong> Trabzon halkı adet , yaşam tarzı ,
 gelenek ve görenek bakımından kendine ve yöreye özgü özellikler
 taşımaktadır...</p> <p><a href="#tepe">yukarı</a></p>
-</div> </body> </html> [/html]
+</div> </body> </html> 
 
 Örneği görmek için [tıklayınız.][]
 

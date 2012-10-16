@@ -71,14 +71,16 @@ Daha sonra ufak tefek düzeltmeler için html sayfamızı bir html editörü
 ile açarız. <body> bg rengi olarak beyaz atanmış olarak gelir
 htmlimiz, bizim bg rengimiz gridir bu atamayı yaparız.
 
-[html]<body bgcolor="#858585" leftmargin="0" topmargin="0"
-marginwidth="0" marginheight="0">[/html]
+	:::html
+	<body bgcolor="#858585" leftmargin="0" topmargin="0"
+marginwidth="0" marginheight="0">
 
 Daha sonra mailing ortalamak için table elementine align=”center”
 eklemesi yaparız.
 
-[html]<table width="638" height="572" border="0" align="center"
-cellpadding="0" cellspacing="0" id="Table_01">[/html]
+	:::html
+	<table width="638" height="572" border="0" align="center"
+cellpadding="0" cellspacing="0" id="Table_01">
 
 Daha sonra bir önceki makalemizde önerdiğimiz eklemeleri yaparız.
 Resimlerin alt etiketini doldururuz. Resimlerin bulunduğu yeri tam
@@ -92,13 +94,15 @@ olarak kodlamak için resmi bu tablo hücresine bg resmi olarak
 tanımlarız. Resim tek renk görünsede aslında degradeli bir yapıya sahip
 olduğu için tablo hücresinin bg resmi olarak tanımlıyoruz.
 
-[html]<td colspan="2" background="images/odul_mailing_04.gif"
-width="638" height="172"></td>[/html]
+	:::html
+	<td colspan="2" background="images/odul_mailing_04.gif"
+width="638" height="172"></td>
 
 Daha sonra metinleri bu hücrenin içine yerleştirip stillerini ve
 biçimlerini tanımlıyoruz.
 
-[html] <td colspan="2" background="images/odul_mailing_04.gif"
+	:::html
+	 <td colspan="2" background="images/odul_mailing_04.gif"
 width="638" height="172" style="font-family:Arial, Helvetica,
 sans-serif; font-size:13px; color:#444444; padding-left:15px;
 padding-right:15px"><p><a href="#"
@@ -112,7 +116,7 @@ sollicitudin enim convallis sit amet. Suspendisse potenti.</strong>
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
 ridiculus mus. </p> <p>Cras porta aliquet viverra. Nulla facilisi.
 Praesent quam neque, suscipit <a href="#"
-style="color:#95ad62">scelerisque</a></p></td> [/html]
+style="color:#95ad62">scelerisque</a></p></td> 
 
 CSS kodlarımızı satıriçine yazdık, bu nedenle dikkat ediniz bağlantılara
 tanımladığımız rengi her bir bağlantıya tek tek tanımladık. Mailing

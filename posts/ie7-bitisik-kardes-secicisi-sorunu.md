@@ -19,8 +19,9 @@ Soruna gelirsek; Sorun Bitişik Kardeş Seçicileri kullandığımız elemanlar
 arasında eğer HTML yorum satırı eklersek ie7 bitişik kardeş seçicisi ile
 tanımladığımız bildirimleri yorumlamıyor.
 
-[html] <h2>Başlık</h2> <!-- html yorumu --> <p>Paragraf</p>
-[/html]
+	:::html
+	 <h2>Başlık</h2> <!-- html yorumu --> <p>Paragraf</p>
+
 
 CSS kodu
 
@@ -39,8 +40,9 @@ satırımı silmek istemem. Çözüm[ie6 sorunları][] ile uğraşırken
 bulduğumuz şekilde olacaktır. Şartlı yorumları kullanarak çözüme
 ulaşmakta mümkündür.
 
-[html] <h2>Başlık</h2> <!--[if !IE]>Başlık yaz <![endif]-->
-<p>Paragraf</p> <p>Paragraf 2</p> [/html]
+	:::html
+	 <h2>Başlık</h2> <!--[if !IE]>Başlık yaz <![endif]-->
+<p>Paragraf</p> <p>Paragraf 2</p> 
 
 Şeklinde bir çözüm işimizi görecektir.
 

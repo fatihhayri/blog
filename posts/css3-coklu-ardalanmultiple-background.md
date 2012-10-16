@@ -46,7 +46,8 @@ Bu yöntemi kullanarak daha önce yaptığımız [css ile buton yapmak][CSS
 ile buton yapmak] konumuzda anlattığımız Görselliği Arttırılmış Esnek
 Yapılı Butonlar yöntemi birde yeni bu tanım ile yapalım.
 
-[html] <a href="">Örnek Buton Metni</a> [/html]
+	:::html
+	 <a href="">Örnek Buton Metni</a> 
 
 CSS kodumuz
 
@@ -96,11 +97,12 @@ CSS Sprite resmimiz aşağıdaki gibi tek resim olacaktır.
 
 HTML kodu
 
-[html] <blockquote>Sevgide güneş gibi ol, dostluk ve kardeşlikte
+	:::html
+	 <blockquote>Sevgide güneş gibi ol, dostluk ve kardeşlikte
 akarsu gibi ol, hataları örtmede gece gibi ol, tevazuda toprak gibi ol,
 öfkede ölü gibi ol, her ne olursan ol, ya olduğun gibi görün, ya
 göründüğün gibi ol.</blockquote> <cite>Mevla'na Celaleddin-i
-Rumi</cite> [/html]
+Rumi</cite> 
 
 CSS kodu
 
@@ -133,10 +135,11 @@ kısmına girmeyeceğiz.
 
 HTML kodu
 
-[html] <div id="paralaks"> Lorem ipsum dolor sit amet, consectetur
+	:::html
+	 <div id="paralaks"> Lorem ipsum dolor sit amet, consectetur
 adipiscing elit. Pellentesque quam lacus, consequat eget sodales non,
 ultrices vitae arcu. Vivamus quis felis sit amet mi malesuada gravida
-vitae rhoncus diam. </div> [/html]
+vitae rhoncus diam. </div> 
 
 CSS kodu
 

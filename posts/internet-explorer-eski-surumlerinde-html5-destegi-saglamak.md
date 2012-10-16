@@ -35,14 +35,16 @@ Kullanımı çok basit. Internet Explorer 9 öncesi için [şartlı yorumlar][]
 ile kontrolü koyup diğer tarayıcılarda yüklenmesini engelleyerek daha
 mantıklı bir işlem yapıyoruz.
 
-[html] <!--[if lt IE 9]> <script src="dist/html5shiv.js">
-</script> <![endif]--> [/html]
+	:::html
+	 <!--[if lt IE 9]> <script src="dist/html5shiv.js">
+</script> <![endif]--> 
 
 Ayrıca google hostunda da barındırılıyor bu kod
 
-[html] <!--[if lt IE 9]> <script
+	:::html
+	 <!--[if lt IE 9]> <script
 src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]--> [/html]
+<![endif]--> 
 
 Bu şekilde daha hızlı bir erişim sağlanmış olur. Tabi büyük projelerin
 kendilerinde barındırmaları daha mantıklı.

@@ -30,7 +30,7 @@ document.createElement('script'); ga.type = 'text/javascript'; ga.async
 (document.getElementsByTagName('head')[0] ||
 document.getElementsByTagName('body')[0]).appendChild(ga); })();
 </script> <!-- site icegi buradan sonra gelir --> </body>
-</html> [/html]
+</html> 
 
 Kodumuz eskisi gibi karmaşık ama siz karmaşıklığa aldanmayın. Burada
 yapacağımız şey çok basit. 9. satırdaki **UA-XXXXXXX-X** kısım yerine
