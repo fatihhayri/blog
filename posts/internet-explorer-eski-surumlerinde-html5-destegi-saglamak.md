@@ -22,7 +22,7 @@ Javascript ile üretilen güzel bir çözüm mevcut. **html5shiv** olarak
 adlandırılan bu teknik temel mantık olarak
 
 	:::javascript
-	 document.createElement("section") 
+	 document.createElement("section");
 
 ile HTML5 eleman desteği olmayan tarayıcılar için js yardımı ile eleman
 oluşturarak çözüyor. Birde **<section>** ve diğer blok-level etiketler
@@ -37,15 +37,14 @@ ile kontrolü koyup diğer tarayıcılarda yüklenmesini engelleyerek daha
 mantıklı bir işlem yapıyoruz.
 
 	:::html
-	 <!--[if lt IE 9]> <script src="dist/html5shiv.js">
-</script> <![endif]--> 
+	 <!--[if lt IE 9]> <script src="dist/html5shiv.js"></script> <![endif]--> 
 
 Ayrıca google hostunda da barındırılıyor bu kod
 
 	:::html
-	 <!--[if lt IE 9]> <script
-src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]--> 
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]--> 
 
 Bu şekilde daha hızlı bir erişim sağlanmış olur. Tabi büyük projelerin
 kendilerinde barındırmaları daha mantıklı.
@@ -61,13 +60,9 @@ desteği için [Modernizr][] incelemekte yarar var.
 -   [http://ejohn.org/blog/html5-shiv/][]
 -   [http://www.pcpro.co.uk/blogs/2011/03/07/making-html5-work-in-old-versions-of-internet-explorer/][]
 -   [http://drupal.org/project/remysharp_html5shim][]
--   [http://debeterevormgever.nl/en/articles/html5-elements-ie-without-javascript][]
-    (js siz çözüm.)
--   [http://paulirish.com/2011/the-history-of-the-html5-shiv/][] (html5
-    shiv in geçmişi)
+-   [http://debeterevormgever.nl/en/articles/html5-elements-ie-without-javascript][] (js siz çözüm.)
+-   [http://paulirish.com/2011/the-history-of-the-html5-shiv/][] (html5 shiv in geçmişi)
 -   [http://viget.com/inspire/html5-elements-irresponsible-choice-right-now][]
-
-</p>
 
   [%28 kullanım oranı sahip tarayıcılar]: http://labs.sahibinden.com/yazi/sahibinden-com-nisan-2012-ziyaretci-teknoloji-istatistikleri/
   [şartlı yorumlar]: http://www.fatihhayrioglu.com/iede-hata-ayiklamak-icin-sartli-yorumlar-kullanmak/

@@ -17,7 +17,7 @@
             </aside><!-- /#featured -->
             {% if loop.length > 1 %}
                 <section id="content" class="body">
-                    <h1>Other articles</h1>
+                    <h1>Diğer yazılar</h1>
                     <hr />
                     <ol id="posts-list" class="hfeed">
             {% endif %}
@@ -36,7 +36,7 @@
                 <div class="entry-content">
                 {% include 'article_infos.html' %}
                 {{ article.summary }}
-                <a class="readmore" href="{{ SITEURL }}/{{ article.url }}">read more</a>
+                <a class="readmore" href="{{ SITEURL }}/{{ article.url }}">devamını oku</a>
                 {% include 'comments.html' %}
                 </div><!-- /.entry-content -->
             </article></li>
@@ -52,7 +52,7 @@
     {% endfor %}
 {% else %}
 <section id="content" class="body">    
-<h2>Pages</h2>
+<h2>Sayfalar</h2>
     {% for page in PAGES %}
         <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
     {% endfor %}

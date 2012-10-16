@@ -31,26 +31,19 @@ geçişi özelliğini tanımlamak için bir kod yazmamız gerektiğinde
 aşağıdaki gibi bir kod bloğunu eklememiz gerekiyor.
 
 	:::css
-	 background: #1e5799; /* Old browsers */ background:
--moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%,
-#7db9e8 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left
-top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8),
-color-stop(51%,#207cca), color-stop(100%,#7db9e8)); /*
-Chrome,Safari4+ */ background: -webkit-linear-gradient(top, #1e5799
-0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+
-*/ background: -o-linear-gradient(top, #1e5799 0%,#2989d8
-50%,#207cca 51%,#7db9e8 100%); /* Opera 11.10+ */ background:
--ms-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8
-100%); /* IE10+ */ background: linear-gradient(top, #1e5799
-0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C */ filter:
-progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799',
-endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */ 
+	 background: #1e5799; /* Old browsers */ 
+	 background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6+ */ 
+	 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+	 background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+	 background: -o-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Opera 11.10+ */
+	 background: -ms-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* IE10+ */
+	 background: linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C */
+	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */ 
 
 Şeklinde bir renk geçişi tanımı göz korkutuyor. Bu kod aslında tek satır
 
 	:::css
-	 background: linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca
-51%,#7db9e8 100%); 
+	 background: linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); 
 
 Ancak farklı tarayıcılar için kod yazınca yukarıdaki hali alıyor.
 
@@ -110,18 +103,37 @@ tanımlarımızı bu tanım üzerinden yaparak önek sorununu halledebiliriz.
 **SASS**
 
 	:::css
-	 @mixin border-radius($values) { -webkit-border-radius: $values;
--moz-border-radius: $values; border-radius: $values; } div { @include
-border-radius(10px); }  	:::css
-	 .border-radius(@values) {
--webkit-border-radius: @values; -moz-border-radius: @values;
-border-radius: @values; } div { .border-radius(10px); } 
+	 @mixin border-radius($values) { 
+	 	-webkit-border-radius: $values;
+		-moz-border-radius: $values; 
+		border-radius: $values;
+	} 
+	
+	div { 
+		@include border-radius(10px); 
+	}
+
+ve
+
+	:::css
+	.border-radius(@values) {
+		-webkit-border-radius: @values; 
+		-moz-border-radius: @values;
+		border-radius: @values; 
+	} 
+	
+	div { 
+		.border-radius(10px);
+	} 
 
 sonuç olarak üretilen CSS
 
 	:::css
-	 div { -webkit-border-radius: 10px; -moz-border-radius: 10px;
-border-radius: 10px; } 
+	 div { 
+	 	-webkit-border-radius: 10px; 
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+	} 
 
 LESS ve SASS gibi yapıları sitenizde kullanıyorsanız sorunun çözümü için
 güzel bir seçenek bunlar.
@@ -156,8 +168,7 @@ Zamanla göreceği bakalım neler olacak.
 ### Kaynaklar
 
 -   [http://www.css3.info/why-and-when-browsers-prefix-css3-features/][]
--   [http://www.webresourcesdepot.com/instantly-prefix-css3-code-prefixmycss/][]
-    (araçlar)
+-   [http://www.webresourcesdepot.com/instantly-prefix-css3-code-prefixmycss/][] (araçlar)
 -   [http://reference.sitepoint.com/css/vendorspecific][]
 -   [http://www.quirksmode.org/blog/archives/2010/03/css_vendor_pref.html][]
 -   [http://www.mightymeta.co.uk/1103/no-more-need-for-some-css3-vendor-prefixes/][]
@@ -165,20 +176,16 @@ Zamanla göreceği bakalım neler olacak.
 -   [http://www.webmonkey.com/2010/09/firefox-4-to-drop-some-css-vendor-prefixes/][]
 -   [http://snook.ca/archives/html_and_css/not-supported][]
 -   [http://css-tricks.com/7361-ordering-css3-properties/][]
--   [http://coding.smashingmagazine.com/2011/10/12/prefixfree-break-free-from-css-prefix-hell/][]
-    (çözüm)
+-   [http://coding.smashingmagazine.com/2011/10/12/prefixfree-break-free-from-css-prefix-hell/][] (çözüm)
 -   [http://www.sitepoint.com/w3c-css-webkit-prefix-crisis][]
 -   [http://lea.verou.me/2011/11/vendor-prefixes-have-failed-whats-next/][]
 -   [http://prefixmycss.com/][]
--   [http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-never-type-a-vendor-prefix-again/][]
-    (less ile çözüm)
+-   [http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-never-type-a-vendor-prefix-again/][] (less ile çözüm)
 -   [http://www.alistapart.com/articles/the-vendor-prefix-predicament-alas-eric-meyer-interviews-tantek-celik/][]
 -   [http://www.sitepoint.com/css3-vendor-prefix-crisis-solutions/][]
--   [http://annevankesteren.nl/2012/04/prefixes][] (opera webkit
-    öneklerini kabul edecek)
+-   [http://annevankesteren.nl/2012/04/prefixes][] (opera webkit öneklerini kabul edecek)
 -   [http://www.webmonkey.com/2012/05/vendor-tokens-offer-another-way-out-of-the-css-prefix-mess/][]
--   [http://peter.sh/experiments/vendor-prefixed-css-property-overview/][]
-    (tüm önek listesi)
+-   [http://peter.sh/experiments/vendor-prefixed-css-property-overview/][] (tüm önek listesi)
 -   [http://leaverou.github.com/prefixfree/][]
 -   [http://kilianvalkhof.com/2010/css-xhtml/css-vendor-prefixes-considered-important/][]
 -   [http://hsivonen.iki.fi/vendor-prefixes/][]
@@ -186,7 +193,7 @@ Zamanla göreceği bakalım neler olacak.
 -   [http://www.glazman.org/weblog/dotclear/index.php?post/2011/11/16/CSS-vendor-prefixes-an-answer-to-Henri-Sivonen][]
 -   [http://christianheilmann.com/2012/02/09/now-vendor-prefixes-have-become-a-problem-want-to-help-fix-it/][]
 -   [http://net.tutsplus.com/tutorials/html-css-techniques/sass-vs-less-vs-stylus-a-preprocessor-shootout/][]
--   http://www.sitepoint.com/12-css3-vendor-prefix-crisis-myths/
+-   [http://www.sitepoint.com/12-css3-vendor-prefix-crisis-myths/](http://www.sitepoint.com/12-css3-vendor-prefix-crisis-myths/)
 
 </p>
 
