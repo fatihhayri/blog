@@ -98,8 +98,7 @@ background:#fff url(yukariok.gif) 0 0; display:block; font-size:1px; }
   [tıklayınız.]: /dokumanlar/arac_ipucu_1.html
   [1]: /dokumanlar/arac_ipucu_3.html
   [2]: /dokumanlar/arac_ipucu_2.html
-  [http://www.smashingmagazine.com/2007/06/12/tooltips-scripts-ajax-javascript-css-dhtml/]:
-    http://www.smashingmagazine.com/2007/06/12/tooltips-scripts-ajax-javascript-css-dhtml/
+  [http://www.smashingmagazine.com/2007/06/12/tooltips-scripts-ajax-javascript-css-dhtml/]:    http://www.smashingmagazine.com/2007/06/12/tooltips-scripts-ajax-javascript-css-dhtml/
   [http://www.cssplay.co.uk/menu/tooltips.html]: http://www.cssplay.co.uk/menu/tooltips.html
   [http://www.communitymx.com/content/article.cfm?page=1&cid=4E2C0]: http://www.communitymx.com/content/article.cfm?page=1&cid=4E2C0
   [http://psacake.com/web/jl.asp]: http://psacake.com/web/jl.asp

@@ -237,10 +237,8 @@ Hoşçakalın.
   [http://latrine.dgx.cz/how-to-correctly-insert-a-flash-into-xhtml]: http://latrine.dgx.cz/how-to-correctly-insert-a-flash-into-xhtml
   [http://blog.deconcept.com/swfobject/]: http://blog.deconcept.com/swfobject/
   [http://www.tizag.com/flashTutorial/flashhtmlcode.php]: http://www.tizag.com/flashTutorial/flashhtmlcode.php
-  [http://www.ispringsolutions.com/articles/how_to_insert_flash_into_html.html]:
-    http://www.ispringsolutions.com/articles/how_to_insert_flash_into_html.html
-  [http://groups.google.com/group/swfobject/browse_thread/thread/eeb1c721a0c10a90?pli=1]:
-    http://groups.google.com/group/swfobject/browse_thread/thread/eeb1c721a0c10a90?pli=1
+  [http://www.ispringsolutions.com/articles/how_to_insert_flash_into_html.html]:    http://www.ispringsolutions.com/articles/how_to_insert_flash_into_html.html
+  [http://groups.google.com/group/swfobject/browse_thread/thread/eeb1c721a0c10a90?pli=1]:    http://groups.google.com/group/swfobject/browse_thread/thread/eeb1c721a0c10a90?pli=1
   [http://www.alistapart.com/articles/flashembedcagematch/]: http://www.alistapart.com/articles/flashembedcagematch/
   [http://www.webogrencisi.com/swfobject-1-5-flash-obje-ekleme-betigi]: http://www.webogrencisi.com/swfobject-1-5-flash-obje-ekleme-betigi
   [http://www.reelseo.com/swfobject-video-seo/]: http://www.reelseo.com/swfobject-video-seo/

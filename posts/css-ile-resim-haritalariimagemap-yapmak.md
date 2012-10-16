@@ -134,8 +134,7 @@ avantaj sağlar.
   [Dexter HTML kesiyormuş.]: http://www.flickr.com/photos/mollyeh11/2720714668/
     "Dexter HTML kesiyormuş."
   [Dexter - HTML]: /images/flickr_dexter.jpg
-  [<span class="dis"><span class="ic"><span class="bilgi">Dexter</span></span></span>]:
-    http://www.sho.com/site/dexter/
+  [<span class="dis"><span class="ic"><span class="bilgi">Dexter</span></span></span>]:    http://www.sho.com/site/dexter/
   [<span class="dis"><span class="ic"><span class="bilgi">HTML
   4</span></span></span>]: http://www.w3.org/TR/REC-html40/
   [tıklayınız]: http://www.fatihhayrioglu.com/dokumanlar/flickr-rollovers.htm

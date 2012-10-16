@@ -220,25 +220,21 @@ sitesini ziyaret etmenizi öneririm.
   [1]: /dokumanlar/sayfalama3.html "Yahoyt Sayfalama Örneği"
   [Bonus Kampanya Sayfalama]: /images/sayfalama2.gif
   [2]: /dokumanlar/sayfalama2.html "Bonus Kampanyalar Sayfalama Örneği"
-  [http://mis-algoritmos.com/2007/03/16/some-styles-for-your-pagination/]:
-    http://mis-algoritmos.com/2007/03/16/some-styles-for-your-pagination/
+  [http://mis-algoritmos.com/2007/03/16/some-styles-for-your-pagination/]:    http://mis-algoritmos.com/2007/03/16/some-styles-for-your-pagination/
     "http://mis-algoritmos.com/2007/03/16/some-styles-for-your-pagination/"
   [http://kurafire.net/log/archive/2007/06/22/pagination-101]: http://kurafire.net/log/archive/2007/06/22/pagination-101
     "http://kurafire.net/log/archive/2007/06/22/pagination-101"
-  [http://woork.blogspot.com/2008/03/perfect-pagination-style-using-css.html]:
-    http://woork.blogspot.com/2008/03/perfect-pagination-style-using-css.html
+  [http://woork.blogspot.com/2008/03/perfect-pagination-style-using-css.html]:    http://woork.blogspot.com/2008/03/perfect-pagination-style-using-css.html
     "http://woork.blogspot.com/2008/03/perfect-pagination-style-using-css.html"
   [http://arjaneising.nl/html/tips-for-better-pagination]: http://arjaneising.nl/html/tips-for-better-pagination
     "http://arjaneising.nl/html/tips-for-better-pagination"
-  [http://www.dynamicdrive.com/style/csslibrary/item/css_pagination_links/]:
-    http://www.dynamicdrive.com/style/csslibrary/item/css_pagination_links/
+  [http://www.dynamicdrive.com/style/csslibrary/item/css_pagination_links/]:    http://www.dynamicdrive.com/style/csslibrary/item/css_pagination_links/
     "http://www.dynamicdrive.com/style/csslibrary/item/css_pagination_links/"
   [http://www.thewebhelp.com/css/pagination_style_template/]: http://www.thewebhelp.com/css/pagination_style_template/
     "http://www.thewebhelp.com/css/pagination_style_template/"
   [http://css.dzone.com/news/a-digg-flickr-pagination-style]: http://css.dzone.com/news/a-digg-flickr-pagination-style
     "http://css.dzone.com/news/a-digg-flickr-pagination-style"
-  [http://www.smashingmagazine.com/2007/11/16/pagination-gallery-examples-and-good-practices/]:
-    http://www.smashingmagazine.com/2007/11/16/pagination-gallery-examples-and-good-practices/
+  [http://www.smashingmagazine.com/2007/11/16/pagination-gallery-examples-and-good-practices/]:    http://www.smashingmagazine.com/2007/11/16/pagination-gallery-examples-and-good-practices/
     "http://www.smashingmagazine.com/2007/11/16/pagination-gallery-examples-and-good-practices/"
   [http://komunitasweb.com/2009/03/42-pagination-design-inspiration/]: http://komunitasweb.com/2009/03/42-pagination-design-inspiration/
     "http://komunitasweb.com/2009/03/42-pagination-design-inspiration/"

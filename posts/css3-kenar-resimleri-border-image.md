@@ -260,28 +260,23 @@ uygulanabilirliği var.
   [zurb.com]: http://zurb.com/
   [1]: https://lh4.googleusercontent.com/8QsLUbb5ZJMp8ADjUHjhB2WkWRoJUbpS_XhpVEvVnGOZSDWhl-y7GoBUmSr-elGj7jXxS6wZvBkMRRtiwmzEHLacray1AC-0mhI8K_2FdTspbpDQxFs
   [http://border-image.com]: http://border-image.com/
-  [http://www.norabrowndesign.com/css-experiments/border-image-anim.html]:
-    http://www.norabrowndesign.com/css-experiments/border-image-anim.html
+  [http://www.norabrowndesign.com/css-experiments/border-image-anim.html]:    http://www.norabrowndesign.com/css-experiments/border-image-anim.html
   [2]: https://lh6.googleusercontent.com/EGaD-qHZbUWYstl-bWzS4gXGZVIUOtjTzSC4Ts4RCV2Nlp5mwP5Frxw6E_T3Vnx368_00tmTvv0mQzolvTXvD8w4JZoMyna8Q2GfdP0xSCgyFg7zfNI
   [3]: https://lh6.googleusercontent.com/_f6rtZcfaMwrcVDUnEySHv5YRELXr-_IGpMxshGjOjbx2Uisj_kAPqenT7FpwiqPMQcRIM4-1Yua0CxixYh3JUPpe4xIZegphhG6X9skfbMF9JPsGU4
   [http://www.w3.org/TR/css3-background/#border-images]: http://www.w3.org/TR/css3-background/#border-images
   [http://www.css3.info/preview/border-image/]: http://www.css3.info/preview/border-image/
   [http://www.sitepoint.com/css3-border-image/]: http://www.sitepoint.com/css3-border-image/
   [http://css-tricks.com/6883-understanding-border-image/]: http://css-tricks.com/6883-understanding-border-image/
-  [http://www.useragentman.com/blog/2011/03/29/pixel-perfect-css3-border-image-in-depth/]:
-    http://www.useragentman.com/blog/2011/03/29/pixel-perfect-css3-border-image-in-depth/
-  [http://www.seyfullahkilic.com/web-tasariminizi-css3-ile-gelecege-tasiyin]:
-    http://www.seyfullahkilic.com/web-tasariminizi-css3-ile-gelecege-tasiyin
+  [http://www.useragentman.com/blog/2011/03/29/pixel-perfect-css3-border-image-in-depth/]:    http://www.useragentman.com/blog/2011/03/29/pixel-perfect-css3-border-image-in-depth/
+  [http://www.seyfullahkilic.com/web-tasariminizi-css3-ile-gelecege-tasiyin]:    http://www.seyfullahkilic.com/web-tasariminizi-css3-ile-gelecege-tasiyin
   [http://www.zurb.com/playground/awesome-overlays]: http://www.zurb.com/playground/awesome-overlays
   [http://www.suburban-glory.com/blog?page=111]: http://www.suburban-glory.com/blog?page=111
   [http://ejohn.org/blog/border-image-in-firefox/]: http://ejohn.org/blog/border-image-in-firefox/
   [https://developer.mozilla.org/en/CSS/-moz-border-image]: https://developer.mozilla.org/en/CSS/-moz-border-image
-  [http://www.dynamicdrive.com/style/csslibrary/item/image_frames_using_css3_border_image/]:
-    http://www.dynamicdrive.com/style/csslibrary/item/image_frames_using_css3_border_image/
+  [http://www.dynamicdrive.com/style/csslibrary/item/image_frames_using_css3_border_image/]:    http://www.dynamicdrive.com/style/csslibrary/item/image_frames_using_css3_border_image/
   [http://caniuse.com/border-image]: http://caniuse.com/border-image
   [http://ensightful.com/walrus-ivory-tusk-with-animals]: http://ensightful.com/walrus-ivory-tusk-with-animals
-  [http://dev.opera.com/articles/view/css3-border-background-boxshadow/#border-image]:
-    http://dev.opera.com/articles/view/css3-border-background-boxshadow/#border-image
+  [http://dev.opera.com/articles/view/css3-border-background-boxshadow/#border-image]:    http://dev.opera.com/articles/view/css3-border-background-boxshadow/#border-image
   [http://people.opera.com/pepelsbey/experiments/bdi/]: http://people.opera.com/pepelsbey/experiments/bdi/
   [http://michaelhan.net/wordsets/20/]: http://michaelhan.net/wordsets/20/
   [http://www.impressivewebs.com/space-round-css3-background/]: http://www.impressivewebs.com/space-round-css3-background/

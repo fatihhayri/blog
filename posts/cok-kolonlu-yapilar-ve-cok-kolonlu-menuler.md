@@ -408,8 +408,7 @@ yazdım linklerini.
     "http://www.cssplay.co.uk/menus/drop_lists.html"
   [http://www.cssplay.co.uk/menu/column.html]: http://www.cssplay.co.uk/menu/column.html
     "http://www.cssplay.co.uk/menu/column.html"
-  [http://blog.pengoworks.com/index.cfm/2008/4/3/Preview-jQuery-Multicolumn-Dropdown-Plugin]:
-    http://blog.pengoworks.com/index.cfm/2008/4/3/Preview-jQuery-Multicolumn-Dropdown-Plugin
+  [http://blog.pengoworks.com/index.cfm/2008/4/3/Preview-jQuery-Multicolumn-Dropdown-Plugin]:    http://blog.pengoworks.com/index.cfm/2008/4/3/Preview-jQuery-Multicolumn-Dropdown-Plugin
     "http://blog.pengoworks.com/index.cfm/2008/4/3/Preview-jQuery-Multicolumn-Dropdown-Plugin"
   [http://green-beast.com/experiments/css_double_lists.php]: http://green-beast.com/experiments/css_double_lists.php
     "http://green-beast.com/experiments/css_double_lists.php"
@@ -419,11 +418,9 @@ yazdım linklerini.
     "http://welcome.hp.com/country/tr/tr/welcome.html"
   [http://css.flepstudio.org/en/css3/multi-column.html]: http://css.flepstudio.org/en/css3/multi-column.html
     "http://css.flepstudio.org/en/css3/multi-column.html"
-  [http://www.smashingmagazine.com/2009/03/24/designing-drop-down-menus-examples-and-best-practices/]:
-    http://www.smashingmagazine.com/2009/03/24/designing-drop-down-menus-examples-and-best-practices/
+  [http://www.smashingmagazine.com/2009/03/24/designing-drop-down-menus-examples-and-best-practices/]:    http://www.smashingmagazine.com/2009/03/24/designing-drop-down-menus-examples-and-best-practices/
     "http://www.smashingmagazine.com/2009/03/24/designing-drop-down-menus-examples-and-best-practices/"
-  [http://www.cvwdesign.com/txp/article/360/multi-column-layout-with-css3-and-some-javascript]:
-    http://www.cvwdesign.com/txp/article/360/multi-column-layout-with-css3-and-some-javascript
+  [http://www.cvwdesign.com/txp/article/360/multi-column-layout-with-css3-and-some-javascript]:    http://www.cvwdesign.com/txp/article/360/multi-column-layout-with-css3-and-some-javascript
     "http://www.cvwdesign.com/txp/article/360/multi-column-layout-with-css3-and-some-javascript"
   [http://www.sohtanaka.com/web-design/mega-drop-downs-w-css-jquery/]: http://www.sohtanaka.com/web-design/mega-drop-downs-w-css-jquery/
     "http://www.sohtanaka.com/web-design/mega-drop-downs-w-css-jquery/"
@@ -441,9 +438,7 @@ yazdım linklerini.
     "http://www.cssplay.co.uk/menus/multi-column.html"
   [http://www.whitehouse.gov/]: http://www.whitehouse.gov/
     "http://www.whitehouse.gov/"
-  [http://www.wittysparks.com/2009/09/21/build-multi-level-multi-column-multi-menus-with-pure-css/]:
-    http://www.wittysparks.com/2009/09/21/build-multi-level-multi-column-multi-menus-with-pure-css/
+  [http://www.wittysparks.com/2009/09/21/build-multi-level-multi-column-multi-menus-with-pure-css/]:    http://www.wittysparks.com/2009/09/21/build-multi-level-multi-column-multi-menus-with-pure-css/
     "http://www.wittysparks.com/2009/09/21/build-multi-level-multi-column-multi-menus-with-pure-css/"
-  [http://www.smileycat.com/design_elements/mega_dropdown_menus/#001915]:
-    http://www.smileycat.com/design_elements/mega_dropdown_menus/#001915
+  [http://www.smileycat.com/design_elements/mega_dropdown_menus/#001915]:    http://www.smileycat.com/design_elements/mega_dropdown_menus/#001915
     "http://www.smileycat.com/design_elements/mega_dropdown_menus/#001915"

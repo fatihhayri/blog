@@ -167,23 +167,18 @@ Chrome ve Safari desteklediği için pek kullanışlı değil.
   [background özelliklerini]: http://www.fatihhayrioglu.com/hizli-css-referansi/
   []: https://lh6.googleusercontent.com/-PsvxlredrDNUaFBqk4tcxuxsLaw9XJAeTIfp53XKqD2CkZgPqnN7UkCvkm1nSveS_plE_wPOGgUzpVVJ1JGeq_6bWXEkSun-0KS9CC1JMnz19Lusfw
   [1]: https://lh6.googleusercontent.com/MOaRt6WqnrAxmlxJNMcvGKvA-Ki9x0IQOpz_Az4iqzZU6Ug3Dt1vutHFus__ZMQSORq3eLvhtrgzeWFPMzptoBB5pMxLHIWjoA26SO009nYr4fxoUrU
-  [http://www.css3.info/preview/background-origin-and-background-clip/]:
-    http://www.css3.info/preview/background-origin-and-background-clip/
+  [http://www.css3.info/preview/background-origin-and-background-clip/]:    http://www.css3.info/preview/background-origin-and-background-clip/
   [http://www.w3.org/TR/css3-background/]: http://www.w3.org/TR/css3-background/
   [http://www.quirksmode.org/css/background.html]: http://www.quirksmode.org/css/background.html
   [http://www.w3schools.com/cssref/css3_pr_background-clip.asp]: http://www.w3schools.com/cssref/css3_pr_background-clip.asp
   [http://www.standardista.com/css3/css3-background-properties/]: http://www.standardista.com/css3/css3-background-properties/
-  [http://css-tricks.com/7423-transparent-borders-with-background-clip/]:
-    http://css-tricks.com/7423-transparent-borders-with-background-clip/
+  [http://css-tricks.com/7423-transparent-borders-with-background-clip/]:    http://css-tricks.com/7423-transparent-borders-with-background-clip/
   [https://developer.mozilla.org/en/CSS/background-clip]: https://developer.mozilla.org/en/CSS/background-clip
   [https://developer.mozilla.org/en/CSS/background-origin]: https://developer.mozilla.org/en/CSS/background-origin
-  [http://dev.opera.com/articles/view/css3-border-background-boxshadow/]:
-    http://dev.opera.com/articles/view/css3-border-background-boxshadow/
-  [http://www.sitepoint.com/new-properties-and-values-in-backgrounds-with-css3/]:
-    http://www.sitepoint.com/new-properties-and-values-in-backgrounds-with-css3/
+  [http://dev.opera.com/articles/view/css3-border-background-boxshadow/]:    http://dev.opera.com/articles/view/css3-border-background-boxshadow/
+  [http://www.sitepoint.com/new-properties-and-values-in-backgrounds-with-css3/]:    http://www.sitepoint.com/new-properties-and-values-in-backgrounds-with-css3/
   [http://www.css3.info/webkit-introduces-background-cliptext/]: http://www.css3.info/webkit-introduces-background-cliptext/
-  [http://www.cssreset.com/2010/css-tutorials/fun-with-webkit-background-clip-and-font-face/]:
-    http://www.cssreset.com/2010/css-tutorials/fun-with-webkit-background-clip-and-font-face/
+  [http://www.cssreset.com/2010/css-tutorials/fun-with-webkit-background-clip-and-font-face/]:    http://www.cssreset.com/2010/css-tutorials/fun-with-webkit-background-clip-and-font-face/
   [http://www.webkit.org/blog/164/background-clip-text/]: http://www.webkit.org/blog/164/background-clip-text/
   [http://www.impressivewebs.com/background-clip-css3/]: http://www.impressivewebs.com/background-clip-css3/
   [http://css-class.com/test/css/backgrounds/background-origin1.htm]: http://css-class.com/test/css/backgrounds/background-origin1.htm

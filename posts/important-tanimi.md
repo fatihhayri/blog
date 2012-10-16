@@ -148,10 +148,7 @@ okunaksız hale getirebilir, buna dikkat etmek gerekir.
   [http://www.fatihhayrioglu.com/css-de-kodumuzu-ieden-gizleme/]: http://www.fatihhayrioglu.com/css-de-kodumuzu-ieden-gizleme/
   [Fatih Turan]: http://www.fatihturan.com/
   [http://bytesizecss.com/blog/post/ie6-and-the-important-rule/]: http://bytesizecss.com/blog/post/ie6-and-the-important-rule/
-  [http://www.impressivewebs.com/everything-you-need-to-know-about-the-important-css-declaration/]:
-    http://www.impressivewebs.com/everything-you-need-to-know-about-the-important-css-declaration/
+  [http://www.impressivewebs.com/everything-you-need-to-know-about-the-important-css-declaration/]:    http://www.impressivewebs.com/everything-you-need-to-know-about-the-important-css-declaration/
   [http://www.electrictoolbox.com/using-important-css/]: http://www.electrictoolbox.com/using-important-css/
-  [http://www.webcredible.co.uk/user-friendly-resources/web-dev/css-important.shtml]:
-    http://www.webcredible.co.uk/user-friendly-resources/web-dev/css-important.shtml
-  [http://www.yellowjug.com/web-design/the-importance-of-important-in-css/]:
-    http://www.yellowjug.com/web-design/the-importance-of-important-in-css/
+  [http://www.webcredible.co.uk/user-friendly-resources/web-dev/css-important.shtml]:    http://www.webcredible.co.uk/user-friendly-resources/web-dev/css-important.shtml
+  [http://www.yellowjug.com/web-design/the-importance-of-important-in-css/]:    http://www.yellowjug.com/web-design/the-importance-of-important-in-css/

@@ -192,63 +192,46 @@ yükselme yaşansa bile daha sonra düşüşün devam edeceğini düşünüyorum
   [4]: https://docs.google.com/File?id=dhctmbn6_4824b9d8xhq_b
   [http://articles.sitepoint.com/article/whats-new-in-ie9]: http://articles.sitepoint.com/article/whats-new-in-ie9
     "http://articles.sitepoint.com/article/whats-new-in-ie9"
-  [http://lifehacker.com/#!5638885/internet-explorer-screenshot-tour-the-best-new-features-in-ie9]:
-    http://lifehacker.com/#!5638885/internet-explorer-screenshot-tour-the-best-new-features-in-ie9
-  [http://windows.microsoft.com/tr-TR/internet-explorer/products/ie-9/features/fast]:
-    http://windows.microsoft.com/tr-TR/internet-explorer/products/ie-9/features/fast
+  [http://lifehacker.com/#!5638885/internet-explorer-screenshot-tour-the-best-new-features-in-ie9]:    http://lifehacker.com/#!5638885/internet-explorer-screenshot-tour-the-best-new-features-in-ie9
+  [http://windows.microsoft.com/tr-TR/internet-explorer/products/ie-9/features/fast]:    http://windows.microsoft.com/tr-TR/internet-explorer/products/ie-9/features/fast
     "http://windows.microsoft.com/tr-TR/internet-explorer/products/ie-9/features/fast"
-  [http://blogs.msdn.com/ie/archive/2010/03/16/IE9-Platform-Preview-Feedback.aspx]:
-    http://blogs.msdn.com/ie/archive/2010/03/16/IE9-Platform-Preview-Feedback.aspx
+  [http://blogs.msdn.com/ie/archive/2010/03/16/IE9-Platform-Preview-Feedback.aspx]:    http://blogs.msdn.com/ie/archive/2010/03/16/IE9-Platform-Preview-Feedback.aspx
     "http://blogs.msdn.com/ie/archive/2010/03/16/IE9-Platform-Preview-Feedback.aspx"
-  [http://blogs.msdn.com/ie/archive/2010/03/16/html5-hardware-accelerated-first-ie9-platform-preview-available-for-developers.aspx]:
-    http://blogs.msdn.com/ie/archive/2010/03/16/html5-hardware-accelerated-first-ie9-platform-preview-available-for-developers.aspx
+  [http://blogs.msdn.com/ie/archive/2010/03/16/html5-hardware-accelerated-first-ie9-platform-preview-available-for-developers.aspx]:    http://blogs.msdn.com/ie/archive/2010/03/16/html5-hardware-accelerated-first-ie9-platform-preview-available-for-developers.aspx
     "http://blogs.msdn.com/ie/archive/2010/03/16/html5-hardware-accelerated-first-ie9-platform-preview-available-for-developers.aspx"
-  [http://blogs.msdn.com/ie/archive/2010/03/18/the-new-javascript-engine-in-internet-explorer-9.aspx]:
-    http://blogs.msdn.com/ie/archive/2010/03/18/the-new-javascript-engine-in-internet-explorer-9.aspx
+  [http://blogs.msdn.com/ie/archive/2010/03/18/the-new-javascript-engine-in-internet-explorer-9.aspx]:    http://blogs.msdn.com/ie/archive/2010/03/18/the-new-javascript-engine-in-internet-explorer-9.aspx
     "http://blogs.msdn.com/ie/archive/2010/03/18/the-new-javascript-engine-in-internet-explorer-9.aspx"
-  [http://blogs.msdn.com/ie/archive/2010/03/18/svg-in-ie9-roadmap.aspx]:
-    http://blogs.msdn.com/ie/archive/2010/03/18/svg-in-ie9-roadmap.aspx
+  [http://blogs.msdn.com/ie/archive/2010/03/18/svg-in-ie9-roadmap.aspx]:    http://blogs.msdn.com/ie/archive/2010/03/18/svg-in-ie9-roadmap.aspx
     "http://blogs.msdn.com/ie/archive/2010/03/18/svg-in-ie9-roadmap.aspx"
-  [http://arstechnica.com/microsoft/news/2010/03/platform-preview-gives-web-developers-first-taste-of-ie9.ars]:
-    http://arstechnica.com/microsoft/news/2010/03/platform-preview-gives-web-developers-first-taste-of-ie9.ars
+  [http://arstechnica.com/microsoft/news/2010/03/platform-preview-gives-web-developers-first-taste-of-ie9.ars]:    http://arstechnica.com/microsoft/news/2010/03/platform-preview-gives-web-developers-first-taste-of-ie9.ars
     "http://arstechnica.com/microsoft/news/2010/03/platform-preview-gives-web-developers-first-taste-of-ie9.ars"
-  [http://robertnyman.com/2010/03/17/testing-the-internet-explorer-platform-preview-ie9-reviewing-the-good-the-bad-and-the-main-letdown/]:
-    http://robertnyman.com/2010/03/17/testing-the-internet-explorer-platform-preview-ie9-reviewing-the-good-the-bad-and-the-main-letdown/
+  [http://robertnyman.com/2010/03/17/testing-the-internet-explorer-platform-preview-ie9-reviewing-the-good-the-bad-and-the-main-letdown/]:    http://robertnyman.com/2010/03/17/testing-the-internet-explorer-platform-preview-ie9-reviewing-the-good-the-bad-and-the-main-letdown/
     "http://robertnyman.com/2010/03/17/testing-the-internet-explorer-platform-preview-ie9-reviewing-the-good-the-bad-and-the-main-letdown/"
   [http://msdn.microsoft.com/en-us/ie/ff468705.aspx]: http://msdn.microsoft.com/en-us/ie/ff468705.aspx
     "http://msdn.microsoft.com/en-us/ie/ff468705.aspx"
-  [http://www.guardian.co.uk/technology/blog/2010/mar/16/internet-explorer-9-preview-microsoft]:
-    http://www.guardian.co.uk/technology/blog/2010/mar/16/internet-explorer-9-preview-microsoft
+  [http://www.guardian.co.uk/technology/blog/2010/mar/16/internet-explorer-9-preview-microsoft]:    http://www.guardian.co.uk/technology/blog/2010/mar/16/internet-explorer-9-preview-microsoft
     "http://www.guardian.co.uk/technology/blog/2010/mar/16/internet-explorer-9-preview-microsoft"
-  [http://daron.yondem.com/tr/PermaLink.aspx?guid=619ab009-08e7-4d56-9017-1b85cc2d806a]:
-    http://daron.yondem.com/tr/PermaLink.aspx?guid=619ab009-08e7-4d56-9017-1b85cc2d806a&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+daronyondem+%28Daron+Y%C3%B6ndem%29&utm_content=Google+Reader
+  [http://daron.yondem.com/tr/PermaLink.aspx?guid=619ab009-08e7-4d56-9017-1b85cc2d806a]:    http://daron.yondem.com/tr/PermaLink.aspx?guid=619ab009-08e7-4d56-9017-1b85cc2d806a&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+daronyondem+%28Daron+Y%C3%B6ndem%29&utm_content=Google+Reader
     "http://daron.yondem.com/tr/PermaLink.aspx?guid=619ab009-08e7-4d56-9017-1b85cc2d806a&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+daronyondem+%28Daron+Y%C3%B6ndem%29&utm_content=Google+Reader"
   [http://mashable.com/2010/03/16/ie9-preview/]: http://mashable.com/2010/03/16/ie9-preview/
     "http://mashable.com/2010/03/16/ie9-preview/"
-  [http://www.techradar.com/news/internet/ie9-crazy-fast-but-rivals-still-have-the-speed-edge-677295]:
-    http://www.techradar.com/news/internet/ie9-crazy-fast-but-rivals-still-have-the-speed-edge-677295
+  [http://www.techradar.com/news/internet/ie9-crazy-fast-but-rivals-still-have-the-speed-edge-677295]:    http://www.techradar.com/news/internet/ie9-crazy-fast-but-rivals-still-have-the-speed-edge-677295
     "http://www.techradar.com/news/internet/ie9-crazy-fast-but-rivals-still-have-the-speed-edge-677295"
-  [http://blogs.msdn.com/ie/archive/2010/03/17/test-drive-104-new-professional-grade-tests-for-web-standards.aspx]:
-    http://blogs.msdn.com/ie/archive/2010/03/17/test-drive-104-new-professional-grade-tests-for-web-standards.aspx
+  [http://blogs.msdn.com/ie/archive/2010/03/17/test-drive-104-new-professional-grade-tests-for-web-standards.aspx]:    http://blogs.msdn.com/ie/archive/2010/03/17/test-drive-104-new-professional-grade-tests-for-web-standards.aspx
     "http://blogs.msdn.com/ie/archive/2010/03/17/test-drive-104-new-professional-grade-tests-for-web-standards.aspx"
-  [http://shiftdelete.net/internet-explorer-9dan-yeni-detaylar-19151.html]:
-    http://shiftdelete.net/internet-explorer-9dan-yeni-detaylar-19151.html
+  [http://shiftdelete.net/internet-explorer-9dan-yeni-detaylar-19151.html]:    http://shiftdelete.net/internet-explorer-9dan-yeni-detaylar-19151.html
     "http://shiftdelete.net/internet-explorer-9dan-yeni-detaylar-19151.html"
-  [http://shiftdelete.net/internet-explorer-9dan-kotu-haber-19178.html]:
-    http://shiftdelete.net/internet-explorer-9dan-kotu-haber-19178.html
+  [http://shiftdelete.net/internet-explorer-9dan-kotu-haber-19178.html]:    http://shiftdelete.net/internet-explorer-9dan-kotu-haber-19178.html
     "http://shiftdelete.net/internet-explorer-9dan-kotu-haber-19178.html"
-  [http://web.archive.org/web/20010602021058/microsoft.com/windows/ie/preview/default.asp]:
-    http://web.archive.org/web/20010602021058/microsoft.com/windows/ie/preview/default.asp
+  [http://web.archive.org/web/20010602021058/microsoft.com/windows/ie/preview/default.asp]:    http://web.archive.org/web/20010602021058/microsoft.com/windows/ie/preview/default.asp
     "http://web.archive.org/web/20010602021058/microsoft.com/windows/ie/preview/default.asp"
-  [http://www.computerworld.com/s/article/9185338/Internet_Explorer_9_beta_strips_down_for_speed]:
-    http://www.computerworld.com/s/article/9185338/Internet_Explorer_9_beta_strips_down_for_speed
+  [http://www.computerworld.com/s/article/9185338/Internet_Explorer_9_beta_strips_down_for_speed]:    http://www.computerworld.com/s/article/9185338/Internet_Explorer_9_beta_strips_down_for_speed
     "http://www.computerworld.com/s/article/9185338/Internet_Explorer_9_beta_strips_down_for_speed"
   [http://www.bildirgec.org/yazi/internet-explorer-9-un-beta]: http://www.bildirgec.org/yazi/internet-explorer-9-un-beta
     "http://www.bildirgec.org/yazi/internet-explorer-9-un-beta"
   [http://gizmodo.com/5638742/internet-explorer-9-uh-nice]: http://gizmodo.com/5638742/internet-explorer-9-uh-nice
     "http://gizmodo.com/5638742/internet-explorer-9-uh-nice"
-  [http://lifehacker.com/5638885/internet-explorer-screenshot-tour-the-best-new-features-in-ie9]:
-    http://lifehacker.com/5638885/internet-explorer-screenshot-tour-the-best-new-features-in-ie9
+  [http://lifehacker.com/5638885/internet-explorer-screenshot-tour-the-best-new-features-in-ie9]:    http://lifehacker.com/5638885/internet-explorer-screenshot-tour-the-best-new-features-in-ie9
     "http://lifehacker.com/5638885/internet-explorer-screenshot-tour-the-best-new-features-in-ie9"
   [http://www.turk.internet.com/portal/yazigoster.php?yaziid=29437]: http://www.turk.internet.com/portal/yazigoster.php?yaziid=29437
     "http://www.turk.internet.com/portal/yazigoster.php?yaziid=29437"
@@ -256,6 +239,5 @@ yükselme yaşansa bile daha sonra düşüşün devam edeceğini düşünüyorum
     "http://www.nuricankaya.com/default.asp?gunluk_id=455"
   [http://www.nuricankaya.com/resimler/2010_Eylul/ie9guide.pdf]: http://www.nuricankaya.com/resimler/2010_Eylul/ie9guide.pdf
     "http://www.nuricankaya.com/resimler/2010_Eylul/ie9guide.pdf"
-  [http://www.engadget.com/2011/03/14/internet-explorer-9-launches-tonight-weve-got-your-early-look/]:
-    http://www.engadget.com/2011/03/14/internet-explorer-9-launches-tonight-weve-got-your-early-look/
+  [http://www.engadget.com/2011/03/14/internet-explorer-9-launches-tonight-weve-got-your-early-look/]:    http://www.engadget.com/2011/03/14/internet-explorer-9-launches-tonight-weve-got-your-early-look/
   [http://msdn.microsoft.com/en-us/ie/ff468705]: http://msdn.microsoft.com/en-us/ie/ff468705

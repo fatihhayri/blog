@@ -86,13 +86,9 @@ tanım yaptığımız için klavye kullananlar için sorun olmayacaktır.
   [chrome_odak]: http://www.fatihhayrioglu.com/wp-content/chrome_odak.gif
     "chrome_odak"
   [tıklayınız.]: /dokumanlar/metingirdi_kaldir_2.html
-  [http://gandamanurung.com/css/how-to-get-rid-textinput-blue-border-in-safari/]:
-    http://gandamanurung.com/css/how-to-get-rid-textinput-blue-border-in-safari/
+  [http://gandamanurung.com/css/how-to-get-rid-textinput-blue-border-in-safari/]:    http://gandamanurung.com/css/how-to-get-rid-textinput-blue-border-in-safari/
     "http://gandamanurung.com/css/how-to-get-rid-textinput-blue-border-in-safari/"
-  [http://forums.devshed.com/css-help-116/safari-input-focus-blue-border-477819.html]:
-    http://forums.devshed.com/css-help-116/safari-input-focus-blue-border-477819.html
-  [http://dev.markhaus.com/blog/2009/03/how-to-annul-safaris-outline-effect-in-input-fields-and-friends/]:
-    http://dev.markhaus.com/blog/2009/03/how-to-annul-safaris-outline-effect-in-input-fields-and-friends/
-  [http://www.usabilitypost.com/2008/10/15/css-tip-remove-mac-osx-glowing-blue-outlin-for-custom-styled-input-fields/]:
-    http://www.usabilitypost.com/2008/10/15/css-tip-remove-mac-osx-glowing-blue-outlin-for-custom-styled-input-fields/
+  [http://forums.devshed.com/css-help-116/safari-input-focus-blue-border-477819.html]:    http://forums.devshed.com/css-help-116/safari-input-focus-blue-border-477819.html
+  [http://dev.markhaus.com/blog/2009/03/how-to-annul-safaris-outline-effect-in-input-fields-and-friends/]:    http://dev.markhaus.com/blog/2009/03/how-to-annul-safaris-outline-effect-in-input-fields-and-friends/
+  [http://www.usabilitypost.com/2008/10/15/css-tip-remove-mac-osx-glowing-blue-outlin-for-custom-styled-input-fields/]:    http://www.usabilitypost.com/2008/10/15/css-tip-remove-mac-osx-glowing-blue-outlin-for-custom-styled-input-fields/
   [http://www.infoqu.com/dev/css-help/safari-input-fields-142336-1/]: http://www.infoqu.com/dev/css-help/safari-input-fields-142336-1/

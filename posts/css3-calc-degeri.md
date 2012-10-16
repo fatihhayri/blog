@@ -78,8 +78,7 @@ webkit tabanlı tarayıcılarda calc() değerini destekliyor artık. 20 Şubat
   [http://msdn.microsoft.com/en-us/library/ms537660(v=vs.85).aspx]: http://msdn.microsoft.com/en-us/library/ms537660(v=vs.85).aspx
   [https://developer.mozilla.org/en/CSS/-moz-calc]: https://developer.mozilla.org/en/CSS/-moz-calc
   [http://caniuse.com/calc]: http://caniuse.com/calc
-  [http://mynthon.net/howto/-/webdev/css3-testsuite-calc-property-for-calculating-size.txt]:
-    http://mynthon.net/howto/-/webdev/css3-testsuite-calc-property-for-calculating-size.txt
+  [http://mynthon.net/howto/-/webdev/css3-testsuite-calc-property-for-calculating-size.txt]:    http://mynthon.net/howto/-/webdev/css3-testsuite-calc-property-for-calculating-size.txt
   [http://bloqk.com/makale/css_calc_kullanimi.html]: http://bloqk.com/makale/css_calc_kullanimi.html
   [http://www.thecssninja.com/demo/css_calc/]: http://www.thecssninja.com/demo/css_calc/
   [http://www.sitepoint.com/css3-calc-function]: http://www.sitepoint.com/css3-calc-function

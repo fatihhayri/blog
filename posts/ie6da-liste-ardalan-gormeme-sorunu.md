@@ -64,6 +64,5 @@ ayrı bir konu.)
   [tıklayınız.]: /dokumanlar/liste_ardalani.html
   [http://www.positioniseverything.net/explorer/ie-listbug.html]: http://www.positioniseverything.net/explorer/ie-listbug.html
     "http://www.positioniseverything.net/explorer/ie-listbug.html"
-  [http://www.adobe.com/cfusion/communityengine/index.cfm?event=showdetails&productId=1&postId=481]:
-    http://www.adobe.com/cfusion/communityengine/index.cfm?event=showdetails&productId=1&postId=481
+  [http://www.adobe.com/cfusion/communityengine/index.cfm?event=showdetails&productId=1&postId=481]:    http://www.adobe.com/cfusion/communityengine/index.cfm?event=showdetails&productId=1&postId=481
     "http://www.adobe.com/cfusion/communityengine/index.cfm?event=showdetails&productId=1&postId=481"

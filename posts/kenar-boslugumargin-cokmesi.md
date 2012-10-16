@@ -172,11 +172,8 @@ hakkındaki aşağıdaki bilgilerde bize çözüm konusunda yardımcı olacaktı
   [3]: /images/margin_cokmesi32.gif
   [4]: /dokumanlar/margin_cokmesi_03.html
   [http://www.andybudd.com/archives/2003/11/no_margin_for_error/]: http://www.andybudd.com/archives/2003/11/no_margin_for_error/
-  [http://www.search-this.com/2007/05/07/wheres-my-margin-gone-or-why-111/]:
-    http://www.search-this.com/2007/05/07/wheres-my-margin-gone-or-why-111/
-  [http://www.ryznardesign.com/web_coding/tests/2004/preventing_margin_collapse.html]:
-    http://www.ryznardesign.com/web_coding/tests/2004/preventing_margin_collapse.html
+  [http://www.search-this.com/2007/05/07/wheres-my-margin-gone-or-why-111/]:    http://www.search-this.com/2007/05/07/wheres-my-margin-gone-or-why-111/
+  [http://www.ryznardesign.com/web_coding/tests/2004/preventing_margin_collapse.html]:    http://www.ryznardesign.com/web_coding/tests/2004/preventing_margin_collapse.html
   [http://maxdesign.com.au/presentation/workshop/slide46.htm]: http://maxdesign.com.au/presentation/workshop/slide46.htm
   [http://reference.sitepoint.com/css/collapsingmargins]: http://reference.sitepoint.com/css/collapsingmargins
-  [http://www.seifi.org/css/understanding-taming-collapsing-margins-in-css.html]:
-    http://www.seifi.org/css/understanding-taming-collapsing-margins-in-css.html
+  [http://www.seifi.org/css/understanding-taming-collapsing-margins-in-css.html]:    http://www.seifi.org/css/understanding-taming-collapsing-margins-in-css.html

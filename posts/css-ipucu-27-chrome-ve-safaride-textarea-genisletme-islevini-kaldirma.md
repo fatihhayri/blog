@@ -28,7 +28,5 @@ verecek olmasıdır.
 
   []: http://www.fatihhayrioglu.com/wp-content/textarea.gif "textarea"
   [![][]]: http://www.fatihhayrioglu.com/wp-content/textarea.gif
-  [http://www.google.com/support/forum/p/Chrome/thread?tid=5f9cd62207e2c7a8&hl=en]:
-    http://www.google.com/support/forum/p/Chrome/thread?tid=5f9cd62207e2c7a8&hl=en
-  [http://www.electrictoolbox.com/disable-textarea-resizing-safari-chrome/]:
-    http://www.electrictoolbox.com/disable-textarea-resizing-safari-chrome/
+  [http://www.google.com/support/forum/p/Chrome/thread?tid=5f9cd62207e2c7a8&hl=en]:    http://www.google.com/support/forum/p/Chrome/thread?tid=5f9cd62207e2c7a8&hl=en
+  [http://www.electrictoolbox.com/disable-textarea-resizing-safari-chrome/]:    http://www.electrictoolbox.com/disable-textarea-resizing-safari-chrome/

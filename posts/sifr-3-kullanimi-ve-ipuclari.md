@@ -178,6 +178,5 @@ kısmınaeklerseniz güzel bir dokümantasyon oluşturmuş oluruz.
     "http://dev.novemberborn.net/sifr3/nightlies/"
   [http://v4.designintellection.com/this-is-how-you-get-sifr-to-work/]: http://v4.designintellection.com/this-is-how-you-get-sifr-to-work/
     "http://v4.designintellection.com/this-is-how-you-get-sifr-to-work/"
-  [http://net.tutsplus.com/tutorials/javascript-ajax/how-to-implement-sifr3-into-your-website/]:
-    http://net.tutsplus.com/tutorials/javascript-ajax/how-to-implement-sifr3-into-your-website/
+  [http://net.tutsplus.com/tutorials/javascript-ajax/how-to-implement-sifr3-into-your-website/]:    http://net.tutsplus.com/tutorials/javascript-ajax/how-to-implement-sifr3-into-your-website/
     "http://net.tutsplus.com/tutorials/javascript-ajax/how-to-implement-sifr3-into-your-website/"

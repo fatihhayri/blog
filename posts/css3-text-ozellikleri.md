@@ -352,28 +352,22 @@ Kalın sağlıcakla.
   [http://www.opera.com/docs/specs/presto27/css/text/]: http://www.opera.com/docs/specs/presto27/css/text/
   [http://caniuse.com/wordwrap]: http://caniuse.com/wordwrap
   [https://developer.mozilla.org/En/CSS/Word-wrap]: https://developer.mozilla.org/En/CSS/Word-wrap
-  [http://www.cardeo.ca/2010/adding-an-outline-to-your-text-using-the-css3-text-stroke-property]:
-    http://www.cardeo.ca/2010/adding-an-outline-to-your-text-using-the-css3-text-stroke-property
+  [http://www.cardeo.ca/2010/adding-an-outline-to-your-text-using-the-css3-text-stroke-property]:    http://www.cardeo.ca/2010/adding-an-outline-to-your-text-using-the-css3-text-stroke-property
   [http://css-tricks.com/7405-adding-stroke-to-web-text/]: http://css-tricks.com/7405-adding-stroke-to-web-text/
   [http://www.webkit.org/blog/85/introducing-text-stroke/]: http://www.webkit.org/blog/85/introducing-text-stroke/
   [http://code.stephenmorley.org/html-and-css/white-space-handling/]: http://code.stephenmorley.org/html-and-css/white-space-handling/
   [http://www.impressivewebs.com/css-white-space/]: http://www.impressivewebs.com/css-white-space/
   [http://www.quirksmode.org/css/stroke.html]: http://www.quirksmode.org/css/stroke.html
-  [http://www.fatihhayrioglu.com/satir-donusuword-wrap-firefox-sorunu-nasil-cozulur/#idc-cover]:
-    http://www.fatihhayrioglu.com/satir-donusuword-wrap-firefox-sorunu-nasil-cozulur/#idc-cover
+  [http://www.fatihhayrioglu.com/satir-donusuword-wrap-firefox-sorunu-nasil-cozulur/#idc-cover]:    http://www.fatihhayrioglu.com/satir-donusuword-wrap-firefox-sorunu-nasil-cozulur/#idc-cover
   [http://webdesignerwall.com/tutorials/word-wrap-force-text-to-wrap]: http://webdesignerwall.com/tutorials/word-wrap-force-text-to-wrap
   [https://developer.mozilla.org/en/CSS/text-align]: https://developer.mozilla.org/en/CSS/text-align
-  [http://www.456bereastreet.com/archive/201105/clipping_text_with_css3_text-overflow/]:
-    http://www.456bereastreet.com/archive/201105/clipping_text_with_css3_text-overflow/
+  [http://www.456bereastreet.com/archive/201105/clipping_text_with_css3_text-overflow/]:    http://www.456bereastreet.com/archive/201105/clipping_text_with_css3_text-overflow/
   [http://www.cssplay.co.uk/menu/text-overflow.html]: http://www.cssplay.co.uk/menu/text-overflow.html
   [http://www.css3.info/preview/text-overflow/]: http://www.css3.info/preview/text-overflow/
-  [http://deepubalan.com/blog/2010/11/27/text-overflow-css3-property-explained-pure-css-solution-to-get-ellipsis/]:
-    http://deepubalan.com/blog/2010/11/27/text-overflow-css3-property-explained-pure-css-solution-to-get-ellipsis/
+  [http://deepubalan.com/blog/2010/11/27/text-overflow-css3-property-explained-pure-css-solution-to-get-ellipsis/]:    http://deepubalan.com/blog/2010/11/27/text-overflow-css3-property-explained-pure-css-solution-to-get-ellipsis/
   [http://caniuse.com/text-overflow]: http://caniuse.com/text-overflow
   [http://trentwalton.com/2010/06/29/css-text-rendering/]: http://trentwalton.com/2010/06/29/css-text-rendering/
   [http://htmlcss.wikia.com/wiki/Text-rendering]: http://htmlcss.wikia.com/wiki/Text-rendering
-  [http://coding.smashingmagazine.com/2010/03/01/css-and-the-future-of-text/]:
-    http://coding.smashingmagazine.com/2010/03/01/css-and-the-future-of-text/
-  [http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-better-typography-part-2]:
-    http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-better-typography-part-2
+  [http://coding.smashingmagazine.com/2010/03/01/css-and-the-future-of-text/]:    http://coding.smashingmagazine.com/2010/03/01/css-and-the-future-of-text/
+  [http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-better-typography-part-2]:    http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-better-typography-part-2
   [http://www.webreference.com/programming/corecss/2/4.html]: http://www.webreference.com/programming/corecss/2/4.html

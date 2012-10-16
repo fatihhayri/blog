@@ -240,17 +240,13 @@ açıkça gösterir ve düzeltmemiz için önerilerde bulunur.
   [Page Speed]: http://code.google.com/speed/page-speed/ "Page Speed"
   [http://getfirebug.com/net.html]: http://getfirebug.com/net.html
     "http://getfirebug.com/net.html"
-  [http://www.softwareishard.com/blog/firebug/introduction-to-firebug-net-panel/]:
-    http://www.softwareishard.com/blog/firebug/introduction-to-firebug-net-panel/
+  [http://www.softwareishard.com/blog/firebug/introduction-to-firebug-net-panel/]:    http://www.softwareishard.com/blog/firebug/introduction-to-firebug-net-panel/
     "http://www.softwareishard.com/blog/firebug/introduction-to-firebug-net-panel/"
-  [http://michaelsync.net/2007/10/15/firebug-tutorial-section-4-net-css-and-dom-tabs]:
-    http://michaelsync.net/2007/10/15/firebug-tutorial-section-4-net-css-and-dom-tabs
+  [http://michaelsync.net/2007/10/15/firebug-tutorial-section-4-net-css-and-dom-tabs]:    http://michaelsync.net/2007/10/15/firebug-tutorial-section-4-net-css-and-dom-tabs
     "http://michaelsync.net/2007/10/15/firebug-tutorial-section-4-net-css-and-dom-tabs"
   [http://cncmachining.wordpress.com/2009/06/22/firebug-tricks/]: http://cncmachining.wordpress.com/2009/06/22/firebug-tricks/
   [http://developer.yahoo.com/yslow/netpanelpatch.html]: http://developer.yahoo.com/yslow/netpanelpatch.html
     "http://developer.yahoo.com/yslow/netpanelpatch.html"
-  [http://www.stevesouders.com/blog/2009/11/03/firebug-net-panel-more-accurate-timing/]:
-    http://www.stevesouders.com/blog/2009/11/03/firebug-net-panel-more-accurate-timing/
+  [http://www.stevesouders.com/blog/2009/11/03/firebug-net-panel-more-accurate-timing/]:    http://www.stevesouders.com/blog/2009/11/03/firebug-net-panel-more-accurate-timing/
   [http://net.tutsplus.com/tutorials/other/http-headers-for-dummies/]: http://net.tutsplus.com/tutorials/other/http-headers-for-dummies/
-  [http://www.softwareishard.com/blog/firebug/firebug-net-panel-timings/]:
-    http://www.softwareishard.com/blog/firebug/firebug-net-panel-timings/
+  [http://www.softwareishard.com/blog/firebug/firebug-net-panel-timings/]:    http://www.softwareishard.com/blog/firebug/firebug-net-panel-timings/

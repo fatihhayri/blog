@@ -272,8 +272,7 @@ Hoşçakalın.
   [-ms-zoom]: http://msdn.microsoft.com/en-us/library/ms531189%28v=VS.85%29.aspx
   [http://msdn.microsoft.com/en-us/library/cc304082%28VS.85%29.aspx]: http://msdn.microsoft.com/en-us/library/cc304082%28VS.85%29.aspx
     "http://msdn.microsoft.com/en-us/library/cc304082%28VS.85%29.aspx"
-  [http://www.smashingmagazine.com/2009/10/14/css-differences-in-internet-explorer-6-7-and-8/]:
-    http://www.smashingmagazine.com/2009/10/14/css-differences-in-internet-explorer-6-7-and-8/
+  [http://www.smashingmagazine.com/2009/10/14/css-differences-in-internet-explorer-6-7-and-8/]:    http://www.smashingmagazine.com/2009/10/14/css-differences-in-internet-explorer-6-7-and-8/
     "http://www.smashingmagazine.com/2009/10/14/css-differences-in-internet-explorer-6-7-and-8/"
   [http://www.howtocreate.co.uk/ie8.html]: http://www.howtocreate.co.uk/ie8.html
     "http://www.howtocreate.co.uk/ie8.html"
@@ -287,6 +286,5 @@ Hoşçakalın.
     "http://jhop.me/ie8-bugs"
   [http://www.gtalbot.org/BrowserBugsSection/]: http://www.gtalbot.org/BrowserBugsSection/
     "http://www.gtalbot.org/BrowserBugsSection/"
-  [http://techblog.procurios.nl/k/news/view/33224/14863/Testing-Internet-Explorer-8-CSS3-for-Web-Design.html]:
-    http://techblog.procurios.nl/k/news/view/33224/14863/Testing-Internet-Explorer-8-CSS3-for-Web-Design.html
+  [http://techblog.procurios.nl/k/news/view/33224/14863/Testing-Internet-Explorer-8-CSS3-for-Web-Design.html]:    http://techblog.procurios.nl/k/news/view/33224/14863/Testing-Internet-Explorer-8-CSS3-for-Web-Design.html
     "http://techblog.procurios.nl/k/news/view/33224/14863/Testing-Internet-Explorer-8-CSS3-for-Web-Design.html"

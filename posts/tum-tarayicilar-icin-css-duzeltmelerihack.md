@@ -180,8 +180,7 @@ Internet Explorer 7/6/5.5, Opera 9.6 ile test edilmiştir.
     "http://www.webdevout.net/css-hacks"
   [http://www.javascriptkit.com/dhtmltutors/csshacks2.shtml]: http://www.javascriptkit.com/dhtmltutors/csshacks2.shtml
     "http://www.javascriptkit.com/dhtmltutors/csshacks2.shtml"
-  [http://vikaskhera.wordpress.com/2008/08/02/css-hacks-browser-specific-selectors/]:
-    http://vikaskhera.wordpress.com/2008/08/02/css-hacks-browser-specific-selectors/
+  [http://vikaskhera.wordpress.com/2008/08/02/css-hacks-browser-specific-selectors/]:    http://vikaskhera.wordpress.com/2008/08/02/css-hacks-browser-specific-selectors/
     "http://vikaskhera.wordpress.com/2008/08/02/css-hacks-browser-specific-selectors/"
   [http://centricle.com/ref/css/filters/]: http://centricle.com/ref/css/filters/
     "http://centricle.com/ref/css/filters/"

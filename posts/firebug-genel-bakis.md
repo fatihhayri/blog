@@ -167,29 +167,21 @@ göreceğiz.
   [FireBug Konsol]: /images/firebug_konsol.gif
   [FireBug Hata]: /images/firebug_hata.gif
   [tıklayınız]: http://getfirebug.com/keyboard.html "kısayollar"
-  [http://michaelsync.net/2007/09/08/firebug-tutorial-overview-of-firebug]:
-    http://michaelsync.net/2007/09/08/firebug-tutorial-overview-of-firebug
+  [http://michaelsync.net/2007/09/08/firebug-tutorial-overview-of-firebug]:    http://michaelsync.net/2007/09/08/firebug-tutorial-overview-of-firebug
   [http://www.evotech.net/blog/2007/06/introduction-to-firebug/]: http://www.evotech.net/blog/2007/06/introduction-to-firebug/
   [http://yuiblog.com/blog/2007/01/26/video-hewitt-firebug/]: http://yuiblog.com/blog/2007/01/26/video-hewitt-firebug/
-  [http://help.wildapricot.com/display/DOC/Using+Firefox+Firebug+Extension+for+Advanced+customization+(CSS)]:
-    http://help.wildapricot.com/display/DOC/Using+Firefox+Firebug+Extension+for+Advanced+customization+(CSS)
-  [http://www.thetruetribe.com/2008/03/firebug-tutorial-getting-started.html]:
-    http://www.thetruetribe.com/2008/03/firebug-tutorial-getting-started.html
+  [http://help.wildapricot.com/display/DOC/Using+Firefox+Firebug+Extension+for+Advanced+customization+(CSS)]:    http://help.wildapricot.com/display/DOC/Using+Firefox+Firebug+Extension+for+Advanced+customization+(CSS)
+  [http://www.thetruetribe.com/2008/03/firebug-tutorial-getting-started.html]:    http://www.thetruetribe.com/2008/03/firebug-tutorial-getting-started.html
   [http://www.digitalmediaminute.com/screencast/firebug-js/]: http://www.digitalmediaminute.com/screencast/firebug-js/
   [http://www.ddj.com/development-tools/196802787]: http://www.ddj.com/development-tools/196802787
   [http://ajaxian.com/archives/ajax-debugging-with-firebug]: http://ajaxian.com/archives/ajax-debugging-with-firebug
-  [http://www.reybango.com/index.cfm/2007/7/22/VIDEO-Ajax-Debugging-Using-Firebug]:
-    http://www.reybango.com/index.cfm/2007/7/22/VIDEO-Ajax-Debugging-Using-Firebug
-  [http://www.google.com/search?hl=en&client=firefox-a&rls=org.mozilla%3Aen-US%3Aofficial&q=Debugging+With+Firebug&btnG=Search]:
-    http://www.google.com/search?hl=en&client=firefox-a&rls=org.mozilla%3Aen-US%3Aofficial&q=Debugging+With+Firebug&btnG=Search
+  [http://www.reybango.com/index.cfm/2007/7/22/VIDEO-Ajax-Debugging-Using-Firebug]:    http://www.reybango.com/index.cfm/2007/7/22/VIDEO-Ajax-Debugging-Using-Firebug
+  [http://www.google.com/search?hl=en&client=firefox-a&rls=org.mozilla%3Aen-US%3Aofficial&q=Debugging+With+Firebug&btnG=Search]:    http://www.google.com/search?hl=en&client=firefox-a&rls=org.mozilla%3Aen-US%3Aofficial&q=Debugging+With+Firebug&btnG=Search
   [http://www.youtube.com/watch?v=FsX6qwQqGgQ]: http://www.youtube.com/watch?v=FsX6qwQqGgQ
-  [http://blog.veanndesign.com/2008/04/12/everything-about-firebug-21-great-resources/]:
-    http://blog.veanndesign.com/2008/04/12/everything-about-firebug-21-great-resources/
-  [http://alternateidea.com/blog/articles/2006/05/12/an-in-depth-look-at-the-future-of-javascript-debugging-with-firebug]:
-    http://alternateidea.com/blog/articles/2006/05/12/an-in-depth-look-at-the-future-of-javascript-debugging-with-firebug
+  [http://blog.veanndesign.com/2008/04/12/everything-about-firebug-21-great-resources/]:    http://blog.veanndesign.com/2008/04/12/everything-about-firebug-21-great-resources/
+  [http://alternateidea.com/blog/articles/2006/05/12/an-in-depth-look-at-the-future-of-javascript-debugging-with-firebug]:    http://alternateidea.com/blog/articles/2006/05/12/an-in-depth-look-at-the-future-of-javascript-debugging-with-firebug
   [http://groups.google.com/group/firebug]: http://groups.google.com/group/firebug
   [http://www.seifi.org/javascript/firebug_tips_and_tricks.html]: http://www.seifi.org/javascript/firebug_tips_and_tricks.html
   [http://www.bildirgec.org/yazi/firebug-web-gelistirimi-gelistirildi]: http://www.bildirgec.org/yazi/firebug-web-gelistirimi-gelistirildi
   [http://www.burcudogan.com/firebug-ve-hata-ayiklama-sanati-83.html]: http://www.burcudogan.com/firebug-ve-hata-ayiklama-sanati-83.html
-  [http://code.google.com/p/fbug/source/browse/branches/firebug1.1/locale/tr-TR/firebug.dtd?r=350]:
-    http://code.google.com/p/fbug/source/browse/branches/firebug1.1/locale/tr-TR/firebug.dtd?r=350
+  [http://code.google.com/p/fbug/source/browse/branches/firebug1.1/locale/tr-TR/firebug.dtd?r=350]:    http://code.google.com/p/fbug/source/browse/branches/firebug1.1/locale/tr-TR/firebug.dtd?r=350

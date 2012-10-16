@@ -16,5 +16,4 @@ collapse; }  bu kadar.
 
 </p>
 
-  [http://www.mularien.com/blog/2007/07/29/css-tip-css-equivalent-to-cellspacing0/]:
-    http://www.mularien.com/blog/2007/07/29/css-tip-css-equivalent-to-cellspacing0/
+  [http://www.mularien.com/blog/2007/07/29/css-tip-css-equivalent-to-cellspacing0/]:    http://www.mularien.com/blog/2007/07/29/css-tip-css-equivalent-to-cellspacing0/

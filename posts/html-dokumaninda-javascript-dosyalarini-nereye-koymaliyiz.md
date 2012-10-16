@@ -147,16 +147,10 @@ sitelerimizin daha hızlı açılmasını sağlayacak bir yöntemdir.
   [YSlow]: https://addons.mozilla.org/en-us/firefox/addon/yslow/
   []: https://lh3.googleusercontent.com/gSZsDGo9nsWt4gD1hgKwiJo2FITV5oh_x706nZ2wKUapQWLl70O6P7NofpZvXVOTxIJKOW2GiPabJKNZVbHCIgcp3CAA9eE7kpdGnNKP0sYqp6EcmNc
   [HTTP/1.1 şartnamesinde]: http://www.w3.org/Protocols/rfc2616/rfc2616-sec8.html#sec8.1.4
-  [http://developer.yahoo.com/blogs/ydn/posts/2007/07/high_performanc_5/]:
-    http://developer.yahoo.com/blogs/ydn/posts/2007/07/high_performanc_5/
-  [http://stackoverflow.com/questions/143486/unobtrusive-javascript-script-at-the-top-or-the-bottom-of-the-html-code]:
-    http://stackoverflow.com/questions/143486/unobtrusive-javascript-script-at-the-top-or-the-bottom-of-the-html-code
-  [http://robertnyman.com/2008/04/23/where-to-include-javascript-files-in-a-document/]:
-    http://robertnyman.com/2008/04/23/where-to-include-javascript-files-in-a-document/
-  [http://blog.asp-software.org/advanced-website-optimization-making-your-site-faster/]:
-    http://blog.asp-software.org/advanced-website-optimization-making-your-site-faster/
+  [http://developer.yahoo.com/blogs/ydn/posts/2007/07/high_performanc_5/]:    http://developer.yahoo.com/blogs/ydn/posts/2007/07/high_performanc_5/
+  [http://stackoverflow.com/questions/143486/unobtrusive-javascript-script-at-the-top-or-the-bottom-of-the-html-code]:    http://stackoverflow.com/questions/143486/unobtrusive-javascript-script-at-the-top-or-the-bottom-of-the-html-code
+  [http://robertnyman.com/2008/04/23/where-to-include-javascript-files-in-a-document/]:    http://robertnyman.com/2008/04/23/where-to-include-javascript-files-in-a-document/
+  [http://blog.asp-software.org/advanced-website-optimization-making-your-site-faster/]:    http://blog.asp-software.org/advanced-website-optimization-making-your-site-faster/
   [http://www.quirksmode.org/js/placejs.html]: http://www.quirksmode.org/js/placejs.html
-  [http://www.stevesouders.com/blog/2008/12/27/coupling-async-scripts/]:
-    http://www.stevesouders.com/blog/2008/12/27/coupling-async-scripts/
-  [http://www.yuiblog.com/blog/2007/04/11/performance-research-part-4/]:
-    http://www.yuiblog.com/blog/2007/04/11/performance-research-part-4/
+  [http://www.stevesouders.com/blog/2008/12/27/coupling-async-scripts/]:    http://www.stevesouders.com/blog/2008/12/27/coupling-async-scripts/
+  [http://www.yuiblog.com/blog/2007/04/11/performance-research-part-4/]:    http://www.yuiblog.com/blog/2007/04/11/performance-research-part-4/

@@ -147,17 +147,14 @@ Kalın sağlıcakla
   []: https://lh5.googleusercontent.com/EkvNMZKnUkXNpL5ps_x6sCNwyAOY6KQ3TS3YsJ9_Ypbui2rEdirr1BijorcNsFE-9a9eIcUerazNoQLsvh7U8J9sGm3h3cV-DFRXqCuLae8e4ruLWfQ
   [calc()]: http://www.fatihhayrioglu.com/css3-calc-degeri/
   [http://webfx.eae.net/dhtml/boxsizing/implementation.html]: http://webfx.eae.net/dhtml/boxsizing/implementation.html
-  [http://www.456bereastreet.com/archive/201104/controlling_width_with_css3_box-sizing/]:
-    http://www.456bereastreet.com/archive/201104/controlling_width_with_css3_box-sizing/
+  [http://www.456bereastreet.com/archive/201104/controlling_width_with_css3_box-sizing/]:    http://www.456bereastreet.com/archive/201104/controlling_width_with_css3_box-sizing/
   [http://caniuse.com/css3-boxsizing]: http://caniuse.com/css3-boxsizing
   [http://helephant.com/2008/10/20/css3-box-sizing-attribute/]: http://helephant.com/2008/10/20/css3-box-sizing-attribute/
-  [http://aninnovativeweb.tumblr.com/post/770432002/understanding-css3-box-sizing]:
-    http://aninnovativeweb.tumblr.com/post/770432002/understanding-css3-box-sizing
+  [http://aninnovativeweb.tumblr.com/post/770432002/understanding-css3-box-sizing]:    http://aninnovativeweb.tumblr.com/post/770432002/understanding-css3-box-sizing
   [http://www.w3.org/TR/css3-ui/#box-sizing]: http://www.w3.org/TR/css3-ui/#box-sizing
   [http://www.goldentwine.com/blog/css3-user-interface-box-sizing]: http://www.goldentwine.com/blog/css3-user-interface-box-sizing
   [http://csshead.com/controlling-width-with-css3-box-sizing/]: http://csshead.com/controlling-width-with-css3-box-sizing/
   [http://css-tricks.com/7323-box-sizing/]: http://css-tricks.com/7323-box-sizing/
   [https://www.youtube.com/watch?v=rNqqfMJnpKY&feature=related]: https://www.youtube.com/watch?v=rNqqfMJnpKY&feature=related
-  [http://maymay.net/blog/2004/10/28/observations-on-the-css3-box-sizing-property-and-how-designers-use-style-sheets/]:
-    http://maymay.net/blog/2004/10/28/observations-on-the-css3-box-sizing-property-and-how-designers-use-style-sheets/
+  [http://maymay.net/blog/2004/10/28/observations-on-the-css3-box-sizing-property-and-how-designers-use-style-sheets/]:    http://maymay.net/blog/2004/10/28/observations-on-the-css3-box-sizing-property-and-how-designers-use-style-sheets/
   [http://www.w3cplus.com/content/css3-box-sizing]: http://www.w3cplus.com/content/css3-box-sizing

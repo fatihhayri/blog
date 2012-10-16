@@ -118,12 +118,8 @@ bu durumun dışında tutmalı. 
   [google chrome]: http://docs.google.com/File?id=dhctmbn6_403crhkwbdw_b
   [1]: http://docs.google.com/File?id=dhctmbn6_404ws3rtwft_b
   [2]: http://docs.google.com/File?id=dhctmbn6_402fxs2svdw_b
-  [http://googlesystem.blogspot.com/2010/05/10-things-to-try-in-google-chrome-5.html]:
-    http://googlesystem.blogspot.com/2010/05/10-things-to-try-in-google-chrome-5.html
-  [http://thenextweb.com/tr/2010/05/05/yuzde-35-daha-hizli-yeni-chrome-beta-yayinlandi]:
-    http://thenextweb.com/tr/2010/05/05/yuzde-35-daha-hizli-yeni-chrome-beta-yayinlandi
+  [http://googlesystem.blogspot.com/2010/05/10-things-to-try-in-google-chrome-5.html]:    http://googlesystem.blogspot.com/2010/05/10-things-to-try-in-google-chrome-5.html
+  [http://thenextweb.com/tr/2010/05/05/yuzde-35-daha-hizli-yeni-chrome-beta-yayinlandi]:    http://thenextweb.com/tr/2010/05/05/yuzde-35-daha-hizli-yeni-chrome-beta-yayinlandi
   [http://shiftdelete.net/en-hizlisi-google-chrome-20392.html]: http://shiftdelete.net/en-hizlisi-google-chrome-20392.html
-  [http://chrome.blogspot.com/2010/05/pedal-to-chrome-metal-our-fastest-beta.html]:
-    http://chrome.blogspot.com/2010/05/pedal-to-chrome-metal-our-fastest-beta.html
-  [http://download.cnet.com/Google-Chrome-beta/3000-2356_4-10958228.html]:
-    http://download.cnet.com/Google-Chrome-beta/3000-2356_4-10958228.html
+  [http://chrome.blogspot.com/2010/05/pedal-to-chrome-metal-our-fastest-beta.html]:    http://chrome.blogspot.com/2010/05/pedal-to-chrome-metal-our-fastest-beta.html
+  [http://download.cnet.com/Google-Chrome-beta/3000-2356_4-10958228.html]:    http://download.cnet.com/Google-Chrome-beta/3000-2356_4-10958228.html

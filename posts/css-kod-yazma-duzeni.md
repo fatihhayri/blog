@@ -358,32 +358,25 @@ padding:12px; margin-bottom:20px;}
     "dw_stil_ayarlama"
   [hiza_cizgileri]: http://www.fatihhayrioglu.com/wp-content/hiza_cizgileri.gif
     "hiza_cizgileri"
-  [http://www.webdesignerdepot.com/2009/05/10-best-css-practices-to-improve-your-code/]:
-    http://www.webdesignerdepot.com/2009/05/10-best-css-practices-to-improve-your-code/
+  [http://www.webdesignerdepot.com/2009/05/10-best-css-practices-to-improve-your-code/]:    http://www.webdesignerdepot.com/2009/05/10-best-css-practices-to-improve-your-code/
     "http://www.webdesignerdepot.com/2009/05/10-best-css-practices-to-improve-your-code/"
-  [https://developer.mozilla.org/en/Underscores_in_class_and_ID_Names]:
-    https://developer.mozilla.org/en/Underscores_in_class_and_ID_Names
+  [https://developer.mozilla.org/en/Underscores_in_class_and_ID_Names]:    https://developer.mozilla.org/en/Underscores_in_class_and_ID_Names
     "https://developer.mozilla.org/en/Underscores_in_class_and_ID_Names"
   [http://davidwalsh.name/format-css-files]: http://davidwalsh.name/format-css-files
     "http://davidwalsh.name/format-css-files"
-  [http://help.adobe.com/en_US/Dreamweaver/10.0_Using/WS6A10E93F-6587-4e1b-956C-03CBD7F678BBa.html]:
-    http://help.adobe.com/en_US/Dreamweaver/10.0_Using/WS6A10E93F-6587-4e1b-956C-03CBD7F678BBa.html
+  [http://help.adobe.com/en_US/Dreamweaver/10.0_Using/WS6A10E93F-6587-4e1b-956C-03CBD7F678BBa.html]:    http://help.adobe.com/en_US/Dreamweaver/10.0_Using/WS6A10E93F-6587-4e1b-956C-03CBD7F678BBa.html
     "http://help.adobe.com/en_US/Dreamweaver/10.0_Using/WS6A10E93F-6587-4e1b-956C-03CBD7F678BBa.html"
-  [http://www.smashingmagazine.com/2008/05/02/improving-code-readability-with-css-styleguides/]:
-    http://www.smashingmagazine.com/2008/05/02/improving-code-readability-with-css-styleguides/
+  [http://www.smashingmagazine.com/2008/05/02/improving-code-readability-with-css-styleguides/]:    http://www.smashingmagazine.com/2008/05/02/improving-code-readability-with-css-styleguides/
     "http://www.smashingmagazine.com/2008/05/02/improving-code-readability-with-css-styleguides/"
   [http://www.louddog.com/bloggity/2008/03/css-best-practices.php]: http://www.louddog.com/bloggity/2008/03/css-best-practices.php
     "http://www.louddog.com/bloggity/2008/03/css-best-practices.php"
   [http://css-tricks.com/indent-css-changes-you-are-unsure-about/]: http://css-tricks.com/indent-css-changes-you-are-unsure-about/
     "http://css-tricks.com/indent-css-changes-you-are-unsure-about/"
-  [http://woork.blogspot.com/2008/03/write-well-structured-css-file-without.html]:
-    http://woork.blogspot.com/2008/03/write-well-structured-css-file-without.html
+  [http://woork.blogspot.com/2008/03/write-well-structured-css-file-without.html]:    http://woork.blogspot.com/2008/03/write-well-structured-css-file-without.html
     "http://woork.blogspot.com/2008/03/write-well-structured-css-file-without.html"
-  [http://woork.blogspot.com/2008/01/optimize-your-css-files-to-improve-code.html]:
-    http://woork.blogspot.com/2008/01/optimize-your-css-files-to-improve-code.html
+  [http://woork.blogspot.com/2008/01/optimize-your-css-files-to-improve-code.html]:    http://woork.blogspot.com/2008/01/optimize-your-css-files-to-improve-code.html
     "http://woork.blogspot.com/2008/01/optimize-your-css-files-to-improve-code.html"
-  [http://www.smashingmagazine.com/2007/05/10/70-expert-ideas-for-better-css-coding/]:
-    http://www.smashingmagazine.com/2007/05/10/70-expert-ideas-for-better-css-coding/
+  [http://www.smashingmagazine.com/2007/05/10/70-expert-ideas-for-better-css-coding/]:    http://www.smashingmagazine.com/2007/05/10/70-expert-ideas-for-better-css-coding/
     "http://www.smashingmagazine.com/2007/05/10/70-expert-ideas-for-better-css-coding/"
   [http://css-tricks.com/video-screencasts/8-css-formatting/]: http://css-tricks.com/video-screencasts/8-css-formatting/
     "http://css-tricks.com/video-screencasts/8-css-formatting/"

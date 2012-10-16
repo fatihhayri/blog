@@ -80,8 +80,7 @@ frameborder="0" src="/liste.aspx"></iframe>
     "http://www.lost-in-code.com/programming/jquery-auto-iframe-height/"
   [http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm]: http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm
     "http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm"
-  [http://jbscdev.blogspot.com/2007/08/automatic-iframe-height-sizing-using.html]:
-    http://jbscdev.blogspot.com/2007/08/automatic-iframe-height-sizing-using.html
+  [http://jbscdev.blogspot.com/2007/08/automatic-iframe-height-sizing-using.html]:    http://jbscdev.blogspot.com/2007/08/automatic-iframe-height-sizing-using.html
     "http://jbscdev.blogspot.com/2007/08/automatic-iframe-height-sizing-using.html"
   [http://sonspring.com/journal/jquery-iframe-sizing]: http://sonspring.com/journal/jquery-iframe-sizing
     "http://sonspring.com/journal/jquery-iframe-sizing"

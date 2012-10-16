@@ -245,14 +245,11 @@ sitelerden kaldırmayı unutmayın.
   [font-weight]: http://www.fatihhayrioglu.com/font-ozellikleri/
   [white-space]: http://www.fatihhayrioglu.com/css-siniflandirma-liste-ozellikleri/
   [word-spacing]: http://www.fatihhayrioglu.com/cssde-metintext-ozellikleri/
-  [http://www.fatihhayrioglu.com/super-bir-ozellik-displayinline-block/]:
-    http://www.fatihhayrioglu.com/super-bir-ozellik-displayinline-block/
+  [http://www.fatihhayrioglu.com/super-bir-ozellik-displayinline-block/]:    http://www.fatihhayrioglu.com/super-bir-ozellik-displayinline-block/
   [http://www.fatihhayrioglu.com/eksi-margin-kullanimi/]: http://www.fatihhayrioglu.com/eksi-margin-kullanimi/
-  [http://www.fatihhayrioglu.com/genisligi-belli-olmayan-blok-level-elemanlari-yatayda-ortalamak/]:
-    http://www.fatihhayrioglu.com/genisligi-belli-olmayan-blok-level-elemanlari-yatayda-ortalamak/
+  [http://www.fatihhayrioglu.com/genisligi-belli-olmayan-blok-level-elemanlari-yatayda-ortalamak/]:    http://www.fatihhayrioglu.com/genisligi-belli-olmayan-blok-level-elemanlari-yatayda-ortalamak/
   [http://www.fatihhayrioglu.com/z-index/]: http://www.fatihhayrioglu.com/z-index/
-  [http://www.fatihhayrioglu.com/ilk-harfi-buyukdrop-caps-paragraflar-olusturmak/]:
-    http://www.fatihhayrioglu.com/ilk-harfi-buyukdrop-caps-paragraflar-olusturmak/
+  [http://www.fatihhayrioglu.com/ilk-harfi-buyukdrop-caps-paragraflar-olusturmak/]:    http://www.fatihhayrioglu.com/ilk-harfi-buyukdrop-caps-paragraflar-olusturmak/
   [Float Uygulanmış Elementleri Tam Kapsayamama Sorunu]: http://www.fatihhayrioglu.com/float-uygulanmis-elementleri-tam-kapsayamama-sorunu/
   [Tablo Satırına Verilen Ardalan Resminin Tekrarlama Sorunu]: http://www.fatihhayrioglu.com/tablo-satirina-verilen-ardalan-resminin-tekrarlama-sorunu/
   [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi
@@ -275,53 +272,37 @@ sitelerden kaldırmayı unutmayın.
   [sahibinden.com]: http://sahibinden.com/
   [Internet Explorer 8′i 7 gibi yorumlama kodu]: http://www.fatihhayrioglu.com/internet-explorer-8i-7-gibi-yorumla-kodu/
   [http://blogs.msdn.com/b/ie/archive/2008/03.aspx]: http://blogs.msdn.com/b/ie/archive/2008/03.aspx
-  [http://blogs.msdn.com/b/ie/archive/2008/03/07/internet-explorer-8-beta-1-for-developers-standards-highlights.aspx]:
-    http://blogs.msdn.com/b/ie/archive/2008/03/07/internet-explorer-8-beta-1-for-developers-standards-highlights.aspx
+  [http://blogs.msdn.com/b/ie/archive/2008/03/07/internet-explorer-8-beta-1-for-developers-standards-highlights.aspx]:    http://blogs.msdn.com/b/ie/archive/2008/03/07/internet-explorer-8-beta-1-for-developers-standards-highlights.aspx
   [http://blogs.msdn.com/b/ie/archive/2008/07.aspx]: http://blogs.msdn.com/b/ie/archive/2008/07.aspx
-  [http://blogs.msdn.com/b/ie/archive/2008/04/10/html-and-dom-standards-compliance-in-ie8-beta-1.aspx]:
-    http://blogs.msdn.com/b/ie/archive/2008/04/10/html-and-dom-standards-compliance-in-ie8-beta-1.aspx
+  [http://blogs.msdn.com/b/ie/archive/2008/04/10/html-and-dom-standards-compliance-in-ie8-beta-1.aspx]:    http://blogs.msdn.com/b/ie/archive/2008/04/10/html-and-dom-standards-compliance-in-ie8-beta-1.aspx
   [http://blogs.msdn.com/b/ie/archive/2009/01.aspx]: http://blogs.msdn.com/b/ie/archive/2009/01.aspx
-  [http://blogs.msdn.com/b/ie/archive/2008/08/19/more-tests-submitted-to-the-w3c-css-2-1-test-suite.aspx]:
-    http://blogs.msdn.com/b/ie/archive/2008/08/19/more-tests-submitted-to-the-w3c-css-2-1-test-suite.aspx
+  [http://blogs.msdn.com/b/ie/archive/2008/08/19/more-tests-submitted-to-the-w3c-css-2-1-test-suite.aspx]:    http://blogs.msdn.com/b/ie/archive/2008/08/19/more-tests-submitted-to-the-w3c-css-2-1-test-suite.aspx
   [http://blogs.msdn.com/b/ie/archive/2008/08/26/ie8-performance.aspx]: http://blogs.msdn.com/b/ie/archive/2008/08/26/ie8-performance.aspx
-  [http://blogs.msdn.com/b/ie/archive/2008/09/08/microsoft-css-vendor-extensions.aspx]:
-    http://blogs.msdn.com/b/ie/archive/2008/09/08/microsoft-css-vendor-extensions.aspx
-  [http://blogs.msdn.com/b/ie/archive/2009/03/24/what-s-new-in-jscript-for-ie8.aspx]:
-    http://blogs.msdn.com/b/ie/archive/2009/03/24/what-s-new-in-jscript-for-ie8.aspx
-  [http://blogs.msdn.com/b/ie/archive/2009/03/12/site-compatibility-and-ie8.aspx]:
-    http://blogs.msdn.com/b/ie/archive/2009/03/12/site-compatibility-and-ie8.aspx
-  [http://www.gradientpixels.ca/blog-themes-tutorials/17-no-support-for-ie7-from-wordpress-33]:
-    http://www.gradientpixels.ca/blog-themes-tutorials/17-no-support-for-ie7-from-wordpress-33
+  [http://blogs.msdn.com/b/ie/archive/2008/09/08/microsoft-css-vendor-extensions.aspx]:    http://blogs.msdn.com/b/ie/archive/2008/09/08/microsoft-css-vendor-extensions.aspx
+  [http://blogs.msdn.com/b/ie/archive/2009/03/24/what-s-new-in-jscript-for-ie8.aspx]:    http://blogs.msdn.com/b/ie/archive/2009/03/24/what-s-new-in-jscript-for-ie8.aspx
+  [http://blogs.msdn.com/b/ie/archive/2009/03/12/site-compatibility-and-ie8.aspx]:    http://blogs.msdn.com/b/ie/archive/2009/03/12/site-compatibility-and-ie8.aspx
+  [http://www.gradientpixels.ca/blog-themes-tutorials/17-no-support-for-ie7-from-wordpress-33]:    http://www.gradientpixels.ca/blog-themes-tutorials/17-no-support-for-ie7-from-wordpress-33
   [http://css-tricks.com/browser-support-pseudo-elements/]: http://css-tricks.com/browser-support-pseudo-elements/
-  [http://share.ez.no/forums/general/browser-support-no-support-for-ie7]:
-    http://share.ez.no/forums/general/browser-support-no-support-for-ie7
+  [http://share.ez.no/forums/general/browser-support-no-support-for-ie7]:    http://share.ez.no/forums/general/browser-support-no-support-for-ie7
   [http://www.netmagazine.com/news/google-apps-ditches-support-ie7]: http://www.netmagazine.com/news/google-apps-ditches-support-ie7
-  [http://www.fatihhayrioglu.com/internet-explorer-8in-nihai-surum-cikti/]:
-    http://www.fatihhayrioglu.com/internet-explorer-8in-nihai-surum-cikti/
+  [http://www.fatihhayrioglu.com/internet-explorer-8in-nihai-surum-cikti/]:    http://www.fatihhayrioglu.com/internet-explorer-8in-nihai-surum-cikti/
   [http://www.fatihhayrioglu.com/internet-explorer-8e-kisa-bir-bakis/]: http://www.fatihhayrioglu.com/internet-explorer-8e-kisa-bir-bakis/
   [http://msdn.microsoft.com/en-us/library/cc304082(VS.85).aspx]: http://msdn.microsoft.com/en-us/library/cc304082(VS.85).aspx
   [http://blog.zimbra.com/blog/archives/2006/10/ie-7-vs-ie-6.html]: http://blog.zimbra.com/blog/archives/2006/10/ie-7-vs-ie-6.html
   [http://www.nuricankaya.com/default.asp?gunluk_id=407]: http://www.nuricankaya.com/default.asp?gunluk_id=407
-  [http://jclaes.blogspot.com/2010/11/html5-new-in-javascript-selector-api.html]:
-    http://jclaes.blogspot.com/2010/11/html5-new-in-javascript-selector-api.html
+  [http://jclaes.blogspot.com/2010/11/html5-new-in-javascript-selector-api.html]:    http://jclaes.blogspot.com/2010/11/html5-new-in-javascript-selector-api.html
   [http://msdn.microsoft.com/en-us/library/cc304082(v=vs.85).aspx]: http://msdn.microsoft.com/en-us/library/cc304082(v=vs.85).aspx
   [http://haslayout.net/haslayout]: http://haslayout.net/haslayout
   [http://ejohn.org/blog/javascript-in-internet-explorer-8/]: http://ejohn.org/blog/javascript-in-internet-explorer-8/
   [http://www.evotech.net/blog/2009/03/ie8-css-support/]: http://www.evotech.net/blog/2009/03/ie8-css-support/
-  [http://coding.smashingmagazine.com/2009/10/14/css-differences-in-internet-explorer-6-7-and-8/]:
-    http://coding.smashingmagazine.com/2009/10/14/css-differences-in-internet-explorer-6-7-and-8/
+  [http://coding.smashingmagazine.com/2009/10/14/css-differences-in-internet-explorer-6-7-and-8/]:    http://coding.smashingmagazine.com/2009/10/14/css-differences-in-internet-explorer-6-7-and-8/
   [http://www.standardista.com/browsers/ie8-css-support-hac]: http://www.standardista.com/browsers/ie8-css-support-hac
   [http://www.quirksmode.org/css/contents.html#t15]: http://www.quirksmode.org/css/contents.html#t15
-  [http://www.computerworld.com/s/article/9217279/Google_to_dump_support_for_Microsoft_s_IE7]:
-    http://www.computerworld.com/s/article/9217279/Google_to_dump_support_for_Microsoft_s_IE7
-  [http://thenextweb.com/facebook/2011/12/30/not-a-fan-of-timeline-on-facebook-use-ie7-facebook-stopped-supporting-it/]:
-    http://thenextweb.com/facebook/2011/12/30/not-a-fan-of-timeline-on-facebook-use-ie7-facebook-stopped-supporting-it/
+  [http://www.computerworld.com/s/article/9217279/Google_to_dump_support_for_Microsoft_s_IE7]:    http://www.computerworld.com/s/article/9217279/Google_to_dump_support_for_Microsoft_s_IE7
+  [http://thenextweb.com/facebook/2011/12/30/not-a-fan-of-timeline-on-facebook-use-ie7-facebook-stopped-supporting-it/]:    http://thenextweb.com/facebook/2011/12/30/not-a-fan-of-timeline-on-facebook-use-ie7-facebook-stopped-supporting-it/
   [http://drupal.org/node/1217788]: http://drupal.org/node/1217788
   [http://theie7countdown.com/]: http://theie7countdown.com/
-  [http://howlingdogthemes.com/wordpress-development/wp-to-drop-ie7-support/]:
-    http://howlingdogthemes.com/wordpress-development/wp-to-drop-ie7-support/
-  [http://gmailblog.blogspot.com/2011/06/our-plans-to-support-modern-browsers.html]:
-    http://gmailblog.blogspot.com/2011/06/our-plans-to-support-modern-browsers.html
-  [http://blogs.missouristate.edu/web/2012/03/26/goodbye-ie7-we-wont-miss-you/]:
-    http://blogs.missouristate.edu/web/2012/03/26/goodbye-ie7-we-wont-miss-you/
+  [http://howlingdogthemes.com/wordpress-development/wp-to-drop-ie7-support/]:    http://howlingdogthemes.com/wordpress-development/wp-to-drop-ie7-support/
+  [http://gmailblog.blogspot.com/2011/06/our-plans-to-support-modern-browsers.html]:    http://gmailblog.blogspot.com/2011/06/our-plans-to-support-modern-browsers.html
+  [http://blogs.missouristate.edu/web/2012/03/26/goodbye-ie7-we-wont-miss-you/]:    http://blogs.missouristate.edu/web/2012/03/26/goodbye-ie7-we-wont-miss-you/
   [http://caniuse.com/#compare=y&b1=ie+7&b2=ie+8]: http://caniuse.com/#compare=y&b1=ie+7&b2=ie+8

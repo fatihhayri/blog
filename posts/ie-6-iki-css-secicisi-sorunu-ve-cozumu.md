@@ -60,12 +60,10 @@ hribar.info'nun yaptığı örnek güzel inceleyin.
 
 </p>
 
-  [http://hribar.info/static/projects/multi-class_ie6_bug/error.html]:
-    http://hribar.info/static/projects/multi-class_ie6_bug/error.html
+  [http://hribar.info/static/projects/multi-class_ie6_bug/error.html]:    http://hribar.info/static/projects/multi-class_ie6_bug/error.html
   [http://paulirish.com/2008/the-two-css-selector-bugs-in-ie6/]: http://paulirish.com/2008/the-two-css-selector-bugs-in-ie6/
     "http://paulirish.com/2008/the-two-css-selector-bugs-in-ie6/"
-  [http://blog.solutionset.com/wpmu/2008/02/15/internet-explorer-id-class-bug/]:
-    http://blog.solutionset.com/wpmu/2008/02/15/internet-explorer-id-class-bug/
+  [http://blog.solutionset.com/wpmu/2008/02/15/internet-explorer-id-class-bug/]:    http://blog.solutionset.com/wpmu/2008/02/15/internet-explorer-id-class-bug/
     "http://blog.solutionset.com/wpmu/2008/02/15/internet-explorer-id-class-bug/"
   [http://hribar.info/en/archive/80/entrie.html]: http://hribar.info/en/archive/80/entrie.html
     "http://hribar.info/en/archive/80/entrie.html"

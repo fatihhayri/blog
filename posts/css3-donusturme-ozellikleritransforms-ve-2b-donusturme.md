@@ -440,64 +440,41 @@ sağlayacaktır.
   [http://24ways.org/2009/going-nuts-with-css-transitions]: http://24ways.org/2009/going-nuts-with-css-transitions
   [http://www.the-art-of-web.com/css/css-animation/]: http://www.the-art-of-web.com/css/css-animation/
   [http://css3.bradshawenterprises.com/]: http://css3.bradshawenterprises.com/
-  [http://dev.opera.com/articles/view/css3-transitions-and-2d-transforms/]:
-    http://dev.opera.com/articles/view/css3-transitions-and-2d-transforms/
+  [http://dev.opera.com/articles/view/css3-transitions-and-2d-transforms/]:    http://dev.opera.com/articles/view/css3-transitions-and-2d-transforms/
   [http://www.shayhowe.com/tutorial/css3-animated-owl-tutorial/]: http://www.shayhowe.com/tutorial/css3-animated-owl-tutorial/
   [http://www.t-infection.com/css3de-transforms-donusturme-islemleri/]: http://www.t-infection.com/css3de-transforms-donusturme-islemleri/
   [http://www.standardista.com/css3-transforms]: http://www.standardista.com/css3-transforms
-  [http://www.webdesigncreare.co.uk/blog/html-css/css3-transforms.html]:
-    http://www.webdesigncreare.co.uk/blog/html-css/css3-transforms.html
-  [http://professionalaspnet.com/archive/2011/03/17/IE9-Supports-CSS3-Transforms_2100_.aspx]:
-    http://professionalaspnet.com/archive/2011/03/17/IE9-Supports-CSS3-Transforms_2100_.aspx
+  [http://www.webdesigncreare.co.uk/blog/html-css/css3-transforms.html]:    http://www.webdesigncreare.co.uk/blog/html-css/css3-transforms.html
+  [http://professionalaspnet.com/archive/2011/03/17/IE9-Supports-CSS3-Transforms_2100_.aspx]:    http://professionalaspnet.com/archive/2011/03/17/IE9-Supports-CSS3-Transforms_2100_.aspx
   [http://www.sitepoint.com/a-primer-on-css3-transforms/]: http://www.sitepoint.com/a-primer-on-css3-transforms/
   [https://developer.mozilla.org/en/css/-moz-transform]: https://developer.mozilla.org/en/css/-moz-transform
-  [http://blog.typekit.com/2011/01/25/case-study-getting-hardboiled-with-css3-2d-transforms/]:
-    http://blog.typekit.com/2011/01/25/case-study-getting-hardboiled-with-css3-2d-transforms/
+  [http://blog.typekit.com/2011/01/25/case-study-getting-hardboiled-with-css3-2d-transforms/]:    http://blog.typekit.com/2011/01/25/case-study-getting-hardboiled-with-css3-2d-transforms/
   [http://css3.bradshawenterprises.com/transforms/]: http://css3.bradshawenterprises.com/transforms/
-  [http://doctype.com/javascript-image-zoom-css3-transforms-calculate-origin-example]:
-    http://doctype.com/javascript-image-zoom-css3-transforms-calculate-origin-example
-  [http://designshack.co.uk/articles/css/achieving-multi-step-animations-with-css-transitions/]:
-    http://designshack.co.uk/articles/css/achieving-multi-step-animations-with-css-transitions/
+  [http://doctype.com/javascript-image-zoom-css3-transforms-calculate-origin-example]:    http://doctype.com/javascript-image-zoom-css3-transforms-calculate-origin-example
+  [http://designshack.co.uk/articles/css/achieving-multi-step-animations-with-css-transitions/]:    http://designshack.co.uk/articles/css/achieving-multi-step-animations-with-css-transitions/
   [http://www.impressivewebs.com/css3-transitions-without-hover/]: http://www.impressivewebs.com/css3-transitions-without-hover/
-  [http://speckyboy.com/2011/08/15/how-to-build-a-fully-functional-css3-only-content-slider]:
-    http://speckyboy.com/2011/08/15/how-to-build-a-fully-functional-css3-only-content-slider
+  [http://speckyboy.com/2011/08/15/how-to-build-a-fully-functional-css3-only-content-slider]:    http://speckyboy.com/2011/08/15/how-to-build-a-fully-functional-css3-only-content-slider
   [http://www.impressivewebs.com/replace-flash-with-css3-animation/]: http://www.impressivewebs.com/replace-flash-with-css3-animation/
   [http://www.netmagazine.com/tutorials/masterclass-css-animations]: http://www.netmagazine.com/tutorials/masterclass-css-animations
-  [http://coding.smashingmagazine.com/2011/09/14/the-guide-to-css-animation-principles-and-examples/]:
-    http://coding.smashingmagazine.com/2011/09/14/the-guide-to-css-animation-principles-and-examples/
-  [http://tympanus.net/codrops/2011/10/24/creative-css3-animation-menus/]:
-    http://tympanus.net/codrops/2011/10/24/creative-css3-animation-menus/
-  [http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/css3-transitions-and-transforms-from-scratch/]:
-    http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/css3-transitions-and-transforms-from-scratch/
-  [http://www.dynamicdrive.com/style/csslibrary/item/spinning_icons_using_css3_transform/]:
-    http://www.dynamicdrive.com/style/csslibrary/item/spinning_icons_using_css3_transform/
-  [http://designshack.net/articles/css/mastering-mouse-enter-and-exit-events-with-css-transitions/]:
-    http://designshack.net/articles/css/mastering-mouse-enter-and-exit-events-with-css-transitions/
-  [http://www.splashnology.com/article/cross-browser-2d-transformations-with-animation/1827/]:
-    http://www.splashnology.com/article/cross-browser-2d-transformations-with-animation/1827/
-  [http://www.htmlgoodies.com/html5/css/learn-css3-from-a-z-2d-transformations.html#fbid=CH7CpzZeM2i]:
-    http://www.htmlgoodies.com/html5/css/learn-css3-from-a-z-2d-transformations.html#fbid=CH7CpzZeM2i
+  [http://coding.smashingmagazine.com/2011/09/14/the-guide-to-css-animation-principles-and-examples/]:    http://coding.smashingmagazine.com/2011/09/14/the-guide-to-css-animation-principles-and-examples/
+  [http://tympanus.net/codrops/2011/10/24/creative-css3-animation-menus/]:    http://tympanus.net/codrops/2011/10/24/creative-css3-animation-menus/
+  [http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/css3-transitions-and-transforms-from-scratch/]:    http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/css3-transitions-and-transforms-from-scratch/
+  [http://www.dynamicdrive.com/style/csslibrary/item/spinning_icons_using_css3_transform/]:    http://www.dynamicdrive.com/style/csslibrary/item/spinning_icons_using_css3_transform/
+  [http://designshack.net/articles/css/mastering-mouse-enter-and-exit-events-with-css-transitions/]:    http://designshack.net/articles/css/mastering-mouse-enter-and-exit-events-with-css-transitions/
+  [http://www.splashnology.com/article/cross-browser-2d-transformations-with-animation/1827/]:    http://www.splashnology.com/article/cross-browser-2d-transformations-with-animation/1827/
+  [http://www.htmlgoodies.com/html5/css/learn-css3-from-a-z-2d-transformations.html#fbid=CH7CpzZeM2i]:    http://www.htmlgoodies.com/html5/css/learn-css3-from-a-z-2d-transformations.html#fbid=CH7CpzZeM2i
   [http://johnbhall.com/iphone-4s/]: http://johnbhall.com/iphone-4s/
   [http://css3playground.com/slinky.php]: http://css3playground.com/slinky.php
-  [http://coding.smashingmagazine.com/2010/04/28/css3-solutions-for-internet-explorer/]:
-    http://coding.smashingmagazine.com/2010/04/28/css3-solutions-for-internet-explorer/
-  [http://www.impressivewebs.com/alternative-units-css3-rotate-transforms/]:
-    http://www.impressivewebs.com/alternative-units-css3-rotate-transforms/
+  [http://coding.smashingmagazine.com/2010/04/28/css3-solutions-for-internet-explorer/]:    http://coding.smashingmagazine.com/2010/04/28/css3-solutions-for-internet-explorer/
+  [http://www.impressivewebs.com/alternative-units-css3-rotate-transforms/]:    http://www.impressivewebs.com/alternative-units-css3-rotate-transforms/
   [http://www.html5rocks.com/en/tutorials/webgl/webgl_transforms/]: http://www.html5rocks.com/en/tutorials/webgl/webgl_transforms/
   [http://ricostacruz.com/jquery.transit/]: http://ricostacruz.com/jquery.transit/
-  [http://www.blackinci.com/css/59-css3-ile-2ci-boyuta-gecis-transform.html]:
-    http://www.blackinci.com/css/59-css3-ile-2ci-boyuta-gecis-transform.html
-  [http://www.developerdrive.com/2012/02/moving-web-page-elements-using-the-css3-translate-transform/]:
-    http://www.developerdrive.com/2012/02/moving-web-page-elements-using-the-css3-translate-transform/
-  [http://www.developerdrive.com/2012/02/scaling-web-page-elements-using-the-css3-scale-transform/]:
-    http://www.developerdrive.com/2012/02/scaling-web-page-elements-using-the-css3-scale-transform/
-  [http://www.developerdrive.com/2012/02/skewing-web-page-elements-using-the-css3-skew-transform/]:
-    http://www.developerdrive.com/2012/02/skewing-web-page-elements-using-the-css3-skew-transform/
-  [http://www.developerdrive.com/2012/05/rotating-web-page-elements-using-the-css3-rotate-transform/]:
-    http://www.developerdrive.com/2012/05/rotating-web-page-elements-using-the-css3-rotate-transform/
+  [http://www.blackinci.com/css/59-css3-ile-2ci-boyuta-gecis-transform.html]:    http://www.blackinci.com/css/59-css3-ile-2ci-boyuta-gecis-transform.html
+  [http://www.developerdrive.com/2012/02/moving-web-page-elements-using-the-css3-translate-transform/]:    http://www.developerdrive.com/2012/02/moving-web-page-elements-using-the-css3-translate-transform/
+  [http://www.developerdrive.com/2012/02/scaling-web-page-elements-using-the-css3-scale-transform/]:    http://www.developerdrive.com/2012/02/scaling-web-page-elements-using-the-css3-scale-transform/
+  [http://www.developerdrive.com/2012/02/skewing-web-page-elements-using-the-css3-skew-transform/]:    http://www.developerdrive.com/2012/02/skewing-web-page-elements-using-the-css3-skew-transform/
+  [http://www.developerdrive.com/2012/05/rotating-web-page-elements-using-the-css3-rotate-transform/]:    http://www.developerdrive.com/2012/05/rotating-web-page-elements-using-the-css3-rotate-transform/
   [http://www.webdirections.org/blog/2d-transforms-in-css3/]: http://www.webdirections.org/blog/2d-transforms-in-css3/
   [http://msdn.microsoft.com/en-us/magazine/gg709742.aspx]: http://msdn.microsoft.com/en-us/magazine/gg709742.aspx
-  [http://www.useragentman.com/blog/2011/01/07/css3-matrix-transform-for-the-mathematically-challenged/]:
-    http://www.useragentman.com/blog/2011/01/07/css3-matrix-transform-for-the-mathematically-challenged/
-  [http://www.alsacreations.com/article/lire/1418-css3-transformations-2d.html]:
-    http://www.alsacreations.com/article/lire/1418-css3-transformations-2d.html
+  [http://www.useragentman.com/blog/2011/01/07/css3-matrix-transform-for-the-mathematically-challenged/]:    http://www.useragentman.com/blog/2011/01/07/css3-matrix-transform-for-the-mathematically-challenged/
+  [http://www.alsacreations.com/article/lire/1418-css3-transformations-2d.html]:    http://www.alsacreations.com/article/lire/1418-css3-transformations-2d.html

@@ -48,41 +48,31 @@ değil mi? Kontrol zamanı
     "Daha önce"
   [tıklayınız.]: http://www.microsoft.com/windows/internet-explorer/default.aspx
     "tıklayınız."
-  [http://www.melihbayramdede.com/2009/03/19/internet-explorer-8-yayinlandi-hemen-indirin/]:
-    http://www.melihbayramdede.com/2009/03/19/internet-explorer-8-yayinlandi-hemen-indirin/
+  [http://www.melihbayramdede.com/2009/03/19/internet-explorer-8-yayinlandi-hemen-indirin/]:    http://www.melihbayramdede.com/2009/03/19/internet-explorer-8-yayinlandi-hemen-indirin/
     "http://www.melihbayramdede.com/2009/03/19/internet-explorer-8-yayinlandi-hemen-indirin/"
-  [http://ajaxian.com/archives/ie-8-launches-at-mix09-probably-without-one-of-your-features]:
-    http://ajaxian.com/archives/ie-8-launches-at-mix09-probably-without-one-of-your-features
+  [http://ajaxian.com/archives/ie-8-launches-at-mix09-probably-without-one-of-your-features]:    http://ajaxian.com/archives/ie-8-launches-at-mix09-probably-without-one-of-your-features
     "http://ajaxian.com/archives/ie-8-launches-at-mix09-probably-without-one-of-your-features"
-  [http://www.readwriteweb.com/archives/microsoft_releases_internet_explorer8_rc1.php]:
-    http://www.readwriteweb.com/archives/microsoft_releases_internet_explorer8_rc1.php
+  [http://www.readwriteweb.com/archives/microsoft_releases_internet_explorer8_rc1.php]:    http://www.readwriteweb.com/archives/microsoft_releases_internet_explorer8_rc1.php
     "http://www.readwriteweb.com/archives/microsoft_releases_internet_explorer8_rc1.php"
-  [http://www.computerworld.com/action/article.do?command=viewArticleBasic&articleId=9129906]:
-    http://www.computerworld.com/action/article.do?command=viewArticleBasic&articleId=9129906
+  [http://www.computerworld.com/action/article.do?command=viewArticleBasic&articleId=9129906]:    http://www.computerworld.com/action/article.do?command=viewArticleBasic&articleId=9129906
     "http://www.computerworld.com/action/article.do?command=viewArticleBasic&articleId=9129906"
   [http://blog.wired.com/business/2009/01/more-details-ab.html]: http://blog.wired.com/business/2009/01/more-details-ab.html
     "http://blog.wired.com/business/2009/01/more-details-ab.html"
-  [http://www.microsoft.com/windows/internet-explorer/beta/readiness/developers-new.aspx]:
-    http://www.microsoft.com/windows/internet-explorer/beta/readiness/developers-new.aspx
+  [http://www.microsoft.com/windows/internet-explorer/beta/readiness/developers-new.aspx]:    http://www.microsoft.com/windows/internet-explorer/beta/readiness/developers-new.aspx
     "http://www.microsoft.com/windows/internet-explorer/beta/readiness/developers-new.aspx"
   [http://ejohn.org/blog/javascript-in-internet-explorer-8/]: http://ejohn.org/blog/javascript-in-internet-explorer-8/
     "http://ejohn.org/blog/javascript-in-internet-explorer-8/"
   [http://www.alistapart.com/articles/beyonddoctype]: http://www.alistapart.com/articles/beyonddoctype
     "http://www.alistapart.com/articles/beyonddoctype"
-  [http://blogs.msdn.com/ie/archive/2008/01/21/compatibility-and-ie8.aspx]:
-    http://blogs.msdn.com/ie/archive/2008/01/21/compatibility-and-ie8.aspx
+  [http://blogs.msdn.com/ie/archive/2008/01/21/compatibility-and-ie8.aspx]:    http://blogs.msdn.com/ie/archive/2008/01/21/compatibility-and-ie8.aspx
     "http://blogs.msdn.com/ie/archive/2008/01/21/compatibility-and-ie8.aspx"
-  [http://blogs.msdn.com/ie/archive/2008/03/03/microsoft-s-interoperability-principles-and-ie8.aspx]:
-    http://blogs.msdn.com/ie/archive/2008/03/03/microsoft-s-interoperability-principles-and-ie8.aspx
+  [http://blogs.msdn.com/ie/archive/2008/03/03/microsoft-s-interoperability-principles-and-ie8.aspx]:    http://blogs.msdn.com/ie/archive/2008/03/03/microsoft-s-interoperability-principles-and-ie8.aspx
     "http://blogs.msdn.com/ie/archive/2008/03/03/microsoft-s-interoperability-principles-and-ie8.aspx"
-  [http://daron.yondem.com/tr/PermaLink.aspx?guid=e649f2d5-0f91-4ed0-a231-74321d01d5b3]:
-    http://daron.yondem.com/tr/PermaLink.aspx?guid=e649f2d5-0f91-4ed0-a231-74321d01d5b3
+  [http://daron.yondem.com/tr/PermaLink.aspx?guid=e649f2d5-0f91-4ed0-a231-74321d01d5b3]:    http://daron.yondem.com/tr/PermaLink.aspx?guid=e649f2d5-0f91-4ed0-a231-74321d01d5b3
     "http://daron.yondem.com/tr/PermaLink.aspx?guid=e649f2d5-0f91-4ed0-a231-74321d01d5b3"
   [http://www.fatihhayrioglu.com/internet-explorer-8e-kisa-bir-bakis/]: http://www.fatihhayrioglu.com/internet-explorer-8e-kisa-bir-bakis/
     "http://www.fatihhayrioglu.com/internet-explorer-8e-kisa-bir-bakis/"
-  [http://www.thestandard.com/news/2009/01/28/ie8-rc1-gains-ground-javascript-race]:
-    http://www.thestandard.com/news/2009/01/28/ie8-rc1-gains-ground-javascript-race
+  [http://www.thestandard.com/news/2009/01/28/ie8-rc1-gains-ground-javascript-race]:    http://www.thestandard.com/news/2009/01/28/ie8-rc1-gains-ground-javascript-race
     "http://www.thestandard.com/news/2009/01/28/ie8-rc1-gains-ground-javascript-race"
-  [http://blogs.msdn.com/ie/archive/2009/01/29/overview-of-platform-improvements-in-ie8-rc1.aspx]:
-    http://blogs.msdn.com/ie/archive/2009/01/29/overview-of-platform-improvements-in-ie8-rc1.aspx
+  [http://blogs.msdn.com/ie/archive/2009/01/29/overview-of-platform-improvements-in-ie8-rc1.aspx]:    http://blogs.msdn.com/ie/archive/2009/01/29/overview-of-platform-improvements-in-ie8-rc1.aspx
     "http://blogs.msdn.com/ie/archive/2009/01/29/overview-of-platform-improvements-in-ie8-rc1.aspx"

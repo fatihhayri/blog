@@ -12,5 +12,4 @@ zamanla veritabanını şişiriyor. Bunun için Clear option eklentisini
 yükleyip arada bir bu rss alanlarını silmek gerekiyor. Benden şimdilik
 bu kadar
 
-  [http://blog.codesignstudios.com/fix-wordpress-mysql-out-of-memory-error/]:
-    http://blog.codesignstudios.com/fix-wordpress-mysql-out-of-memory-error/
+  [http://blog.codesignstudios.com/fix-wordpress-mysql-out-of-memory-error/]:    http://blog.codesignstudios.com/fix-wordpress-mysql-out-of-memory-error/

@@ -233,7 +233,6 @@ Kalın sağlıcakla
     "terminal"
   [![][]]: http://www.fatihhayrioglu.com/wp-content/terminal.png
   [http://ss64.com/osx/]: http://ss64.com/osx/
-  [http://tybarts.wordpress.com/2011/05/07/git-global-config-dosyasini-ayarlamak/]:
-    http://tybarts.wordpress.com/2011/05/07/git-global-config-dosyasini-ayarlamak/
+  [http://tybarts.wordpress.com/2011/05/07/git-global-config-dosyasini-ayarlamak/]:    http://tybarts.wordpress.com/2011/05/07/git-global-config-dosyasini-ayarlamak/
   [http://sixrevisions.com/resources/git-tutorials-beginners/]: http://sixrevisions.com/resources/git-tutorials-beginners/
   [https://git.wiki.kernel.org/index.php/Aliases]: https://git.wiki.kernel.org/index.php/Aliases

@@ -48,11 +48,8 @@ Ayrıca Firefox 5 ile gelen yeni bir site
   [http://firefoxtweetmachine.com/]: http://firefoxtweetmachine.com/
   [http://www.favbrowser.com/download-firefox-5-final/]: http://www.favbrowser.com/download-firefox-5-final/
   [http://mashable.com/2011/06/21/firefox-5/]: http://mashable.com/2011/06/21/firefox-5/
-  [http://venturebeat.com/2011/06/21/firefox-5-launches-only-months-after-last-version]:
-    http://venturebeat.com/2011/06/21/firefox-5-launches-only-months-after-last-version
+  [http://venturebeat.com/2011/06/21/firefox-5-launches-only-months-after-last-version]:    http://venturebeat.com/2011/06/21/firefox-5-launches-only-months-after-last-version
   [http://hacks.mozilla.org/2011/06/firefox5/]: http://hacks.mozilla.org/2011/06/firefox5/
   [http://www.sitepoint.com/firefox-5-released]: http://www.sitepoint.com/firefox-5-released
-  [http://blog.mozilla.com/blog/2011/06/21/mozilla-delivers-new-version-of-firefox-first-web-browser-to-support-do-not-track-on-multiple-platforms/]:
-    http://blog.mozilla.com/blog/2011/06/21/mozilla-delivers-new-version-of-firefox-first-web-browser-to-support-do-not-track-on-multiple-platforms/
-  [http://www.pcextra.com.tr/haber/2011/06/firefox-5-soft-acilisin-ardindan-resmi-olarak-da-cikti]:
-    http://www.pcextra.com.tr/haber/2011/06/firefox-5-soft-acilisin-ardindan-resmi-olarak-da-cikti
+  [http://blog.mozilla.com/blog/2011/06/21/mozilla-delivers-new-version-of-firefox-first-web-browser-to-support-do-not-track-on-multiple-platforms/]:    http://blog.mozilla.com/blog/2011/06/21/mozilla-delivers-new-version-of-firefox-first-web-browser-to-support-do-not-track-on-multiple-platforms/
+  [http://www.pcextra.com.tr/haber/2011/06/firefox-5-soft-acilisin-ardindan-resmi-olarak-da-cikti]:    http://www.pcextra.com.tr/haber/2011/06/firefox-5-soft-acilisin-ardindan-resmi-olarak-da-cikti

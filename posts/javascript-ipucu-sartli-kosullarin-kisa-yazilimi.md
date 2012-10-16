@@ -42,7 +42,5 @@ değişikeninin değeri "yetişkin" değilse "küçük" olacaktır.
 
 </p>
 
-  [http://javascriptant.com/articles/28/the-conditional-operator-ternary-operactor]:
-    http://javascriptant.com/articles/28/the-conditional-operator-ternary-operactor
-  [http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Operators:Special_Operators]:
-    http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Operators:Special_Operators
+  [http://javascriptant.com/articles/28/the-conditional-operator-ternary-operactor]:    http://javascriptant.com/articles/28/the-conditional-operator-ternary-operactor
+  [http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Operators:Special_Operators]:    http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Operators:Special_Operators

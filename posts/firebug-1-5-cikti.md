@@ -95,13 +95,11 @@ numaralı yerini kimseye kaptırmıyor.
     "http://getfirebug.com/wiki/index.php/Firebug_Release_Notes"
   [http://www.softwareishard.com/blog/]: http://www.softwareishard.com/blog/
     "http://www.softwareishard.com/blog/"
-  [http://lifehacker.com/5453025/firebug-15-updates-with-new-features-still-a-web-developers-dream]:
-    http://lifehacker.com/5453025/firebug-15-updates-with-new-features-still-a-web-developers-dream
+  [http://lifehacker.com/5453025/firebug-15-updates-with-new-features-still-a-web-developers-dream]:    http://lifehacker.com/5453025/firebug-15-updates-with-new-features-still-a-web-developers-dream
     "http://lifehacker.com/5453025/firebug-15-updates-with-new-features-still-a-web-developers-dream"
   [http://hacks.mozilla.org/2010/01/firebug-1-5-a-closer-look/]: http://hacks.mozilla.org/2010/01/firebug-1-5-a-closer-look/
     "http://hacks.mozilla.org/2010/01/firebug-1-5-a-closer-look/"
   [http://hacks.mozilla.org/2010/01/firebug-1-5-released/]: http://hacks.mozilla.org/2010/01/firebug-1-5-released/
     "http://hacks.mozilla.org/2010/01/firebug-1-5-released/"
-  [http://www.markwarner2008.com/firebug-1-5-updates-with-new-features-still-a-web-developers-dream-downloads/]:
-    http://www.markwarner2008.com/firebug-1-5-updates-with-new-features-still-a-web-developers-dream-downloads/
+  [http://www.markwarner2008.com/firebug-1-5-updates-with-new-features-still-a-web-developers-dream-downloads/]:    http://www.markwarner2008.com/firebug-1-5-updates-with-new-features-still-a-web-developers-dream-downloads/
     "http://www.markwarner2008.com/firebug-1-5-updates-with-new-features-still-a-web-developers-dream-downloads/"

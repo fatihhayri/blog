@@ -10,5 +10,4 @@ language='xslt']<xsl:text disable-output-escaping="yes">&nbsp;</xsl:text>
 Kaynak:
 [http://stackoverflow.com/questions/31870/using-a-html-entity-in-xslt-eg-nbsp][]
 
-  [http://stackoverflow.com/questions/31870/using-a-html-entity-in-xslt-eg-nbsp]:
-    http://stackoverflow.com/questions/31870/using-a-html-entity-in-xslt-eg-nbsp
+  [http://stackoverflow.com/questions/31870/using-a-html-entity-in-xslt-eg-nbsp]:    http://stackoverflow.com/questions/31870/using-a-html-entity-in-xslt-eg-nbsp

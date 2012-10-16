@@ -307,8 +307,7 @@ başlıklar için kullanmak gayet mantıklı. Takdir ve seçim sizin.
   [sIFR3]: http://novemberborn.net/sifr3/beta1
   [http://www.ampsoft.net/­webdesign-l/image-button.html]: http://www.ampsoft.net/­webdesign-l/image-button.html
   [http://www.mezzoblue.com/tests/revised-image-replacement/]: http://www.mezzoblue.com/tests/revised-image-replacement/
-  [http://www.digital-web.com/articles/in_defense_of_fahrner_image_replacement/]:
-    http://www.digital-web.com/articles/in_defense_of_fahrner_image_replacement/
+  [http://www.digital-web.com/articles/in_defense_of_fahrner_image_replacement/]:    http://www.digital-web.com/articles/in_defense_of_fahrner_image_replacement/
   [http://alistapart.com/articles/fir/]: http://alistapart.com/articles/fir/
   [http://webdesign.maratz.com/lab/multi_color_sifr/]: http://webdesign.maratz.com/lab/multi_color_sifr/
   [http://usabletype.com/weblog/how-and-when-to-use-sifr/]: http://usabletype.com/weblog/how-and-when-to-use-sifr/

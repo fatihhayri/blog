@@ -360,8 +360,7 @@ aksaklığımız oldu ise affola.
     "http://nickcowie.com/2008/font-face/"
   [http://www.w3.org/TR/css3-webfonts/#font-descriptions]: http://www.w3.org/TR/css3-webfonts/#font-descriptions
     "http://www.w3.org/TR/css3-webfonts/#font-descriptions"
-  [http://paulirish.com/2009/bulletproof-font-face-implementation-syntax/]:
-    http://paulirish.com/2009/bulletproof-font-face-implementation-syntax/
+  [http://paulirish.com/2009/bulletproof-font-face-implementation-syntax/]:    http://paulirish.com/2009/bulletproof-font-face-implementation-syntax/
     "http://paulirish.com/2009/bulletproof-font-face-implementation-syntax/"
   [http://www.kadirgunay.com/font-face-kullanimi-ve-kolayliklari.html]: http://www.kadirgunay.com/font-face-kullanimi-ve-kolayliklari.html
     "http://www.kadirgunay.com/font-face-kullanimi-ve-kolayliklari.html"
@@ -373,19 +372,15 @@ aksaklığımız oldu ise affola.
     "http://craigmod.com/journal/font-face/"
   [http://nimbupani.com/blog/font-in-your-face.html]: http://nimbupani.com/blog/font-in-your-face.html
     "http://nimbupani.com/blog/font-in-your-face.html"
-  [http://opentype.info/blog/2009/07/29/why-webfont-services-are-the-future-of-fonts-on-the-web/]:
-    http://opentype.info/blog/2009/07/29/why-webfont-services-are-the-future-of-fonts-on-the-web/
+  [http://opentype.info/blog/2009/07/29/why-webfont-services-are-the-future-of-fonts-on-the-web/]:    http://opentype.info/blog/2009/07/29/why-webfont-services-are-the-future-of-fonts-on-the-web/
     "http://opentype.info/blog/2009/07/29/why-webfont-services-are-the-future-of-fonts-on-the-web/"
   [http://www.zeldman.com/2009/08/17/web-fonts-and-standards/]: http://www.zeldman.com/2009/08/17/web-fonts-and-standards/
     "http://www.zeldman.com/2009/08/17/web-fonts-and-standards/"
-  [http://blog.themeforest.net/tutorials/css-font-face-and-15-free-fonts-you-can-use-today/]:
-    http://blog.themeforest.net/tutorials/css-font-face-and-15-free-fonts-you-can-use-today/
+  [http://blog.themeforest.net/tutorials/css-font-face-and-15-free-fonts-you-can-use-today/]:    http://blog.themeforest.net/tutorials/css-font-face-and-15-free-fonts-you-can-use-today/
     "http://blog.themeforest.net/tutorials/css-font-face-and-15-free-fonts-you-can-use-today/"
-  [http://www.stevesouders.com/blog/2009/10/13/font-face-and-performance/]:
-    http://www.stevesouders.com/blog/2009/10/13/font-face-and-performance/
+  [http://www.stevesouders.com/blog/2009/10/13/font-face-and-performance/]:    http://www.stevesouders.com/blog/2009/10/13/font-face-and-performance/
     "http://www.stevesouders.com/blog/2009/10/13/font-face-and-performance/"
-  [http://snook.ca/archives/html_and_css/becoming-a-font-embedding-master]:
-    http://snook.ca/archives/html_and_css/becoming-a-font-embedding-master
+  [http://snook.ca/archives/html_and_css/becoming-a-font-embedding-master]:    http://snook.ca/archives/html_and_css/becoming-a-font-embedding-master
     "http://snook.ca/archives/html_and_css/becoming-a-font-embedding-master"
   [http://randsco.com/index.php/2009/09/04/better_font_face_syntax]: http://randsco.com/index.php/2009/09/04/better_font_face_syntax
     "http://randsco.com/index.php/2009/09/04/better_font_face_syntax"
@@ -395,13 +390,11 @@ aksaklığımız oldu ise affola.
     "http://www.font-face.com/"
   [http://www.alistapart.com/articles/cssatten]: http://www.alistapart.com/articles/cssatten
     "http://www.alistapart.com/articles/cssatten"
-  [http://jontangerine.com/log/2008/10/font-face-in-ie-making-web-fonts-work]:
-    http://jontangerine.com/log/2008/10/font-face-in-ie-making-web-fonts-work
+  [http://jontangerine.com/log/2008/10/font-face-in-ie-making-web-fonts-work]:    http://jontangerine.com/log/2008/10/font-face-in-ie-making-web-fonts-work
     "http://jontangerine.com/log/2008/10/font-face-in-ie-making-web-fonts-work"
   [http://reference.sitepoint.com/css/at-fontface]: http://reference.sitepoint.com/css/at-fontface
     "http://reference.sitepoint.com/css/at-fontface"
-  [http://www.seomium.com/xhtml-css-javascript-kodlama/ucretsiz-ve-yasal-fontlarla-font-face-kullanimi.html]:
-    http://www.seomium.com/xhtml-css-javascript-kodlama/ucretsiz-ve-yasal-fontlarla-font-face-kullanimi.html
+  [http://www.seomium.com/xhtml-css-javascript-kodlama/ucretsiz-ve-yasal-fontlarla-font-face-kullanimi.html]:    http://www.seomium.com/xhtml-css-javascript-kodlama/ucretsiz-ve-yasal-fontlarla-font-face-kullanimi.html
     "http://www.seomium.com/xhtml-css-javascript-kodlama/ucretsiz-ve-yasal-fontlarla-font-face-kullanimi.html"
   [http://opentype.info/demo/webfontdemo.html]: http://opentype.info/demo/webfontdemo.html
     "http://opentype.info/demo/webfontdemo.html"
@@ -421,6 +414,5 @@ aksaklığımız oldu ise affola.
     "http://paulirish.com/2009/the-direction-forward-with-web-fonts/"
   [http://spyrestudios.com/21-awesome-font-face-embedable-typefaces/]: http://spyrestudios.com/21-awesome-font-face-embedable-typefaces/
     "http://spyrestudios.com/21-awesome-font-face-embedable-typefaces/"
-  [http://blog.themeforest.net/tutorials/how-to-achieve-cross-browser-font-face-support/]:
-    http://blog.themeforest.net/tutorials/how-to-achieve-cross-browser-font-face-support/
+  [http://blog.themeforest.net/tutorials/how-to-achieve-cross-browser-font-face-support/]:    http://blog.themeforest.net/tutorials/how-to-achieve-cross-browser-font-face-support/
     "http://blog.themeforest.net/tutorials/how-to-achieve-cross-browser-font-face-support/"

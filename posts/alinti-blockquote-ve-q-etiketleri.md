@@ -175,7 +175,6 @@ tarayıcı ve araçlarda da farklı bir görünüm sağlamış olduk.
   [http://www.shapeshed.com/journal/quotations_in_css/]: http://www.shapeshed.com/journal/quotations_in_css/
   [http://diveintomark.org/archives/2002/05/04/the_q_tag]: http://diveintomark.org/archives/2002/05/04/the_q_tag
   [http://simonwillison.net/2003/May/21/stylingBlockquotes/]: http://simonwillison.net/2003/May/21/stylingBlockquotes/
-  [http://www.456bereastreet.com/archive/200411/quotations_and_citations_quoting_text/]:
-    http://www.456bereastreet.com/archive/200411/quotations_and_citations_quoting_text/
+  [http://www.456bereastreet.com/archive/200411/quotations_and_citations_quoting_text/]:    http://www.456bereastreet.com/archive/200411/quotations_and_citations_quoting_text/
   [http://juicystudio.com/article/fixing-ie-quotes.php]: http://juicystudio.com/article/fixing-ie-quotes.php
   [http://historytalk.typepad.com/basic/2006/06/scholarship_xht.html]: http://historytalk.typepad.com/basic/2006/06/scholarship_xht.html

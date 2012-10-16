@@ -133,12 +133,9 @@ Kalın sağlıcakla
 
 </p>
 
-  [http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/demo/borders.html]:
-    http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/demo/borders.html
-  [http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/]:
-    http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/
-  [http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-multiple-borders-with-simple-css/]:
-    http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-multiple-borders-with-simple-css/
+  [http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/demo/borders.html]:    http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/demo/borders.html
+  [http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/]:    http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/
+  [http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-multiple-borders-with-simple-css/]:    http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-multiple-borders-with-simple-css/
   [http://css-tricks.com/snippets/css/multiple-borders/]: http://css-tricks.com/snippets/css/multiple-borders/
   [http://www.impressivewebs.com/multiple-borders-css/]: http://www.impressivewebs.com/multiple-borders-css/
   [http://www.sitepoint.com/css3-multiple-borders/]: http://www.sitepoint.com/css3-multiple-borders/

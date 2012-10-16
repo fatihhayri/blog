@@ -321,38 +321,27 @@ Sağlıcakla kalın.
     "metinlere_golge_1_fr"
   [![][14]]: http://www.fatihhayrioglu.com/wp-content/metinlere_golge_1_fr.gif
   [15]: http://www.fatihhayrioglu.com/dokumanlar/metinlere_golge_vermek/metinlere_golge_1_fr.html
-  [http://www.kremalicious.com/2008/04/make-cool-and-clever-text-effects-with-css-text-shadow/]:
-    http://www.kremalicious.com/2008/04/make-cool-and-clever-text-effects-with-css-text-shadow/
+  [http://www.kremalicious.com/2008/04/make-cool-and-clever-text-effects-with-css-text-shadow/]:    http://www.kremalicious.com/2008/04/make-cool-and-clever-text-effects-with-css-text-shadow/
   [http://tutorials.assistprogramming.com/text-shadow-using-css.html]: http://tutorials.assistprogramming.com/text-shadow-using-css.html
-  [http://www.workingwith.me.uk/articles/css/cross-browser-drop-shadows]:
-    http://www.workingwith.me.uk/articles/css/cross-browser-drop-shadows
+  [http://www.workingwith.me.uk/articles/css/cross-browser-drop-shadows]:    http://www.workingwith.me.uk/articles/css/cross-browser-drop-shadows
   [http://westciv.com/tools/shadows/]: http://westciv.com/tools/shadows/
   [http://www.quirksmode.org/css/textshadow.html]: http://www.quirksmode.org/css/textshadow.html
   [http://www.css3.info/preview/text-shadow/]: http://www.css3.info/preview/text-shadow/
-  [http://fredericiana.com/2009/06/10/stylish-text-with-the-css-text-shadow-property/]:
-    http://fredericiana.com/2009/06/10/stylish-text-with-the-css-text-shadow-property/
+  [http://fredericiana.com/2009/06/10/stylish-text-with-the-css-text-shadow-property/]:    http://fredericiana.com/2009/06/10/stylish-text-with-the-css-text-shadow-property/
   [http://maettig.com/code/css/text-shadow.html]: http://maettig.com/code/css/text-shadow.html
   [http://www.howtocreate.co.uk/textshadow.html]: http://www.howtocreate.co.uk/textshadow.html
-  [http://dev.opera.com/articles/view/css-text-shadows-and-background-sizing/]:
-    http://dev.opera.com/articles/view/css-text-shadows-and-background-sizing/
+  [http://dev.opera.com/articles/view/css-text-shadows-and-background-sizing/]:    http://dev.opera.com/articles/view/css-text-shadows-and-background-sizing/
   [http://hacks.mozilla.org/2009/06/text-shadow/]: http://hacks.mozilla.org/2009/06/text-shadow/
-  [http://kilianvalkhof.com/2008/javascript/text-shadow-in-ie-with-jquery/]:
-    http://kilianvalkhof.com/2008/javascript/text-shadow-in-ie-with-jquery/
-  [http://line25.com/tutorials/create-a-letterpress-effect-with-css-text-shadow]:
-    http://line25.com/tutorials/create-a-letterpress-effect-with-css-text-shadow
+  [http://kilianvalkhof.com/2008/javascript/text-shadow-in-ie-with-jquery/]:    http://kilianvalkhof.com/2008/javascript/text-shadow-in-ie-with-jquery/
+  [http://line25.com/tutorials/create-a-letterpress-effect-with-css-text-shadow]:    http://line25.com/tutorials/create-a-letterpress-effect-with-css-text-shadow
   [http://owltastic.com/2009/12/shadows-and-css3/]: http://owltastic.com/2009/12/shadows-and-css3/
   [http://reference.sitepoint.com/css/text-shadow]: http://reference.sitepoint.com/css/text-shadow
   [http://cordobo.com/1119-provide-visual-feedback-css/]: http://cordobo.com/1119-provide-visual-feedback-css/
-  [http://www.catswhocode.com/blog/10-resources-to-get-the-most-out-of-the-css-text-shadow-property]:
-    http://www.catswhocode.com/blog/10-resources-to-get-the-most-out-of-the-css-text-shadow-property
+  [http://www.catswhocode.com/blog/10-resources-to-get-the-most-out-of-the-css-text-shadow-property]:    http://www.catswhocode.com/blog/10-resources-to-get-the-most-out-of-the-css-text-shadow-property
   [http://www.admixweb.com/2009/12/04/using-text-shadow-in-htmlcss/]: http://www.admixweb.com/2009/12/04/using-text-shadow-in-htmlcss/
-  [http://www.cagintranet.com/archive/css-tip-easy-cross-browser-valid-css-text-shadows/]:
-    http://www.cagintranet.com/archive/css-tip-easy-cross-browser-valid-css-text-shadows/
-  [http://www.t-infection.com/css3-ve-yenilikler-metinlere-golge-efekti-vermek/]:
-    http://www.t-infection.com/css3-ve-yenilikler-metinlere-golge-efekti-vermek/
-  [http://line25.com/articles/using-css-text-shadow-to-create-cool-text-effects]:
-    http://line25.com/articles/using-css-text-shadow-to-create-cool-text-effects
-  [http://designshack.co.uk/articles/css/12-fun-css-text-shadows-you-can-copy-and-paste/]:
-    http://designshack.co.uk/articles/css/12-fun-css-text-shadows-you-can-copy-and-paste/
+  [http://www.cagintranet.com/archive/css-tip-easy-cross-browser-valid-css-text-shadows/]:    http://www.cagintranet.com/archive/css-tip-easy-cross-browser-valid-css-text-shadows/
+  [http://www.t-infection.com/css3-ve-yenilikler-metinlere-golge-efekti-vermek/]:    http://www.t-infection.com/css3-ve-yenilikler-metinlere-golge-efekti-vermek/
+  [http://line25.com/articles/using-css-text-shadow-to-create-cool-text-effects]:    http://line25.com/articles/using-css-text-shadow-to-create-cool-text-effects
+  [http://designshack.co.uk/articles/css/12-fun-css-text-shadows-you-can-copy-and-paste/]:    http://designshack.co.uk/articles/css/12-fun-css-text-shadows-you-can-copy-and-paste/
   []: http://webexpedition18.com/articles/css3-text-shadow-property/
     "http://webexpedition18.com/articles/css3-text-shadow-property/"

@@ -131,16 +131,13 @@ text-decoration:underline }
   [Float Uygulanmış Elementleri Tam Kapsayamama (clearfix) sorunu]: http://www.fatihhayrioglu.com/float-uygulanmis-elementleri-tam-kapsayamama-sorunu/
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/yerimi/yerimi.html
   [5]: https://lh3.googleusercontent.com/OjH1IANl7PK66MMTvt58TUuh-jpAteN0eNeRmErj7ndN5bceqRpoxyqz1gox1LsEFUkX3vw4Qh7hISY0C3yuCTJkY4nFIi8hVtPnj8Oqo-U2zeGyabs
-  [http://www.smashingmagazine.com/2009/03/17/breadcrumbs-in-web-design-examples-and-best-practices-2/]:
-    http://www.smashingmagazine.com/2009/03/17/breadcrumbs-in-web-design-examples-and-best-practices-2/
+  [http://www.smashingmagazine.com/2009/03/17/breadcrumbs-in-web-design-examples-and-best-practices-2/]:    http://www.smashingmagazine.com/2009/03/17/breadcrumbs-in-web-design-examples-and-best-practices-2/
   [http://quince.infragistics.com/Patterns/Breadcrumbs.aspx]: http://quince.infragistics.com/Patterns/Breadcrumbs.aspx
   [http://www.patternry.com/p=breadcrumbs/]: http://www.patternry.com/p=breadcrumbs/
   [http://www.useit.com/alertbox/breadcrumbs.html]: http://www.useit.com/alertbox/breadcrumbs.html
-  [http://veerle-v2.duoh.com/blog/comments/simple_scalable_css_based_breadcrumbs]:
-    http://veerle-v2.duoh.com/blog/comments/simple_scalable_css_based_breadcrumbs
+  [http://veerle-v2.duoh.com/blog/comments/simple_scalable_css_based_breadcrumbs]:    http://veerle-v2.duoh.com/blog/comments/simple_scalable_css_based_breadcrumbs
   [http://css-tricks.com/triangle-breadcrumbs/]: http://css-tricks.com/triangle-breadcrumbs/
   [http://css-tricks.com/markup-for-breadcrumbs/]: http://css-tricks.com/markup-for-breadcrumbs/
-  [http://www.jankoatwarpspeed.com/post/2008/08/14/Create-applecom-like-breadcrumb-using-simple-CSS.aspx]:
-    http://www.jankoatwarpspeed.com/post/2008/08/14/Create-applecom-like-breadcrumb-using-simple-CSS.aspx
+  [http://www.jankoatwarpspeed.com/post/2008/08/14/Create-applecom-like-breadcrumb-using-simple-CSS.aspx]:    http://www.jankoatwarpspeed.com/post/2008/08/14/Create-applecom-like-breadcrumb-using-simple-CSS.aspx
   [http://alpha.patterntap.com/collections/Breadcrumbs]: http://alpha.patterntap.com/collections/Breadcrumbs
   [http://patterntap.com/tap/collection/breadcrumbs]: http://patterntap.com/tap/collection/breadcrumbs

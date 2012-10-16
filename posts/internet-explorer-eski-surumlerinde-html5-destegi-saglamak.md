@@ -72,16 +72,12 @@ desteği için [Modernizr][] incelemekte yarar var.
   [%28 kullanım oranı sahip tarayıcılar]: http://labs.sahibinden.com/yazi/sahibinden-com-nisan-2012-ziyaretci-teknoloji-istatistikleri/
   [şartlı yorumlar]: http://www.fatihhayrioglu.com/iede-hata-ayiklamak-icin-sartli-yorumlar-kullanmak/
   [Modernizr]: http://modernizr.com/
-  [http://net.tutsplus.com/tutorials/html-css-techniques/how-to-make-all-browsers-render-html5-mark-up-correctly-even-ie6/]:
-    http://net.tutsplus.com/tutorials/html-css-techniques/how-to-make-all-browsers-render-html5-mark-up-correctly-even-ie6/
+  [http://net.tutsplus.com/tutorials/html-css-techniques/how-to-make-all-browsers-render-html5-mark-up-correctly-even-ie6/]:    http://net.tutsplus.com/tutorials/html-css-techniques/how-to-make-all-browsers-render-html5-mark-up-correctly-even-ie6/
   [http://code.google.com/p/html5shiv/]: http://code.google.com/p/html5shiv/
   [http://ejohn.org/blog/html5-doctype/]: http://ejohn.org/blog/html5-doctype/
   [http://ejohn.org/blog/html5-shiv/]: http://ejohn.org/blog/html5-shiv/
-  [http://www.pcpro.co.uk/blogs/2011/03/07/making-html5-work-in-old-versions-of-internet-explorer/]:
-    http://www.pcpro.co.uk/blogs/2011/03/07/making-html5-work-in-old-versions-of-internet-explorer/
+  [http://www.pcpro.co.uk/blogs/2011/03/07/making-html5-work-in-old-versions-of-internet-explorer/]:    http://www.pcpro.co.uk/blogs/2011/03/07/making-html5-work-in-old-versions-of-internet-explorer/
   [http://drupal.org/project/remysharp_html5shim]: http://drupal.org/project/remysharp_html5shim
-  [http://debeterevormgever.nl/en/articles/html5-elements-ie-without-javascript]:
-    http://debeterevormgever.nl/en/articles/html5-elements-ie-without-javascript
+  [http://debeterevormgever.nl/en/articles/html5-elements-ie-without-javascript]:    http://debeterevormgever.nl/en/articles/html5-elements-ie-without-javascript
   [http://paulirish.com/2011/the-history-of-the-html5-shiv/]: http://paulirish.com/2011/the-history-of-the-html5-shiv/
-  [http://viget.com/inspire/html5-elements-irresponsible-choice-right-now]:
-    http://viget.com/inspire/html5-elements-irresponsible-choice-right-now
+  [http://viget.com/inspire/html5-elements-irresponsible-choice-right-now]:    http://viget.com/inspire/html5-elements-irresponsible-choice-right-now

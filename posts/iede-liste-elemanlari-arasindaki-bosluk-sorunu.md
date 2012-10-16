@@ -82,8 +82,7 @@ Bu kodu yazdıktan sonra sayfa aşağıdaki gibi görünecektir.
     "http://www.hicksdesign.co.uk/journal/ie-whitespace-bug"
   [http://www.cssnewbie.com/fixing-ie6-whitespace-bug/]: http://www.cssnewbie.com/fixing-ie6-whitespace-bug/
     "http://www.cssnewbie.com/fixing-ie6-whitespace-bug/"
-  [http://orlandodefrias.com/2008/11/23/ie-unordered-list-extra-space-bug/]:
-    http://orlandodefrias.com/2008/11/23/ie-unordered-list-extra-space-bug/
+  [http://orlandodefrias.com/2008/11/23/ie-unordered-list-extra-space-bug/]:    http://orlandodefrias.com/2008/11/23/ie-unordered-list-extra-space-bug/
     "http://orlandodefrias.com/2008/11/23/ie-unordered-list-extra-space-bug/"
   [http://archivist.incutio.com/viewlist/css-discuss/34926]: http://archivist.incutio.com/viewlist/css-discuss/34926
     "http://archivist.incutio.com/viewlist/css-discuss/34926"

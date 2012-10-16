@@ -388,16 +388,13 @@ olan yenilikleri takip etmek ve geri kalmamaktır. Ferruh Mavituna'nın
     "bir makalede"
   [Verimli Bilgi Takibi]: http://ferruh.mavituna.com/verimli-bilgi-takibi-oku/
     "Verimli Bilgi Takibi"
-  [http://www.mitchelaneous.com/2007/01/05/get-more-from-google-reader-guide/]:
-    http://www.mitchelaneous.com/2007/01/05/get-more-from-google-reader-guide/
+  [http://www.mitchelaneous.com/2007/01/05/get-more-from-google-reader-guide/]:    http://www.mitchelaneous.com/2007/01/05/get-more-from-google-reader-guide/
     "http://www.mitchelaneous.com/2007/01/05/get-more-from-google-reader-guide/"
   [http://mashable.com/2009/05/19/google-reader-2/]: http://mashable.com/2009/05/19/google-reader-2/
     "http://mashable.com/2009/05/19/google-reader-2/"
-  [http://lifehacker.com/5625876/google-reader-cuts-the-clutter-with-fullscreen-mode-new-shortcuts]:
-    http://lifehacker.com/5625876/google-reader-cuts-the-clutter-with-fullscreen-mode-new-shortcuts
+  [http://lifehacker.com/5625876/google-reader-cuts-the-clutter-with-fullscreen-mode-new-shortcuts]:    http://lifehacker.com/5625876/google-reader-cuts-the-clutter-with-fullscreen-mode-new-shortcuts
     "http://lifehacker.com/5625876/google-reader-cuts-the-clutter-with-fullscreen-mode-new-shortcuts"
-  [http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php]:
-    http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php
+  [http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php]:    http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php
     "http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php"
   [http://mashable.com/2007/08/23/google-reader-firefox/]: http://mashable.com/2007/08/23/google-reader-firefox/
     "http://mashable.com/2007/08/23/google-reader-firefox/"
@@ -407,23 +404,17 @@ olan yenilikleri takip etmek ve geri kalmamaktır. Ferruh Mavituna'nın
     "http://www.youtube.com/watch?v=SG6ehDYNCsk&feature=related"
   [http://lifehacker.com/tag/google-reader/]: http://lifehacker.com/tag/google-reader/
     "http://lifehacker.com/tag/google-reader/"
-  [http://www.lifehack.org/articles/technology/10-smart-hacks-for-google-reader.html]:
-    http://www.lifehack.org/articles/technology/10-smart-hacks-for-google-reader.html
+  [http://www.lifehack.org/articles/technology/10-smart-hacks-for-google-reader.html]:    http://www.lifehack.org/articles/technology/10-smart-hacks-for-google-reader.html
     "http://www.lifehack.org/articles/technology/10-smart-hacks-for-google-reader.html"
-  [http://www.makeuseof.com/tag/7-cool-google-reader-features-which-you-might-have-missed/]:
-    http://www.makeuseof.com/tag/7-cool-google-reader-features-which-you-might-have-missed/
+  [http://www.makeuseof.com/tag/7-cool-google-reader-features-which-you-might-have-missed/]:    http://www.makeuseof.com/tag/7-cool-google-reader-features-which-you-might-have-missed/
     "http://www.makeuseof.com/tag/7-cool-google-reader-features-which-you-might-have-missed/"
-  [http://gigaom.com/collaboration/5-tips-for-getting-the-most-out-of-google-reader/]:
-    http://gigaom.com/collaboration/5-tips-for-getting-the-most-out-of-google-reader/
+  [http://gigaom.com/collaboration/5-tips-for-getting-the-most-out-of-google-reader/]:    http://gigaom.com/collaboration/5-tips-for-getting-the-most-out-of-google-reader/
     "http://gigaom.com/collaboration/5-tips-for-getting-the-most-out-of-google-reader/"
-  [http://googlesystem.blogspot.com/2010/01/track-page-changes-using-google-reader.html]:
-    http://googlesystem.blogspot.com/2010/01/track-page-changes-using-google-reader.html
+  [http://googlesystem.blogspot.com/2010/01/track-page-changes-using-google-reader.html]:    http://googlesystem.blogspot.com/2010/01/track-page-changes-using-google-reader.html
     "http://googlesystem.blogspot.com/2010/01/track-page-changes-using-google-reader.html"
-  [http://jalaj.net/2009/02/22/3-google-reader-feature-most-people-dont-use/]:
-    http://jalaj.net/2009/02/22/3-google-reader-feature-most-people-dont-use/
+  [http://jalaj.net/2009/02/22/3-google-reader-feature-most-people-dont-use/]:    http://jalaj.net/2009/02/22/3-google-reader-feature-most-people-dont-use/
     "http://jalaj.net/2009/02/22/3-google-reader-feature-most-people-dont-use/"
-  [http://lifehacker.com/233712/hack-attack-getting-good-with-google-reader]:
-    http://lifehacker.com/233712/hack-attack-getting-good-with-google-reader
+  [http://lifehacker.com/233712/hack-attack-getting-good-with-google-reader]:    http://lifehacker.com/233712/hack-attack-getting-good-with-google-reader
     "http://lifehacker.com/233712/hack-attack-getting-good-with-google-reader"
   [http://labs.postrank.com/gr]: http://labs.postrank.com/gr
     "http://labs.postrank.com/gr"

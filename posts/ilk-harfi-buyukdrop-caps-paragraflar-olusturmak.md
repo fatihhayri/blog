@@ -228,8 +228,7 @@ Sayfamızın ilk paragrafının ilk harfine uygulama yapıyoruz.
     "first-child"
   [http://www.sitepoint.com/blogs/2010/04/15/a-simple-css-drop-cap/]: http://www.sitepoint.com/blogs/2010/04/15/a-simple-css-drop-cap/
   [http://safalra.com/web-design/typography/css-drop-caps/]: http://safalra.com/web-design/typography/css-drop-caps/
-  [http://www.texaswebdevelopers.com/blog/template_permalink.asp?id=111]:
-    http://www.texaswebdevelopers.com/blog/template_permalink.asp?id=111
+  [http://www.texaswebdevelopers.com/blog/template_permalink.asp?id=111]:    http://www.texaswebdevelopers.com/blog/template_permalink.asp?id=111
     "http://www.texaswebdevelopers.com/blog/template_permalink.asp?id=111"
   [http://www.pauldruce.com/CSS%20DROP%20CAP]: http://www.pauldruce.com/CSS%20DROP%20CAP
   [http://www.learningjquery.com/2006/12/multiple-fancy-drop-caps]: http://www.learningjquery.com/2006/12/multiple-fancy-drop-caps
@@ -239,6 +238,5 @@ Sayfamızın ilk paragrafının ilk harfine uygulama yapıyoruz.
   [http://azizname.blogspot.com/2006/10/magazine-style-drop-caps.html]: http://azizname.blogspot.com/2006/10/magazine-style-drop-caps.html
   [http://dailydropcap.com/]: http://dailydropcap.com/
   [http://jackosborne.co.uk/articles/pseudo-drop-caps/]: http://jackosborne.co.uk/articles/pseudo-drop-caps/
-  [http://www.akxl.net/labs/articles/text-wrapped-drop-caps-in-css-using-the-first-letter-selector/]:
-    http://www.akxl.net/labs/articles/text-wrapped-drop-caps-in-css-using-the-first-letter-selector/
+  [http://www.akxl.net/labs/articles/text-wrapped-drop-caps-in-css-using-the-first-letter-selector/]:    http://www.akxl.net/labs/articles/text-wrapped-drop-caps-in-css-using-the-first-letter-selector/
   [http://www.users.globalnet.co.uk/~arcus/html/dropcaps.html]: http://www.users.globalnet.co.uk/~arcus/html/dropcaps.html

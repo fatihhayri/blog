@@ -133,30 +133,24 @@ Kalın sağlıcakla
 </p>
 
   []: https://lh6.googleusercontent.com/vPFmtJY6MNPZQFrtimtMV9QRAkfyAQa0EUmCeBZGKEXqWMi-lBwCGcNG7AxW8REH67JGVB55m-oyZtM4uixFH-F5J2KjTvtO2SpQ-qvBq-XR54vsRks
-  [http://whereswalden.com/files/mozilla/background-size/more-examples.html]:
-    http://whereswalden.com/files/mozilla/background-size/more-examples.html
+  [http://whereswalden.com/files/mozilla/background-size/more-examples.html]:    http://whereswalden.com/files/mozilla/background-size/more-examples.html
   [http://www.w3.org/TR/2002/WD-css3-background-20020802/]: http://www.w3.org/TR/2002/WD-css3-background-20020802/
   [https://developer.mozilla.org/en/CSS/background-size]: https://developer.mozilla.org/en/CSS/background-size
   [https://developer.mozilla.org/en/CSS/Scaling_background_images]: https://developer.mozilla.org/en/CSS/Scaling_background_images
   [http://robertnyman.com/css3/background-size/background-size.html]: http://robertnyman.com/css3/background-size/background-size.html
-  [http://dev.opera.com/articles/view/css-text-shadows-and-background-sizing/]:
-    http://dev.opera.com/articles/view/css-text-shadows-and-background-sizing/
+  [http://dev.opera.com/articles/view/css-text-shadows-and-background-sizing/]:    http://dev.opera.com/articles/view/css-text-shadows-and-background-sizing/
   [http://hacks.mozilla.org/2009/12/css-backgrounds-firefox-36/]: http://hacks.mozilla.org/2009/12/css-backgrounds-firefox-36/
   [http://www.css3.info/preview/background-size/]: http://www.css3.info/preview/background-size/
   [http://www.w3schools.com/cssref/css3_pr_background-size.asp]: http://www.w3schools.com/cssref/css3_pr_background-size.asp
-  [http://markupflux.com/2011/01/17/how-to-make-a-full-screen-background-image-that-scales-and-crops-as-needed/]:
-    http://markupflux.com/2011/01/17/how-to-make-a-full-screen-background-image-that-scales-and-crops-as-needed/
+  [http://markupflux.com/2011/01/17/how-to-make-a-full-screen-background-image-that-scales-and-crops-as-needed/]:    http://markupflux.com/2011/01/17/how-to-make-a-full-screen-background-image-that-scales-and-crops-as-needed/
   [http://www.quirksmode.org/css/background.html]: http://www.quirksmode.org/css/background.html
-  [http://www.paulmccrodden.com/2011/02/problems-css3-background-size-cover-iefilters/]:
-    http://www.paulmccrodden.com/2011/02/problems-css3-background-size-cover-iefilters/
+  [http://www.paulmccrodden.com/2011/02/problems-css3-background-size-cover-iefilters/]:    http://www.paulmccrodden.com/2011/02/problems-css3-background-size-cover-iefilters/
   [http://webdesign.about.com/od/styleproperties/p/blspbgsize.htm]: http://webdesign.about.com/od/styleproperties/p/blspbgsize.htm
   [http://www.css3.info/liquid-faux-columns-with-background-size/]: http://www.css3.info/liquid-faux-columns-with-background-size/
   [http://css-tricks.com/3458-perfect-full-page-background-image/]: http://css-tricks.com/3458-perfect-full-page-background-image/
   [http://www.cssplay.co.uk/boxes/css3-background.html]: http://www.cssplay.co.uk/boxes/css3-background.html
-  [http://www.pziecina.com/design/turorial_demos/resize_background.php]:
-    http://www.pziecina.com/design/turorial_demos/resize_background.php
-  [http://www.alistapart.com/articles/supersize-that-background-please/]:
-    http://www.alistapart.com/articles/supersize-that-background-please/
+  [http://www.pziecina.com/design/turorial_demos/resize_background.php]:    http://www.pziecina.com/design/turorial_demos/resize_background.php
+  [http://www.alistapart.com/articles/supersize-that-background-please/]:    http://www.alistapart.com/articles/supersize-that-background-please/
   [http://dev.w3.org/csswg/css3-page/img_scale.png]: http://dev.w3.org/csswg/css3-page/img_scale.png
   []: http://www.netmagazine.com/tutorials/take-advantage-css-background-size-property
     "http://www.netmagazine.com/tutorials/take-advantage-css-background-size-property"

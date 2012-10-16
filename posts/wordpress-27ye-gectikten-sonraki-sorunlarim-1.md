@@ -19,6 +19,5 @@ eklentisi bayağı gelişmiş. Türkçe desteği de iyi olmuş.
 
 </p>
 
-  [http://wordpress.org/extend/plugins/google-sitemap-generator/installation/]:
-    http://wordpress.org/extend/plugins/google-sitemap-generator/installation/
+  [http://wordpress.org/extend/plugins/google-sitemap-generator/installation/]:    http://wordpress.org/extend/plugins/google-sitemap-generator/installation/
   [http://wordpress.org/support/topic/224691]: http://wordpress.org/support/topic/224691

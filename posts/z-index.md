@@ -179,22 +179,17 @@ listeledik bu linklerdeki çözümleri incelemenizi tavsiye ederiz. Karşıma
   [2]: /images/zindeks_sayi.gif
   [http://www.search-this.com/2007/08/15/give-me-some-zzzzzs/]: http://www.search-this.com/2007/08/15/give-me-some-zzzzzs/
   [http://www.brainjar.com/css/positioning/default5.asp]: http://www.brainjar.com/css/positioning/default5.asp
-  [http://joshuaink2006.johnoxton.co.uk/blog/82/flash-content-and-z-index]:
-    http://joshuaink2006.johnoxton.co.uk/blog/82/flash-content-and-z-index
-  [http://www.blooberry.com/indexdot/css/properties/position/zindex.htm]:
-    http://www.blooberry.com/indexdot/css/properties/position/zindex.htm
-  [http://www.westciv.com/style_master/academy/css_tutorial/properties/page_layout.html#z-index]:
-    http://www.westciv.com/style_master/academy/css_tutorial/properties/page_layout.html#z-index
+  [http://joshuaink2006.johnoxton.co.uk/blog/82/flash-content-and-z-index]:    http://joshuaink2006.johnoxton.co.uk/blog/82/flash-content-and-z-index
+  [http://www.blooberry.com/indexdot/css/properties/position/zindex.htm]:    http://www.blooberry.com/indexdot/css/properties/position/zindex.htm
+  [http://www.westciv.com/style_master/academy/css_tutorial/properties/page_layout.html#z-index]:    http://www.westciv.com/style_master/academy/css_tutorial/properties/page_layout.html#z-index
   [http://developer.mozilla.org/en/docs/Understanding_CSS_z-index]: http://developer.mozilla.org/en/docs/Understanding_CSS_z-index
   [http://css-discuss.incutio.com/?page=OverlappingAndZIndex]: http://css-discuss.incutio.com/?page=OverlappingAndZIndex
   [http://csscreator.com/blog/z-index]: http://csscreator.com/blog/z-index
   [http://www.fatihhayrioglu.com/?p=151]: http://www.fatihhayrioglu.com/?p=151
   [http://brandonaaron.net/docs/bgiframe/]: http://brandonaaron.net/docs/bgiframe/
-  [http://www.askapache.com/css/getting-flash-to-show-up-in-front-of-content.html]:
-    http://www.askapache.com/css/getting-flash-to-show-up-in-front-of-content.html
+  [http://www.askapache.com/css/getting-flash-to-show-up-in-front-of-content.html]:    http://www.askapache.com/css/getting-flash-to-show-up-in-front-of-content.html
   [http://www.last-child.com/conflicting-z-index-in-ie6/]: http://www.last-child.com/conflicting-z-index-in-ie6/
   [http://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html]: http://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html
   [http://www.hedgerwow.com/360/bugs/css-select-free.html]: http://www.hedgerwow.com/360/bugs/css-select-free.html
   [http://blogs.msdn.com/ie/archive/2006/01/17/514076.aspx]: http://blogs.msdn.com/ie/archive/2006/01/17/514076.aspx
-  [http://randsco.com/index.php/2005/09/11/changing_z_index_on_hover]:
-    http://randsco.com/index.php/2005/09/11/changing_z_index_on_hover
+  [http://randsco.com/index.php/2005/09/11/changing_z_index_on_hover]:    http://randsco.com/index.php/2005/09/11/changing_z_index_on_hover

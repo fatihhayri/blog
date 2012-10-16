@@ -228,8 +228,7 @@ sitesinde olduğu gibi.)
     "http://24ways.org/2006/rounded-corner-boxes-the-css3-way"
   [http://www.css3.info/border-radius-apple-vs-mozilla/]: http://www.css3.info/border-radius-apple-vs-mozilla/
     "http://www.css3.info/border-radius-apple-vs-mozilla/"
-  [http://woork.blogspot.com/2009/08/css3-rounded-corners-for-every-browser.html]:
-    http://woork.blogspot.com/2009/08/css3-rounded-corners-for-every-browser.html
+  [http://woork.blogspot.com/2009/08/css3-rounded-corners-for-every-browser.html]:    http://woork.blogspot.com/2009/08/css3-rounded-corners-for-every-browser.html
     "http://woork.blogspot.com/2009/08/css3-rounded-corners-for-every-browser.html"
   [http://www.smileycat.com/miaow/archives/000044.php]: http://www.smileycat.com/miaow/archives/000044.php
     "http://www.smileycat.com/miaow/archives/000044.php"
@@ -243,12 +242,9 @@ sitesinde olduğu gibi.)
     "http://www.dillerdesign.com/experiment/DD_roundies/#animation"
   [http://www.w3.org/TR/css3-background/#border-radius]: http://www.w3.org/TR/css3-background/#border-radius
     "http://www.w3.org/TR/css3-background/#border-radius"
-  [http://www.htmlremix.com/css/curved-corner-border-radius-cross-browser]:
-    http://www.htmlremix.com/css/curved-corner-border-radius-cross-browser
+  [http://www.htmlremix.com/css/curved-corner-border-radius-cross-browser]:    http://www.htmlremix.com/css/curved-corner-border-radius-cross-browser
     "http://www.htmlremix.com/css/curved-corner-border-radius-cross-browser"
-  [http://doctype.com/having-trouble-styling-cross-browser-buttons-input-submit]:
-    http://doctype.com/having-trouble-styling-cross-browser-buttons-input-submit
+  [http://doctype.com/having-trouble-styling-cross-browser-buttons-input-submit]:    http://doctype.com/having-trouble-styling-cross-browser-buttons-input-submit
     "http://doctype.com/having-trouble-styling-cross-browser-buttons-input-submit"
-  [http://stackoverflow.com/questions/2687804/emulating-css3-border-radius-and-box-shadow-in-ie7-8]:
-    http://stackoverflow.com/questions/2687804/emulating-css3-border-radius-and-box-shadow-in-ie7-8
+  [http://stackoverflow.com/questions/2687804/emulating-css3-border-radius-and-box-shadow-in-ie7-8]:    http://stackoverflow.com/questions/2687804/emulating-css3-border-radius-and-box-shadow-in-ie7-8
     "http://stackoverflow.com/questions/2687804/emulating-css3-border-radius-and-box-shadow-in-ie7-8"
