@@ -145,10 +145,10 @@ Kalın sağlıacakla
   [1]: http://www.fatihhayrioglu.com/wp-content/resim_on_yukleme_jquery2-300x194.gif
     "resim_on_yukleme_jquery2"
   [![][1]]: http://www.fatihhayrioglu.com/wp-content/resim_on_yukleme_jquery2.gif
-  [http://perishablepress.com/press/2009/12/28/3-ways-preload-images-css-javascript-ajax/]:    http://perishablepress.com/press/2009/12/28/3-ways-preload-images-css-javascript-ajax/
-  [http://engineeredweb.com/blog/09/12/preloading-images-jquery-and-javascript]:    http://engineeredweb.com/blog/09/12/preloading-images-jquery-and-javascript
+  [http://perishablepress.com/press/2009/12/28/3-ways-preload-images-css-javascript-ajax/]: http://perishablepress.com/press/2009/12/28/3-ways-preload-images-css-javascript-ajax/
+  [http://engineeredweb.com/blog/09/12/preloading-images-jquery-and-javascript]: http://engineeredweb.com/blog/09/12/preloading-images-jquery-and-javascript
   [http://elouai.com/javascript-preload-images.php]: http://elouai.com/javascript-preload-images.php
   [http://www.javascriptkit.com/script/script2/preloadimage.shtml]: http://www.javascriptkit.com/script/script2/preloadimage.shtml
-  [http://stackoverflow.com/questions/761263/what-is-the-best-way-to-preload-multiple-images-in-javascript/761332]:    http://stackoverflow.com/questions/761263/what-is-the-best-way-to-preload-multiple-images-in-javascript/761332
-  [http://www.filamentgroup.com/lab/update_automatically_preload_images_from_css_with_jquery/]:    http://www.filamentgroup.com/lab/update_automatically_preload_images_from_css_with_jquery/
+  [http://stackoverflow.com/questions/761263/what-is-the-best-way-to-preload-multiple-images-in-javascript/761332]: http://stackoverflow.com/questions/761263/what-is-the-best-way-to-preload-multiple-images-in-javascript/761332
+  [http://www.filamentgroup.com/lab/update_automatically_preload_images_from_css_with_jquery/]: http://www.filamentgroup.com/lab/update_automatically_preload_images_from_css_with_jquery/
   [http://snipplr.com/view.php?codeview&id=9612]: http://snipplr.com/view.php?codeview&id=9612

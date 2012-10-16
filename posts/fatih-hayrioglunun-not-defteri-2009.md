@@ -165,7 +165,7 @@ Geçen seneyi değerlendirirsem. Genel manada pek verimli bir sene olmadı.
     "Operasyon Ergenekon – Şamil Tayyar"
   [WordPress 2.7′ye geçtikten sonraki sorunlarım – 1]: http://www.fatihhayrioglu.com/wordpress-27ye-gectikten-sonraki-sorunlarim-1/
     "WordPress 2.7′ye geçtikten sonraki sorunlarım – 1"
-  [Windows Vista / Windows Defender Güncellemesindeki Sorunu ve Çözümü]:    http://www.fatihhayrioglu.com/windows-vista-windows-defender-guncellemesindeki-sorunu-ve-cozumu/
+  [Windows Vista / Windows Defender Güncellemesindeki Sorunu ve Çözümü]: http://www.fatihhayrioglu.com/windows-vista-windows-defender-guncellemesindeki-sorunu-ve-cozumu/
     "Windows Vista / Windows Defender Güncellemesindeki Sorunu ve Çözümü"
   [Şâh-ı Cihan Fatih Sultan Mehmed Han – Ahmet Çoşkun]: http://www.fatihhayrioglu.com/sah-i-cihan-fatih-sultan-mehmed-han-ahmet-coskun/
     "Şâh-ı Cihan Fatih Sultan Mehmed Han – Ahmet Çoşkun"

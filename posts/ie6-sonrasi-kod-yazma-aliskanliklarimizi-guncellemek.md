@@ -465,7 +465,7 @@ ie6 öldü.
   [Internet Explorer 6 için saydam PNG desteği]: http://www.fatihhayrioglu.com/internet-explorer-6-icin-saydam-png-destegi/
   []: http://www.fatihhayrioglu.com/images/saydampng_resim.gif
   [Bu konuyu]: http://www.fatihhayrioglu.com/ozellik-secicileriattribute-selectors/
-  [http://dev.opera.com/articles/view/styling-forms-with-attribute-selectors/]:    http://dev.opera.com/articles/view/styling-forms-with-attribute-selectors/
+  [http://dev.opera.com/articles/view/styling-forms-with-attribute-selectors/]: http://dev.opera.com/articles/view/styling-forms-with-attribute-selectors/
   [Box Model Sorunu ve Çözümü]: http://www.fatihhayrioglu.com/kutu-modeli-sorunlari-ve-cozumleri/
   [Sabit Konumlandırma (Postion:fixed)]: http://www.fatihhayrioglu.com/sabit-konumlandirma-postionfixed/
   [IE’de Hata Ayıklamak için şartlı Yorumlar Kullanmak]: http://www.fatihhayrioglu.com/?p=236
@@ -488,17 +488,17 @@ ie6 öldü.
   [http://blogs.msdn.com/b/ie/archive/2006/08/22/712830.aspx]: http://blogs.msdn.com/b/ie/archive/2006/08/22/712830.aspx
   [http://bradt.ca/archives/preventing-ie6-bugs/]: http://bradt.ca/archives/preventing-ie6-bugs/
   [http://www.sitepoint.com/10-fixes-for-ie6-problems/]: http://www.sitepoint.com/10-fixes-for-ie6-problems/
-  [http://softwareas.com/ten-reasons-why-ie6-development-is-significantly-better-in-2010-than-2001-but-still-painful]:    http://softwareas.com/ten-reasons-why-ie6-development-is-significantly-better-in-2010-than-2001-but-still-painful
-  [http://bip.softwarejewel.com/technology/10-reasons-why-ie6-needs-to-be-killed-2253/]:    http://bip.softwarejewel.com/technology/10-reasons-why-ie6-needs-to-be-killed-2253/
+  [http://softwareas.com/ten-reasons-why-ie6-development-is-significantly-better-in-2010-than-2001-but-still-painful]: http://softwareas.com/ten-reasons-why-ie6-development-is-significantly-better-in-2010-than-2001-but-still-painful
+  [http://bip.softwarejewel.com/technology/10-reasons-why-ie6-needs-to-be-killed-2253/]: http://bip.softwarejewel.com/technology/10-reasons-why-ie6-needs-to-be-killed-2253/
   [http://www.carronmedia.com/why-ie6-will-probably-out-live-ie7/]: http://www.carronmedia.com/why-ie6-will-probably-out-live-ie7/
   [http://www.w3counter.com/trends]: http://www.w3counter.com/trends
   [http://www.dedoimedo.com/computers/internet-explorer-6-retire.html]: http://www.dedoimedo.com/computers/internet-explorer-6-retire.html
   [http://www.rtdesigngroup.com/blog/5-reasons-why-ie6-must-die.html]: http://www.rtdesigngroup.com/blog/5-reasons-why-ie6-must-die.html
   [http://garmahis.com/tools/ie6-update-warning/]: http://garmahis.com/tools/ie6-update-warning/
   [http://css-tricks.com/482-ie-css-bugs-thatll-get-you-every-time/]: http://css-tricks.com/482-ie-css-bugs-thatll-get-you-every-time/
-  [http://technologytales.com/2007/06/22/ie6-and-javascript-performance/]:    http://technologytales.com/2007/06/22/ie6-and-javascript-performance/
+  [http://technologytales.com/2007/06/22/ie6-and-javascript-performance/]: http://technologytales.com/2007/06/22/ie6-and-javascript-performance/
   [http://blog.zimbra.com/blog/archives/2006/10/ie-7-vs-ie-6.html]: http://blog.zimbra.com/blog/archives/2006/10/ie-7-vs-ie-6.html
-  [http://ajaxian.com/archives/ie7-twice-as-performant-as-ie6-but-half-as-slow-as-ff-15]:    http://ajaxian.com/archives/ie7-twice-as-performant-as-ie6-but-half-as-slow-as-ff-15
-  [http://expansive-derivation.ossreleasefeed.com/2011/08/javascript-performance-test-results-with-sunspider/]:    http://expansive-derivation.ossreleasefeed.com/2011/08/javascript-performance-test-results-with-sunspider/
+  [http://ajaxian.com/archives/ie7-twice-as-performant-as-ie6-but-half-as-slow-as-ff-15]: http://ajaxian.com/archives/ie7-twice-as-performant-as-ie6-but-half-as-slow-as-ff-15
+  [http://expansive-derivation.ossreleasefeed.com/2011/08/javascript-performance-test-results-with-sunspider/]: http://expansive-derivation.ossreleasefeed.com/2011/08/javascript-performance-test-results-with-sunspider/
   [http://www.psyked.co.uk/css/auto-matic-link-icons.htm]: http://www.psyked.co.uk/css/auto-matic-link-icons.htm
   [http://www.fatihhayrioglu.com/xhtml-sayfa-yapisi-ve-css-kullanimi/]: http://www.fatihhayrioglu.com/xhtml-sayfa-yapisi-ve-css-kullanimi/

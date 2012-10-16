@@ -216,14 +216,14 @@ Kalın sağlıcakla.
   [5]: https://lh3.googleusercontent.com/GJZCOSKaonqtZWRowbC3piRUAtnokihjVZiJsrpoH0o57aizW_h-lUD9BVbVaxS1LfTy_epfpqAZ4QfVDAY7OxMblGYo2jAChutnXQcM8Mdvs7QJM34
   [6]: https://lh3.googleusercontent.com/oxpb3X9kHeRE5dTNBgxITu8aboSFcjEy794Lk6s_f2yZaGQ907oICh-OWvcfbaK5NK7aLjgSnXrv8v6EU8biB5g4kiahmYf1tTaOqBboxqapOSS2_YY
   [http://helephant.com/2009/11/css3-multiple-background-images/]: http://helephant.com/2009/11/css3-multiple-background-images/
-  [http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/]:    http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/
-  [http://dev.opera.com/articles/view/css3-border-background-boxshadow/#multiple-background]:    http://dev.opera.com/articles/view/css3-border-background-boxshadow/#multiple-background
-  [http://www.smashingmagazine.com/2010/04/28/css3-solutions-for-internet-explorer/]:    http://www.smashingmagazine.com/2010/04/28/css3-solutions-for-internet-explorer/
+  [http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/]: http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/
+  [http://dev.opera.com/articles/view/css3-border-background-boxshadow/#multiple-background]: http://dev.opera.com/articles/view/css3-border-background-boxshadow/#multiple-background
+  [http://www.smashingmagazine.com/2010/04/28/css3-solutions-for-internet-explorer/]: http://www.smashingmagazine.com/2010/04/28/css3-solutions-for-internet-explorer/
   [http://www.w3.org/TR/css3-background/#the-background-image]: http://www.w3.org/TR/css3-background/#the-background-image
   [http://www.zenelements.com/blog/css3-background-images/]: http://www.zenelements.com/blog/css3-background-images/
   [http://event-horizon.twiddles.com/sites/experimental/css3-bg/]: http://event-horizon.twiddles.com/sites/experimental/css3-bg/
-  [http://css-tricks.com/css3-multiple-backgrounds-obsoletes-sliding-doors/]:    http://css-tricks.com/css3-multiple-backgrounds-obsoletes-sliding-doors/
+  [http://css-tricks.com/css3-multiple-backgrounds-obsoletes-sliding-doors/]: http://css-tricks.com/css3-multiple-backgrounds-obsoletes-sliding-doors/
   [http://www.storiesinflight.com/html5/backgrounds.html]: http://www.storiesinflight.com/html5/backgrounds.html
-  [http://www.mightymeta.co.uk/progressive-decoration-with-css3-multiple-backgrounds/]:    http://www.mightymeta.co.uk/progressive-decoration-with-css3-multiple-backgrounds/
-  [http://www.lifeathighroad.com/css3-lessons/css3-lessons-multiple-background-images/]:    http://www.lifeathighroad.com/css3-lessons/css3-lessons-multiple-background-images/
+  [http://www.mightymeta.co.uk/progressive-decoration-with-css3-multiple-backgrounds/]: http://www.mightymeta.co.uk/progressive-decoration-with-css3-multiple-backgrounds/
+  [http://www.lifeathighroad.com/css3-lessons/css3-lessons-multiple-background-images/]: http://www.lifeathighroad.com/css3-lessons/css3-lessons-multiple-background-images/
   [http://www.paulrhayes.com/experiments/parallax/#experiment]: http://www.paulrhayes.com/experiments/parallax/#experiment

@@ -205,13 +205,13 @@ Kaynaklar
   [Doruk]: http://twitter.com/#!/dorukozalp
   [http://inchoo.net/tools/basic-git-usage-from-console/]: http://inchoo.net/tools/basic-git-usage-from-console/
   [http://www.foch.com.tr/versiyon-kontrol-git-svn-cvs.html]: http://www.foch.com.tr/versiyon-kontrol-git-svn-cvs.html
-  [http://mhazer.blogspot.com/2010/12/versiyon-yonetim-sistemi-olarak-git.html]:    http://mhazer.blogspot.com/2010/12/versiyon-yonetim-sistemi-olarak-git.html
+  [http://mhazer.blogspot.com/2010/12/versiyon-yonetim-sistemi-olarak-git.html]: http://mhazer.blogspot.com/2010/12/versiyon-yonetim-sistemi-olarak-git.html
   [http://www.kodcu.com/2011/04/git-mi-subversion-mi/]: http://www.kodcu.com/2011/04/git-mi-subversion-mi/
-  [http://net.tutsplus.com/tutorials/other/the-perfect-workflow-with-git-github-and-ssh/]:    http://net.tutsplus.com/tutorials/other/the-perfect-workflow-with-git-github-and-ssh/
-  [http://net.tutsplus.com/tutorials/other/easy-version-control-with-git/]:    http://net.tutsplus.com/tutorials/other/easy-version-control-with-git/
+  [http://net.tutsplus.com/tutorials/other/the-perfect-workflow-with-git-github-and-ssh/]: http://net.tutsplus.com/tutorials/other/the-perfect-workflow-with-git-github-and-ssh/
+  [http://net.tutsplus.com/tutorials/other/easy-version-control-with-git/]: http://net.tutsplus.com/tutorials/other/easy-version-control-with-git/
   [http://tr.wikipedia.org/wiki/S%C3%BCr%C3%BCm_Kontrol_Sistemi]: http://tr.wikipedia.org/wiki/S%C3%BCr%C3%BCm_Kontrol_Sistemi
   [http://book.git-scm.com/4_finding_with_git_grep.html]: http://book.git-scm.com/4_finding_with_git_grep.html
-  [http://www.kitware.com/products/html/DistributedVersionControlTheFutureOfHistory.html]:    http://www.kitware.com/products/html/DistributedVersionControlTheFutureOfHistory.html
+  [http://www.kitware.com/products/html/DistributedVersionControlTheFutureOfHistory.html]: http://www.kitware.com/products/html/DistributedVersionControlTheFutureOfHistory.html
   [http://www.ndpsoftware.com/git-cheatsheet.html]: http://www.ndpsoftware.com/git-cheatsheet.html
   [http://www.kimbs.cn/2010/11/git-essence/]: http://www.kimbs.cn/2010/11/git-essence/
   [http://people.core.gen.tr/~aycan.irican/web/publish/GitSKS.html]: http://people.core.gen.tr/%7Eaycan.irican/web/publish/GitSKS.html

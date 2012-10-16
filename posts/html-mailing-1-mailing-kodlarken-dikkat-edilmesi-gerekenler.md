@@ -231,11 +231,11 @@ Kalın sağlıcakla.
   [tıklayınız.]: http://www.campaignmonitor.com/css/ "tıklayınız."
   [email-standards.org]: http://www.email-standards.org/clients/
     "email-standards.org"
-  [http://www.blacklistmonitoring.com/lookup/email_blacklist_IP_address_lookup.php]:    http://www.blacklistmonitoring.com/lookup/email_blacklist_IP_address_lookup.php
+  [http://www.blacklistmonitoring.com/lookup/email_blacklist_IP_address_lookup.php]: http://www.blacklistmonitoring.com/lookup/email_blacklist_IP_address_lookup.php
     "http://www.blacklistmonitoring.com/lookup/email_blacklist_IP_address_lookup.php"
   [http://www.viget.com/inspire/tips-for-coding-html-email/]: http://www.viget.com/inspire/tips-for-coding-html-email/
     "http://www.viget.com/inspire/tips-for-coding-html-email/"
-  [http://thinkvitamin.com/features/design/ensuring-your-html-emails-look-great-and-get-delivered/]:    http://thinkvitamin.com/features/design/ensuring-your-html-emails-look-great-and-get-delivered/
+  [http://thinkvitamin.com/features/design/ensuring-your-html-emails-look-great-and-get-delivered/]: http://thinkvitamin.com/features/design/ensuring-your-html-emails-look-great-and-get-delivered/
     "http://thinkvitamin.com/features/design/ensuring-your-html-emails-look-great-and-get-delivered/"
   [http://www.anandgraves.com/html-email-guide]: http://www.anandgraves.com/html-email-guide
     "http://www.anandgraves.com/html-email-guide"
@@ -251,5 +251,5 @@ Kalın sağlıcakla.
     "http://www.campaignmonitor.com/css/"
   [http://www.xavierfrenette.com/articles/css-support-in-webmail/]: http://www.xavierfrenette.com/articles/css-support-in-webmail/
     "http://www.xavierfrenette.com/articles/css-support-in-webmail/"
-  [http://www.topluemailgonderimi.com/spamadusmedennasiltopluemailgonderilir.html]:    http://www.topluemailgonderimi.com/spamadusmedennasiltopluemailgonderilir.html
+  [http://www.topluemailgonderimi.com/spamadusmedennasiltopluemailgonderilir.html]: http://www.topluemailgonderimi.com/spamadusmedennasiltopluemailgonderilir.html
     "http://www.topluemailgonderimi.com/spamadusmedennasiltopluemailgonderilir.html"

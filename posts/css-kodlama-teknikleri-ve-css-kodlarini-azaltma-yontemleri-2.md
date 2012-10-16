@@ -208,5 +208,5 @@ düşünüyorum. Hoşçakalın.
   [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/kodazaltma2/bilgilendirme_1.html
   [1]: http://www.fatihhayrioglu.com/dokumanlar/kodazaltma2/bilgilendirme_2.html
   [2]: http://www.fatihhayrioglu.com/dokumanlar/kodazaltma2/bilgilendirme_3.html
-  [http://www.jankoatwarpspeed.com/post/2008/05/22/CSS-Message-Boxes-for-different-message-types.aspx]:    http://www.jankoatwarpspeed.com/post/2008/05/22/CSS-Message-Boxes-for-different-message-types.aspx
+  [http://www.jankoatwarpspeed.com/post/2008/05/22/CSS-Message-Boxes-for-different-message-types.aspx]: http://www.jankoatwarpspeed.com/post/2008/05/22/CSS-Message-Boxes-for-different-message-types.aspx
     "http://www.jankoatwarpspeed.com/post/2008/05/22/CSS-Message-Boxes-for-different-message-types.aspx"

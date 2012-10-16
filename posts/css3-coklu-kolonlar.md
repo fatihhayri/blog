@@ -395,21 +395,21 @@ Kalın sağlıcakla
   [http://www.zenelements.com/blog/css3-multiple-columns/]: http://www.zenelements.com/blog/css3-multiple-columns/
   [http://www.css3.info/preview/multi-column-layout/]: http://www.css3.info/preview/multi-column-layout/
   [http://www.quirksmode.org/css/multicolumn.html]: http://www.quirksmode.org/css/multicolumn.html
-  [http://webdesignernotebook.com/css/remembering-the-css3-multi-column-layout-module/]:    http://webdesignernotebook.com/css/remembering-the-css3-multi-column-layout-module/
-  [http://trentwalton.com/2010/07/19/css3-multi-column-layout-column-count/]:    http://trentwalton.com/2010/07/19/css3-multi-column-layout-column-count/
+  [http://webdesignernotebook.com/css/remembering-the-css3-multi-column-layout-module/]: http://webdesignernotebook.com/css/remembering-the-css3-multi-column-layout-module/
+  [http://trentwalton.com/2010/07/19/css3-multi-column-layout-column-count/]: http://trentwalton.com/2010/07/19/css3-multi-column-layout-column-count/
   [http://css-tricks.com/13372-seamless-responsive-photo-grid/]: http://css-tricks.com/13372-seamless-responsive-photo-grid/
-  [http://designshack.co.uk/articles/introduction-to-css3-part-5-multiple-columns]:    http://designshack.co.uk/articles/introduction-to-css3-part-5-multiple-columns
-  [http://kmsm.ca/2010/an-almost-complete-guide-to-css3-multi-column-layouts/]:    http://kmsm.ca/2010/an-almost-complete-guide-to-css3-multi-column-layouts/
+  [http://designshack.co.uk/articles/introduction-to-css3-part-5-multiple-columns]: http://designshack.co.uk/articles/introduction-to-css3-part-5-multiple-columns
+  [http://kmsm.ca/2010/an-almost-complete-guide-to-css3-multi-column-layouts/]: http://kmsm.ca/2010/an-almost-complete-guide-to-css3-multi-column-layouts/
   [http://dev.opera.com/articles/view/css3-multi-column-layout/]: http://dev.opera.com/articles/view/css3-multi-column-layout/
   [http://www.my-html-codes.com/css3-multiple-columns]: http://www.my-html-codes.com/css3-multiple-columns
-  [http://www.456bereastreet.com/archive/200509/css3_multicolumn_layout_considered_harmful/]:    http://www.456bereastreet.com/archive/200509/css3_multicolumn_layout_considered_harmful/
+  [http://www.456bereastreet.com/archive/200509/css3_multicolumn_layout_considered_harmful/]: http://www.456bereastreet.com/archive/200509/css3_multicolumn_layout_considered_harmful/
   [https://developer.mozilla.org/en/CSS3_Columns]: https://developer.mozilla.org/en/CSS3_Columns
   [http://www.red-team-design.com/multi-column-text-using-css3]: http://www.red-team-design.com/multi-column-text-using-css3
-  [http://www.stuffandnonsense.co.uk/archives/css3_multi-column_thriller.html]:    http://www.stuffandnonsense.co.uk/archives/css3_multi-column_thriller.html
-  [http://www.superiorwebsys.com/blog/20/Creating_A_Multi-Column_Layout_Using_CSS3/]:    http://www.superiorwebsys.com/blog/20/Creating_A_Multi-Column_Layout_Using_CSS3/
+  [http://www.stuffandnonsense.co.uk/archives/css3_multi-column_thriller.html]: http://www.stuffandnonsense.co.uk/archives/css3_multi-column_thriller.html
+  [http://www.superiorwebsys.com/blog/20/Creating_A_Multi-Column_Layout_Using_CSS3/]: http://www.superiorwebsys.com/blog/20/Creating_A_Multi-Column_Layout_Using_CSS3/
   [http://caniuse.com/multicolumn]: http://caniuse.com/multicolumn
   [http://people.opera.com/pepelsbey/experiments/multicol/]: http://people.opera.com/pepelsbey/experiments/multicol/
   [http://people.opera.com/zibin/multicol/index.html]: http://people.opera.com/zibin/multicol/index.html
   [http://www.juude.info/css-columns.php]: http://www.juude.info/css-columns.php
-  [http://zomigi.com/blog/deal-breaker-problems-with-css3-multi-columns/]:    http://zomigi.com/blog/deal-breaker-problems-with-css3-multi-columns/
+  [http://zomigi.com/blog/deal-breaker-problems-with-css3-multi-columns/]: http://zomigi.com/blog/deal-breaker-problems-with-css3-multi-columns/
   [http://help.dottoro.com/lcxquvkf.php]: http://help.dottoro.com/lcxquvkf.php

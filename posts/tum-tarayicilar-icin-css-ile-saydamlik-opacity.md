@@ -68,12 +68,12 @@ denemedim bir bakın isterseniz.
   [donuklasma_val2]: http://www.fatihhayrioglu.com/wp-content/donuklasma_val2.gif
     "donuklasma_val2"
   [1]: http://www.fatihhayrioglu.com/dokumanlar/donukluk_dog.html
-  [http://robertnyman.com/2010/01/11/css-background-transparency-without-affecting-child-elements-through-rgba-and-filters/]:    http://robertnyman.com/2010/01/11/css-background-transparency-without-affecting-child-elements-through-rgba-and-filters/
+  [http://robertnyman.com/2010/01/11/css-background-transparency-without-affecting-child-elements-through-rgba-and-filters/]: http://robertnyman.com/2010/01/11/css-background-transparency-without-affecting-child-elements-through-rgba-and-filters/
   [http://blog.evaria.com/2007/validate-css-style-opacity/]: http://blog.evaria.com/2007/validate-css-style-opacity/
     "http://blog.evaria.com/2007/validate-css-style-opacity/"
   [http://snipplr.com/view/10094/crossbrowser-opacity/]: http://snipplr.com/view/10094/crossbrowser-opacity/
     "http://snipplr.com/view/10094/crossbrowser-opacity/"
-  [http://perishablepress.com/press/2009/01/27/cross-browser-transparency-via-css/]:    http://perishablepress.com/press/2009/01/27/cross-browser-transparency-via-css/
+  [http://perishablepress.com/press/2009/01/27/cross-browser-transparency-via-css/]: http://perishablepress.com/press/2009/01/27/cross-browser-transparency-via-css/
     "http://perishablepress.com/press/2009/01/27/cross-browser-transparency-via-css/"
   [http://www.codeguru.com/forum/showthread.php?threadid=458411]: http://www.codeguru.com/forum/showthread.php?threadid=458411
     "http://www.codeguru.com/forum/showthread.php?threadid=458411"

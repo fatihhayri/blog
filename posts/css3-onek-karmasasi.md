@@ -197,27 +197,27 @@ Zamanla göreceği bakalım neler olacak.
   [http://prefixr.com/]: http://prefixr.com/
   [prefixr.com]: http://www.prefixr.com/api/usage/
   [http://www.css3.info/why-and-when-browsers-prefix-css3-features/]: http://www.css3.info/why-and-when-browsers-prefix-css3-features/
-  [http://www.webresourcesdepot.com/instantly-prefix-css3-code-prefixmycss/]:    http://www.webresourcesdepot.com/instantly-prefix-css3-code-prefixmycss/
+  [http://www.webresourcesdepot.com/instantly-prefix-css3-code-prefixmycss/]: http://www.webresourcesdepot.com/instantly-prefix-css3-code-prefixmycss/
   [http://reference.sitepoint.com/css/vendorspecific]: http://reference.sitepoint.com/css/vendorspecific
-  [http://www.quirksmode.org/blog/archives/2010/03/css_vendor_pref.html]:    http://www.quirksmode.org/blog/archives/2010/03/css_vendor_pref.html
-  [http://www.mightymeta.co.uk/1103/no-more-need-for-some-css3-vendor-prefixes/]:    http://www.mightymeta.co.uk/1103/no-more-need-for-some-css3-vendor-prefixes/
+  [http://www.quirksmode.org/blog/archives/2010/03/css_vendor_pref.html]: http://www.quirksmode.org/blog/archives/2010/03/css_vendor_pref.html
+  [http://www.mightymeta.co.uk/1103/no-more-need-for-some-css3-vendor-prefixes/]: http://www.mightymeta.co.uk/1103/no-more-need-for-some-css3-vendor-prefixes/
   [http://www.alistapart.com/articles/prefix-or-posthack/]: http://www.alistapart.com/articles/prefix-or-posthack/
-  [http://www.webmonkey.com/2010/09/firefox-4-to-drop-some-css-vendor-prefixes/]:    http://www.webmonkey.com/2010/09/firefox-4-to-drop-some-css-vendor-prefixes/
+  [http://www.webmonkey.com/2010/09/firefox-4-to-drop-some-css-vendor-prefixes/]: http://www.webmonkey.com/2010/09/firefox-4-to-drop-some-css-vendor-prefixes/
   [http://snook.ca/archives/html_and_css/not-supported]: http://snook.ca/archives/html_and_css/not-supported
   [http://css-tricks.com/7361-ordering-css3-properties/]: http://css-tricks.com/7361-ordering-css3-properties/
-  [http://coding.smashingmagazine.com/2011/10/12/prefixfree-break-free-from-css-prefix-hell/]:    http://coding.smashingmagazine.com/2011/10/12/prefixfree-break-free-from-css-prefix-hell/
+  [http://coding.smashingmagazine.com/2011/10/12/prefixfree-break-free-from-css-prefix-hell/]: http://coding.smashingmagazine.com/2011/10/12/prefixfree-break-free-from-css-prefix-hell/
   [http://www.sitepoint.com/w3c-css-webkit-prefix-crisis]: http://www.sitepoint.com/w3c-css-webkit-prefix-crisis
-  [http://lea.verou.me/2011/11/vendor-prefixes-have-failed-whats-next/]:    http://lea.verou.me/2011/11/vendor-prefixes-have-failed-whats-next/
-  [http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-never-type-a-vendor-prefix-again/]:    http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-never-type-a-vendor-prefix-again/
-  [http://www.alistapart.com/articles/the-vendor-prefix-predicament-alas-eric-meyer-interviews-tantek-celik/]:    http://www.alistapart.com/articles/the-vendor-prefix-predicament-alas-eric-meyer-interviews-tantek-celik/
+  [http://lea.verou.me/2011/11/vendor-prefixes-have-failed-whats-next/]: http://lea.verou.me/2011/11/vendor-prefixes-have-failed-whats-next/
+  [http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-never-type-a-vendor-prefix-again/]: http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-never-type-a-vendor-prefix-again/
+  [http://www.alistapart.com/articles/the-vendor-prefix-predicament-alas-eric-meyer-interviews-tantek-celik/]: http://www.alistapart.com/articles/the-vendor-prefix-predicament-alas-eric-meyer-interviews-tantek-celik/
   [http://www.sitepoint.com/css3-vendor-prefix-crisis-solutions/]: http://www.sitepoint.com/css3-vendor-prefix-crisis-solutions/#fbid=qIRziNGN-f6
   [http://annevankesteren.nl/2012/04/prefixes]: http://annevankesteren.nl/2012/04/prefixes
-  [http://www.webmonkey.com/2012/05/vendor-tokens-offer-another-way-out-of-the-css-prefix-mess/]:    http://www.webmonkey.com/2012/05/vendor-tokens-offer-another-way-out-of-the-css-prefix-mess/
+  [http://www.webmonkey.com/2012/05/vendor-tokens-offer-another-way-out-of-the-css-prefix-mess/]: http://www.webmonkey.com/2012/05/vendor-tokens-offer-another-way-out-of-the-css-prefix-mess/
   [http://peter.sh/experiments/vendor-prefixed-css-property-overview/]: http://peter.sh/experiments/vendor-prefixed-css-property-overview/
   [http://leaverou.github.com/prefixfree/]: http://leaverou.github.com/prefixfree/
-  [http://kilianvalkhof.com/2010/css-xhtml/css-vendor-prefixes-considered-important/]:    http://kilianvalkhof.com/2010/css-xhtml/css-vendor-prefixes-considered-important/
+  [http://kilianvalkhof.com/2010/css-xhtml/css-vendor-prefixes-considered-important/]: http://kilianvalkhof.com/2010/css-xhtml/css-vendor-prefixes-considered-important/
   [http://hsivonen.iki.fi/vendor-prefixes/]: http://hsivonen.iki.fi/vendor-prefixes/
-  [http://net.tutsplus.com/articles/editorials/do-you-exclusively-use-webkit-prefixes/]:    http://net.tutsplus.com/articles/editorials/do-you-exclusively-use-webkit-prefixes/
-  [http://www.glazman.org/weblog/dotclear/index.php?post/2011/11/16/CSS-vendor-prefixes-an-answer-to-Henri-Sivonen]:    http://www.glazman.org/weblog/dotclear/index.php?post/2011/11/16/CSS-vendor-prefixes-an-answer-to-Henri-Sivonen
-  [http://christianheilmann.com/2012/02/09/now-vendor-prefixes-have-become-a-problem-want-to-help-fix-it/]:    http://christianheilmann.com/2012/02/09/now-vendor-prefixes-have-become-a-problem-want-to-help-fix-it/
-  [http://net.tutsplus.com/tutorials/html-css-techniques/sass-vs-less-vs-stylus-a-preprocessor-shootout/]:    http://net.tutsplus.com/tutorials/html-css-techniques/sass-vs-less-vs-stylus-a-preprocessor-shootout/
+  [http://net.tutsplus.com/articles/editorials/do-you-exclusively-use-webkit-prefixes/]: http://net.tutsplus.com/articles/editorials/do-you-exclusively-use-webkit-prefixes/
+  [http://www.glazman.org/weblog/dotclear/index.php?post/2011/11/16/CSS-vendor-prefixes-an-answer-to-Henri-Sivonen]: http://www.glazman.org/weblog/dotclear/index.php?post/2011/11/16/CSS-vendor-prefixes-an-answer-to-Henri-Sivonen
+  [http://christianheilmann.com/2012/02/09/now-vendor-prefixes-have-become-a-problem-want-to-help-fix-it/]: http://christianheilmann.com/2012/02/09/now-vendor-prefixes-have-become-a-problem-want-to-help-fix-it/
+  [http://net.tutsplus.com/tutorials/html-css-techniques/sass-vs-less-vs-stylus-a-preprocessor-shootout/]: http://net.tutsplus.com/tutorials/html-css-techniques/sass-vs-less-vs-stylus-a-preprocessor-shootout/

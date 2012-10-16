@@ -186,12 +186,12 @@ kolaylıklar sağlıyor.
 
   [kutulara gölge verme]: http://www.fatihhayrioglu.com/kutulara-golge-vermek-box-shadow/
   [Önceki makalede]: http://www.fatihhayrioglu.com/coklu-kenar-cizgisiborder-kullanimi/
-  [http://theburningmonk.com/2010/12/having-fun-with-css3-box-shadow-property/]:    http://theburningmonk.com/2010/12/having-fun-with-css3-box-shadow-property/
+  [http://theburningmonk.com/2010/12/having-fun-with-css3-box-shadow-property/]: http://theburningmonk.com/2010/12/having-fun-with-css3-box-shadow-property/
   [http://markusstange.wordpress.com/2009/02/15/fun-with-box-shadows/]: http://markusstange.wordpress.com/2009/02/15/fun-with-box-shadows/
   [http://matthamm.com/box-shadow-curl.html]: http://matthamm.com/box-shadow-curl.html
   [http://www.webdesignshock.com/css3-box-shadow/]: http://www.webdesignshock.com/css3-box-shadow/
-  [http://www.red-team-design.com/how-to-create-slick-effects-with-css3-box-shadow]:    http://www.red-team-design.com/how-to-create-slick-effects-with-css3-box-shadow
-  [http://www.viget.com/inspire/39-ridiculous-things-to-do-with-css3-box-shadows/]:    http://www.viget.com/inspire/39-ridiculous-things-to-do-with-css3-box-shadows/
+  [http://www.red-team-design.com/how-to-create-slick-effects-with-css3-box-shadow]: http://www.red-team-design.com/how-to-create-slick-effects-with-css3-box-shadow
+  [http://www.viget.com/inspire/39-ridiculous-things-to-do-with-css3-box-shadows/]: http://www.viget.com/inspire/39-ridiculous-things-to-do-with-css3-box-shadows/
   [http://erenemre.com/556]: http://erenemre.com/556
   [http://blog.syndicate-fx.com/code-snippets/css3-boxshadow-effects/]: http://blog.syndicate-fx.com/code-snippets/css3-boxshadow-effects/
   [http://www.ballyhooblog.com/realistic-css3-box-shadows/]: http://www.ballyhooblog.com/realistic-css3-box-shadows/
@@ -200,9 +200,9 @@ kolaylıklar sağlıyor.
   [http://www.wewillbeok.com/likeacastshadow/]: http://www.wewillbeok.com/likeacastshadow/
   [http://toolboxdigital.com/2011/03/css3-3d-gradient-box/]: http://toolboxdigital.com/2011/03/css3-3d-gradient-box/
   [http://daneden.me/2011/11/a-non-scientific-box-shadow-experiment/]: http://daneden.me/2011/11/a-non-scientific-box-shadow-experiment/
-  [http://www.paulund.co.uk/creating-different-css3-box-shadows-effects]:    http://www.paulund.co.uk/creating-different-css3-box-shadows-effects
-  [http://blog.w3conversions.com/2011/09/css3-spread-value-and-box-shadow-on-one-side-only/]:    http://blog.w3conversions.com/2011/09/css3-spread-value-and-box-shadow-on-one-side-only/
+  [http://www.paulund.co.uk/creating-different-css3-box-shadows-effects]: http://www.paulund.co.uk/creating-different-css3-box-shadows-effects
+  [http://blog.w3conversions.com/2011/09/css3-spread-value-and-box-shadow-on-one-side-only/]: http://blog.w3conversions.com/2011/09/css3-spread-value-and-box-shadow-on-one-side-only/
   [http://starikovs.com/2011/11/09/css3-one-side-shadow/]: http://starikovs.com/2011/11/09/css3-one-side-shadow/
   [http://nicolasgallagher.com/css-drop-shadows-without-images/demo/]: http://nicolasgallagher.com/css-drop-shadows-without-images/demo/
-  [http://translate.google.com/translate?hl=en&sl=auto&tl=en&u=http%3A%2F%2Fwww.alsacreations.com%2Ftuto%2Flire%2F1338-css3-box-shadow-ombre.html]:    http://translate.google.com/translate?hl=en&sl=auto&tl=en&u=http%3A%2F%2Fwww.alsacreations.com%2Ftuto%2Flire%2F1338-css3-box-shadow-ombre.html
-  [http://www.creativejuiz.fr/blog/tutoriels/ombre-avancees-avec-css3-et-box-shadow]:    http://www.creativejuiz.fr/blog/tutoriels/ombre-avancees-avec-css3-et-box-shadow
+  [http://translate.google.com/translate?hl=en&sl=auto&tl=en&u=http%3A%2F%2Fwww.alsacreations.com%2Ftuto%2Flire%2F1338-css3-box-shadow-ombre.html]: http://translate.google.com/translate?hl=en&sl=auto&tl=en&u=http%3A%2F%2Fwww.alsacreations.com%2Ftuto%2Flire%2F1338-css3-box-shadow-ombre.html
+  [http://www.creativejuiz.fr/blog/tutoriels/ombre-avancees-avec-css3-et-box-shadow]: http://www.creativejuiz.fr/blog/tutoriels/ombre-avancees-avec-css3-et-box-shadow

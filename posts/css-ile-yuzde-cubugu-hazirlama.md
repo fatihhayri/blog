@@ -116,6 +116,6 @@ test edilmiştir.
   [http://cssglobe.com/post/1468/pure-css-animated-progress-bar]: http://cssglobe.com/post/1468/pure-css-animated-progress-bar
   [http://pootato.org/tutorials/css/css-progress-bar/]: http://pootato.org/tutorials/css/css-progress-bar/
   [http://www.barenakedapp.com/the-design/displaying-percentages]: http://www.barenakedapp.com/the-design/displaying-percentages
-  [http://www.webappers.com/2007/07/31/webappers-simple-ajax-progress-bar-with-css/]:    http://www.webappers.com/2007/07/31/webappers-simple-ajax-progress-bar-with-css/
-  [http://mattberseth.com/blog/2008/07/jqueryui_progressbar_widget.html]:    http://mattberseth.com/blog/2008/07/jqueryui_progressbar_widget.html
+  [http://www.webappers.com/2007/07/31/webappers-simple-ajax-progress-bar-with-css/]: http://www.webappers.com/2007/07/31/webappers-simple-ajax-progress-bar-with-css/
+  [http://mattberseth.com/blog/2008/07/jqueryui_progressbar_widget.html]: http://mattberseth.com/blog/2008/07/jqueryui_progressbar_widget.html
   [http://www.dmry.net/css-ile-basit-bir-ilerleme-durum-cubugu-yapimi]: http://www.dmry.net/css-ile-basit-bir-ilerleme-durum-cubugu-yapimi

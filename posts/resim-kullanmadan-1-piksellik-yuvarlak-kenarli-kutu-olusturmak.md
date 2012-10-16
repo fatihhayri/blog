@@ -119,7 +119,7 @@ Hadi kalın sağlıcakla.
   [3]: http://fatihhayrioglu.com/dokumanlar/1px_yuvarlak_kenar_2.html
   [4]: https://lh4.googleusercontent.com/6mgdtcyUg4pDLZGE4dbY1tvQQYUzQz3mhfMaqMmkWS9Zd6y5GZqEWBMeP7vdDxEKZel5JGrfTIGjuPH5c-M6UY4SxaHF7l58yYJhuFtr_vxfQlnuRQ
   [5]: http://fatihhayrioglu.com/dokumanlar/1px_yuvarlak_kenar_1_hover.html
-  [http://dmitry-baranovskiy.tumblr.com/post/34061791/one-pixel-rounded-corners]:    http://dmitry-baranovskiy.tumblr.com/post/34061791/one-pixel-rounded-corners
-  [http://www.askthecssguy.com/2008/03/one_pixel_notched_corners_as_u.html]:    http://www.askthecssguy.com/2008/03/one_pixel_notched_corners_as_u.html
+  [http://dmitry-baranovskiy.tumblr.com/post/34061791/one-pixel-rounded-corners]: http://dmitry-baranovskiy.tumblr.com/post/34061791/one-pixel-rounded-corners
+  [http://www.askthecssguy.com/2008/03/one_pixel_notched_corners_as_u.html]: http://www.askthecssguy.com/2008/03/one_pixel_notched_corners_as_u.html
   [http://www.onderhond.com/blog/work/1px-rounded-corners]: http://www.onderhond.com/blog/work/1px-rounded-corners
   [http://www.alistapart.com/articles/mountaintop/]: http://www.alistapart.com/articles/mountaintop/

@@ -103,8 +103,8 @@ Daha fazla HTML5, CSS3 ve DOM özelliği desteği geldi.
   [Bir mesajlaşma örneği]: http://hacks.mozilla.org/2011/06/a-wall-powered-by-eventsource-and-server-sent-events/
   [Touch eventları]: https://developer.mozilla.org/en/DOM/Touch_events
   [tıklayınız.]: https://developer.mozilla.org/en/Firefox_6_for_developers
-  [http://www.favbrowser.com/download-firefox-6-beta-1-for-pc-android/]:    http://www.favbrowser.com/download-firefox-6-beta-1-for-pc-android/
+  [http://www.favbrowser.com/download-firefox-6-beta-1-for-pc-android/]: http://www.favbrowser.com/download-firefox-6-beta-1-for-pc-android/
   [http://venturebeat.com/2011/08/16/firefox-6/]: http://venturebeat.com/2011/08/16/firefox-6/
   [http://hacks.mozilla.org/2011/08/firefox6/]: http://hacks.mozilla.org/2011/08/firefox6/
   [http://www.sitepoint.com/firefox-6-whats-new/]: http://www.sitepoint.com/firefox-6-whats-new/
-  [http://www.pcworld.com/businesscenter/article/229447/ready_for_firefox_6_heres_whats_on_the_way.html]:    http://www.pcworld.com/businesscenter/article/229447/ready_for_firefox_6_heres_whats_on_the_way.html
+  [http://www.pcworld.com/businesscenter/article/229447/ready_for_firefox_6_heres_whats_on_the_way.html]: http://www.pcworld.com/businesscenter/article/229447/ready_for_firefox_6_heres_whats_on_the_way.html

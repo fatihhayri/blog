@@ -113,7 +113,7 @@ yaptığımızda bazı web tarayıcılarında kaymalara neden oluyor, bu sorunu
 
   [http://www.sovavsiti.cz/css/hr.html]: http://www.sovavsiti.cz/css/hr.html
   [http://sonspring.com/journal/styling-hr]: http://sonspring.com/journal/styling-hr
-  [http://bitesizestandards.com/bites/styling-horizontal-rules-with-css]:    http://bitesizestandards.com/bites/styling-horizontal-rules-with-css
+  [http://bitesizestandards.com/bites/styling-horizontal-rules-with-css]: http://bitesizestandards.com/bites/styling-horizontal-rules-with-css
   [http://www.blakems.com/experimental/hr/]: http://www.blakems.com/experimental/hr/
   [http://www.saila.com/usage/tips/defn.shtml?hr]: http://www.saila.com/usage/tips/defn.shtml?hr
   [http://www.sitepoint.com/examples/hr/]: http://www.sitepoint.com/examples/hr/

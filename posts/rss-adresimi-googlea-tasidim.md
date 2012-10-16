@@ -15,4 +15,4 @@ sonuna kadar bu adres yönlenecekmiş.
 </p>
 
   [http://feeds2.feedburner.com/fatihhayri]: http://feeds2.feedburner.com/fatihhayri
-  [http://www.teknolojiherseyim.com/feedburner-hesabini-google-feedproxyye-nasil-tasiriz/]:    http://www.teknolojiherseyim.com/feedburner-hesabini-google-feedproxyye-nasil-tasiriz/
+  [http://www.teknolojiherseyim.com/feedburner-hesabini-google-feedproxyye-nasil-tasiriz/]: http://www.teknolojiherseyim.com/feedburner-hesabini-google-feedproxyye-nasil-tasiriz/

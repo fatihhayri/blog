@@ -47,7 +47,7 @@ Internet Explore desteklemiyor. Bunun haricinde Firefox 2, Safari, Opera
   [css-tricks.com]: http://css-tricks.com "css-tricks.com"
   [http://www.quirksmode.org/css/selection.html]: http://www.quirksmode.org/css/selection.html
     "http://www.quirksmode.org/css/selection.html"
-  [http://css-tricks.com/overriding-the-default-text-selection-color-with-css/]:    http://css-tricks.com/overriding-the-default-text-selection-color-with-css/
+  [http://css-tricks.com/overriding-the-default-text-selection-color-with-css/]: http://css-tricks.com/overriding-the-default-text-selection-color-with-css/
     "http://css-tricks.com/overriding-the-default-text-selection-color-with-css/"
   [http://www.w3.org/TR/css3-selectors/]: http://www.w3.org/TR/css3-selectors/
     "http://www.w3.org/TR/css3-selectors/"

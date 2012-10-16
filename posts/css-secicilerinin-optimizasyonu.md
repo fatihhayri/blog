@@ -192,9 +192,9 @@ göre yapalım proje küçük olmuş, büyük olmuş bizi ilgilendirmesin.
     "google'un önerileride"
   [https://developer.mozilla.org/en/Writing_Efficient_CSS]: https://developer.mozilla.org/en/Writing_Efficient_CSS
     "https://developer.mozilla.org/en/Writing_Efficient_CSS"
-  [http://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/]:    http://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/
+  [http://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/]: http://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/
     "http://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/"
-  [http://www.stevesouders.com/blog/2009/03/10/performance-impact-of-css-selectors/]:    http://www.stevesouders.com/blog/2009/03/10/performance-impact-of-css-selectors/
+  [http://www.stevesouders.com/blog/2009/03/10/performance-impact-of-css-selectors/]: http://www.stevesouders.com/blog/2009/03/10/performance-impact-of-css-selectors/
     "http://www.stevesouders.com/blog/2009/03/10/performance-impact-of-css-selectors/"
   [http://ajaxian.com/archives/css-child-selector-performance]: http://ajaxian.com/archives/css-child-selector-performance
     "http://ajaxian.com/archives/css-child-selector-performance"
@@ -202,15 +202,15 @@ göre yapalım proje küçük olmuş, büyük olmuş bizi ilgilendirmesin.
     "http://jackslocum.com/blog/2007/07/10/css-selectors-speed-myths/"
   [http://hacks.mozilla.org/2009/06/dom-selectors-api/]: http://hacks.mozilla.org/2009/06/dom-selectors-api/
     "http://hacks.mozilla.org/2009/06/dom-selectors-api/"
-  [http://www.shauninman.com/archive/2008/05/05/css_qualified_selectors]:    http://www.shauninman.com/archive/2008/05/05/css_qualified_selectors
+  [http://www.shauninman.com/archive/2008/05/05/css_qualified_selectors]: http://www.shauninman.com/archive/2008/05/05/css_qualified_selectors
     "http://www.shauninman.com/archive/2008/05/05/css_qualified_selectors"
-  [http://blog.archive.jpsykes.com/153/more-css-performance-testing-pt-3/]:    http://blog.archive.jpsykes.com/153/more-css-performance-testing-pt-3/
+  [http://blog.archive.jpsykes.com/153/more-css-performance-testing-pt-3/]: http://blog.archive.jpsykes.com/153/more-css-performance-testing-pt-3/
     "http://blog.archive.jpsykes.com/153/more-css-performance-testing-pt-3/"
   [http://www.infoq.com/news/2009/01/jquery-1.3]: http://www.infoq.com/news/2009/01/jquery-1.3
     "http://www.infoq.com/news/2009/01/jquery-1.3"
   [http://code.google.com/speed/page-speed/docs/rendering.html]: http://code.google.com/speed/page-speed/docs/rendering.html
     "http://code.google.com/speed/page-speed/docs/rendering.html"
-  [http://fatagnus.com/guidelines-for-writing-efficient-css-selectors/]:    http://fatagnus.com/guidelines-for-writing-efficient-css-selectors/
+  [http://fatagnus.com/guidelines-for-writing-efficient-css-selectors/]: http://fatagnus.com/guidelines-for-writing-efficient-css-selectors/
     "http://fatagnus.com/guidelines-for-writing-efficient-css-selectors/"
   [http://css-tricks.com/efficiently-rendering-css/]: http://css-tricks.com/efficiently-rendering-css/
     "http://css-tricks.com/efficiently-rendering-css/"

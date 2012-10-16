@@ -129,16 +129,16 @@ Kalın sağlıcakla
 
   [HTML5’in yapısal elemanları]: http://www.fatihhayrioglu.com/html-5in-yeni-elementlerini-bir-goz-atalim/
   []: https://lh4.googleusercontent.com/mZ-OkglGxQIDuI_gn8dvqhjPy8Z0siTKY50T2gqGnoC8UeYLTURhiB15ebJ2YBeN5QViUQUz1wzfI_t6bu5kgOxDoTzL9_snx6OfkeVAqJ1zjjW1tA
-  [http://www.smashingmagazine.com/2009/04/08/from-table-hell-to-div-hell/]:    http://www.smashingmagazine.com/2009/04/08/from-table-hell-to-div-hell/
+  [http://www.smashingmagazine.com/2009/04/08/from-table-hell-to-div-hell/]: http://www.smashingmagazine.com/2009/04/08/from-table-hell-to-div-hell/
   [http://phrogz.net/css/WhyTablesAreBadForLayout.html]: http://phrogz.net/css/WhyTablesAreBadForLayout.html
-  [http://resources.bravenet.com/articles/site_building/CSS/tables_bad_css_good/]:    http://resources.bravenet.com/articles/site_building/CSS/tables_bad_css_good/
+  [http://resources.bravenet.com/articles/site_building/CSS/tables_bad_css_good/]: http://resources.bravenet.com/articles/site_building/CSS/tables_bad_css_good/
   [http://www.sitepoint.com/article/tables-vs-css/]: http://www.sitepoint.com/article/tables-vs-css/
   [http://webdesign.about.com/od/layout/a/aa111102a.htm]: http://webdesign.about.com/od/layout/a/aa111102a.htm
-  [http://www.chromaticsites.com/web-design-blog/2008-04-03/13-reasons-why-css-is-superior-to-tables-in-website-design/]:    http://www.chromaticsites.com/web-design-blog/2008-04-03/13-reasons-why-css-is-superior-to-tables-in-website-design/
-  [http://www.andybudd.com/archives/2004/05/an_objective_look_at_table_based_vs_css_based_design/]:    http://www.andybudd.com/archives/2004/05/an_objective_look_at_table_based_vs_css_based_design/
+  [http://www.chromaticsites.com/web-design-blog/2008-04-03/13-reasons-why-css-is-superior-to-tables-in-website-design/]: http://www.chromaticsites.com/web-design-blog/2008-04-03/13-reasons-why-css-is-superior-to-tables-in-website-design/
+  [http://www.andybudd.com/archives/2004/05/an_objective_look_at_table_based_vs_css_based_design/]: http://www.andybudd.com/archives/2004/05/an_objective_look_at_table_based_vs_css_based_design/
   [http://www.stopdesign.com/present/2004/ddw-seattle/tables/]: http://www.stopdesign.com/present/2004/ddw-seattle/tables/
-  [http://osman.borutecene.com/tablosuz-tasarim-fetisi-ve-erisilebilirligi-zayif-web-standartlari/]:    http://osman.borutecene.com/tablosuz-tasarim-fetisi-ve-erisilebilirligi-zayif-web-standartlari/
+  [http://osman.borutecene.com/tablosuz-tasarim-fetisi-ve-erisilebilirligi-zayif-web-standartlari/]: http://osman.borutecene.com/tablosuz-tasarim-fetisi-ve-erisilebilirligi-zayif-web-standartlari/
   [http://erkana.wordpress.com/2006/09/15/tablosuz-tasarim-tableless/]: http://erkana.wordpress.com/2006/09/15/tablosuz-tasarim-tableless/
-  [http://eskiz.ksahin.com/?category=web-tasarim/tablosuz-tasarm-tablolu-tasarma-kar]:    http://eskiz.ksahin.com/?category=web-tasarim/tablosuz-tasarm-tablolu-tasarma-kar
-  [http://alastairc.ac/2006/08/why-css-is-important-for-accessibility/]:    http://alastairc.ac/2006/08/why-css-is-important-for-accessibility/
+  [http://eskiz.ksahin.com/?category=web-tasarim/tablosuz-tasarm-tablolu-tasarma-kar]: http://eskiz.ksahin.com/?category=web-tasarim/tablosuz-tasarm-tablolu-tasarma-kar
+  [http://alastairc.ac/2006/08/why-css-is-important-for-accessibility/]: http://alastairc.ac/2006/08/why-css-is-important-for-accessibility/
   [http://www.w3.org/TR/CSS-access]: http://www.w3.org/TR/CSS-access

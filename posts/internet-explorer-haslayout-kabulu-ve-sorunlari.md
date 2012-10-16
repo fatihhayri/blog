@@ -151,9 +151,9 @@ Kalın sağlıcakla
   [http://reference.sitepoint.com/css/haslayout]: http://reference.sitepoint.com/css/haslayout
   [http://msdn.microsoft.com/en-us/library/bb250481(v=vs.85).aspx]: http://msdn.microsoft.com/en-us/library/bb250481(v=vs.85).aspx
   [http://css-class.com/articles/explorer/guillotine/]: http://css-class.com/articles/explorer/guillotine/
-  [http://www.alsacreations.com/article/lire/76-haslayout-internet-explorer.html]:    http://www.alsacreations.com/article/lire/76-haslayout-internet-explorer.html
-  [http://jaspan.com/ie-inherited-margin-bug-form-elements-and-haslayout]:    http://jaspan.com/ie-inherited-margin-bug-form-elements-and-haslayout
-  [http://onwebdev.blogspot.com/2011/02/css-internet-explorer-bugs-and.html]:    http://onwebdev.blogspot.com/2011/02/css-internet-explorer-bugs-and.html
+  [http://www.alsacreations.com/article/lire/76-haslayout-internet-explorer.html]: http://www.alsacreations.com/article/lire/76-haslayout-internet-explorer.html
+  [http://jaspan.com/ie-inherited-margin-bug-form-elements-and-haslayout]: http://jaspan.com/ie-inherited-margin-bug-form-elements-and-haslayout
+  [http://onwebdev.blogspot.com/2011/02/css-internet-explorer-bugs-and.html]: http://onwebdev.blogspot.com/2011/02/css-internet-explorer-bugs-and.html
   [http://stackoverflow.com/questions/1794350/what-is-haslayout]: http://stackoverflow.com/questions/1794350/what-is-haslayout
   [http://stackoverflow.com/search?q=hasLayout]: http://stackoverflow.com/search?q=hasLayout
   [http://www.webmasterworld.com/forum83/6999.htm]: http://www.webmasterworld.com/forum83/6999.htm

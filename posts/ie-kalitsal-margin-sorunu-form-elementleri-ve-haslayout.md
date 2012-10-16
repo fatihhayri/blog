@@ -88,4 +88,4 @@ elemanında bu sorun ile karşılaşılmıyor.
   [4]: http://www.fatihhayrioglu.com/wp-content/margin_inherit_ie_c.gif
     "margin_inherit_ie_c"
   [![][4]]: http://www.fatihhayrioglu.com/wp-content/margin_inherit_ie_c.gif
-  [http://www.positioniseverything.net/explorer/inherited_margin.html]:    http://www.positioniseverything.net/explorer/inherited_margin.html
+  [http://www.positioniseverything.net/explorer/inherited_margin.html]: http://www.positioniseverything.net/explorer/inherited_margin.html

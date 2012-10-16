@@ -55,5 +55,5 @@ Ben tüm renk geçişi kodlarımın sonuna unutmazsam zoom:1 ekliyorum sizede
   [hasLayout’]: http://www.fatihhayrioglu.com/internet-explorer-haslayout-kabulu-ve-sorunlari/
   [http://www.colorzilla.com/gradient-editor/]: http://www.colorzilla.com/gradient-editor/
   []: https://lh6.googleusercontent.com/2lOKPVgbBkBb_8z4TjqvsEfttZ-yDRJnYrBCsjrG_zuxoF49BWbqDiBerJSzAPm74ZR7ORDg-SJqn6T0JgM6y7TRFX0Dov4LKLolJb5xmH4VwRR9Qek
-  [http://stackoverflow.com/questions/7257170/background-gradient-ie7-css-problem]:    http://stackoverflow.com/questions/7257170/background-gradient-ie7-css-problem
-  [http://stackoverflow.com/questions/213750/gradient-colors-in-internet-explorer]:    http://stackoverflow.com/questions/213750/gradient-colors-in-internet-explorer
+  [http://stackoverflow.com/questions/7257170/background-gradient-ie7-css-problem]: http://stackoverflow.com/questions/7257170/background-gradient-ie7-css-problem
+  [http://stackoverflow.com/questions/213750/gradient-colors-in-internet-explorer]: http://stackoverflow.com/questions/213750/gradient-colors-in-internet-explorer

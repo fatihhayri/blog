@@ -45,4 +45,4 @@ google'un arama aracı nasıl buluyor.
 </p>
 
   [http://wordpress.org/support/topic/217700]: http://wordpress.org/support/topic/217700
-  [http://blog.youontop.com/server-issues/view-htaccess-hidden-files-in-cuteftp-38.html]:    http://blog.youontop.com/server-issues/view-htaccess-hidden-files-in-cuteftp-38.html
+  [http://blog.youontop.com/server-issues/view-htaccess-hidden-files-in-cuteftp-38.html]: http://blog.youontop.com/server-issues/view-htaccess-hidden-files-in-cuteftp-38.html

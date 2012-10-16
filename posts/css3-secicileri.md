@@ -730,35 +730,35 @@ Opera 10.10+
   [2]: https://lh4.googleusercontent.com/5e_41wg7MEzgTzwCyGBHWAnp7Js-HypUDJigkcO7WC632270MGhU0ubYO6058YFY0zY5aOptuOv7H3_gyJw2ZiHMYFHNCygPD-8PlKV6eRS4E1xtcuI
   [3]: https://lh3.googleusercontent.com/t8QIYGvMozXeDyAOos5pbfZSpJQKyyIzuGgfMHqEire4_Y06UOOUPv9GOJPpDnd_R5wn2vlvrLVbUwvj48puypNMqcJ3tUqo4sY5pLUp9KQiMMAJ66Q
   [bir makale yazmıştım]: http://www.fatihhayrioglu.com/css3-target-secicisi/
-  [http://dev.opera.com/articles/view/styling-forms-with-attribute-selectors-1/]:    http://dev.opera.com/articles/view/styling-forms-with-attribute-selectors-1/
+  [http://dev.opera.com/articles/view/styling-forms-with-attribute-selectors-1/]: http://dev.opera.com/articles/view/styling-forms-with-attribute-selectors-1/
   [4]: https://lh4.googleusercontent.com/lKodnf8SMrbnSV9jZd_EwcQZ1IF-JZy9GY9jv1olLpuOfebHtjsE0vbOyNA-_-EDzpoNCUBs_JVVgnk-_m7Jh0VQ6D7l9PhKXq2K7woke7tNGX36f5Q
   [5]: https://lh4.googleusercontent.com/xT4YjtxJM9wckC5nB68tYXZKVtNX2e72lsYCXcgivCGpxRCWZBKEzGIKQB4eb8S6isRl-3ZNo7_V1B__nrqbHMXASIwqQusVGqvAGcOuyfe3bstNIsY
   [Daha önce görselliği dikkatimi]: http://www.fatihhayrioglu.com/css-ile-secilen-metinlerin-rengini-degistirmek/
   [http://www.w3.org/TR/css3-selectors/]: http://www.w3.org/TR/css3-selectors/
-  [http://www.456bereastreet.com/archive/200601/css_3_selectors_explained/]:    http://www.456bereastreet.com/archive/200601/css_3_selectors_explained/
-  [http://www.adobe.com/devnet/dreamweaver/articles/css-selectors-pt2.html]:    http://www.adobe.com/devnet/dreamweaver/articles/css-selectors-pt2.html
-  [http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/]:    http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/
+  [http://www.456bereastreet.com/archive/200601/css_3_selectors_explained/]: http://www.456bereastreet.com/archive/200601/css_3_selectors_explained/
+  [http://www.adobe.com/devnet/dreamweaver/articles/css-selectors-pt2.html]: http://www.adobe.com/devnet/dreamweaver/articles/css-selectors-pt2.html
+  [http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/]: http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/
   [http://tools.css3.info/selectors-test/test.html]: http://tools.css3.info/selectors-test/test.html
   [http://24ways.org/2009/cleaner-code-with-css3-selectors]: http://24ways.org/2009/cleaner-code-with-css3-selectors
   [http://ie.microsoft.com/testdrive/HTML5/CSS3Selectors/Default.html]: http://ie.microsoft.com/testdrive/HTML5/CSS3Selectors/Default.html
   [http://www.w3schools.com/cssref/css_selectors.asp]: http://www.w3schools.com/cssref/css_selectors.asp
-  [http://www.quirksmode.org/blog/archives/2010/06/ies_big_leap_fo.html]:    http://www.quirksmode.org/blog/archives/2010/06/ies_big_leap_fo.html
+  [http://www.quirksmode.org/blog/archives/2010/06/ies_big_leap_fo.html]: http://www.quirksmode.org/blog/archives/2010/06/ies_big_leap_fo.html
   [http://www.quirksmode.org/css/contents.html]: http://www.quirksmode.org/css/contents.html
   [http://selectivizr.com/]: http://selectivizr.com/
-  [http://net.tutsplus.com/tutorials/html-css-techniques/the-30-css-selectors-you-must-memorize/]:    http://net.tutsplus.com/tutorials/html-css-techniques/the-30-css-selectors-you-must-memorize/
-  [http://inspectelement.com/tutorials/a-look-at-some-of-the-new-selectors-introduced-in-css3/]:    http://inspectelement.com/tutorials/a-look-at-some-of-the-new-selectors-introduced-in-css3/
+  [http://net.tutsplus.com/tutorials/html-css-techniques/the-30-css-selectors-you-must-memorize/]: http://net.tutsplus.com/tutorials/html-css-techniques/the-30-css-selectors-you-must-memorize/
+  [http://inspectelement.com/tutorials/a-look-at-some-of-the-new-selectors-introduced-in-css3/]: http://inspectelement.com/tutorials/a-look-at-some-of-the-new-selectors-introduced-in-css3/
   [http://caniuse.com/css-sel3]: http://caniuse.com/css-sel3
-  [http://www.yourinspirationweb.com/en/why-you-should-know-the-new-css3-selectors/]:    http://www.yourinspirationweb.com/en/why-you-should-know-the-new-css3-selectors/
+  [http://www.yourinspirationweb.com/en/why-you-should-know-the-new-css3-selectors/]: http://www.yourinspirationweb.com/en/why-you-should-know-the-new-css3-selectors/
   [http://kilianvalkhof.com/2008/css-xhtml/the-css3-not-selector/]: http://kilianvalkhof.com/2008/css-xhtml/the-css3-not-selector/
   [http://dtsn.co.uk/2009/12/15/css3-selectors-last-child/]: http://dtsn.co.uk/2009/12/15/css3-selectors-last-child/
   [http://perishablepress.com/awesome-new-css3-selectors/]: http://perishablepress.com/awesome-new-css3-selectors/
-  [http://developer.practicalecommerce.com/articles/2386-Taking-CSS3-Selectors-to-the-Nth]:    http://developer.practicalecommerce.com/articles/2386-Taking-CSS3-Selectors-to-the-Nth
+  [http://developer.practicalecommerce.com/articles/2386-Taking-CSS3-Selectors-to-the-Nth]: http://developer.practicalecommerce.com/articles/2386-Taking-CSS3-Selectors-to-the-Nth
   [https://developer.mozilla.org/en/firefox_3.5_for_developers]: https://developer.mozilla.org/en/firefox_3.5_for_developers
   [https://developer.mozilla.org/en/CSS/%3Achecked]: https://developer.mozilla.org/en/CSS/%3Achecked
   [https://developer.mozilla.org/en/CSS/:nth-child]: https://developer.mozilla.org/en/CSS/:nth-child
   [https://developer.mozilla.org/en/CSS/:empty]: https://developer.mozilla.org/en/CSS/:empty
   [https://developer.mozilla.org/en/CSS/%3Adisabled]: https://developer.mozilla.org/en/CSS/%3Adisabled
-  [http://blogs.msdn.com/b/ie/archive/2010/05/13/the-css-corner-css3-selectors.aspx]:    http://blogs.msdn.com/b/ie/archive/2010/05/13/the-css-corner-css3-selectors.aspx
+  [http://blogs.msdn.com/b/ie/archive/2010/05/13/the-css-corner-css3-selectors.aspx]: http://blogs.msdn.com/b/ie/archive/2010/05/13/the-css-corner-css3-selectors.aspx
   [http://eriwen.com/css/css-indirect-adjacent-combinator/]: http://eriwen.com/css/css-indirect-adjacent-combinator/
   [http://msdn.microsoft.com/en-us/library/aa358824%28v=vs.85%29.aspx]: http://msdn.microsoft.com/en-us/library/aa358824%28v=vs.85%29.aspx
   [http://www.quirksmode.org/css/enabled.html]: http://www.quirksmode.org/css/enabled.html

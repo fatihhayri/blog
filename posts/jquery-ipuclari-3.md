@@ -97,7 +97,7 @@ $("#myselect option:eq(2)").attr("selected", "selected");
   [http://www.futurecolors.ru/jquery/]: http://www.futurecolors.ru/jquery/
   [Benim renklendirdiğim]: http://fatihhayrioglu.com/dokumanlar/jQuery14.htm
   [http://blog.kenmoredesign.com/2009/02/02/useful-jquery-snippets/]: http://blog.kenmoredesign.com/2009/02/02/useful-jquery-snippets/
-  [http://tympanus.net/codrops/2010/01/07/some-useful-javascript-jquery-snippets-part-2/]:    http://tympanus.net/codrops/2010/01/07/some-useful-javascript-jquery-snippets-part-2/
-  [http://www.catswhocode.com/blog/10-jquery-snippets-for-efficient-developers]:    http://www.catswhocode.com/blog/10-jquery-snippets-for-efficient-developers
-  [http://tympanus.net/codrops/2010/01/08/some-useful-javascript-jquery-snippets-part-3/]:    http://tympanus.net/codrops/2010/01/08/some-useful-javascript-jquery-snippets-part-3/
-  [http://www.opensourcehunter.com/2010/02/27/26-cool-and-usefull-jquery-tips-tricks-solutions/]:    http://www.opensourcehunter.com/2010/02/27/26-cool-and-usefull-jquery-tips-tricks-solutions/
+  [http://tympanus.net/codrops/2010/01/07/some-useful-javascript-jquery-snippets-part-2/]: http://tympanus.net/codrops/2010/01/07/some-useful-javascript-jquery-snippets-part-2/
+  [http://www.catswhocode.com/blog/10-jquery-snippets-for-efficient-developers]: http://www.catswhocode.com/blog/10-jquery-snippets-for-efficient-developers
+  [http://tympanus.net/codrops/2010/01/08/some-useful-javascript-jquery-snippets-part-3/]: http://tympanus.net/codrops/2010/01/08/some-useful-javascript-jquery-snippets-part-3/
+  [http://www.opensourcehunter.com/2010/02/27/26-cool-and-usefull-jquery-tips-tricks-solutions/]: http://www.opensourcehunter.com/2010/02/27/26-cool-and-usefull-jquery-tips-tricks-solutions/

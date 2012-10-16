@@ -207,16 +207,16 @@ kullanılabilir.
   [ie gölgeli kutu]: http://fatihhayrioglu.com/dokumanlar/box_shadow/box_shadow_ie.gif
   [3]: http://fatihhayrioglu.com/dokumanlar/box_shadow/golgeli_kutu_ie.html
   [http://www.w3.org/TR/css3-background/#box-shadow]: http://www.w3.org/TR/css3-background/#box-shadow
-  [http://robertnyman.com/2010/03/16/drop-shadow-with-css-for-all-web-browsers/]:    http://robertnyman.com/2010/03/16/drop-shadow-with-css-for-all-web-browsers/
+  [http://robertnyman.com/2010/03/16/drop-shadow-with-css-for-all-web-browsers/]: http://robertnyman.com/2010/03/16/drop-shadow-with-css-for-all-web-browsers/
   [http://www.ruzee.com/blog/shadedborder]: http://www.ruzee.com/blog/shadedborder
   [http://dimox.net/cross-browser-css3-box-shadow/]: http://dimox.net/cross-browser-css3-box-shadow/
-  [http://nick-dunn.co.uk/article/cross-browser-drop-shadows-using-pure-css/]:    http://nick-dunn.co.uk/article/cross-browser-drop-shadows-using-pure-css/
-  [http://www.position-absolute.com/articles/how-to-get-css3-box-shadow-accepted-as-a-viable-option-at-your-workplace/]:    http://www.position-absolute.com/articles/how-to-get-css3-box-shadow-accepted-as-a-viable-option-at-your-workplace/
+  [http://nick-dunn.co.uk/article/cross-browser-drop-shadows-using-pure-css/]: http://nick-dunn.co.uk/article/cross-browser-drop-shadows-using-pure-css/
+  [http://www.position-absolute.com/articles/how-to-get-css3-box-shadow-accepted-as-a-viable-option-at-your-workplace/]: http://www.position-absolute.com/articles/how-to-get-css3-box-shadow-accepted-as-a-viable-option-at-your-workplace/
   [https://developer.mozilla.org/En/CSS/-moz-box-shadow]: https://developer.mozilla.org/En/CSS/-moz-box-shadow
   [http://css.flepstudio.org/en/css3/box-shadow.html]: http://css.flepstudio.org/en/css3/box-shadow.html
   [http://www.westciv.com/tools/boxshadows/index.html]: http://www.westciv.com/tools/boxshadows/index.html
   [http://css-tricks.com/snippets/css/css-box-shadow/]: http://css-tricks.com/snippets/css/css-box-shadow/
   [http://markusstange.wordpress.com/2009/02/15/fun-with-box-shadows/]: http://markusstange.wordpress.com/2009/02/15/fun-with-box-shadows/
-  [http://www.elektronotdienst-nuernberg.de/bugs/box-shadow_inset.html]:    http://www.elektronotdienst-nuernberg.de/bugs/box-shadow_inset.html
+  [http://www.elektronotdienst-nuernberg.de/bugs/box-shadow_inset.html]: http://www.elektronotdienst-nuernberg.de/bugs/box-shadow_inset.html
   [http://davidwalsh.name/css-box-shadow]: http://davidwalsh.name/css-box-shadow
-  [http://blog.w3conversions.com/2011/09/css3-spread-value-and-box-shadow-on-one-side-only/]:    http://blog.w3conversions.com/2011/09/css3-spread-value-and-box-shadow-on-one-side-only/
+  [http://blog.w3conversions.com/2011/09/css3-spread-value-and-box-shadow-on-one-side-only/]: http://blog.w3conversions.com/2011/09/css3-spread-value-and-box-shadow-on-one-side-only/

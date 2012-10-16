@@ -53,4 +53,4 @@ elemanından kalıtsal olarak alır ve böyle bir soruna neden olur.
 </p>
 
   [Metin Yerine Resim ekleme]: http://www.fatihhayrioglu.com/metin-yerine-resimflash-ekleme-teknikleri-image-replacement/
-  [http://indianapoliswebdesign.blogspot.com/2009/01/web-design-tips-text-replacement-with.html]:    http://indianapoliswebdesign.blogspot.com/2009/01/web-design-tips-text-replacement-with.html
+  [http://indianapoliswebdesign.blogspot.com/2009/01/web-design-tips-text-replacement-with.html]: http://indianapoliswebdesign.blogspot.com/2009/01/web-design-tips-text-replacement-with.html

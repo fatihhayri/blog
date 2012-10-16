@@ -85,6 +85,6 @@ edeceğim bir tarayıcı niteliğinde olacak
     "opera95_3"
   [![][2]]: http://www.fatihhayrioglu.com/wp-content/opera95_3.jpg
   [http://www.opera.com]: http://www.opera.com
-  [http://www.css3.info/opera-95-launches-with-lots-of-css-improvements/]:    http://www.css3.info/opera-95-launches-with-lots-of-css-improvements/
-  [http://css.dzone.com/announcements/opera-95-now-available-downloa-0]:    http://css.dzone.com/announcements/opera-95-now-available-downloa-0
+  [http://www.css3.info/opera-95-launches-with-lots-of-css-improvements/]: http://www.css3.info/opera-95-launches-with-lots-of-css-improvements/
+  [http://css.dzone.com/announcements/opera-95-now-available-downloa-0]: http://css.dzone.com/announcements/opera-95-now-available-downloa-0
   [http://nontroppo.org/timer/kestrel_tests/]: http://nontroppo.org/timer/kestrel_tests/

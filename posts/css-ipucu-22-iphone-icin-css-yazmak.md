@@ -46,7 +46,7 @@ Yukarıdaki tanımlar sadece iPhone'da görünecektir. İşin püf noktasını
     "çıktı almak için(print)"
   [http://www.w3.org/TR/css3-mediaqueries/]: http://www.w3.org/TR/css3-mediaqueries/
     "http://www.w3.org/TR/css3-mediaqueries/"
-  [http://www.evotech.net/blog/2007/07/web-development-for-the-iphone/]:    http://www.evotech.net/blog/2007/07/web-development-for-the-iphone/
+  [http://www.evotech.net/blog/2007/07/web-development-for-the-iphone/]: http://www.evotech.net/blog/2007/07/web-development-for-the-iphone/
     "http://www.evotech.net/blog/2007/07/web-development-for-the-iphone/"
   [http://squaregirl.com/blog/2009/6/1/iphone-css.html]: http://squaregirl.com/blog/2009/6/1/iphone-css.html
     "http://squaregirl.com/blog/2009/6/1/iphone-css.html"

@@ -133,7 +133,7 @@ Birde yapımcılarından Mike Beltzner'dan dinleyelim
   [http://blog.mozilla.com/blog/2010/01/21/firefox-3-6-release/]: http://blog.mozilla.com/blog/2010/01/21/firefox-3-6-release/
   [https://developer.mozilla.org/En/Firefox_3.6_for_developers]: https://developer.mozilla.org/En/Firefox_3.6_for_developers
   [http://hacks.mozilla.org/2010/01/firefox-3-6-is-here/]: http://hacks.mozilla.org/2010/01/firefox-3-6-is-here/
-  [http://lifehacker.com/5453782/firefox-36-officially-available-brings-speed-increases-one+click-themes-and-more]:    http://lifehacker.com/5453782/firefox-36-officially-available-brings-speed-increases-one+click-themes-and-more
+  [http://lifehacker.com/5453782/firefox-36-officially-available-brings-speed-increases-one+click-themes-and-more]: http://lifehacker.com/5453782/firefox-36-officially-available-brings-speed-increases-one+click-themes-and-more
   [http://download.cnet.com/8301-2007_4-10438907-12.html]: http://download.cnet.com/8301-2007_4-10438907-12.html
-  [http://hacks.mozilla.org/2010/01/javascript-speedups-in-firefox-3-6/]:    http://hacks.mozilla.org/2010/01/javascript-speedups-in-firefox-3-6/
+  [http://hacks.mozilla.org/2010/01/javascript-speedups-in-firefox-3-6/]: http://hacks.mozilla.org/2010/01/javascript-speedups-in-firefox-3-6/
   [http://demos.hacks.mozilla.org/openweb/uploadingFiles/]: http://demos.hacks.mozilla.org/openweb/uploadingFiles/

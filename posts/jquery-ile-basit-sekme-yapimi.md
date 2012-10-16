@@ -136,11 +136,11 @@ Safari 3.2.2 sürümlerinde test ettim.
   [tıklayınız.]: /dokumanlar/sekme.html
   [http://jqueryfordesigners.com/jquery-tabs/]: http://jqueryfordesigners.com/jquery-tabs/
     "http://jqueryfordesigners.com/jquery-tabs/"
-  [http://broadcast.oreilly.com/2008/10/how-to-create-tabs-with-css-an.html]:    http://broadcast.oreilly.com/2008/10/how-to-create-tabs-with-css-an.html
+  [http://broadcast.oreilly.com/2008/10/how-to-create-tabs-with-css-an.html]: http://broadcast.oreilly.com/2008/10/how-to-create-tabs-with-css-an.html
     "http://broadcast.oreilly.com/2008/10/how-to-create-tabs-with-css-an.html"
-  [http://justintadlock.com/archives/2007/11/07/how-to-create-tabs-using-jquery]:    http://justintadlock.com/archives/2007/11/07/how-to-create-tabs-using-jquery
+  [http://justintadlock.com/archives/2007/11/07/how-to-create-tabs-using-jquery]: http://justintadlock.com/archives/2007/11/07/how-to-create-tabs-using-jquery
     "http://justintadlock.com/archives/2007/11/07/how-to-create-tabs-using-jquery"
   [http://www.barelyfitz.com/projects/tabber/index.php]: http://www.barelyfitz.com/projects/tabber/index.php
     "http://www.barelyfitz.com/projects/tabber/index.php"
-  [http://www.thetruetribe.com/jquery/3-jquery-widgets/77-how-do-i-make-tabs-in-jquery-without-jq-tabs-plugin]:    http://www.thetruetribe.com/jquery/3-jquery-widgets/77-how-do-i-make-tabs-in-jquery-without-jq-tabs-plugin
+  [http://www.thetruetribe.com/jquery/3-jquery-widgets/77-how-do-i-make-tabs-in-jquery-without-jq-tabs-plugin]: http://www.thetruetribe.com/jquery/3-jquery-widgets/77-how-do-i-make-tabs-in-jquery-without-jq-tabs-plugin
     "http://www.thetruetribe.com/jquery/3-jquery-widgets/77-how-do-i-make-tabs-in-jquery-without-jq-tabs-plugin"

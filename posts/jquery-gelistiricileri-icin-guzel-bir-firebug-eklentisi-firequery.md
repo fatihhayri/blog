@@ -97,6 +97,6 @@ FireBug büyüksün.
   [![][4]]: http://www.fatihhayrioglu.com/wp-content/firequery51.gif
   [http://firequery.binaryage.com/]: http://firequery.binaryage.com/
   [https://addons.mozilla.org/en-US/firefox/addon/12632/]: https://addons.mozilla.org/en-US/firefox/addon/12632/
-  [http://elijahmanor.com/webdevdotnet/post/digging-into-the-firequery-add-on-for-jquery.aspx]:    http://elijahmanor.com/webdevdotnet/post/digging-into-the-firequery-add-on-for-jquery.aspx
-  [http://www.pgs-soft.com/firequery-firebug-extension-for-jquery-development.html]:    http://www.pgs-soft.com/firequery-firebug-extension-for-jquery-development.html
+  [http://elijahmanor.com/webdevdotnet/post/digging-into-the-firequery-add-on-for-jquery.aspx]: http://elijahmanor.com/webdevdotnet/post/digging-into-the-firequery-add-on-for-jquery.aspx
+  [http://www.pgs-soft.com/firequery-firebug-extension-for-jquery-development.html]: http://www.pgs-soft.com/firequery-firebug-extension-for-jquery-development.html
   [http://javascriptly.com/2009/12/firequery-an-introduction/]: http://javascriptly.com/2009/12/firequery-an-introduction/

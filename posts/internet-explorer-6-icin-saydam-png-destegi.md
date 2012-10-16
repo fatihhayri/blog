@@ -356,7 +356,7 @@ için kullandığım yöntemi sizlerle paylaştım. Muhakkak daha iyi yöntemler
   [8]: /images/saydam_ardalan3_ie.gif
   [9]: /images/saydam_ardalan4_ie.gif
   [10]: /dokumanlar/ardalan_ekle4.html
-  [http://komodomedia.com/blog/index.php/2007/11/05/css-png-image-fix-for-ie/]:    http://komodomedia.com/blog/index.php/2007/11/05/css-png-image-fix-for-ie/
+  [http://komodomedia.com/blog/index.php/2007/11/05/css-png-image-fix-for-ie/]: http://komodomedia.com/blog/index.php/2007/11/05/css-png-image-fix-for-ie/
   [http://24ways.org/2007/supersleight-transparent-png-in-ie6]: http://24ways.org/2007/supersleight-transparent-png-in-ie6
   [http://www.satzansatz.de/cssd/tmp/alphatransparency.html]: http://www.satzansatz.de/cssd/tmp/alphatransparency.html
   [http://homepage.ntlworld.com/bobosola/pnginfo.htm]: http://homepage.ntlworld.com/bobosola/pnginfo.htm
@@ -364,10 +364,10 @@ için kullandığım yöntemi sizlerle paylaştım. Muhakkak daha iyi yöntemler
   [http://www.twinhelix.com/css/iepngfix/]: http://www.twinhelix.com/css/iepngfix/
   [http://dean.edwards.name/ie7/]: http://dean.edwards.name/ie7/
   [http://www.sitepoint.com/blogs/2007/09/18/png8-the-clear-winner/]: http://www.sitepoint.com/blogs/2007/09/18/png8-the-clear-winner/
-  [http://www.campbellsdigitalsoup.co.uk/2007/11/27/a-new-png-fix-with-jquerys-helping-hand/]:    http://www.campbellsdigitalsoup.co.uk/2007/11/27/a-new-png-fix-with-jquerys-helping-hand/
+  [http://www.campbellsdigitalsoup.co.uk/2007/11/27/a-new-png-fix-with-jquerys-helping-hand/]: http://www.campbellsdigitalsoup.co.uk/2007/11/27/a-new-png-fix-with-jquerys-helping-hand/
   [http://bjorkoy.com/past/2007/4/8/the_easiest_way_to_png/]: http://bjorkoy.com/past/2007/4/8/the_easiest_way_to_png/
-  [http://blog.creonfx.com/internet-explorer/ie6-png-transparency-css-background-repeat-fix]:    http://blog.creonfx.com/internet-explorer/ie6-png-transparency-css-background-repeat-fix
-  [http://www.digital-web.com/articles/web_standards_creativity_png/]:    http://www.digital-web.com/articles/web_standards_creativity_png/
+  [http://blog.creonfx.com/internet-explorer/ie6-png-transparency-css-background-repeat-fix]: http://blog.creonfx.com/internet-explorer/ie6-png-transparency-css-background-repeat-fix
+  [http://www.digital-web.com/articles/web_standards_creativity_png/]: http://www.digital-web.com/articles/web_standards_creativity_png/
   [http://www.alistapart.com/stories/pngopacity/]: http://www.alistapart.com/stories/pngopacity/
   [http://www.tigir.com/alpha_png.htm]: http://www.tigir.com/alpha_png.htm
   [http://stylizedweb.com/2007/12/30/png-transparency-issues/]: http://stylizedweb.com/2007/12/30/png-transparency-issues/

@@ -109,24 +109,24 @@ Kaynaklar
 
 </p>
 
-  [http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/]:    http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/
+  [http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/]: http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/
     "http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/"
   []: /images/basit_resimli_menu.jpg
   [tıklayınız]: /dokumanlar/basit_resimli_menu.html
   [1]: /images/basit_resimli_menu_ardkaydi.jpg
   [http://www.webdesignerwall.com/tutorials/advanced-css-menu/]: http://www.webdesignerwall.com/tutorials/advanced-css-menu/
     "http://www.webdesignerwall.com/tutorials/advanced-css-menu/"
-  [http://superfluousbanter.org/archives/2004/05/navigation-matrix-reloaded/]:    http://superfluousbanter.org/archives/2004/05/navigation-matrix-reloaded/
+  [http://superfluousbanter.org/archives/2004/05/navigation-matrix-reloaded/]: http://superfluousbanter.org/archives/2004/05/navigation-matrix-reloaded/
     "http://superfluousbanter.org/archives/2004/05/navigation-matrix-reloaded/"
-  [http://www.3point7designs.com/blog/2006/07/24/accessible-css-roll-over-images/]:    http://www.3point7designs.com/blog/2006/07/24/accessible-css-roll-over-images/
+  [http://www.3point7designs.com/blog/2006/07/24/accessible-css-roll-over-images/]: http://www.3point7designs.com/blog/2006/07/24/accessible-css-roll-over-images/
     "http://www.3point7designs.com/blog/2006/07/24/accessible-css-roll-over-images/"
-  [http://simplebits.com/notebook/2003/09/30/accessible_imagetab_rollovers.html]:    http://simplebits.com/notebook/2003/09/30/accessible_imagetab_rollovers.html
+  [http://simplebits.com/notebook/2003/09/30/accessible_imagetab_rollovers.html]: http://simplebits.com/notebook/2003/09/30/accessible_imagetab_rollovers.html
     "http://simplebits.com/notebook/2003/09/30/accessible_imagetab_rollovers.html"
   [http://inobscuro.com/tutorials/read/19/]: http://inobscuro.com/tutorials/read/19/
     "http://inobscuro.com/tutorials/read/19/"
-  [http://dragan.yourtree.org/blog/en/2007/04/10/pure-css-rollover-menu/]:    http://dragan.yourtree.org/blog/en/2007/04/10/pure-css-rollover-menu/
+  [http://dragan.yourtree.org/blog/en/2007/04/10/pure-css-rollover-menu/]: http://dragan.yourtree.org/blog/en/2007/04/10/pure-css-rollover-menu/
     "http://dragan.yourtree.org/blog/en/2007/04/10/pure-css-rollover-menu/"
   [http://www.webvamp.co.uk/blog/coding/css-image-rollovers/]: http://www.webvamp.co.uk/blog/coding/css-image-rollovers/
     "http://www.webvamp.co.uk/blog/coding/css-image-rollovers/"
-  [http://www.codeitred.com/2008/08/12/apple-style-menu-tutorial-css-sprites]:    http://www.codeitred.com/2008/08/12/apple-style-menu-tutorial-css-sprites
+  [http://www.codeitred.com/2008/08/12/apple-style-menu-tutorial-css-sprites]: http://www.codeitred.com/2008/08/12/apple-style-menu-tutorial-css-sprites
     "http://www.codeitred.com/2008/08/12/apple-style-menu-tutorial-css-sprites"

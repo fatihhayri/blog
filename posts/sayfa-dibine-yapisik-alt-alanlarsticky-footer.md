@@ -128,7 +128,7 @@ kapsanan sayfanızda sorun çıkabilir. Bunu engellemek için kodunuzu
     "yapisik_altalan"
   [cssstickyfooter.com]: http://www.cssstickyfooter.com
     "cssstickyfooter.com"
-  [http://www.fatihhayrioglu.com/float-uygulanmis-elementleri-tam-kapsayamama-sorunu/]:    http://www.fatihhayrioglu.com/float-uygulanmis-elementleri-tam-kapsayamama-sorunu/
+  [http://www.fatihhayrioglu.com/float-uygulanmis-elementleri-tam-kapsayamama-sorunu/]: http://www.fatihhayrioglu.com/float-uygulanmis-elementleri-tam-kapsayamama-sorunu/
     "http://www.fatihhayrioglu.com/float-uygulanmis-elementleri-tam-kapsayamama-sorunu/"
   [tıklayınız.]: /dokumanlar/sayfa_dibine_yapisik.html
   []: http://www.cssstickyfooter.com/using-sticky-footer-code.html
@@ -139,7 +139,7 @@ kapsanan sayfanızda sorun çıkabilir. Bunu engellemek için kodunuzu
     "http://www.lwis.net/journal/2008/02/08/pure-css-sticky-footer/"
   [http://ryanfait.com/resources/footer-stick-to-bottom-of-page/]: http://ryanfait.com/resources/footer-stick-to-bottom-of-page/
     "http://ryanfait.com/resources/footer-stick-to-bottom-of-page/"
-  [http://cokbasit.blogspot.com/2009/01/yapkan-taban-sticky-footer.html]:    http://cokbasit.blogspot.com/2009/01/yapkan-taban-sticky-footer.html
+  [http://cokbasit.blogspot.com/2009/01/yapkan-taban-sticky-footer.html]: http://cokbasit.blogspot.com/2009/01/yapkan-taban-sticky-footer.html
     "http://cokbasit.blogspot.com/2009/01/yapkan-taban-sticky-footer.html"
   [http://css-tricks.com/sticky-footer/]: http://css-tricks.com/sticky-footer/
     "http://css-tricks.com/sticky-footer/"

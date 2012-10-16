@@ -153,15 +153,15 @@ araç.
     "rezerver edilmiş kelimeler"
   [http://www.dynamicsitesolutions.com/javascript/mistakes/]: http://www.dynamicsitesolutions.com/javascript/mistakes/
   [http://www.netmechanic.com/news/vol4/javascript_no23.htm]: http://www.netmechanic.com/news/vol4/javascript_no23.htm
-  [http://weblogs.asp.net/bleroy/archive/2005/02/15/Three-common-mistakes-in-JavaScript-_2F00_-EcmaScript.aspx]:    http://weblogs.asp.net/bleroy/archive/2005/02/15/Three-common-mistakes-in-JavaScript-_2F00_-EcmaScript.aspx
+  [http://weblogs.asp.net/bleroy/archive/2005/02/15/Three-common-mistakes-in-JavaScript-_2F00_-EcmaScript.aspx]: http://weblogs.asp.net/bleroy/archive/2005/02/15/Three-common-mistakes-in-JavaScript-_2F00_-EcmaScript.aspx
   [http://javascript.about.com/od/reference/a/error.htm]: http://javascript.about.com/od/reference/a/error.htm
   [http://www.c-point.com/javascript_tutorial/common_mistakes.htm]: http://www.c-point.com/javascript_tutorial/common_mistakes.htm
   [http://javascript.internet.com/debug-guide.html]: http://javascript.internet.com/debug-guide.html
   [http://swik.net/JavaScript/Common+JavaScript+Development+Mistakes]: http://swik.net/JavaScript/Common+JavaScript+Development+Mistakes
   [http://www.javascriptlint.com/]: http://www.javascriptlint.com/
   [http://www.ddj.com/184412486]: http://www.ddj.com/184412486
-  [http://www.sitepoint.com/blogs/2004/08/18/five-common-mistakes-in-influencing-others/]:    http://www.sitepoint.com/blogs/2004/08/18/five-common-mistakes-in-influencing-others/
-  [http://www.javascriptsearch.com/guides/Beginner/articles/070625Mistakes.html]:    http://www.javascriptsearch.com/guides/Beginner/articles/070625Mistakes.html
+  [http://www.sitepoint.com/blogs/2004/08/18/five-common-mistakes-in-influencing-others/]: http://www.sitepoint.com/blogs/2004/08/18/five-common-mistakes-in-influencing-others/
+  [http://www.javascriptsearch.com/guides/Beginner/articles/070625Mistakes.html]: http://www.javascriptsearch.com/guides/Beginner/articles/070625Mistakes.html
   [http://www.webmonkey.com/98/29/index4a_page3.html?tw=programming]: http://www.webmonkey.com/98/29/index4a_page3.html?tw=programming
   [Beginning JavaScript]: http://www.wrox.com/WileyCDA/WroxTitle/productCd-0764555871.html
     "Beginning JavaScript"

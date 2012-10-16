@@ -149,17 +149,17 @@ Kalın Sağlıcakla
     "-webkit-font-smoothing"
   [Google Font API]: http://code.google.com/intl/tr-TR/apis/webfonts/
     "Google Font API"
-  [http://www.ozdtasarim.com/blog/googledan-font-face-hizmeti-google-font-api.html]:    http://www.ozdtasarim.com/blog/googledan-font-face-hizmeti-google-font-api.html
+  [http://www.ozdtasarim.com/blog/googledan-font-face-hizmeti-google-font-api.html]: http://www.ozdtasarim.com/blog/googledan-font-face-hizmeti-google-font-api.html
     "http://www.ozdtasarim.com/blog/googledan-font-face-hizmeti-google-font-api.html"
   [http://code.google.com/apis/webfonts/docs/getting_started.html]: http://code.google.com/apis/webfonts/docs/getting_started.html
     "http://code.google.com/apis/webfonts/docs/getting_started.html"
   [http://css-tricks.com/google-font-api-interview/]: http://css-tricks.com/google-font-api-interview/
     "http://css-tricks.com/google-font-api-interview/"
-  [http://designshack.co.uk/articles/css/how-to-use-the-new-google-font-api]:    http://designshack.co.uk/articles/css/how-to-use-the-new-google-font-api
+  [http://designshack.co.uk/articles/css/how-to-use-the-new-google-font-api]: http://designshack.co.uk/articles/css/how-to-use-the-new-google-font-api
     "http://designshack.co.uk/articles/css/how-to-use-the-new-google-font-api"
-  [http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-google-fonts-api-youre-going-to-love-this/]:    http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-google-fonts-api-youre-going-to-love-this/
+  [http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-google-fonts-api-youre-going-to-love-this/]: http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-google-fonts-api-youre-going-to-love-this/
     "http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-google-fonts-api-youre-going-to-love-this/"
-  [http://www.bloggerbuster.com/2010/05/how-to-use-googles-font-api-with.html]:    http://www.bloggerbuster.com/2010/05/how-to-use-googles-font-api-with.html
+  [http://www.bloggerbuster.com/2010/05/how-to-use-googles-font-api-with.html]: http://www.bloggerbuster.com/2010/05/how-to-use-googles-font-api-with.html
     "http://www.bloggerbuster.com/2010/05/how-to-use-googles-font-api-with.html"
   [http://mashable.com/2010/05/27/type-and-the-web]: http://mashable.com/2010/05/27/type-and-the-web
     "http://mashable.com/2010/05/27/type-and-the-web"

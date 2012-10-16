@@ -6,4 +6,4 @@ Aslında sonuçlar Haziranda açıklandı biz biraz geç kaldık anlaşılan ama
 siteler güzel gerçekten
 [http://awards.cssmania.com/2006/06/05/css-world-awards-nominations.php][]
 
-  [http://awards.cssmania.com/2006/06/05/css-world-awards-nominations.php]:    http://awards.cssmania.com/2006/06/05/css-world-awards-nominations.php
+  [http://awards.cssmania.com/2006/06/05/css-world-awards-nominations.php]: http://awards.cssmania.com/2006/06/05/css-world-awards-nominations.php

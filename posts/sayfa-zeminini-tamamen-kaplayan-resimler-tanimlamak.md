@@ -150,12 +150,12 @@ Kalın sağlıcakla
   [CSS3’ün background-size özelliğini anlattım]: http://www.fatihhayrioglu.com/css3-background-size-ozelligi/
   [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/tam_sayfa_bg.html
   []: https://lh6.googleusercontent.com/x55IiCT52mJIMb9oYddTeHpX7Ww7ti3puoZiped0VQ-SflPtR_mrldscvuWoco7aOWi0dbQ2llnOVRuch-2dgpR_LSkZU76CiKam4NThM2DYry7j-Po
-  [http://interfacelift.com/wallpaper/details/2421/empty_bottles.html]:    http://interfacelift.com/wallpaper/details/2421/empty_bottles.html
+  [http://interfacelift.com/wallpaper/details/2421/empty_bottles.html]: http://interfacelift.com/wallpaper/details/2421/empty_bottles.html
   [http://css-tricks.com/3458-perfect-full-page-background-image/]: http://css-tricks.com/3458-perfect-full-page-background-image/
-  [http://cookbooks.adobe.com/post_Scale_Background_image_to_browser_size-17590.html]:    http://cookbooks.adobe.com/post_Scale_Background_image_to_browser_size-17590.html
-  [http://www.paulmccrodden.com/2011/02/problems-css3-background-size-cover-iefilters/]:    http://www.paulmccrodden.com/2011/02/problems-css3-background-size-cover-iefilters/
-  [http://www.pziecina.com/design/turorial_demos/resize_background.php]:    http://www.pziecina.com/design/turorial_demos/resize_background.php
+  [http://cookbooks.adobe.com/post_Scale_Background_image_to_browser_size-17590.html]: http://cookbooks.adobe.com/post_Scale_Background_image_to_browser_size-17590.html
+  [http://www.paulmccrodden.com/2011/02/problems-css3-background-size-cover-iefilters/]: http://www.paulmccrodden.com/2011/02/problems-css3-background-size-cover-iefilters/
+  [http://www.pziecina.com/design/turorial_demos/resize_background.php]: http://www.pziecina.com/design/turorial_demos/resize_background.php
   [http://css-tricks.com/766-how-to-resizeable-background-image/]: http://css-tricks.com/766-how-to-resizeable-background-image/
-  [http://paulmason.name/blog/item/full-screen-background-image-pure-css-code]:    http://paulmason.name/blog/item/full-screen-background-image-pure-css-code
-  [http://www.quackit.com/html/codes/html_stretch_background_image.cfm]:    http://www.quackit.com/html/codes/html_stretch_background_image.cfm
+  [http://paulmason.name/blog/item/full-screen-background-image-pure-css-code]: http://paulmason.name/blog/item/full-screen-background-image-pure-css-code
+  [http://www.quackit.com/html/codes/html_stretch_background_image.cfm]: http://www.quackit.com/html/codes/html_stretch_background_image.cfm
   [http://www.cssplay.co.uk/layouts/background.html]: http://www.cssplay.co.uk/layouts/background.html
