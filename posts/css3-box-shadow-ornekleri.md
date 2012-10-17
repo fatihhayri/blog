@@ -29,19 +29,26 @@ açılı gölgeler veriyor. Biz tüm kutunun etrafına gölge vermek için; blur
 değeri ve spread  değerini kullanıyoruz.
 
 	:::css
-	 div { -webkit-box-shadow: 0 0 6px 4px black; -moz-box-shadow: 0 0
-6px 4px black; box-shadow: 0 0 6px 4px black; } 
+	 div { 
+		-webkit-box-shadow: 0 0 6px 4px black;
+		-moz-box-shadow: 0 0 6px 4px black;
+		box-shadow: 0 0 6px 4px black; 
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/7wyeD/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 blur değeri spread  değerinden büyük ise farklı,
 
 	:::css
-	 div { -webkit-box-shadow: 0 0 4px 6px black; -moz-box-shadow: 0 0
-4px 6px black; box-shadow: 0 0 4px 6px black; } 
+	 div { 
+		-webkit-box-shadow: 0 0 4px 6px black;
+		-moz-box-shadow: 0 0 4px 6px black;
+		box-shadow: 0 0 4px 6px black;
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/NKXZG/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-blur değeri spread  değerinden küçük ise farklı bir gölge efekti
-görüyoruz.
+blur değeri spread  değerinden küçük ise farklı bir gölge efekti görüyoruz.
 
 ### Çoklu Kenar Çizgisi Oluşturmak
 
@@ -50,9 +57,13 @@ için; spread  değeri yardımı ile yapılan bu etki için diğer değerler
 sıfırlanmalıdır.
 
 	:::css
-	 div { border: 3px solid orange; -webkit-box-shadow: 0 0 0 3px
-black, 0 0 0 6px red; -moz-box-shadow: 0 0 0 3px black, 0 0 0 6px red;
-box-shadow: 0 0 0 3px black, 0 0 0 6px red; } 
+	 div {
+		border: 3px solid orange;
+		-webkit-box-shadow: 0 0 0 3px black, 0 0 0 6px red; 
+		-moz-box-shadow: 0 0 0 3px black, 0 0 0 6px red;
+		box-shadow: 0 0 0 3px black, 0 0 0 6px red;
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/RPqUC/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ### Tek Köşeye Gölge Vermek
@@ -66,18 +77,27 @@ görerek karar vermek size kalmış.
 kenar çizgisi atayarak.
 
 	:::css
-	 div { -webkit-box-shadow: 1px 0 2px black; -moz-box-shadow: 1px 0
-2px black; box-shadow: 1px 0 2px black; } 
+	div {
+		-webkit-box-shadow: 1px 0 2px black;
+		-moz-box-shadow: 1px 0 2px black;
+		box-shadow: 1px 0 2px black;
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/3f7SU/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 **2. Yöntem** Diğer köşelere herhangi bir kenar çizgisi veya gölge
 atamadan sadece bir köşeye gölge tanımlamak;
 
 	:::css
-	 div { width:250px; height:250px; background: white;
--webkit-box-shadow: 0 0 0 4px white, 0 6px 4px black; -moz-box-shadow: 0
-0 0 4px white, 0 6px 4px black;    box-shadow: 0 0 0 4px white, 0 6px
-4px black; } 
+	 div {
+		width:250px;
+		height:250px;
+		background: white;
+		-webkit-box-shadow: 0 0 0 4px white, 0 6px 4px black;
+		-moz-box-shadow: 0 0 0 4px white, 0 6px 4px black;
+		box-shadow: 0 0 0 4px white, 0 6px 4px black;
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/juVMm/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Mantık olarak iki gölge tanımı yapıyoruz, birincisi spread ile kutu
@@ -89,19 +109,31 @@ fazla değer verip dışarı çıkmasını sağlıyoruz.
 içinde kalır.
 
 	:::css
-	 div { width:250px; height:250px; background: white;
--webkit-box-shadow: 0 0 0 4px white, 0 6px 4px black; -moz-box-shadow: 0
-0 0 4px white, 0 6px 4px black;    box-shadow: 0 0 0 4px white, 0 6px
-4px black;    border:1px solid #f00; } 
+	 div {
+		width:250px;
+		height:250px;
+		background: white;
+		-webkit-box-shadow: 0 0 0 4px white, 0 6px 4px black;
+		-moz-box-shadow: 0 0 0 4px white, 0 6px 4px black;
+		box-shadow: 0 0 0 4px white, 0 6px 4px black;
+		border:1px solid #f00;
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/5pVbj/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Eğer kenar çizgisi kullanılacaksa;
 
 	:::css
-	 div { width:250px; height:250px; background: white;
--webkit-box-shadow: 0 8px 6px -6px black; -moz-box-shadow: 0 8px 6px
--6px black; box-shadow: 0 8px 6px -6px black;    border:1px solid #f00;
-} 
+	 div {
+		width:250px;
+		height:250px;
+		background: white;
+		-webkit-box-shadow: 0 8px 6px -6px black;
+		-moz-box-shadow: 0 8px 6px -6px black;
+		box-shadow: 0 8px 6px -6px black;
+		border:1px solid #f00;
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/5pVbj/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Blur değeri kadar eksi spread değeri atayarak bu çözüm oluşturulmuştur.
@@ -110,11 +142,26 @@ Blur değeri kadar eksi spread değeri atayarak bu çözüm oluşturulmuştur.
 eklenir.
 
 	:::css
-	 div { width:250px; height:250px;    position: relative;
-   padding: 0 7px 0 0;    overflow: hidden; } div:before {  position:
-absolute;  content: ' ';  top: 0px;  right: 7px;  bottom: 0;  left: 0;
- background-color: transparent;  box-shadow: 0 0 5px black;  border: 1px
-solid red; } 
+	 div {
+		width:250px;
+		height:250px;
+		position: relative;
+		padding: 0 7px 0 0;
+		overflow: hidden;
+	} 
+	
+	div:before {
+		position: absolute;
+		content: ' ';
+		top: 0px;
+		right: 7px;
+		bottom: 0;
+		left: 0;
+		background-color: transparent;
+		box-shadow: 0 0 5px black;
+		border: 1px solid red;
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/x9Pbr/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Çıkmasını istediğimiz kenara padding tanımı yapılır, :before seçicisi
@@ -127,11 +174,26 @@ değer içermelidir.
 Yukarıdaki 4.yönteme benzer bir kullanım ile yapılır.
 
 	:::css
-	 div { width:250px; height:250px; position: relative; padding: 7px
-0 7px 7px; overflow: hidden; } div:before {  position: absolute;
- content: ' ';  top: 7px;  right: 7px;  bottom: -7px;  left: 7px;
- background-color: transparent;  box-shadow: 0 0 5px black;  border: 1px
-solid red; } 
+	 div {
+		width:250px;
+		height:250px;
+		position: relative;
+		padding: 7px 0 7px 7px;
+		overflow: hidden;
+	}
+	
+	div:before {
+		position: absolute;
+		content: ' ';
+		top: 7px;
+		right: 7px;
+		bottom: -7px;
+		left: 7px;
+		background-color: transparent;
+		box-shadow: 0 0 5px black;
+		border: 1px solid red;
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/j9bAp/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Yukarıdaki yöntemin tersi yapılır ve kaldırılacak köşeye eksi değer
@@ -156,8 +218,7 @@ kolaylıklar sağlıyor.
 
 ### Kaynaklar
 
--   [http://theburningmonk.com/2010/12/having-fun-with-css3-box-shadow-property/][]
-    (box-shadow özelliği)
+-   [http://theburningmonk.com/2010/12/having-fun-with-css3-box-shadow-property/][] (box-shadow özelliği)
 -   [http://markusstange.wordpress.com/2009/02/15/fun-with-box-shadows/][]
 -   [http://matthamm.com/box-shadow-curl.html][] (kelebek köşe örneği)
 -   [http://www.webdesignshock.com/css3-box-shadow/][]
@@ -172,17 +233,12 @@ kolaylıklar sağlıyor.
 -   [http://toolboxdigital.com/2011/03/css3-3d-gradient-box/][]
 -   [http://daneden.me/2011/11/a-non-scientific-box-shadow-experiment/][]
 -   [http://www.paulund.co.uk/creating-different-css3-box-shadows-effects][]
--   [http://blog.w3conversions.com/2011/09/css3-spread-value-and-box-shadow-on-one-side-only/][]
-    (makaleye örnek)
+-   [http://blog.w3conversions.com/2011/09/css3-spread-value-and-box-shadow-on-one-side-only/][] (makaleye örnek)
 -   [http://starikovs.com/2011/11/09/css3-one-side-shadow/][]
--   [http://nicolasgallagher.com/css-drop-shadows-without-images/demo/][]
-    Örnekler Sayfası
--   [http://translate.google.com/translate?hl=en&sl=auto&tl=en&u=http%3A%2F%2Fwww.alsacreations.com%2Ftuto%2Flire%2F1338-css3-box-shadow-ombre.html][]
-    (box-shadow güzel)
--   [http://www.creativejuiz.fr/blog/tutoriels/ombre-avancees-avec-css3-et-box-shadow][]
-    (güzel incele)
+-   [http://nicolasgallagher.com/css-drop-shadows-without-images/demo/][] Örnekler Sayfası
+-   [http://translate.google.com/translate?hl=en&sl=auto&tl=en&u=http%3A%2F%2Fwww.alsacreations.com%2Ftuto%2Flire%2F1338-css3-box-shadow-ombre.html][] (box-shadow güzel)
+-   [http://www.creativejuiz.fr/blog/tutoriels/ombre-avancees-avec-css3-et-box-shadow][] (güzel incele)
 
-</p>
 
   [kutulara gölge verme]: http://www.fatihhayrioglu.com/kutulara-golge-vermek-box-shadow/
   [Önceki makalede]: http://www.fatihhayrioglu.com/coklu-kenar-cizgisiborder-kullanimi/
