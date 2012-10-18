@@ -21,15 +21,13 @@ tepkiyi belirler. Bu tepki aşağıdaki çerçevededir.
 pointer event özelliği aslında SVG içerikleri için uygulanan bir
 özelliktir.
 
-<div class="cssozelliktanimi">
-**Yapısı :**pointer-events: <deger>  
-**Aldığı Değerler:** auto | none | visiblePainted | visibleFill |
-visibleStroke | visible | painted | fill | stroke | all | inherit   
+**Yapısı :**pointer-events: <deger\>  
+**Aldığı Değerler:** auto | none | visiblePainted | visibleFill | visibleStroke | visible | painted | fill | stroke | all | inherit   
 **Başlangıç değeri:** auto   
 **Uygulanabilen elementler:** Tüm Elemanlara  
 **Kalıtsallık:** Var
+{: .cssozelliktanimi}
 
-</div>
 Aldığı değerler bakalım;
 
 auto: pointer-events özelliğine herhangi bir tanım yapılmadı ise fare
@@ -42,36 +40,37 @@ visiblePainted, visibleFill, visibleStroke, visible, painted, fill,
 stroke ve all: Sadece SVG içindir.
 
 Bir örnek ile durumu daha iyi görelim.
-
--   <ul class="menu">
--   <li><a href="index.html">Ana Sayfa</a></li>
--   <li><a href="hakkimizda.html" class=”on”>Hakkımızda</a></li>
--   <li><a href="urunler.html">Ürünler</a></li>
--   </ul>
+	
+	:::html
+	<ul class="menu">
+		<li><a href="index.html">Ana Sayfa</a></li>
+		<li><a href="hakkimizda.html" class=”on”>Hakkımızda</a></li>
+		<li><a href="urunler.html">Ürünler</a></li>
+	</ul>
 
 Hakkımızda sayfasında olduğumuzda kullanıcının hakkımızda linkine
 tıklaması mantıklı değildir, hakkımızda bağlantısının fare tıklama
 olayını kaldırmak için
-
--   .menu a.on {
--         pointer-events: none;
--         cursor: default;
--   }
+	
+	:::css
+	.menu a.on {
+		pointer-events: none;
+		cursor: default;
+	}
 
 Tanımı istediğimiz sonucu verecektir.
 
 CSS3 ile dinamik bileşenlerin CSS ile halledilmesi işine alıştık. Bu tip
 CSS ile halledebilmemiz güzel.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 3.6+   
 Chrome 2+  
 Safari 4+   
 Opera -  
 İnternet Explorer -
+{: .tarayiciuyum}
 
-</div>
 ### Kaynaklar
 
 -   [https://developer.mozilla.org/en/CSS/pointer-events][]
@@ -80,8 +79,6 @@ Opera -
 -   [http://css-tricks.com/6379-pointer-events-current-nav/][]
 -   [http://hacks.mozilla.org/2009/12/pointer-events-for-html-in-firefox-3-6/][]
 -   [http://www.webkit.org/specs/PointerEventsProperty.html][]
-
-</p>
 
   [https://developer.mozilla.org/en/CSS/pointer-events]: https://developer.mozilla.org/en/CSS/pointer-events
   [http://robertnyman.com/2010/03/22/css-pointer-events-to-allow-clicks-on-underlying-elements/]: http://robertnyman.com/2010/03/22/css-pointer-events-to-allow-clicks-on-underlying-elements/

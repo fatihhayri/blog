@@ -12,10 +12,19 @@ Benzer bir uygulamayı yapmak için kodları yazdım. Daha önce bahsettiğim
 [rgba tanımı][] ile bu iş çok basit olacaktı.
 
 	:::css
-	 #popup{ position:absolute; top:90px; left:40%; border:10px solid
-rgba(0,0,0, 0.5); text-align:center; font-size:24px;
-background-color:#FFFFFF; width:350px; padding:50px 0;
-border-radius:10px; z-index:100; } 
+	 #popup{
+		position: absolute;
+		top: 90px;
+		left: 40%;
+		border: 10px solid rgba(0,0,0, 0.5);
+		text-align: center;
+		font-size: 24px;
+		background-color: #FFFFFF;
+		width: 350px;
+		padding: 50px 0;
+		border-radius: 10px;
+		z-index: 100;
+	} 
 
 Ancak aşağıdaki gibi bir görüntü elde ettim.  
 ![][1]
@@ -27,13 +36,22 @@ Ancak aşağıdaki gibi bir görüntü elde ettim.
 ile sağlanıyor.
 
 	:::css
-	 #popup{ position:absolute; top:90px; left:40%; border:10px solid
-rgba(0,0,0, 0.5); text-align:center; font-size:24px;
-background-color:#FFFFFF; width:350px; padding:50px 0;
-border-radius:10px; z-index:100; -moz-background-clip: padding; /*
-Firefox 3.6 */ -webkit-background-clip: padding; /* Safari 4? Chrome
-6? */ background-clip: padding-box; /* Firefox 4, Safari 5, Opera 10,
-IE 9 */ } 
+	#popup{
+		position: absolute;
+		top: 90px;
+		left: 40%;
+		border: 10px solid rgba(0,0,0, 0.5);
+		text-align: center;
+		font-size: 24px;
+		background-color: #FFFFFF;
+		width: 350px;
+		padding: 50px 0;
+		border-radius: 10px;
+		z-index: 100;
+		moz-background-clip: padding;
+		webkit-background-clip: padding;
+		background-clip: padding-box;
+	} 
 
 ![][2]
 
@@ -41,9 +59,7 @@ IE 9 */ }
 
 ### Kaynak
 
--   [http://css-tricks.com/transparent-borders-with-background-clip/][]</strong>
-
-</p>
+-   [http://css-tricks.com/transparent-borders-with-background-clip/][]
 
   []: https://lh5.googleusercontent.com/_SHFSSO6P4rp8S4nZY3vxCmgDN6E4T4s388AlMh0qsEPBkUtJTheYUlsBJ6scDYACwDYDlM7FOieyXgENGEmWzpUohoMOcsXmASOjoTHB5Jub4ojri0
   [rgba tanımı]: http://www.fatihhayrioglu.com/css3-rgba-renk-tanimi/

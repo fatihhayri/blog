@@ -15,7 +15,7 @@ Date: 2006-08-05 22:06
     -   [CSS'i Web Sayfalarına Eklemek][]
     -   [CSS'de Kısaltmalar][]
     -   [Hızlı CSS Referansı][]
-        -   [CSS - Zemin(Background) Özellikleri][Hızlı CSS Referansı]
+		-   [CSS - Zemin(Background) Özellikleri][Hızlı CSS Referansı]
         -   [Font Özellikleri][]
         -   [CSS Sınıflandırma-Liste Özellikleri][]
         -   [CSS Kutu Modeli Özellikleri 1 - Kenarlık(border) Özellikleri][]
@@ -26,11 +26,10 @@ Date: 2006-08-05 22:06
         -   [CSS Metin(Text) Özellikleri][]
         -   [Tablo Özellikleri][]
         -   [Dış hat çizgisi(outline) özellikleri][]
-
-    -   [Arapça Site Kodlamak ve direction:rtl özelliği][]
+	-   [Arapça Site Kodlamak ve direction:rtl özelliği][]
     -   [CSS Editörleri][]
     -   [İnternet Tarayıcıları][]
-        -   [Sessiz Tarayıcı Güncelleme Özelliği][]
+		-   [Sessiz Tarayıcı Güncelleme Özelliği][]
         -   [Firefox 6][]
         -   [Firefox 5][]
         -   [Firefox 4][]
@@ -42,12 +41,10 @@ Date: 2006-08-05 22:06
         -   [Firefox 3.0 çıktı][]
         -   [Opera 9.5 çıktı][]
         -   [Google Chrome – Birde benden dinleyin :D][]
-
     -   [CSS Kod Yazma Düzeni][]
     -   [CSS Seçicilerinin Optimizasyonu][]
-
 -   Gelişmiş CSS Dersleri
-    -   [CSS'de Kalıtsallık(Inheritance)][]
+	-   [CSS'de Kalıtsallık(Inheritance)][]
     -   [CSS'de Tanımlamalar ve Etkinlikleri(Specificity)][]
     -   [!important Tanımı][]
     -   [CSS'de Çıktı alma (Print)][]
@@ -96,7 +93,7 @@ Date: 2006-08-05 22:06
     -   [CSS ile Yüzde Çubuğu Hazırlama][]
     -   [CSS ile Resim Haritaları(imagemap) yapmak][]
     -   [CSS ile Basit Şekilde Fare Üzerine Gelince(Rollover) Resim Değişimi Yapmak][]
-    -   [CSS ile \<hr /\> Stil Vermek][]
+    -   [CSS ile <hr \> Stil Vermek][]
     -   [CSS ile sayfalama görselliğini ayarlama][]
     -   [Sayfa Dibine Yapışık Alt Alanlar(Sticky Footer)][]
     -   [CSS ile Ziyaret Edilen Sayfa Bağlantılarına Şekil Vermek][]
@@ -312,7 +309,7 @@ Date: 2006-08-05 22:06
   [CSS ile Web Sayfası Oluşturma II]: http://www.fatihhayrioglu.com/css-ile-web-sayfasi-olusturma-ii/
   [CSS ile Web Sayfası Oluşturma III]: http://www.fatihhayrioglu.com/css-ile-web-sayfasi-olusturma-iii/
   [%100 Genişlik ve %100 Yükseklite Sayfa İskeleti Hazırlama]: http://www.fatihhayrioglu.com/100-genislik-ve-100-yukseklite-sayfa-iskeleti-hazirlama/
-  [Genişlik ve Yüksekliğin Sınırlarını Belirlemek(min-width,min-height,max-width, max-height)]: heightttp://www.fatihhayrioglu.com/genislik-ve-yuksekligin-sinirlarini-belirlemekmin-width-min-heightmax-width-max-height/
+  [Genişlik ve Yüksekliğin Sınırlarını Belirlemek(min-width, min-height,max-width, max-height)]: htttp://www.fatihhayrioglu.com/genislik-ve-yuksekligin-sinirlarini-belirlemekmin-width-min-heightmax-width-max-height/
   [Yuvarlak Kenarlı Kutular]: http://www.fatihhayrioglu.com/yuvarlak-kenarli-kutular/
   [CSS ile Menü Yapmak I - Dikey Menüler]: http://www.fatihhayrioglu.com/css-ile-menu-yapmak/
   [CSS ile Menü Yapmak II - Yatay Menüler]: http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-ii/
