@@ -223,12 +223,12 @@ tarayıcıları ile test edilmiştir.
   []: /images/yazici_ikon.gif
   [sayfanın çıktısını al]: javascript:print()
   [1]: /images/pdf_ikon.gif
-  [pdf olarak indir]: /dokumanlar/css_ile_tablolari_sekillendirmek.pdf
-  [2]: /dokumanlar/tablo01.gif
-  [Tablo Renkleri]: /dokumanlar/tablo_renkleri.gif
-  [3]: /dokumanlar/tablo02.gif
-  [4]: /dokumanlar/tablo03.gif
-  [tıklayınız.]: /dokumanlar/tablo_ornek1.html
+  [pdf olarak indir]: /static/dokumanlar/css_ile_tablolari_sekillendirmek.pdf
+  [2]: /static/dokumanlar/tablo01.gif
+  [Tablo Renkleri]: /static/dokumanlar/tablo_renkleri.gif
+  [3]: /static/dokumanlar/tablo02.gif
+  [4]: /static/dokumanlar/tablo03.gif
+  [tıklayınız.]: /static/dokumanlar/tablo_ornek1.html
   [http://veerle.duoh.com/]: http://veerle.duoh.com/index.php/blog/comments/a_css_styled_table/
   [http://icant.co.uk/]: http://icant.co.uk/csstablegallery/index.php?css=1#r1
   [http://alistapart.com/]: http://alistapart.com/articles/tableruler/

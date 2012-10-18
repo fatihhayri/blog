@@ -152,9 +152,9 @@ oluşturmak daha mantıklı ve kolay olur.
   []: /images/ikikolon.gif
   [<acronym title="Stil şablonu">CSS</acronym> ile sayfalarımızı ve
   elementlerimizi ortalamak]: http://www.fatihhayrioglu.com/css-ile-sayfalarimizi-ve-elementlerimizi-ortalamak/
-  [tıklayınız.]: /dokumanlar/sabit_genislikli_websitesi.html
+  [tıklayınız.]: /static/dokumanlar/sabit_genislikli_websitesi.html
   [<acronym title="Stil şablonu">CSS</acronym> ile Kutu modeli,
   sorunları ve çözümleri]: http://www.fatihhayrioglu.com/kutu-modeli-sorunlari-ve-cozumleri/
-  [1]: /dokumanlar/elastik_ikikolonlu_websitesi.html
+  [1]: /static/dokumanlar/elastik_ikikolonlu_websitesi.html
   [2]: /images/uckolon.gif
-  [3]: /dokumanlar/sabit_uckolonlu_websitesi.html
+  [3]: /static/dokumanlar/sabit_uckolonlu_websitesi.html

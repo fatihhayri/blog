@@ -166,7 +166,7 @@ tarayıcı ve araçlarda da farklı bir görünüm sağlamış olduk.
   [Alıntı Orta Zemin Resmi]: /images/alinti_orta.gif
   [Alıntı Alt Zemin Resmi]: /images/alinti_alt.gif
   [Alıntı Örnek Sonuç]: /images/alinti_ornek2.gif
-  [göz at.]: /dokumanlar/alinti_ornek_sonuc.html
+  [göz at.]: /static/dokumanlar/alinti_ornek_sonuc.html
   [http://www.cameraontheroad.com/?p=154 iyi örnek]: http://www.cameraontheroad.com/?p=154%20iyi%20örnek
   [Dan Cederholm - Web Standards Solutions The Markup and Style
   Handbook]: http://www.simplebits.com/publications/solutions/

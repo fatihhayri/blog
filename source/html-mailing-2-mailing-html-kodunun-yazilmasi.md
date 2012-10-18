@@ -162,7 +162,7 @@ Sağlıcakla kalın.
 </p>
 
   [Can Gürbü]: http://www.cangurbuz.com/
-  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/mailing_yapmak/mailing.rar
+  [tıklayınız.]: http://www.fatihhayrioglu.com/static/dokumanlar/mailing_yapmak/mailing.rar
   []: http://www.fatihhayrioglu.com/wp-content/mailing_ornegi.jpg
     "mailing_ornegi"
   [![][]]: http://www.fatihhayrioglu.com/wp-content/mailing_ornegi.jpg
@@ -181,7 +181,7 @@ Sağlıcakla kalın.
   [5]: http://www.fatihhayrioglu.com/wp-content/mail_yapmak_format_drdn.gif
     "mail_yapmak_format_drdn"
   [![][5]]: http://www.fatihhayrioglu.com/wp-content/mail_yapmak_format_drdn.gif
-  [6]: http://www.fatihhayrioglu.com/dokumanlar/mailing_yapmak/mailing.html
+  [6]: http://www.fatihhayrioglu.com/static/dokumanlar/mailing_yapmak/mailing.html
   [http://www.campaignmonitor.com/templates/]: http://www.campaignmonitor.com/templates/
   [http://www.mediaministryblog.com/2009/08/how-to-create-a-free-email-newsletter/]: http://www.mediaministryblog.com/2009/08/how-to-create-a-free-email-newsletter/
   [http://www.anandgraves.com/html-email-guide/#unnecessary_htmltags]: http://www.anandgraves.com/html-email-guide/#unnecessary_htmltags

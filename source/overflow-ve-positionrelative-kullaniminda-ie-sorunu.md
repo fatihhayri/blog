@@ -55,7 +55,7 @@ background-color:lightblue; width:150px; }
 
 </p>
 
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/position_relative_overflow.html
+  [tıklayınız.]: http://fatihhayrioglu.com/static/dokumanlar/position_relative_overflow.html
   []: http://www.fatihhayrioglu.com/wp-content/position_relative_overflow_ie.jpg
     "position_relative_overflow_ie"
   [![][]]: http://www.fatihhayrioglu.com/wp-content/position_relative_overflow_ie.jpg

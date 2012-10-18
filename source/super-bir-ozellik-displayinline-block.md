@@ -148,15 +148,15 @@ Bu kodları ekledikten sonra sorunumuz düzeldi.
 
 </p>
 
-  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/display_inline_block.html
+  [tıklayınız.]: http://www.fatihhayrioglu.com/static/dokumanlar/display_inline_block.html
   []: http://www.fatihhayrioglu.com/wp-content/display_inline_block.jpg
     "display_inline_block"
   [![][]]: http://www.fatihhayrioglu.com/wp-content/display_inline_block.jpg
-  [1]: http://www.fatihhayrioglu.com/dokumanlar/display_inline_block2.html
+  [1]: http://www.fatihhayrioglu.com/static/dokumanlar/display_inline_block2.html
   [2]: http://www.fatihhayrioglu.com/wp-content/display_inline_block2.gif
     "display_inline_block2"
   [![][2]]: http://www.fatihhayrioglu.com/wp-content/display_inline_block2.gif
-  [3]: http://www.fatihhayrioglu.com/dokumanlar/display_inline_block3.html
+  [3]: http://www.fatihhayrioglu.com/static/dokumanlar/display_inline_block3.html
   [4]: http://www.fatihhayrioglu.com/wp-content/display_inline_block3.gif
     "display_inline_block3"
   [![][4]]: http://www.fatihhayrioglu.com/wp-content/display_inline_block3.gif

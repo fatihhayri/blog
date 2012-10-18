@@ -85,7 +85,7 @@ tanım yaptığımız için klavye kullananlar için sorun olmayacaktır.
   [3]: http://docs.google.com/File?id=dhctmbn6_226fc3jdqrx_b
   [chrome_odak]: http://www.fatihhayrioglu.com/wp-content/chrome_odak.gif
     "chrome_odak"
-  [tıklayınız.]: /dokumanlar/metingirdi_kaldir_2.html
+  [tıklayınız.]: /static/dokumanlar/metingirdi_kaldir_2.html
   [http://gandamanurung.com/css/how-to-get-rid-textinput-blue-border-in-safari/]: http://gandamanurung.com/css/how-to-get-rid-textinput-blue-border-in-safari/
     "http://gandamanurung.com/css/how-to-get-rid-textinput-blue-border-in-safari/"
   [http://forums.devshed.com/css-help-116/safari-input-focus-blue-border-477819.html]: http://forums.devshed.com/css-help-116/safari-input-focus-blue-border-477819.html

@@ -61,7 +61,7 @@ ayrı bir konu.)
 </p>
 
   []: /images/ie_liste_sorunu.gif
-  [tıklayınız.]: /dokumanlar/liste_ardalani.html
+  [tıklayınız.]: /static/dokumanlar/liste_ardalani.html
   [http://www.positioniseverything.net/explorer/ie-listbug.html]: http://www.positioniseverything.net/explorer/ie-listbug.html
     "http://www.positioniseverything.net/explorer/ie-listbug.html"
   [http://www.adobe.com/cfusion/communityengine/index.cfm?event=showdetails&productId=1&postId=481]: http://www.adobe.com/cfusion/communityengine/index.cfm?event=showdetails&productId=1&postId=481

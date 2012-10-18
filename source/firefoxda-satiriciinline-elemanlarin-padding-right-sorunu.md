@@ -38,7 +38,7 @@ Kaynak: [https://bugzilla.mozilla.org/show_bug.cgi?id=122795][]
 
 </p>
 
-  [tıklayınız]: /dokumanlar/ornek_padding_right_sorunu.html
+  [tıklayınız]: /static/dokumanlar/ornek_padding_right_sorunu.html
   []: /images/ie7.gif
   [1]: /images/ff.gif
   [https://bugzilla.mozilla.org/show_bug.cgi?id=122795]: https://bugzilla.mozilla.org/show_bug.cgi?id=122795

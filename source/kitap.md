@@ -16,10 +16,10 @@ düzeltmeye çalışacağım.
 Umarım herkesin yararlanacağı bir Türkçe kaynak olur.
 
   ---------------- ------------------------------
-  [Download CSS'e Başlangıç](http://98.131.10.194/dokumanlar/CSS_GIRIS.zip)
+  [Download CSS'e Başlangıç](http://98.131.10.194/static/dokumanlar/CSS_GIRIS.zip)
   Boyut: 2.77 MB
   ------------------ -----------------------------
-  [Download Kaynak Kodları](http://98.131.10.194/dokumanlar/kodlar.zip)
+  [Download Kaynak Kodları](http://98.131.10.194/static/dokumanlar/kodlar.zip)
   Kaynak: 63.50 KB
   ------------------ -----------------------------
 **Alternatif ve hızlı bir çözüm(Rapidshare)**

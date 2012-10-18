@@ -50,7 +50,7 @@ Testlerimi [ietester][] ile yaptım.
 </p>
 
   [ie8]: /images/ie8.jpg
-  [tıklayınız.]: /dokumanlar/ie8_css_duzeltmesi.html
+  [tıklayınız.]: /static/dokumanlar/ie8_css_duzeltmesi.html
   [ietester]: http://www.my-debugbar.com/wiki/IETester/HomePage
     "ietester"
   [http://paulirish.com/2009/browser-specific-css-hacks/]: http://paulirish.com/2009/browser-specific-css-hacks/

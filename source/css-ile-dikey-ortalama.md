@@ -70,7 +70,7 @@ book. </div> </div> </div> </body> </html>
 </p>
 
   [garip mod]: http://www.fatihhayrioglu.com/dogru-doctype-kullanimi/
-  [tıklayınız.]: /dokumanlar/dikey_ortalama_ornek1.html
+  [tıklayınız.]: /static/dokumanlar/dikey_ortalama_ornek1.html
   [http://www.jakpsatweb.cz/]: http://www.jakpsatweb.cz/css/css-vertical-center-solution.html
   [http://wellstyled.com/]: http://wellstyled.com/singlelang.php?lang=en&page=css-single-line-vertical-centering.html
   [http://www.hicksdesign.co.uk/]: http://www.hicksdesign.co.uk/journal/how-to-vertical-centering-with-css

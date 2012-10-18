@@ -138,10 +138,10 @@ Zamanla çok daha güzel örneklerin çıkacağını düşünüyorum.
 
 </p>
 
-  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/target_sozde_sinifi/target_sozde_sinif.html
+  [tıklayınız.]: http://www.fatihhayrioglu.com/static/dokumanlar/target_sozde_sinifi/target_sozde_sinif.html
   []: https://lh6.googleusercontent.com/_cLb1J3SgGfIwlvlO8Dl0X-p4BJVhIEGpvnTDdfhcwVqz1kOSXWgvYq2qZkKg_5nD2gLoutyeF2qeg8xyhmIRuQK0mophK76F3yxAcSrXTY4kL8IEw
   [1]: https://lh4.googleusercontent.com/rREDSpEu15zUN-f6f1Wd8ua6LgWmX9YatGoULf1kmIJQ9LapqA-HWwnvyLESxxzICXQ3Y-HMm5TwL2kAce28fa1_pnOU--hFX8Ay4VFSET_NePdfJQ
-  [2]: http://www.fatihhayrioglu.com/dokumanlar/target_sozde_sinifi/target_sozde_sinif_yatay.html
+  [2]: http://www.fatihhayrioglu.com/static/dokumanlar/target_sozde_sinifi/target_sozde_sinif_yatay.html
   [http://tr.wikipedia.org/wiki/Trabzon_%28il%29]: http://tr.wikipedia.org/wiki/Trabzon_%28il%29
   [3]: https://lh6.googleusercontent.com/0G2gsPGXTQ2SDAqEYXAMsVPpCRvSyTzkoR_Ubb-P2eq3zdhBo4ARPTD06UnDknSB3U2XEPJ443-fcloiH22zHNodmCLgBui2jGpJQZDJiw95lZWlpQ
   [http://kaioa.com/b/0903/target_faq_demo.html]: http://kaioa.com/b/0903/target_faq_demo.html

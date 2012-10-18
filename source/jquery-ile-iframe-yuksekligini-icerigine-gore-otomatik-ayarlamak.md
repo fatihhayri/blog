@@ -75,7 +75,7 @@ frameborder="0" src="/liste.aspx"></iframe>
     "jQuery autoHeight eklentisini"
   [link]: http://www.dynamicdrive.com/dynamicindex17/iframessi2.htm
     "link"
-  [tıklayın.]: /dokumanlar/iframe_code/index.html
+  [tıklayın.]: /static/dokumanlar/iframe_code/index.html
   [http://www.lost-in-code.com/programming/jquery-auto-iframe-height/]: http://www.lost-in-code.com/programming/jquery-auto-iframe-height/
     "http://www.lost-in-code.com/programming/jquery-auto-iframe-height/"
   [http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm]: http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm

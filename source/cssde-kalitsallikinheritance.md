@@ -135,8 +135,8 @@ nedeni ile de bir çok sorunla karşılaştığımızıda unutmayalım.
 
   [(X)HTML Sayfa Yapısı ve CSS Kullanımı]: http://www.fatihhayrioglu.com/xhtml-sayfa-yapisi-ve-css-kullanimi/
   [Hızlı CSS Referansı]: http://www.fatihhayrioglu.com/hizli-css-referansi/
-  []: /dokumanlar/kalitsallik_ornek1.gif
-  [1]: /dokumanlar/kalitsallik_ornek2.gif
+  []: /static/dokumanlar/kalitsallik_ornek1.gif
+  [1]: /static/dokumanlar/kalitsallik_ornek2.gif
   [http://www.simplebits.com/]: http://www.simplebits.com/notebook/2003/04/15/css_inheritance.html
   [http://www.devarticles.com]: http://www.devarticles.com/c/a/Web-Style-Sheets/Learn-CSS-Introduction-to-Inheritance-Specificity-and-Cascade/3/
   [http://www.w3.org/TR/REC-CSS1#inheritance]: http://www.w3.org/TR/REC-CSS1#inheritance

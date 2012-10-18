@@ -46,4 +46,4 @@ Not: Örnek kodlar ie5.0, ff2.0 ve opera9.0 da test edilmiştir.
 </div>
 </p>
 
-  [tıklayınız.]: /dokumanlar/icice_float_kutular_ornek.html
+  [tıklayınız.]: /static/dokumanlar/icice_float_kutular_ornek.html

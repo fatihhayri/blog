@@ -35,4 +35,4 @@ kodu görmek için [tıklayınız.][]
 </p>
 
   [Ceviz forumda]: http://forum.ceviz.net/
-  [tıklayınız.]: /dokumanlar/tckimlikno.html
+  [tıklayınız.]: /static/dokumanlar/tckimlikno.html

@@ -151,11 +151,11 @@ linklerini kaynaklar kısmında sizlere vereceğim.
 
   [CSS ile konumlandırma(positioning)]: http://www.fatihhayrioglu.com/?p=151
     "konumlandırma makalesi"
-  [tıklayınız.]: /dokumanlar/sabit_konum_ornek1.html
+  [tıklayınız.]: /static/dokumanlar/sabit_konum_ornek1.html
   [min-width ve min-height sorununu]: http://www.fatihhayrioglu.com/?p=182
   [Sabit Konumlandırma]: /images/sabit_konum_ust.gif
-  [1]: /dokumanlar/sab_konum_ust.html
-  [2]: /dokumanlar/sab_konum_alt.html
+  [1]: /static/dokumanlar/sab_konum_ust.html
+  [2]: /static/dokumanlar/sab_konum_alt.html
   [garip modda]: http://www.fatihhayrioglu.com/?p=164
   [http://home.tampabay.rr.com/bmerkey/examples/fake-position-fixed.html]: http://home.tampabay.rr.com/bmerkey/examples/fake-position-fixed.html
   [http://tagsoup.com/cookbook/css/fixed/]: http://tagsoup.com/cookbook/css/fixed/

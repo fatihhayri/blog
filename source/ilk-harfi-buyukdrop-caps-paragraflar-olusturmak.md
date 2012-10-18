@@ -207,7 +207,7 @@ Sayfamızın ilk paragrafının ilk harfine uygulama yapıyoruz.
 
   [first-letter]: http://www.fatihhayrioglu.com/pseudo-siniflari-ve-pseudo-elementleri/
     "first-letter"
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk.html
+  [tıklayınız.]: http://fatihhayrioglu.com/static/dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk.html
   []: http://docs.google.com/File?id=dhctmbn6_387cfvfq39n_b
   [1]: http://docs.google.com/File?id=dhctmbn6_388ggzd5sfq_b
   [2]: http://docs.google.com/File?id=dhctmbn6_389dg3pbzc4_b
@@ -215,14 +215,14 @@ Sayfamızın ilk paragrafının ilk harfine uygulama yapıyoruz.
     "font-face"
   [http://www.fontsquirrel.com/fontface]: http://www.fontsquirrel.com/fontface
     "http://www.fontsquirrel.com/fontface"
-  [3]: http://fatihhayrioglu.com/dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk2.html
+  [3]: http://fatihhayrioglu.com/static/dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk2.html
   [4]: http://docs.google.com/File?id=dhctmbn6_390fmrwjjfj_b
-  [5]: http://fatihhayrioglu.com/dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk3.html
+  [5]: http://fatihhayrioglu.com/static/dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk3.html
   [6]: http://docs.google.com/File?id=dhctmbn6_391dzsg3mht_b
-  [7]: http://fatihhayrioglu.com/dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk4.html
+  [7]: http://fatihhayrioglu.com/static/dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk4.html
   [8]: http://docs.google.com/File?id=dhctmbn6_392ghn2nsg2_b
   [9]: http://docs.google.com/File?id=dhctmbn6_393wq6xv9fg_b
-  [10]: http://fatihhayrioglu.com/dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk4c.html
+  [10]: http://fatihhayrioglu.com/static/dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk4c.html
   [11]: http://docs.google.com/File?id=dhctmbn6_394cpsn3shg_b
   [first-child]: http://www.fatihhayrioglu.com/pseudo-siniflari-ve-pseudo-elementleri/
     "first-child"

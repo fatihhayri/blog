@@ -53,4 +53,4 @@ Yukarıdaki kodun sonucunda aşağıdaki gibi olacaktır.
 
 </p>
 
-  []: /dokumanlar/split.gif
+  []: /static/dokumanlar/split.gif

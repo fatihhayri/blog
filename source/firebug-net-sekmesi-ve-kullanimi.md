@@ -30,7 +30,7 @@ gösteren bir göstergedir.
 
 Örnek bir sayfa ile devam edelim.
 
-[http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html][]
+[http://fatihhayrioglu.com/static/dokumanlar/fare_degisen_resim.html][]
 
 ![][1]
 
@@ -216,8 +216,8 @@ açıkça gösterir ve düzeltmemiz için önerilerde bulunur.
   []: http://www.fatihhayrioglu.com/wp-content/fh_firebug_net_sekme-298x300.gif
     "fh_firebug_net_sekme"
   [![][]]: http://www.fatihhayrioglu.com/wp-content/fh_firebug_net_sekme.gif
-  [http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html]: http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html
-    "http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html"
+  [http://fatihhayrioglu.com/static/dokumanlar/fare_degisen_resim.html]: http://fatihhayrioglu.com/static/dokumanlar/fare_degisen_resim.html
+    "http://fatihhayrioglu.com/static/dokumanlar/fare_degisen_resim.html"
   [1]: http://docs.google.com/File?id=dhctmbn6_408d43xkbc6_b
   [2]: http://www.fatihhayrioglu.com/wp-content/firebug_net3-300x8.gif
     "firebug_net3"

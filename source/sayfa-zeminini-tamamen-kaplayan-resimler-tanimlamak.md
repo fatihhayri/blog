@@ -148,7 +148,7 @@ Kalın sağlıcakla
 </p>
 
   [CSS3’ün background-size özelliğini anlattım]: http://www.fatihhayrioglu.com/css3-background-size-ozelligi/
-  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/tam_sayfa_bg.html
+  [tıklayınız.]: http://www.fatihhayrioglu.com/static/dokumanlar/tam_sayfa_bg.html
   []: https://lh6.googleusercontent.com/x55IiCT52mJIMb9oYddTeHpX7Ww7ti3puoZiped0VQ-SflPtR_mrldscvuWoco7aOWi0dbQ2llnOVRuch-2dgpR_LSkZU76CiKam4NThM2DYry7j-Po
   [http://interfacelift.com/wallpaper/details/2421/empty_bottles.html]: http://interfacelift.com/wallpaper/details/2421/empty_bottles.html
   [http://css-tricks.com/3458-perfect-full-page-background-image/]: http://css-tricks.com/3458-perfect-full-page-background-image/

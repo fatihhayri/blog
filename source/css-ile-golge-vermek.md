@@ -240,16 +240,16 @@ tanımlamamıza olanak sağlıyor. Ama bunu için beklemek zorundayız.
 
 </p>
 
-  []: /dokumanlar/images/golge01.jpg
+  []: /static/dokumanlar/images/golge01.jpg
   [blok-level]: http://www.fatihhayrioglu.com/?p=151
-  [tıklayınız.]: /dokumanlar/basit_golge.html
+  [tıklayınız.]: /static/dokumanlar/basit_golge.html
   [www.clagnut.com]: http://www.clagnut.com
-  [1]: /dokumanlar/clagnut_golge.html
-  [Fuzzy]: /dokumanlar/images/fuzzy.gif
-  [Maske PNG örneği]: /dokumanlar/images/maske_png.gif
-  [2]: /dokumanlar/fuzzy_golge.html
-  [Onion Skinned]: /dokumanlar/images/onion_skin.gif
-  [3]: /dokumanlar/onion_golge.html
+  [1]: /static/dokumanlar/clagnut_golge.html
+  [Fuzzy]: /static/dokumanlar/images/fuzzy.gif
+  [Maske PNG örneği]: /static/dokumanlar/images/maske_png.gif
+  [2]: /static/dokumanlar/fuzzy_golge.html
+  [Onion Skinned]: /static/dokumanlar/images/onion_skin.gif
+  [3]: /static/dokumanlar/onion_golge.html
   [http://alistapart.com/articles/onionskin/]: http://alistapart.com/articles/onionskin/
   [http://alistapart.com/articles/cssdrop2/]: http://alistapart.com/articles/cssdrop2/
   [http://www.1976design.com/blog/archive/2003/11/14/shadows/]: http://www.1976design.com/blog/archive/2003/11/14/shadows/

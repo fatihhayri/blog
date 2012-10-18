@@ -37,7 +37,7 @@ document.getElementById("Dugme").parentNode.id; alert("Üst elemanı:
 
 </p>
 
-  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/parentNode.htm
+  [tıklayınız.]: http://www.fatihhayrioglu.com/static/dokumanlar/parentNode.htm
   [http://www.w3schools.com/htmldom/dom_nodetree.asp]: http://www.w3schools.com/htmldom/dom_nodetree.asp
   [http://www.java2s.com/Code/JavaScriptReference/Javascript-Properties/parentNodeSyntaxandNote.htm]: http://www.java2s.com/Code/JavaScriptReference/Javascript-Properties/parentNodeSyntaxandNote.htm
   [http://ronsguide.com/js/parentnode/]: http://ronsguide.com/js/parentnode/

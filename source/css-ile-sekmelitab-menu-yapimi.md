@@ -75,7 +75,7 @@ Sonuç: Kodumuzu çalıştırdığımızda aşağıdaki sonucu elde edeceğiz. T
 menüye bir çok örnek var resimli, resimsiz, resimli rollover gibi;
 internette aratarak bir çok örnek bulabilirsiniz.
 
-<iframe src="/dokumanlar/sekmeli_menu.html" width="350" height="80" frameborder="0" scrolling="no"></iframe>
+<iframe src="/static/dokumanlar/sekmeli_menu.html" width="350" height="80" frameborder="0" scrolling="no"></iframe>
 
 </p>
 
@@ -83,4 +83,4 @@ internette aratarak bir çok örnek bulabilirsiniz.
   [Sliding Doors]: http://alistapart.com/articles/slidingdoors/
   []: /pdf/sekme_sol_resim.gif
   [1]: /pdf/sekme_sag_resim.gif
-  [tıklayınız.]: /dokumanlar/sekmeli_menu.zip
+  [tıklayınız.]: /static/dokumanlar/sekmeli_menu.zip

@@ -189,13 +189,13 @@ Ayrıca ben "Son Okuduğum 10 Kitap" alanın alt kısım alanının biraz
 </p>
 
   [Yakuter'in kategori yazıları]: http://www.yakuter.com/kategorinin-yazilari-eklentisi-2/
-  [tıklayınız.]: /dokumanlar/okudugum_kitap_01.html
+  [tıklayınız.]: /static/dokumanlar/okudugum_kitap_01.html
   [Eski görünüm]: /images/eski_gorunum.gif
   []: /images/ardlana_paylasimi.gif
-  [Örnek 2]: /dokumanlar/okudugum_kitap_02.html
+  [Örnek 2]: /static/dokumanlar/okudugum_kitap_02.html
   [1]: /images/okd_kit_ekrangor1.gif
   [http://www.iconlet.com/]: http://www.iconlet.com/
   [2]: /images/kita_ikon_tipleri.gif
-  [3]: /dokumanlar/okudugum_kitap_03.html
+  [3]: /static/dokumanlar/okudugum_kitap_03.html
   [4]: /images/okd_kit_ekrangor2.gif
   [5]: /images/okd_kit_ekrangor3.gif

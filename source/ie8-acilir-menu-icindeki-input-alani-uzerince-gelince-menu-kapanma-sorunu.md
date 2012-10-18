@@ -53,7 +53,7 @@ Ben tasarıma uymak için background'a resim tanımlayarak sorunu aştım.
 </p>
 
   [ie7 gibi yorumlama kodunu]: http://www.fatihhayrioglu.com/internet-explorer-8i-7-gibi-yorumla-kodu/
-  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/ie8_popupmenu_input_sorunu.html
+  [tıklayınız.]: http://www.fatihhayrioglu.com/static/dokumanlar/ie8_popupmenu_input_sorunu.html
   []: http://www.fatihhayrioglu.com/wp-content/ie8_sorunu.gif
     "ie8_sorunu"
   [![][]]: http://www.fatihhayrioglu.com/wp-content/ie8_sorunu.gif

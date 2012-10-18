@@ -87,7 +87,7 @@ Bu kodu tüm tarayıcılar destekliyor.
   []: http://www.fatihhayrioglu.com/wp-content/dikey_yatayda_ortalama_ornek.gif
     "dikey_yatayda_ortalama_ornek"
   [![][]]: http://www.fatihhayrioglu.com/wp-content/dikey_yatayda_ortalama_ornek.gif
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/dikey_yatay_ortalama.html
+  [tıklayınız.]: http://fatihhayrioglu.com/static/dokumanlar/dikey_yatay_ortalama.html
   [1]: http://www.fatihhayrioglu.com/wp-content/dikey_yatayda_ortalama-300x223.gif
     "dikey_yatayda_ortalama"
   [![][1]]: http://www.fatihhayrioglu.com/wp-content/dikey_yatayda_ortalama.gif

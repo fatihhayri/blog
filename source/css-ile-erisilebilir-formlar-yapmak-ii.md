@@ -379,7 +379,7 @@ düzeltme kodu(fix) yazma gereği duymadık.
   [![CSS ile Form][]]: http://www.fatihhayrioglu.com/wp-content/sonuc_sayfasi.gif
     "CSS ile Form"
   [Bir önceki]: http://www.fatihhayrioglu.com/?p=276
-  [tıklayınız.]: /dokumanlar/css_ile_form_2.html
+  [tıklayınız.]: /static/dokumanlar/css_ile_form_2.html
   [http://www.webcredible.co.uk]: http://www.webcredible.co.uk/user-friendly-resources/css/css-forms.shtml
   [http://www.websiteoptimization.com/]: http://www.websiteoptimization.com/speed/tweak/forms/
   [http://www.picment.com/]: http://www.picment.com/articles/css/funwithforms/

@@ -72,9 +72,9 @@ Bu kodu yazdıktan sonra sayfa aşağıdaki gibi görünecektir.
 
 </p>
 
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/ie6_fazla_bosluk_sorunu/ie_listede_fazla_bosluk_sorunu.html
+  [tıklayınız.]: http://fatihhayrioglu.com/static/dokumanlar/ie6_fazla_bosluk_sorunu/ie_listede_fazla_bosluk_sorunu.html
   []: http://docs.google.com/File?id=dhctmbn6_421fk5d9mft_b
-  [1]: http://fatihhayrioglu.com/dokumanlar/ie6_fazla_bosluk_sorunu/ie_listede_fazla_bosluk_sorunu_cev.html
+  [1]: http://fatihhayrioglu.com/static/dokumanlar/ie6_fazla_bosluk_sorunu/ie_listede_fazla_bosluk_sorunu_cev.html
   [2]: http://docs.google.com/File?id=dhctmbn6_422dgmtm9g8_b
   [http://www.brunildo.org/test/IEWlispace.php]: http://www.brunildo.org/test/IEWlispace.php
     "http://www.brunildo.org/test/IEWlispace.php"

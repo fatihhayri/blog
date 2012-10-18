@@ -89,10 +89,10 @@ Kaynak
     "genel_bag_renk"
   [ziy_sayfa_uzeri_ciz]: http://www.fatihhayrioglu.com/wp-content/ziy_sayfa_uzeri_ciz.gif
     "ziy_sayfa_uzeri_ciz"
-  [tıklayınız.]: /dokumanlar/ziyaret_edilmis_baglantilar.html
+  [tıklayınız.]: /static/dokumanlar/ziyaret_edilmis_baglantilar.html
   [ziy_sayfa_oki]: http://www.fatihhayrioglu.com/wp-content/ziy_sayfa_oki.gif
     "ziy_sayfa_oki"
-  [1]: /dokumanlar/ziyaret_edilmis_baglantilar2.html
+  [1]: /static/dokumanlar/ziyaret_edilmis_baglantilar2.html
   [http://9lessons.blogspot.com/2009/06/css-visited-tips-strike-out.html]: http://9lessons.blogspot.com/2009/06/css-visited-tips-strike-out.html
     "http://9lessons.blogspot.com/2009/06/css-visited-tips-strike-out.html"
   [http://webdesign.maratz.com/lab/visited_links_styling/]: http://webdesign.maratz.com/lab/visited_links_styling/

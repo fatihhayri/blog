@@ -197,11 +197,11 @@ sitesinde olduğu gibi.)
 
 </p>
 
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/border_radius1.html
+  [tıklayınız.]: http://fatihhayrioglu.com/static/dokumanlar/border_radius1.html
   []: http://www.fatihhayrioglu.com/wp-content/border_radius_1.jpg
     "border_radius_1"
   [![][]]: http://www.fatihhayrioglu.com/wp-content/border_radius_1.jpg
-  [1]: http://fatihhayrioglu.com/dokumanlar/border_radius2.html
+  [1]: http://fatihhayrioglu.com/static/dokumanlar/border_radius2.html
   [2]: http://www.fatihhayrioglu.com/wp-content/border_radius_2.jpg
     "border_radius_2"
   [![][2]]: http://www.fatihhayrioglu.com/wp-content/border_radius_2.jpg

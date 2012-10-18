@@ -38,8 +38,8 @@ Tanımıda bu sorunu gidermek için yeterlidir.
 
 </p>
 
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/textareada_enter_calistirmak.html
-  [1]: http://fatihhayrioglu.com/dokumanlar/textareada_enter_calistirmak2.html
+  [tıklayınız.]: http://fatihhayrioglu.com/static/dokumanlar/textareada_enter_calistirmak.html
+  [1]: http://fatihhayrioglu.com/static/dokumanlar/textareada_enter_calistirmak2.html
   [http://stackoverflow.com/questions/1282202/enter-does-not-work-in-textarea-in-internet-explorer-8]: http://stackoverflow.com/questions/1282202/enter-does-not-work-in-textarea-in-internet-explorer-8
   [http://www.fourmilab.ch/fourmilog/archives/2005-04/000510.html]: http://www.fourmilab.ch/fourmilog/archives/2005-04/000510.html
   [http://stackoverflow.com/questions/737614/textarea-css-ie7-and-enter-key-creating-inline-space]: http://stackoverflow.com/questions/737614/textarea-css-ie7-and-enter-key-creating-inline-space

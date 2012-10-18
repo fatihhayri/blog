@@ -112,7 +112,7 @@ Kaynaklar
   [http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/]: http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/
     "http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/"
   []: /images/basit_resimli_menu.jpg
-  [tıklayınız]: /dokumanlar/basit_resimli_menu.html
+  [tıklayınız]: /static/dokumanlar/basit_resimli_menu.html
   [1]: /images/basit_resimli_menu_ardkaydi.jpg
   [http://www.webdesignerwall.com/tutorials/advanced-css-menu/]: http://www.webdesignerwall.com/tutorials/advanced-css-menu/
     "http://www.webdesignerwall.com/tutorials/advanced-css-menu/"

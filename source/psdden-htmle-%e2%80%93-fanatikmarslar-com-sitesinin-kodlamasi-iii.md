@@ -593,4 +593,4 @@ için tıklayınız.][]
   [tıklayınız.]: http://www.fatihhayrioglu.com/cssde-tanimlamalar-ve-etkinliklerispecificity/
   [Sayfalama kodlamalarını bir kaç tipi]: http://www.fatihhayrioglu.com/css-ile-sayfalama-gorselligini-ayarlama/
   [jquery ile sekme yapımını]: http://www.fatihhayrioglu.com/jquery-ile-basit-sekme-yapimi/
-  [Tüm dosyaları indirmek için tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/fm_htmlleri_son.rar
+  [Tüm dosyaları indirmek için tıklayınız.]: http://www.fatihhayrioglu.com/static/dokumanlar/fm_htmlleri_son.rar

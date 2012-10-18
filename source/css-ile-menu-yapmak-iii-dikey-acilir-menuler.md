@@ -131,7 +131,7 @@ Ayrıca kod daki<span class="alternatifard"><ul id="**menu**" ></span>
 ve javascriptteki <span class="alternatifard">navRoot =
 document.getElementById("**menu**");</span> aynı olmasına dikkat edelim.
 
-<iframe src="/dokumanlar/menu3.htm" width="350" height="250" frameborder="0" scrolling="auto"></iframe>
+<iframe src="/static/dokumanlar/menu3.htm" width="350" height="250" frameborder="0" scrolling="auto"></iframe>
 
 Örnek kodları [indir][]
 
@@ -143,7 +143,7 @@ Soldaki örneğe göre iki değişikliğimiz oldu. Birincisi menüyü sağa alma
 için ul ye float:right ataması yaptık. İkincisi, ikinici açılan menüyü
 soldan 149 px yerine eksi 149px ile sola almak oldu
 
-<iframe src="/dokumanlar/menu3_2.htm" width="550" height="250" frameborder="0" scrolling="auto"></iframe>
+<iframe src="/static/dokumanlar/menu3_2.htm" width="550" height="250" frameborder="0" scrolling="auto"></iframe>
 
 ###### Kaynaklar
 
@@ -161,7 +161,7 @@ soldan 149 px yerine eksi 149px ile sola almak oldu
   [3]: /images/menu3_resim4.gif
   [4]: /images/menu3_resim5.gif
   [linkini]: http://www.alistapart.com:80/articles/dropdowns/
-  [indir]: http://www.fatihhayrioglu.com/dokumanlar/menu3.zip
+  [indir]: http://www.fatihhayrioglu.com/static/dokumanlar/menu3.zip
   [http://www.alistapart.com/articles/horizdropdowns]: http://www.alistapart.com/articles/horizdropdowns
   [http://www.tanfa.co.uk/css/examples/menu/tutorial-h.asp]: http://www.tanfa.co.uk/css/examples/menu/tutorial-h.asp
   [http://www.seoconsultants.com/css/menus/tutorial/]: http://www.seoconsultants.com/css/menus/tutorial/

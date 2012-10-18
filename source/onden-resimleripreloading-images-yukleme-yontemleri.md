@@ -141,7 +141,7 @@ Kalın sağlıacakla
   []: http://www.fatihhayrioglu.com/wp-content/resim_on_yukleme_jquery-300x195.gif
     "resim_on_yukleme_jquery"
   [![][]]: http://www.fatihhayrioglu.com/wp-content/resim_on_yukleme_jquery.gif
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/onyukleme.html
+  [tıklayınız.]: http://fatihhayrioglu.com/static/dokumanlar/onyukleme.html
   [1]: http://www.fatihhayrioglu.com/wp-content/resim_on_yukleme_jquery2-300x194.gif
     "resim_on_yukleme_jquery2"
   [![][1]]: http://www.fatihhayrioglu.com/wp-content/resim_on_yukleme_jquery2.gif

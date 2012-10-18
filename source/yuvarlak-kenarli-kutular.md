@@ -126,10 +126,10 @@ ki link de bu metodları linkleri ile katagorize etmişler:
 
   []: /images/ust_yuvarlak.gif
   [1]: /images/alt_yuvarlak.gif
-  [tıklayınız.]: /dokumanlar/sg_yuvarlak_kenarli_kutu.zip
+  [tıklayınız.]: /static/dokumanlar/sg_yuvarlak_kenarli_kutu.zip
   [2]: /images/ust2_yuvarlak.gif
   [3]: /images/alt2_yuvarlak.gif
-  [4]: /dokumanlar/degradeli_yuvarlak_kenarli_kutu.zip
+  [4]: /static/dokumanlar/degradeli_yuvarlak_kenarli_kutu.zip
   [5]: /images/esnek_ornek.gif
-  [6]: /dokumanlar/esnek_yuvarlak_kenarli_kutu.zip
+  [6]: /static/dokumanlar/esnek_yuvarlak_kenarli_kutu.zip
   [http://css-discuss.incutio.com/?page=RoundedCorners]: http://css-discuss.incutio.com/?page=RoundedCorners

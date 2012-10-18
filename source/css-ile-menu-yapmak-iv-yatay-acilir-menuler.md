@@ -120,7 +120,7 @@ edelim.
 
 işte sonuç:
 
-<iframe src="/dokumanlar/menu4.htm" width="480" height="250" frameborder="0" scrolling="auto"></iframe>
+<iframe src="/static/dokumanlar/menu4.htm" width="480" height="250" frameborder="0" scrolling="auto"></iframe>
 
 şimdiye kadar anlatılan menü kodlarında işin yapısı öğretilmeye
 çalışılmıştır. Bu kodları kullanarak çok çeşitli menüler yapılabilir,
@@ -144,7 +144,7 @@ alt kademeli, değişik renklerde ve değişik ebatlarda menü yapılabilir.
   [CSS ile Menü Yapmak II - Yatay Menüler]: http://www.fatihhayrioglu.com/?p=211
   [CSS ile konumlandırma(positioning)]: http://www.fatihhayrioglu.com/?p=151
   [1]: /images/menu4_resim2.gif
-  [indir]: http://www.fatihhayrioglu.com/dokumanlar/menu4yeni.zip
+  [indir]: http://www.fatihhayrioglu.com/static/dokumanlar/menu4yeni.zip
   [http://www.alistapart.com/articles/dropdowns/]: http://www.alistapart.com/articles/dropdowns/
   [http://www.compassdesigns.net/]: http://www.compassdesigns.net/tutorials/joomla-tutorials/css-drop-down-menu.html
   [http://www.tanfa.co.uk/css/examples/menu/tutorial-h.asp#hs6]: http://www.tanfa.co.uk/css/examples/menu/tutorial-h.asp#hs6

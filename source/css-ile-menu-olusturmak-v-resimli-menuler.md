@@ -123,7 +123,7 @@ width:142px; background: url(images/menu.jpg) -130px -54px no-repeat; }
 #muz a.secili{ width:120px; background: url(images/menu.jpg) -272px
 -54px no-repeat; } #kivi a.secili{ width:108px; background:
 url(images/menu.jpg) -392px -54px no-repeat; } 
-<iframe src="/dokumanlar/menu_5.html" width="500" height="110" frameborder="0" scrolling="no"></iframe>
+<iframe src="/static/dokumanlar/menu_5.html" width="500" height="110" frameborder="0" scrolling="no"></iframe>
 
 Örnek kodları indirmek için [tıklayınız.][]
 
@@ -140,4 +140,4 @@ url(images/menu.jpg) -392px -54px no-repeat; }
   [3]: /images/resimlimenu_03.jpg
   [4]: /images/resimlimenu_04.jpg
   [5]: /images/resimlimenu_06.jpg
-  [tıklayınız.]: /dokumanlar/menu5.zip
+  [tıklayınız.]: /static/dokumanlar/menu5.zip

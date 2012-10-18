@@ -48,7 +48,7 @@ konumunu göreceli olarak belirlediğimizde de bu sorun görülmeyecektir.
 
 </p>
 
-  [tıklayınız.]: /dokumanlar/ie_peekaboo_hatasi_ornek.html
-  []: /dokumanlar/ceee_sorunlu.gif
-  [1]: /dokumanlar/ceee_sorunsuz.gif
+  [tıklayınız.]: /static/dokumanlar/ie_peekaboo_hatasi_ornek.html
+  []: /static/dokumanlar/ceee_sorunlu.gif
+  [1]: /static/dokumanlar/ceee_sorunsuz.gif
   [http://www.positioniseverything.net/explorer/peekaboo.html]: http://www.positioniseverything.net/explorer/peekaboo.html

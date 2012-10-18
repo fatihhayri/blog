@@ -52,10 +52,10 @@ Bu sorun [IE7][] versiyonunda giderilmiştir.
 
 </p>
 
-  [tıklayınız.]: /dokumanlar/ie_tekrarlayan_karakter_sorunu_ornek.html
-  []: /dokumanlar/ie_tekrarlananlrak.gif
+  [tıklayınız.]: /static/dokumanlar/ie_tekrarlayan_karakter_sorunu_ornek.html
+  []: /static/dokumanlar/ie_tekrarlananlrak.gif
   [3 piksel metin öteleme hatası]: http://www.fatihhayrioglu.com/ieun-3-piksel-metin-oteleme-hatasi/
-  [1]: /dokumanlar/ie_tekrarlayan_karakter_sorunu_ornek2.html
+  [1]: /static/dokumanlar/ie_tekrarlayan_karakter_sorunu_ornek2.html
   [IE7]: http://www.fatihhayrioglu.com/internet-explorer-7-ve-css/
   [http://www.positioniseverything.net/explorer/dup-characters.html]: http://www.positioniseverything.net/explorer/dup-characters.html
   [http://www.friendsofed.com/]: http://www.friendsofed.com/book.html?isbn=1590596145

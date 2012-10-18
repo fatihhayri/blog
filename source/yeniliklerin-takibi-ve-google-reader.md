@@ -383,7 +383,7 @@ olan yenilikleri takip etmek ve geri kalmamaktır. Ferruh Mavituna'nın
     "gr_pagerank"
   [![][14]]: http://www.fatihhayrioglu.com/wp-content/gr_pagerank.gif
   [PageRank]: http://labs.postrank.com/gr "PageRank"
-  [Benim Google Reader Dosyam (.xml)]: http://fatihhayrioglu.com/dokumanlar/google-reader-subscriptions.xml
+  [Benim Google Reader Dosyam (.xml)]: http://fatihhayrioglu.com/static/dokumanlar/google-reader-subscriptions.xml
   [bir makalede]: http://www.businessinsider.com/twitter-has-killed-rss-readers-traffic-to-google-reader-down-27-year-over-year-2010-9
     "bir makalede"
   [Verimli Bilgi Takibi]: http://ferruh.mavituna.com/verimli-bilgi-takibi-oku/

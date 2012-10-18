@@ -133,7 +133,7 @@ Safari 3.2.2 sürümlerinde test ettim.
   [Orhan Ekici]: http://orhanekici.info/ "Orhan Ekici"
   [jQuery UI]: http://jqueryui.com/ "jQuery UI"
   [sekme ekelentisi]: http://docs.jquery.com/UI/Tabs "sekme ekelentisi"
-  [tıklayınız.]: /dokumanlar/sekme.html
+  [tıklayınız.]: /static/dokumanlar/sekme.html
   [http://jqueryfordesigners.com/jquery-tabs/]: http://jqueryfordesigners.com/jquery-tabs/
     "http://jqueryfordesigners.com/jquery-tabs/"
   [http://broadcast.oreilly.com/2008/10/how-to-create-tabs-with-css-an.html]: http://broadcast.oreilly.com/2008/10/how-to-create-tabs-with-css-an.html

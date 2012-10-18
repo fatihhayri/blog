@@ -112,7 +112,7 @@ test edilmiştir.
   [1]: /images/gosteri2.gif
   [%56]: yuzde_cubugu.gif
   [anket sonuç ekranı]: /images/anket_sonuc_ekrani.gif
-  [tıklayınız.]: /dokumanlar/yuzde_cubugu.html
+  [tıklayınız.]: /static/dokumanlar/yuzde_cubugu.html
   [http://cssglobe.com/post/1468/pure-css-animated-progress-bar]: http://cssglobe.com/post/1468/pure-css-animated-progress-bar
   [http://pootato.org/tutorials/css/css-progress-bar/]: http://pootato.org/tutorials/css/css-progress-bar/
   [http://www.barenakedapp.com/the-design/displaying-percentages]: http://www.barenakedapp.com/the-design/displaying-percentages
