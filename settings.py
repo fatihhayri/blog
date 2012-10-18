@@ -6,6 +6,12 @@ SITENAME = u'Fatih Hayrioğlu\'nun not defteri'
 SITESUBTITLE = u'{ CSS, XHTML ve Javascript }'
 SITEURL = 'http://www.fatihhayrioglu.com'
 
+# Where to output the generated files.
+OUTPUT_PATH = 'html/'
+
+# path to look at for input files.
+PATH = "source"
+
 TIMEZONE = 'Europe/Istanbul'
 
 DEFAULT_LANG = 'tr'
@@ -37,5 +43,7 @@ FEED_ATOM = 'fatihhayri'
 
 DEFAULT_PAGINATION = 10
 
+TWITTER_USERNAME = "fatihhayri"
 DISQUS_SITENAME = "fatihhayri"
 GOOGLE_ANALYTICS = "UA-785768-1"
+
