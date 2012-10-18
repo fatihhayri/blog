@@ -348,7 +348,7 @@ aksaklığımız oldu ise affola.
   [http://fontface.codeandmore.com/]: http://fontface.codeandmore.com/
   [1]: http://onlinefontconverter.com/
   [http://www.font2web.com/]: http://www.font2web.com/
-  [tıklayınız.]: /static/dokumanlar/font_face/ornek.html
+  [tıklayınız.]: /dokumanlar/font_face/ornek.html
   [2]: http://www.phpied.com/gzip-your-font-face-files/ "tıklayınız."
   [Font türkçeleştirme]: http://www.google.com.tr/search?hl=tr&client=opera&rls=en&hs=wGu&q=font+T%C3%BCrk%C3%A7ele%C5%9Ftirme&btnG=Ara&meta=&aq=f&oq=
     "Font türkçeleştirme"

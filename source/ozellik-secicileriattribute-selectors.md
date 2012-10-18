@@ -200,13 +200,13 @@ ve etkilesimli kod yazmamızı saglamak.
 
   [(X)HTML Sayfa Yapısı ve CSS Kullanımı]: http://www.fatihhayrioglu.com/xhtml-sayfa-yapisi-ve-css-kullanimi/
   [Basit özellik seçicisi]: /images/basit_ozel_secici.gif
-  [tıklayınız.]: /static/dokumanlar/basit_ozellik_secici.html
+  [tıklayınız.]: /dokumanlar/basit_ozellik_secici.html
   [Özellik Değeri Seçicisi]: /images/ozellik_degeri_secicisi.gif
-  [1]: /static/dokumanlar/ozellik_degeri_secicisi.html
+  [1]: /dokumanlar/ozellik_degeri_secicisi.html
   [Kısmi Özellik Değeri Seçicisi]: /images/kismi_secici.gif
-  [2]: /static/dokumanlar/kismi_secici.html
+  [2]: /dokumanlar/kismi_secici.html
   [Dikkate Değer Özellik Seçicisi]: /images/dikkate_deger_secici.gif
-  [3]: /static/dokumanlar/dikkate_deger_secici.html
+  [3]: /dokumanlar/dikkate_deger_secici.html
   [http://www.blooberry.com/]: http://www.blooberry.com/indexdot/css/syntax/selectors/attribute.htm
   [http://www.456bereastreet.com/]: http://www.456bereastreet.com/archive/200510/css_21_selectors_part_2/
   [http://css.maxdesign.com.au/]: http://css.maxdesign.com.au/selectutorial/selectors_attribute.htm

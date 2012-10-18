@@ -104,18 +104,18 @@ son olarak linklerin arasını ayıralım:
 
 [sourcecode language='css'] ul.menu li { margin: 0 0 .2em 0; }
  İşte menümüzün son hali
-<iframe src="/static/dokumanlar/menu.htm" width="250" height="200" frameborder="0" scroll="auto"></iframe>
+<iframe src="/dokumanlar/menu.htm" width="250" height="200" frameborder="0" scroll="auto"></iframe>
 
 </p>
 
   [Ana Sayfa]: index.html
   [Hakkımızda]: hakkimizda.html
   [Ürünler]: urunler.html
-  []: /static/dokumanlar/menu1.gif
-  [1]: /static/dokumanlar/menu2.gif
-  [2]: /static/dokumanlar/menu3.gif
-  [3]: /static/dokumanlar/menu4.gif
-  [4]: /static/dokumanlar/menu5.gif
-  [5]: /static/dokumanlar/menu6.gif
-  [6]: /static/dokumanlar/menu7.gif
-  [7]: /static/dokumanlar/menu8.gif
+  []: /dokumanlar/menu1.gif
+  [1]: /dokumanlar/menu2.gif
+  [2]: /dokumanlar/menu3.gif
+  [3]: /dokumanlar/menu4.gif
+  [4]: /dokumanlar/menu5.gif
+  [5]: /dokumanlar/menu6.gif
+  [6]: /dokumanlar/menu7.gif
+  [7]: /dokumanlar/menu8.gif

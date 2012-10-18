@@ -287,10 +287,10 @@ başlıklar için kullanmak gayet mantıklı. Takdir ve seçim sizin.
 
 </p>
 
-  [tıklayınız.]: /static/dokumanlar/birinci_teknik.html
-  [1]: /static/dokumanlar/ikinci_teknik.html
+  [tıklayınız.]: /dokumanlar/birinci_teknik.html
+  [1]: /dokumanlar/ikinci_teknik.html
   [CSS ile Menü Oluşturmak V - Resimli Menüler]: http://www.fatihhayrioglu.com/?p=222
-  [2]: /static/dokumanlar/ucuncu_teknik.html
+  [2]: /dokumanlar/ucuncu_teknik.html
   [Mehmet Doğan]: http://www.altiustutasarim.com/arsiv/2005/03/css_fir_teknigi.php
   [Mike Davidson]: http://www.mikeindustries.com
   [buradan]: http://www.mikeindustries.com/sifr/
@@ -298,7 +298,7 @@ başlıklar için kullanmak gayet mantıklı. Takdir ve seçim sizin.
   [3]: /images/sirf_02.gif
   [4]: /images/sirf_03.gif
   [5]: /images/sirf_04.gif
-  [6]: /static/dokumanlar/fatih.html
+  [6]: /dokumanlar/fatih.html
   [Introduction to Scalable Inman Flash Replacement (sIFR)]: http://www.adobe.com/devnet/dreamweaver/articles/sifr_demo.html
   [sIFR3]: http://novemberborn.net/sifr3/beta1
   [http://www.ampsoft.net/­webdesign-l/image-button.html]: http://www.ampsoft.net/­webdesign-l/image-button.html

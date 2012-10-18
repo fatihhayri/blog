@@ -166,10 +166,10 @@ hızlı bir şekilde çözmek mümkün oluyor.
 </p>
 
   [float sorunu]: /images/clearfix_sorun.gif
-  [tıklayınız.]: /static/dokumanlar/float_sorunu.html
+  [tıklayınız.]: /dokumanlar/float_sorunu.html
   [tıklayınız]: http://www.fatihhayrioglu.com/?p=86
     "psedu elementleri ve seçicileri "
-  [1]: /static/dokumanlar/float_cozumu.html
+  [1]: /dokumanlar/float_cozumu.html
   [float çözümü]: /images/clearfix_cozum.gif
   [Doug]: http://dougsdvds.info/ "Doug"
   [Mark Hadley]: http://www.nolocation.com/ "Mark Hadley"

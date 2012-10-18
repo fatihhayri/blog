@@ -85,8 +85,8 @@ gerekiyor:/
 
 </p>
 
-  []: /static/dokumanlar/3piksel_sorunu.gif
-  [1]: /static/dokumanlar/3piksel_sorunu2.gif
+  []: /dokumanlar/3piksel_sorunu.gif
+  [1]: /dokumanlar/3piksel_sorunu2.gif
   [önceki konulardan]: http://www.fatihhayrioglu.com/ieda-ikikat-gorulen-margin-problemi-ve-cozumu/
   [IE7]: http://www.fatihhayrioglu.com/internet-explorer-7-ve-css/
   [http://www.positioniseverything.net/explorer/threepxtest.html]: http://www.positioniseverything.net/explorer/threepxtest.html

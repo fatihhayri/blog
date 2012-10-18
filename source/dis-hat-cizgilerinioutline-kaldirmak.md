@@ -22,7 +22,7 @@ kullandığım metin yerine resim koyma metodunu kullanarak yaptığım
 
 -   [http://www.fatihhayrioglu.com/css-ile-basit-sekilde-fare-uzerine-gelincerollover-resim-degisimi-yapmak/][]
 -   [http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/][]
--   [http://www.fatihhayrioglu.com/static/dokumanlar/basit_resimli_menu.html][]
+-   [http://www.fatihhayrioglu.com/dokumanlar/basit_resimli_menu.html][]
 
 text-indent:-9999px  ile görünmez yaptığımız metinleri outline ile
 görünür hale getirdiğimizde pek hoş görüntüler ile karşılaşmayız.
@@ -174,8 +174,8 @@ sonunda örneğimiz ie de de çalışacaktır.
     "http://www.fatihhayrioglu.com/css-ile-basit-sekilde-fare-uzerine-gelincerollover-resim-degisimi-yapmak/"
   [http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/]: http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/
     "http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/"
-  [http://www.fatihhayrioglu.com/static/dokumanlar/basit_resimli_menu.html]: http://www.fatihhayrioglu.com/static/dokumanlar/basit_resimli_menu.html
-    "http://www.fatihhayrioglu.com/static/dokumanlar/basit_resimli_menu.html"
+  [http://www.fatihhayrioglu.com/dokumanlar/basit_resimli_menu.html]: http://www.fatihhayrioglu.com/dokumanlar/basit_resimli_menu.html
+    "http://www.fatihhayrioglu.com/dokumanlar/basit_resimli_menu.html"
   [outline çizgileri]: /images/outline_cizgi.gif
   [outline çizgi düzeltme]: /images/outline_cizgi_ff.gif
   [Eric Meyer]: http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
@@ -184,7 +184,7 @@ sonunda örneğimiz ie de de çalışacaktır.
   [webaim.org/]: http://webaim.org/ "webaim.org/"
   []: /images/outline_kaldir1.gif
   [1]: /images/outline_kaldir2.gif
-  [tıklayınız.]: /static/dokumanlar/fare_degisen_resim_klavye.html
+  [tıklayınız.]: /dokumanlar/fare_degisen_resim_klavye.html
   [http://css-tricks.com/removing-the-dotted-outline/]: http://css-tricks.com/removing-the-dotted-outline/
     "http://css-tricks.com/removing-the-dotted-outline/"
   [http://snipplr.com/view/15704/eliminating-the-dotted-line-box-that-appears-around-a-link/]: http://snipplr.com/view/15704/eliminating-the-dotted-line-box-that-appears-around-a-link/

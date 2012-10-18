@@ -359,17 +359,17 @@ bulunmaktadır aşağıdaki bağlantıları incelemenizi önemle rica ediyorum.
   [CSS ile Erişilebilir Formlar Yapmak – I]: http://www.fatihhayrioglu.com/css-ile-erisilebilir-formlar-yapmak-i/
     "CSS ile Erişilebilir Formlar Yapmak – I"
   [1]: https://docs.google.com/File?id=dhctmbn6_445dqtgbvf7_b
-  [tıklayınız.]: http://fatihhayrioglu.com/static/dokumanlar/buton_olusturmak/3b_buton.html
+  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/buton_olusturmak/3b_buton.html
   [2]: https://docs.google.com/File?id=dhctmbn6_44663t82mfp_b
   [3]: https://docs.google.com/File?id=dhctmbn6_439dp6sg4gb_b
   [4]: https://docs.google.com/File?id=dhctmbn6_441dvj8knnx_b
   [5]: https://docs.google.com/File?id=dhctmbn6_442f7phscf4_b
   [6]: https://docs.google.com/File?id=dhctmbn6_444hp5nkngm_b
-  [7]: http://fatihhayrioglu.com/static/dokumanlar/buton_olusturmak/cancali_buton_hover_focus.html
+  [7]: http://fatihhayrioglu.com/dokumanlar/buton_olusturmak/cancali_buton_hover_focus.html
   [8]: https://docs.google.com/File?id=dhctmbn6_447cnrf2jfh_b
   [9]: https://docs.google.com/File?id=dhctmbn6_448dz8mbpgd_b
-  [10]: http://fatihhayrioglu.com/static/dokumanlar/buton_olusturmak/css3_butonlar1.html
-  [11]: http://fatihhayrioglu.com/static/dokumanlar/buton_olusturmak/css3_butonlar2.html
+  [10]: http://fatihhayrioglu.com/dokumanlar/buton_olusturmak/css3_butonlar1.html
+  [11]: http://fatihhayrioglu.com/dokumanlar/buton_olusturmak/css3_butonlar2.html
   [12]: https://docs.google.com/File?id=dhctmbn6_449fbfbdt25_b
   [http://speckyboy.com/2010/02/15/20-css3-tutorials-and-techiques-for-creating-buttons/]: http://speckyboy.com/2010/02/15/20-css3-tutorials-and-techiques-for-creating-buttons/
     "http://speckyboy.com/2010/02/15/20-css3-tutorials-and-techiques-for-creating-buttons/"

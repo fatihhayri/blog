@@ -28,7 +28,7 @@ ARTICLE_URL = '{slug}/'
 ARTICLE_SAVE_AS = '{slug}/index.html'
 
 MD_EXTENSIONS = ['codehilite', 'extra']
-
+STATIC_PATHS = ['dokumanlar',]
 MENUITEMS = [('Anasayfa', '/'),
              (u'Hakkımda', '/hakkimda/'),
              ('CSS Dersleri', '/css-dersleri/'),

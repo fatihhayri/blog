@@ -196,9 +196,9 @@ $('li').has('ul').css('background-color', 'red');
   [Jquery ipuçları - 2]: http://www.fatihhayrioglu.com/jquery-ipuclari-2/
   [Jquery ipuçları - 3]: http://www.fatihhayrioglu.com/jquery-ipuclari-3/
   []: https://docs.google.com/File?id=dhctmbn6_475gb79fp54_b
-  [tıklayınız.]: http://www.fatihhayrioglu.com/static/dokumanlar/console_log.html
-  [1]: http://www.fatihhayrioglu.com/static/dokumanlar/delay_metodu.html
-  [2]: http://www.fatihhayrioglu.com/static/dokumanlar/has_metodu.html
+  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/console_log.html
+  [1]: http://www.fatihhayrioglu.com/dokumanlar/delay_metodu.html
+  [2]: http://www.fatihhayrioglu.com/dokumanlar/has_metodu.html
   [http://www.tripwiremagazine.com/2009/10/jquery-and-general-javascript-tips-to-improve-your-code.html]: http://www.tripwiremagazine.com/2009/10/jquery-and-general-javascript-tips-to-improve-your-code.html
     "http://www.tripwiremagazine.com/2009/10/jquery-and-general-javascript-tips-to-improve-your-code.html"
   [http://www.tvidesign.co.uk/blog/improve-your-jquery-25-excellent-tips.aspx]: http://www.tvidesign.co.uk/blog/improve-your-jquery-25-excellent-tips.aspx

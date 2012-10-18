@@ -54,7 +54,7 @@ background-color: #E2E2E2; } ul.menu li a:hover { background-color:
 
 Sonuç işte:
 
-<iframe src="/static/dokumanlar/menuy.html" width="300" height="50" frameborder="0" scrolling="auto"></iframe>
+<iframe src="/dokumanlar/menuy.html" width="300" height="50" frameborder="0" scrolling="auto"></iframe>
 
 Biz burada temel menü örnekleri verdik. Mesele işin yapılışını öğrenmek.
 Daha ayrıntılı ve güzel örnekler internette bir çok yerde mevcut. Gerek

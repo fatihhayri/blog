@@ -161,16 +161,16 @@ hakkındaki aşağıdaki bilgilerde bize çözüm konusunda yardımcı olacaktı
 </p>
 
   [W3C]: http://www.w3.org/TR/CSS21/box.html#collapsing-margins
-  [tıklayınız.]: /static/dokumanlar/margin_cokmesi_01.html
+  [tıklayınız.]: /dokumanlar/margin_cokmesi_01.html
     "Kenar boşluğu çökmesi"
   [Resim - 1]: /images/margin_cokmesi2.gif
   [Resim - 2]: /images/margin_cokmesi1.gif
-  [1]: /static/dokumanlar/margin_cokmesi_02.html
+  [1]: /dokumanlar/margin_cokmesi_02.html
   [Olması gerek kenar boşluğu görünüm]: /images/margin_cokmesi21.gif
   []: /images/margin_cokmesi22.gif
   [2]: /images/margin_cokmesi31.gif
   [3]: /images/margin_cokmesi32.gif
-  [4]: /static/dokumanlar/margin_cokmesi_03.html
+  [4]: /dokumanlar/margin_cokmesi_03.html
   [http://www.andybudd.com/archives/2003/11/no_margin_for_error/]: http://www.andybudd.com/archives/2003/11/no_margin_for_error/
   [http://www.search-this.com/2007/05/07/wheres-my-margin-gone-or-why-111/]: http://www.search-this.com/2007/05/07/wheres-my-margin-gone-or-why-111/
   [http://www.ryznardesign.com/web_coding/tests/2004/preventing_margin_collapse.html]: http://www.ryznardesign.com/web_coding/tests/2004/preventing_margin_collapse.html

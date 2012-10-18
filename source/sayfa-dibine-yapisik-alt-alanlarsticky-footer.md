@@ -130,7 +130,7 @@ kapsanan sayfanızda sorun çıkabilir. Bunu engellemek için kodunuzu
     "cssstickyfooter.com"
   [http://www.fatihhayrioglu.com/float-uygulanmis-elementleri-tam-kapsayamama-sorunu/]: http://www.fatihhayrioglu.com/float-uygulanmis-elementleri-tam-kapsayamama-sorunu/
     "http://www.fatihhayrioglu.com/float-uygulanmis-elementleri-tam-kapsayamama-sorunu/"
-  [tıklayınız.]: /static/dokumanlar/sayfa_dibine_yapisik.html
+  [tıklayınız.]: /dokumanlar/sayfa_dibine_yapisik.html
   []: http://www.cssstickyfooter.com/using-sticky-footer-code.html
     "http://www.cssstickyfooter.com/using-sticky-footer-code.html"
   [http://www.cssstickyfooter.com/]: http://www.cssstickyfooter.com/

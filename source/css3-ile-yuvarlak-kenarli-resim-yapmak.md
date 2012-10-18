@@ -110,12 +110,12 @@ ikinci yöntem de kullanılabilir.
 
 </p>
 
-  [tıklayınız.]: http://fatihhayrioglu.com/static/dokumanlar/border_radius_resim_.html
+  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/border_radius_resim_.html
   []: https://lh5.googleusercontent.com/gLndP4VPjq8o0ReURiijye0gHVHNWXVLgerrYuZ7rDSTu5ZOkhayATtTmspfym08AUQhceJxvnhmSz_03Tr325FWhugB4g5-aC6OarKEqxlF0gcTiA
-  [1]: http://fatihhayrioglu.com/static/dokumanlar/border_radius_resim.html
+  [1]: http://fatihhayrioglu.com/dokumanlar/border_radius_resim.html
   [2]: https://lh6.googleusercontent.com/BguAW9wciO-kWJxCqLkWj7-0VoGg6RRXe_UfOCBWrAXJMc41F-Qt3EtMTz9nwNJo2grEnNe83nG4Je2u1uPE-mSBlm6cj0IIfam1ucRN9k0EYQJjVQ
   [CSS3 Rounded Image With jQuery]: http://www.webdesignerwall.com/tutorials/css3-rounded-image-with-jquery/
-  [3]: http://fatihhayrioglu.com/static/dokumanlar/border_radius_resim2.html
+  [3]: http://fatihhayrioglu.com/dokumanlar/border_radius_resim2.html
   [4]: https://lh3.googleusercontent.com/HIOubjsFMP0fFhreTxPL2NxZltLCUsIANHwS9C193L8OIiw5fEIgs37R3XusyJUn8NeQZYR3u6pK5JevZJi1YhbcKBksfgNeT0mIC4sTGiTQ8uK-_w
   [http://trentwalton.com/2010/08/03/css3-border-radius-rounded-avatars/]: http://trentwalton.com/2010/08/03/css3-border-radius-rounded-avatars/
   [http://stick.gk2.sk/blog/2009/03/image-with-rounded-corners-using-css3/]: http://stick.gk2.sk/blog/2009/03/image-with-rounded-corners-using-css3/

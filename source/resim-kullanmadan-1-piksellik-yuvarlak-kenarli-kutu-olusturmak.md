@@ -113,11 +113,11 @@ Hadi kalın sağlıcakla.
   [Yuvarlak Kenarlı Kutular]: http://www.fatihhayrioglu.com/yuvarlak-kenarli-kutular/
   [Yuvarlak kenarlı kutular(border-radius) oluşturmak]: http://www.fatihhayrioglu.com/yuvarlak-kenarli-kutularborder-radius-olusturmak/
   [1]: https://lh4.googleusercontent.com/23SRG-1WKRPSijX0GVloqxvgBzLJFRxuUbVjkU36hzGacLp5Y5zz6AxULdUJdl3zrKnFODcY7O4NNURxY7BGChNRa52LUeYt1Kj9l7AYsBDvejEKcQ
-  [tıklayınız.]: http://fatihhayrioglu.com/static/dokumanlar/1px_yuvarlak_kenar_1.html
+  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/1px_yuvarlak_kenar_1.html
   [2]: https://lh3.googleusercontent.com/UotpXlc2Cn_hp0o3sQ1EuTg865C-y_R6UpG-vCanTBXjp2pi9cFzaSqTmHyc5sJVVHRooMlaINOMQXkGzA_maIjzAKAVllPjkrcD2o5m6tz3sYAJZQ
-  [3]: http://fatihhayrioglu.com/static/dokumanlar/1px_yuvarlak_kenar_2.html
+  [3]: http://fatihhayrioglu.com/dokumanlar/1px_yuvarlak_kenar_2.html
   [4]: https://lh4.googleusercontent.com/6mgdtcyUg4pDLZGE4dbY1tvQQYUzQz3mhfMaqMmkWS9Zd6y5GZqEWBMeP7vdDxEKZel5JGrfTIGjuPH5c-M6UY4SxaHF7l58yYJhuFtr_vxfQlnuRQ
-  [5]: http://fatihhayrioglu.com/static/dokumanlar/1px_yuvarlak_kenar_1_hover.html
+  [5]: http://fatihhayrioglu.com/dokumanlar/1px_yuvarlak_kenar_1_hover.html
   [http://dmitry-baranovskiy.tumblr.com/post/34061791/one-pixel-rounded-corners]: http://dmitry-baranovskiy.tumblr.com/post/34061791/one-pixel-rounded-corners
   [http://www.askthecssguy.com/2008/03/one_pixel_notched_corners_as_u.html]: http://www.askthecssguy.com/2008/03/one_pixel_notched_corners_as_u.html
   [http://www.onderhond.com/blog/work/1px-rounded-corners]: http://www.onderhond.com/blog/work/1px-rounded-corners

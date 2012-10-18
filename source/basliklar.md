@@ -160,9 +160,9 @@ bilgi için "[Metin Yerine Resim/FlashEkleme Teknikleri (Image Replacement)][]" 
 
 </p>
 
-  [tıklayınız.]: /static/dokumanlar/baslik_deneme1.html
+  [tıklayınız.]: /dokumanlar/baslik_deneme1.html
   [Başlıklar]: /images/basliklar.gif
-  [1]: /static/dokumanlar/baslik_deneme2.html
+  [1]: /dokumanlar/baslik_deneme2.html
   [Metin Yerine Resim/FlashEkleme Teknikleri (Image Replacement)]: http://www.fatihhayrioglu.com/metin-yerine-resimflash-ekleme-teknikleri-image-replacement/
   [http://www.communitymx.com/content/article.cfm?cid=A1A37]: http://www.communitymx.com/content/article.cfm?cid=A1A37
   [http://www.paulmichaelsmith.com/blog/examples/headingicons/sample.php]: http://www.paulmichaelsmith.com/blog/examples/headingicons/sample.php

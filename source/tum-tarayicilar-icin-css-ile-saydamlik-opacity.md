@@ -62,11 +62,11 @@ denemedim bir bakın isterseniz.
 
 </p>
 
-  [tıklayınız.]: http://www.fatihhayrioglu.com/static/dokumanlar/donukluk.html
+  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/donukluk.html
   [W3C doğrulamasından]: http://jigsaw.w3.org/css-validator/
   [donuklasma_val2]: http://www.fatihhayrioglu.com/wp-content/donuklasma_val2.gif
     "donuklasma_val2"
-  [1]: http://www.fatihhayrioglu.com/static/dokumanlar/donukluk_dog.html
+  [1]: http://www.fatihhayrioglu.com/dokumanlar/donukluk_dog.html
   [http://robertnyman.com/2010/01/11/css-background-transparency-without-affecting-child-elements-through-rgba-and-filters/]: http://robertnyman.com/2010/01/11/css-background-transparency-without-affecting-child-elements-through-rgba-and-filters/
   [http://blog.evaria.com/2007/validate-css-style-opacity/]: http://blog.evaria.com/2007/validate-css-style-opacity/
     "http://blog.evaria.com/2007/validate-css-style-opacity/"

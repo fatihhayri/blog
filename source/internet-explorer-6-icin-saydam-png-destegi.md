@@ -338,23 +338,23 @@ için kullandığım yöntemi sizlerle paylaştım. Muhakkak daha iyi yöntemler
 
 </p>
 
-  [tıklayınız.]: /static/dokumanlar/resim_ekle.html
+  [tıklayınız.]: /dokumanlar/resim_ekle.html
   [Saydam PNG resim]: /images/saydampng_resim.gif
   [saydam png ie6]: /images/saydampng_resim_ie6.gif
-  [1]: /static/dokumanlar/resim_ekle2.html
+  [1]: /dokumanlar/resim_ekle2.html
   [2]: /images/saydampng_resim2_ie6.gif
   [Örnek Tasarım]: /images/ornek_sayfa.jpg
   [Örnek Kesim]: /images/ornek_kesim.jpg
   []: /images/photoshop_png.gif
-  [3]: /static/dokumanlar/ardalan_ekle.html
+  [3]: /dokumanlar/ardalan_ekle.html
   [Saydam PNG ardalan olarak kullanımı]: /images/saydam_ardalan1.gif
   [4]: /images/saydam_ardalan2.gif
   [5]: /images/saydam_ardalan1_ie.gif
   [6]: /images/saydam_ardalan2_ie.gif
-  [7]: /static/dokumanlar/ardalan_ekle3.html
+  [7]: /dokumanlar/ardalan_ekle3.html
   [8]: /images/saydam_ardalan3_ie.gif
   [9]: /images/saydam_ardalan4_ie.gif
-  [10]: /static/dokumanlar/ardalan_ekle4.html
+  [10]: /dokumanlar/ardalan_ekle4.html
   [http://komodomedia.com/blog/index.php/2007/11/05/css-png-image-fix-for-ie/]: http://komodomedia.com/blog/index.php/2007/11/05/css-png-image-fix-for-ie/
   [http://24ways.org/2007/supersleight-transparent-png-in-ie6]: http://24ways.org/2007/supersleight-transparent-png-in-ie6
   [http://www.satzansatz.de/cssd/tmp/alphatransparency.html]: http://www.satzansatz.de/cssd/tmp/alphatransparency.html

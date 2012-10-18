@@ -132,8 +132,8 @@ Kodlar IE6, IE7 ve FF da denenmiştir.
 </p>
 
   [İki Kolon]: /images/iki_kolon_yuzde.gif
-  [tıklayınız.]: /static/dokumanlar/iki_kolonlu_yuzdeyuz.html
+  [tıklayınız.]: /dokumanlar/iki_kolonlu_yuzdeyuz.html
   [Üç kolon]: /images/uc_kolon_yuzde.gif
-  [1]: /static/dokumanlar/uc_kolonlu_yuzdeyuz.html
+  [1]: /dokumanlar/uc_kolonlu_yuzdeyuz.html
   [http://www.maxdesign.com.au/presentation/liquid/example02.htm]: http://www.maxdesign.com.au/presentation/liquid/example02.htm
   [http://ryanfait.com/sticky-footer/]: http://ryanfait.com/sticky-footer/

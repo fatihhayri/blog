@@ -93,5 +93,5 @@ window.attachEvent("onload", sfFocus);
 
 </p>
 
-  [tıklayınız.]: /static/dokumanlar/odaklanma_ornek.html
-  [1]: /static/dokumanlar/odaklanma_ornek2.html
+  [tıklayınız.]: /dokumanlar/odaklanma_ornek.html
+  [1]: /dokumanlar/odaklanma_ornek2.html

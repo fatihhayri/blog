@@ -137,11 +137,11 @@ okunaksız hale getirebilir, buna dikkat etmek gerekir.
 
   [Friendfeed’de bir serzenişim üzerine Fatih Turan’ın bir cevabı]: http://friendfeed.com/arayuz-gelistiriciler/120084de/css-yazarken-ustten-gelen-degerleri-ezmek-icin
   [CSS’de Tanımlamalar ve Etkinlikleri(Specificity)]: http://www.fatihhayrioglu.com/cssde-tanimlamalar-ve-etkinliklerispecificity/
-  [tıklayınız.]: http://fatihhayrioglu.com/static/dokumanlar/important_kullanimi.html
+  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/important_kullanimi.html
   []: https://lh3.googleusercontent.com/Dnco6jKWpezF_20xMVvlddnRWHtrZp8qUbfziW1cBRUBlGc8ep3trPV1SgOgPyU7mS4ltgeqmdotsuVLbtwBwvLyhAPmKGfpLYvM_qeSH2JNSCFgEA
   [1]: https://lh4.googleusercontent.com/1Zi5S_75_Uj278dNpnw0CjChgxhyh1uJXAyD5gwTWzBK1c2_AFMI99Wsl8wOIbgJ99fn82tiLa26Wrvd74dgYrg9G1qNLH7SJb-xplz-LyUs9GUMfg
-  [2]: http://fatihhayrioglu.com/static/dokumanlar/important_kullanimi2.html
-  [3]: http://fatihhayrioglu.com/static/dokumanlar/important_kullanimi3.html
+  [2]: http://fatihhayrioglu.com/dokumanlar/important_kullanimi2.html
+  [3]: http://fatihhayrioglu.com/dokumanlar/important_kullanimi3.html
   [4]: https://lh4.googleusercontent.com/k4feQBZhKIgAEdx-nVS7HLKHhYCjBboutU5CxKoI_sxdt53CUgH98KJB0fXzcpVbDbrEq3-y9Bi8Mxbo_nkBEPFhfhY-fxVKdVS13qJnykWupm4qOg
   [http://www.fatihhayrioglu.com/css-de-kodumuzu-ieden-gizleme/]: http://www.fatihhayrioglu.com/css-de-kodumuzu-ieden-gizleme/
   [Fatih Turan]: http://www.fatihturan.com/

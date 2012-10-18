@@ -412,14 +412,14 @@ Bu özellik Internet Explorer tarafından desteklenmemektedir.
 [border-spacing]: #boder-spacing
 [empty-cells]: #empty-cells
 [caption-side örneği]: http://www.fatihhayrioglu.com/images/table_layout.gif
-[tıklayınız.]: http://www.fatihhayrioglu.com/static/dokumanlar/table-layout.html
+[tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/table-layout.html
 [1]: http://www.fatihhayrioglu.com/images/caption_side.gif
-[2]: http://www.fatihhayrioglu.com/static/dokumanlar/caption_side.html
-[3]: http://www.fatihhayrioglu.com/static/dokumanlar/border-collapse.html
+[2]: http://www.fatihhayrioglu.com/dokumanlar/caption_side.html
+[3]: http://www.fatihhayrioglu.com/dokumanlar/border-collapse.html
 [border-collapse örneği]: http://www.fatihhayrioglu.com/images/border-collapse.gif
-[4]: http://www.fatihhayrioglu.com/static/dokumanlar/border-spacing.html
+[4]: http://www.fatihhayrioglu.com/dokumanlar/border-spacing.html
 [border-spacing örneği]: http://www.fatihhayrioglu.com/images/border_spacing.gif
-[5]: http://www.fatihhayrioglu.com/static/dokumanlar/empty_cells.html
+[5]: http://www.fatihhayrioglu.com/dokumanlar/empty_cells.html
 [empty-cells örneği]: http://www.fatihhayrioglu.com/images/empty_cells.gif
 [http://www.w3.org/TR/REC-CSS2/tables.html]: http://www.w3.org/TR/REC-CSS2/tables.html
 [http://www.w3schools.com/css/css_table.asp]: http://www.w3schools.com/css/css_table.asp

@@ -88,12 +88,12 @@ uyum sağlamasına yarar.
 
 </p>
 
-  [tıklayınız.]: http://fatihhayrioglu.com/static/dokumanlar/cift_cizgili_ayrac_kullanimi/cc_yatay_menuler.html
-  [1]: http://fatihhayrioglu.com/static/dokumanlar/cift_cizgili_ayrac_kullanimi/cc_yatay_menuler_2.html
+  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/cift_cizgili_ayrac_kullanimi/cc_yatay_menuler.html
+  [1]: http://fatihhayrioglu.com/dokumanlar/cift_cizgili_ayrac_kullanimi/cc_yatay_menuler_2.html
   []: https://lh5.googleusercontent.com/3kw9YRieW_VXzEOEOqV96vRUKzMyrMD5Ov0n6065pDryNdmTfT6v7Ck17GEdG9SUwHI6KMr2kgtfpkqXctUafIbhJ3EndKnzWm9TAlRHsn1fJzvF
-  [2]: http://fatihhayrioglu.com/static/dokumanlar/cift_cizgili_ayrac_kullanimi/cc_dikey_menuler_2.html
+  [2]: http://fatihhayrioglu.com/dokumanlar/cift_cizgili_ayrac_kullanimi/cc_dikey_menuler_2.html
   [3]: https://lh6.googleusercontent.com/kNhVcSKGO9UtLs9C63ZGCMCLQTz1p8Y6Uo4CxiYTXspEMvrgFj14NSpGf2qq3ZBH6Q28oD4MJZKMb0fqJBP2lngN4WsWhTlLNQeXzBk6JJ9TzGNKXw
   [css ile buton yapmak]: http://www.fatihhayrioglu.com/css-ile-buton-yapmak/
   [Firefox’un sitesinde]: https://addons.mozilla.org/en-US/firefox/
-  [4]: http://fatihhayrioglu.com/static/dokumanlar/cift_cizgili_ayrac_kullanimi/cc_border_grove.html
+  [4]: http://fatihhayrioglu.com/dokumanlar/cift_cizgili_ayrac_kullanimi/cc_border_grove.html
   [5]: https://lh4.googleusercontent.com/QG6mKNTajXXLlILJu0BXBTG4dGpNPJjm2s06_-XE9rbV9p5P0XKgiD05j1DCCAxEwdZo-iliMvdRkxKLWFuctdaPB1_HVX1msMaLK4PtUFoISnSB

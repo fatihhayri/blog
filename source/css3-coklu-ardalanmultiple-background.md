@@ -199,7 +199,7 @@ Kalın sağlıcakla.
   [CSS ile sekmeli tab menu yapımı]: http://www.fatihhayrioglu.com/css-ile-sekmelitab-menu-yapimi/
   [CSS ile gölge vermek]: http://www.fatihhayrioglu.com/css-ile-golge-vermek/
   [CSS ile buton yapmak]: http://www.fatihhayrioglu.com/css-ile-buton-yapmak/
-  [tıklayınız.]: http://fatihhayrioglu.com/static/dokumanlar/coklu_ardalan_tanimi/css_ile_buton.html
+  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/coklu_ardalan_tanimi/css_ile_buton.html
   [Alıntı: blockquote ve q etiketleri]: http://www.fatihhayrioglu.com/alinti-blockquote-ve-q-etiketleri/
   []: https://lh5.googleusercontent.com/SJPUNhGo1EIpgZCusQV8ahSeUnnYrIbtpMefhym0mfKhJhjgLsGQ9QB1mkm8-jwnpF9YNoPoS8feY1b5zu2dlGxADYrohj8UtXwqP7oNGK6MCYRyVIU
   [1]: http://www.fatihhayrioglu.com/wp-content/alinti_ard-300x12.gif
@@ -208,9 +208,9 @@ Kalın sağlıcakla.
   [2]: http://www.fatihhayrioglu.com/wp-content/alinti_sema-300x45.gif
     "alinti_sema"
   [![][2]]: http://www.fatihhayrioglu.com/wp-content/alinti_sema.gif
-  [3]: http://fatihhayrioglu.com/static/dokumanlar/coklu_ardalan_tanimi/alinti_coklu_ardalan.html
+  [3]: http://fatihhayrioglu.com/dokumanlar/coklu_ardalan_tanimi/alinti_coklu_ardalan.html
   [www.storiesinflight.com]: http://www.storiesinflight.com/
-  [4]: http://fatihhayrioglu.com/static/dokumanlar/coklu_ardalan_tanimi/coklu_ard_paralaks.html
+  [4]: http://fatihhayrioglu.com/dokumanlar/coklu_ardalan_tanimi/coklu_ard_paralaks.html
   [5]: https://lh3.googleusercontent.com/GJZCOSKaonqtZWRowbC3piRUAtnokihjVZiJsrpoH0o57aizW_h-lUD9BVbVaxS1LfTy_epfpqAZ4QfVDAY7OxMblGYo2jAChutnXQcM8Mdvs7QJM34
   [6]: https://lh3.googleusercontent.com/oxpb3X9kHeRE5dTNBgxITu8aboSFcjEy794Lk6s_f2yZaGQ907oICh-OWvcfbaK5NK7aLjgSnXrv8v6EU8biB5g4kiahmYf1tTaOqBboxqapOSS2_YY
   [http://helephant.com/2009/11/css3-multiple-background-images/]: http://helephant.com/2009/11/css3-multiple-background-images/

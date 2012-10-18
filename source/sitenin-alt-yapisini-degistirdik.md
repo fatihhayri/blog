@@ -50,7 +50,7 @@ Sitenin Eksikleri
     10. Tarayıcı Uyumu kısmı sorunlu
     11. Yapısı Bölümü sorunlu
     12. Siteden gelen resimler sorunlu
-    13. Sitedeki örnek htmller sorunlu (http://fatihhayrioglu.com/static/static/dokumanlar/ardalan_ekle4.html)
+    13. Sitedeki örnek htmller sorunlu (http://fatihhayrioglu.com/static/dokumanlar/ardalan_ekle4.html)
 4.  Highlight tasarımını değiştir
 5.  Site tasarımına el at.
 6.  Açılmayan Sayfalar

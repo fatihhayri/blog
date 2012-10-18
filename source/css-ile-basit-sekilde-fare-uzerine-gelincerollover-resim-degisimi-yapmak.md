@@ -44,4 +44,4 @@ bulunan başlangıçta görünmeyen resmi eksi konum vererek gösteriyoruz.
     "Resimli Menüler"
   [anasayfaya dön]: /images/mak_degisen_resim.gif
   [Ana Sayfaya Dön]: anasayfa.htm
-  [tıklayınız]: /static/dokumanlar/fare_degisen_resim.html
+  [tıklayınız]: /dokumanlar/fare_degisen_resim.html

@@ -718,5 +718,5 @@ görüşmek dileğiyle hoşçakalın.
   [7]: http://www.fatihhayrioglu.com/wp-content/sosyal_altalan.jpg
     "sosyal_altalan"
   [![][7]]: http://www.fatihhayrioglu.com/wp-content/sosyal_altalan.jpg
-  [tıklayınız.]: http://fatihhayrioglu.com/static/dokumanlar/fm/index.html
-  [8]: http://www.fatihhayrioglu.com/static/dokumanlar/fm_anasayfa_html.rar
+  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/fm/index.html
+  [8]: http://www.fatihhayrioglu.com/dokumanlar/fm_anasayfa_html.rar

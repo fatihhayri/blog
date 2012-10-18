@@ -215,11 +215,11 @@ sitesini ziyaret etmenizi öneririm.
   [Faruk Ateş]: http://kurafire.net/log/archive/2007/06/22/pagination-101
     "Faruk Ateş"
   [Site Sayfalama]: /images/sayfalama1.gif
-  [tıklayınız.]: /static/dokumanlar/sayfalama1.html "Genel Sayfalama Örneği"
+  [tıklayınız.]: /dokumanlar/sayfalama1.html "Genel Sayfalama Örneği"
   [Yahoyt Sayfalama]: /images/sayfalama3.gif
-  [1]: /static/dokumanlar/sayfalama3.html "Yahoyt Sayfalama Örneği"
+  [1]: /dokumanlar/sayfalama3.html "Yahoyt Sayfalama Örneği"
   [Bonus Kampanya Sayfalama]: /images/sayfalama2.gif
-  [2]: /static/dokumanlar/sayfalama2.html "Bonus Kampanyalar Sayfalama Örneği"
+  [2]: /dokumanlar/sayfalama2.html "Bonus Kampanyalar Sayfalama Örneği"
   [http://mis-algoritmos.com/2007/03/16/some-styles-for-your-pagination/]: http://mis-algoritmos.com/2007/03/16/some-styles-for-your-pagination/
     "http://mis-algoritmos.com/2007/03/16/some-styles-for-your-pagination/"
   [http://kurafire.net/log/archive/2007/06/22/pagination-101]: http://kurafire.net/log/archive/2007/06/22/pagination-101

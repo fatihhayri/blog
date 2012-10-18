@@ -237,7 +237,7 @@ Eğer başlangıç dosyalarımın bir kopyasını isterseniz [buradan alabilirsi
 </p>
 
   [Tantek Celik]: http://tantek.com/log/2004/undohtml.css
-  [tıklayınız.]: http://www.fatihhayrioglu.com/static/dokumanlar/duzenlenen%20tantek.css
+  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/duzenlenen%20tantek.css
   [Andy Budd]: http://www.shapeshed.com/journal/default_styles_for_css/www.andybudd.com/
   [mükemmel kitabından]: http://www.cssmastery.com/
   [Richard Rutter’un yaklaşımını]: http://clagnut.com/blog/348/

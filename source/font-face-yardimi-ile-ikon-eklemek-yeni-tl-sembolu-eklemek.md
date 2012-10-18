@@ -73,7 +73,7 @@ Alışveriş için seçtiğimiz sepet ikonun “i” harfi ile ifade edildiği i
 
 [![][1]][]
 
-Örnek: [http://www.fatihhayrioglu.com/static/dokumanlar/fontface_ikon.html][]
+Örnek: [http://www.fatihhayrioglu.com/dokumanlar/fontface_ikon.html][]
 
 Örnekte gördüğümüz gibi bir çok yerde ikonlarımızı CSS yardımı ile
 ekleyip boyutunu, rengini kolayca değiştirebiliriz.
@@ -165,7 +165,7 @@ ile sayfamıza ekledik.
   []: https://lh5.googleusercontent.com/79Rggs4m_IPXO4v7JCZQt1fSFLljkf9RuTtZDSPzqeg4D3pjzrKFmyboc6ZmVwnSUw7yDZUvklmSSCqFSo8YL3qslteMuQ8r4I-SxhoO6pJVZ1EhZog
   [1]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.44.09-AM.png "Screen shot 2012-03-08 at 10.44.09 AM"
   [![][1]]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.44.09-AM.png
-  [http://www.fatihhayrioglu.com/static/dokumanlar/fontface_ikon.html]: http://www.fatihhayrioglu.com/static/dokumanlar/fontface_ikon.html
+  [http://www.fatihhayrioglu.com/dokumanlar/fontface_ikon.html]: http://www.fatihhayrioglu.com/dokumanlar/fontface_ikon.html
   [http://www.fatihhayrioglu.com/fontface/fontface_ikon_buton.html]: http://www.fatihhayrioglu.com/fontface/fontface_ikon_buton.html
   [2]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.45.36-AM.png "Screen shot 2012-03-08 at 10.45.36 AM"
   [![][2]]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.45.36-AM.png

@@ -205,8 +205,8 @@ düşünüyorum. Hoşçakalın.
     "CSS Kodlama Teknikleri ve CSS Kodlarını Azaltma   Yöntemleri"
   [Basit Resimli Menü Yapmak]: http://www.fatihhayrioglu.com/basit-resimli-menu-yapmak/
     "Basit Resimli Menü Yapmak"
-  [tıklayınız.]: http://www.fatihhayrioglu.com/static/dokumanlar/kodazaltma2/bilgilendirme_1.html
-  [1]: http://www.fatihhayrioglu.com/static/dokumanlar/kodazaltma2/bilgilendirme_2.html
-  [2]: http://www.fatihhayrioglu.com/static/dokumanlar/kodazaltma2/bilgilendirme_3.html
+  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/kodazaltma2/bilgilendirme_1.html
+  [1]: http://www.fatihhayrioglu.com/dokumanlar/kodazaltma2/bilgilendirme_2.html
+  [2]: http://www.fatihhayrioglu.com/dokumanlar/kodazaltma2/bilgilendirme_3.html
   [http://www.jankoatwarpspeed.com/post/2008/05/22/CSS-Message-Boxes-for-different-message-types.aspx]: http://www.jankoatwarpspeed.com/post/2008/05/22/CSS-Message-Boxes-for-different-message-types.aspx
     "http://www.jankoatwarpspeed.com/post/2008/05/22/CSS-Message-Boxes-for-different-message-types.aspx"

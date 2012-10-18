@@ -76,7 +76,7 @@ elemanında bu sorun ile karşılaşılmıyor.
   [bu siteye göz atın]: http://www.satzansatz.de/cssd/onhavinglayout.html
   []: http://www.fatihhayrioglu.com/wp-content/arama_ardalan1.gif
     "arama_ardalan1"
-  [tıklayınız.]: http://fatihhayrioglu.com/static/dokumanlar/margin_inherit_form/inherit_margin_form_orn.html
+  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/margin_inherit_form/inherit_margin_form_orn.html
   [1]: http://www.fatihhayrioglu.com/wp-content/margin_inherit_ff.gif
     "margin_inherit_ff"
   [![][1]]: http://www.fatihhayrioglu.com/wp-content/margin_inherit_ff.gif
@@ -84,7 +84,7 @@ elemanında bu sorun ile karşılaşılmıyor.
     "margin_inherit_ie"
   [![][2]]: http://www.fatihhayrioglu.com/wp-content/margin_inherit_ie.gif
   [IE'da İkikat görülen Margin Problemi ve Çözümü]: http://www.fatihhayrioglu.com/ieda-ikikat-gorulen-margin-problemi-ve-cozumu/
-  [3]: http://fatihhayrioglu.com/static/dokumanlar/margin_inherit_form/inherit_margin_form_ornc.html
+  [3]: http://fatihhayrioglu.com/dokumanlar/margin_inherit_form/inherit_margin_form_ornc.html
   [4]: http://www.fatihhayrioglu.com/wp-content/margin_inherit_ie_c.gif
     "margin_inherit_ie_c"
   [![][4]]: http://www.fatihhayrioglu.com/wp-content/margin_inherit_ie_c.gif

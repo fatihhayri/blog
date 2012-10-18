@@ -382,17 +382,17 @@ yazdım linklerini.
 
   []: http://www.fatihhayrioglu.com/wp-content/rei.jpg "rei"
   [![][]]: http://www.fatihhayrioglu.com/wp-content/rei.jpg
-  [tıklayınız.]: /static/dokumanlar/cok_kolonlu/metot1.html
-  [1]: /static/dokumanlar/cok_kolonlu/metot1_.html
-  [2]: /static/dokumanlar/cok_kolonlu/metot2.html
-  [3]: /static/dokumanlar/cok_kolonlu/metot3.html
-  [4]: /static/dokumanlar/cok_kolonlu/metot3_.html
-  [5]: /static/dokumanlar/cok_kolonlu/metot4.html
+  [tıklayınız.]: /dokumanlar/cok_kolonlu/metot1.html
+  [1]: /dokumanlar/cok_kolonlu/metot1_.html
+  [2]: /dokumanlar/cok_kolonlu/metot2.html
+  [3]: /dokumanlar/cok_kolonlu/metot3.html
+  [4]: /dokumanlar/cok_kolonlu/metot3_.html
+  [5]: /dokumanlar/cok_kolonlu/metot4.html
   [csscripting.com]: http://www.csscripting.com/ "csscripting.com"
   [cvwdesign.com]: http://www.cvwdesign.com "cvwdesign.com"
   [çevrimiçi yui kompresor]: http://refresh-sf.com/yui/
     "çevrimiçi yui   kompresor"
-  [6]: /static/dokumanlar/cok_kolonlu/metot5.html
+  [6]: /dokumanlar/cok_kolonlu/metot5.html
   [http://www.useit.com/alertbox/mega-dropdown-menus.html]: http://www.useit.com/alertbox/mega-dropdown-menus.html
     "http://www.useit.com/alertbox/mega-dropdown-menus.html"
   [http://articles.techrepublic.com.com/5100-10878_11-5810687.html]: http://articles.techrepublic.com.com/5100-10878_11-5810687.html

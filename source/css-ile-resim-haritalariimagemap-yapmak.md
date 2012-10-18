@@ -135,7 +135,7 @@ avantaj sağlar.
   [Dexter - HTML]: /images/flickr_dexter.jpg
   [<span class="dis"><span class="ic"><span class="bilgi">Dexter</span></span></span>]: http://www.sho.com/site/dexter/
   [<span class="dis"><span class="ic"><span class="bilgi">HTML   4</span></span></span>]: http://www.w3.org/TR/REC-html40/
-  [tıklayınız]: http://www.fatihhayrioglu.com/static/dokumanlar/flickr-rollovers.htm
+  [tıklayınız]: http://www.fatihhayrioglu.com/dokumanlar/flickr-rollovers.htm
   [CSS Mastery: Advanced Web Standards Solutions - Andy Budd]: http://www.cssmastery.com/
     "CSS Mastery: Advanced Web Standards Solutions - Andy Budd"
   [http://www.frankmanno.com/ideas/css-imagemap/]: http://www.frankmanno.com/ideas/css-imagemap/

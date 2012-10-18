@@ -32,6 +32,6 @@ td{border-bottom:1px solid #000;}
 
 </p>
 
-  [tıklayınız.]: /static/dokumanlar/tablo_satiri_kenar.html
+  [tıklayınız.]: /dokumanlar/tablo_satiri_kenar.html
   [http://www.csarven.ca/tr-border-trick-for-ie]: http://www.csarven.ca/tr-border-trick-for-ie
     "http://www.csarven.ca/tr-border-trick-for-ie"

@@ -291,17 +291,17 @@ display:none özelliği kullanılır.
   [overflow scroll]: /images/overflow_scroll.gif
   [overflow:hidden]: /images/overflow_hidden.gif
   [overflow:auto]: /images/overflow_auto.gif
-  [tıklayınız.]: /static/dokumanlar/overflow_test.html
+  [tıklayınız.]: /dokumanlar/overflow_test.html
   [http://blog.deconcept.com/2005/03/25/safari-and-links-to-elements-in-overflow-auto-content]: http://blog.deconcept.com/2005/03/25/safari-and-links-to-elements-in-overflow-auto-content
   [http://nontroppo.org/test/Op7/overflowbug.html]: http://nontroppo.org/test/Op7/overflowbug.html
   [1]: http://www.brunildo.org/test/Overflowxy2.html
   [kırpma]: /images/kirpma.jpg
   [Kırpma]: /images/kirpma_ornek.jpg
-  [2]: /static/dokumanlar/clip_test.html
+  [2]: /dokumanlar/clip_test.html
   [Visibility örneği]: /images/visibility.gif
-  [3]: /static/dokumanlar/visibility.html
+  [3]: /dokumanlar/visibility.html
   [visibility hiyerarşi]: /images/visibility2.gif
-  [4]: /static/dokumanlar/visibility2.html
+  [4]: /dokumanlar/visibility2.html
   [http://www.w3.org/TR/CSS21/visufx.html]: http://www.w3.org/TR/CSS21/visufx.html
   [http://www.seifi.org/css/creating-thumbnails-using-the-css-clip-property.html]: http://www.seifi.org/css/creating-thumbnails-using-the-css-clip-property.html
   [http://www.ibloomstudios.com/articles/misunderstood_css_clip/]: http://www.ibloomstudios.com/articles/misunderstood_css_clip/

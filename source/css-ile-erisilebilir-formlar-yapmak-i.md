@@ -145,4 +145,4 @@ makalede daha karışık(gelişmiş) formların css ile yapılmasını göreceğ
   [Login Ekranının Firefox Ekran görüntüsü]: /images/loginform1.gif
   []: /images/loginform3.gif
   [1]: /images/loginform4.gif
-  [tıklayınız.]: http://www.fatihhayrioglu.com/static/dokumanlar/css_ile_form.html
+  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/css_ile_form.html
