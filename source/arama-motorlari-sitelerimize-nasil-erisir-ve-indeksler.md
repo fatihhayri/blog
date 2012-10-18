@@ -91,8 +91,7 @@ güvenliği belirlemenizi sağlarlar.
 
 **Daha fazla öğrenmek için**  
 *robots.txt* hakkında daha fazlasını [http://www.robotstxt.org][]’dan
-ve aşağıdakiler gibi birçok faydalı bilgileri kapsayan [Google's
-Webmaster yardım merkezi][]’nden öğrenebilirsiniz:
+ve aşağıdakiler gibi birçok faydalı bilgileri kapsayan [Google's Webmaster yardım merkezi][]’nden öğrenebilirsiniz:
 
 -   [How to create a robots.txt file][]
 -   [Descriptions of each user-agent that Google uses][]

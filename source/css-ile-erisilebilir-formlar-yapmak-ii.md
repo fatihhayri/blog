@@ -21,8 +21,7 @@ kodlaması yoktur. Aşağıda kodlayacağımız formun resmini görüyoruz.
 [![CSS ile Form][]][]
 
 Kodlamayı yaparken dikkat edeceğiz konu kullanıcıyı yormayan güzel
-görünümlü ve erişilebilirliği yüksek formlar hazırlamaktır. [Bir
-önceki][] yazımızda **fieldset** ve **legend** ve **label**
+görünümlü ve erişilebilirliği yüksek formlar hazırlamaktır. [Bir önceki][] yazımızda **fieldset** ve **legend** ve **label**
 etiketlerinden bahsettiğimiz için burada bu etiketler hakkında tekrar
 bir bilgi vermeyeceğiz. Diğer makalelerden farklı olarak bu makalede tüm
 kodları verip sonra açıklamalarını yapacağız, bunun nedeni form

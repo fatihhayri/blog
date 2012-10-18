@@ -209,8 +209,7 @@ kısaltmadır.
 
 **rotateX, rotateY, rotateZ ve rotate3d**
 
-[İki boyutlu düzlemde rotate değeri][2 Boyutlu Dönüştürme
-özelliklerini]tek tanım ile yetinilirken 3 boyutlu düzlemde 3 adet
+[İki boyutlu düzlemde rotate değeri][2 Boyutlu Dönüştürme özelliklerini]tek tanım ile yetinilirken 3 boyutlu düzlemde 3 adet
 rotate tanımı yapmak gerekir. Bundan dolayı rotateX, rotateY ve rotateZ
 tanımları 3 boyutlu düzlemde döndürme işlemleri için tanımlanmıştır.
 

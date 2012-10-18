@@ -9,8 +9,7 @@ boyutlarını en aza indirmiş oluruz.<!--more-->
 
 ###### 1. Font
 
-Normalde bir font tanımlarken 4 adet CSS kodu kullanılır: [sourcecode
-language='css'] font-weight: bold; font-family: verdana, sans-serif;
+Normalde bir font tanımlarken 4 adet CSS kodu kullanılır: [sourcecode language='css'] font-weight: bold; font-family: verdana, sans-serif;
 font-size: 11px; line-height: 15px; Kısaltma olarak
 kullanlan kod ise tek satır: [sourcecode language='css'] font: bold
 11px/15px verdana, sans-serif; 
@@ -21,8 +20,7 @@ Background tanımlarken 5 adet atama yapmamız gerekirken kısaltma
 kullanarak tek tanıma indirebilriz. [sourcecode language='css']
 background-color: #000; background-image: url(ard.jpg);
 background-repeat: no-repeat; background-attachment: fixed;
-background-position: 50px 50px;  Kısaltırsak: [sourcecode
-language='css'] background: { #000 url(ard.jpg) no-repeat fixed 50px
+background-position: 50px 50px;  Kısaltırsak: [sourcecode language='css'] background: { #000 url(ard.jpg) no-repeat fixed 50px
 50px; } 
 
 ###### 3. Renkler(Hex-decimal)
@@ -40,19 +38,15 @@ Kısaltılmış olanı **color: #fff;** kullanmanız daha avantajlıdır.
 ###### 4. Border
 
 Kenarklık tanımlamalarında her özellik için bir tanımlama yapılır. örnek
-olarak bir elementin üst kenarına atama yapmak için: [sourcecode
-language='css'] border-top-width: 2px; border-top-style: dashed;
-border-top-color: #f00;  Kısaltırsak: [sourcecode
-language='css'] border-top: 2px dashed #f00;  Bu
+olarak bir elementin üst kenarına atama yapmak için: [sourcecode language='css'] border-top-width: 2px; border-top-style: dashed;
+border-top-color: #f00;  Kısaltırsak: [sourcecode language='css'] border-top: 2px dashed #f00;  Bu
 özellikleri tüm kenarlara uygulmak için: [sourcecode language='css']
 border: 2px dashed #f00; 
 
 ###### 5. Margin ve Padding'ler
 
-Margin ve paddingler de normal tanımlama şöyledir: [sourcecode
-language='css'] margin-top: 10px; margin-right: 5px; margin-bottom:
-20px; margin-left: 15px; kıslatılmış hali: [sourcecode
-language='css']margin: 10px 5px 20px 15px; Burada
+Margin ve paddingler de normal tanımlama şöyledir: [sourcecode language='css'] margin-top: 10px; margin-right: 5px; margin-bottom:
+20px; margin-left: 15px; kıslatılmış hali: [sourcecode language='css']margin: 10px 5px 20px 15px; Burada
 öznitelikler sağdan başlayarak saat yönünde devam eder. Aşağıda çeşitli
 kısaltma yöntemleri birlikte verilmiştir:
 
@@ -77,8 +71,7 @@ olarak square özelliği gösterilecektir. */
 
 Kısaltmalarda son olarak '0' ın kullanımına değineceğiz. Normalde bir
 elemente değer ataması yapılırken değerin yanına birimi de yazılır(örn:
-3px, 0.2em vd.), Ancak sıfır '0' için bu zorunlu değilidir. [sourcecode
-language='css']padding:0; Bu durumun bir istisnası
+3px, 0.2em vd.), Ancak sıfır '0' için bu zorunlu değilidir. [sourcecode language='css']padding:0; Bu durumun bir istisnası
 mevcuttur oda yüzde değerlerinde atama yapılırken **0%**olarak atama
 yapılmalıdır.
 

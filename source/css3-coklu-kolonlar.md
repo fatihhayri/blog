@@ -324,8 +324,7 @@ kullanma imkanımız azalıyor. Javascript ile üretilen çözümler mevcut
 özellikleri olarak düşünmüştüm, ancak özellikleri inceledikçe sayfa
 planlama için değil daha çok elemanları belli genişlikte kolonlara
 bölmek için kullanılabilecek bir özellik olduğunu gördüm. Benim
-düşündüğüm şekli ise yine W3C’nin duyurduğu [Esnek Kutu Planlama
-Modülü][] karşılıyor. Çoklu Kolon javascript ile çözümde olsa henüz
+düşündüğüm şekli ise yine W3C’nin duyurduğu [Esnek Kutu Planlama Modülü][] karşılıyor. Çoklu Kolon javascript ile çözümde olsa henüz
 uygulayabileceğimiz özellikler içermiyor bence, tabi zaman ne gösterir
 bilemiyorum.
 
@@ -373,8 +372,7 @@ Kalın sağlıcakla
     örnek)
 -   [http://people.opera.com/zibin/multicol/index.html][] (güzel örnek)
 -   [http://www.juude.info/css-columns.php][] (güzel)
--   [http://www.csscripting.com/css-multi-column/][Multi Column Layout
-    Demonstration from CSS Scripting] (js ile çözüm)
+-   [http://www.csscripting.com/css-multi-column/][Multi Column Layout     Demonstration from CSS Scripting] (js ile çözüm)
 -   [http://zomigi.com/blog/deal-breaker-problems-with-css3-multi-columns/][]
     (sorunları)
 -   [http://help.dottoro.com/lcxquvkf.php][]

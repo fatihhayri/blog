@@ -117,8 +117,7 @@ artik */
 **şekil2** float sorununun çözülmüş hali
 
 Bu metot bu sorunun çözümü için en ideal çözümdür. Bu sorunun çözümünde
-birçok insanın emeği geçmiştir. [Doug][], [Mark Hadley][], [Matt
-Keogh][], [Holly’n John][] ve [Tony Asslet][]‘a bundan dolayı
+birçok insanın emeği geçmiştir. [Doug][], [Mark Hadley][], [Matt Keogh][], [Holly’n John][] ve [Tony Asslet][]‘a bundan dolayı
 şükranlarımızı sunarız. thank you guys :D Ayrıca bu konuda Türkçe bir
 makale yazan [dahaiyi.net][]'e çok teşekkürler.
 

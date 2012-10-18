@@ -25,8 +25,7 @@ Sırasıyla incelersek:
 
 <div class="cssozelliktanimi">
 **Yapısı :** border-style: <deger>  
-**Aldığı Değerler :** [ none | hidden | dotted | dashed | solid |
-double | groove | ridge | inset | outset ]{1,4} | inherit  
+**Aldığı Değerler :** [ none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset ]{1,4} | inherit  
 **Başlnagıç değeri:**tanımlama yok   
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
@@ -84,8 +83,7 @@ CSS Profile 1.0
 
 <div class="cssozelliktanimi">
 **Yapısı :** border-width: <deger>  
-**Aldığı Değerler :** [ thin | medium | thick | <[uzunluk değeri][]>
-]{1,4} | inherit  
+**Aldığı Değerler :** [ thin | medium | thick | <[uzunluk değeri][]> ]{1,4} | inherit  
 **Başlnagıç değeri:** tanımlama yok  
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok

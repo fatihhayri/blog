@@ -129,16 +129,13 @@ https://developer.mozilla.org/en/DOM/window.onhashchange
     sadece **:after**ile çözüm yeterli olacak.
 -   [Tablo Satırına Verilen Ardalan Resminin Tekrarlama Sorunu][] ie
     için yok artık.
--   [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi
-    atamak][] sorunu yok artık
--   [İnternet Explorer’da sağdaki sabit kaydırma çubuğunu kaldırmak
-    sorunu][] yok artık
+-   [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi     atamak][] sorunu yok artık
+-   [İnternet Explorer’da sağdaki sabit kaydırma çubuğunu kaldırmak     sorunu][] yok artık
 -   [ie6/7′da postion:relative Uygulanmış Elemanlarda z-index Sorunu][]
     yok artık
 -   [overflow ve position:relative kullanımında ie sorunu][] yok artık
 -   [IE6 ve IE7′de bağlantılardaki cursor sorunu][] yok artık
--   [overflow:auto içinde %100 genişlikte tablo kullanımında ie7’de
-    yatay kaydırma çubuğu sorunu][] yok artık
+-   [overflow:auto içinde %100 genişlikte tablo kullanımında ie7’de     yatay kaydırma çubuğu sorunu][] yok artık
 -   [İE7 Bitişik Kardeş Seçicisi Sorunu][] yok artık
 -   [Kenar Boşluğu(Margin) Çökmesi][] sorunu yok artık
 -   @import tanımlarındaki ie7 sorunları yok artık.

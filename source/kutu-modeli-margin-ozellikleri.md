@@ -19,8 +19,7 @@ atın. <!--more-->
 
 ### margin-top<a name="01"></a>
 
-**Yapısı :** margin-top: <deger> **Aldığı Değerler :** [<uzunluk
-değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
+**Yapısı :** margin-top: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
 değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **Kalıtsallık:** Yok
 
@@ -36,8 +35,7 @@ Level 1+ CSS Profile 1.0
 </div>
 ### margin-right <a name="02"></a>
 
-**Yapısı :** margin-right: <deger> **Aldığı Değerler :** [<uzunluk
-değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
+**Yapısı :** margin-right: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
 değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **Kalıtsallık:** Yok
 
@@ -53,14 +51,12 @@ Level 1+ CSS Profile 1.0
 </div>
 ### margin-bottom<a name="03"></a>
 
-**Yapısı :** margin-bottom: <deger> **Aldığı Değerler :** [<uzunluk
-değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
+**Yapısı :** margin-bottom: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
 değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **Kalıtsallık:** Yok
 
 **margin-bottom** özelliği elementin alt kenar boşluğunu bellibir değer
-kadar veya yüzde olarak belirler.Negatif değer alabilir. [sourcecode
-language='css'] p { margin-bottom: 10px } 
+kadar veya yüzde olarak belirler.Negatif değer alabilir. [sourcecode language='css'] p { margin-bottom: 10px } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's CSS
@@ -69,8 +65,7 @@ Level 1+ CSS Profile 1.0
 </div>
 ### margin-left<a name="04"></a>
 
-**Yapısı :** margin-left: <deger> **Aldığı Değerler :** [<uzunluk
-değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
+**Yapısı :** margin-left: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
 değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **Kalıtsallık:** Yok
 

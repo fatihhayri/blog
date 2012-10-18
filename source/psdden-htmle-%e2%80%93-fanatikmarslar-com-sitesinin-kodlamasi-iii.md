@@ -56,8 +56,7 @@ display:inline} #icerikalaniSag {float:left; width:300px}
 
 **Sol Orta Alan**
 
-#solOrtaAlan tanımına margin tanımlarını yapıyorum. Burada "[IE'da
-İkikat görülen Margin Problemi ve Çözümü][]" sorunu ile karşılaştığım
+#solOrtaAlan tanımına margin tanımlarını yapıyorum. Burada "[IE'da İkikat görülen Margin Problemi ve Çözümü][]" sorunu ile karşılaştığım
 için display:inline tanımı atadım.
 
 Kodlamaya sol orta alandan devam ediyorum.
@@ -580,8 +579,7 @@ edip yeni projelerimizde kullanmalıyız.
 sevinci ile bu makalemide bitiriyorum. Daha güzel makalelerde buluşmak
 dileğiyle kendinize iyi bakın.
 
-Projede yer alan tüm dosyaları sıkıştırıp attım. [Tüm dosyaları indirmek
-için tıklayınız.][]
+Projede yer alan tüm dosyaları sıkıştırıp attım. [Tüm dosyaları indirmek için tıklayınız.][]
 
 </p>
 

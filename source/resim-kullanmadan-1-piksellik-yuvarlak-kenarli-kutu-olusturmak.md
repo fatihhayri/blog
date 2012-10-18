@@ -4,8 +4,7 @@ Category: CSS, Web Standartları, XHTML
 Tags: 1px, Border, eksi-margin, Margin, yuvarlak kenar, yuvarlak kenarlı kutular
 
 [![][]][]Birçok yuvarlak kenarlı kutu oluşturma tekniği mevcut. Daha
-önce yuvarlak kenarlı kutuların nasıl yapıldığını anlattım “[Yuvarlak
-Kenarlı Kutular][]”, ayrıca CSS3 ile gelen border-radius özelliğinden
+önce yuvarlak kenarlı kutuların nasıl yapıldığını anlattım “[Yuvarlak Kenarlı Kutular][]”, ayrıca CSS3 ile gelen border-radius özelliğinden
 bahsettiğimiz “[Yuvarlak kenarlı kutular(border-radius) oluşturmak][]”
 makalemizde bahsettik. Şimdide daha farklı belki çok fazla kullanılmayan
 bir yuvarlak kenar çeşidini nasıl yapacağımızı anlatacağım. Aslında bu

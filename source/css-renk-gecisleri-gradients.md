@@ -234,8 +234,7 @@ renk geçişi bize özel şekil(daire ve elips) oluşturma imkanı verir.
 uygulanabilirliği azalıyor. Uygulamak için beklememiz gerekiyor
 
 	:::css
-	 radial-gradient( [<position> || <angle>,]? [<shape> ||
-<size>,]? <stop>, <stop>[, <stop>]* ) 
+	 radial-gradient( [<position> || <angle>,]? [<shape> || <size>,]? <stop>, <stop>[, <stop>]* ) 
 
 **position(konum):**background-position ile aynı şekilde yorumlanır.
 Başlangıç değeri center dir.

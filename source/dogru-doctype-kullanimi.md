@@ -45,8 +45,7 @@ mod**(Quirks mode). Standart mod sayfa ayrıntılı olarak ve en iyi
 daha duyarsız davranacaklardır. Örneğin IE4 ve NN4 gibi.
 
 Bu iki mod arasındaki farkı görebilemke için Windows üzerindeki IE'de
-kutu modeline bakmalıyız. IE6 başlangıçta Standart Mod da [Kutu
-Modeli][] doğru görünürken Garip Mod da ise sorun çıkarır. IE5 ve
+kutu modeline bakmalıyız. IE6 başlangıçta Standart Mod da [Kutu Modeli][] doğru görünürken Garip Mod da ise sorun çıkarır. IE5 ve
 aşağısında bu sorun vardır, ayrıca Opera 7 ve üsrü Garip Mod da IE gibi
 davranır. Bunun dışında ufak tefek sorunlar da vardır. Hekzedesimal renk
 tanımında # kullanımına ihtiyaç duymama, CSS'de değer kullanılmadığında

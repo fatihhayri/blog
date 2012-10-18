@@ -6,13 +6,11 @@ Tags: ipuçları, metin yerine resim koyma, sFIR
 [![][]][]Bu makaleyi çok önce yazmayı planlıyordum, ancak üzerinden
 zaman geçmesine rağmen hala sIFR kullanılan bir yöntem olduğu için
 yinede yazıyı yazmaya karar verdim. Her nekadar font-face kull anımı
-bize bu tip alternatiflerden alıkoymak için çıktı ise de [daha öncede
-bahsettiğimiz gibi][] tasarımdaki anti-aliasing özelliğini sağlayamıyor
+bize bu tip alternatiflerden alıkoymak için çıktı ise de [daha öncede bahsettiğimiz gibi][] tasarımdaki anti-aliasing özelliğini sağlayamıyor
 maalesef. Bundan dolayı hala eski yönte mleri kullanmaya devam
 etmekteyiz.
 
-Aslında ben sIFR kullanımını daha önce anlattım.  [Metin Yerine
-Resim/Flash Ekleme Teknikleri (Image Replacement)][] yazısının içinde
+Aslında ben sIFR kullanımını daha önce anlattım.  [Metin Yerine Resim/Flash Ekleme Teknikleri (Image Replacement)][] yazısının içinde
 sIFR kullanımını anlattım. Burada sIFR'ın yeni sürümünü ve ipuçlarını
 yazacağım. 
 
@@ -76,8 +74,7 @@ vererek bize çok büyük avantaj sağlıyor.
 
 	:::javascript
 	 sIFR.replace(yazi_tipi, { selector:
-'h2', css: [ '.sIFR-root { font-size:36px; font-weight:bold;
-color:#ff0000; letter-spacing: -1.5}' ] }); 
+'h2', css: [ '.sIFR-root { font-size:36px; font-weight:bold; color:#ff0000; letter-spacing: -1.5}' ] }); 
 
 Örnek olması için yukarıda kodları yazdım, ancak bu kısma istediğimiz
 kodları ekleyebiliriz. letter-spacing tanımı ile harfler arası mesafeyi
@@ -88,8 +85,7 @@ ayarlayabiliriz. Değeri verirken birimini yazmıyoruz. Benzer şekilde bir
 
 	:::javascript
 	 sIFR.replace(yazi_tipi, { selector:
-'h2', css: [ '.sIFR-root { font-size:36px; font-weight:bold; leading: 1;
-letter-spacing: -1.5}' ] }); 
+'h2', css: [ '.sIFR-root { font-size:36px; font-weight:bold; leading: 1; letter-spacing: -1.5}' ] }); 
 
 **leading: 1** tanımı satır yüksekliğini(line-height tanımı yerine
 kullanılır) ayarlamak için kullanılır. Değer verilirken birim
@@ -136,8 +132,7 @@ kod ile ardalanı saydam yapabiliriz.
 
 	:::javascript
 	 sIFR.replace(yazi_tipi, { selector:
-'h2', css: [ '.sIFR-root { font-size:36px; font-weight:bold;
-color:#ff0000; }' ], wmode: 'transparent' }); 
+'h2', css: [ '.sIFR-root { font-size:36px; font-weight:bold; color:#ff0000; }' ], wmode: 'transparent' }); 
 
 **wmode: 'transparent'**eklemesi işimizi görecektir.
 
@@ -152,8 +147,7 @@ sekme için uygulanan sFIR fonksiyonu çağırmalıyız.
 	 $(tabs).click(function () { // her
 sekme icin uygulana tanimlar //diger eylemler // uygulana sFIR
 fonksiyonunun tetikliyoruz. sIFR.replace(baslik, { selector: 'h1'
-,wmode: 'transparent' ,css: [ '.sIFR-root { margin:0; color: #009200;
-font-size:20px;}' ] }); }); 
+,wmode: 'transparent' ,css: [ '.sIFR-root { margin:0; color: #009200; font-size:20px;}' ] }); }); 
 
 ### Sonuç
 

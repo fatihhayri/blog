@@ -4,8 +4,7 @@ Category: Haberler
 Tags: Google Analytics, web-siteleri
 
 Çoktandır üye olmak istiyordum ama nasip şimdiye imiş, açıkçası geç
-kaldığıma üzüldüm çok şeyler kaçırmışız. Ayrıntılı bilg için [tıklayınız
-(tr)][]. Üye olmak için [google.com/analytics/][] tıklayınız.
+kaldığıma üzüldüm çok şeyler kaçırmışız. Ayrıntılı bilg için [tıklayınız (tr)][]. Üye olmak için [google.com/analytics/][] tıklayınız.
 
   [tıklayınız (tr)]: http://www.bloglama.com/wp/?p=21
   [google.com/analytics/]: http://google.com/analytics/

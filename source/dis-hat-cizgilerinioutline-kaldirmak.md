@@ -51,8 +51,7 @@ kolay yolu outline:none veya outline:0 tanımlarıdır.
 	:::css
 	 a{outline:none} 
 
-Bu tanım bir çok css sıfırlama tekniğinde yer almaktadır. Örneğin [Eric
-Meyer][]'in sıfırlama tekniğinde. Bu yöntem bir çok yerde çözüm olarak
+Bu tanım bir çok css sıfırlama tekniğinde yer almaktadır. Örneğin [Eric Meyer][]'in sıfırlama tekniğinde. Bu yöntem bir çok yerde çözüm olarak
 sunulmaktadır. Kaynaklar kısmındaki linkler bunlardan bir kaçı.
 
 ### Kaldırmayalım diyenler

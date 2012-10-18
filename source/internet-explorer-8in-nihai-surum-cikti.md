@@ -5,8 +5,7 @@ Tags: ie8, internet explorer, İnternet Tarayıcısı, microsoft
 
 Microsoft Internet Explorer 8'in nihai sürümünü dün yayınladı. Önceki
 tarayıcılarına(7 ve 6) göre güzel ancak diğer tarayıcılara(Firefox,
-Safari, Google Chrome vd.) göre yetersiz bir sürüm bence. [Daha
-önce][] yeniliklerden bahsettiğim için burada tekrarlamak istemiyorum. 
+Safari, Google Chrome vd.) göre yetersiz bir sürüm bence. [Daha önce][] yeniliklerden bahsettiğim için burada tekrarlamak istemiyorum. 
 
 Genel olarak değerlendirdiğimizde daha hızlı, daha güvenli ve yeni
 özellikler sunuyor ie8. Kod yazarları için ie8'in en büyük avantajı

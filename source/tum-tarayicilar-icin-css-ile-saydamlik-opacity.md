@@ -27,8 +27,7 @@ aşağıdaki gibi bir hata alacaksınız. ![donuklasma_val2][] Bence W3C
 doğrulması çok önemli olmasada bazen şartlar doğrulama
 gerektirdiğinde(mesela müşteri istediğinde) bu sorunu çözmek için bir
 kaç yöntem var. Bu yöntemlerden biri javascript fonksiyonu hazırlayıp bu
-fonksiyon yardımı ile elemanlarımızı saydamlaştırma; [sourcecode
-language="javascript"] function donuklastirma(element, donukDeger){ var
+fonksiyon yardımı ile elemanlarımızı saydamlaştırma; [sourcecode language="javascript"] function donuklastirma(element, donukDeger){ var
 oe = document.getElementById(element); // donuklastirma degeri
 oe.setAttribute("style", "opacity:"+ donukDeger +";") if
 (oe.style.setAttribute) // IE icin oe.style.setAttribute("filter",

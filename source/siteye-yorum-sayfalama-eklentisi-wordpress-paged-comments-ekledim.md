@@ -6,8 +6,7 @@ Tags: Paged Comments, sitemi düzenliyorum, yorum
 Daha önce bir kaç kere aklıma geldi ama yapamadığım bir işti. En son bir
 iki istek gelince bu yönde kurmaya karaverdim. Aslında ben buraya
 eklentinin nasıl ekleneceğini yazmayacağım. Bir kaç ipucu ekledim onları
-yazacağım. [Sırrı Özden][]'in Türkçeye çevirdiği eklentiyi ben [orjinal
-sitesinden][] yükledim. Görünümü değiştirmek için stil dosyama bir satır
+yazacağım. [Sırrı Özden][]'in Türkçeye çevirdiği eklentiyi ben [orjinal sitesinden][] yükledim. Görünümü değiştirmek için stil dosyama bir satır
 css kodu ekledim.
 
 1.  p.comment-page-numbers a{

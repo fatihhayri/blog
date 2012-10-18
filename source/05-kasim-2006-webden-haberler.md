@@ -8,8 +8,7 @@ Category: Haberler
     için [tıklayınız][].
 -   Word dokümanlarınızı ve E-postalarınızı internet üzerinden pdf
     çevirmek artık çok kolay ve ücretsiz. Yapmanız gereken Google Docs &
-    Spreadsheets Suite'i kullanmak. Bir google hesabınız varsa [bu
-    linkten][] siteye girip dosyanızı veya e-postanızı upload ettikten
+    Spreadsheets Suite'i kullanmak. Bir google hesabınız varsa [bu     linkten][] siteye girip dosyanızı veya e-postanızı upload ettikten
     sonra sol üstten File-Save as PDF.. seçeneğini tıklayıp pdf
     dosyanızı bilgisayarınıza indirebilirsiniz.
 -   CSS ile hazırlanmış en iyi 10 resim galerisi kodu için

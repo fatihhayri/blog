@@ -14,8 +14,7 @@ bilgilerden kaynaklanıyor olabilir. Ben Osmanlı padişahlarına ait
 kitapları okuyunca bize anlatılan sütliman durumda olmadıklarını bir
 sürü siyasi meşgale ile uğraştıklarını görüyorum. Okuldaki tarih
 kitapları ise bize her şeyin süt liman olduğu bir ortamda kazanılmış
-zaferler anlatılıyordu. [![“rumeli ve muteşem istanbul” Münevver
-Ayaşlı][]][]**İkinci kitap "rumeli ve muteşem istanbul" Münevver
+zaferler anlatılıyordu. [![“rumeli ve muteşem istanbul” Münevver Ayaşlı][]][]**İkinci kitap "rumeli ve muteşem istanbul" Münevver
 Ayaşlı** Osmanlı rumeli kültürünü ve Osmanlının son zamanlarındaki
 hayatı anlatan gerçekten güzel bir eser. Bize o zamandan bu zamana
 nelerin değiştiğini göstermesi bakınmından güzel. Bir büyük devletin
@@ -38,7 +37,6 @@ bize ders alınması gereken olayları gösteriyor. Ayrıntılı bilgi için
     "“rumeli ve muteşem istanbul” Münevver Ayaşlı"
   [tıklayınız]: http://www.timas.com.tr/index.php?key=tkg&id=526
   [2. Sultan Mahmud Cihan Hakanı ve Yenileşme Padişahı - Yılmaz Öztuna]: http://www.fatihhayrioglu.com/wp-content/iimahmud.kucukresim.jpg
-  [![2. Sultan Mahmud Cihan Hakanı ve Yenileşme Padişahı - Yılmaz
-  Öztuna][]]: http://www.fatihhayrioglu.com/wp-content/iimahmud.jpg
+  [![2. Sultan Mahmud Cihan Hakanı ve Yenileşme Padişahı - Yılmaz   Öztuna][]]: http://www.fatihhayrioglu.com/wp-content/iimahmud.jpg
     "2. Sultan Mahmud Cihan Hakanı ve Yenileşme Padişahı - Yılmaz Öztuna"
   [tıklayınız.]: http://www.ideefixe.com/Kitap/tanim.asp?sid=WMIRAL1SXM0MRIC8YO74

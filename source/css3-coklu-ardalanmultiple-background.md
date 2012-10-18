@@ -10,8 +10,7 @@ tanımlayamıyoruz. Bu sorun nedeni ile birden fazla ardalan resmi
 tanımlamak istediğimiz durumlarda fazla eleman ekleyerek çözüm
 üretiyorduk.
 
-[Yuvarlak kenarlı kutular][],  [CSS ile sekmeli tab menu yapımı][], [CSS
-ile gölge vermek][], [CSS ile buton yapmak][] vb. yazılarımızda bu
+[Yuvarlak kenarlı kutular][],  [CSS ile sekmeli tab menu yapımı][], [CSS ile gölge vermek][], [CSS ile buton yapmak][] vb. yazılarımızda bu
 durumu görebiliriz.
 
 CSS3 geliştiricileri bu sorunu gördü ve çözüm üretildi. CSS3 background
@@ -42,8 +41,7 @@ bu metodu kullanabiliriz.
 
 ### Örnek 1:
 
-Bu yöntemi kullanarak daha önce yaptığımız [css ile buton yapmak][CSS
-ile buton yapmak] konumuzda anlattığımız Görselliği Arttırılmış Esnek
+Bu yöntemi kullanarak daha önce yaptığımız [css ile buton yapmak][CSS ile buton yapmak] konumuzda anlattığımız Görselliği Arttırılmış Esnek
 Yapılı Butonlar yöntemi birde yeni bu tanım ile yapalım.
 
 	:::html

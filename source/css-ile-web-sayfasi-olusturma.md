@@ -23,15 +23,11 @@ tablo kullanmayayım diye tablo kullanılması gerek yerlerde de tablo
 kullanmamak abesle iştigaldir.
 
 Aslında şimdiye kadar ki makaleler de bu konunun temellerini
-attık.[<acronym title="Stil şablonu">CSS</acronym> ile
-konumlandırma(positioning)][] , [Float ve Clear özellikler ile
-konumlandırma][] vd. makaleler bu işin temellerine değindik. Burada daha
+attık.[<acronym title="Stil şablonu">CSS</acronym> ile konumlandırma(positioning)][] , [Float ve Clear özellikler ile konumlandırma][] vd. makaleler bu işin temellerine değindik. Burada daha
 elle tutulur örneklerle bu metodu anlatmaya çalışacağız.
 
 CSS sayfa planlama metodları üç temel konu üzerine inşa edilmiştir.
-[Konumlandırma][<acronym title="Stil şablonu">CSS</acronym> ile
-konumlandırma(positioning)], [floating][Float ve Clear özellikler ile
-konumlandırma] ve [margin][] farklılıkları. Bu üç temel konu
+[Konumlandırma][<acronym title="Stil şablonu">CSS</acronym> ile konumlandırma(positioning)], [floating][Float ve Clear özellikler ile konumlandırma] ve [margin][] farklılıkları. Bu üç temel konu
 anlaşıldıktan sonra CSS ile sayfa planlamayı anlamamız çok kolaydır. Biz
 burada floating metodu ile sayfa oluşturmayı göreceğiz. Bunun dışında
 konumlandırma öğeleleri kullanarak sayfa oluşturma ve eksi margin değeri
@@ -68,8 +64,7 @@ sağa, **"anaMenu"** alanının sola yerleşmesi için genişlik değeri ve
 float değerleri tanınmlanmıştır. Ayrıca **altAlan**'ın bu iki bölümün
 altında kalması için **clear:both** tanımlaması yapılmıştır.
 
-[<acronym title="Stil şablonu">CSS</acronym> ile sayfalarımızı ve
-elementlerimizi ortalamak][] bölümündeki metodu uygulayarak sayfamızı
+[<acronym title="Stil şablonu">CSS</acronym> ile sayfalarımızı ve elementlerimizi ortalamak][] bölümündeki metodu uygulayarak sayfamızı
 ortalayabilriz.
 
 	:::css
@@ -81,8 +76,7 @@ ortalayabilriz.
 Sabit Genişlikteki Sayfalarda en çok rastlanan problemler sabit genişlik
 uygulanan katmanlara pading, margin ve border değeri atandığında IE5 de
 sorunlu görünmesidir bu problemi aşmak için iki yöntem vardır. Birinci
-yöntem [<acronym title="Stil şablonu">CSS</acronym> ile Kutu modeli,
-sorunları ve çözümleri][] bölümünde anlatılmıştır. ikinci yöntem ise
+yöntem [<acronym title="Stil şablonu">CSS</acronym> ile Kutu modeli, sorunları ve çözümleri][] bölümünde anlatılmıştır. ikinci yöntem ise
 kapsayıcı katmanlara(**icerik**, **anaMenu** vb.) padding ve margin
 vermek yerine kapsayıcı katman içindeki elementlere bu atamaları
 yapmaktır.
@@ -145,16 +139,13 @@ oluşturmak daha mantıklı ve kolay olur.
 </p>
 
   [Zen Garden'ın]: http://www.csszengarden.com/
-  [<acronym title="Stil şablonu">CSS</acronym> ile
-  konumlandırma(positioning)]: http://www.fatihhayrioglu.com/?p=151
+  [<acronym title="Stil şablonu">CSS</acronym> ile   konumlandırma(positioning)]: http://www.fatihhayrioglu.com/?p=151
   [Float ve Clear özellikler ile konumlandırma]: http://www.fatihhayrioglu.com/?p=160
   [margin]: http://www.fatihhayrioglu.com/?p=113
   []: /images/ikikolon.gif
-  [<acronym title="Stil şablonu">CSS</acronym> ile sayfalarımızı ve
-  elementlerimizi ortalamak]: http://www.fatihhayrioglu.com/css-ile-sayfalarimizi-ve-elementlerimizi-ortalamak/
+  [<acronym title="Stil şablonu">CSS</acronym> ile sayfalarımızı ve   elementlerimizi ortalamak]: http://www.fatihhayrioglu.com/css-ile-sayfalarimizi-ve-elementlerimizi-ortalamak/
   [tıklayınız.]: /static/dokumanlar/sabit_genislikli_websitesi.html
-  [<acronym title="Stil şablonu">CSS</acronym> ile Kutu modeli,
-  sorunları ve çözümleri]: http://www.fatihhayrioglu.com/kutu-modeli-sorunlari-ve-cozumleri/
+  [<acronym title="Stil şablonu">CSS</acronym> ile Kutu modeli,   sorunları ve çözümleri]: http://www.fatihhayrioglu.com/kutu-modeli-sorunlari-ve-cozumleri/
   [1]: /static/dokumanlar/elastik_ikikolonlu_websitesi.html
   [2]: /images/uckolon.gif
   [3]: /static/dokumanlar/sabit_uckolonlu_websitesi.html

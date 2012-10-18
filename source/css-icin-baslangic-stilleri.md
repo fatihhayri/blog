@@ -227,8 +227,7 @@ Tabii ki kodlamaya başlarken başlangıç şablonu kullanmak için
 anlattıklarımın en iyi yol olduğunu söylemiyorum. Fakat bence işe
 yarıyor.
 
-Eğer başlangıç dosyalarımın bir kopyasını isterseniz [buradan
-alabilirsiniz.][]
+Eğer başlangıç dosyalarımın bir kopyasını isterseniz [buradan alabilirsiniz.][]
 
 > Bu makale
 > [http://www.shapeshed.com/journal/default_styles_for_css/][]

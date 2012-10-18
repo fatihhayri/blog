@@ -9,8 +9,7 @@ yazacaktım ama biraz üşengeçlikten ve tembellikten dolayı ancak şimdi
 yazabildim. Birazda [Volkan Görgülü'nün video anlatımı][] benim bu
 makaleyi devam ettirmem için bir kıvılcım oldu diyebiliriz. FireBug
 gelişmiş bir araç bu nedenle tek makalede anlatmamın mümkünatı yoktu ben
-şimdilik iki makale ile anlatmaya çalışacağım. İlk makalemi [Michael
-Sync][] sitesinden çok fazla yararlanarak hazırlıyorum.
+şimdilik iki makale ile anlatmaya çalışacağım. İlk makalemi [Michael Sync][] sitesinden çok fazla yararlanarak hazırlıyorum.
 [http://michaelsync.net/][Michael Sync] sitesi bu konudaki en iyi kaynak
 diyebilrim. FireBug FireFox internet tarayıcısının bir eklentisidir.
 Bunu bilmeyen kalmamıştır diye düşünüyorum. En azın bilmeyen web kod
@@ -147,8 +146,7 @@ göreceğiz.
 -   [http://alternateidea.com/blog/articles/2006/05/12/an-in-depth-look-at-the-future-of-javascript-debugging-with-firebug][]
 -   [http://groups.google.com/group/firebug][]
 -   [http://www.seifi.org/javascript/firebug_tips_and_tricks.html][]
--   [http://www.webdeneyimleri.com/firebug-firefox-eklentisi/][Volkan
-    Görgülü'nün video anlatımı]  
+-   [http://www.webdeneyimleri.com/firebug-firefox-eklentisi/][Volkan     Görgülü'nün video anlatımı]  
 -   [http://www.bildirgec.org/yazi/firebug-web-gelistirimi-gelistirildi][]  
 -   [http://www.burcudogan.com/firebug-ve-hata-ayiklama-sanati-83.html][]  
 -   [http://code.google.com/p/fbug/source/browse/branches/firebug1.1/locale/tr-TR/firebug.dtd?r=350][]

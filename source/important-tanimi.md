@@ -9,8 +9,7 @@ bu konuda biraz araştırma yapma gereği duydum ve burada bu araştırma
 sonuçlarını paylaşmak istedim.
 
 !important’ı anlamak için CSS’de etkinliğine bir göz atmalıyız. Daha
-önce yazdığım bir konu bu “[CSS’de Tanımlamalar ve
-Etkinlikleri(Specificity)][]” ayrıntılarını bu yazıdan okuyabilirsiniz.
+önce yazdığım bir konu bu “[CSS’de Tanımlamalar ve Etkinlikleri(Specificity)][]” ayrıntılarını bu yazıdan okuyabilirsiniz.
 CSS’de etkinlik tanımını tekrar hatırlatalım; CSS’de etkinliğin anlamı
 stil çatışması(aynı elemente birden fazla tanım yapıldığında) olduğunda
 kullanılan hangi kodun web tarayıcıları tarafından yorumlanacağını
@@ -132,8 +131,7 @@ okunaksız hale getirebilir, buna dikkat etmek gerekir.
 -   [http://www.electrictoolbox.com/using-important-css/][]
 -   [http://www.webcredible.co.uk/user-friendly-resources/web-dev/css-important.shtml][]
 -   [http://www.yellowjug.com/web-design/the-importance-of-important-in-css/][]
--   [http://friendfeed.com/arayuz-gelistiriciler/120084de/css-yazarken-ustten-gelen-degerleri-ezmek-icin][Friendfeed’de
-    bir serzenişim üzerine Fatih Turan’ın bir cevabı]
+-   [http://friendfeed.com/arayuz-gelistiriciler/120084de/css-yazarken-ustten-gelen-degerleri-ezmek-icin][Friendfeed’de     bir serzenişim üzerine Fatih Turan’ın bir cevabı]
 
 </p>
 

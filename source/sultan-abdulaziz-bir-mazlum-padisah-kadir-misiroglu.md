@@ -3,8 +3,7 @@ Date: 2007-09-09 12:20
 Category: Kitaplar
 Tags: bibliyografi, cinayet, darbe, Kitaplar, sultan-abdulaziz, tanzimat
 
-[![Sultan Abdülaziz / Bir Mazlum Padişah - Kadir
-Mısıroğlu][]][]Osmanlı'nın yıkılış döneminde başa gelmiş olan
+[![Sultan Abdülaziz / Bir Mazlum Padişah - Kadir Mısıroğlu][]][]Osmanlı'nın yıkılış döneminde başa gelmiş olan
 padişahlardan Sultan Albdülaziz'in hayatını anlatan bu eserde. Tanzimat
 ve sonrasına dair bilgiler verilmektedir. Albdülaziz'in muhafakar
 politiklarının doğru olduğu üzerinden duran kitap benzer anlayıştaki

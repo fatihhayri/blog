@@ -126,8 +126,7 @@ ise altta kalacaktır.
 
 ### z-index
 
-**Yapısı :** z-index: <deger> **Aldığı Değerler :**<[sayısal
-değer][uzunluk] > | auto | inherit **Başlangıç değeri:** auto
+**Yapısı :** z-index: <deger> **Aldığı Değerler :**<[sayısal değer][uzunluk] > | auto | inherit **Başlangıç değeri:** auto
 **Uygulanabilen elementler:** postion uygulanan elementlere
 **Kalıtsallık:** Yok
 
@@ -145,8 +144,7 @@ içindeki paragrafı mutlak konumlandırarak bu işhalledebilriz.
 
 [sourcecode language='css'] #adresler { width: 700px; height: 100px;
 position: relative; } #adresler .tel { position: absolute; right: 10px;
-bottom: 10px; text-align: right; }  [sourcecode
-language='html']
+bottom: 10px; text-align: right; }  [sourcecode language='html']
 
 <div id="adresler">
 Tel: 0845 838 6163

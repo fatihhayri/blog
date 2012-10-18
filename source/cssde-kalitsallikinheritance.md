@@ -3,8 +3,7 @@ Date: 2007-01-14 15:43
 Category: CSS, Web Standartları, XHTML
 Tags: CSS, inheritance, kalıtsallık, Web Standartları, XHTML
 
-XHTML dokümanlarının yapısından ve CSS ile olan ilişkisinden [(X)HTML
-Sayfa Yapısı ve CSS Kullanımı][] makalesinde bahsetmiştik, bu makaleden
+XHTML dokümanlarının yapısından ve CSS ile olan ilişkisinden [(X)HTML Sayfa Yapısı ve CSS Kullanımı][] makalesinde bahsetmiştik, bu makaleden
 önce bir göz atmanızı tavsiye ederiz. XHTML öğeleri bir biri ile bir
 ailenin birbiri ile olan bağı gibi bağlıdır. Hatırlıyorsanız bir soy
 ağacı benzetmesi yapmıştık. İşte bu soy ağacının öğeleri arasında bir
@@ -12,8 +11,7 @@ kalıtsallık söz konusudur. Ebeveynden çocuğuna geçen özellikler gibi
 XHTML öğeleri arasında CSS özellikleride kalıtsal olarak alt
 elementleri(çocuk element) etkiler.<!--more--> Kalıtsallık; CSS ile web
 sayfası kodlarken tüm elementlere tek tek atama yapabildiğimiz gibi
-birde bir elemente atama yaparız ve bu özellik tüm alt([çocuk
-elementleri][(X)HTML Sayfa Yapısı ve CSS Kullanımı]) elementlerinede
+birde bir elemente atama yaparız ve bu özellik tüm alt([çocuk elementleri][(X)HTML Sayfa Yapısı ve CSS Kullanımı]) elementlerinede
 uygulanır buna kalıtsallık denir. CSS'in bir çok özelliğinin kalıtsallık
 özelliği vardır. [Hızlı CSS Referansı][] bölümü ve alt bölümlerinde her
 özelliğin kalıtsallık durumunu belirtmiştik.
@@ -112,8 +110,7 @@ elementinin değerlerini alacaktır. Bir örnek yapacak olursak:
 
 	:::css
 	 div#icerik { border: 1px solid #000; }
-div#bilgi { border: inherit; }  [sourcecode
-language="html"] <div id="icerik"> Bu içeriği kenarlığı olacaktır
+div#bilgi { border: inherit; }  [sourcecode language="html"] <div id="icerik"> Bu içeriği kenarlığı olacaktır
 <div id="bilgi"> Bu bilgi de kenarlık bilgisini üstten elementten
 alarak kenarlığı olacaktır. </div> </div> 
 

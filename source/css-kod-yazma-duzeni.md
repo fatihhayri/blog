@@ -118,8 +118,7 @@ ediyorum. Normalde ve genellikle tek ve iki css dokümanı ile projeyi
 bitiriyorum. Performans açısından bu daha iyi ayrıca.
 
 Eğer CSS sıfırlama tekniklerinden birini kullanacaksam Bunu imzadan
-sonraya yazmak. Yada site genel tanımlarını başa yazmak. [YUI CSS
-Reset][] ve [Eric Meyer][]'in ki var mesela.
+sonraya yazmak. Yada site genel tanımlarını başa yazmak. [YUI CSS Reset][] ve [Eric Meyer][]'in ki var mesela.
 
 	:::css
 	
@@ -276,8 +275,7 @@ olmalıya bir örnek yazarsak:
 XHTML kodu:
 
 	:::html
-	 <div > <div > </div><!--[if
-!IE]>ustAlan sonu<![endif]--> <div > <div > <div ><img
+	 <div > <div > </div><!--[if !IE]>ustAlan sonu<![endif]--> <div > <div > <div ><img
 src="images/promo.jpg" width="647" height="264" alt="Promo" /></div>
 <div > </div><!--[if !IE]>icerikOzu sonu<![endif]-->
 </div><!--[if !IE]>solIcerikAlani sonu<![endif]--> <div >

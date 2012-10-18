@@ -104,8 +104,7 @@ ikinci yöntem de kullanılabilir.
 ### Kaynaklar
 
 -   [http://trentwalton.com/2010/08/03/css3-border-radius-rounded-avatars/][]
--   [http://www.webdesignerwall.com/tutorials/css3-rounded-image-with-jquery/][CSS3
-    Rounded Image With jQuery]
+-   [http://www.webdesignerwall.com/tutorials/css3-rounded-image-with-jquery/][CSS3     Rounded Image With jQuery]
 -   [http://stick.gk2.sk/blog/2009/03/image-with-rounded-corners-using-css3/][]
 -   [http://www.swedishfika.com/2010/03/19/rounded-corners-on-images-with-css3-2/][]
 

@@ -18,8 +18,7 @@ haddimede değil zaten. Biz buradadaha çok Stil Şablonlarının bize
 tipografi adına kazandırdıklarını göstermeyeçalışacağız ve CSS ile
 sayfalarımızı daha dikkat çekici ve okuna bilir hale getireceğimizi
 göreceğiz. Tipografihakkında genel bir bilgi vermesi açısından güzel bir
-çalışma olan Doç. Hasip Bektaş'ın "[İnternetteki Tipografi Sorunları ve
-GörselKirlenmeye Karşı Öneriler][]" adlı makalesini okumanızı tavsiye
+çalışma olan Doç. Hasip Bektaş'ın "[İnternetteki Tipografi Sorunları ve GörselKirlenmeye Karşı Öneriler][]" adlı makalesini okumanızı tavsiye
 ederim. Ayrıca kaynakçakısmındaki linklerden de daha fazla bilgi
 alabilirsiniz.
 
@@ -64,8 +63,7 @@ sığacaktır. Yazı boyutunu arttırdığımızda mesela 1.5em'e çıkardığı
 satır içindeki karakter sayısı değişmeyecektir, çünkü genişlik
 değerimizde yazı boyutu ile bağlantılı olduğu için oda artacaktır. Em
 genellikle elastik sayfalar oluştururken kullanırız. Em ve elastik
-sayfalar hakkında daha ayrılı bilgi için [CSS Birimleri][] ve [CSS İLE
-WEB SAYFASI OLUŞTURMA II][] makalelerine  göz atın.  
+sayfalar hakkında daha ayrılı bilgi için [CSS Birimleri][] ve [CSS İLE WEB SAYFASI OLUŞTURMA II][] makalelerine  göz atın.  
 
 ### Yazı Tipleri
 
@@ -167,8 +165,7 @@ font-size: 1.5em; line-height:2; } h4 { font-size: 1.2em;
 line-height:1.25; font-weight:bold; } h5 { font-size: 1em;
 font-weight:bold; } h6 { font-size: 1em; } 
 
-Bu konuda çok güzel bir doküman hazırlayan [BluePrint CSS
-Anaçatısının][] tipografi kısmına göz atmanızı tavsiye ederim.
+Bu konuda çok güzel bir doküman hazırlayan [BluePrint CSS Anaçatısının][] tipografi kısmına göz atmanızı tavsiye ederim.
 
 ### Satır Yüksekliği(line-height)
 
@@ -312,8 +309,7 @@ Sınırları zorlayan güzel örnekler
     tipografi hakkında genel bir yazı)
 -   [http://www.digital-web.com/articles/css_101/][] (uygulamalı css ve
     tipografi)  
--   [http://www.fotografya.gen.tr/issue-6/hasip.html][İnternetteki
-    Tipografi Sorunları ve GörselKirlenmeye Karşı Öneriler] (genel
+-   [http://www.fotografya.gen.tr/issue-6/hasip.html][İnternetteki     Tipografi Sorunları ve GörselKirlenmeye Karşı Öneriler] (genel
     tipografi bilgisi Türkçe)  
 -   [http://www.webmonkey.com/design/fonts/tutorials/tutorial3.html][]
     (Çok geniş bir tipografi bilgisi)  

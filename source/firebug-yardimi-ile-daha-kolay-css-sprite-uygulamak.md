@@ -15,8 +15,7 @@ ilgili resimleri atama işidir. Bir background kaydırma yöntemidir işin
 aslı.
 
 Birçok yerde kullandım bu yöntemi sizlerede anlattım çeşitli
-makalelerimde, bunlardan bir tanesi [PSD’den HTML’e – fanatikmarslar.com
-Sitesinin Kodlaması II][] adlı makale.
+makalelerimde, bunlardan bir tanesi [PSD’den HTML’e – fanatikmarslar.com Sitesinin Kodlaması II][] adlı makale.
 
 CSS Sprite tekniğinde sorunlardan bir tanesi hazırladığımız toplu resim
 üzerinde ilgili elemana atanacak background-position değerlerini

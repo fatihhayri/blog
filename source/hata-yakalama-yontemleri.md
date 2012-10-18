@@ -9,6 +9,5 @@ hata gelebilir. Bu gayet normal bir haldir. Mesele bu hataları
 kenar çizgisi(border) atamaktır. 	:::css
 	 li a {
 border: 1px solid red; }  Diğer bir yöntemde elemente
-ardalan rengi(background-color) uygulamaktır. [sourcecode
-language="css"] #icerikalani { background-color:#999; } 
+ardalan rengi(background-color) uygulamaktır. [sourcecode language="css"] #icerikalani { background-color:#999; } 
 Böylece elementin etki alanı görülecek ve hatayı tespit kolaylaşacaktır.

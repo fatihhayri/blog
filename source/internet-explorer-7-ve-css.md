@@ -16,8 +16,7 @@ Bu makale IE7 ile çözülen CSS hatalarına bir göz atacağız.
 Artık IE için ayrıca CSS kodlarımızı düzenlemeyeceğiz(Bir süre daha
 kodlayacağız tabi IE 7 yaygınlaşana kadar). Buna sevinmeliyiz. IE7 ile
 birlikte 200'e yakın CSS sorununu düzeltildiğini söylüyor Microsoft. Tüm
-bu düzeltmelerin [<!DOCTYPE> switch][]'da çalıştığını [Garip
-Mod][<!DOCTYPE> switch]'da ise IE6 gibi yorumlayacağını söylüyor ona
+bu düzeltmelerin [<!DOCTYPE> switch][]'da çalıştığını [Garip Mod][<!DOCTYPE> switch]'da ise IE6 gibi yorumlayacağını söylüyor ona
 göre.
 
 ### IE7 ile Düzelen Genel Sorunlar

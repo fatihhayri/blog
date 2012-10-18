@@ -19,8 +19,7 @@ olmak üzere ikiye ayırıyoruz. [sourcecode language='html']
 <link rel="stylesheet" href="/style/iskelet.css" type="text/css" media="screen"></link>
 <link rel="stylesheet" href="/style/yazici.css" type="text/css" media="print"></link>
  Normal ve çıktı almak için bunları bir css dosyasında
-birleştirerek HTTP istek sayısını azaltabiliriz. [sourcecode
-language='html']
+birleştirerek HTTP istek sayısını azaltabiliriz. [sourcecode language='html']
 <link rel="stylesheet" href="/style/iskelet.css" type="text/css"></link>
  gibi iskelet.css içeriğinin yapısı ise aşağıdaki gibi
 olacaktır. [sourcecode language='css'] /* all media */ @media all {

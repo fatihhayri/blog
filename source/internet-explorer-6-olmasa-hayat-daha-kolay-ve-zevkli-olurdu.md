@@ -38,8 +38,7 @@ ile uğraşırken kaybedilen zaman ve eforu düşüne bazı firmalar(Fac
 Apple ve 37signals) web sitelerinde internet Explorer
 6 sürümü için destek vermeyeceklerini bildirdi. Ayrıca internet Explorer
 6'a karşı kampanya düzenleyen sitler var. Bir çok kod yazarı
-bu sorunu en kısa zamanda çözmek için çabalıyor. [M.
-Dave Auayan][]  Mart 2009'da internet Explorer 6 uyumuna
+bu sorunu en kısa zamanda çözmek için çabalıyor. [M. Dave Auayan][]  Mart 2009'da internet Explorer 6 uyumuna
 son vermek için bir site açtı IE[ Death March][].
 
 Internet Explorer 6. sürümünün bizi bu kadar uğraştırmasında

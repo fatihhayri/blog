@@ -20,8 +20,7 @@ bir karışık oluyor
 
 	:::javascript
 	 var nDeger = deneme.gif ;
- == örnek verecek olursak; [sourcecode
-language="javascript"] if(nDeger == fatih.gif){ alert("Fatih geldi"); }
+ == örnek verecek olursak; [sourcecode language="javascript"] if(nDeger == fatih.gif){ alert("Fatih geldi"); }
 
 
 genelde karşılaştığım hata

@@ -82,8 +82,7 @@ renklere büründürelim.
 
 	:::html
 	 <dd><input name="ad" type="text"
-class="metinAlani" id"ad" /></dd>  [sourcecode
-language="css"] input.metinAlani { color: #781351; background-color:
+class="metinAlani" id"ad" /></dd>  [sourcecode language="css"] input.metinAlani { color: #781351; background-color:
 #b5c9e2; border: 1px solid #31557f; font:10px Arial, Helvetica,
 sans-serif; } 
 

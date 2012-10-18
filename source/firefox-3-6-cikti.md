@@ -74,16 +74,14 @@ Gelelim yeniliklere;
         giderilmiş.
 
 -   **HTML5 ve DOM Desteği:** Yeni DOM ve HTML5 destekleri gelmiş.
-    [Drag&Drop API][] ve [File API][]. Örnekleri görmek için [videoyu
-    izleyin][].
+    [Drag&Drop API][] ve [File API][]. Örnekleri görmek için [videoyu     izleyin][].
 -   **Hız:**İlk kurulumdan sonra daha hızlı olduğunu söyleyebilirim,
     ancak bunu kullandıkça göreceğiz. FireBug1.5 ve Firefox3.6
     performansının daha iyi olduğunu kesin. Mozilla'nın iddiasına göre
     %20'lik bir hızlanma varmış.
 -   **Ortama Adapte Olmak:** Yeni device API'si desteği ile artık
     desteği olan makinelerde Firefox duruma göre vazife çıkaracak ve
-    görünümünü ayarlayacak. Nasıl olduğunu görmek için [videoyu
-    izleyin][2]. Çoğunlukla Mac kullanıcılarının kullanacağı bir özellik
+    görünümünü ayarlayacak. Nasıl olduğunu görmek için [videoyu     izleyin][2]. Çoğunlukla Mac kullanıcılarının kullanacağı bir özellik
     gibi.
 
 Birde yapımcılarından Mike Beltzner'dan dinleyelim

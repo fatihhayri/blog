@@ -19,8 +19,7 @@ sitelerde hiç hoş durmuyor yuvarlak kenar, her şeyi yerinde ve göz
 zevkine uygun kullanmak en iyisi.<!--more-->
 
 **Yapısı :** <border-radius>{1,4} [ / <border-radius>{1,4}]?  
-**Aldığı Değerler :** [ <uzunluk> | <yüzde> ] [ <uzunluk> |
-<yüzde> ]?   
+**Aldığı Değerler :** [ <uzunluk> | <yüzde> ] [ <uzunluk> | <yüzde> ]?   
 **Başlangıç değeri:** tanımlama yok   
 **Uygulanabilen elementler:**tüm elementler ve tabiki tablo elementine
 border-collapse değeri collapse olarak atalı ise uygulanır  

@@ -30,8 +30,7 @@ dezavantajlarda sunuyor. Mesela 10 senedir uğraştığın ie6 gibi bir
 tarayıcıyı öldürdüğün halde hala ona göre kod yazmaya devam ediyor olmak
 gibi, hala ondan sonraki adımı bekletmek gibi.
 
-Daha önce “[Internet Explorer 6 olmasa hayat daha kolay ve zevkli
-olurdu][]” diye bir makale yazmıştım, bundan 2 sene önce. Tabi oradaki
+Daha önce “[Internet Explorer 6 olmasa hayat daha kolay ve zevkli olurdu][]” diye bir makale yazmıştım, bundan 2 sene önce. Tabi oradaki
 temenni bugün gerçeğe dönüştü. Artık tamamen yok sayabiliyoruz ie6’yı.
 Şimdi oradaki ve diğer avantajları görerek kod yazma mantığımızı
 güncellememiz gereken özellikleri sıralayacağım.
@@ -299,8 +298,7 @@ iyi kontrol edin.
 
 Kutu modeli çözümü(box model hacking) diyede bildiğimiz ie6’nın genişlik
 ve yükseklik yorumlamada diğer tarayıcılardan farklı yorumlaması nedeni
-ile css ile düzeltme yazmak zorunda kalıyorduk. [Box Model Sorunu ve
-Çözümü][] makalesinde yazdığım gibi ben uzun düzeltmeyi kullanıyordum
+ile css ile düzeltme yazmak zorunda kalıyorduk. [Box Model Sorunu ve Çözümü][] makalesinde yazdığım gibi ben uzun düzeltmeyi kullanıyordum
 genelde ancak (_) ile daha kolay bir çözüm de vardı, ben w3c
 doğrulamasından geçmediği için tercih etmiyordum bu yöntemi.
 
@@ -380,10 +378,8 @@ Artık çekinmeden !important tanımını kullanabileceğiz.
 -   [IE6′da CEE-EEE(peek-a-boo) Hatası][]
 -   [Göreceli-Mutlak Konumlandırma Sorunu][]
 -   [Kenar Boşluğu(Margin) Çökmesi][]
--   [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi
-    atamak][]
--   [CSS Yorumlarında Türkçe Karakter Kullandığımızda İE6′da Sorun
-    Çıkarıyor][]
+-   [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi     atamak][]
+-   [CSS Yorumlarında Türkçe Karakter Kullandığımızda İE6′da Sorun     Çıkarıyor][]
 -   [IE6′da Liste Ardalan Görmeme Sorunu][]
 -   [ie6′da border-color:transparent desteği sağlamak][]
 
@@ -479,10 +475,8 @@ ie6 öldü.
   [IE6′da CEE-EEE(peek-a-boo) Hatası]: http://www.fatihhayrioglu.com/?p=235
   [Göreceli-Mutlak Konumlandırma Sorunu]: http://www.fatihhayrioglu.com/?p=240
   [Kenar Boşluğu(Margin) Çökmesi]: http://www.fatihhayrioglu.com/?p=362
-  [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi
-  atamak]: http://www.fatihhayrioglu.com/internet-explorer-6-ve-7-icin-tablo-tr-elementine-kenar-cizgisi-atamak/
-  [CSS Yorumlarında Türkçe Karakter Kullandığımızda İE6′da Sorun
-  Çıkarıyor]: http://www.fatihhayrioglu.com/css-yorumlarinda-turkce-karakter-kullandigimizda-ie6da-sorun-cikariyor/
+  [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi   atamak]: http://www.fatihhayrioglu.com/internet-explorer-6-ve-7-icin-tablo-tr-elementine-kenar-cizgisi-atamak/
+  [CSS Yorumlarında Türkçe Karakter Kullandığımızda İE6′da Sorun   Çıkarıyor]: http://www.fatihhayrioglu.com/css-yorumlarinda-turkce-karakter-kullandigimizda-ie6da-sorun-cikariyor/
   [IE6′da Liste Ardalan Görmeme Sorunu]: http://www.fatihhayrioglu.com/ie6da-liste-ardalan-gormeme-sorunu/
   [ie6′da border-color:transparent desteği sağlamak]: http://www.fatihhayrioglu.com/ie6da-border-colortransparent-destegi-saglamak/
   [http://blogs.msdn.com/b/ie/archive/2006/08/22/712830.aspx]: http://blogs.msdn.com/b/ie/archive/2006/08/22/712830.aspx

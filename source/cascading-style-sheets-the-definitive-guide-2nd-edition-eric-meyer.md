@@ -3,8 +3,7 @@ Date: 2006-08-20 14:26
 Category: CSS, Kitaplar
 Tags: CSS, Eric Meyer, kitap
 
-![Cascading Style Sheets: The Definitive Guide, 2nd Edition - Eric
-Meyer][]CSS'in Teorisnin tamamını bulabileceğiniz önemli bir kaynak
+![Cascading Style Sheets: The Definitive Guide, 2nd Edition - Eric Meyer][]CSS'in Teorisnin tamamını bulabileceğiniz önemli bir kaynak
 kitap. Tüm özelliklere ayrı ayrı ve bölümlerine ayırarak incelenmiş.
 Eğer uygulamalı bir kitap arıyorsanız. Eric Meyer'in diğer kitaplarına
 göz atın çok güzel ve birebir uygulamalı kitaplarıda var. Adım Adım CSS
@@ -14,6 +13,5 @@ bulundurmanız gereken bir kitap mutlaka bulundurun derim. Kitap son
 versiyon CSS2.1 üzerine yazılmış olması da önemli bir avantaj. Ayrıntılı
 bilgi için [tıklayınız][]
 
-  [Cascading Style Sheets: The Definitive Guide, 2nd Edition - Eric
-  Meyer]: http://www.fatihhayrioglu.com/wp-content/css_defineguside.thumbnail.gif
+  [Cascading Style Sheets: The Definitive Guide, 2nd Edition - Eric   Meyer]: http://www.fatihhayrioglu.com/wp-content/css_defineguside.thumbnail.gif
   [tıklayınız]: http://www.oreilly.com/catalog/css2/

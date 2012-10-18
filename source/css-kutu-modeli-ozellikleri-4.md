@@ -15,13 +15,10 @@ Kutu modeli özelliklerine devam ediyoruz. Sırasıyla aşağıdaki
 
 ### width<a name="01"></a>
 
-**Yapısı :** width: <deger> **Aldığı Değerler :** [<uzunluk değeri
->][] | [<yüzde>][<uzunluk değeri >] | auto | inherit **Başlnagıç
-değeri:** auto **Uygulanabilen elementler:** [Block-level ve replaced
-elementler][] **Kalıtsallık:** Yok
+**Yapısı :** width: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto | inherit **Başlnagıç
+değeri:** auto **Uygulanabilen elementler:** [Block-level ve replaced elementler][] **Kalıtsallık:** Yok
 
-[Blok-level ve replaced elementlerin][Block-level ve replaced
-elementler](örn: img, input, textarea vd.) tümü bir genişlik(width)
+[Blok-level ve replaced elementlerin][Block-level ve replaced elementler](örn: img, input, textarea vd.) tümü bir genişlik(width)
 değeri alır. Elementlerin başlangıçtaki genişlik değeri **auto** yani
 kendi asıl genişliğidir. (Örneğin bir resmin genişliği gibi) Yüzde
 değeri [ebveyn elementi][] kıstas alarak uygulanır. Negatif değeri
@@ -37,13 +34,11 @@ CSS Level 1+ CSS Profile 1.0
 </div>
 ### height <a name="02"></a>
 
-**Yapısı :** height: <deger> **Aldığı Değerler :** [<uzunluk değeri
->][] | auto | inherit **Başlangıç değeri:** auto **Uygulanabilen
+**Yapısı :** height: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | auto | inherit **Başlangıç değeri:** auto **Uygulanabilen
 elementler:** [Block-level ve replaced elementler][] **Kalıtsallık:**
 Yok
 
-[Blok-level ve replaced elementlerin][Block-level ve replaced
-elementler](örn: img, input, textarea vd.) tümü bir yükseklik(height)
+[Blok-level ve replaced elementlerin][Block-level ve replaced elementler](örn: img, input, textarea vd.) tümü bir yükseklik(height)
 değeri alır. Elementlerin başlangıçtaki yükseklik değeri **auto** yani
 kendi asıl yüksekliğidir. (Örneğin bir resmin yüksekliği gibi) Negatif
 değeri almaz.

@@ -6,8 +6,7 @@ Tags: flash-eklemek, swf-dosyası, swfobject, wmode
 Flash dosyalarını html sayfalarımıza eklemek baştan beri tam oturmamış
 bir konudur. Farklı tarayıcılar için farklı kod blokları yazılması,
 flash olmaması durumu için hazırlanan resimler veya yazılar vs. Ancak bu
-sorunlar yetmiyormuş gibi birde [İnternet Explorer'ın ActiveX
-güncellemesi sonrası][] yeni sorunlar çıktı.
+sorunlar yetmiyormuş gibi birde [İnternet Explorer'ın ActiveX güncellemesi sonrası][] yeni sorunlar çıktı.
 
 O zamanı(Mart-Nisan 2006) hatırlıyorum Turkline'da çalışıyordum ve
 [Microsoft'un Eolas ile lisans sorunları][] nedeni ile bir gün için tüm
@@ -60,8 +59,7 @@ vardır.
 Indirdigimiz dosya içerisinden çikan index.html sayfasi statik bir flash
 eklemeye örnektir. Kodlarini incelersek
 
-[sourcecode language="html"
-highlight="6,7,8,9,13,14,15,16,17,18,19,20,21,22,23,24,25,26"]
+[sourcecode language="html" highlight="6,7,8,9,13,14,15,16,17,18,19,20,21,22,23,24,25,26"]
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> <head>
@@ -78,8 +76,7 @@ data="test.swf" width="300" height="120"> <!--<![endif]--> <div>
 yüklü değilse burayı gösterecek<a
 href="http://www.adobe.com/go/getflashplayer"><img
 src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
-alt="Get Adobe Flash player" /></a></p> </div> <!--[if
-!IE]>--> </object> <!--<![endif]--> </object> </div>
+alt="Get Adobe Flash player" /></a></p> </div> <!--[if !IE]>--> </object> <!--<![endif]--> </object> </div>
 </body> </html> 
 
 Kodu iki kısıma ayıralım. İlk head içerisindeki javascript kısmı ve body

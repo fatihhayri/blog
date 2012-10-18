@@ -74,8 +74,7 @@ background:url(selam.gif) no-repeat; width: 62px; height:19px; }
 
 Bu teknik ekran okuyucularda sorunsuz çalışacaktır ancak resim
 görüntülemeyi iptal eden kullanıcılar bu metot ile kodladığımız
-sayfalarda sorun yaşayacaktır. Biz bu tekniği [CSS ile Menü Oluşturmak V
-- Resimli Menüler][] makalemizde uygulamıştık.
+sayfalarda sorun yaşayacaktır. Biz bu tekniği [CSS ile Menü Oluşturmak V - Resimli Menüler][] makalemizde uygulamıştık.
 
 ### 3- Gilder/Levin Metin Yerine Koyma Tekniği
 
@@ -250,8 +249,7 @@ kullandığımızı bırakıp diğerlerini silebiliriz.
 Örneği görmek için [tıklayınız.][6]
 
 <div class="ekstrabilgi">
-Bu metodun ayrıntılı olarak anlatımı Adobe'un sitesinde [Introduction to
-Scalable Inman Flash Replacement (sIFR)][] isimli çok güzel bir video
+Bu metodun ayrıntılı olarak anlatımı Adobe'un sitesinde [Introduction to Scalable Inman Flash Replacement (sIFR)][] isimli çok güzel bir video
 var, buradan tekniğin nasıl uygulandığını ayrıntısı ile görebiliriz.
 
 </div>
@@ -275,8 +273,7 @@ başlıklar için kullanmak gayet mantıklı. Takdir ve seçim sizin.
 
 ### Kaynaklar
 
--   [http://www.altiustutasarim.com/arsiv/2005/03/css_fir_teknigi.php][Mehmet
-    Doğan]
+-   [http://www.altiustutasarim.com/arsiv/2005/03/css_fir_teknigi.php][Mehmet     Doğan]
 -   [http://www.ampsoft.net/­webdesign-l/image-button.html][]
 -   [http://www.mezzoblue.com/tests/revised-image-replacement/][]
 -   [http://www.digital-web.com/articles/in_defense_of_fahrner_image_replacement/][]
@@ -284,8 +281,7 @@ başlıklar için kullanmak gayet mantıklı. Takdir ve seçim sizin.
 -   [http://www.mikeindustries.com/sifr/][buradan]
 -   [http://webdesign.maratz.com/lab/multi_color_sifr/][]
 -   [http://usabletype.com/weblog/how-and-when-to-use-sifr/][]
--   [http://www.adobe.com/devnet/dreamweaver/articles/sifr_demo.html][Introduction
-    to Scalable Inman Flash Replacement (sIFR)]
+-   [http://www.adobe.com/devnet/dreamweaver/articles/sifr_demo.html][Introduction     to Scalable Inman Flash Replacement (sIFR)]
 -   [http://novemberborn.net/sifr3/beta1][sIFR3]
 -   [http://labs.tom-lee.com/HeadingReplacement/Alpha/][]
 

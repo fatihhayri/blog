@@ -14,8 +14,7 @@ kaçtane.
 -   WordPress Blog
 -   Google Araçları
 
-Ben teknolojiyi geriden takip eden biriyimdir. Ben pasımı [Hasan
-Yalçın][]'a veriyorum ve kendisine bu konuda çok güveniyorum açıkçası.
+Ben teknolojiyi geriden takip eden biriyimdir. Ben pasımı [Hasan Yalçın][]'a veriyorum ve kendisine bu konuda çok güveniyorum açıkçası.
 
 </p>
 

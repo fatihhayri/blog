@@ -15,8 +15,7 @@ otobüslerde, trenlerde, salonlarda, stadyumlarda kısacası taraftarların
 her yerde söylediği tezahüratları bulabileceğiniz, sizin de takımınız
 için marşınızı paylaşabileceğiniz bir taraftar sitesidir.
 
-[Ayrıca Mustafa'nın siteyi tanıttığı televidyon'daki etohum programınıda
-izleminizi][] öneririm.
+[Ayrıca Mustafa'nın siteyi tanıttığı televidyon'daki etohum programınıda izleminizi][] öneririm.
 
 Bu projede [Mustafa Özyurt][] ve [Hasan Yalçın][] ile birilikte
 çalıştım. İki arkadaşımada teşekkürlerimi sunarak yazıma başlıyorum.
@@ -207,8 +206,7 @@ Bir sonraki makalede kaldığımız yerden devam edeceğiz.
 
 </p>
 
-  [Ayrıca Mustafa'nın siteyi tanıttığı televidyon'daki etohum
-  programınıda izleminizi]: http://televidyon.com/p/2107/fanatikmarslarcom
+  [Ayrıca Mustafa'nın siteyi tanıttığı televidyon'daki etohum   programınıda izleminizi]: http://televidyon.com/p/2107/fanatikmarslarcom
   [Mustafa Özyurt]: http://www.websoldier.net/
   [Hasan Yalçın]: http://www.hasanyalcin.com/
   [Klasör Yapısı]: http://www.fatihhayrioglu.com/wp-content/ders_01.gif

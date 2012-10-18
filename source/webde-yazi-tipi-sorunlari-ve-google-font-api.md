@@ -93,8 +93,7 @@ istemediği bir durum. Konu hakkında farklı tarayıcılarda farklı
 sorunlarda var.
 
 İşte bu noktada Google her zaman ki gibi web mecrasının geliştirmek ve
-hızlandırmak konusundaki çabaları kendini gösterdi ve [Google Font
-API][] aracını bizlerin kullanımına sundu.
+hızlandırmak konusundaki çabaları kendini gösterdi ve [Google Font API][] aracını bizlerin kullanımına sundu.
 
 Peki bu araç ne işimize yarayacak? Bu araç sayesinde ortak bir yazı tipi
 havuzu oluşturulmuş olacak. Ayrıca bir çok site tarafından kullanılınca

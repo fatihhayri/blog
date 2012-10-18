@@ -43,7 +43,6 @@ Tags: Ajax, CSS, Haberler, html, Javascript, web2.0, WordPress
   [CSS’de Tanımlamalar ve Etkinlikleri(Specificity)]: http://www.fatihhayrioglu.com/?p=180
   [5]: http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/
     "Link"
-  [Link Burdada 50 adet vermişler Link  
- ]: http://mashable.com/2007/07/26/wordpress-admin-plugins/ "WordPress"
+  [Link Burdada 50 adet vermişler Link    ]: http://mashable.com/2007/07/26/wordpress-admin-plugins/ "WordPress"
   [6]: http://services.immike.net/css-checker/ "Link"
   [7]: http://101out.com/jss.php "javascript"

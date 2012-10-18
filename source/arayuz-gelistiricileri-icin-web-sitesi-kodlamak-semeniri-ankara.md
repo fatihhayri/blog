@@ -5,8 +5,7 @@ Tags: arayüz geliştirici, seminer, tütev, web-sitesi
 
 [![][]][]26 Şubat 2011 Cumartesi günü bir aksilik olmazsa TÜTEV’de
 “Arayüz Geliştiricileri İçin Web Sitesi Kodlamak” adlı bir seminer
-düzenleyeceğiz. TÜTEV’e ve özellikle beni bu iş için ikna eden [Ömer
-Faruk Sarıkaya][]’ya teşekkür ediyorum. Ayrıca bana yol arkadaşı olmaya
+düzenleyeceğiz. TÜTEV’e ve özellikle beni bu iş için ikna eden [Ömer Faruk Sarıkaya][]’ya teşekkür ediyorum. Ayrıca bana yol arkadaşı olmaya
 kabul eden [S. Ferit Arslan][] ve [İlyas Osmanoğlulları][]’na da
 teşekkürler.
 

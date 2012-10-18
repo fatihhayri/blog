@@ -4,8 +4,7 @@ Category: CSS
 Tags: background-size, tam ekran, zemin-resmi
 
 Sitem üzerinden birçok mesaj aldım bu konuda. Sonunda yazmaya karar
-verdim, bir önceki makalemde [CSS3’ün background-size özelliğini
-anlattım][], orada da bahsettiğim gibi **background-size** özelliğini
+verdim, bir önceki makalemde [CSS3’ün background-size özelliğini anlattım][], orada da bahsettiğim gibi **background-size** özelliğini
 kullanarak bu işi çok kolay bir şekilde yapabiliriz. Buradaki
 problemimiz bu özelliği desteklemeyen tarayıcılar için nasıl bir çözüm
 bulmalıyız.
@@ -41,8 +40,7 @@ aldım.
 **html** elementine vermemizin nedeni **body** tanımlamalarında bazı
 tarayıcılarda sorun yaşamamızdır. Kaydırma çubuğunun hareketi ile zemin
 resmi kaymaması için resmi sabitledik(**fixed**). **cover** özelliği ile
-resmi zemine yaydık. [Daha detaylı bilgi için tıklayınız.][CSS3’ün
-background-size özelliğini anlattım]
+resmi zemine yaydık. [Daha detaylı bilgi için tıklayınız.][CSS3’ün background-size özelliğini anlattım]
 
 <div class="tarayiciuyum">
 **Browser Uyumu:**  

@@ -74,8 +74,7 @@ Daha fazla HTML5, CSS3 ve DOM özelliği desteği geldi.
 -   window.matchMedia() metodunu kullanarak medya sorgularını
     programatik olarak kontrol edebiliyoruz.
 -   [Server-Sent Events][] desteği eklenmiş. Bu API sunucuya istemci
-    tarafından uyarı mesajları göndermeye izin veriyor. [Bir mesajlaşma
-    örneği][]
+    tarafından uyarı mesajları göndermeye izin veriyor. [Bir mesajlaşma     örneği][]
 -   [Touch eventları][] destekliyor. Dokunmatik ekranlar ve
     trackpadlerde bu özellikleri kullanabiliyoruz artık.
 -   Tüm destek listesini görmek için [tıklayınız.][]

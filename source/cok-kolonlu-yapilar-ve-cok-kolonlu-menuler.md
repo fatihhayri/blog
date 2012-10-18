@@ -337,8 +337,7 @@ gelen özellikleri
 -   column-gap
 -   column-rule
 
-destekliyor. Mevcut açık kodun boyutu fazla gelince [çevrimiçi yui
-kompresor][] ile javascript dosyasını sıkıştırdım. Gayet güzel bir oran
+destekliyor. Mevcut açık kodun boyutu fazla gelince [çevrimiçi yui kompresor][] ile javascript dosyasını sıkıştırdım. Gayet güzel bir oran
 ile dosya boyutunu 37 kb'dan 19 kb'a kadar düşürdüm.
 
 Örnek kodu görmek için [tıklayınız.][6]

@@ -10,8 +10,7 @@ gösteriyor. Benim size burada bahsedeceğim ipucu küçük ama kullanışlı
 bir ipucu olacaktır.
 
 Bir kaç sitede gördükten sonra ve bende bir iphone projesine başlayacak
-olmamdan dolayı buraya eklemeyi uygun gördüm. Daha önce [çıktı almak
-için(print)][] benzer bir yapıyı kullanmıştık.
+olmamdan dolayı buraya eklemeyi uygun gördüm. Daha önce [çıktı almak için(print)][] benzer bir yapıyı kullanmıştık.
 
 Kodumuz çok basit
 

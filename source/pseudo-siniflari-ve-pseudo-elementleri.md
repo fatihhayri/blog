@@ -12,11 +12,9 @@ böler) **Pseudo elementi** ise bir elementi alt kısımlara böler (örneğin
 bir paragrafın ilk harfi, bir paragrafın ilk satırı gibi.)<!--more-->
 Pseudo sınıfına örnek: 	:::css
 	 a:visited { color:
-red; }  Pseudo elementine örnek: [sourcecode
-language="css"] p:first-line { font-weight: bold; }  Pseudo
+red; }  Pseudo elementine örnek: [sourcecode language="css"] p:first-line { font-weight: bold; }  Pseudo
 sınıf ve elemtleri HTML class özelliği olarak belirtilmemiştir. Normal
-sınıflar pseudo sınıf ve elementleri ile kullanılabilir. [sourcecode
-language="css"] a.disariyalinkller:link, a.disariyalinkller:visited {
+sınıflar pseudo sınıf ve elementleri ile kullanılabilir. [sourcecode language="css"] a.disariyalinkller:link, a.disariyalinkller:visited {
 color: maroon; }  Aynı şekilde id seçicileri ile birlikte
 de kullanılabilirler 	:::css
 	 a#altkisim:link{
@@ -67,8 +65,7 @@ ile geldiğimizde renk değiştirmesini sağlamak için Linkler için genel
 kullanım 	:::css
 	 a:link { color: navy; } a:visited {
 color: gray; } a:hover { color: red; } a:active { color: yellow; }
- **:focus** için bir örnek verecek olursak [sourcecode
-language="css"] input:focus { background: silver; font-weight: bold; }
+ **:focus** için bir örnek verecek olursak [sourcecode language="css"] input:focus { background: silver; font-weight: bold; }
 
 
 <div class="tarayiciuyum">
@@ -81,8 +78,7 @@ Diğer bir pseudo sınıfımız **:first-child**'dır. **first:child:**
 Belirtilen elementin ilk Çocuk Elementine stil atamak için kullanılır.
 	:::css
 	 p:first-child { font-weight: bold; }
-li:first-child { color:#f00; }  [sourcecode
-language="html"] <div> <p>Bu paragraf ilk çocuk elementidir ve sonuç
+li:first-child { color:#f00; }  [sourcecode language="html"] <div> <p>Bu paragraf ilk çocuk elementidir ve sonuç
 olarak kalın olacaktır</p> <ul> <li>Bu liste ilk çocuk elementidir
 ve font rengi kırmızı olacak</li> <li>Bu <strong>çocuk element
 </strong>değil</li> <li>Bu da değil</li> </ul> <p>Bu pragraf
@@ -96,8 +92,7 @@ Opera+
 ### :lang Pseudo Sınıfı
 
 Lang pseudo sınıfı içerikteki bir elemente farklı bir dil de yazmamızı
-sağlar. Atanabilecek dil listesi ve kullanılacak kısaltmalara [ISO 639
-and RFC 1776 standards][] erişebilirsiniz. 	:::html
+sağlar. Atanabilecek dil listesi ve kullanılacak kısaltmalara [ISO 639 and RFC 1776 standards][] erişebilirsiniz. 	:::html
 	
 <html> <head> <title>lang test</title> <style type="text/css">
 p:lang(fr) { color: red; } </style> </head><body> <p

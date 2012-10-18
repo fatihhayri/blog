@@ -13,8 +13,7 @@ gerekir.<!--more-->
 
 Seçici(Selector) ve Döküman arasındaki ilişkiyi anlayabilmemiz için,
 dökümanların nasıl planlandığını tekrar gözden geçirmemiz gerekir.
-Aşağıdaki basit (X)HTML dökümanı üzerine biraz düşünelim: [sourcecode
-language="html"] <html> <head> <title> CSS (X)HTML Hiyerarşisi
+Aşağıdaki basit (X)HTML dökümanı üzerine biraz düşünelim: [sourcecode language="html"] <html> <head> <title> CSS (X)HTML Hiyerarşisi
 </title> </head> <body> <h1>CSS<em>(X)HTML Hiyerarşisi
 </em></h1> Sitemize hoş geldiniz <em>Merhaba</em>biz
 <strong>sizler için <a href="konu.html"> bazı <em>önemli</em>
@@ -76,8 +75,7 @@ düşünün ve her iki alanın içinde de linkler olduğunu farz edelim. Tüm
 linkleri mavi olarak atamamız mümkün olmayacaktır çünkü ilk alanın
 ardaalanı mavi olduğu için linkler görünmeyecektir. Çözüm Torun
 Seçicilerindedir; ilk alan içindeki linklere farklı renk diğerlerine
-farklı renk tanımlaması yaparak bu işi halledebiliriz. [sourcecode
-language="css"] td.sidebar { background: blue; } td.main { background:
+farklı renk tanımlaması yaparak bu işi halledebiliriz. [sourcecode language="css"] td.sidebar { background: blue; } td.main { background:
 white; } td.sidebar a:link { color: white; } td.main a:link { color:
 blue; }  Bir örnek daha verelim. **blockquote** ve **p**
 elementleri içindeki **b** elementi ile **blockquote** içinde ve normal
@@ -103,9 +101,7 @@ Bazı durumlarda keyfi olarak bir torun seçicisi kullanmaktansa daha
 ayrıntılı bir ayrım yapmak isteyebiliriz. Örneğin bir **h1** elementinin
 altındaki**strong** elementlerinden **sadece** Çocuk Elementi için
 tanımlamalar yapmak istersek (torun elementleri hariç), Bunun için çocuk
-bağlayıcısını kullanırız ( > ) büyüktür işareti [sourcecode
-language="css"] h1 > strong { color: red; }  [sourcecode
-language="html"]<h1>Bu <strong>koda</strong>
+bağlayıcısını kullanırız ( > ) büyüktür işareti [sourcecode language="css"] h1 > strong { color: red; }  [sourcecode language="html"]<h1>Bu <strong>koda</strong>
 uygulanacaktır.</h1> <h1>Bu <em>koddaki <strong> bu kısım
 </strong></em> uygulama dışıdır..</h1>  Yukardaki
 durumda sadece ilk **strong** elementi için tanımlama gerçekleşecektir

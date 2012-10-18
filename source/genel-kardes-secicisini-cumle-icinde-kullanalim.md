@@ -15,8 +15,7 @@ kolaylık sağladığı için sizlerle paylaşmak istedim.
 
 Genel Kardeş Seçicileri; aynı seviyedeki elemanları yakalamak için
 CSS2.1’in bize sunduğu güzel özelliklerde güzel bir özellik. ie6’nın
-desteklememesi en büyük sorun idi. [İnternet Explorer 6 sürümü desteğini
-kaldırdıktan][] sonra bu seçiciyi rahat rahat kullanabiliyoruz artık.
+desteklememesi en büyük sorun idi. [İnternet Explorer 6 sürümü desteğini kaldırdıktan][] sonra bu seçiciyi rahat rahat kullanabiliyoruz artık.
 
 Karşıma çıkan iş ve Genel Kardeş Seçicisinin bana sağladığı kolaylık.
 

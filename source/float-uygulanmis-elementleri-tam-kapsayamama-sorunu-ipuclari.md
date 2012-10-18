@@ -16,8 +16,7 @@ hidden; } .kapsayamamaSorunu {display: inline-block;} /*IE-mac de bu
 bolumu sakla  */ * html .kapsayamamaSorunu {height: 1%;}
 .kapsayamamaSorunu {display: block;} /* IE-mac bu bolumu saklam artik
 */  sorunu çözümü ise .kapsayamamaSorunu ile :after
-arasındaki boşluğu kapatmak .kapsayamamaSorunu:after [sourcecode
-language='css'] .kapsayamamaSorunu:after { content: "."; display: block;
+arasındaki boşluğu kapatmak .kapsayamamaSorunu:after [sourcecode language='css'] .kapsayamamaSorunu:after { content: "."; display: block;
 height: 0; clear: both; visibility: hidden; }  Küçük bir
 nokta olsa da zamanı gelince insanın çok zamanını alıyor.
 
@@ -26,13 +25,11 @@ nokta olsa da zamanı gelince insanın çok zamanını alıyor.
 Bu konuda hakkında bir başka ipucuda float'uygulanmış nesnelerde bu
 sorun ile çok fazla karşılaşıyoruz, ben eskiden her bir sorunlu eleman
 için bu kodu yazıyordum. Sonra bunu bir sınıfa atayıp gerekli yerlerde
-bu sınıfı kullanmanın daha avantajlı olacağını düşündüm. [sourcecode
-language='css'] .kapsayamamaSorunu:after {content: "."; display: block;
+bu sınıfı kullanmanın daha avantajlı olacağını düşündüm. [sourcecode language='css'] .kapsayamamaSorunu:after {content: "."; display: block;
 height: 0; clear: both; visibility: hidden;} .kapsayamamaSorunu
 {display: inline-block;} /*IE-mac de bu bolumu sakla  */ * html
 .kapsayamamaSorunu {height: 1%;} .kapsayamamaSorunu {display: block;}
-/* IE-mac bu bolumu saklam artik */  [sourcecode
-language='html']
+/* IE-mac bu bolumu saklam artik */  [sourcecode language='html']
 
 <div id="icerik" class="kapsayamamaSorunu">
 -   <select> <option value="-1">Seçiniz</option>

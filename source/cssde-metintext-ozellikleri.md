@@ -16,8 +16,7 @@ kontrol eder. Metin özellikleri metin düzeni için çok avantajlı
 Paragrafların ilk cümlelerin soldan içeriye kaydırılması için kullanılan
 bir özelliktir.
 
-**Yapısı :** text-indent: <deger> **Aldığı Değerler :** [<uzunluk
-değeri >][] | [<yüzde>][<uzunluk değeri >] **Başlnagıç değeri:** 0
+**Yapısı :** text-indent: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] **Başlnagıç değeri:** 0
 **Uygulanabilen elementler:** Blok-level elementler **Kalıtsallık:** Var
 
 [sourcecode language='css'] p { text-indent: 10px; } 
@@ -32,8 +31,7 @@ Level 1+ CSS Profile 1.0
 Bir elemntin diğerlerine göre hizasını berlilemek için kullanılır.
 Sadece metinler için kullanılmaz, diğer elementler içinde kullanılır.
 
-**Yapısı :** text-align: <deger> **Aldığı Değerler :** [<uzunluk
-değeri >][] | [<yüzde>][<uzunluk değeri >] | inherit **Başlnagıç
+**Yapısı :** text-align: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | inherit **Başlnagıç
 değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **Kalıtsallık:** Yok
 
@@ -142,8 +140,7 @@ Level 1+ CSS Profile 1.0
 Bu özellik metinlerimize özel işaretler koymamızı sağlar. Örneğin
 metinlerizinaltını çizmek gibi.
 
-**Yapısı :** text-decoration: <deger> **Aldığı Değerler :**none | [
-underline || overline || line-through || blink ] **Başlnagıç değeri:**
+**Yapısı :** text-decoration: <deger> **Aldığı Değerler :**none | [ underline || overline || line-through || blink ] **Başlnagıç değeri:**
 none **Uygulanabilen elementler:** tüm elementler **Kalıtsallık:** Yok
 
 [sourcecode language='css'] a:link, a:visited, a:active {

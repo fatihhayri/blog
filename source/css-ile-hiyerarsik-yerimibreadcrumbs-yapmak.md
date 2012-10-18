@@ -80,8 +80,7 @@ ekleyelim.
 	 ul#yerimi { border:1px solid #cacaca; background:url(bc_bg.png)
 0 0 repeat-x } 
 
-Bu eklemeyide yapınca [Float Uygulanmış Elementleri Tam Kapsayamama
-(clearfix) sorunu][] ile karşılaşırız. Çözüm linkteki gibidir. sonuç
+Bu eklemeyide yapınca [Float Uygulanmış Elementleri Tam Kapsayamama (clearfix) sorunu][] ile karşılaşırız. Çözüm linkteki gibidir. sonuç
 olarak CSS kodumuz;  
 
 	:::css

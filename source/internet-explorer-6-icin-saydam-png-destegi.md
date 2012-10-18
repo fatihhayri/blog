@@ -103,8 +103,7 @@ görüntü aşağıdaki gibi olacaktır.
 Kırmızı ile işaretlediğim ve resmi saran bir gri alan gibi saracaktır.
 Bunun anlamı bu tarayıcının saydam PNG desteğinin olmadığıdır. Bu sorunu
 gidermek için yukarıda bahsettiğimiz İnternet Explorer 6'nın
-desteklediği **filter** tekniği uygulayacağız. [sourcecode
-language="javascript" highlight="4"] function fixpngs(){ var l =
+desteklediği **filter** tekniği uygulayacağız. [sourcecode language="javascript" highlight="4"] function fixpngs(){ var l =
 document.getElementsByTagName('img'); for(i=0;i<l.length;i++){ p =
 'images/0.gif'; n = l[i].getAttribute('src'); g = n.toLowerCase();
 if(g.substring(g.length-3)=="png"){ l[i].setAttribute('src',p);

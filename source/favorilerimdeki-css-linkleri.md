@@ -4,22 +4,17 @@ Category: CSS
 
 -   [BrainJar.com][]
 -   [Dijital Web][]
--   [Cascading Style Sheets CSS Tutorials - Javascript Styles Change
-    Styles Hover Styles][]
+-   [Cascading Style Sheets CSS Tutorials - Javascript Styles Change     Styles Hover Styles][]
 -   [Cascading Style Sheets Forum][]
--   [Cre8asite forums. CSS, Style, and Positioning. [ Search Engine
-    Optimization, Usability and Web Design. ]][]
+-   [Cre8asite forums. CSS, Style, and Positioning. [ Search Engine     Optimization, Usability and Web Design. ]][]
 -   [CSS Garden][]
 -   [CSS Vault][]
--   [CSS-guide, Index pages Table of contents of the CSS-guide (the
-    longer version)][]
+-   [CSS-guide, Index pages Table of contents of the CSS-guide (the     longer version)][]
 -   [CssBeauty][]
 -   [CSS An Interactive Tutorial for Beginners [Dave's CSS Guide]][]
 -   [learn web standards css guide - contents][]
--   [Web - Authoring - Style - Sheets- Cascading Style Sheets -
-    WebReference.com][]
--   [Introduction to CSS beginner's cascading stylesheets tutorial
-    HTMLSource ]][]
+-   [Web - Authoring - Style - Sheets- Cascading Style Sheets -     WebReference.com][]
+-   [Introduction to CSS beginner's cascading stylesheets tutorial     HTMLSource ]][]
 -   [CSS Tutorial][]
 -   [Assorted CSS samples on Phrogz.net][]
 -   [[ws] Wellstyled.com][]
@@ -41,8 +36,7 @@ Category: CSS
 -   [W3C - Baba][]
 -   [Web Design, CSS İpuclari][]
 -   [Yahoo! Groups][]
--   [/* Position Is Everything */ Modern browser bugs explained in
-    detail!][]
+-   [/* Position Is Everything */ Modern browser bugs explained in     detail!][]
 -   [Web Design References: Cascading Style Sheets][]
 -   [Real World Style][]
 -   [CSS Drive- Categorized CSS gallery and examples.][]
@@ -51,22 +45,17 @@ Category: CSS
 
   [BrainJar.com]: http://www.brainjar.com/
   [Dijital Web]: http://www.digital-web.com/
-  [Cascading Style Sheets CSS Tutorials - Javascript Styles Change
-  Styles Hover Styles]: http://css.somepeople.net/dynamic
+  [Cascading Style Sheets CSS Tutorials - Javascript Styles Change   Styles Hover Styles]: http://css.somepeople.net/dynamic
   [Cascading Style Sheets Forum]: http://www.csscreator.com/css-forum/index.php
-  [Cre8asite forums. CSS, Style, and Positioning. [ Search Engine
-  Optimization, Usability and Web Design. ]]: http://www.cre8asiteforums.com/viewforum.php?f=38
+  [Cre8asite forums. CSS, Style, and Positioning. [ Search Engine   Optimization, Usability and Web Design. ]]: http://www.cre8asiteforums.com/viewforum.php?f=38
   [CSS Garden]: http://www.csszengarden.com/
   [CSS Vault]: http://cssvault.com/
-  [CSS-guide, Index pages Table of contents of the CSS-guide (the longer
-  version)]: http://www.nic.fi/~tapio1/Teaching/index2.php3
+  [CSS-guide, Index pages Table of contents of the CSS-guide (the longer   version)]: http://www.nic.fi/~tapio1/Teaching/index2.php3
   [CssBeauty]: http://www.cssbeauty.com/
   [CSS An Interactive Tutorial for Beginners [Dave's CSS Guide]]: http://www.davesite.com/webstation/css/
   [learn web standards css guide - contents]: http://www.westciv.com/style_master/academy/css_tutorial/
-  [Web - Authoring - Style - Sheets- Cascading Style Sheets -
-  WebReference.com]: http://www.webreference.com/authoring/style/sheets/
-  [Introduction to CSS beginner's cascading stylesheets tutorial
-  HTMLSource ]]: http://www.yourhtmlsource.com/stylesheets/introduction.html
+  [Web - Authoring - Style - Sheets- Cascading Style Sheets -   WebReference.com]: http://www.webreference.com/authoring/style/sheets/
+  [Introduction to CSS beginner's cascading stylesheets tutorial   HTMLSource ]]: http://www.yourhtmlsource.com/stylesheets/introduction.html
   [CSS Tutorial]: http://www.tizag.com/cssT/
   [Assorted CSS samples on Phrogz.net]: http://phrogz.net/CSS/#articles
   [[ws] Wellstyled.com]: http://wellstyled.com/index.html
@@ -87,8 +76,7 @@ Category: CSS
   [W3C - Baba]: http://www.w3c.org/Style/CSS/
   [Web Design, CSS İpuclari]: http://webdesign.about.com/cs/css/qt/
   [Yahoo! Groups]: http://groups.yahoo.com/group/highfivebabble/messagesearch/13016?query=css
-  [/* Position Is Everything */ Modern browser bugs explained in
-  detail!]: http://www.positioniseverything.net/index.php
+  [/* Position Is Everything */ Modern browser bugs explained in   detail!]: http://www.positioniseverything.net/index.php
   [Web Design References: Cascading Style Sheets]: http://www.d.umn.edu/itss/support/Training/Online/webdesign/css.html
   [Real World Style]: http://realworldstyle.com/
   [CSS Drive- Categorized CSS gallery and examples.]: http://www.cssdrive.com/

@@ -9,8 +9,7 @@ büyük etki CSS3 renk geçişini desteklemeyen İnternet Explorer için
 filtre ile çözüm oluşturuyor olabilmemiz.
 
 Uygularımızda CSS3 renk geçişini uyguladıkça **filtre** uygulamalarında
-yaşanan sorunlar ortaya çıkmaya başladı. Daha önce bu konuda “[İnternet
-Explorer’da Renk Geçişi Sorunu ve Çözümü][]” bir sorun ve çözümü
+yaşanan sorunlar ortaya çıkmaya başladı. Daha önce bu konuda “[İnternet Explorer’da Renk Geçişi Sorunu ve Çözümü][]” bir sorun ve çözümü
 yazmıştım.
 
 Bu seferki sorunu şöyle tanımlayabilirim. Renk geçişi uygulanan alanın
@@ -25,8 +24,7 @@ sevinirim. Ben kaçak bir çözüm buldum :D
 
 ie7 için filtre tanımı kaldırarak sorunu giderdim. Ancak diğer ie
 sürümlerin için bir çözüm oluşturmam gerekti. Bunun için **-ms-filtre**
-özelliğini kullanmak bana mantıklı geldi. İ[nternet Explorer 7’nin %5’in
-altına düşmüş oranı][] ile görmezden gelinebileceğini düşünüyorum. :D
+özelliğini kullanmak bana mantıklı geldi. İ[nternet Explorer 7’nin %5’in altına düşmüş oranı][] ile görmezden gelinebileceğini düşünüyorum. :D
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/tAFG2/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 

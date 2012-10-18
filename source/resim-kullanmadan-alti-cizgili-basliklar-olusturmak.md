@@ -7,8 +7,7 @@ Tags: altı çizili başlıklar, clearfix, html
 
 Resimde görüldüğü gibi başlık yapmak için bir bg resmi hazırlayıp
 başlığın altına tanımlıyordum. Sonra acaba ben bunu resim kullanmadan
-yapabilirmiyim diye düşündüm. [Float uygulanmış elemanların kapsayamama
-sorunu][] diye ismini uzattığım clearfix sorunu aklıma geldi, aslında bu
+yapabilirmiyim diye düşündüm. [Float uygulanmış elemanların kapsayamama sorunu][] diye ismini uzattığım clearfix sorunu aklıma geldi, aslında bu
 bir sorun değil kabul idi. Tarayıcılar olayı böyle kabul ettiği için
 içinde float uygulanmış bir eleman olan kapsayıcı eleman içeriğine göre
 yükseklik almıyor ve sorun oluşturuyor.

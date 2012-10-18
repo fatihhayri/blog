@@ -50,19 +50,16 @@ arttırıyor)
 -   [İE6 sorunu: Bağlantı içi elemanlarda hover sorunu][]
 -   [CSS Seçicilerinin Optimizasyonu][]
 -   [IE’de Liste elemanları arasındaki boşluk sorunu][]
--   [CSS İpucu 28: FireBug yardımı ile daha kolay CSS Sprite
-    Uygulamak][]
+-   [CSS İpucu 28: FireBug yardımı ile daha kolay CSS Sprite     Uygulamak][]
 -   [Kutulara Gölge Vermek (box-shadow)][]
 -   [overflow ve position:relative kullanımında ie sorunu][]
 -   [jQuery ipuçları – 3][]
 -   [display:inline elemanlar arasındaki doğal boşluklar][]
 -   [Yuvarlak kenarlı kutular(border-radius) oluşturmak][]
--   [Float:left ve Text-align:right Atanmş Elemana Metin Yerine Resim
-    Uygulama][]
+-   [Float:left ve Text-align:right Atanmş Elemana Metin Yerine Resim     Uygulama][]
 -   [Çift çizgili ayraç kullanımı][]
 -   [Önden Resimleri(Preloading images) Yükleme Yöntemleri][]
--   [CSS İpucu 27: Chrome ve Safari’de textarea genişletme işlevini
-    kaldırma][]
+-   [CSS İpucu 27: Chrome ve Safari’de textarea genişletme işlevini     kaldırma][]
 -   [IE6 ve IE7′de bağlantılardaki cursor sorunu][]
 -   [IE’de Textarea’da Enter çalışmıyor][]
 -   [Resim Kullanmadan 1 piksellik Yuvarlak Kenarlı Kutu Oluşturmak][]
@@ -111,12 +108,10 @@ Türkiye’de umarım onlarda bilgilerini bizlerle paylaşırlar.
   [jQuery ipuçları – 3]: http://www.fatihhayrioglu.com/jquery-ipuclari-3/
   [display:inline elemanlar arasındaki doğal boşluklar]: http://www.fatihhayrioglu.com/displayinline-elemanlar-arasindaki-dogal-bosluklar/
   [Yuvarlak kenarlı kutular(border-radius) oluşturmak]: http://www.fatihhayrioglu.com/yuvarlak-kenarli-kutularborder-radius-olusturmak/
-  [Float:left ve Text-align:right Atanmş Elemana Metin Yerine Resim
-  Uygulama]: http://www.fatihhayrioglu.com/floatleft-ve-text-alignright-atanms-elemana-metin-yerine-resim-uygulama/
+  [Float:left ve Text-align:right Atanmş Elemana Metin Yerine Resim   Uygulama]: http://www.fatihhayrioglu.com/floatleft-ve-text-alignright-atanms-elemana-metin-yerine-resim-uygulama/
   [Çift çizgili ayraç kullanımı]: http://www.fatihhayrioglu.com/cift-cizgili-ayrac-kullanimi/
   [Önden Resimleri(Preloading images) Yükleme Yöntemleri]: http://www.fatihhayrioglu.com/onden-resimleripreloading-images-yukleme-yontemleri/
-  [CSS İpucu 27: Chrome ve Safari’de textarea genişletme işlevini
-  kaldırma]: http://www.fatihhayrioglu.com/css-ipucu-27-chrome-ve-safaride-textarea-genisletme-islevini-kaldirma/
+  [CSS İpucu 27: Chrome ve Safari’de textarea genişletme işlevini   kaldırma]: http://www.fatihhayrioglu.com/css-ipucu-27-chrome-ve-safaride-textarea-genisletme-islevini-kaldirma/
   [IE6 ve IE7′de bağlantılardaki cursor sorunu]: http://www.fatihhayrioglu.com/ie6-ve-ie7de-baglantilardaki-cursor-sorunu/
   [IE’de Textarea’da Enter çalışmıyor]: http://www.fatihhayrioglu.com/iede-textareada-enter-calismiyor/
   [Resim Kullanmadan 1 piksellik Yuvarlak Kenarlı Kutu Oluşturmak]: http://www.fatihhayrioglu.com/resim-kullanmadan-1-piksellik-yuvarlak-kenarli-kutu-olusturmak/

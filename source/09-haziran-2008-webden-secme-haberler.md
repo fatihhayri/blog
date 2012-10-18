@@ -16,8 +16,7 @@ Tags: Ajax, akordiyon, Google-Search, jquery, mailing, mootools, performans, Scr
     [Bağlantı][5]
 -   5 jQuery sorusu ve cevabı. [Bağlantı][6]
 -   Hasan Köroğlu sitemde arama yaptığında aranan kriterin farklı renkte
-    gösterilmesi halinde daha iyi olacağını söyledi bende [search
-    hilite][] eklentisi ile bunu hallettim. Öneri için teşekkürler Hasan
+    gösterilmesi halinde daha iyi olacağını söyledi bende [search     hilite][] eklentisi ile bunu hallettim. Öneri için teşekkürler Hasan
 -   Asp.net'de ajax kullanımı hakkında 46 makale. [Bağlantı][7]
 -   jQuery ile akordiyon menü yapımını makalesi. [Bağlantı][8]
 -   25 adet anlatımlı ajax uygulaması. RSS okuyucusundan, sohbet

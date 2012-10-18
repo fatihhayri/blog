@@ -70,8 +70,7 @@ aramak içindir.
 Bu metot IE'un css içinde **expression()** komutunu yardımı ile
 javascript kodu işletmemize izin vermesi prensinden dayanır. Bizde bu
 metodda bu komut yardımı ile **position:fixed** sorununu çözeceğiz.
-**expression()** yardımı ile daha önce IE'nin [min-width ve min-height
-sorununu][] çözdüğümüzü hatırlayın.
+**expression()** yardımı ile daha önce IE'nin [min-width ve min-height sorununu][] çözdüğümüzü hatırlayın.
 
 	:::html
 	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML

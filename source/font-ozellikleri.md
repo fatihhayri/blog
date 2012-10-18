@@ -39,8 +39,7 @@ W3C's CSS Level 1+
 ### font-family
 
 <div class="cssozelliktanimi">
-**Yapısı :** font-family : [[<font aile ismi > | <soysal aile ismi
->],]* [<font aile ismi > | <soysal aile ismi >] | inherit **Aldığı
+**Yapısı :** font-family : [[<font aile ismi > | <soysal aile ismi >],]* [<font aile ismi > | <soysal aile ismi >] | inherit **Aldığı
 Değerler :**
 
 <font aile ismi >- herhangi bir font ailesi ismi kullanılabilir.
@@ -178,9 +177,7 @@ Yukardı anlatılan font özelliklerinin hatta ek olrak **line-height**
 değerinide tek sefer de tanımlamak için kullanılır. Bir [kısaltmadır][].
 
 <div class="cssozelliktanimi">
-**Yapısı :**font: <değer> **Aldığı Değerler :**[ <font-style> ||
-<font-variant> || <font-weight> ]? <font-size> [ / <line-height>
-]? <font-family> **Başlangıç değeri:**tanımsız **Uygulanabilen
+**Yapısı :**font: <değer> **Aldığı Değerler :**[ <font-style> || <font-variant> || <font-weight> ]? <font-size> [ / <line-height> ]? <font-family> **Başlangıç değeri:**tanımsız **Uygulanabilen
 elementler:** tüm elementler **Kalıtsallık:** Var
 
 </div>

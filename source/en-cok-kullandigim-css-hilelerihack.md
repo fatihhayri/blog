@@ -73,8 +73,7 @@ Bu hata birden fazla float uygulanmış iç içe elementlerde meydana gelir.
 Son float uygulanmış elementin son karakterleri tekrarlar. Soruna nedeni
 html yorum satırlarıdır ve çözüm için   
 
-[sourcecode
-language='html']<!--[if !IE]>Yorumunu buraya yaz <![endif]-->
+[sourcecode language='html']<!--[if !IE]>Yorumunu buraya yaz <![endif]-->
 
 
 Kodunu yazarız. Ben burada yorum yazarken bu sorunla karşılaşabilirim

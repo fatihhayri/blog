@@ -16,8 +16,7 @@ içerik yapımı jQuery ile çok basit. Bunu burada beraber göreceğiz.
 XHTML kodumuz:
 
 	:::html
-	 <div class="sekmeAlani"> <!--[if
-!IE]>sekmeler<![endif]--> <ul class="sekmeler"> <li
+	 <div class="sekmeAlani"> <!--[if !IE]>sekmeler<![endif]--> <ul class="sekmeler"> <li
 class="s1"><a href="javascript:void(0);"
 class="s1">Sekme1</a></li> <li class="s2"><a
 href="javascript:void(0);" class="s2">Sekme2</a></li> <li

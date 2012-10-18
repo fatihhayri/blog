@@ -111,8 +111,7 @@ Alıntı Alt Zemin Resmi
 
 Şimdi CSS kodumuzu yazalım
 
-[sourcecode language="html"
-highlight="6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32"]
+[sourcecode language="html" highlight="6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32"]
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
 xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
@@ -145,8 +144,7 @@ tarayıcı ve araçlarda da farklı bir görünüm sağlamış olduk.
 ### Kaynaklar
 
 -   [http://www.cameraontheroad.com/?p=154 iyi örnek][]
--   [Dan Cederholm - Web Standards Solutions The Markup and Style
-    Handbook][]
+-   [Dan Cederholm - Web Standards Solutions The Markup and Style     Handbook][]
 -   [http://24ways.org/2005/swooshy-curly-quotes-without-images][]
 -   [http://monc.se/kitchen/129/rendering-quotes-with-css][]
 -   [http://www.shapeshed.com/journal/quotations_in_css/][]
@@ -168,8 +166,7 @@ tarayıcı ve araçlarda da farklı bir görünüm sağlamış olduk.
   [Alıntı Örnek Sonuç]: /images/alinti_ornek2.gif
   [göz at.]: /static/dokumanlar/alinti_ornek_sonuc.html
   [http://www.cameraontheroad.com/?p=154 iyi örnek]: http://www.cameraontheroad.com/?p=154%20iyi%20örnek
-  [Dan Cederholm - Web Standards Solutions The Markup and Style
-  Handbook]: http://www.simplebits.com/publications/solutions/
+  [Dan Cederholm - Web Standards Solutions The Markup and Style   Handbook]: http://www.simplebits.com/publications/solutions/
   [http://24ways.org/2005/swooshy-curly-quotes-without-images]: http://24ways.org/2005/swooshy-curly-quotes-without-images
   [http://monc.se/kitchen/129/rendering-quotes-with-css]: http://monc.se/kitchen/129/rendering-quotes-with-css
   [http://www.shapeshed.com/journal/quotations_in_css/]: http://www.shapeshed.com/journal/quotations_in_css/

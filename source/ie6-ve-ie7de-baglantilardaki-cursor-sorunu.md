@@ -7,8 +7,7 @@ Aslında başlığı nasıl atacağımı şaşırdığım için kısa bir başl�
 
 ### Sorun
 
-Sorunumuz tam olarak anlamak için daha önce anlattığım [CSS ile buton
-yapmak][] adlı makaledeki görselliği arttırılmış esnek butonu örneğini
+Sorunumuz tam olarak anlamak için daha önce anlattığım [CSS ile buton yapmak][] adlı makaledeki görselliği arttırılmış esnek butonu örneğini
 incelememiz yeterli.
 
 Genelde esnek yapılı bu tip resimli menüler veya butonları oluştururken

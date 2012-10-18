@@ -129,8 +129,7 @@ onblur="if(this.value==''){this.value='Arama'};" />
 <button></button> </div> <ul id="ustMenu"> <li>Sesi
 Kapat</li> <li><a href="">Giriş Yap</a></li> <li><a
 href="">Sen de Katıl!</a></li> <li><a href="">Fanatik Marşlar
-Nedir?</a></li> </ul> </div><!--[if
-!IE]>menuAramaAlani<![endif]--> 
+Nedir?</a></li> </ul> </div><!--[if !IE]>menuAramaAlani<![endif]--> 
 
 **Büyük Resim**
 

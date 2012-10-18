@@ -37,8 +37,7 @@ dikkate alınmalıdır.
 Diğer bir hata ayıklama yöntemi Özellik Seçicileri kullanarak hata
 ayıklamaktır. Bir çok yeni nesil web tarayıcısı (FF ve Safari) bu
 kullanımı destekler, ancak IE6 ve altı versiyonlar bu özelliği
-desteklemez. [IE7 bu kullanımı desteklemektedir.][IE 7 Çocuk
-Seçicilerini desteklemektedir.] Bu hata ayıklama yöntemi yukarıda
+desteklemez. [IE7 bu kullanımı desteklemektedir.][IE 7 Çocuk Seçicilerini desteklemektedir.] Bu hata ayıklama yöntemi yukarıda
 bahsettiğimiz "Çocuk Seçicileri ile Hata ayıklama" yöntemi gibi
 kullanılır.
 
@@ -128,8 +127,7 @@ html { height: 1px; } /* hata ayiklama sonu */
 
 Bunların dışında kutu modeli hata ayıklaması için kullandığımız
 [tantek][1]'in yöntemi, [Css de kodumuzu İE'den gizleme][] adlı makalede
-kullandığımız **!important** yöntemi ve [IE'da min-width,
-min-height,max-width, max-height Kullanmak][] makalesinde kullandığımız
+kullandığımız **!important** yöntemi ve [IE'da min-width, min-height,max-width, max-height Kullanmak][] makalesinde kullandığımız
 **expression()** yöntemleride vardır. Bunlardan daha önce bahsettiğimiz
 için değinmedik. Bunların dışında kullanılan diğer bazı yöntemler olsa
 da biz burada genel kabul görmüş yöntemleri yazmayı uygun bulduk.

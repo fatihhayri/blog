@@ -22,8 +22,7 @@ liste çıkardım;
 
 -   **HTML bilmek:** Çok iyi derecede HTML bilmelidir ve uygulamada
     gereksiz kod yığınlarında kaçınmalıdır.
--   [**CSS Bilmek:** Çok iyi derecede CSS bilmelidir. Katman tabanlı
-    kodlamayı bilmelidir. Tablosuz sayfa yapısını tasarlamalıdır.][]
+-   [**CSS Bilmek:** Çok iyi derecede CSS bilmelidir. Katman tabanlı     kodlamayı bilmelidir. Tablosuz sayfa yapısını tasarlamalıdır.][]
 -   **Javascript:** Çok iyi derecede javascript bilmelidir. Ajax ve 
     javascript kütüphanelerinden birine(jquery, mootools, vd.) hakim
     olmalı ve uygulama geliştirebilmelidir.
@@ -33,16 +32,13 @@ liste çıkardım;
 -   **İçerik Yönetim Sistemleri:** Şirket içi CMS vb. içerik yönetim
     sistemlerini bilmeli ve kullanmalıdır.
 -   **Mailing:** Mailing standartların bilemeli ve buna uygun mailing
-    kodları hazırlamalıdır. [HTML Mailing -1: Mailing Kodlarken Dikkat
-    Edilmesi Gerekenler][] | [HTML Mailing 2 – Mailing HTML Kodunun
-    Yazılması][]
+    kodları hazırlamalıdır. [HTML Mailing -1: Mailing Kodlarken Dikkat     Edilmesi Gerekenler][] | [HTML Mailing 2 – Mailing HTML Kodunun     Yazılması][]
 -   **Görsel Araçlar:** Adobe Photoshop, Firework veya benzeri bir
     programı kendi işini yapacak kadar bilmelidir.
 -   **Takım Çalışması:** Takım çalışmalarına uyumlu olmalıdır. Proje
     Yöneticisi, tasarımcı, flashçı ve programcılar ile etkileşimli
     çalışmalıdır.
--   [**Yenilikçi:** Web mecrasındaki gelişmeleri takip etmeli ve
-    uygulamalarında bu yenilikleri gerektiğinde kullanmalıdır.][]
+-   [**Yenilikçi:** Web mecrasındaki gelişmeleri takip etmeli ve     uygulamalarında bu yenilikleri gerektiğinde kullanmalıdır.][]
 -   **Yabancı Dil:** En az yenilikleri takip edecek kadar İngilizce
     bilmelidir.
 -   **Sunucu Taraflı Diller:** Asp.Net, PHP vb. sunucu taraflı dillerin
@@ -65,12 +61,10 @@ aranabilir. Malum sektör hızlı gelişiyor.
 
   [FirendFeed'deki Arayüz Geliştiricileri]: http://friendfeed.com/arayuz-gelistiriciler
     "FirendFeed'deki Arayüz Geliştiricileri"
-  [**CSS Bilmek:** Çok iyi derecede CSS bilmelidir. Katman tabanlı
-  kodlamayı bilmelidir. Tablosuz sayfa yapısını tasarlamalıdır.]: http://www.fatihhayrioglu.com/css-dersleri/
+  [**CSS Bilmek:** Çok iyi derecede CSS bilmelidir. Katman tabanlı   kodlamayı bilmelidir. Tablosuz sayfa yapısını tasarlamalıdır.]: http://www.fatihhayrioglu.com/css-dersleri/
   [HTML Mailing -1: Mailing Kodlarken Dikkat Edilmesi Gerekenler]: http://www.fatihhayrioglu.com/html-mailing-1-mailing-kodlarken-dikkat-edilmesi-gerekenler/
   [HTML Mailing 2 – Mailing HTML Kodunun Yazılması]: http://www.fatihhayrioglu.com/html-mailing-2-mailing-html-kodunun-yazilmasi/
-  [**Yenilikçi:** Web mecrasındaki gelişmeleri takip etmeli ve
-  uygulamalarında bu yenilikleri gerektiğinde kullanmalıdır.]: http://www.fatihhayrioglu.com/yeniliklerin-takibi-ve-google-reader/
+  [**Yenilikçi:** Web mecrasındaki gelişmeleri takip etmeli ve   uygulamalarında bu yenilikleri gerektiğinde kullanmalıdır.]: http://www.fatihhayrioglu.com/yeniliklerin-takibi-ve-google-reader/
   [http://v1.garrettdimon.com/archives/the-time-is-now-for-front-end-architects]: http://v1.garrettdimon.com/archives/the-time-is-now-for-front-end-architects
     "http://v1.garrettdimon.com/archives/the-time-is-now-for-front-end-architects"
   [http://www.cherny.com/webdev/105/front-end-web-designers-developers-and-engineers]: http://www.cherny.com/webdev/105/front-end-web-designers-developers-and-engineers

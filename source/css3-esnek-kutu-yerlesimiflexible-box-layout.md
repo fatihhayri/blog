@@ -11,8 +11,7 @@ kolaylaştıracak Esnek Kutu Yerleşimi Modülünü sunmaktadır.
 Sayfa yerleşimini yaparken genelde float/clear veya position
 özelliklerini kullanarak yapıyorduz. Tabloya göre büyük avantajlar
 sağlayan bu yöntemlerden sonra web sayfası kodlamak daha kolay ve zevkli
-bir hal aldı. Detay için[Tablo mu? Div mi? Karmaşasına Son Noktayı HTML5
-koydu][] yazısını inceleyin.
+bir hal aldı. Detay için[Tablo mu? Div mi? Karmaşasına Son Noktayı HTML5 koydu][] yazısını inceleyin.
 
 Tabi CSS ile sayfa yerleşimi kodlamanın birçok avantajı var. Bunun
 yanında bazı karışık sayfa yerleşimlerinde ise bizi zorladığı bir
@@ -358,9 +357,7 @@ yeniliklerinden biri olan sayfa planlamaya yönelim yeniliklerine bir göz
 atmak, mantığını kavramak, geleceğe dair fikir edinmeyi sağlamaktır. Ben
 burada sadece EKYM anlattım, ancak CSS3 ile sayfa planlamaya yönelik
 başka modüllerde geliştirilmekte; [Çoklu Kolonlar(Multiple Column)][],
-[Izgara Yerleşim Modeli(Grid Layout)][], [Şablon Yerleşim
-Modeli(Template Layout Model)][], [CSS Exclusions Module][], [CSS
-regions Module][]
+[Izgara Yerleşim Modeli(Grid Layout)][], [Şablon Yerleşim Modeli(Template Layout Model)][], [CSS Exclusions Module][], [CSS regions Module][]
 
 CSS3 ile sayfa yerleşimi daha kolay olacağı kesin, bu konuda bir çok
 modül üzerinde çalışma bitmek üzere veya bitmiş bulunmakta. Gelecekte

@@ -117,8 +117,7 @@ durumunda vardır.**
 [sourcecode language="css" highlight="11"] #kutu1 { width:200px;
 height: 130px; border: 2px solid #659ad8; background-color:#e5ecf9; }
 #kutu2 { height: 100px; border: 2px solid #cd8a93;
-background-color:#ffb4bf; margin:10px -20px }  [sourcecode
-language="html"] <div id="kutu1"> <div id="kutu2"></div> </div>
+background-color:#ffb4bf; margin:10px -20px }  [sourcecode language="html"] <div id="kutu1"> <div id="kutu2"></div> </div>
 
 
 İçteki kutuya sağdan ve soldan eksi değerler verdiğimizde dış kutunu
@@ -314,8 +313,7 @@ height:1px }
 
 **Eksi Margin Uygulamaları**
 
--   [Konumlandırma(positioning) kullanılan elementlerin negatif margin
-    ile ortalanması][]
+-   [Konumlandırma(positioning) kullanılan elementlerin negatif margin     ile ortalanması][]
 -   [CSS ile gölge vermek][]
 
 Ayrıca
@@ -394,8 +392,7 @@ uygulamamızda eksi margin'i kullanmaya devam edeceğiz.
   [10]: /static/dokumanlar/eksi_deger_icice_float4.html
   [float_eksimargin_icice4]: http://www.fatihhayrioglu.com/wp-content/float_eksimargin_icice4.gif
     "float_eksimargin_icice4"
-  [Konumlandırma(positioning) kullanılan elementlerin negatif margin ile
-  ortalanması]: http://www.fatihhayrioglu.com/css-ile-sayfalarimizi-ve-elementlerimizi-ortalamak/
+  [Konumlandırma(positioning) kullanılan elementlerin negatif margin ile   ortalanması]: http://www.fatihhayrioglu.com/css-ile-sayfalarimizi-ve-elementlerimizi-ortalamak/
   [CSS ile gölge vermek]: http://www.fatihhayrioglu.com/css-ile-golge-vermek/
   [Eksi margin Kullanarak çoklu kolon]: http://www.communitymx.com/abstract.cfm?cid=27F87
   [http://www.smashingmagazine.com/2009/07/27/the-definitive-guide-to-using-negative-margins/]: http://www.smashingmagazine.com/2009/07/27/the-definitive-guide-to-using-negative-margins/

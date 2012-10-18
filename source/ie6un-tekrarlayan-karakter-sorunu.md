@@ -24,8 +24,7 @@ da altı karakter tekrarlayacaktır.
 
 ![][]
 
-şžaşılacak bir durum ancak bu hatanın geçen makalede bahsettiğimiz [3
-piksel metin öteleme hatası][] ile ilişkisi vardır. Bu hatayı düzeltmek
+şžaşılacak bir durum ancak bu hatanın geçen makalede bahsettiğimiz [3 piksel metin öteleme hatası][] ile ilişkisi vardır. Bu hatayı düzeltmek
 için sondaki float uygulanmış öğeye sağdan 3 piksel eksi değer
 atamalıyız veya içerik alanını 3 piksel genişletmeliyiz. Ancak bu çözüm
 metodlarının her ikisi de IE 7'de sorun çıkaracaktır. Bundan kurtulmak

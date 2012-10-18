@@ -9,8 +9,7 @@ gerek duydum. Açıkçası İnternet Explorer 8'e ilgisiz kaldık. İnternet
 Explorer 6 ile o kadar uğraştık ki serinin 8. sürümü biraz atıl kaldı.
 
 İnternet Explorer 8 yayıldıkça sorunları ortay çıkmaya başladı, yani
-test potamıza girmeye başladı. [Her ne kadar uyumluluk kodu ile İnternet
-Explorer][] 7 gibi yorumlamasını sağlayıp test tarayıcı sayısını bire
+test potamıza girmeye başladı. [Her ne kadar uyumluluk kodu ile İnternet Explorer][] 7 gibi yorumlamasını sağlayıp test tarayıcı sayısını bire
 düşürme imkanımız olsada yeniliklerinden yararlanmak için bu kodu
 kullanmamak gerekebilir. Ayrıca makaleyi geç yazmamızın bir avantajı
 oldu o da ie8 sorunlarınıda görmeye başladık. 

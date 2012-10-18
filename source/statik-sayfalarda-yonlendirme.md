@@ -25,8 +25,7 @@ değeri gösterir. Değer saniye cinsindendir.
 Eğer yönlendirme yapayım ama geri tuşuna basınca önceki sayfaya gitmesin
 diyorsak **location.replace** özelliğini kullanmalıyız.
 
-[sourcecode
-language="javascript"]<script>location.replace("DigerSayfa.html");</script>
+[sourcecode language="javascript"]<script>location.replace("DigerSayfa.html");</script>
 
 </p>
 

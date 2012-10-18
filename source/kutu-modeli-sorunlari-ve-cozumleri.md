@@ -62,8 +62,7 @@ dolaylı olarak etkiler. Kutular arasındaki genişliği hesaplarken margin
 değerlerinide dikkate almalıyız. CSS ile sayfa yapıların oluştururken
 kenar dış boğluklarını(margin) da dikkate elmalıyız. Bu sorunun çözümü
 için üretilmiş bir çok yöntem vardır. Ancak bence en sağlamı
-[tantek][]'in ürettiği koddur ve burada bundan bahsedeceğim. [sourcecode
-language='css'] #icerik{ width:230px; padding:10px; border:5px solid
+[tantek][]'in ürettiği koddur ve burada bundan bahsedeceğim. [sourcecode language='css'] #icerik{ width:230px; padding:10px; border:5px solid
 #000; /* Bundan sonraki kısmı ie5win sakla */ voice-family:
 ""}""; voice-family:inherit; width:200px; }  Burdaki
 ilk genişilk değeri(2. satırdaki) IE'un IE6/strict'den önceki

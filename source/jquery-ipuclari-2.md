@@ -4,8 +4,7 @@ Category: Javascript, jquery
 Tags: ie6, ipuçları, jquery, kontrol kutuları, metot zincirleme, toggle, toggleClass, zebra tablolar
 
 Genel olarak kullandığım ve dikkatimi çeken jquery ipuçlarını sizlerle
-paylaşmaya devam ediyorum. [İpucu serisinin ilkine buradan
-ulaşabilirsiniz.][]
+paylaşmaya devam ediyorum. [İpucu serisinin ilkine buradan ulaşabilirsiniz.][]
 
 ### 1- toggle() ile kolayca gizle/göster yapmak.
 
@@ -35,8 +34,7 @@ bu kod sayesinde mesela çok basit şekilde aç-kapa butonu yapabiliriz.
 ### 3- click() ile tetiklenen bağlantılarda ie6 sorununu gidermek
 
 Bir bağlantıya jquery ile erişip click() metodunu uyguladığımızda ie6
-ile sorun yaşıyoruz. [Ben bu sorun için bir çözüm bulmuştum ancak
-Hüseyin Mert daha iyi bir çözüm buldu.][] Ben bu çözümü burada sizlerle
+ile sorun yaşıyoruz. [Ben bu sorun için bir çözüm bulmuştum ancak Hüseyin Mert daha iyi bir çözüm buldu.][] Ben bu çözümü burada sizlerle
 paylaşmak istedim.
 
 	:::javascript
@@ -94,8 +92,7 @@ yazdığı kod daha basit ve kullanışlı.
 	 function doldur(o){ if
 (o.value==o.defaultValue){o.value="";} else
 if(o.value==""){o.value=o.defaultValue;}o.onblur=function(){doldur(o)}}
- ve kodu sonra çağırmak için (jquery ile) [sourcecode
-language="javascript"] $("#inputId").focus(function(){ doldur(this)
+ ve kodu sonra çağırmak için (jquery ile) [sourcecode language="javascript"] $("#inputId").focus(function(){ doldur(this)
 }); 
 
 veya html içinden
@@ -112,8 +109,7 @@ Tablo okunabilirliğini arttırmak için bir satır farklı bir renk veya
 stil tanımlarız. Bunu javascript ile uzun yoldan yaparken jquery ile tek
 satır kod ile yapabiliyoruz
 
-[sourcecode
-language="javascript"]$("tr:nth-child(odd)").addClass("farkliSatir");
+[sourcecode language="javascript"]$("tr:nth-child(odd)").addClass("farkliSatir");
 
 ### 8 - Çok tekrarlanan seçicileri bir değişkene tanımlamak
 
@@ -136,8 +132,7 @@ alınıyor ve daha hızlı erişiliyor.
 
 ### Kaynaklar
 
--   [http://ff.im/dAPK6][Ben bu sorun için bir çözüm bulmuştum ancak
-    Hüseyin Mert daha iyi bir çözüm buldu.]
+-   [http://ff.im/dAPK6][Ben bu sorun için bir çözüm bulmuştum ancak     Hüseyin Mert daha iyi bir çözüm buldu.]
 -   [http://www.myinkblog.com/2009/08/04/10-tips-for-writing-better-jquery-code/][]
 -   [http://drupal.org/node/116548][]
 -   [http://snipplr.com/view/25148/jquery-search-text-replace/][]
@@ -146,8 +141,7 @@ alınıyor ve daha hızlı erişiliyor.
 </p>
 
   [İpucu serisinin ilkine buradan ulaşabilirsiniz.]: http://www.fatihhayrioglu.com/jquery-ipuclari/
-  [Ben bu sorun için bir çözüm bulmuştum ancak Hüseyin Mert daha iyi bir
-  çözüm buldu.]: http://ff.im/dAPK6
+  [Ben bu sorun için bir çözüm bulmuştum ancak Hüseyin Mert daha iyi bir   çözüm buldu.]: http://ff.im/dAPK6
   [http://www.myinkblog.com/2009/08/04/10-tips-for-writing-better-jquery-code/]: http://www.myinkblog.com/2009/08/04/10-tips-for-writing-better-jquery-code/
   [http://drupal.org/node/116548]: http://drupal.org/node/116548
   [http://snipplr.com/view/25148/jquery-search-text-replace/]: http://snipplr.com/view/25148/jquery-search-text-replace/

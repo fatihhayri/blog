@@ -121,8 +121,7 @@ Dış hat çizgisi(outline) özelliği yukarıda gördüğümüz özelliklerin t
 seferde kullanılmasını sağlayan bir kısa yoldur.
 
 **Yapısı:** outline: <deger>  
-**Aldığı Değerler:** [ <outline-color> || <outline-style> ||
-<outlinewidth>] | inherit  
+**Aldığı Değerler:** [ <outline-color> || <outline-style> || <outlinewidth>] | inherit  
 **Başlangıç değeri:** Tanımlı değildir  
 **Uygulanabilen elemanlar:** Tüm elemanlara  
 **Kalıtsallık:** Yok

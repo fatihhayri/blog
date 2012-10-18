@@ -66,8 +66,7 @@ kullanırız. Bir örnek verecek olursak; hazırlayacağımız dökümanda iki
 adet paragraf tanımlaması yapacağımızı planlıyoruz. Bunlardan biri sağa
 dayalı, diğeri ise ortalı olmasını istiyoruz [sourcecode language='css']
 p.sagadaya {text-align: right} p.ortala {text-align: center}
-Bu Seçicileri sayfamızda uygulamak için; [sourcecode
-language='html']
+Bu Seçicileri sayfamızda uygulamak için; [sourcecode language='html']
 
 Aynı HTML elementine farklı özellikler atamak için Sınıf Seçicisini
 kullanırız.
@@ -78,8 +77,7 @@ Yukarıdaki bilgiyi dikkatlice okumalısınız
 sadece bir HTML elementine değilde istediğiniz sayıda HTML elementinde
 bunu kullanmak isterseniz; [sourcecode language='css'] .ortala {
 text-align: center }  Bu tanımlamayı yaptıktan sonra
-istedğimiz her HTML elementine bu sınıfı uygulayabiliriz. [sourcecode
-language='css'] <span class="ortala"> Burada birşeyler yazar </span>
+istedğimiz her HTML elementine bu sınıfı uygulayabiliriz. [sourcecode language='css'] <span class="ortala"> Burada birşeyler yazar </span>
 
 Burada da başka bişeyler yazar
 

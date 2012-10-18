@@ -3,8 +3,7 @@ Date: 2010-05-30 16:26
 Category: CSS
 Tags: Evrensel-Seçiciler, Id-Seçicisi, optimize, performans, seçici optimizasyonu, Torun-Seçicisi
 
-Bu konuyu hiç yazmayı düşünmüyordum, [Writing Efficient CSS for use in
-the Mozilla UI][] makalesini okuyan kadar. Bu makaleyi okuduğumda bir
+Bu konuyu hiç yazmayı düşünmüyordum, [Writing Efficient CSS for use in the Mozilla UI][] makalesini okuyan kadar. Bu makaleyi okuduğumda bir
 şeyleri yanlış bildiğimi gördüm ve düzeltmek için bu konu hakkında biraz
 araştırma yapmam gerektiğini düşündüm ve bu makale çıktı. Bende yeni çok
 şeyler öğrendim. Aslında makalede 10 senelik bir makale, 10 sene sonra
@@ -18,8 +17,7 @@ sayısı daha hızlı arttığı için her zaman daha optimize web siteleri öne
 kazanacaktır. Biz bununla alakalı olarak burada CSS Seçicilerinin
 optimum kullanılmasını irdeleyeceğiz. <!--more-->
 
-CSS seçici tipleri ve kullanımı hakkında [(X)HTML Sayfa Yapısı ve CSS
-Kullanımı][], [Özellik Seçicileri(Attribute Selectors)][] ve
+CSS seçici tipleri ve kullanımı hakkında [(X)HTML Sayfa Yapısı ve CSS Kullanımı][], [Özellik Seçicileri(Attribute Selectors)][] ve
 [Sözde-sınıflar(Pseudo-class) ve Sözde-elementler(Pseudo-elements)][]
 makalelerini bir göz atın.
 
@@ -63,8 +61,7 @@ a#smUrunler seçicisi ile elemanı bulacaktır.
 anlayacağız.
 
 Aynı öneriyi bize Google'un Page Speed eklentisi test sonucuda
-verecektir. Google'un hıza önem verdiğini biliyoruz bu konuda [google'un
-önerileride][] Mozilla'dan farklı değil.
+verecektir. Google'un hıza önem verdiğini biliyoruz bu konuda [google'un önerileride][] Mozilla'dan farklı değil.
 
 ### Mozilla makalesindeki önerileri sıralarsak
 

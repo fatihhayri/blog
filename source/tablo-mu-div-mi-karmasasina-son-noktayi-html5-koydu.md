@@ -79,8 +79,7 @@ yapıya olan avantajlarından bahsedeceğim.
     fazla kod ve yükten bizi kurtarır.
 -   **Geleceğe dönük bir yapıdır**  
     HTML5 ile birlikte gelen yeni etiketler ve HTML5’in yapısı div ile
-    kodlamanın devamı niteliğindedir. Daha önce yazdığım [HTML5’in
-    yapısal elemanları][] adlı makaleye göz atın.
+    kodlamanın devamı niteliğindedir. Daha önce yazdığım [HTML5’in     yapısal elemanları][] adlı makaleye göz atın.
 
   
 ![][]  

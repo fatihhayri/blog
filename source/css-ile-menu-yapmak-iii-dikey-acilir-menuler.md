@@ -57,8 +57,7 @@ top: 0; display: none; }
 ![][2]
 
 Açılır menü yapısını oluşturmuş olduk şimdi linkleri güzelleştirip menü
-haline getirmek için önceki menüleri yaparken uyguladığımız [kodları
-uygulayalım.][] Linklerin kendine has alanlarını tanımlamak için
+haline getirmek için önceki menüleri yaparken uyguladığımız [kodları uygulayalım.][] Linklerin kendine has alanlarını tanımlamak için
 **display:block** özeliğini kullanalım. Linklerin altındaki çizgiyi
 kaldırmak için **text-decoration:none** özelliğini kullanalım. Linkler
 arasına mesafe vermek için **padding** verelim. Birde bir zemin rengi
