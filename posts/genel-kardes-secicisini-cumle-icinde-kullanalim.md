@@ -30,8 +30,12 @@ eleman arasında bir çizgi konuyor.
 Tam bu noktada Genel Kardeş Seçicileri devreye giriyor.
 
 	:::css
-	 li ~ li { border-top:1px solid #f00; padding-top:5px;
-margin-top:5px; } 
+	li ~ li {
+		border-top:1px solid red;
+		padding-top:5px;
+		margin-top:5px;
+	} 
+
 <iframe style="width: 100%; height: 200px" src="http://jsfiddle.net/fatihhayri/CZxWW/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Tanımı tüm dertlerimize son veriyor. Eğer tek eleman varsa bu seçici es
@@ -49,8 +53,6 @@ Kardeş Seçicilerini tercih edeceğiz.  :D
 <iframe style="width: 100%; height: 200px" src="http://jsfiddle.net/fatihhayri/EUm8J/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Kalın sağlıcakla.
-
-</p>
 
   [İnternet Explorer 6 sürümü desteğini kaldırdıktan]: http://www.fatihhayrioglu.com/ie6-sonrasi-kod-yazma-aliskanliklarimizi-guncellemek/
   []: https://lh3.googleusercontent.com/iwqzp6tzoCPEOEadycd9Sfi5kZOPYqGhmNHUGkqZuH3Gic9JtK8wSlqtXyXZSyWW1c4MmoF12aID4C4WJEMbsWAbUjBU8VOEJ9pzX54JLqUzkAeJdIo
