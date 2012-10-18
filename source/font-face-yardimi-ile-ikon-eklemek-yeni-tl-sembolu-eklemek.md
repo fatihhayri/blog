@@ -27,40 +27,49 @@ eksilerinide bahsedip son kararı sizin vermenizi isteyeceğim.
 nasıl gömdüğümüzü öğrenebilirsiniz.
 
 	:::css
-	 @font-face { font-family: 'Graublau Web'; src:
-url('GraublauWeb.eot'); src: local('Graublau Web Regular'),
-local('Graublau Web'), url('GraublauWeb.woff') format('woff'),
-url('GraublauWeb.svg#GraublauWeb') format('svg'),
-url('GraublauWeb.otf') format('opentype'); font-weight: normal;
-font-style: normal; } p { font-family: "Graublau Web", serif; } 
+	@font-face {
+		font-family:'Graublau Web';
+		src:local('Graublau Web Regular'), local('Graublau Web'), url(GraublauWeb.woff) format(woff), url(GraublauWeb.svg#GraublauWeb) format(svg), url(GraublauWeb.otf) format(opentype);
+		font-weight:400;
+		font-style:normal;
+	}
+
+	p {
+		font-family:"Graublau Web", serif;
+	}
 
 şeklinde genel kullanımı göstermiştik. Benzer bir şekilde bir şekilli
 yazı tipi ekleyip ikon ekleyebiliriz.
 
-[http://webloti.org/20-modern-fontface-icon-seti/][] ve benzeri
-sitelerden ücretsiz web ikonlarını alalım.
+[http://webloti.org/20-modern-fontface-icon-seti/][] ve benzeri sitelerden ücretsiz web ikonlarını alalım.
 
 ![][]
 
 	:::css
-	 @font-face { font-family: 'ModernPictogramsNormal'; src:
-url('modernpics-webfont.eot'); src:
-url('modernpics-webfont.eot?#iefix') format('embedded-opentype'),
-url('modernpics-webfont.woff') format('woff'),
-url('modernpics-webfont.ttf') format('truetype'),
-url('modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
-font-weight: normal; font-style: normal; } 
+	 @font-face{
+		font-family: 'ModernPictogramsNormal';
+		font-style: normal;
+		font-weight: normal;
+		src: url('modernpics-webfont.eot');
+		src: url('modernpics-webfont.eot?#iefix') format('embedded-opentype'),
+	url('modernpics-webfont.woff') format('woff'),
+	url('modernpics-webfont.ttf') format('truetype'),
+	url('modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
+	}
 
 kodu ile yazı tipini sayfamızda çağırmış olduk. Menü elemanlarının her
 biri için seçtiğimiz ikonları atamak için ilgili elemanın
 öncesine(:before) yazı tipinde ilgili ikonu ifade eden harfi ekliyoruz.
 
 	:::css
-	 li#alisveris a:before{ font:24px "ModernPictogramsNormal";
-content:"i"; color:#f00; padding-right:5px; } 
-
-Alışveriş için seçtiğimiz sepet ikonun “i” harfi ile ifade edildiği için
-“i” harfini ekledik. Kodu biraz daha düzenli yazarsak.
+	li#alisveris a:before{
+		color: #f00;
+		content: "i";
+		font: 24px "ModernPictogramsNormal";
+		padding-right: 5px;
+	}
+	
+Alışveriş için seçtiğimiz sepet ikonun “i” harfi ile ifade edildiği için “i” harfini ekledik. Kodu biraz daha düzenli yazarsak.
 
 [![][1]][]
 
@@ -107,12 +116,16 @@ silip sadece ikonu bırakarak yazı tipi dosya boyutunu küçültebiliriz.
 Bağlantısından küçük dosyayı indirebilirsiniz.
 
 	:::css
-	 @font-face { font-family: 'AbakuTLSymSansRegular'; src:
-url('abakutlsymsans.eot'); src: url('abakutlsymsans.eot?#iefix')
-format('embedded-opentype'), url('abakutlsymsans.woff') format('woff'),
-url('abakutlsymsans.ttf') format('truetype'),
-url('abakutlsymsans.svg#AbakuTLSymSansRegular') format('svg');
-font-weight: normal; font-style: normal; } 
+	@font-face{
+		font-family: 'AbakuTLSymSansRegular';
+		font-style: normal;
+		font-weight: normal;
+		src: url('abakutlsymsans.eot');
+		src: url('abakutlsymsans.eot?#iefix')
+	format('embedded-opentype'), url('abakutlsymsans.woff') format('woff'),
+	url('abakutlsymsans.ttf') format('truetype'),
+	url('abakutlsymsans.svg#AbakuTLSymSansRegular') format('svg');
+	}
 
 [![][3]][]
 
@@ -120,8 +133,12 @@ font-weight: normal; font-style: normal; }
 biraz da mesafe koyalım.(padding-right:5px bunun için)
 
 	:::css
-	 p:before{ font-family: "AbakuTLSymSansRegular", serif;
-font-size:24px; content:"t"; padding-right:5px; } 
+	p:before{
+		content: "t";
+		font-family: "AbakuTLSymSansRegular", serif;
+		font-size: 24px;
+		padding-right: 5px;
+	}
 
 ile sayfamıza ekledik.
 
@@ -143,22 +160,17 @@ ile sayfamıza ekledik.
 -   [http://webdesignerwall.com/demo/css-social-buttons/][]
 -   [http://www.webresourcesdepot.com/free-icon-fonts-pictograms-for-todays-web-designer/][]
 
-</p>
-
   [font-face kullanımını]: http://www.fatihhayrioglu.com/font-face-kullanimi/
   [http://webloti.org/20-modern-fontface-icon-seti/]: http://webloti.org/20-modern-fontface-icon-seti/
   []: https://lh5.googleusercontent.com/79Rggs4m_IPXO4v7JCZQt1fSFLljkf9RuTtZDSPzqeg4D3pjzrKFmyboc6ZmVwnSUw7yDZUvklmSSCqFSo8YL3qslteMuQ8r4I-SxhoO6pJVZ1EhZog
-  [1]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.44.09-AM.png
-    "Screen shot 2012-03-08 at 10.44.09 AM"
+  [1]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.44.09-AM.png "Screen shot 2012-03-08 at 10.44.09 AM"
   [![][1]]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.44.09-AM.png
   [http://www.fatihhayrioglu.com/dokumanlar/fontface_ikon.html]: http://www.fatihhayrioglu.com/dokumanlar/fontface_ikon.html
   [http://www.fatihhayrioglu.com/fontface/fontface_ikon_buton.html]: http://www.fatihhayrioglu.com/fontface/fontface_ikon_buton.html
-  [2]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.45.36-AM.png
-    "Screen shot 2012-03-08 at 10.45.36 AM"
+  [2]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.45.36-AM.png "Screen shot 2012-03-08 at 10.45.36 AM"
   [![][2]]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.45.36-AM.png
   [http://www.fatihhayrioglu.com/fontface/abakutlsymsans.zip]: http://www.fatihhayrioglu.com/fontface/abakutlsymsans.zip
-  [3]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.47.01-AM.png
-    "Screen shot 2012-03-08 at 10.47.01 AM"
+  [3]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.47.01-AM.png "Screen shot 2012-03-08 at 10.47.01 AM"
   [![][3]]: http://www.fatihhayrioglu.com/wp-content/Screen-shot-2012-03-08-at-10.47.01-AM.png
   [http://www.fatihhayrioglu.com/fontface/tl_deneme.html]: http://www.fatihhayrioglu.com/fontface/tl_deneme.html
   [http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-ever-thought-about-using-font-face-for-icons/]: http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-ever-thought-about-using-font-face-for-icons/
