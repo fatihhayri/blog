@@ -1,4 +1,5 @@
 Title: overflow:auto içinde %100 genişlikte tablo kullanımında ie7’de yatay kaydırma çubuğu sorunu
+Slug: overflowauto-icinde-genislikte-tablo-kullaniminda-ie7de-yatay-kaydirma-cubugu-sorunu
 Date: 2011-01-13 23:47
 Category: CSS, XHTML
 Tags: 0 genişlikte tablo, ie6, ie7, kaydırma çubuğu sorunu, overflow:auto

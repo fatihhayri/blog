@@ -1,4 +1,5 @@
 Title: Tüm tarayıcılar için CSS Düzeltmeleri(Hack)
+Slug: tum-tarayicilar-icin-css-ile-saydamlik-opacity
 Date: 2008-12-03 00:25
 Category: CSS, XHTML
 Tags: CSS, css düzeltmeleri, düzeltme, hack, ipucu, kod-gizlemek
@@ -165,8 +166,6 @@ Internet Explorer 7/6/5.5, Opera 9.6 ile test edilmiştir.
 -   [http://fu2k.org/alex/css/hacks/fuzzyspecificity][]
 -   [http://dimox.net/personal-css-hacks-for-ie6-ie7-ie8/][] (ie6, ie7,
     ie8 ve ie9)
-
-</p>
 
   [http://paulirish.com/2009/browser-specific-css-hacks/]: http://paulirish.com/2009/browser-specific-css-hacks/
   [CSS Derslerindeki]: http://www.fatihhayrioglu.com/css-dersleri/

@@ -1,4 +1,5 @@
 Title: CSS Kodlama Teknikleri ve CSS Kodlarını Azaltma Yöntemleri
+Slug: css-kodlarini-temizlemeazaltma
 Date: 2006-08-26 00:00
 Category: CSS
 Tags: CSS, kalıtsallık, kısaltmalar, Kod Azaltma, Torun-Seçicisi

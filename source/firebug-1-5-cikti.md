@@ -1,4 +1,5 @@
 Title: FireBug 1.5 Çıktı
+Slug: firebug-1-5-cikti
 Date: 2010-01-27 00:11
 Category: Haberler
 Tags: css düzeltmeleri, firebug, Firefox, Firefox Eklentileri
@@ -76,8 +77,6 @@ numaralı yerini kimseye kaptırmıyor.
 -   [http://hacks.mozilla.org/2010/01/firebug-1-5-a-closer-look/][]
 -   [http://hacks.mozilla.org/2010/01/firebug-1-5-released/][]
 -   [http://www.markwarner2008.com/firebug-1-5-updates-with-new-features-still-a-web-developers-dream-downloads/][]
-
-</p>
 
   []: http://www.fatihhayrioglu.com/images/teftis_et.gif "teftis_et"
   [![][]]: http://www.fatihhayrioglu.com/images/teftis_et.gif

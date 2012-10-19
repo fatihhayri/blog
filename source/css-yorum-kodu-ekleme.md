@@ -1,4 +1,5 @@
 Title: CSS İpuçları 7 : CSS yorum kodu ekleme
+Slug: css-yorum-kodu-ekleme
 Date: 2006-07-23 23:20
 Category: CSS, Web Standartları
 Tags: CSS, iki-satır-yorumlar, uzun-yorumlar, Web Standartları, yorum
@@ -12,9 +13,10 @@ bu kodlar önemli bilgiler içerecektir.
 CSS'de yorum eklemek çok kolaydır.
 
 	:::css
-	 /* Genel Stiller */ body { font-size:
-67.5%; /* genel font tanımı */ } /* Birden fazla satır içeren kodları
-bu şekilde kullanabilriz. */ 
-
-</p>
+	/* Genel Stiller */ 
+		body {
+			font-size: 67.5%; 	
+		/* genel font tanımı */
+	} 
+	/* Birden fazla satır içeren kodları bu şekilde kullanabilriz. */ 
 

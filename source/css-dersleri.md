@@ -341,8 +341,8 @@ Date: 2006-08-05 22:06
   [Sayfa Dibine Yapışık Alt Alanlar(Sticky Footer)]: http://www.fatihhayrioglu.com/sayfa-dibine-yapisik-alt-alanlarsticky-footer/
   [CSS ile Ziyaret Edilen Sayfa Bağlantılarına Şekil Vermek]: http://www.fatihhayrioglu.com/css-ile-ziyaret-edilen-sayfa-baglantilarina-sekil-vermek/
   [PSD'den HTML'e – fanatikmarslar.com Sitesinin Kodlaması - I]: http://www.fatihhayrioglu.com/fanatikmarslar-com-sitesinin-kodlamasi/
-  [PSD'den HTML'e – fanatikmarslar.com Sitesinin Kodlaması II]: http://www.fatihhayrioglu.com/psdden-htmle-%E2%80%93-fanatikmarslar-com-sitesinin-kodlamasi-ii/
-  [PSD'den HTML'e – fanatikmarslar.com Sitesinin Kodlaması III]: http://www.fatihhayrioglu.com/psdden-htmle-%E2%80%93-fanatikmarslar-com-sitesinin-kodlamasi-iii/
+  [PSD'den HTML'e – fanatikmarslar.com Sitesinin Kodlaması II]: http://www.fatihhayrioglu.com/psdden-htmle-fanatikmarslar-com-sitesinin-kodlamasi-ii/
+  [PSD'den HTML'e – fanatikmarslar.com Sitesinin Kodlaması III]: http://www.fatihhayrioglu.com/psdden-htmle-fanatikmarslar-com-sitesinin-kodlamasi-iii/
   [Çok kolonlu yapılar ve çok kolonlu menüler]: http://www.fatihhayrioglu.com/cok-kolonlu-yapilar-ve-cok-kolonlu-menuler/
   [İlk harfi büyük(drop caps) paragraflar oluşturmak]: http://www.fatihhayrioglu.com/ilk-harfi-buyukdrop-caps-paragraflar-olusturmak/
   [CSS ile buton yapmak]: http://www.fatihhayrioglu.com/css-ile-buton-yapmak/

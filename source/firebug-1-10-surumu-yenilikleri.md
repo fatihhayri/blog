@@ -1,4 +1,5 @@
 Title: Firebug 1.10 Sürümü Yenilikleri
+Slug: firebug-1-10-surumu-yenilikleri
 Date: 2012-07-19 14:48
 Category: CSS
 Tags: çerez düzenleme, firebug, Firefox, medya sorguları

@@ -1,4 +1,5 @@
 Title: Firefox 3.6 çıktı
+Slug:firefox-3-6-cikti
 Date: 2010-01-22 00:11
 Category: Haberler
 Tags: çoklu background, Firefox, Firefox3.6, font-face, gradyen, İnternet Tarayıcısı, woff
@@ -23,8 +24,7 @@ Firefox 3.6 çıktı. [Buradan indirebilirsiniz.][]
 
 Gelelim yeniliklere;
 
--   **Dil Desteği:** Bir çok dilde aynı anda çıktı, aralarında Türkçe'de
-    var
+-   **Dil Desteği:** Bir çok dilde aynı anda çıktı, aralarında Türkçe'de var
 -   **Personas:** Daha önce kullandığımız [Personas][](yani tarayıcı
     çerçevesini tasarlama aracı) daha kolay kullanıma sunulmuş. Tek tık
     ile tarayıcı çerçevesini değiştirebiliyoruz. Ben bu konuda
@@ -99,34 +99,20 @@ Birde yapımcılarından Mike Beltzner'dan dinleyelim
 -   [http://hacks.mozilla.org/2010/01/javascript-speedups-in-firefox-3-6/][]
 -   [http://demos.hacks.mozilla.org/openweb/uploadingFiles/][]
 
-</p>
-
-  [Buradan indirebilirsiniz.]: http://www.mozilla-europe.org/en/firefox/
-    "Buradan indirebilirsiniz."
+  [Buradan indirebilirsiniz.]: http://www.mozilla-europe.org/en/firefox/ "Buradan indirebilirsiniz."
   [Personas]: http://www.getpersonas.com/ "Personas"
-  [poster frames]: https://developer.mozilla.org/En/HTML/Element/Video
-    "poster frames"
-  [tıklayınız.]: http://hacks.mozilla.org/2010/01/javascript-speedups-in-firefox-3-6/
-    "tıklayınız."
-  [font-face]: http://www.fatihhayrioglu.com/font-face-kullanimi/
-    "font-face"
+  [poster frames]: https://developer.mozilla.org/En/HTML/Element/Video "poster frames"
+  [tıklayınız.]: http://hacks.mozilla.org/2010/01/javascript-speedups-in-firefox-3-6/ "tıklayınız."
+  [font-face]: http://www.fatihhayrioglu.com/font-face-kullanimi/ "font-face"
   [Gradyen]: https://developer.mozilla.org/en/Using_gradients "Gradyen"
-  [Çoklu background desteği]: https://developer.mozilla.org/en/CSS/Multiple_backgrounds
-    "Çoklu background desteği"
-  [1]: https://developer.mozilla.org/En/CSS/Media_queries#Mozilla-specific_media_features
-    "tıklayınız."
-  [Background genişletme]: https://developer.mozilla.org/en/CSS/Scaling_background_images
-    "Background genişletme"
-  [Buradaki örnek]: http://demos.hacks.mozilla.org/openweb/pointer-events/
-    "Buradaki örnek"
-  [Drag&Drop API]: http://demos.hacks.mozilla.org/openweb/uploadingFiles/
-    "Drag&Drop API"
-  [File API]: http://hacks.mozilla.org/2009/12/w3c-fileapi-in-firefox-3-6/
-    "File API"
-  [videoyu izleyin]: http://hacks.mozilla.org/2009/12/file-drag-and-drop-in-firefox-3-6/
-    "videoyu izleyin"
-  [2]: http://hacks.mozilla.org/2009/10/orientation-for-firefox/
-    "videoyu izleyin"
+  [Çoklu background desteği]: https://developer.mozilla.org/en/CSS/Multiple_backgrounds "Çoklu background desteği"
+  [1]: https://developer.mozilla.org/En/CSS/Media_queries#Mozilla-specific_media_features "tıklayınız."
+  [Background genişletme]: https://developer.mozilla.org/en/CSS/Scaling_background_images "Background genişletme"
+  [Buradaki örnek]: http://demos.hacks.mozilla.org/openweb/pointer-events/ "Buradaki örnek"
+  [Drag&Drop API]: http://demos.hacks.mozilla.org/openweb/uploadingFiles/ "Drag&Drop API"
+  [File API]: http://hacks.mozilla.org/2009/12/w3c-fileapi-in-firefox-3-6/ "File API"
+  [videoyu izleyin]: http://hacks.mozilla.org/2009/12/file-drag-and-drop-in-firefox-3-6/ "videoyu izleyin"
+  [2]: http://hacks.mozilla.org/2009/10/orientation-for-firefox/ "videoyu izleyin"
   [http://www.mozilla.org/firefox/]: http://www.mozilla.org/firefox/
   [http://blog.mozilla.com/blog/2010/01/21/firefox-3-6-release/]: http://blog.mozilla.com/blog/2010/01/21/firefox-3-6-release/
   [https://developer.mozilla.org/En/Firefox_3.6_for_developers]: https://developer.mozilla.org/En/Firefox_3.6_for_developers

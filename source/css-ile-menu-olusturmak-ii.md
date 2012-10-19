@@ -1,4 +1,5 @@
 Title: CSS ile Menü Yapmak II - Yatay Menüler
+Slug: css-ile-menu-olusturmak-ii
 Date: 2006-11-06 11:47
 Category: CSS, Web Standartları, XHTML
 Tags: CSS, link, menü, örnek, Web Standartları, XHTML, yatay-menüler

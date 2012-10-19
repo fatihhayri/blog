@@ -1,4 +1,5 @@
 Title: İnternet Explorer 7&#039;yi Bitirmeli miyiz? 
+Slug: internet-explorer-7-bitirmeli-miyiz
 Date: 2012-06-14 12:56
 Category: CSS, Haberler, Javascript, XHTML
 Tags: :after, :before, ie7, internet explorer

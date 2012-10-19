@@ -1,4 +1,5 @@
 Title: CSS İpucu 28: FireBug yardımı ile daha kolay CSS Sprite Uygulamak
+Slug: firebug-yardimi-ile-daha-kolay-css-sprite-uygulamak
 Date: 2010-10-28 22:39
 Category: CSS, XHTML
 Tags: background-kaydırma, background-position, css-sprite, fanatikmarslar.com, trabzonspor
@@ -39,9 +40,7 @@ her takım için konum bulmak çok zor olur.
 İlk olarak tekrarı engellemek için genel bağlantıya tanımımızı yapalım
 
 	:::css
-	a.takimLogo{ display:block;
-background:url(../images/takim_logolari.gif) right 0 no-repeat;
-padding:8px 30px 8px 0; color:#0c2b90; text-decoration:underline}
+	a.takimLogo{ display:block; background:url(../images/takim_logolari.gif) right 0 no-repeat; padding:8px 30px 8px 0; color:#0c2b90; text-decoration:underline}
 
 ![][1]
 
@@ -53,8 +52,7 @@ tercih ettim.
 [![][2]][]
 
 	:::css
-	div#icerikAlani table td div.logoTrabzon{ background-position:-3px
--107px}
+	div#icerikAlani table td div.logoTrabzon{ background-position:-3px -107px}
 
 Yukarı aşağı tuşları yardımı ile bulduğumuz değeri(-107px)
 background-position değeri olarak tanımlıyoruz.
@@ -63,8 +61,6 @@ Buradaki örnek daha kolay isede daha zor sprite uygulama durumlarında
 konum belirlemek daha çetrefilli olabilir, bu ve benzeri durumlar için
 Firebug'ın çok büyük yardımı dokunuyor. Bunuda bir ipucu olarak sizlerle
 paylaşmak istedim.
-
-</p>
 
   [PSD’den HTML’e – fanatikmarslar.com Sitesinin Kodlaması II]: http://www.fatihhayrioglu.com/psdden-htmle-%E2%80%93-fanatikmarslar-com-sitesinin-kodlamasi-ii/
   []: https://lh5.googleusercontent.com/slGZJ_Am1RIyR5yrzIM2dkZM22WIfcwo5GS-L8hzjRol25LcAvOIjSbLCmaEp__Yqq7HwALtVfoAXTn_U-sg6ZUpi7_chR-a-LlzEaMHQMX3euaWdw

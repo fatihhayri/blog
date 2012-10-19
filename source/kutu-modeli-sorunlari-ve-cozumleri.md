@@ -1,4 +1,5 @@
 Title: CSS ile Kutu modeli, sorunları ve çözümleri
+Slug: kutu-modeli-sorunlari-ve-cozumleri
 Date: 2006-04-26 00:37
 Category: CSS, Web Standartları, XHTML
 Tags: Border, Box-Model, CSS, düzeltme, fix, kenar-çizgisi, kenar-dış-boşluğu, kenar-iç-boşluğu, Kutu-Modeli, Margin, Padding, Web Standartları, XHTML

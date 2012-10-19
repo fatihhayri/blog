@@ -1,4 +1,5 @@
 Title: Bir Projenin Bana Kazandırdıkları (LiveGO.com)
+Slug: bir-projenin-bana-kazandirdiklari-livego-com
 Date: 2010-12-27 21:47
 Category: CSS, Haberler
 Tags: CSS, livego.com, makale yazmak, proje
@@ -88,8 +89,6 @@ bilgi eksikliği giderilmiş olur. Lütfen bunu bir ukalalık olarak
 algılamayın, amacım belki Türkçe içeriğin çoğalması için bir çağrı.
 Tanımıyorum ve biliyorum gerçekten çok iyi bilgiye sahip insanlar var
 Türkiye’de umarım onlarda bilgilerini bizlerle paylaşırlar.
-
-</p>
 
   []: http://www.fatihhayrioglu.com/images/liveGO_white_72dpi_300px.jpg
     "liveGO_white_72dpi_300px"

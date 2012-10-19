@@ -1,4 +1,5 @@
 Title: Css de kodumuzu İE6&#039;dan gizleme
+Slug: css-de-kodumuzu-ieden-gizleme
 Date: 2006-05-04 00:11
 Category: CSS
 Tags: CSS, düzeltme, Firefox, gizle, hack, ie, ie6, important, internet explorer

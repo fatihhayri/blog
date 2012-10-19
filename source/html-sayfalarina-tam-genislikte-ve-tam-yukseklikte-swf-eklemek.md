@@ -1,4 +1,5 @@
 Title: HTML Sayfalarına %100 genişlikte ve %100 yükseklikte flash dosyaları eklemek
+Slug: html-sayfalarina-tam-genislikte-ve-tam-yukseklikte-swf-eklemek
 Date: 2010-03-29 21:46
 Category: CSS, XHTML
 Tags: 0, flash, html, swf, swfobject, tam ekran
@@ -13,8 +14,7 @@ bu konuyu göz atmıştım.
 ### Birinci Yöntem
 
 	:::css
-	 body { height: 100%; width: 100%; margin: 0;
-} 
+	 body { height: 100%; width: 100%; margin: 0; } 
 
 şeklinde bir kod. Ancak bu kod ne yazık ki Firefox ve Opera'da
 çalışmıyor. Yada çalışması için html sayfamızdan DOCTYPE'ı silmemiz
@@ -29,10 +29,7 @@ swfobject.embedSWF("test.swf", "myContent", "100%", "100%", "9.0.0",
 Genişlik ve yüksekliğini 100% veriyoruz ve css kodumuzu yazıyoruz.
 
 	:::css
-	 /* hide from ie on mac */ html { height:
-100%; overflow: hidden; } #myContent { height: 100%; } /* end hide */
-body { height: 100%; margin: 0; padding: 0; background-color: #090; }
-
+	/* hide from ie on mac */ html { height: 100%; overflow: hidden; } #myContent { height: 100%; } /* end hide */ body { height: 100%; margin: 0; padding: 0; background-color: #090; }
 
 Örneği görmek için [tıklayınız][]
 
@@ -60,8 +57,6 @@ için bir backgroun-color tanımı yapıyoruz. Bu kadar.
 
 -   [http://blog.deconcept.com/2005/01/02/100-height-and-100-width-xhtml-flash-embed/][]
 -   [http://www.kirupa.com/developer/mx2004/fullscreen.htm][]
-
-</p>
 
   [tıklayınız]: http://www.fatihhayrioglu.com/dokumanlar/tamekran_flash/tamekran.html
   [http://blog.deconcept.com/2005/01/02/100-height-and-100-width-xhtml-flash-embed/]: http://blog.deconcept.com/2005/01/02/100-height-and-100-width-xhtml-flash-embed/

@@ -1,4 +1,5 @@
 Title: CSS3 Metin Özellikleri
+Slug: css3-text-ozellikleri
 Date: 2011-12-02 01:11
 Category: CSS
 Tags: hanging-punctuation, text-align-last, text-overflow, text-rendering, text-stroke, text-wrap, word-wrap
@@ -8,14 +9,13 @@ Tags: hanging-punctuation, text-align-last, text-overflow, text-rendering, text-
 CSS3 **word-wrap** özelliği diğer CSS3 özelliklerinden farklı olarak tüm
 tarayıcılar(IE dahil) tarafından desteklenmektedir.
 
-<div class="cssozelliktanimi">
 **Yapısı :**word-wrap: <deger>  
 **Aldığı Değerler:** normal | break-word   
 **Başlangıç değeri:** normal  
 **Uygulanabilen elementler:** Tüm Elemanlara  
 **Kalıtsallık:**Var
+{: .cssozelliktanimi}
 
-</div>
 **word-wrap** özelliği belirtilen alandaki metnin kapsayıcı eleman
 sınırlarını zorlayan uzunlukta arada boşluk olmadan uzadığında kelimeyi
 satır başına atmak için kullanılır.
@@ -24,15 +24,13 @@ Bir örnek verecek olursak 150px genişliğindeki bir alan içinde bir
 metnimiz olsun.
 
 	:::html
-	 <div id="link">
-Loremipsumdolorsitametconsecteturadipiscingelit. Nam semper venenatis
-lobortis. Donec odio nisl, vehicula vitae molestie ac, euismod ac nibh.
-</div> 
+	<div id="link"> Loremipsumdolorsitametconsecteturadipiscingelit. Nam semper venenatis lobortis. Donec odio nisl, vehicula vitae molestie ac, euismod ac nibh. </div> 
 
 CSS kodu
 
 	:::css
 	 #link{ width:150px; border:1px solid #999; } 
+	
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/AdWMx/embedded/result,html,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 **word-wrap** ile bu uzun kelimeyi aşağı atarak sayfadaki patlaklığı
@@ -104,8 +102,7 @@ Tanım yaparken ilk olarak yazı tipinin rengini yaparız, sonrada dış hat
 çizgisini tanımlarız.
 
 	:::css
-	 font:bold 24px Arial, Helvetica, sans-serif; color: #c00;
--webkit-text-stroke: 1px #000; 
+	 font:bold 24px Arial, Helvetica, sans-serif; color: #c00; -webkit-text-stroke: 1px #000; 
 
 <iframe style="width: 100%; height: 300px"
 src="http://jsfiddle.net/fatihhayri/3dsPG/embedded/"
@@ -120,8 +117,7 @@ Saydam zeminli yazı tipleri tanımlamak için **text-fill-color**
  özelliği kullanılır.
 
 	:::css
-	 ont:bold 24px Arial, Helvetica, sans-serif; color: #c00;
--webkit-text-stroke: 1px #000; -webkit-text-fill-color: transparent;
+	 ont:bold 24px Arial, Helvetica, sans-serif; color: #c00; -webkit-text-stroke: 1px #000; -webkit-text-fill-color: transparent;
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/yWWbb/embedded/css,html,result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
@@ -338,8 +334,6 @@ Kalın sağlıcakla.
 -   [http://coding.smashingmagazine.com/2010/03/01/css-and-the-future-of-text/][]
 -   [http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-better-typography-part-2][]
 -   [http://www.webreference.com/programming/corecss/2/4.html][]
-
-</p>
 
   []: https://lh6.googleusercontent.com/3FsatoE0FmU_5BhUEy_zEiJ1IOKvCEw08hEBmUC65r2zb0sqP9w__9fwRPhdr8_avR3u4Bu0jDa2WAWnnaINNAY_tRNPtlLOO8RkvDlPQuB8Xm87Buc
   [1]: https://lh3.googleusercontent.com/miG_QKLBFvURtfSYFo3_P8q2QBZPWOGG2s-zMI7n7U97JH9TkMWd-tt3NnhL1nzD_DyQcqV1gmoqaK5FvhnR-XYI4AnQHl4H4A7h5TL884lG0H2OtmI

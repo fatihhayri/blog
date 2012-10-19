@@ -1,4 +1,5 @@
 Title: FireBug 1.4 sürümü çıktı
+Slug: firebug-1-4-surumu-cikti
 Date: 2009-07-19 14:13
 Category: CSS, XHTML
 Tags: firebug, Firefox, Hata ayıklama, web
@@ -21,7 +22,5 @@ yazarları için bulunmaz bir araçtır. Yeni sürüm ile gelen özellikler;
 -   Firefox 3.5 desteği var
 
 Bunun dışında 150'den fazla hata giderilmiş. [http://getfirebug.com/][]
-
-</p>
 
   [http://getfirebug.com/]: http://getfirebug.com/

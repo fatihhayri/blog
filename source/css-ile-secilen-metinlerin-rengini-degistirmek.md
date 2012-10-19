@@ -1,4 +1,5 @@
 Title: CSS İpucu 21: CSS ile Seçilen Metinlerin Rengini Değiştirmek
+Slug: css-ile-secilen-metinlerin-rengini-degistirmek
 Date: 2009-06-01 16:33
 Category: CSS, XHTML
 Tags: css3, Firefox, Google-Checkout, internet explorer, Opera, safari, seçili-metin, WebKit
@@ -39,8 +40,6 @@ Internet Explore desteklemiyor. Bunun haricinde Firefox 2, Safari, Opera
 -   [http://www.quirksmode.org/css/selection.html][]
 -   [http://css-tricks.com/overriding-the-default-text-selection-color-with-css/][]
 -   [http://www.w3.org/TR/css3-selectors/][]
-
-</p>
 
   [metin_secme_rengi]: http://www.fatihhayrioglu.com/images/metin_secme_rengi-300x110.gif
     "metin_secme_rengi"

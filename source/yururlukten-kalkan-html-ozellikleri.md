@@ -1,4 +1,5 @@
 Title: CSS İpuçları  4 : CSS ile birlikte yürürlükten kalkan HTML özellikleri
+Slug: yururlukten-kalkan-html-ozellikleri
 Date: 2006-07-19 00:35
 Category: CSS, XHTML
 Tags: align, bgcolor, CSS, name, text, XHTML
@@ -20,6 +21,4 @@ sıralayalım:
     özelliklerdir, ancak eğer sayfa ve site de çok fazla tablo ve resim
     varsa bu kullanım pek mantıklı değildir. Aynı şeklide **textarea**
     için **rows** ve **cols** özellikleri içinde geçerlidir.
-
-</p>
 

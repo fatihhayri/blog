@@ -1,4 +1,5 @@
 Title: CSS İpucu 29: CSS ile Önden Resim Yükleme Teknikleri
+Slug: css-ile-onden-resim-yukleme-teknikleri
 Date: 2011-01-06 23:31
 Category: CSS
 Tags: background, önden resim yüklemek, preloading
@@ -28,8 +29,7 @@ alanlar açıldığında görüntü problemi yaşamamış oluruz.
 CSS kodumuzda
 
 	:::css
-	 .resimYukle{ background:url(/images/bg.gif) -9999px -9999px
-no-repeat} 
+	 .resimYukle{ background:url(/images/bg.gif) -9999px -9999px no-repeat} 
 
 Bu durum için fazladan bir div açıp onun ardalanına bu resmi
 atayabiliridk ama eğer sayfa içinde ardalan tanımı olmayan bir eleman
@@ -37,14 +37,12 @@ varsa bunu tanımlayarak fazladan bir divden kurtulmuş oluruz. Bir not bu
 kodu css kodumuzun sonuna eklememiz daha mantıklıdır.
 
 	:::css
-	 .baskaBirEleman{ background:url(/images/bg.gif) -9999px -9999px
-no-repeat} 
+	 .baskaBirEleman{ background:url(/images/bg.gif) -9999px -9999px no-repeat} 
 
 Benzer bir kodu :after seçicisi ve content özelliği ile de yapabiliriz.
 
 	:::css
-	 body:after {content: url(img01.png) url(img02.png) url(img03.png)
-url(img04.png) url(img05.png)} 
+	 body:after {content: url(img01.png) url(img02.png) url(img03.png) url(img04.png) url(img05.png)} 
 
 Bu kodu ie7 ve ie6 desteklemiyor maalesef.
 
@@ -60,8 +58,6 @@ tarayıcılar desteklemediği için beklemek gerekiyor.
 -   [http://www.thecssninja.com/css/even-better-image-preloading-with-css2][]
 -   [http://divitodesign.com/css/create-an-image-pre-loader-with-css-only/][]
 -   [http://www.maratz.com/blog/archives/2005/06/22/preload-hover-images-in-css/][]
-
-</p>
 
   [http://www.fatihhayrioglu.com/onden-resimleripreloading-images-yukleme-yontemleri/]: http://www.fatihhayrioglu.com/onden-resimleripreloading-images-yukleme-yontemleri/
   [http://css-tricks.com/snippets/css/css-only-image-preloading/]: http://css-tricks.com/snippets/css/css-only-image-preloading/
