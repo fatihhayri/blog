@@ -22,7 +22,8 @@ göstermek için koydum, normal resimde bu olmayacak)
 
 Xhtml kodumuzu yazalım
 
-[sourcecode language='html'][Ana Sayfaya Dön][]
+	:::html
+	[Ana Sayfaya Dön][]
 
 CSS kodumuzu yazalım
 

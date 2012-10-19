@@ -16,7 +16,8 @@ avantajları bulunmaktadır. Belli başlı avantajlarını sıralarsak:
 
 CSS HTML'e göre bir çok stil özelliğine sahiptir. CSS'in sayfa içeriği
 öğelerinin sayfa görünümü öğelerinden ayrılması için geliştirildiğini
-düşünürsek avantajı baştan anlaşılmış olur. [sourcecode language='html']
+düşünürsek avantajı baştan anlaşılmış olur. 	:::html
+	
 
 CSS'e Giriş
 ===========
@@ -37,7 +38,8 @@ padding: 5px; }
 HTML'de her elmente artı özellikler eklemek için başka bir element ve
 özellik eklmemiz gerekiyor ve bu işlemi geniş çaplı bir sitede yaptımızı
 düşünütseniz çok büyük zaman kaybı ve uğraş gerektiğini göreceksiniz.
-[sourcecode language='html']
+	:::html
+	
 
 <font color="blue">Başlık</font>
 ================================

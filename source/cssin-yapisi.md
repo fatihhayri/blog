@@ -71,7 +71,8 @@ adet paragraf tanımlaması yapacağımızı planlıyoruz. Bunlardan biri sağa
 dayalı, diğeri ise ortalı olmasını istiyoruz 	:::css
 	
 p.sagadaya {text-align: right} p.ortala {text-align: center}
-Bu Seçicileri sayfamızda uygulamak için; [sourcecode language='html']
+Bu Seçicileri sayfamızda uygulamak için; 	:::html
+	
 
 Aynı HTML elementine farklı özellikler atamak için Sınıf Seçicisini
 kullanırız.
@@ -113,7 +114,8 @@ fazla elemente atanırken Id Seçicisi sadece bir tane elemente atanır.
 Seçicisi adının başında # işareti olan Seçiciler Id Seçicisidir.
 	:::css
 	 ... #mavi { background:blue; } #kirmizi {
-background:red; }  [sourcecode language='html']
+background:red; }  	:::html
+	
 
 Bu yazının arkafon rengi mavi
 
@@ -133,7 +135,8 @@ için Sınıf Seçicisini kullanmalıyız. Bu kodumuzu daha kullanışlı ve
 temiz yapacaktır. Sınıf ve Id Seçicileri küçük-büyük harfe karşı
 duyarlıdır; 	:::css
 	 p.onemliBilgi { font-weight:
-bold; }  ve kullanımıda; [sourcecode language='html']
+bold; }  ve kullanımıda; 	:::html
+	
 
 Uygulama olmaz .
 

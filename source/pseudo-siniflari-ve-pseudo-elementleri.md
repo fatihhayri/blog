@@ -81,7 +81,8 @@ Diğer bir pseudo sınıfımız **:first-child**'dır. **first:child:**
 Belirtilen elementin ilk Çocuk Elementine stil atamak için kullanılır.
 	:::css
 	 p:first-child { font-weight: bold; }
-li:first-child { color:#f00; }  [sourcecode language="html"] <div> <p>Bu paragraf ilk çocuk elementidir ve sonuç
+li:first-child { color:#f00; }  	:::html
+	 <div> <p>Bu paragraf ilk çocuk elementidir ve sonuç
 olarak kalın olacaktır</p> <ul> <li>Bu liste ilk çocuk elementidir
 ve font rengi kırmızı olacak</li> <li>Bu <strong>çocuk element
 </strong>değil</li> <li>Bu da değil</li> </ul> <p>Bu pragraf

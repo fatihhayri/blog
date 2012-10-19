@@ -28,7 +28,8 @@ yaparak kodlama yöntemidir.
 
 **a - Sınıf Kullanımı**
 
-[sourcecode language='html']
+	:::html
+	
 
 <div id="solkolon">
 ### Site Hakkında
@@ -72,7 +73,8 @@ göz atalım.
 
 **b- Doğal Seçiciler**
 
-[sourcecode language='html']
+	:::html
+	
 
 <div id="solkolon">
 ### Site Hakkında

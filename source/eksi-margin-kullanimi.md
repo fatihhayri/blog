@@ -117,7 +117,8 @@ durumunda vardır.**
 [sourcecode language="css" highlight="11"] #kutu1 { width:200px;
 height: 130px; border: 2px solid #659ad8; background-color:#e5ecf9; }
 #kutu2 { height: 100px; border: 2px solid #cd8a93;
-background-color:#ffb4bf; margin:10px -20px }  [sourcecode language="html"] <div id="kutu1"> <div id="kutu2"></div> </div>
+background-color:#ffb4bf; margin:10px -20px }  	:::html
+	 <div id="kutu1"> <div id="kutu2"></div> </div>
 
 
 İçteki kutuya sağdan ve soldan eksi değerler verdiğimizde dış kutunu

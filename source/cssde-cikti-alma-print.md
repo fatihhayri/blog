@@ -26,7 +26,8 @@ kullanılacaktır.
 bildiğimiz link ekleme koduna fazladan sadece **media** kısmı eklenerek
 değeri **print** atanır.
 
-[sourcecode language='html']
+	:::html
+	
 <link rel="stylesheet" type="text/css" href="ciktistil.css" media="print">
 
 

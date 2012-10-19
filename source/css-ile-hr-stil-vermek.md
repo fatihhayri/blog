@@ -75,7 +75,8 @@ amaçla <hr /> elementini kullanabiliriz. Bu işlem için
 ve Opera'nın eski sürümlerinde sorun çıkarır. resmin etrafında kenarlık
 çıkarır. bunu engellemek için aşağıdaki şekilde kodlamamızı yapmalıyız.
 
-[sourcecode language='html']
+	:::html
+	
 
 <div class="hr">
 

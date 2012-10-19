@@ -32,7 +32,8 @@ bu sınıfı kullanmanın daha avantajlı olacağını düşündüm. 	:::css
 height: 0; clear: both; visibility: hidden;} .kapsayamamaSorunu
 {display: inline-block;} /*IE-mac de bu bolumu sakla  */ * html
 .kapsayamamaSorunu {height: 1%;} .kapsayamamaSorunu {display: block;}
-/* IE-mac bu bolumu saklam artik */  [sourcecode language='html']
+/* IE-mac bu bolumu saklam artik */  	:::html
+	
 
 <div id="icerik" class="kapsayamamaSorunu">
 -   <select> <option value="-1">Seçiniz</option>

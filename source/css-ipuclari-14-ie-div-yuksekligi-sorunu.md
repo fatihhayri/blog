@@ -5,7 +5,8 @@ Tags: CSS, div yüksekliği sorunu, ie, internet explorer, XHTML
 
 	:::css
 	 our_style { height: 1px; width: 100px;
-background-color: black; } [sourcecode language='html']
+background-color: black; } 	:::html
+	
 
 <div class="test">
 </div>

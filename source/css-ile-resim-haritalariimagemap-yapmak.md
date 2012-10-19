@@ -33,7 +33,8 @@ kaldırada biliriz.
 
 HTML kodumuzu yazalım
 
-[sourcecode language='html']
+	:::html
+	
 
 -   [<span class="dis"><span class="ic"><span class="bilgi">Dexter</span></span></span>][]
 -   [<span class="dis"><span class="ic"><span class="bilgi">HTML     4</span></span></span>][]

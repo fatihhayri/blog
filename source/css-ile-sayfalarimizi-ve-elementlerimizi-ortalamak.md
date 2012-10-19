@@ -13,7 +13,8 @@ inceleyelim. <!--more-->
 
 	:::css
 	 .ortala { margin-left: 10%; margin-right:
-10%; }  [sourcecode language='html']
+10%; }  	:::html
+	
 
 Lorem Ipsum is simply dummy text of the printing and
 typesettingindustry.

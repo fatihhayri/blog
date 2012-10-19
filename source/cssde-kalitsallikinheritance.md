@@ -110,7 +110,8 @@ elementinin değerlerini alacaktır. Bir örnek yapacak olursak:
 
 	:::css
 	 div#icerik { border: 1px solid #000; }
-div#bilgi { border: inherit; }  [sourcecode language="html"] <div id="icerik"> Bu içeriği kenarlığı olacaktır
+div#bilgi { border: inherit; }  	:::html
+	 <div id="icerik"> Bu içeriği kenarlığı olacaktır
 <div id="bilgi"> Bu bilgi de kenarlık bilgisini üstten elementten
 alarak kenarlığı olacaktır. </div> </div> 
 

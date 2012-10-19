@@ -146,7 +146,8 @@ içindeki paragrafı mutlak konumlandırarak bu işhalledebilriz.
 	:::css
 	 #adresler { width: 700px; height: 100px;
 position: relative; } #adresler .tel { position: absolute; right: 10px;
-bottom: 10px; text-align: right; }  [sourcecode language='html']
+bottom: 10px; text-align: right; }  	:::html
+	
 
 <div id="adresler">
 Tel: 0845 838 6163

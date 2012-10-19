@@ -46,7 +46,8 @@ etrafını saracaktır.
 
 ![][]
 
-[sourcecode language='html'] ![resim bilgisi][]
+	:::html
+	 ![resim bilgisi][]
 
 ... paragraf metni ...
 

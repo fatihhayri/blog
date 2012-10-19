@@ -55,7 +55,8 @@ Resimlerimiz
 
 Xhtml kodumuzu yazalım.
 
-[sourcecode language='html']
+	:::html
+	
 
 Amerika Seçim Sonuçları
 =======================

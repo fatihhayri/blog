@@ -9,7 +9,8 @@ ve bir çok yerde div elementi kullanılır. Divleri açtıktan sonra araya
 onlarca satır yazı, farklı farklı kodlar girmiş olabilir. Böyle bir
 durumda div etiketlerinin nerede kapatıldığını kestiremeyebilirsiniz. Bu
 sorundan kurtulmak için genel kullandığınız div'leri açıp kapatırken
-yorum satırı ekleyin: [sourcecode language='html']
+yorum satırı ekleyin: 	:::html
+	
 <!-- baş kısım baslangıcı -->
 
 <div id="basKisim">
