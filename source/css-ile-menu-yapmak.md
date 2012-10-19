@@ -17,36 +17,37 @@ başlandı. Aslında menülerde bir bakıma link listeleri olduğu düşünülü
 işlevinin dışında kullanılmadığı da doğru bir tespittir. Kodumuzu
 yazmaya başlayalım:
 
-[sourcecode language='html']
-
--   [Ana Sayfa][]
--   [Hakkımızda][]
--   [Ürünler][]
-
-
+	:::html
+	<ul class="menu"> 
+	    <li><a href="index.html">Ana Sayfa </a></li> 
+	    <li><a href="hakkimizda.html">Hakkımızda</a></li> 
+	    <li><a href="urunler.html">Ürünler</a></li> 
+	</ul>
 
 Kodlama sonucu görüntü aşağıdaki gibi olacaktır.
 
-<div align="center">
 ![][]
 
-</div>
 Her linkin başındaki imgeleri kaldırmak için:
 
-[sourcecode language='css'] ul.menu { list-style-type: none; }
+	:::css
+	ul.menu { 
+		list-style-type: none; 
+	}
 
-
-<div align="center">
 ![][1]
 
-</div>
 Bir çok web tarayıcısı sırasız listeleri(<ul>) yorumlarken yukarıda
 görüldüğü gibi otomatik olarak soldan bir padding/margin(bazı
 tarayıcılarda padding uygularken bazılarında margin uygular) mesafesi
 uygular bu mesafeyi sıfırlamak için:
 
-[sourcecode language='css'] ul.menu { list-style-type: none; padding: 0;
-margin: 0; } 
+	:::css
+	ul.menu { 
+	    list-style-type: none; 
+	    padding: 0; 
+	    margin: 0; 
+	}
 
 ![][2]
 
@@ -60,7 +61,10 @@ Dikey menülerde linkler yukarıdan aşağı doğru sıralanmıştır. Link
 elementi(a) inline-elementtir, her linke rollover özelliği kazandırmak
 için:
 
-[sourcecode language='css'] ul.menu a { display: block; } 
+	:::css
+	ul.menu a { 
+		display: block; 
+	}
 
 Biraz görselliği arttırırsak:
 
