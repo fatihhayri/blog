@@ -41,8 +41,8 @@ Sağol FireBug. Sen olmasan bu iş gerçekten zor olurdu.
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/wp-content/firebug_satirno.gif
+  []: http://www.fatihhayrioglu.com/images/firebug_satirno.gif
     "firebug_satirno"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/firebug_satirno.gif
+  [![][]]: http://www.fatihhayrioglu.com/images/firebug_satirno.gif
   [her satırda bir tanım yerine her satırda bir seçici şeklinde css   dosyalarımı]: http://www.fatihhayrioglu.com/css-kod-yazma-duzeni/
     "her satırda bir tanım yerine her satırda bir seçici şeklinde css   dosyalarımı"

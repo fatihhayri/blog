@@ -42,7 +42,7 @@ Internet Explore desteklemiyor. Bunun haricinde Firefox 2, Safari, Opera
 
 </p>
 
-  [metin_secme_rengi]: http://www.fatihhayrioglu.com/wp-content/metin_secme_rengi-300x110.gif
+  [metin_secme_rengi]: http://www.fatihhayrioglu.com/images/metin_secme_rengi-300x110.gif
     "metin_secme_rengi"
   [css-tricks.com]: http://css-tricks.com "css-tricks.com"
   [http://www.quirksmode.org/css/selection.html]: http://www.quirksmode.org/css/selection.html

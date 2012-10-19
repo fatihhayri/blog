@@ -9,7 +9,7 @@ kitabı klasikler arasına sokmuştur. Öneriler, hikmetli sözler,
 hikayerler ve kısaslar ile güzel bir bilgi kaynağı. Ayrıntılı bilgi için
 [tıklayınız.][]
 
-  [siyasetname.jpg]: http://www.fatihhayrioglu.com/wp-content/siyasetname.kucukresim.jpg
-  [![siyasetname.jpg][]]: http://www.fatihhayrioglu.com/wp-content/siyasetname.jpg
+  [siyasetname.jpg]: http://www.fatihhayrioglu.com/images/siyasetname.kucukresim.jpg
+  [![siyasetname.jpg][]]: http://www.fatihhayrioglu.com/images/siyasetname.jpg
     "siyasetname.jpg"
   [tıklayınız.]: http://www.timas.com.tr/index.php?key=tkg&id=287

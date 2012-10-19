@@ -12,7 +12,7 @@ anlatımı mevcut kitap içinde. Kitabın ingilizce olması bir dezavantaj
 ama malum ingilizce dışında kitap bulma imkanımızda yok. Ayrıntılı bilgi
 için [tıklayınız.][]
 
-  [CSS Mastery: Advanced Web Standards Solutions - Andy Budd]: http://www.fatihhayrioglu.com/wp-content/css_mastery1.kucukresim.jpg
-  [![CSS Mastery: Advanced Web Standards Solutions - Andy Budd][]]: http://www.fatihhayrioglu.com/wp-content/css_mastery1.jpg
+  [CSS Mastery: Advanced Web Standards Solutions - Andy Budd]: http://www.fatihhayrioglu.com/images/css_mastery1.kucukresim.jpg
+  [![CSS Mastery: Advanced Web Standards Solutions - Andy Budd][]]: http://www.fatihhayrioglu.com/images/css_mastery1.jpg
     "CSS Mastery: Advanced Web Standards Solutions - Andy Budd"
   [tıklayınız.]: http://www.cssmastery.com/

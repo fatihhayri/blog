@@ -291,7 +291,7 @@ dönüşümleri yapmaya yarayan bir fonksiyon olarak tanımlayabilirim.
 	}
 
 
-[http://www.eleqtriq.com/wp-content/static/demos/2010/css3d/matrix3dexplorer.html][]
+[http://www.eleqtriq.com/images/static/demos/2010/css3d/matrix3dexplorer.html][]
 
 Bu araç ile matrix3d daha kullanışlı oluyor.
 
@@ -429,7 +429,7 @@ Android Browser 3.0+ (-webkit- öneki ile)
   [http://www.ryancollins.me/?p=993]: http://www.ryancollins.me/?p=993
   [Kartezyen koordinat sistemi]: http://tr.wikipedia.org/wiki/Kartezyen_koordinat_sistemi
   [http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-rotatexyz.html]: http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-rotatexyz.html
-  [http://www.eleqtriq.com/wp-content/static/demos/2010/css3d/matrix3dexplorer.html]: http://www.eleqtriq.com/wp-content/static/demos/2010/css3d/matrix3dexplorer.html
+  [http://www.eleqtriq.com/images/static/demos/2010/css3d/matrix3dexplorer.html]: http://www.eleqtriq.com/images/static/demos/2010/css3d/matrix3dexplorer.html
   [1]: https://lh3.googleusercontent.com/X06_E_pJOi7N5Ks5qP3b3PmAWRO6WGhSsmUGiqsvSUNi1E0Hy8uhCGnb1I9fG9XGSxypWDToKaS8UckIB8rCeL1_cu-b8eq4qMFMofq0lS3y8PsGd8M
   [2]: https://lh3.googleusercontent.com/JKKV66baIfWahnoL-PwOvPBdkfaZ1NQbwfhDbJK0OY5GvrlHY1Ae46Is4LO5NKNCeAKXIFAxNBbVonVpLiLqzfXDh_RRzQOo424GIX1BdhHfG3Z-l6U
   [http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-perspective-origin.html]: http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-perspective-origin.html

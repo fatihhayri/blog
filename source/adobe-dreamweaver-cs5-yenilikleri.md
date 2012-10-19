@@ -176,21 +176,21 @@ Kalın sağlıcakla.
 </p>
 
   []: https://docs.google.com/File?id=dhctmbn6_472cmt9wsnt_b
-  [1]: http://www.fatihhayrioglu.com/wp-content/dw_cs5.gif "dw_cs5"
-  [![][1]]: http://www.fatihhayrioglu.com/wp-content/dw_cs5.gif
+  [1]: http://www.fatihhayrioglu.com/images/dw_cs5.gif "dw_cs5"
+  [![][1]]: http://www.fatihhayrioglu.com/images/dw_cs5.gif
   [2]: https://docs.google.com/File?id=dhctmbn6_467gzqcgpdh_b
-  [3]: http://www.fatihhayrioglu.com/wp-content/dw_cs5_aktif_pasif.gif
+  [3]: http://www.fatihhayrioglu.com/images/dw_cs5_aktif_pasif.gif
     "dw_cs5_aktif_pasif"
-  [![][3]]: http://www.fatihhayrioglu.com/wp-content/dw_cs5_aktif_pasif.gif
-  [4]: http://www.fatihhayrioglu.com/wp-content/dw_cs5_template-300x211.jpg
+  [![][3]]: http://www.fatihhayrioglu.com/images/dw_cs5_aktif_pasif.gif
+  [4]: http://www.fatihhayrioglu.com/images/dw_cs5_template-300x211.jpg
     "dw_cs5_template"
-  [![][4]]: http://www.fatihhayrioglu.com/wp-content/dw_cs5_template.jpg
-  [5]: http://www.fatihhayrioglu.com/wp-content/dw_cs5_cms.jpg
+  [![][4]]: http://www.fatihhayrioglu.com/images/dw_cs5_template.jpg
+  [5]: http://www.fatihhayrioglu.com/images/dw_cs5_cms.jpg
     "dw_cs5_cms"
-  [![][5]]: http://www.fatihhayrioglu.com/wp-content/dw_cs5_cms.jpg
-  [6]: http://www.fatihhayrioglu.com/wp-content/dwcs5-site-specific-codehints-dlg-cms.gif
+  [![][5]]: http://www.fatihhayrioglu.com/images/dw_cs5_cms.jpg
+  [6]: http://www.fatihhayrioglu.com/images/dwcs5-site-specific-codehints-dlg-cms.gif
     "dwcs5-site-specific-codehints-dlg-cms"
-  [![][6]]: http://www.fatihhayrioglu.com/wp-content/dwcs5-site-specific-codehints-dlg-cms.gif
+  [![][6]]: http://www.fatihhayrioglu.com/images/dwcs5-site-specific-codehints-dlg-cms.gif
   [7]: https://docs.google.com/File?id=dhctmbn6_474f467phf8_b
   [http://tv.adobe.com/watch/learn-dreamweaver-cs5/getting-started-gs-what-is-dreamweaver-cs5-/]: http://tv.adobe.com/watch/learn-dreamweaver-cs5/getting-started-gs-what-is-dreamweaver-cs5-/
     "http://tv.adobe.com/watch/learn-dreamweaver-cs5/getting-started-gs-what-is-dreamweaver-cs5-/"

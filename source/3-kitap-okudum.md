@@ -32,11 +32,11 @@ Yenileşmenin kolay olmadığını ne kadar kan döküldüğünü anlatan kitap
 bize ders alınması gereken olayları gösteriyor. Ayrıntılı bilgi için
 [tıklayınız.][]
 
-  [“rumeli ve muteşem istanbul” Münevver Ayaşlı]: http://www.fatihhayrioglu.com/wp-content/rumelivemuhtistan.kucukresim.jpg
-  [![“rumeli ve muteşem istanbul” Münevver Ayaşlı][]]: http://www.fatihhayrioglu.com/wp-content/rumelivemuhtistan.jpg
+  [“rumeli ve muteşem istanbul” Münevver Ayaşlı]: http://www.fatihhayrioglu.com/images/rumelivemuhtistan.kucukresim.jpg
+  [![“rumeli ve muteşem istanbul” Münevver Ayaşlı][]]: http://www.fatihhayrioglu.com/images/rumelivemuhtistan.jpg
     "“rumeli ve muteşem istanbul” Münevver Ayaşlı"
   [tıklayınız]: http://www.timas.com.tr/index.php?key=tkg&id=526
-  [2. Sultan Mahmud Cihan Hakanı ve Yenileşme Padişahı - Yılmaz Öztuna]: http://www.fatihhayrioglu.com/wp-content/iimahmud.kucukresim.jpg
-  [![2. Sultan Mahmud Cihan Hakanı ve Yenileşme Padişahı - Yılmaz   Öztuna][]]: http://www.fatihhayrioglu.com/wp-content/iimahmud.jpg
+  [2. Sultan Mahmud Cihan Hakanı ve Yenileşme Padişahı - Yılmaz Öztuna]: http://www.fatihhayrioglu.com/images/iimahmud.kucukresim.jpg
+  [![2. Sultan Mahmud Cihan Hakanı ve Yenileşme Padişahı - Yılmaz   Öztuna][]]: http://www.fatihhayrioglu.com/images/iimahmud.jpg
     "2. Sultan Mahmud Cihan Hakanı ve Yenileşme Padişahı - Yılmaz Öztuna"
   [tıklayınız.]: http://www.ideefixe.com/Kitap/tanim.asp?sid=WMIRAL1SXM0MRIC8YO74

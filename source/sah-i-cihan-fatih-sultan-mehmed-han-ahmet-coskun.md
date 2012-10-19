@@ -40,6 +40,6 @@ uykusuz gecelerinde ona arkadaşlık edeceksiniz. Bizans Surlarının
 üstünde geçen elli yıllık bir ömrün azmine, iradesine, hayran
 kalacaksınız. Ayrıntılı bilgi için [tıklayınız.][]
 
-  [sahicihan]: http://www.fatihhayrioglu.com/wp-content/sahicihan-95x150.jpg
+  [sahicihan]: http://www.fatihhayrioglu.com/images/sahicihan-95x150.jpg
     "sahicihan"
   [tıklayınız.]: http://www.bky.com.tr/book_details.asp?id=143&r=08.02.2009+16%3A17%3A17

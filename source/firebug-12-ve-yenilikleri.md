@@ -117,8 +117,8 @@ Bu arada FireBug 1.3 çalışmalarına başlanmış bile.
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/wp-content/firebug_12.jpg "FireBug"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/firebug_12.jpg
+  []: http://www.fatihhayrioglu.com/images/firebug_12.jpg "FireBug"
+  [![][]]: http://www.fatihhayrioglu.com/images/firebug_12.jpg
   [FireBug'ın genel özelliklerinden]: http://www.fatihhayrioglu.com/?p=564
   [https://wiki.mozilla.org/User:Rcampbell/Firebug_performance]: https://wiki.mozilla.org/User:Rcampbell/Firebug_performance
   [FireBug ikonu]: /images/firebug_ikon.gif

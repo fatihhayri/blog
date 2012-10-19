@@ -17,5 +17,5 @@ haklı bir şöhret kazanan değerli yazar Yılmaz Ã?ztuna'nın "Tarih
 Sohbetleri"ni üç cilt halinde sunmaktan şeref duyar. Ayrıntılı bilgi
 için [tıklayınız.][]
 
-  [252-7.jpg]: http://www.fatihhayrioglu.com/wp-content/252-7.thumbnail.jpg
+  [252-7.jpg]: http://www.fatihhayrioglu.com/images/252-7.thumbnail.jpg
   [tıklayınız.]: http://www.otuken.com.tr/kitapdetay.asp?kitapID=293

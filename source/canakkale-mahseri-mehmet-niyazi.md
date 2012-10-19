@@ -29,7 +29,7 @@ Ayrıntı için [http://www.otuken.com.tr/kitapdetay.asp?kitapID=162][]
 
 </p>
 
-  [Çanakkale Mahşeri]: http://www.fatihhayrioglu.com/wp-content/canakkale_mahseri.thumbnail.jpg
+  [Çanakkale Mahşeri]: http://www.fatihhayrioglu.com/images/canakkale_mahseri.thumbnail.jpg
     "Çanakkale Mahşeri"
   [http://www.otuken.com.tr/kitapdetay.asp?kitapID=162]: http://www.otuken.com.tr/kitapdetay.asp?kitapID=162
     "Çanakkale Mahşeri - Mehmet Nİyazi"

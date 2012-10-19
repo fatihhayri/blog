@@ -15,7 +15,7 @@ emekli olmuş ve rahmete kavuşmuş bir Azerbaycanlı Türk'ün, anayurdunda
 başından geçenler etrafında cereyan eden bir roman. Ayrıntılı bilgi için
 [tıklayınız][]
 
-  [Ölüm Daha Güzeldi - Mehmet Niyazi]: http://www.fatihhayrioglu.com/wp-content/olumdahaguzeldi.kucukresim.jpg
-  [![Ölüm Daha Güzeldi - Mehmet Niyazi][]]: http://www.fatihhayrioglu.com/wp-content/olumdahaguzeldi.jpg
+  [Ölüm Daha Güzeldi - Mehmet Niyazi]: http://www.fatihhayrioglu.com/images/olumdahaguzeldi.kucukresim.jpg
+  [![Ölüm Daha Güzeldi - Mehmet Niyazi][]]: http://www.fatihhayrioglu.com/images/olumdahaguzeldi.jpg
     "Ölüm Daha Güzeldi - Mehmet Niyazi"
   [tıklayınız]: http://www.otuken.com.tr/kitapdetay.asp?kitapID=158

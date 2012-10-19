@@ -13,4 +13,4 @@ Sultan... Hadice Tarhan Sultan... Osmanlı tarihinde kimisi müsbet kimisi
 menfi rol oynamış ve yaşadıkları dönemlere damgalarını vurmuş üç haseki
 sultanın tarihi hikayesi...
 
-  [Üç Haseki Sultan]: http://www.fatihhayrioglu.com/wp-content/348-5.kucukresim.jpg
+  [Üç Haseki Sultan]: http://www.fatihhayrioglu.com/images/348-5.kucukresim.jpg

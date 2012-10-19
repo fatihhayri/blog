@@ -10,5 +10,5 @@ kesin ama bunları bilmek ve anlatmak gerek. Bu kitap ve bunu gibi bilgi
 kaynakları zamanla daha da artacaktır. Ayrıntılı bilgi için
 [tıklayınız][].
 
-  [Ufukların Sultanı]: http://www.fatihhayrioglu.com/wp-content/ufuklarinsul.kucukresim.jpg
+  [Ufukların Sultanı]: http://www.fatihhayrioglu.com/images/ufuklarinsul.kucukresim.jpg
   [tıklayınız]: http://www.timas.com.tr/kitap.php?id=1181

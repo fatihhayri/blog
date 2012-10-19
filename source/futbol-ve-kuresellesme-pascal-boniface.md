@@ -32,6 +32,6 @@ rağmen futbolun jeostratejik özellikleri hakkında bir çalışmaya
 rastlamak güçtür. İşte elinizdeki kitap bu boşluğu doldurmayı
 amaçlıyor.. Ayrıntılı bilgi için [tıklayınız.][]
 
-  [Futbol ve küreselleşme]: http://www.fatihhayrioglu.com/wp-content/978-975-6690-64-2-95x150.jpg
+  [Futbol ve küreselleşme]: http://www.fatihhayrioglu.com/images/978-975-6690-64-2-95x150.jpg
     "Futbol ve küreselleşme"
   [tıklayınız.]: http://kitap.ntvmsnbc.com/

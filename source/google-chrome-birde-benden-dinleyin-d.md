@@ -135,9 +135,9 @@ javascript motoru 
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/wp-content/chrome_438x359-300x245.jpg
+  []: http://www.fatihhayrioglu.com/images/chrome_438x359-300x245.jpg
     "Google Chrome"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/chrome_438x359.jpg
+  [![][]]: http://www.fatihhayrioglu.com/images/chrome_438x359.jpg
   [tıklayınız.]: http://www.evotech.net/blog/2008/09/google-chrome-browser-css-selector-support/
     "css özellik listesi"
   [http://www1.qainsight.net:8080/2008/09/04/How+To+View+JavaScript+Errors+In+Google+Chrome.aspx]: http://www1.qainsight.net:8080/2008/09/04/How+To+View+JavaScript+Errors+In+Google+Chrome.aspx

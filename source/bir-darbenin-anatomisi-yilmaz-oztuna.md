@@ -16,4 +16,4 @@ yapısı üzerinde derinlemesine etkileri vardır. 1979 eylülünde kaleme
 alınan bu kitap 1982 yılında sakıncalı görülüp yayınlanamadı. O tarihten
 bu yana bir çok baskı yaptı. Gözden geçirilmiş 5. baskısını sunuyoruz.
 
-  [birdarbenin_anatomisi.jpg]: http://www.fatihhayrioglu.com/wp-content/birdarbenin_anatomisi.thumbnail.jpg
+  [birdarbenin_anatomisi.jpg]: http://www.fatihhayrioglu.com/images/birdarbenin_anatomisi.thumbnail.jpg

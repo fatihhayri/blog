@@ -79,18 +79,18 @@ numaralı yerini kimseye kaptırmıyor.
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/wp-content/teftis_et.gif "teftis_et"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/teftis_et.gif
-  [1]: http://www.fatihhayrioglu.com/wp-content/computed.gif "computed"
-  [![][1]]: http://www.fatihhayrioglu.com/wp-content/computed.gif
-  [2]: http://www.fatihhayrioglu.com/wp-content/css_paneli.gif
+  []: http://www.fatihhayrioglu.com/images/teftis_et.gif "teftis_et"
+  [![][]]: http://www.fatihhayrioglu.com/images/teftis_et.gif
+  [1]: http://www.fatihhayrioglu.com/images/computed.gif "computed"
+  [![][1]]: http://www.fatihhayrioglu.com/images/computed.gif
+  [2]: http://www.fatihhayrioglu.com/images/css_paneli.gif
     "css_paneli"
-  [![][2]]: http://www.fatihhayrioglu.com/wp-content/css_paneli.gif
+  [![][2]]: http://www.fatihhayrioglu.com/images/css_paneli.gif
   [tıklayınız]: http://www.softwareishard.com/blog/firebug/firebug-http-time-monitor/
     "tıklayınız"
-  [3]: http://www.fatihhayrioglu.com/wp-content/net_panel.gif
+  [3]: http://www.fatihhayrioglu.com/images/net_panel.gif
     "net_panel"
-  [![][3]]: http://www.fatihhayrioglu.com/wp-content/net_panel.gif
+  [![][3]]: http://www.fatihhayrioglu.com/images/net_panel.gif
   [http://getfirebug.com/wiki/index.php/Firebug_Release_Notes]: http://getfirebug.com/wiki/index.php/Firebug_Release_Notes
     "http://getfirebug.com/wiki/index.php/Firebug_Release_Notes"
   [http://www.softwareishard.com/blog/]: http://www.softwareishard.com/blog/

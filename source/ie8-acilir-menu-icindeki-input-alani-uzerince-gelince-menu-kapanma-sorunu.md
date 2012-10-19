@@ -32,7 +32,7 @@ padding:20px; background-color:#999; width:250px; position:absolute;
 top:18px; left:0} a div input{ background:transparent} </style>
 </head> <body> <a href="javascript:;">menu aç <div><input
 type="text" /></div> </a> <p><img
-src="http://www.fatihhayrioglu.com/wp-content/ie7_kaydirma_cubugu.jpg"
+src="http://www.fatihhayrioglu.com/images/ie7_kaydirma_cubugu.jpg"
 width="450" height="398" /></p> </body> </html> 
 
 Örneği görmek için [tıklayınız.][]
@@ -54,7 +54,7 @@ Ben tasarıma uymak için background'a resim tanımlayarak sorunu aştım.
 
   [ie7 gibi yorumlama kodunu]: http://www.fatihhayrioglu.com/internet-explorer-8i-7-gibi-yorumla-kodu/
   [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/ie8_popupmenu_input_sorunu.html
-  []: http://www.fatihhayrioglu.com/wp-content/ie8_sorunu.gif
+  []: http://www.fatihhayrioglu.com/images/ie8_sorunu.gif
     "ie8_sorunu"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/ie8_sorunu.gif
+  [![][]]: http://www.fatihhayrioglu.com/images/ie8_sorunu.gif
   [http://ff.im/gwMR3]: http://ff.im/gwMR3 "http://ff.im/gwMR3"

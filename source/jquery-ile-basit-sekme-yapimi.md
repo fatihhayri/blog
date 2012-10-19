@@ -127,7 +127,7 @@ Safari 3.2.2 sürümlerinde test ettim.
 
 </p>
 
-  [sekme_ornek]: http://www.fatihhayrioglu.com/wp-content/sekme_ornek-150x90.gif
+  [sekme_ornek]: http://www.fatihhayrioglu.com/images/sekme_ornek-150x90.gif
     "sekme_ornek"
   [Orhan Ekici]: http://orhanekici.info/ "Orhan Ekici"
   [jQuery UI]: http://jqueryui.com/ "jQuery UI"

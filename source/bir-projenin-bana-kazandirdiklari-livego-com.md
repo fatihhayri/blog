@@ -91,9 +91,9 @@ Türkiye’de umarım onlarda bilgilerini bizlerle paylaşırlar.
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/wp-content/liveGO_white_72dpi_300px.jpg
+  []: http://www.fatihhayrioglu.com/images/liveGO_white_72dpi_300px.jpg
     "liveGO_white_72dpi_300px"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/liveGO_white_72dpi_300px.jpg
+  [![][]]: http://www.fatihhayrioglu.com/images/liveGO_white_72dpi_300px.jpg
   [messengerfx.com]: http://messengerfx.com
   [www.livego.com]: http://www.livego.com
   [CSS ile metinlere gölge vermek]: http://www.fatihhayrioglu.com/css-ile-metinlere-golge-vermek/

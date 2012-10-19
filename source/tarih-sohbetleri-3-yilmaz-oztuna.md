@@ -14,7 +14,7 @@ görmek beni şaşırttı. Tarih okumayı bu nednele seviyorum. Böyle bir
 üstadın hala yaşaması ve bizleri hala bilgilendirmesi bizim için bir
 şans. Ayrıntılı bilgi için [tıklayınız.][]
 
-  [tarih_sohbetleri3.jpg]: http://www.fatihhayrioglu.com/wp-content/tarih_sohbetleri3.kucukresim.jpg
-  [![tarih_sohbetleri3.jpg][]]: http://www.fatihhayrioglu.com/wp-content/tarih_sohbetleri3.jpg
+  [tarih_sohbetleri3.jpg]: http://www.fatihhayrioglu.com/images/tarih_sohbetleri3.kucukresim.jpg
+  [![tarih_sohbetleri3.jpg][]]: http://www.fatihhayrioglu.com/images/tarih_sohbetleri3.jpg
     "tarih_sohbetleri3.jpg"
   [tıklayınız.]: http://www.kitapyurdu.com/kitap/default.asp?id=18964&session=S5981679266249721022&LogID=

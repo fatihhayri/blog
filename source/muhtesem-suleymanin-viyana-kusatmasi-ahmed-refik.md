@@ -28,7 +28,7 @@ söyledim. Biz Osmanlılar az söyler, çok iş görürüz. Zapdettiğimiz
 yerleri bir daha elden çıkarmayız. Bunların bizden istirdadı içün
 kollarımızı kesmek icâb ider." Ayrıntılı bilgi için [tıklayınız.][]
 
-  [Muhteşem Süleyman’ın Viyana Kuşatması - Ahmed Refik]: http://www.fatihhayrioglu.com/wp-content/viyanakusatmasi.thumbnail.jpg
-  [![Muhteşem Süleyman’ın Viyana Kuşatması - Ahmed Refik][]]: http://www.fatihhayrioglu.com/wp-content/viyanakusatmasi.jpg
+  [Muhteşem Süleyman’ın Viyana Kuşatması - Ahmed Refik]: http://www.fatihhayrioglu.com/images/viyanakusatmasi.thumbnail.jpg
+  [![Muhteşem Süleyman’ın Viyana Kuşatması - Ahmed Refik][]]: http://www.fatihhayrioglu.com/images/viyanakusatmasi.jpg
     "Muhteşem Süleyman’ın Viyana Kuşatması - Ahmed Refik"
   [tıklayınız.]: http://www.netkitap.com/kitap/68296/muhtesem_suleymanin_viyana_kusatmasi.htm

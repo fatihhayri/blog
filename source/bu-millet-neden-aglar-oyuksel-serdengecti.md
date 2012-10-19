@@ -24,5 +24,5 @@ de ağlayacaksın! Sen de feryad edeceksin! Fakat duyan olmayacak!.. Sen
 duygusuzluğun ne demek olduğunu o zaman anlayacaksın!.." Ayrıntılı bilgi
 için [tıklayınız.][]
 
-  [bumillet.jpg]: http://www.fatihhayrioglu.com/wp-content/bumillet.kucukresim.jpg
+  [bumillet.jpg]: http://www.fatihhayrioglu.com/images/bumillet.kucukresim.jpg
   [tıklayınız.]: http://www.kitapyurdu.com/kitap/default.asp?id=19540&session=96991127385101147121&LogID=

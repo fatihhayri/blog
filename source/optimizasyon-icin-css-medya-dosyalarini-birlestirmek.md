@@ -48,7 +48,7 @@ aşağıda veriyorum.
 
 </p>
 
-  [optimizedenonce]: http://www.fatihhayrioglu.com/wp-content/optimizedenonce-300x108.gif
+  [optimizedenonce]: http://www.fatihhayrioglu.com/images/optimizedenonce-300x108.gif
     "optimizedenonce"
   [http://davidwalsh.name/combine-css-media-styles-file]: http://davidwalsh.name/combine-css-media-styles-file
     "http://davidwalsh.name/combine-css-media-styles-file"

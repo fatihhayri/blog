@@ -10,7 +10,7 @@ sanki bu nedenle kitabın kendi özeti ile yetiniyorum. Yazar bu kitapta
 mantığıyla ele alarak İslâm'da "devlet"in ne olduğunu ortaya koymaya
 çalışmaktadır. Ayrıntılı bilgi için [tıklayınız.][]
 
-  [İslam Devlet Felsefesi - Mehmed Niyazi]: http://www.fatihhayrioglu.com/wp-content/islam_devlet_felsefesi.kucukresim.jpg
-  [![İslam Devlet Felsefesi - Mehmed Niyazi][]]: http://www.fatihhayrioglu.com/wp-content/islam_devlet_felsefesi.jpg
+  [İslam Devlet Felsefesi - Mehmed Niyazi]: http://www.fatihhayrioglu.com/images/islam_devlet_felsefesi.kucukresim.jpg
+  [![İslam Devlet Felsefesi - Mehmed Niyazi][]]: http://www.fatihhayrioglu.com/images/islam_devlet_felsefesi.jpg
     "İslam Devlet Felsefesi - Mehmed Niyazi"
   [tıklayınız.]: http://www.otuken.com.tr/kitapdetay.asp?kitapID=159

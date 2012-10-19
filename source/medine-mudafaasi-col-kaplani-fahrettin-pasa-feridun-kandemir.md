@@ -26,4 +26,4 @@ O'nun yüce peygamberini ve mukaddes topraklarını savunmadaki
 kahramanlıklarının destanını bu eserde bir roman heyecanı ile
 okuyacaksınız.
 
-  []: /wp-content/fahreddin_pasanin_medine_mudafaasi.jpg
+  []: /images/fahreddin_pasanin_medine_mudafaasi.jpg

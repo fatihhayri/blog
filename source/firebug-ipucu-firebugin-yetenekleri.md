@@ -31,6 +31,6 @@ Hiç sitenin kodlarına dokunmadan, herhangi bir resim kopyalamadan, site
 </p>
 
   [bir makaleye]: http://www.noupe.com/texture/50-high-resolution-textures-tutorials-and-resources.html
-  [FireBug yetenekleri]: http://www.fatihhayrioglu.com/wp-content/firebug_yetenekleri01-255x300.jpg
-  [![FireBug yetenekleri][]]: http://www.fatihhayrioglu.com/wp-content/firebug_yetenekleri01.jpg
+  [FireBug yetenekleri]: http://www.fatihhayrioglu.com/images/firebug_yetenekleri01-255x300.jpg
+  [![FireBug yetenekleri][]]: http://www.fatihhayrioglu.com/images/firebug_yetenekleri01.jpg
   [tıklayınız.]: /images/firebug_yetenekleri.gif

@@ -138,13 +138,13 @@ Kalın sağlıacakla
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/wp-content/resim_on_yukleme_jquery-300x195.gif
+  []: http://www.fatihhayrioglu.com/images/resim_on_yukleme_jquery-300x195.gif
     "resim_on_yukleme_jquery"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/resim_on_yukleme_jquery.gif
+  [![][]]: http://www.fatihhayrioglu.com/images/resim_on_yukleme_jquery.gif
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/onyukleme.html
-  [1]: http://www.fatihhayrioglu.com/wp-content/resim_on_yukleme_jquery2-300x194.gif
+  [1]: http://www.fatihhayrioglu.com/images/resim_on_yukleme_jquery2-300x194.gif
     "resim_on_yukleme_jquery2"
-  [![][1]]: http://www.fatihhayrioglu.com/wp-content/resim_on_yukleme_jquery2.gif
+  [![][1]]: http://www.fatihhayrioglu.com/images/resim_on_yukleme_jquery2.gif
   [http://perishablepress.com/press/2009/12/28/3-ways-preload-images-css-javascript-ajax/]: http://perishablepress.com/press/2009/12/28/3-ways-preload-images-css-javascript-ajax/
   [http://engineeredweb.com/blog/09/12/preloading-images-jquery-and-javascript]: http://engineeredweb.com/blog/09/12/preloading-images-jquery-and-javascript
   [http://elouai.com/javascript-preload-images.php]: http://elouai.com/javascript-preload-images.php

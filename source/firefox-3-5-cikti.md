@@ -79,11 +79,11 @@ Firefox 3.5 indirmek için [tıklayınız.][]
 
 </p>
 
-  [firefox-128]: http://www.fatihhayrioglu.com/wp-content/firefox-128.png
+  [firefox-128]: http://www.fatihhayrioglu.com/images/firefox-128.png
     "firefox-128"
   [Firefox 3.1 yenilikleri]: http://www.fatihhayrioglu.com/firefox-31-yenilikleri/
     "Firefox 3.1 yenilikleri"
-  [clip_image002]: http://www.fatihhayrioglu.com/wp-content/clip_image002.gif
+  [clip_image002]: http://www.fatihhayrioglu.com/images/clip_image002.gif
     "clip_image002"
   [tıklayınız.]: http://www.mozilla.com/en-US/
   [http://www.dkszone.net/2009/06/new-features-in-firefox-35.html]: http://www.dkszone.net/2009/06/new-features-in-firefox-35.html

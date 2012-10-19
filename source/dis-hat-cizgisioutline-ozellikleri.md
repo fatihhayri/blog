@@ -161,5 +161,5 @@ CSS 2+
 </div>
 </p>
 
-  [dış hat çizgisi]: http://www.fatihhayrioglu.com/wp-content/dis_hat_cizgidi.gif
+  [dış hat çizgisi]: http://www.fatihhayrioglu.com/images/dis_hat_cizgidi.gif
     "dış hat çizgisi"

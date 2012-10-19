@@ -691,32 +691,32 @@ görüşmek dileğiyle hoşçakalın.
 </p>
 
   [I -Kodlama Öncesi Hazırlıklar]: http://www.fatihhayrioglu.com/fanatikmarslar-com-sitesinin-kodlamasi/
-  []: http://www.fatihhayrioglu.com/wp-content/anasayfa_kuc.jpg
+  []: http://www.fatihhayrioglu.com/images/anasayfa_kuc.jpg
     "anasayfa_kuc"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/anasayfa_kuc.jpg
-  [1]: http://www.fatihhayrioglu.com/wp-content/ardalan-266x300.jpg
+  [![][]]: http://www.fatihhayrioglu.com/images/anasayfa_kuc.jpg
+  [1]: http://www.fatihhayrioglu.com/images/ardalan-266x300.jpg
     "ardalan"
-  [![][1]]: http://www.fatihhayrioglu.com/wp-content/ardalan.jpg
+  [![][1]]: http://www.fatihhayrioglu.com/images/ardalan.jpg
   [IE6'un Tekrarlayan Karakter Sorunu]: http://www.fatihhayrioglu.com/ie6un-tekrarlayan-karakter-sorunu/
-  [2]: http://www.fatihhayrioglu.com/wp-content/ders_03-300x113.jpg
+  [2]: http://www.fatihhayrioglu.com/images/ders_03-300x113.jpg
     "ders_03"
-  [![][2]]: http://www.fatihhayrioglu.com/wp-content/ders_03.jpg
+  [![][2]]: http://www.fatihhayrioglu.com/images/ders_03.jpg
   [CSS kod Yazma Düzeni]: http://www.fatihhayrioglu.com/css-kod-yazma-duzeni/
   [tıklayınız]: http://www.fatihhayrioglu.com/tum-tarayicilar-icin-css-duzeltmelerihack/
-  [3]: http://www.fatihhayrioglu.com/wp-content/icerik_alani.jpg
+  [3]: http://www.fatihhayrioglu.com/images/icerik_alani.jpg
     "icerik_alani"
-  [![][3]]: http://www.fatihhayrioglu.com/wp-content/icerik_alani.jpg
+  [![][3]]: http://www.fatihhayrioglu.com/images/icerik_alani.jpg
   [basit menü yapımı]: http://www.fatihhayrioglu.com/basit-resimli-menu-yapmak/
-  [4]: http://www.fatihhayrioglu.com/wp-content/takim_logolari.gif
+  [4]: http://www.fatihhayrioglu.com/images/takim_logolari.gif
     "takim_logolari"
-  [![][4]]: http://www.fatihhayrioglu.com/wp-content/takim_logolari.gif
-  [5]: http://www.fatihhayrioglu.com/wp-content/genel_resim.gif
+  [![][4]]: http://www.fatihhayrioglu.com/images/takim_logolari.gif
+  [5]: http://www.fatihhayrioglu.com/images/genel_resim.gif
     "genel_resim"
-  [![][5]]: http://www.fatihhayrioglu.com/wp-content/genel_resim.gif
+  [![][5]]: http://www.fatihhayrioglu.com/images/genel_resim.gif
   [http://www.fatihhayrioglu.com/kutu-modeli-sorunlari-ve-cozumleri/]: http://www.fatihhayrioglu.com/kutu-modeli-sorunlari-ve-cozumleri/
   [6]: http://www.fatihhayrioglu.com/internet-explorer-6-ve-7-icin-tablo-tr-elementine-kenar-cizgisi-atamak/
-  [7]: http://www.fatihhayrioglu.com/wp-content/sosyal_altalan.jpg
+  [7]: http://www.fatihhayrioglu.com/images/sosyal_altalan.jpg
     "sosyal_altalan"
-  [![][7]]: http://www.fatihhayrioglu.com/wp-content/sosyal_altalan.jpg
+  [![][7]]: http://www.fatihhayrioglu.com/images/sosyal_altalan.jpg
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/fm/index.html
   [8]: http://www.fatihhayrioglu.com/dokumanlar/fm_anasayfa_html.rar

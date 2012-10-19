@@ -165,12 +165,12 @@ getirilecek.
     "Buradan"
   [W3C Geolocation specification]: http://dev.w3.org/geo/api/spec-source.html
     "W3C Geolocation specification"
-  []: http://www.fatihhayrioglu.com/wp-content/font_face-300x78.gif
+  []: http://www.fatihhayrioglu.com/images/font_face-300x78.gif
     "font-face"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/font_face.gif
-  [1]: http://www.fatihhayrioglu.com/wp-content/firefox31_adres_bar-300x61.gif
+  [![][]]: http://www.fatihhayrioglu.com/images/font_face.gif
+  [1]: http://www.fatihhayrioglu.com/images/firefox31_adres_bar-300x61.gif
     "Adres Bar"
-  [![][1]]: http://www.fatihhayrioglu.com/wp-content/firefox31_adres_bar.gif
+  [![][1]]: http://www.fatihhayrioglu.com/images/firefox31_adres_bar.gif
   [http://developer.mozilla.org/web-tech/2008/10/14/firefox-31-beta-1-an-overview-of-features-for-web-developers/]: http://developer.mozilla.org/web-tech/2008/10/14/firefox-31-beta-1-an-overview-of-features-for-web-developers/
   [http://www.siberkultur.com/?q=firefox-3-1]: http://www.siberkultur.com/?q=firefox-3-1
   [http://mehmetergin.blogspot.com/2008/10/firefox-geolocation-api-specification.html]: http://mehmetergin.blogspot.com/2008/10/firefox-geolocation-api-specification.html

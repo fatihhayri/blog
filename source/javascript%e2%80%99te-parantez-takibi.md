@@ -21,7 +21,7 @@ vardır. Ama ben bilmiyorum.
 
 </p>
 
-  [Dreamweaver parantez takibi]: http://www.fatihhayrioglu.com/wp-content/balance_baraces1-300x172.gif
-  [![Dreamweaver parantez takibi][]]: http://www.fatihhayrioglu.com/wp-content/balance_baraces1.gif
-  [Notepad ++ parantezt takibi]: http://www.fatihhayrioglu.com/wp-content/notepad_plus_parantez-300x161.gif
-  [![Notepad ++ parantezt takibi][]]: http://www.fatihhayrioglu.com/wp-content/notepad_plus_parantez.gif
+  [Dreamweaver parantez takibi]: http://www.fatihhayrioglu.com/images/balance_baraces1-300x172.gif
+  [![Dreamweaver parantez takibi][]]: http://www.fatihhayrioglu.com/images/balance_baraces1.gif
+  [Notepad ++ parantezt takibi]: http://www.fatihhayrioglu.com/images/notepad_plus_parantez-300x161.gif
+  [![Notepad ++ parantezt takibi][]]: http://www.fatihhayrioglu.com/images/notepad_plus_parantez.gif

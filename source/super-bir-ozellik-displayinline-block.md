@@ -149,17 +149,17 @@ Bu kodları ekledikten sonra sorunumuz düzeldi.
 </p>
 
   [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/display_inline_block.html
-  []: http://www.fatihhayrioglu.com/wp-content/display_inline_block.jpg
+  []: http://www.fatihhayrioglu.com/images/display_inline_block.jpg
     "display_inline_block"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/display_inline_block.jpg
+  [![][]]: http://www.fatihhayrioglu.com/images/display_inline_block.jpg
   [1]: http://www.fatihhayrioglu.com/dokumanlar/display_inline_block2.html
-  [2]: http://www.fatihhayrioglu.com/wp-content/display_inline_block2.gif
+  [2]: http://www.fatihhayrioglu.com/images/display_inline_block2.gif
     "display_inline_block2"
-  [![][2]]: http://www.fatihhayrioglu.com/wp-content/display_inline_block2.gif
+  [![][2]]: http://www.fatihhayrioglu.com/images/display_inline_block2.gif
   [3]: http://www.fatihhayrioglu.com/dokumanlar/display_inline_block3.html
-  [4]: http://www.fatihhayrioglu.com/wp-content/display_inline_block3.gif
+  [4]: http://www.fatihhayrioglu.com/images/display_inline_block3.gif
     "display_inline_block3"
-  [![][4]]: http://www.fatihhayrioglu.com/wp-content/display_inline_block3.gif
+  [![][4]]: http://www.fatihhayrioglu.com/images/display_inline_block3.gif
   [tüm tarayıcılar için düzeltmeler]: http://www.fatihhayrioglu.com/tum-tarayicilar-icin-css-duzeltmelerihack/
   [http://www.search-this.com/2008/08/28/lets-all-get-inline-in-a-block-in-a-block/]: http://www.search-this.com/2008/08/28/lets-all-get-inline-in-a-block-in-a-block/
   [http://foohack.com/2007/11/cross-browser-support-for-inline-block-styling/]: http://foohack.com/2007/11/cross-browser-support-for-inline-block-styling/

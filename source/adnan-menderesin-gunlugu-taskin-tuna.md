@@ -29,7 +29,7 @@ Menderes'i hissetmiş ve onun kader saatlerini bir günlük tarzında
 tasarlayarak bu romanı ortaya koymuştur. Ayrıntılı bilgi için
 [tıklayınız.][]
 
-  [Adnan Menderes’in Günlüğü - Taşkın Tuna]: http://www.fatihhayrioglu.com/wp-content/adnan_menderes.kucukresim.jpg
-  [![Adnan Menderes’in Günlüğü - Taşkın Tuna][]]: http://www.fatihhayrioglu.com/wp-content/adnan_menderes.jpg
+  [Adnan Menderes’in Günlüğü - Taşkın Tuna]: http://www.fatihhayrioglu.com/images/adnan_menderes.kucukresim.jpg
+  [![Adnan Menderes’in Günlüğü - Taşkın Tuna][]]: http://www.fatihhayrioglu.com/images/adnan_menderes.jpg
     "Adnan Menderes’in Günlüğü - Taşkın Tuna"
   [tıklayınız.]: http://www.kitapyurdu.com/kitap/default.asp?id=68043&sa=0&session=61945788185100768059&LogID=

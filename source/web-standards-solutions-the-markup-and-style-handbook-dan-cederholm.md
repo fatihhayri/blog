@@ -13,5 +13,5 @@ planlamaya ayrıntıları ile gösteriyor. Tabi web standartlarına uygun
 şekilde. Sadece Web sayfaları değil palm, cep telefonu vd. için kodlama
 önerileri mevcut. Ayrıntılı bilgi için [tıklayınız.][]
 
-  [Web Standartları]: http://www.fatihhayrioglu.com/wp-content/solutions_cover.thumbnail.gif
+  [Web Standartları]: http://www.fatihhayrioglu.com/images/solutions_cover.thumbnail.gif
   [tıklayınız.]: http://www.simplebits.com/publications/solutions/

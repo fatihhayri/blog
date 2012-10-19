@@ -26,6 +26,6 @@ Kayanak:
 
 </p>
 
-  [Gmail Tablo genişliği]: http://blog.opencomponentry.com/wp-content/uploads/2007/08/gmail-column-size.png
+  [Gmail Tablo genişliği]: http://blog.opencomponentry.com/images/uploads/2007/08/gmail-column-size.png
   [tıklayınız.]: http://blog.opencomponentry.com/grid.html
   [http://blog.opencomponentry.com/2007/08/22/gmail-table-column-sizing-css-fun/]: http://blog.opencomponentry.com/2007/08/22/gmail-table-column-sizing-css-fun/

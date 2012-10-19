@@ -107,9 +107,9 @@ Hadi kalın sağlıcakla.
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/wp-content/1px_yuvarlak_kutu_yak-300x125.gif
+  []: http://www.fatihhayrioglu.com/images/1px_yuvarlak_kutu_yak-300x125.gif
     "1px_yuvarlak_kutu_yak"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/1px_yuvarlak_kutu_yak.gif
+  [![][]]: http://www.fatihhayrioglu.com/images/1px_yuvarlak_kutu_yak.gif
   [Yuvarlak Kenarlı Kutular]: http://www.fatihhayrioglu.com/yuvarlak-kenarli-kutular/
   [Yuvarlak kenarlı kutular(border-radius) oluşturmak]: http://www.fatihhayrioglu.com/yuvarlak-kenarli-kutularborder-radius-olusturmak/
   [1]: https://lh4.googleusercontent.com/23SRG-1WKRPSijX0GVloqxvgBzLJFRxuUbVjkU36hzGacLp5Y5zz6AxULdUJdl3zrKnFODcY7O4NNURxY7BGChNRa52LUeYt1Kj9l7AYsBDvejEKcQ

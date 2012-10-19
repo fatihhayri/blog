@@ -64,9 +64,9 @@ Not: Karakter kodu değişiklikleri için NotePad++ kullandım.
 
   [FirendFeed]: http://ff.im/af0XB
   [Burak Dönertaş]: http://ff.im/86KsI
-  [ansi_ff]: http://www.fatihhayrioglu.com/wp-content/ansi_ff.gif
+  [ansi_ff]: http://www.fatihhayrioglu.com/images/ansi_ff.gif
     "ansi_ff"
-  [ansi_ie6]: http://www.fatihhayrioglu.com/wp-content/ansi_ie6.gif
+  [ansi_ie6]: http://www.fatihhayrioglu.com/images/ansi_ie6.gif
     "ansi_ie6"
-  [utf8_ie6]: http://www.fatihhayrioglu.com/wp-content/utf8_ie6.gif
+  [utf8_ie6]: http://www.fatihhayrioglu.com/images/utf8_ie6.gif
     "utf8_ie6"

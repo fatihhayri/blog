@@ -16,7 +16,7 @@ bilmemek. Kitap Osmanlının son dönemi ve Türkiye Cumhuriyetine geçiş
 sürecini anltan güzel bir eser. Ayrıca Sultan Vahideddin'e yönelik
 iftiralara karşılık veren bir eser. Ayrıntılı bilgi için [tıklayınız.][]
 
-  [Sultan Vahideddin - Kadir Mısıroğlu]: http://www.fatihhayrioglu.com/wp-content/vahideddin.kucukresim.gif
-  [![Sultan Vahideddin - Kadir Mısıroğlu][]]: http://www.fatihhayrioglu.com/wp-content/vahideddin.gif
+  [Sultan Vahideddin - Kadir Mısıroğlu]: http://www.fatihhayrioglu.com/images/vahideddin.kucukresim.gif
+  [![Sultan Vahideddin - Kadir Mısıroğlu][]]: http://www.fatihhayrioglu.com/images/vahideddin.gif
     "Sultan Vahideddin - Kadir Mısıroğlu"
   [tıklayınız.]: http://www.sebilyayinevi.com/katalog.php?islem=kategori&kategori=1#108

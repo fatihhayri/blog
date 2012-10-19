@@ -374,8 +374,8 @@ düzeltme kodu(fix) yazma gereği duymadık.
   [sayfanın çıktısını al]: javascript:print()
   [1]: /images/pdf_ikon.gif
   [pdf olarak indir]: /pdf/CSS_ile_Erisilebilir_Formlar_Yapmak_II.pdf
-  [CSS ile Form]: http://www.fatihhayrioglu.com/wp-content/sonuc_sayfasi.kucukresim.gif
-  [![CSS ile Form][]]: http://www.fatihhayrioglu.com/wp-content/sonuc_sayfasi.gif
+  [CSS ile Form]: http://www.fatihhayrioglu.com/images/sonuc_sayfasi.kucukresim.gif
+  [![CSS ile Form][]]: http://www.fatihhayrioglu.com/images/sonuc_sayfasi.gif
     "CSS ile Form"
   [Bir önceki]: http://www.fatihhayrioglu.com/?p=276
   [tıklayınız.]: /dokumanlar/css_ile_form_2.html

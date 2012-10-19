@@ -83,14 +83,14 @@ Kaynak
     "Sözde sınıf ve elementler kısmında"
   [http://www.evalotta.net/]: http://www.evalotta.net/
     "http://www.evalotta.net/"
-  [stadart_ff]: http://www.fatihhayrioglu.com/wp-content/stadart_ff.gif
+  [stadart_ff]: http://www.fatihhayrioglu.com/images/stadart_ff.gif
     "stadart_ff"
-  [genel_bag_renk]: http://www.fatihhayrioglu.com/wp-content/genel_bag_renk.gif
+  [genel_bag_renk]: http://www.fatihhayrioglu.com/images/genel_bag_renk.gif
     "genel_bag_renk"
-  [ziy_sayfa_uzeri_ciz]: http://www.fatihhayrioglu.com/wp-content/ziy_sayfa_uzeri_ciz.gif
+  [ziy_sayfa_uzeri_ciz]: http://www.fatihhayrioglu.com/images/ziy_sayfa_uzeri_ciz.gif
     "ziy_sayfa_uzeri_ciz"
   [tıklayınız.]: /dokumanlar/ziyaret_edilmis_baglantilar.html
-  [ziy_sayfa_oki]: http://www.fatihhayrioglu.com/wp-content/ziy_sayfa_oki.gif
+  [ziy_sayfa_oki]: http://www.fatihhayrioglu.com/images/ziy_sayfa_oki.gif
     "ziy_sayfa_oki"
   [1]: /dokumanlar/ziyaret_edilmis_baglantilar2.html
   [http://9lessons.blogspot.com/2009/06/css-visited-tips-strike-out.html]: http://9lessons.blogspot.com/2009/06/css-visited-tips-strike-out.html

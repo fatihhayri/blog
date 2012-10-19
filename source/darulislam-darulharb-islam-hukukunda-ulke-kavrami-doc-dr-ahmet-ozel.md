@@ -17,4 +17,4 @@ müelliflerin İslam'ın milletlerarası münasebetlere yaklaşımı, özellikle
 cihadla ilgili maksatlı ve ilmi tarafsızlıktan uzak görüşlerinin
 yanlışlığı ortaya konulmuştur.
 
-  [Darulislam, Darulharb -İslam Hukukunda Ülke Kavramı]: http://www.fatihhayrioglu.com/wp-content/darulislam_darulharp.thumbnail.jpg
+  [Darulislam, Darulharb -İslam Hukukunda Ülke Kavramı]: http://www.fatihhayrioglu.com/images/darulislam_darulharp.thumbnail.jpg

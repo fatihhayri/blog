@@ -111,9 +111,9 @@ sıralamaya çalıştım, umarım sizede lazım olduğunda işinize yarar.
 </p>
 
   [LiveGO]: http://www.livego.com
-  []: http://www.fatihhayrioglu.com/wp-content/livego_arapca.jpg
+  []: http://www.fatihhayrioglu.com/images/livego_arapca.jpg
     "livego_arapca"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/livego_arapca.jpg
+  [![][]]: http://www.fatihhayrioglu.com/images/livego_arapca.jpg
   [http://www.adobe.com/support/downloads/thankyou.jsp?ftpID=4107&fileID=3813]: http://www.adobe.com/support/downloads/thankyou.jsp?ftpID=4107&fileID=3813
   [Faik]: http://twitter.com/faik
   [http://www.siddhatech.com/rtl-css.html]: http://www.siddhatech.com/rtl-css.html

@@ -197,8 +197,8 @@ Kaynaklar
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/wp-content/git-logo.png "git-logo"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/git-logo.png
+  []: http://www.fatihhayrioglu.com/images/git-logo.png "git-logo"
+  [![][]]: http://www.fatihhayrioglu.com/images/git-logo.png
   [1]: https://lh5.googleusercontent.com/fm9u2bysZrSh8Kl-1TUzVT8bdKzgwrpEU0ztXz0gH-bALti4VlkvArqxqwcKhCC4PiXXoTyDm-cOw4aE46skicF6UWh95eAH8KlTiiJM8VTzDisO2A
   [http://whygitisbetterthanx.com/]: http://whygitisbetterthanx.com/
   [2]: https://lh6.googleusercontent.com/aaVMUy_pCM6En6Q48EF2M-7FrFFS44ADVrqkZQuDAOMQc6GPVx3sX_vYQnFcgYeqKLgGlw-CrREnbWcAvZYqLPb0hXdcYQFSILnNqQxV_XXfkSkXdw

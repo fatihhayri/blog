@@ -72,13 +72,13 @@ saldırgan site listesinden çıkarıyor.
 
 </p>
 
-  [iframe_kodu]: http://www.fatihhayrioglu.com/wp-content/iframe_kodu1.gif
+  [iframe_kodu]: http://www.fatihhayrioglu.com/images/iframe_kodu1.gif
     "iframe_kodu"
-  [google-warning]: http://www.fatihhayrioglu.com/wp-content/google-warning-300x127.jpg
+  [google-warning]: http://www.fatihhayrioglu.com/images/google-warning-300x127.jpg
     "google-warning"
   [Google Webmaster Tools]: http://www.google.com/webmasters/tools/
     "Google Webmaster Tools"
-  [google-webmaster-tools]: http://www.fatihhayrioglu.com/wp-content/google-webmaster-tools-300x173.png
+  [google-webmaster-tools]: http://www.fatihhayrioglu.com/images/google-webmaster-tools-300x173.png
     "google-webmaster-tools"
-  [badware]: http://www.fatihhayrioglu.com/wp-content/badware-300x154.png
+  [badware]: http://www.fatihhayrioglu.com/images/badware-300x154.png
     "badware"

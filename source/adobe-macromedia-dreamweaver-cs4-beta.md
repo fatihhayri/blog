@@ -106,16 +106,16 @@ videoları izlemenizi öneririm.
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/wp-content/dw03-150x101.jpg "dw03"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/dw03.jpg
-  [1]: http://www.fatihhayrioglu.com/wp-content/dw02-300x38.jpg "dw02"
-  [![][1]]: http://www.fatihhayrioglu.com/wp-content/dw02.jpg
-  [2]: http://www.fatihhayrioglu.com/wp-content/css_ozellikler-300x48.jpg
+  []: http://www.fatihhayrioglu.com/images/dw03-150x101.jpg "dw03"
+  [![][]]: http://www.fatihhayrioglu.com/images/dw03.jpg
+  [1]: http://www.fatihhayrioglu.com/images/dw02-300x38.jpg "dw02"
+  [![][1]]: http://www.fatihhayrioglu.com/images/dw02.jpg
+  [2]: http://www.fatihhayrioglu.com/images/css_ozellikler-300x48.jpg
     "css_ozellikler"
-  [![][2]]: http://www.fatihhayrioglu.com/wp-content/css_ozellikler.jpg
-  [3]: http://www.fatihhayrioglu.com/wp-content/dw_javascript-300x107.jpg
+  [![][2]]: http://www.fatihhayrioglu.com/images/css_ozellikler.jpg
+  [3]: http://www.fatihhayrioglu.com/images/dw_javascript-300x107.jpg
     "dw_javascript"
-  [![][3]]: http://www.fatihhayrioglu.com/wp-content/dw_javascript.jpg
+  [![][3]]: http://www.fatihhayrioglu.com/images/dw_javascript.jpg
   [http://movielibrary.lynda.com/html/modPage.asp?ID=592]: http://movielibrary.lynda.com/html/modPage.asp?ID=592
   [http://labs.adobe.com/technologies/dreamweavercs4/]: http://labs.adobe.com/technologies/dreamweavercs4/
   [http://www.wz2k.co.uk/index.php/2008/05/dreamweaver-cs4-beta-released/]: http://www.wz2k.co.uk/index.php/2008/05/dreamweaver-cs4-beta-released/

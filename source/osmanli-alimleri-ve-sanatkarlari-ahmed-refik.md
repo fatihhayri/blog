@@ -12,4 +12,4 @@ hatırlatan ahmet Refik'ten tarih severlerin okuması gereken bir eser.
 Bir zamanlar dünyayı parmağında oynatan insanları şimdi insanların
 hatırlarında bile yer almadığını görmek üzücü
 
-  [Osmanlı Alimleri ve Sanatkarları]: http://www.fatihhayrioglu.com/wp-content/osmanli_alim.thumbnail.jpg
+  [Osmanlı Alimleri ve Sanatkarları]: http://www.fatihhayrioglu.com/images/osmanli_alim.thumbnail.jpg

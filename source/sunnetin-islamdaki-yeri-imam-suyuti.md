@@ -16,5 +16,5 @@ Hadis-i şerif i bu gün için söylenmiş kadar gerçekçi ve taze.
 
 </p>
 
-  [sunnetinislamdakiyeri.jpg]: http://www.fatihhayrioglu.com/wp-content/sunnetinislamdakiyeri.thumbnail.jpg
+  [sunnetinislamdakiyeri.jpg]: http://www.fatihhayrioglu.com/images/sunnetinislamdakiyeri.thumbnail.jpg
     "sunnetinislamdakiyeri.jpg"

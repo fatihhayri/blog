@@ -13,4 +13,4 @@ gün yüzüne çıktı. Kumandanların sorumluluk yüklü hayatları, kılıçla
 merhameti yanyana taşıma konusundaki çabaları... Kumandanlar zafer
 geçidinde...
 
-  []: http://www.fatihhayrioglu.com/wp-content/osmanli_kumandanlari1.thumbnail.jpg
+  []: http://www.fatihhayrioglu.com/images/osmanli_kumandanlari1.thumbnail.jpg

@@ -352,45 +352,45 @@ uygulamamızda eksi margin'i kullanmaya devam edeceğiz.
 </p>
 
   [tıklayınız.]: /dokumanlar/sabit_konumlu.html
-  [sabit_konumlu_kutu]: http://www.fatihhayrioglu.com/wp-content/sabit_konumlu_kutu.gif
+  [sabit_konumlu_kutu]: http://www.fatihhayrioglu.com/images/sabit_konumlu_kutu.gif
     "sabit_konumlu_kutu"
   [1]: /dokumanlar/sabit_konumlu_2.html
-  [sabit_konumlu_kutu2]: http://www.fatihhayrioglu.com/wp-content/sabit_konumlu_kutu2.gif
+  [sabit_konumlu_kutu2]: http://www.fatihhayrioglu.com/images/sabit_konumlu_kutu2.gif
     "sabit_konumlu_kutu2"
   [2]: /dokumanlar/sabit_konumlu_3.html
-  [negatifmargin_baslik]: http://www.fatihhayrioglu.com/wp-content/negatifmargin_baslik.gif
+  [negatifmargin_baslik]: http://www.fatihhayrioglu.com/images/negatifmargin_baslik.gif
     "negatifmargin_baslik"
-  [negatifmargin_baslik2]: http://www.fatihhayrioglu.com/wp-content/negatifmargin_baslik2.gif
+  [negatifmargin_baslik2]: http://www.fatihhayrioglu.com/images/negatifmargin_baslik2.gif
     "negatifmargin_baslik2"
   [3]: /dokumanlar/sabit_konumlu_4.html
-  [sabit_konumlu_kutu3]: http://www.fatihhayrioglu.com/wp-content/sabit_konumlu_kutu31.gif
+  [sabit_konumlu_kutu3]: http://www.fatihhayrioglu.com/images/sabit_konumlu_kutu31.gif
     "sabit_konumlu_kutu3"
-  [sabit_konumlu_kutu3_ie7]: http://www.fatihhayrioglu.com/wp-content/sabit_konumlu_kutu3_ie7.gif
+  [sabit_konumlu_kutu3_ie7]: http://www.fatihhayrioglu.com/images/sabit_konumlu_kutu3_ie7.gif
     "sabit_konumlu_kutu3_ie7"
-  [sabit_konumlu_kutu3_ie6]: http://www.fatihhayrioglu.com/wp-content/sabit_konumlu_kutu3_ie6.gif
+  [sabit_konumlu_kutu3_ie6]: http://www.fatihhayrioglu.com/images/sabit_konumlu_kutu3_ie6.gif
     "sabit_konumlu_kutu3_ie6"
   [4]: /dokumanlar/sabit_konumlu_4_ie6.html
   [5]: /dokumanlar/eksi_deger_float.html
-  [float_eksimargin]: http://www.fatihhayrioglu.com/wp-content/float_eksimargin.gif
+  [float_eksimargin]: http://www.fatihhayrioglu.com/images/float_eksimargin.gif
     "float_eksimargin"
-  [float_eksimargin_esnek]: http://www.fatihhayrioglu.com/wp-content/float_eksimargin_esnek.gif
+  [float_eksimargin_esnek]: http://www.fatihhayrioglu.com/images/float_eksimargin_esnek.gif
     "float_eksimargin_esnek"
-  [float_eksimargin_esnek2]: http://www.fatihhayrioglu.com/wp-content/float_eksimargin_esnek2.gif
+  [float_eksimargin_esnek2]: http://www.fatihhayrioglu.com/images/float_eksimargin_esnek2.gif
     "float_eksimargin_esnek2"
   [6]: /dokumanlar/eksi_deger_float_elastik.html
-  [float_eksimargin_esnek3]: http://www.fatihhayrioglu.com/wp-content/float_eksimargin_esnek3.gif
+  [float_eksimargin_esnek3]: http://www.fatihhayrioglu.com/images/float_eksimargin_esnek3.gif
     "float_eksimargin_esnek3"
   [7]: /dokumanlar/eksi_deger_icice_float.html
-  [float_eksimargin_icice]: http://www.fatihhayrioglu.com/wp-content/float_eksimargin_icice.gif
+  [float_eksimargin_icice]: http://www.fatihhayrioglu.com/images/float_eksimargin_icice.gif
     "float_eksimargin_icice"
   [8]: /dokumanlar/eksi_deger_icice_float2.html
-  [float_eksimargin_icice2]: http://www.fatihhayrioglu.com/wp-content/float_eksimargin_icice2.gif
+  [float_eksimargin_icice2]: http://www.fatihhayrioglu.com/images/float_eksimargin_icice2.gif
     "float_eksimargin_icice2"
   [9]: /dokumanlar/eksi_deger_icice_float3.html
-  [float_eksimargin_icice3]: http://www.fatihhayrioglu.com/wp-content/float_eksimargin_icice3.gif
+  [float_eksimargin_icice3]: http://www.fatihhayrioglu.com/images/float_eksimargin_icice3.gif
     "float_eksimargin_icice3"
   [10]: /dokumanlar/eksi_deger_icice_float4.html
-  [float_eksimargin_icice4]: http://www.fatihhayrioglu.com/wp-content/float_eksimargin_icice4.gif
+  [float_eksimargin_icice4]: http://www.fatihhayrioglu.com/images/float_eksimargin_icice4.gif
     "float_eksimargin_icice4"
   [Konumlandırma(positioning) kullanılan elementlerin negatif margin ile   ortalanması]: http://www.fatihhayrioglu.com/css-ile-sayfalarimizi-ve-elementlerimizi-ortalamak/
   [CSS ile gölge vermek]: http://www.fatihhayrioglu.com/css-ile-golge-vermek/

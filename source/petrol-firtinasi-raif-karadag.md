@@ -11,7 +11,7 @@ günümüzdede aynı yöntem ve şartlar ile devam etmekte. Kitabı okuduktan
 sonra olaylara ve dünyaya bakışımız değişiyor. Ayrıntılı bilgi için
 [tıklayınız.][]
 
-  [Petrol Fırtınası - Raif Karadağ]: http://www.fatihhayrioglu.com/wp-content/petrol-firtinasi.kucukresim.jpg
-  [![Petrol Fırtınası - Raif Karadağ][]]: http://www.fatihhayrioglu.com/wp-content/petrol-firtinasi.jpg
+  [Petrol Fırtınası - Raif Karadağ]: http://www.fatihhayrioglu.com/images/petrol-firtinasi.kucukresim.jpg
+  [![Petrol Fırtınası - Raif Karadağ][]]: http://www.fatihhayrioglu.com/images/petrol-firtinasi.jpg
     "Petrol Fırtınası - Raif Karadağ"
   [tıklayınız.]: http://www.kitapyurdu.com/kitap/default.asp?id=1313

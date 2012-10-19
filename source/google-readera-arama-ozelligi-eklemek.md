@@ -32,4 +32,4 @@ yapılacağı(yeniler, eskiler ve otomatik), aranacak maksimum yazı sayısı,
   [RSS]: http://tr.wikipedia.org/wiki/RSS
   [http://greasemonkey.mozdev.org/]: http://greasemonkey.mozdev.org/
   [http://userscripts.org/scripts/show/7062]: http://userscripts.org/scripts/show/7062
-  [Google Reader Arama Ekleme]: http://www.fatihhayrioglu.com/wp-content/googlereader_arama.gif
+  [Google Reader Arama Ekleme]: http://www.fatihhayrioglu.com/images/googlereader_arama.gif

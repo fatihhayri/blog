@@ -32,6 +32,6 @@ için:[http://www.opera.com/download/index.dml?ver=9.0b][]
 
 </p>
 
-  [opera 9 beta]: http://www.fatihhayrioglu.com/wp-content/opera9beta.thumbnail.jpg
+  [opera 9 beta]: http://www.fatihhayrioglu.com/images/opera9beta.thumbnail.jpg
   [http://www.opera.com/download/index.dml?ver=9.0b]: http://www.opera.com/download/index.dml?ver=9.0b
     "Opera 9 Beta"

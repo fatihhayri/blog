@@ -5,8 +5,8 @@ Tags: Ultimate-Tag-Warrior, Ultimate-Tag-Warrior-Türkçe, WordPress
 
 İlk olarak drym.net den Türkçesini indirin [link][]
 *UTW3-141WP2_Türkçe_karakter_uyumlu* klasörü içindeki *plugin*
-klasöründekileri */wp-content/plugins* klasörüne *themes*
-klasöründekileri */wp-content/themes* klasörüne atın. <!--more--> Sonra
+klasöründekileri */images/plugins* klasörüne *themes*
+klasöründekileri */images/themes* klasörüne atın. <!--more--> Sonra
 WordPress Yönetici Ekranından **Eklentiler** bölümünden bu
 eklentiyi(aslında eklentileri) **Ultimate Tag Warrior: Tag Archive,
 Ultimate Tag Warrior ve Ultimate Tag Warrior** etkinleştirin. Sıra geldi

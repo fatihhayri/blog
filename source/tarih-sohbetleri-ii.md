@@ -7,4 +7,4 @@ içeriyor. Bir iki not: - Ã?inli müslümanların isimlerinin başına "Ma"
 sıfatı getirilir. - Türklere ilk Türk isminin ilk olarak avrupalılar
 tarafından Selçukluların anadoluya geldiğinde verildiğini vd.
 
-  []: http://www.fatihhayrioglu.com/wp-content/tarih_sohbet2.thumbnail.jpg
+  []: http://www.fatihhayrioglu.com/images/tarih_sohbet2.thumbnail.jpg

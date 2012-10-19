@@ -39,7 +39,7 @@ Yukarıdaki tanımlar sadece iPhone'da görünecektir. İşin püf noktasını
 
 </p>
 
-  [apple-iphone]: http://www.fatihhayrioglu.com/wp-content/apple-iphone.jpg
+  [apple-iphone]: http://www.fatihhayrioglu.com/images/apple-iphone.jpg
     "apple-iphone"
   [çıktı almak için(print)]: http://www.fatihhayrioglu.com/cssde-cikti-alma-print/
     "çıktı almak için(print)"

@@ -13,7 +13,7 @@ haline gitirlmiş olması nedeni ile farklı görüşlerin olduğunu işin
 aslının apaçık ortada olduğunu anlatmaktadır. Sultan Abdülaziz hakkında
 yazılmiş güzel bir eser. Ayrıntılı bilgi için [tıklayınız.][]
 
-  [Sultan Abdülaziz / Bir Mazlum Padişah - Kadir Mısıroğlu]: http://www.fatihhayrioglu.com/wp-content/sultan_abdulaziz.kucukresim.gif
-  [![Sultan Abdülaziz / Bir Mazlum Padişah - Kadir Mısıroğlu][]]: http://www.fatihhayrioglu.com/wp-content/sultan_abdulaziz.gif
+  [Sultan Abdülaziz / Bir Mazlum Padişah - Kadir Mısıroğlu]: http://www.fatihhayrioglu.com/images/sultan_abdulaziz.kucukresim.gif
+  [![Sultan Abdülaziz / Bir Mazlum Padişah - Kadir Mısıroğlu][]]: http://www.fatihhayrioglu.com/images/sultan_abdulaziz.gif
     "Sultan Abdülaziz / Bir Mazlum Padişah - Kadir Mısıroğlu"
   [tıklayınız.]: http://www.kitapyurdu.com/kitap/default.asp?id=108447&session=45461502185100240210&LogID=

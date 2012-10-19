@@ -163,24 +163,24 @@ Sağlıcakla kalın.
 
   [Can Gürbü]: http://www.cangurbuz.com/
   [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/mailing_yapmak/mailing.rar
-  []: http://www.fatihhayrioglu.com/wp-content/mailing_ornegi.jpg
+  []: http://www.fatihhayrioglu.com/images/mailing_ornegi.jpg
     "mailing_ornegi"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/mailing_ornegi.jpg
-  [1]: http://www.fatihhayrioglu.com/wp-content/mail_yapmak_slice_araci.gif
+  [![][]]: http://www.fatihhayrioglu.com/images/mailing_ornegi.jpg
+  [1]: http://www.fatihhayrioglu.com/images/mail_yapmak_slice_araci.gif
     "mail_yapmak_slice_araci"
-  [![][1]]: http://www.fatihhayrioglu.com/wp-content/mail_yapmak_slice_araci.gif
-  [2]: http://www.fatihhayrioglu.com/wp-content/mail_yapmak_slicelanmis-300x269.jpg
+  [![][1]]: http://www.fatihhayrioglu.com/images/mail_yapmak_slice_araci.gif
+  [2]: http://www.fatihhayrioglu.com/images/mail_yapmak_slicelanmis-300x269.jpg
     "mail_yapmak_slicelanmis"
-  [![][2]]: http://www.fatihhayrioglu.com/wp-content/mail_yapmak_slicelanmis.jpg
-  [3]: http://www.fatihhayrioglu.com/wp-content/mail_yapmak_webicin_kaydet.gif
+  [![][2]]: http://www.fatihhayrioglu.com/images/mail_yapmak_slicelanmis.jpg
+  [3]: http://www.fatihhayrioglu.com/images/mail_yapmak_webicin_kaydet.gif
     "mail_yapmak_webicin_kaydet"
-  [![][3]]: http://www.fatihhayrioglu.com/wp-content/mail_yapmak_webicin_kaydet.gif
-  [4]: http://www.fatihhayrioglu.com/wp-content/mail_yapmak_webicin_ekrani-300x172.jpg
+  [![][3]]: http://www.fatihhayrioglu.com/images/mail_yapmak_webicin_kaydet.gif
+  [4]: http://www.fatihhayrioglu.com/images/mail_yapmak_webicin_ekrani-300x172.jpg
     "mail_yapmak_webicin_ekrani"
-  [![][4]]: http://www.fatihhayrioglu.com/wp-content/mail_yapmak_webicin_ekrani.jpg
-  [5]: http://www.fatihhayrioglu.com/wp-content/mail_yapmak_format_drdn.gif
+  [![][4]]: http://www.fatihhayrioglu.com/images/mail_yapmak_webicin_ekrani.jpg
+  [5]: http://www.fatihhayrioglu.com/images/mail_yapmak_format_drdn.gif
     "mail_yapmak_format_drdn"
-  [![][5]]: http://www.fatihhayrioglu.com/wp-content/mail_yapmak_format_drdn.gif
+  [![][5]]: http://www.fatihhayrioglu.com/images/mail_yapmak_format_drdn.gif
   [6]: http://www.fatihhayrioglu.com/dokumanlar/mailing_yapmak/mailing.html
   [http://www.campaignmonitor.com/templates/]: http://www.campaignmonitor.com/templates/
   [http://www.mediaministryblog.com/2009/08/how-to-create-a-free-email-newsletter/]: http://www.mediaministryblog.com/2009/08/how-to-create-a-free-email-newsletter/

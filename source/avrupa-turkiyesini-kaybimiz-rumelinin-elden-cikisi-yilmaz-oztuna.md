@@ -11,7 +11,7 @@ niyetin yeterli olmadığını gösteriyor bize bu dönem. Daha bir çok
 dersler almamıza yardımcı oluyor. Okumanızı şiddetle tavsiye ediyorum.
 Ayrıntılı bilgi için [tıklayınız.][]
 
-  [Avrupa Türkiyesi’ni Kaybımız Rumeli’nin Elden Çıkışı - Yılmaz   Öztuna]: http://www.fatihhayrioglu.com/wp-content/balkanlar.thumbnail.jpg
-  [![Avrupa Türkiyesi’ni Kaybımız Rumeli’nin Elden Çıkışı - Yılmaz   Öztuna][]]: http://www.fatihhayrioglu.com/wp-content/balkanlar.jpg
+  [Avrupa Türkiyesi’ni Kaybımız Rumeli’nin Elden Çıkışı - Yılmaz   Öztuna]: http://www.fatihhayrioglu.com/images/balkanlar.thumbnail.jpg
+  [![Avrupa Türkiyesi’ni Kaybımız Rumeli’nin Elden Çıkışı - Yılmaz   Öztuna][]]: http://www.fatihhayrioglu.com/images/balkanlar.jpg
     "Avrupa Türkiyesi’ni Kaybımız  Rumeli’nin Elden Çıkışı - Yılmaz Öztuna"
   [tıklayınız.]: http://www.tumkitaplar.com/cgi-bin/index.pl?mod=shop;op=view_id;id=88727

@@ -133,9 +133,9 @@ Kalın sağlıcakla.
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/wp-content/gb_ortalama1.gif
+  []: http://www.fatihhayrioglu.com/images/gb_ortalama1.gif
     "gb_ortalama"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/gb_ortalama1.gif
+  [![][]]: http://www.fatihhayrioglu.com/images/gb_ortalama1.gif
   [http://css-discuss.incutio.com/wiki/Centering_Block_Element]: http://css-discuss.incutio.com/wiki/Centering_Block_Element
   [http://www.solstice.co.il/blog/2008-02-26/horizontally-centering-content-dynamic-width-css]: http://www.solstice.co.il/blog/2008-02-26/horizontally-centering-content-dynamic-width-css
   [http://matthewjamestaylor.com/blog/beautiful-css-centered-menus-no-hacks-full-cross-browser-support]: http://matthewjamestaylor.com/blog/beautiful-css-centered-menus-no-hacks-full-cross-browser-support

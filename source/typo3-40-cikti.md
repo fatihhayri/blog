@@ -8,5 +8,5 @@ Yönetim Sistemi)'idir. Typo3 ile web sayfaları oluştura bilrisiniz.
 Ayrıca her türlü web sayfası yönetimi işlerini kolayca yapabilirsiniz.
 Ayrıntılı bilgi [http://typo3.org/][![logo-typo3.gif][]]
 
-  [logo-typo3.gif]: http://www.fatihhayrioglu.com/wp-content/logo-typo3.gif
+  [logo-typo3.gif]: http://www.fatihhayrioglu.com/images/logo-typo3.gif
   [![logo-typo3.gif][]]: http://typo3.org/ "TYP03"

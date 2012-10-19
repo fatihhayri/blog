@@ -80,9 +80,9 @@ Yazının sonunda [Şenol][1]'a tekrar teşekkürlerimi sunarım.
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/wp-content/code_hig-300x194.gif
+  []: http://www.fatihhayrioglu.com/images/code_hig-300x194.gif
     "code_hig"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/code_hig.gif
+  [![][]]: http://www.fatihhayrioglu.com/images/code_hig.gif
   [friendfeed]: http://friendfeed.com/fatihhayri "friendfeed"
   [paylaştım]: http://ff.im/efoQ4 "paylaştım"
   [Şenol]: http://friendfeed.com/senol1 "Şenol"

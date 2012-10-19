@@ -24,5 +24,5 @@ nasip olmayan bir destan yazdılar. 'Yazılamamış Destanlar'? işte bu
 çelik yüreklilerin hikÃ¢yesidir. Yayınevi Linki:
 [http://www.otuken.com.tr/kitapdetay.asp?kitapID=160][]
 
-  []: http://www.fatihhayrioglu.com/wp-content/yazilmamis_destanlar.kucukresim.jpg
+  []: http://www.fatihhayrioglu.com/images/yazilmamis_destanlar.kucukresim.jpg
   [http://www.otuken.com.tr/kitapdetay.asp?kitapID=160]: http://www.otuken.com.tr/kitapdetay.asp?kitapID=160

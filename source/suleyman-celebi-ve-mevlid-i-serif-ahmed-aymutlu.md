@@ -12,7 +12,7 @@ bir hatip'in tüm peygamberleri bir tutan vaazına karşı yazılmış.
 Üzerinden bunca yıl geçmesine rağmen hala etkisini koruması başlı başına
 bir olay. Ayrıntılı bilgi için [tıklayınız.][]
 
-  [Süleyman Çelebi ve Mevlid-i Şerif - Ahmed Aymutlu]: http://www.fatihhayrioglu.com/wp-content/mevlid.kucukresim.jpg
-  [![Süleyman Çelebi ve Mevlid-i Şerif - Ahmed Aymutlu][]]: http://www.fatihhayrioglu.com/wp-content/mevlid.jpg
+  [Süleyman Çelebi ve Mevlid-i Şerif - Ahmed Aymutlu]: http://www.fatihhayrioglu.com/images/mevlid.kucukresim.jpg
+  [![Süleyman Çelebi ve Mevlid-i Şerif - Ahmed Aymutlu][]]: http://www.fatihhayrioglu.com/images/mevlid.jpg
     "Süleyman Çelebi ve Mevlid-i Şerif - Ahmed Aymutlu"
   [tıklayınız.]: http://www.nadirkitap.com/kitap-detay.php?kid=8424

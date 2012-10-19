@@ -21,7 +21,7 @@ kendinize ya da bir tanıdığımıza ait bir duygunun izini, macerasını
 bulacaksınız. Bu kitabı okurken, kendi hayatımızın hikayesini
 dinleyeceksiniz. Ayrıntılı bilgi için [tıklayınız][]
 
-  [İçimizde Bir Yer - Ahmet Altan]: http://www.fatihhayrioglu.com/wp-content/icimizdeki_bir_yer1.kucukresim.jpg
-  [![İçimizde Bir Yer - Ahmet Altan][]]: http://www.fatihhayrioglu.com/wp-content/icimizdeki_bir_yer1.jpg
+  [İçimizde Bir Yer - Ahmet Altan]: http://www.fatihhayrioglu.com/images/icimizdeki_bir_yer1.kucukresim.jpg
+  [![İçimizde Bir Yer - Ahmet Altan][]]: http://www.fatihhayrioglu.com/images/icimizdeki_bir_yer1.jpg
     "İçimizde Bir Yer - Ahmet Altan"
   [tıklayınız]: http://64.233.169.104/search?q=cache:wUkbPq4xfpEJ:www.kitapyurdu.com/kitap/default.asp%3FAID%3D237%26id%3D80330+Ahmet+Altan+%C4%B0%C3%A7imizde+bir+yer&hl=en&ct=clnk&cd=4&client=firefox-a

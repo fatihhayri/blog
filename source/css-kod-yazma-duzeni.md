@@ -338,7 +338,7 @@ padding:12px; margin-bottom:20px;}
 
 </p>
 
-  [css_duzenleme2]: http://www.fatihhayrioglu.com/wp-content/css_duzenleme2.gif
+  [css_duzenleme2]: http://www.fatihhayrioglu.com/images/css_duzenleme2.gif
     "css_duzenleme2"
   [http://www.fatihhayrioglu.com/cssde-kisaltmalar/]: http://www.fatihhayrioglu.com/cssde-kisaltmalar/
     "http://www.fatihhayrioglu.com/cssde-kisaltmalar/"
@@ -346,15 +346,15 @@ padding:12px; margin-bottom:20px;}
   [Eric Meyer]: http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
     "Eric Meyer"
   [yazdığım]: http://www.fatihhayrioglu.com/css-editorleri/ "yazdığım"
-  [dw_duz_01]: http://www.fatihhayrioglu.com/wp-content/dw_duz_01.gif
+  [dw_duz_01]: http://www.fatihhayrioglu.com/images/dw_duz_01.gif
     "dw_duz_01"
-  [dw_duz_02]: http://www.fatihhayrioglu.com/wp-content/dw_duz_02.gif
+  [dw_duz_02]: http://www.fatihhayrioglu.com/images/dw_duz_02.gif
     "dw_duz_02"
-  [dw_duz_03]: http://www.fatihhayrioglu.com/wp-content/dw_duz_03.gif
+  [dw_duz_03]: http://www.fatihhayrioglu.com/images/dw_duz_03.gif
     "dw_duz_03"
-  [dw_stil_ayarlama]: http://www.fatihhayrioglu.com/wp-content/dw_stil_ayarlama.gif
+  [dw_stil_ayarlama]: http://www.fatihhayrioglu.com/images/dw_stil_ayarlama.gif
     "dw_stil_ayarlama"
-  [hiza_cizgileri]: http://www.fatihhayrioglu.com/wp-content/hiza_cizgileri.gif
+  [hiza_cizgileri]: http://www.fatihhayrioglu.com/images/hiza_cizgileri.gif
     "hiza_cizgileri"
   [http://www.webdesignerdepot.com/2009/05/10-best-css-practices-to-improve-your-code/]: http://www.webdesignerdepot.com/2009/05/10-best-css-practices-to-improve-your-code/
     "http://www.webdesignerdepot.com/2009/05/10-best-css-practices-to-improve-your-code/"

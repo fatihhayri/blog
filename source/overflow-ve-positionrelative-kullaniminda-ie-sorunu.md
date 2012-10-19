@@ -56,9 +56,9 @@ background-color:lightblue; width:150px; }
 </p>
 
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/position_relative_overflow.html
-  []: http://www.fatihhayrioglu.com/wp-content/position_relative_overflow_ie.jpg
+  []: http://www.fatihhayrioglu.com/images/position_relative_overflow_ie.jpg
     "position_relative_overflow_ie"
-  [![][]]: http://www.fatihhayrioglu.com/wp-content/position_relative_overflow_ie.jpg
+  [![][]]: http://www.fatihhayrioglu.com/images/position_relative_overflow_ie.jpg
   [http://snook.ca/archives/html_and_css/position_relative_overflow_ie/]: http://snook.ca/archives/html_and_css/position_relative_overflow_ie/
   [http://www.rowanw.com/bugs/overflow_relative.htm]: http://www.rowanw.com/bugs/overflow_relative.htm
   [http://dustyreagan.com/workaround-to-ies-overflow-auto-and/]: http://dustyreagan.com/workaround-to-ies-overflow-auto-and/

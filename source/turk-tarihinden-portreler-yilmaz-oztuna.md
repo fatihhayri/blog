@@ -24,7 +24,7 @@ unutulmasın, tarihin küçükleri de, tarihin büyükleri derecesinde
 milletlerin hayatını ve geleceğini şiddetle etkilemişlerdir. Ayrıntılı
 bilgi için [tıklayınız.][]
 
-  [ Türk Tarihinden Portreler]: http://www.fatihhayrioglu.com/wp-content/turk_portreleri.jpg
+  [ Türk Tarihinden Portreler]: http://www.fatihhayrioglu.com/images/turk_portreleri.jpg
     " Türk Tarihinden Portreler"
-  [![ Türk Tarihinden Portreler][]]: http://www.fatihhayrioglu.com/wp-content/turk_portreleri.jpg
+  [![ Türk Tarihinden Portreler][]]: http://www.fatihhayrioglu.com/images/turk_portreleri.jpg
   [tıklayınız.]: http://www.kitapyurdu.com/kitap/18961/turktarihindenportreler
