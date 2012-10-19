@@ -195,6 +195,6 @@ Opera 5.0 ' 6.0: destekliyor
 </div>
 </p>
 
-  []: http://www.fatihhayrioglu.com/images/hiyerarsi.gif
-  [1]: http://www.fatihhayrioglu.com/images/hiyerarsi02.gif
-  [2]: http://www.fatihhayrioglu.com/images/hiyerarsi03.gif
+  []: /images/hiyerarsi.gif
+  [1]: /images/hiyerarsi02.gif
+  [2]: /images/hiyerarsi03.gif

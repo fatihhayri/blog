@@ -163,15 +163,15 @@ ile sayfamıza ekledik.
   [font-face kullanımını]: http://www.fatihhayrioglu.com/font-face-kullanimi/
   [http://webloti.org/20-modern-fontface-icon-seti/]: http://webloti.org/20-modern-fontface-icon-seti/
   []: https://lh5.googleusercontent.com/79Rggs4m_IPXO4v7JCZQt1fSFLljkf9RuTtZDSPzqeg4D3pjzrKFmyboc6ZmVwnSUw7yDZUvklmSSCqFSo8YL3qslteMuQ8r4I-SxhoO6pJVZ1EhZog
-  [1]: http://www.fatihhayrioglu.com/images/Screen-shot-2012-03-08-at-10.44.09-AM.png "Screen shot 2012-03-08 at 10.44.09 AM"
-  [![][1]]: http://www.fatihhayrioglu.com/images/Screen-shot-2012-03-08-at-10.44.09-AM.png
+  [1]: /images/Screen-shot-2012-03-08-at-10.44.09-AM.png "Screen shot 2012-03-08 at 10.44.09 AM"
+  [![][1]]: /images/Screen-shot-2012-03-08-at-10.44.09-AM.png
   [http://www.fatihhayrioglu.com/dokumanlar/fontface_ikon.html]: http://www.fatihhayrioglu.com/dokumanlar/fontface_ikon.html
   [http://www.fatihhayrioglu.com/fontface/fontface_ikon_buton.html]: http://www.fatihhayrioglu.com/fontface/fontface_ikon_buton.html
-  [2]: http://www.fatihhayrioglu.com/images/Screen-shot-2012-03-08-at-10.45.36-AM.png "Screen shot 2012-03-08 at 10.45.36 AM"
-  [![][2]]: http://www.fatihhayrioglu.com/images/Screen-shot-2012-03-08-at-10.45.36-AM.png
+  [2]: /images/Screen-shot-2012-03-08-at-10.45.36-AM.png "Screen shot 2012-03-08 at 10.45.36 AM"
+  [![][2]]: /images/Screen-shot-2012-03-08-at-10.45.36-AM.png
   [http://www.fatihhayrioglu.com/fontface/abakutlsymsans.zip]: http://www.fatihhayrioglu.com/fontface/abakutlsymsans.zip
-  [3]: http://www.fatihhayrioglu.com/images/Screen-shot-2012-03-08-at-10.47.01-AM.png "Screen shot 2012-03-08 at 10.47.01 AM"
-  [![][3]]: http://www.fatihhayrioglu.com/images/Screen-shot-2012-03-08-at-10.47.01-AM.png
+  [3]: /images/Screen-shot-2012-03-08-at-10.47.01-AM.png "Screen shot 2012-03-08 at 10.47.01 AM"
+  [![][3]]: /images/Screen-shot-2012-03-08-at-10.47.01-AM.png
   [http://www.fatihhayrioglu.com/fontface/tl_deneme.html]: http://www.fatihhayrioglu.com/fontface/tl_deneme.html
   [http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-ever-thought-about-using-font-face-for-icons/]: http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-ever-thought-about-using-font-face-for-icons/
   [http://developer.appdirect.com/blog/make_beautiful_icons_with_image_sprites_css3_font_face_or_svg]: http://developer.appdirect.com/blog/make_beautiful_icons_with_image_sprites_css3_font_face_or_svg

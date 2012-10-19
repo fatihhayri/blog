@@ -30,6 +30,6 @@ oldular. Yumuşak huylu, ağırbaşlı, neşeli, kınalı, gönül okşayıcı z
 genç kadınlar; çocukluğumda beni seven ilk kadıniar. En m saftaydılar,
 evet..." Ayrıntılı bilgi için [tıklayınız.][]
 
-  [Bir Fransız yalanı]: http://www.fatihhayrioglu.com/images/bir_fransiz_yalani-90x150.jpg
+  [Bir Fransız yalanı]: /images/bir_fransiz_yalani-90x150.jpg
     "Bir Fransız yalanı"
   [tıklayınız.]: http://www.tumkitaplar.com/kitap/index.pl?kitap=83219

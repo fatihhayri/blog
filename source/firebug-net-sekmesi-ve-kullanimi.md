@@ -213,19 +213,19 @@ açıkça gösterir ve düzeltmemiz için önerilerde bulunur.
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/images/fh_firebug_net_sekme-298x300.gif
+  []: /images/fh_firebug_net_sekme-298x300.gif
     "fh_firebug_net_sekme"
-  [![][]]: http://www.fatihhayrioglu.com/images/fh_firebug_net_sekme.gif
+  [![][]]: /images/fh_firebug_net_sekme.gif
   [http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html]: http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html
     "http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html"
   [1]: http://docs.google.com/File?id=dhctmbn6_408d43xkbc6_b
-  [2]: http://www.fatihhayrioglu.com/images/firebug_net3-300x8.gif
+  [2]: /images/firebug_net3-300x8.gif
     "firebug_net3"
-  [![][2]]: http://www.fatihhayrioglu.com/images/firebug_net3.gif
+  [![][2]]: /images/firebug_net3.gif
   [3]: http://docs.google.com/File?id=dhctmbn6_411zb4pdnd3_b
-  [4]: http://www.fatihhayrioglu.com/images/firebug_net6-300x179.gif
+  [4]: /images/firebug_net6-300x179.gif
     "firebug_net6"
-  [![][4]]: http://www.fatihhayrioglu.com/images/firebug_net6.gif
+  [![][4]]: /images/firebug_net6.gif
   [5]: http://docs.google.com/File?id=dhctmbn6_306f5kscnhq_b
   [6]: http://docs.google.com/File?id=dhctmbn6_307fgjfzcgq_b
   [7]: http://docs.google.com/File?id=dhctmbn6_308g4rd7xgm_b
@@ -233,9 +233,9 @@ açıkça gösterir ve düzeltmemiz için önerilerde bulunur.
   [9]: http://docs.google.com/File?id=dhctmbn6_412hr8333vz_b
   [http://www.janodvarko.cz/firebug/tests/BreakOnXHR/breakOnXHR.html]: http://www.janodvarko.cz/firebug/tests/BreakOnXHR/breakOnXHR.html
     "http://www.janodvarko.cz/firebug/tests/BreakOnXHR/breakOnXHR.html"
-  [10]: http://www.fatihhayrioglu.com/images/firebug_net8-255x300.gif
+  [10]: /images/firebug_net8-255x300.gif
     "firebug_net8"
-  [![][10]]: http://www.fatihhayrioglu.com/images/firebug_net8.gif
+  [![][10]]: /images/firebug_net8.gif
   [YSlow]: https://addons.mozilla.org/en-US/firefox/addon/5369/ "YSlow"
   [Page Speed]: http://code.google.com/speed/page-speed/ "Page Speed"
   [http://getfirebug.com/net.html]: http://getfirebug.com/net.html

@@ -23,9 +23,9 @@ Ayrıca kalıtsal tanımları göster-gizle yapmak için sağ üstteki “Show
 inherited” işaret kutucuğuda güzel bir özellik olmuş. Rekabet her zaman
 güzeldir umarım yakında Firebug’a da eklenir.
 
-  []: http://www.fatihhayrioglu.com/images/firebug_hes_stil.gif
+  []: /images/firebug_hes_stil.gif
     "firebug_hes_stil"
-  [![][]]: http://www.fatihhayrioglu.com/images/firebug_hes_stil.gif
-  [1]: http://www.fatihhayrioglu.com/images/chrome_hep_stil.gif
+  [![][]]: /images/firebug_hes_stil.gif
+  [1]: /images/chrome_hep_stil.gif
     "chrome_hep_stil"
-  [![][1]]: http://www.fatihhayrioglu.com/images/chrome_hep_stil.gif
+  [![][1]]: /images/chrome_hep_stil.gif

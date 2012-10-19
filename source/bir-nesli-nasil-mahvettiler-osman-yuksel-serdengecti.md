@@ -18,4 +18,4 @@ haykıran korkusuz bir adamın meydan okuyuşlarını görmek için
 okuyacaksınız. Bu eser, içindeki birbirinden güzel birçok yazı bir yana,
 sırf "Ayasofya Davası" için bile kitaplıkta bulundurulmaya değer.
 
-  [Bir nesli nasıl mahvettiler - Osman yüksel Serdengeçti]: http://www.fatihhayrioglu.com/images/birnesli_nasil_mahvettiler.thumbnail.gif
+  [Bir nesli nasıl mahvettiler - Osman yüksel Serdengeçti]: /images/birnesli_nasil_mahvettiler.thumbnail.gif

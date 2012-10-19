@@ -75,15 +75,15 @@ edeceğim bir tarayıcı niteliğinde olacak
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/images/opera95_1-300x225.jpg
+  []: /images/opera95_1-300x225.jpg
     "opera95_1"
-  [![][]]: http://www.fatihhayrioglu.com/images/opera95_1.jpg
-  [1]: http://www.fatihhayrioglu.com/images/opera95_13-300x223.jpg
+  [![][]]: /images/opera95_1.jpg
+  [1]: /images/opera95_13-300x223.jpg
     "opera95_13"
-  [![][1]]: http://www.fatihhayrioglu.com/images/opera95_13.jpg
-  [2]: http://www.fatihhayrioglu.com/images/opera95_3-300x225.jpg
+  [![][1]]: /images/opera95_13.jpg
+  [2]: /images/opera95_3-300x225.jpg
     "opera95_3"
-  [![][2]]: http://www.fatihhayrioglu.com/images/opera95_3.jpg
+  [![][2]]: /images/opera95_3.jpg
   [http://www.opera.com]: http://www.opera.com
   [http://www.css3.info/opera-95-launches-with-lots-of-css-improvements/]: http://www.css3.info/opera-95-launches-with-lots-of-css-improvements/
   [http://css.dzone.com/announcements/opera-95-now-available-downloa-0]: http://css.dzone.com/announcements/opera-95-now-available-downloa-0

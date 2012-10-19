@@ -14,8 +14,8 @@ icraatın içinde de bulunmuş bir kişinin gözüyle olay bakma imkanı
 buluyoruz. Hataları ve sevapları ile olayı görme imkanı sunan kitabı
 okumanızı tavsiye ederim. Ayrıntılı bilgi için [tıklayınız][]
 
-  [Kuzey Irak - Hasan Celal Güzel]: http://www.fatihhayrioglu.com/images/kuzey_irak.kucukresim.jpg
-  [![Kuzey Irak - Hasan Celal Güzel][]]: http://www.fatihhayrioglu.com/images/kuzey_irak.jpg
+  [Kuzey Irak - Hasan Celal Güzel]: /images/kuzey_irak.kucukresim.jpg
+  [![Kuzey Irak - Hasan Celal Güzel][]]: /images/kuzey_irak.jpg
     "Kuzey Irak - Hasan Celal Güzel"
   [tıklayınız]: http://www.timas.com.tr/index.php?key=tkg&id=1624
     "Yayın evi linki"

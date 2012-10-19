@@ -13,5 +13,5 @@ bulundurmanız gereken bir kitap mutlaka bulundurun derim. Kitap son
 versiyon CSS2.1 üzerine yazılmış olması da önemli bir avantaj. Ayrıntılı
 bilgi için [tıklayınız][]
 
-  [Cascading Style Sheets: The Definitive Guide, 2nd Edition - Eric   Meyer]: http://www.fatihhayrioglu.com/images/css_defineguside.thumbnail.gif
+  [Cascading Style Sheets: The Definitive Guide, 2nd Edition - Eric   Meyer]: /images/css_defineguside.thumbnail.gif
   [tıklayınız]: http://www.oreilly.com/catalog/css2/

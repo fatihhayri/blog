@@ -10,4 +10,4 @@ medeniyetler çatışmasında felsefi bir tespit, aynı zamanda bir
 ansiklopedik kaynaktır.</span> Fransızca yazılmış, sonradan Türkçe'ye
 çevrilmiştir.
 
-  [batinin_politik_ahlaksizligi.jpg]: http://www.fatihhayrioglu.com/images/batinin_politik_ahlaksizligi.thumbnail.jpg
+  [batinin_politik_ahlaksizligi.jpg]: /images/batinin_politik_ahlaksizligi.thumbnail.jpg

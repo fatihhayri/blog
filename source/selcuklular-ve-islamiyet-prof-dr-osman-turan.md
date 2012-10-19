@@ -18,7 +18,7 @@ olması sebebiyle tam bir bütünlük kzanmamış olması bir eksiklik ama
 Selçuklular ve öncesi hakkında güzel bilgiler sunuyor. Ayrıntılı bilgi
 için [tıklayınız.][]
 
-  [Selçuklular ve İslamiyet]: http://www.fatihhayrioglu.com/images/islamiyet_selcuklu-209x300.jpg
+  [Selçuklular ve İslamiyet]: /images/islamiyet_selcuklu-209x300.jpg
     "Selçuklular ve İslamiyet"
-  [![Selçuklular ve İslamiyet][]]: http://www.fatihhayrioglu.com/images/islamiyet_selcuklu.jpg
+  [![Selçuklular ve İslamiyet][]]: /images/islamiyet_selcuklu.jpg
   [tıklayınız.]: http://www.kitapambari.com/ambar/product.php?productid=42541

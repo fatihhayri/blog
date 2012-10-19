@@ -9,6 +9,6 @@ sözler ve şiirleri var. Bir yere değinmek isterim ki şiirleri Türkçe'ye
 çevirilince etki değeri biraz düşsede gerçekten çok hoş bir kitap.
 [http://www.timas.com.tr/kitap.php?id=294][]
 
-  [Gülistan şiraz]: http://www.fatihhayrioglu.com/images/themes/OneColumn/img/sark_gulistan.jpg
+  [Gülistan şiraz]: /images/themes/OneColumn/img/sark_gulistan.jpg
     "Gülistan şiraz"
   [http://www.timas.com.tr/kitap.php?id=294]: http://www.timas.com.tr/kitap.php?id=294

@@ -380,8 +380,8 @@ yazdım linklerini.
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/images/rei.jpg "rei"
-  [![][]]: http://www.fatihhayrioglu.com/images/rei.jpg
+  []: /images/rei.jpg "rei"
+  [![][]]: /images/rei.jpg
   [tıklayınız.]: /dokumanlar/cok_kolonlu/metot1.html
   [1]: /dokumanlar/cok_kolonlu/metot1_.html
   [2]: /dokumanlar/cok_kolonlu/metot2.html

@@ -12,4 +12,4 @@ kitaba sığmayacak kadar fazladır. Ana hatları ile değinilmiş. Hala
 Abdülhamid'i kötüleyen ve karalamaya çalışan bir zihniyetin olduğu
 günümüzde okunması gereken bir kitap.
 
-  [Abdülhamid'in Kurtlarla Dansı]: http://www.fatihhayrioglu.com/images/abdulhamid_kurtlarladans.thumbnail.jpg
+  [Abdülhamid'in Kurtlarla Dansı]: /images/abdulhamid_kurtlarladans.thumbnail.jpg

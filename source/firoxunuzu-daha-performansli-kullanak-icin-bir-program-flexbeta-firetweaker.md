@@ -6,5 +6,5 @@ Category: Haberler
 optimize ediyor. Programla Fİrefox'unuzu daha performanlı kullanmanız
 mümkün. Ayrıntılı bilgi ve programı indirmek için [tıklayınız.][]
 
-  [scr1.jpg]: http://www.fatihhayrioglu.com/images/scr1.thumbnail.jpg
+  [scr1.jpg]: /images/scr1.thumbnail.jpg
   [tıklayınız.]: http://www.emilsoft.net/products/firetweaker.php

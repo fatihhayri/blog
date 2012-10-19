@@ -202,12 +202,12 @@ Kalın sağlıcakla.
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/coklu_ardalan_tanimi/css_ile_buton.html
   [Alıntı: blockquote ve q etiketleri]: http://www.fatihhayrioglu.com/alinti-blockquote-ve-q-etiketleri/
   []: https://lh5.googleusercontent.com/SJPUNhGo1EIpgZCusQV8ahSeUnnYrIbtpMefhym0mfKhJhjgLsGQ9QB1mkm8-jwnpF9YNoPoS8feY1b5zu2dlGxADYrohj8UtXwqP7oNGK6MCYRyVIU
-  [1]: http://www.fatihhayrioglu.com/images/alinti_ard-300x12.gif
+  [1]: /images/alinti_ard-300x12.gif
     "alinti_ard"
-  [![][1]]: http://www.fatihhayrioglu.com/images/alinti_ard.gif
-  [2]: http://www.fatihhayrioglu.com/images/alinti_sema-300x45.gif
+  [![][1]]: /images/alinti_ard.gif
+  [2]: /images/alinti_sema-300x45.gif
     "alinti_sema"
-  [![][2]]: http://www.fatihhayrioglu.com/images/alinti_sema.gif
+  [![][2]]: /images/alinti_sema.gif
   [3]: http://fatihhayrioglu.com/dokumanlar/coklu_ardalan_tanimi/alinti_coklu_ardalan.html
   [www.storiesinflight.com]: http://www.storiesinflight.com/
   [4]: http://fatihhayrioglu.com/dokumanlar/coklu_ardalan_tanimi/coklu_ard_paralaks.html

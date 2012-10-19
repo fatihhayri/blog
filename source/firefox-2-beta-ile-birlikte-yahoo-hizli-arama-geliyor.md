@@ -6,4 +6,4 @@ Category: Haberler
 Search) arama bölümüne ekleniyor. Google ile sıkı ilişkileri olan
 Firefox bundan sonra nasıl bir çizgi izler bilinmez.
 
-  [nih-1.JPG]: http://www.fatihhayrioglu.com/images/nih-1.thumbnail.JPG
+  [nih-1.JPG]: /images/nih-1.thumbnail.JPG

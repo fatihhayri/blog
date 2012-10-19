@@ -9,4 +9,4 @@ Abdülhamid'in dönemlerinde aktif rol oynamış bir paşanın(Süleyman Hüsnü
 Paşa) yazıları baz alınarak dönemi birde paşa tarafından görmemizi
 sağlayan bir eser.
 
-  [Osmanlının Balkanlardan Çekilişi - Süleyman Hüsnü Paşa]: http://www.fatihhayrioglu.com/images/osmanli_balkanlar_cek.kucukresim.gif
+  [Osmanlının Balkanlardan Çekilişi - Süleyman Hüsnü Paşa]: /images/osmanli_balkanlar_cek.kucukresim.gif

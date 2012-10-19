@@ -16,4 +16,4 @@ canım şaheseri tahrib etmektir. Tıptı bunun gibi , Türkçemizin bazı
 kelimeleri şuradan, buradan alınmıştır diye bunları dilden çıkarmak, bu
 milet dilini yıkmaktır.
 
-  [turkce_meseli]: http://www.fatihhayrioglu.com/images/turkce_meseli.kucukresim.jpg
+  [turkce_meseli]: /images/turkce_meseli.kucukresim.jpg

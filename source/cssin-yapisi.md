@@ -146,5 +146,5 @@ dışında kalabilir.
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/images/css_genel_yapi.gif
+  []: /images/css_genel_yapi.gif
   [W3]: http://www.w3.org/TR/REC-CSS2/selector.html#universal-selector

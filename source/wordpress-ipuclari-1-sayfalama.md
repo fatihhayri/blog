@@ -26,5 +26,5 @@ Türkçeleştirdim.
 
 </p>
 
-  [Sayfalama]: http://www.fatihhayrioglu.com/images/sayfalama.gif
+  [Sayfalama]: /images/sayfalama.gif
   [http://www.lesterchan.net/portfolio/programming.php]: http://www.lesterchan.net/portfolio/programming.php

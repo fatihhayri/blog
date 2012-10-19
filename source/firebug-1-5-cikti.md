@@ -78,18 +78,18 @@ numaralı yerini kimseye kaptırmıyor.
 -   [http://hacks.mozilla.org/2010/01/firebug-1-5-released/][]
 -   [http://www.markwarner2008.com/firebug-1-5-updates-with-new-features-still-a-web-developers-dream-downloads/][]
 
-  []: http://www.fatihhayrioglu.com/images/teftis_et.gif "teftis_et"
-  [![][]]: http://www.fatihhayrioglu.com/images/teftis_et.gif
-  [1]: http://www.fatihhayrioglu.com/images/computed.gif "computed"
-  [![][1]]: http://www.fatihhayrioglu.com/images/computed.gif
-  [2]: http://www.fatihhayrioglu.com/images/css_paneli.gif
+  []: /images/teftis_et.gif "teftis_et"
+  [![][]]: /images/teftis_et.gif
+  [1]: /images/computed.gif "computed"
+  [![][1]]: /images/computed.gif
+  [2]: /images/css_paneli.gif
     "css_paneli"
-  [![][2]]: http://www.fatihhayrioglu.com/images/css_paneli.gif
+  [![][2]]: /images/css_paneli.gif
   [tıklayınız]: http://www.softwareishard.com/blog/firebug/firebug-http-time-monitor/
     "tıklayınız"
-  [3]: http://www.fatihhayrioglu.com/images/net_panel.gif
+  [3]: /images/net_panel.gif
     "net_panel"
-  [![][3]]: http://www.fatihhayrioglu.com/images/net_panel.gif
+  [![][3]]: /images/net_panel.gif
   [http://getfirebug.com/wiki/index.php/Firebug_Release_Notes]: http://getfirebug.com/wiki/index.php/Firebug_Release_Notes
     "http://getfirebug.com/wiki/index.php/Firebug_Release_Notes"
   [http://www.softwareishard.com/blog/]: http://www.softwareishard.com/blog/

@@ -411,16 +411,16 @@ Bu özellik Internet Explorer tarafından desteklenmemektedir.
 [border-collapse]: #border-collapse
 [border-spacing]: #boder-spacing
 [empty-cells]: #empty-cells
-[caption-side örneği]: http://www.fatihhayrioglu.com/images/table_layout.gif
+[caption-side örneği]: /images/table_layout.gif
 [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/table-layout.html
-[1]: http://www.fatihhayrioglu.com/images/caption_side.gif
+[1]: /images/caption_side.gif
 [2]: http://www.fatihhayrioglu.com/dokumanlar/caption_side.html
 [3]: http://www.fatihhayrioglu.com/dokumanlar/border-collapse.html
-[border-collapse örneği]: http://www.fatihhayrioglu.com/images/border-collapse.gif
+[border-collapse örneği]: /images/border-collapse.gif
 [4]: http://www.fatihhayrioglu.com/dokumanlar/border-spacing.html
-[border-spacing örneği]: http://www.fatihhayrioglu.com/images/border_spacing.gif
+[border-spacing örneği]: /images/border_spacing.gif
 [5]: http://www.fatihhayrioglu.com/dokumanlar/empty_cells.html
-[empty-cells örneği]: http://www.fatihhayrioglu.com/images/empty_cells.gif
+[empty-cells örneği]: /images/empty_cells.gif
 [http://www.w3.org/TR/REC-CSS2/tables.html]: http://www.w3.org/TR/REC-CSS2/tables.html
 [http://www.w3schools.com/css/css_table.asp]: http://www.w3schools.com/css/css_table.asp
 [http://www.blooberry.com/indexdot/css/propindex/table.htm]: http://www.blooberry.com/indexdot/css/propindex/table.htm

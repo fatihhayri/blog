@@ -210,7 +210,7 @@ sitesini ziyaret etmenizi öneririm.
 
 </p>
 
-  [sayfalama_]: http://www.fatihhayrioglu.com/images/sayfalama_-150x96.gif
+  [sayfalama_]: /images/sayfalama_-150x96.gif
     "sayfalama_"
   [Faruk Ateş]: http://kurafire.net/log/archive/2007/06/22/pagination-101
     "Faruk Ateş"

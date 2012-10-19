@@ -10,4 +10,4 @@ bu konu. Osmanlının yükseliş devrinde de bir çok giriş olmuşsa da bunu
 becerememişlerdir. DÃ?nyaya demokrasi ve insan hakları dersi vermeye
 çalışan ingilizlerin iç yüzü bu kitap da görünüyor.
 
-  [İngiliz Casusunun İtirafları]: http://www.fatihhayrioglu.com/images/ing_casus.thumbnail.gif
+  [İngiliz Casusunun İtirafları]: /images/ing_casus.thumbnail.gif

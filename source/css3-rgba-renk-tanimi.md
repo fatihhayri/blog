@@ -177,9 +177,9 @@ tarayıcılar için standart kod kullanılır.
 </p>
 
   [CSS Birimleri]: http://www.fatihhayrioglu.com/css-birimleri/
-  []: http://www.fatihhayrioglu.com/images/renk_paleti-300x197.jpg
+  []: /images/renk_paleti-300x197.jpg
     "renk_paleti"
-  [![][]]: http://www.fatihhayrioglu.com/images/renk_paleti.jpg
+  [![][]]: /images/renk_paleti.jpg
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/rgba_renk_tanimi.html
   [1]: https://lh6.googleusercontent.com/d9gcgCNkBoIwGgX75ZjloztSepGOGXHSAwmeaDTOlQqYRn4rTS50kS59JKxAC6qmSgfxdSTLeWyJzABoNAaIAj_bwoDTFOf3wULF3Xq6_7zNKyY5Xg
   [2]: http://fatihhayrioglu.com/dokumanlar/rgba_renk_tanimi2.html

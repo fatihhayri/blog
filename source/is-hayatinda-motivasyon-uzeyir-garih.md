@@ -55,4 +55,4 @@ olması bakımından bir kaç not vermek istiyorum so kısımdan
 
 </p>
 
-  [motivsyon.jpg]: http://www.fatihhayrioglu.com/images/motivsyon.thumbnail.jpg
+  [motivsyon.jpg]: /images/motivsyon.thumbnail.jpg

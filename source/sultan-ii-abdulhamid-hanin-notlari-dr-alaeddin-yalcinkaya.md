@@ -15,7 +15,7 @@ notların Sultan II. Abdülhamid Han'a ait olup olmadığını araştırıp sonr
 sunumunu yaparak bizleri daha çok bilgilendirmesi bakımındanda önemli
 bir kaynak. Ayrıntılı bilgi için [tıklayınız.][]
 
-  [Sultan II. Abdülhamid Han’ın Notları]: http://www.fatihhayrioglu.com/images/abdulhamidhanin_notlari.kucukresim.jpg
-  [![Sultan II. Abdülhamid Han’ın Notları][]]: http://www.fatihhayrioglu.com/images/abdulhamidhanin_notlari.jpg
+  [Sultan II. Abdülhamid Han’ın Notları]: /images/abdulhamidhanin_notlari.kucukresim.jpg
+  [![Sultan II. Abdülhamid Han’ın Notları][]]: /images/abdulhamidhanin_notlari.jpg
     "Sultan II. Abdülhamid Han’ın Notları"
   [tıklayınız.]: http://www.sebilyayinevi.com/katalog.php?islem=kategori&kategori=4#51

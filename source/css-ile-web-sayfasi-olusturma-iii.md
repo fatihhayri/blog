@@ -98,8 +98,8 @@ Bu şekilde çok güzel bir 3 kolonlu likit bir sayfa elde ederiz.
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/images/sorunlu_kolonlar.gif
-  [1]: http://www.fatihhayrioglu.com/images/likit_sorunlu_kolonlar.gif
-  [2]: http://www.fatihhayrioglu.com/images/likit_sorunlu_kolonlar2.gif
+  []: /images/sorunlu_kolonlar.gif
+  [1]: /images/likit_sorunlu_kolonlar.gif
+  [2]: /images/likit_sorunlu_kolonlar2.gif
   [göz atın]: http://www.fatihhayrioglu.com/?p=179
   [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/aksak-3-kol-likid.htm

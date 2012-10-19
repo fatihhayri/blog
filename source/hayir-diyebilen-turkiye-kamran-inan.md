@@ -10,4 +10,4 @@ milletinde mevcuttur' diyen yazar, uzun yıllar Türk diplomasisinde ve
 siyasetinde aktif olarak yer almış bir kişi sıfatıyla, çok önemli
 tespitlerde bulunuyor.
 
-  []: http://www.fatihhayrioglu.com/images/hayir_diyebilen_turkiye.thumbnail.jpg
+  []: /images/hayir_diyebilen_turkiye.thumbnail.jpg

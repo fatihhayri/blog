@@ -64,7 +64,7 @@ denemedim bir bakın isterseniz.
 
   [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/donukluk.html
   [W3C doğrulamasından]: http://jigsaw.w3.org/css-validator/
-  [donuklasma_val2]: http://www.fatihhayrioglu.com/images/donuklasma_val2.gif
+  [donuklasma_val2]: /images/donuklasma_val2.gif
     "donuklasma_val2"
   [1]: http://www.fatihhayrioglu.com/dokumanlar/donukluk_dog.html
   [http://robertnyman.com/2010/01/11/css-background-transparency-without-affecting-child-elements-through-rgba-and-filters/]: http://robertnyman.com/2010/01/11/css-background-transparency-without-affecting-child-elements-through-rgba-and-filters/

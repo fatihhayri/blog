@@ -15,4 +15,4 @@ ve hikayede verilmek isteneni kavraması oldukça zordur.
 Uzunbir çalışmanın ürünü olan elinizdeki bu eser, aynı zamanda
 Mesnevi'deki hikayelerin tamamını içine alan ilk büyük çalışmadır...
 
-  []: http://www.fatihhayrioglu.com/images/mevlana.thumbnail.jpg
+  []: /images/mevlana.thumbnail.jpg

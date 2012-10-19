@@ -48,7 +48,7 @@ Satın almak için [tıklayınız.][]
 
 </p>
 
-  [Ziya Gökalp'ın Tenkidi]: http://www.fatihhayrioglu.com/images/zg_tenkidi.gif
+  [Ziya Gökalp'ın Tenkidi]: /images/zg_tenkidi.gif
     "Ziya Gökalp'ın Tenkidi"
-  [![Ziya Gökalp'ın Tenkidi][]]: http://www.fatihhayrioglu.com/images/zg_tenkidi.gif
+  [![Ziya Gökalp'ın Tenkidi][]]: /images/zg_tenkidi.gif
   [tıklayınız.]: http://www.tulumba.com/storeItem.asp?ic=zBK983109FB408

@@ -83,7 +83,7 @@ tanım yaptığımız için klavye kullananlar için sorun olmayacaktır.
   [1]: http://docs.google.com/File?id=dhctmbn6_224cg7bjcg8_b
   [2]: http://docs.google.com/File?id=dhctmbn6_225hk8dtkfm_b
   [3]: http://docs.google.com/File?id=dhctmbn6_226fc3jdqrx_b
-  [chrome_odak]: http://www.fatihhayrioglu.com/images/chrome_odak.gif
+  [chrome_odak]: /images/chrome_odak.gif
     "chrome_odak"
   [tıklayınız.]: /dokumanlar/metingirdi_kaldir_2.html
   [http://gandamanurung.com/css/how-to-get-rid-textinput-blue-border-in-safari/]: http://gandamanurung.com/css/how-to-get-rid-textinput-blue-border-in-safari/

@@ -181,9 +181,9 @@ yükselme yaşansa bile daha sonra düşüşün devam edeceğini düşünüyorum
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/images/ie9_genel_gorunum-300x218.png
+  []: /images/ie9_genel_gorunum-300x218.png
     "ie9_genel_gorunum"
-  [![][]]: http://www.fatihhayrioglu.com/images/ie9_genel_gorunum.png
+  [![][]]: /images/ie9_genel_gorunum.png
   [http://www.findmebyip.com/litmus]: http://www.findmebyip.com/litmus
     "http://www.findmebyip.com/litmus"
   [1]: https://docs.google.com/File?id=dhctmbn6_479gf4wsmfr_b

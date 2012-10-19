@@ -41,7 +41,7 @@ Internet Explore desteklemiyor. Bunun haricinde Firefox 2, Safari, Opera
 -   [http://css-tricks.com/overriding-the-default-text-selection-color-with-css/][]
 -   [http://www.w3.org/TR/css3-selectors/][]
 
-  [metin_secme_rengi]: http://www.fatihhayrioglu.com/images/metin_secme_rengi-300x110.gif
+  [metin_secme_rengi]: /images/metin_secme_rengi-300x110.gif
     "metin_secme_rengi"
   [css-tricks.com]: http://css-tricks.com "css-tricks.com"
   [http://www.quirksmode.org/css/selection.html]: http://www.quirksmode.org/css/selection.html

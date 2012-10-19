@@ -584,10 +584,10 @@ Projede yer alan tüm dosyaları sıkıştırıp attım. [Tüm dosyaları indirm
 
 </p>
 
-  [Marşlar]: http://www.fatihhayrioglu.com/images/marslar_kucuk.jpg
-  [Tezahürat Ekle]: http://www.fatihhayrioglu.com/images/tezahurat_ekle_kucuk.jpg
-  [Tezahürat İzle Dinle]: http://www.fatihhayrioglu.com/images/tezahurat_izle_dinle_kucuk.jpg
-  [Genel Şablon]: http://www.fatihhayrioglu.com/images/genel_sablon_kucuk.jpg
+  [Marşlar]: /images/marslar_kucuk.jpg
+  [Tezahürat Ekle]: /images/tezahurat_ekle_kucuk.jpg
+  [Tezahürat İzle Dinle]: /images/tezahurat_izle_dinle_kucuk.jpg
+  [Genel Şablon]: /images/genel_sablon_kucuk.jpg
   [IE'da İkikat görülen Margin Problemi ve Çözümü]: http://www.fatihhayrioglu.com/ieda-ikikat-gorulen-margin-problemi-ve-cozumu/
   [tıklayınız.]: http://www.fatihhayrioglu.com/cssde-tanimlamalar-ve-etkinliklerispecificity/
   [Sayfalama kodlamalarını bir kaç tipi]: http://www.fatihhayrioglu.com/css-ile-sayfalama-gorselligini-ayarlama/

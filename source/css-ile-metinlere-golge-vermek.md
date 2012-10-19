@@ -290,36 +290,36 @@ Sağlıcakla kalın.
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/images/metinlere_golge_1.gif
+  []: /images/metinlere_golge_1.gif
     "metinlere_golge_1"
-  [![][]]: http://www.fatihhayrioglu.com/images/metinlere_golge_1.gif
+  [![][]]: /images/metinlere_golge_1.gif
   [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/metinlere_golge_vermek/metinlere_golge_1.html
-  [1]: http://www.fatihhayrioglu.com/images/metinlere_golge_2.gif
+  [1]: /images/metinlere_golge_2.gif
     "metinlere_golge_2"
-  [![][1]]: http://www.fatihhayrioglu.com/images/metinlere_golge_2.gif
+  [![][1]]: /images/metinlere_golge_2.gif
   [2]: http://www.fatihhayrioglu.com/dokumanlar/metinlere_golge_vermek/metinlere_golge_2.html
-  [3]: http://www.fatihhayrioglu.com/images/metinlere_golge_3.gif
+  [3]: /images/metinlere_golge_3.gif
     "metinlere_golge_3"
-  [![][3]]: http://www.fatihhayrioglu.com/images/metinlere_golge_3.gif
+  [![][3]]: /images/metinlere_golge_3.gif
   [4]: http://www.fatihhayrioglu.com/dokumanlar/metinlere_golge_vermek/metinlere_golge_3.html
-  [5]: http://www.fatihhayrioglu.com/images/metinlere_golge_4.gif
+  [5]: /images/metinlere_golge_4.gif
     "metinlere_golge_4"
-  [![][5]]: http://www.fatihhayrioglu.com/images/metinlere_golge_4.gif
+  [![][5]]: /images/metinlere_golge_4.gif
   [6]: http://www.fatihhayrioglu.com/dokumanlar/metinlere_golge_vermek/metinlere_golge_4.html
-  [7]: http://www.fatihhayrioglu.com/images/metinlere_golge_5.jpg
+  [7]: /images/metinlere_golge_5.jpg
     "metinlere_golge_5"
-  [![][7]]: http://www.fatihhayrioglu.com/images/metinlere_golge_5.jpg
+  [![][7]]: /images/metinlere_golge_5.jpg
   [8]: http://www.fatihhayrioglu.com/dokumanlar/metinlere_golge_vermek/metinlere_golge_5.html
   [9]: http://msdn.microsoft.com/en-us/library/ms673539%28VS.85%29.aspx
-  [10]: http://www.fatihhayrioglu.com/images/metinlere_golge_1_ie.gif
+  [10]: /images/metinlere_golge_1_ie.gif
     "metinlere_golge_1_ie"
-  [![][10]]: http://www.fatihhayrioglu.com/images/metinlere_golge_1_ie.gif
+  [![][10]]: /images/metinlere_golge_1_ie.gif
   [11]: http://www.fatihhayrioglu.com/dokumanlar/metinlere_golge_vermek/metinlere_golge_1_ie.html
   [12]: http://www.fatihhayrioglu.com/dokumanlar/metinlere_golge_vermek/metinlere_golge_2_ie.html
   [13]: http://kilianvalkhof.com/uploads/ieshadow.html
-  [14]: http://www.fatihhayrioglu.com/images/metinlere_golge_1_fr.gif
+  [14]: /images/metinlere_golge_1_fr.gif
     "metinlere_golge_1_fr"
-  [![][14]]: http://www.fatihhayrioglu.com/images/metinlere_golge_1_fr.gif
+  [![][14]]: /images/metinlere_golge_1_fr.gif
   [15]: http://www.fatihhayrioglu.com/dokumanlar/metinlere_golge_vermek/metinlere_golge_1_fr.html
   [http://www.kremalicious.com/2008/04/make-cool-and-clever-text-effects-with-css-text-shadow/]: http://www.kremalicious.com/2008/04/make-cool-and-clever-text-effects-with-css-text-shadow/
   [http://tutorials.assistprogramming.com/text-shadow-using-css.html]: http://tutorials.assistprogramming.com/text-shadow-using-css.html

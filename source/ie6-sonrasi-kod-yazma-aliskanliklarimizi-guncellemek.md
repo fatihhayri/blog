@@ -459,7 +459,7 @@ ie6 öldü.
 
   [Internet Explorer 6 olmasa hayat daha kolay ve zevkli olurdu]: http://www.fatihhayrioglu.com/internet-explorer-6-olmasa-hayat-daha-kolay-ve-zevkli-olurdu/
   [Internet Explorer 6 için saydam PNG desteği]: http://www.fatihhayrioglu.com/internet-explorer-6-icin-saydam-png-destegi/
-  []: http://www.fatihhayrioglu.com/images/saydampng_resim.gif
+  []: /images/saydampng_resim.gif
   [Bu konuyu]: http://www.fatihhayrioglu.com/ozellik-secicileriattribute-selectors/
   [http://dev.opera.com/articles/view/styling-forms-with-attribute-selectors/]: http://dev.opera.com/articles/view/styling-forms-with-attribute-selectors/
   [Box Model Sorunu ve Çözümü]: http://www.fatihhayrioglu.com/kutu-modeli-sorunlari-ve-cozumleri/

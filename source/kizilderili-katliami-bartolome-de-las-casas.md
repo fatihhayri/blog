@@ -22,7 +22,7 @@ kanını donduracak cinsten. Anlatılan o kadar feci ki inanmakta
 zorlanıyor insan. Bu konuda 3-4 tane daha kitap okumak lazım kesin emin
 olmak için. Ayrıntılı bilgi için [tıklayınız.][]
 
-  []: http://www.fatihhayrioglu.com/images/kizildereli.jpg
+  []: /images/kizildereli.jpg
     "kizildereli"
-  [![][]]: http://www.fatihhayrioglu.com/images/kizildereli.jpg
+  [![][]]: /images/kizildereli.jpg
   [tıklayınız.]: http://en.eren.com.tr/goster/kitap/kitap.asp?kitap=218029&SID=652213573063

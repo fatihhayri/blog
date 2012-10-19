@@ -84,13 +84,13 @@ Bu kodu tüm tarayıcılar destekliyor.
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/images/dikey_yatayda_ortalama_ornek.gif
+  []: /images/dikey_yatayda_ortalama_ornek.gif
     "dikey_yatayda_ortalama_ornek"
-  [![][]]: http://www.fatihhayrioglu.com/images/dikey_yatayda_ortalama_ornek.gif
+  [![][]]: /images/dikey_yatayda_ortalama_ornek.gif
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/dikey_yatay_ortalama.html
-  [1]: http://www.fatihhayrioglu.com/images/dikey_yatayda_ortalama-300x223.gif
+  [1]: /images/dikey_yatayda_ortalama-300x223.gif
     "dikey_yatayda_ortalama"
-  [![][1]]: http://www.fatihhayrioglu.com/images/dikey_yatayda_ortalama.gif
+  [![][1]]: /images/dikey_yatayda_ortalama.gif
   [http://www.joe2torials.com/view_tutorial.php?view=37]: http://www.joe2torials.com/view_tutorial.php?view=37
   [http://perishablepress.com/press/2006/09/18/absolutely-centered-layout/]: http://perishablepress.com/press/2006/09/18/absolutely-centered-layout/
   [http://hicksdesign.co.uk/journal/vertical--horizontal-centering-2]: http://hicksdesign.co.uk/journal/vertical--horizontal-centering-2

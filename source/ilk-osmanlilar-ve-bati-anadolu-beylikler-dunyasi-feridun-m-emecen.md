@@ -16,4 +16,4 @@ ve Osmanlılar üstlenmektedir. Osmanlı Beyliği'nin kurtuluşu ve ortaya
 tez, beylikler dünyasının temel ve kroniklerde hemen hiç yer almayan
 sessiz tabanın oynadığı belirleyici roldür.
 
-  []: http://www.fatihhayrioglu.com/images/ilk_osmanli.kucukresim.jpg
+  []: /images/ilk_osmanli.kucukresim.jpg

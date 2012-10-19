@@ -14,5 +14,5 @@ uyandırdığı derin duygu ve acılardan alan ve toplam 18 hikayeden oluşan
 Çağlayanlar halka milli ve vatani bir şuur kazandırmak amacıyla da
 kaleme alınmıştır.
 
-  [Çağlayanlar]: http://www.fatihhayrioglu.com/images/caglayanlar.thumbnail.jpg
+  [Çağlayanlar]: /images/caglayanlar.thumbnail.jpg
     "Çağlayanlar"

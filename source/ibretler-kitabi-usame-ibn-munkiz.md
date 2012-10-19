@@ -19,4 +19,4 @@ Müslümanlar üzerindeki etkilerini anlatan insan elinden çıkma sayılı
 belgelerden biri olan Üsame İbn Münkız'ın anılarıdır." Bernard Lewis,
 The Muslim Discovery of Europe
 
-  [Usame ibn Munkız- İbretler Kitabı]: http://www.fatihhayrioglu.com/images/ibretler_kitabi.thumbnail.jpg
+  [Usame ibn Munkız- İbretler Kitabı]: /images/ibretler_kitabi.thumbnail.jpg

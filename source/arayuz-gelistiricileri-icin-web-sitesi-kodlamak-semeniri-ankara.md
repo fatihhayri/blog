@@ -34,7 +34,7 @@ Görüşmek dileğiyle.
 
 Sağlıcakla Kalın.
 
-  [![][]]: http://www.fatihhayrioglu.com/images/arayuz-214x300.jpg
+  [![][]]: /images/arayuz-214x300.jpg
   [Ömer Faruk Sarıkaya]: http://www.omersarikaya.com/
   [S. Ferit Arslan]: http://twitter.com/#!/feritarslan
   [İlyas Osmanoğlulları]: http://www.ilyax.com/

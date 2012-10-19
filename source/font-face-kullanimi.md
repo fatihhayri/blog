@@ -325,7 +325,7 @@ aksaklığımız oldu ise affola.
     "sIFR"
   [Cufón]: http://www.yakuter.com/cufon-bir-sifr-alternatifi-hakkinda-her-sey/
     "Cufón"
-  [fontface_destek_tablosu]: http://www.fatihhayrioglu.com/images/fontface_destek_tablosu.gif
+  [fontface_destek_tablosu]: /images/fontface_destek_tablosu.gif
     "fontface_destek_tablosu"
   [Vikipedia]: http://en.wikipedia.org/wiki/Web_typography "Vikipedia"
   [Batik]: http://xmlgraphics.apache.org/batik/tools/font-converter.html

@@ -16,4 +16,4 @@ bir uğraş. Haluk Dursun Osmanlı diyarlarını, Osmanlı memleketlerini
 gitti, gördü ve taa mavi Nil'den Yeşil Tuna'ya kadar kültür tarihimiz
 açısından değerlendirdi.
 
-  [Nil'den Tuna'ya]: http://www.fatihhayrioglu.com/images/nildentunaya.thumbnail.jpg
+  [Nil'den Tuna'ya]: /images/nildentunaya.thumbnail.jpg

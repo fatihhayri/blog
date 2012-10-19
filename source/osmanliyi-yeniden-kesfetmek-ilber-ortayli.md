@@ -7,4 +7,4 @@ olan İlber ortaylıdan çok güzel bir kitap. Her bölüm aslında birer kitap
 olacak bölümlerin özünü bizlere sunamaya çalışmış İlber hocam.
 Tadımlıkta olsa güzel bir kitap
 
-  [Osmanlıyı Yeniden Keşfetmek]: http://www.fatihhayrioglu.com/images/osmanliyi_yeniden_kesfetmek.thumbnail.jpg
+  [Osmanlıyı Yeniden Keşfetmek]: /images/osmanliyi_yeniden_kesfetmek.thumbnail.jpg

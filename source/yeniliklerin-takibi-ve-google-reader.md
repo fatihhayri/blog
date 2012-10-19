@@ -337,51 +337,51 @@ olan yenilikleri takip etmek ve geri kalmamaktır. Ferruh Mavituna'nın
 </p>
 
   []: https://docs.google.com/File?id=dhctmbn6_465drvt8nvt_b
-  [1]: http://www.fatihhayrioglu.com/images/gr_arama-300x25.gif
+  [1]: /images/gr_arama-300x25.gif
     "gr_arama"
-  [![][1]]: http://www.fatihhayrioglu.com/images/gr_arama.gif
-  [2]: http://www.fatihhayrioglu.com/images/google_reader_genel_gorunum-300x176.jpg
+  [![][1]]: /images/gr_arama.gif
+  [2]: /images/google_reader_genel_gorunum-300x176.jpg
     "google_reader_genel_gorunum"
-  [![][2]]: http://www.fatihhayrioglu.com/images/google_reader_genel_gorunum.jpg
-  [3]: http://www.fatihhayrioglu.com/images/gr_alinma_yayinlanma_zamani.gif
+  [![][2]]: /images/google_reader_genel_gorunum.jpg
+  [3]: /images/gr_alinma_yayinlanma_zamani.gif
     "gr_alinma_yayinlanma_zamani"
-  [![][3]]: http://www.fatihhayrioglu.com/images/gr_alinma_yayinlanma_zamani.gif
-  [4]: http://www.fatihhayrioglu.com/images/gr_abonelik_istatistik-300x177.gif
+  [![][3]]: /images/gr_alinma_yayinlanma_zamani.gif
+  [4]: /images/gr_abonelik_istatistik-300x177.gif
     "gr_abonelik_istatistik"
-  [![][4]]: http://www.fatihhayrioglu.com/images/gr_abonelik_istatistik.gif
-  [5]: http://www.fatihhayrioglu.com/images/gr_sakla-300x15.gif
+  [![][4]]: /images/gr_abonelik_istatistik.gif
+  [5]: /images/gr_sakla-300x15.gif
     "gr_sakla"
-  [![][5]]: http://www.fatihhayrioglu.com/images/gr_sakla.gif
-  [6]: http://www.fatihhayrioglu.com/images/feed_gosterimi-300x162.gif
+  [![][5]]: /images/gr_sakla.gif
+  [6]: /images/feed_gosterimi-300x162.gif
     "feed_gosterimi"
-  [![][6]]: http://www.fatihhayrioglu.com/images/feed_gosterimi.gif
+  [![][6]]: /images/feed_gosterimi.gif
   [http://www.fabianpimminger.com/playground/google-reader-styles/]: http://www.fabianpimminger.com/playground/google-reader-styles/
     "http://www.fabianpimminger.com/playground/google-reader-styles/"
   [Kısayolları listesi]: http://www.google.com/support/reader/bin/answer.py?hl=en&answer=69973
     "Kısayolları listesi"
-  [7]: http://www.fatihhayrioglu.com/images/kisayollar1-300x159.gif
+  [7]: /images/kisayollar1-300x159.gif
     "kisayollar1"
-  [![][7]]: http://www.fatihhayrioglu.com/images/kisayollar1.gif
-  [8]: http://www.fatihhayrioglu.com/images/gr_paylas-300x18.gif
+  [![][7]]: /images/kisayollar1.gif
+  [8]: /images/gr_paylas-300x18.gif
     "gr_paylas"
-  [![][8]]: http://www.fatihhayrioglu.com/images/gr_paylas.gif
-  [9]: http://www.fatihhayrioglu.com/images/gr_istatistik_sayfasi-300x152.gif
+  [![][8]]: /images/gr_paylas.gif
+  [9]: /images/gr_istatistik_sayfasi-300x152.gif
     "gr_istatistik_sayfasi"
-  [![][9]]: http://www.fatihhayrioglu.com/images/gr_istatistik_sayfasi.gif
-  [10]: http://www.fatihhayrioglu.com/images/gr_dilime_cevir.gif
+  [![][9]]: /images/gr_istatistik_sayfasi.gif
+  [10]: /images/gr_dilime_cevir.gif
     "gr_dilime_cevir"
-  [![][10]]: http://www.fatihhayrioglu.com/images/gr_dilime_cevir.gif
-  [11]: http://www.fatihhayrioglu.com/images/gr_oneri.gif "gr_oneri"
-  [![][11]]: http://www.fatihhayrioglu.com/images/gr_oneri.gif
-  [12]: http://www.fatihhayrioglu.com/images/gr_iceaktar_disa_aktar-300x122.gif
+  [![][10]]: /images/gr_dilime_cevir.gif
+  [11]: /images/gr_oneri.gif "gr_oneri"
+  [![][11]]: /images/gr_oneri.gif
+  [12]: /images/gr_iceaktar_disa_aktar-300x122.gif
     "gr_iceaktar_disa_aktar"
-  [![][12]]: http://www.fatihhayrioglu.com/images/gr_iceaktar_disa_aktar.gif
-  [13]: http://www.fatihhayrioglu.com/images/gr_rssyokmu.gif
+  [![][12]]: /images/gr_iceaktar_disa_aktar.gif
+  [13]: /images/gr_rssyokmu.gif
     "gr_rssyokmu"
-  [![][13]]: http://www.fatihhayrioglu.com/images/gr_rssyokmu.gif
-  [14]: http://www.fatihhayrioglu.com/images/gr_pagerank-300x84.gif
+  [![][13]]: /images/gr_rssyokmu.gif
+  [14]: /images/gr_pagerank-300x84.gif
     "gr_pagerank"
-  [![][14]]: http://www.fatihhayrioglu.com/images/gr_pagerank.gif
+  [![][14]]: /images/gr_pagerank.gif
   [PageRank]: http://labs.postrank.com/gr "PageRank"
   [Benim Google Reader Dosyam (.xml)]: http://fatihhayrioglu.com/dokumanlar/google-reader-subscriptions.xml
   [bir makalede]: http://www.businessinsider.com/twitter-has-killed-rss-readers-traffic-to-google-reader-down-27-year-over-year-2010-9

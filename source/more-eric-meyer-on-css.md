@@ -25,5 +25,5 @@ indirip incelemenizi öneririm. Ayrıntılı bilgi ve kaynak kodlar için
 
 </p>
 
-  [Eric Meyer'in Güzel kitaplarında biri]: http://www.fatihhayrioglu.com/images/more_eric_meyer.thumbnail.jpg
+  [Eric Meyer'in Güzel kitaplarında biri]: /images/more_eric_meyer.thumbnail.jpg
   [tıklayınız.]: http://more.ericmeyeroncss.com/

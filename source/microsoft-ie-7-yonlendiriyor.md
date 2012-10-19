@@ -6,4 +6,4 @@ Category: Haberler
 kullanıcılarına yükleteceğini duyurdu. İsteyen kullanıcı güncellmesini
 yaparak IE 7'yi yükleyebilecek.
 
-  []: http://www.fatihhayrioglu.com/images/ie_download.thumbnail.jpg
+  []: /images/ie_download.thumbnail.jpg

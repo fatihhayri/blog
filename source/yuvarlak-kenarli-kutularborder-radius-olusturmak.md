@@ -197,13 +197,13 @@ sitesinde olduğu gibi.)
 </p>
 
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/border_radius1.html
-  []: http://www.fatihhayrioglu.com/images/border_radius_1.jpg
+  []: /images/border_radius_1.jpg
     "border_radius_1"
-  [![][]]: http://www.fatihhayrioglu.com/images/border_radius_1.jpg
+  [![][]]: /images/border_radius_1.jpg
   [1]: http://fatihhayrioglu.com/dokumanlar/border_radius2.html
-  [2]: http://www.fatihhayrioglu.com/images/border_radius_2.jpg
+  [2]: /images/border_radius_2.jpg
     "border_radius_2"
-  [![][2]]: http://www.fatihhayrioglu.com/images/border_radius_2.jpg
+  [![][2]]: /images/border_radius_2.jpg
   [http://muddledramblings.com/table-of-css3-border-radius-compliance]: http://muddledramblings.com/table-of-css3-border-radius-compliance
     "http://muddledramblings.com/table-of-css3-border-radius-compliance"
   [http://shapeshed.com/examples/border-radius/]: http://shapeshed.com/examples/border-radius/

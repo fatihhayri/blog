@@ -66,7 +66,7 @@ aşağıda veriyorum.
 -   [http://www.cloudfour.com/77/easy-steps-to-speedup-your-wordpress-blog/][]
 
 
-  [optimizedenonce]: http://www.fatihhayrioglu.com/images/optimizedenonce-300x108.gif "optimizedenonce"
+  [optimizedenonce]: /images/optimizedenonce-300x108.gif "optimizedenonce"
   [http://davidwalsh.name/combine-css-media-styles-file]: http://davidwalsh.name/combine-css-media-styles-file "http://davidwalsh.name/combine-css-media-styles-file"
   [http://developer.yahoo.com/performance/rules.html#num_http]: http://developer.yahoo.com/performance/rules.html#num_http "http://developer.yahoo.com/performance/rules.html#num_http"
   [http://www.vulgarisoip.com/2007/06/21/minify-your-external-javascript-and-css-with-php/]: http://www.vulgarisoip.com/2007/06/21/minify-your-external-javascript-and-css-with-php/

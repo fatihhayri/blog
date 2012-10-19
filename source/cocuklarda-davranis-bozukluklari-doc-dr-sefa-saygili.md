@@ -12,7 +12,7 @@ sıkışmış çocukların daha fazla ilgi ve alkaya ihtiyacı var. Tüm anne,
 baba ve amcaların (:D) okumasını tavsiye ediyorum. Ayrıntılı bilgi için
 [tıklayınız.][]
 
-  [Çocuklarda Davranış Bozuklukları]: http://www.fatihhayrioglu.com/images/cocuklarda_davraniz_bozuklu.kucukresim.jpg
-  [![Çocuklarda Davranış Bozuklukları][]]: http://www.fatihhayrioglu.com/images/cocuklarda_davraniz_bozuklu.jpg
+  [Çocuklarda Davranış Bozuklukları]: /images/cocuklarda_davraniz_bozuklu.kucukresim.jpg
+  [![Çocuklarda Davranış Bozuklukları][]]: /images/cocuklarda_davraniz_bozuklu.jpg
     "Çocuklarda Davranış Bozuklukları"
   [tıklayınız.]: http://www.kitapyurdu.com/kitap/default.asp?id=85121&session=68037821685103132222&LogID=

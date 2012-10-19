@@ -14,7 +14,7 @@ verilemeyecektir. Kitap bir bütün olarak Pontus'u içermiyor, M.Ö.
 kadar oluşan tüm etnik yapılanmalarla ilgili tesbit ve
 değerlendirmelerde bulunuyor. Ayrıntılı bilgi için [tıklayınız.][]
 
-  [Tarih Boyunca Doğu Karadeniz’de Etnik Yapılanmalar ve Pontus - Haşim   Albayrak]: http://www.fatihhayrioglu.com/images/pontus.kucukresim.gif
-  [![Tarih Boyunca Doğu Karadeniz’de Etnik Yapılanmalar ve Pontus -   Haşim Albayrak][]]: http://www.fatihhayrioglu.com/images/pontus.gif
+  [Tarih Boyunca Doğu Karadeniz’de Etnik Yapılanmalar ve Pontus - Haşim   Albayrak]: /images/pontus.kucukresim.gif
+  [![Tarih Boyunca Doğu Karadeniz’de Etnik Yapılanmalar ve Pontus -   Haşim Albayrak][]]: /images/pontus.gif
     "Tarih Boyunca Doğu Karadeniz’de Etnik Yapılanmalar ve Pontus - Haşim Albayrak"
   [tıklayınız.]: http://www.kitapyurdu.com/kitap/default.asp?id=71881&session=92521392366249721319&LogID=

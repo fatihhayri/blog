@@ -74,18 +74,18 @@ elemanında bu sorun ile karşılaşılmıyor.
 </p>
 
   [bu siteye göz atın]: http://www.satzansatz.de/cssd/onhavinglayout.html
-  []: http://www.fatihhayrioglu.com/images/arama_ardalan1.gif
+  []: /images/arama_ardalan1.gif
     "arama_ardalan1"
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/margin_inherit_form/inherit_margin_form_orn.html
-  [1]: http://www.fatihhayrioglu.com/images/margin_inherit_ff.gif
+  [1]: /images/margin_inherit_ff.gif
     "margin_inherit_ff"
-  [![][1]]: http://www.fatihhayrioglu.com/images/margin_inherit_ff.gif
-  [2]: http://www.fatihhayrioglu.com/images/margin_inherit_ie.gif
+  [![][1]]: /images/margin_inherit_ff.gif
+  [2]: /images/margin_inherit_ie.gif
     "margin_inherit_ie"
-  [![][2]]: http://www.fatihhayrioglu.com/images/margin_inherit_ie.gif
+  [![][2]]: /images/margin_inherit_ie.gif
   [IE'da İkikat görülen Margin Problemi ve Çözümü]: http://www.fatihhayrioglu.com/ieda-ikikat-gorulen-margin-problemi-ve-cozumu/
   [3]: http://fatihhayrioglu.com/dokumanlar/margin_inherit_form/inherit_margin_form_ornc.html
-  [4]: http://www.fatihhayrioglu.com/images/margin_inherit_ie_c.gif
+  [4]: /images/margin_inherit_ie_c.gif
     "margin_inherit_ie_c"
-  [![][4]]: http://www.fatihhayrioglu.com/images/margin_inherit_ie_c.gif
+  [![][4]]: /images/margin_inherit_ie_c.gif
   [http://www.positioniseverything.net/explorer/inherited_margin.html]: http://www.positioniseverything.net/explorer/inherited_margin.html

@@ -124,7 +124,7 @@ kapsanan sayfanızda sorun çıkabilir. Bunu engellemek için kodunuzu
 
 </p>
 
-  [yapisik_altalan]: http://www.fatihhayrioglu.com/images/yapisik_altalan.gif
+  [yapisik_altalan]: /images/yapisik_altalan.gif
     "yapisik_altalan"
   [cssstickyfooter.com]: http://www.cssstickyfooter.com
     "cssstickyfooter.com"

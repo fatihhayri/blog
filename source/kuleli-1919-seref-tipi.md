@@ -11,6 +11,6 @@ notlarını içeriyor. Kitapta işgal yılları, okul hayatı, arkadaşlıklar,
 memletin hali farklı bir dilden anlıtılıyor. Güzel bir kitap. Ayrıntılı
 bilgi için [tıklayınız.][]
 
-  [kuleli1919]: http://www.fatihhayrioglu.com/images/kuleli1919-96x150.jpg
+  [kuleli1919]: /images/kuleli1919-96x150.jpg
     "kuleli1919"
   [tıklayınız.]: http://www.ilknokta.com/urun/79399/Kuleli-1919--Seref-Tipi.html

@@ -101,7 +101,7 @@ URL tanımlaması için aşağıdaki gib bir tanımlama yapılır.
 
 	:::css
 	
-url(http://www.fatihhayrioglu.com/images/kucuk.gif) 
+url(/images/kucuk.gif) 
 
 Burada tırnaksız ve tek tırnaklı kullanımları da standarda uygundur.
 

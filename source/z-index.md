@@ -26,7 +26,7 @@ değiştirildiğinde uygulanır.
 
 ![][]
 
-**Yapısı:z-index: <deger>  
+**Yapısı:z-index: <deger\>  
 Aldığı Değerler:<[sayısal değer][] > | auto | inherit  
 Başlangıç değeri:auto  
 Uygulanabilen elementler:postion uygulanan elementlere  
@@ -58,19 +58,17 @@ katman alttakileri gizlemiştir. Tüm katmanların z-index değeri
 atanmamıştır bu nedenle başlangıç değeri olan z-index:auto değerini
 almışlardır.
 
-	:::css
-	 <body> <div class='kapsul'> <div
-class='bir'></div> <div class='iki'></div> </div> </body>
+	:::html
+	<body> <div class='kapsul'> <div
+	class='bir'></div> <div class='iki'></div> </div> </body>
 
 
 z-index değeri otomatik olduğu için her katman html'deki sırasına göre
 yerleşmiştir. İlk başta yazılmış olanlar altta sonrakiler üstte olacak
 şekilde sıralanmıştır.
 
-<div align="center">
 ![][1]
 
-</div>
 Eğer katmanları istediğimiz sıra ile göstermek istiyor isek her katmana
 sırasına göre sayısal değer atamalıyız. Yüksek değer alan katmanlar
 üstte düşük değer alan katmanlar ise altta kalacaktır. Buna göre
@@ -95,8 +93,8 @@ katmanlardaki z-index:auto değeri gibi davranır ve sayısal atamaları
 dikkate almaz.
 
 	:::html
-	 <body> <div class='kapsul'> <div
-class='bir'><div class='iki'></div></div> </div> </body>
+	<body> <div class='kapsul'>
+	<div class='bir'><div class='iki'></div></div> </div> </body>
 
 
 z-index değeri yüksek olmasına rağmen bir sınıfını alan katmana altta

@@ -13,8 +13,8 @@ bir hale getirebiliyoruz. [![][]][] Değişken isimlerini kısa göstermesi
 gibi küçük bir sorun dışında gayet başarılı bir özellik olmuş. Yeni
 sürümlerde ikon olarak eklenmiş. [![][1]][]
 
-  []: http://www.fatihhayrioglu.com/images/de-obfuscation.gif
+  []: /images/de-obfuscation.gif
     "de-obfuscation"
-  [![][]]: http://www.fatihhayrioglu.com/images/de-obfuscation.gif
-  [1]: http://www.fatihhayrioglu.com/images/chrome.gif "chrome"
-  [![][1]]: http://www.fatihhayrioglu.com/images/chrome.gif
+  [![][]]: /images/de-obfuscation.gif
+  [1]: /images/chrome.gif "chrome"
+  [![][1]]: /images/chrome.gif

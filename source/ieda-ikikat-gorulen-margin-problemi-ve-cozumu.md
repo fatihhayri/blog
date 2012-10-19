@@ -25,5 +25,5 @@ ayrıntılı bilgiyi bu sitede bulabilirsiniz.(eng)
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/images/ikikat_margin.gif
+  []: /images/ikikat_margin.gif
   [positioniseverything.net]: http://www.positioniseverything.net/explorer/doubled-margin.html

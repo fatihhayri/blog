@@ -23,6 +23,6 @@ defa okuyucunun dikkatine
 sunuyor</font><font face="Verdana" style="font-size: 10pt">uz.</font>
 ayrıntı için: [http://www.timas.com.tr/kitap.php?id=212][]
 
-  [cevdetpasa2.jpg]: http://www.fatihhayrioglu.com/images/cevdetpasa2.thumbnail.jpg
+  [cevdetpasa2.jpg]: /images/cevdetpasa2.thumbnail.jpg
   [http://www.timas.com.tr/kitap.php?id=212]: http://www.timas.com.tr/kitap.php?id=212
     "Cevdet Paşa"

@@ -10,14 +10,16 @@ bir özelliktir bu. Örneğin yönlendirme için kullanalıbilir. Kodumuzu
 yazarsak:
 
 	:::javascript
-	<script>location.href =
-"DigerSayfa.html";</script>
+	<script>
+		location.href ="DigerSayfa.html";
+	</script>
 
 Ayrıca xhtml ile de bu işi yapabiliriz.
 
 	:::html
-	 <head> <meta http-equiv="Refresh"
-content="5; URL=DigerSayfa.html" /> </head> 
+	<head>
+		<meta http-equiv="Refresh" content="5; URL=DigerSayfa.html" />
+	</head> 
 
 Burdaki **5** değeri web tarayıcısının yönlendirmeden önceki beklediği
 değeri gösterir. Değer saniye cinsindendir.
@@ -25,7 +27,8 @@ değeri gösterir. Değer saniye cinsindendir.
 Eğer yönlendirme yapayım ama geri tuşuna basınca önceki sayfaya gitmesin
 diyorsak **location.replace** özelliğini kullanmalıyız.
 
-[sourcecode language="javascript"]<script>location.replace("DigerSayfa.html");</script>
-
-</p>
+	:::javascript
+	<script>
+		location.replace("DigerSayfa.html");
+	</script>
 

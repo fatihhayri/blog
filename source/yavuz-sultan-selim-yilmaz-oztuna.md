@@ -18,4 +18,4 @@ asırlardaki durumunda belirleyici olan, bugünkü Türkiye'nin Anadolu
 sınırlarını çizen ve Yılmaz Ã?ztuna'nın dünya tarihini mimarlarından
 biri olarak tanımladığı bir sultanın hayat hikayesi..
 
-  [Yavuz Sultan Selim - Yılmaz Öztuna]: http://www.fatihhayrioglu.com/images/yavuz_sultan_selim.thumbnail.gif
+  [Yavuz Sultan Selim - Yılmaz Öztuna]: /images/yavuz_sultan_selim.thumbnail.gif

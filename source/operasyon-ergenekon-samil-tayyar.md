@@ -17,6 +17,6 @@ bitirecekmiyiz bilemiyorum. Konu derin ve ayrıntısı öğrenmek için zaman
 gerekiyor. Konu hakkında bir kaç kitap daha okumadan işin en azında
 geneli anlamak zor görünüyor. Ayıntılı bilgi için [tıklayınız][]
 
-  [Operasyon Ergenekon]: http://www.fatihhayrioglu.com/images/operasyon_ergenekon-103x150.jpg
+  [Operasyon Ergenekon]: /images/operasyon_ergenekon-103x150.jpg
     "Operasyon Ergenekon"
   [tıklayınız]: http://www.timas.com.tr/index.php?key=tkg&id=1871

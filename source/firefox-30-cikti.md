@@ -142,27 +142,27 @@ Ben bu yazıyı bir gün öceden yazmıştım ve bugün yayına aldım. Firefox
 
   [Opera 9.5]: http://www.fatihhayrioglu.com/?p=518 "Opera 9.5"
   [Firefox 3.0 indir]: http://www.mozilla-europe.org/tr/firefox/
-  []: http://www.fatihhayrioglu.com/images/browser_memory_test1-300x237.jpg
+  []: /images/browser_memory_test1-300x237.jpg
     "browser_memory_test1"
-  [![][]]: http://www.fatihhayrioglu.com/images/browser_memory_test1.jpg
-  [1]: http://www.fatihhayrioglu.com/images/adres_cubug-300x218.jpg
+  [![][]]: /images/browser_memory_test1.jpg
+  [1]: /images/adres_cubug-300x218.jpg
     "adres_cubug"
-  [![][1]]: http://www.fatihhayrioglu.com/images/adres_cubug.jpg
-  [2]: http://www.fatihhayrioglu.com/images/site_tani-300x218.jpg
+  [![][1]]: /images/adres_cubug.jpg
+  [2]: /images/site_tani-300x218.jpg
     "site_tani"
-  [![][2]]: http://www.fatihhayrioglu.com/images/site_tani.jpg
-  [3]: http://www.fatihhayrioglu.com/images/indir-300x218.jpg
+  [![][2]]: /images/site_tani.jpg
+  [3]: /images/indir-300x218.jpg
     "indir"
-  [![][3]]: http://www.fatihhayrioglu.com/images/indir.jpg
-  [4]: http://www.fatihhayrioglu.com/images/yakinlastir-300x218.jpg
+  [![][3]]: /images/indir.jpg
+  [4]: /images/yakinlastir-300x218.jpg
     "yakinlastir"
-  [![][4]]: http://www.fatihhayrioglu.com/images/yakinlastir.jpg
-  [5]: http://www.fatihhayrioglu.com/images/yetki-300x218.jpg
+  [![][4]]: /images/yakinlastir.jpg
+  [5]: /images/yetki-300x218.jpg
     "yetki"
-  [![][5]]: http://www.fatihhayrioglu.com/images/yetki.jpg
-  [6]: http://www.fatihhayrioglu.com/images/eklentiler-300x218.jpg
+  [![][5]]: /images/yetki.jpg
+  [6]: /images/eklentiler-300x218.jpg
     "eklentiler"
-  [![][6]]: http://www.fatihhayrioglu.com/images/eklentiler.jpg
+  [![][6]]: /images/eklentiler.jpg
   [http://www.mozilla-europe.org/tr/firefox/features/]: http://www.mozilla-europe.org/tr/firefox/features/
   [http://www.mozilla.com/en-US/firefox/3.0rc2/releasenotes/]: http://www.mozilla.com/en-US/firefox/3.0rc2/releasenotes/
   [http://www.dria.org/wordpress/archives/2008/06/12/655/]: http://www.dria.org/wordpress/archives/2008/06/12/655/

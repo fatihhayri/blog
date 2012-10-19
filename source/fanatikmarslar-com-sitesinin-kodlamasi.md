@@ -210,25 +210,25 @@ Bir sonraki makalede kaldığımız yerden devam edeceğiz.
   [Ayrıca Mustafa'nın siteyi tanıttığı televidyon'daki etohum   programınıda izleminizi]: http://televidyon.com/p/2107/fanatikmarslarcom
   [Mustafa Özyurt]: http://www.websoldier.net/
   [Hasan Yalçın]: http://www.hasanyalcin.com/
-  [Klasör Yapısı]: http://www.fatihhayrioglu.com/images/ders_01.gif
+  [Klasör Yapısı]: /images/ders_01.gif
     "ders_01"
-  [![Klasör Yapısı][]]: http://www.fatihhayrioglu.com/images/ders_01.gif
-  []: http://www.fatihhayrioglu.com/images/ders_02-e1262041236446.gif
+  [![Klasör Yapısı][]]: /images/ders_01.gif
+  []: /images/ders_02-e1262041236446.gif
     "ders_02"
-  [![][]]: http://www.fatihhayrioglu.com/images/ders_02-e1262041236446.gif
-  [1]: http://www.fatihhayrioglu.com/images/fan-200x300.jpg "fan"
-  [![][1]]: http://www.fatihhayrioglu.com/images/fan.jpg
-  [2]: http://www.fatihhayrioglu.com/images/fan-dinle-200x300.jpg
+  [![][]]: /images/ders_02-e1262041236446.gif
+  [1]: /images/fan-200x300.jpg "fan"
+  [![][1]]: /images/fan.jpg
+  [2]: /images/fan-dinle-200x300.jpg
     "fan-dinle"
-  [![][2]]: http://www.fatihhayrioglu.com/images/fan-dinle.jpg
-  [3]: http://www.fatihhayrioglu.com/images/fan-gonder-200x300.jpg
+  [![][2]]: /images/fan-dinle.jpg
+  [3]: /images/fan-gonder-200x300.jpg
     "fan-gonder"
-  [![][3]]: http://www.fatihhayrioglu.com/images/fan-gonder.jpg
-  [4]: http://www.fatihhayrioglu.com/images/fan-listele-200x300.jpg
+  [![][3]]: /images/fan-gonder.jpg
+  [4]: /images/fan-listele-200x300.jpg
     "fan-listele"
-  [![][4]]: http://www.fatihhayrioglu.com/images/fan-listele.jpg
-  [5]: http://www.fatihhayrioglu.com/images/fm_eskiz.gif "fm_eskiz"
-  [![][5]]: http://www.fatihhayrioglu.com/images/fm_eskiz.gif
+  [![][4]]: /images/fan-listele.jpg
+  [5]: /images/fm_eskiz.gif "fm_eskiz"
+  [![][5]]: /images/fm_eskiz.gif
   [tıklayınız.]: http://www.fatihhayrioglu.com/dogru-doctype-kullanimi/
     "tıklayınız."
   [6]: http://www.makaleci.com/webmaster-yardimcisi/utf-8-nedir-kodlar-karakterler-ve-hakkinda-hersey-418.html

@@ -25,5 +25,5 @@ güçlerini hakim kılmaya çalışmaktadırlar. Bu eser bugüne kadar
 milyonlarca basılmıştır ve siyonistlerin emellerini öğrenmek için
 mutlaka okunması gerekmektedir.
 
-  [Beynelminel Yahudi - Henry Ford]: http://www.fatihhayrioglu.com/images/beynelminel_yahudi.jpg
+  [Beynelminel Yahudi - Henry Ford]: /images/beynelminel_yahudi.jpg
     "Beynelminel Yahudi - Henry Ford"

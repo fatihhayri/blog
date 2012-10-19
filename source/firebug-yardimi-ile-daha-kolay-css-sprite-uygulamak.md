@@ -65,6 +65,6 @@ paylaşmak istedim.
   [PSD’den HTML’e – fanatikmarslar.com Sitesinin Kodlaması II]: http://www.fatihhayrioglu.com/psdden-htmle-%E2%80%93-fanatikmarslar-com-sitesinin-kodlamasi-ii/
   []: https://lh5.googleusercontent.com/slGZJ_Am1RIyR5yrzIM2dkZM22WIfcwo5GS-L8hzjRol25LcAvOIjSbLCmaEp__Yqq7HwALtVfoAXTn_U-sg6ZUpi7_chR-a-LlzEaMHQMX3euaWdw
   [1]: https://lh6.googleusercontent.com/FMA2GgldFdFzVg8UQuW5RJ7x03gVBTrdx-hJjCb0T4Zc0VWQ65DK0VthZIIe8hnIuWj1Ki-TzFXBMkbDXwms9GXV2X5-wE3yNdVZbZnCgNtQmAT5CQ
-  [2]: http://www.fatihhayrioglu.com/images/css_sprite_firebug_2.gif
+  [2]: /images/css_sprite_firebug_2.gif
     "css_sprite_firebug_2"
-  [![][2]]: http://www.fatihhayrioglu.com/images/css_sprite_firebug_2.gif
+  [![][2]]: /images/css_sprite_firebug_2.gif

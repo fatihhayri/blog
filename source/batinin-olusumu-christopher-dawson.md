@@ -11,7 +11,7 @@ sağlamaya çalıştığı devirlerede göz atıyoruz. AB'ne girelim diyoruz ama
 kimlerle veya hangi kültür ile kaynaşacağız? Bu kitap bu soruyu bir
 nebze olsun cevaplıyor. Ayrıntılı bilgi için [tıklayınız.][]
 
-  [Batının Oluşumu - Christopher DAWSON]: http://www.fatihhayrioglu.com/images/fs6qzsszaufs6qz.thumbnail.jpg
-  [![Batının Oluşumu - Christopher DAWSON][]]: http://www.fatihhayrioglu.com/images/fs6qzsszaufs6qz.jpg
+  [Batının Oluşumu - Christopher DAWSON]: /images/fs6qzsszaufs6qz.thumbnail.jpg
+  [![Batının Oluşumu - Christopher DAWSON][]]: /images/fs6qzsszaufs6qz.jpg
     "Batının Oluşumu - Christopher DAWSON"
   [tıklayınız.]: http://www.ikiayayincilik.com.tr/root/a/pdet.asp?rsi=taszd

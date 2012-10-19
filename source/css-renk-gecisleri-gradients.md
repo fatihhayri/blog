@@ -429,17 +429,17 @@ Kalın sağlıcakla
 </p>
 
   []: https://lh6.googleusercontent.com/qdn73-Cr_BtDXHybNUYrBRPDgdpSY35sBoIxaSTEaRqZrdDr7YgO7QAkwOJb6AJDNEZIzQh58zcwM3WZJGZAAl_VIiOKp1nxZAonW1_EscSfTVJV8j4
-  [1]: http://www.fatihhayrioglu.com/images/dogrusal_renk_gecisi.gif
+  [1]: /images/dogrusal_renk_gecisi.gif
     "dogrusal_renk_gecisi"
-  [![][1]]: http://www.fatihhayrioglu.com/images/dogrusal_renk_gecisi.gif
+  [![][1]]: /images/dogrusal_renk_gecisi.gif
   [Daha önce anlattığımız]: http://www.fatihhayrioglu.com/css3-rgba-renk-tanimi/
   [http://leaverou.me/demos/css3-patterns.html]: http://leaverou.me/demos/css3-patterns.html
   [http://leaverou.me/css3patterns/]: http://leaverou.me/css3patterns/
   [http://leaverou.me]: http://leaverou.me
   [2]: https://lh4.googleusercontent.com/zTNQg2bWiAo4RRgxE2D5sF6W13C3sjBjayS4NBVEiO3bGZzfE8ns63R4qWeub4XHUEfBLW3fD8Ue62Zmfebm2IKQU4NSNvViku8B6WIAIC7-W4LDwA
-  [3]: http://www.fatihhayrioglu.com/images/radyal_renk_gecisi.gif
+  [3]: /images/radyal_renk_gecisi.gif
     "radyal_renk_gecisi"
-  [![][3]]: http://www.fatihhayrioglu.com/images/radyal_renk_gecisi.gif
+  [![][3]]: /images/radyal_renk_gecisi.gif
   [http://www.colorzilla.com/gradient-editor/]: http://www.colorzilla.com/gradient-editor/
   [http://gradients.glrzad.com/]: http://gradients.glrzad.com/
   [http://www.westciv.com/tools/gradients/]: http://www.westciv.com/tools/gradients/

@@ -17,7 +17,7 @@ Buna bakarak şunu söyleyebiliriz; Türkiye'nin dışarıda etkisini
 azaltmaya çalışanlar Türkiye'nin içini karıştırıyorlar. Ayrıntılı bilgi
 için [tıklayınız.][]
 
-  [Türk Dış Politikası Belirsizlik Döneminde]: http://www.fatihhayrioglu.com/images/turk_dis_politikasi.kucukresim.jpg
-  [![Türk Dış Politikası Belirsizlik Döneminde][]]: http://www.fatihhayrioglu.com/images/turk_dis_politikasi.jpg
+  [Türk Dış Politikası Belirsizlik Döneminde]: /images/turk_dis_politikasi.kucukresim.jpg
+  [![Türk Dış Politikası Belirsizlik Döneminde][]]: /images/turk_dis_politikasi.jpg
     "Türk Dış Politikası Belirsizlik Döneminde"
   [tıklayınız.]: http://www.kitapyurdu.com/kitap/default.asp?AID=2861&id=78284

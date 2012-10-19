@@ -15,5 +15,5 @@ anlatmıyor belki ama dönemi yaşayan önemli tanıklardan birisinin gözüyle
 kitabın sonundaki dava belgeleri, oda yayıncının eklemesi. Ayrıntılı
 bilgi için [tıklayınız.][]
 
-  [27mayis_iht_sebepleri]: http://www.fatihhayrioglu.com/images/27mayis_iht_sebepleri.kucukresim.jpg
+  [27mayis_iht_sebepleri]: /images/27mayis_iht_sebepleri.kucukresim.jpg
   [tıklayınız.]: http://www.netkitap.com/kitap/67617/27_mayis_ihtil%E2li_ve_sebepleri.htm

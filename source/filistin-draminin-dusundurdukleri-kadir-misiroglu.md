@@ -11,7 +11,7 @@ istemeleri ve bu devletin başına bir Osmanlı hanedanını getirmek
 istemleri gibi ilginç bilgileride içeren güzel bir kitap. Ayrıntılı
 bilgi için [tıklayınız.][]
 
-  [FİLİSTİN DRAMI’NIN DÜŞÜNDÜRDÜKLERİ]: http://www.fatihhayrioglu.com/images/filistin_dirami.kucukresim.jpg
-  [![FİLİSTİN DRAMI’NIN DÜŞÜNDÜRDÜKLERİ][]]: http://www.fatihhayrioglu.com/images/filistin_dirami.jpg
+  [FİLİSTİN DRAMI’NIN DÜŞÜNDÜRDÜKLERİ]: /images/filistin_dirami.kucukresim.jpg
+  [![FİLİSTİN DRAMI’NIN DÜŞÜNDÜRDÜKLERİ][]]: /images/filistin_dirami.jpg
     "FİLİSTİN DRAMI’NIN DÜŞÜNDÜRDÜKLERİ"
   [tıklayınız.]: http://www.sebilyayinevi.com/katalog.php?islem=kategori&kategori=1#

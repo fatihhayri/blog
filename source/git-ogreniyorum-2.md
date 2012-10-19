@@ -229,9 +229,9 @@ Kalın sağlıcakla
 </p>
 
   [Sürüm Kontrol Sistemi Git]: http://www.fatihhayrioglu.com/surum-kontrol-sistemi-git/
-  []: http://www.fatihhayrioglu.com/images/terminal-300x187.png
+  []: /images/terminal-300x187.png
     "terminal"
-  [![][]]: http://www.fatihhayrioglu.com/images/terminal.png
+  [![][]]: /images/terminal.png
   [http://ss64.com/osx/]: http://ss64.com/osx/
   [http://tybarts.wordpress.com/2011/05/07/git-global-config-dosyasini-ayarlamak/]: http://tybarts.wordpress.com/2011/05/07/git-global-config-dosyasini-ayarlamak/
   [http://sixrevisions.com/resources/git-tutorials-beginners/]: http://sixrevisions.com/resources/git-tutorials-beginners/

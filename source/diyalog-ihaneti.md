@@ -20,6 +20,6 @@ kadar hep ön planda ve gündemde, Hz. Muhammed'in adı bile geçmemektedir.
 Neresinden bakılırsa bakılsın Dinlerarası Diyalog, Müslüman için bir
 çıkmaz sokaktır... [http://kitap.antoloji.com/kitap.asp?kitap=225961][]
 
-  [Diyalog İhaneti]: http://www.fatihhayrioglu.com/images/diyalog_ihaneti_yumni_sezer.gif
+  [Diyalog İhaneti]: /images/diyalog_ihaneti_yumni_sezer.gif
     "Diyalog İhaneti"
   [http://kitap.antoloji.com/kitap.asp?kitap=225961]: http://kitap.antoloji.com/kitap.asp?kitap=225961

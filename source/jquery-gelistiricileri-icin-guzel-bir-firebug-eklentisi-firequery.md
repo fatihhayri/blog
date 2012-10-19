@@ -80,21 +80,21 @@ FireBug büyüksün.
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/images/firequery-64.png
+  []: /images/firequery-64.png
     "firequery-64"
-  [![][]]: http://www.fatihhayrioglu.com/images/firequery-64.png
-  [1]: http://www.fatihhayrioglu.com/images/firequery11.gif
+  [![][]]: /images/firequery-64.png
+  [1]: /images/firequery11.gif
     "firequery1"
-  [![][1]]: http://www.fatihhayrioglu.com/images/firequery11.gif
-  [2]: http://www.fatihhayrioglu.com/images/firequery21.gif
+  [![][1]]: /images/firequery11.gif
+  [2]: /images/firequery21.gif
     "firequery2"
-  [![][2]]: http://www.fatihhayrioglu.com/images/firequery21.gif
-  [3]: http://www.fatihhayrioglu.com/images/firequery41.gif
+  [![][2]]: /images/firequery21.gif
+  [3]: /images/firequery41.gif
     "firequery4"
-  [![][3]]: http://www.fatihhayrioglu.com/images/firequery41.gif
-  [4]: http://www.fatihhayrioglu.com/images/firequery51.gif
+  [![][3]]: /images/firequery41.gif
+  [4]: /images/firequery51.gif
     "firequery5"
-  [![][4]]: http://www.fatihhayrioglu.com/images/firequery51.gif
+  [![][4]]: /images/firequery51.gif
   [http://firequery.binaryage.com/]: http://firequery.binaryage.com/
   [https://addons.mozilla.org/en-US/firefox/addon/12632/]: https://addons.mozilla.org/en-US/firefox/addon/12632/
   [http://elijahmanor.com/webdevdotnet/post/digging-into-the-firequery-add-on-for-jquery.aspx]: http://elijahmanor.com/webdevdotnet/post/digging-into-the-firequery-add-on-for-jquery.aspx

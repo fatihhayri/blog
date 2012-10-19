@@ -13,7 +13,7 @@ bazı ülkelerinde rolü var ama yinede biz üstümüze düşüne yapmamışız.
 Kitap bize işin aslını gösteriyor, belgeler ve araştırmalar ışığında.
 Ayrıntılı bilgi için [tıklayınız.][]
 
-  [Sürgünden Soykırma Ermeni İddaları - Yusuf Halaçoğlu]: http://www.fatihhayrioglu.com/images/surgunden.thumbnail.gif
-  [![Sürgünden Soykırma Ermeni İddaları - Yusuf Halaçoğlu][]]: http://www.fatihhayrioglu.com/images/surgunden.gif
+  [Sürgünden Soykırma Ermeni İddaları - Yusuf Halaçoğlu]: /images/surgunden.thumbnail.gif
+  [![Sürgünden Soykırma Ermeni İddaları - Yusuf Halaçoğlu][]]: /images/surgunden.gif
     "Sürgünden Soykırma Ermeni İddaları - Yusuf Halaçoğlu"
   [tıklayınız.]: http://www.kitapyurdu.com/kitap/default.asp?id=100147

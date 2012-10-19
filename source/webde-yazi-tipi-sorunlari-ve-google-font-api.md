@@ -142,8 +142,8 @@ Kalın Sağlıcakla
     "@font-face kullanımı"
   [CSS ile metinlere gölge vermek]: http://www.fatihhayrioglu.com/css-ile-metinlere-golge-vermek/
     "CSS ile metinlere gölge vermek"
-  [1]: http://www.fatihhayrioglu.com/images/fontface_destek_tablosu.gif
-  [2]: http://www.fatihhayrioglu.com/images/anti_aliasing.gif
+  [1]: /images/fontface_destek_tablosu.gif
+  [2]: /images/anti_aliasing.gif
   [-webkit-font-smoothing]: http://maxvoltar.com/archive/-webkit-font-smoothing
     "-webkit-font-smoothing"
   [Google Font API]: http://code.google.com/intl/tr-TR/apis/webfonts/

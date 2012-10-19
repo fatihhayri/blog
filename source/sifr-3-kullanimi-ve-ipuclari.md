@@ -162,8 +162,8 @@ kısmınaeklerseniz güzel bir dokümantasyon oluşturmuş oluruz.
 
 </p>
 
-  []: http://www.fatihhayrioglu.com/images/sifr1.gif "sifr"
-  [![][]]: http://www.fatihhayrioglu.com/images/sifr1.gif
+  []: /images/sifr1.gif "sifr"
+  [![][]]: /images/sifr1.gif
   [daha öncede bahsettiğimiz gibi]: http://www.fatihhayrioglu.com/webde-yazi-tipi-sorunlari-ve-google-font-api/
     "daha öncede bahsettiğimiz gibi"
   [Metin Yerine Resim/Flash Ekleme Teknikleri (Image Replacement)]: http://www.fatihhayrioglu.com/metin-yerine-resimflash-ekleme-teknikleri-image-replacement/

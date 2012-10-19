@@ -6,4 +6,4 @@ Category: Kitaplar
 Abdülhamid hakkında bilgi edinmek isteyenler için güzel bir kitap.
 Değerini iş geçtikten sonra anlayıp vahlayanların itirafları.
 
-  [Sultan Albdülhamid Han Hakkında Meşhurların İtirafları]: http://www.fatihhayrioglu.com/images/sultanhamid_meshur.thumbnail.jpg
+  [Sultan Albdülhamid Han Hakkında Meşhurların İtirafları]: /images/sultanhamid_meshur.thumbnail.jpg
