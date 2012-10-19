@@ -23,7 +23,8 @@ belirleriz
 
 Sonrasında CSS kodumuzu yazarsak;
 
-[sourcecode language='css']img.yuzdeCubugu { background:
+	:::css
+	img.yuzdeCubugu { background:
 url(/images/yuzdeCubugu_ard.gif) top left no-repeat; padding: 0;
 margin: 0; } 
 
@@ -79,7 +80,8 @@ Aynı şekilde **McCain**'in yüzdesini de hesaplarsak. 100 - 44 - = -54px
 
 CSS kodumuz;
 
-[sourcecode language='css'] h1{ font:18px Arial, Helvetica, sans-serif;
+	:::css
+	 h1{ font:18px Arial, Helvetica, sans-serif;
 color:#666; } p{ font:bold 12px Arial, Helvetica, sans-serif;
 margin-bottom:5px; color:#666; } img.yuzde1 {
 background:url(gosteri1.gif) 0 0 no-repeat; padding: 0; margin: 0; }

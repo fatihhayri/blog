@@ -13,14 +13,16 @@ kısmı geçip sonrasına devam ediyoruz. <!--more-->
 Kaldığımız yerden devam edersek. Linkleri yatay olarak dizmek için
 **display:inline** özelliğini kullanıyoruz:
 
-[sourcecode language='css'] ul.menu { list-style-type: none; padding: 0;
+	:::css
+	 ul.menu { list-style-type: none; padding: 0;
 margin: 0; } ul.menu li { display: inline; } 
 
 ![][]
 
 Linklerin altındaki çizgileri kaldırıyoruz:
 
-[sourcecode language='css'] ul.menu { list-style-type: none; padding: 0;
+	:::css
+	 ul.menu { list-style-type: none; padding: 0;
 margin: 0; } ul.menu li { display: inline; } ul.menu li a {
 text-decoration: none; } 
 
@@ -28,7 +30,8 @@ text-decoration: none; }
 
 Linkler arasına biraz boşluk veriyoruz:
 
-[sourcecode language='css'] ul.menu { list-style-type: none; padding: 0;
+	:::css
+	 ul.menu { list-style-type: none; padding: 0;
 margin: 0; } ul.menu li { display: inline; } ul.menu li a {
 text-decoration: none; padding: .2em 1em; } 
 
@@ -36,7 +39,8 @@ text-decoration: none; padding: .2em 1em; }
 
 Menüyü biraz renklendiriyoruz:
 
-[sourcecode language='css']ul.menu { list-style-type: none; padding: 0;
+	:::css
+	ul.menu { list-style-type: none; padding: 0;
 margin: 0; } ul.menu li { display: inline; } ul.menu li a {
 text-decoration: none; padding: .2em 1em; color: #1B1B1B;
 background-color: #E2E2E2; } 
@@ -46,7 +50,8 @@ background-color: #E2E2E2; }
 Son olarakta rollover efekti vermek için **a:hover** özelliğine renk
 atıyoruz:
 
-[sourcecode language='css'] ul.menu { list-style-type: none; padding: 0;
+	:::css
+	 ul.menu { list-style-type: none; padding: 0;
 margin: 0; } ul.menu li { display: inline; } ul.menu li a {
 text-decoration: none; padding: .2em 1em; color: #1B1B1B;
 background-color: #E2E2E2; } ul.menu li a:hover { background-color:

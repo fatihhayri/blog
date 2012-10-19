@@ -43,7 +43,8 @@ web sayfası hazırlama imkanı verir.
 yüzdesel değeri yaklaşık olarak 62.5% civarındadır. Bu belirtilen
 değerlere göre kodumuzu yazarsak:
 
-[sourcecode language='css'] body{ text-align:center; font-size:62.5%;
+	:::css
+	 body{ text-align:center; font-size:62.5%;
 font-family:Arial, Helvetica, sans-serif; } #sayfa{ width:72em;
 margin:0 auto; text-align:left; } #ustAlan { width:72em; } #anaMenu {
 float: left; width: 18em; } #KapsayiciAlan { float: right; width: 52em;

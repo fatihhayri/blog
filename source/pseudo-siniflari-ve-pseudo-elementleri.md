@@ -12,9 +12,11 @@ böler) **Pseudo elementi** ise bir elementi alt kısımlara böler (örneğin
 bir paragrafın ilk harfi, bir paragrafın ilk satırı gibi.)<!--more-->
 Pseudo sınıfına örnek: 	:::css
 	 a:visited { color:
-red; }  Pseudo elementine örnek: [sourcecode language="css"] p:first-line { font-weight: bold; }  Pseudo
+red; }  Pseudo elementine örnek: 	:::css
+	 p:first-line { font-weight: bold; }  Pseudo
 sınıf ve elemtleri HTML class özelliği olarak belirtilmemiştir. Normal
-sınıflar pseudo sınıf ve elementleri ile kullanılabilir. [sourcecode language="css"] a.disariyalinkller:link, a.disariyalinkller:visited {
+sınıflar pseudo sınıf ve elementleri ile kullanılabilir. 	:::css
+	 a.disariyalinkller:link, a.disariyalinkller:visited {
 color: maroon; }  Aynı şekilde id seçicileri ile birlikte
 de kullanılabilirler 	:::css
 	 a#altkisim:link{
@@ -65,7 +67,8 @@ ile geldiğimizde renk değiştirmesini sağlamak için Linkler için genel
 kullanım 	:::css
 	 a:link { color: navy; } a:visited {
 color: gray; } a:hover { color: red; } a:active { color: yellow; }
- **:focus** için bir örnek verecek olursak [sourcecode language="css"] input:focus { background: silver; font-weight: bold; }
+ **:focus** için bir örnek verecek olursak 	:::css
+	 input:focus { background: silver; font-weight: bold; }
 
 
 <div class="tarayiciuyum">

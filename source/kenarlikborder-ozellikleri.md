@@ -40,7 +40,8 @@ değeri varsa tüm kenarlık değeri ataması yapılmış demektir. Eğer iki
 veya üç değer ataması yapılmış ise [margin][]'de gördüğümüz sıralama söz
 konusudur.
 
-[sourcecode language='css'] p.yeni { border-style: solid; }
+	:::css
+	 p.yeni { border-style: solid; }
 
 
 <div class="tarayiciuyum">
@@ -67,7 +68,8 @@ CSS Profile 1.0
 border-left-style** border-style özelliğinin her kenara ayrı ayrı
 atamasını yapabilmek için kullanılır.
 
-[sourcecode language='css'] h1{ border-style: solid; border-left-style:
+	:::css
+	 h1{ border-style: solid; border-left-style:
 none; } 
 
 <div class="tarayiciuyum">
@@ -93,7 +95,8 @@ CSS Profile 1.0
 için **border-width** değeri kullanılır.
 
 <p>
-**border-width** yüzde değeri alamaz. [sourcecode language='css'] p {
+**border-width** yüzde değeri alamaz. 	:::css
+	 p {
 margin: 5px; background-color: silver; border-style: solid;
 border-width: 1px; }
 
@@ -124,7 +127,8 @@ inherit
 border-left-width** border-width özelliğinin her kenara ayrı ayrı
 atamasını yapabilmek için kullanılır.
 
-[sourcecode language='css'] h2 { border-left-width: medium;
+	:::css
+	 h2 { border-left-width: medium;
 border-style: solid; } 
 
 <div class="tarayiciuyum">
@@ -150,7 +154,8 @@ CSS Profile 1.0
 **border-color** özelliği kenarlık rengini belirler. (X)html'deki
 **bordercolor** ile benzerdir.
 
-[sourcecode language='css'] p { border-style: solid; border-color: gray;
+	:::css
+	 p { border-style: solid; border-color: gray;
 } 
 
 Tek değer tüm kenarlık renklerini belirler, her kenar için ayrı renk
@@ -183,7 +188,8 @@ için kullanılır.
 CSS2 ile birlikte gelen transparent özelliği vardır ki bu kenarlığı yok
 etmez sadece görünmez yapar.
 
-[sourcecode language='css'] p { border-style: solid; border-color: gray;
+	:::css
+	 p { border-style: solid; border-color: gray;
 } 
 
 Tek değer tüm kenarlık renklerini belirler, her kenar için ayrı renk
@@ -210,13 +216,15 @@ CSS Profile 1.0
 **border**yukarıda sıraladığımız özellikleri tek sefer de tanımlamak
 için kullanılır. Bir [kısaltmadır][].
 
-[sourcecode language='css'] h1 { border: thick silver solid; }
+	:::css
+	 h1 { border: thick silver solid; }
 
 
 Bu özellikleri tek tek atamak isteseydik şöyle bir kod yazmamız
 gerekecekti.
 
-[sourcecode language='css'] h1 { border-top: thick silver solid;
+	:::css
+	 h1 { border-top: thick silver solid;
 border-bottom: thick silver solid; border-right: thick silver solid;
 border-left: thick silver solid; }
 

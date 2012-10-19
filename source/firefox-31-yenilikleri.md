@@ -56,7 +56,8 @@ Mac ve Windows kullanıcıları için eklenen bu özelikle Linux için Firefox
 
 Beni en çok sevindiren özelliği bu oldu açıkçası.
 
-[sourcecode language='css'] @font-face { font-family: "Bitstream Vera
+	:::css
+	 @font-face { font-family: "Bitstream Vera
 Serif Bold"; src:
 url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
 } 

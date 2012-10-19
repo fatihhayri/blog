@@ -84,7 +84,8 @@ değerine 20px tanımlarsak element bulunduğu yerden 20px aşağıya
 kayacaktır, eğer elementin sol(left) değerini 20px olarak tanımlarsak
 elementimiz soldan 20px sağa doğru kayacaktır.
 
-[sourcecode language='css'] p#FarkliParagraf{ position: relative; left:
+	:::css
+	 p#FarkliParagraf{ position: relative; left:
 20px; top: 20px; } 
 
 ![CSS Nisbi konumlandırma][]
@@ -142,7 +143,8 @@ CSS Profile 2.0
 olmasını istiyorsak. Dıştaki içerik kutusunugöreceli konumlandırıp
 içindeki paragrafı mutlak konumlandırarak bu işhalledebilriz.
 
-[sourcecode language='css'] #adresler { width: 700px; height: 100px;
+	:::css
+	 #adresler { width: 700px; height: 100px;
 position: relative; } #adresler .tel { position: absolute; right: 10px;
 bottom: 10px; text-align: right; }  [sourcecode language='html']
 

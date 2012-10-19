@@ -31,14 +31,16 @@ tarafından oluşturulan bir hiledir.
 Kutu genişliği tanımlanmışsa ve padding veya kenar çizgiside
 tanımladığımızda uygulanan bu yöntem için yazdığımız kod aşağıdadır
 
-[sourcecode language='css']#icerik{ width:230px; padding:10px;
+	:::css
+	#icerik{ width:230px; padding:10px;
 margin:5px; /* Bundan sonraki kısmı ie5win sakla */ voice-family:
 ""}""; voice-family:inherit; width:200px; } html>body #icerik {
 width:200px; }
 
 Sorun olan kodumuza biz sadece
 
-[sourcecode language='css']voice-family: ""}"";
+	:::css
+	voice-family: ""}"";
 voice-family:inherit; width:200px; } html>body #icerik { width:200px;
 } 
 
@@ -58,7 +60,8 @@ element içeriğine göre genişlememesidir.
 
 Kodumuz;
 
-[sourcecode language='css'].kapsul:after { content: "."; display: block;
+	:::css
+	.kapsul:after { content: "."; display: block;
 height: 0; clear: both; visibility: hidden; } .kapsul {display:
 inline-block;} /* IE-mac de bu bolumu sakla  */ * html .kapsul
 {height: 1%;} .kapsul {display: block;} /* IE-mac bu bolumu saklam
@@ -85,7 +88,8 @@ diye tüm yorumlarımı bu şekilde yazarak bu sorundan kaçınmaya
 Son zamanlarda gelen işlerde çok rastlamam nedeni ile bu listeye son
 anda ilave ettim. IE6'nın desteklemediği min-height özelliği için
 
-[sourcecode language='css']min-height:500px; height:auto !important;
+	:::css
+	min-height:500px; height:auto !important;
 height:500px;
 
 yazmamız yeterli.

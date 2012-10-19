@@ -30,7 +30,8 @@ vertical-align:middle; CSS kodu bu kodun yerini alıyor ve doğrulamadan
 geçiyor. Bunun için bir CSS sınıfı oluşturup gerekli yerlerde bu sınıfı
 eklersek sorunumuz çözülüyor.
 
-[sourcecode language='css'] .absmiddle { vertical-align:middle; }
+	:::css
+	 .absmiddle { vertical-align:middle; }
  Küçük bir ipucu olarak akılda kalmasında yarar var.
 
 -   [http://www.webmasterworld.com/forum21/4250.htm][]

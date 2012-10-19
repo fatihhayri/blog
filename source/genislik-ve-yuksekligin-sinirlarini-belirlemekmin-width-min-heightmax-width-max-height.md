@@ -19,7 +19,8 @@ elementlere
 min-width, min-height kapsayıcı kutunun minimum alacağı değerleri
 belirtmek için kullanırız.
 
-[sourcecode language='css'] p.menu { float:left; width:200px;
+	:::css
+	 p.menu { float:left; width:200px;
 min-width:150px; } 
 
 <div class="tarayiciuyum">
@@ -50,7 +51,8 @@ elementlere
 max-width, max-height kapsayıcı kutunun maksimum alacağı değerleri
 belirtmek için kullanırız.
 
-[sourcecode language='css'] p.menu { float:left; width:200px;
+	:::css
+	 p.menu { float:left; width:200px;
 max-width:400px; }
 
 <div class="tarayiciuyum">
@@ -75,7 +77,8 @@ IE için bir çözüm vardır. **expression()** özelliği bu özellik sadece IE
 tarafından yorumlanır. Bu özellik dinamik özellik olarak tanımlanır.
 Yani bu kod normalde bir javascript kodudur.
 
-[sourcecode language='css'] #icerik { min-width: 600px; max-width:
+	:::css
+	 #icerik { min-width: 600px; max-width:
 1200px; width:expression(document.body.clientWidth < 600? "600px" :
 document.body.clientWidth > 1200? "1200px" : "auto"); }
 
@@ -92,7 +95,8 @@ atanan değeri alacak değilse auto değeri alacaktır.
 
 Ayrıca min-height için daha kısa bir çözüm vardır
 
-[sourcecode language='css'] #menu { min-height:500px; height:auto
+	:::css
+	 #menu { min-height:500px; height:auto
 !important; height:500px; } 
 
 </p>

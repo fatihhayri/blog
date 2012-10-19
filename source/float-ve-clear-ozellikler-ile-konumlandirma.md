@@ -37,7 +37,8 @@ benzerdir. Resimleri konumlandırmak için kullanılan bu yöntem daha sonra
 CSS'in olaya el atması ile tüm elementler için kullanıla geldi. Ayrıca
 float özelliği çoklu kolon oluşturmak için de kullanılır.
 
-[sourcecode language='css'] img { float:left; margin:0 4px 4px 0; }
+	:::css
+	 img { float:left; margin:0 4px 4px 0; }
 
 
 **float:left** ataması yapılan resim sola dayanacak ve metin bu resmin
@@ -67,7 +68,8 @@ Aşağıdaki şekilde **float:left** tanımlaması yapılarak 1.kutu kapsayıcı
 kutunun en soluna dayanmıştır. Diğer iki kutu ise normal akışına devam
 etmektedir.
 
-[sourcecode language='css'] p { float:left; width:200px; margin:0; } img
+	:::css
+	 p { float:left; width:200px; margin:0; } img
 { float:left; margin:0 4px 4px 0; } 
 
 Burada her iki elemente de float uygulanarak metnin resmi sarmasına son

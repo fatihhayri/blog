@@ -26,7 +26,8 @@ değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **margin-top** özelliği elementin üst kenar boşluğunu bellibir değer
 kadar veya yüzde olarak belirler.Negatif değer alabilir.
 
-[sourcecode language='css'] body { margin-top: 0 } 
+	:::css
+	 body { margin-top: 0 } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's CSS
@@ -42,7 +43,8 @@ değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **margin-right** özelliği elementin sağ kenar boşluğunu bellibir değer
 kadar veya yüzde olarak belirler.Negatif değer alabilir.
 
-[sourcecode language='css'] p.diger { margin-right: 50% } 
+	:::css
+	 p.diger { margin-right: 50% } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:** Internet Explorer 3+ Netscape 4+ Opera 3.6+ W3C's CSS
@@ -56,7 +58,8 @@ değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **Kalıtsallık:** Yok
 
 **margin-bottom** özelliği elementin alt kenar boşluğunu bellibir değer
-kadar veya yüzde olarak belirler.Negatif değer alabilir. [sourcecode language='css'] p { margin-bottom: 10px } 
+kadar veya yüzde olarak belirler.Negatif değer alabilir. 	:::css
+	 p { margin-bottom: 10px } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's CSS
@@ -72,7 +75,8 @@ değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **margin-left** özelliği elementin sol kenar boşluğunu bellibir değer
 kadar veya yüzde olarak belirler.Negatif değer alabilir.
 
-[sourcecode language='css'] p { margin-left: 10px } 
+	:::css
+	 p { margin-left: 10px } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:** Internet Explorer 3+ Netscape 4+ Opera 3.6+ W3C's CSS
@@ -89,7 +93,8 @@ Yok
 **margin** özelliği yukardaki özelliklerin tek bir özellikle uygulanması
 içinkullanılır.
 
-[sourcecode language='css'] h1 { margin: 0.25in; background-color:
+	:::css
+	 h1 { margin: 0.25in; background-color:
 silver; } h1 { margin: 10px 20px 15px 5px; } 
 
 yukarıda **h1** için margin değerleri sıralaması şöyledir:
@@ -98,7 +103,8 @@ yukarıda **h1** için margin değerleri sıralaması şöyledir:
 
 ikili ve üçlü kullanımda mevcuttur
 
-[sourcecode language='css'] h1 {margin: 0.25em 0 0.5em;} /* esittir
+	:::css
+	 h1 {margin: 0.25em 0 0.5em;} /* esittir
 '0.25em 0 0.5em 0' */ h2 {margin: 0.15em 0.2em;} /* esittir '0.15em
 0.2em 0.15em 0.2em' */ p {margin: 0.5em 10px;} /* esittir '0.5em 10px
 0.5em 10px' */ p.close {margin: 0.1em;} /* esittir '0.1em 0.1em 0.1em

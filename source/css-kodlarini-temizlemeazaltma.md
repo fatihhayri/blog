@@ -56,7 +56,8 @@ geçerlidir.
 Başlıklara serif fontu, turuncu rengi ve kenarlık ekleyelim ve
 listelerimizinde yanındaki işaretleri kaldıralım:
 
-[sourcecode language='css'] .solkolonbaslik { font-family: Georgia,
+	:::css
+	 .solkolonbaslik { font-family: Georgia,
 serif; color: #c63; border-bottom: 1px solid #ccc; } .solkolonlink {
 list-style-type: none; } .link { font-weight: bold; } 
 
@@ -103,7 +104,8 @@ atamalar yapmamıza izin verir. Mesela **#icerikAlani** kısmında ki
 yapabiliriz. Ayrıca tüm bölümlerdeki **h3**'lerede genel bir tanımlamada
 yapabilriiz.
 
-[sourcecode language='css'] h3 { font-family: Georgia, serif; /* tüm h3
+	:::css
+	 h3 { font-family: Georgia, serif; /* tüm h3
 ler için atama*/ } #icerikAlani h3 { color: red; } #menuAlani h3 {
 color: orange; } 
 
@@ -120,7 +122,8 @@ yöntemi bize çok büyük avantajlar sağlayacaktır.
 
 Örneğin SolKisim'daki linklerin rengini kırmızı yapmakl istesek.
 
-[sourcecode language='css']
+	:::css
+	
 
 <div id="solkolon">
 ### Site Hakkında
@@ -137,7 +140,8 @@ Bu site benim hakkımdadır.
 
 ve bu sınıf için css tanımı yapacak olursak.
 
-[sourcecode language='css'] a:link.kirmizilink { color: red; }
+	:::css
+	 a:link.kirmizilink { color: red; }
 
 
 Bu kodumuz sorunsuz çalışacaktır. Ancak bu kodlama metodunda ileriye
@@ -148,7 +152,8 @@ ile içerik çakışacaktır. Siyah renge kirmizi isim!
 Bunun yerine doğal seçicileri kullanrak bu işlemi yapsa idik durum
 farklı olacaktır.
 
-[sourcecode language='css'] #SolKisim li a:link { color: red; }
+	:::css
+	 #SolKisim li a:link { color: red; }
 
 
 Bu tanımla bizim işimizi görecektir. Ayrıca bir değişiklik olduğunda
@@ -161,7 +166,8 @@ kullandıkça daha iyi kavrayacağız.
 Sayfa kodlarken içeriklerimizi düzenlemek için bir çok <div> elementi
 kullanırız.
 
-[sourcecode language='css']
+	:::css
+	
 
 <div id="menu">
 -   [Fotoğraflar][]
@@ -177,7 +183,8 @@ kullandığımız düşünürsek bir çok kavrayıcı fazla katmanımız olacakt
 Eğer bu kod daki gibi katman bir blok level bir elementi kapsıyorsa
 katman kullanımına gerek yoktur. Bu katmanı kaldıra biliriz.
 
-[sourcecode language='css']
+	:::css
+	
 
 -   [Fotoğraflar][]
 -   [Dersler][]
@@ -202,7 +209,8 @@ CSS elementleri kalıtsal olan ve kalıtsal olmayan elementler diye
 ayırır. Biz kalıtsal elemnleri kullanarak bir çok fazla koddan
 kurtulabiliriz.
 
-[sourcecode language='css'] p { font-family:Verdana, Arial, sans-serif }
+	:::css
+	 p { font-family:Verdana, Arial, sans-serif }
 td { font-family:Verdana, Arial, sans-serif } li { font-family:Verdana,
 Arial, sans-serif } dt { font-family:Verdana, Arial, sans-serif } dd {
 font-family:Verdana, Arial, sans-serif } 
@@ -212,7 +220,8 @@ Yukarıdaki şekilde bir çok element içinde font tanımı yapmak yerine
 verebilriz. Bu site standartlarına uymayı kolaylaştıracak ve düzenleme
 kolaylığını sağlayacaktır.
 
-[sourcecode language='css'] body { font-family:Verdana, Arial,
+	:::css
+	 body { font-family:Verdana, Arial,
 sans-serif } 
 
 ### 4- Uygun Benzer Stilleri Gruplamak
@@ -220,7 +229,8 @@ sans-serif }
 Bir çok özelliği aynı olan stil tanımlarında farklılıklar ayrılarak aynı
 bölümler gruplanarak kod azaltılabilir.
 
-[sourcecode language='css'] h1 { font-size:120%; margin-bottom:0;
+	:::css
+	 h1 { font-size:120%; margin-bottom:0;
 font-family:Verdana,sans-serif } h2 { font-size:110%; margin-bottom:0;
 font-family:Verdana,sans-serif } h3 { font-size:100%; margin-bottom:0;
 font-family:Verdana,sans-serif } h4 { font-size:100%; margin-bottom:0;
@@ -228,7 +238,8 @@ font-family:Verdana,sans-serif }
 
 Bu kullanım yerine
 
-[sourcecode language='css'] h1,h2,h3,h4 { margin-bottom:0;
+	:::css
+	 h1,h2,h3,h4 { margin-bottom:0;
 font-family:Verdana,sans-serif } h1 { font-size:120% } h2 {
 font-size:110% } h3,h4 { font-size:100% } 
 

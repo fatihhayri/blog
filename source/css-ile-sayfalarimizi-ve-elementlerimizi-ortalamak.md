@@ -11,7 +11,8 @@ inceleyelim. <!--more-->
 
 ### 1- Genişleyebilir blok-level elementleri ortalamak
 
-[sourcecode language='css'] .ortala { margin-left: 10%; margin-right:
+	:::css
+	 .ortala { margin-left: 10%; margin-right:
 10%; }  [sourcecode language='html']
 
 Lorem Ipsum is simply dummy text of the printing and
@@ -34,7 +35,8 @@ W3C'de bu konu hakkında şu ifade mevcuttur: **"Eğer margin-left ve
 margin-right değerleri auto verilirse bu blokun ortalanması anlamına
 gelir."**
 
-[sourcecode language='css'] .ortala2 { margin-left: auto; margin-right:
+	:::css
+	 .ortala2 { margin-left: auto; margin-right:
 auto; width: 50em; } 
 
 NN4 (Mac and Win), Win/IE4, Win/IE5, Win/IE5.5, Win/IE6 (Garip mod :
@@ -46,7 +48,8 @@ hariç)
 Bu metodu desteklemeyen web tarayıcıları için body etiketine
 **text-align:center** ataması yaptığımızda sorun çözülmüş demektir.
 
-[sourcecode language='css'] body { text-align: center; } .ortala2 {
+	:::css
+	 body { text-align: center; } .ortala2 {
 margin-left: auto; margin-right: auto; width: 50em; } 
 
 Yanlız bir sorunumuz daha var. **text-align:center** ataması body
@@ -54,7 +57,8 @@ içindeki tüm elementlerin ortalanmasına neden olacaktır. Bunu engellemek
 için bir katman oluşturup bu katman da hizalama değerini başlangıç
 değerine(yani sola yaslamalıyız) çevirmeliyiz.
 
-[sourcecode language='css'] body { text-align: center; } .ortala2 {
+	:::css
+	 body { text-align: center; } .ortala2 {
 margin-left: auto; margin-right: auto; width: 50em; text-align: left; }
 
 
@@ -69,7 +73,8 @@ kullanmaya gerek yoktur. Genişlik tanımı yapılan göreceli
 konumlandırılmış elementin **margin-left** değeri element genişliğinin
 yarısı(1/2) kadar verilerek sağlanır.
 
-[sourcecode language='css'] .ortala3 { width: 720px; position: relative;
+	:::css
+	 .ortala3 { width: 720px; position: relative;
 left: 50%; margin-left: -360px; } 
 
 Burada sizlere bir iki metodla element ortalamayı gösterdik. Siz

@@ -16,7 +16,8 @@ değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **padding-top** özelliği içerik alanı ile üst kenarlık
 arasındakimesafeyi belirler.
 
-[sourcecode language='css'] h2 { padding-left: 0.25in; } 
+	:::css
+	 h2 { padding-left: 0.25in; } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's CSS
@@ -32,7 +33,8 @@ değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **padding-right** özelliği içerik alanı ile sağ kenarlık
 arasındakimesafeyi belirler.
 
-[sourcecode language='css'] h2 { padding-right: 0.25in; } 
+	:::css
+	 h2 { padding-right: 0.25in; } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's CSS
@@ -46,7 +48,8 @@ değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **Kalıtsallık:** Yok
 
 **padding-bottom** özelliği içerik alanı ile alt kenarlık
-arasındakimesafeyi belirler. [sourcecode language='css'] h2 {
+arasındakimesafeyi belirler. 	:::css
+	 h2 {
 padding-bottom: 0.25in; } 
 
 <div class="tarayiciuyum">
@@ -63,7 +66,8 @@ değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 **padding-left** özelliği içerik alanı ile sol kenarlık
 arasındakimesafeyi belirler.
 
-[sourcecode language='css'] h2 { padding-left: 0.25in; } 
+	:::css
+	 h2 { padding-left: 0.25in; } 
 
 <div class="tarayiciuyum">
 **Browser Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 4+ W3C's CSS
@@ -79,7 +83,8 @@ elementler **Kalıtsallık:** Yok
 **padding**özelliği padding-top, padding-right, padding-bottomve
 padding-left değerlerini kısayoldan atamak için kullanılır.
 
-[sourcecode language='css'] h1 { padding: 10px; background-color:
+	:::css
+	 h1 { padding: 10px; background-color:
 silver; } 
 
 [margin][]'deki gibi farklı kullanım şekilleri mevcuttur.

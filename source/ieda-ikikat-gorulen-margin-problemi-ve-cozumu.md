@@ -10,13 +10,15 @@ mesafe 200px görünecektir. <!--more-->
 
 ![][]
 
-[sourcecode language='css'] .kapsul1 { float: left; width: 150px;
+	:::css
+	 .kapsul1 { float: left; width: 150px;
 height: 150px; margin-left: 100px; }  Bu hataya yanlızca
 float ve margin atamalarını beraber kullandığımız blok-level
 elementlerde karşılaşmaktayız. Bu element'ten sonraki elementlerde bu
 hata görülmeyecektir. Yani bu hataya sadece ilk float-margin uygulanan
 blok-level element maruz kalacaktır. Çözümü ise çok basit
-**display:inline** tanımlaması bizim sorunumuzu çözecektir. [sourcecode language='css'] .kapsul1 { float: left; width: 150px; height: 150px;
+**display:inline** tanımlaması bizim sorunumuzu çözecektir. 	:::css
+	 .kapsul1 { float: left; width: 150px; height: 150px;
 margin-left: 100px; display: inline; }  Bu makale
 hazırlanırken [positioniseverything.net][] yararlanılmıştır. Daha
 ayrıntılı bilgiyi bu sitede bulabilirsiniz.(eng)

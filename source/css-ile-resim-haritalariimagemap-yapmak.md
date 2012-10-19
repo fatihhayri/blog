@@ -49,7 +49,8 @@ resimde üzerini çizdiğimiz ve bilgisini gösterdiğimiz elemanlarada(<li
 class="dexter"> ve <li class="html">) mutlak konumlandırma ile
 tanımlayıp resmin üzerinde istediğimiz konuma yerleştiriyoruz.
 
-[sourcecode language='css'] ul#foto{ width: 500px; height: 331px;
+	:::css
+	 ul#foto{ width: 500px; height: 331px;
 position: relative; background: url(images/dexter.jpg) no-repeat;
 margin: 0; padding: 0; list-style: none; } 
 
@@ -57,7 +58,8 @@ Aşağıdaki kodda her bir haritalanacak nesne bir link olduğu için her
 birine tek tek atamaktansa genel bir tanım ile tüm linkleri mutlak
 konumlandırıyoruz ve kenar çizgisini tanımlıyoruz.
 
-[sourcecode language='css'] ul#foto a { position: absolute; color:
+	:::css
+	 ul#foto a { position: absolute; color:
 #000; text-decoration: none; border: 1px solid transparent; }
 
 
@@ -72,7 +74,8 @@ yaptık. Firefox için -moz-border-radius: 3px; Safari ve Google Chrome
 için  -webkit-border-radius: 3px; tanımlarını yaptık. Internet Explorer
 kullanıcıları için şimdilik bir çözüm yok.
 
-[sourcecode language='css'] ul#foto .dexter a { width: 110px; height:
+	:::css
+	 ul#foto .dexter a { width: 110px; height:
 175px; top: 25px; left: 60px; } ul#foto .html a { width: 50px; height:
 80px; top: 195px; left: 408px; } ul#foto a .bilgi { position: absolute;
 bottom: -25px; width: 100%; padding: 2px; background-color:#ffc;
@@ -88,7 +91,8 @@ yükseklerinin 2px daha düşük değerlerini vererek üst üste binmelerini
 önledik ve görünümünü düzenlemiş olduk. Eğer istersek bu <span>
 etiketlerini kaldırabiliriz, daha sade bir görünüm olur.
 
-[sourcecode language='css'] ul#foto a .dis, ul#foto a .ic { display:
+	:::css
+	 ul#foto a .dis, ul#foto a .ic { display:
 block; } ul#foto .dexter a .dis { width: 108px; height: 173px; }
 ul#foto .html a .dis { width: 48px; height: 78px; } ul#foto .dexter a
 .ic { width: 106px; height: 171px; } ul#foto .html a .ic { width: 46px;
@@ -98,14 +102,16 @@ Fare haritalanan alanların üzerine gelince çıkacak bilgilendirme
 alanının yerini belirliyoruz. - 3000px ile görüntüden çıkardığımız bilgi
 alanını görünür yapıp istediğimiz yere yerleştirdik.
 
-[sourcecode language='css']ul#foto a:hover .bilgi { left: 60px; }
+	:::css
+	ul#foto a:hover .bilgi { left: 60px; }
 
 
 Tüm resmin üzerine gelindiğinde ve haritalanan alanların üzerine
 gelindiğinde kenar çizgi renklerini değiştirerek farklı bir görünüm
 kazandırıyoruz.
 
-[sourcecode language='css'] ul#foto a:hover { border-color: #d4d82d; }
+	:::css
+	 ul#foto a:hover { border-color: #d4d82d; }
 ul#foto:hover a .dis, ul#foto a:hover .dis { border: 1px solid #000;
 } ul#foto:hover a .ic, ul#foto a:hover .ic { border: 1px solid #fff;
 } 
