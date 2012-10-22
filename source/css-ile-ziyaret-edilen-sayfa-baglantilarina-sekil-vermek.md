@@ -29,7 +29,9 @@ değiştirmediğimiz müddetçe. Biz bağlantıya genel tanım yaptığımızda 
 yazpıyoruz.
 
 	:::css
-	 a{color:#f00;} 
+	a{
+		color:#f00;
+	} 
 
 ![genel_bag_renk][]
 
@@ -40,8 +42,9 @@ Bizim amacımız ziyaret edilmiş bağlantıları farklı stil ile belirterek
 ayrımı göstermek. Bir çok yerde  yazı üstünü çizerek belirlenir.
 
 	:::css
-	 a:visited { text-decoration: line-through; }
-
+	a:visited {
+		text-decoration: line-through;
+	}
 
 ![ziy_sayfa_uzeri_ciz][]
 
@@ -52,9 +55,12 @@ sağlamış oluyoruz. [http://www.evalotta.net/][] sitesi buna çok güzel
 bir örnek.
 
 	:::css
-	 a:visited { padding-right:20px;
-background:url(images/ziyaret_edilmis_baglanti.gif) right top
-no-repeat; color:#666; text-decoration:none; } 
+	a:visited {
+		padding-right:20px;
+		background:url(images/ziyaret_edilmis_baglanti.gif) right top no-repeat; 
+		color:#666; 
+		text-decoration:none;
+	} 
 
 ![ziy_sayfa_oki][]
 
@@ -77,35 +83,19 @@ Kaynak
 -   [http://www.sitepoint.com/blogs/2004/05/23/getting-creative-with-visited-links/][]
 -   [http://www.useit.com/alertbox/20040510.html][]
 
-</p>
-
   [Sözde sınıf ve elementler makalesinde]: http://www.fatihhayrioglu.com/pseudo-siniflari-ve-pseudo-elementleri/
-    "Sözde sınıf ve elementler kısmında"
   [http://www.evalotta.net/]: http://www.evalotta.net/
-    "http://www.evalotta.net/"
   [stadart_ff]: /images/stadart_ff.gif
-    "stadart_ff"
   [genel_bag_renk]: /images/genel_bag_renk.gif
-    "genel_bag_renk"
   [ziy_sayfa_uzeri_ciz]: /images/ziy_sayfa_uzeri_ciz.gif
-    "ziy_sayfa_uzeri_ciz"
   [tıklayınız.]: /dokumanlar/ziyaret_edilmis_baglantilar.html
   [ziy_sayfa_oki]: /images/ziy_sayfa_oki.gif
-    "ziy_sayfa_oki"
   [1]: /dokumanlar/ziyaret_edilmis_baglantilar2.html
   [http://9lessons.blogspot.com/2009/06/css-visited-tips-strike-out.html]: http://9lessons.blogspot.com/2009/06/css-visited-tips-strike-out.html
-    "http://9lessons.blogspot.com/2009/06/css-visited-tips-strike-out.html"
   [http://webdesign.maratz.com/lab/visited_links_styling/]: http://webdesign.maratz.com/lab/visited_links_styling/
-    "http://webdesign.maratz.com/lab/visited_links_styling/"
   [http://www.webmonkey.com/tutorial/Control_Visited_Link_Colors_With_CSS]: http://www.webmonkey.com/tutorial/Control_Visited_Link_Colors_With_CSS
-    "http://www.webmonkey.com/tutorial/Control_Visited_Link_Colors_With_CSS"
   [http://css-tricks.com/put-checkmarks-next-to-visted-links-with-pure-css/]: http://css-tricks.com/put-checkmarks-next-to-visted-links-with-pure-css/
-    "http://css-tricks.com/put-checkmarks-next-to-visted-links-with-pure-css/"
   [http://www.westciv.com/style_master/house/tutorials/quick/visited_links/index.html]: http://www.westciv.com/style_master/house/tutorials/quick/visited_links/index.html
-    "http://www.westciv.com/style_master/house/tutorials/quick/visited_links/index.html"
   [http://onemarco.com/2007/06/06/better-visited-links/]: http://onemarco.com/2007/06/06/better-visited-links/
-    "http://onemarco.com/2007/06/06/better-visited-links/"
   [http://www.sitepoint.com/blogs/2004/05/23/getting-creative-with-visited-links/]: http://www.sitepoint.com/blogs/2004/05/23/getting-creative-with-visited-links/
-    "http://www.sitepoint.com/blogs/2004/05/23/getting-creative-with-visited-links/"
   [http://www.useit.com/alertbox/20040510.html]: http://www.useit.com/alertbox/20040510.html
-    "http://www.useit.com/alertbox/20040510.html"

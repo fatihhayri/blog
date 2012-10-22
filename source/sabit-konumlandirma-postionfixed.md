@@ -37,27 +37,34 @@ aramaya sevk ediyor. Buda bize bir makale yazma gereksinimi doğuruyor.
 şeklidir.
 
 	:::html
-	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
-1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
-xmlns="http://www.w3.org/1999/xhtml"> <head> <style
-type="text/css"> body { margin:0; padding:0; } div#ustKisim {
-position:fixed; background: gray; color: yellow; height:50px;
-width:100%; top:0; left:0; } div#icerik { margin:75px 0 0 0; }
-</style> </head> <body> <div id="ustKisim">Lorem ipsum dolor sit
-amet</div> <div id="icerik"> <p>Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit. Aliquam nec erat. Fusce magna massa,
-nonummy eget, aliquam tempus, imperdiet vel, odio. Sed mauris. Quisque
-sodales urna vitae lorem. Vestibulum aliquet, odio aliquam convallis
-lobortis, turpis metus semper ligula, ut vulputate sem justo eu quam.
-Sed feugiat, lectus sit amet porttitor auctor, nulla odio volutpat nisl,
-sit amet egestas augue diam at urna. Sed justo arcu, luctus eget, porta
-in, auctor sit amet, massa. Integer interdum. Nunc condimentum
-scelerisque enim. Pellentesque orci. Maecenas at neque. Sed non diam ac
-turpis pretium dictum. Phasellus ligula felis, aliquet nec, tristique
-non, posuere a, magna. Duis eu quam quis tortor vehicula sodales. Donec
-et mi eget augue bibendum interdum. Proin dapibus odio.</p> </body>
-</html> 
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+	<html xmlns="http://www.w3.org/1999/xhtml"> 
+	<head> 
+	<style type="text/css"> 
+	body { 
+		margin:0; 
+		padding:0; 
+	} 
+	div#ustKisim { 
+		position:fixed; 
+		background: gray; 
+		color: yellow; 
+		height:50px; 
+		width:100%; 
+		top:0; 
+		left:0; 
+	} 
+	div#icerik { 
+		margin:75px 0 0 0; 
+	} 
+	</style> 
+	</head> 
+	<body> 
+		<div id="ustKisim">Lorem ipsum dolor sit amet</div> 
+		<div id="icerik"> 
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam nec erat. Fusce magna massa, nonummy eget, aliquam tempus, imperdiet vel, odio. Sed mauris. Quisque sodales urna vitae lorem. Vestibulum aliquet, odio aliquam convallis lobortis, turpis metus semper ligula, ut vulputate sem justo eu quam. Sed feugiat, lectus sit amet porttitor auctor, nulla odio volutpat nisl, sit amet egestas augue diam at urna. Sed justo arcu, luctus eget, porta in, auctor sit amet, massa. Integer interdum. Nunc condimentum scelerisque enim. Pellentesque orci. Maecenas at neque. Sed non diam ac turpis pretium dictum. Phasellus ligula felis, aliquet nec, tristique non, posuere a, magna. Duis eu quam quis tortor vehicula sodales. Donec et mi eget augue bibendum interdum. Proin dapibus odio.</p> 
+	</body> 
+	</html>
 
 Örneği görmek için [tıklayınız.][]
 
@@ -73,20 +80,51 @@ metodda bu komut yardımı ile **position:fixed** sorununu çözeceğiz.
 **expression()** yardımı ile daha önce IE'nin [min-width ve min-height sorununu][] çözdüğümüzü hatırlayın.
 
 	:::html
-	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
-1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
-http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Sabit Konumlandırma</title> <style> body { background:
-#ffc; font: 12px sans-serif; margin: 0; padding: 0; } div#ustAlan {
-width: 100%; height: 100px; background: pink; position: fixed; top: 0;
-left: 0; z-index:100; } #icerik{ position:absolute; top:105px; }
-</style> <!–[if lt IE 7]> <style> body { background: #ffc
-url(’http://’) fixed; } div#ustAlan { position: absolute; top:
-expression(eval(documentElement.scrollTop)); } </style> <![endif]–>
-</head> <body> <div id="ustAlan">Sabit Konumlandırma</div> <div
-id="icerik"> <p>Lorem ipsum dolor sit amet ….</p> </div>
-</body> </html> 
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+	<html xmlns="http://www.w3.org/1999/xhtml"> 
+	<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>Sabit Konumlandırma</title> 
+	<style> 
+	body { 
+		background: #ffc; 
+		font: 12px sans-serif; 
+		margin: 0; 
+		padding: 0; 
+	} 
+	div#ustAlan { 
+		width: 100%; 
+		height: 100px; 
+		background: pink; 
+		position: fixed; 
+		top: 0; 
+		left: 0; 
+		z-index:100; 
+	} 
+	#icerik{ 
+		position:absolute; 
+		top:105px; 
+	} 
+	</style> 
+	<!–[if lt IE 7]> 
+	<style> 
+	body { 
+		background: #ffc url(’http://’) fixed; 
+	} 
+	div#ustAlan { 
+		position: absolute; 
+		top: expression(eval(documentElement.scrollTop)); 
+	} 
+	</style> 
+	<![endif]–> 
+	</head> 
+	<body> 
+		<div id="ustAlan">Sabit Konumlandırma</div> 
+		<div id="icerik"> 
+		<p>Lorem ipsum dolor sit amet ….</p> 
+		</div> 
+	</body> 
+	</html> 
 
 ![Sabit Konumlandırma][]
 
@@ -103,17 +141,14 @@ yardımı ile belirlenip sabitlenmiştir.
 Ayrıca alt alanı sabitlemek için
 
 	:::css
-	 bottom: auto; top:
-expression((documentElement.scrollTop + documentElement.clientHeight –
-this.clientHeight)); 
+	bottom: auto; top: expression((documentElement.scrollTop + documentElement.clientHeight – this.clientHeight)); 
 
 Kodlaması kullanılır. Örneği görmek için [tıklayınız.][2]
 
 Sabitlemek istediğimiz nesneyi üstten 10piksel aşağıda sabitlemek için
 
 	:::css
-	 top:
-expression(eval(documentElement.scrollTop) + 10); 
+	top: expression(eval(documentElement.scrollTop) + 10); 
 
 şeklinde kodlarız. Bu kodlama tekniği kullanılarak birçok farklı şablon
 elde edilebilir.
@@ -145,8 +180,6 @@ linklerini kaynaklar kısmında sizlere vereceğim.
 -   [http://www.cssplay.co.uk/layouts/fixit.html][]  
 -   [http://www.gunlaug.no/contents/wd_additions_15.html][]
 -   [http://www.gunesintamicinde.com/ie-6-ve-position-fixed-problemi/][]  
-
-</p>
 
   [CSS ile konumlandırma(positioning)]: http://www.fatihhayrioglu.com/?p=151
     "konumlandırma makalesi"

@@ -6,8 +6,7 @@ Tags: google reader, güncel, haber, makale, rss, rss reader, yazı, yenilikleri
 ![][]Arayüz Geliştiricilerin Görev Tanımı adlı yazımda arayüz
 geliştiricilerinin görevlerini tanımlarken aşağıdaki metni kullandık.
 
--   Yenilikçi: Web mecrasındaki gelişmeleri takip etmeli ve
-    uygulamalarında bu yenilikleri gerektiğinde kullanmalıdır.
+-   Yenilikçi: Web mecrasındaki gelişmeleri takip etmeli ve uygulamalarında bu yenilikleri gerektiğinde kullanmalıdır.
 
 Çok önemli ve üzerinde durulması gereken bir noktadır bu. Birçok arayüz
 geliştiricide maalesef bu konu hakkında çaba göstermiyorlar ve buda beni
@@ -39,7 +38,7 @@ zamanla eklediler. Arama eklediler, Türkçe desteği eklediler, klasör
 yapısını eklediler, benzer öneri siteleri ekledir. Yenilik bakımından
 gayet iyi ancak yavaşlık sorununu bir türlü tam olarak halledemediler.
 
-### Google Reader Özellikleri
+## Google Reader Özellikleri
 
 **Çevirimiçi Araç**  
 En büyük avantajı çevirim için olması ve bundan dolayı her yerden
@@ -56,7 +55,7 @@ Scroll ile ilerledikçe feedlerin okundu olarak işaretlenmesini
 ayarlayabiliyoruz, benim en çok sevdiğim özelliklerinden bir tanesi.
 
 **Arama**  
-[![][1]][]
+[![][1]](/images/gr_arama.gif)
 
 Tüm RSS'leriniz arama imkanı sunuyor. Nispeten hızlı bir araması var.
 İlk başlarda yokken bunu farklı araçlarla sağlıyorduk.
@@ -70,7 +69,7 @@ sıralamaya kavuşturabiliyoruz.
 
 **Görsel Planı**
 
-[![][2]][]
+[![][2]](/images/google_reader_genel_gorunum.jpg)
 
 Google Reader'ın görünümü gayet başarılı. Solda menüde abonelikler
 listeleniyor, ayrıca sol menü üstünde genel özelliklere erişim sağlıyor,
@@ -79,20 +78,20 @@ sağda ise feedleri görüyoruz.
 Favikon desteği sayesinde siteleri daha iyi tanıma imkanı sağlıyor. Bazı
 sitelerin favori ikonlarını görmemesi bir dezavantaj.
 
-[![][3]][]
+[![][3]](/images/gr_alinma_yayinlanma_zamani.gif)
 
 Alınma ve Yayınlanama zamanını ayrı ayrı gösteriyor olması güzel.
 
-[![][4]][]
+[![][4]](/images/gr_abonelik_istatistik.gif)
 
 Feedlerin istatistiklerini kendi içinde görmemizi sağlıyor.
 
-[![][5]][]
+[![][5]](/images/gr_sakla.gif)
 
 Daha sonra okumak için "okunmadı olarak sakla" özelliği var. Ayrıca
 alttaki yıldız ekle yardımı ile de işaretleyebiliriz.
 
-[![][6]][]
+[![][6]](/images/feed_gosterimi.gif)
 
 Genişletilmiş ve Liste Şeklinde feedlerimizi listeleyebiliyoruz, benim
 tercihim genişletilmiş olarak izlemek ama çok fazla birikince listeye
@@ -110,102 +109,49 @@ Klavye kısayolları gayet başarılı. [Kısayolları listesi][] Aşağıda en
 <table cellpadding="2" cellspacing="0" height="190" width="551" style="clear:left">
 <tbody>
 <tr>
-<th>
-Kısayol
-
-</th>
-<th>
-Açıklaması
-
-</th>
+<th>Kısayol</th>
+<th>Açıklaması</th>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td bgcolor="#CCDCEC">
-n
-
-</td>
-<td bgcolor="#CCDCEC">
-sonraki öğeye geç
-
-</td>
+<td bgcolor="#CCDCEC">n</td>
+<td bgcolor="#CCDCEC">sonraki öğeye geç</td>
 </tr>
 <tr>
-<td>
-m
-
-</td>
-<td>
-okundu/okunmadı olarak işaretle
-
-</td>
+<td>m</td>
+<td>okundu/okunmadı olarak işaretle</td>
 </tr>
 <tr>
-<td bgcolor="#CCDCEC">
-t
-
-</td>
-<td bgcolor="#CCDCEC">
-öğeyi etiketle
-
-</td>
+<td bgcolor="#CCDCEC">t</td>
+<td bgcolor="#CCDCEC">öğeyi etiketle</td>
 </tr>
 <tr>
-<td>
-p
-
-</td>
-<td>
-önceki öğeye geç
-
-</td>
+<td>p</td>
+<td>önceki öğeye geç</td>
 </tr>
 <tr>
-<td bgcolor="#CCDCEC">
-shift-n
-
-</td>
-<td bgcolor="#CCDCEC">
-sonraki abonelik
-
-</td>
+<td bgcolor="#CCDCEC">shift-n</td>
+<td bgcolor="#CCDCEC">sonraki abonelik</td>
 </tr>
 <tr>
-<td>
-v
-
-</td>
-<td>
-yazının orjinalini göster
-
-</td>
+<td>v</td>
+<td>yazının orjinalini göster</td>
 </tr>
 <tr>
-<td bgcolor="#CCDCEC">
-shift-s
-
-</td>
-<td bgcolor="#CCDCEC">
-paylaş
-
-</td>
+<td bgcolor="#CCDCEC">shift-s</td>
+<td bgcolor="#CCDCEC">paylaş</td>
 </tr>
 <tr>
-<td>
-f
-
-</td>
-<td>
-tam ekran moduna geçiş
-
-</td>
+<td>f</td>
+<td>tam ekran moduna geçiş</td>
 </tr>
 </tbody>
 </table>
+
 Ayrıca gelişmiş bir kısayol çözümleri sunuyor google reader bize
 
-[![][7]][]
+[![][7]](/images/kisayollar1.gif)
 
 **g + u**
 
@@ -220,32 +166,32 @@ erişeceksiniz.
 
 **Paylaşım**
 
-[![][8]][]
+[![][8]](/images/gr_paylas.gif)
 
 Okuduğumuz yazıyı çok kolay bir şekilde paylaşabiliyoruz.
 
 **İstatistikler**
 
-[![][9]][]
+[![][9]](/images/gr_istatistik_sayfasi.gif)
 
 Google Eğilimler sayfası sayesinde istatistiklerimizi görebiliyoruz
 
 **Dil Seçenekleri**
 
-[![][10]][]
+[![][10]](/images/gr_dilime_cevir.gif)
 
 Türkçe dil desteği mevcut. Dilime çevir özelliği ile yabancı dillerdeki
 RSS'leri izlemek daha kolay, gerçi bu özellik tam randımanlı çalışmıyor.
 
 **Öneri RSS'ler**
 
-[![][11]][]
+[![][11]](/images/gr_oneri.gif)
 
 Araştır bölümü altındaki öneriler kısmı gayet başarılı  
 
 **İçe/Dışa Aktar**
 
-[![][12]][]
+[![][12]](/images/gr_iceaktar_disa_aktar.gif)
 
 Kolay bir içeri ve dışarı aktarma seçeneği ve xml tabanlı bir yapısı
 olduğu için gayet kolay düzenlene biliyor.
@@ -259,7 +205,7 @@ Google Gear ile internete bağlı olmadan da kullanım imkanı sağlıyor.
 
 **RSS olmayan siteleri takip imkanı**
 
-[![][13]][]
+[![][13]](/images/gr_rssyokmu.gif)
 
 Bazı sitelerde RSS olmaya biliyor, bu durumda ne yapacağız, Google
 Reader bu durumda da bize yardımcı oluyor. RSS olmasa da bir web
@@ -268,7 +214,7 @@ bize haber veriyor sistem.
 
 **Feed Puanı Uygulaması**
 
-[![][14]][]
+[![][14]](/images/gr_pagerank.gif)
 
   
 Son olarakta bir eklentiden bahsedeceğim. Greasmonkey ve [PageRank][]
@@ -283,7 +229,7 @@ yapabiliyoruz.
 Sol üstteki checkbox kaldırılıp işaretlenerek bu özellik kolayca
 kapatılıp açılabilir.
 
-### Google Reader'ı Güncel Tutmak ve Liste Paylaşımı
+## Google Reader'ı Güncel Tutmak ve Liste Paylaşımı
 
 Ben belli aralıklarla(2-3 ay aralığında) sol menüde üstte yer alana
 Google Eğilimlerini sayfasındaki Abonelik Eğilimleri kısmındaki "Etkin
@@ -301,7 +247,7 @@ paylaşıyorum.
 
 Google Reader Ayarlar kısmında içeri aktar diyerek ekleyebilirisiniz.
 
-### Sonuç
+## Sonuç
 
 Makale her ne kadar Google Reader kullanımı hakkında olsada burada
 anlatmak istediğim yenilikleri izlemek ve yararlı gördükleriniz okuyup
@@ -313,16 +259,13 @@ olan yenilikleri takip etmek ve geri kalmamaktır. Ferruh Mavituna'nın
 
 Çağın gerisinde kalmayın. Kendinize iyi bakın.
 
-### Kaynaklar
+## Kaynaklar
 
--   [http://www.mitchelaneous.com/2007/01/05/get-more-from-google-reader-guide/][]
-    (Google Reader yazıları)
+-   [http://www.mitchelaneous.com/2007/01/05/get-more-from-google-reader-guide/][] (Google Reader yazıları)
 -   [http://mashable.com/2009/05/19/google-reader-2/][]
 -   [http://lifehacker.com/5625876/google-reader-cuts-the-clutter-with-fullscreen-mode-new-shortcuts][]
--   [http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php][]
-    (RSS filtreleme)
--   [http://mashable.com/2007/08/23/google-reader-firefox/][] (Firefox
-    eklentileri)
+-   [http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php][] (RSS filtreleme)
+-   [http://mashable.com/2007/08/23/google-reader-firefox/][] (Firefox eklentileri)
 -   [http://ferruh.mavituna.com/verimli-bilgi-takibi-oku/][]
 -   [http://www.youtube.com/watch?v=SG6ehDYNCsk&feature=related][]
 -   [http://lifehacker.com/tag/google-reader/][]
@@ -334,87 +277,40 @@ olan yenilikleri takip etmek ve geri kalmamaktır. Ferruh Mavituna'nın
 -   [http://lifehacker.com/233712/hack-attack-getting-good-with-google-reader][]
 -   [http://labs.postrank.com/gr][]
 
-</p>
 
   []: https://docs.google.com/File?id=dhctmbn6_465drvt8nvt_b
   [1]: /images/gr_arama-300x25.gif
-    "gr_arama"
-  [![][1]]: /images/gr_arama.gif
   [2]: /images/google_reader_genel_gorunum-300x176.jpg
-    "google_reader_genel_gorunum"
-  [![][2]]: /images/google_reader_genel_gorunum.jpg
   [3]: /images/gr_alinma_yayinlanma_zamani.gif
-    "gr_alinma_yayinlanma_zamani"
-  [![][3]]: /images/gr_alinma_yayinlanma_zamani.gif
   [4]: /images/gr_abonelik_istatistik-300x177.gif
-    "gr_abonelik_istatistik"
-  [![][4]]: /images/gr_abonelik_istatistik.gif
   [5]: /images/gr_sakla-300x15.gif
-    "gr_sakla"
-  [![][5]]: /images/gr_sakla.gif
   [6]: /images/feed_gosterimi-300x162.gif
-    "feed_gosterimi"
-  [![][6]]: /images/feed_gosterimi.gif
   [http://www.fabianpimminger.com/playground/google-reader-styles/]: http://www.fabianpimminger.com/playground/google-reader-styles/
-    "http://www.fabianpimminger.com/playground/google-reader-styles/"
   [Kısayolları listesi]: http://www.google.com/support/reader/bin/answer.py?hl=en&answer=69973
-    "Kısayolları listesi"
   [7]: /images/kisayollar1-300x159.gif
-    "kisayollar1"
-  [![][7]]: /images/kisayollar1.gif
   [8]: /images/gr_paylas-300x18.gif
-    "gr_paylas"
-  [![][8]]: /images/gr_paylas.gif
   [9]: /images/gr_istatistik_sayfasi-300x152.gif
-    "gr_istatistik_sayfasi"
-  [![][9]]: /images/gr_istatistik_sayfasi.gif
   [10]: /images/gr_dilime_cevir.gif
-    "gr_dilime_cevir"
-  [![][10]]: /images/gr_dilime_cevir.gif
   [11]: /images/gr_oneri.gif "gr_oneri"
-  [![][11]]: /images/gr_oneri.gif
-  [12]: /images/gr_iceaktar_disa_aktar-300x122.gif
-    "gr_iceaktar_disa_aktar"
-  [![][12]]: /images/gr_iceaktar_disa_aktar.gif
-  [13]: /images/gr_rssyokmu.gif
-    "gr_rssyokmu"
-  [![][13]]: /images/gr_rssyokmu.gif
-  [14]: /images/gr_pagerank-300x84.gif
-    "gr_pagerank"
-  [![][14]]: /images/gr_pagerank.gif
+  [12]: /images/gr_iceaktar_disa_aktar-300x122.gif "gr_iceaktar_disa_aktar"
+  [13]: /images/gr_rssyokmu.gif "gr_rssyokmu"
+  [14]: /images/gr_pagerank-300x84.gif "gr_pagerank"
   [PageRank]: http://labs.postrank.com/gr "PageRank"
-  [Benim Google Reader Dosyam (.xml)]: http://fatihhayrioglu.com/dokumanlar/google-reader-subscriptions.xml
-  [bir makalede]: http://www.businessinsider.com/twitter-has-killed-rss-readers-traffic-to-google-reader-down-27-year-over-year-2010-9
-    "bir makalede"
-  [Verimli Bilgi Takibi]: http://ferruh.mavituna.com/verimli-bilgi-takibi-oku/
-    "Verimli Bilgi Takibi"
-  [http://www.mitchelaneous.com/2007/01/05/get-more-from-google-reader-guide/]: http://www.mitchelaneous.com/2007/01/05/get-more-from-google-reader-guide/
-    "http://www.mitchelaneous.com/2007/01/05/get-more-from-google-reader-guide/"
-  [http://mashable.com/2009/05/19/google-reader-2/]: http://mashable.com/2009/05/19/google-reader-2/
-    "http://mashable.com/2009/05/19/google-reader-2/"
-  [http://lifehacker.com/5625876/google-reader-cuts-the-clutter-with-fullscreen-mode-new-shortcuts]: http://lifehacker.com/5625876/google-reader-cuts-the-clutter-with-fullscreen-mode-new-shortcuts
-    "http://lifehacker.com/5625876/google-reader-cuts-the-clutter-with-fullscreen-mode-new-shortcuts"
-  [http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php]: http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php
-    "http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php"
+  [Benim Google Reader Dosyam (.xml)]: /dokumanlar/google-reader-subscriptions.xml
+  [bir makalede]: http://www.businessinsider.com/twitter-has-killed-rss-readers-traffic-to-google-reader-down-27-year-over-year-2010-9 "bir makalede"
+  [Verimli Bilgi Takibi]: http://ferruh.mavituna.com/verimli-bilgi-takibi-oku/ "Verimli Bilgi Takibi"
+  [http://www.mitchelaneous.com/2007/01/05/get-more-from-google-reader-guide/]: http://www.mitchelaneous.com/2007/01/05/get-more-from-google-reader-guide/ 
+  [http://mashable.com/2009/05/19/google-reader-2/]: http://mashable.com/2009/05/19/google-reader-2/ "http://mashable.com/2009/05/19/google-reader-2/"
+  [http://lifehacker.com/5625876/google-reader-cuts-the-clutter-with-fullscreen-mode-new-shortcuts]: http://lifehacker.com/5625876/google-reader-cuts-the-clutter-with-fullscreen-mode-new-shortcuts  
+  [http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php]: http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php 
   [http://mashable.com/2007/08/23/google-reader-firefox/]: http://mashable.com/2007/08/23/google-reader-firefox/
-    "http://mashable.com/2007/08/23/google-reader-firefox/"
   [http://ferruh.mavituna.com/verimli-bilgi-takibi-oku/]: http://ferruh.mavituna.com/verimli-bilgi-takibi-oku/
-    "http://ferruh.mavituna.com/verimli-bilgi-takibi-oku/"
   [http://www.youtube.com/watch?v=SG6ehDYNCsk&feature=related]: http://www.youtube.com/watch?v=SG6ehDYNCsk&feature=related
-    "http://www.youtube.com/watch?v=SG6ehDYNCsk&feature=related"
   [http://lifehacker.com/tag/google-reader/]: http://lifehacker.com/tag/google-reader/
-    "http://lifehacker.com/tag/google-reader/"
   [http://www.lifehack.org/articles/technology/10-smart-hacks-for-google-reader.html]: http://www.lifehack.org/articles/technology/10-smart-hacks-for-google-reader.html
-    "http://www.lifehack.org/articles/technology/10-smart-hacks-for-google-reader.html"
   [http://www.makeuseof.com/tag/7-cool-google-reader-features-which-you-might-have-missed/]: http://www.makeuseof.com/tag/7-cool-google-reader-features-which-you-might-have-missed/
-    "http://www.makeuseof.com/tag/7-cool-google-reader-features-which-you-might-have-missed/"
   [http://gigaom.com/collaboration/5-tips-for-getting-the-most-out-of-google-reader/]: http://gigaom.com/collaboration/5-tips-for-getting-the-most-out-of-google-reader/
-    "http://gigaom.com/collaboration/5-tips-for-getting-the-most-out-of-google-reader/"
   [http://googlesystem.blogspot.com/2010/01/track-page-changes-using-google-reader.html]: http://googlesystem.blogspot.com/2010/01/track-page-changes-using-google-reader.html
-    "http://googlesystem.blogspot.com/2010/01/track-page-changes-using-google-reader.html"
   [http://jalaj.net/2009/02/22/3-google-reader-feature-most-people-dont-use/]: http://jalaj.net/2009/02/22/3-google-reader-feature-most-people-dont-use/
-    "http://jalaj.net/2009/02/22/3-google-reader-feature-most-people-dont-use/"
   [http://lifehacker.com/233712/hack-attack-getting-good-with-google-reader]: http://lifehacker.com/233712/hack-attack-getting-good-with-google-reader
-    "http://lifehacker.com/233712/hack-attack-getting-good-with-google-reader"
   [http://labs.postrank.com/gr]: http://labs.postrank.com/gr
-    "http://labs.postrank.com/gr"
