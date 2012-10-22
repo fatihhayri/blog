@@ -47,4 +47,4 @@ TWITTER_USERNAME = "fatihhayri"
 DISQUS_SITENAME = "fatihhayri"
 GOOGLE_ANALYTICS = "UA-785768-1"
 FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),
-                 ('extra/favicon.ico', 'favicon.ico'),
+                 ('extra/favicon.ico', 'favicon.ico'))
