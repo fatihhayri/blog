@@ -13,17 +13,18 @@ sınırlandırılabiliyor. Bize bu imkanı CSS3’ün **background-clip** ve
 
 İlk olarak **background-origin** özelliğini inceleyerek başlayalım.
 
-### background-origin
+## background-origin
 
 **background-image** konumunu hesaplamada elementin kutusunun
 sınırlarını belirler. CSS3’den önce bu sabit bir değer olarak
 padding-box idi. Bu özellik bize farklı konumlandırma imkanı sağlar.
 
-**Yapısı:** background-origin: <bg-box>  
-**Aldığı Değerler:**<bg-box> border-box | padding-box | content-box  
+**Yapısı:** background-origin: <bg-box\>  
+**Aldığı Değerler:**<bg-box\> border-box | padding-box | content-box  
 **Başlangıç değeri:**padding-box  
 **Uygulanabilen elementler:** Tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 Aldığı değerleri kısaca açıklarsak
 
@@ -34,14 +35,25 @@ Aldığı değerleri kısaca açıklarsak
 ![][]
 
 	:::css
-	 #kutu1 { -moz-background-origin: border;
--webkit-background-origin: border; -webkit-background-origin:
-border-box; background-origin: border-box; } #kutu2 {
--moz-background-origin: padding; -webkit-background-origin: padding;
--webkit-background-origin: padding-box; background-origin: padding-box;
-} #kutu3 { -moz-background-origin: content; -webkit-background-origin:
-content; -webkit-background-origin: content-box; background-origin:
-content-box; } 
+	#kutu1 {
+	    -moz-background-origin: border;
+	    -webkit-background-origin: border;
+	    -webkit-background-origin: border-box;
+	    background-origin: border-box;
+	}
+	#kutu2 {
+	    -moz-background-origin: padding;
+	    -webkit-background-origin: padding;
+	    -webkit-background-origin: padding-box;
+	    background-origin: padding-box;
+	}
+	#kutu3 {
+	    -moz-background-origin: content;
+	    -webkit-background-origin: content;
+	    -webkit-background-origin: content-box;
+	    background-origin: content-box;
+	}
+	 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/Rf6Mv/embedded/result,css,html"></iframe>
 
 **background-position:fixed** tanımlı elementlere etki etmez.
@@ -52,18 +64,20 @@ Chrome 1+ (-webkit- öneki ile)
 Safari 3.0+ (-webkit- öneki ile)  
 Opera 10.5  
 İnternet Explorer 9+
+{: .tarayiciuyum}
 
-### background-clip
+## background-clip
 
 **background-clip** ardalanın nerede gösterileceğini tanımlar. Daha önce
 padding dahil içerik alanı sabit olarak geliyordu, artık border alanıda
 dahil edilebiliyor veya padding alanı kapsamdan çıkarılabiliyor
 
-**Yapısı:** background-clip: <bg-box>  
-**Aldığı Değerler:** <bg-box> border-box | padding-box | content-box  
+**Yapısı:** background-clip: <bg-box\>  
+**Aldığı Değerler:** <bg-box\> border-box | padding-box | content-box  
 **Başlangıç değeri:** border-box  
 **Uygulanabilen elementler:** Tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 Aldığı değerleri kısaca açıklarsak
 
@@ -78,19 +92,37 @@ Aldığı değerleri kısaca açıklarsak
 uygulanır.
 
 	:::css
-	 #kutu1{ -moz-background-origin: border;
--webkit-background-origin: border; -webkit-background-origin:
-border-box; background-origin: border-box; -moz-background-clip:border;
--webkit-background-clip:border; -webkit-background-clip:border-box;
-background-clip:border-box; } #kutu2{ -moz-background-origin: border;
--webkit-background-origin: border; -webkit-background-origin:
-border-box; -moz-background-clip:padding;
--webkit-background-clip:padding; -webkit-background-clip:padding-box;
-background-clip:padding-box; } #kutu3{ -moz-background-origin: border;
--webkit-background-origin: border; -webkit-background-origin:
-border-box; -moz-background-clip:content;
--webkit-background-clip:content; -webkit-background-clip:content-box;
-background-clip:content-box; } 
+	#kutu1{
+	 -moz-background-origin: border;
+	 -webkit-background-origin: border;
+	 -webkit-background-origin: border-box;
+	 background-origin: border-box;  
+	 -moz-background-clip:border;
+	 -webkit-background-clip:border;
+	 -webkit-background-clip:border-box;
+	 background-clip:border-box;
+	}
+	
+	#kutu2{
+	 -moz-background-origin: border;
+	 -webkit-background-origin: border;
+	 -webkit-background-origin: border-box;   
+	 -moz-background-clip:padding;
+	 -webkit-background-clip:padding;
+	 -webkit-background-clip:padding-box;
+	 background-clip:padding-box;  
+	}
+	
+	#kutu3{
+	      -moz-background-origin: border;
+	 -webkit-background-origin: border;
+	 -webkit-background-origin: border-box;
+	 -moz-background-clip:content;
+	 -webkit-background-clip:content;
+	 -webkit-background-clip:content-box;
+	 background-clip:content-box;  
+	}
+	 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/uzFeu/3/embedded/result,css,html"></iframe>
 
 **background-origin:border-box** olarak tanımladığımızda
@@ -104,6 +136,7 @@ Chrome 1+ (-webkit- öneki ile)
 Safari 3.0+ (-webkit- öneki ile)  
 Opera 10.5  
 İnternet Explorer 9+
+{: .tarayiciuyum}
 
 **backgroun-origin** özelliği **background-image** konumunun kapsama
 alanını belirlerken, **background-clip** ise background alanını kırpmak
@@ -118,7 +151,7 @@ ve**padding** değerlerini desteklerken son çıkan sürümler standartlaşan
 **content-box, border-box** ve **padding-box** değerlerini
 desteklemektedirler.
 
-### background-clip: text Değeri
+## background-clip: text Değeri
 
 Webkit tabanlı tarayıcılarda diğerlerinden farklı olarak text değeride
 vardır. Henüz standartlarda bulunmayan bu değeri sadece webkit kullanan
@@ -127,11 +160,16 @@ ardalanına resim uygulanıyor geri kalan kısımlara ise saydam ardalan
 olarak kalıyor.
 
 	:::css
-	 #kutu1 { -moz-background-origin: border;
--webkit-background-origin: border; -webkit-background-origin:
-border-box; background-origin: border-box; -webkit-background-clip:text;
--webkit-text-fill-color:transparent; font:bold 72px Arial, Helvetica,
-sans-serif; } 
+	#kutu1 {
+	   -moz-background-origin: border;
+	   -webkit-background-origin: border;
+	   -webkit-background-origin: border-box;
+	   background-origin: border-box;
+	    -webkit-background-clip:text;
+	    -webkit-text-fill-color:transparent;
+	    font:bold 72px Arial, Helvetica, sans-serif;   
+	}
+	 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/gqaC9/embedded/result,css,html"></iframe>
 
 **-webkit-text-fill-color:transparent** ile metnin ardalanını
@@ -139,7 +177,7 @@ saydamlaştırıyoruz ve elemanın ardalanındaki resmi gösteriyoruz. Çok
 güzel görsel çalışmaları bu şekilde yapabiliriz, ancak henüz sadece
 Chrome ve Safari desteklediği için pek kullanışlı değil.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.css3.info/preview/background-origin-and-background-clip/][]
 -   [http://www.w3.org/TR/css3-background/][]
@@ -152,17 +190,12 @@ Chrome ve Safari desteklediği için pek kullanışlı değil.
 -   [http://dev.opera.com/articles/view/css3-border-background-boxshadow/][]
 -   [http://www.sitepoint.com/new-properties-and-values-in-backgrounds-with-css3/][]
 -   [http://www.css3.info/webkit-introduces-background-cliptext/][]
-     (text)
 -   [http://www.cssreset.com/2010/css-tutorials/fun-with-webkit-background-clip-and-font-face/][]
-    (text)
 -   [http://www.webkit.org/blog/164/background-clip-text/][] (text)
 -   [http://www.impressivewebs.com/background-clip-css3/][] (güzel)
 -   [http://css-class.com/test/css/backgrounds/background-origin1.htm][]
 -   [http://css-infos.net/property/background-origin][]
 -   [https://www.youtube.com/watch?v=7xVS2FX2Mao&feature=related][]
-    (video)
-
-</p>
 
   [background özelliklerini]: http://www.fatihhayrioglu.com/hizli-css-referansi/
   []: https://lh6.googleusercontent.com/-PsvxlredrDNUaFBqk4tcxuxsLaw9XJAeTIfp53XKqD2CkZgPqnN7UkCvkm1nSveS_plE_wPOGgUzpVVJ1JGeq_6bWXEkSun-0KS9CC1JMnz19Lusfw

@@ -14,13 +14,13 @@ standartları bunu dışında diğer sorunlarıda görüp CSS3 ile birlikte
 
 Burada sizlere bu özellikleri anlatmaya çalışacağım.
 
-### @font-face
+## @font-face
 
 Bu konuyda daha önce derinlemesine değinmiştim. [@font-face kullanımı][]
 bağlantısından detaylı bilgi alabilirsiniz. Bu özelliği diğerlerine göre
 avantajı mevcut tüm tarayıcılar tarafından desteklenmesidir.
 
-### font-size-adjust
+## font-size-adjust
 
 font-size-adjusting özelliği yazı tipinin x-yüksekliği değerini orantılı
 olarak ayarlamamızı sağlar. x-yüksekliği değeri; aşağıdaki görselde de
@@ -43,8 +43,10 @@ yüksekliğe sahipken ilk kolondaki verdana uyguladığımız metin yüksekliği
 daha yüksektir. Aynı yüksekiği yakalamak için
 
 	:::css
-	 .kolon1{  font:12px/18px Verdana, Geneva, sans-serif;
- font-size-adjust:0.47; } 
+	.kolon1{
+		font:12px/18px Verdana, Geneva, sans-serif;
+		font-size-adjust:0.47;
+	} 
 
 aynı yüksekliği yakalamamızı sağlayacaktır.
 
@@ -55,7 +57,7 @@ Bu özelliği daha iyi anlamak için [http://brunildo.org][] sitesindeki
 
 Örneği görmek için tıklayınız.
 
-### font-stretch
+## font-stretch
 
 font-stretch özelliği CSS2 ile birlikte gelip CSS2.1 ile birlikte kalkan
 özelliklerden biridir. CSS3 ile birlikte tekrar standartlara girmeye
@@ -81,14 +83,14 @@ Göreceli değerlerdir. Kapsayıcı elemana göre göreceli olarak değer
 alır. wider değeri alan eleman kapsayıcısından daha geniş olurken,
 narrower değeri alan eleman kapsayıcısından daha dar olur.
 
-### font-effect
+## font-effect
 
 Metinlere oymacılık efektlerini vermek için kullanabileceğimiz bir
 özellik. CSS3 standartların eklenen bu özellik sayesinde biz kabartma,
 oyma ve dış hat çizgisi uygulayabiliriz. Kullanma için pek mantıklı
 gelmedi bana ama zaman vermek gerekiyor biraz.
 
-### font-smooth
+## font-smooth
 
 Yazı tipi uygulamalarında yumuşatma işlemi çok önemlidir. Ancak bu
 sistemi işletim sistemleri ele aldığı için biz kod yazarları için işin
@@ -99,12 +101,12 @@ font-face’in en büyük eksikliği ortadan kalkacaktır.
 
 Gelecekle ümitle bakmak için bu özelliği daha etkin olması lazım.
 
-### font-emphasize
+## font-emphasize
 
 Asya kökenli yazı tipleri için kullanılabilecek bir özellik. Zamanla
 daha detaylı inceleriz. Lazım oldukça incelemek gereken bir özellik.
 
-### Sonuç
+## Sonuç
 
 Tipografi çok detaylı bir mecra zamanla daha güzel sonuçlar alacağımızı
 düşünsemde şimdilik çok başarılı olduğunu söyleyemem. CSS3 ile Yazı tipi
@@ -116,7 +118,7 @@ katkıdır.
 
 Kalın sağlıcakla
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.w3.org/TR/css3-fonts/][]
 -   [http://www.css3.info/more-type-control-with-css3-fonts/][]
@@ -133,39 +135,27 @@ Kalın sağlıcakla
 -   [http://www.w3.org/TR/WD-font/#font-size-adjust][]
 -   [http://www.siku-siku.com/blog/2010/11/22/preserving-the-x-height-of-your-preferred-font-choice/][]
 -   [http://babylon-design.com/mais-c-est-quoi-au-juste-font-size-adjust/][]
-    ()
 -   [http://www.peterkroener.de/schoenes-neues-css-font-size-adjust/][]
-    (Almanca güzel)
 -   [http://www.webspaceworks.com/resources/fonts-web-typography/43/][]
-    (oran değerleri)
 -   [http://www.fonttester.com/help/css_property/font-size-adjust.html][]
--   [http://www.opera.com/docs/specs/presto27/css/fonts/][] (font
-    desteği)
+-   [http://www.opera.com/docs/specs/presto27/css/fonts/][] 
 -   [http://stuff4designers.com/2011/03/15/how-to-use-font-size-adjust/][]
 -   [http://www.fatihhayrioglu.com/css-ve-tipografi/][]
 -   [http://webforfreaks.com/cssandtype/index.php?chemin=content/2011-06-11/][]
--   [http://brunildo.org/test/xheight.pl][] (font-size-adjusting -
-    örnek)
+-   [http://brunildo.org/test/xheight.pl][] 
 -   [http://www.xhtml-lab.com/css3-reference/font-size-adjust][] (güzel)
 -   [http://www.w3schools.com/cssref/css3_pr_font-stretch.asp][]
-    (font-stretch)
 -   [https://developer.mozilla.org/en/CSS/font-stretch][] (font-stretch)
 -   [http://msdn.microsoft.com/library/ff974090.aspx][] (font-stretch)
 -   [http://meyerweb.com/eric/css/tests/css3/show.php?p=font-stretch][]
-    (font-stretch)
 -   [http://log.edds.me.uk/post/436921532/firefox-3-6s-css-font-stretch-support][]
-    (font-stretch)
 -   [http://clagnut.com/blog/2265/][]  (font-stretch)
 -   [http://www.cssportal.com/css-properties/font-effect.htm][]
 -   [http://www.handycss.com/wiki/font-effect/][]
 -   [http://szafranek.net/works/articles/font-smoothing-explained/][]
 -   [http://maxvoltar.com/archive/-Webkit-font-smoothing][]
-    (webkit-macos)
 -   [http://www.usabilitypost.com/2010/08/26/font-smoothing/][]
-    (webkit-macos)
 -   [http://daneden.me/2010/12/css-font-smoothing/][]
-
-</p>
 
   [@font-face kullanımı]: http://www.fatihhayrioglu.com/font-face-kullanimi/
   []: https://lh6.googleusercontent.com/YW1f1GQqHZCiepSVsvkodxuovf2J1IIFEtdiaBZw4q2s6oM38friVO4jli_8FedEtou75rN8hzxyxal0ApDp1lYyM0Fgb4i0R3qH8yOWbIcbuoZqLYg
