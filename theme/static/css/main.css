@@ -465,6 +465,10 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 	margin-bottom:12px;
 }
 
+.entry-content{
+	position:relative;
+}
+
 .entry-content iframe{
 	border:3px solid #23538A;
 	-webkit-border-radius:10px;
@@ -484,7 +488,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 
 .entry-content .post-info{
 	background-color:#fff;
-	position: relative;
+	position: absolute;
 	right:-241px;
 	top:-80px;
 	padding:10px;
