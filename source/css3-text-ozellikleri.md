@@ -4,12 +4,21 @@ Date: 2011-12-02 01:11
 Category: CSS
 Tags: hanging-punctuation, text-align-last, text-overflow, text-rendering, text-stroke, text-wrap, word-wrap
 
-### word-wrap özelliği
+- word-wrap özelliği
+- text-wrap
+- text-stroke
+- text-align (yeni değerler)
+- text-align-last
+- text-overflow
+- text-rendering
+- hanging-punctuation
+
+## word-wrap özelliği
 
 CSS3 **word-wrap** özelliği diğer CSS3 özelliklerinden farklı olarak tüm
 tarayıcılar(IE dahil) tarafından desteklenmektedir.
 
-**Yapısı :**word-wrap: <deger>  
+**Yapısı :**word-wrap: <deger\>  
 **Aldığı Değerler:** normal | break-word   
 **Başlangıç değeri:** normal  
 **Uygulanabilen elementler:** Tüm Elemanlara  
@@ -24,24 +33,30 @@ Bir örnek verecek olursak 150px genişliğindeki bir alan içinde bir
 metnimiz olsun.
 
 	:::html
-	<div id="link"> Loremipsumdolorsitametconsecteturadipiscingelit. Nam semper venenatis lobortis. Donec odio nisl, vehicula vitae molestie ac, euismod ac nibh. </div> 
+	<div id="link">
+		Loremipsumdolorsitametconsecteturadipiscingelit.
+		Nam semper venenatis lobortis.
+		Donec odio nisl, vehicula vitae molestie ac,
+		euismod ac nibh.
+	</div> 
 
 CSS kodu
 
 	:::css
-	 #link{ width:150px; border:1px solid #999; } 
+	#link{
+		width:150px;
+		border:1px solid #999;
+	} 
 	
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/AdWMx/embedded/result,html,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-**word-wrap** ile bu uzun kelimeyi aşağı atarak sayfadaki patlaklığı
-düzeltebiliriz.
+**word-wrap** ile bu uzun kelimeyi aşağı atarak sayfadaki patlaklığı düzeltebiliriz.
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/vZFZb/embedded/result,html,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Önceki yazımda bu işi white-space ile halletmiştim, ama mantıklı olan
 **word-wrap** ile çözmek.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 3.5+  
 Chrome 1+  
@@ -53,21 +68,20 @@ iOS Safari 3.2+
 Opera Mini 5+  
 Opera Mobile10+  
 Android Browser 2.1+
+{: .tarayiciuyum}
 
-</div>
-### text-wrap
+## text-wrap
 
 **text-wrap** özelliği **word-wrap**’e benzer bir özelliktir.
 **word-wrap**’in kelimeye yaptığı etkiyi **text-wrap** metinlere yapar.
 
-<div class="cssozelliktanimi">
-**Yapısı :** text-wrap: <deger>  
+**Yapısı :** text-wrap: <deger\>  
 **Aldığı Değerler:** normal | none | unrestricted | suppress   
 **Başlangıç değeri:** normal  
 **Uygulanabilen elementler:**Tüm Elemanlara  
 **Kalıtsallık:** Var
+{: .cssozelliktanimi}
 
-</div>
 text-wrap 4 adet değer alır.
 
 -   **normal:** Satır sadece belirlenen yerlerden sonra satır başı
@@ -81,7 +95,7 @@ text-wrap 4 adet değer alır.
 
 Bu özelliği henüz hiç bir tarayıcı desteklemiyor.
 
-### text-stroke
+## text-stroke
 
 CSS3 ile birlikte text-outline olarak standartlara giren bu özellik daha
 sonra standartlardan çıkarıldı, ancak webkit tabanlı tarayıcıların
@@ -91,37 +105,37 @@ CSS3 ile birlikte metinlerin etrafına dış çizgisi çizmemize olanak
 sağlıyor. Şu an sadece webkit tabanlı tarayıcıların(Safari, Chrome)
 desteği mevcut.
 
-<div class="cssozelliktanimi">
-**Yapısı :**text-stroke: <deger>  
+**Yapısı :**text-stroke: <deger\>  
 **Aldığı Değerler :** thickness | blur | color   
 **Başlangıç değeri:** none  
 **Kalıtsallık:**Var
+{: .cssozelliktanimi}
 
-</div>
 Tanım yaparken ilk olarak yazı tipinin rengini yaparız, sonrada dış hat
 çizgisini tanımlarız.
 
 	:::css
-	 font:bold 24px Arial, Helvetica, sans-serif; color: #c00; -webkit-text-stroke: 1px #000; 
+	font:bold 24px Arial, Helvetica, sans-serif; 
+	color: #c00; 
+	-webkit-text-stroke: 1px #000; 
 
-<iframe style="width: 100%; height: 300px"
-src="http://jsfiddle.net/fatihhayri/3dsPG/embedded/"
-allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/3dsPG/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 **text-stroke** tanımının ilk değeri dış çizgisinin kalınlığını ikinci
 tanım rengini belirler.
 
 Dış Çizgili ve Saydam zeminli Yazı Tipleri Oluşturmak
 
-Saydam zeminli yazı tipleri tanımlamak için **text-fill-color**
- özelliği kullanılır.
+Saydam zeminli yazı tipleri tanımlamak için **text-fill-color** özelliği kullanılır.
 
 	:::css
-	 ont:bold 24px Arial, Helvetica, sans-serif; color: #c00; -webkit-text-stroke: 1px #000; -webkit-text-fill-color: transparent;
+	font:bold 24px Arial, Helvetica, sans-serif;
+	color: #c00;
+	-webkit-text-stroke: 1px #000;
+	-webkit-text-fill-color: transparent;
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/yWWbb/embedded/css,html,result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox desteklemiyor  
 Chrome 4+ (-webkit- öneki ile)  
@@ -133,9 +147,9 @@ iOS Safari 4.1+ (-webkit- öneki ile)
 Opera Mini desteklemiyor  
 Opera Mobile destelemiyor  
 Android Browser 2.1+ (-webkit- öneki ile)
+{: .tarayiciuyum}
 
-</div>
-### text-align (yeni değerler)
+## text-align (yeni değerler)
 
 **text-align** özelliği CSS3’den öncede vardı ancak CSS3 ile bu özelliğe
 iki tane daha yeni değer atandı. Burada bunları inceleyeceğiz. **start**
@@ -148,41 +162,42 @@ Böyle sağdan-sola doğru akan dillerde için bu iki değer işe yarıyor.
 -   **end:** Eğer akış soldan sağa ise **right** etkisi yapacaktır. Akış
     sağdan-sola ise **left** etkisi yapacaktır.
 
-### text-align-last
+## text-align-last
 
 CSS3 ile birlikte gelen bu özellik son satırın veya justify tanımlanmış
 elemanların satırlarının hizalanmasını sağlar. Bu özellik **text-align**
 ile aynı etkiyi yapar.
 
-<div class="cssozelliktanimi">
-**Yapısı :**text-align-last: <deger>  
+**Yapısı :**text-align-last: <deger\>  
 **Aldığı Değerler :** center | end | justify | left | right | start   
 **Başlangıç değeri:** start  
 **Kalıtsallık:** Var
+{: .cssozelliktanimi}
 
-</div>
 justify uygulanmış bir metnin son satırının sağa yaslı olmasını
 istiyorsak
 
 	:::css
-	 p { text-align: justify; -ms-text-align-last: right; } 
+	p {
+		text-align: justify;
+		-ms-text-align-last: right;
+	} 
 
 ![][]
 
-### text-overflow
+## text-overflow
 
 Blok kapsayıcı elemanı içindeki satır içi elemanın içeriğini
 **overflow** uygulamak için kullanılır. Blok kapsayıcı elemana
 **overflow:visible** tanımı yapılmamış olmalıdır.
 
-<div class="cssozelliktanimi">
 **Yapısı :** text-overflow: <deger>  
 **Aldığı Değerler :** clip | ellipsis  
 **Başlangıç değeri:**clip  
 **Uygulanabilen elementler:** Blok-level Elemanlara  
 **Kalıtsallık:** yok
+{: .cssozelliktanimi}
 
-</div>
 ![][1]  
 resim kaynağı: [https://developer.mozilla.org/en/CSS/text-overflow][]
 
@@ -195,9 +210,10 @@ CSS3 ile birlikte üç nokta yerine kendi istediğimiz özel karkateri cümle
 satır sonuna ekleyebiliyoruz.
 
 	:::css
-	 p { text-overflow: 'herhangibirsey'; } 
+	p {
+		text-overflow: 'herhangibirsey';
+	} 
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 7+  
 Chrome 1+  
@@ -209,9 +225,9 @@ iOS Safari 3.2+
 Opera Mini 5.0+ (-o- öneki ile)  
 Opera Mobile 10.0 (-o- öneki ile)  
 Android Browser 2.1+
+{: .tarayiciuyum}
 
-</div>
-### text-rendering
+## text-rendering
 
 **text-rendering** özelliği okunabilirliği ayarlamamızı sağlana bir
 özelliktir. Bu özellik sayesinden tarayıcının metinlerimizi nasıl
@@ -220,15 +236,14 @@ okunabilirlik ve geometrik hassasiyet bakımından farklı şekilde
 yorumlarlar; text-rendering özelliği bu farklılıkları bizim kontrolümüze
 sunana bir özelliktir.
 
-<div class="cssozelliktanimi">
-**Yapısı :**text-rendering: <deger>  
+**Yapısı :**text-rendering: <deger\>  
 **Aldığı Değerler :** auto | optimizeSpeed | optimizeLegibility |
 geometricPrecision | inherit  
 **Başlangıç değeri:** auto  
 **Uygulanabilen elementler:** Tüm Elemanlara  
 **Kalıtsallık:**Var
+{: .cssozelliktanimi}
 
-</div>
 -   **auto** değeri metin tarama işini tarayıcıya bıraktığımız anlamına
     geliyor.
 -   **optimizeSpeed**  değeri hızlı yüklemeyi okunabilirlik ve geometrik
@@ -249,15 +264,14 @@ resim kaynağı: [https://developer.mozilla.org/en/CSS/text-rendering][]
 Tanımlarda dikkatimiz çeken karakter aralığı olarak Y ve o arasındaki
 mesafe ve ffl görünümündeki farklar kendini gösteriyor.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 3.0+  
 Chrome 4.0+  
 Safari 5+   
 Opera desteklemiyor  
 İnternet Explorer desteklemiyor
+{: .tarayiciuyum}
 
-</div>
 Chrome auto değerini optimizeSpeed olarak yorumluyor, geometricPrecision
  değerini tam olarak 13. sürümden itibaren yorumluyor.
 
@@ -267,7 +281,7 @@ gibi, diğerlerini ise optimizeSpeed gibi yorumluyor. geometricPrecision
 
 Safari auto değerini optimizeSpeed gibi yorumluyor.
 
-### hanging-punctuation
+## hanging-punctuation
 
 CSS3 metinleri yönetmek açısından bizim elimizi kuvvetlendirdiği kesin.
 **hanging-punctuation** özelliği bize ayrıntı bir özellik kazandırıyor.
@@ -275,13 +289,13 @@ CSS3 metinleri yönetmek açısından bizim elimizi kuvvetlendirdiği kesin.
 sağlıyor. Liste ikonları ve çift tırnakları metin bloğu dışına çıkararak
 daha güzel sonuçlar almamızı sağlıyor.
 
-<div class="cssozelliktanimi">
+
 **Yapısı :** hanging-punctuation: <deger>  
 **Aldığı Değerler :** none | start | end | end-edge  
 **Başlangıç değeri:**none  
 **Kalıtsallık:** Var
+{: .cssozelliktanimi}
 
-</div>
 ![][3]
 
 Yukarıdaki resimde görüldüğü gibi ilk resimde **hanging-punctuation**
@@ -291,7 +305,7 @@ metini ortaya koyuyor.
 
 Bu özelliği henüz herhangi bir tarayıcı desteklememektedir.
 
-### Sonuç
+## Sonuç
 
 CSS3 birçok yönden elimiz güçlendirmektedir. CSS3 metinler üzerinde
 düzenleme yapmamıza olanak sağlıyor. Henüz tam olarak tamamlanmaya
@@ -302,7 +316,7 @@ birçok yönü var CSS3 metin özellikleri zamanla daha iyi oturacaktır.
 
 Kalın sağlıcakla.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.w3.org/TR/css3-text/][]
 -   [http://www.impressivewebs.com/word-wrap-css3/][]
@@ -310,10 +324,8 @@ Kalın sağlıcakla.
 -   [http://caniuse.com/wordwrap][] (wordp-wrap destek listesi)
 -   [https://developer.mozilla.org/En/CSS/Word-wrap][]
 -   [http://www.w3.org/TR/css3-text/][]
--   [http://www.cardeo.ca/2010/adding-an-outline-to-your-text-using-the-css3-text-stroke-property][]
-    (text-stroke)
--   [http://css-tricks.com/7405-adding-stroke-to-web-text/][]
-    (text-stroke)
+-   [http://www.cardeo.ca/2010/adding-an-outline-to-your-text-using-the-css3-text-stroke-property][](text-stroke)
+-   [http://css-tricks.com/7405-adding-stroke-to-web-text/][](text-stroke)
 -   [http://www.webkit.org/blog/85/introducing-text-stroke/][]
 -   [http://code.stephenmorley.org/html-and-css/white-space-handling/][]
 -   [http://www.impressivewebs.com/css-white-space/][]
