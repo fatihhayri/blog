@@ -9,66 +9,35 @@ yaptığımız birçok işi css ile yapacağız bu sayede. CSS1de 5-6 seçici
 varken, CSS2 ile birlikte bu sayı 12’ye çıktı. CSS3 ile birlikte ise bu
 sayı 20’yi aştı. . İşte CSS3 ile gelen yeni seçiciler;
 
-<ul>
-<ul>
-<li>
 CSS3 Özellik Seçicileri
+	-   Belirlenen Sözdizimi ile Başlayan Özellik Değer Seçicisi
+	-   Belirlenen Sözdizimi ile Biten Özellik Değer Seçicisi
+	-   İçinde Belirlenen Sözdizimi Geçen Özellik Değer Seçicisi
+	-   Çoklu Özellik Seçicisi Kullanımı
 
-</li>
--   Belirlenen Sözdizimi ile Başlayan Özellik Değer Seçicisi
--   Belirlenen Sözdizimi ile Biten Özellik Değer Seçicisi
--   İçinde Belirlenen Sözdizimi Geçen Özellik Değer Seçicisi
--   Çoklu Özellik Seçicisi Kullanımı
-
-<li>
 Genel Kardeş Seçicisi
-
-</li>
-<li>
 :target Sözde Seçisi
-
-</li>
-<li>
 Form Elemanları Durumları Sözde Sınıfları
-
-</li>
--   :disabled
--   :enabled
--   :checked
-
-<li>
+	-   :disabled
+	-   :enabled
+	-   :checked
 CSS3 Sözde Seçicileri
-
-</li>
-<ul>
-<li>
 Yapısal Sözde Seçiciler
-
-</li>
--   :root Sözde Sınıfı
--   :nth-child() sözde sınıfı
--   :nth-last-child() sözde sınıfı
--   :nth-of-type() sözde sınıfı
--   :nth-last-of-type() sözde sınıfı
--   :last-child sözde sınıfı
--   :first-of-type sözde sınıfı
--   :last-of-type sözde sınıfı
--   :only-child sözde sınıfı
--   :only-of-type sözde sınıfı
--   :empty sözde sınıfı
-
-</ul>
-<li>
+	-   :root Sözde Sınıfı
+	-   :nth-child() sözde sınıfı
+	-   :nth-last-child() sözde sınıfı
+	-   :nth-of-type() sözde sınıfı
+	-   :nth-last-of-type() sözde sınıfı
+	-   :last-child sözde sınıfı
+	-   :first-of-type sözde sınıfı
+	-   :last-of-type sözde sınıfı
+	-   :only-child sözde sınıfı
+	-   :only-of-type sözde sınıfı
+	-   :empty sözde sınıfı
 Olumsuz(:not) Sözde SınıfıSözde Sınıf
+	::selection sözde sınıf
 
-</li>
-<li>
-::selection sözde sınıf
-
-</li>
-</ul>
-</ul>
-### Özellik Seçicileri
+## Özellik Seçicileri
 
 CSS3 ile birlikte 3 yeni özellik seçicisi gelmektedir.
 
@@ -88,20 +57,28 @@ Bu tanımlama ile belirtilen sözdizimi ile başlayan özellik değerini
 arıyor ve uyguluyor.
 
 	:::html
-	 This is a sample <a
-href="http://www.bloggermint.com">hyperlink</a>. This is a sample <a
-href="mailto:bloggermint@gmail.com">bloggermint@gmail.com</a>. This
-is a sample <a href="ftp://bloggermint.com">FTP Server</a>. 
+	This is a sample <a href="http://www.bloggermint.com">hyperlink</a>. 
+	This is a sample <a href="mailto:bloggermint@gmail.com">bloggermint@gmail.com</a>.
+	This is a sample <a href="ftp://bloggermint.com">FTP Server</a>. 
+	
 	:::css
-	 a[href^='http'] { background: url(images/link.png) no-repeat
-left; padding-left:20px; } a[href^='mailto'] { background:
-url(images/email.png) no-repeat left; padding-left:20px; }
-a[href^='ftp'] { background: url(images/folder.png) no-repeat left;
-padding-left:20px; } 
+	a[href^='http'] {
+	    background: url(images/link.png) no-repeat left;
+	    padding-left:20px;
+	}
+	
+	a[href^='mailto'] {
+	    background: url(images/email.png) no-repeat left;
+	    padding-left:20px;
+	}
+	
+	a[href^='ftp'] {
+	    background: url(images/folder.png) no-repeat left;
+	    padding-left:20px;
+	}
 
 Şeklinde link başlangıç değerine göre ikon atayabiliriz.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**   
 Firefox 1.5+  
 Chrome 2+  
@@ -113,8 +90,8 @@ iOS Safari 3.2+
 Opera Mini 5.0+  
 Opera Mobile10.0+  
 Android Browser 2.1+
+{: .tarayiciuyum}
 
-</div>
 **Belirlenen Sözdizimi ile Biten Özellik Değer Seçicisi**
 
 Belirlenen sözdizimi ile biten elemanları seçmek için kullanılır.
@@ -127,11 +104,18 @@ Bu seçiciyi kullanarak dokümanlara verilen linklerin başına kolayca ikon
 ekleyebiliriz.
 
 	:::css
-	 a[href$='.pdf'] { background-image: url('pdf.png'); }
-a[href$='.doc'] { background-image: url('word.png'); } a[href$='.rss']
-{ background-image: url('feed.png'); } 
+	a[href$='.pdf'] {
+		background-image: url('pdf.png');
+	}
+	
+	a[href$='.doc'] {
+		background-image: url('word.png');
+	}
+	
+	a[href$='.rss'] {
+		background-image: url('feed.png');
+	} 
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**   
 Firefox 1.5+  
 Chrome 2+  
@@ -143,8 +127,8 @@ iOS Safari 3.2+
 Opera Mini 5.0+  
 Opera Mobile10.0+  
 Android Browser 2.1+
+{: .tarayiciuyum}
 
-</div>
 **İçinde Belirlenen Sözdizimi Geçen Özellik Değer Seçicisi**
 
 Belirlenen sözdizimi özellik değerinde geçen elemanları seçmek için
@@ -156,12 +140,13 @@ Birçok yerde kullanılabilecek geniş kapsamlı bir kullanımı olan bir
 seçicidir.
 
 	:::css
-	 a[title*='im'] {} 
+	a[title*='im'] {
+		
+	} 
 
 Sadece bir kısmı ile elemanı seçebilme imkanı sağlıyor. CSS2’dekinden
 farklı olarak.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 1.5+  
 Chrome 2+  
@@ -173,27 +158,28 @@ iOS Safari 3.2+
 Opera Mini 5.0+  
 Opera Mobile10.0+  
 Android Browser 2.1+
+{: .tarayiciuyum}
 
-</div>
 **Çoklu Özellik Seçicisi Kullanımı**
 
 Özellik seçicileri birlikte kullanma imkanımızda vardır. Birden fazla
 seçici ile seçimi daraltabiliriz.
 
 	:::css
-	 p[class=highlight] a[title~=important] { background : #ffffcc; }
-
+	p[class=highlight] a[title~=important] {
+  		background : #ffffcc;
+  	}
 
 Daha fazla özellik seçicisinide birleştirebiliriz.
 
 	:::css
-	 a[href^='http://'][href*='/folder2/'][href$='.pdf'] {
-background:url(pdf.gif) 0 0 no-repeat; } 
+	a[href^='http://'][href*='/folder2/'][href$='.pdf'] {
+  		background:url(pdf.gif) 0 0 no-repeat;
+  	} 
 
 CSS3 ile gelen özellik seçicilerinin bir avantajıda ie7’ninde bu
 seçicileri destekliyor olmasıdır.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 1.5+  
 Chrome 2+  
@@ -205,9 +191,9 @@ iOS Safari 3.2+
 Opera Mini 5.0+  
 Opera Mobile10.0+  
 Android Browser 2.1+
+{: .tarayiciuyum}
 
-</div>
-### Genel Kardeş Seçicisi
+## Genel Kardeş Seçicisi
 
 CSS2.1 ile birlikte gelen bitiş kardeş seçicilerine benzer bir
 seçicidir. Bitişik şardeş seçicisine göre daha seçici ve kullanışlı bir
@@ -224,19 +210,25 @@ sağdanda metinler akacak. Bu resim ve paragraflar arasına padding
 tanımlamak için genel kardeş seçicisi birebirdir.
 
 	:::css
-	 img{ float:left; } img ~ p{ padding-left:110px; } 
+	img{
+		float:left;
+	}
+	
+	img ~ p{
+		padding-left:110px;
+	} 
 
 html kodu
 
 	:::html
-	 <img src="kedi.jpg" width="96" height="96" alt="kedi" />
-<p>Kedi (Felis catus),...</p> <p>2,5 ile 12 kilo ...</p>
-<p>Kediler hoş görünüşlü, ..</p> 
+	<img src="kedi.jpg" width="96" height="96" alt="kedi" />
+	<p>Kedi (Felis catus),...</p> <p>2,5 ile 12 kilo ...</p>
+	<p>Kediler hoş görünüşlü, ..</p> 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/KGkAK/1/embedded/result,css,html"></iframe>
 
 Bu seçiciyi ie7’nin seçicisini destekliyor.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 1.5+  
 Chrome 2+  
@@ -248,9 +240,9 @@ iOS Safari 3.2+
 Opera Mini 5.0+  
 Opera Mobile10.0+  
 Android Browser 2.1+
+{: .tarayiciuyum}
 
-</div>
-### :target Sözde Sınıfı
+## :target Sözde Sınıfı
 
 “:target seçicisi CSS3 ile birlikte gelen yeni seçilerden biri. :target
 seçicisi doküman içi linklere odaklanmamızı sağlıyor. Daha önce bu işi
@@ -262,16 +254,15 @@ seçicisi gibi dinamik bir seçicidir.”
 Şeklinde tanımladık. Bu konu hakkında daha önce [bir makale yazmıştım][]
 detayına oradan bakabilirsiniz.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 1+  
 Chrome 2+  
 Safari 3.1+  
 Opera 9.5+  
 İnternet Explorer 9+
+{: .tarayiciuyum}
 
-</div>
-### Form Elemanları Durumları Sözde Sınıfları
+## Form Elemanları Durumları Sözde Sınıfları
 
 Form elemanlarının çeşitli durumlarını seçebilmek için kullanılan sözde
 sınıflardır. Kullanıcıların bu durumları ayırt etmeleri için sınıf
@@ -286,23 +277,34 @@ edebiliriz. 3 adet durum söz konusu
 Form elemanlarında bu durumlar HTML olarak
 
 	:::html
-	 <textarea disabled="disabled"></textarea> <input
-checked="checked" type="checkbox"> 
+	<textarea disabled="disabled"></textarea>
+	<input checked="checked" type="checkbox"> 
 
 şekilde tanımlanır. Form elemanlarının bu durumlarını kullanıcıya
 yansıtmamız lazım. Bu sayede daha kullanıcı dostu formlar oluşturmuş
 olacağız.
 
 	:::css
-	 :enabled { border: 2px solid #6374AB; } :disabled { border: 2px
-solid #00cc00; } :checked { display: inline-block; width: 4em; } 
+	:enabled {
+		border: 2px solid #6374AB;
+	}
+	
+	:disabled {
+		border: 2px solid #00cc00;
+	}
+	
+	:checked {
+		display: inline-block;
+		width: 4em;
+	} 
 
 HTML kodumuz
 
 	:::html
-	 <form id="testForm"> <input> <input type="checkbox">
-<input type="radio" name="test"> <input type="radio" name="test">
-<input type="submit"> </form> 
+	<form id="testForm"> <input> <input type="checkbox">
+	<input type="radio" name="test"> <input type="radio" name="test">
+	<input type="submit"> </form> 
+
 <iframe style="width: 100%; height: 180px" src="http://jsfiddle.net/fatihhayri/KM9B4/embedded/result,css,html"></iframe>
 
 Basit bir örnek vermiş olsak dahi bu seçiciler ile neler
@@ -310,16 +312,15 @@ yapabileceğimizi düşünmek bile sevindiriyor bizi.
 [http://dev.opera.com/articles/view/styling-forms-with-attribute-selectors-1/][]
 örneğe bir göz gezdirmek iyi olur.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 3+  
 Chrome 4+  
 Safari 4+  
 Opera 9.5+  
 İnternet Explorer 9+
+{: .tarayiciuyum}
 
-</div>
-### Yapısal Sözde Sınıfları
+## Yapısal Sözde Sınıfları
 
 “Sözde sınıf ve sözde elementleri CSS’i destekleyen web tarayıcıları
 tarafından otomatik olarak tanınan özel sınıf ve elementlerdir. Bu sınıf
@@ -346,7 +347,9 @@ tanımlanabilir.
 Rakama bir örnek verecek olursak, 3. sıradaki elemanı yakalamak için
 
 	:::css
-	 p:nth-child(3) { color:#f00; } 
+	p:nth-child(3) {
+		color:#f00;
+	} 
 
 Belirli kelimelere bir örnek verecek olacaksak; odd(çift) ve even(tek)
 kelimelerinin kullanımı ile seçme işlemini gösterebiliriz. Zebra
@@ -354,8 +357,14 @@ tablolardan hatırladığımız çift, tek satırlara tanımlama yapmak için
 kullanılabilir.
 
 	:::css
-	 tr:nth-child(odd) { color:#f00; } tr:nth-child(even) {
-color:#ff0; } 
+	tr:nth-child(odd) {
+		color:#f00;
+	}
+	
+	tr:nth-child(even) {
+		color:#ff0;
+	} 
+
 <iframe style="width: 100%; height: 400px" src="http://jsfiddle.net/fatihhayri/F6UnC/embedded/result,css,html"></iframe>
 
 Formül için örnek verecek olursak; dinamik bir seçim oluşturmak için
@@ -364,19 +373,20 @@ hatırladığımız (an + b) a ve b değişkenlerdir. Benzer formüller ile
 eleman seçebilme imkanı veriyor.
 
 	:::css
-	 p:nth-child(3n+0) {     background:#ff0000; } 
+	p:nth-child(3n+0) {
+		background:#ff0000;
+	} 
 
 Bir tanım ile 3 katı olan elementleri yakalayabiliriz.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 3.5+  
 Chrome 4+  
 Safari 4+  
 Opera 10.10+  
 İnternet Explorer 9+
+{: .tarayiciuyum}
 
-</div>
 **:nth-last-child() sözde sınıfı**
 
 :nth sözde sınıfına benzer bir kullanımım vardır. :nth sözde sınıfından
@@ -384,19 +394,20 @@ farklı olarak sıralama olarak baştan değilde sondan başlayarak seçmemizi
 sağlar.
 
 	:::css
-	 tbody tr:nth-last-child(2) { background:#ff0000; } 
+	tbody tr:nth-last-child(2) {
+		background:#ff0000;
+	} 
 
 Tanımı ile tbody içindeki sondan 2. sıradaki satırı yakalamamızı sağlar.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 3.5+  
 Chrome 4+  
 Safari 4+  
 Opera 10.10+  
 İnternet Explorer 9+
+{: .tarayiciuyum}
 
-</div>
 **:nth-of-type() sözde sınıfı**
 
 :nth-of-type() sözde seçicisi :nth-child() seçicisine benzer şekilde
@@ -405,7 +416,9 @@ elemanları seçerken, :nth-of-type() sözde seçicisi sadece aynı tip
 elemanları seçer.
 
 	:::css
-	 p:nth-of-type(3) { background:#ff0; } 
+	p:nth-of-type(3) {
+		background:#ff0;
+	} 
 
 Örneğinde mesela paragraf elemanı ile aynı seviyedeki tüm paragrafları
 seçmemizi sağlar. Benzer şekilde :nth-child()  kullansa idik, aynı
@@ -414,15 +427,14 @@ seviyedeki farklı tip elemanlarıda yakalamış olacaktık.
 :nth-of-type() sözde seçicisi bize çok iyi seçme imkanları
 sağlayacaktır.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 3.5+  
 Chrome 4+  
 Safari 4+  
 Opera 10.10+  
 İnternet Explorer 9+
+{: .tarayiciuyum}
 
-</div>
 **:nth-last-of-type() sözde sınıfı**
 
 :nth-last-of-type() sözde seçicisi :nth-of-type() ile aynı yapıda işler
@@ -434,19 +446,21 @@ olsa aslında benzer özellikte çalışırlar, ancak bu ufak farklar bile
 bize çok büyük avantajlar sağlayacaktır.
 
 	:::css
-	 p:nth-last-of-type(2) { background:#ff0; } 
+	p:nth-last-of-type(2) {
+		background:#ff0;
+	} 
 
 Aynı seviyedeki paragrafların sondan ikincisini yakalar bu seçici
 
-<div class="tarayiciuyum">
+
 **Tarayıcı Destekleme Listesi**  
 Firefox 3.5+  
 Chrome 4+  
 Safari 4+  
 Opera 10.10+  
 İnternet Explorer 9+
+{: .tarayiciuyum}
 
-</div>
 **:last-child sözde sınıfı**
 
 :last-child sözde seçicisi aynı seviyedeki elemanların en sonuncusunu
@@ -456,7 +470,9 @@ elemanların sonuncusunu bulmak bizim her zaman işimize yarayacaktır.
 :nth-last-child(1) aynı işi görür.
 
 	:::css
-	 p:last-child { background:#ff0; } 
+	p:last-child {
+		background:#ff0;
+	} 
 
 Tanımı belirlenen paragraf ile aynı seviyedeki elemanların en
 sonuncusunu seçmemizi sağlar.
@@ -470,66 +486,79 @@ ayraç koyalım.
 Sondaki kenar çizgisi fazlalığı kaldırmak için
 
 	:::css
-	 ul li:last-child a{     border-right:none; } 
+	ul li:last-child a{
+		border-right:none;
+	} 
 
 kodu işimizi görecektir. Ayrıca ilk menü elemanı sol köşeleri ve son
 menü elemanının sağ köşeleri ovalleştirmek için;  
 
 	:::css
-	 ul li:last-child a{ border-right:none; border-radius:0 15px 15px
-0; } ul li:first-child a{ border-radius:15px 0 0 15px; } 
+	ul li:last-child a{
+		border-right:none;
+		border-radius:0 15px 15px 0;
+	}
+	
+	ul li:first-child a{
+		border-radius:15px 0 0 15px;
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/GUKPu/embedded/result,css,html"></iframe>
 
 Önceden bu işleri yapmak için javascript kullanmak zorunda idik. Şimdi
 CSS3 ile hepsini halledebiliyoruz. Süper değil mi?
 
-<div class="tarayiciuyum">
+
 **Tarayıcı Destekleme Listesi**  
 Firefox 3.5+  
 Chrome 4+  
 Safari 4+  
 Opera 10.10+  
 İnternet Explorer 9+
+{: .tarayiciuyum}
 
-</div>
 **:first-of-type sözde sınıfı**
 
 :first-of-type sözde seçicisi aynı seviyedeki ilk aynı tipteki elemanı
 seçmek için kullanılır. :nth-of-type(1) aynı işi görür.
 
 	:::css
-	 p:first-of-type { background:#ff0; } 
+	p:first-of-type {
+		background:#ff0;
+	} 
 
 Aynı seviyedeki ilk paragrafı seçmek için kullanılır.
 
-<div class="tarayiciuyum">
+
 **Tarayıcı Destekleme Listesi**  
 Firefox 3.5+  
 Chrome 4+  
 Safari 4+  
 Opera 10.10+  
 İnternet Explorer 9+
+{: .tarayiciuyum}
 
-</div>
 **:last-of-type sözde sınıfı**
 
 :last-of-type sözde seçicisi aynı seviyedeki en son aynı tipteki elemanı
 seçmek için kullanılır.  :nth-last-of-type(1) ile aynı işi görür.
 
 	:::css
-	 p:last-of-type { background:#ff0; } 
+	p:last-of-type {
+		background:#ff0;
+	} 
 
 Aynı seviyedeki paragrafların en sonuncusunu yakalar.
 
-<div class="tarayiciuyum">
+
 **Tarayıcı Destekleme Listesi**  
 Firefox 3.5+  
 Chrome 4+  
 Safari 4+  
 Opera 10.10+  
 İnternet Explorer 9+
+{: .tarayiciuyum}
 
-</div>
 **:only-child sözde sınıfı(Tek çocuk)**
 
 :only-child sözde seçicisi; bir ebeveyni olan ve bu ebeveynin tek çocuğu
@@ -539,15 +568,15 @@ ile aynı şeyi seçer.
 
 <iframe style="width: 100%; height: 250px" src="http://jsfiddle.net/fatihhayri/FGUGH/embedded/html,css,result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-<div class="tarayiciuyum">
+
 **Tarayıcı Destekleme Listesi**  
 Firefox 3.5+  
 Chrome 4+  
 Safari 4+  
 Opera 10.10+  
 İnternet Explorer 9+
+{: .tarayiciuyum}
 
-</div>
 **:only-of-type sözde sınıfı**
 
 :only-of-type sözde seçicisi; bir ebeyni olan ve bu ebeveynin aynı
@@ -556,22 +585,25 @@ Tam karşılığı olmasada :first-of-type:last-of-type veya
 :nth-of-type(1):nth-last-of-type(1) aynı işi yapar.
 
 	:::css
-	 ul.deneme > li > a:only-of-type { background:#ff0; } 
+	ul.deneme > li > a:only-of-type {
+		background:#ff0;
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/cEdgX/1/embedded/html,css,result"></iframe>
 
 Aynı seviyedeki bağlantılara sarı ardalan rengi tanımlayacaktır. Listede
 ikinci sıradaki ögede 2 adet link olduğu için seçmedi, 4. sıradaki ögede
 iki adet çocuk seçici var ancak farklı tipte olduğu için seçimi yaptı.
 
-<div class="tarayiciuyum">
+
 **Tarayıcı Destekleme Listesi**  
 Firefox 3.5+  
 Chrome 4+  
 Safari 4+  
 Opera 10.10+  
 İnternet Explorer 9+
+{: .tarayiciuyum}
 
-</div>
 **:root Sözde Sınıfı**
 
 :root sözde sınıfı dokümanın kökünü temsil eder. HTML elemanlarda htlm{}
@@ -579,65 +611,85 @@ ile aynı etkiyi yapar. buradaki asıl amaç xml ve diğer doküman tipleri
 için köke inebilmektir.
 
 	:::css
-	 :root { background:#ff0; } 
+	:root {
+		background:#ff0;
+	} 
 
 HTML dokümanlarında ise html elemanını ezmek içinde kullanılabilir.
 
 	:::css
-	 html{ background-color: #fff; } html:root { background-color:
-#000; } 
+	html{
+		background-color: #fff;
+	}
+	
+	html:root {
+		background-color:#000;
+	} 
 
-<div class="tarayiciuyum">
+
 **Tarayıcı Destekleme Listesi**  
 Firefox 3+  
 Chrome 4+  
 Safari 4+  
 Opera 9.5+  
 İnternet Explorer 9+
+{: .tarayiciuyum}
 
-</div>
 **:empty sözde sınıfı**
 
 :empty sözde seçicisi alt elemanı(çocuk) olmayan elemanları yakalamak
 için kullanılır. Metinlerde buna dahildir.
 
 	:::html
-	 <ul class="deneme"> <li></li> <li><a
-href="">deneme</a></li> <li><strong></strong></li>
-<li><a href="">deneme</a> <ul> <li><a
-href="">deneme</a></li> <li><a href="">deneme</a></li>
-</ul> </li> </ul> 
+	<ul class="deneme">
+		<li></li>
+		<li><a href="">deneme</a></li>
+		<li><strong></strong></li>
+		<li><a href="">deneme</a>
+			<ul>
+				<li><a href="">deneme</a></li>
+				<li><a href="">deneme</a></li>
+			</ul>
+		</li>
+	</ul> 
 
 CSS kodu
 
 	:::css
-	 ul.deneme > li:empty { background:#ff0; } 
+	ul.deneme > li:empty {
+		background:#ff0;
+	} 
 
 Yukarıdaki örnekte sadece ilk liste elemanı seçilecektir.
 
-<div class="tarayiciuyum">
+
 **Tarayıcı Destekleme Listesi**  
 Firefox 3.5+  
 Chrome 4+  
 Safari 4+  
 Opera 10.10+  
 İnternet Explorer 9+
+{: .tarayiciuyum}
 
-</div>
-### Olumsuz(:not) Sözde Sınıfı
+## Olumsuz(:not) Sözde Sınıfı
 
 Olumsuzluk belirtmek için kullanılan sözde sınıftır. :not(seçici)
 şeklinde kullanılır. Jquery’den alışık olduğumuz bir seçicidir.
 
 	:::html
-	 <h1>Deneme</h1> <h2>Alt Başlık</h2> <p>İçerik...</p>
-<p>İçerik...</p> <p>İçerik...</p>
-<blockquote>Dipnot</blockquote> 
+	<h1>Deneme</h1>
+	<h2>Alt Başlık</h2>
+	<p>İçerik...</p>
+	<p>İçerik...</p>
+	<p>İçerik...</p>
+	<blockquote>Dipnot</blockquote> 
 
 CSS kodu
 
 	:::css
-	 body :not(blockquote){ border:1px solid #ccc;} 
+	body :not(blockquote){
+		border:1px solid #ccc;
+	} 
 
 kodu body içindeki tüm elemanlara kenar çizgisi ata, dipnot(blockquote)
 hariç şeklinde uygulanacaktır.
@@ -646,24 +698,31 @@ hariç şeklinde uygulanacaktır.
 
 Çok kullanışlı bir seçicidir.
 
-<div class="tarayiciuyum">
+
 **Tarayıcı Destekleme Listesi**  
 Firefox 3.5+  
 Chrome 4+  
 Safari 4+  
 Opera 10.10+  
 İnternet Explorer 9+
+{: .tarayiciuyum}
 
-</div>
-### ::selection Sözde Elementi
+## ::selection Sözde Elementi
 
 [Daha önce görselliği dikkatimi][] çeken bu özelliği şimdi seçici bazlı
 bakacağız. Seçili alan seçicisi olarak tanımlayabileceğimiz bu özellik
 seçilen alana css tanımları atamamızı sağlamaktadır.
 
 	:::css
-	 ::-moz-selection { background:#c00; color:#fff; } ::selection {
-background:#c00; color:#fff; } 
+	::-moz-selection {
+		background:#c00;
+		color:#fff;
+	}
+	
+	::selection {
+		background:#c00;
+		color:#fff;
+	} 
 
 Ataması ile sitenin tümünde bir seçili alanları için bir tanımlama
 yapabiliriz.
@@ -673,57 +732,46 @@ yapabiliriz.
 
 Firefox için -moz ön eki kullanılması gerekiyor.
 
-<div class="tarayiciuyum">
+
 **Tarayıcı Destekleme Listesi**  
 Firefox 3.5+ (-moz ön eki ile)  
 Chrome 4+  
 Safari 4+  
 Opera 10.10+  
 İnternet Explorer 9+
+{: .tarayiciuyum}
 
-</div>
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.w3.org/TR/css3-selectors/][]
 -   [http://www.456bereastreet.com/archive/200601/css_3_selectors_explained/][]
-    (Detaylı)
 -   [http://www.adobe.com/devnet/dreamweaver/articles/css-selectors-pt2.html][]
-    (detaylı örnekli)
 -   [http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/][]
 -   [http://tools.css3.info/selectors-test/test.html][] (test aracı)
 -   [http://24ways.org/2009/cleaner-code-with-css3-selectors][]
-    (örmeklerle açıklanmış)
 -   [http://ie.microsoft.com/testdrive/HTML5/CSS3Selectors/Default.html][]
--   [http://www.w3schools.com/cssref/css_selectors.asp][] (seçici
-    listesi)
+-   [http://www.w3schools.com/cssref/css_selectors.asp][] 
 -   [http://www.quirksmode.org/blog/archives/2010/06/ies_big_leap_fo.html][]
--   [http://www.quirksmode.org/css/contents.html][] (tarayıcı destek
-    listesi)
+-   [http://www.quirksmode.org/css/contents.html][] 
 -   [http://selectivizr.com/][] (ie için çözüm)
 -   [http://net.tutsplus.com/tutorials/html-css-techniques/the-30-css-selectors-you-must-memorize/][]
 -   [http://inspectelement.com/tutorials/a-look-at-some-of-the-new-selectors-introduced-in-css3/][]
 -   [http://caniuse.com/css-sel3][] (tarayıcı destek listesi)
 -   [http://www.yourinspirationweb.com/en/why-you-should-know-the-new-css3-selectors/][]
 -   [http://kilianvalkhof.com/2008/css-xhtml/the-css3-not-selector/][]
-    (:not seçicisi)
 -   [http://dtsn.co.uk/2009/12/15/css3-selectors-last-child/][]
-    (:last-child seçicisi)
 -   [http://perishablepress.com/awesome-new-css3-selectors/][] (ilginç)
 -   [http://developer.practicalecommerce.com/articles/2386-Taking-CSS3-Selectors-to-the-Nth][]
-    (nth seçicisi)
 -   [https://developer.mozilla.org/en/firefox_3.5_for_developers][]
--   [https://developer.mozilla.org/en/CSS/%3Achecked][] (:checked
-    seçicisi)
+-   [https://developer.mozilla.org/en/CSS/%3Achecked][] 
 -   [https://developer.mozilla.org/en/CSS/:nth-child][]
 -   [https://developer.mozilla.org/en/CSS/:empty][]
 -   [https://developer.mozilla.org/en/CSS/%3Adisabled][]
--   No.Starch.The.Book.of.CSS3.Apr.2011
 -   [http://blogs.msdn.com/b/ie/archive/2010/05/13/the-css-corner-css3-selectors.aspx][]
 -   [http://eriwen.com/css/css-indirect-adjacent-combinator/][]
 -   [http://msdn.microsoft.com/en-us/library/aa358824%28v=vs.85%29.aspx][]
 -   [http://www.quirksmode.org/css/enabled.html][]
 
-</p>
 
   []: https://lh6.googleusercontent.com/w8JW05qWsN2l-joJkQZ8-0BtI_Ahasy75ToU1_vFtAgGGjsdfG19PLQlW0Cu2tdkVuoxlXOfIC19hCnvbYJnELaFnk6qyB2dC3YJEETpjs95439SJw4
   [1]: https://lh3.googleusercontent.com/0qkeYfNwhs3wyl1K7H3oTIMHVxq_fuqlEi_kXSrBD7sUHbIHFMVTjWQyzpDVGdXM581uNoPrcolpFoh8cH-lKA9AeWXveDA7lVoos3NODlE5rmiqVno

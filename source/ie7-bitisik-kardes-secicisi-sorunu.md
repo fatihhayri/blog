@@ -20,13 +20,18 @@ arasında eğer HTML yorum satırı eklersek ie7 bitişik kardeş seçicisi ile
 tanımladığımız bildirimleri yorumlamıyor.
 
 	:::html
-	 <h2>Başlık</h2> <!-- html yorumu --> <p>Paragraf</p>
+	<h2>Başlık</h2>
+	<!-- html yorumu -->
+	<p>Paragraf</p>
 
 
 CSS kodu
 
 	:::css
-	 h2 + p { background-color: #fc0; } 
+	h2 + p {
+		background-color: #fc0;
+	} 
+
 <iframe style="width: 100%; height: 200px" src="http://jsfiddle.net/fatihhayri/Ubk9Q/embedded/result,html,css"></iframe>
 
 Uygulaması bütün tarayıcılarda sorunsuz çalışırken ie7’de sonuç
@@ -41,17 +46,18 @@ bulduğumuz şekilde olacaktır. Şartlı yorumları kullanarak çözüme
 ulaşmakta mümkündür.
 
 	:::html
-	 <h2>Başlık</h2> <!--[if !IE]>Başlık yaz <![endif]-->
-<p>Paragraf</p> <p>Paragraf 2</p> 
+	<h2>Başlık</h2>
+	<!--[if !IE]>Başlık yaz <![endif]-->
+	<p>Paragraf</p>
+	<p>Paragraf 2</p> 
 
 Şeklinde bir çözüm işimizi görecektir.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://oncemade.com/adjacent-sibling-selector-bug-ie7/][]
--   [http://www.fatihhayrioglu.com/ie6un-tekrarlayan-karakter-sorunu/][ie6     sorunları]
+-   [http://www.fatihhayrioglu.com/ie6un-tekrarlayan-karakter-sorunu/][ie6 sorunları]
 
-</p>
 
   [ie6 sorunları]: http://www.fatihhayrioglu.com/ie6un-tekrarlayan-karakter-sorunu/
   [http://oncemade.com/adjacent-sibling-selector-bug-ie7/]: http://oncemade.com/adjacent-sibling-selector-bug-ie7/

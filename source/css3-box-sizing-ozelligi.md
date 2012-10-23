@@ -45,16 +45,19 @@ değerlerinin içerip içermemesi gerektiğini tanımlama imkanı sağlıyor.
     Genişlik veya yükseklik değeri padding ve border değerlerinide
     içerir.
 
+CSS kodu;
+
 	:::css
 	#kutu{
-	  display:block;
-	  border:10px solid #069;
-	  padding:20px;
-	  width:200px;
-	  height:200px;
-	  background:#CCC;
+		display:block;
+		border:10px solid #069;
+		padding:20px;
+		width:200px;
+		height:200px;
+		background:#CCC;
 	}
-	
+
+
 <iframe style="width: 100%; height: 400px" src="http://jsfiddle.net/fatihhayri/ZeMYW/1/embedded/result,css,html"></iframe>
 
 Başlangıç değeri content-box’dır. Kutu genişliği 10px + 20px + 200 + 20
@@ -85,10 +88,22 @@ Her iki değerin kullanılabileceği yerler vardır. border-box tanımının
 esnek yapılı alanlarda bize avantaj sağlayacağı kesindir.
 
 	:::css
-	 .kutuSol{ float: left; width: 30%; background-color: pink; border:
-3px red dotted; height: 150px; } .kutuSag{ float: left;
-background-color: lightgreen; width: 70%; border: 3px green dotted;
-height: 150px; } 
+	.kutuSol{
+		float: left; 
+		width: 30%;
+		background-color: pink;
+		border:3px red dotted; 
+		height: 150px;
+	}
+	
+	.kutuSag{
+		float: left;
+		background-color: lightgreen;
+		width: 70%;
+		border: 3px green dotted;
+		height: 150px;
+	} 
+
 <iframe style="width: 100%; height: 400px" src="http://jsfiddle.net/fatihhayri/jP3Dv/1/embedded/result,css,html"></iframe>
 
 Esnek yapılı bir içerikte genişlik tanımlarımızı yüzde olarak

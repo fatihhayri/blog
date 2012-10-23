@@ -42,7 +42,6 @@ FEED_DOMAIN =  'http://feeds.feedburner.com'
 FEED_ATOM = 'fatihhayri'
 
 DEFAULT_PAGINATION = 10
-
 TWITTER_USERNAME = "fatihhayri"
 DISQUS_SITENAME = "fatihhayri"
 GOOGLE_ANALYTICS = "UA-785768-1"
