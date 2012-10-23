@@ -51,15 +51,19 @@ standartlaşan özellikleri tanımlayacağız, çünkü tarayıcılar 2009
 yılındaki standartları desteklemektedir ve yeni standartlaşan
 özelliğinde mantık olarak çok büyük farklılığı yok.
 
-### display:box
+## display:box
 
 İlk olarak kapsayıcı esnek kutuları çevreleyen eleman **display:box**
 tanımı yaparak başlıyoruz. Farklı tarayıcılar önek ile birlikte
 desteklemektedir;
 
 	:::css
-	 #esnekKutu{ display: -webkit-box; display: -moz-box; display:
--ms-box; display: box; } 
+	#esnekKutu{
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-box;
+		display: box;
+	} 
 
 Tanımı ile kapsayıcı elemanı tanımlıyoruz. Bu tanım ile kapsayıcı eleman
 içersindeki alt elemanların artık esnek yapılı olacağını ve EKYM
@@ -68,25 +72,30 @@ içersindeki alt elemanların artık esnek yapılı olacağını ve EKYM
 Çok basit bir şekilde kutularımızı yanyana dizebiliriz mesela
 
 	:::css
-	 #esnekKutuKapsul{ display: box; display:-webkit-box;
-display:-moz-box; display:-ms-box; width:600px; border:1px solid #03C;
-} 
+	#esnekKutuKapsul{
+	 display: box;
+	 display:-webkit-box;
+	 display:-moz-box;
+	 display:-ms-box;
+	 width:600px;
+	 border:1px solid #03C;
+	}
+	
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/4KSzt/embedded/result,css,html"></iframe>
 
 Kapsayıcı tanımlanan **display:box** tanımı ile içindeki elemanlar birer
 **inline-block** eleman gibi davranır ve yanyana sıralanır.
 
-### box-orient
+## box-orient
 
-<div class="cssozelliktanimi">
-**Yapısı:** box-orient: <deger>  
+**Yapısı:** box-orient: <deger\>  
 **Aldığı Değerler:** horizontal | vertical | inline-axis | block-axis  
 **Başlangıç değeri:** inline-axis  
 **Uygulanabilen elementler:** display:box ve display:inline-box değeri
 alan elemanlara  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-</div>
 box-orient özelliği ile esnek kapsayıcı eleman içindeki kutuların hangi
 eksende sıralanacağını belirleriz. Yukarıdaki örnekte gördüğümüz gibi
 eğer bir tanım yapılmadı ise ve kapsayıcı eleman genişliği müsait ise
@@ -105,35 +114,52 @@ Bunlardan başka iki değer daha mevcuttur. **inline-axis** yatayda ve
 **vertical** gibi davranırlar.
 
 	:::css
-	 #esnekKutuKapsul{ display: box; display:-webkit-box;
-display:-moz-box; box-orient:vertical; -moz-box-orient:vertical;
--webkit-box-orient:vertical; width:200px; height:600px; border:1px solid
-#03C; } 
+	#esnekKutuKapsul{
+		display: box;
+		display:-webkit-box;
+		display:-moz-box;
+		box-orient:vertical;
+		-moz-box-orient:vertical;
+		-webkit-box-orient:vertical;
+		width:200px;
+		height:600px;
+		border:1px solid #03C;
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/AsVDn/embedded/result,css,html"></iframe>
 
 **box-orient:vertical** ile esnek kutularımızı dikeyde sıraladık.
 
-### box-direction
+## box-direction
 
-<div class="cssozelliktanimi">
-**Yapısı:** box-direction: <deger>  
+**Yapısı:** box-direction: <deger\>  
 **Aldığı Değerler:** normal | reverse  
 **Başlangıç değeri:** inline-axis  
 **Uygulanabilen elementler:** display:box ve display:inline-box değeri
 alan elemanlara  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-</div>
 **box-direction** özelliği kapsayıcı eleman içindeki esnek kutuların
 sıralama yönünü belirler. İki değer alır; normal ve **reverse**.
 **reverse** tanımlandığında sıralama yönü normalin tam tersine döner.
 
 	:::css
-	 #esnekKutuKapsul{ display: box; display:-webkit-box;
-display:-moz-box; box-orient:vertical; -moz-box-orient:vertical;
--webkit-box-orient:vertical; box-direction: reverse; -moz-box-direction:
-reverse; -webkit-box-direction: reverse; width:200px; height:600px;
-border:1px solid #03C; } 
+	#esnekKutuKapsul{
+		display: box;
+		display:-webkit-box;
+		display:-moz-box;
+		box-orient:vertical;
+		-moz-box-orient:vertical;
+		-webkit-box-orient:vertical;
+		box-direction: reverse;
+		-moz-box-direction: reverse;
+		-webkit-box-direction: reverse;
+		width:200px;
+		height:600px;
+		border:1px solid #03C;
+	}
+	
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/S4c44/embedded/result,css,html"></iframe>
 
 Yukarıdaki örnekte sıralama yukarıdan aşağı **Esnek Kutu1, Esnek Kutu2**
@@ -149,14 +175,15 @@ ve **Esnek Kutu3** iken **box-direction: reverse;** tanımı ile sıralama
 birçok özelliği üzerinde halen çalışılan canlı bir yapıdır.
 Değişikliklerin olabileceği dikkate alınmalıdır.
 
-### box-pack
+## box-pack
 
-**Yapısı :** box-pack: <deger>  
+**Yapısı :** box-pack: <deger\>  
 **Aldığı Değerler :** start | end | center | justify  
 **Başlangıç değeri:** start  
 **Uygulanabilen elementler:** display:box ve display:inline-box değeri
 alan elemanlara  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 **box-pack** özelliği kapsayıcı kutunun içindeki esnek kutuların
 kapsayıcıya göre konumunu belirlemek için kullanılır. Dört adet değer
@@ -170,22 +197,29 @@ Bu özellik tanımı 2009’da tanımlandı şu an yenileniyor **flex-pack**
 olarak değişecek. Tarayıcılar destekleyen kadar bu şekilde devam edecek.
 
 	:::css
-	 #esnekKutuKapsul{ display: box; display:-webkit-box;
-display:-moz-box; width:600px; border:1px solid #03C; box-pack:center;
--webkit-box-pack:center; -moz-box-pack:center; } 
+	#esnekKutuKapsul{
+	     display: box;
+	     display:-webkit-box;
+	     display:-moz-box;
+	     width:600px;
+	     border:1px solid #03C;
+	     box-pack:center;
+	     -webkit-box-pack:center;
+	     -moz-box-pack:center;
+	}
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/MwWcm/embedded/result,css,html"></iframe>
 
-### box-align
+## box-align
 
-<div class="cssozelliktanimi">
-**Yapısı :** box-align: <deger>  
+**Yapısı :** box-align: <deger\>  
 **Aldığı Değerler :** stretch | start | end | center | baseline  
 **Başlangıç değeri:** stretch  
 **Uygulanabilen elementler:** display:box ve display:inline-box değeri
 alan elemanlara  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-</div>
 Kapsayıcı elemana atanan box-orient değerine göre kalan boşluğa göre
 hizalama yapmak için kullanılır.
 
@@ -198,25 +232,38 @@ horizantal tanımlı ise sol ve sağa yaslayacaktır, **vertical** tanımlı
 ise üste ve alta yaslayacaktır. **center** değeri ise ortalayacaktır.
 
 	:::css
-	 #esnekKutuKapsul{ display: box; display:-webkit-box;
-display:-moz-box; width:600px; border:1px solid #03C;
-box-orient:horizantal; -moz-box-orient:horizantal;
--webkit-box-orient:horizantal; box-align: center; -webkit-box-align:
-center; -moz-box-align: center; } .esnekKutu{ background-color:#999999;
-width:150px; height:150px; margin-right:15px; } 
+	#esnekKutuKapsul{
+	    display: box;
+	    display:-webkit-box;
+	    display:-moz-box;
+	    width:600px;
+	    border:1px solid #03C;
+	    box-orient:horizantal;
+	    -moz-box-orient:horizantal;
+	    -webkit-box-orient:horizantal;  
+	    box-align: center;
+	    -webkit-box-align: center;
+	    -moz-box-align: center;
+    }
+    .esnekKutu{
+         background-color:#999999;
+         width:150px;
+         height:150px;
+         margin-right:15px;
+    }
+ 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/ZYz2M/1/embedded/result,css,html"></iframe>
 
-### box-lines
+## box-lines
 
-<div class="cssozelliktanimi">
 **Yapısı :** box-lines: <deger>  
 **Aldığı Değerler :** single | multiple  
 **Başlangıç değeri:** single  
 **Uygulanabilen elementler:** display:box ve display:inline-box değeri
 alan elemanlara  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-</div>
 Esnek Kutu Yerleşimi ile yerleştirilen kutular genelde bir eksen
 üzerinde blok halinde hareket eder, **blox-line** özellik bu elemanların
 alt satıra geçip geçmemesini ayarlar. İki değer alır.
@@ -233,27 +280,41 @@ dair duyumlar var.
 Yenilenen EKYM standartlarında box-line özelliği görünmüyor. Onun yerine
 benzer etki yapacak **flex-flow** tanımı gelecek gibi.
 
-### box-ordinal-group
+## box-ordinal-group
 
-<div class="cssozelliktanimi">
 **Yapısı :** box-ordinal-group: <deger>  
 **Aldığı Değerler :** <sayı>  
 **Başlangıç değeri:** 1  
 **Uygulanabilen elementler:** display:box ve display:inline-box değeri
 alan elemanların normal akıştaki alt elemanları  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-</div>
 **box-ordinal-group** özelliği kapsayıcı kutunun içindeki esnek
 kutuların sıralamasını belirlememizi sağlar.
 
 	:::css
-	 #esnekKutu1 { box-ordinal-group: 2; -webkit-box-ordinal-group: 2;
--moz-box-ordinal-group: 2; background-color:#0CF; } #esnekKutu3 {
-box-ordinal-group: 2; -webkit-box-ordinal-group: 2;
--moz-box-ordinal-group: 2; background-color:#9C3; } #esnekKutu4 {
-box-ordinal-group: 1; -webkit-box-ordinal-group: 1;
--moz-box-ordinal-group: 1; background-color:#FC9; } 
+	#esnekKutu1 {
+	    box-ordinal-group: 2;
+	    -webkit-box-ordinal-group: 2;
+	    -moz-box-ordinal-group: 2;
+	    background-color:#0CF;
+	}
+	
+	#esnekKutu3 {
+	    box-ordinal-group: 2;
+	    -webkit-box-ordinal-group: 2;
+	    -moz-box-ordinal-group: 2;
+	    background-color:#9C3;
+	}
+	
+	#esnekKutu4 {
+	    box-ordinal-group: 1;
+	    -webkit-box-ordinal-group: 1;
+	    -moz-box-ordinal-group: 1;
+	    background-color:#FC9;
+	}
+	
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/TaFBM/embedded/result,css,html"></iframe>
 
 Dört adet kutumuz var. Bunların üç tanesine **box-ordinal-group** değeri
@@ -270,17 +331,16 @@ Bu özellik bize sıralama konusunda tam bir kontrol sağlamaktadır.
 Yeni EKYM standardında **box-ordinal-group** yerine **flex-order**
 özellik ismi kullanılması düşünülmektedir.
 
-### box-flex
+## box-flex
 
-<div class="cssozelliktanimi">
-**Yapısı :** box-ordinal-group: <deger>  
-**Aldığı Değerler :** <sayı>  
+**Yapısı :** box-ordinal-group: <deger\>  
+**Aldığı Değerler :** <sayı\>  
 **Başlangıç değeri:** 0  
 **Uygulanabilen elementler:** display:box ve display:inline-box değeri
 alan elemanların normal akıştaki alt elemanları  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-</div>
 **blox-flex** özelliği tanımlanması durumunda alt elemanların esnek
 davranmasını sağlar. Tanım yapılmadığında ise alt elemanlar esnek olmaz.
 
@@ -292,16 +352,53 @@ toplamı arasındaki fark) bu sayıya bölünerek elde edilen değer kutu
 genişliğini belirler.
 
 	:::css
-	 #esnekKutuKapsul { background: gray; border: blue; display: box;
-display: -webkit-box; display: -moz-box; display: -ms-box; width:100%; }
-.esnekKutu { background-color:#999999; height:150px; } #esnekKutu1 {
-background-color:#0CF; border: orange solid 1px; box-flex: 2;
--webkit-box-flex: 2; -moz-box-flex: 2; -ms-box-flex: 2; } #esnekKutu2 {
-background: lightgray; border: red solid 1px; box-flex: 1;
--webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; } #esnekKutu3 {
-background-color:#9C3; border: red solid 1px; box-flex: 0;
--webkit-box-flex: 0; -moz-box-flex: 0; -ms-box-flex: 0; } #esnekKutu4 {
-background-color:#FC9; border: red solid 1px; } 
+	#esnekKutuKapsul {
+	     background: gray;
+	    border: blue;
+	    display: box;
+	   display: -webkit-box;
+	   display: -moz-box;
+	   display: -ms-box;
+	   width:100%;
+	}
+	
+	.esnekKutu {
+	   background-color:#999999;
+	   height:150px;
+	}
+	
+	#esnekKutu1 {
+	    background-color:#0CF;  
+	    border: orange solid 1px;
+	    box-flex: 2;
+	    -webkit-box-flex: 2;
+	    -moz-box-flex: 2;
+	    -ms-box-flex: 2;
+	}
+	
+	#esnekKutu2 {
+	    background: lightgray;
+	    border: red solid 1px;
+	    box-flex: 1;
+	    -webkit-box-flex: 1;
+	    -moz-box-flex: 1;
+	    -ms-box-flex: 1;
+	}
+	
+	#esnekKutu3 {
+	    background-color:#9C3;    
+	    border: red solid 1px;
+	    box-flex: 0;
+	    -webkit-box-flex: 0;
+	    -moz-box-flex: 0;
+	    -ms-box-flex: 0;
+	}
+	
+	#esnekKutu4 {
+	    background-color:#FC9;
+	    border: red solid 1px;
+	}
+	
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/h7KAa/embedded/result,css,html"></iframe>
 
 Daha sabit bir örnek verelim; genişliği 600px olan kapsayıcı eleman ve
@@ -313,14 +410,46 @@ kutunun genişliği 250px(100 + 300/4 * 2 = 250) olurken diğer iki
 kutunun genişliği 175px(100 + 300/4 * 1 = 175) olacaktır.
 
 	:::css
-	 #esnekKutuKapsul { background: gray; border: blue; display: box;
-display: -webkit-box; display: -moz-box; display: -ms-box; width:600px;
-} .esnekKutu { background-color:#999999; height:150px; width:100px; }
-#esnekKutu1 { background-color:#0CF; box-flex: 2; -webkit-box-flex: 2;
--moz-box-flex: 2; -ms-box-flex: 2; } #esnekKutu2 { background:
-lightgray; box-flex: 1; -webkit-box-flex: 1; -moz-box-flex: 1;
--ms-box-flex: 1; } #esnekKutu3 { background-color:#9C3; box-flex: 1;
--webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; } 
+	#esnekKutuKapsul {
+	   background: gray;
+	   border: blue;
+	   display: box;
+	   display: -webkit-box;
+	   display: -moz-box;
+	   display: -ms-box;
+	   width:600px;
+	}
+	
+	.esnekKutu {
+	   background-color:#999999;
+	   height:150px;
+	   width:100px;
+	}
+	
+	#esnekKutu1 {
+	   background-color:#0CF;  
+	   box-flex: 2;
+	   -webkit-box-flex: 2;
+	   -moz-box-flex: 2;
+	   -ms-box-flex: 2;
+	}
+	
+	#esnekKutu2 {
+	   background: lightgray;
+	   box-flex: 1;
+	   -webkit-box-flex: 1;
+	   -moz-box-flex: 1;
+	   -ms-box-flex: 1;
+	}
+	
+	#esnekKutu3 {
+	   background-color:#9C3;    
+	   box-flex: 1;
+	   -webkit-box-flex: 1;
+	   -moz-box-flex: 1;
+	   -ms-box-flex: 1;
+	}
+	
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/Dyjq2/embedded/result,css,html"></iframe>
 
 Eğer kutu genişlikleri toplamı kapsayıcı kutunun genişliğinden büyük ise
@@ -335,7 +464,6 @@ gözüküyor)
 standartlarda **box-flex** vede **box-flex-group** özelliklerini
 kapsayan **flex()** fonksiyonu ile yenilenmektedir.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 3+ (-moz- öneki ile)  
 Chrome 5+ (-webkit- öneki ile)  
@@ -347,9 +475,9 @@ iOS Safari 3.2+ (-webkit- öneki ile)
 Opera Mini desteklemiyor  
 Opera Mobile destelemiyor  
 Android Browser 2.2+ (-webkit- öneki ile)
+{: .tarayiciuyum}
 
-</div>
-### Sonuç
+## Sonuç
 
 Gerek CSS3 ve gerekse EKYM yeni özellikler ve hala gelişmektede olan
 mecralar. Benim burada anlatmak istediğim CSS3’ün en büyük
@@ -370,7 +498,7 @@ Yukarıda özelliklerin nasıl kullanıldığını göstermek için daha basit
 
 Kalın sağlıcakla
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.html5rocks.com/en/tutorials/flexbox/quick/][] (güzel)
 -   [http://www.css3.info/introducing-the-flexible-box-layout-module/][]
@@ -391,12 +519,10 @@ Kalın sağlıcakla
 -   [http://www.w3schools.com/css3/css3_reference.asp#box][]
 -   [http://portfo.li/madebyted/477862-css3-flexible-box-layout-module-aka-flex-box-introduction-and-demos-test-cases][]
 -   [http://ontwik.com/css/css-3-the-flexible-box-model/][] (video)
--   [http://msdn.microsoft.com/en-us/ie/hh272902.aspx#_CSSFlexBox][]
-    (güzel)
+-   [http://msdn.microsoft.com/en-us/ie/hh272902.aspx#_CSSFlexBox][] (güzel)
 -   [http://caniuse.com/flexbox][] (tarayıcı desteği)
 -   [http://coding.smashingmagazine.com/2011/09/19/css3-flexible-box-layout-explained/][]
 
-</p>
 
   [Tablo mu? Div mi? Karmaşasına Son Noktayı HTML5 koydu]: http://www.fatihhayrioglu.com/tablo-mu-div-mi-karmasasina-son-noktayi-html5-koydu/
   [Raphael Goetter]: http://www.ie7nomore.com/fun/flexiblenav/

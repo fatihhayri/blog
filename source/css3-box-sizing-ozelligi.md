@@ -27,14 +27,14 @@ belirlenir.”*
 W3C bu durum için bu kabulü bir özelliğe atadı ve bize seçme imkanı
 tanıdı. Artık biz kutu modelinin nasıl davranacağını seçebileceğiz.
 
-<div class="cssozelliktanimi">
-**Yapısı :** box-sizing: <deger>  
+
+**Yapısı :** box-sizing: <deger\>  
 **Aldığı Değerler :** content-box | border-box   
 **Başlangıç değeri:** content-box  
 **Uygulanabilen elementler:** Tüm Elemanlara  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-</div>
 box-sizing özelliği bize kutunun genişliğinin border ve padding
 değerlerinin içerip içermemesi gerektiğini tanımlama imkanı sağlıyor.
 İki adet değeri var
@@ -46,8 +46,15 @@ değerlerinin içerip içermemesi gerektiğini tanımlama imkanı sağlıyor.
     içerir.
 
 	:::css
-	 #kutu{ display:block; border:10px solid #069; padding:20px;
-width:200px; height:200px; background:#CCC; } 
+	#kutu{
+	  display:block;
+	  border:10px solid #069;
+	  padding:20px;
+	  width:200px;
+	  height:200px;
+	  background:#CCC;
+	}
+	
 <iframe style="width: 100%; height: 400px" src="http://jsfiddle.net/fatihhayri/ZeMYW/1/embedded/result,css,html"></iframe>
 
 Başlangıç değeri content-box’dır. Kutu genişliği 10px + 20px + 200 + 20
@@ -58,9 +65,17 @@ Chrome(-webkit-) ve Safari (-webkit-) Yukarıdaki koda box-border tanımı
 yapıldığında
 
 	:::css
-	 #kutu{ display:block; border:10px solid #069; padding:20px;
-width:200px; height:200px; background:#CCC; box-sizing:border-box;
--webkit-box-sizing:border-box; -moz-box-sizing:box-border; } 
+	#kutu{
+	  display:block;
+	  border:10px solid #069;
+	  padding:20px; width:200px;
+	  height:200px;
+	  background:#CCC;
+	  box-sizing:border-box;
+	  -webkit-box-sizing:border-box;
+	  -moz-box-sizing:box-border;
+	}
+	 
 <iframe style="width: 100%; height: 400px" src="http://jsfiddle.net/fatihhayri/y6uyv/embedded/result,css,html"></iframe>
 
 Kutunun genişlik değeri 200px olacaktır. İçerik alanı genişlik değeri
@@ -86,19 +101,28 @@ yoktur. En azından [calc()][] özelliği tam desteklenene kadar yoktur.
 Çözüm olarak box-border tanımı ile sorunumuza çözüm üretebiliriz.
 
 	:::css
-	 .kutuSol{ float: left; width: 30%; background-color: pink; border:
-3px red dotted; height: 150px; box-sizing:border-box;
--webkit-box-sizing:border-box; -moz-box-sizing:box-border; } .kutuSag{
-float: left; background-color: lightgreen; width: 70%; border: 3px green
-dotted; height: 150px; box-sizing:border-box;
--webkit-box-sizing:border-box; -moz-box-sizing:box-border } 
+	.kutuSol{
+	 float: left;
+	 width: 30%;
+	 background-color: pink;
+	 border: 3px red dotted;
+	 height: 150px;
+	}
+	
+	.kutuSag{
+	 float: left;
+	 background-color: lightgreen;
+	 width: 70%;
+	 border: 3px green dotted;
+	 height: 150px;
+	}
+	 
 <iframe style="width: 100%; height: 400px" src="http://jsfiddle.net/fatihhayri/z2bQA/1/embedded/result,css,html"></iframe>
 
 Farklı araçlar ile web sayfaları gezilmeye başlayalı beri esnek yapılı
 sayfalar revaçtadır. Websitelerimizi artık daha esnek planlamak zorunda
 kalacağız. Bu durumda bu özellik bize çok büyük yararlar sağlayacaktır.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 1+ (-moz- ön eki ile)  
 Chrome 1+ (-webkit- ön eki ile)  
@@ -110,8 +134,8 @@ iOS Safari 3.2+ (-webkit- ön eki ile)
 Opera Mini 5+  
 Opera Mobile10+  
 Android Browser 2.1+ (-webkit- ön eki ile)
+{: .tarayiciuyum}
 
-</div>
 Trayaıcı destek listesinde görüldüğü gibi sorun sadece ie7 sürümü ve
 aşağısında yaşanmaktadır.
 
@@ -124,24 +148,19 @@ verilebilir. Ayrıca html doküman garip modda kullanılır. Graip mod
 
 Kalın sağlıcakla
 
-### Kaynaklar
+## Kaynaklar
 
--   [http://www.456bereastreet.com/archive/201104/controlling_width_with_css3_box-sizing/][]
-    (güzel)
+-   [http://www.456bereastreet.com/archive/201104/controlling_width_with_css3_box-sizing/][] (güzel)
 -   [http://caniuse.com/css3-boxsizing][] (tarayıcı destek listesi)
 -   [http://helephant.com/2008/10/20/css3-box-sizing-attribute/][]
-    (güzel)
 -   [http://aninnovativeweb.tumblr.com/post/770432002/understanding-css3-box-sizing][]
 -   [http://www.w3.org/TR/css3-ui/#box-sizing][]
 -   [http://www.goldentwine.com/blog/css3-user-interface-box-sizing][]
 -   [http://csshead.com/controlling-width-with-css3-box-sizing/][]
 -   [http://css-tricks.com/7323-box-sizing/][]
--   [https://www.youtube.com/watch?v=rNqqfMJnpKY&feature=related][]
-    (video)
+-   [https://www.youtube.com/watch?v=rNqqfMJnpKY&feature=related][] (video)
 -   [http://maymay.net/blog/2004/10/28/observations-on-the-css3-box-sizing-property-and-how-designers-use-style-sheets/][]
 -   [http://www.w3cplus.com/content/css3-box-sizing][] (çince)
-
-</p>
 
   [CSS ile Kutu modeli, sorunları ve çözümleri]: http://www.fatihhayrioglu.com/kutu-modeli-sorunlari-ve-cozumleri/
   []: https://lh5.googleusercontent.com/EkvNMZKnUkXNpL5ps_x6sCNwyAOY6KQ3TS3YsJ9_Ypbui2rEdirr1BijorcNsFE-9a9eIcUerazNoQLsvh7U8J9sGm3h3cV-DFRXqCuLae8e4ruLWfQ

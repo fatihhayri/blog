@@ -49,22 +49,27 @@ Sadece webkit tabanlı tarayıcıların desteklediği özellikler var. Biz
 Elemanları kolonlara bölmek için **column-count** ve **column-width**
 özelliklerini kullanıyoruz.
 
-### column-count
+## column-count
 
 Elemanı ayıracağımız kolon sayısını belirlememizi sağlar. Başlangıç
 değeri auto olarak tanımlıdır. Bu sayede sadece **column-width** tanımı
 ile ile
 
 	:::css
-	 #cokluKolon{ -moz-column-count:3; -webkit-column-count:3;
-column-count:3; width:968px; margin:0 auto; } 
+	#cokluKolon{
+	  -moz-column-count:3;
+	  -webkit-column-count:3;
+	  column-count:3;
+	  width:968px;
+	  margin:0 auto;
+	}
+	
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/HZZ8t/1/embedded/css,result,html"></iframe>
 
 Genişlik tanımı yapılmadan kolonlara bölme işlemi gerçekleşmiyor.
 Tarayıcılara göre farklı öneklerle kullanmamız dışında tek satırsa
 elemanları kolonlara bölmek bize çok büyük kolaylık sağlayacaktır.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 1.5+  
 Chrome 2+  
@@ -76,35 +81,46 @@ iOS Safari 3.2+
 Opera Mini desteklemiyor  
 Opera Mobile11.1+  
 Android Browser 2.1+
+{: .tarayiciuyum}
 
-</div>
-### column-width
+## column-width
 
 Elemanları kolonlara bölmek için diğer bir yöntemde **column-width** ile
 genişlik tanımı yapmaktır. Tarayıcılar belirlenen genişliğe göre
 kapsayıcının genişliğine göre otomatik olarak kolonlara bölecektir.
 
 	:::css
-	 #cokluKolon{     -moz-column-width:150px;    
--webkit-column-width:150px;     column-width:150px;    } 
+	#cokluKolon{
+      -moz-column-width:150px;
+      -webkit-column-width:150px;
+      column-width:150px;    
+	}
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/SkXL4/1/embedded/css,result,html"></iframe>
 
 Bir genişlik tanımı yapılırsa **column-width** değeri tanımlandığı kadar
 kolona bölüyor.
 
 	:::css
-	 #cokluKolon{     -moz-column-width:150px;    
--webkit-column-width:150px;     column-width:150px;     width:950px;   
-} 
+	#cokluKolon{
+      -moz-column-width:150px;
+      -webkit-column-width:150px;
+      column-width:150px;
+      width:950px;    
+	}
 
 column-width ile **column-count** aynı anda kullanabiliriz.
 
 	:::css
-	 #cokluKolon{    -webkit-column-count: 2;    -moz-column-count: 2;
-   column-count: 2;    -webkit-column-width: 150px;
-   -moz-column-width: 150px;    column-width: 150px;        } 
+	#cokluKolon{
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+      -webkit-column-width: 150px;
+      -moz-column-width: 150px;
+      column-width: 150px;        
+	}
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 1.5+  
 Chrome 2+  
@@ -116,25 +132,26 @@ iOS Safari 3.2+
 Opera Mini desteklemiyor  
 Opera Mobile11.1+  
 Android Browser 2.1+
+{: .tarayiciuyum}
 
-</div>
-### columns
+## columns
 
 **column-count** ve **column-width** değerlerini tek seferde
 kullanabileceğimiz bir kısayol tanımıdır.
 
 	:::css
-	 div {columns: 200px 5;} 
+	div {
+		columns: 200px 5;
+	} 
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox desteklemiyor  
 Chrome (-webkit- öneki ile)  
 Safari (-webkit- öneki ile)  
 Opera 11.1+  
 İnternet Explorer 10+
+{: .tarayiciuyum}
 
-</div>
 Burada araya girip gördüğüm bir sorunu yazayım. **column-count** ve
 **column-width** tanımları birlikte yapılınca veya columns tanımı
 yapıldığında Firefox ve Google Chrome ile Opera farklı yorumluyor. Opera
@@ -142,15 +159,20 @@ yorumlarken her halükarda **column-width** değerini üstün kılarken,
 Firefox ve Chrome **column-coun**t değerini üstün kılıyor.
 
 	:::css
-	 #cokluKolon{    -webkit-column-count: 2;    -moz-column-count: 2;
-   column-count: 2;    -webkit-column-width: 150px;
-   -moz-column-width: 150px;    column-width: 150px;        } 
+	#cokluKolon{
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+      -webkit-column-width: 150px;
+      -moz-column-width: 150px;
+      column-width: 150px;        
+  	} 
 
 Bu tanımda Firefox ve Chrome 2 kolonlu bir yapı gösteriyor ve genişlik
 olarak 150px tanımını görmüyor. Opera ise **column-width** değerini
 150px alıp kapsayıcının genişliği kadar kolona ayrırıyor.
 
-### column-gap
+## column-gap
 
 Kolonlar arasına mesafe koymak için kullanılır. Bir bakıma padding veya
 margin anlamında kullanılır.
@@ -158,13 +180,16 @@ margin anlamında kullanılır.
 Başlangıç değeri 1em olarak tanımlıdır.
 
 	:::css
-	 #cokluKolon{    -webkit-column-gap: 50px;    -moz-column-gap:
-50px;    column-gap: 50px;        } 
+	#cokluKolon{
+      -webkit-column-gap: 50px;
+      -moz-column-gap: 50px;
+      column-gap: 50px;        
+  	}
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/vdnRk/1/embedded/css,result,html"></iframe>
 
 **column-gap**’in güzelliği son kolona bu boşluğu uygulamıyor olması.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 1.5+  
 Chrome 2+  
@@ -176,9 +201,9 @@ iOS Safari 3.2+
 Opera Mini desteklemiyor  
 Opera Mobile11.1+  
 Android Browser 2.1+
+{: .tarayiciuyum}
 
-</div>
-### column-rule
+## column-rule
 
 **column-rule** ile kolonlar arasına çizgi atabiliyoruz. border tanımı
 ile benzer bir yapısı var. **column-rule-size,
@@ -186,15 +211,17 @@ column-rule-style**ve**column-rule**-color gibi ayrı ayrı tanımlama
 yapılabileceği gibi **column-rule** kısaltması ile tanım yapabiliyoruz.
 
 	:::css
-	 #cokluKolon{    -webkit-column-rule: 3px solid #000;
-   -moz-column-rule: 3px solid #000;    column-rule: 3px solid
-#000;        } 
+	#cokluKolon{
+      -webkit-column-rule: 3px solid #000;
+      -moz-column-rule: 3px solid #000;
+      column-rule: 3px solid #000;        
+  	}
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/3SMhX/embedded/css,result,html"></iframe>
 
 **column-gap** gibi sadece aradaki kolonlara uygulanan bir özellik bu
 son kolona uygulanmıyor.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox 1.5+  
 Chrome 2+  
@@ -206,9 +233,9 @@ iOS Safari 3.2+
 Opera Mini desteklemiyor  
 Opera Mobile11.1+  
 Android Browser 2.1+
+{: .tarayiciuyum}
 
-</div>
-### break-before, break-after ve break-inside
+## break-before, break-after ve break-inside
 
 Eleman akışını kesmek gerektiğin kullanmak için **break-before,
 break-after**ve**break-inside** kullanırız. Özelliğin üçe ayrılmasının
@@ -243,16 +270,15 @@ desteklemektedir.
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/aPtVe/3/embedded/css,result,html"></iframe>
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox desteklemiyor  
 Chrome (-webkit- öneki ile)  
 Safari (-webkit- öneki ile)  
 Opera 11.1+ (gerçekleyemedim)  
 İnternet Explorer 10+ (gerçekleyemedim)
+{: .tarayiciuyum}
 
-</div>
-### column-span
+## column-span
 
 Eğer kolonlara ara başlıklar koymayı düşünüyorsak ve bu başlıkları tüm
 kolonlar boyunca uzatmak istiyorsak **column-span** özelliğini
@@ -264,23 +290,27 @@ kullanılır. Sayı değerleri ise belirtilen sayıdaki kolonlarda uzamasını
 için kullanılır.
 
 	:::css
-	 #cokluKolon h2{ -webkit-column-span:all; -moz-column-span:all;
-column-span:all; background-color:#0CF; } 
+	#cokluKolon h2{
+	  -webkit-column-span:all;
+	  -moz-column-span:all;
+	  column-span:all;
+	  background-color:#0CF;
+	}
+ 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/x6B67/embedded/css,result,html"></iframe>
 
 Şu anda destekleyen tarayıcılar **all ve none** değerlerini destekliyor
 sayısal değeri destekleyen tarayıcı henüz yok.(Eylül 2011)
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**   
 Firefox desteklemiyor  
 Chrome (-webkit- öneki ile) kısmen  
 Safari (-webkit- öneki ile) kısmen  
 Opera 11.1+   
 İnternet Explorer 10+
+{: .tarayiciuyum}
 
-</div>
-### column-fill
+## column-fill
 
 Çoklu kolon tanımlarını yaptığımızda tarayıcılar içeriğe göre kolonları
 eşit yükseklikte ayarlar. Kolon yüksekliklerini ayarlamak için
@@ -299,16 +329,15 @@ iki değer arasında bir fark görmedim.
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/WSWbt/embedded/css,result,html"></iframe>
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox desteklemiyor  
 Chrome (-webkit- öneki ile)  
 Safari (-webkit- öneki ile)  
 Opera 11.1+  
 İnternet Explorer 10+
+{: .tarayiciuyum}
 
-</div>
-### İnternet Explorer İçin Çözüm
+## İnternet Explorer İçin Çözüm
 
 İnternet Explorer’un 10. sürümüne kadar desteklemediği bu özelliği
 kullanma imkanımız azalıyor. Javascript ile üretilen çözümler mevcut
@@ -318,7 +347,7 @@ kullanma imkanımız azalıyor. Javascript ile üretilen çözümler mevcut
 -   [Multi Column Layout Demonstration from CSS Scripting][]
 -   [Multi-column layout with CSS3 (and some JavaScript)][]  
 
-### Sonuç
+## Sonuç
 
 Çoklu kolon özelliklerinin ilk çıktığında ben daha çok saya planlama
 özellikleri olarak düşünmüştüm, ancak özellikleri inceledikçe sayfa
@@ -349,35 +378,23 @@ Kalın sağlıcakla
 -   [http://www.quirksmode.org/css/multicolumn.html][]
 -   [http://webdesignernotebook.com/css/remembering-the-css3-multi-column-layout-module/][]
 -   [http://trentwalton.com/2010/07/19/css3-multi-column-layout-column-count/][]
-    (örnek)
 -   [http://css-tricks.com/13372-seamless-responsive-photo-grid/][]
-    (örnek)
 -   [http://designshack.co.uk/articles/introduction-to-css3-part-5-multiple-columns][]
-    (güzel)
 -   [http://kmsm.ca/2010/an-almost-complete-guide-to-css3-multi-column-layouts/][]
-    (güzel)
 -   [http://dev.opera.com/articles/view/css3-multi-column-layout/][]
-    (güzel)
 -   [http://www.my-html-codes.com/css3-multiple-columns][] (orta)
 -   [http://www.456bereastreet.com/archive/200509/css3_multicolumn_layout_considered_harmful/][]
-    (basit)
 -   [https://developer.mozilla.org/en/CSS3_Columns][] (basit)
 -   [http://www.red-team-design.com/multi-column-text-using-css3][]
-    (örnekli)
 -   [http://www.stuffandnonsense.co.uk/archives/css3_multi-column_thriller.html][]
 -   [http://www.superiorwebsys.com/blog/20/Creating_A_Multi-Column_Layout_Using_CSS3/][]
-    (görsel)
 -   [http://caniuse.com/multicolumn][] (tarayıcı destek)
--   [http://people.opera.com/pepelsbey/experiments/multicol/][] (güzel
-    örnek)
+-   [http://people.opera.com/pepelsbey/experiments/multicol/][] (güzel örnek)
 -   [http://people.opera.com/zibin/multicol/index.html][] (güzel örnek)
 -   [http://www.juude.info/css-columns.php][] (güzel)
 -   [http://www.csscripting.com/css-multi-column/][Multi Column Layout     Demonstration from CSS Scripting] (js ile çözüm)
--   [http://zomigi.com/blog/deal-breaker-problems-with-css3-multi-columns/][]
-    (sorunları)
+-   [http://zomigi.com/blog/deal-breaker-problems-with-css3-multi-columns/][] (sorunları)
 -   [http://help.dottoro.com/lcxquvkf.php][]
-
-</p>
 
   [Tipografi]: http://www.fatihhayrioglu.com/css-ve-tipografi/
   [A List Apart]: http://www.alistapart.com/articles/css3multicolumn

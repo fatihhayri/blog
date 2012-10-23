@@ -1,4 +1,5 @@
 Title: Git Öğreniyorum -2
+Slug: git-ogreniyorum-2
 Date: 2011-09-07 21:40
 Category: Haberler
 Tags: git, macos, sürüm kontrol sistemi, terminal
@@ -15,17 +16,18 @@ aşağıdaki basit komutları bilmenizde yarar var.
 Terminal giriş görünümü yukarıdaki gibidir. (Renklere takılmayın bu
 benim seçimim)
 
-### ls (list files)
+## ls (list files)
 
 Çalıştığımız klasörün içeriğini göstermek için kullanılır. Windows’taki
 dir ile aynı anlamdadır.
 
 Sonuç aşağıdaki gibi olacaktır
 
-[bash] ls aFolder    another.txt    bilgilendirme.txt   deneme.html
-[/bash]
+	:::bash
+	ls
+	aFolder    another.txt    bilgilendirme.txt   deneme.html
 
-### cd (Change Directory)
+## cd (Change Directory)
 
 Bu komut ile dosyalar arası geçiş için kullanırız. Mesela image
 klasörüne geçmek için
@@ -49,21 +51,21 @@ durumunda akılda tutmak zor oluyor. Klasör veya dosya isminin başında
 bir kaç karakter yazdıktan sonra tab tuşuna basarak gerisini
 tamamlayabilirsiniz.
 
-### mkdir (Make Directory)
+## mkdir (Make Directory)
 
 Yeni klasör oluşturmak için kullanıyoruz. Mac ve Windows’ta kullanımı
 aynıdır.
 
 [bash] mkdir yeniKlasor [/bash]
 
-### rm (remove)
+## rm (remove)
 
 Dosya ve klasörleri silmek için kullanılır. Silme işlemlerinde her zaman
 dikkatli olmak lazım.
 
 [bash] rm deneme.html rm images_klasoru [/bash]
 
-### cp (copy) ve mv (move)
+## cp (copy) ve mv (move)
 
 Çok basit bir kullanımı vardır. İlk parametre kopyalanacak dosyayı
 ikinci parametre ise hedefi gösterir.
@@ -80,11 +82,11 @@ mv komutu dosya ismini değiştirmek içinde kullanılabilir.
 
 deneme.html dosyası ismi test.html olarak değiştirilip taşınmıştır.
 
-### clear
+## clear
 
 Terminal ekranını temizlemek için kullanılır.
 
-### Dosya Açmak
+## Dosya Açmak
 
 Komut satırlarından harici programlarda da açabiliyoruz veya kendi
 içinde açabiliyoruz.
@@ -95,7 +97,7 @@ Mesela MacOs için ilgili klasörde iken
 
 komutu deneme.html dosyamızı nano editöründe açmamızı sağlayacaktır.
 
-### exit
+## exit
 
 Eğer uzak dosya yönetimi ile çalışıyorsanız. Kurduğunuz bağlantıyı
 sonlandırır.  exit komutu ile Terminalide kapatmak mümkün. Terminal -
@@ -112,7 +114,7 @@ Git Kullanırken Öğrendiğim İpuçları
 Yukarıda genel komutları anlattım, aşağıda ise kullandıkça gördüğüm
 komutları ve ipuçlarını paylaşacağım.
 
-### İki dosya arasındaki farkı görmek
+## İki dosya arasındaki farkı görmek
 
 Bir branchdeki veya bir dosya üzerindeki değişiklikleri görmek için
 branchde iken
@@ -148,13 +150,13 @@ fe0dba7b841e86b095d2aefbd6bd755a0d9d1e90  Html/index.html [/php]
 Eklenenleri yeşil, çıkarılanları kırmızı renkte gösterecektir. Ayrımı
 görmek için renkler güzel oluyor.
 
-### Dallanma (Brach) Silmek
+## Dallanma (Brach) Silmek
 
 git branch -d: Yanlışlıkla açtığımız branchlerı silmek için
 
 [php] $git branch -d branch_ismi [/php]
 
-### Kısayol kullanmak
+## Kısayol kullanmak
 
 Git kullanırken aynı kodları tekrar tekrar çok kullanıyoruz. Bu
 komutları kısaltarak daha hızlı kod yazabilme imkanı sağlıyor bize komut
@@ -190,13 +192,13 @@ ci = commit
 
 Siz bu listeyi kendinize göre düzenleyebilirsiniz.
 
-### Git için kaynaklar
+## Git için kaynaklar
 
 [http://sixrevisions.com/resources/git-tutorials-beginners/][] bu
 bağlantıda Git kaynakları listelenmiş. Git’in güzel yanlarında birisi
 öğrenmek için kaynağın bol olması.
 
-### Başka Branch’den dosya almak
+## Başka Branch’den dosya almak
 
 [php] $git checkout branch_adi dosya_adi [/php]
 
@@ -205,7 +207,7 @@ master’dan dosyayı alabiliriz.
 
 [php] git checkout master dosya_adi [/php]
 
-### Değişen dosya isimleri
+## Değişen dosya isimleri
 
 Çalıştığımız branchde değişiklik yaptığımız dosyaları görmek için
 
@@ -219,18 +221,15 @@ Yerlikaya'ya şükranlarımı sunarım. Gitmeyeydin Git daha kolay olacaadı.
 
 Kalın sağlıcakla
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://tybarts.wordpress.com/2011/05/07/git-global-config-dosyasini-ayarlamak/][]
 -   [https://git.wiki.kernel.org/index.php/Aliases][]
 -   [http://sixrevisions.com/resources/git-tutorials-beginners/][]
 -   [http://ss64.com/osx/][]
 
-</p>
-
   [Sürüm Kontrol Sistemi Git]: http://www.fatihhayrioglu.com/surum-kontrol-sistemi-git/
-  []: /images/terminal-300x187.png
-    "terminal"
+  []: /images/terminal-300x187.png "terminal"
   [![][]]: /images/terminal.png
   [http://ss64.com/osx/]: http://ss64.com/osx/
   [http://tybarts.wordpress.com/2011/05/07/git-global-config-dosyasini-ayarlamak/]: http://tybarts.wordpress.com/2011/05/07/git-global-config-dosyasini-ayarlamak/

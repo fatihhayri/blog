@@ -23,8 +23,13 @@ Genelde esnek yapılı alanlar ve sayfa düzeni oluştururken göreceli değer
 ve sabit margin, padding ve border tanımları ile sorun yaşarız.   
 
 	:::css
-	 #sagKolon{ width:calc(300px - 1em); width:-moz-calc(300px - 1em);
-float:left; background-color:#CC9933; } 
+	#sagKolon{
+	  width:calc(300px - 1em);
+	  width:-moz-calc(300px - 1em);
+	  float:left;
+	  background-color:#CC9933;
+	}
+	
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/VaBqn/3/embedded/css,result,html"></iframe>
 
 Firefox önek(**-moz-**) ile bu değeri desteklerken İnternet Explorer
@@ -36,17 +41,21 @@ olacaktır.
 Birden fazla işlem içinde kullanıma izin vardır.  
 
 	:::css
-	 div { width: calc(100% - 20px + 2px*2); } 
+	div {
+	    width: calc(100% - 20px + 2px*2); 
+	}
 
 İşlem sırası matematik ve javascriptten bildiğimiz gibi çarpma, bölme,
 mod, toplama , çıkarma sıralaması ile olur.  
 
 	:::css
-	 p { margin: calc(1rem - 2px) calc(1rem - 1px) } 
+	p {
+	    margin: calc(1rem - 2px) calc(1rem - 1px)
+	}
 
 şeklinde margin üst/alt ve sağ/sol tanımları yapılabilir.   
 
-### Tarayıcı Desteği
+## Tarayıcı Desteği
 
 Baştada belirttiğimiz gibi şu an sadece Firefox4 ve İnternet Explorer 9
 ve üstü sürümleri destek sağlıyor. Microsoft’tan böyle bir destek
@@ -57,21 +66,17 @@ http://www.webkit.org/blog/1804/last-week-in-webkit-calculated-css-values-and-th
 webkit tabanlı tarayıcılarda calc() değerini destekliyor artık. 20 Şubat
 2012
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://webdesignernotebook.com/css/the-wonderful-calc-function/][]
 -   [http://hacks.mozilla.org/2010/06/css3-calc/][]
--   [http://msdn.microsoft.com/en-us/library/ms537660(v=vs.85).aspx][]
-    (ie9 destekliyor)
+-   [http://msdn.microsoft.com/en-us/library/ms537660(v=vs.85).aspx][] (ie9 destekliyor)
 -   [https://developer.mozilla.org/en/CSS/-moz-calc][]
 -   [http://caniuse.com/calc][] (destek listesi)
--   [http://mynthon.net/howto/-/webdev/css3-testsuite-calc-property-for-calculating-size.txt][]
-    (örnek)
+-   [http://mynthon.net/howto/-/webdev/css3-testsuite-calc-property-for-calculating-size.txt][] (örnek)
 -   [http://bloqk.com/makale/css_calc_kullanimi.html][]
 -   [http://www.thecssninja.com/demo/css_calc/][] (örnek)
 -   [http://www.sitepoint.com/css3-calc-function][]
-
-</p>
 
   [http://webdesignernotebook.com/css/the-wonderful-calc-function/]: http://webdesignernotebook.com/css/the-wonderful-calc-function/
   [http://hacks.mozilla.org/2010/06/css3-calc/]: http://hacks.mozilla.org/2010/06/css3-calc/
