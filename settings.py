@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-
 AUTHOR = 'Fatih'
 SITENAME = u'Fatih Hayrioğlu\'nun not defteri'
 SITESUBTITLE = u'{ CSS, XHTML ve Javascript }'
@@ -40,6 +39,8 @@ LINKS =  ()
 SOCIAL = (('@fatihhayri', 'http://twitter.com/fatihhayri'),)
 FEED_DOMAIN =  'http://feeds.feedburner.com'
 FEED_ATOM = 'fatihhayri'
+
+PLUGINS=['pelican.plugins.related_posts',]
 
 DEFAULT_PAGINATION = 10
 TWITTER_USERNAME = "fatihhayri"
