@@ -54,7 +54,7 @@ Aldığı değerleri kısaca açıklarsak
 	    background-origin: content-box;
 	}
 	 
-<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/Rf6Mv/embedded/result,css,html"></iframe>
+<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/Rf6Mv/31/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 **background-position:fixed** tanımlı elementlere etki etmez.
 
@@ -123,7 +123,7 @@ uygulanır.
 	 background-clip:content-box;  
 	}
 	 
-<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/uzFeu/3/embedded/result,css,html"></iframe>
+<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/uzFeu/4/embedded/result,css,html"></iframe>
 
 **background-origin:border-box** olarak tanımladığımızda
 **background-clip** özelliğini daha iyi anlarız. Her üç kutudaki
@@ -165,12 +165,12 @@ olarak kalıyor.
 	   -webkit-background-origin: border;
 	   -webkit-background-origin: border-box;
 	   background-origin: border-box;
-	    -webkit-background-clip:text;
-	    -webkit-text-fill-color:transparent;
-	    font:bold 72px Arial, Helvetica, sans-serif;   
+	   -webkit-background-clip:text;
+	   -webkit-text-fill-color:transparent;
+	   font:bold 72px Arial, Helvetica, sans-serif;   
 	}
 	 
-<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/gqaC9/embedded/result,css,html"></iframe>
+<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/gqaC9/3/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 **-webkit-text-fill-color:transparent** ile metnin ardalanını
 saydamlaştırıyoruz ve elemanın ardalanındaki resmi gösteriyoruz. Çok
