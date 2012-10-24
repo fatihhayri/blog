@@ -56,7 +56,7 @@ Daha fazla HTML5, CSS3 ve DOM özelliği desteği geldi.
     olacağını ayarlayabiliyoruz.
 
 -   HTML5 ses ve video elementlerinde metinleri izleyebilmemizi sağlayan
-    <track> elementini destekliyor.
+    <track\> elementini destekliyor.
 -   CSS3 border-radius özelliği artık iframelerde uygulanabiliyor.
 -   Özel veri özelliklerine(data-*) DOM’un element.dataset özelliği
     erişebilme imkanı sağlıyor.
@@ -79,7 +79,7 @@ Daha fazla HTML5, CSS3 ve DOM özelliği desteği geldi.
     trackpadlerde bu özellikleri kullanabiliyoruz artık.
 -   Tüm destek listesini görmek için [tıklayınız.][]
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.favbrowser.com/download-firefox-6-beta-1-for-pc-android/][]
 -   [http://venturebeat.com/2011/08/16/firefox-6/][]
@@ -87,8 +87,6 @@ Daha fazla HTML5, CSS3 ve DOM özelliği desteği geldi.
 -   [http://www.sitepoint.com/firefox-6-whats-new/][]
 -   [https://developer.mozilla.org/en/Firefox_6_for_developers][tıklayınız.]
 -   [http://www.pcworld.com/businesscenter/article/229447/ready_for_firefox_6_heres_whats_on_the_way.html][]
-
-</p>
 
   [Firefox 6]: https://lh3.googleusercontent.com/h-IKuADHzTtJwdtiERVqnW4ptIiuE9w6C0IWr_Pn0X4UZLjgny8zj4bfz-78varJxDf8gMM4l5UQ16C6NLpZc0hCkEiQQjLBNWiR9D_Kn7bb4SiKQic
   [Firefox6 çıktı.]: http://www.mozilla.com/tr/firefox/

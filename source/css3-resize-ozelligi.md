@@ -7,15 +7,14 @@ resize özelliği kullanıcıya elementin boyutlarını ayarlama imkanı
 vermemizi sağlar. Kullanıcı bu elemanın boyutunu istediği gibi
 değiştirme imkanına kavuşur
 
-<div class="cssozelliktanimi">
 **Yapısı:** resize: <deger>  
 **Aldığı Değerler:** both | horizontal | vertical | none | inherit  
 **Başlangıç Değeri:** none  
 **Uygulanabilen Elementler:** block-level ve replaced elementler, tablo
 hücreleri ve inline block elementler  
 **Kalıtsallık:** yok   
+{: .cssozelliktanimi}
 
-</div>
 **both:** Her iki yöne boyutlandırmaya izin verir.  
 **horizontal:** yatayda boyutlandırmaya izin verir.  
 **vertical:** dikeyde boyutlandırmaya izin verir.  
@@ -23,8 +22,10 @@ hücreleri ve inline block elementler
 **inherit:** kalıtsal olarak bu değeri üst elementten alır.
 
 	:::css
-	 div{ overfloaw:auto; /* bu tanim gerekli */ resize:both; }
-
+	div{
+		overfloaw:auto; /* bu tanim gerekli */
+		resize:both;
+	}
 
 overflow değeri scroll, auto veya hidden değerlerinde etki ederken
 overflow: visible tanımında ise etki yapmaz.
@@ -37,17 +38,33 @@ kaldırabiliyoruz.
 Bir örnek yapalım
 
 	:::css
-	 .icerik{ box-shadow: rgb(136, 136, 136) 5px 5px 5px;
-border-radius: 5px; resize: both; overflow: auto; border: 1px solid
-#dedede; padding:10px; width: 300px; height: 200px; } 
+	.icerik{
+	    box-shadow: rgb(136, 136, 136) 5px 5px 5px;
+	    border-radius: 5px;
+	    resize: both;
+	    overflow: auto;
+	    border: 1px solid #dedede;
+	    padding:10px;
+	    width: 300px;
+	    height: 200px;
+	}
+	 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/aDnP6/3/embedded/result,css,html"></iframe>
 
 Sadece bir yöne boyutlandırabiliyoruz
 
 	:::css
-	 .siir{ width: 170px; height: 200px; resize: vertical; overflow:
-hidden; position: relative; padding: 0 25px; border: 1px solid #DDD;
-font-family: georgia, serif; } 
+	.siir{
+	    width: 170px;
+	    height: 200px;
+	    resize: vertical;
+	    overflow: hidden;
+	    position: relative;
+	    padding: 0 25px;
+	    border: 1px solid #DDD;
+	    font-family: georgia, serif;
+	}
+	
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/k2wHc/2/embedded/result,css,html"></iframe>
 
 min-height ve min-width değerleri ile boyutlandırmanın minimum
@@ -56,22 +73,42 @@ değerleri ile de maksimum değerleri belirlenebilir. Bu özelliklerle
 kullanıcının sayfa görünümünü bozmasını engelleyebiliriz.  
 
 	:::css
-	 .siir{ width: 170px; height: 200px; resize: vertical; overflow:
-hidden; position: relative; padding: 0 25px; border: 1px solid #DDD;
-font-family: georgia, serif; max-height: 650px; min-height: 200px; }
+	.siir{
+	    width: 170px;
+	    height: 200px;
+	    resize: vertical;
+	    overflow: hidden;
+	    position: relative;
+	    padding: 0 25px;
+	    border: 1px solid #DDD;
+	    font-family: georgia, serif;
+	    max-height: 650px;
+	    min-height: 200px;
+	}
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/yLZDQ/embedded/result,css,html"></iframe>
 
 Resimler için güzel bir uygulama olabilir.
 
 	:::css
-	 .vasak{ width: 200px; margin: 0 10px; height: 150px; resize: both;
-overflow: hidden; position: relative; padding: 15px; border: 1px solid
-#DDD; } .vasak img{ width:100%; height:auto; } 
+	.vasak{
+		width: 200px;
+		margin: 0 10px;
+		height: 150px;
+		resize: both;
+		overflow: hidden;
+		position: relative;
+		padding: 15px;
+		border: 1px solid #DDD;
+	}
+
+	.vasak img{
+		width:100%;
+		height:auto;
+	}
+	 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/Xk3Gr/1/embedded/result,css,html"></iframe>
 
-</p>
-<div class="tarayiciuyum">
 **Tarayıcı Desteği**  
 Google Chrome 5+  
 Safari 5+  
@@ -84,14 +121,14 @@ Firefox mobile desteklemiyor
 IE Phone desteklemiyor  
 Opera Mobile desteklemiyor  
 Safari Mobile desteklemiyor
+{: .tarayiciuyum}
 
-</div>
 resize özelliği W3C Basic User Interface Module ile önerilen bir
 özelliğidir. Tarayıcıların destekleme durumuna göre ileride
 standartlaşıp standartlaşmayacağı belirlenecek bir özellik olarak
 görünse de Firefox desteği standartlaşması daha olasıdır.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.css3.info/preview/resize/][]
 -   [http://www.impressivewebs.com/css3-resize/][] (detaylı ve karşıt)
@@ -101,8 +138,6 @@ görünse de Firefox desteği standartlaşması daha olasıdır.
 -   [https://developer.mozilla.org/en/CSS/resize][]
 -   [http://www.yousaytoo.com/the-css3-resize-property/784883][]
 -   [http://robertnyman.com/css3/][]
-
-</p>
 
   [yazdığım gibi]: http://www.fatihhayrioglu.com/css-ipucu-27-chrome-ve-safaride-textarea-genisletme-islevini-kaldirma/
   [http://www.css3.info/preview/resize/]: http://www.css3.info/preview/resize/

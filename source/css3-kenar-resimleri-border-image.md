@@ -22,8 +22,7 @@ grafik [zurb.com][] sitesinden alınmıştır.
 
 border-image kod yapısı
 
--   border-image: <resim_kaynagi> <bolum {1,4}> / <genislik
-    {1,4}> <dis_hat> <tekrar{1,2}>;
+-   border-image: <resim_kaynagi\> <bolum {1,4}\> / <genislik {1,4}\> <dis_hat\> <tekrar{1,2}\>;
 
 Firefox, Chrome, Safari ve Opera gibi yeni nesil tarayıcılar
 destekliyor. Diğer özelliklerde olduğu gibi önek ile destekliyorlar.
@@ -55,7 +54,9 @@ bölümler ise sabit, genişleyebilir veya her ikisi tanımlarına göre
 çeşitli durumlar alabilir.
 
 	:::css
-	 .test{ border-image-slice: 5px 5px 5px 5px; } 
+	.test{
+		border-image-slice: 5px 5px 5px 5px;
+	} 
 
 ![][1]
 
@@ -67,12 +68,16 @@ piksel tanımlarında px koymak zorunlu değildir. Yukarıdaki tanım
 aşağıdaki gibi de yapılabilir.
 
 	:::css
-	 .test{ border-image-slice: 5 5 5 5; } 
+	.test{
+		border-image-slice: 5 5 5 5;
+	} 
 
 Tüm değerler eşit ise tek tanım ile de ifade edilebilir.
 
 	:::css
-	 .test{ border-image-slice: 5; } 
+	.test{
+		border-image-slice: 5;
+	} 
 
 Başta belirttiğimiz gibi 9 bölüme ayrılan resmin kenarları ve orta
 kısmına border-image ile işlev atayabiliyoruz. Orta kısım kenarların
@@ -95,24 +100,35 @@ border-image-width tanımlı ise CSS2’den aşina olduğumuz border-width
 tanımını ezer.
 
 	:::css
-	 .test{ border-image-width: 5px 5px 5px 5px } 
+	.test{
+		border-image-width: 5px 5px 5px 5px
+	} 
 
 tüm değerler aynı ise tek tanım ile kısaltma yapılabilir
 
 	:::css
-	 .test{ border-image-width: 5px; } 
+	.test{
+		border-image-width: 5px;
+	} 
 
 Genel tanımda ise taksim ile ayrılarak belirtilir.
 
 	:::css
-	 .test{ border-image: url(“images/test.gif”) 5 / 5px; } 
+	.test{
+		border-image: url(“images/test.gif”) 5 / 5px;
+	} 
 
 Bu kısaltmayı Opera henüz desteklememektedir. Bu nedenle bunun yerine
 border-width değerini kullanabiliriz.
 
 	:::css
-	 .test{ border-image: url(“images/test.gif”) 5 repeat; } .test{
-border-width:5px; } 
+	.test{
+		border-image: url(“images/test.gif”) 5 repeat;
+	}
+	
+	.test{
+		border-width:5px;
+	} 
 
 **border-image-outset**  
 border-image dış hat çizgisi kutunun dışına taşan kısmı belirtir. Şu an
@@ -149,34 +165,49 @@ dolayı şimdilik kaydı ile **border-image** kısaltması kullanılmalıdır.
 Yukarıda konu daha iyi anlaşılması için ayrı ayrı gösterilmiştir.
 
 	:::css
-	 .test{ width:300px; height:300px; border-width: 33px;
--moz-border-image: url(border_image_desen.png) 33 stretch;
--webkit-border-image: url(border_image_desen.png) 33 stretch;
--o-border-image: url(border_image_desen.png) 33 stretch; border-image:
-url(border_image_desen.png) 33 stretch; } 
+	.test{
+	    width:300px;
+	    height:300px;
+	    border-width: 33px;
+	    -moz-border-image: url(border_image_desen.png) 33 stretch;
+	    -webkit-border-image: url(border_image_desen.png) 33 stretch;
+	    -o-border-image: url(border_image_desen.png) 33 stretch;
+	    border-image: url(border_image_desen.png) 33 stretch;    
+	} 
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/myzQX/25/embedded/result,css,html"></iframe>  
-strech
+
+**strech**
 
 	:::css
-	 .test{ width:300px; height:300px; border-width: 33px;
--moz-border-image: url(border_image_desen.png) 33 repeat;
--webkit-border-image: url(border_image_desen.png) 33 repeat;
--o-border-image: url(border_image_desen.png) 33 repeat; border-image:
-url(border_image_desen.png) 33 repeat; } 
+	.test{
+	    width:300px;
+	    height:300px;
+	    border-width: 33px;
+	    -moz-border-image: url(border_image_desen.png) 33 repeat;
+	    -webkit-border-image: url(border_image_desen.png) 33 repeat;
+	    -o-border-image: url(border_image_desen.png) 33 repeat;
+	    border-image: url(border_image_desen.png) 33 repeat;    
+	} 
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/egcdh/1/embedded/result,css,html"></iframe>  
-repeat
+
+**repeat**
 
 	:::css
-	 .test{ width:300px; height:300px; border-width: 33px;
--moz-border-image: url(border_image_desen.png) 33 round;
--webkit-border-image: url(/border_image_desen.png) 33 round;
--o-border-image: url(border_image_desen.png) 33 round; border-image:
-url(border_image_desen.png) 33 round; } 
+	.test{
+	    width:300px;
+	    height:300px;
+	    border-width: 33px;
+	    -moz-border-image: url(border_image_desen.png) 33 round;
+	    -webkit-border-image: url(/border_image_desen.png) 33 round;
+	    -o-border-image: url(border_image_desen.png) 33 round;
+	    border-image: url(border_image_desen.png) 33 round;    
+	} 
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/VnJnz/1/embedded/result,css,html"></iframe>  
-round
+
+**round**
 
 iPhone geri butonu standardını border-image ile çok kolay bir şekilde
 yapabiliriz.
@@ -194,18 +225,20 @@ tanımladık. Aynı şekilde genişlikleri(border-width) tanımladık. Ortaya
 esnek bir buton çıktık.
 
 	:::css
-	 a.backButton{ -webkit-border-image:url(backButton.png) 0 5 0 14
-stretch; -moz-border-image:url(backButton.png) 0 5 0 14 stretch;
--o-border-image:url(backButton.png) 0 5 0 14 stretch;
-border-image:url(backButton.png) 0 5 0 14 stretch; border-width:0 5px 0
-14px; } 
+	a.backButton{
+		-webkit-border-image:url(backButton.png) 0 5 0 14 stretch;
+		-moz-border-image:url(backButton.png) 0 5 0 14 stretch;
+		-o-border-image:url(backButton.png) 0 5 0 14 stretch;
+		border-image:url(backButton.png) 0 5 0 14 stretch;
+		border-width:0 5px 0 14px;
+	}
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/3SHNk/11/embedded/result,css,html"></iframe>
 
 Yukarıdaki örnekte görüldüğü gibi basit bir kod ile(siz bakmayın
 öneklerin kalabalığına) ensek bir buton elde etmiş oluyoruz.
 Kullandığımız resimde boyut olarak küçük.
 
-<div class="tarayiciuyum">
 **Tarayıcı Destekleme Listesi**  
 Firefox3.5+ (-moz- öneki ile ) kısmen  
 Chrome2.0+ (-webkit- öneki ile) kısmen  
@@ -217,9 +250,9 @@ iOS Safari 3.2+ (-webkit ön eki ile)
 Opera Mini desteklemiyor  
 Opera Mobile11.0+ (-o- ön eki ile)  
 Android Browser 2.1+ (-webkit- ön eki ile)
+{: .tarayiciuyum}
 
-</div>
-**Sonuç**
+##Sonuç
 
 border-image özelliği gayet kullanışlı bir özellik. Birçok konuda elimiz
 rahatlatacak bir özellik. Uyguladıkça daha güzel örneklerin çıkacağına
@@ -227,7 +260,7 @@ inanıyorum. Standartlar tam oturmasa da zamanla daha iyi olacaktır. Bu
 özellikte bazı şimdilik eksik kalan yerler olsa da mobil uygulamalarda
 uygulanabilirliği var.
 
-**Kaynaklar**
+##Kaynaklar
 
 -   [http://www.w3.org/TR/css3-background/#border-images][]
 -   [http://www.css3.info/preview/border-image/][]
@@ -238,23 +271,17 @@ uygulanabilirliği var.
 -   [http://www.zurb.com/playground/awesome-overlays][] (grafik)
 -   [http://www.suburban-glory.com/blog?page=111][]
 -   [http://ejohn.org/blog/border-image-in-firefox/][] (farklı örnekler)
--   [https://developer.mozilla.org/en/CSS/-moz-border-image][]
-    (standartlar)
--   [http://www.dynamicdrive.com/style/csslibrary/item/image_frames_using_css3_border_image/][]
-    (güzel örnekler)
+-   [https://developer.mozilla.org/en/CSS/-moz-border-image][] (standartlar)
+-   [http://www.dynamicdrive.com/style/csslibrary/item/image_frames_using_css3_border_image/][] (güzel örnekler)
 -   [http://caniuse.com/border-image][] (destek listesi)
 -   [http://ensightful.com/walrus-ivory-tusk-with-animals][] (örnek)
 -   [http://border-image.com/][http://border-image.com] (çevrimiçi araç)
--   [http://www.norabrowndesign.com/css-experiments/border-image-anim.html][]
-    (örnek)
+-   [http://www.norabrowndesign.com/css-experiments/border-image-anim.html][] (örnek)
 -   [http://dev.opera.com/articles/view/css3-border-background-boxshadow/#border-image][]
 -   [http://people.opera.com/pepelsbey/experiments/bdi/][]
 -   [http://ejohn.org/blog/border-image-in-firefox/][]
 -   [http://michaelhan.net/wordsets/20/][]
--   [http://www.impressivewebs.com/space-round-css3-background/][]
-    (round ve space)
-
-</p>
+-   [http://www.impressivewebs.com/space-round-css3-background/][] (round ve space)
 
   []: https://lh6.googleusercontent.com/Gf9iv6Tv28So_gkr9zPUPwPa7TLnEwYv7SYRzuM_A42Y6DOrfD16-W_Lp7wH4Hd5TVpbVVsrrm_NuT5OzRsKFHnqD3P1m05LMXOVFVq2yGx01zO-e_A
   [zurb.com]: http://zurb.com/

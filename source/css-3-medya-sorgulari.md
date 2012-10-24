@@ -26,12 +26,12 @@ sürümler için javascript ile çözüm üretilir.
 hali
 
 	:::css
-	 <link rel="stylesheet" media="screen" href="ornek.css"> 
+	<link rel="stylesheet" media="screen" href="ornek.css"> 
 
 veya
 
 	:::css
-	 @media ornek.css screen; 
+	@media ornek.css screen; 
 
 şeklindedir.
 
@@ -40,115 +40,55 @@ sorgunun doğruluğuna göre o css dosyasını uygular.
 
 ![][]
 
-### Medya Tipleri
+## Medya Tipleri
 
 <table>
 <colgroup> <col width="132"> <col width="492"> </colgroup>
-
 <tbody>
 <tr>
-<td>
-screen
-
-</td>
-<td>
-Bilgisayarda görüntüleme
-
-</td>
+<td>screen </td>
+<td>Bilgisayarda görüntüleme </td>
 </tr>
 <tr>
-<td>
-tty
-
-</td>
-<td>
-Bilgisayar terminalleri ve eski taşınabilir araçlar ile görüntüleme
-
-</td>
+<td>tty </td>
+<td>Bilgisayar terminalleri ve eski taşınabilir araçlar ile görüntüleme </td>
 </tr>
 <tr>
-<td>
-tv
-
-</td>
-<td>
-Televizyonda görüntüleme
-
-</td>
+<td>tv </td>
+<td>Televizyonda görüntüleme</td>
 </tr>
 <tr>
-<td>
-projection
-
-</td>
-<td>
-Projeksiyonda görüntüleme
-
-</td>
+<td>projection </td>
+<td>Projeksiyonda görüntüleme </td>
 </tr>
 <tr>
-<td>
-handheld
-
-</td>
-<td>
-Taşınabilir telefonlar ve PDA’ler
-
-</td>
+<td>handheld </td>
+<td>Taşınabilir telefonlar ve PDA’ler </td>
 </tr>
 <tr>
-<td>
-print
-
-</td>
-<td>
-Yazıcı çıktılarında görüntüleme
-
-</td>
+<td>print </td>
+<td>Yazıcı çıktılarında görüntüleme </td>
 </tr>
 <tr>
-<td>
-braille
-
-</td>
-<td>
-Braille dokunsal okuyucularda
-
-</td>
+<td>braille</td>
+<td>Braille dokunsal okuyucularda</td>
 </tr>
 <tr>
-<td>
-all
-
-</td>
-<td>
-Tüm araçlarda görüntüleme
-
-</td>
+<td>all</td>
+<td>Tüm araçlarda görüntüleme</td>
 </tr>
 <tr>
-<td>
-embossed
-
-</td>
-<td>
-Braille yazıcı çıktıları için
-
-</td>
+<td>embossed</td>
+<td>Braille yazıcı çıktıları için</td>
 </tr>
 <tr>
-<td>
-aural
-
-</td>
-<td>
-Ses sentez birimlerinde kullanılır
-
-</td>
+	<td>aural</td>
+	<td>Ses sentez birimlerinde kullanılır</td>
 </tr>
 </tbody>
 </table>
-### Mantıksal Operatörler
+
+## Mantıksal Operatörler
 
 Medya sorgularımızda not, and ve only mantıksal operatörlerini
 kullanabiliriz.
@@ -161,7 +101,7 @@ sağlar. Örneğin (color) and (orientation: landscape) and
 en az 800px genişliğinde ise css dokümanı uygulanır.
 
 	:::css
-	 @media (min-width:450px) and (max-width:950px) 
+	@media (min-width:450px) and (max-width:950px) 
 
 Bu durumda ise; genişliği en az 450px ve en fazla 950px olan araçlarda
 uygulanır.
@@ -171,7 +111,7 @@ Sorguya negatif ifade katar. Sonuç eğer doğru ise css dosyası
 uygulanmaz.
 
 	:::css
-	 @media not screen and (color) 
+	@media not screen and (color) 
 
 Bilgisayar ve renkli ekran olmayan durumlarda uygulanır.
 
@@ -179,7 +119,11 @@ Bilgisayar ve renkli ekran olmayan durumlarda uygulanır.
 Sadece bu şartlar geçerli olduğunda uygula anlamınadır.
 
 	:::css
-	 @media only screen and  (color) {    body {background:blue} }
+	@media only screen and  (color) {
+		body {
+			background:blue
+			}
+	}
 
 
 Sadece bilgisayar ve renkli ekranlar olduğunda css dokümanı uygulanır.
@@ -190,7 +134,9 @@ medya özelliği tanımlanıyor. Medya özellikleri parantez içinde
 tanımlanıyor.
 
 	:::css
-	 @media screen and (ozellik:deger) { } 
+	@media screen and (ozellik:deger) {
+		
+	} 
 
 **Birden fazla sorgu**
 
@@ -198,14 +144,14 @@ Birden fazla medya tipi için virgül ile birden fazla sorgu
 yapabiliyoruz.
 
 	:::css
-	 @import url(print-color.css) print and (color), projection and
-(color); 
+	@import url(print-color.css) print and (color), 
+	projection and (color); 
 
 Sorgulardan biri geçerli ise print-color.css dokümanı uygulanır. Renkli
 yazıcı veya renkli projektörden birisi ile açılırsa print-color.css
 uygulanır.
 
-### Medya Özellikleri
+## Medya Özellikleri
 
 Medya özellikleri web sitesini gösteren aracın bilgileri ile sorgu
 yapmamızı sağlayan özelliklerdir; boyutları, araç boyutları, çözünürlüğü
@@ -219,7 +165,9 @@ Yukarıdaki örneklerde görüldüğü gibi medya sorgularında medya
 özellikleri parantez için tanımlanmaktadır. Genel kullanım;
 
 	:::css
-	 @media media and (ozellik:deger) { } 
+	@media media and (ozellik:deger) {
+		
+	} 
 
 Genelde kullanılan medya özelliklerini inceleyelim.
 
@@ -230,7 +178,9 @@ göre tanım yapmamızı sağlar. Buradaki genişlik tarayıcının(kaydırma
 çubukları dahil) genişliğine eşittir.
 
 	:::css
-	 @media screen and (width:480px) { } 
+	@media screen and (width:480px) {
+		
+	} 
 
 Yukarıdaki tanım 480px genişlikte görüntülemede uygulanacaktır.
 
@@ -239,14 +189,19 @@ ve min- ön ekleri ile sabit bir değeri değilde belli bir değer aralığını
 kontrol edebilme imkanına sahibiz.
 
 	:::css
-	 @media screen and (max-width:480px) { } 
+	@media screen and (max-width:480px) {
+		
+	} 
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/77SMV/embedded/css,result"></iframe>
 
 ve
 
 	:::css
-	 @media screen and (min-width:680px) { } 
+	@media screen and (min-width:680px) {
+		
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/bhLFF/embedded/css,result"></iframe>
 
 İlk örnekte genişliği en fazla 480px olana kadar uygulanır, ikinci
@@ -265,17 +220,30 @@ aygıt genişliği tanımlarındada max- ve min- ön ekleri vardır. Kullanımı
 benzerdir
 
 	:::css
-	 @media media and (device-width:1024px) { } @media media and
-(max-device-width:320px) { } @media media and (min-device-width:800px) {
-} 
+	@media media and (device-width:1024px) {
+		
+	}
+	
+	@media media and (max-device-width:320px) {
+		
+	}
+	
+	@media media and (min-device-width:800px) {
+		
+	} 
 
 Mobil araçlar için web sitesi geliştirirken bize çok yardımı dokunur bu
 özelliğin mesela iPhone için web sitemizi uyarlamak istediğimizde
 işimize yarar.
 
 	:::css
-	 /* iphone */ @media screen and (max-device-width: 480px) { body
-{ background: #f00; } } 
+	/* iphone */
+	@media screen and (max-device-width: 480px) {
+		body{
+			background: #f00;
+			}
+	} 
+
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/Z8BnJ/embedded/css,result"></iframe>
 
 şeklinde iphone kullanıcılarını yakalayabiliriz. Bilgisayarımızda
@@ -294,7 +262,9 @@ Tablet bilgisayarlar için genelde tercih edilir. iPad için site
 geliştirirken dikkate almalıyız.
 
 	:::css
-	 @media screen and (orientation: portrait) { } 
+	@media screen and (orientation: portrait) {
+		
+	} 
 
 İki değer almaktadır; landscape veya portrait. landscape değeri
 tarayıcınızın genişliği yüksekliğinden büyük ise uygulanır, portrait
@@ -320,8 +290,13 @@ kullanımıda mevcuttur.
 araçlar için web sitesi yapmak daha kolay hale getirilebilir.
 
 	:::css
-	 @media tv and (aspect-ratio:16/9) { } @media tv and
-(device-aspect-ratio:16/9) { } 
+	@media tv and (aspect-ratio:16/9) {
+		
+	} 
+	
+	@media tv and (device-aspect-ratio:16/9) {
+		
+	} 
 
 **pixel-ratio**
 
@@ -339,17 +314,23 @@ Firefox için -moz-device-pixel-ratio, min--moz-device-pixel-ratio,
 max--moz-device-pixel-ratio şeklinde uygulanır.
 
 	:::css
-	 div { background-image: url('image-dusuk.png'); } @media screen
-and (-webkit-min-device-pixel-ratio: 2) { background-image:
-url('image-yuksek.png'); background-size: 100% 100%; } 
+	div {
+		background-image: url('image-dusuk.png');
+	} 
+	
+	@media screen and (-webkit-min-device-pixel-ratio: 2) {
+		background-image: url('image-yuksek.png');
+		background-size: 100% 100%;
+	} 
 
 Şeklinde uygulanır. iPhone4 ile ön plana çıkan bu özellik yardımı ile
 iPhone4 ayrımıda yapılabilir.
 
 	:::css
-	 /* iphone 4 */</li> @media only screen and
-(-webkit-min-device-pixel-ratio: 2) {
-background-image:url(yuksek_cozunurluklu_resim.png); } 
+	/* iphone 4 */
+	@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+		background-image:url(yuksek_cozunurluklu_resim.png);
+	} 
 
 Bu medya özelliklerinin dışında color, min-color, max-color,
 color-index, min-color-index, max-color-index, monochrome,
@@ -360,7 +341,6 @@ Bu medya özellikleri hakkındaki detaylı bilgiye
 [https://developer.mozilla.org/en/CSS/media_queries][] sitesinden
 erişebilirsiniz.
 
-<div class="tarayiciuyum">
 **Tarayıcı Desteği**  
 Google Chrome 5+  
 Safari 3.2(kısmen) 4(tam)+  
@@ -372,8 +352,8 @@ Android 2.1+
 Firefox mobile +  
 Opera Mini 5+  
 iOS 3.2+
+{: .tarayiciuyum}
 
-</div>
 Bu tabloya bakarak ie’nin önceki sürümleri için çözüm üretmeliyiz.
 Javascript yardımı ile yapılmış çeşitli yöntemler mevcut, ben jquery ile
 yapılan yöntemi çalıştırabildim açıkçası.
@@ -384,12 +364,9 @@ Bu sitedeki scripti sitenize eklediğinizde ie’nin eski sürümleri ile
 olan sorununuz çözlüyor.
 
 	:::css
-	 <link rel="stylesheet" type="text/css" href="ana.css" media="only
-screen and (max-width: 480px)" /> <!--[if lt IE 9]> <script
-type="text/javascript"
-src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-<script src="jquery.mediaqueries.js"
-type="text/javascript"></script> <![endif]--> 
+	<link rel="stylesheet" type="text/css" href="ana.css" media="only screen and (max-width: 480px)" />
+	<!--[if lt IE 9]> <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="jquery.mediaqueries.js" type="text/javascript"></script> <![endif]--> 
 
 IE9 öncesi tarayıcılar için böyle bir ekleme yaparak sorunu çözebiliriz.
 
@@ -397,16 +374,13 @@ Ayrıca sadece javascript ile ie’nin eski sürümleri için üretilen
 Javascript çözümlerini uyguladığımda çalışmadı bilemiyorum sorun bende
 mi ama olmadı.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.w3.org/TR/css3-mediaqueries/][]
 -   [http://www.css3.info/modules/compatibility-table-media-queries/][]
--   [http://webdesignerwall.com/general/the-wall-is-redesigned][] (örnek
-    uygulama)
--   [http://blog.bloop.co/the-practicalities-of-css-media-queries-lesso][]
-    (avantaj ve dezavantajları)
--   [http://www.broken-links.com/2011/02/21/using-media-queries-in-the-real-world/][]
-    (ie için çözüm önerili)
+-   [http://webdesignerwall.com/general/the-wall-is-redesigned][] (örnek uygulama)
+-   [http://blog.bloop.co/the-practicalities-of-css-media-queries-lesso][] (avantaj ve dezavantajları)
+-   [http://www.broken-links.com/2011/02/21/using-media-queries-in-the-real-world/][] (ie için çözüm önerili)
 -   [http://mediaqueri.es/][] (örnekler içeriyor)
 -   [http://www.catswhocode.com/blog/create-an-adaptable-website-layout-with-css3-media-queries][]
 -   [http://webdesignerwall.com/tutorials/adaptive-mobile-design-with-css3-media-queries][]
@@ -419,19 +393,15 @@ mi ama olmadı.
 -   [http://www.alistapart.com/articles/responsive-web-design/][]
 -   [http://reference.sitepoint.com/css/mediaqueries][]
 -   [http://www.webdesignlondon-tristar.co.uk/website-design-london/css3-media-queries-responsive-web-design][]
--   [http://www.maxdesign.com.au/articles/css3-media-queries/][] (slayt
-    gösterisi)
+-   [http://www.maxdesign.com.au/articles/css3-media-queries/][] (slayt gösterisi)
 -   [http://msdn.microsoft.com/en-us/scriptjunkie/gg619395.aspx][]
 -   [http://coding.smashingmagazine.com/2011/08/10/techniques-for-gracefully-degrading-media-queries/][]
--   [http://code.google.com/p/css3-mediaqueries-js/][] (ie eski
-    sürümleri için js kodu)
--   [http://blog.iwalt.com/2010/06/targeting-the-iphone-4-retina-display-with-css3-media-queries.html][]
-    (iphone 4 için )
+-   [http://code.google.com/p/css3-mediaqueries-js/][] (ie eski sürümleri için js kodu)
+-   [http://blog.iwalt.com/2010/06/targeting-the-iphone-4-retina-display-with-css3-media-queries.html][] (iphone 4 için )
 -   [http://aralbalkan.com/3331][] (iphone 4 için)
 -   [http://css-tricks.com/6731-css-media-queries/][]
 -   [http://colly.com/][] (örnek site)
--   [http://www.opera.com/docs/specs/presto27/css/mediaqueries/][]
-    (Opera desteği)
+-   [http://www.opera.com/docs/specs/presto27/css/mediaqueries/][] (Opera desteği)
 -   [http://www.cloudfour.com/ipad-css/][]
 -   [http://www.webkit.org/blog/55/high-dpi-web-sites/][]
 -   [No Starch The Book of CSS3][]
@@ -442,8 +412,6 @@ mi ama olmadı.
 -   [http://coding.smashingmagazine.com/2010/07/19/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/][]
 -   [http://www.quirksmode.org/blog/archives/2010/08/combining_media.html][]
 -   [http://blogs.msdn.com/b/ie/archive/2011/01/12/the-css-corner-css3-media-queries.aspx][]
-
-</p>
 
   [yazıcıdan çıktı alırken]: http://www.fatihhayrioglu.com/cssde-cikti-alma-print/
   [Daha önceki makalemde]: http://www.fatihhayrioglu.com/cssi-web-sayfalarina-eklemek/
