@@ -175,21 +175,21 @@ bağlantıların başına ikon koymak istediğimizde
       padding-left:20px;
       line-height:18px;
       background:transparent url(/Images/PDFIcon.gif) center left no-repeat;
-  }
-
-  a[href$='.doc'] {
+	}
+	
+	a[href$='.doc'] {
       display:inline-block;
       padding-left:20px;
       line-height:18px;
       background:transparent url(/Images/WordDocIcon.gif) center left no-repeat;
-  }
-  a[href$='.zip'], a[href$='.gzip'], a[href$='.rar'] {
+	}
+	
+	a[href$='.zip'], a[href$='.gzip'], a[href$='.rar'] {
       display:inline-block;
       padding-left:20px;
       line-height:18px;
       background:transparent url(/Images/ZIPIcon.gif) center left no-repeat;
-  }
-
+	}
 
 **İçinde Belirlenen Sözdizimi Geçen Özellik Değer Seçicisi**
 

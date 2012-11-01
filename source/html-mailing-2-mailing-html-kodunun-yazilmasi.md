@@ -16,12 +16,12 @@ için.
 
 Örnek psd'yi indirmek için [tıklayınız.][]
 
-[![][]][]
+![][]
 
 Background harici kısmı istersek Adobe Photoshop programın Slice aracı
 ile keseriz, isterseniz tek tek seçip kaydedip html kodumuza ekleriz.
 
-[![][1]][]
+![][1]
 
 Adobe Photoshop Slice aracı ile psd’mizi resim formatlarını ve mailin
 metin resim durumunu düşünerek parçalarız. Mesela orta resmin olduğu
@@ -31,14 +31,14 @@ kaydedeceğimiz bir alan iken sağdaki kısım ise daha fazla renk içerdiği
 için jpg formatında kaydetmemiz daha mantıklı olacağını düşünerek iki
 kısma böldük. Diğer kısımlar basit bir parçalamadır.
 
-[![][2]][]
+![][2]
 
 Parçalara ayırdıktan sonra web için kaydet seçeneği ile kaydetme
 ekranını açıyoruz. Ayrıca slice'lanmış dosyayı psd olarak kaydedip
 arşivlemekte yara var. Çünkü mailinglerde bir çok revize gelir ve bu
 slide'lanmış dosyaya ihtiyaç duyarız.
 
-[![][3]][]
+![][3]
 
 Gerek web sitesi kodlarken ve gerekse mailing yaparken resimlerimiz
 gerçek boyutları ile kullanmamız pek mantıklı değildir. Çünkü kullanıcı
@@ -50,14 +50,14 @@ ekranı ikiye bölmeyi tercih ediyorum. Solda resmin orijinali sağda ise
 optimize edilmiş şekli olacak şekilde ayarlıyorum. Bunu görünümü üstteki
 sekmeden kolayca yapabiliyoruz.
 
-[![][4]][]
+![][4]
 
 Sağdaki optimize ettiğimiz kısımdan her parçayı seçerek ilgili formatını
 belirtiyoruz. Genelde mailinglerde gif veya jpg tercih edilir.
 Şimdilerde png’de yapılıyor ama az tercih edilen bir formattır png. Gif
 tercihi yaptıktan sonra
 
-[![][5]][]
+![][5]
 
 Yukarıdaki ekranda gördüğümüz şekilde format tercihini yapıyoruz.
 Genelde az renkli alanlar gif seçilir çok renk olan yerler ise jpg
@@ -72,15 +72,13 @@ ile açarız. <body> bg rengi olarak beyaz atanmış olarak gelir
 htmlimiz, bizim bg rengimiz gridir bu atamayı yaparız.
 
 	:::html
-	<body bgcolor="#858585" leftmargin="0" topmargin="0"
-marginwidth="0" marginheight="0">
+	<body bgcolor="#858585" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 
 Daha sonra mailing ortalamak için table elementine align=”center”
 eklemesi yaparız.
 
 	:::html
-	<table width="638" height="572" border="0" align="center"
-cellpadding="0" cellspacing="0" id="Table_01">
+	<table width="638" height="572" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
 
 Daha sonra bir önceki makalemizde önerdiğimiz eklemeleri yaparız.
 Resimlerin alt etiketini doldururuz. Resimlerin bulunduğu yeri tam
@@ -95,28 +93,15 @@ tanımlarız. Resim tek renk görünsede aslında degradeli bir yapıya sahip
 olduğu için tablo hücresinin bg resmi olarak tanımlıyoruz.
 
 	:::html
-	<td colspan="2" background="images/odul_mailing_04.gif"
-width="638" height="172"></td>
+	<td colspan="2" background="images/odul_mailing_04.gif" width="638" height="172"></td>
 
 Daha sonra metinleri bu hücrenin içine yerleştirip stillerini ve
 biçimlerini tanımlıyoruz.
 
 	:::html
-	 <td colspan="2" background="images/odul_mailing_04.gif"
-width="638" height="172" style="font-family:Arial, Helvetica,
-sans-serif; font-size:13px; color:#444444; padding-left:15px;
-padding-right:15px"><p><a href="#"
-style="color:#95ad62">Phasellus vitae</a> metus at elit commodo
-sollicitudin. Quisque bibendum risus non urna consequat ut luctus erat
-pulvinar. <strong>Proin libero eros</strong>, dapibus vel accumsan
-sed, malesuada eu urna. Integer lorem urna, venenatis sit amet interdum
-tincidunt, tristique in sem. </p> <p><a href="#"
-style="color:#95ad62">Morbi ornare</a> , <strong>nterdum elit, ac
-sollicitudin enim convallis sit amet. Suspendisse potenti.</strong>
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-ridiculus mus. </p> <p>Cras porta aliquet viverra. Nulla facilisi.
-Praesent quam neque, suscipit <a href="#"
-style="color:#95ad62">scelerisque</a></p></td> 
+	<td colspan="2" background="images/odul_mailing_04.gif" width="638" height="172" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#444444; padding-left:15px; padding-right:15px"><p><a href="#" style="color:#95ad62">Phasellus vitae</a> metus at elit commodo sollicitudin. Quisque bibendum risus non urna consequat ut luctus erat pulvinar. <strong>Proin libero eros</strong>, dapibus vel accumsan sed, malesuada eu urna. Integer lorem urna, venenatis sit amet interdum tincidunt, tristique in sem. </p>
+	<p><a href="#"  style="color:#95ad62">Morbi ornare</a> , <strong>nterdum elit, ac sollicitudin enim convallis sit amet. Suspendisse potenti.</strong> Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+	<p>Cras porta aliquet viverra. Nulla facilisi. Praesent quam neque, suscipit <a href="#"  style="color:#95ad62">scelerisque</a></p></td>
 
 CSS kodlarımızı satıriçine yazdık, bu nedenle dikkat ediniz bağlantılara
 tanımladığımız rengi her bir bağlantıya tek tek tanımladık. Mailing
@@ -135,7 +120,7 @@ bitirelim.
 
 Örnek mailingi görmek için [tıklayınız.][6]
 
-### Sonuç
+## Sonuç
 
 Burada kodladığım mailing basit bir mailingdi belki, ancak burada
 sizlere işin genel mantığını anlatmak için basit bir mailing seçtim.
@@ -149,7 +134,7 @@ oturtabilirsiniz. [http://www.campaignmonitor.com/templates/][] buradaki
 
 Sağlıcakla kalın.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.mediaministryblog.com/2009/08/how-to-create-a-free-email-newsletter/][]
 -   [http://www.anandgraves.com/html-email-guide/#unnecessary_htmltags][]
@@ -159,28 +144,14 @@ Sağlıcakla kalın.
 -   [http://www.tuttoaster.com/code-an-email-newsletter-from-psd-to-html/][]
 -   [http://sixrevisions.com/web_design/creating-html-emails/][]</a>
 
-</p>
-
   [Can Gürbü]: http://www.cangurbuz.com/
   [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/mailing_yapmak/mailing.rar
   []: /images/mailing_ornegi.jpg
-    "mailing_ornegi"
-  [![][]]: /images/mailing_ornegi.jpg
   [1]: /images/mail_yapmak_slice_araci.gif
-    "mail_yapmak_slice_araci"
-  [![][1]]: /images/mail_yapmak_slice_araci.gif
   [2]: /images/mail_yapmak_slicelanmis-300x269.jpg
-    "mail_yapmak_slicelanmis"
-  [![][2]]: /images/mail_yapmak_slicelanmis.jpg
   [3]: /images/mail_yapmak_webicin_kaydet.gif
-    "mail_yapmak_webicin_kaydet"
-  [![][3]]: /images/mail_yapmak_webicin_kaydet.gif
   [4]: /images/mail_yapmak_webicin_ekrani-300x172.jpg
-    "mail_yapmak_webicin_ekrani"
-  [![][4]]: /images/mail_yapmak_webicin_ekrani.jpg
   [5]: /images/mail_yapmak_format_drdn.gif
-    "mail_yapmak_format_drdn"
-  [![][5]]: /images/mail_yapmak_format_drdn.gif
   [6]: http://www.fatihhayrioglu.com/dokumanlar/mailing_yapmak/mailing.html
   [http://www.campaignmonitor.com/templates/]: http://www.campaignmonitor.com/templates/
   [http://www.mediaministryblog.com/2009/08/how-to-create-a-free-email-newsletter/]: http://www.mediaministryblog.com/2009/08/how-to-create-a-free-email-newsletter/

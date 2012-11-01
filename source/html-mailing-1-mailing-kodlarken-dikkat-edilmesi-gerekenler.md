@@ -31,7 +31,7 @@ edinebilirsiniz.
 
 Şimdi ilk makalemizi yazalım.
 
-### Mailing kodlarken nelere dikkat etmemiz gerekir
+## Mailing kodlarken nelere dikkat etmemiz gerekir
 
 HTML kodlarken farklı tarayıcılar için kod yazarız bu kodlamadaki en
 önemli noktadır, mailingde ise iş daha vahimdir, çünkü mailing okuma
@@ -67,7 +67,7 @@ ama Allah'tan genelde basit yapılara sahip oldukları için sorun olmuyor.
 Birçok mailng html çevrildikten sonra toplu olarak gönderim için çeşitli
 programlar kullanılır. Bu programların göndericiler için çeşitli
 kısıtlamaları vardır. Bunlardan bir tanesi, genelde hazırlana html
-kodunun sadece <body> etiketleri içerisindeki kodu eklememize izin
+kodunun sadece <body\> etiketleri içerisindeki kodu eklememize izin
 vermesidir.
 
 Bu nedenle dışarıdan eklenen .css dosyaları mailinglerimize ekleyemeyiz.
@@ -76,8 +76,7 @@ bu programlar yoktu. Bundan dolayıdır ki css kodlarımızı satıriçi
 yazmalıyız. Aşağıdaki örnekte görüldüğü gibi
 
 	:::html
-	 <p style="font-family:Arial; font-size:12px; color:#999">Lorem
-ipsum dolor sit amet, consectetur adipiscing elit. </p> 
+	<p style="font-family:Arial; font-size:12px; color:#999">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p> 
 
 Tabi kodları yazarken yukarıdaki destek listelerini dikkate almalıyız.
 
@@ -94,21 +93,19 @@ yükleyip hazırladığımız mailing içeriğine bu resimleri kendi sitemiz
 üzerinde okutmalıyız. Örneğin
 
 	:::html
-	 <img src="http://www.firmaadi.com/mailings/images/ustalan.jpg"
-width="450" height="120" alt="Firma_Adi" /> 
+	<img src="http://www.firmaadi.com/mailings/images/ustalan.jpg" width="450" height="120" alt="Firma_Adi" /> 
 
 Web siteleri gibi hareket edemeyeceğimiz diğer bir konu ise bağlantıları
 yerel olarak vermeyeceğimiz konusudur. Bağlantılarımızıda yerel
 veremeyiz örneğin
 
 	:::html
-	 <a href="hakkimizda.html">Hakkımızda</a> 
+	<a href="hakkimizda.html">Hakkımızda</a> 
 
 Şeklinde bir bağlantı kırık bir bağlantı olacaktır. Bunun yerine
 
 	:::html
-	 <a
-href="http://www.firmaadi.com/hakkimizda.html">Hakkımızda</a> 
+	<a href="http://www.firmaadi.com/hakkimizda.html">Hakkımızda</a> 
 
 Şekline olmalıdır.
 
@@ -192,9 +189,9 @@ Kısaca spama yakalanmamak için dikkat etmemiz gerekenleri listeleyelim
 -   Tüm kelimeleri büyük harflerle yazmak. Örneğin: MERHABA BU
     KAMPANYADA...
 -   Çok fazla yazı rengi kullanmak. Örneğin:
-    <span style="color:red">MERHABA</span>
-    <span style="color:blue">BU</span>
-    <span style="color:pink">KAMPANYADA...</span>
+    <span style="color:red"\>MERHABA</span\>
+    <span style="color:blue"\>BU</span\>
+    <span style="color:pink"\>KAMPANYADA...</span\>
 -   Bir çok spam içeriğinde geçen kelimelere yer vermek. Örneğin: Free,
     Casino, Mortgage, Ücretsiz vs.
 -   Çok fazla noktalama işareti kullanmak. Örneğin Dikkat!!!!!!! Büyük
@@ -213,7 +210,7 @@ olacaktır.
 
 Kalın sağlıcakla.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.viget.com/inspire/tips-for-coding-html-email/][]
 -   [http://thinkvitamin.com/features/design/ensuring-your-html-emails-look-great-and-get-delivered/][]
@@ -226,30 +223,17 @@ Kalın sağlıcakla.
 -   [http://www.xavierfrenette.com/articles/css-support-in-webmail/][]
 -   [http://www.topluemailgonderimi.com/spamadusmedennasiltopluemailgonderilir.html][]
 
-</p>
 
   [tıklayınız.]: http://www.campaignmonitor.com/css/ "tıklayınız."
   [email-standards.org]: http://www.email-standards.org/clients/
-    "email-standards.org"
   [http://www.blacklistmonitoring.com/lookup/email_blacklist_IP_address_lookup.php]: http://www.blacklistmonitoring.com/lookup/email_blacklist_IP_address_lookup.php
-    "http://www.blacklistmonitoring.com/lookup/email_blacklist_IP_address_lookup.php"
   [http://www.viget.com/inspire/tips-for-coding-html-email/]: http://www.viget.com/inspire/tips-for-coding-html-email/
-    "http://www.viget.com/inspire/tips-for-coding-html-email/"
   [http://thinkvitamin.com/features/design/ensuring-your-html-emails-look-great-and-get-delivered/]: http://thinkvitamin.com/features/design/ensuring-your-html-emails-look-great-and-get-delivered/
-    "http://thinkvitamin.com/features/design/ensuring-your-html-emails-look-great-and-get-delivered/"
   [http://www.anandgraves.com/html-email-guide]: http://www.anandgraves.com/html-email-guide
-    "http://www.anandgraves.com/html-email-guide"
   [http://www.email-standards.org/]: http://www.email-standards.org/
-    "http://www.email-standards.org/"
   [http://www.mailchimp.com/articles/email_marketing_guide/]: http://www.mailchimp.com/articles/email_marketing_guide/
-    "http://www.mailchimp.com/articles/email_marketing_guide/"
   [http://css-tricks.com/using-css-in-html-emails-the-real-story/]: http://css-tricks.com/using-css-in-html-emails-the-real-story/
-    "http://css-tricks.com/using-css-in-html-emails-the-real-story/"
   [http://www.email-standards.org/clients/]: http://www.email-standards.org/clients/
-    "http://www.email-standards.org/clients/"
   [http://www.campaignmonitor.com/css/]: http://www.campaignmonitor.com/css/
-    "http://www.campaignmonitor.com/css/"
   [http://www.xavierfrenette.com/articles/css-support-in-webmail/]: http://www.xavierfrenette.com/articles/css-support-in-webmail/
-    "http://www.xavierfrenette.com/articles/css-support-in-webmail/"
   [http://www.topluemailgonderimi.com/spamadusmedennasiltopluemailgonderilir.html]: http://www.topluemailgonderimi.com/spamadusmedennasiltopluemailgonderilir.html
-    "http://www.topluemailgonderimi.com/spamadusmedennasiltopluemailgonderilir.html"

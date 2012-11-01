@@ -2,7 +2,9 @@ Title: Jquery Geliştiricileri için Güzel Bir FireBug Eklentisi FireQuery
 Date: 2011-01-13 00:12
 Category: Javascript, jquery
 
-[![][]][]Firefox'un eklentisi FireBug'ı bilmeyeniniz yoktur. FireBug
+![][]
+
+Firefox'un eklentisi FireBug'ı bilmeyeniniz yoktur. FireBug
 öyle büyük bir eklenti ki onun üzerine kurulan birçok eklentiler var. Bu
 eklentide FireBug yeteneklerini geliştirmek için kullanılan bir eklenti.
 
@@ -20,47 +22,48 @@ jQuery bulunmayan sayfalarda da jquery kütüphanesini ekliyor. Böylelikle
 her sitede FireBug özelliklerini jQuery yardımı ile kullanma imkanı
 sunuyor bize.
 
-### jQuery Data verileri Gösterir
+## jQuery Data verileri Gösterir
 
 Eklentiyi kurduktan sonra Firebug'ı açarız ve HTML sekmesine geliriz.
 Aşağıdaki bir pencere ile karşılaşırız.
 
-[![][1]][]
+![][1]
 
 jQuery data kullanarak web sitesine gömdüğümüz verileri gösterir bize.
 Bu durum dinamik olarak eklediğimiz jQuery verilerini kontrol ederken
 çok işimize yarar.
 
-### Bir Elemana Atanmış Fonksiyonları Gösterir
+## Bir Elemana Atanmış Fonksiyonları Gösterir
 
 Test sayfasında h1 elemanına tanımlana aşağıdaki fonksiyon kodunu
 görüyoruz.
 
 	:::javascript
-	 $('h1').bind('click', function() {
-$(this).css('background-color', '#fee'); }); 
+	$('h1').bind('click', function() {
+		$(this).css('background-color', '#fee'); 
+	}); 
 
 Bu tanımı FireBug HTML sekmesinde FireQuery yardımı ile aşağıdaki gibi
 görürüz.
 
-[![][2]][]
+![][2]
 
 Bir elemana tanımlanmış fonksiyonları bulmaya yarar. Süper bir
 özelliktir bu. Tanımlana fonksiyon konsolda yukarıdaki gibi görünür.
 
-[![][3]][]
+![][3]
 
 function() üzerine geldiğimizde bu elemena atama yapılan kodu ve satır
 numarasını gösterir. Bu bizi birçok yükten kurtaran süper bir
 özelliktir.
 
-### jQuery Olmayan Sitelere jQuery Ekleme Özelliği
+## jQuery Olmayan Sitelere jQuery Ekleme Özelliği
 
 Bir sitede jQuery kütüphanesi olmasa da bu eklenti etkin olduğu
 tarayıcılarda jQuery eklenmiş gibi olur. Bu sayede site üzerinde jQuery
 kolaylıklarını uygular ve sonuçlarını görebiliriz.
 
-[![][4]][]
+![][4]
 
 Bu sayede Konsolda jQuery kolaylıklarını kullanarak jquery eklenmemiş
 olsa da bu sitede jQuery varmış gibi rahat kod yazabiliriz.
@@ -70,7 +73,7 @@ Bu eklentiyi bana gösteren Orhan Ekici'ye ve ona gösteren Volkan
 
 FireBug büyüksün.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://firequery.binaryage.com/][]
 -   [https://addons.mozilla.org/en-US/firefox/addon/12632/][]
@@ -78,23 +81,11 @@ FireBug büyüksün.
 -   [http://www.pgs-soft.com/firequery-firebug-extension-for-jquery-development.html][]
 -   [http://javascriptly.com/2009/12/firequery-an-introduction/][]
 
-</p>
-
   []: /images/firequery-64.png
-    "firequery-64"
-  [![][]]: /images/firequery-64.png
   [1]: /images/firequery11.gif
-    "firequery1"
-  [![][1]]: /images/firequery11.gif
   [2]: /images/firequery21.gif
-    "firequery2"
-  [![][2]]: /images/firequery21.gif
   [3]: /images/firequery41.gif
-    "firequery4"
-  [![][3]]: /images/firequery41.gif
   [4]: /images/firequery51.gif
-    "firequery5"
-  [![][4]]: /images/firequery51.gif
   [http://firequery.binaryage.com/]: http://firequery.binaryage.com/
   [https://addons.mozilla.org/en-US/firefox/addon/12632/]: https://addons.mozilla.org/en-US/firefox/addon/12632/
   [http://elijahmanor.com/webdevdotnet/post/digging-into-the-firequery-add-on-for-jquery.aspx]: http://elijahmanor.com/webdevdotnet/post/digging-into-the-firequery-add-on-for-jquery.aspx

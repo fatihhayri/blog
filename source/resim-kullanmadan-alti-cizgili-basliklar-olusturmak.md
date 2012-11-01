@@ -21,14 +21,26 @@ gelelim ve hemen bir örnek yapalım.
 HTML kodu;
 
 	:::html
-	 <h1><span>Ged tortor odio</span></h1> 
+	 <h1>
+		<span>Ged tortor odio</span>
+	</h1> 
 
 CSS kodu;
 
 	:::css
-	 h1{border-bottom:3px solid #9faf41;} h1 span{float:left;
-padding:0 10px; background-color:#111; margin-left:10px;
-margin-top:-15px; display:block; font-size:24px} 
+	h1{
+		border-bottom:3px solid #9faf41;
+	}
+	
+	h1 span{
+		float:left;
+		padding:0 10px; 
+		background-color:#111; 
+		margin-left:10px;
+		margin-top:-15px; 
+		display:block; 
+		font-size:24px
+	} 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -46,8 +58,6 @@ Metodu IE6+, Firefox, Chrome, Opera ve Safari destekliyor. Burada tek
 dezavantaj ise fazladan span kullanımıdır.
 
 Kalın sağlıcakla
-
-</p>
 
   []: https://lh5.googleusercontent.com/aR4P1P7q5fw7wUkyO7Q-4a4nmxCgWM3X8BzEEVm1c5JeR_oSjCjJJR19dEnrr6pGE7aDQkbzTsuuRqawtN7GjnifQzvoYnBEunQLUdRcSrfND7DZzgM
   [Float uygulanmış elemanların kapsayamama sorunu]: http://www.fatihhayrioglu.com/float-uygulanmis-elementleri-tam-kapsayamama-sorunu/

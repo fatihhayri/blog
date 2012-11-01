@@ -79,7 +79,7 @@ yapıya olan avantajlarından bahsedeceğim.
     fazla kod ve yükten bizi kurtarır.
 -   **Geleceğe dönük bir yapıdır**  
     HTML5 ile birlikte gelen yeni etiketler ve HTML5’in yapısı div ile
-    kodlamanın devamı niteliğindedir. Daha önce yazdığım [HTML5’in     yapısal elemanları][] adlı makaleye göz atın.
+    kodlamanın devamı niteliğindedir. Daha önce yazdığım [HTML5’in yapısal elemanları][] adlı makaleye göz atın.
 
   
 ![][]  
@@ -99,32 +99,22 @@ istedim.
 
 Kalın sağlıcakla
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.smashingmagazine.com/2009/04/08/from-table-hell-to-div-hell/][]
--   HTML Utopia Designing Without Tables Using CSS, 2nd Edition.pdf
-    1.konu
--   [http://phrogz.net/css/WhyTablesAreBadForLayout.html][] (madde
-    madde)
+-   HTML Utopia Designing Without Tables Using CSS, 2nd Edition.pdf 1.konu
+-   [http://phrogz.net/css/WhyTablesAreBadForLayout.html][] (madde madde)
 -   [http://resources.bravenet.com/articles/site_building/CSS/tables_bad_css_good/][]
-    (genel anlatım)
--   [http://www.sitepoint.com/article/tables-vs-css/][] (güzel anlatım,
-    ama geniş)
+-   [http://www.sitepoint.com/article/tables-vs-css/][] (güzel anlatım, ama geniş)
 -   [http://webdesign.about.com/od/layout/a/aa111102a.htm][] (güzel)
 -   [http://www.chromaticsites.com/web-design-blog/2008-04-03/13-reasons-why-css-is-superior-to-tables-in-website-design/][]
-    (çok geniş ve güze lanlatım)
 -   [http://www.andybudd.com/archives/2004/05/an_objective_look_at_table_based_vs_css_based_design/][]
-    (farklı bakış açısı)
 -   [http://www.stopdesign.com/present/2004/ddw-seattle/tables/][]
-    (grafiklerle anlatım)
 -   [http://osman.borutecene.com/tablosuz-tasarim-fetisi-ve-erisilebilirligi-zayif-web-standartlari/][]
-    (karşı görüş)
 -   [http://erkana.wordpress.com/2006/09/15/tablosuz-tasarim-tableless/][]
 -   [http://eskiz.ksahin.com/?category=web-tasarim/tablosuz-tasarm-tablolu-tasarma-kar][]
 -   [http://alastairc.ac/2006/08/why-css-is-important-for-accessibility/][]
 -   [http://www.w3.org/TR/CSS-access][]
-
-</p>
 
   [HTML5’in yapısal elemanları]: http://www.fatihhayrioglu.com/html-5in-yeni-elementlerini-bir-goz-atalim/
   []: https://lh4.googleusercontent.com/mZ-OkglGxQIDuI_gn8dvqhjPy8Z0siTKY50T2gqGnoC8UeYLTURhiB15ebJ2YBeN5QViUQUz1wzfI_t6bu5kgOxDoTzL9_snx6OfkeVAqJ1zjjW1tA

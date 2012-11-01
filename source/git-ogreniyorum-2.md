@@ -11,7 +11,7 @@ Terminal komutlarınıda bilmekte yarar var. Benim gibi mac terminaline
 yabancı biri iseniz(aslında linux komut satırı ile benzer kodlar)
 aşağıdaki basit komutları bilmenizde yarar var.
 
-[![][]][]
+![][]
 
 Terminal giriş görünümü yukarıdaki gibidir. (Renklere takılmayın bu
 benim seçimim)
@@ -241,7 +241,6 @@ Kalın sağlıcakla
 
   [Sürüm Kontrol Sistemi Git]: http://www.fatihhayrioglu.com/surum-kontrol-sistemi-git/
   []: /images/terminal-300x187.png "terminal"
-  [![][]]: /images/terminal.png
   [http://ss64.com/osx/]: http://ss64.com/osx/
   [http://tybarts.wordpress.com/2011/05/07/git-global-config-dosyasini-ayarlamak/]: http://tybarts.wordpress.com/2011/05/07/git-global-config-dosyasini-ayarlamak/
   [http://sixrevisions.com/resources/git-tutorials-beginners/]: http://sixrevisions.com/resources/git-tutorials-beginners/

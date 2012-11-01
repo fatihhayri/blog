@@ -3,7 +3,9 @@ Date: 2011-05-21 12:15
 Category: Haberler
 Tags: git, linux, mac, sürüm kontrol sistemi
 
-[![][]][]Daha önceleri pek kullanmadığım sürüm kontrol sistemleri
+![][]
+
+Daha önceleri pek kullanmadığım sürüm kontrol sistemleri
 zamanla ihtiyaç haline geliyor. Sahibinden.com’da çalışmaya başladığımda
 bazı yenilikler ile tanıştım, bunlardan biri de Git ile tanışmam oldu,
 sağ olsun arkadaşların yardımı ile yavaş yavaş öğrenmeye başladım.
@@ -77,18 +79,20 @@ yapıyoruz. Terminal üzerinde komutları yazıyoruz. Git kullanımı
 kolaylaştırmak için bazı programlar var, ancak biz genelde komut
 satırlarını kullanıyoruz.
 
-### Git Komutları
+## Git Komutları
 
 İlk başta sadece master dallanması vardır.
 
 **git status:** Bulunduğumuz durumu gösteren koddur. Yapılan
 değişiklikleri, eklemeler ve silinen dosyaları gösterir.
 
-[php] $git status [/php]
+	:::php
+	$git status
 
 **git branch:**Oluşturulan dallanmaları(brach) görmek için
 
-[php] $git branch [/php]
+	:::php
+	$git branch
 
 **git-create-branch:** Bu kod sadece bizim şirkete özel bir kod,
 (kendime notlar) :D Yeni bir dallanma(branch) oluşturmak için. -x
@@ -97,43 +101,51 @@ kullanılan iki kategori var düzeltme(fix) ve özellik(feature).
 Düzeltme(fix) için -x ; Özellik(feature) için -e kısa yollarını
 kullanıyoruz.
 
-[php] $git-create-branch -x dallanma_ismi [/php]
+	:::php
+	$git-create-branch -x dallanma_ismi
 
 **git pull:**master’dan güncel hali almak için
 
-[php] $git pull [/php]
+	:::php
+	$git pull
 
 **git add:**Depoya bir dosya eklemek için
 
-[php] $git add dosya_yolu/dosya_adi [/php]
+	:::php
+	$git add dosya_yolu/dosya_adi
 
 Birden fazla dosya eklemek için arada boşluk bırakarak ekleme
 yapılabiliyor.
 
-[php] $git add dosya_yolu/dosya_adi dosya_yolu/dosya_adi
-dosya_yolu/dosya_adi [/php]
+	:::php
+	$git add dosya_yolu/dosya_adi dosya_yolu/dosya_adi dosya_yolu/dosya_adi
 
 **git commit:** Değişiklikleri yaptıktan sonra yorum ekliyoruz. -am
 kısaltması all ve message baş harflerini ifade eder.
 
-[php] $git commit -am "yorum_yaz" [/php]
+	:::php
+	$git commit -am "yorum_yaz"
 
 **git push:** Yorumu yazdıktan sonra dosyaları gönderiyoruz
 
-[php] $git push [/php]
+	:::php
+	$git push
 
 **git checkout:** Dallanma(Branch) değiştirmek için   
 
-[php] $git checkout branch_ismi [/php]
+	:::php
+	$git checkout branch_ismi
 
 ilk defa geçilen bir branch ise   
 
-[php] $git checkout origin/feature/branch_ismi --track [/php]
+	:::php
+	$git checkout origin/feature/branch_ismi --track
 
 **git grep:** Mevcut branch içinde bir kelime veya ifadeleri bulamak
 için
 
-[php] $git grep "aranacak_kelime" [/php]
+	:::php
+	$git grep "aranacak_kelime"
 
 komutunu kullanıyoruz.
 
@@ -141,25 +153,28 @@ komutunu kullanıyoruz.
 şeyler yaptı ise çakışma(conflict) oluyor, düzeltmek için
 birleştirme(merge) işlemini yapıyoruz.
 
-[php] $git merge master [/php]
+	:::php
+	$git merge master
 
 veya
 
-[php] $git merge origin [/php]
+	:::php
+	$git merge origin
 
 yapıp değişiklikleri görebiliyoruz. Bu komutu yazdıktan sonra çakışmanın
 olduğu dosyayı açıyoruz.
 
-# MASTER / ORIGIN
+	:::php
+	# MASTER / ORIGIN
 
-git merge master  
-git merge origin
+	git merge master  
+	git merge origin
 
-# <<<<< HEAD  
-@MASTER  
-======================  
-@REVISION-2  
->>>>>>>>>>>>
+	# <<<<< HEAD  
+	@MASTER  
+	======================  
+	@REVISION-2  
+	>>>>>>>>>>>>
 
 Şeklinde bir işaretlerle karşılaşırız. Burada hangi alan doğru ise onu
 bırakıp diğer alanı silerek dosyayı kaydediyoruz ve dosyanın son hali o
@@ -167,19 +182,19 @@ oluyor.
 
 **git help:** son olarak bir komut hakkında yardım almak için   
 
-[php] $git help komut_adi [/php]
+	:::php
+	$git help komut_adi
 
 ile komut hakkında bilgi alabiliyoruz.
 
-### Sonuç
+## Sonuç
 
 Başta söylediğim gibi Git konusunda daha yeniyim, öğrenme sürecim devam
 ediyor. Bana öğrenme sürecimde yardımcı olan arkadaşlarımada teşekkür
 ediyorum, özellikle [Doruk][], bu konuda bildiğim bir çok şeyi ondan
 öğrendim.  
 
-Kaynaklar
-=========
+## Kaynaklar
 
 -   [http://inchoo.net/tools/basic-git-usage-from-console/][]
 -   [http://www.foch.com.tr/versiyon-kontrol-git-svn-cvs.html][]
@@ -193,12 +208,8 @@ Kaynaklar
 -   [http://www.ndpsoftware.com/git-cheatsheet.html][]
 -   [http://www.kimbs.cn/2010/11/git-essence/][]
 -   [http://people.core.gen.tr/~aycan.irican/web/publish/GitSKS.html][]
-    (1)
-
-</p>
 
   []: /images/git-logo.png "git-logo"
-  [![][]]: /images/git-logo.png
   [1]: https://lh5.googleusercontent.com/fm9u2bysZrSh8Kl-1TUzVT8bdKzgwrpEU0ztXz0gH-bALti4VlkvArqxqwcKhCC4PiXXoTyDm-cOw4aE46skicF6UWh95eAH8KlTiiJM8VTzDisO2A
   [http://whygitisbetterthanx.com/]: http://whygitisbetterthanx.com/
   [2]: https://lh6.googleusercontent.com/aaVMUy_pCM6En6Q48EF2M-7FrFFS44ADVrqkZQuDAOMQc6GPVx3sX_vYQnFcgYeqKLgGlw-CrREnbWcAvZYqLPb0hXdcYQFSILnNqQxV_XXfkSkXdw

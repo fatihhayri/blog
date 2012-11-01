@@ -9,12 +9,14 @@ için javascript kodlarını sıkıştırırız. Evet güzel bu özelliklerin he
 biri güzel ancak bir sorun olduğunda kodu göremiyoruz. Chrome yeni
 sürümünde güzel bir özellik getirmiş. “Sıkıştırmayı geri al” diye
 Türkçe’ye çevirebileceğim bir özellik ile tek tıkla kodu anlaşılabilir
-bir hale getirebiliyoruz. [![][]][] Değişken isimlerini kısa göstermesi
-gibi küçük bir sorun dışında gayet başarılı bir özellik olmuş. Yeni
-sürümlerde ikon olarak eklenmiş. [![][1]][]
+bir hale getirebiliyoruz. 
+
+![][]
+
+Değişken isimlerini kısa göstermesi gibi küçük bir sorun dışında gayet başarılı bir özellik olmuş. Yeni
+sürümlerde ikon olarak eklenmiş.
+
+![][1]
 
   []: /images/de-obfuscation.gif
-    "de-obfuscation"
-  [![][]]: /images/de-obfuscation.gif
-  [1]: /images/chrome.gif "chrome"
-  [![][1]]: /images/chrome.gif
+  [1]: /images/chrome.gif

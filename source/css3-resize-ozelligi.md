@@ -7,12 +7,12 @@ resize özelliği kullanıcıya elementin boyutlarını ayarlama imkanı
 vermemizi sağlar. Kullanıcı bu elemanın boyutunu istediği gibi
 değiştirme imkanına kavuşur
 
-**Yapısı:** resize: <deger>  
+**Yapısı:** resize: <deger\>  
 **Aldığı Değerler:** both | horizontal | vertical | none | inherit  
 **Başlangıç Değeri:** none  
 **Uygulanabilen Elementler:** block-level ve replaced elementler, tablo
 hücreleri ve inline block elementler  
-**Kalıtsallık:** yok   
+**Kalıtsallık:** yok
 {: .cssozelliktanimi}
 
 **both:** Her iki yöne boyutlandırmaya izin verir.  

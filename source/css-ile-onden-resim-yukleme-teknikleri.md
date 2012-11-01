@@ -29,7 +29,9 @@ alanlar açıldığında görüntü problemi yaşamamış oluruz.
 CSS kodumuzda
 
 	:::css
-	 .resimYukle{ background:url(/images/bg.gif) -9999px -9999px no-repeat} 
+	.resimYukle{ 
+		background:url(/images/bg.gif) -9999px -9999px no-repeat
+	} 
 
 Bu durum için fazladan bir div açıp onun ardalanına bu resmi
 atayabiliridk ama eğer sayfa içinde ardalan tanımı olmayan bir eleman
@@ -37,12 +39,16 @@ varsa bunu tanımlayarak fazladan bir divden kurtulmuş oluruz. Bir not bu
 kodu css kodumuzun sonuna eklememiz daha mantıklıdır.
 
 	:::css
-	 .baskaBirEleman{ background:url(/images/bg.gif) -9999px -9999px no-repeat} 
+	.baskaBirEleman{ 
+		background:url(/images/bg.gif) -9999px -9999px no-repeat
+	} 
 
 Benzer bir kodu :after seçicisi ve content özelliği ile de yapabiliriz.
 
 	:::css
-	 body:after {content: url(img01.png) url(img02.png) url(img03.png) url(img04.png) url(img05.png)} 
+	body:after {
+		content: url(img01.png) url(img02.png) url(img03.png) url(img04.png) url(img05.png)
+	} 
 
 Bu kodu ie7 ve ie6 desteklemiyor maalesef.
 
@@ -50,7 +56,7 @@ Ayrıca CSS3 ile bir elemana birden fazla background tanımıda
 yapabiliyoruz bu özellik yardımı ile de yapabiliriz. Tabi tüm
 tarayıcılar desteklemediği için beklemek gerekiyor.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://css-tricks.com/snippets/css/css-only-image-preloading/][]
 -   [http://www.velvetblues.com/web-development-blog/the-css-approach-preload-images-without-javascript/][]

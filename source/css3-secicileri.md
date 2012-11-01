@@ -9,33 +9,32 @@ yaptığımız birçok işi css ile yapacağız bu sayede. CSS1de 5-6 seçici
 varken, CSS2 ile birlikte bu sayı 12’ye çıktı. CSS3 ile birlikte ise bu
 sayı 20’yi aştı. . İşte CSS3 ile gelen yeni seçiciler;
 
-CSS3 Özellik Seçicileri
-	-   Belirlenen Sözdizimi ile Başlayan Özellik Değer Seçicisi
-	-   Belirlenen Sözdizimi ile Biten Özellik Değer Seçicisi
-	-   İçinde Belirlenen Sözdizimi Geçen Özellik Değer Seçicisi
-	-   Çoklu Özellik Seçicisi Kullanımı
-
-Genel Kardeş Seçicisi
-:target Sözde Seçisi
-Form Elemanları Durumları Sözde Sınıfları
-	-   :disabled
-	-   :enabled
-	-   :checked
-CSS3 Sözde Seçicileri
-Yapısal Sözde Seçiciler
-	-   :root Sözde Sınıfı
-	-   :nth-child() sözde sınıfı
-	-   :nth-last-child() sözde sınıfı
-	-   :nth-of-type() sözde sınıfı
-	-   :nth-last-of-type() sözde sınıfı
-	-   :last-child sözde sınıfı
-	-   :first-of-type sözde sınıfı
-	-   :last-of-type sözde sınıfı
-	-   :only-child sözde sınıfı
-	-   :only-of-type sözde sınıfı
-	-   :empty sözde sınıfı
-Olumsuz(:not) Sözde SınıfıSözde Sınıf
-	::selection sözde sınıf
+	- CSS3 Özellik Seçicileri
+		-   Belirlenen Sözdizimi ile Başlayan Özellik Değer Seçicisi
+		-   Belirlenen Sözdizimi ile Biten Özellik Değer Seçicisi
+		-   İçinde Belirlenen Sözdizimi Geçen Özellik Değer Seçicisi
+		-   Çoklu Özellik Seçicisi Kullanımı
+	- Genel Kardeş Seçicisi
+	- :target Sözde Seçisi
+	- Form Elemanları Durumları Sözde Sınıfları
+		-   :disabled
+		-   :enabled
+		-   :checked
+	- CSS3 Sözde Seçicileri
+	- Yapısal Sözde Seçiciler
+		-   :root Sözde Sınıfı
+		-   :nth-child() sözde sınıfı
+		-   :nth-last-child() sözde sınıfı
+		-   :nth-of-type() sözde sınıfı
+		-   :nth-last-of-type() sözde sınıfı
+		-   :last-child sözde sınıfı
+		-   :first-of-type sözde sınıfı
+		-   :last-of-type sözde sınıfı
+		-   :only-child sözde sınıfı
+		-   :only-of-type sözde sınıfı
+		-   :empty sözde sınıfı
+	- Olumsuz(:not) Sözde SınıfıSözde Sınıf
+	- ::selection sözde sınıf
 
 ## Özellik Seçicileri
 

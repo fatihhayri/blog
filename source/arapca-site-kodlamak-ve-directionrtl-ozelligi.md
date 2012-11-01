@@ -12,19 +12,18 @@ latin alfabesi olmaması ve soldan sağa değil sağdan sola doğru
 akmasından kaynaklanıyor. Benzer yapıdaki diğer dillerde de aynı
 sorunlar yaşanabilir.
 
-[![][]][]
+![][]
 
-### direction özelliği
+## direction özelliği
 
 Bu özellik uygulana eleman içindeki akışın yönünü belirler.
 
-<div class="cssozelliktanimi">
-Yapısı : direction: <deger>  
+Yapısı : direction: <deger\>  
 Aldığı Değerler : ltr | rtl | inherit  
 Başlangıç değeri: ltr  
 Kalıtsallık: Var
+{: .cssozelliktanimi}
 
-</div>
 Aldığı değerler
 
 -   ltr : Soldan sağa (left to right)
@@ -34,16 +33,19 @@ Yazı akışının soldan sağa doğru değilde sağdan sola doğru olmasını
 css'in bu özelliği ile sağlayabiliyoruz.
 
 	:::css
-	 body{ direction:rtl } 
+	body{
+		direction:rtl
+	} 
 
 body elemanına vererek tüm siteyi sağdan sola doğru akmasını
 sağlayabildiğimiz gibi, sadece bir eleman ve içeriğinide sağdan sola
 doğru akmasını sağlayabiliyoruz.
 
 	:::css
-	 div#deneme{ direction:rtl } 
+	div#deneme{
+		direction:rtl
+	} 
 
-<div class="tarayiciuyum">
 **Browser Uyumu:**  
 Internet Explorer 5.5+  
 FF 1+  
@@ -52,8 +54,8 @@ Safari1.3+
 Opera 9.2+  
 W3C's CSS Level 2+  
 CSS Profile 2.0
+{: .tarayiciuyum}
 
-</div>
 Biz LiveGOfda tüm html'in sağdan sola akmasını sağlayacak şekilde
 kodlamadık. Belli alanlarda sağdan sola akmasını sağladık geri kalan
 yerler, normaldeki gibi soldan sağa oldu.
@@ -65,7 +67,7 @@ tecrübelerimi aktarmak istedim.
 Ayrıca yine bu konu ile ilgili unicode-bidi özelliğide mevcut ancak
 kafanızı karıştırmamak için bu özelliğe fazla değinmeyeceğim.
 
-### İpuçları
+## İpuçları
 
 -   Karakter seti olarak utf-8 seçmeliyiz.
 -   Metinleri değiştirirken resimlerdeki yazıları değiştirmeyi
@@ -96,7 +98,7 @@ durum sizi biraz zorlasada farklı bir yapı ile uğraşmak zevkli oluyor.
 Ben yukarıda karşılaştığım sorunları ve bulabildiğim cevapları
 sıralamaya çalıştım, umarım sizede lazım olduğunda işinize yarar.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.siddhatech.com/rtl-css.html][]
 -   [http://2tbsp.com/node/113][]
@@ -108,12 +110,8 @@ sıralamaya çalıştım, umarım sizede lazım olduğunda işinize yarar.
 -   [http://www.adobe.com/support/downloads/thankyou.jsp?ftpID=4107&fileID=3813][]
 -   [http://reference.sitepoint.com/css/direction][]
 
-</p>
-
   [LiveGO]: http://www.livego.com
   []: /images/livego_arapca.jpg
-    "livego_arapca"
-  [![][]]: /images/livego_arapca.jpg
   [http://www.adobe.com/support/downloads/thankyou.jsp?ftpID=4107&fileID=3813]: http://www.adobe.com/support/downloads/thankyou.jsp?ftpID=4107&fileID=3813
   [Faik]: http://twitter.com/faik
   [http://www.siddhatech.com/rtl-css.html]: http://www.siddhatech.com/rtl-css.html

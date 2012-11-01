@@ -15,7 +15,7 @@ aslında başta 3.7 olarak adlandırıldı sonra geçen sene çıkacaktı
 direkten döndü derken mart’a kadar bekletti bizi.  Yeni özellikleri
 inceleyelim.
 
-### Yenilenen Arayüz
+## Yenilenen Arayüz
 
 Yeni nesil bir çok tarayıcıda gördüğümüz içeriğe daha fazla alan bırakan
 yeni tasarım kabulünü Firefox 4’de de görüyoruz. İnternet Explore 9’da
@@ -29,7 +29,7 @@ Sekmeler Chrome’daki gibi üste alınmış. Ana bir Menü Sağ üst köşeye
 Firefox başlığı ile eklenmiş. Ana Sayfa ve Yerimleri arama kutusu yanına
 yerleştirilmiş. Ayrıca Yeni Eklenti Düzenleme arayüzü eklenmiş.
 
-### Performans
+## Performans
 
 ![][1]
 
@@ -49,7 +49,7 @@ Eklentileri güncellemeleri arkaplanda yükleyerek eklentilerin eski
 sürümlerdne dolayı yavaşlamasını engelliyor. Eklenti güncellemeleri
 sonrası tarayıcı kapatıp açmaya gerek yok artık.
 
-### Yeni Sekme Özellikleri
+## Yeni Sekme Özellikleri
 
 ![][2]
 
@@ -69,7 +69,7 @@ da var. Çok kullandığımız özellikleri veya uygulamaları sabitleyerek
 devamlı göz önünde tutuyoruz. Sabitlenen sekmeler görüntü olarakta
 sadece ikonları görünür kalıyor, bölylelikle fazla yer kaplamıyor.
 
-### Senkronize Firefox (Firefox Sync)
+## Senkronize Firefox (Firefox Sync)
 
 <object width="640" height="390"><param name="movie" value="http://www.youtube-nocookie.com/v/mIfAqzeQiBU?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube-nocookie.com/v/mIfAqzeQiBU?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="390"></embed></object>
 
@@ -79,16 +79,16 @@ tarayıcısının özelliklerini her kullandığı yere taşımak isteyenler iç
 güzel bir özellik. Tüm tarayıcı bilgileriniz ve ayarlarınızı her
 kullandığınız yerden erişmenizi sağlıyor bu özellik.
 
-### Web Standartları Desteği Arttı
+## Web Standartları Desteği Arttı
 
 -   HTML5 yorumlama motoru geliştirildi,
 -   HTML5 Form elemanları, form doğrulama ve form özellikleri desteğini
     arttırıldı,
--   HTML 5 Yapısal elemanları desteği sunuyor. <article>, <section>,
-    <nav>, <aside>, <hgroup>, <header> ve <footer>,
+-   HTML 5 Yapısal elemanları desteği sunuyor. <article\>, <section\>,
+    <nav\>, <aside\>, <hgroup\>, <header\> ve <footer\>,
 -   HTML5 hidden özelliğini destekliyor,
--   Yeni HTML5 özelliklerini destekliyor: <mark>, <figure> ve
-    <figcaption>,
+-   Yeni HTML5 özelliklerini destekliyor: <mark\>, <figure\> ve
+    <figcaption\>,
 -   WebSocket APı desteği sağlıyor,
 -   WebGL desteği sunuyor,
 -   Google’un çıkardığı WebM video formatı desteği sunuyor,
@@ -109,7 +109,7 @@ kullandığınız yerden erişmenizi sağlıyor bu özellik.
     değişikliklerini yapıyor
 -   Firebug’dan alışık olduğumuz Web Konsol özelliğini sunuyor
 
-### Diğer Özellikler
+## Diğer Özellikler
 
 Beni izleme(Do Not Track) özelliği eklenmiş,  Çoklu dokunma özelliği ve
 daha güvenli gezintiler için bazı özellikler sunuyor. Ayrıca Chrome’dan
@@ -117,7 +117,7 @@ alışık olduğumuz otomatik güncelleme özelliği ile biz indirmeden yeni
 sürümler kurulacak artık. Bu özellik tüm tarayıcılara gelirse çok güzel
 olur.
 
-### Sonuç
+## Sonuç
 
 Mart ayı tarayıcılar için kendilerini gösterme zamanı olarak geçiyor.
 Her yeni özellik bizi heyecanlandırıyor. Gelişen web teknolojilerine
@@ -135,7 +135,7 @@ Son olarak rekabet güzel şey.
 Yeni nesil tarayıcıların Hız testi
 http://lifehacker.com/#!5784396/browser-speed-tests-firefox-4-internet-explorer-9-chrome-11-and-more
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.mozilla-europe.org/tr/firefox/features/][]
 -   [http://limi.net/articles/firefox-4][]
@@ -149,8 +149,6 @@ http://lifehacker.com/#!5784396/browser-speed-tests-firefox-4-internet-explorer-
 -   [http://hacks.mozilla.org/2011/03/firefox4-performance/][]
 -   [http://www.favbrowser.com/download-firefox-4-final/][]
 -   [https://developer.mozilla.org/en/Firefox_4_for_developers][]
-
-</p>
 
   []: https://lh4.googleusercontent.com/wT0MyRQDahXBdUueCY_8qHMoMC37hoPtySbYHHyjVLPD30IOSeOWiUaSt2TA_aSgBKHub7UkwFNFBacqYHfYS12iC8woqC6pxh6Ti3LXf3F8LbIuJVs
   [1]: https://lh5.googleusercontent.com/gq5xvrZo8P4EFebP_wz3516CNIO7fYBKXSLnGuOB1zey0I94kNcu_O_1o5wGVPn_FnS7lsDSEg5K1GfNFSrdBbn7v817gu975gwH02_jsfNxLKMQX1Q

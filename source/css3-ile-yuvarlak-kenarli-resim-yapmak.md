@@ -8,11 +8,19 @@ ovalleştirmek istediğinizde köşelerdeki kenar çizgilerinde sorun
 yaşıyoruz.
 
 	:::html
-	 <!DOCTYPE html> <html> <head> <meta charset="utf-8">
-<title>border-radius</title> <style> img{ border:2px solid #999;
--webkit-border-radius:8px; -moz-border-radius:8px; border-radius:8px;}
-</style> </head> <body> <img src="gudi.jpg" width="75"
-height="75" /> </body> </html> 
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="utf-8">
+	<title>border-radius</title>
+	<style>
+		img{ border:2px solid #999; -webkit-border-radius:8px; -moz-border-radius:8px; border-radius:8px;}
+	</style>
+	</head>
+	<body>
+		<img src="gudi.jpg" width="75" height="75" />
+	</body>
+	</html>
 
 Örneği görmek için [tıklayınız.][]
 
@@ -30,14 +38,20 @@ uğraşacaktı.
 katmana yaparak çözebiliyoruz.
 
 	:::html
-	 <!DOCTYPE html> <html> <head> <meta charset="utf-8">
-<title>css3</title> <style> .resimKapsulu{border:2px solid #999;
-width:75px; height:75px; -webkit-border-radius:12px;
--moz-border-radius:12px; border-radius:12px;} .resimKapsulu
-img{width:75px; height:75px; -webkit-border-radius:10px;
--moz-border-radius:10px; border-radius:10px;} </style> </head>
-<body> <div class="resimKapsulu"><img src="gudi.jpg" width="75"
-height="75" /></div> </body> </html> 
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="utf-8">
+	<title>css3</title>
+	<style>
+		.resimKapsulu{border:2px solid #999; width:75px; height:75px; -webkit-border-radius:12px; -moz-border-radius:12px; border-radius:12px;}
+		.resimKapsulu img{width:75px; height:75px; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px;}
+	</style>
+	</head>
+	<body>
+		<div class="resimKapsulu"><img src="gudi.jpg" width="75" height="75" /></div>
+	</body>
+	</html>
 
 Örneği görmek için [tıklayınız.][1]
 
@@ -60,12 +74,11 @@ Firefox3.6 ve Opera için [CSS3 Rounded Image With jQuery][]
 makalesindeki yöntemden yaralanabiliriz.
 
 HTML kodumuzu şöyle değiştirelim
-
--   <div class="resimKapsulu" style="background: url(gudi.jpg)
-    no-repeat center center; width: 75px; height: 75px;">
--      <img src="gudi.jpg" width="75" height="75" style="opacity: 0;"
-    />
--   </div>
+	
+	:::html
+	<div class="resimKapsulu" style="background: url(gudi.jpg) no-repeat center center; width: 75px; height: 75px;">
+		<img src="gudi.jpg" width="75" height="75" style="opacity: 0;" />
+	</div>
 
 Resme saydamlık verilip görünmez yapılıyor ve satır için css kodları
 tanımlanıyor, amaç buradaki kodları jquery yardımı ile bg olarak
@@ -74,23 +87,35 @@ tanımlamak .
 jQuery kodumuz
 
 	:::html
-	 <!DOCTYPE html> <html> <head> <meta charset="utf-8">
-<title>css3</title> <script type="text/javascript"
-src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-<script type="text/javascript"> $(document).ready(function() {
-$(".resimKapsulu").load(function() { $(this).wrap(function(){ return
-'<span class="' + $(this).attr('class') + '" style="background:url(' +
-$(this).attr('src') + ') no-repeat center center; width: ' +
-$(this).width() + 'px; height: ' + $(this).height() + 'px;" />'; });
-$(this).css("opacity","0"); }); }); </script> <style>
-.resimKapsulu{border:2px solid #999; width:75px; height:75px;
--webkit-border-radius:12px; -moz-border-radius:12px;
-border-radius:12px;} .resimKapsulu img{width:75px; height:75px;
--webkit-border-radius:10px; -moz-border-radius:10px;
-border-radius:10px;} </style> </head> <body> <div
-class="resimKapsulu" style="background: url(gudi.jpg) no-repeat center
-center; width: 75px; height: 75px;"> <img src="gudi.jpg" width="75"
-height="75" style="opacity: 0;" /> </div> </body> </html> 
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="utf-8">
+	<title>css3</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<script type="text/javascript">
+	 $(document).ready(function() {
+
+		$(".resimKapsulu").load(function() {
+			$(this).wrap(function(){
+				return '<span class="' + $(this).attr('class') + '" style="background:url(' + $(this).attr('src') + ') no-repeat center center; width: ' + $(this).width() + 'px; height: ' + $(this).height() + 'px;" />';
+			});
+			$(this).css("opacity","0");
+		});
+
+	 });
+	</script>
+	<style>
+	.resimKapsulu{border:2px solid #999; width:75px; height:75px; -webkit-border-radius:12px; -moz-border-radius:12px; border-radius:12px;}
+	.resimKapsulu img{width:75px; height:75px; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px;}
+	</style>
+	</head>
+	<body>
+	<div class="resimKapsulu" style="background: url(gudi.jpg) no-repeat center center; width: 75px; height: 75px;">
+		<img src="gudi.jpg" width="75" height="75" style="opacity: 0;" />
+	</div>
+	</body>
+	</html>
 
 Örneği görmek için [tıklayınız.][3]
 
@@ -101,14 +126,12 @@ için diğer tarayıcıların benim için pek önemi yoktu açıkçası. iphone 
 ipad için ilk çözümü uygulayıp geçtim açıkçası, ama lazım olanlar için
 ikinci yöntem de kullanılabilir.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://trentwalton.com/2010/08/03/css3-border-radius-rounded-avatars/][]
--   [http://www.webdesignerwall.com/tutorials/css3-rounded-image-with-jquery/][CSS3     Rounded Image With jQuery]
+-   [http://www.webdesignerwall.com/tutorials/css3-rounded-image-with-jquery/][CSS3 Rounded Image With jQuery]
 -   [http://stick.gk2.sk/blog/2009/03/image-with-rounded-corners-using-css3/][]
 -   [http://www.swedishfika.com/2010/03/19/rounded-corners-on-images-with-css3-2/][]
-
-</p>
 
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/border_radius_resim_.html
   []: https://lh5.googleusercontent.com/gLndP4VPjq8o0ReURiijye0gHVHNWXVLgerrYuZ7rDSTu5ZOkhayATtTmspfym08AUQhceJxvnhmSz_03Tr325FWhugB4g5-aC6OarKEqxlF0gcTiA

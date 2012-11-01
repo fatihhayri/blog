@@ -35,78 +35,144 @@ Sadede gelelim ve biz kendi hiyerarşik yerimimizi yapalım.
 HTML kodu;
 
 	:::html
-	 <ul id="yerimi" class="kapsul"> <li><a href="#">Ana
-Sayfa</a></li> <li><a href="#">Birinci alt Menü</a></li>
-<li><a href="#">İkinci alt Menü</a></li> <li><a
-href="#">Üçüncü alt menü</a></li> <li>Bulunduğumuz sayfa</li>
-</ul> 
+	<ul id="yerimi" class="kapsul">
+	    <li><a href="#">Ana Sayfa</a></li>
+	    <li><a href="#">Birinci alt Menü</a></li>
+	    <li><a href="#">İkinci alt Menü</a></li>
+	    <li><a href="#">Üçüncü alt menü</a></li>
+	    <li>Bulunduğumuz sayfa</li>
+	</ul>
 
 Gelelim CSS kodumuza, liste başlangıç değerlerini sıfırlayalım.
 Listelerin başındaki sabit yuvarlak ikonları kaldırıp, etrafındaki
 boşlukları kaldıralım.
 
 	:::css
-	 ul#yerimi, ul#yerimi li{ list-style:none; margin:0; padding:0;}
+	ul#yerimi, 
+	ul#yerimi li{
+		list-style:none; 
+		margin:0;
+		padding:0;
+	}
 
 
 Listeyi yatay yapmak için float:left tanımı yapıyoruz. İnternet Explorer
 6 için bağlantıya da float:left atamamız gerekecek.
 
 	:::css
-	 ul#yerimi li { float:left; font:12px Arial, Helvetica,
-sans-serif; line-height:30px; padding-left:15px; font-weight:bold }
+	ul#yerimi li {
+		float:left;
+		font:12px Arial, Helvetica, sans-serif;
+		line-height:30px;
+		padding-left:15px;
+		font-weight:bold
+	}
 
 
 Bağlantılara şeklini verelim ve görselliğini düzenleyelim.
 
 	:::css
-	 ul#yerimi li a { display:block; float:left; color:#0086C0;
-text-decoration:none; height:30px; font-weight:normal } ul#yerimi li
-a:hover { text-decoration:underline } 
+	ul#yerimi li a {
+		display:block;
+		float:left;
+		color:#0086C0;
+		text-decoration:none;
+		height:30px; 
+		font-weight:normal
+	}
+	
+	ul#yerimi li a:hover {
+		text-decoration:underline
+	} 
 
 Her kademe arasına ayraç koyalım. Burada şöyle bir ipucu var ki, oda
 bulunduğumuz sayfaya link koymuyoruz ve bu sayede araya koyacağımız
 ayraçları sadece linklere vererek kolayca çözüm sağlıyoruz.
 
 	:::css
-	 ul#yerimi li a { display:block; float:left; color:#0086C0;
-text-decoration:none; background:url(bc_separator.png) top right
-no-repeat; height:30px; padding-right:15px; font-weight:normal } 
+	ul#yerimi li a {
+		display:block; 
+		float:left; 
+		color:#0086C0;
+		text-decoration:none; 
+		background:url(bc_separator.png) top right no-repeat; 
+		height:30px; 
+		padding-right:15px; 
+		font-weight:normal
+	} 
 
 Son olarakta tüm alana bir ardalan resmi koyup birde kenar çizgisi
 ekleyelim.
 
 	:::css
-	 ul#yerimi { border:1px solid #cacaca; background:url(bc_bg.png)
-0 0 repeat-x } 
+	ul#yerimi {
+		border:1px solid #cacaca; 
+		background:url(bc_bg.png) 0 0 repeat-x
+	} 
 
 Bu eklemeyide yapınca [Float Uygulanmış Elementleri Tam Kapsayamama (clearfix) sorunu][] ile karşılaşırız. Çözüm linkteki gibidir. sonuç
 olarak CSS kodumuz;  
 
 	:::css
-	 .kapsul:after { content: "."; display: block; height: 0; clear:
-both; visibility: hidden; } .kapsul { display: inline-block; } /*IE-mac
-de bu bolumu sakla  */ * html .kapsul { height: 1%; } .kapsul {
-display: block; } /* IE-mac bu bolumu saklam artik */ ul#yerimi {
-border:1px solid #cacaca; background:url(bc_bg.png) 0 0 repeat-x }
-ul#yerimi, ul#yerimi li { list-style:none; margin:0; padding:0; }
-ul#yerimi li { float:left; font:12px Arial, Helvetica, sans-serif;
-line-height:30px; padding-left:15px; font-weight:bold } ul#yerimi li a
-{ display:block; float:left; color:#0086C0; text-decoration:none;
-background:url(bc_separator.png) top right no-repeat; height:30px;
-padding-right:15px; font-weight:normal } ul#yerimi li a:hover {
-text-decoration:underline } 
+	.kapsul:after { 
+		content: "."; 
+		display: block; 
+		height: 0; 
+		clear: both; 
+		visibility: hidden; 
+	}
+	
+	.kapsul {
+		display: inline-block; 
+	} /*IE-mac de bu bolumu sakla  
+	
+	*/ * html 
+	.kapsul { height: 1%; } 
+	.kapsul { display: block; } /* IE-mac bu bolumu saklam artik */ 
+	
+	ul#yerimi { 
+		border:1px solid #cacaca; 
+		background:url(bc_bg.png) 0 0 repeat-x 
+	}
+	
+	ul#yerimi, 
+	ul#yerimi li { 
+		list-style:none; 
+		margin:0; 
+		padding:0; 
+	}
+	
+	ul#yerimi li { 
+		float:left; 
+		font:12px Arial, Helvetica, sans-serif;
+		line-height:30px; 
+		padding-left:15px; 
+		font-weight:bold 
+	}
+	
+	ul#yerimi li a{ 
+		display:block; 
+		float:left; 
+		color:#0086C0; 
+		text-decoration:none;
+		background:url(bc_separator.png) top right no-repeat; 
+		height:30px;
+		padding-right:15px; 
+		font-weight:normal
+	}
+	
+	ul#yerimi li a:hover {
+		text-decoration:underline
+	} 
 
 Örneği görmek için [tıklayınız.][]
 
 ![][5]
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.smashingmagazine.com/2009/03/17/breadcrumbs-in-web-design-examples-and-best-practices-2/][]
-    (kullanım avantajları ve örnekler)
 -   [http://quince.infragistics.com/Patterns/Breadcrumbs.aspx][]
-    (mantalitesi)
 -   [http://www.patternry.com/p=breadcrumbs/][] (mantalitesi)
 -   [http://www.useit.com/alertbox/breadcrumbs.html][] (mantalite)
 -   [http://veerle-v2.duoh.com/blog/comments/simple_scalable_css_based_breadcrumbs][]
@@ -115,8 +181,6 @@ text-decoration:underline }
 -   [http://www.jankoatwarpspeed.com/post/2008/08/14/Create-applecom-like-breadcrumb-using-simple-CSS.aspx][]
 -   [http://alpha.patterntap.com/collections/Breadcrumbs][] (örnekler)
 -   [http://patterntap.com/tap/collection/breadcrumbs][] (örnekler)
-
-</p>
 
   []: https://lh5.googleusercontent.com/FDz5-mF3VgIWJI8MfO35IYd7x3yE6HxDsZLz2X_TpBBFW9xWDQLwej_QBHdt3jcgVXbbyOOJ5cA8WQtDwteT_mW0t9aG6iABRKG0RJW4hIF_tKaqmwE
   [apple.com]: http://apple.com/

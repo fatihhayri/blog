@@ -12,22 +12,30 @@ bulmalıyız.
 Bu makalede farklı tarayıcılar için sayfamızın zeminini tam kaplayan
 ardalan resimlerini nasıl tanımlayacağımızı anlatmaya çalışacağım.
 
-### CSS3 background-size ile basit şekilde yapalım
+## CSS3 background-size ile basit şekilde yapalım
 
 Bir önceki makalede de anlattığım gibi background-size özelliği bu iş
 için biçilmiş kaftandır. Çok basit bir kod ile istediğimize ulaşırız.
 
 	:::css
-	 html { background: url(images/bg.jpg) no-repeat center center
-fixed; -webkit-background-size: cover; -moz-background-size: cover;
--o-background-size: cover; background-size: cover; } 
+	html {
+	       background: url(images/bg.jpg) no-repeat center center fixed;
+	       -webkit-background-size: cover;
+	       -moz-background-size: cover;
+	       -o-background-size: cover;
+	       background-size: cover;
+	}
 
 Bir örnek yapalım
 
 	:::css
-	 html{ background:url("zemin_resmi.jpg") 0 0 no-repeat fixed;
-background-size:cover; -webkit-background-size:cover;
--moz-background-size:cover; -o-background-size:cover; } 
+	html{
+	    background:url("zemin_resmi.jpg") 0 0 no-repeat fixed;
+	    background-size:cover;
+	    -webkit-background-size:cover;
+	    -moz-background-size:cover;
+	    -o-background-size:cover;
+	}
 
 Örneği görmek için [tıklayınız.][]
 
@@ -42,55 +50,65 @@ tarayıcılarda sorun yaşamamızdır. Kaydırma çubuğunun hareketi ile zemin
 resmi kaymaması için resmi sabitledik(**fixed**). **cover** özelliği ile
 resmi zemine yaydık. [Daha detaylı bilgi için tıklayınız.][CSS3’ün background-size özelliğini anlattım]
 
-<div class="tarayiciuyum">
 **Browser Uyumu:**  
 Internet Explorer 9+  
 Firefox 3.6+(-moz-), 4+(standart)  
 Chrome1 (-webkit-),3+(standart)  
 Safari3+(-webkit-), 4.1(standart)  
 Opera 9.5+(-o-), 10+(standart)
+{: .tarayiciuyum}
 
-</div>
 İnternet Explorer 9 sürümünden önceki sürümlerinin bu özelliği
 desteklememesidir. İnternet Explorer için **filter** ile bir çözüm
 üretebiliriz.
 
 	:::css
-	 filter:
-progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.zemin_resmi.jpg',
-sizingMethod='scale'); -ms-filter:
-"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='zemin_resmi.jpg',
-sizingMethod='scale')"; 
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.zemin_resmi.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='zemin_resmi.jpg', sizingMethod='scale')";
 
 Bu kod ile ie içinde çözüm üretilmiş olacaktır. Linklerde ve içerik
 seçmede bazı orunlar olabiliyor.
 
-### Tüm Tarayıcılar İçin Çözüm
+## Tüm Tarayıcılar İçin Çözüm
 
 	:::css
-	 <div id="tamEkranArdAlan"><img
-src="/images/emptybottles.jpg" width="100%"
-height="100%" /></div> <div id="icerik"> ... </div> 
+	<div id="tamEkranArdAlan"><img src="http://www.fatihhayrioglu.com/images/emptybottles.jpg" width="100%" height="100%" /></div>
+	<div id="icerik">
+	...
+	</div 
 
 Sayfamızı içerik ve ardalan resmi olarak ikiye ayırıyoruz.
 
 	:::css
-	 html, body {height:100%; margin:0; padding:0;} 
+	html, body {height:100%; margin:0; padding:0;} 
 
 Sayfanın boşluklarını sıfırlıyoruz.
 
 	:::css
-	 #tamEkranArdAlan {position:fixed; top:0; left:0; width:100%;
-height:100%;} 
+	#tamEkranArdAlan {
+		position:fixed; 
+		top:0; 
+		left:0; 
+		width:100%;
+		height:100%;
+	} 
 
 Zemine yerleştirilecek resmi sabitleyip üstten ve soldan başlangıç
 noktasına yerleştiriyoruz ve genişlik ve yükseklik değerini %100
 veriyoruz.
 
 	:::css
-	 #icerik {position:relative; z-index:1; width:650px; padding:20px;
-font:14px/1.8em Arial; margin:40px auto; border-radius:10px;
-color:#333; background-color:#fff} 
+	#icerik {
+		position:relative; 
+		z-index:1; 
+		width:650px; 
+		padding:20px;
+		font:14px/1.8em Arial; 
+		margin:40px auto; 
+		border-radius:10px;
+		color:#333;
+		background-color:#fff
+	} 
 
 İçerik alanını **postion:relative; z-index:1** değeri atayarak
 içerikteki seçilme ve linklerde sorun olmasını engelliyoruz. Diğer
@@ -99,9 +117,23 @@ tanımlar içerik alanının görselliğini ayarlamak içindir.
 Bu kodlar ie6 hariç çalışırken ie6’da çalışmıyor ie6’da çalışması için
 
 	:::css
-	 *html {overflow-y:hidden;} *html body {overflow-y:auto;} *html
-#tamEkranArdAlan {position:absolute; z-index:-1;} *html #icerik
-{position:static;padding:20px;} 
+	*html {
+		overflow-y:hidden;
+	}
+	
+	*html body {
+		overflow-y:auto;
+	} 
+	
+	*html #tamEkranArdAlan {
+		position:absolute; 
+		z-index:-1;
+	}
+	
+	*html #icerik{
+		position:static;
+		padding:20px;
+	} 
 
 ie6 **postipon:fixed** desteklemediği için **postion:absolute** değeri
 tanımlıyoruz. İçerik alanınıda **postion:static** tanımlıyoruz. Kaydırma
@@ -113,7 +145,7 @@ resmi tanımlamış olduk.
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/ePxPv/embedded/css,html,result"></iframe>
 
-### Sonuç
+## Sonuç
 
 Sonuç olarak CSS3 ile birlikte gelen **background-size** özelliği tam
 işimizi görsede İnternet Explorer’un desteklememesi projelerimizde
@@ -122,8 +154,7 @@ uygulamak için bizi düşündürüyor.
 Tüm tarayıcıların desteklediği ikinci yöntem sadece CSS ile çözüm
 ürettiği için tercih edilebilir. Ayrıca javascript ile bazı çözümler
 olsa da ben css ile çözümü olan bir kodu javascript ile çözme taraftarı
-değilim. Javascript uygulamaları
-için[http://css-tricks.com/3458-perfect-full-page-background-image/][]
+değilim. Javascript uygulamaları için[http://css-tricks.com/3458-perfect-full-page-background-image/][]
 linkindeki örnekleri incelemenizi öneriyorum.
 
 Baktığım sitelerdeki uygulanabilir bu iki yöntemi sizlerle paylaştım
@@ -132,7 +163,7 @@ Birazda ihtiyaca göre yöntem uygulamak gerekiyor bu işte.
 
 Kalın sağlıcakla
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://css-tricks.com/3458-perfect-full-page-background-image/][]
 -   [http://cookbooks.adobe.com/post_Scale_Background_image_to_browser_size-17590.html][]
@@ -142,8 +173,6 @@ Kalın sağlıcakla
 -   [http://paulmason.name/blog/item/full-screen-background-image-pure-css-code][]
 -   [http://www.quackit.com/html/codes/html_stretch_background_image.cfm][]
 -   [http://www.cssplay.co.uk/layouts/background.html][]
-
-</p>
 
   [CSS3’ün background-size özelliğini anlattım]: http://www.fatihhayrioglu.com/css3-background-size-ozelligi/
   [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/tam_sayfa_bg.html

@@ -392,14 +392,13 @@ Kalın sağlıcakla
 -   [http://people.opera.com/pepelsbey/experiments/multicol/][] (güzel örnek)
 -   [http://people.opera.com/zibin/multicol/index.html][] (güzel örnek)
 -   [http://www.juude.info/css-columns.php][] (güzel)
--   [http://www.csscripting.com/css-multi-column/][Multi Column Layout     Demonstration from CSS Scripting] (js ile çözüm)
+-   [http://www.csscripting.com/css-multi-column/](http://www.csscripting.com/css-multi-column/) (js ile çözüm)
 -   [http://zomigi.com/blog/deal-breaker-problems-with-css3-multi-columns/][] (sorunları)
 -   [http://help.dottoro.com/lcxquvkf.php][]
 
   [Tipografi]: http://www.fatihhayrioglu.com/css-ve-tipografi/
   [A List Apart]: http://www.alistapart.com/articles/css3multicolumn
   [Column Script from Michael van Ouwerkerk]: http://13thparallel.com/archive/column-script/
-  [The Script from CSS Scripting]: http://www.csscripting.com/wiki/index.php?title=The_Script
   [Multi Column Layout Demonstration from CSS Scripting]: http://www.csscripting.com/css-multi-column/
   [Multi-column layout with CSS3 (and some JavaScript)]: http://www.cvwdesign.com/txp/article/360/multi-column-layout-with-css3-and-some-javascript
   [Esnek Kutu Planlama Modülü]: http://www.w3.org/TR/css3-flexbox/

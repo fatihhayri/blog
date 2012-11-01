@@ -49,10 +49,12 @@ atayalım. Trabzonspor’un ki ile başlayalım. Resim hareketli gif olduğu
 için biraz geç yüklenebilir, ama açıklayıcı olması için hareketli gif'i
 tercih ettim.
 
-[![][2]][]
+[][2]
 
 	:::css
-	div#icerikAlani table td div.logoTrabzon{ background-position:-3px -107px}
+	div#icerikAlani table td div.logoTrabzon{ 
+		background-position:-3px -107px
+	}
 
 Yukarı aşağı tuşları yardımı ile bulduğumuz değeri(-107px)
 background-position değeri olarak tanımlıyoruz.
@@ -66,5 +68,3 @@ paylaşmak istedim.
   []: https://lh5.googleusercontent.com/slGZJ_Am1RIyR5yrzIM2dkZM22WIfcwo5GS-L8hzjRol25LcAvOIjSbLCmaEp__Yqq7HwALtVfoAXTn_U-sg6ZUpi7_chR-a-LlzEaMHQMX3euaWdw
   [1]: https://lh6.googleusercontent.com/FMA2GgldFdFzVg8UQuW5RJ7x03gVBTrdx-hJjCb0T4Zc0VWQ65DK0VthZIIe8hnIuWj1Ki-TzFXBMkbDXwms9GXV2X5-wE3yNdVZbZnCgNtQmAT5CQ
   [2]: /images/css_sprite_firebug_2.gif
-    "css_sprite_firebug_2"
-  [![][2]]: /images/css_sprite_firebug_2.gif

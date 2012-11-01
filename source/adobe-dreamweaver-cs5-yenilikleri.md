@@ -3,7 +3,9 @@ Date: 2010-10-25 22:17
 Category: Haberler
 Tags: adobe, cs5, CSS, css3, Dreamweaver, editör, firebug, html, html5
 
-![][]Adobe Dreamweaver editör olarak beğenerek kullandığım bir editör.
+![][]
+
+Adobe Dreamweaver editör olarak beğenerek kullandığım bir editör.
 Burada sizlere yeni sürümü ve yeniliklerini anlatmaya çalışacağım ve son
 olarakta beklentilerimi ve yeni sürümün bunları ne kadar karşıladığımı
 yazacağım.
@@ -12,7 +14,7 @@ Yeni sürüm ile birlikte gelen yenilikler ;
 
 **CSS Inspection**
 
-[![][1]][]  
+![][1]
 Aslında Live View özelliği bir önce sürümde de mevcut ancak bu sürümden
 tam anlamıyla geliştirilmiş bu özellik Inspect butonu yardımı ile gerçek
 zamanlı kodumuza müdahale edebiliyor, düzenleme yapabiliyoruz.
@@ -37,11 +39,8 @@ Her şeye rağmen bir artıdır ama eksik olduğu kesin.
 
 **CSS Aktik/Pasif**
 
-<div alt>
-</div>
-[![][3]][]
+![][3]
 
-</div>
 Mevcut kod üzerinde gezerken elemanlara atanan css özellikleri bir
 tıklama ile aktif ve pasif hale getirme özelliği.
 
@@ -50,11 +49,8 @@ kullanıcının kullanımına sunulmaktadır. Güzel bir özellik.
 
 **CSS başlangıç sayfaları**
 
-<div alt>
-</div>
-[![][4]][]
+![][4]
 
-</div>
 Bir önceki sürüme göre daha fazla hazır sayfa yapısı imkanı sunuyor yeni
 sürüm bizlere.
 
@@ -72,11 +68,8 @@ güzel oldu.
 
 **PHP Tabanlı CMS Desteği**
 
-<div alt>
-</div>
-[![][5]][]
+![][5]
 
-</div>
 Bu sürümdeki en büyük atılım bence bu dur. PHP tabanlı CMS'leri
 WordPress, Drupal ve Joomla tam anlamıyla düzenleme imkanı sağlıyor bu
 yeni sürüm.
@@ -91,11 +84,8 @@ büyük kolaylık sağlıyor.
 
 **PHP özel sınıfı kod ipuçları**
 
-<div alt>
-</div>
-[![][6]][]
+![][6]
 
-</div>
 PHP ile oluşturulan özel sınıflar içinde otomatik tamamlama özelliği
 eklenmiş. PHP'ye yönelik bir editör olma eğilimi sergilemiş yeni sürümde
 Dreamweaver, bence mantıklı Visual Studio'yu geçemeyeceğini anlayınca
@@ -137,6 +127,7 @@ videoyu izlemenizi tavsiye ederim.
 **İlişkili Dosyaları Filtreleme**  
   
 ![][7]  
+
 Dreamweaver çalıştığımız doküman ile ilgili dosyalarıda gösteriyor,
 yeni sürüm ile birlikte dinamik dosyalarıda göstermeye başlıyor. Bu
 bazen karmşaya neden oluyor, bunu içni bir çözü üretilmiş. Filtreleme
@@ -144,7 +135,7 @@ menüsünden itediğimiz dosya tipini veya dosyaları filtreleye biliyoruz.
 Bu sayede ilişkili dosyaları daha düzenli bir hale getirme imkanımız
 oluyor.
 
-### Sonuç
+## Sonuç
 
 Yeni sürümün CSS ve PHP üzerine yoğunlaşmış bir sürüm olmuş. PHP CMS
 geliştirenler için bir çok yenilik var. CSS için getirilen yenilikler ve
@@ -161,10 +152,9 @@ gelişmiş bir araç ile bu açık kapatılmalıdır.
 
 Kalın sağlıcakla.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://tv.adobe.com/watch/learn-dreamweaver-cs5/getting-started-gs-what-is-dreamweaver-cs5-/][]
-    (video)
 -   [http://www.mymac.com/2010/07/cs5-dreamweaver-whats-new/][]
 -   [http://webdesign.about.com/od/dreamweaver/p/differences-dreamweaver-cs5-and-dreamweaver-cs4.htm][]
 -   [http://www.wpbeginner.com/news/wordpress-themes-made-easy-with-adobe-dreamweaver-cs5/][]
@@ -173,38 +163,20 @@ Kalın sağlıcakla.
 -   [http://cs5.org/?p=1373][]
 -   [http://www.adobe.com/tr/products/dreamweaver/whatsnew/][]
 
-</p>
 
   []: https://docs.google.com/File?id=dhctmbn6_472cmt9wsnt_b
   [1]: /images/dw_cs5.gif "dw_cs5"
-  [![][1]]: /images/dw_cs5.gif
   [2]: https://docs.google.com/File?id=dhctmbn6_467gzqcgpdh_b
   [3]: /images/dw_cs5_aktif_pasif.gif
-    "dw_cs5_aktif_pasif"
-  [![][3]]: /images/dw_cs5_aktif_pasif.gif
   [4]: /images/dw_cs5_template-300x211.jpg
-    "dw_cs5_template"
-  [![][4]]: /images/dw_cs5_template.jpg
   [5]: /images/dw_cs5_cms.jpg
-    "dw_cs5_cms"
-  [![][5]]: /images/dw_cs5_cms.jpg
   [6]: /images/dwcs5-site-specific-codehints-dlg-cms.gif
-    "dwcs5-site-specific-codehints-dlg-cms"
-  [![][6]]: /images/dwcs5-site-specific-codehints-dlg-cms.gif
   [7]: https://docs.google.com/File?id=dhctmbn6_474f467phf8_b
   [http://tv.adobe.com/watch/learn-dreamweaver-cs5/getting-started-gs-what-is-dreamweaver-cs5-/]: http://tv.adobe.com/watch/learn-dreamweaver-cs5/getting-started-gs-what-is-dreamweaver-cs5-/
-    "http://tv.adobe.com/watch/learn-dreamweaver-cs5/getting-started-gs-what-is-dreamweaver-cs5-/"
   [http://www.mymac.com/2010/07/cs5-dreamweaver-whats-new/]: http://www.mymac.com/2010/07/cs5-dreamweaver-whats-new/
-    "http://www.mymac.com/2010/07/cs5-dreamweaver-whats-new/"
   [http://webdesign.about.com/od/dreamweaver/p/differences-dreamweaver-cs5-and-dreamweaver-cs4.htm]: http://webdesign.about.com/od/dreamweaver/p/differences-dreamweaver-cs5-and-dreamweaver-cs4.htm
-    "http://webdesign.about.com/od/dreamweaver/p/differences-dreamweaver-cs5-and-dreamweaver-cs4.htm"
   [http://www.wpbeginner.com/news/wordpress-themes-made-easy-with-adobe-dreamweaver-cs5/]: http://www.wpbeginner.com/news/wordpress-themes-made-easy-with-adobe-dreamweaver-cs5/
-    "http://www.wpbeginner.com/news/wordpress-themes-made-easy-with-adobe-dreamweaver-cs5/"
   [http://www.thinkdigit.com/Features/Adobe-Dreamweaver-CS5-Review_4420.html]: http://www.thinkdigit.com/Features/Adobe-Dreamweaver-CS5-Review_4420.html
-    "http://www.thinkdigit.com/Features/Adobe-Dreamweaver-CS5-Review_4420.html"
   [http://www.pcmag.com/slideshow_viewer/0,1205,l%253D249944%2526a%253D249895%2526po%253D9,00.asp?p=y]: http://www.pcmag.com/slideshow_viewer/0,1205,l%253D249944%2526a%253D249895%2526po%253D9,00.asp?p=y
-    "http://www.pcmag.com/slideshow_viewer/0,1205,l%253D249944%2526a%253D249895%2526po%253D9,00.asp?p=y"
   [http://cs5.org/?p=1373]: http://cs5.org/?p=1373
-    "http://cs5.org/?p=1373"
   [http://www.adobe.com/tr/products/dreamweaver/whatsnew/]: http://www.adobe.com/tr/products/dreamweaver/whatsnew/
-    "http://www.adobe.com/tr/products/dreamweaver/whatsnew/"

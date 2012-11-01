@@ -6,15 +6,14 @@ Tags: ardalan boyutu, background-size, contain, cover, css3
 background-size özelliği background-image ile tanımlanan resmin
 boyutlarını tanımlamamıza yarar.
 
-<div class="cssozelliktanimi" style="width:460px; margin-top:10px">
 **Yapısı :** background-size: [<bg-size>[, <bg-size> ]  
 **Aldığı Değerler :** [ <yuzde_deger> | <uzunluk> | auto ] |
 contain | cover  
 **Başlangıç değeri:** auto  
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-</div>
 İki değer tanımlandığında ilk değer genişlik için ikinci değer yükseklik
 için uygulanır, tek değer atanmış ise hem genişlik hemde yükseklik için
 bu değer geçerlidir demektir.
@@ -62,31 +61,27 @@ CSS3 diğer özelliklerinde olduğu gibi background-size özelliğini
 destekleyen farklı tarayıcılar kendi öneklerini kullanmaktadır.  
 
 	:::css
-	 .deneme { background-image: url(bg-image.png);
--moz-background-size: 100% 100%;           /* Firefox 3.6 */
--o-background-size: 100% 100%;           /* Opera 9.5 */
--webkit-background-size: 100% 100%;           /* Safari 3.0, Chrome */
-background-size: 100% 100%;           /* w3c, Firefox 4.0, ie9  */ }
+	.deneme {
+		background-image: url(bg-image.png);
+		-moz-background-size: 100% 100%;           /* Firefox 3.6 */
+		-o-background-size: 100% 100%;           /* Opera 9.5 */
+		-webkit-background-size: 100% 100%;           /* Safari 3.0, Chrome */
+		background-size: 100% 100%;           /* w3c, Firefox 4.0, ie9  */
+	}
 
-
-<div class="tarayiciuyum">
 **Browser Uyumu:**  
 Internet Explorer 9+  
 Firefox 3.6+(-moz-), 4+(standart)  
 Chrome1 (-webkit-),3+(standart)  
 Safari3+(-webkit-), 4.1(standart)  
-Opera 9.5+(-o-), 10+(standart)  
-W3C’s CSS Level 3+  
-  
+Opera 9.5+(-o-), 10+(standart)
+{: .tarayiciuyum}
 
-</div>
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/TrWy2/1/embedded/result,css,html"></iframe>
 
-Daha detaylı örnekler için
-[http://whereswalden.com/files/mozilla/background-size/more-examples.html][]
-sitesine bakınız.
+Daha detaylı örnekler için [http://whereswalden.com/files/mozilla/background-size/more-examples.html][] sitesine bakınız.
 
-### Sonuç
+## Sonuç
 
 Birçok yerde kullanabileceğimiz bu özellik yardımı ile ardalandaki
 resimlerimizi daha iyi organize edebileceğiz. Sayfa zeminini tam
@@ -101,7 +96,7 @@ yazmak şart oldu.
 
 Kalın sağlıcakla
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.w3.org/TR/2002/WD-css3-background-20020802/][]
 -   [https://developer.mozilla.org/en/CSS/background-size][]
@@ -112,25 +107,17 @@ Kalın sağlıcakla
 -   [http://www.css3.info/preview/background-size/][]
 -   [http://www.w3schools.com/cssref/css3_pr_background-size.asp][]
 -   [http://markupflux.com/2011/01/17/how-to-make-a-full-screen-background-image-that-scales-and-crops-as-needed/][]
-    (ie)
 -   [http://www.quirksmode.org/css/background.html][]
 -   [http://www.paulmccrodden.com/2011/02/problems-css3-background-size-cover-iefilters/][]
-    (ie)
 -   [http://webdesign.about.com/od/styleproperties/p/blspbgsize.htm][]
 -   [http://www.css3.info/liquid-faux-columns-with-background-size/][]
-    (esnek ardalan)
 -   [http://css-tricks.com/3458-perfect-full-page-background-image/][]
-    (tam ekran)
 -   [http://www.cssplay.co.uk/boxes/css3-background.html][] (örnek)
 -   [http://www.pziecina.com/design/turorial_demos/resize_background.php][]
-    (tam ekran)
 -   [http://www.alistapart.com/articles/supersize-that-background-please/][]
 -   [http://whereswalden.com/files/mozilla/background-size/more-examples.html][]
-    (örnekler)
 -   [http://dev.w3.org/csswg/css3-page/img_scale.png][]
 -   [][]
-
-</p>
 
   []: https://lh6.googleusercontent.com/vPFmtJY6MNPZQFrtimtMV9QRAkfyAQa0EUmCeBZGKEXqWMi-lBwCGcNG7AxW8REH67JGVB55m-oyZtM4uixFH-F5J2KjTvtO2SpQ-qvBq-XR54vsRks
   [http://whereswalden.com/files/mozilla/background-size/more-examples.html]: http://whereswalden.com/files/mozilla/background-size/more-examples.html
@@ -153,4 +140,3 @@ Kalın sağlıcakla
   [http://www.alistapart.com/articles/supersize-that-background-please/]: http://www.alistapart.com/articles/supersize-that-background-please/
   [http://dev.w3.org/csswg/css3-page/img_scale.png]: http://dev.w3.org/csswg/css3-page/img_scale.png
   []: http://www.netmagazine.com/tutorials/take-advantage-css-background-size-property
-    "http://www.netmagazine.com/tutorials/take-advantage-css-background-size-property"
