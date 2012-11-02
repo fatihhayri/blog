@@ -17,7 +17,7 @@ düşünülerek tasarlanır ve uygulamaya geçirilir. Ben burada tasarımsal
 kısmına değinmeden kodlama kısmını ilgilendiren bölümlerine değinmeye
 çalışacağım.<!--more-->
 
-### Basit Butonlar
+## Basit Butonlar
 
 <button\> ve <input type="button" /\> html elemanları w3c tarafından
 standartlaştırılmış buton elemanlarıdır, bu elemanlar butonların ne
@@ -72,7 +72,7 @@ CSS kodu
 
 ![][1]
 
-<input type="submit" /> yerine genelde <button\> elemanını tercih ediyorum. Yukarıdaki örnekte olduğu gibi <input type="submit" /\> kullanımıda doğrudur, ancak form elemanlarında bir çok <input\> olduğu
+<input type="submit" /\> yerine genelde <button\> elemanını tercih ediyorum. Yukarıdaki örnekte olduğu gibi <input type="submit" /\> kullanımıda doğrudur, ancak form elemanlarında bir çok <input\> olduğu
 zaman butona erişmek zor oluyor ek olarak bir sınıf tanımlamak gerekiyor, <button\> tanımına ise daha kolay erişebiliyoruz. 
 
 **3 boyutlu buton oluşturmak**

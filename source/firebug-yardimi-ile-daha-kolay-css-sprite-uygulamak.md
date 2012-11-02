@@ -49,7 +49,7 @@ atayalım. Trabzonspor’un ki ile başlayalım. Resim hareketli gif olduğu
 için biraz geç yüklenebilir, ama açıklayıcı olması için hareketli gif'i
 tercih ettim.
 
-[][2]
+![][2]
 
 	:::css
 	div#icerikAlani table td div.logoTrabzon{ 

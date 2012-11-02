@@ -9,7 +9,7 @@ kenarlı kutu yapmanın bir çok tekniği vardır. Her tekniğin yerine ve
 durumuna göre avantajları olabilir. Biz burda en kolay ve en
 kullanışlılarını öğrenmeye çalışacağız. <!--more-->
 
-###### Sabit Genişlikte Yuvarlak Kenarlı Kutu Oluşturmak
+## Sabit Genişlikte Yuvarlak Kenarlı Kutu Oluşturmak
 
 Sabit Genişlikte Yuvarlak Kenarlı Kutular en basit oluşturulabilen
 kutulardır. İçeriğin uzaması veya kısalması durumunda genişlik sabit

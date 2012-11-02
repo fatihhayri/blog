@@ -8,20 +8,27 @@ es geçmişimdir. Durumu şöyle açıklayayım. Basit bir menü oluşturmak
 istedim.
 
 	:::html
-	 <ul> <li>deneme</li>
-<li>olarak</li> <li>bir örnek </li> </ul> 
+	<ul>
+	  <li>deneme</li>
+	  <li>olarak</li>
+	  <li>bir örnek </li>
+	</ul> 
 
 Yatay bir menü olacağı için
 
 	:::css
-	 ul li{display:inline;} 
+	ul li{
+		display:inline;
+	} 
 
 eklemesini yaptım, daha sonra da padding değerleri ekleyince fark ortaya
 çıktı.
 
 	:::css
-	 ul li{ padding:0 12px;
-background-color:#999} 
+	ul li{ 
+		padding:0 12px;
+		background-color:#999
+	} 
 
 İşin aslı İnternet Explorer 6 ve 7’de istediğim gibi olurken yeni nesil
 tarayıcılarda arada fazladan boşluklar atanmış gördüm. margin:0 değeri
@@ -36,15 +43,15 @@ oluşturmak için diğer bir yöntem olan float yöntemini denemek bunlardan
 biri
 
 	:::css
-	 ul li{ float:left} 
+	ul li{ 
+		float:left
+	} 
 
 Diğer bir çözüm yolu ise aradaki boşlukları kaldırmak.
 
 	:::html
-	 <ul>
-<li>deneme</li><li>olarak</li><li>bir örnek </li> </ul>
-
-
-</p>
+	<ul>
+		<li>deneme</li><li>olarak</li><li>bir örnek </li>
+	</ul>
 
   []: https://lh4.googleusercontent.com/pEfwOl1XzeOmHs7SKQmlHJ4bY4pKA47H_mfon9utneJmtdtYIHjs-DNtAKzVYBZ1ngfV27w1Xty-BLB7bwIi3CyOP5mUsiRznL08IYJHKqK9a762

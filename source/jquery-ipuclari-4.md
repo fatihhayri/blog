@@ -7,7 +7,7 @@ Tags: closest(), console.log, delay(), has(), next(), parent(), parents(), prev(
 [Jquery ipuçları - 2][]  
 [Jquery ipuçları - 3][]
 
-## **1 - Mümkünse Class yerine Id kullanmayı tercih edin**
+## 1 - Mümkünse Class yerine Id kullanmayı tercih edin
 
 jQuery ile kod yazarken bize çok büyük kolaylıklar kazandırır. Bunlardan
 bir tanesi elemana atanmış sınıfı yardımı ile kolayca seçebilme
@@ -24,7 +24,7 @@ başka.
 
 **kaynak:** net.tutsplus.com  
 
-## **2 - next() ve prev() kullanımı**
+## 2 - next() ve prev() kullanımı
 
 Bu özelliklerin kullanımı bazen can kurtarıyor ancak kullanırken dikkat
 etmek lazım, bazende sorunlara yol açabiliyor. Sonradan eklediğiniz bir
@@ -82,7 +82,7 @@ Bir örnek verelim.
 
 prev() fonksiyonu yardımı ile bir önceki elemanı yakalayabiliriz.  
 
-## **3 - Üst Eleman Bulma - parent(), parents() ve closest()**
+## 3 - Üst Eleman Bulma - parent(), parents() ve closest()
 
 **parent()**
 
@@ -132,7 +132,7 @@ HTML
 İçiçe girmiş birçok listede yukarıdaki tanım 'urunler' sınıfı
 tanımlanmış öğenin ilk üst ul elemanını yakalamamıza yardım eder.
 
-## **4 - Firebug ve console.log ile kodumuzu izlemek**
+## 4 - Firebug ve console.log ile kodumuzu izlemek
 
 Firebug'ın çalışma hayatımızdaki yerini biliyoruz. jquery ile hata
 yakalama amacı ile console.log kullanıyoruz. Daha önceleri javascript
@@ -155,7 +155,7 @@ bulamadım diye size bin tane hata verecek oda gayet normal.
 
 Bir uyarı işinizi yayına atarken bu satırı silin yoksa ie'de hata verir.
 
-## **5 - Animasyon ve Efektleri Geciktirme (delay)**
+## 5 - Animasyon ve Efektleri Geciktirme (delay)
 
 jQuery 1.4 ile birlikte gelen yeni bir özellik olan delay()
 animasyonlarımıza belli bir süre ara vermemizi sağlat, daha önceleri bu
@@ -169,7 +169,7 @@ işi yapmak için setTimeout metodunu kullanıyorduk.
 seçtiğimiz katmana fadeIn efekti ver ve sonra 4000 milisaniye bekle ve
 sonra fadeOut efekti ver diyoruz.
 
-## **6 - has() Metodu**
+## 6 - has() Metodu
 
 jQuery 1.4 ile birlikte gelen bir başka yeni özellik **has()**
 metodudur. Daha önceki sürümlerde :has seçicisi vardı, şimdi **has()**

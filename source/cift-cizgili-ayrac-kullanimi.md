@@ -11,24 +11,58 @@ sağdaki öğenin sol kenar çizgisine farklı bir renk atayarak çözüm
 üretmeyi deniyorum.  
 
 	:::css
-	 /* clearfix */ .clearfix:after { content:
-"."; display: block; height: 0; clear: both; visibility: hidden; }
-.clearfix { display: inline-block; } * html .clearfix { height: 1%; }
-.clearfix { display: block; } ul{ margin:0 auto; padding:10px;
-background-color:#008bc6; width:450px;} ul li{ list-style:none;
-float:left; border-right:1px solid #046e9b; border-left:1px solid
-#05a3e6;} ul li a{ display:block; text-decoration:none; color:#fff;
-font:bold 12px Arial, Helvetica, sans-serif; margin-right:10px;
-padding:0 10px} 
+	.clearfix:after{
+		clear: both;
+		content: ".";
+		display: block;
+		height: 0;
+		visibility: hidden;
+	}
+	
+	.clearfix{
+		display: inline-block;
+	}
+	
+	* html .clearfix{
+		height: 1%;
+	}
+	
+	.clearfix{
+		display: block;
+	}
+	
+	ul{
+		background-color: #008bc6;
+		margin: 0 auto;
+		padding: 10px;
+		width: 450px;
+	}
+	
+	ul li{
+		border-left: 1px solid #05a3e6;
+		border-right: 1px solid #046e9b;
+		float: left;
+		list-style: none;
+	}
+	
+	ul li a{
+		color: #fff;
+		display: block;
+		font: bold 12px Arial, Helvetica, sans-serif;
+		margin-right: 10px;
+		padding: 0 10px;
+		text-decoration: none;
+	}
 
 HTML
 
 	:::html
-	 <ul class="clearfix"> <li><a
-href="">Bak postacı</a></li> <li><a
-href="">geliyor</a></li> <li><a href="">selam
-veriyor</a></li> <li><a href="">her kes ona bakıyor</a></li>
-</ul> 
+	<ul class="clearfix">
+	   <li><a href="">Bak postacı</a></li>
+	    <li><a href="">geliyor</a></li>
+	    <li><a href="">selam veriyor</a></li>
+	    <li><a href="">her kes ona bakıyor</a></li>
+	</ul>
 
 Örneği görmek için [tıklayınız.][]
 
@@ -37,8 +71,13 @@ kaldırmak için bu öğelere sınıf atamalıyız ve bu kenar çizgilerini
 sıfırlamalıyız.
 
 	:::css
-	 ul li.ilkOge{ border-left:0;} ul li.sonOge{
-border-right:0;} 
+	ul li.ilkOge{
+		border-left:0;
+	}
+	
+	ul li.sonOge{
+		border-right:0;
+	} 
 
 Örneği görmek için [tıklayınız.][1]
 
@@ -47,12 +86,35 @@ border-right:0;}
 Bu uygulamayı dikey menü olarakta yapabiliriz.
 
 	:::css
-	 ul{ margin:0 auto; padding:10px;
-background-color:#008bc6; width:200px;} ul li{ list-style:none;
-border-top:1px solid #046e9b; border-bottom:1px solid #05a3e6;} ul
-li.ilkOge{ border-top:0;} ul li.sonOge{ border-bottom:0;} ul li a{
-display:block; text-decoration:none; color:#fff; font:bold 12px Arial,
-Helvetica, sans-serif; margin-right:10px; padding:10px 0} 
+	ul{
+		background-color: #008bc6;
+		margin: 0 auto;
+		padding: 10px;
+		width: 200px;
+	}
+	
+	ul li{
+		border-bottom: 1px solid #05a3e6;
+		border-top: 1px solid #046e9b;
+		list-style: none;
+	}
+	
+	ul li.ilkOge{
+		border-top: 0;
+	}
+	
+	ul li.sonOge{
+		border-bottom: 0;
+	}
+	
+	ul li a{
+		color: #fff;
+		display: block;
+		font: bold 12px Arial, Helvetica, sans-serif;
+		margin-right: 10px;
+		padding: 10px 0;
+		text-decoration: none;
+	}
 
 Örneği görmek için [tıklayınız.][2]
 
@@ -67,15 +129,27 @@ Explorer’da çalışmayacaktır.
 HTML kodu
 
 	:::html
-	 <a href="">+ <span>Çizgili
-buton</span></a> 
+	<a href="">
+		+ <span>Çizgili buton</span>
+	</a> 
 
 CSS kodu
 
-[sourcecode language="css" highlight="10"] a{ background-color:#ed145b;
-padding:5px 10px; color:#fff; text-decoration:none; font-weight:bold;
-font-size:16px; } a span{ border-left:2px groove rgba(144, 71, 95,
-0.55); display:inline-block; padding-left:6px } 
+	:::css
+	a{ 
+		background-color:#ed145b;
+		padding:5px 10px; 
+		color:#fff; 
+		text-decoration:none; 
+		font-weight:bold;
+		font-size:16px; 
+	}
+	
+	a span{ 
+		border-left:2px groove rgba(144, 71, 95, 0.55); 
+		display:inline-block; 
+		padding-left:6px 
+	} 
 
 Koda biraz açıklama getirelim. border’a verilen groove özelliği bizim
 istediğimiz etkiyi yapan bir özelliktir. Bu özellik ile eklenen çizgiler
@@ -85,8 +159,6 @@ uyum sağlamasına yarar.
 Örneği görmek için [tıklayınız.][4]
 
 ![][5]
-
-</p>
 
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/cift_cizgili_ayrac_kullanimi/cc_yatay_menuler.html
   [1]: http://fatihhayrioglu.com/dokumanlar/cift_cizgili_ayrac_kullanimi/cc_yatay_menuler_2.html

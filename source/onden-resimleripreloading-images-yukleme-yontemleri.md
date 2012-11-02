@@ -33,18 +33,23 @@ benim hoşuma gitmiyor.
 CSS ile bu işi yapan bir örnek verelim.
 
 	:::css
-	 div#preloaded-images {  position: absolute;
- overflow: hidden;  left: -9999px;  top: -9999px;  height: 1px;  width:
-1px; } 
+	div#preloaded-images {
+	   position: absolute;
+	   overflow: hidden;
+	   left: -9999px;
+	   top: -9999px;
+	   height: 1px;
+	   width: 1px;
+	}
 
 HTML kodu
 
 	:::html
-	 <div id="preloaded-images"> <img
-src="http://deneme.com/image-01.png" width="1" height="1" alt="Image 01"
-/> <img src="http://deneme.com/image-02.png" width="1" height="1"
-alt="Image 02" /> <img src="http://deneme.com/image-03.png" width="1"
-height="1" alt="Image 03" /> </div> 
+	<div id="preloaded-images">
+	 <img src="http://deneme.com/image-01.png" width="1" height="1" alt="Image 01" />
+	 <img src="http://deneme.com/image-02.png" width="1" height="1" alt="Image 02" />
+	 <img src="http://deneme.com/image-03.png" width="1" height="1" alt="Image 03" />
+	</div>
 
 Yukarıda görüldüğü gibi html içine eklenen resimler CSS yardımı ile
 kullanıcının göremeyeceği bölgelere itilmiştir. Bu şekilde bir çözüm
@@ -61,29 +66,50 @@ sayfanın yüklenmesi bittikten sonra bizim önden yükleme yaptığımız
 resimleri yüklemesidir.
 
 	:::javascript
-	 function preloader() { if
-(document.images) { var img1 = new Image(); var img2 = new Image(); var
-img3 = new Image(); img1.src =
-"http://domain.tld/path/to/image-001.gif"; img2.src =
-"http://domain.tld/path/to/image-002.gif"; img3.src =
-"http://domain.tld/path/to/image-003.gif"; } } function
-addLoadEvent(func) { var oldonload = window.onload; if (typeof
-window.onload != 'function') { window.onload = func; } else {
-window.onload = function() { if (oldonload) { oldonload(); } func(); } }
-} addLoadEvent(preloader); 
+	function preloader() {
+	  if (document.images) {
+	    var img1 = new Image();
+	    var img2 = new Image();
+	    var img3 = new Image();
+
+	    img1.src = "http://domain.tld/path/to/image-001.gif";
+	    img2.src = "http://domain.tld/path/to/image-002.gif";
+	    img3.src = "http://domain.tld/path/to/image-003.gif";
+	  }
+	}
+	function addLoadEvent(func) {
+	  var oldonload = window.onload;
+	  if (typeof window.onload != 'function') {
+	    window.onload = func;
+	  } else {
+	    window.onload = function() {
+	    if (oldonload) {
+	      oldonload();
+	    }
+	    func();
+	    }
+	  }
+	}
+	addLoadEvent(preloader); 
 
 Yukarıdaki javascript kodu işimizi görecektir.
 
 jQuery ile daha kısa ve basit bir kod ile bu işi yapabiliriz.
 
 	:::javascript
-	 // resim onyükleme fonksiyonu
-jQuery.preloadImages = function() { for(var i = 0; i<arguments.length;
-i++) { jQuery("<img>").attr("src", arguments[i]); } }; // yükleme yap
-$.preloadImages("images/dexter.jpg", "images/saydam_ardalan1.gif",
-"images/ornek_sayfa.jpg"); 
+	// resim onyükleme fonksiyonu
+	 jQuery.preloadImages = function()
+	 {
+	   for(var i = 0; i<arguments.length; i++)
+	   {
+	   jQuery("<img>").attr("src", arguments[i]);
+	   }
+	 };
 
-[![][]][]
+	// yükleme yap
+	 $.preloadImages("images/dexter.jpg", "images/saydam_ardalan1.gif", "images/ornek_sayfa.jpg"); 
+
+![][]
 
 Yukarıdaki kodu yazınca yükleme yaptığımız sayfadaki öğeler yüklenirken
 yükleme yaptığımız resimlerde yüklenir. Bu benim istediğim bir durum
@@ -95,19 +121,31 @@ yüklemeliyiz.
 Bunun için kodumuzu aşağıdaki değiştirmeliyiz.
 
 	:::javascript
-	 $(document).ready(function() {
-$(window).bind('load', function() { // resim onyükleme fonksiyonu
-jQuery.preloadImages = function() { for(var i = 0; i<arguments.length;
-i++) { jQuery("<img>").attr("src", arguments[i]); } }; // yükleme yap
-$.preloadImages("images/dexter.jpg", "images/saydam_ardalan1.gif",
-"images/ornek_sayfa.jpg"); }); }); 
+	 $(document).ready(function() {  
+	 $(window).bind('load', function()
+	 {
+
+	   // resim onyükleme fonksiyonu
+	   jQuery.preloadImages = function()
+	   {
+	   for(var i = 0; i<arguments.length; i++)
+	   {
+	     jQuery("<img>").attr("src", arguments[i]);
+	   }
+	   };
+
+	   // yükleme yap
+	   $.preloadImages("images/dexter.jpg", "images/saydam_ardalan1.gif", "images/ornek_sayfa.jpg");
+
+	 });  
+	});
 
 Eklediğimiz sadece $(window).bind(‘load’ function()) kısmıdır. Burada
 sayfa yüklendikten sonra bu işlemi yap diyoruz.
 
 Örneği görmek için [tıklayınız.][]
 
-[![][1]][]
+![][1]
 
 Örneklerde dikkatiniz bir yere çekmek istiyorum. Firebug Net sekmesini
 açtım çünkü sayfa yüklenmesi anını görmenizi istedim. İlk resimde sayfa
@@ -117,7 +155,7 @@ sondadır. İkinci resimde ise kırmızı dikey çizgi sayfa öğelerini
 sonuncusu olan resimden sonra çizilmiştir, daha sonra yükleme yapılan
 resimler yüklenmiştir.
 
-### Sonuç
+## Sonuç
 
 Ben küçük bir araştırma sonucunda bu kodu kullanmayı uygun buldum.
 Bulduğum bu kodun kendimce gerekçelerini yukarıda açıklamaya çalıştım,
@@ -126,7 +164,7 @@ bizlerle paylaşırsanız sevinirim.
 
 Kalın sağlıacakla
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://perishablepress.com/press/2009/12/28/3-ways-preload-images-css-javascript-ajax/][]
 -   [http://engineeredweb.com/blog/09/12/preloading-images-jquery-and-javascript][]
@@ -136,15 +174,9 @@ Kalın sağlıacakla
 -   [http://www.filamentgroup.com/lab/update_automatically_preload_images_from_css_with_jquery/][]
 -   [http://snipplr.com/view.php?codeview&id=9612][]
 
-</p>
-
   []: /images/resim_on_yukleme_jquery-300x195.gif
-    "resim_on_yukleme_jquery"
-  [![][]]: /images/resim_on_yukleme_jquery.gif
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/onyukleme.html
   [1]: /images/resim_on_yukleme_jquery2-300x194.gif
-    "resim_on_yukleme_jquery2"
-  [![][1]]: /images/resim_on_yukleme_jquery2.gif
   [http://perishablepress.com/press/2009/12/28/3-ways-preload-images-css-javascript-ajax/]: http://perishablepress.com/press/2009/12/28/3-ways-preload-images-css-javascript-ajax/
   [http://engineeredweb.com/blog/09/12/preloading-images-jquery-and-javascript]: http://engineeredweb.com/blog/09/12/preloading-images-jquery-and-javascript
   [http://elouai.com/javascript-preload-images.php]: http://elouai.com/javascript-preload-images.php

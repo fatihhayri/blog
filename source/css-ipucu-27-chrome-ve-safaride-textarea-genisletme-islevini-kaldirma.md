@@ -11,22 +11,20 @@ konulmuştur ve yararlı bir özelliktir. Ancak bazen bu işaret ve işlevini
 kullanmak istemediğimiz durumlar olur ve bu işareti kaldırmak isteriz.
 Bu durum için çok kısa bir css kodu işimizi görüyor.
 
-[![][]][]
+![][]
 
 	:::css
-	textarea{ resize:none} Sadece bu kod ile istediğimizi elde
-edebiliriz. Tek sakıncası bu kodu sadece webkit tabanlı tarayıcılar
-desteklediği için sayfamızı w3c CSS kontrolünden geçirdiğimizde hata
-verecek olmasıdır.
+	textarea{
+		resize:none
+	}
 
-### Kaynak
+Sadece bu kod ile istediğimizi elde edebiliriz. Tek sakıncası bu kodu sadece webkit tabanlı tarayıcılar desteklediği için sayfamızı w3c CSS kontrolünden geçirdiğimizde hata verecek olmasıdır.
+
+## Kaynak
 
 -   [http://www.google.com/support/forum/p/Chrome/thread?tid=5f9cd62207e2c7a8&hl=en][]
 -   [http://www.electrictoolbox.com/disable-textarea-resizing-safari-chrome/][]
 
-</p>
-
   []: /images/textarea.gif "textarea"
-  [![][]]: /images/textarea.gif
   [http://www.google.com/support/forum/p/Chrome/thread?tid=5f9cd62207e2c7a8&hl=en]: http://www.google.com/support/forum/p/Chrome/thread?tid=5f9cd62207e2c7a8&hl=en
   [http://www.electrictoolbox.com/disable-textarea-resizing-safari-chrome/]: http://www.electrictoolbox.com/disable-textarea-resizing-safari-chrome/

@@ -18,12 +18,13 @@ tasarımları tercih ediyor. Bu arada şunuda söylemeden geçemeyeceğim bazı
 sitelerde hiç hoş durmuyor yuvarlak kenar, her şeyi yerinde ve göz
 zevkine uygun kullanmak en iyisi.<!--more-->
 
-**Yapısı :** <border-radius>{1,4} [ / <border-radius>{1,4}]?  
-**Aldığı Değerler :** [ <uzunluk> | <yüzde> ] [ <uzunluk> | <yüzde> ]?   
+**Yapısı :** <border-radius\>{1,4} [ / <border-radius\>{1,4}]?  
+**Aldığı Değerler :** [ <uzunluk> | <yüzde> ] [ <uzunluk\> | <yüzde\> ]?   
 **Başlangıç değeri:** tanımlama yok   
 **Uygulanabilen elementler:**tüm elementler ve tabiki tablo elementine
 border-collapse değeri collapse olarak atalı ise uygulanır  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 **Tek değer atanmış ise,** dört köşeyede aynı değer uygulanır.  
 **İki değer atanmış ise,** ilk değer sol üst ve sağ alt köşeye; ikinci
@@ -40,17 +41,22 @@ Safari 3+ (kısmen)
 Opera 10.50+  
 W3C's CSS Level 3+  
 CSS Profile 3.0
+{: .tarayiciuyum}
+
 
 - Safari yüzde değerleri desteklemiyor. **  
-**- Safari/Webkit tabanlı tarayıcılar her 4 köşeye sadece bir tanımı
+- Safari/Webkit tabanlı tarayıcılar her 4 köşeye sadece bir tanımı
 kabul ediyor.**  
-**- Safari/webkit tarayıcıları (/) ile ayrılan değerleri kabul etmiyor.
+- Safari/webkit tarayıcıları (/) ile ayrılan değerleri kabul etmiyor.
 Bu gibi değerleri kullanmak için aşağıdaki gibi bir atama yapmalıyız.
 Elips şeklinde sonuçlar elde etmke için (/) ayracı kullanılır.
 
+CSS kodu;
+
 	:::css
-	 -webkit-border-radius:  40px 10px;
--moz-border-radius:  40px/10px; border-radius:  40px/10px; 
+	-webkit-border-radius:  40px 10px;
+	-moz-border-radius:  40px/10px;
+	border-radius:  40px/10px;
 
 **Uygulama**
 
@@ -66,34 +72,45 @@ bu durum düzelir. 
 İlk örneğimizi yapalım
 
 	:::css
-	 div#kutu { width: 400px; padding: 20px;
-border-radius: 10px; /* Standart */ -moz-border-radius: 10px; /*
-Firefox */ -webkit-border-radius: 10px; /* Safari ve Chrome */
-background: #F00; margin-bottom: 10px; } 
+	div#kutu {
+	    width: 400px;
+	    padding: 20px;
+	    border-radius: 10px; /* Standart */
+	    -moz-border-radius: 10px; /* Firefox */
+	    -webkit-border-radius: 10px; /* Safari ve Chrome */
+	    background: #F00;
+	    margin-bottom: 10px;
+	} 
 
 Örneği görmek için [tıklayınız.][]
 
-[![][]][]
+![][]
 
 İkinci örnek
 
 	:::css
-	 div#kutu{ width: 400px; padding: 20px;
-border-top-right-radius: 10px; border-bottom-left-radius: 10px;
--moz-border-radius-topright: 10px; -moz-border-radius-bottomleft: 10px;
--webkit-border-top-right-radius: 10px;
--webkit-border-bottom-left-radius: 10px; background: #F00;
-white-space:pre } 
+	div#kutu{
+	    width: 400px;
+	    padding: 20px;
+	    border-top-right-radius: 10px;
+	    border-bottom-left-radius: 10px;
+	    -moz-border-radius-topright: 10px;
+	    -moz-border-radius-bottomleft: 10px;
+	    -webkit-border-top-right-radius: 10px;
+	    -webkit-border-bottom-left-radius: 10px;
+	    background: #F00;
+	    white-space:pre
+	 }
 
 Örneği görmek için [tıklayınız.][1]
 
-[![][2]][]
+![][2]
 
 [http://muddledramblings.com/table-of-css3-border-radius-compliance][] 
 ve [http://shapeshed.com/examples/border-radius/][] adresindeki örnekler
 inceleyerek bu özellik ile neler yapabileceğimizi görebiliriz.
 
-### İnternet Explorer Desteği
+## İnternet Explorer Desteği
 
 Yukarıda anlattığımız tanımları maalesef İnternet Explorer
 desteklememektedir, daha ön görünümü yayınlanan ie9'da desteklediğini
@@ -131,9 +148,12 @@ tarayıcılara göre kod yazıyor. Script tanımını css kodu içerisinden
 yapıyoruz.
 
 	:::css
-	 .curved { border-radius:10px;
--moz-border-radius:10px; -webkit-border-radius:10px;
-behavior:url(border-radius.htc); } 
+	.curved {
+	    border-radius:10px;
+	    -moz-border-radius:10px;
+	    -webkit-border-radius:10px;
+	    behavior:url(border-radius.htc);
+	}
 
 Köşe yumuşatması güzeldir. 4.8 kb'lık dosya boyutu ile çok cazip boyuta
 sahip.
@@ -146,7 +166,7 @@ bütünleşik bir çözüm sunduğu için dosya boyutunun biraz büyük olmasıd
 Köşe yumuşaklığı güzel. CSS3'ü destekleyen tarayıcılar için css kodunu
 desteklemeyen tarayıcılar için ise script kodunu uyguluyor olması güzel.
 
-### Sonuç
+## Sonuç
 
 border-radius tanımını destekleyen tarayıcılar açısından bir sorunumuz
 yoktur. Sorunumuz desteği sağlamayan ie ile dir. 
@@ -169,7 +189,7 @@ Bence en güzeli eğer tercih imkanınız varsa destekleyen tarayıcılar için
 kodu yazmak desteklemeyenler için olduğu gibi bırakmak(twitter.com
 sitesinde olduğu gibi.)
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://webdesignernotebook.com/css/an-ode-to-border-radius/][]
 -   [http://leaverou.me/2009/02/css3-border-radius-today/][]
@@ -178,32 +198,21 @@ sitesinde olduğu gibi.)
 -   [http://24ways.org/2006/rounded-corner-boxes-the-css3-way][]
 -   [http://www.css3.info/border-radius-apple-vs-mozilla/][]
 -   [http://woork.blogspot.com/2009/08/css3-rounded-corners-for-every-browser.html][]
--   [http://www.smileycat.com/miaow/archives/000044.php][] (tüm
-    makalelerin listesi)
+-   [http://www.smileycat.com/miaow/archives/000044.php][] (tüm makalelerin listesi)
 -   [http://www.netzgesta.de/corner/][] (javascript)
 -   [http://www.curvycorners.net/demos/][] (javascript)
 -   [http://www.html.it/articoli/niftycube/index.html][] (javascript)
--   [http://www.dillerdesign.com/experiment/DD_roundies/#animation][]
-    (javascript)
+-   [http://www.dillerdesign.com/experiment/DD_roundies/#animation][] (javascript)
 -   [http://www.w3.org/TR/css3-background/#border-radius][]
--   [http://www.htmlremix.com/css/curved-corner-border-radius-cross-browser][]
-    (javascript)
--   [http://doctype.com/having-trouble-styling-cross-browser-buttons-input-submit][]
-    (sorunlar)
--   [http://muddledramblings.com/table-of-css3-border-radius-compliance][]
-    (taraycı destek tablosu)
+-   [http://www.htmlremix.com/css/curved-corner-border-radius-cross-browser][] (javascript)
+-   [http://doctype.com/having-trouble-styling-cross-browser-buttons-input-submit][] (sorunlar)
+-   [http://muddledramblings.com/table-of-css3-border-radius-compliance][](taraycı destek tablosu)
 -   [http://stackoverflow.com/questions/2687804/emulating-css3-border-radius-and-box-shadow-in-ie7-8][]
-
-</p>
 
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/border_radius1.html
   []: /images/border_radius_1.jpg
-    "border_radius_1"
-  [![][]]: /images/border_radius_1.jpg
   [1]: http://fatihhayrioglu.com/dokumanlar/border_radius2.html
   [2]: /images/border_radius_2.jpg
-    "border_radius_2"
-  [![][2]]: /images/border_radius_2.jpg
   [http://muddledramblings.com/table-of-css3-border-radius-compliance]: http://muddledramblings.com/table-of-css3-border-radius-compliance
     "http://muddledramblings.com/table-of-css3-border-radius-compliance"
   [http://shapeshed.com/examples/border-radius/]: http://shapeshed.com/examples/border-radius/

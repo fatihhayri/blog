@@ -22,15 +22,27 @@ yapabiliriz? Bu sorunun cevabı ve bu ihtiyacı karşılayan tanım
 !important tanımıdır. Bir örnekle durumu gösterelim
 
 	:::html
-	 <ul class="menu"> <li>Menü 1</li>
-<li>Menü 2</li> <li>Menü 3 <ul> <li class="deneme">Alt
-Menü</li> </ul> </li> <li>Menü 4</li> </ul> 
+	<ul class="menu">
+	    <li>Menü 1</li>
+	    <li>Menü 2</li>
+	    <li>Menü 3
+	        <ul>
+	          <li class="deneme">Alt Menü</li>
+	        </ul>
+	    </li>
+	    <li>Menü 4</li>
+	</ul> 
 
 CSS kodumuzda aşağıdaki gibi olsun
 
 	:::css
-	 ul.menu li{ background-color:#3CF; }
-li.deneme{ background-color:#f00; } 
+	ul.menu li{
+		background-color:#3CF;
+	}
+
+	li.deneme{
+		background-color:#f00;
+	} 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -53,7 +65,9 @@ değerini arttırmak, yani örnek kodumuzda bu li.deneme yerine ul
 li.deneme şeklinde yaparak seçici etkinliğini arttırarak yapmaktır.
 
 	:::css
-	 ul.menu li.deneme{ background-color:#F00; }
+	ul.menu li.deneme{
+  		background-color:#F00;
+  	}
 
 
 Örneği görmek için [tıklayınız.][2]
@@ -68,14 +82,15 @@ bu önemli bunu etkin yap demek, yani sonuna !important eklemek ile
 olur.  
 
 	:::css
-	 li.deneme{ background-color:#f00
-!important; } 
+	li.deneme{
+	   background-color:#f00 !important;
+	}
 
 Örneği görmek için [tıklayınız.][3]
 
 ![][4]  
 
-### İE6 için important ile hack yapmak
+## İE6 için important ile hack yapmak
 
 Şimdi gel gelelim important tanımının ie6 ile olan problemine ve benim
 yanlış anlamama.
@@ -92,7 +107,7 @@ yazmıştım bu konuda
 [http://www.fatihhayrioglu.com/css-de-kodumuzu-ieden-gizleme/][] Aslında
 burada ie6’nın bir sorununu avantaja çevirmiş oluyoruz.
 
-### Satıriçi kodları Ezmek için important kullanımı
+## Satıriçi kodları Ezmek için important kullanımı
 
 Bazı durumlarda htmle müdahele imakanımızın olmadığı durumlarda veya
 acil bir düzeltme gerektiğin genelde lazım oluyor important tanımı. Eğer
@@ -100,15 +115,17 @@ html içinden bir tanım yapıldı ise css ile yaptığımız hiç bir tanım
 satıriçi kodu ezemiyecektir. Tek çare important tanımıdır.
 
 	:::html
-	 <ul style="background-color:#3CF">
-<li>Deneme</li> <ul> 
+	<ul style="background-color:#3CF">
+		<li>Deneme</li>
+	<ul 
 
 Tanımı olsun biz bu elemanı background rengini değiştirmek istersek
 sadece important ile değiştirebiliriz.
 
 	:::css
-	 li.deneme{ background-color:#f00
-!important; } 
+	li.deneme{
+	   background-color:#f00 !important;
+	} 
 
 Tanımı li elemanının background rengini kırmızı yapacaktır.
 
@@ -116,7 +133,7 @@ Son bir ipucu olarak şu cümleyi söyleyelim. CSS kısaltmalarına yapılan
 important tanımı kısaltması yapılan özelliklere tek tek yapılmış
 gibidir.
 
-### Sonuç
+## Sonuç
 
 important tanımı çok tercih edilen bir özellik değildir, nadiren de olsa
 lazım olur. Bazen çok can kurtarır. Çok fazla yerde kullanmak kodunuzu
@@ -124,7 +141,7 @@ okunaksız hale getirebilir, buna dikkat etmek gerekir.
 
 [Fatih Turan][]’a teşekkürler bilgilendirme için.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://bytesizecss.com/blog/post/ie6-and-the-important-rule/][]
 -   [http://www.impressivewebs.com/everything-you-need-to-know-about-the-important-css-declaration/][]
@@ -132,8 +149,6 @@ okunaksız hale getirebilir, buna dikkat etmek gerekir.
 -   [http://www.webcredible.co.uk/user-friendly-resources/web-dev/css-important.shtml][]
 -   [http://www.yellowjug.com/web-design/the-importance-of-important-in-css/][]
 -   [http://friendfeed.com/arayuz-gelistiriciler/120084de/css-yazarken-ustten-gelen-degerleri-ezmek-icin][Friendfeed’de     bir serzenişim üzerine Fatih Turan’ın bir cevabı]
-
-</p>
 
   [Friendfeed’de bir serzenişim üzerine Fatih Turan’ın bir cevabı]: http://friendfeed.com/arayuz-gelistiriciler/120084de/css-yazarken-ustten-gelen-degerleri-ezmek-icin
   [CSS’de Tanımlamalar ve Etkinlikleri(Specificity)]: http://www.fatihhayrioglu.com/cssde-tanimlamalar-ve-etkinliklerispecificity/

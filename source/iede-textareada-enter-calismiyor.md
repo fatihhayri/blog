@@ -11,8 +11,10 @@ Sonra incelediğimde ve araştırdığımda bu sorunun benim kullandığım
 sıfırlama kodundaki bir durumdan kaynaklandığını gördüm.
 
 	:::css
-	 textarea, input, select { font:inherit;
-white-space:normal; } 
+	textarea, input, select {
+	    font:inherit;
+	    white-space:normal;
+	} 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -24,19 +26,19 @@ gerçeğini bu ortadan kaldırmıyor.
 Bu durumu halletmenin daha düzgün bir yolu var
 
 	:::css
-	 textarea { white-space:pre; } 
+	textarea { 
+		white-space:pre; 
+	} 
 
 Örneği görmek için [tıklayınız.][1]
 
 Tanımıda bu sorunu gidermek için yeterlidir.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://stackoverflow.com/questions/1282202/enter-does-not-work-in-textarea-in-internet-explorer-8][]
 -   [http://www.fourmilab.ch/fourmilog/archives/2005-04/000510.html][]
 -   [http://stackoverflow.com/questions/737614/textarea-css-ie7-and-enter-key-creating-inline-space][]
-
-</p>
 
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/textareada_enter_calistirmak.html
   [1]: http://fatihhayrioglu.com/dokumanlar/textareada_enter_calistirmak2.html
