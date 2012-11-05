@@ -86,7 +86,7 @@ Burada önemli nokta ie7’nin :before ve :after desteğinin olmaması.
 Kullanım yüzdesi %6,46 olduğu göz önüne alınırsa göz ardı edilebilir.
 border-radius uygulanmış elemanlara bu metot kullanılabilir.
 
-### outline ile iki kenar çizgisi oluşturmak
+## outline ile iki kenar çizgisi oluşturmak
 
 İki kenar çizgisi oluşturmak için outline kullanılabilir.
 
@@ -112,7 +112,7 @@ Safari 4+
 
 ie7 yine sorun
 
-### box-shadow ile çoklu kenar çizgisi oluşturmak
+## box-shadow ile çoklu kenar çizgisi oluşturmak
 
 	:::css
 	#cokluKenarCizgisi{
@@ -147,7 +147,7 @@ Safari 4+
 Burada destek konusundn daha büyük bir sorunumuz var ie7’in yanında
 box-shadow özelliğini ie8’de desteklemiyor.
 
-### Sonuç
+## Sonuç
 
 Çoklu kenar çizgisi uygulamada yukarıda anlattığımız yöntemler çözüm
 olarak eterli bence. ancak ie6 ve ie7 desteği için ne yapacağız diye
@@ -157,7 +157,7 @@ ve :before veya outline yöntemi kullanılabilir.
 
 Kalın sağlıcakla
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/][]
 -   [http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-multiple-borders-with-simple-css/][]

@@ -35,7 +35,7 @@ farklı bir renk tanımlayalım mesela
 Internet Explore desteklemiyor. Bunun haricinde Firefox 2, Safari, Opera
 9.5 ve Google Chrome destekliyor.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.quirksmode.org/css/selection.html][]
 -   [http://css-tricks.com/overriding-the-default-text-selection-color-with-css/][]

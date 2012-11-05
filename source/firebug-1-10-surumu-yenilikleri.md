@@ -9,7 +9,7 @@ ile şu aralar çekişseler de Firebug’ın bendeki yeri ayrı.
 
 Firebug 1.10 ile birlikte gelen yeni özellikler;
 
-### Çerez Sekmesi
+## Çerez Sekmesi
 
 En büyük yeniliklerden birisi Çerez yönetim sekmesinin eklenmesi.
 Belirli siteler için çerez kullanımını engelleyebilirsiniz, var olanı
@@ -17,27 +17,27 @@ değiştirebilir veya yeni çerez ekleyebiliyoruz.
 
 ![][]   
 
-### Tarayıcıyı Aç-Kapa Yok
+## Tarayıcıyı Aç-Kapa Yok
 
 Yeni Firebug güncellendikten sonra tarayıcıyı açıp-kapmaya gerek yok.
 Direk güncelleme sonrası yeni sürüme geçiş oluyor.
 
 **Not:**1.9 önceki sürüm yüklü ise aç-kapa gerekiyor.  
 
-### Yükleme Geciktirmiyor
+## Yükleme Geciktirmiyor
 
 Firebug Firafox’un başlangıcını yavaşlatmıyor artık. Firebug
 kullanıcının ilk isteği ile yükleniyor. Tarayıcı ilk açıldığında sadece
 Firebug ikonu ve menüsü yükleniyor.  
 
-### Komut Editörü Renklendirilmiş
+## Komut Editörü Renklendirilmiş
 
 Komut satırı artık renklendirilmiş durumda. Renklendirilmiş komut satırı
 daha okunaklı ve güzel görünüyor.
 
 ![][1]   
 
-### Otomatik tamamlama geliştirilmiş
+## Otomatik tamamlama geliştirilmiş
 
 Firebug’ın Google Web Developer Tools’dan geri kaldığı özelliklerden
 birisi otomatik tamamlama özelliğinin yeteri kadar iyi olmaması idi.
@@ -49,7 +49,7 @@ Bu özellik CSS özellikleri, İzleme(Watch) panelinde değişkenleri
 yakalamada, break-point ile koşullarında, renk, yazı tipi isimi vs.
 otomatik tamamlama çalışıyor.
 
-### Stil geçmişini İzleyebiliriz
+## Stil geçmişini İzleyebiliriz
 
 Yine Google Developer Tools’da olan güzel bir özellik Firebug’a
 eklenmiş. Bir eleman üzerine tanımlanmış CSS özelliklerinin sırası ile
@@ -60,7 +60,7 @@ izlememizi sağlayan güzel bir özellik.
 Computed sekmesinde aktif olan atama siyah, pasif olan atamalar ise gri
 olarak gösterilmiş.
 
-### :focus Sözde Sınıfını Desteği
+## :focus Sözde Sınıfını Desteği
 
 Daha önce :hover, :active gibi sözde sınıfları destekleyen Firebug şimdi
 :focus desteğini sağlayarak güzel bir özellik daha eklemiş bünyesine.
@@ -70,7 +70,7 @@ Daha önce :hover, :active gibi sözde sınıfları destekleyen Firebug şimdi
 bu sayede elemana odaklandığında bir CSS tanımı yapıldı ise bunu
 yakalamak artık daha kolay.
 
-### Media Query Özelliklerini Düzenleme İmkanı
+## Media Query Özelliklerini Düzenleme İmkanı
 
 Uyumlu(responsive) web ile çok büyük önem kazanan media sorguları,
 Firebug’ın yeni sürümünde de gözden kaçmamış. Medya sorgularını Firebug
@@ -78,20 +78,20 @@ ile düzenleyebiliyoruz artık.
 
 ![][5]
 
-### @font-face Tanımları
+## @font-face Tanımları
 
 font-face ile tanımlanan harici fontlar font listesinde görünüyor artık.
 
 ![][6]
 
-### CSS Özelliklerini Silme
+## CSS Özelliklerini Silme
 
 Bir yeni özellik; Firebug CSS özelliklerine sağ tıklayıp silebilme
 imkanı veriyor
 
 ![][7]
 
-### Diğer Yeni Özellikler
+## Diğer Yeni Özellikler
 
 Yukarıda saydıklarımızın haricinde aşağıdaki yeni özelliklerde eklenmiş;
 
@@ -103,13 +103,13 @@ Yukarıda saydıklarımızın haricinde aşağıdaki yeni özelliklerde eklenmi�
     erişebiliyoruz.
 -   Bunlardan başka [79 geliştirme daha][] yapılmış.
 
-### Sonuç
+## Sonuç
 
 Google Geliştirme Aracı ile rekabete giren Firebug bu yeni sürüm ile bir
 çok yeni güzellik eklemiş. Google Geliştirme aracındaki kod ayrıştırma
 özelliğini de ekleseler süper olacaktı.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [https://blog.getfirebug.com/2012/07/13/firebug-1-10-0/][]
 -   [http://hacks.mozilla.org/2012/07/firebug-1-10-new-features/][]

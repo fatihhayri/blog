@@ -6,7 +6,7 @@ Tags: BBEdit, CoffeeCup-HTML-Editor, CSS, CSSEdit, emacs, Macromedia-Dreamweaver
 Kendinize hala CSS için hangi editörü kurmalıyım diye soruyorsanız işte
 size cevap <!--more-->
 
-### Metin Editörleri
+## Metin Editörleri
 
 Eğer ben bu iş için ayrıca bir program kurmak istemiyorum. Zaten o kadar
 da kullanmıyorum. Ayrıca böyle hızlı oluyor diyorsanız. İşte size CSS
@@ -19,7 +19,7 @@ yazabileceğiniz editörler.
 Ancak şunu da belirtmeliyim ki bu editörlerden fazla bir özellik
 beklemeyin.
 
-### Stil Dosyası Editörleri
+## Stil Dosyası Editörleri
 
 Bu editörler sadece css yazmak için üretilen programlardır. Başlangıç
 seviyesi için kullanışlıdır. Kod yazmanız için size kolaylık sağlayan
@@ -33,7 +33,7 @@ erişim vb.
 
 -   Mac OS X **CSSEdit** [http://www.macrabbit.com/cssedit/][]
 
-### HTML ve Web Programlama Editörleri
+## HTML ve Web Programlama Editörleri
 
 İşin aslı bir çok kullanıcı css yazmak için bu editörleri tercih
 etmektedir. Web kodlamacıları için gereken tüm araçları içermeleri, css

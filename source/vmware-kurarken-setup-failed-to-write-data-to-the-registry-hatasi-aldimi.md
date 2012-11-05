@@ -18,7 +18,7 @@ Workstation: 5 VMInst: 01/19/08 19:41:29 Cannot add installation path to
 registry. VMInst: 01/19/08 19:41:29 Attaching to window with title
 "VMware Player" VMInst: 01/19/08 19:41:34 End Logging 
 
-### Çözüm
+## Çözüm
 
 Sorunun çözümü ise Çalıştırı açıp(**ctrl + R** ) **regedit** Yazıyoruz
 ve **HKEY_LOCAL_MACHINESOFTWARE** de "VMware, Inc." ve daha sonrada

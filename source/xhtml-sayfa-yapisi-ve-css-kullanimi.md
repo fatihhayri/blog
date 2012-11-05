@@ -9,7 +9,7 @@ uygulanacağını belirlemek için (X)HTML dökümanının yapısını kullanır
 yolları öğrenmeden önce (X)HTML hiyerarşisini öğrenmemiz
 gerekir.<!--more-->
 
-###### (X)HTML Döküman Hiyerarşisini Anlamak
+#### (X)HTML Döküman Hiyerarşisini Anlamak
 
 Seçici(Selector) ve Döküman arasındaki ilişkiyi anlayabilmemiz için,
 dökümanların nasıl planlandığını tekrar gözden geçirmemiz gerekir.
@@ -48,7 +48,7 @@ incelersek ilk **ul** elementinin iki adet **li** çocuk elementi
 bulunmaktadır ve bu iki **li** elementinin altındaki tüm elementler ilk
 **ul** elementinin torun elementleridir.
 
-###### Torun Seçicileri (Descendant Selectors)
+#### Torun Seçicileri (Descendant Selectors)
 
 Bu modelin avantajlarından birisi Torun Seçicileridir(diğer bir
 isimleride içiçe seçicilerdir). Torun Seçicilere yapılan tanımlama
@@ -97,7 +97,7 @@ Internet Explorer 5.0, 5.5, 6.0, 7.0: destekliyor ; Netscape Navigator
 destekliyor
 
 </div>
-###### Çocuk Seçicileri
+#### Çocuk Seçicileri
 
 Bazı durumlarda keyfi olarak bir torun seçicisi kullanmaktansa daha
 ayrıntılı bir ayrım yapmak isteyebiliriz. Örneğin bir **h1** elementinin
@@ -132,7 +132,7 @@ Netscape Navigator 6.0, 7.0: destekliyor Mozilla 1.0: destekliyor Opera
 5.0 ' 6.0: destekliyor
 
 </div>
-###### Bitişik Kardeş Seçiciler
+#### Bitişik Kardeş Seçiciler
 
 Bitişik Kardeş Seçicileri biribiri ardına gelen aynı seviyedeki
 elementlerden sonra gelenine stil tanımlamak için kullanılır. Tam olarak
@@ -168,7 +168,7 @@ anlayacağız. **Çocuk Seçicileri** ve **Bitişik Kardeş Seçicileri**'ni
 Internet Explorer 7 versiyonundan itibaren desteklemeye başlamıştır. Bu
 nedenle kullanımı konusunda dikkat etmeliyiz.
 
-###### Genel Seçiciler
+#### Genel Seçiciler
 
 Genel Seçiciler bir elementi bütüne uygulamak için kullanılır bu işlem
 için * işareti kullanılır. Aşağıdaki kod tüm elementleri kırmızı

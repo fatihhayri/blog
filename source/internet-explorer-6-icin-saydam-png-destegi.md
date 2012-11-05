@@ -36,7 +36,7 @@ progid:DXImageTransform.Microsoft.AlphaImageLoader(...); }
 
 Bu kod problemimizi çözdü, ancak tümünü değil.
 
-### Saydam PNG düzeltmesi ile ilgili sorunlar
+## Saydam PNG düzeltmesi ile ilgili sorunlar
 
 **W3C ve Diğer farklı tarayıcı desteğinin olmayışı.**
 
@@ -150,7 +150,7 @@ uygulaması</p> </body> </html>
 Yukarıdaki ekran görüntüsü Internet Explorer 6'da sayfamızın
 görüntüsüdür.
 
-###### Ardalan resmi olarak saydam PNG kullanımı
+#### Ardalan resmi olarak saydam PNG kullanımı
 
 Resimlerde kullanımının dışında ardalan(background) resmi olarakta
 saydam PNG resimlerini kullanmamız gerekebilir. Benim en çok
@@ -302,7 +302,7 @@ src="pngDuzenlemeKodu.js"></script> <![endif]-->
 
 Örnek sayfayı görmek için [tıklayınız.][10]
 
-### Sonuç
+## Sonuç
 
 Sonuç olarak saydam PNG kullanmak çok güzel ama ie6 ile uğraşmak zor.
 Tabi sorunun çözümüm olması bizleri sevindiriyor. Başta bu düzeltme
@@ -316,7 +316,7 @@ Yazının başında da belirttiğim gibi saydam png sorunu için üretilen bir
 için kullandığım yöntemi sizlerle paylaştım. Muhakkak daha iyi yöntemler
 çıkacaktır, bunlara açığım. Sizlerden öneriler bekliyorum.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://komodomedia.com/blog/index.php/2007/11/05/css-png-image-fix-for-ie/][]
 -   [http://24ways.org/2007/supersleight-transparent-png-in-ie6][]

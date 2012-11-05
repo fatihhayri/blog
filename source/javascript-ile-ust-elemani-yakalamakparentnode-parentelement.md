@@ -29,7 +29,7 @@ document.getElementById("Dugme").parentNode.id; alert("Üst elemanı:
 
 Örnek sayfayı görmek için [tıklayınız.][]
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.w3schools.com/htmldom/dom_nodetree.asp][]
 -   [http://www.java2s.com/Code/JavaScriptReference/Javascript-Properties/parentNodeSyntaxandNote.htm][]

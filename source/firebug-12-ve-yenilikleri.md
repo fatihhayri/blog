@@ -18,19 +18,19 @@ ve kararlı hale getirme işlemleri göze çarpıyor.
   
 Göze çarpan özellikleri incelersek;<!--more-->
 
-###### Firefox 3 Desteği
+#### Firefox 3 Desteği
 
 Benim Firefox 3'e geçmememin en büyük nedeni FireBug'ın kararlı bir
 şekilde Firefox 3'de çalışmaması idi. FireBug 1.2 sürümünde Firefox 3
 desteğini sunarak bizi bu dertten kurtarmış oluyor. Artık Firefox3
 kullanıyorum ve çok memnunum.
 
-###### Araçlar daha kaliteli hale getirilmiş
+#### Araçlar daha kaliteli hale getirilmiş
 
 Javascript panel, net paneli  ve Konsol paneli yenilenmiş ve
 geliştirilmiş. Bu panellerdeki birçok sorun giderilmiş.
 
-###### Panellerin Aktifleşmesini Seçebiliyoruz
+#### Panellerin Aktifleşmesini Seçebiliyoruz
 
 John Resig'in söylediğine göre görünüşte o kadar önemli olmasada bu
 sürümün en önemli özelliği olarak gösteriyor.  
@@ -61,7 +61,7 @@ bu kısım geliştirilmiş.
 
 ![Site][]
 
-###### Birlikte Aç Ekranı
+#### Birlikte Aç Ekranı
 
 ![Birlikte aç][]
 
@@ -73,7 +73,7 @@ her defasında kopyala yapıştır gına getiriyordu bazı projelerde.
 Bu ekrandan açmak istediğimiz editörleri seçebiliyoruz ekleyip
 çıkarabiliyoruz.
 
-###### Suspend/Resume Firebug
+#### Suspend/Resume Firebug
 
 ![Suspend/Resume][]
 
@@ -81,7 +81,7 @@ Yeni eklenen bu özellik sayesinde FireBug'ın tüm panellerini bir tık ile
 askıya alabiliyoruz ve daha sonra bu işlemi geri alabiliyoruz. Bu daha
 çok cep telefonundaki tek tuş gibi bir şey.
 
-###### Rainbow FireBug ile javascript kodları daha anlaşılır
+#### Rainbow FireBug ile javascript kodları daha anlaşılır
 
 FireBug'daki javascript kodları renklendirme yapılmadığı için kod yığını
 şeklinde görünüyor bunu aşmak için güzel bir eklenti hazırlamışlar.
@@ -100,7 +100,7 @@ bölümler hala İngilizce kalmış.
 
 Bu arada FireBug 1.3 çalışmalarına başlanmış bile.
 
-###### Kaynaklar
+#### Kaynaklar
 
 -   [http://ejohn.org/blog/firebug-12-released/][]
 -   [http://code.google.com/p/fbug/source/browse/branches/firebug1.2/docs/ReleaseNotes_1.2.txt][]

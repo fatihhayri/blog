@@ -10,7 +10,7 @@ Cellspacing="0" atamasını css ile nasıl yaparız. İşte cevabı:
 	 table{ border-spacing: 0px; border-collapse:
 collapse; }  bu kadar.
 
-### Kaynak
+## Kaynak
 
 -   [http://www.mularien.com/blog/2007/07/29/css-tip-css-equivalent-to-cellspacing0/][]
 

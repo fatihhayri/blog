@@ -140,7 +140,7 @@ CSS kodumuzu yukarıdaki belirttiğimiz gib yazalım
 
 ![][2]
 
-### Görselliği Arttırılmış Esnek Yapılı Butonlar
+## Görselliği Arttırılmış Esnek Yapılı Butonlar
 
 Butonların önemine yukarıda değindik, bu öneminden dolayı bir çok
 tasarımcı ve arayüz geliştirici butonları nasıl daha hoş ve çekici
@@ -222,7 +222,7 @@ Son olarakta odaklanma halini ekleyerek bu örneği bitirelim.
 
 ![][8]
 
-### CSS3 ile Buton Yapmak
+## CSS3 ile Buton Yapmak
 
 CSS3'ün gelişmiş özellikleri sayesinde resimlere ihtiyaç duymadan
 janjanlı güzel butonlar geliştirebiliyoruz. Ayrıca bu işi çok kolay bir
@@ -354,7 +354,7 @@ sitesindeki örneklere bir göz atın.
 Ayrıca CSS3 ile çevrimiçi buton geliştirme araçları var incelemeye değer
 siteler.
 
-### Sonuç
+## Sonuç
 
 Baştada bahsettiğimiz gibi butonlar web sitelerinin önemli parçalarından
 biridir. Yerinde ve güzel kullanılmaları halinde web sitelerine farklı
@@ -375,7 +375,7 @@ köşesinden bahsetmeye çalıştı isemde çok az bir kısmını anlatabildim,
 kaynaklar kısmındaki linklerin her birinde değerli çalışmalar
 bulunmaktadır aşağıdaki bağlantıları incelemenizi önemle rica ediyorum.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.smashingmagazine.com/2009/11/18/designing-css-buttons-techniques-and-resources/][]
 -   [http://www.monc.se/kitchen/59/scalable-css-buttons-using-png-and-background-colors][](iyi)

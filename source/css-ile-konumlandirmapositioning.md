@@ -31,7 +31,7 @@ akış**(position:static ve position:relative), **float** ve **mutlak
 konumlar**(position:absolute). Tüm elementler başlangıçta **normal
 akış** şeklindekonumlandırılmıştır.
 
-### Normal Akış
+## Normal Akış
 
 Eğer sayfalardaki elementlere herhangi bir konumlandırma yapılmamış ise
 veya float değeri verilmemiş ise sayfaya normal akış konumlandırması
@@ -44,7 +44,7 @@ değerleri etkisizdir.
 
 ![Normal Akış şeması][]
 
-### position
+## position
 
 **Yapısı :** position: <deger> **Aldığı Değerler :**static | relative
 | absolute | fixed | inherit **Başlangıç değeri:** static
@@ -58,7 +58,7 @@ Opera 5.0+
 CSS Profile 2.0
 
 </div>
-### top, right, bottom, left
+## top, right, bottom, left
 
 **Yapısı :** top, right, bottom, left : <deger> **Aldığı Değerler
 :**<[uzunluk][]> | <[yüzde][uzunluk]> | auto | inherit **Başlangıç
@@ -74,7 +74,7 @@ Opera 5.0+
 CSS Profile 2.0
 
 </div>
-### **Göreceli Konumlandırma**(position:relative)
+## **Göreceli Konumlandırma**(position:relative)
 
 Göreceli konumlandırma anlaşılması kolay bir konsepttir. Bir elemente
 göreceli bir değer verdiğiniz de o bulunduğu yeri dikkate alarak verilen
@@ -94,7 +94,7 @@ Görecelikonumlandırma kullanılarak yeri belirlenen bir elementin
 başlangıçtaki konumundaki boşluğu ve diğer elementlerle arasındaki
 mesafeyi koruyacaktır.
 
-### Mutlak(Absolute) Konumlandırma
+## Mutlak(Absolute) Konumlandırma
 
 Görecelikonumlandırma Normal Akış'ın bir parçasıdır. Aksine Mutlak
 Konumlandırmada uygulanan elementbulunduğu yere boşluk bırakmayacaktır.
@@ -125,7 +125,7 @@ Bu üstte kalma altta kalma işinide **z-index** özelliğiile hallede
 bilriz. **z-index** değeri büyük olan element üstte küçük olan element
 ise altta kalacaktır.
 
-### z-index
+## z-index
 
 **Yapısı :** z-index: <deger> **Aldığı Değerler :**<[sayısal değer][uzunluk] > | auto | inherit **Başlangıç değeri:** auto
 **Uygulanabilen elementler:** postion uygulanan elementlere
@@ -170,7 +170,7 @@ Konumlandırdığınız elementi genişletmekisterseniz örneğin font boyutunu
 arttırdığınızda elementi kapasayan kutu normale göre genişlese de
 etrafındaki elemtlerinakışıdaki yeri değişmeyecektir.
 
-### **Sabit(Fixed) Konumlandırma**
+## **Sabit(Fixed) Konumlandırma**
 
 Sabitkonumlandırma Mutlak Konumlandırmanın bir alt katagorisidir.
 Sabitkonumlandırılmış elementin sayfadaki görünümü çok farklıdır. Bunu
@@ -183,7 +183,7 @@ elementin yeri değişmeyecektir ve sabit kalacaktır. Ne yazıkki IE 6 bu
 destekliyor diğer hallerde desteklemiyor. Ama bu problemi javascript ile
 çözümü vardır. Bir [link][]
 
-### Kaynaklar
+## Kaynaklar
 
 -   [CSS Mastery: Advanced Web Standards Solutions][]
 -   [Muhammed Sevim][]

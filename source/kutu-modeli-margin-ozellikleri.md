@@ -18,7 +18,7 @@ atın. <!--more-->
 -   margin-left
 -   margin
 
-### margin-top<a name="01"></a>
+## margin-top<a name="01"></a>
 
 **Yapısı :** margin-top: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
 değeri:** 0 **Uygulanabilen elementler:** tüm elementler
@@ -35,7 +35,7 @@ kadar veya yüzde olarak belirler.Negatif değer alabilir.
 Level 1+ CSS Profile 1.0
 
 </div>
-### margin-right <a name="02"></a>
+## margin-right <a name="02"></a>
 
 **Yapısı :** margin-right: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
 değeri:** 0 **Uygulanabilen elementler:** tüm elementler
@@ -52,7 +52,7 @@ kadar veya yüzde olarak belirler.Negatif değer alabilir.
 Level 1+ CSS Profile 1.0
 
 </div>
-### margin-bottom<a name="03"></a>
+## margin-bottom<a name="03"></a>
 
 **Yapısı :** margin-bottom: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
 değeri:** 0 **Uygulanabilen elementler:** tüm elementler
@@ -67,7 +67,7 @@ kadar veya yüzde olarak belirler.Negatif değer alabilir. 	:::css
 Level 1+ CSS Profile 1.0
 
 </div>
-### margin-left<a name="04"></a>
+## margin-left<a name="04"></a>
 
 **Yapısı :** margin-left: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
 değeri:** 0 **Uygulanabilen elementler:** tüm elementler
@@ -84,7 +84,7 @@ kadar veya yüzde olarak belirler.Negatif değer alabilir.
 Level 1+ CSS Profile 1.0
 
 </div>
-### margin<a name="05"></a>
+## margin<a name="05"></a>
 
 **Yapısı :** margin: <deger> **Aldığı Değerler :** [[<percentage>][]
 | [<length>][<percentage>] |auto]{1,4} **Başlnagıç değeri:**

@@ -47,7 +47,7 @@ frameborder="0" src="/liste.aspx"></iframe>
 
 Örnek sayfayı görmek için [tıklayın.][] (sonspring.com alınmıştır)
 
-### Uyarılar:
+## Uyarılar:
 
 -   İlk uyarımız bu metot aynı alan adı üzerindeki sayfa eklemelerinde
     çalışıyor. İçreriğini farklı siteden aldığımız iframe'ler güvenlik
@@ -62,7 +62,7 @@ frameborder="0" src="/liste.aspx"></iframe>
     özelliklerden biri de kullanımının kolay olması ve her iframe e id
     vermek zorun olmuyor olmamız.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.lost-in-code.com/programming/jquery-auto-iframe-height/][]
 -   [http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm][]

@@ -111,7 +111,7 @@ geliştiricileri(WebKit) bizlere yeni özellikler kazandırmaya niyetliler.
 Ancak standartlara girmedikten sonra bunların uygulanabilirliği
 kalmayacaktır.
 
-###### Sonuç
+#### Sonuç
 
 Sonuç olarak şunu söyleyebilirim ki. Web site ara yüzlerini kodlarken
 bir çok sorunlarla karşılaştığımız internet tarayıcıları yakın gelecekte
@@ -120,7 +120,7 @@ da sonucun ne olacağını tam olarak kestirmek zor. Daha az düzeltme kodu
 yazdığımız bir internet alemi istiyoruz. Bunu sağlayabilmek için rekabet
 olması şart bence.
 
-###### Kaynaklar  
+#### Kaynaklar  
 
 -   [http://www.fatihhayrioglu.com/?p=470][]
 -   [http://www.fatihhayrioglu.com/?p=259][]  

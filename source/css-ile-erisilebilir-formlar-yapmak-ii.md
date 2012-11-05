@@ -5,7 +5,7 @@ Tags: CSS, Web Standartları, XHTML
 
 ![][] [sayfanın çıktısını al][] || ![][1] [pdf olarak indir][]
 
-###### Gelişmiş Form Yapıları
+#### Gelişmiş Form Yapıları
 
 Gelişmiş yapılı formlarda tablo kullanmak daha kolayımıza geliyor. Ancak
 burada bir sorunumuz varki formlar veri içeren tablolar değildir ve
@@ -351,7 +351,7 @@ farklılıklar mevcut, bu farklılıkların çok ufak olması nedeni ile bir
 düzeltme kodu(fix) yazma gereği duymadık.
 
 </div>
-###### Kaynaklar
+#### Kaynaklar
 
 -   [http://www.webcredible.co.uk][]
 -   [http://www.websiteoptimization.com/][]

@@ -29,7 +29,7 @@ grafik.gif) kenarlık ataması yapmak istersek:
 
 Dört çeşit Özellik Seçicisi vardır.
 
-### 1- Basit Özellik Seçicisi
+## 1- Basit Özellik Seçicisi
 
 Belirli bir etiketin(örn:img) özelligine(örn:alt) göre tanımlama
 yapmamızı sağlar.
@@ -66,7 +66,7 @@ Google Chrome: destekliyor ;
 Opera: destekliyor
 
 </div>
-### 2- Özellik Değeri Seçicisi
+## 2- Özellik Değeri Seçicisi
 
 Bir etiketin özellik değerine göre tanımlama yapmamızı sağlar.
 
@@ -106,7 +106,7 @@ Google Chrome: destekliyor ;
 Opera: destekliyor
 
 </div>
-### 3- Kısmi Özellik Değeri Seçicisi
+## 3- Kısmi Özellik Değeri Seçicisi
 
 Bir etiketin özellik değerindeki boşluklarla ayrılmış kısımlarına göre
 tanımlama yapmamızı sağlar.
@@ -145,7 +145,7 @@ Google Chrome: destekliyor ;
 Opera: destekliyor
 
 </div>
-### 4- Dikkate Değer Özellik Seçicisi
+## 4- Dikkate Değer Özellik Seçicisi
 
 Bir etiketin özellik değerindeki kesik çizgi(-) ile ayrılmış kısımlarına
 göre tanımlama yapmamızı sağlar.
@@ -189,7 +189,7 @@ Seçicisi", "Belirlenen Sözdizimi ile Biten Özellik Deger Seçicisi",
 Amaç CSS ve XHTML arasındaki iletisimi en üst seviyeye çıkararak kolay
 ve etkilesimli kod yazmamızı saglamak.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.blooberry.com/][]
 -   [http://www.456bereastreet.com/][]

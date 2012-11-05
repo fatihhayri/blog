@@ -24,7 +24,7 @@ nasıl başaracağınız her zaman açık değildir. Bu yazı *robots.txt*
 dosyasının içeriğinize nasıl erişeceğinin kontrolü konusundaki yazı
 dizisinin ilkidir.
 
-###### *robots.txt* ne iş yapar.?
+#### *robots.txt* ne iş yapar.?
 
 Web büyüktür. Gerçekten büyüktür. Ne kadar çok ve akıl almaz derecede
 büyük olduğuna inanmak istemezsiniz. Bence web sitenizi devam ettirmek
@@ -51,7 +51,7 @@ motorlarının erişmesi gereken sayfaların bir listesini içerirler. Bir
 *robots.txt* dosyası oluşturmak basittir ve size arama motorlarının
 sitenize nasıl erişecekleri konusunda gelişmiş kontrol imkanı sunar.
 
-###### İnce ayar
+#### İnce ayar
 
 *robots.txt* dosyasına -web sitenizin geneli üzerinde az ve öz talimat
 belirlemeye izin veren- ek olarak sitenizdeki bağımsız sayfalar üzerinde

@@ -28,7 +28,7 @@ boşluğu çökmesi** denir. Bu kenar boşluğu değerlerinden küçük olan
 çöker, büyük olanın değeri görünür. Kenar boşluğu çökmesi bir kaç farklı
 durumda meydana gelir. Bunları sırası ile inceleyelim.
 
-### 1- İki Blok-level Element Arasında Meydana Gelen Çökme
+## 1- İki Blok-level Element Arasında Meydana Gelen Çökme
 
 Kenar boşluğu uygulanmış iki blok-level elementin dikey kenar boşluğunda
 bir çökme meydana gelir. Bir örnek yapalım.
@@ -67,7 +67,7 @@ width:100% }
 
 Bu kodlar sonrasında resim-1 deki görüntüyü alırız.
 
-### 2- Kenar Boşluğu Uyulanmış İç içe Bulunan Elementler Arasında Meydana Gelen Çökme
+## 2- Kenar Boşluğu Uyulanmış İç içe Bulunan Elementler Arasında Meydana Gelen Çökme
 
 Bir elemente ve içindeki elemente kenar boşluğu atadığımızda içte kalan
 elementin kenar boşlukları kaybolacaktır. Bir uygulama yapalım:
@@ -103,7 +103,7 @@ eklersek ve paragrafın kenar boşluk değerini de 1px azaltırsak sorun
 div#kapsul{ margin:10px; padding:1px; background-color:#0066CC; } p{
 margin:9px; background-color:#0CF; } 
 
-### 3- Sadece İçteki Elemente Kenar Boşluğu Uyulanmış İç içe Bulunan Elementler Arasında Meydana Gelen Çökme
+## 3- Sadece İçteki Elemente Kenar Boşluğu Uyulanmış İç içe Bulunan Elementler Arasında Meydana Gelen Çökme
 
 Diğer bir kenar boşluğu çökmesi görülen durumda yukarıdaki gibi içiçe
 durumda olan nesnelerden içteki paragrafta bir kenar boşluğu ataması
@@ -132,7 +132,7 @@ Resim - 2 Olması gereken kenar boşluğu     
 **Çözüm:** Bu durumda padding veya kenarlık(border) ataması yaparsak
 sorunumuz çözülecektir.
 
-### Sonuç ve Çözüm Önerileri
+## Sonuç ve Çözüm Önerileri
 
 Yukarıda bazı çözüm önerileri sundak, ayrıca kenar boşluğu çökmesi
 hakkındaki aşağıdaki bilgilerde bize çözüm konusunda yardımcı olacaktır.
@@ -148,7 +148,7 @@ hakkındaki aşağıdaki bilgilerde bize çözüm konusunda yardımcı olacaktı
 -   **html** ve **body** elementlerine uygulanan kenar boşluğunda çökme
     olmaz.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.w3.org/TR/CSS21/box.html#collapsing-margins][W3C]
 -   [http://www.andybudd.com/archives/2003/11/no_margin_for_error/][]

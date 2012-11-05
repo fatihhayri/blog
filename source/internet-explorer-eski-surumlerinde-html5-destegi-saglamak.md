@@ -52,7 +52,7 @@ kendilerinde barındırmaları daha mantıklı.
 HTML5shiv HTML5’in yeni etiketlerinin desteğini sağlıyor. Diğer api
 desteği için [Modernizr][] incelemekte yarar var.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://net.tutsplus.com/tutorials/html-css-techniques/how-to-make-all-browsers-render-html5-mark-up-correctly-even-ie6/][]
 -   [http://code.google.com/p/html5shiv/][]

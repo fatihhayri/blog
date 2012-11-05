@@ -13,7 +13,7 @@ Eskisini kaldırıp yenisini kurunca düzeldi. Bu arada Google SiteMap
 eklentisi bayağı gelişmiş. Türkçe desteği de iyi olmuş.
 [http://wordpress.org/extend/plugins/google-sitemap-generator/installation/][]
 
-###### Kaynak
+#### Kaynak
 
 -   [http://wordpress.org/support/topic/224691][]
 

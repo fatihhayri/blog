@@ -55,7 +55,7 @@ Bu bölüme kadar yazılan kodlamalar hem dikey menüler hem de yatay
 menüler içinde aynıdır. Ancak bundan sonra dikey menü ve yatay menü için
 kodlar değişecektir.
 
-###### Dikey Menüler
+#### Dikey Menüler
 
 Dikey menülerde linkler yukarıdan aşağı doğru sıralanmıştır. Link
 elementi(a) inline-elementtir, her linke rollover özelliği kazandırmak

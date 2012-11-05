@@ -32,7 +32,7 @@ erişmesini sağlamak değil mi?
 
 Şimdi dış hat çizgileri(outline) özelliklerine bir göz atalım.
 
-### Dış hat çizgisi biçemi (outline-style)
+## Dış hat çizgisi biçemi (outline-style)
 
 Dış hat çizgisinin biçemini belirlemek için kullanırız.
 
@@ -68,7 +68,7 @@ Safari 1.3+
 CSS 2+
 
 </div>
-### Dış hat çizgisi genişliği (outline-width)
+## Dış hat çizgisi genişliği (outline-width)
 
 Atandığı elemanın dışına çizilen hattın kalınlığını belirlemek için
 kullanırız.
@@ -92,7 +92,7 @@ Safari 1.3+
 CSS 2+
 
 </div>
-### Dış hat çizgisi rengi (outline-color)
+## Dış hat çizgisi rengi (outline-color)
 
 Atandığı elemanın dışına çizilen hattın rengini belirlemek için
 kullanırız.
@@ -115,7 +115,7 @@ Safari 1.3+
 CSS 2+
 
 </div>
-### Dış hat çizgisi (outline)
+## Dış hat çizgisi (outline)
 
 Dış hat çizgisi(outline) özelliği yukarıda gördüğümüz özelliklerin tek
 seferde kullanılmasını sağlayan bir kısa yoldur.

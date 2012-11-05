@@ -58,7 +58,7 @@ tıklayıp "Disable FireBug" başındaki işareti kaldırmak için bu seçeneğe
 tıklamanız yeterli. Alternatif bir yol olarak Araçlar - FireBug -
 Disable FireBug yolunuda kullanabilirsiniz.
 
-###### FireBug Menü
+#### FireBug Menü
 
 FireBug menüsündeki seçenekleri tek tek tanımlarsak:
 
@@ -89,7 +89,7 @@ FireBug menüsündeki seçenekleri tek tek tanımlarsak:
 -   **CommandLine** : Console sekmesini açar.
 -   **Search :** Mevcut sekmede arama alanına odaklar.
 
-###### FireBug Konsolu
+#### FireBug Konsolu
 
 Şimdide FireBug konsolunu inceleyelim.
 
@@ -115,7 +115,7 @@ FireBug konsolunda 6 adet sekme vardır. Bu sekmelere bir göz atalım.
     Sayfamızın ne kadar zaman yüklendiğini ve her nesnenin yüklenme
     zamanını gösterir.
 
-###### Durum Çubuğu
+#### Durum Çubuğu
 
 FireBug Durum çubuğumuzun sağ tarafında yeşil ok ikonu ile kendini
 gösterir. Burada ayrıca hata durumlarında sayfada kaç hata olduğunuda

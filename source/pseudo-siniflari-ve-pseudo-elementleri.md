@@ -24,7 +24,7 @@ de kullanılabilirler 	:::css
 font-weight: bold; }  Pseudo sınıflarını da ikiye ayıra
 biliriz. **Link Pseduo Sınıfıları** ve **Dinamik Pseudo Sınıfları**
 
-### Link Pseudo sınıfı
+## Link Pseudo sınıfı
 
 Yanlızca linklere uygulanan iki Link Pseduo sınıfı vardır. **:link** ve
 **:visited** **:link -**Ziyaret edilmemiş sayfanın linkine stil
@@ -44,7 +44,7 @@ bilgi görsel olarak verilebilir.
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
 
 </div>
-### Dinamik Pseudo Sınıfları
+## Dinamik Pseudo Sınıfları
 
 **Dinamik Pseudo Sınıfları** sayfa görünümüne çok büyük katkılar
 yapabilir. Bu sınıflar genelde linklere uygulanır ancak bir çok kullanım
@@ -76,7 +76,7 @@ color: gray; } a:hover { color: red; } a:active { color: yellow; }
 **Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
 
 </div>
-### İlk Çocuk Elementi seçmek
+## İlk Çocuk Elementi seçmek
 
 Diğer bir pseudo sınıfımız **:first-child**'dır. **first:child:**
 Belirtilen elementin ilk Çocuk Elementine stil atamak için kullanılır.
@@ -94,7 +94,7 @@ ve font rengi kırmızı olacak</li> <li>Bu <strong>çocuk element
 Opera+
 
 </div>
-### :lang Pseudo Sınıfı
+## :lang Pseudo Sınıfı
 
 Lang pseudo sınıfı içerikteki bir elemente farklı bir dil de yazmamızı
 sağlar. Atanabilecek dil listesi ve kullanılacak kısaltmalara [ISO 639 and RFC 1776 standards][] erişebilirsiniz. 	:::html
@@ -108,7 +108,7 @@ lang="fr">Bonjour le monde!</p> </body> </html>
 Opera+
 
 </div>
-### Pseudo Sınıflarını birleştirmek
+## Pseudo Sınıflarını birleştirmek
 
 CSS2.1 ile birlikte aynı seçiciye ait pseudo elemntlerini birleştirme
 özelliği de gelmiştir. Örneğin ziyaret edilmiş linklerin hover özelliği
@@ -122,13 +122,13 @@ ile ziyaret edilmemiş linklerin hover özelliğini farklı atamak istesek
 Opera+
 
 </div>
-### Pseudo Element Seçicileri
+## Pseudo Element Seçicileri
 
 Bu elementler hayali elementlerdir. (X)HTML hiyerarşisi içinde bu
 elemntlere yoktur. CSS2.1 de Dört adet Pseudo Element Seçicisi vardır:
 **first-letter**, **first-line**, **before** ve **after**
 
-### first-letter (ilk harf)
+## first-letter (ilk harf)
 
 Bir blok-level elementin ilk harfine stil tanımlması yapmak için
 kullanılır. Örnek verecek olursak h1 elementinin baş harfinin büyük
@@ -143,7 +143,7 @@ başlık</h1>
 Opera+
 
 </div>
-### first-line (ilk satır)
+## first-line (ilk satır)
 
 Bir metnin ilk elementine stil atamak için kullanılır. Örneğin
 paragraflarınızın ilk satırlarını renklendirmek isitiyorsunuz.
@@ -154,7 +154,7 @@ paragraflarınızın ilk satırlarını renklendirmek isitiyorsunuz.
 **Browser Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
 
 </div>
-### before ve after elementleri
+## before ve after elementleri
 
 Bir elementin öncesine ve sonrasına bir içerik veya özellik eklemek için
 kullanılır. Notlarımızın başına otomatik oalrak Not yazmak için

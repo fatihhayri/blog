@@ -72,7 +72,7 @@ Baştada belirttiğimiz gibi buradaki en büyük sorunumuz IE6 ve daha eski
 sürümlerde bu kodun çalışmamasıdır. Bundan sonraki metot buna çözüm
 aramak içindir.
 
-### IE6'da çalışan postion:fixed metodu
+## IE6'da çalışan postion:fixed metodu
 
 Bu metot IE'un css içinde **expression()** komutunu yardımı ile
 javascript kodu işletmemize izin vermesi prensinden dayanır. Bizde bu
@@ -167,7 +167,7 @@ kullanmaya karar verdiğim metot bu olduğu için sizlere bu kodu
 gösterdim. Ancak diğer örnekleri görmeniz için alternatif çalışmaların
 linklerini kaynaklar kısmında sizlere vereceğim.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://home.tampabay.rr.com/bmerkey/examples/fake-position-fixed.html][]  
 -   [http://tagsoup.com/cookbook/css/fixed/][]

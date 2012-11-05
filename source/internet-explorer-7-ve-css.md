@@ -19,7 +19,7 @@ birlikte 200'e yakın CSS sorununu düzeltildiğini söylüyor Microsoft. Tüm
 bu düzeltmelerin [<!DOCTYPE> switch][]'da çalıştığını [Garip Mod][<!DOCTYPE> switch]'da ise IE6 gibi yorumlayacağını söylüyor ona
 göre.
 
-### IE7 ile Düzelen Genel Sorunlar
+## IE7 ile Düzelen Genel Sorunlar
 
 -   **Peekaboo Sorunu** - İçinde uzunca bir metin, resim, link vb.
     içerik olan bir katmanımız olsun ve bu katmanın altında bir
@@ -93,7 +93,7 @@ padding-bottom: 1px; }
 -   **Yanıltıcı Kutu Sorunu**  
     Ayrıntılı bilgi için [tıklayınız][12].
 
-### Diğer Düzeltilen Hatalar
+## Diğer Düzeltilen Hatalar
 
 -   **:hover** sadece linklere(a) değil tüm elementlere uygulanabiliyor
     (Bu sayede menu oluştururken IE için script yazmayacağız, tabi bunu
@@ -120,7 +120,7 @@ padding-bottom: 1px; }
 
 Tüm liste için [tıklayınız][13].
 
-### CSS2.1'deki yeni özellikleri destekliyor
+## CSS2.1'deki yeni özellikleri destekliyor
 
 -   Min/max width/height destekliyor
 -   Transparent kenarlıkları destekliyor
@@ -129,7 +129,7 @@ Tüm liste için [tıklayınız][13].
 -   [Çocuk Seçiciler][] ve [Bitişik Kardeş Seçicileri][Çocuk Seçiciler]
     destekliyor.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://blogs.msdn.com][13]
 -   [http://www.devarticles.com][]

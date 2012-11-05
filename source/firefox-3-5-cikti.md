@@ -65,7 +65,7 @@ Firefox 3.5 ile birlikte ikonunu da yeniledi.
 
 Firefox 3.5 indirmek için [tıklayınız.][]
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.dkszone.net/2009/06/new-features-in-firefox-35.html][]
 -   [http://www.youtube.com/watch?v=k5Zbc-Rg6e8][]

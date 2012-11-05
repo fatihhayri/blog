@@ -35,7 +35,7 @@ StopBadware.org'daki formuda doldurdum. Neyse hayırlısı bakalım. Bu
 durumu gören ve beni uyaran tüm arkadaşlara teşekkürler. Umarım bu tip
 sorunlarla bi daha karşılaşmayız.
 
-### Ek olarak
+## Ek olarak
 
 Ayrıca http://www.fatihhayrioglu.com/?ref=siteAdi gibi linkler var.
 Bunlarıda robots.txt User-agent: * Disallow: /*ref=* Disallow:

@@ -20,7 +20,7 @@ halledebiliriz. Web tarayıcıları normal css kodunu yorumlarken yazıcıdan
 çıktı almak istediğimiz de ise sizin hazırladığınız özel çıktı versiyonu
 kullanılacaktır.
 
-### Çıktı Almak için CSS Oluşturmak
+## Çıktı Almak için CSS Oluşturmak
 
 Çıktı almak için oluşturduğumuz özel css'i sayfamıza eklemek çok kolay
 bildiğimiz link ekleme koduna fazladan sadece **media** kısmı eklenerek
@@ -42,7 +42,7 @@ Diğer bir yöntemde import kullanımıdır.
 </style>
 
 
-### Çıktıya Uygun CSS Hazırlarken Dikkat Edilecek Hususlar
+## Çıktıya Uygun CSS Hazırlarken Dikkat Edilecek Hususlar
 
 **Fontları Değiştirmek**
 

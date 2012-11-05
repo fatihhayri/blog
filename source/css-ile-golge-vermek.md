@@ -14,7 +14,7 @@ program kullanmadan gölge verebilmemizdir. Böylece sayfamıza her
 eklediğimiz resim için resim düzenleme programını açıp gölge eklemek
 zorunda kalmayacağız. <!--more-->
 
-### CSS ile Basit Şekilde Gölge Vermek
+## CSS ile Basit Şekilde Gölge Vermek
 
 En basit css ile gölge verme yöntemi *Dunstan Orchard*'in yaptığı
 yöntemdir. Bu yöntemde; resmi kapsayan katmana geniş gölge resmi; zemin
@@ -74,7 +74,7 @@ sebebiyle tercih edilebilir.
 
 Örnek çalışmayı görmek için [tıklayınız.][]
 
-### Clagnut metodu ile gölge vermek
+## Clagnut metodu ile gölge vermek
 
 [www.clagnut.com][]'da yayınlandığı için bu isim verilmiştir. Bu metot
 bir önceki ile benzerlik taşır. Bu metottaki fark negatif margin vermek
@@ -91,7 +91,7 @@ sonuçlar verir.
 
 Örnek çalışmayı görmek için [tıklayınız.][1]
 
-### Fuzzy metodu ile gölge vermek
+## Fuzzy metodu ile gölge vermek
 
 ![Fuzzy][]
 
@@ -178,7 +178,7 @@ Bu metodu tüm png zemin resmi uygularınızda uygulayabilirsiniz.
 </div>
 Örnek çalışmayı görmek için [tıklayınız.][2]
 
-### Onion Skin metodu ile Gölge eklemek
+## Onion Skin metodu ile Gölge eklemek
 
 Son gölge verme metodu yuvarlak kenarlı kutuları oluşturduğumuz metoda
 benzer bir metottur. Bu metotta içiçe girmiş üç katman kullanırız soğan

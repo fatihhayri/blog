@@ -13,7 +13,7 @@ demektir. Bu bizleri ve sistem yöneticilerini sevindiren bir haberdir.
 Bu makale aynı zamanda CSS kodlama tekniklerini öğretecektir.
 <!--more-->
 
-### 1- Torun Seçicileri kullanmak
+## 1- Torun Seçicileri kullanmak
 
 CSS kodlamada bize çok büyük yardımı olan Torun Seçicileri bir örnek
 vererek göstereceğiz. Bir web sayfasını bir bölümünü kodlmaka için iki
@@ -33,11 +33,11 @@ yaparak kodlama yöntemidir.
 	
 
 <div id="solkolon">
-### Site Hakkında
+## Site Hakkında
 
 Site hakkındaki yazılar
 
-### Öneriiler
+## Öneriiler
 
 -   [Arkadaşlar][]
 -   [Siteler][]
@@ -78,11 +78,11 @@ göz atalım.
 	
 
 <div id="solkolon">
-### Site Hakkında
+## Site Hakkında
 
 Bu site benim hakkımdadır.
 
-### Fotoğraflarım
+## Fotoğraflarım
 
 -   [Eski][]
 -   [Yeni][]
@@ -129,11 +129,11 @@ yöntemi bize çok büyük avantajlar sağlayacaktır.
 	
 
 <div id="solkolon">
-### Site Hakkında
+## Site Hakkında
 
 Bu site benim hakkımdadır.
 
-### Fotoğraflarım
+## Fotoğraflarım
 
 -   [Eski][]
 -   [Yeni][]
@@ -164,7 +164,7 @@ sadece tanımı değiştirmemiz bize yetecektir. Bu metod bize kolay, temiz
 ve kullanışlı bir kodlama olanağı sağlamkatadır. Bunu uygulamarımızda
 kullandıkça daha iyi kavrayacağız.
 
-### 2- Gereksiz <div> Kullanımından vazgeçilmesi
+## 2- Gereksiz <div> Kullanımından vazgeçilmesi
 
 Sayfa kodlarken içeriklerimizi düzenlemek için bir çok <div> elementi
 kullanırız.
@@ -206,7 +206,7 @@ kullanılan elementin içinde başka bir element yok ise bu yöntem
 uygulanır. İçinde <p>, <blockquote> veya <form> gibi elementler
 varsa bunları tanımlama yaptığımız kavrayıcı **ul** dışına çıkarmalıyız.
 
-### 3- CSS'in kalıtsallık özelliğinden yararlanmak
+## 3- CSS'in kalıtsallık özelliğinden yararlanmak
 
 CSS elementleri kalıtsal olan ve kalıtsal olmayan elementler diye
 ayırır. Biz kalıtsal elemnleri kullanarak bir çok fazla koddan
@@ -227,7 +227,7 @@ kolaylığını sağlayacaktır.
 	 body { font-family:Verdana, Arial,
 sans-serif } 
 
-### 4- Uygun Benzer Stilleri Gruplamak
+## 4- Uygun Benzer Stilleri Gruplamak
 
 Bir çok özelliği aynı olan stil tanımlarında farklılıklar ayrılarak aynı
 bölümler gruplanarak kod azaltılabilir.
@@ -246,13 +246,13 @@ Bu kullanım yerine
 font-family:Verdana,sans-serif } h1 { font-size:120% } h2 {
 font-size:110% } h3,h4 { font-size:100% } 
 
-### 5- CSS Kısaltmalarını kullanmak
+## 5- CSS Kısaltmalarını kullanmak
 
 CSS bazı elementlerin tanımlasını yaparken kısaltmaları kullanmamıza
 izin verir, yani aynı etkiyi daha az kodla yapmamıza olanak sağlar.
 Ayrıntı için [CSS'de Kısaltmalar kısmına bir göz atın.][]
 
-### 6- CSS kodunu katagorilere ayırmak
+## 6- CSS kodunu katagorilere ayırmak
 
 [CSS'i Web Sayfalarına Eklemek][] makalesinin 4. kısmında da
 bahsettiğimiz gibi, içeriği büyük olan sitelerde css kodunun parçalara

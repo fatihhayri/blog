@@ -14,7 +14,7 @@ ve özellikler üzerinde mutabakat sağlanmış durumda. HTML5'in yeni
 özellikleri hakkında burada kısa bilgi vererek yenilikler hakkında bilgi
 edineceğiz.<!--more-->
 
-###### Yapısal Elementler
+#### Yapısal Elementler
 
 Web sitelerini kodlarken belli yapısal kısımlara ayırırız. Üst kısım,
 içerik kısmı, sol-sağ kolonlar, menü alanı, alt kısım ve içerik alanı.
@@ -38,7 +38,7 @@ tanımlamak için kullanabiliriz.
 
 ![][]
 
-###### Anlamlı Blok Elementler
+#### Anlamlı Blok Elementler
 
 Yapısal elementlerden daha çok ayrıntıya inen elementlerde
 bulunmaktadır. Kısacabu yeni elementleri incelersek:
@@ -53,7 +53,7 @@ element <dd\> ve <dt\> elementlerini alt element olarak kullanır.
 
 ![][1]
 
-###### Anlamlı Satıriçin  Elementler
+#### Anlamlı Satıriçin  Elementler
 
 Html4'de bilgisayar kodlaması için satıriçin element olarak 5 kod var
 **var**, **code**, **kbd**, **tt**, **samp**. Html5 bunlara bir kaç tane
@@ -74,7 +74,7 @@ için mesela. İki adet özniteliği vardır: **value** ve **max**.
 Javascript yardımı ile kolaylıkla yükleme işlemlerimizi yapabilmemizi
 sağlayacak güzel bir element.
 
-###### Medya Elementerini
+#### Medya Elementerini
 
 Gelişen web alemi bize artık görsel ve işitsel öğelerin daha çok önem
 kazandığını gösteriyor. HTML'in bu yönü biraz zayıf kalıyordu bunun için
@@ -86,7 +86,7 @@ medya dosyalarını sitemize  eklememizi kolaylaştıracaktır.
 kullanabilceğimiz bu elementin **autoplay** ve **loop** öznitelikleri
 var.  
 
-###### İnteraktif Elementler
+#### İnteraktif Elementler
 
 HTML5 Web Aplication1.0 özel bölümünüde içermektedir. Bunun anlamı HTML5
 dinamik içeriğe yardımcı olacak elementlerde içerecek olmasıdır. Yeni
@@ -113,7 +113,7 @@ algıladım ben.
 İçiçe **menu** elementi kullanılabilir. Uygulama olarak Windows
 başlangıç menüsü, popup tipi için örnek ise renk paletini verebiliriz.  
 
-###### Sonuç
+#### Sonuç
 
 Sonuç olarak şunu söyleyebilrimki nesne tabanlı bir kodlama dünyasına
 uygunolarak genel elementler yerine daha özel elementler kullanmamıza
@@ -125,7 +125,7 @@ Web Applications 1.0 ise başlı başına bir güzellik. Bu standardın Ajax'a
 yardımcı vetamamlayıcı olarak görüyorum.  
   
 
-###### Kaynaklar  
+#### Kaynaklar  
 
 -   [http://www.ibm.com/developerworks/xml/library/x-html5/][]  
 -   [http://www.w3.org/html/wg/html5][]  

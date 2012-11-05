@@ -76,7 +76,7 @@ yaparak bize çözüm sağlayacaktır.
 
 Bu özellik sadece Internet Explorer için geçerlidir.
 
-### Sonuç
+## Sonuç
 
 Bu yazıyı yazmamdaki ana nedenlerden birisi İnternet Explorer 7’nin
 yorumlayıcı motorunun ne kadar eski bir teknoloji kullandığını
@@ -101,7 +101,7 @@ Bir sonraki yazım İnternet Exlorer 7’nin kaybettirdikleri olacak.
 
 Kalın sağlıcakla
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://haslayout.net/haslayout][] (site)
 -   [http://www.satzansatz.de/cssd/onhavinglayout.html][] (detaylı)

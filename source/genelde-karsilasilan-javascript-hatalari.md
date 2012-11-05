@@ -13,7 +13,7 @@ hatalardır bunlar. <!--more-->
 
 Kendi sorunlarım ve araştırıp bulduğu genel sorunlar:
 
-### = ve == operatörleri
+## = ve == operatörleri
 
 = tanımlama operatörü, == iki değeri eşitlemek için kullanılır. Genelde
 bir karışık oluyor
@@ -28,21 +28,21 @@ genelde karşılaştığım hata
 	:::javascript
 	 if(MyVar = "xyz") 
 
-### Tırnak İşaretleri
+## Tırnak İşaretleri
 
 Dizgiler(string) tırnak işareti içinde olmalıdır. Tek tırnak veya çift
 tırnak. Genelde çift tırnak ile başlayan tek tırnak ile kapattığımızda
 veya tek tırnak ile başlayanı çift tırnak ile kapattığımızda sorun
 yaşıyoruz. Yada dizgileri tırnak içine almayı unutuyoruz.
 
-### Parantezler
+## Parantezler
 
 Parantezlerde de açılan parantezi kapanmamasından kaynaklana sorunlarda
 en çok karşılaştığımız sorunlardan biridir. if, for ve do while gibi
 işlemler için kullandığımız parantezleri kapatmadığımızda hata
 yaşıyoruz. Kod yazım formatımızı düzenli yaparsak bu sorunu çözebiliriz.
 
-### Hiyerarşi sorunları
+## Hiyerarşi sorunları
 
 Çoğu zaman karşılaştığımız sorunlardan bir taneside doküman
 hiyerarşisine göre daha oluşturulmamış bir nesneye erişmek istediğimizde
@@ -53,13 +53,13 @@ Eğer sayfa ilk yüklendiğinde bir şey yapmak istiyorsak bu kodu sayfa
 sonuna koymalıyız, yada yapmak istediğimiz işi sayfadaki bir nesne ile
 tetikleyerekte bu sorunu çözebiliriz.
 
-### Programın kullandığı Değişkenleri Kullanmak
+## Programın kullandığı Değişkenleri Kullanmak
 
 Çok azda olsa böyle bir sorunla karşılaşabiliriz. Javascript programının
 kendi değişkenlerini biz kullanmaya çalıştığımızda hata verir. Tam
 listesini [rezerver edilmiş kelimeler][] linkinden bulabilirsiniz.
 
-### Küçük büyük karakter karışımı
+## Küçük büyük karakter karışımı
 
 Javascript ile kod yazarken küçük büyük harflere dikkat etmeliyiz. Küçük
 büyük harf bir çok hataya neden olur.
@@ -77,7 +77,7 @@ hayrioğlu" eşleşmesi bize false değeri gönderecektir.
 Ayrıca belirtmek istediğim bir yer daha var. OnMouseOver ile onMouseOver
 aynı şey değildir.
 
-### '+' Kullanımını
+## '+' Kullanımını
 
 Javascript'te +(artı) işareti hem sayısal toplama hemde string
 birleştirmek için kullanılır. Karıştırmamak lazım.
@@ -96,7 +96,7 @@ Ayrıca string birleştirirken tırnak işareti ile kullanılmalıdır.
 	 myString = myName + " ekle " +
 myString ; 
 
-### Javascript: sözde protokolünün kullanımı
+## Javascript: sözde protokolünün kullanımı
 
 Javascript: sözde protokolü onClick gibi olay tetikleyicileri ile
 kullanılmaz. Bu kullanım URL'lerde olur Örneğin <a> etiketin href
@@ -106,12 +106,12 @@ kullanılmaz. Bu kullanım URL'lerde olur Örneğin <a> etiketin href
 	 <a href="javascript:pencereAc();">Pencere
 Ac</a> 
 
-### document.write
+## document.write
 
 document.write sayfa tamamen yüklendikten sonra işler ve içeriğin
 üzerine yazar.
 
-### Sonuç
+## Sonuç
 
 Gerek javascript yazarken gerekse diğer programları yazarken bir çok
 hata ile karşılaşıyoruz. Hataları en aza indirmek ve çözmek için bir çok
@@ -119,7 +119,7 @@ yöntem var. İlk olarak yaptığımız hataları tanırsak ona göre tedbir
 alırız. Firefox'un FireBug aracı bence hata ayıklamak için bir numaralı
 araç.
 
-### Kaynaklar
+## Kaynaklar
 
 -   <span>JavaScript: The Good Parts Ek b ***** </span>
 -   [http://www.dynamicsitesolutions.com/javascript/mistakes/][] (kısa

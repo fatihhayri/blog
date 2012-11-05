@@ -22,7 +22,7 @@ fazla çizgiye denir.<!--more-->
 
 Sırasıyla incelersek:
 
-### border-style
+## border-style
 
 <div class="cssozelliktanimi">
 **Yapısı :** border-style: <deger>  
@@ -54,7 +54,7 @@ W3C's CSS Level 1+
 CSS Profile 1.0
 
 </div>
-### border-top-style, border-right-style, border-bottom-style, border-left-style
+## border-top-style, border-right-style, border-bottom-style, border-left-style
 
 <div class="cssozelliktanimi">
 **Yapısı :** border-[top,left,right,bottom]-style: <deger>  
@@ -82,7 +82,7 @@ W3C's CSS Level 1+
 CSS Profile 1.0
 
 </div>
-### border-width
+## border-width
 
 <div class="cssozelliktanimi">
 **Yapısı :** border-width: <deger>  
@@ -113,7 +113,7 @@ W3C's CSS Level 1+
 CSS Profile 1.0
 
 </div>
-### border-top-width, border-right-width, border-bottom-width, border-left-width
+## border-top-width, border-right-width, border-bottom-width, border-left-width
 
 <div class="cssozelliktanimi">
 **Yapısı :** border-[top,left,right,bottom]-width: <deger>  
@@ -141,7 +141,7 @@ W3C's CSS Level 1+
 CSS Profile 1.0
 
 </div>
-### border-color
+## border-color
 
 <div class="cssozelliktanimi">
 **Yapısı :** border-color: <deger>  
@@ -171,7 +171,7 @@ W3C's CSS Level 1+
 CSS Profile 1.0
 
 </div>
-### border-top-color, border-right-color, border-bottom-color, border-left-color
+## border-top-color, border-right-color, border-bottom-color, border-left-color
 
 <div class="cssozelliktanimi">
 **Yapısı :** border-[top,left,right,bottom]-color: <deger>  
@@ -205,7 +205,7 @@ W3C's CSS Level 1+
 CSS Profile 1.0
 
 </div>
-### border
+## border
 
 **Yapısı :** border: <[deger][uzunluk değeri]>  
 **Aldığı Değerler :** <border-width> | <border-style> |

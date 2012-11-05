@@ -26,7 +26,7 @@ Eksi Margin'i iki yerde uygularız.
 
 <!--more-->
 
-### 1- Sabit Elemanlar ve Eksi Margin
+## 1- Sabit Elemanlar ve Eksi Margin
 
 **1.1. Ard Arda Statik Elemanlar**
 
@@ -165,7 +165,7 @@ Bu kodlama sayesinde tüm tarayıcılarda aynı sonucu elde ederiz. Bu
 eksi margin eleman genişliğini arttırır, bir bakıma padding görevi
 görür.
 
-### 2- Eksi Margin ve Float
+## 2- Eksi Margin ve Float
 
 Float uygulanmış iki elemanı düşünelim.
 
@@ -322,7 +322,7 @@ Ayrıca
 [Eksi margin Kullanarak çoklu kolon][] oluşturmak adlı güzel bir makale
 var.
 
-### Sonuç
+## Sonuç
 
 Sonuç olarak eksi margin bir çok uygulamamızda kullanacağımız bir
 özellik. Genelde farklılıkları ile ön plana çıkan bir özelliktir. Ben
@@ -330,7 +330,7 @@ burada eksi margin'i tanıttım ve genel bilinen uygulamalarını yaptım ve
 bir kaçına link verdim. Buradaki bilgiler ışığında daha bir çok
 uygulamamızda eksi margin'i kullanmaya devam edeceğiz.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.smashingmagazine.com/2009/07/27/the-definitive-guide-to-using-negative-margins/][]  
 -   [http://www.brunildo.org/test/NegMOutH.html][]  

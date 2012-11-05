@@ -4,7 +4,7 @@ Date: 2006-11-06 11:47
 Category: CSS, Web Standartları, XHTML
 Tags: CSS, link, menü, örnek, Web Standartları, XHTML, yatay-menüler
 
-###### Yatay Menüler
+#### Yatay Menüler
 
 [Bir önceki makalede][] dikey menüye bir örnek yapmıştık. şimdi de yatay
 menülere bir örnek vereceğiz. Önceki makalede bahsettiğimiz gibi yatay
@@ -67,7 +67,7 @@ Daha ayrıntılı ve güzel örnekler internette bir çok yerde mevcut. Gerek
 aşağıda verdiğimiz Kaynaklar kısmında ve gerekse İnternette aratarak bir
 çok menüye ulaşabilrisiniz.
 
-###### Kaynaklar
+#### Kaynaklar
 
 -   [http://css.maxdesign.com.au/][]
 -   [http://www.cssplay.co.uk/menus/index.html][]

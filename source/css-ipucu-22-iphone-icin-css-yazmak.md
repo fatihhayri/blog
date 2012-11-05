@@ -31,7 +31,7 @@ bazı eski ie sürümlerinde bu kodu algılama durumu içindir.
 Yukarıdaki tanımlar sadece iPhone'da görünecektir. İşin püf noktasını
 **max-device-width: 480px** kısmı oluşturuyor.
 
-### **Kaynaklar**
+## **Kaynaklar**
 
 -   [http://www.w3.org/TR/css3-mediaqueries/][]
 -   [http://www.evotech.net/blog/2007/07/web-development-for-the-iphone/][]

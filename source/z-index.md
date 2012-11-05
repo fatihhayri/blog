@@ -110,7 +110,7 @@ z-index eksi değerlerinde Firefox sorun çıkarıyor. Firefox 3'da sorun
 giderilmiş.
 
 </div>
-###### Sonuç
+#### Sonuç
 
 Sonuç olarak z-index özelliğinin çok kullanışlı ancak sorunları çok bir
 özellik olduğunu düşünüyorum. Birçok makalede istediğim manada detaylı
@@ -142,7 +142,7 @@ z-indeks ile ilgi bazı problemler ve çözüm önerileri var bunları aşağıd
 listeledik bu linklerdeki çözümleri incelemenizi tavsiye ederiz. Karşıma
 çıkan bazı problem ve çözümleri sitede yayınlamaya devam edeceğim.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.search-this.com/2007/08/15/give-me-some-zzzzzs/][]
 -   [http://www.brainjar.com/css/positioning/default5.asp][]
@@ -159,7 +159,7 @@ listeledik bu linklerdeki çözümleri incelemenizi tavsiye ederiz. Karşıma
 -   Cascading Style Sheets The Definitive Guide
 -   Wrox Beginning CSS 2nd.Edition
 
-###### Sorunlar ve çözümler
+#### Sorunlar ve çözümler
 
 -   [http://brandonaaron.net/docs/bgiframe/][]
 -   [http://www.askapache.com/css/getting-flash-to-show-up-in-front-of-content.html][]

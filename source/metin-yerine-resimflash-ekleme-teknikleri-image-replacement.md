@@ -23,7 +23,7 @@ tarayıcılarda sorun çıkardığı için web kodlamacısı tarafında kullanı
 terkedildi. Biz burada belli başlı 4 metin yerine resim ekleme tekniğini
 anlatacağız ve avantaj, dezavantajlarını sizlerle paylaşacağız.
 
-### 1- Fahrner'in Metin Yerine Resim koyma tekniği (Fahrner Image Replacement - FIR)
+## 1- Fahrner'in Metin Yerine Resim koyma tekniği (Fahrner Image Replacement - FIR)
 
 Todd Fahrner arkadaşımızın ürettiği bu kod en popüler metotlardan
 biridir. Uygulanması en basit metot olması kullanımını arttırmıştır.
@@ -52,7 +52,7 @@ problemlidir, Bir çok ekran okuyucu bu kodda sorun çıkaracaktır.
 Erişilebilirlik açısından eksik bir kodlama tekniğidir. Bu eksikliği
 gidermek için başka yöntemler geliştirilmiştir.
 
-### 2- "Phark" Metin Yerine Koyma Tekniği
+## 2- "Phark" Metin Yerine Koyma Tekniği
 
 www.phark.net'in ürettiği bu teknik ekran okuyucuları tarafından
 görüntülenecektir, bu yönüyle FIR tekniğinden avantajlıdır. Ayrıca
@@ -76,7 +76,7 @@ Bu teknik ekran okuyucularda sorunsuz çalışacaktır ancak resim
 görüntülemeyi iptal eden kullanıcılar bu metot ile kodladığımız
 sayfalarda sorun yaşayacaktır. Biz bu tekniği [CSS ile Menü Oluşturmak V - Resimli Menüler][] makalemizde uygulamıştık.
 
-### 3- Gilder/Levin Metin Yerine Koyma Tekniği
+## 3- Gilder/Levin Metin Yerine Koyma Tekniği
 
 Tom Gilder ve Levin Alexander bu kodlamayı geliştirmiştir. Ekran
 okuyucularında ve resim görüntülemeyi iptal eden kullanıcılarda sorunsuz
@@ -124,7 +124,7 @@ Bunların dışında Radu, Leahy/Langridge, Dwyer, Lindsay ve Shea
 Enhancement Teknikleride mevcuttur. Ayrıca hala bir çok teknik
 çıkarılmaktadır.
 
-### 4- Inman Metin Yerine Flash ekleme Tekniği (Inman Flash Replacement (IFR)) ve Boyutlandırılabilir Inman Metin Yerine Flash ekleme Tekniği (Scalable Inman Flash Replacement (sIFR))
+## 4- Inman Metin Yerine Flash ekleme Tekniği (Inman Flash Replacement (IFR)) ve Boyutlandırılabilir Inman Metin Yerine Flash ekleme Tekniği (Scalable Inman Flash Replacement (sIFR))
 
 Metin yerine resim ekleme tekniklerinin amaçlarında bir taneside
 herkesin bilgisayarında olmayan fontları kullanmaktır. Mike Davidson ve
@@ -156,7 +156,7 @@ paketin içinde;
 
 dokümanları var.
 
-### sIFR Nasıl Uygulanır
+## sIFR Nasıl Uygulanır
 
 Bu teknik devamlı kendini geliştirmektedir, biz burada sIFR2.0.2
 versiyonu üzerinden anlatacağız.
@@ -271,7 +271,7 @@ Metin yerine resim ekleme yöntemlerini sayfamızda çok fazla yerde
 kullanmak pek mantıklı gelmiyor bana ama gerektiği yerde, örneğin sadece
 başlıklar için kullanmak gayet mantıklı. Takdir ve seçim sizin.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.altiustutasarim.com/arsiv/2005/03/css_fir_teknigi.php][Mehmet     Doğan]
 -   [http://www.ampsoft.net/­webdesign-l/image-button.html][]

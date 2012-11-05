@@ -12,7 +12,7 @@ araştırınca, aslında dış hat çizgilerini kaldırmayı savunanlar ve karş
 kaldırmayalım diyenler ne için kaldırmayalım diyorlar inceleyip
 göreceğiz. Bir ara yol bulabilirmiyiz?
 
-### Kaldıralım  diyenler.
+## Kaldıralım  diyenler.
 
 Kaldıralım diyenler genelde dış hat çizgilerinin oluşturduğu kesikli gri
 çizgiden rahatsız olanlar. Bunda en çok son zamanlarda gelişen metin
@@ -54,7 +54,7 @@ kolay yolu outline:none veya outline:0 tanımlarıdır.
 Bu tanım bir çok css sıfırlama tekniğinde yer almaktadır. Örneğin [Eric Meyer][]'in sıfırlama tekniğinde. Bu yöntem bir çok yerde çözüm olarak
 sunulmaktadır. Kaynaklar kısmındaki linkler bunlardan bir kaçı.
 
-### Kaldırmayalım diyenler
+## Kaldırmayalım diyenler
 
 Kaldırmayalım diyenlerde bu özelliğin erişebilirliği arttırmak için
 çıkarıldığını ve sadece klavyesini kullanan kullanıcılar için elzem bir
@@ -97,7 +97,7 @@ google dokümanlar vb.) klavye kısa yollarından yararlanılmaktadır. Web
 mecrasında ileride daha etkin bir klavye kullanım oranlarına
 ulaşabiliriz. 
 
-### Sonuç
+## Sonuç
 
 Sonuçta her iki görüşü savunanlar için bir çözüm üretmeye çalışırsak;
 
@@ -146,7 +146,7 @@ sonunda örneğimiz ie de de çalışacaktır.
 
 Örnek IE 6, IE7, IE8, FF 3, Google Chrome 2'de test edilmiştir.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://css-tricks.com/removing-the-dotted-outline/][]
 -   [http://snipplr.com/view/15704/eliminating-the-dotted-line-box-that-appears-around-a-link/][]

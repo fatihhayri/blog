@@ -14,7 +14,7 @@ göstermek şeklinde uygulanır.**"<!--more-->
 Biz CSS'de hata ayıklamak için bir çok yöntem kullanırız. Bunların en
 çok kullanılanları aşağıda anlatılmıştır.
 
-###### Çocuk Seçicileri Kullanarak Hata Ayıklamak
+#### Çocuk Seçicileri Kullanarak Hata Ayıklamak
 
 Çocuk seçicilerini incelemek için [tıklayınız][]. Çocuk Seçicileri CSS
 hata ayıklama yöntemi olarak kullanılabilir. Çocuk Seçicileri Windows
@@ -38,7 +38,7 @@ tanımlama çocuk seçicisi olmalıdır.
 [IE 7 Çocuk Seçicilerini desteklemektedir.][] Bu metot uygulanırken bu
 dikkate alınmalıdır.
 
-### Özellik(Attribute) Seçicileri Kullanarak Hata Ayıklamak
+## Özellik(Attribute) Seçicileri Kullanarak Hata Ayıklamak
 
 Diğer bir hata ayıklama yöntemi Özellik Seçicileri kullanarak hata
 ayıklamaktır. Bir çok yeni nesil web tarayıcısı (FF ve Safari) bu
@@ -66,7 +66,7 @@ ayıklamak içinde kullanabiliriz.
 	</body>
 	</html>
 
-### Genel Seçicileri (*) Kullanarak Hata Ayıklamak
+## Genel Seçicileri (*) Kullanarak Hata Ayıklamak
 
 Her ne kadar bu hata IE7 ile birlikte düzeltildiyse de çok kullanışlı
 bir hata ayıklama metodudur. Kullanımı çok basittir.
@@ -77,7 +77,7 @@ bir hata ayıklama metodudur. Kullanımı çok basittir.
 		border-style: solid;
 	}
 	
-### Ters Bölü İşareti() İle Hata Ayıklama
+## Ters Bölü İşareti() İle Hata Ayıklama
 
 IE5x/Win versiyonları bu karakteri yorumlamazlar bu nedenle IE5x/win
 versiyonlarından kodumuzu gizlemek için bu yöntemi kullanabiliriz. CSS
@@ -96,7 +96,7 @@ Ben şahsen kutu modelinde hata ayıklamak için [tantek][]'in kullandığı
 alınarak hazırlanmış bir hata ayıklama metodudur tavsiye ederim. Ama bu
 yönteminde kullanıldığını bilelim.
 
-### Alt Çizgi (_) ile Hata Ayıklama
+## Alt Çizgi (_) ile Hata Ayıklama
 
 Bu yöntemde IE4-6 versiyonlarda hata düzeltmek için kullanılabilir.
 
@@ -111,7 +111,7 @@ göre yorumlama yapacaktır. Ancak IE4-6/win versiyonları (_)
 anlayamadığı için bu kodu yorumlamayacak ve ilk koda göre hareket
 edecektir.
 
-### Owen Yöntemi ile Hata Ayıklama
+## Owen Yöntemi ile Hata Ayıklama
 
 şžimdiye kadar ki tüm yöntemler Internet Explorer içindi. Bunun nedeni
 bir çok hatanın IE'den kaynaklanmasıdır tabi. şžimdi kullanacağımız
@@ -140,7 +140,7 @@ geçerlidir. Sadece Opera 6 ve altı versiyonlar için kod yazmak istersek
 		color: black;
 	}
 
-### Yorum Kodları içinde () Kullanımı ile IE/Mac'de Hata Ayıklama
+## Yorum Kodları içinde () Kullanımı ile IE/Mac'de Hata Ayıklama
 
 IE/Mac versiyonlarında yorum satırı içindeki ters bölme işaretini()
 yorumlamamaktadır. Bu nedenle IE/Mac versiyonlarında hata ayıklamak için
@@ -160,7 +160,7 @@ kullandığımız **!important** yöntemi ve [IE'da min-width, min-height,max-wi
 için değinmedik. Bunların dışında kullanılan diğer bazı yöntemler olsa
 da biz burada genel kabul görmüş yöntemleri yazmayı uygun bulduk.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.webdevout.net/articles/css_hacks.php][]
 -   [http://swik.net/CSS/CSS+Hacks][]

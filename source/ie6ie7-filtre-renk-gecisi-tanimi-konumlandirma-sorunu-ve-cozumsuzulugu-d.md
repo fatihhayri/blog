@@ -31,7 +31,7 @@ sürümlerin için bir çözüm oluşturmam gerekti. Bunun için **-ms-filtre**
 IE7 masum görünüyor ama bizi uğraştırmıyorda değil. Yakınsa son bulacak
 olması bizi sevindiriyor.
 
-### Kaynak
+## Kaynak
 
 -   [http://clogsandmills.com/blog/ie6-ie7-filter-bug/][]
 -   [http://www.briangervais.com/blog/css-gradients-with-internet-explorer-ie6-10][]

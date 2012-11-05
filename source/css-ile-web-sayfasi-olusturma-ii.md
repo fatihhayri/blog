@@ -3,7 +3,7 @@ Date: 2006-10-06 10:38
 Category: CSS, Javascript, XHTML
 Tags: clear, CSS, Elastik Web Sayfaları, em, float, Javascript, XHTML
 
-### Elastik Web Sayfaları Oluşturma
+## Elastik Web Sayfaları Oluşturma
 
 Likid Sayfalar yüksek çözünürlüğe sahip geniş ekranlarda satır
 yüksekliklerinden dolayı pek hoş görünmeyebilir. Bunun aksine,

@@ -82,7 +82,7 @@ bahsetmeye.<!--more-->
     çeviri mesajını bizim kontrolümüze vermişler.
 -   Uzantıların yerlerin değiştire bilme imkanı sağlıyor.
 
-### Sonuç
+## Sonuç
 
 Yukarıda sizlere Chrome 5 (Beta) ile gelen yeni özellikleri aktarmaya
 çalıştım. Genel olarak Googel Chrome'u değerlendirirsem. Öne çıkan en
@@ -102,7 +102,7 @@ Web geliştiricileri için standartları destekleyen ve hızlı güncellenen
 her tarayıcı web alemine renk katar, ie gibi ömür törpüsü tarayıcıları
 bu durumun dışında tutmalı. 
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://googlesystem.blogspot.com/2010/05/10-things-to-try-in-google-chrome-5.html][]
 -   [http://thenextweb.com/tr/2010/05/05/yuzde-35-daha-hizli-yeni-chrome-beta-yayinlandi][]

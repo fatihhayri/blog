@@ -61,7 +61,7 @@ Gelen ve giden veriler araç ipuçu içinde gösteriliyor.
 harfe duyarlı arama yapabiliyoruz ve ileri doğru ve geriye doğru arama
 yapabiliyoruz. Kapama düğmesindeki "Off" yazısı kaldırılmış.
 
-### Sonuç
+## Sonuç
 
 Sonuç olarak şunu söyleyebilirim; daha önceki sürümlerde yenilikler ile
 birlikte bazı sorunlarda beraberinde geliyordu bu sefer daha bir oturmuş
@@ -69,7 +69,7 @@ gibi bu araç. Daha yapısal değişiklikler ve çözümler üretilmiş. Web
 geliştiricileri için olmazsa olmaz olan FireBug sorunları olsada bir
 numaralı yerini kimseye kaptırmıyor.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://getfirebug.com/wiki/index.php/Firebug_Release_Notes][]
 -   [http://www.softwareishard.com/blog/][]

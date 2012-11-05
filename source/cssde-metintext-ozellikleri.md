@@ -11,7 +11,7 @@ belirlerken, Metin(Text) özellikleri sayfadaki metinlerin düzenini
 kontrol eder. Metin özellikleri metin düzeni için çok avantajlı
 özellikler getirmiştir.
 
-###### text-indent
+#### text-indent
 
 Paragrafların ilk cümlelerin soldan içeriye kaydırılması için kullanılan
 bir özelliktir.
@@ -27,7 +27,7 @@ bir özelliktir.
 Level 1+ CSS Profile 1.0
 
 </div>
-###### text-align
+#### text-align
 
 Bir elemntin diğerlerine göre hizasını berlilemek için kullanılır.
 Sadece metinler için kullanılmaz, diğer elementler içinde kullanılır.
@@ -44,7 +44,7 @@ değeri:** 0 **Uygulanabilen elementler:** tüm elementler
 Level 1+ CSS Profile 1.0
 
 </div>
-###### vertical-align
+#### vertical-align
 
 Bir elementin içeriğinin dikey hizalaması için kullanılır.
 
@@ -71,7 +71,7 @@ text-top | middle | bottom | text-bottom **Başlnagıç değeri:** baseline
 Level 1+ CSS Profile 1.0
 
 </div>
-###### line-height
+#### line-height
 
 Satırlar arasındaki yüksekliği belirler. **normal**, **pixel** veya
 **yüzde**değerlerin den birini alabilir.
@@ -89,7 +89,7 @@ Satırlar arasındaki yüksekliği belirler. **normal**, **pixel** veya
 Level 1+ CSS Profile 1.0
 
 </div>
-###### word-spacing
+#### word-spacing
 
 Kelimeler arasındaki boşluk değerini belirler. Eksi değer alabilir.
 
@@ -105,7 +105,7 @@ elementler:** tüm elementler **Kalıtsallık:** Var
 Opera 3.6+ W3C's CSS Level 2+
 
 </div>
-###### letter-spacing
+#### letter-spacing
 
 Harfler arasındaki boşluk değerini belirler. Eksi değer alabilir.
 
@@ -121,7 +121,7 @@ elementler:** tüm elementler **Kalıtsallık:** Var
 Level 1+ CSS Profile 1.0
 
 </div>
-###### text-transform
+#### text-transform
 
 Metnin Büyük-Küçük harf çevirmek için kullanılır.
 
@@ -142,7 +142,7 @@ capitalize | uppercase | lowercase **Başlnagıç değeri:** none
 Level 1+ CSS Profile 1.0
 
 </div>
-###### text-decoration
+#### text-decoration
 
 Bu özellik metinlerimize özel işaretler koymamızı sağlar. Örneğin
 metinlerizinaltını çizmek gibi.
@@ -159,7 +159,7 @@ text-decoration: none }
 Level 1+ CSS Profile 1.0
 
 </div>
-###### text-shadow
+#### text-shadow
 
 Bu özellik CSS2 ile birlikte geldi ancak internet tarayıcıları bu
 özelliği desteklemeyince CSS2.1 kaldırıldı.

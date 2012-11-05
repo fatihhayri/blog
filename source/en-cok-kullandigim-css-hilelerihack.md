@@ -19,7 +19,7 @@ olacağını düşünüyorum. Lafı fazla uzatmadan listemiz açıklayalım.
 
 <!--more-->
 
-### 1- Kutu Modeli ve CSS hillesi
+## 1- Kutu Modeli ve CSS hillesi
 
 [Kutu modeli sorunları ve çözüm önerilerinde][]n bahsettiğimiz makale ve
 bu konunun önemi açısından bu css hilesini başa aldık. Gerçekten birçok
@@ -48,7 +48,7 @@ Bölümünü uygulamamız yeterlidir. Daha sonra eğer genişlik ise genişliği
 yükseklik ise yüksekliği ayarlamamız gerekir. Daha sonra **html>body
 #icerik** kısmından **#icerik** yerine kendi nesne adımızı yazmalıyız.
 
-### 2- Float uygulanmış nesnelerin kapsayamama sorunu
+## 2- Float uygulanmış nesnelerin kapsayamama sorunu
 
 Aslında clearfix olarakta adlandırılan bu sorun bir çok yerde başımıza
 dert olur. Alıştıktan sonra hemen uygular ve geçeriz.
@@ -70,7 +70,7 @@ artik */
   
 Bu kodda **.kapsul** yerine kendi nesne ismimizi yazmamız yeterlidir.
 
-### 3. IE6'un Tekrarlayan Karakter Sorunu
+## 3. IE6'un Tekrarlayan Karakter Sorunu
 
 Bu hata birden fazla float uygulanmış iç içe elementlerde meydana gelir.
 Son float uygulanmış elementin son karakterleri tekrarlar. Soruna nedeni
@@ -84,7 +84,7 @@ Kodunu yazarız. Ben burada yorum yazarken bu sorunla karşılaşabilirim
 diye tüm yorumlarımı bu şekilde yazarak bu sorundan kaçınmaya
 çalışıyorum.
 
-### 4. IE6'nın min-height Sorunu
+## 4. IE6'nın min-height Sorunu
 
 Son zamanlarda gelen işlerde çok rastlamam nedeni ile bu listeye son
 anda ilave ettim. IE6'nın desteklemediği min-height özelliği için

@@ -27,7 +27,7 @@ tabi o zamana kadar Firefox IE'yi silip süpürmezse :D
 -   [border-spacing][]
 -   [empty-cells][]
 
-### table-layout
+## table-layout
 
 **Yapısı :** table-layout: <deger>  
 **Aldığı Değerler :** auto | fixed | kalıtsallık  
@@ -141,7 +141,7 @@ göre arttırır.
 
 Örneği görmek için[tıklayınız.][]
 
-### caption-side
+## caption-side
 
 **Yapısı :**caption-side: <deger>  
 **Aldığı Değerler :**top | bottom | inherit  
@@ -180,7 +180,7 @@ CSS Profile 2.1
 
 </div>
 
-### border-collapse
+## border-collapse
 
 **Yapısı :**border-collapse: <deger>  
 **Aldığı Değerler :**collapse | separate | kalıtsallık  
@@ -256,7 +256,7 @@ mesafe kalkacaktır ve tek kenarlık görünecektir.
 
 ![border-collapse örneği][]
 
-### border-spacing
+## border-spacing
 
 **Yapısı :**border-spacing: <deger>  
 **Aldığı Değerler :**<uzunluk> <uzunluk>? | inherit  
@@ -324,7 +324,7 @@ yatayda boşluk için ikincisi dikey de boşluk vermek için tanımlanmıştır.
 
 ![border-spacing örneği][]
 
-### empty-cells
+## empty-cells
 
 **Yapısı :**empty-cells: <deger>  
 **Aldığı Değerler :**show | hide | kalıtsallık  
@@ -399,7 +399,7 @@ Bu özellik Internet Explorer tarafından desteklenmemektedir.
 
 ![empty-cells örneği][]
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.w3.org/TR/REC-CSS2/tables.html][]
 -   [http://www.w3schools.com/css/css_table.asp][]

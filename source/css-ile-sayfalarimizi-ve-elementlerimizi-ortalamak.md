@@ -9,7 +9,7 @@ elementleri nasıl oratalayacağımızı göreceğiz. Inline-level elementleri
 elementleri ortalamak için ise bir iki metod vardır. Sırası ile
 inceleyelim. <!--more-->
 
-### 1- Genişleyebilir blok-level elementleri ortalamak
+## 1- Genişleyebilir blok-level elementleri ortalamak
 
 	:::css
 	 .ortala { margin-left: 10%; margin-right:
@@ -25,7 +25,7 @@ Genişliği sabit olmayan, genişleyebilir blok-level elementlerin
 ortalanması için bu metod kullanılır. Tüm web tarayıcılı bu metodu
 destekler.
 
-### 2- Sabit genişlik atanan blok-level elementlerini ortalamak
+## 2- Sabit genişlik atanan blok-level elementlerini ortalamak
 
 **2.a. margin auto ile genişliği belirlenmiş elementleri ortalamak**
 

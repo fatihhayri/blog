@@ -7,7 +7,7 @@ CSS; kodlama yaparken bizim bazı kısaltmaları kullanmamıza izin verir.
 Böylece hem fazla kod yığınından kurtulmuş oluruz, hemde sayfa
 boyutlarını en aza indirmiş oluruz.<!--more-->
 
-###### 1. Font
+#### 1. Font
 
 Normalde bir font tanımlarken 4 adet CSS kodu kullanılır: 	:::css
 	 font-weight: bold; font-family: verdana, sans-serif;
@@ -16,7 +16,7 @@ kullanlan kod ise tek satır: 	:::css
 	 font: bold
 11px/15px verdana, sans-serif; 
 
-###### 2. Background
+#### 2. Background
 
 Background tanımlarken 5 adet atama yapmamız gerekirken kısaltma
 kullanarak tek tanıma indirebilriz. 	:::css
@@ -27,7 +27,7 @@ background-position: 50px 50px;  Kısaltırsak: 	:::css
 	 background: { #000 url(ard.jpg) no-repeat fixed 50px
 50px; } 
 
-###### 3. Renkler(Hex-decimal)
+#### 3. Renkler(Hex-decimal)
 
 CSS stillerinde renkler genelde hex-decimal renk kodu ile tanımlanır
 örneğin **color: #ff0000;**
@@ -39,7 +39,7 @@ karaktere karşılık gelmektedir. Mesela, beyaz renk kullanacağınızda,
 **color: white;** veya **color: #ffffff;** kulanımı önermeyiz.
 Kısaltılmış olanı **color: #fff;** kullanmanız daha avantajlıdır.
 
-###### 4. Border
+#### 4. Border
 
 Kenarklık tanımlamalarında her özellik için bir tanımlama yapılır. örnek
 olarak bir elementin üst kenarına atama yapmak için: 	:::css
@@ -50,7 +50,7 @@ border-top-color: #f00;  Kısaltırsak: 	:::css
 	
 border: 2px dashed #f00; 
 
-###### 5. Margin ve Padding'ler
+#### 5. Margin ve Padding'ler
 
 Margin ve paddingler de normal tanımlama şöyledir: 	:::css
 	 margin-top: 10px; margin-right: 5px; margin-bottom:
@@ -67,7 +67,7 @@ sağ, üçüncü - alt. **2 Değer:**(*margin: 20px 15px;*) birinci - üst ve
 alt, ikinci - sol ve sağ. **1 Değer:** (*margin: 10px;*) birinci - üst,
 sağ, alt ve sol
 
-###### 6. Listeler
+#### 6. Listeler
 
 Liste tanılmalrında da kısaltmalar mümkündür 	:::css
 	
@@ -78,7 +78,7 @@ list-style-image:url(image.png); }  Kısaltırsak;
 url(image.png); } /* burda özel bir durum vardır eğer resim yoksa yedek
 olarak square özelliği gösterilecektir. */ 
 
-###### 7. Sıfır '0' ın Kısaltma olarak kullanılması
+#### 7. Sıfır '0' ın Kısaltma olarak kullanılması
 
 Kısaltmalarda son olarak '0' ın kullanımına değineceğiz. Normalde bir
 elemente değer ataması yapılırken değerin yanına birimi de yazılır(örn:
@@ -87,7 +87,7 @@ elemente değer ataması yapılırken değerin yanına birimi de yazılır(örn:
 mevcuttur oda yüzde değerlerinde atama yapılırken **0%**olarak atama
 yapılmalıdır.
 
-###### Kaynaklar
+#### Kaynaklar
 
 -   [http://www.w3schools.com/css/default.asp][]
 -   [http://www.eyeofdesign.com][]

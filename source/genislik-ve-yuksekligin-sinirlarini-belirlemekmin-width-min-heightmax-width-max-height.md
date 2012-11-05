@@ -8,7 +8,7 @@ Bir kapsayıcı kutunun genişlik değerini minimum ve maksimum değerleri
 ile sınarlandırabilriz. Bu özellikler CSS2 ile birlikte gelmiştir.
 <!--more-->
 
-###### min-width, min-height
+#### min-width, min-height
 
 **Yapısı :** min-width, min-height: <deger>  
 **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | inherit  
@@ -40,7 +40,7 @@ W3C’s <acronym title="Stil şablonu">CSS</acronym> Level 2+
 
 Aynı şekilde max-width ve max-height tanımlamalarıda yapılır.
 
-###### max-width, max-height
+#### max-width, max-height
 
 **Yapısı :** max-width, max-height: <deger>  
 **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | none | inherit  

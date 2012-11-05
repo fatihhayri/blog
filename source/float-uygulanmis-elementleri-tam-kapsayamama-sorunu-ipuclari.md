@@ -3,7 +3,7 @@ Date: 2009-02-09 10:18
 Category: CSS
 Tags: float, ipucu, kapsayamama-sorunu, sorun
 
-### 1- Firefox 3'de form elemenalarının Tıklanamaması Sorunu
+## 1- Firefox 3'de form elemenalarının Tıklanamaması Sorunu
 
 Daha önce bir kaç kez bahsettiğim ve web kod yazarlarının birçok zaman
 karşılaştığı 'Float uygulanmış elementlerin kapsayamama sorunu' bugün
@@ -22,7 +22,7 @@ arasındaki boşluğu kapatmak .kapsayamamaSorunu:after 	:::css
 height: 0; clear: both; visibility: hidden; }  Küçük bir
 nokta olsa da zamanı gelince insanın çok zamanını alıyor.
 
-### 2- Sorunun Kısayolu
+## 2- Sorunun Kısayolu
 
 Bu konuda hakkında bir başka ipucuda float'uygulanmış nesnelerde bu
 sorun ile çok fazla karşılaşıyoruz, ben eskiden her bir sorunlu eleman

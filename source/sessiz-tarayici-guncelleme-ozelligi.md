@@ -35,7 +35,7 @@ Eğer bu otomatik güncellemeden rahatsızsanız bu durumu kaldırmak için
 Tarayıcı farklılıkları için harcadığımız zamanı artık HTML5 ve CSS3
 yeniliklerini kullanmak için ayıracağız.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://robertnyman.com/2011/04/14/web-browser-versions-are-dead-automatic-updates-is-the-future/][]
 -   [http://lea.verou.me/2009/02/silent-automatic-updates-are-the-way-to-go/][]

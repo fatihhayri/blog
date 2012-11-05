@@ -87,7 +87,7 @@ Peki dış hat çizgisini kaldrımayalım demiştik şimdi ise kaldırdık, ne
 olacak şimdi? Burada odaklanma durumu için bir sınıf atayıp ona ayrı bir
 tanım yaptığımız için klavye kullananlar için sorun olmayacaktır.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://gandamanurung.com/css/how-to-get-rid-textinput-blue-border-in-safari/][]
     (google chrome safari de mavi kenarları yok etmek)

@@ -13,7 +13,7 @@ Kutu modeli özelliklerine devam ediyoruz. Sırasıyla aşağıdaki
 
 ![Kutu Modeli][]
 
-### width<a name="01"></a>
+## width<a name="01"></a>
 
 **Yapısı :** width: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto | inherit **Başlnagıç
 değeri:** auto **Uygulanabilen elementler:** [Block-level ve replaced elementler][] **Kalıtsallık:** Yok
@@ -32,7 +32,7 @@ almaz.
 CSS Level 1+ CSS Profile 1.0
 
 </div>
-### height <a name="02"></a>
+## height <a name="02"></a>
 
 **Yapısı :** height: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | auto | inherit **Başlangıç değeri:** auto **Uygulanabilen
 elementler:** [Block-level ve replaced elementler][] **Kalıtsallık:**
@@ -51,7 +51,7 @@ değeri almaz.
 CSS Level 1+ CSS Profile 1.0
 
 </div>
-### float<a name="03"></a>
+## float<a name="03"></a>
 
 **Yapısı :** float: <deger> **Aldığı Değerler :** left | right | none
 |inherit **Başlnagıç değeri:** none **Uygulanabilen elementler:** tüm
@@ -75,7 +75,7 @@ margin: 25px; }
 CSS Level 1+ CSS Profile 1.0
 
 </div>
-### clear<a name="04"></a>
+## clear<a name="04"></a>
 
 **Yapısı :** clear: <deger> **Aldığı Değerler :** none | left | right
 | both **Başlnagıç değeri:** tanımsız **Uygulanabilen elementler:** tüm

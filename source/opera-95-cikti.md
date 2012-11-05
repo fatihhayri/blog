@@ -12,7 +12,7 @@ standartlara daha bağlı olarak çıkması en güzel gelişme.
 
 [![][]][]
 
-###### **Görünüm**
+#### **Görünüm**
 
 Opera 9.5'ın görünümü değişmiş. Daha az seçeneklerin olduğu daha sadece
 bir görünüm var. Tabi bunu değiştirebiliyoruz.
@@ -28,14 +28,14 @@ birlikte listeleyebiliyoruz.
 
 [![][1]][]
 
-###### **Hızlı Bulma**
+#### **Hızlı Bulma**
 
 Opera adres barda çok hızlı bir arama söz konusu yazdığınız adrese çok
 hızlı erişmemizi sağlıyor. Bu özelliği çok sevdim. Ayrıca site
 içeriklerinide daha fazla ön bellekte tutuyor ve hızlı açmasına neden
 oluyor.
 
-###### Standartlara Tam destek
+#### Standartlara Tam destek
 
 Mevcut kullanılan standartları (X)HTML, XML, XSLT, CSS 2.1, SVG 1.1 ve
 JavaScript tam olarak desteklemenin yanında yeni özelliklerin (HTML5 ve
@@ -44,24 +44,24 @@ CSS3) de desteğini barındırıyor. Acid testlerinden geçen Opera 9.5 Acid
 
 [![][2]][]
 
-###### Web Kod Yazarları için DragonFly
+#### Web Kod Yazarları için DragonFly
 
 Firefox'un web kod yazarları için en büyük avantajı olan FireBug'ın
 önemini anlayan tarayıcı üreticileri kendi araçlarını üretmeye başladı.
 Opera için DragonFly bu işi görüyor. Ama daha geliştirlme aşamasında
 
-###### Daha Hızlı
+#### Daha Hızlı
 
 Opera 9.2'ye göre javascript ve Html yorumlamada 2 kat daha  hızlı. 
 Ayrıca eklentileri daha hızlı kullanmamıza olanak sağlıyor. Bellek
 kullanım oranıda çok düşük seviyede.
 
-###### Güvenlik
+#### Güvenlik
 
 Oltalama yöntemi(phishing) ve kötü yazılımlara karşı güvenlik ayarları
 yükseltilmiş bir Opera ile karşı karşıyayız.
 
-###### Sonuç
+#### Sonuç
 
 Snuç olarak diyebilirm ki Opera'nın bu Firefox 3'e karşı çıkardığı bir
 sürüm. Bir şeyi kovalıyorsanız onun gerisinde kalırsınız. Opera'da bu

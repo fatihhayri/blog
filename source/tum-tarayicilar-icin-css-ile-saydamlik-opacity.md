@@ -44,7 +44,7 @@ engellemek için Robert Nyman'ın bir çözümü var.
 [http://robertnyman.com/2010/01/11/css-background-transparency-without-affecting-child-elements-through-rgba-and-filters/][]
 denemedim bir bakın isterseniz.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://blog.evaria.com/2007/validate-css-style-opacity/][]
 -   [http://snipplr.com/view/10094/crossbrowser-opacity/][]

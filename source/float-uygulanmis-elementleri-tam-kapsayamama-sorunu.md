@@ -50,7 +50,7 @@ uygulanan div elementin tüm içeriği kapsaması için sonuna **clear**
 özelliği atanmış bir nesne koymalıyız. Bu işlemi farklı yöntemlerle
 yapabiliriz.
 
-###### Boş bir elemente clear atayarak çözmek
+#### Boş bir elemente clear atayarak çözmek
 
 Geneldekutuların içeriğine göre uzamasını isteriz. Bu sorunu çözmek
 küçük bir yapısalekleme yapmak yeterli olacaktır.  
@@ -65,7 +65,7 @@ düzeltme için boşbir div ekleyeceğiz. Buda mantıklı(semantik) kodlama
 açısından uygun değildir. Pekibunu başka nasıl çözeriz.   
   
 
-###### :after ile çözüm
+#### :after ile çözüm
 
 CSS2ile birlikte gelen **:after** özelliğini kullanarak çözebiliriz.
 Css(:after) kodu ile bir elementinsonuna bir içerik ekleyebiliyoruz ve
@@ -130,7 +130,7 @@ kalmadağına göre kodumuzu
 } /* IE6 */ *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
 
-###### CSS3 ile sorunun çözümü
+#### CSS3 ile sorunun çözümü
 
 Bu sorunun farkında olan CSS standart geliştiriciler bu soruna kökten
 çözüm getirmişler. [clear-after][] yeni özelliği sayesinde bu kodlardan
@@ -142,7 +142,7 @@ Malum hala uygulamada değil CSS3.0
 
 Yukarıdaki örnekteki gibi tek satırlık bir kod sorunumuzu çözecektir.
 
-###### Sonuç
+#### Sonuç
 
 Sonuç olarak şunu söyleyebiliriz ki bu sorunu çözmek için bir kaç çözüm
 yolu mevcut olsada şu an için **:after ile çözüm** başlığı altındaki
@@ -151,7 +151,7 @@ sorunla çok karşılaştığım için bir yere not ettim(Macromedia Dreamweaver
 - Snippets) ve lazım olduğu zaman hemen ekliyorum. Bu şekilde sorun
 hızlı bir şekilde çözmek mümkün oluyor.
 
-###### Kaynaklar
+#### Kaynaklar
 
   
 

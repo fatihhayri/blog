@@ -117,7 +117,7 @@ içerik üretebiliriz.
 Örnek kodu IE (6-7-8), Firefox 3.0.10, Opera 9.6, Googel Chrome 1.0 ve
 Safari 3.2.2 sürümlerinde test ettim.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://jqueryfordesigners.com/jquery-tabs/][]
 -   [http://broadcast.oreilly.com/2008/10/how-to-create-tabs-with-css-an.html][]

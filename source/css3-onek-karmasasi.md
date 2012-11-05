@@ -56,7 +56,7 @@ Burada gördüğümüz ve genelde önek sorunları;
 
 gibi sorunlara neden oluyor.  
 
-### Önek Sıralaması
+## Önek Sıralaması
 
 Burada yazılan öneklerde sıralamanın önemi vardır. Standart dışı önekler
 önce yazılır, standart önek sona yazılır. Bunun tersi durumlarda bazen
@@ -78,7 +78,7 @@ da bir avantajı olabilir.
 Önek karmaşasını çözmek için bir iki yöntem var. Bunları burada basitçe
 inceleyeceğiz.  
 
-### Çevrimiçi Araçlar İle Kod Üretmek
+## Çevrimiçi Araçlar İle Kod Üretmek
 
 Çözüm önerilerinden birisi kodlamamızı standart tanımlar ile yapıp en
 son kodu çevrimiçi araçlar yardımı ile  
@@ -94,7 +94,7 @@ tüm tarayıcılar için üretmek olabilir.
 editörünüze uygun apiyi yükleyerek direk editörünüzde(kısayol tuşları
 yardımı ile) bu işi yapabiliyorsunuz.  
 
-### Dinamik Olarak(SASS ve LESS) Önek Sorununa Çözüm Üretmek
+## Dinamik Olarak(SASS ve LESS) Önek Sorununa Çözüm Üretmek
 
 Öneklere SASS ve LESS ile çözümler üretebiliriz. Bu gibi dinamik yapılır
 CSS üreten yapılarda başlangıçta bir tanım yapılıp daha sonraki
@@ -145,7 +145,7 @@ mevcut. Javascript yardımı ile çözüm üretilen bu yöntemde incelemeye
 değer. Ben bunun için js eklemeyi pek mantıklı bulmasam da, yerine
 kullanılabilir diye düşünüyorum.  
 
-### Sonuç
+## Sonuç
 
 Sonuç olarak belli bir süre bizim için sıkıntı oluşturabilecek bir sorun
 olarak görünüyor. LESS ve SASS ile olan çözümler mantıklı geliyor bana.
@@ -165,7 +165,7 @@ mantıklı gibi.
 
 Zamanla göreceği bakalım neler olacak.  
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.css3.info/why-and-when-browsers-prefix-css3-features/][]
 -   [http://www.webresourcesdepot.com/instantly-prefix-css3-code-prefixmycss/][] (araçlar)

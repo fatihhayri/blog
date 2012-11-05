@@ -35,7 +35,7 @@ kodunu ekledik.
 
 Diğer kod eklemeleri farklı tarayıcılar içindir.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://stackoverflow.com/questions/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats][]
 -   [http://atomicrobotdesign.com/blog/htmlcss/use-css3-gradients-to-replace-your-sites-background/][]

@@ -17,7 +17,7 @@ Firefox 3 özelliklerine bir göz atalım;
 
 <!--more-->
 
-###### Hız ve Bellek Kullanım Oranları
+#### Hız ve Bellek Kullanım Oranları
 
 [![][]][]
 
@@ -27,7 +27,7 @@ düşürmüşler diyebilirim. Opera her ne kadar bu alanda birinciliğini
 koruyor olsa da Firefox 3'de azınsanmayacak kadar iyi. Firefox 2'ye göre
 %25'lik bir iyileşme olmuş.
 
-###### Adres Çubuğu ve Favoriler
+#### Adres Çubuğu ve Favoriler
 
 [![][1]][]
 
@@ -39,7 +39,7 @@ adresinde geçen kelimelerin yanır sıra etiketleri ile de erişebiliyoruz.
 Bu özellik Opera 9.5'de var, ancak Firefox 3 bizraz daha geliştirmiş
 adres çubuğunu. Bu özellik kullanıcıya çok büyük kolaylık sağlıyor.
 
-###### Güvenlik: Site Hakkında Bilgi
+#### Güvenlik: Site Hakkında Bilgi
 
 [![][2]][]
 
@@ -49,7 +49,7 @@ değil olduğunu anlıyor. Oltalama yöntemi ile kullanıcıyı kandırmaya
 çalışınalar için güzel bir önlem. Ayrıca zararlı içerikler içinde ayrıca
 bir önlem alınmış durumda.
 
-###### Dosya İndirme
+#### Dosya İndirme
 
 [![][3]][]
 
@@ -61,7 +61,7 @@ kapatırsanız, tarayıcınızı yeniden açtığınızda indirme işlemi kaldı
 yerden devam edebiliyoruz. Son olarakta indirme ekranında arama
 yapabiliyoruz.
 
-###### Tüm Siteyi Yakınlaştırma Özelliği
+#### Tüm Siteyi Yakınlaştırma Özelliği
 
 [![][4]][]
 
@@ -69,14 +69,14 @@ Daha önceki sürümlerde yakınlaştırma yapınca sadece metinleri büyüten
 Firefox yeni sürüm ile birlikte artık sayfanın tüm öğelerini
 yakınlaştırıp uzaklaştırma yapabiliyoruz.
 
-###### Her Sayfaya ayrı ayrı yetki tanımı
+#### Her Sayfaya ayrı ayrı yetki tanımı
 
 [![][5]][]
 
 Firefox 3 ile birlikte artık genel bir güvenlik tanımı yapmak yerine her
 sayfa ve siteye ayrı ayrı güvenlik ayarları tanımı yapabiliyoruz.
 
-###### Eklentiler Penceresi
+#### Eklentiler Penceresi
 
 [![][6]][]
 
@@ -84,7 +84,7 @@ Eklentiler penceresi daha kullanışlı ve özellikleri daha fazla. Artık
 eklenti penceresinden siteye gitmeden ekletileri arayabiliyoruz,
 hakkında bilgi alabiliyoruz, indirip kurabiliyoruz.
 
-###### CSS özelliklerinde düzeltmeler
+#### CSS özelliklerinde düzeltmeler
 
 CSS yorumlama konusunda gayet iyi sonuçlar veren Firefox3'ün sürüm ile
 birlikte daha önce eksik kalan özellikleri ekleyip tam bir CSS desteği
@@ -98,14 +98,14 @@ desteği*, *:default* pseudo-class, HTML soft hyphens (*&shy;*),
 *:first-child*, *:only-child*, *:last-child* ve *:empty desteği
 sunuyor.*
 
-###### Şifre Yönetimi
+#### Şifre Yönetimi
 
 Firefox 3.0 geliştiriciler bu sefer bayağı bir kullanıcı taraflı
 düzeltmeler yapmışlar bunlardan biri de şifre yönetimi. Eski
 versiyonlardaki yanlış şifreleri hafızada tutmak yerine sadece doğru
 şifreleri hafızasında tutarak bizlere kolaylık sağlıyor.
 
-###### Diğer Özellikler
+#### Diğer Özellikler
 
 Bunu haricinde Renk profili desteği, Geçmiş penceresinde yenilikler,
 haraketli PNG desteği, metin ve yazı tipi yorumlamada iyileştirmeler,
@@ -114,7 +114,7 @@ Mikroformat tanıma, Çevirimdışı uygulama kullanma olanağı, Adres
 arama, Mevcut oturumu kaydetme özelliği, yenilenen tab alanı, tema gibi
 bir çok yenilikler Firefox 3 kullanıcılarını bekliyor.
 
-###### Sonuç
+#### Sonuç
 
 Firefox 3.0 ile Mozilla firması kullanıcıları çok iyi tahlil
 edip(15.000'den fazla sorunu giderdiğini de unutmayalım) eksik ve aksak

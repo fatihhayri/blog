@@ -44,7 +44,7 @@ Ancak illa yorum kullanmalıyım derseniz onun içinde çözüm:
 Bu sorun [IE7][] versiyonunda giderilmiştir.
 
 </div>
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.positioniseverything.net/explorer/dup-characters.html][]
 -   [http://www.friendsofed.com/][]

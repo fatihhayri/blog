@@ -42,7 +42,7 @@ Ayrıca bu hata içerik alanına yükseklik tanımlaması yağıldığında da
 görülmeyecektir. Son yöntem float uygulanan elementin ve içerik alanının
 konumunu göreceli olarak belirlediğimizde de bu sorun görülmeyecektir.
 
-### Kaynak
+## Kaynak
 
 -   [http://www.positioniseverything.net/explorer/peekaboo.html][]
 

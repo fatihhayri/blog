@@ -40,7 +40,7 @@ ie7’de(6’yı kâle bile almıyorum :D) renk geçişinin uygulanmadığını 
 
 Ben tüm renk geçişi kodlarımın sonuna unutmazsam zoom:1 ekliyorum sizede öneririm.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://stackoverflow.com/questions/7257170/background-gradient-ie7-css-problem][]
 -   [http://stackoverflow.com/questions/213750/gradient-colors-in-internet-explorer][]

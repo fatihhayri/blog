@@ -16,7 +16,7 @@ bunlardan sadece ilkini float uygulanmış elementin yanına koymak
 istiyorsunuz, bu durumda ikinci paragrafa clear özelliği atadığınızda bu
 element float uygulanmış elementin altında konumlanacaktır.
 
-### float
+## float
 
 **Yapısı :** float: <deger> **Aldığı Değerler :**left | right | none |
 inherit **Başlangıç değeri:** none **Uygulanabilen elementler:** tüm
@@ -85,7 +85,7 @@ yükseklikte ise yükseliği düşük olan kutudan sonra gelen kutu bunun
 altında devam edecektir. Bu durumu düzeltmek için clear özelliği
 kullanılır bunu aşığda göreceğiz. ![][3]
 
-### clear
+## clear
 
 **Yapısı :** clear: <deger> **Aldığı Değerler :**none | left | right |
 both **Başlangıç değeri:** tanımsız **Uygulanabilen elementler:** tüm

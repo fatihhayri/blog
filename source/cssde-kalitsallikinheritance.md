@@ -101,7 +101,7 @@ body, td, th {font-size: 0.8em;}
 gibi bir tanımlama daha uygun bir tanımlama şeklidir.
 
 </div>
-###### *inherit* değeri
+#### *inherit* değeri
 
 CSS2 ile birlikte CSS özelliklerine *inherit* değeri atamamıza olanak
 sağlamaktadır. Tüm elementlere(kalıtsallık özelliği olmayanlar dahil)
@@ -120,7 +120,7 @@ alarak kenarlığı olacaktır. </div> </div>
 Kalıtsallığı kullanarak kodlarımızı azaltabiliriz. Ancak kalıtsallık
 nedeni ile de bir çok sorunla karşılaştığımızıda unutmayalım.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.simplebits.com/][]
 -   [http://www.devarticles.com][]

@@ -30,7 +30,7 @@ W3C başlıklarda kullanmamız için<h1\>,<h2\>,<h3\>,<h4\>,<h5\> ve
 W3C'nin başlık etiketlerinin kullanımının bize sağladığı avantajları
 sırası ile inceleyelim:
 
-### Hiyerarşi
+## Hiyerarşi
 
 Başlıklar doküman hiyerarşisini sağlamamıza yardımcı olur. Bir çok
 websitesinde başlıklar belli bir hiyerarşiye göre sıralanır ve bu
@@ -38,7 +38,7 @@ hiyerarşi metninanlaşılabilirliğini arttır ve sayfaları bir düzene
 sokar. <h1\> ve<h6\> sıralaması hiyerarşi için biçilmiş kaftandır.
 Örnek için [tıklayınız.][]
 
-### Arama Motoruna Uygunluk
+## Arama Motoruna Uygunluk
 
 Arama motorları için <hx\>'ler çokkullanışlıdır. <hx\> kullanımında
 arama motorlarıküçük çaba ile sayfadaki başlıkları öğrenebilmektedirler.
@@ -49,7 +49,7 @@ düşürürler. Ancak başlıkla ilgi üzerine çekilmişkelimeler arama
 motorları için bir velinimettir. Tabi arama motorlarının bizimsitemizi
 indekslemeside bizim için bir velinimettir.
 
-### Kolay Şekillendirme
+## Kolay Şekillendirme
 
 Kolay şekillendirilir. Çünkü <h1\> etiketi<b\> ve <p\> gibi CSS de
 tekil olarak atama yapılan bir etikettir. Bunedenle CSS tanımlaması
@@ -93,7 +93,7 @@ istedik.
 **padding-bottom** ile çizgi ile başlıkarasındaki boşluğu ayarladık ve
 **border-bottom** değeri ile debaşlık altına çizgiyi çizdik.
 
-### Değişebilir İkonlar
+## Değişebilir İkonlar
 
 CSS'i kullanarak başlıklarımızın soluna zemin resmi olarak bir ikon
 koyabiliriz. Bu metot ile başlıklardaki bir değişiklikile tüm sitedeki
@@ -165,7 +165,7 @@ Yukarıda yazdığımız kod daha genel bir kod yazımı için uygundur.
 
 Örneği görmek için [tıklayınız.][1]
 
-### MetinYerine Resim koyma Metodu ile Başlık Oluşturmak
+## MetinYerine Resim koyma Metodu ile Başlık Oluşturmak
 
 Bazen başlıkları resim yapmamız gerektiğidurumlar olabilir bunun için
 Metin Yerine Resim Koyma Metotlarından biriniuygulayabiliriz. Ayrıntılı

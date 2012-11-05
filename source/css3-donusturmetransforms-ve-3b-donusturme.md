@@ -49,7 +49,7 @@ elemanlar kapsayıcı eleman gibi 3. boyutu davransın demektir.
 [http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-transform-style.html][]
   
 
-### 3 Boyutlu Dönüşüm Fonksiyonları
+## 3 Boyutlu Dönüşüm Fonksiyonları
 
 2 Boyutlu dönüşümü tanımlarken kullandığımız transform özelliği 3
 Boyutlu tanımlarımız içinde geçerlidir. Farklı olan 3. boyutun
@@ -63,7 +63,7 @@ fonksiyonlarıdır.
 
 2 Boyutlu dönüştürme özelliklerine z-ekseni eklenmiş özelliklerdir.
 
-### Bakış Açısı(perspective)
+## Bakış Açısı(perspective)
 
 Perspective özelliği elemanların görüntüsünün bakış açısını
 değiştirmek(derinlik hissi) için kullanılır. perspective özelliği 3
@@ -127,7 +127,7 @@ sağdaki kutu
 
 Perspektifi anlamak için güzel bir örnek [http://www.ryancollins.me/?p=993][]
 
-### translateX, translateY, translateZ, translate3d
+## translateX, translateY, translateZ, translate3d
 
 translateX ve translateY tanımlarını dha önce 2 boyutlu Dönüştürme
 özelliklerinde incelemiştik. Şimdi de translateZ ve üçünü bir arada
@@ -168,7 +168,7 @@ Görünümü konumlandırma ile sağlayabilirdik ancak buradaki izometrik
 hissi transitions ve animasyon uygulamalarında daha çok ön plana
 çıkacaktır.
 
-### scaleX, scaleY, scaleZ, scale3d
+## scaleX, scaleY, scaleZ, scale3d
 
 2 boyutlu dönüştürmede bahsettiğimiz gibi scale özelliği elemanları
 büyütmek veya küçültmek için kullanılır. scaleX ve scaleY değerlerini
@@ -295,7 +295,7 @@ dönüşümleri yapmaya yarayan bir fonksiyon olarak tanımlayabilirim.
 
 Bu araç ile matrix3d daha kullanışlı oluyor.
 
-### perspective-origin
+## perspective-origin
 
 perspektif özelliği ile birlikte kullanılır, elemanın görüntülenen bakış
 açısının orijin noktasını değiştirmemizi sağlar. Elemanın perspektif
@@ -316,7 +316,7 @@ değiştiriyoruz.
 
 [http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-perspective-origin.html][]
 
-### transform-origin
+## transform-origin
 
 Dönüşümün orjin olarak nereye referans alacağını tanımlamamızı sağlar.
 
@@ -333,7 +333,7 @@ z tanımı z-eksenindeki mesafeyi belirtmemiz için kullanılmaktadır.
 
 [http://unformedbuilding.com/demo/2012/css-transforms/3d/3d-transform-origin.html][]
 
-### backface-visibility
+## backface-visibility
 
 Bu özellik 3 boyutlu elemanın arkasının gösterilip gösterilmeyeceğini
 belirliyor. visibility özelliği gibi işliyor. hidden ve visible
@@ -366,7 +366,7 @@ değerlerini alıyor.
 Yukarıda görüldüğü gibi ilk resimde elemanların arkası görünürken ikinci
 resimde gizlenmiştir.
 
-### Tarayıcı Desteği
+## Tarayıcı Desteği
 
 Yeni nesil tarayıcıların dahi son zamanlarda desteklediği 3 boyutlu
 dönüşüm özellikleri, sessiz tarayıcı güncellemeleri sayesinde Firefox,
@@ -386,7 +386,7 @@ Opera Mobile desteklemiyor
 Android Browser 3.0+ (-webkit- öneki ile)  
 {: .tarayiciuyum }
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.w3.org/TR/css3-3d-transforms/][]
 -   [http://www.queness.com/post/11403/embrace-the-awesome-css-3d-transforms][]

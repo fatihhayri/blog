@@ -40,7 +40,7 @@ oluşturan kısmıdır. Metin ve nesneler içerir. **Padding :** Elementin
 kenarındaki dolgu alanıdır. **Border :** Elementin kenarlıklarıdır.
 **Margin:** Elementin kenar boşluklarıdır.
 
-###### Box Model Sorunu ve Çözümü
+#### Box Model Sorunu ve Çözümü
 
 W3C'ye göre genişlik(ve yükseklik) değeri içerik alanı değeridir.
 padding ve border değerleri buna ek olarak toplam kutu genişliğine
@@ -79,7 +79,7 @@ sakla */ voice-family: ""}""; voice-family:inherit; width:200px; }
 html>body #icerik { width:200px; }  Not: Aynı şeyler
 yükseklik(height) içinde geçerlidir.
 
-###### Kaynaklar
+#### Kaynaklar
 
 -   [http://tantek.com/CSS/Examples/boxmodelhack.html][]
 -   [http://css-discuss.incutio.com/?page=BoxModelHack][]

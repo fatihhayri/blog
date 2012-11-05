@@ -32,7 +32,7 @@ Tanımı ile yapıyordum. Bu düşüncem tüm tarayıcılarda sorunsuz çalış�
 ie6 sorun çıkardı. İlk atanan genel resmini gösterdi sadece, bölüm
 resimlerini göstermedi.
 
-### Çözüm
+## Çözüm
 
 id ile atadığım genel ardalan resmi tanımı kaldırıp genel içinde bir
 sınıf(.bolumGenel) tanımladım ve bu sorunu aştım. Yani kodumu şöyle
@@ -50,7 +50,7 @@ hribar.info'nun yaptığı örnek güzel inceleyin.
 
 [http://hribar.info/static/projects/multi-class_ie6_bug/error.html][]
 
-###  Kaynaklar
+##  Kaynaklar
 
 -   [http://paulirish.com/2008/the-two-css-selector-bugs-in-ie6/][]
 -   [http://blog.solutionset.com/wpmu/2008/02/15/internet-explorer-id-class-bug/][]

@@ -10,7 +10,7 @@ Sayfalamada da aynı durum söz konusu benim için. Burada yaptığım
 araştırmayı sizlerle paylaşmayı düşünüyorum. Genel olarak sayfalama
 hakkında bir giriş yapalım sonra kodlamaya geçeriz.
 
-### Sayfalama
+## Sayfalama
 
 Web sitelerinde sayfalama genel olarak içeriğin uzun olduğu durumlarda
 kullanıcıya daha kullanabilir sayfalar üretmek için içeriğin belli
@@ -48,7 +48,7 @@ olmadanda kullanılabilir benim sitemde olduğu gibi. Ama benim tercihim
 liste elemanı ile oluşturmaktan yana çünkü tüm tasarımsal ihtiyaçları
 karşılayacak bir yapı bütünlüğü sağlıyor bize listeleme.
 
-### CSS ile Sayfalama
+## CSS ile Sayfalama
 
 **Sayfalama Örnek 1:**
 
@@ -196,7 +196,7 @@ Bu sayfalamalar dışında bir çok örneği bulabileceğiniz.
 [http://mis-algoritmos.com/2007/03/16/some-styles-for-your-pagination/][]
 sitesini ziyaret etmenizi öneririm.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://kurafire.net/log/archive/2007/06/22/pagination-101][]
 -   [http://mis-algoritmos.com/2007/03/16/some-styles-for-your-pagination/][]

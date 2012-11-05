@@ -23,7 +23,7 @@ yorumlayacak ve buna göre bir görünümü kullanıcıya sunacaktır. Web
 tarayıcıları kullanılan Döküman tip tanımlamasına(DTD-document type
 definition)göre sayfayı analiz eder.
 
-### Web Sayfalarını Doğrulama "Onaylama"
+## Web Sayfalarını Doğrulama "Onaylama"
 
 Güzel bir kodlama, (X)HTML dökümanın onyalanmış halidir. Web
 sayfalarımız doğrulamak için genelde [http://validator.w3.org/][] adresi
@@ -36,7 +36,7 @@ kontrol eder. Kodlarınızı belirli aralıklarla doğrulmayı unutmayın.
 şžunu unutmayalım ki web sayfasını doğrulamamız bunu en mükemmel kod
 olduğu anlamına gelmez. Ayrıntı için [tıklayınız][].
 
-### Web tarayıcı mod'ları
+## Web tarayıcı mod'ları
 
 Web tarayıcı üreticileri geriye dönük uyumluluğu sağlamak için
 standarlara uygun tarayıcılar çıkardıklar. Bunu başardılar, bu işlem
@@ -55,7 +55,7 @@ birimi piksel olarak tanınması vb. sorunlar olarak sıralayabiliriz.
 Mozilla ve Safaride bir üçüncü mod vardır, ancak Standart Mod'dan çok
 önemli bir farkı yoktur.
 
-### DOCTYPE Geçişleri
+## DOCTYPE Geçişleri
 
 Web tarayıcıları DOCTYPE bildirimi ve kullanılan DTD'ye göre tarama
 metodunu belirler. Bir dökümanda DOCTYPE tanımı yapılırsa bu sayfa

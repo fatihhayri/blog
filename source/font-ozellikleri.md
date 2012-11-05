@@ -15,7 +15,7 @@ sağlar. CSS fontlar üzerinde tam hakimolmamızı sağlar. <!--more-->
 -   font-variant
 -   font
 
-### color
+## color
 
 <div class="cssozelliktanimi">
 **Yapısı :** color: <deger> **Aldığı Değerler :**<[renk][]> |
@@ -36,7 +36,7 @@ Renk kullanımına daha önce değinmiştik. Detay için [tıklayınız.][renk]
 W3C's CSS Level 1+
 
 </div>
-### font-family
+## font-family
 
 <div class="cssozelliktanimi">
 **Yapısı :** font-family : [[<font aile ismi > | <soysal aile ismi >],]* [<font aile ismi > | <soysal aile ismi >] | inherit **Aldığı
@@ -76,7 +76,7 @@ Roman", serif; }
 W3C's CSS Level 1+
 
 </div>
-### font-size
+## font-size
 
 <div class="cssozelliktanimi">
 **Yapısı :**font-size: <kesin değerler > | <göreceli değerler > |
@@ -109,7 +109,7 @@ belirlemek için bir çok birim kullanılır. Örn: px, em,pt, in, cm vd.
 W3C's CSS Level 1+
 
 </div>
-### font-weight
+## font-weight
 
 <div class="cssozelliktanimi">
 **Yapısı :**font-weight: <değer> **Aldığı Değerler :**normal |
@@ -130,7 +130,7 @@ ve normal değerlerini de alır.
 W3C's CSS Level 1+
 
 </div>
-### font-style
+## font-style
 
 <div class="cssozelliktanimi">
 **Yapısı :**font-style: <değer> **Aldığı Değerler :** normal | italic
@@ -149,7 +149,7 @@ oblique; }
 W3C's CSS Level 1+
 
 </div>
-### font-variant
+## font-variant
 
 <div class="cssozelliktanimi">
 **Yapısı :**font-variant: <değer> **Aldığı Değerler :**normal |
@@ -171,7 +171,7 @@ W3C's CSS Level 1+
 </div>
 Türkçe karakterlerde sorun çıkardığı unutulmamalı
 
-### font
+## font
 
 Yukardı anlatılan font özelliklerinin hatta ek olrak **line-height**
 değerinide tek sefer de tanımlamak için kullanılır. Bir [kısaltmadır][].

@@ -124,7 +124,7 @@ avantaj sağlar.
 
 Örnek uygulamayı görmek için [tıklayınız][]
 
-### Kaynaklar
+## Kaynaklar
 
 -   [CSS Mastery: Advanced Web Standards Solutions - Andy Budd][]
 -   [http://www.frankmanno.com/ideas/css-imagemap/][]

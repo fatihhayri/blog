@@ -254,7 +254,7 @@ anlayacağız.
 versiyonundan itibaren desteklemeye başlamıştır. Bu nedenle kullanımı
 konusunda dikkat etmeliyiz.
 
-### Genel Kardeş Seçicisi
+## Genel Kardeş Seçicisi
 
 CSS2.1 ile birlikte gelen bitiş kardeş seçicilerine benzer bir
 seçicidir. Bitişik kardeş seçicisine göre daha seçici ve kullanışlı bir

@@ -4,7 +4,7 @@ Date: 2010-01-06 01:09
 Category: CSS, Web Standartları, XHTML
 Tags: adım adım kodlama, CSS, css-kodlama-düzeni, CSS-Layout, farklı tarayıcılara göre kod yazmak, ie6, kapsayamama-sorunu, Kutu-Modeli, psdtohtml, site-kodlama
 
-### Ana Sayfa Kodlaması
+## Ana Sayfa Kodlaması
 
 Bir önceki makalemde sizlere kodlamaya başlamadan önceki süreci
 anlattım. Şimdi sizlerle sitenin Ana Sayfasını nasıl kodladığımı
@@ -66,7 +66,7 @@ ardalan resmi olarak tanımlayabiliriz.
 
 [![][2]][]
 
-### Üst Alanın Kodlaması
+## Üst Alanın Kodlaması
 
 Eskizdeki gibi sayfayı belli bölümlere ayırarak kodluyorum. **ustAlan**
 tanımlamasını yaparken kendi genel standart isimlendirme sistemimi
@@ -160,7 +160,7 @@ genişlik ve yükseklik tanımı yaptım. Ana kapsayıcı katmanın dışına
 korkmuyoruz"<strong>Didier Deschamps</strong></p> </div>
 
 
-### İçerik Alanının kodlaması
+## İçerik Alanının kodlaması
 
 [![][3]][]
 
@@ -323,7 +323,7 @@ text-indent:-9999px; margin-left:10px}
 
 Böylece sol kolon kodlamasını bitirdik.
 
-### Orta İçerik Alanının Kodlanması
+## Orta İçerik Alanının Kodlanması
 
 Orta içerik alanının genişlik ve float tanımı yapıyoruz.
 
@@ -441,7 +441,7 @@ background:url(../images/takim_logolari.gif) right 0 no-repeat;
 padding:8px 30px 8px 0; color:#0c2b90; text-decoration:underline}
 a.takimLogo:hover{text-decoration:none;} 
 
-### Sağ İçerik Alanının Kodlanması
+## Sağ İçerik Alanının Kodlanması
 
 İçerik alanı 3 kolonlu yapının sonuncu kolonuna (sagIcerikAlani) ismini
 verdik ve diğer kolonları yanında durması için genişlik tanımı ve
@@ -544,7 +544,7 @@ ul.oylama a.ucYildiz{left: 34px;} ul.oylama a.ucYildiz:hover{width:
 a.dortYildiz:hover{width: 68px;} ul.oylama a.besYildiz{left: 68px;}
 ul.oylama a.besYildiz:hover{width: 85px;} 
 
-### Sosyal Alanın ve Alt Alanın Kodlanması
+## Sosyal Alanın ve Alt Alanın Kodlanması
 
 [![][7]][]
 
@@ -666,7 +666,7 @@ içinde tek kullanımlık html elemanları koyarak css kodlamayı daha kolay
 hale getiriyorum. Burada mesela tek a, tek p, tek input ve tek button
 kullanmamın nedeni bu.
 
-### Sonuç
+## Sonuç
 
 Bu makaleye kodlama yazarken tuttuğum notlardan yararlanarak hazırladım.
 Bazı bölümleri hızlı geçmiş, ayrıntısına inmemiş olabilirim, kafanıza

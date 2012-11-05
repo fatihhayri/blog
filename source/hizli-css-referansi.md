@@ -42,7 +42,7 @@ gösterir. Örneğin:
 	 p.deneme { border-style: solid dashed dotted
 solid; } 
 
-#### CSS - Zemin(BACKGROUND) Özellikleri
+### CSS - Zemin(BACKGROUND) Özellikleri
 
 ![Kutu Modeli][]
 
@@ -62,7 +62,7 @@ Zemin özelliklerini tek tek incelersek:
 -   background-position
 -   background
 
-### background-color
+## background-color
 
 Elementlerin zeminine bir renk atamak için kullanılır.
 
@@ -82,7 +82,7 @@ Elementlerin zeminine bir renk atamak için kullanılır.
 W3C's CSS Level 1+
 
 </div>
-### background-image
+## background-image
 
 Elementlerin zeminine resim eklemek için kullanılır.
 
@@ -103,7 +103,7 @@ url(/images/deneme.gif) }
 W3C's CSS Level 1+
 
 </div>
-### background-repeat
+## background-repeat
 
 **background-repeat** özelliği **background-image** ile zemine eklenen
 resmin tekrarı ile özellikleri belirler.
@@ -125,7 +125,7 @@ background-repeat: repeat-x; }
 W3C's CSS Level 1+
 
 </div>
-### background-attachment
+## background-attachment
 
 **background-attachment** özelliği zemine eklenen resmin sayfa ile
 scroll etmesini veya sayfanın zeminin de çakılı kalmasını sağlar.
@@ -147,7 +147,7 @@ background-attachment: fixed; }
 W3C's CSS Level 1+
 
 </div>
-### background-position
+## background-position
 
 **background-position** özelliği **background-image** ile belirlenen
 resmin başlangıç noktasını belirler. Bu özellik sadece [block-level][]
@@ -203,7 +203,7 @@ background-repeat: no-repeat; background-position: center; }
 W3C's CSS Level 1+
 
 </div>
-### background
+## background
 
 Bu özellik Zemin(background) ile ilgili tüm özelliklerin bir arada
 kullanımı sağlar.

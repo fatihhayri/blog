@@ -24,7 +24,7 @@ olmayan etiketi nasıl düzenlerim diye araştırdım ve sonucu sizlerle
 paylaşmak istedim.
 
 </div>
-### <hr> Elementi hangi özellikleri destekliyor
+## <hr> Elementi hangi özellikleri destekliyor
 
 -   **width** ve **height** değerini tüm web tarayıcıları destekliyor.
 -   **border** özelliği Explorer ve Firefox destekliyor. Opera
@@ -49,7 +49,7 @@ height: 5px; }
 özelliklerin her ikisini de kullanmalıyız. Yüksekliği 3px'in altındaki
 değerler için Opera'nın eski sürümleri sorun çıkarıyor.
 
-### <hr /> hizalama
+## <hr /> hizalama
 
 <hr /> etiketini hizalamada IE için **text-align** özelliği, Firefox
 ve Opera için **margin** özelliği kullanılır.
@@ -66,7 +66,7 @@ bölme işareti(/) konarak bu işlem gerçekleştirilir. Örn: <img src=""
 />, <br />, <meta /> gibi.
 
 </div>
-### <hr/> resim kullanmak
+## <hr/> resim kullanmak
 
 Web sitelerinde bölümleri ayırmak için basit resimler kullanırız. Bu
 amaçla <hr /> elementini kullanabiliriz. Bu işlem için
@@ -105,7 +105,7 @@ es geçmeliyiz. İkincisi <hr> elementine margin ve/veya padding tanımı
 yaptığımızda bazı web tarayıcılarında kaymalara neden oluyor, bu sorunu
 çözmek için margin ve/veya padding değerini <div> vermeliyiz.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.sovavsiti.cz/css/hr.html][]
 -   [http://sonspring.com/journal/styling-hr][]

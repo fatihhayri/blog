@@ -34,7 +34,7 @@ konumlandırma öğeleleri kullanarak sayfa oluşturma ve eksi margin değeri
 ile sayfa oluşturma metodlarıda vardır. Ancak biz burada bunlara
 değinmeyeceğiz.
 
-###### Sabit Genişlikteki Sayfalarda İki Kolonlu Yapı
+#### Sabit Genişlikteki Sayfalarda İki Kolonlu Yapı
 
 ![][]
 
@@ -84,7 +84,7 @@ yapmaktır.
 Basit yapılı sayfalarda ikinci yöntemi, karmaşık yapılı sayfalarda ise
 birinci yöntemi denemenizi öneririm.
 
-###### Likit Sayfalarda İki Kolonlu Yapı
+#### Likit Sayfalarda İki Kolonlu Yapı
 
 Likit Sayfalarda Sabit Genişlikteki Sayfalar'dan farklı olarak genişlik
 değerleri piksel(px) olarak değil yüzde(%) olarak verilmesidir. Bu tür
@@ -101,7 +101,7 @@ both; }
 
 Örnek kodu görmek için [tıklayınız.][1]
 
-###### 3 Kolonlu Yapı
+#### 3 Kolonlu Yapı
 
 ![][2]
 

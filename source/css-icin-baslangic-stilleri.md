@@ -3,7 +3,7 @@ Date: 2007-05-23 14:41
 Category: CSS, XHTML
 Tags: CSS, XHTML
 
-###### **Kodunuza Yorum Yapın**
+#### **Kodunuza Yorum Yapın**
 
 Farklı web tarayıcılarının kodları farklı şekilde yorumlamalarından
 dolayı hızlı CSS kodlamak zorlaşıyor. Tasarımlar her web tarayıcısında
@@ -27,7 +27,7 @@ bize dokümanı tekrar incelerken ve değişiklik yaparken yardımcı olur.
 8.  version geçmişi : [dosyanın bulunduğu yer]  
 9.  -------------------------------------------------------------------------*/
 
-###### **Stil Dosyanızı Nasıl Bölümleyeceğinize Karar Verin**
+#### **Stil Dosyanızı Nasıl Bölümleyeceğinize Karar Verin**
 
 Çoğu zaman bir tek stil dosyasıyla paçayı kurtarabileceğimi keşfettim.
 Hatta bazen birden fazla stil dosyası gerektirecek kadar büyük sitelerde
@@ -39,7 +39,7 @@ dosyamın içinde, başka bir stil dosyasını çekebileceğim bir bölümüm va
 2.  -------------------------------------------------------------------------*/  
 3.  @import url("typography.css");
 
-###### **Başlangıç Stillerini Sıfırlamak -Silmek-**
+#### **Başlangıç Stillerini Sıfırlamak -Silmek-**
 
 [Tantek Celik][] (Türkçe örnek dosya için [tıklayınız.][]) elementlerden
 başlangıç stillerini silmek için bir stil dosyası yazdı. Buna bir
@@ -61,7 +61,7 @@ uyguluyorlar. Nerden başladığımı bilmek bence mantıklı geliyor. Bu basit
 kural bütün elementlerin başlangıçta margin, padding ve border’larının
 olmadığını bilmemi sağlıyor.
 
-###### **Floating ve Clearing için Sınıflar Yapmak**
+#### **Floating ve Clearing için Sınıflar Yapmak**
 
 Sonra clearing için bir sınıfım ve bundan başka [Andy Budd][] ve onun
 [mükemmel kitabından][] öğrendiğim bazı şeyler var. Floatlan’mış
@@ -82,7 +82,7 @@ gider. Bunları resimler için oldukça fazla kullanırım.
 11. float: left;  
 12. }
 
-###### **Dökümanı Ayarlamak -Kurmak-**
+#### **Dökümanı Ayarlamak -Kurmak-**
 
 Font büyüklüğünün ve renginin body etiketinde atanmasının, bir dökümanın
 başlangıç ayarı için iyi bir yapı olduğunu düşündüm. Burada bir arkaplan
@@ -112,7 +112,7 @@ beyaz bir arka plan uygular.
 14. background-color: #FFFFFF;  
 15. }
 
-###### **Tipografinin Düzenlenmesi**
+#### **Tipografinin Düzenlenmesi**
 
 Sonra öntanımlı font büyüklüklüklerini ayarlamak isterim. Richard
 Rutter'in methodunu kullanarak öntanımlı büyüklüğün 10 pt olduğunu
@@ -143,7 +143,7 @@ biliyoruz. Böylece kesin doğru boyutlandırma yapabiliriz.
 23. font-size: 1.2em;   
 24. }
 
-###### **Bölümlerin Oluşturulması**
+#### **Bölümlerin Oluşturulması**
 
 Büyük CSS dökümanlarını yönetmek zordur. Ben stil dosyalarımı,
 sayfaların veya şablonların bölümlerini kullanarak ayırırım. Her proje
@@ -161,7 +161,7 @@ sonra eğer önemliyse değiştiririm.
 9.  /* Your template  
 10. -------------------------------------------------------------------------*/
 
-###### **Formlar**
+#### **Formlar**
 
 Formlarda başlangıç olarak, yazıyı kutunun kenarından öteye taşımak için
 text giriş kutularına birazcık padding veririm ve kutuya gri border
@@ -175,7 +175,7 @@ rengi veririm.
 6.  border: 1px solid #999999;   
 7.  }
 
-###### **Tablolar**
+#### **Tablolar**
 
 Son olarak tablolar için yine [Andy Budd'un][] başlangıcını kullanırım.
 Böylece tablo içinde nerde olduğumu biliyorum. Bunun çok işe yaradığını
@@ -194,7 +194,7 @@ düşünüyorum.
 11. font-weight: normal;  
 12. }
 
-###### **Başlangıç XHTML**
+#### **Başlangıç XHTML**
 
 Başlangıç XHTML kodum aşağıdaki gibidir. Normalde print stil dosyama
 ikonları ve RSS beslemelerini proje progresses -?- olarak eklerim.
@@ -221,7 +221,7 @@ ikonları ve RSS beslemelerini proje progresses -?- olarak eklerim.
 17. </body>  
 18. </html>
 
-###### **Kişisel Seçim Meselesi**
+#### **Kişisel Seçim Meselesi**
 
 Tabii ki kodlamaya başlarken başlangıç şablonu kullanmak için
 anlattıklarımın en iyi yol olduğunu söylemiyorum. Fakat bence işe

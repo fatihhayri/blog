@@ -110,7 +110,7 @@ azalma olacağını düşünüyorum.
 onhashchange özelliğini ie8+
 https://developer.mozilla.org/en/DOM/window.onhashchange
 
-### Diğer Kazanımlar
+## Diğer Kazanımlar
 
 -   inline-block özelliğini sorunsuz kullanacağız artık.
     **display:inline-block** tanımını kullanımında ie6 ve ie7 için
@@ -163,7 +163,7 @@ https://developer.mozilla.org/en/DOM/window.onhashchange
     [http://www.quirksmode.org/css/tables.html][]
 -   [http://ajaxian.com/archives/display-table][]
 
-### Sonuç
+## Sonuç
 
 Microsoft’un tarayıcı üretimindeki umursamaz tutumu sonucu oluşmuş ie7
 tarayıcısının kullanım oranının hızla düştüğü bu günlerde ie7 sonrası
@@ -188,7 +188,7 @@ düşünüyor.
 Son olarak [Internet Explorer 8′i 7 gibi yorumlama kodu][] eklediğiniz
 sitelerden kaldırmayı unutmayın.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://blogs.msdn.com/b/ie/archive/2008/03.aspx][]
 -   [http://blogs.msdn.com/b/ie/archive/2008/03/07/internet-explorer-8-beta-1-for-developers-standards-highlights.aspx][]

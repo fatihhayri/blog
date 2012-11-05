@@ -18,7 +18,7 @@ Aslında yüksekliğin %100 olması alt alanın web tarayıcısının alt kısm�
 yapıştırılması ile elde ediyoruz.
 
 </div>
-###### İki Kolonlu Yapı
+#### İki Kolonlu Yapı
 
 ![İki Kolon][]İlk olarak başlığı, iki kolonlu içeriği(solda menü, sağda
 içerik) ve alt kısmı olan bir sayfa iskeleti oluşturalım. Burada sol
@@ -75,7 +75,7 @@ Alt alanın web tarayıcısının küçültülmesi durumunda veya düşük ekran
 anlamlı(semantik) kod yazma kuralının dışına çıkıyoruz ama bu kadar
 kusur kadı kızında da olur.:D
 
-###### Üç Kolonlu Yapı
+#### Üç Kolonlu Yapı
 
 ![Üç kolon][]Şimdide 3 kolonlu olanını yapalım. İki kolonlu ile üç
 kolonlu arasında pek bir fark yoktur aslında. Sadece **.icerikAlani**
@@ -124,7 +124,7 @@ right; width: 15em; }
 
 Kodlar IE6, IE7 ve FF da denenmiştir.
 
-###### Kaynak:
+#### Kaynak:
 
 -   [http://www.maxdesign.com.au/presentation/liquid/example02.htm][]
 -   [http://ryanfait.com/sticky-footer/][]

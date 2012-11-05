@@ -3,7 +3,7 @@ Date: 2006-11-21 17:03
 Category: CSS, Web Standartları, XHTML
 Tags: arkaplan-resmi, background, CSS, Image-Replacement, menü, resimli-menü, Web Standartları, XHTML, zemin-resmi
 
-### "Arkaplan Resmi kaydırmaca" ile Resimli Menüler
+## "Arkaplan Resmi kaydırmaca" ile Resimli Menüler
 
 Arkaplan Resmi kaydırmaca tanımlamasını [cemsid][]'den aldım. CSS ile
 menü yapımı serimize devam ediyoruz. CSS ile yapılan bir çok menü örneği

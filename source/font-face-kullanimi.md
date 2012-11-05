@@ -3,7 +3,7 @@ Date: 2009-10-29 19:15
 Category: CSS, XHTML
 Tags: farklı tarayıcılara göre kod yazmak, font-face, yazı tipi, yazı tipi gömme
 
-### @font-face Genel Bilgi
+## @font-face Genel Bilgi
 
 @font-face özelliği web sitelerimizde sistemde yüklü olmayan yazı
 tiplerini kullanma imkanı verir. @font-face kodu ile kullanıcının
@@ -32,7 +32,7 @@ Kaynak: [Vikipedia][]
 
 <!--more-->
 
-### @font-face Yazı tipi Çeşitleri
+## @font-face Yazı tipi Çeşitleri
 
 @font-face kullanımında farklı tarayıcılar farklı yazı tipi dosya
 uzantılarını desteklediği için birden fazla yazı tipi dosyası
@@ -90,7 +90,7 @@ sahibi ile paylaşmak istedi, sağ olsun Ethan ilgilendi ve aracı
 geliştirdi. Buradan Ethan'a tekrar teşekkürlerimi sunuyorum. Thanks,
 Ethan  
 
-### @font-face Kodu
+## @font-face Kodu
 
 Evet yazı tipi dosyalarımız hazırsa kodumuzu yazmaya başlayabiliriz.
 @font-face kod yapısı
@@ -162,7 +162,7 @@ sans-serif;}
 Örnek sayfayı görmek için [tıklayınız.][] Yazı tipi özgürlüğüne hoş
 geldiniz. 
 
-### @font-face Yükleme Zamanı
+## @font-face Yükleme Zamanı
 
 Kullanıcının bilgisayarına yükletilen yazı tipi dosyaları yüklü dosyalar
 olabiliyor. Sitede kullanılmayacak bazı yazı tipi karakterleri
@@ -190,7 +190,7 @@ Ayrıntılı bilgi için [tıklayınız.][2]
 Yazı tipi dosyaları ön belleğe alındığı için kullanıcının sonraki
 ziyaretlerinde daha az bekleme yapacaktır.
 
-### @font-face Sorunları
+## @font-face Sorunları
 
 -   Örnek sayfamıza farklı tarayıcılarda baktığımızda her bir
     tarayıcının ufak tefek farklılıklarla sayfayı gösterdiğini
@@ -245,7 +245,7 @@ ziyaretlerinde daha az bekleme yapacaktır.
     görürler, ne zaman yazı tipi yüklenirse o zaman özel yazı tipimizi
     görürler.
 
-### @font-face'in Geleceği ve Sonuç
+## @font-face'in Geleceği ve Sonuç
 
 Genel olarak küçük boyutlu fontlar güzel görünürken büyük boyutlu
 fontlarda iyi görüntü alamayabiliyoruz. Ayrıca kıvrımlı hatlara sahip
@@ -270,7 +270,7 @@ Yazı tipi özelinde Tipografi genelindeki bu konuda araştırdığımız ve
 ve derin olduğu için bir çok yönden eksik kalmış olabilir. Bir kusurumuz
 aksaklığımız oldu ise affola.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.useragentman.com/blog/2009/09/20/font-face-in-depth/][]
     (ayrıntılı makale)

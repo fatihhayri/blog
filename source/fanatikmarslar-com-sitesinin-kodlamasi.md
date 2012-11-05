@@ -31,7 +31,7 @@ böldüm
 -   II - Ana Sayfa Kodlaması
 -   III - Alt Sayfaların Kodlaması
 
-### I - Kodlama Öncesi Hazırlıklar
+## I - Kodlama Öncesi Hazırlıklar
 
 Projelere başlamadan önce tüm projelerde kullandığım klasör yapısını
 sizlerle paylaşmak isterim. İkonlar Windows Vista'nın kütüphanesinden,

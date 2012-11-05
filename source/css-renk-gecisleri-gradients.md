@@ -265,7 +265,7 @@ değerleri alabilir.  
 Radyal renk geçişinin doğrusal renk geçişinden farklı olarak size(boyut)
 tanımları vardır. Boyut değerlerini tek tek inceleyelim.
 
-### Boyut Değerleri
+## Boyut Değerleri
 
 closest-side: Dairelerde, merkezden kutunun kenarına kadar anlamındadır.
 Elipslerde ise merkezden yatay ve dikey kenarlarının yakınına kadar

@@ -24,7 +24,7 @@ optimum kod elde edelim.
 
 ![css_duzenleme2][]
 
-### 1. CSS doküman indeksini oluşturun
+## 1. CSS doküman indeksini oluşturun
 
 CSS dokümanınız indeksini hazırlayınız. Büyük projelerde tercih edilecek
 bir husus bence. Şimdiye kadar hiç uygulamadım ama büyük projelerde
@@ -40,7 +40,7 @@ uygulamanın yararlı olacağını düşündüğüm bir uygulama
 -------------------------------------------------------------------*/
 
 
-### 2. CSS dokümanınıza imzanızı atın
+## 2. CSS dokümanınıza imzanızı atın
 
 Kod yazarının veya yazarlarının imzası ve genel bilgilerini yazarak
 kodlarımızı başlamalıyız.(Bende bunu ara sıra unutuyorum. Ama unutmamak
@@ -54,7 +54,7 @@ http://myk-medya.com/ yahoyt.com fatih hayrioglu 28 Mayis 2009 ie6, ff,
 opera. chrome, safari ************************
 ************************/ 
 
-### 3. Seçici isimlendirirken standart ve anlamlı isimler verin
+## 3. Seçici isimlendirirken standart ve anlamlı isimler verin
 
 Seçici isimleri ve genel isimlendirmede bir standardı oturtun.
 
@@ -87,7 +87,7 @@ Bu standardı herkes kendince yapabilir. Benim önerim aynı projede
 hoş olmuyor. Göz aşina olmayınca bir eksik hissediyor insan kod
 yazarken.
 
-### 4. Kısaltma kullanın.
+## 4. Kısaltma kullanın.
 
 CSS tanımlarında kısaltmaları kullanın. CSS kısaltmaları hakkında daha
 fazla bilgi için [http://www.fatihhayrioglu.com/cssde-kisaltmalar/][]
@@ -103,7 +103,7 @@ yerine
 	 font: bold 11px/15px verdana, sans-serif;
 
 
-### 5. CSS dokümanlarınızı anlamlı bölümlere ayırın.
+## 5. CSS dokümanlarınızı anlamlı bölümlere ayırın.
 
 Büyük projelerde css dokümanlarını birden fazla bölümlere ayırarak daha
 düzenli ve kolay kodlanabilir dokümanlar elde ederiz.
@@ -134,7 +134,7 @@ inline-block;} /* IE-mac de bu bolumu sakla  */ * html
 .kapsayamamaSorunu{height: 1%;} .kapsayamamaSorunu {display: block;} /*
 IE-mac bu bolumu saklam artik */ /*kapsayamam sorunu */ 
 
-### 6. Her satıra bir tanım yöntemini kullanın
+## 6. Her satıra bir tanım yöntemini kullanın
 
 CSS özelliği tanımlarken her satıra bir tanım yazarak daha uygun kod
 elde edebiliriz.
@@ -172,7 +172,7 @@ margin-right:13px} #icerikOzu{float:left; clear:left;
 margin-top:20px}    #sagIcerikAlani{float:left; width:300px;
 margin:0;}   
 
-### 7. Kodlarınızı yorum satırları ile açıklayıcı hale getirin.
+## 7. Kodlarınızı yorum satırları ile açıklayıcı hale getirin.
 
 Kodumuzun anlaşılabilir olması için yorum satırları eklemeliyiz.
 Bölümleri ve özel alanları yorum kodu ile belirleyerek anlaşılabilirliği
@@ -191,7 +191,7 @@ padding-top:20px;} /*sol icerik alani */    
 */ #sagIcerikAlani{float:left; width:300px; margin:0;}       
 
 
-### 8. CSS özellik tanımlarını sıralayın.
+## 8. CSS özellik tanımlarını sıralayın.
 
 Özellik tanımlarında sıralama uygulayın. Özellik tanımlarında şablon
 tanımlarını başta yazmak. CSS tabanlı kodlama yazarken site yapısını
@@ -214,7 +214,7 @@ Sıralayı şöyle yapmak mantıklı olacaktır.
 -   Metin tanımları (font, line-height, color)
 -   Diğer özellikler
 
-### 9. Çalışma gruplarınızda ortak standardınızı oluşturun.
+## 9. Çalışma gruplarınızda ortak standardınızı oluşturun.
 
 Bir projede beraber çalıştığınız insanlarla aynı kodlama düzeninde
 çalışması çok önemlidir. Projede çalışan kişilerin bir araya gelip ortak
@@ -223,7 +223,7 @@ açısından büyük katkı sağlayacaktır. Ayrıca css düzeltmelerinde(hack) 
 aynı şey söz konusu. Mümkünse aynı css düzeltmelerini kullanmanız ortak
 çalışılan projelerde size kolaylık sağlayacaktır.
 
-### 10. CSS Editör araçlarından yararlanın
+## 10. CSS Editör araçlarından yararlanın
 
 Daha öncede [yazdığım][] gibi css editörü olarak Adobe Dreamweaver
 kullanıyorum. Bunun bir kaç sebebi var. Eskiden beri kullana gelmenin
@@ -264,7 +264,7 @@ en iyi editör.
 
 ![hiza_cizgileri][]
 
-### Sonuç
+## Sonuç
 
 Burada ben kullandığım ve araştırma sonucu elde ettiğim css düzeninden
 bahsettim. Bu stadartları kendinize göre değiştirebilir ve kendi
@@ -315,7 +315,7 @@ margin:0;}                
 altAlan */ #altAlan{clear:left; background-color:#404040;
 padding:12px; margin-bottom:20px;} 
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.webdesignerdepot.com/2009/05/10-best-css-practices-to-improve-your-code/][]
 -   [https://developer.mozilla.org/en/Underscores_in_class_and_ID_Names][]

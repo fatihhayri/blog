@@ -103,7 +103,7 @@ için elimizden gelen pek bir şey olmuyor açıkçası. 
 
 Ne diyelim Internet Explorer 6'ya ölüm.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://wisdump.com/web-programming/campaigns-to-kill-the-web-browser-that-just-wont-die-internet-explorer-6/][]
 -   [http://cdharrison.com/2008/09/04/death-to-ie6/][]

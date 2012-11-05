@@ -18,7 +18,7 @@ sıralanmıştır.
 
 <!--more-->
 
-### Overflow
+## Overflow
 
 **Yapısı:** overflow: <deger>  
 **Aldığı Değerler:** visible | hidden | scroll | auto | inherit  
@@ -141,7 +141,7 @@ W3C's CSS Level 3+
 CSS Profile 3.0
 
 </div>
-###### clip
+#### clip
 
 **Yapısı :** clip: rect(<üst>,<sağ>,<alt>,<sol>)  
 **Aldığı Değerler :** rect(top, right, bottom, left) | auto | inherit  
@@ -205,7 +205,7 @@ src="recepemice.jpg" alt="ahmet emice" /> </div>
 
 Örneği görmek için [tıklayınız.][2]
 
-### visibility
+## visibility
 
 **Yapısı :** visibility: <deger>  
 **Aldığı Değerler :** visible | hidden | collapse | inherit  
@@ -279,7 +279,7 @@ hidden etkisi yapar. Ancak burada bir fark var gizlene elementler yerini
 korumaz. Ayrıca bu özelliği tüm tarayıcılar desteklemiyor, bunun yerine
 display:none özelliği kullanılır.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.w3.org/TR/CSS21/visufx.html][]
 -   [http://www.seifi.org/css/creating-thumbnails-using-the-css-clip-property.html][]

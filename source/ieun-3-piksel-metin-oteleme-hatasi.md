@@ -75,7 +75,7 @@ yazdığımızı düşünürsek bayağı bir zaman daha bu kodları yazmamız
 gerekiyor:/
 
 </div>
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.positioniseverything.net/explorer/threepxtest.html][]
 -   [http://www.simplebits.com/notebook/2004/07/30/3pixels.html][]

@@ -15,7 +15,7 @@ Transform özelliği 3d’ye göre tarayıcı desteği konusunda çok avantajlı
 Bu makalede CSS3 transform 2 Boyutlu Dönüştürme konusunu inceleyeceğiz.
 3 Boyutlu Dönüştürme konusuna daha sonra değineceğim.
 
-### 2 Boyutlu Dönüştürme(2d Transform)
+## 2 Boyutlu Dönüştürme(2d Transform)
 
 CSS 2d Transform özelliği  iki boyutlu düzende elemanları dönüştürmeye
 olanak sağlıyor. Tabi böyle tanımlama yaparak anlamak zor en kolayı
@@ -34,7 +34,7 @@ Dönüştürme özellikleri desteğini her tarayıcı kendi ön eki ile
 sağlamaktadır. Ben burada tanımlamalarımı standart olan özellik ile
 göstereceğim, tabi örneklerde tüm tarayıcı kodlarını kullanacağım.
 
-### transform Özelliği
+## transform Özelliği
 
 transform özelliği **none**, bir veya daha fazla transform değeri alır.
 
@@ -60,7 +60,7 @@ Uygulandığı paragrafı kendi orijin noktasına göre 75px sağa ve 150px
 aşağıya öteleyecektir. Göreceli bir tanımda(örn: % gibi) referans olarak
 elemanın kapsayıcısını değil kendi orijinini alacaktır.
 
-### transform-origin Özelliği
+## transform-origin Özelliği
 
 Dönüşümün orjin olarak nereye referans alacağını tanımlamamızı sağlar.
 
@@ -101,7 +101,7 @@ tanımlanmıştır, bu nedenle eleman sol tarafın dikey ortasına göre
 dönmüştür. En son örnekte 100% 50% tanımı yapılmıştır, bu nedenle bu
 örnek sağ tarafa dualı dikeyde ortalı bir şekilde döndürülmüştür.
 
-### Dönüşüm Fonksiyonları
+## Dönüşüm Fonksiyonları
 
 Dönüşüm fonksiyonlar translate(değiştir - dönüştür), rotate(döndürme),
 scale(ölçeklendirme) ve skew(eğme) olmak üzere 4 adettir. Birde rotate
@@ -326,7 +326,7 @@ Bir tanede animasyonlu bir örnek yapalım.
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/bGunN/1/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-### Çoklu Değer Kullanımı
+## Çoklu Değer Kullanımı
 
 Dönüşüm fonksiyonları yukarıda tanımladığımız gibi tek tek
 tanımlanabildiği gibi kısaltma olarak arada boşluk bırakılarak
@@ -341,7 +341,7 @@ Böylece kodlamamızda bayağı bir kısaltmaya gitmiş oluruz. Çoklu tanım
 uygulandığında bu fonksiyonlar soldan sağa doğru sırası ile
 uygulanacaktır.
 
-### Matris Sistemi
+## Matris Sistemi
 
 [w3c’nin geliştirmekte olduğu matris sistemi][] ile transform tanımı
 yapımı karmaşık bir yapıya sahiptir. Muhtemelen kullanmayacağımız bir
@@ -363,7 +363,7 @@ Matris değerleri hakkında daha fazla bilgi için
 [http://www.w3.org/TR/SVG/coords.html#EstablishingANewUserSpace][]
 inceleyin.
 
-### Çevrimiçi Dönüşüm Aracı
+## Çevrimiçi Dönüşüm Aracı
 
 CS3 bize birçok kolaylık sağlamaktadır. Bununla birlikte kodlama biraz
 karmaşık hal almaktadır. Bu karmaşayı engellemek amacı ile de çeşitli
@@ -388,7 +388,7 @@ ie6-8 için çözüm [http://www.useragentman.com/IETransformsTranslator/][]
 sitesindeki araç ile üretilmiştir. Dönüştürme kadar esnek olmasada çok
 acil ihtiyaçlar için kullanılabilir.   
 
-### Sonuç
+## Sonuç
 
 CSS3 ile web sayfası öğelerinin görünümünü değiştirebileceğimizi gördük.
 Daha önce javascript yardımı ile yaptığımız bu işleri artık CSS3 yardımı
@@ -396,7 +396,7 @@ ile yapacağız. CSS3 ile yeni gelen bu özellikleri bazı sorunları olsa da
 zamanla bu sorunlarında aşılması ile çok büyük bir kolaylıklar
 sağlayacaktır.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.vanseodesign.com/css/transforms/][]
 -   [http://gazpo.com/2011/02/css3-transforms/][] (güzel)

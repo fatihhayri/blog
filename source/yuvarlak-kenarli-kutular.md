@@ -80,7 +80,7 @@ class="altYuvarlak">İçerk</p> </div>
 
 Örnek kodları indirmek için [tıklayınız.][4]
 
-###### Esnek Boyutlu Yuvarlak Kenarlı Kutular
+#### Esnek Boyutlu Yuvarlak Kenarlı Kutular
 
 Yukarıdaki örnekde sadece dikeydeki genişlemelere olanak sağlıyor bazen
 hem yatayda hemde dikeyde genişleye bilen esnek yuvarlık köşeli kutulara

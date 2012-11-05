@@ -3,7 +3,7 @@ Date: 2006-07-23 21:47
 Category: CSS, Web Standartları, XHTML
 Tags: CSS, css eklemek, import, link, style, Web Standartları, XHTML
 
-### 1- Kod içinde (In-line)
+## 1- Kod içinde (In-line)
 
 Direk olarak (X)HTML elementin içine **style** özelliği kullanılarak
 uygulamak.<!--more-->
@@ -15,7 +15,7 @@ yazımız</div>
 Tüm CSS komutlarını kodların içine direk uygulamak önerilen bir kodlama
 şekli değildir. Ancak özel durumlarda kullanılabilir.
 
-### 2- style Elementi kullanılarak
+## 2- style Elementi kullanılarak
 
 <head> kısmında <style> elementi içinde CSS kodumuzu yazarak
 uygulamak.
@@ -32,7 +32,7 @@ color:red; } </style> </head>
 Birinci yönteme göre avantajı (X)HTML kod ile CSS bir birinden
 ayrıştırılmış olmasıdır.
 
-### 3- Harici Stil şablonu Kullanımı
+## 3- Harici Stil şablonu Kullanımı
 
 Bu metod da CSS kodlarımzı **.css** uzantılı bir dosyaya kaydederiz.
 **ornek.css**
@@ -57,7 +57,7 @@ lazım olan tüm sayfalara eklenebilmesidir. Bu sayede harici eklenen css
 kodu bir kere yüklendikten sonra diğer kullandığımız sayfalarda tekrar
 yüklenemeyerek bize hız kazandıracaktır.
 
-### 4- @import ile eklemek
+## 4- @import ile eklemek
 
 üncü yöntem ile kullanımı benzerdir.
 

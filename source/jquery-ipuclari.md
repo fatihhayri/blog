@@ -90,7 +90,7 @@ tarayıcı sürümünü yakalamak için
 	 if ($.browser.msie &&
 $.browser.version <= 7 )  
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.ajaxlines.com/ajax/stuff/article/_reasons_why_you_should_let_google_host_jquery_for_you.php][]
 -   [http://stackoverflow.com/questions/182630/jquery-tips-and-tricks][]

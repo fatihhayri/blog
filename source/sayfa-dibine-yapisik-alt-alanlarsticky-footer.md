@@ -90,7 +90,7 @@ kodlamadan kaçınış oluyoruz.
 
 Örneği görüntülemek için [tıklayınız.][]
 
-### Sorunlar ve Çözümleri
+## Sorunlar ve Çözümleri
 
 - Benim kullandığım projede body ve üstAlan'daki margin-top değeri sorun
 çıkardı. Bunun yerine padding kullanarak sorunu çözdüm. Üst kısım
@@ -110,7 +110,7 @@ kapsanan sayfanızda sorun çıkabilir. Bunu engellemek için kodunuzu
 
 şeklinde değiştirmelisiniz. [][]
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.cssstickyfooter.com/][]
 -   [http://www.lwis.net/journal/2008/02/08/pure-css-sticky-footer/][]

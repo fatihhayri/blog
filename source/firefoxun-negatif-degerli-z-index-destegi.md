@@ -25,7 +25,7 @@ gerek yok diye düşünüyorum. 
 Sonuç olarak şunu söyleyebiliriz ki, gönül rahatlığı ile negatif z-index
 tanımı kullanabiliriz.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://buynowshop.com/2009/05/css-tip-firefox-z-index-value/][]
 -   [http://www.codingforums.com/archive/index.php/t-112997.html][]

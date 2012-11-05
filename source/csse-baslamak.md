@@ -12,7 +12,7 @@ ayrıntılı bilgiye [http://www.w3c.org/Style/CSS/current-work][]
 adresinden ulaşabilirsiniz. <!--more-->CSS kullanımının bir çok bakından
 avantajları bulunmaktadır. Belli başlı avantajlarını sıralarsak:
 
-##### Görünüm Avantajları
+#### Görünüm Avantajları
 
 CSS HTML'e göre bir çok stil özelliğine sahiptir. CSS'in sayfa içeriği
 öğelerinin sayfa görünümü öğelerinden ayrılması için geliştirildiğini
@@ -33,7 +33,7 @@ italic 11px Arial, serif; text-decoration: underline; background: yellow
 url(titlebg.gif) repeat-x; border: 1px solid red; margin-bottom: 0;
 padding: 5px; } 
 
-##### Kullanım Kolaylığı
+#### Kullanım Kolaylığı
 
 HTML'de her elmente artı özellikler eklemek için başka bir element ve
 özellik eklmemiz gerekiyor ve bu işlemi geniş çaplı bir sitede yaptımızı
@@ -55,7 +55,7 @@ tek bir CSS dosyası ile sitenin tamamının yönetmekte web kodlamacıları
 için çok büyük kolaylıktır. Sadece bir dosyada değişlik yaparak tüm
 sitemizi yönetebiliriz isterse yüzlerce sayfa olsun.
 
-##### Tasarım Tutarlılığı
+#### Tasarım Tutarlılığı
 
 Tek CSS dosyası ile tüm sitenizi yönetebilirsiniz bu ayrıca sitenize
 tutarlılık kazandıracaktır. Tüm sayfalarınıza aynı stil elementlerini ve
@@ -68,7 +68,7 @@ sayfalarda tekrar yüklemeyecek ve bu ziyaretçiye zaman kazandıracaktır.
 CSS+XHTML ile HTML göre %50'ye varan performans ve hız artışları
 olacaktır.
 
-##### Gelecek Vaadediyor
+#### Gelecek Vaadediyor
 
 HTML giderek işlevselliğini kaybedeceği ve XML ve dolayısı ile XHTML'in
 işlevselliğini artıracağı düşünülürse, CSS gibi tümleşik bir stadardın

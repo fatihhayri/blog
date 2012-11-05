@@ -3,7 +3,7 @@ Date: 2006-10-27 11:31
 Category: CSS, Web Standartları, XHTML
 Tags: Aksak Kolonlar, CSS, CSS-Layout, CSS-P, Faux Column, Web Standartları, XHTML
 
-### Aksak Kolonlar(Faux Column)
+## Aksak Kolonlar(Faux Column)
 
 CSS ile sayfa kodlaması yaparken karşımıza çıkan sorunlardan biridir
 Aksak Kolonlar(faux column). Genelde isimlendirme olarak **Faux Kolon**

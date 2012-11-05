@@ -65,7 +65,7 @@ metin girdi alanına bir cümlelik bir  durum beyan ediyoruz. 
 Bu işlemlerden sonra google yaklaşık olarak 2-3 saat içinde sitemizi
 saldırgan site listesinden çıkarıyor.
 
-### Kaynaklar
+## Kaynaklar
 
 -   http://sites.google.com/site/webmasterhelpforum/en/faq-malware-and-hacked-sites
 -   http://www.cogzidel.com/blog/2009/07/malware-affects-your-google-listing-google-webmaster-tools-will-save-you/

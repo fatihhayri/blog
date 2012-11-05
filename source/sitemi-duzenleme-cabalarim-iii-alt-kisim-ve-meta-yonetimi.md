@@ -19,7 +19,7 @@ One SEO ve wpSEO Bir kaç yerde dolaştıktan ve
 "Simple Tagging Plugin" ve "Ultimate Tag Warrior" etiketlerin alırken
 WordPres2.3.3 versiyonuyla birlikte gelen etiketleri kabul etmemesi.
 
-###### Alt Kısım
+#### Alt Kısım
 
 Alt kısmı tekrar düzenledim. Görsel açıdan biraz daha zenginleşti alt
 kısım. Ardalan resmini [Squidfingers][] sitesinden aldım. Alt kısma "Son

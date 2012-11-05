@@ -8,7 +8,7 @@ bunlar.
 
 <!--more-->
 
-###### Gerçek Görünüm (LiveView) özelliği
+#### Gerçek Görünüm (LiveView) özelliği
 
 [![][]][]
 
@@ -17,7 +17,7 @@ sağlıyor. Ayrıca CSS ve javascript ile dizayn kısmının aynı anda
 açılması ile FireBug'a benzer kullanım olanağı sunsa da daha FireBug'ın
 seviyesine erişmesine çok var.
 
-###### Kullanılan Dosyalar Üst Barda
+#### Kullanılan Dosyalar Üst Barda
 
 [![][1]][]
 
@@ -25,12 +25,12 @@ Düzenlediğimiz sayfaya ilintili dosyaları üst barda göstererek daha
 hızlı erişim sağlamamıza olan sağlanmış. Bu gerçekten iyi düşünülmüş bir
 özellik ilgili dosyalara erişmek zaman kaybına neden oluyordu.
 
-###### Sağ menü
+#### Sağ menü
 
 Sağ menüye Photoshop gibi bir görünüm kazandırılarak daha kullanışlı bir
 yapı kazandırılmış.
 
-###### Özellikler Menüsünde CSS Ayrımı
+#### Özellikler Menüsünde CSS Ayrımı
 
 [![][2]][]
 
@@ -39,7 +39,7 @@ kısmı html kısmında ayırıp daha CSS özelliklerine yönelik bir alan
 oluşturmuşlar. Özellikler menüsündeki CSS eksikliği bayağı giderilmiş.
 Etkinlik derecesi için güzel bir araç eklenmiş.
 
-###### Javascript ve javascript kütüphanelerinin otomatik kod tamamlama özelliği
+#### Javascript ve javascript kütüphanelerinin otomatik kod tamamlama özelliği
 
 [![][3]][]
 
@@ -52,12 +52,12 @@ editörlerde var olan bu özelliği Dreamweaver'ın yeni eklemesi biraz
 geçte olsa güzel. Artık Dreamweaver’da javascript ve ajax kodu yazmak
 daha kolay olacak.
 
-###### Koda Erişim Menüsü
+#### Koda Erişim Menüsü
 
 Kod erişim menüsü yardımı ile html, css ve javascript arasındaki
 iletişim daha hızlı erişebilmemiz sağlanmış.
 
-###### Phoshop ile Entegrasyonu
+#### Phoshop ile Entegrasyonu
 
 Adone'un Macromedia alması ile birlikte birçok kişinin beklediği Adobe
 ile Macromedia programlarının entegrasyonu sayesinde işlerinin daha da
@@ -67,7 +67,7 @@ ekleyebiliyoruz. Tabi psd değil optimize ederek jpeg, gif ve png
 ekliyoruz. Boyutunu değiştirebiliyor Phoshop ile yaptığımız
 değişiklikleri anında Dreamweaver aktarabiliyoruz.
 
-###### HTML Data Set
+#### HTML Data Set
 
 HTML'de sunucu taraflı bir program kullanmadan javascript yardımı ile
 veri setleri oluşturmamıza ve yönetmemize imkan sağlıyor. Biz bunu
@@ -75,7 +75,7 @@ jQuery ve bazı javascript kütüphaneleri yardımı ile yapıyorduk.
 Dreamweaver cs4 ile birlikte bu bir sihirbaz yardımı ile yapmamızı
 sağlıyor.
 
-###### Sonuç
+#### Sonuç
 
 Sonuç olarak şunu söyleyebilirim ki. Deramweaver CS4 bize birçok yeni
 özellikler getiriyor. Bu özelliklerini bir çoğunu biz farklı araçlarla
@@ -96,7 +96,7 @@ Yenilikler hakkında daha fazla bilgi edinmek için Lynda.com'daki
 videoları izlemenizi öneririm.
 [http://movielibrary.lynda.com/html/modPage.asp?ID=592][]
 
-###### **Kaynaklar**  
+#### **Kaynaklar**  
 
 -   [http://labs.adobe.com/technologies/dreamweavercs4/][]
 -   [http://www.wz2k.co.uk/index.php/2008/05/dreamweaver-cs4-beta-released/][]

@@ -9,7 +9,7 @@ mesafe ve renkleri tanımlamak için kullanılır.
 Birimleri dört gruba ayıra biliriz. **uzunluk** birimleri, **yüzde**
 birimleri, **renk** birimleri ve **URL** birimleri<!--more-->
 
-### Uzunluk Birimleri
+## Uzunluk Birimleri
 
 CSS'de tanımlanan 8 uzunluk birimi vardır. Bunların üç tanesi
 göreceli(relative) uzunluklar ve kalan beş tanesi
@@ -52,7 +52,7 @@ font-size:14pt
 **pc:** Pika. Bir inçin altıda birine eşit olan bir baskı ölçü birimi.
 Bir pika 12 noktaya bölünür.</span></a> Örnek: font-size:2pc
 
-### Yüzde Birimleri
+## Yüzde Birimleri
 
 Yüzde değerleri her zaman diğer elementlere göre göreceli değerlerdir.
 
@@ -61,7 +61,7 @@ Yüzde değerleri her zaman diğer elementlere göre göreceli değerlerdir.
 dir */ h4 { line-height: 150% } /* satır genişliğinin 10% nu */ p {
 text-indent: 10% } 
 
-### Renk Birimleri
+## Renk Birimleri
 
 CSS'de renk değerleri isim olarak ve RGB değeri olarak tanımlanabilir.
 RGB tanımlamasıda dört çeşittir.
@@ -95,7 +95,7 @@ arasında bir tanımı vardır. Buna göre tanımlama yapılabilir. Örnek h1
 arasında bir tanımı vardır. Buna göre tanımlama yapılır. Örnek: h1
 {color: rgb(75%,0%,0%);}
 
-### URL Değerleri
+## URL Değerleri
 
 URL tanımlaması için aşağıdaki gib bir tanımlama yapılır.
 

@@ -31,7 +31,7 @@ yakında chrome’u yakalar gibi.
 Ayrıca Firefox 5 ile gelen yeni bir site
 [http://firefoxtweetmachine.com/][] Twitter makinesi güzel olmuş.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.favbrowser.com/download-firefox-5-final/][]
 -   [http://mashable.com/2011/06/21/firefox-5/][]

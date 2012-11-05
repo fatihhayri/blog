@@ -103,7 +103,7 @@ kurtarıyor.
 Aşağıda bu özellik kullanılarak yapılmış bir iki güzel örneğe link
 verdim.
 
-### Örnek1: Dipnot
+## Örnek1: Dipnot
 
 Bu özellik wikipedia tarafında dipnoların takibi için çok güzel bir
 şekilde
@@ -121,7 +121,7 @@ belirginleştirilmiştir.
 
 Bunun dışında eğlenceli örnekler geliştirilmiştir.
 
-### Örnek 2: Basit Akordiyon
+## Örnek 2: Basit Akordiyon
 
 [http://kaioa.com/b/0903/target_faq_demo.html][]
 
@@ -135,7 +135,7 @@ Bunun dışında eğlenceli örnekler geliştirilmiştir.
 örnekte gizle-göster ile basit bir akordeon içerik yapısı
 oluşturulabilir.
 
-### Örnek3: Galeri
+## Örnek3: Galeri
 
 [http://kaioa.com/b/0903/target_gallery_demo.html#i1][]
 
@@ -156,7 +156,7 @@ oluşturulabilir.
 
 Zamanla çok daha güzel örneklerin çıkacağını düşünüyorum.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://dev.opera.com/articles/view/css3-target-based-interfaces/][]
 -   [http://thinkvitamin.com/design/stay-on-target/][]

@@ -96,7 +96,7 @@ test edilmiştir.
 
 Örnek kodu görmek için [tıklayınız.][]
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://cssglobe.com/post/1468/pure-css-animated-progress-bar][]
 -   [http://pootato.org/tutorials/css/css-progress-bar/][]

@@ -85,7 +85,7 @@ Bir başka örnek:
 
 Bu kullanımın avantajları ve dezavantajları var.
 
-### Avantajları
+## Avantajları
 
 -   Vektörel çizimler olduğu için boyutu değiştirme esnekliği sağlıyor.
 -   Renk değiştirme imkanı
@@ -94,14 +94,14 @@ Bu kullanımın avantajları ve dezavantajları var.
 -   Birçok resim yerine tek yazı tipi ekleyerek performans kazandırıyor.
 -   HTTP istek sayısını azaltarak performansı arttırıyor.
 
-### Dezavantajları
+## Dezavantajları
 
 -   png ve svg gibi ikonları revize etmek kolay değil
 -   Bir veya daha fazla ikon için tüm yazı tiplerini eklemek performans
     açısından mantıklı değil. Yüksek yazı tipi dosya boyutları.
 -   Çok renk seçimine olanak sağlamaması.
 
-### Yeni Türk Lirası ikonunu eklemek
+## Yeni Türk Lirası ikonunu eklemek
 
 Benzer bir şekilde yeni yayınlanan Türk Lirasınıda font-face yardımı ile
 ekleyebiliriz. TC Merkez bankasının yayınladığı yazı tipi olan
@@ -144,7 +144,7 @@ ile sayfamıza ekledik.
 
 Örnek: [http://www.fatihhayrioglu.com/fontface/tl_deneme.html][]
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-ever-thought-about-using-font-face-for-icons/][]
 -   [http://developer.appdirect.com/blog/make_beautiful_icons_with_image_sprites_css3_font_face_or_svg][]

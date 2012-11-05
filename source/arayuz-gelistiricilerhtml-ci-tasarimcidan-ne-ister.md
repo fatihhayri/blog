@@ -24,7 +24,7 @@ Aynı şekilde Tasarımcının ve programcının da çeşitli beklentileri
 olabilir. Ancak ben burada kendi açımdan bakarak bir tasarımcıdan
 beklentilerimin ne olduğunu yazacağım.<!--more-->
 
-### Kaynak Dosyaları  
+## Kaynak Dosyaları  
 
 -   Tasarımı çıkmış sayfaların eksiksiz kaynak dosyaları(psd veya
     katmanlı png) bu kaynak dosyalarının temiz ve düzenli olması önemle
@@ -35,7 +35,7 @@ beklentilerimin ne olduğunu yazacağım.<!--more-->
 -   Sitenin yapısına göre sitedeki buton tipleri, kullanılacak ikonlar
     vb. yapılarda beklenenler listesine girer.
 
-### Site Şablonları ve Yerleşim
+## Site Şablonları ve Yerleşim
 
 Web sitelerinin belli sayfalarını tasarlayan tasarımcıdan tüm sitedeki
 alanların bir özeti olan şablonlar hazırlamalıdır. Genel bir web sitesi
@@ -46,7 +46,7 @@ Ayrıca site içinde flash olacak kısımları belirlemelidir. Flash olacak
 kısımları Flash geliştirici ile koordineli olarak Arayüz geliştirici
 siteye eklemelidir.
 
-### Etkileşimli Alanların Farklı Durumları
+## Etkileşimli Alanların Farklı Durumları
 
 Sitedeki etkileşimli alanları kullanıcı hareketine göre aldığı farklı
 durumlar için hazırlanmış ise. Örneğin butonları :hover halleri, forum
@@ -59,7 +59,7 @@ görseller
 
 halleri
 
-### Genel Beklentiler
+## Genel Beklentiler
 
 Arayüz Geliştiricileri olarak bizlerin en büyük sorunları farklı
 tarayıcılar için kod yazmaktır. Buradaki en büyük sorunumuz tabi ki
@@ -73,7 +73,7 @@ geliştiriciyi zorlayacak eylemlerdir. Ayrıca birbiri üzerine çok fazla
 binen kısımların olması bizleri zorlar, z-index problemleri ile
 uğraşmamıza neden olur.
 
-### Sonuç
+## Sonuç
 
 Ekip arasındaki iletişim sağlam olması bir çok sorunu çözecektir ve
 birlikte çalışma süreleride bu listeyi azaltacak etkenlerden birisidir.

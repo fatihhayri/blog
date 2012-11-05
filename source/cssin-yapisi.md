@@ -3,7 +3,7 @@ Date: 2006-06-20 23:24
 Category: CSS, Web Standartları, XHTML
 Tags: CSS, css yapı, etiket, Evrensel-Seçiciler, Gruplama, Id-Seçicisi, özellik, Sınıf Seçicisi, Web Standartları, XHTML
 
-##### CSS'in Yapısı
+#### CSS'in Yapısı
 
 CSS'in yapısı iki ana kısımdan oluşur. Seçiciler(Selector) ve Bildirim
 Bloğu(Declaration Block). Bildirim Bloğuda iki ye ayrılır.
@@ -32,7 +32,7 @@ bu konuya daha ayrıntılı gireceğiz. Ayrıca sadece font etiketine özel "
 {font: medium/120% Arial;} Burada " / " Seçicinin font
 boyutunu ve satır yüksekliğini gösterir.(font_boyutu/satir_yuksekliği)
 
-##### Gruplama
+#### Gruplama
 
 Yukarıda hep bir Seçici'yi sadece bir HTML elementine atamayı gördük,
 Birden fazla HTML elementine de atama yapabilirz, buna **gruplama**
@@ -63,7 +63,7 @@ Sınıf Seçicisi ve Id Seçicisi. CSS ile işlenmemiş bir dökümanda
 başlangıçta bir plan yaparak hangi içeriğin Sınıf Seçicisi hangi
 Seçicicinin Id Seçicisi olacağını planlamalıyız.
 
-##### Sınıf Seçicisi(Class Selector)
+#### Sınıf Seçicisi(Class Selector)
 
 Aynı HTML elementine farklı özellikler atamak için Sınıf Seçicisini
 kullanırız. Bir örnek verecek olursak; hazırlayacağımız dökümanda iki
@@ -107,7 +107,7 @@ atmalar yapıyoruz. Birde her ikisine birden de atama yapabiliyoruz.
 Dikkat ederseniz **class="onemli uyari"** olarak atama yaparken CSS
 Seçicisinde **.onemli.uyari** şeklinde yazıyoruz.
 
-##### Id Seçecileri
+#### Id Seçecileri
 
 Id Seçicisi Sınıf Seçicisinden farklıdır. Sınıf Seçicisi sayfada birden
 fazla elemente atanırken Id Seçicisi sadece bir tane elemente atanır.
@@ -123,7 +123,7 @@ Bu yazının arkafon rengi kırmızı
 
 
 
-##### Sınıf mı? Id mi?
+#### Sınıf mı? Id mi?
 
 Yukarıda Id Seçicisi için her nekadar da bir sayfada sadece bir defa
 kullanılır desekte tasarımcının sayfada bir çok yerde kullanmasına

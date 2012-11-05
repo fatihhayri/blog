@@ -22,7 +22,7 @@ dedim. Bu yazıyı bir yere kaydedin lazım olacak muhakkak. Aslında bu
 [kutulara gölge verme][] yazımızı okursanız kutu gölgeleri hakkında
 bilgi sahibi olabilirsiniz. Kutuları 4 köşe olduğunu düşünürsek.
 
-### 4 Köşeye gölge vermek
+## 4 Köşeye gölge vermek
 
 Normal box-shadow değerleri dikey ve yatayda değerler verilince hep
 açılı gölgeler veriyor. Biz tüm kutunun etrafına gölge vermek için; blur
@@ -50,7 +50,7 @@ blur değeri spread  değerinden büyük ise farklı,
 
 blur değeri spread  değerinden küçük ise farklı bir gölge efekti görüyoruz.
 
-### Çoklu Kenar Çizgisi Oluşturmak
+## Çoklu Kenar Çizgisi Oluşturmak
 
 [Önceki makalede][] bahsettiğimiz gibi, çoklu kenar çizgileri oluşturmak
 için; spread  değeri yardımı ile yapılan bu etki için diğer değerler
@@ -66,7 +66,7 @@ sıfırlanmalıdır.
 
 <iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/RPqUC/embedded/result,css,html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-### Tek Köşeye Gölge Vermek
+## Tek Köşeye Gölge Vermek
 
 Kutuların sadece x veya y köşelerinden göstermek için box-shadow
 tanımının sınırlarınız zorlamamız gerekiyor. Bu iş için bir kaç yöntem
@@ -169,7 +169,7 @@ ile o köşeye ait kenar değeri padding ile aynı tanımlanır. :before
 seçicisine box-shadow tanımı yapılır yapılan padding tanımından fazla
 değer içermelidir.
 
-### 3 Köşeye Gölge Tanımlama
+## 3 Köşeye Gölge Tanımlama
 
 Yukarıdaki 4.yönteme benzer bir kullanım ile yapılır.
 
@@ -199,7 +199,7 @@ Yukarıdaki 4.yönteme benzer bir kullanım ile yapılır.
 Yukarıdaki yöntemin tersi yapılır ve kaldırılacak köşeye eksi değer
 atanır.
 
-### Sonuç
+## Sonuç
 
 CSS3 bizi resim yönetme araçlarına bağlı olmaktan olduğunca kurtarmaya
 çalışıyor. Box-shadow bu kurtarma yöntemlerinin en güzellerinden birisi.
@@ -216,7 +216,7 @@ box-sahdow müşteriyi patronu ikna edebildiğimiz yerlerde
 uygulayabildiğimiz özellikler, ama gerçekten arayüz geliştiriciye büyük
 kolaylıklar sağlıyor.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://theburningmonk.com/2010/12/having-fun-with-css3-box-shadow-property/][] (box-shadow özelliği)
 -   [http://markusstange.wordpress.com/2009/02/15/fun-with-box-shadows/][]

@@ -4,7 +4,7 @@ Date: 2010-02-09 00:14
 Category: CSS, Javascript, Web Standartları, XHTML
 Tags: adım adım kodlama, alt sayfa, css-kodlama-düzeni, CSS-Layout, farklı tarayıcılara göre kod yazmak, psdtohtml, site-kodlama, tezahürat dinle, tezahürat ekle
 
-### Alt Sayfaların Kodlanması
+## Alt Sayfaların Kodlanması
 
 Genelde siteler yapılırken ana sayfa ve alt sayfa olarak kodlanır. Bunun
 sebebi ana sayfalar tekildir, alt sayfalar ise birbirine benzeyen
@@ -36,7 +36,7 @@ kısmın ana sayfa ile aynı olduğunu görüyoruz. Orta kısım ise tüm alt
 sayfalarda aynı. İki kolonlu bir yapı ve sağ kolon sabit. Sol içerik
 kolonu içeriği değişiyor.
 
-### Kategori Listeleme Sayfasının Kodlanması
+## Kategori Listeleme Sayfasının Kodlanması
 
 ![Marşlar][]
 
@@ -205,7 +205,7 @@ tip modülleri belirleyip sabit bir genişlik vermekten kaçınmalıyız.
 Burada genişlikleri aynı olduğu için sorun çıkarmazdı zaten ama farklı
 projeler için söylüyorum bunu, aklınızın bir kenarında bulunsun.
 
-### Tezahürat Ekle Sayfasının Kodlanması
+## Tezahürat Ekle Sayfasının Kodlanması
 
 ![Tezahürat Ekle][]
 
@@ -322,7 +322,7 @@ color:#434343; cursor:pointer}
 
 Böylece Tezahürat Ekle sayfamızı bitirmiş oluyoruz.
 
-### Tezahürat Dinle Sayfasının Kodlaması
+## Tezahürat Dinle Sayfasının Kodlaması
 
 ![Tezahürat İzle Dinle][]
 
@@ -518,7 +518,7 @@ solid #e1e1e1; width:642px; margin-bottom:20px; height:100px}
 
 Tezahürat Dinle/İzle sayfasınıda tamamlamış oluyoruz.
 
-### Site Genel Şablonu Sayfasının Kodlanması
+## Site Genel Şablonu Sayfasının Kodlanması
 
 ![Genel Şablon][]
 
@@ -560,7 +560,7 @@ Alt sayfaların kodlamasını böylelikle bitirdik. Site kodlarken değişik
 tasarımlarda olsa genelde benzer yapılar olduğu için yaklaşık olarak
 kodlarımız bu şekilde olacaktır.
 
-### Sonuç
+## Sonuç
 
 Site kodlarken kodlarımı Adobe Dreamweaver ile yazıyorum. Kodlamanın bir
 çok yerinde FireBug kullanıyorum, daha doğrusu firebug'ı kapatmıyorum.

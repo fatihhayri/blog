@@ -40,7 +40,7 @@ lowercase, text-decoration, letter-spacing, word-spacing, text-indent ve
 line-height özelliklerinin yanı sıra dolaylı etkisi olan margin, border,
 padding, background-color ve background-images özelikleride vardır.
 
-### Ölçü
+## Ölçü
 
 İlk olarak sayfanın ölçüsüne bakalım. Okunabilir sayfalar yaparken
 kullanıcıya sunulan metinlerin genişlikleri önem kazanmıştır. Birçok
@@ -65,7 +65,7 @@ değerimizde yazı boyutu ile bağlantılı olduğu için oda artacaktır. Em
 genellikle elastik sayfalar oluştururken kullanırız. Em ve elastik
 sayfalar hakkında daha ayrılı bilgi için [CSS Birimleri][] ve [CSS İLE WEB SAYFASI OLUŞTURMA II][] makalelerine  göz atın.  
 
-### Yazı Tipleri
+## Yazı Tipleri
 
 Tipografi yazı tipi seçimi ile başlar. Bir çok yazı tipi olmasına karşın
 web'de sadece kullanıcıların bilgisayarında bulunan yazı tiplerini
@@ -124,7 +124,7 @@ belirtilerek **Verdana, Trebuchet ve Helvatica** yazı tiplerinin
 kullanılması önerilmektedir. Ancak ben bu konuyu tasarımcılara bırakmayı
 yeğlerim açıkçası.
 
-### Yazı Boyutu
+## Yazı Boyutu
 
 Web tipografisinde en çok kullanılan özellik yazı boyutudur. Ekran
 kullanımını en kolay şekilde ayarlamamıza yardımcı olur. Yazı boyutunu
@@ -167,7 +167,7 @@ font-weight:bold; } h6 { font-size: 1em; }
 
 Bu konuda çok güzel bir doküman hazırlayan [BluePrint CSS Anaçatısının][] tipografi kısmına göz atmanızı tavsiye ederim.
 
-### Satır Yüksekliği(line-height)
+## Satır Yüksekliği(line-height)
 
 Web tipografisinin en önemli özelliklerinden biridir satır yüksekliği
 tanımı. Metinlerin görünümünde büyük etkisi vardır. Satır yüksekliği
@@ -187,7 +187,7 @@ imkanı sunar.
 	 body { font:11px/1.5em "Lucida Grande",
 Helvetica, Arial, Verdana, sans-serif; } 
 
-### Yazılara Vurgu Eklemek
+## Yazılara Vurgu Eklemek
 
 CSS ile yazılarımızın önemli kısımlarını vurgulamak için bir kaç yöntem
 kullanırız.
@@ -229,7 +229,7 @@ belirlemek için kırmızı renk kullanımı yaygındır.
 **Büyük Yazı:** Vurgu yapmak için nadiren de olsa tipografi bakımdan
 buda kullanılabilir bir seçenektir ama en azkullanılan vurgu tipidir.
 
-### Metin hizalama
+## Metin hizalama
 
 CSS'in metin ve sayfa yatay hizalaması
 için<span style="FONT-WEIGHT:bold">text-align</span> özelliğini
@@ -256,7 +256,7 @@ gelmektedir ki  bu özellik sayesinde justify ataması
 yaptığımızmetinlerin son satırında meydana gelen kelimeler arası fazla
 boşluk sorununuçözmüş olacağız. Ancak biraz daha sabır gerekiyor.
 
-### Harf Aralığı(letter-spacing)
+## Harf Aralığı(letter-spacing)
 
 Aslında bir kod yazarı letter-spacing özelliğine pek dokunmaz.
 Webtarayıcılarının tercihine bırakır bu değeri. Genelde atanan değerler
@@ -265,7 +265,7 @@ kullanarakbaşlık ve metin arası farklılığı belirtilmiş olur ve
 başlıklarımız daha belirginhale getirebiliriz. Özel kullanımlarda
 yararlı olabilecek bir özelliktir.
 
-### Sözcükler Arası Mesafe(word-spacing)
+## Sözcükler Arası Mesafe(word-spacing)
 
 Bu özellikte genelde dokunulmayan özellikler arasındadır. Ancak her web
 sayfası aynıdeğerleri kullanacak diye bir şey yoktur. Bazen farklı
@@ -274,7 +274,7 @@ sonuçlar elde etmek içinfarklı değerler kullanabiliriz.
 	:::css
 	p {word-spacing: .2em;} 
 
-### Paragrafın ilk satırını içeriden başlatmak (text-indent)
+## Paragrafın ilk satırını içeriden başlatmak (text-indent)
 
 Birçok dergi, gazete ve yazıda karşılaştığımız bu yöntemi CSS yardımı
 ile çok basit bir şekilde yaparız.
@@ -284,7 +284,7 @@ ile çok basit bir şekilde yaparız.
 
 Göreceli değer kullanmak daha mantıklıdır.
 
-### Sonuç
+## Sonuç
 
 blueprint tipografi uygulamalarını göz atın .
 http://bjorkoy.com/blueprint/typography-test.html
@@ -300,7 +300,7 @@ Son olarak CSS ile yapılabileceklere bir örnek olması açısından
 [3point7designs.com][] yaptıklarına bir göz atmanızı öneriyorum.
 Sınırları zorlayan güzel örnekler
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://webtypography.net/toc/][]
 -   [http://www.sitepoint.com/print/anatomy-web-fonts][]

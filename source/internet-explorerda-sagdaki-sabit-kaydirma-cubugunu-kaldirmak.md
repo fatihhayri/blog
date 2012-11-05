@@ -17,7 +17,7 @@ eşitlemek için çok basit bir kod yazmamız yeteli oluyor. 	:::css
 	 html
 {overflow:auto;} 
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.webmasterworld.com/forum21/10389.htm][]
 -   [http://www.experts-exchange.com/Web_Development/Web_Languages-Standards/HTML/Q_22759180.html][]

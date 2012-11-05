@@ -30,7 +30,7 @@ değiştirebiliriz. Opera eski sürümlerinide es geçerek tabi, gerçi Opera
 	 pre { white-space: pre-wrap; /* css-3 */
 word-wrap: break-word; /* Internet Explorer 5.5+ */ } 
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.quirksmode.org/css/whitespace.html][]
 -   [http://reference.sitepoint.com/css/white-space][]

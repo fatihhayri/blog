@@ -67,7 +67,7 @@ Not: Bir uyarı eğer sayfa içinde z-index değeri içeren bir nesneniz
 varsa ve slimbox bu nesnenin altında kalıyorsa. slimebox.css da
 #lbCenter z-index değeri olarak 9999 verin
 
-###### Kaynaklar
+#### Kaynaklar
 
 -   [http://particletree.com/features/lightbox-gone-wild/][]  
 -   [http://www.digitalia.be/software/slimbox][Slimbox]  

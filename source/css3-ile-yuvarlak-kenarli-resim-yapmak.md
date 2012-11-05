@@ -32,7 +32,7 @@ ie’nin sorunları ile bu kadar zaman kaybetmemiş olsa idik şimdi böyle
 güzel sorunlarla uğraşacaktık ve tarayıcılar bu sorunları düzletmek için
 uğraşacaktı.
 
-### Çözüm1:
+## Çözüm1:
 
 Çözüm için dışa bir kapsayıcı div atayıp kenar çizgisi tanımını bu
 katmana yaparak çözebiliyoruz.
@@ -68,7 +68,7 @@ verdim.
 Firefox4 ve yeni webkit tabanlı tarayıcılarda bu sorun ise kökten
 çözülmüş, tanımı direk resme verebileceğiz.
 
-### Çözüm2:
+## Çözüm2:
 
 Firefox3.6 ve Opera için [CSS3 Rounded Image With jQuery][]
 makalesindeki yöntemden yaralanabiliriz.

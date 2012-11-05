@@ -3,7 +3,7 @@ Date: 2008-10-06 09:19
 Category: Haberler
 Tags: delicous, fatihhayrioglu.com, Sans-serif Racer, sitem, yeni
 
-### ![][]Fatih Hayrioğlu’nun not defteri - Sürüm 2.0
+## ![][]Fatih Hayrioğlu’nun not defteri - Sürüm 2.0
 
 -   Yeni sürümün en büyük değişim daha önce kendi bünyemde barındırdığım
     bir çok hizmeti işin erbabına bırakarak oldu. Örneğim haberleri

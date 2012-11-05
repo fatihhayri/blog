@@ -32,7 +32,7 @@ gerek CSS ve gerekse betikler ile bu kodu kullanabiliriz mesela
 indeksleme yaparken kullanabilriz. Bu bilgi bize alıntı hakkında ileride
 bilgi vermek için kullanılabilir.
 
-### Kodlama içinde Alıntı kullanmak
+## Kodlama içinde Alıntı kullanmak
 
 Sizlere kısaca kod içerisinde alıntı kullanımını anlatacağız. Eğer cümle
 için bir alıntı yaptı iseniz, **<q>** etiketini kullanabilirsiniz.
@@ -79,7 +79,7 @@ Tüm dil kodlarını öğrenmek için
 [www.w3.org/TR/html4/struct/dirlang.html#langcodes][] adresini ziyaret
 ediniz.
 
-###### Alıntı ve **<blockquote>** etiketi
+#### Alıntı ve **<blockquote>** etiketi
 
 Örnek bir kod yazalım:
 
@@ -141,7 +141,7 @@ değerleri verdik.
 Sonuçta hem güzel bir görüntü elde ettik hemde css desteklemeyen
 tarayıcı ve araçlarda da farklı bir görünüm sağlamış olduk.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.cameraontheroad.com/?p=154 iyi örnek][]
 -   [Dan Cederholm - Web Standards Solutions The Markup and Style     Handbook][]

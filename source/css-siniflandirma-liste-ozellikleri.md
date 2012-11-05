@@ -14,7 +14,7 @@ display ve white-space özelliklerinden de bahsedilecektir. <!--more-->
 -   white-space
 -   display
 
-### list-style-type <a name="02"></a>
+## list-style-type <a name="02"></a>
 
 **Yapısı :** list-style-type: <deger> **Aldığı Değerler :** disc |
 circle | square | decimal | lower-roman | upper-roman | lower-alpha |
@@ -36,7 +36,7 @@ ol { list-style-type: lower-roman /* i ii iii iv v gibi. */ }
 W3C's CSS Level 2+
 
 </div>
-### list-style-image<a name="03"></a>
+## list-style-image<a name="03"></a>
 
 **Yapısı :** list-style-image: <deger> **Aldığı Değerler :**
 <[url][]> | none **Başlangıç değeri:** none **Uygulanabilen
@@ -53,7 +53,7 @@ url(mavitop.gif) }
 W3C's CSS Level 2+
 
 </div>
-### list-style-position<a name="04"></a>
+## list-style-position<a name="04"></a>
 
 **Yapısı :** list-style-position: <deger> **Aldığı Değerler :** inside
 | outside **Başlangıç değeri:** outside **Uygulanabilen elementler:**
@@ -71,7 +71,7 @@ içinden(inside) veya soldan dışında(outside) mı olacağını belirler.
 W3C's CSS Level 2+
 
 </div>
-### list-style<a name="01"></a>
+## list-style<a name="01"></a>
 
 <div class="cssozelliktanimi" id="ozelliktanim">
 **Yapısı :** list-style: <deger> **Aldığı Değerler :**
@@ -92,7 +92,7 @@ list-style: decimal inside }
 W3C's CSS Level 2+
 
 </div>
-### white-space<a name="05"></a>
+## white-space<a name="05"></a>
 
 **Yapısı :** white-space: <deger> **Aldığı Değerler :** normal | pre |
 nowrap **Başlangıç değeri:** normal **Uygulanabilen elementler:**
@@ -111,7 +111,7 @@ etiketi hariç alt satıra geçişe izin vermez.
 W3C's CSS Level 2+
 
 </div>
-### display<a name="06" id="06"></a>
+## display<a name="06" id="06"></a>
 
 **Yapısı :** display: <deger> **Aldığı Değerler :** none | inline |
 block | inline-block | list-item | run-in | table | inline-table |
