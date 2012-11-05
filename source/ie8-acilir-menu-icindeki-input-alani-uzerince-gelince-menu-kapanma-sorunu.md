@@ -17,27 +17,40 @@ Bu iş ile bir projede karşılaştım, proje ismini açıklamak sakıncalı
 olabilir diye ben size benzer bir örnek kodunu vereceğim. 
 
 	:::html
-	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
-1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
-xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
-http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title> <script type="text/javascript"
-src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
-<script type="text/javascript"> $(document).ready(function() {
-$('a').hover(function(){ $(this).children(':last').show(); },
-function(){ $(this).children(':last').hide(); }); }); </script>
-<style type="text/css"> a{ position:relative;} a div{display:none;
-padding:20px; background-color:#999; width:250px; position:absolute;
-top:18px; left:0} a div input{ background:transparent} </style>
-</head> <body> <a href="javascript:;">menu aç <div><input
-type="text" /></div> </a> <p><img
-src="/images/ie7_kaydirma_cubugu.jpg"
-width="450" height="398" /></p> </body> </html> 
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Untitled Document</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+	<script type="text/javascript">
+	 $(document).ready(function() {
+		$('a').hover(function(){
+			$(this).children(':last').show();
+		},
+		function(){
+			$(this).children(':last').hide();
+		});
+	 });
+	</script>
+	<style type="text/css">
+	a{ position:relative;}
+		a div{display:none; padding:20px; background-color:#999; width:250px; position:absolute; top:18px; left:0}
+			a div input{ background:transparent}
+	</style>
+	</head>
+
+	<body>
+	<a href="javascript:;">menu aç
+	<div><input type="text" /></div>
+	</a>
+	<p><img src="http://www.fatihhayrioglu.com/wp-content/ie7_kaydirma_cubugu.jpg" width="450" height="398" /></p>
+	</body>
+	</html>
 
 Örneği görmek için [tıklayınız.][]
 
-[![][]][]
+![][]
 
 Bende sorunu araştırmaya başladım ve sonunda buldum. Sorun **input**'a
 atanan **background:none** veya **background:transparent**
@@ -46,15 +59,12 @@ yapınca sorun çözülüyor.  
 
 Ben tasarıma uymak için background'a resim tanımlayarak sorunu aştım.
 
-### Kaynak
+## Kaynak
 
 -   [http://ff.im/gwMR3][]
-
-</p>
 
   [ie7 gibi yorumlama kodunu]: http://www.fatihhayrioglu.com/internet-explorer-8i-7-gibi-yorumla-kodu/
   [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/ie8_popupmenu_input_sorunu.html
   []: /images/ie8_sorunu.gif
     "ie8_sorunu"
-  [![][]]: /images/ie8_sorunu.gif
   [http://ff.im/gwMR3]: http://ff.im/gwMR3 "http://ff.im/gwMR3"

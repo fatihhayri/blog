@@ -25,28 +25,46 @@ içine alalım ve bunlara sırası ile **display:block**, **display:inline**
 ve **display:inline-block** tanımları atayalım
 
 	:::html
-	 <div id="denemeBir"> Lorem ipsum dolor
-sit amet... <p>Praesent id nunc eros. Integer mauris orci, venenatis
-ac tempor ut, gravida ac diam. </p> Pellentesque...</div> <div
-id="denemeIki">Quisque at venenatis nulla...<p>Nam fermentum
-porttitor hendrerit.</p> Mauris ante nulla..</div> <div
-id="denemeUc"> Sed urna neque...<p>Sed est lacus, laoreet at
-malesuada quis, convallis ut nibh.</p> Sed dapibus...</div>
-
+	<div id="denemeBir"> Lorem ipsum dolor sit amet... <p>Praesent id nunc eros. Integer mauris orci, venenatis ac tempor ut, gravida ac diam. </p> Pellentesque...</div>
+	<div id="denemeIki">Quisque at venenatis nulla...<p>Nam fermentum porttitor hendrerit.</p> Mauris ante nulla..</div>
+	<div id="denemeUc"> Sed urna neque...<p>Sed est lacus, laoreet at malesuada quis, convallis ut nibh.</p> Sed dapibus...</div>
 
 CSS kodu
 
 	:::css
-	 div {margin: 10px 0; border: 1px solid
-#000;} p {border: 1px dotted #000;} div#denemeBir p {display: block;
-width: 50px; text-align: center; background-color:#FF0} div#denemeIki
-p {display: inline; width: 50px; text-align: center;
-background-color:#0FF} div#denemeUc p {display: inline-block; width:
-50px; text-align: center; background-color:#F0F} 
+	div{
+		border: 1px solid #000;
+		margin: 10px 0;
+	}
+	
+	p{
+		border: 1px dotted #000;
+	}
+	
+	div#denemeBir p{
+		background-color: #FF0;
+		display: block;
+		text-align: center;
+		width: 50px;
+	}
+	
+	div#denemeIki p{
+		background-color: #0FF;
+		display: inline;
+		text-align: center;
+		width: 50px;
+	}
+	
+	div#denemeUc p{
+		background-color: #F0F;
+		display: inline-block;
+		text-align: center;
+		width: 50px;
+	}
 
 Örneği görmek için [tıklayınız.][]
 
-[![][]][]
+![][]
 
 Aynı yapıdaki elemanların display özelliğine sırası ile block, inline ve
 inline-block tanımlarını atadık.
@@ -66,24 +84,34 @@ göstermiştir.
 **display:inline-block**tanımını daha iyi anlamak için nerelerde
 kullanırız neler yapabiliriz buna bakalım.
 
-### Float kullanmadan display:inline-block ile elemanları yan yana dizmek
+## Float kullanmadan display:inline-block ile elemanları yan yana dizmek
 
 	:::html
-	 <div id="menu"> <a href="">Ana
-Sayfa</a> <a href="">Ürünler</a> <a href="">İletişim</a>
-</div> 
+	<div id="menu">
+		<a href="">Ana Sayfa</a>
+		<a href="">Ürünler</a>
+		<a href="">İletişim</a>
+	</div> 
 
 CSS kodumuzu yazalım;
 
 	:::css
-	 #menu a{ width:150px; height:50px; display:
-inline-block; margin:0; padding:5px; color: #1B1B1B; background-color:
-#E2E2E2; text-decoration: none; border-top:5px solid #999 }
+	#menu a{
+	  width:150px; 
+	  height:50px; 
+	  display: inline-block; 
+	  margin:0; 
+	  padding:5px; 
+	  color: #1B1B1B; 
+	  background-color: #E2E2E2; 
+	  text-decoration: none; 
+	  border-top:5px solid #999
+	}
 
 
 Örneği görmek için [tıklayınız.][1]
 
-[![][2]][]
+![][2]
 
 Bu kod ile biz öğeleri yan yana dizeriz. Normalde hiç bir tanım yapmasak
 da bu elemanlar yan yana dizilecekti, ancak bu elemanlar arasındaki
@@ -91,7 +119,7 @@ mesafeyi ayarlıyamıyacaktık. Hem satır içi eleman gibi yan yana dursun
 hemde genişlik, yükseklik ve margin tanımlarını uygulayalım istersek
 display:inline-block tanımı yapmalıyız.
 
-### Dikeyde ortalama
+## Dikeyde ortalama
 
 Float uygulanmış elemanların dikeyde ortalamak çok zordur, aksine
 display:inline-block uyguladığımız elemanları sadece vertical-align
@@ -102,22 +130,45 @@ Bir örnek yapalım. Yan yana dizilmiş üç kutu hazırlayalım ve bunları
 kapsayıcı katmana göre dikey olarak üstte, ortada ve altta hizalayalım.
 
 	:::html
-	 <div class="anaKapsul"> <div
-class="solKutu">Sol</div> <div class="ortaKutu">Orta</div> <div
-class="sagKutu">Sağ</div> </div> 
+	<div class="anaKapsul">
+	    <div class="solKutu">Sol</div>
+	    <div class="ortaKutu">Orta</div>
+	    <div class="sagKutu">Sağ</div>
+	</div>
 
-CSS kodumuzu yazalım. 	:::css
-	 .anaKapsul { border:
-1px gray solid; padding: 5px; text-align: center; } .solKutu { display:
-inline-block; background-color: lightblue; vertical-align: middle;
-width: 200px; height: 200px; } .ortaKutu { display: inline-block;
-background-color: yellow; vertical-align: middle; width: 200px; height:
-150px; } .sagKutu { display: inline-block; background-color: gray;
-vertical-align: bottom; width: 200px; height: 100px; } 
+CSS kodumuzu yazalım.
+
+	:::css
+	.anaKapsul{
+		border: 1px gray solid;
+		padding: 5px;
+		text-align: center;
+	}
+	.solKutu{
+		background-color: lightblue;
+		display: inline-block;
+		height: 200px;
+		vertical-align: middle;
+		width: 200px;
+	}
+	.ortaKutu{
+		background-color: yellow;
+		display: inline-block;
+		height: 150px;
+		vertical-align: middle;
+		width: 200px;
+	}
+	.sagKutu{
+		background-color: gray;
+		display: inline-block;
+		height: 100px;
+		vertical-align: bottom;
+		width: 200px;
+	}
 
 Örneği görmek için [tıklayınız.][3]
 
-[![][4]][]
+![][4]
 
 Firefox, Safari, Google Chrome, Opera ve İE8'de bu görüntüyü elde
 ederiz. Ancak ie7 ve ie6'da durum böyle değildir.
@@ -128,13 +179,18 @@ elemnalara **display:inline ve zoom:1** tanımı yapmalıyız. Bunun için
 yararlanacağım.
 
 	:::css
-	 *:first-child+html div.anaKapsul
-div{display:inline; zoom: 1;} * html div.anaKapsul div{display:inline;
-zoom: 1;} 
+	*:first-child+html div.anaKapsul div{
+		display: inline;
+		zoom: 1;
+	}
+	* html div.anaKapsul div{
+		display: inline;
+		zoom: 1;
+	}
 
 Bu kodları ekledikten sonra sorunumuz düzeldi.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.search-this.com/2008/08/28/lets-all-get-inline-in-a-block-in-a-block/][]
 -   [http://foohack.com/2007/11/cross-browser-support-for-inline-block-styling/][]
@@ -146,20 +202,15 @@ Bu kodları ekledikten sonra sorunumuz düzeldi.
 -   [http://blog.ternstyle.us/blog/float-vs-inline-block][]
 -   [http://www.sitepoint.com/forums/showthread.php?t=596130][] (sorun )
 
-</p>
-
   [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/display_inline_block.html
   []: /images/display_inline_block.jpg
     "display_inline_block"
-  [![][]]: /images/display_inline_block.jpg
   [1]: http://www.fatihhayrioglu.com/dokumanlar/display_inline_block2.html
   [2]: /images/display_inline_block2.gif
     "display_inline_block2"
-  [![][2]]: /images/display_inline_block2.gif
   [3]: http://www.fatihhayrioglu.com/dokumanlar/display_inline_block3.html
   [4]: /images/display_inline_block3.gif
     "display_inline_block3"
-  [![][4]]: /images/display_inline_block3.gif
   [tüm tarayıcılar için düzeltmeler]: http://www.fatihhayrioglu.com/tum-tarayicilar-icin-css-duzeltmelerihack/
   [http://www.search-this.com/2008/08/28/lets-all-get-inline-in-a-block-in-a-block/]: http://www.search-this.com/2008/08/28/lets-all-get-inline-in-a-block-in-a-block/
   [http://foohack.com/2007/11/cross-browser-support-for-inline-block-styling/]: http://foohack.com/2007/11/cross-browser-support-for-inline-block-styling/
