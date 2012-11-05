@@ -3,7 +3,9 @@ Date: 2010-02-11 18:12
 Category: CSS
 Tags: ie, ie6, ie7, ipucu, kaydırma-çubuğu, overflow
 
-[![][]][] Pek nadirde olsa böyle bir istek ile karşılaşıyorum. Bu ikinci
+![][]
+
+Pek nadirde olsa böyle bir istek ile karşılaşıyorum. Bu ikinci
 oldu. İlk başta bunun bir çözümü yoktur diye düşündüm(Bunu düşünmemin
 nedeni daha önce böyle bir istek ile karşılaştığımda çözümünü bulamadım
 diye aklımda kalması). Ancak sonra bazı sitelerde böyle bir şey
@@ -13,20 +15,20 @@ bu tip bir istek geliyor. Firefox, İnternet Explorer 8, Safari, Google
 Chrome gibi yeni nesil tarayıcılar eğer içerik uzun değilse kaydırma
 çubuğunu göstermiyor. Ancak ie6 ve ie7 de durum böyle değil. İçerik
 olsun yada olması sağda yatay kaydırma çubuğu daima görünüyor. Bu durumu
-eşitlemek için çok basit bir kod yazmamız yeteli oluyor. 	:::css
-	 html
-{overflow:auto;} 
+eşitlemek için çok basit bir kod yazmamız yeteli oluyor.
+	
+	:::css
+	html{
+		overflow:auto;
+	} 
 
 ## Kaynaklar
 
 -   [http://www.webmasterworld.com/forum21/10389.htm][]
 -   [http://www.experts-exchange.com/Web_Development/Web_Languages-Standards/HTML/Q_22759180.html][]
 
-</p>
-
   []: /images/ie7_kaydirma_cubugu.jpg
     "ie7_kaydirma_cubugu"
-  [![][]]: /images/ie7_kaydirma_cubugu.jpg
   [http://www.webmasterworld.com/forum21/10389.htm]: http://www.webmasterworld.com/forum21/10389.htm
     "http://www.webmasterworld.com/forum21/10389.htm"
   [http://www.experts-exchange.com/Web_Development/Web_Languages-Standards/HTML/Q_22759180.html]: http://www.experts-exchange.com/Web_Development/Web_Languages-Standards/HTML/Q_22759180.html

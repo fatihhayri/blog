@@ -45,15 +45,24 @@ verdim. İki kolonu yan yana koymak için float ve genişlik tanımlarını
 yapıyoruz.
 
 	:::html
-	 <div id="solOrtaAlan"> ... </div> <div
-id="icerikalaniSag"> ... </div> 
+	<div id="solOrtaAlan"> ... </div>
+	<div id="icerikalaniSag"> ... </div> 
 
 CSS kodunu yazalım
 
 	:::css
-	 #solOrtaAlan{float:left; width:650px;
-margin:0 20px 0 10px; font:14px Arial, Helvetica, sans-serif;
-display:inline} #icerikalaniSag {float:left; width:300px} 
+	#solOrtaAlan{
+		display: inline;
+		float: left;
+		font: 14px Arial, Helvetica, sans-serif;
+		margin: 0 20px 0 10px;
+		width: 650px;
+	}
+	
+	#icerikalaniSag{
+		float: left;
+		width: 300px;
+	}
 
 **Sol Orta Alan**
 
@@ -78,13 +87,17 @@ Sıralama kısmına yaparken bu alanı sırasız listeler ile yapmayı
 düşündüm.
 
 	:::html
-	 <div id="siralamAlani"> <ul>
-<li><strong>Sıralama:</strong></li> <li><a
-href="">Karışık</a></li> <li><a href="">Popüler</a></li>
-<li><a href="">Oley!</a></li> <li><a href=""
-class="secili">Alfabetik</a></li> <li><a href="">En Çok
-Tıklanan</a></li> <li><a href="">En Son Eklenen</a></li>
-</ul> </div> 
+	<div id="siralamAlani">
+	 <ul>
+	     <li><strong>Sıralama:</strong></li>
+	     <li><a href="">Karışık</a></li>
+	     <li><a href="">Popüler</a></li>
+	     <li><a href="">Oley!</a></li>
+	     <li><a href="" class="secili">Alfabetik</a></li>
+	     <li><a href="">En Çok Tıklanan</a></li>
+	     <li><a href="">En Son Eklenen</a></li>
+	 </ul>
+	</div>
 
 Dışına bir katman atamamın nedeni ardalan resmi ve diğer öğeler ile olan
 ilişkileri ayarlamak içindir. Sıralama öğelerinden bir tanesine göre
@@ -92,17 +105,35 @@ sıralama yapılacak ve başındaki ok ikonu aşağı bakacağı için bu öğey
 bir sınıf tanımlıyorum diğerlerinden ayırmak için
 
 	:::css
-	 div#siralamAlani{
-background:url(../images/siralama_ard.gif) 0 0 no-repeat; height:38px;}
-div#siralamAlani ul{padding:10px 0 0 10px} div#siralamAlani ul
-li{display:inline;} div#siralamAlani ul li strong{display:block;
-float:left; color:#828282; font:bold 14px Arial, Helvetica, sans-serif;
-margin-right:3px} div#siralamAlani ul li a{display:block;
-background:url(../images/genel_resim.gif) right -388px no-repeat;
-float:left; font:bold 14px Arial, Helvetica, sans-serif; color:#0c2b90;
-padding-right:15px; margin-right:10px} div#siralamAlani ul li
-a.secili{background:url(../images/genel_resim.gif) right -354px
-no-repeat;} 
+	div#siralamAlani{
+		background: url(../images/siralama_ard.gif) 0 0 no-repeat;
+		height: 38px;
+	}
+	div#siralamAlani ul{
+		padding: 10px 0 0 10px;
+	}
+	div#siralamAlani ul li{
+		display: inline;
+	}
+	div#siralamAlani ul li strong{
+		color: #828282;
+		display: block;
+		float: left;
+		font: bold 14px Arial, Helvetica, sans-serif;
+		margin-right: 3px;
+	}
+	div#siralamAlani ul li a{
+		background: url(../images/genel_resim.gif) right -388px no-repeat;
+		color: #0c2b90;
+		display: block;
+		float: left;
+		font: bold 14px Arial, Helvetica, sans-serif;
+		margin-right: 10px;
+		padding-right: 15px;
+	}
+	div#siralamAlani ul li a.secili{
+		background: url(../images/genel_resim.gif) right -354px no-repeat;
+	}
 
 **Listeleme Tablosu**
 
@@ -110,32 +141,67 @@ Listeleme tablosunun bir kaç kolonu hariç ana sayfadaki tablodan bir
 farkı yoktur. Benzer bir anlayış ile burayı kodlayalım.
 
 	:::css
-	 table.genelTablo{border-collapse:collapse; }
-table.genelTablo th{font:bold 14px Arial, Helvetica, sans-serif;
-color:#000; padding:5px 2px; text-align:left} table.genelTablo
-th.ortala{text-align:center} table.genelTablo tr.enAlt td{border:0}
-table.genelTablo td{padding:1px 2px; font:14px Arial, Helvetica,
-sans-serif; color:#828282; border-bottom:1px solid #d5d5d5;}
+	table.genelTablo{
+		border-collapse: collapse;
+	}
+	table.genelTablo th{
+		color: #000;
+		font: bold 14px Arial, Helvetica, sans-serif;
+		padding: 5px 2px;
+		text-align: left;
+	}
+	table.genelTablo th.ortala{
+		text-align: center;
+	}
+	table.genelTablo tr.enAlt td{
+		border: 0;
+	}
+	table.genelTablo td{
+		border-bottom: 1px solid #d5d5d5;
+		color: #828282;
+		font: 14px Arial, Helvetica, sans-serif;
+		padding: 1px 2px;
+	}
 
 
 Listeleme tablosunun ana sayfadan farklı olan kısmı en sağdaki oylama
 gösterme alanı
 
 	:::html
-	<td><p class="oley"><strong
-class="ucKupa">3 Kupa</strong></p></td>
+	<td>
+		<p class="oley"><strongclass="ucKupa">3 Kupa</strong></p>
+	</td>
 
 Sadece oyu göstereceğimiz için bu şekilde kodladık.
 
 	:::css
-	 #solOrtaAlan table td
-p.oley{background:url(../images/genel_resim.gif) 0 -483px no-repeat;
-width:93px; height:21px; margin:0} table td p.oley strong{display:block;
-background:url(../images/genel_resim.gif) 0 -459px no-repeat;
-text-indent:-9999px; height:21px} table td p.oley strong.birKupa{
-width:18px;} table td p.oley strong.ikiKupa{ width:37px;} table td
-p.oley strong.ucKupa{ width:56px;} table td p.oley strong.dortKupa{
-width:75px;} table td p.oley strong.besKupa{ width:95px;} 
+	#solOrtaAlan table td p.oley{
+		background: url(../images/genel_resim.gif) 0 -483px no-repeat;
+		height: 21px;
+		margin: 0;
+		width: 93px;
+	}
+	table td p.oley strong{
+		background: url(../images/genel_resim.gif) 0 -459px no-repeat;
+		display: block;
+		height: 21px;
+		text-indent: -9999px;
+	}
+	table td p.oley strong.birKupa{
+		width: 18px;
+	}
+	table td p.oley strong.ikiKupa{
+		width: 37px;
+	}
+	table td p.oley strong.ucKupa{
+		width: 56px;
+	}
+	table td p.oley strong.dortKupa{
+		width: 75px;
+	}
+	table td p.oley strong.besKupa{
+		width: 95px;
+	}
 
 #solOrtaAlan table td p.oley tanımını niye p.oley şeklinde yapmıyoruzda
 bu kadar uzun yapıyoruz derseniz, üstten gelen kalıtsal tanımlar alt
@@ -154,31 +220,61 @@ kodladığım bir kodu kopyalıyorum. Bu yöntemi seçmemde programcı
 arkadaşım Mustafa'nın etkiside var.
 
 	:::html
-	 <div class="sayfalama"> <ul>
-<li><span>|&lt;</span></li> <li><span>Önceki</span></li>
-<li><span>1</span></li> <li><a href="#">2</a></li> <li
-><a href="#">3</a></li> <li ><a href="#">4</a></li>
-<li ><a href="#">5</a></li> <li ><a
-href="#">6</a></li> <li ><a href="#">7</a></li> <li
-><a href="#">8</a></li> <li ><a href="#">9</a></li>
-<li ><a href="#">10</a></li> <li ><a
-href="#">Sonraki</a></li> <li class="sayfalmaSonu"><a
-href="#">&gt;|</a></li> </ul> </div> 
+	<div class="sayfalama">
+	    <ul>
+	        <li><span>|&lt;</span></li>
+	        <li><span>Önceki</span></li>
+	        <li><span>1</span></li>
+	        <li><a href="#">2</a></li>
+	        <li ><a href="#">3</a></li>
+	        <li ><a href="#">4</a></li>
+	        <li ><a href="#">5</a></li>
+	        <li ><a href="#">6</a></li>
+	        <li ><a href="#">7</a></li>
+	        <li ><a href="#">8</a></li>
+	        <li ><a href="#">9</a></li>
+	        <li ><a href="#">10</a></li>
+	        <li ><a href="#">Sonraki</a></li>
+	        <li class="sayfalmaSonu"><a href="#">&gt;|</a></li>
+	    </ul>
+	</div>
 
 Sayısız listeler ile listelediğimiz sayfa sayılarının farklı bölümlerini
-belirlemek için <li><span>1</span></li> şeklinde tanımlama
-yapıyoruz. Normal bağlantılarıda <li><a href="">2</a></li>
+belirlemek için <li\><span\>1</span\></li\> şeklinde tanımlama
+yapıyoruz. Normal bağlantılarıda <li\><a href=""\>2</a\></li\>
 şeklinde tanımlıyoruz. CSS kodunu yazalım.
 
 	:::css
-	 /* sayfalama */ div.sayfalama ul{margin:0
-auto; width:530px; padding:10px 0 0 0; clear:left} div.sayfalama ul
-li{font:bold 12px Tahoma, Geneva, sans-serif; color:#fff; float:left;
-list-style:none; margin:0 2px; background:#80a3b7;} div.sayfalama ul li
-span{padding:5px 8px; display:block} div.sayfalama ul li a{font:bold
-12px Tahoma, Geneva, sans-serif ; color:#80a3b7; text-decoration:none;
-background-color:#f0f0f0; padding:5px 8px; display:block} div.sayfalama
-ul li a:hover{background-color:#80a3b7; color:#f0f0f0;} 
+	div.sayfalama ul{
+		clear: left;
+		margin: 0 auto;
+		padding: 10px 0 0 0;
+		width: 530px;
+	}
+	div.sayfalama ul li{
+		background: #80a3b7;
+		color: #fff;
+		float: left;
+		font: bold 12px Tahoma, Geneva, sans-serif;
+		list-style: none;
+		margin: 0 2px;
+	}
+	div.sayfalama ul li span{
+		display: block;
+		padding: 5px 8px;
+	}
+	div.sayfalama ul li a{
+		background-color: #f0f0f0;
+		color: #80a3b7;
+		display: block;
+		font: bold 12px Tahoma, Geneva, sans-serif;
+		padding: 5px 8px;
+		text-decoration: none;
+	}
+	div.sayfalama ul li a:hover{
+		background-color: #80a3b7;
+		color: #f0f0f0;
+	}
 
 **İçerik Alanı Sağ**
 
@@ -187,9 +283,9 @@ ve kategori listesi. Her iki alanda ana sayfada mevcut olduğu için aynı
 kodları buraya taşıyoruz.
 
 	:::html
-	<div id="sagBannerAlani"><img
-src="images/band_website_banner.jpg" width="300" height="250"
-alt="Web" /></div>
+	<div id="sagBannerAlani">
+		<img src="images/band_website_banner.jpg" width="300" height="250" alt="Web" />
+	</div>
 
 Sağ banner alanı diye ayrı bir isim vermemin nedeni, kodlaması aynı olsa
 da site yayına girdikten sonra ana sayfa ve alt sayfaya farklı bannerlar
@@ -226,25 +322,40 @@ Her satırın altında bir çizgi olduğu için her satırı bir katman içine
 alıp bu katmanada bir sınıf tanılayarak bu işi çözebiliriz.
 
 	:::css
-	.formAlani{border-top:1px solid #e0e0e0;
-border-bottom:1px solid #e0e0e0; padding:10px; margin:10px 0;
-clear:left;}
+	.formAlani{
+		border-bottom: 1px solid #e0e0e0;
+		border-top: 1px solid #e0e0e0;
+		clear: left;
+		margin: 10px 0;
+		padding: 10px;
+	}
 
 clear:left; tanımı her satırın soldan başlaması için yapıldı.
 
 İlk form alanı için bir label ve birde select alanımız var
 
 	:::html
-	<div class="formAlani"><label>Lig
-Seçiniz:</label><select><option>--------------</option><option>Turkcell
-Süper Lig</option></select></div>
+	<div class="formAlani">
+		<label>Lig Seçiniz:</label>
+		<select>
+			<option>--------------</option>
+			<option>Turkcell Süper Lig</option>
+		</select>
+	</div>
 
 CSS kodunu yazalım
 
 	:::css
-	 .formAlani label{margin-right:10px;
-width:135px; display:block; float:left;} .formAlani select{width:180px;
-font:12px Arial, Helvetica, sans-serif;} 
+	.formAlani label{
+		display: block;
+		float: left;
+		margin-right: 10px;
+		width: 135px;
+	}
+	.formAlani select{
+		font: 12px Arial, Helvetica, sans-serif;
+		width: 180px;
+	}
 
 **Seçilen Ligdeki Takımlar Alanı**
 
@@ -253,23 +364,39 @@ ve float tanımı yaparak yan yana dize bilirim. Genişlikleri verirken 3
 tanesini yan yana duracak şekilde ayarladım.
 
 	:::html
-	 <ul class="secilenLigler"> <li> <input
-type="radio" name="takimSec" /><div
-class="logoTrabzon">Trabzon</div> <label>Trabzon Spor Klubü
-Tesisleri</label></li> <li> <input type="radio" name="takimSec"
-/><div class="logoFenerbahce">Fenerbahçe</div>
-<label>Fenerbahçe</label></li> <li> <input type="radio"
-name="takimSec" /><div class="logoAnkara">Ankaraspor</div>
-<label>Ankaraspor</label></li> ....... </ul> 
+	<ul class="secilenLigler">
+	    <li> <input type="radio" name="takimSec" /><div class="logoTrabzon">Trabzon</div> <label>Trabzon Spor Klubü Tesisleri</label></li>
+	    <li> <input type="radio" name="takimSec" /><div class="logoFenerbahce">Fenerbahçe</div> <label>Fenerbahçe</label></li>
+	    <li> <input type="radio" name="takimSec" /><div class="logoAnkara">Ankaraspor</div> <label>Ankaraspor</label></li>
+	      .......
+	</ul> 
 
 CSS kodları
 
 	:::css
-	 ul.secilenLigler{width:575px; margin:0 auto}
-ul.secilenLigler li{float:left; width:170px; margin:0 20px 10px 0;
-color:#828282;} ul.secilenLigler li div{float:left} ul.secilenLigler li
-label{position:relative; top:8px} ul.secilenLigler li input{float:left;
-position:relative; top:8px; margin-right:10px} 
+	ul.secilenLigler{
+		margin: 0 auto;
+		width: 575px;
+	}
+	ul.secilenLigler li{
+		color: #828282;
+		float: left;
+		margin: 0 20px 10px 0;
+		width: 170px;
+	}
+	ul.secilenLigler li div{
+		float: left;
+	}
+	ul.secilenLigler li label{
+		position: relative;
+		top: 8px;
+	}
+	ul.secilenLigler li input{
+		float: left;
+		margin-right: 10px;
+		position: relative;
+		top: 8px;
+	}
 
 Her takım alanı için radyo butonu, logo için bir katman, takım adı için
 bir label tanımladım ve bunları yan yana dizmek için float:left tanımı
@@ -281,44 +408,75 @@ Yukarıda bahsettiğim gibi form alanlarını kodlarken sayısız
 listeleri(ul) kullanıyorum burada da
 
 	:::html
-	 <div class="formAlani"> <ul>
-<li><label>Kategori
-Seçiniz:</label><select><option>--------------</option><option>Turkcell
-Süper Lig</option></select></li> <li><label>Tezahüratın
-Adı:</label><input type="text" /></li> <li><label>Youtube
-linki:</label><input type="text" /></li>
-<li><label>Tezahüratın sözleri:</label></li>
-<li><textarea></textarea></li> <li><label>Kısa
-tanıtım:</label><input type="text" /></li> <li><label
-class="genisEtiket">Kayıtlı bir tezahüratınız varsa buradan
-yükleyiniz:</label> <input type="file" /></li> </ul> </div>
+	<div class="formAlani">
+	    <ul>
+	        <li><label>Kategori Seçiniz:</label><select><option>--------------</option><option>Turkcell Süper Lig</option></select></li>
+	        <li><label>Tezahüratın Adı:</label><input type="text" /></li>
+	        <li><label>Youtube linki:</label><input type="text" /></li>
+	        <li><label>Tezahüratın sözleri:</label></li>
+	        <li><textarea></textarea></li>
+	        <li><label>Kısa tanıtım:</label><input type="text" /></li>
+	        <li><label class="genisEtiket">Kayıtlı bir tezahüratınız varsa buradan yükleyiniz:</label> <input type="file" /></li>
+	    </ul>
+	</div>
 
 
 CSS kodu
 
 	:::css
-	 .formAlani p{margin-bottom:10px} .formAlani
-label{margin-right:10px; width:135px; display:block; float:left;}
-.formAlani label.genisEtiket{width:310px} .formAlani
-textarea{width:625px; height:210px; border:1px solid #e8e8e8;
-margin-top:8px; font:12px Arial, Helvetica, sans-serif; padding:3px;}
-.formAlani ul li{margin-bottom:10px} .formAlani input{border:1px solid
-#e8e8e8; font:12px Arial, Helvetica, sans-serif; padding:3px;
-width:300px} .formAlani select{width:180px; font:12px Arial, Helvetica,
-sans-serif;} .formAlani select.darSelect{width:75px;} 
+	.formAlani p{
+		margin-bottom: 10px;
+	}
+	.formAlani label{
+		display: block;
+		float: left;
+		margin-right: 10px;
+		width: 135px;
+	}
+	.formAlani label.genisEtiket{
+		width: 310px;
+	}
+	.formAlani textarea{
+		border: 1px solid #e8e8e8;
+		font: 12px Arial, Helvetica, sans-serif;
+		height: 210px;
+		margin-top: 8px;
+		padding: 3px;
+		width: 625px;
+	}
+	.formAlani ul li{
+		margin-bottom: 10px;
+	}
+	.formAlani input{
+		border: 1px solid #e8e8e8;
+		font: 12px Arial, Helvetica, sans-serif;
+		padding: 3px;
+		width: 300px;
+	}
+	.formAlani select{
+		font: 12px Arial, Helvetica, sans-serif;
+		width: 180px;
+	}
+	.formAlani select.darSelect{
+		width: 75px;
+	} 
 
 Son olarakta gönder düğmesini koyuyorum.
 
 	:::html
-	<input type="button" value="Gönder"
-class="gonderBut" />
+	<input type="button" value="Gönder" class="gonderBut" />
 
 CSS kodu
 
 	:::css
-	input.gonderBut{width:170px; height:45px;
-float:right; font:bold italic 24px Arial, Helvetica, sans-serif;
-color:#434343; cursor:pointer}
+	input.gonderBut{
+		color: #434343;
+		cursor: pointer;
+		float: right;
+		font: bold italic 24px Arial, Helvetica, sans-serif;
+		height: 45px;
+		width: 170px;
+	}
 
 Böylece Tezahürat Ekle sayfamızı bitirmiş oluyoruz.
 
@@ -334,20 +492,32 @@ sayfa ile aynı. Başlık yanındaki logo ve takım ismi kısmına biraz
 değinelim.
 
 	:::html
-	<div id="dinleTakimi"><div
-class="logoTrabzon">Trabzon</div>
-<span>Trabzon</span>
+	<div id="dinleTakimi">
+		<div class="logoTrabzon">Trabzon</div>
+		<span>Trabzon</span>
 
 Logo için iki ayrı katman oluşturuyorum. Bunun nedeni logoların geneli
 için bir sınıf tanımlıyorum. Ayrıca ikinci katmanda her bir takım için
 tanımlanacak özellikler için. CSS kodunu yazarsak;
 
 	:::css
-	 div#dinleTakimi{float:left; width:180px;
-margin-left:20px; position:relative; top:-4px} div#dinleTakimi
-div{float:left;} div#dinleTakimi span{ position:relative; bottom:-10px;
-font:14px Arial, Helvetica, sans-serif; color:#828282;
-padding-left:6px} 
+	div#dinleTakimi{
+		float: left;
+		margin-left: 20px;
+		position: relative;
+		top: -4px;
+		width: 180px;
+	}
+	div#dinleTakimi div{
+		float: left;
+	}
+	div#dinleTakimi span{
+		bottom: -10px;
+		color: #828282;
+		font: 14px Arial, Helvetica, sans-serif;
+		padding-left: 6px;
+		position: relative;
+	}
 
 Burada şöyle bir şey var. Başlığın uzunluğu belli olmadığı için sadece
 logo ve takım adına float tanımı ve genişlik tanımı yaptık. Böylece
@@ -358,62 +528,92 @@ Sekmeleri kodlarken daha önce yazdığım [jquery ile sekme yapımını][]
 anlattığım makaledeki gibi yapacağız.
 
 	:::javascript
-	 <script type="text/javascript"
-src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-<script type="text/javascript"> $(document).ready(function() {
-$('div.sekmeAlani ul#tezahuratSekme li a').not("div.sekmeAlani
-ul#tezahuratSekme li#favEkle a, div.sekmeAlani ul#tezahuratSekme
-li.pasif a").click(function(){
-$(this).parent('li').addClass('normal').siblings().removeClass('normal');
-var mevcutSinif = this.className.slice(0,2); $('div.sekmeAlani >
-div').hide().filter('div.'+mevcutSinif).show(); }); $('.sekmeAlani
-ul#tezahuratSekme li a:first').click(); }); </script> 
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	 <script type="text/javascript">
+	 $(document).ready(function() {
+	 $('div.sekmeAlani ul#tezahuratSekme li a').not("div.sekmeAlani ul#tezahuratSekme li#favEkle a, div.sekmeAlani ul#tezahuratSekme li.pasif a").click(function(){
+	 $(this).parent('li').addClass('normal').siblings().removeClass('normal');
+	 var mevcutSinif = this.className.slice(0,2);
+	 $('div.sekmeAlani > div').hide().filter('div.'+mevcutSinif).show();
+	 });
+	 $('.sekmeAlani ul#tezahuratSekme li a:first').click();
+	 });
+	 </script>
 
 Buradaki tek fark favoriler kısmını sekmeli yapının dışında tutmak için.
 jquery'nin :not() fonksiyonunu kullandık. Bu fonksiyonun anlamı bu
 elementlere uygula not fonksiyonu ile belirtilen elemana uygulamadır.
 
 	:::html
-	 <div class="sekmeAlani"> <ul
-id="tezahuratSekme" class="kapsayamamaSorunu"> <li class="s1
-normal"><a href="javascript:void(0);" class="s1 dinle">Tezahürat
-Dinle</a></li> <li class="s2 pasif"><a href="javascript:void(0);"
-class="s2 izle">Tezahürat İzle</a></li> <li id="favEkle"><a
-href="javascript:void(0);" id="favorimedenCikar">Favorilerine
-Ekle</a></li> </ul> <div class="s1"> <div
-id="sesOynatici"><img src="images/ses_oynatici.gif" width="333"
-height="50" alt="ses" /></div> </div> <div class="s2"> <div
-id="videoOynatici"><img src="images/video_player.gif" width="320"
-height="260" alt="video" /></div> </div> </div> 
+	<div class="sekmeAlani">
+	    <ul id="tezahuratSekme" class="kapsayamamaSorunu">
+	        <li class="s1 normal"><a href="javascript:void(0);" class="s1 dinle">Tezahürat Dinle</a></li>
+	        <li class="s2 pasif"><a href="javascript:void(0);" class="s2 izle">Tezahürat İzle</a></li>
+	        <li id="favEkle"><a href="javascript:void(0);" id="favorimedenCikar">Favorilerine Ekle</a></li>
+	    </ul>
+	    <div class="s1">
+	    	<div id="sesOynatici"><img src="images/ses_oynatici.gif" width="333" height="50" alt="ses" /></div>
+	    </div>
+	    <div class="s2">
+	    	<div id="videoOynatici"><img src="images/video_player.gif" width="320" height="260" alt="video" /></div>
+	    </div>
+	</div>
 
 CSS kodlarını yazarsak;
 
 	:::css
-	 ul#tezahuratSekme{border-bottom:1px solid
-#ccc; padding-left:30px} ul#tezahuratSekme li{float:left;
-height:39px;} ul#tezahuratSekme li a{display:block; padding:15px 45px 0
-50px; color:#000; font-size:14px} ul#tezahuratSekme
-li.normal{background:url(../images/normal_seme_ard.gif) 0 0 no-repeat;
-} ul#tezahuratSekme li.pasif{background:url(../images/sekme_pasif.gif)
-0 0 no-repeat; } ul#tezahuratSekme li.pasif a{ cursor:default;}
-ul#tezahuratSekme li.normal a.dinle{
-background:url(../images/tez_din_ikon.gif) 15px -220px no-repeat; }
-ul#tezahuratSekme li.normal a.izle{
-background:url(../images/tez_din_ikon.gif) 15px -270px no-repeat;}
-ul#tezahuratSekme li{background:url(../images/kapali_sekme.gif) 0 0
-no-repeat;} ul#tezahuratSekme li a.dinle{
-background:url(../images/tez_din_ikon.gif) 15px -220px no-repeat;}
-ul#tezahuratSekme li a.izle{
-background:url(../images/tez_din_ikon.gif) 15px -268px no-repeat;}
-ul#tezahuratSekme li#favEkle{float:left; height:39px; background:none}
-ul#tezahuratSekme li#favEkle
-a{background:url(../images/tez_din_ikon.gif) 18px -318px no-repeat;}
-ul#tezahuratSekme li#favEkle
-a:hover{background:url(../images/tez_din_ikon.gif) 18px -419px
-no-repeat;} ul#tezahuratSekme li#favEkle a#favorimedenCikar,
-ul#tezahuratSekme li#favEkle
-a#favorimedenCikar:hover{background:url(../images/tez_din_ikon.gif)
-18px -368px no-repeat;} 
+	ul#tezahuratSekme{
+		border-bottom: 1px solid #ccc;
+		padding-left: 30px;
+	}
+	ul#tezahuratSekme li{
+		float: left;
+		height: 39px;
+	}
+	ul#tezahuratSekme li a{
+		color: #000;
+		display: block;
+		font-size: 14px;
+		padding: 15px 45px 0 50px;
+	}
+	ul#tezahuratSekme li.normal{
+		background: url(../images/normal_seme_ard.gif) 0 0 no-repeat;
+	}
+	ul#tezahuratSekme li.pasif{
+		background: url(../images/sekme_pasif.gif) 0 0 no-repeat;
+	}
+	ul#tezahuratSekme li.pasif a{
+		cursor: default;
+	}
+	ul#tezahuratSekme li.normal a.dinle{
+		background: url(../images/tez_din_ikon.gif) 15px -220px no-repeat;
+	}
+	ul#tezahuratSekme li.normal a.izle{
+		background: url(../images/tez_din_ikon.gif) 15px -270px no-repeat;
+	}
+	ul#tezahuratSekme li{
+		background: url(../images/kapali_sekme.gif) 0 0 no-repeat;
+	}
+	ul#tezahuratSekme li a.dinle{
+		background: url(../images/tez_din_ikon.gif) 15px -220px no-repeat;
+	}
+	ul#tezahuratSekme li a.izle{
+		background: url(../images/tez_din_ikon.gif) 15px -268px no-repeat;
+	}
+	ul#tezahuratSekme li#favEkle{
+		background: none;
+		float: left;
+		height: 39px;
+	}
+	ul#tezahuratSekme li#favEkle a{
+		background: url(../images/tez_din_ikon.gif) 18px -318px no-repeat;
+	}
+	ul#tezahuratSekme li#favEkle a:hover{
+		background: url(../images/tez_din_ikon.gif) 18px -419px no-repeat;
+	}
+	ul#tezahuratSekme li#favEkle a#favorimedenCikar, ul#tezahuratSekme li#favEkle a#favorimedenCikar:hover{
+		background: url(../images/tez_din_ikon.gif) 18px -368px no-repeat;
+	}
 
 **Tezahürat Bilgi Alanı**
 
@@ -426,33 +626,52 @@ Bu alanı bir katman içine alıp ardalan rengini bu katman veriyoruz.
 koyuyoruz. İçerikleride bir paragraf içinde kodluyoruz.
 
 	:::html
-	 <div id="tezahuratBilgi"
-class="kapsayamamaSorunu"> <div id="tezahuratBilgiSol"> <p>Ekleyen:
-<a href="">Hasan</a> <span>27 Ağustos 2009'da
-Eklendi</span></p> <p>Link Paylaş: <input type="text"
-value="htpp:www..ewrwerwerwerewrra" /></p> </div> <div
-id="tezahuratBilgiSag"> <p>123.288 kez dinlendi</p>
-<p><span>16.258 kişi Oley! çekti!</span> <ul
-class='oleyCek'><li class='mevcutOy' style="width:54px">3/5
-Yıldız</li><li><a href='#' title='1 puan'
-class='birYildiz'>1</a></li><li><a href='#' title='2 puan'
-class='ikiYildiz'>2</a></li><li><a href='#' title='3 puan'
-class='ucYildiz'>3</a></li><li><a href='#' title='4 puan'
-class='dortYildiz'>4</a></li><li><a href='#' title='5puan'
-class='besYildiz'>5</a></li></ul></p> </div> </div>
+	<div id="tezahuratBilgi" class="kapsayamamaSorunu">
+	    <div id="tezahuratBilgiSol">
+	        <p>Ekleyen: <a href="">Hasan</a> <span>27 Ağustos 2009'da Eklendi</span></p>
+	        <p>Link Paylaş: <input type="text" value="htpp:www..ewrwerwerwerewrra" /></p>
+	    </div>
+	    <div id="tezahuratBilgiSag">
+	        <p>123.288 kez dinlendi</p>
+	        <p><span>16.258 kişi Oley! çekti!</span> <ul class='oleyCek'><li class='mevcutOy' style="width:54px">3/5 Yıldız</li><li><a href='#' title='1 puan' class='birYildiz'>1</a></li><li><a href='#' title='2 puan' class='ikiYildiz'>2</a></li><li><a href='#' title='3 puan' class='ucYildiz'>3</a></li><li><a href='#' title='4 puan' class='dortYildiz'>4</a></li><li><a href='#' title='5puan' class='besYildiz'>5</a></li></ul></p>
+	    </div>
+	</div>
 
 
 CSS koduda şöyle olacak;
 
 	:::css
-	 #tezahuratBilgi{margin:1px 0;
-background-color:#eee; padding:13px 10px 0 10px}
-#tezahuratBilgiSol{float:left; width:390px} #tezahuratBilgiSol a{
-color:#0c2b90} #tezahuratBilgiSol p{margin-bottom:10px}
-#tezahuratBilgiSol input{border:1px solid #cbcbcb; font:14px Arial,
-Helvetica, sans-serif; color:#cccccc; width:200px}
-#tezahuratBilgiSag{float:left; width:240px} #tezahuratBilgiSag
-p{margin:0 0 15px 0} #tezahuratBilgiSag p span{float:left;}
+	#tezahuratBilgi{
+		background-color: #eee;
+		margin: 1px 0;
+		padding: 13px 10px 0 10px;
+	}
+	#tezahuratBilgiSol{
+		float: left;
+		width: 390px;
+	}
+	#tezahuratBilgiSol a{
+		color: #0c2b90;
+	}
+	#tezahuratBilgiSol p{
+		margin-bottom: 10px;
+	}
+	#tezahuratBilgiSol input{
+		border: 1px solid #cbcbcb;
+		color: #cccccc;
+		font: 14px Arial, Helvetica, sans-serif;
+		width: 200px;
+	}
+	#tezahuratBilgiSag{
+		float: left;
+		width: 240px;
+	}
+	#tezahuratBilgiSag p{
+		margin: 0 0 15px 0;
+	}
+	#tezahuratBilgiSag p span{
+		float: left;
+	}
 
 
 Etiketler, Önce Söyle, Sonra Yorumla vb. başlıkların ikonlarını sprite
@@ -463,9 +682,16 @@ Etiketler için padding ve ardalan rengi tanımlıyoruz. hover hallerini
 hazırlıyoruz.
 
 	:::css
-	 div#etiketler a{padding:2px 4px;
-background-color:#eee; color:#666; font-size:14px} div#etiketler
-a:hover{background-color:#666; color:#eee;} 
+	div#etiketler a{
+		background-color: #eee;
+		color: #666;
+		font-size: 14px;
+		padding: 2px 4px;
+	}
+	div#etiketler a:hover{
+		background-color: #666;
+		color: #eee;
+	} 
 
 **Önce Söyle**
 
@@ -474,9 +700,12 @@ blockquote içine koydum. Aslında bunun için de bir katman açıp
 koyabilirdik, tercih meselesi. Ardalan resmini sağ alta sabitliyoruz.
 
 	:::css
-	 blockquote.tezahuratMetni{ background:#eee
-url(../images/tezahurat_zem.gif) right bottom no-repeat; padding:20px
-50px 20px 30px; margin-bottom:1px; font-style:italic} 
+	blockquote.tezahuratMetni{
+		background: #eee url(../images/tezahurat_zem.gif) right bottom no-repeat;
+		font-style: italic;
+		margin-bottom: 1px;
+		padding: 20px 50px 20px 30px;
+	}
 
 **Yorum Alanı**
 
@@ -494,26 +723,92 @@ başlıklar gibi yazıyoruz. Yorum yazma kısmına bir textarea yapıp
 genişlik, yükseklik ve kenar çizgisi tanımlarını yapıyoruz.
 
 	:::css
-	 div.yorumalani{border-bottom:1px solid
-#e0e0e0; margin-bottom:12px} div.yAvatar{float:left; width:60px}
-div.yorumAlaniSag{float:left; width:590px} div.yorumAlaniSag
-strong{color:#a1a1a1; display:block; clear:left; margin:10px 0 5px 0}
-#solOrtaAlan div.yorumAlaniSag p{margin-bottom:10px}
-div.yorumYazari{float:left; font-weight:bold;} div.yorumYazari
-a{color:#2a459d} div.comment-rate{float:left; width:75px;
-margin-left:20px; position:relative;} div.comment-rate-num{float: left;
-padding-right: 5px; color:#088f02; font-weight:bold;}
-ul.yorumOyla{float:left; width:75px; margin-left:20px;
-position:relative; top:-5px;} ul.yorumOyla li{float:left;} li.yorumArti
-a{ background:url(../images/genel_resim.gif) -15px -530px no-repeat;
-display:block; text-indent:-9999px; width:16px; height:20px}
-li.yorumEksi a{ background:url(../images/genel_resim.gif) 0 -530px
-no-repeat; display:block; text-indent:-9999px; width:16px; height:20px}
-li.olumlu{color:#088f02; font-weight:bold;} li.olumsuz{color:#c00;
-font-weight:bold;} li.notr{color:#000; font-weight:bold;}
-h3.senYaz{background:url(../images/tez_din_ikon.gif) 0 -168px
-no-repeat; padding:15px 0 3px 32px} #solOrtaAlan textarea{border:1px
-solid #e1e1e1; width:642px; margin-bottom:20px; height:100px}
+	div.yorumalani{
+		border-bottom: 1px solid #e0e0e0;
+		margin-bottom: 12px;
+	}
+	div.yAvatar{
+		float: left;
+		width: 60px;
+	}
+	div.yorumAlaniSag{
+		float: left;
+		width: 590px;
+	}
+	div.yorumAlaniSag strong{
+		clear: left;
+		color: #a1a1a1;
+		display: block;
+		margin: 10px 0 5px 0;
+	}
+	#solOrtaAlan div.yorumAlaniSag p{
+		margin-bottom: 10px;
+	}
+	div.yorumYazari{
+		float: left;
+		font-weight: bold;
+	}
+	div.yorumYazari a{
+		color: #2a459d;
+	}
+	div.comment-rate{
+		float: left;
+		margin-left: 20px;
+		position: relative;
+		width: 75px;
+	}
+	div.comment-rate-num{
+		color: #088f02;
+		float: left;
+		font-weight: bold;
+		padding-right: 5px;
+	}
+	ul.yorumOyla{
+		float: left;
+		margin-left: 20px;
+		position: relative;
+		top: -5px;
+		width: 75px;
+	}
+	ul.yorumOyla li{
+		float: left;
+	}
+	li.yorumArti a{
+		background: url(../images/genel_resim.gif) -15px -530px no-repeat;
+		display: block;
+		height: 20px;
+		text-indent: -9999px;
+		width: 16px;
+	}
+	li.yorumEksi a{
+		background: url(../images/genel_resim.gif) 0 -530px no-repeat;
+		display: block;
+		height: 20px;
+		text-indent: -9999px;
+		width: 16px;
+	}
+	li.olumlu{
+		color: #088f02;
+		font-weight: bold;
+	}
+	li.olumsuz{
+		color: #c00;
+		font-weight: bold;
+	}
+	li.notr{
+		color: #000;
+		font-weight: bold;
+	}
+	h3.senYaz{
+		background: url(../images/tez_din_ikon.gif) 0 -168px no-repeat;
+		padding: 15px 0 3px 32px;
+	}
+	#solOrtaAlan textarea{
+		border: 1px solid #e1e1e1;
+		height: 100px;
+		margin-bottom: 20px;
+		width: 642px;
+	}
 
 
 Tezahürat Dinle/İzle sayfasınıda tamamlamış oluyoruz.
@@ -535,26 +830,38 @@ Fanatikmarşlar.com'un şablon sayfasına baktığımızda başlık, paragraf ve
 uyarı mesajları şeklinde oluşmaktadır.
 
 	:::css
-	 #anaKapsul h1.hata{color:#e40000}
-#anaKapsul h1.onay{color:#1f6600} 
+	#anaKapsul h1.hata{
+		color:#e40000
+	}
+	
+	#anaKapsul h1.onay{
+		color:#1f6600
+	} 
 
 Bilgi kutusunu oluştururken yuvarlak kenarlı olduğu için, iki elamana
 ihtiyaç var. Bunun için kapsayıcı div ve içine paragrafa koyduk.
 
 	:::html
-	 <div class="bilgiKutusu">
-<p><strong>Bu kullanıcı adı zaten alınmış, başka bir tane deneyin.
-</strong></p> </div> 
+	<div class="bilgiKutusu">
+		<p><strong>Bu kullanıcı adı zaten alınmış, başka bir tane deneyin.</strong></p>
+	</div> 
 
 CSS Kodları
 
 	:::css
-	 div.bilgiKutusu{ background:#2d2d2d
-url(../images/bilgi_kutusu.gif) 0 0 no-repeat; margin-bottom:20px;
-font:bold 14px Arial, Helvetica, sans-serif; color:#fff}
-div.bilgiKutusu p{background:url(../images/bilgi_kutusu.gif) -650px
-bottom no-repeat; padding:10px;} div.bilgiKutusu p
-strong{color:#ffc000} 
+	div.bilgiKutusu{
+		background: #2d2d2d url(../images/bilgi_kutusu.gif) 0 0 no-repeat;
+		color: #fff;
+		font: bold 14px Arial, Helvetica, sans-serif;
+		margin-bottom: 20px;
+	}
+	div.bilgiKutusu p{
+		background: url(../images/bilgi_kutusu.gif) -650px bottom no-repeat;
+		padding: 10px;
+	}
+	div.bilgiKutusu p strong{
+		color: #ffc000;
+	}
 
 Alt sayfaların kodlamasını böylelikle bitirdik. Site kodlarken değişik
 tasarımlarda olsa genelde benzer yapılar olduğu için yaklaşık olarak
@@ -581,8 +888,6 @@ sevinci ile bu makalemide bitiriyorum. Daha güzel makalelerde buluşmak
 dileğiyle kendinize iyi bakın.
 
 Projede yer alan tüm dosyaları sıkıştırıp attım. [Tüm dosyaları indirmek için tıklayınız.][]
-
-</p>
 
   [Marşlar]: /images/marslar_kucuk.jpg
   [Tezahürat Ekle]: /images/tezahurat_ekle_kucuk.jpg

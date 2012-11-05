@@ -19,26 +19,34 @@ sistem, buda sitemizin daha hızlı açılmasını sağlayacaktır.
 
 Kodlar aşağıdaki gibi;
 
-[html highlight="9"] <!DOCTYPE html> <html> <head>
-<title>Başlık</title> </head> <body> <script
-type="text/javascript"> var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-XXXXX-X']);
-_gaq.push(['_trackPageview']); (function() { var ga =
-document.createElement('script'); ga.type = 'text/javascript'; ga.async
-= true; ga.src = ('https:' == document.location.protocol ? 'https://ssl'
-: 'http://www') + '.google-analytics.com/ga.js';
-(document.getElementsByTagName('head')[0] ||
-document.getElementsByTagName('body')[0]).appendChild(ga); })();
-</script> <!-- site icegi buradan sonra gelir --> </body>
-</html> 
+	:::html
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<title>Başlık</title>
+	</head>
+	<body>
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-XXXXX-X']);
+	  _gaq.push(['_trackPageview']);
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	  })();
+	</script>
+	<!-- site icegi buradan sonra gelir -->
+	</body>
+	</html>
 
 Kodumuz eskisi gibi karmaşık ama siz karmaşıklığa aldanmayın. Burada
 yapacağımız şey çok basit. 9. satırdaki **UA-XXXXXXX-X** kısım yerine
 gooagle analytics'in bize verdiği kodu yerleştirmek.
 
 Burada dikkat edeceğimiz bir husus daha vardır. Normalde javascript
-kodlarının </head> öncesine yazmamız önerilir, sitemizin performansı
-için. Ancak asenkaron nalytics kodları <head> etiketi içinde yazmanız
+kodlarının </head\> öncesine yazmamız önerilir, sitemizin performansı
+için. Ancak asenkaron nalytics kodları <head\> etiketi içinde yazmanız
 öneriliyor.
 
 Sonuçta ben kullanıyorum gayet iyi, hızlandı site. Çok büyük beklentiye
@@ -60,8 +68,6 @@ girmeyin ama hızda bir atış olduğu hissediliyor.
 -   [http://blog.chartbeat.com/2009/12/04/google-analytics-goes-asynchronous/][]
 -   [http://www.further.co.uk/blog/New-Google-Analytics-Asynchronous-Tracking-Code-241][]
 -   [http://www.highposition.net/article/google-analytics-launches-asynchronous-tracking-code-for-greater-speed/4561763][]
-
-</p>
 
   [http://code.google.com/apis/analytics/docs/tracking/asyncTracking.html]: http://code.google.com/apis/analytics/docs/tracking/asyncTracking.html
     "http://code.google.com/apis/analytics/docs/tracking/asyncTracking.html"
