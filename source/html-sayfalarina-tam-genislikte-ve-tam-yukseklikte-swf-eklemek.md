@@ -11,17 +11,21 @@ bu konuyu göz atmıştım.
 
 İki yöntem var aslında bunun için.
 
-### Birinci Yöntem
+## Birinci Yöntem
 
 	:::css
-	 body { height: 100%; width: 100%; margin: 0; } 
+	body {
+	    height: 100%;
+	    width: 100%;
+	    margin: 0;
+	}
 
 şeklinde bir kod. Ancak bu kod ne yazık ki Firefox ve Opera'da
 çalışmıyor. Yada çalışması için html sayfamızdan DOCTYPE'ı silmemiz
 gerekiyor. Bence bu pek mantıklı bir kullanım değil, o nedenle ben
 ikinci yöntemi öneriyorum.
 
-### İkinci Yöntem
+## İkinci Yöntem
 
 swfobject.embedSWF("test.swf", "myContent", "100%", "100%", "9.0.0",
 "expressInstall.swf");
@@ -29,7 +33,23 @@ swfobject.embedSWF("test.swf", "myContent", "100%", "100%", "9.0.0",
 Genişlik ve yüksekliğini 100% veriyoruz ve css kodumuzu yazıyoruz.
 
 	:::css
-	/* hide from ie on mac */ html { height: 100%; overflow: hidden; } #myContent { height: 100%; } /* end hide */ body { height: 100%; margin: 0; padding: 0; background-color: #090; }
+	/* hide from ie on mac \*/
+	html {
+	    height: 100%;
+	    overflow: hidden;
+	}
+
+	#myContent {
+	    height: 100%;
+	}
+	/* end hide */
+
+	body {
+	    height: 100%;
+	    margin: 0;
+	    padding: 0;
+	    background-color: #090;
+	}
 
 Örneği görmek için [tıklayınız][]
 
@@ -53,7 +73,7 @@ Son olarakta body elementinin yüksekliğini yüzde yüz yapıp margin ve
 padding değerlerini sıfırlıyoruz ve görünmese de işi garantiye almak
 için bir backgroun-color tanımı yapıyoruz. Bu kadar.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://blog.deconcept.com/2005/01/02/100-height-and-100-width-xhtml-flash-embed/][]
 -   [http://www.kirupa.com/developer/mx2004/fullscreen.htm][]

@@ -17,17 +17,32 @@ karşılaşıyorum.<!--more-->
 yukarıdaki gibi bir tasarımı koda çevirirken
 
 	:::html
-	 <div class="dis"> <div
-class="ic"><input type="text" value="Arama" /></div> </div>
+	<div class="dis">
+	    <div class="ic"><input type="text" value="Arama" /></div>
+	</div>
 
 
 CSS kodu
 
 	:::css
-	 div.dis{ margin-left:65px; } div.ic{
-width:241px; height:25px; background:url(arama_ardalan.gif) 0 0
-no-repeat } div.ic input{ border:0; background:none; width:204px;
-margin:4px 0 0 5px; font-size:11px; color:#534013; } 
+	div.dis{
+		margin-left:65px;
+	}
+	
+	div.ic{
+	    width:241px; 
+	    height:25px; 
+	    background:url(arama_ardalan.gif) 0 0 no-repeat 
+	}
+	
+	div.ic input{
+	    border:0; 
+	    background:none; 
+	    width:204px; 
+	    margin:4px 0 0 5px; 
+	    font-size:11px; 
+	    color:#534013;
+	}
 
 Örneği görmek için [tıklayınız.][]
 
@@ -35,11 +50,11 @@ Böyle bir kod yazıyorum. Dıştaki div(div.dis) herhangi bir kapsayıcı div
 olarak düşünün. Sayfanın diğer bir öğesi yani bu arama kısmı ile alakası
 yok. Bu kapsayıcı katmandaki margin tanımı ie'de sorun çıkarıyor.
 
-[![][1]][]
+![][1]
 
 Firefox'da yukarıdaki gibi bir görüntü alırken
 
-[![][2]][]
+![][2]
 
 İnternet Explore 6 ve 7 sürümlerinde yukarıdaki gibi bir görüntü ile
 karşılaşıyorum. En dıştaki katmana atadığım margin-left değeri içerideki
@@ -56,22 +71,23 @@ zoom:1 tanımı ile bu sorunu aştım. Margin tanımı olan elemana zoom:1
 tanımı yapınca sorun çözüldü
 
 	:::css
-	 div.dis{ margin-left:65px; zoom:1}
+	div.dis{ 
+		margin-left:65px; 
+		zoom:1
+	}
 
 
 Örneği görmek için [tıklayınız.][3]
 
-[![][4]][]
+![][4]
 
 Bu sorun tüm input çeşitlerinde(text, checkbox, radyo buton ve resim)
 meydana geliyor, ayrıca textarea'da yaşanıyor bu sorun, ancak select
 elemanında bu sorun ile karşılaşılmıyor.
 
-### Kaynak
+## Kaynak
 
 -   [http://www.positioniseverything.net/explorer/inherited_margin.html][]
-
-</p>
 
   [bu siteye göz atın]: http://www.satzansatz.de/cssd/onhavinglayout.html
   []: /images/arama_ardalan1.gif
@@ -79,13 +95,10 @@ elemanında bu sorun ile karşılaşılmıyor.
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/margin_inherit_form/inherit_margin_form_orn.html
   [1]: /images/margin_inherit_ff.gif
     "margin_inherit_ff"
-  [![][1]]: /images/margin_inherit_ff.gif
   [2]: /images/margin_inherit_ie.gif
     "margin_inherit_ie"
-  [![][2]]: /images/margin_inherit_ie.gif
   [IE'da İkikat görülen Margin Problemi ve Çözümü]: http://www.fatihhayrioglu.com/ieda-ikikat-gorulen-margin-problemi-ve-cozumu/
   [3]: http://fatihhayrioglu.com/dokumanlar/margin_inherit_form/inherit_margin_form_ornc.html
   [4]: /images/margin_inherit_ie_c.gif
     "margin_inherit_ie_c"
-  [![][4]]: /images/margin_inherit_ie_c.gif
   [http://www.positioniseverything.net/explorer/inherited_margin.html]: http://www.positioniseverything.net/explorer/inherited_margin.html

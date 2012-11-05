@@ -13,15 +13,19 @@ ie6'da bazense ie6 ve ie7'de oluyor.
 Bir örnek verelim
 
 	:::html
-	 <ul id="menu"> <li><a href="#">Menu
-Bir</a></li> <li><a href="#">Menu İki</a></li> <li><a
-href="#">Menu Üç</a></li> <li><a href="#">Menu Dört</a>
-</li> </ul> 
+	<ul id="menu">
+	  <li><a href="#">Menu Bir</a></li>
+	  <li><a href="#">Menu İki</a></li>
+	  <li><a href="#">Menu Üç</a></li>
+	  <li><a href="#">Menu Dört</a> </li>
+	</ul>
 
 CSS kodumuzda da
 
 	:::css
-	 ul#menu li a{ display:block} 
+	ul#menu li a{ 
+		display:block
+	} 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -46,13 +50,14 @@ biri yapılması durumunda bu sorun düzelecektir.
 **writing-mode:** tb-rl  
 **zoom:** herhangi bir değeri
 
-</p>
 * ie7 de geçerli.
 
 Biz bir tanesini seçelim.
 
 	:::html
-	 * html ul#menu li a {height: 1px;}
+	* html ul#menu li a {
+		height: 1px;
+	}
 
 
 Örneği görmek için [tıklayınız.][1]
@@ -61,7 +66,7 @@ Bu kodu yazdıktan sonra sayfa aşağıdaki gibi görünecektir.
 
 ![][2]
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.brunildo.org/test/IEWlispace.php][]
 -   [http://www.hicksdesign.co.uk/journal/ie-whitespace-bug][]
@@ -69,8 +74,6 @@ Bu kodu yazdıktan sonra sayfa aşağıdaki gibi görünecektir.
 -   [http://orlandodefrias.com/2008/11/23/ie-unordered-list-extra-space-bug/][]
 -   [http://archivist.incutio.com/viewlist/css-discuss/34926][]
 -   [http://gtwebdev.com/workshop/gaps/white-space-bug.php][]  
-
-</p>
 
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/ie6_fazla_bosluk_sorunu/ie_listede_fazla_bosluk_sorunu.html
   []: http://docs.google.com/File?id=dhctmbn6_421fk5d9mft_b

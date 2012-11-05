@@ -43,7 +43,7 @@ Kaynak kodları [Google Code][]'dan indireceğiz. İndirdiğimiz dosyada
 **index_dynamic.html**, **test.swf** dosyaları yer alır. Ayrııca src
 klasörüde yer alır.
 
-### Statik Kod ile Flash Dosyalarını Eklemek
+## Statik Kod ile Flash Dosyalarını Eklemek
 
 SWFObject'in önceki sürümlerinde olmayan bu metot yeni sürüm ile
 birlikte gelmiştir. Bu kod eski(ie eolas lisans sorunu öncesi) statik
@@ -59,25 +59,35 @@ vardır.
 Indirdigimiz dosya içerisinden çikan index.html sayfasi statik bir flash
 eklemeye örnektir. Kodlarini incelersek
 
-[sourcecode language="html" highlight="6,7,8,9,13,14,15,16,17,18,19,20,21,22,23,24,25,26"]
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> <html
-xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> <head>
-<title>SWFObject 2 static publishing example page</title> <meta
-http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<script type="text/javascript" src="swfobject.js"></script> <script
-type="text/javascript"> swfobject.registerObject("myId", "9.0.0",
-"expressInstall.swf"); </script> </head> <body> <div> <object
-id="myId" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-width="300" height="120"> <param name="movie" value="test.swf" />
-<!--[if !IE]>--> <object type="application/x-shockwave-flash"
-data="test.swf" width="300" height="120"> <!--<![endif]--> <div>
-<h1>Alternatif içerik</h1> <p>Kullanıcının bilgisayarında flash
-yüklü değilse burayı gösterecek<a
-href="http://www.adobe.com/go/getflashplayer"><img
-src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
-alt="Get Adobe Flash player" /></a></p> </div> <!--[if !IE]>--> </object> <!--<![endif]--> </object> </div>
-</body> </html> 
+	:::html
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+	<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>SWFObject 2 static publishing example page</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<script type="text/javascript" src="swfobject.js"></script>
+		<script type="text/javascript"> swfobject.registerObject("myId", "9.0.0", "expressInstall.swf"); </script>
+	</head>
+	<body>
+	<div>
+		<object id="myId" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="300" height="120">
+		<param name="movie" value="test.swf" />
+		<!--[if !IE]>-->
+		<object type="application/x-shockwave-flash" data="test.swf" width="300" height="120">
+		<!--<![endif]-->
+	<div>
+	<h1>Alternatif içerik</h1> 
+	<p>Kullanıcının bilgisayarında flash yüklü değilse burayı gösterecek
+	<a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a>
+	</p>
+	</div>
+	<!--[if !IE]>-->
+	</object>
+	<!--<![endif]-->
+	</object>
+	</div>
+	</body>
+	</html> 
 
 Kodu iki kısıma ayıralım. İlk head içerisindeki javascript kısmı ve body
 içerisindeki html kısmı
@@ -85,10 +95,10 @@ içerisindeki html kısmı
 **head içerisindeki javascript kısmı**
 
 	:::html
-	 <script type="text/javascript"
-src="swfobject.js"></script> <script type="text/javascript">
-swfobject.registerObject("myId", "9.0.0", "expressInstall.swf");
-</script> 
+	<script type="text/javascript" src="swfobject.js"></script> 
+	<script type="text/javascript">
+		swfobject.registerObject("myId", "9.0.0", "expressInstall.swf");
+	</script> 
 
 registerObject fonksiyonuna html içindeki elemanın id'sini(myId), flash
 sürümünü ve flash olmayanlar için yüklemeye yönlendiren dosyanın
@@ -108,7 +118,7 @@ Diğer atamalar sabittir. Ayrıca ek özellikler eklemek istediğimizde(örn:
 flashvars, transparent vd.) <param> etiketi ile bunları eklemeliyiz.
 Ayrıntılı bilgi için [tıklayınız][]
 
-### Dinamik Kod ile Flash Dosyaları Eklemek
+## Dinamik Kod ile Flash Dosyaları Eklemek
 
 Dinamik yöntem ile kod ekleme yöntemi swfobject'in eski sürümleri ile
 aynıdır. Bu yöntem daha basit uygulanabilirliği vardır. Ayrica dinamik
@@ -126,12 +136,11 @@ Bu kodumuzda head içindeki ve body içindeki kısımları ile ikiye ayrılır.
 **body içerisindeki kısmı**
 
 	:::html
-	 <div id="myContent"> <h1>Alternatif
-içerik</h1> <p>Kullanıcının bilgisayarında flash yüklü değilse
-burayı gösterecek <a
-href="http://www.adobe.com/go/getflashplayer"><img
-src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
-alt="Get Adobe Flash player" /></a></p> </div> 
+	<div id="myContent">
+		<h1>Alternatif içerik</h1> 
+		<p>Kullanıcının bilgisayarında flash yüklü değilse burayı gösterecek <a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a>
+		</p>
+	</div> 
 
 Dinamik kodlama ile flash(swf) dosyalarının eklenme mantığı şöyledir;
 bir eleman oluşturulur ve bu elemana dinamik olarak özellikleri atanır
@@ -142,10 +151,10 @@ yazdığımız içeriği kullanıcı görüyor, flash var ise de flash görünü
 **head içindeki kısımları**
 
 	:::html
-	 <script type="text/javascript"
-src="swfobject.js"></script> <script type="text/javascript">
-swfobject.embedSWF("test.swf", "myContent", "300", "120", "9.0.0",
-"expressInstall.swf"); </script> 
+	<script type="text/javascript" src="swfobject.js"></script>
+	<script type="text/javascript">
+		swfobject.embedSWF("test.swf", "myContent", "300", "120", "9.0.0", "expressInstall.swf"); 
+	</script> 
 
 swfobject.js dosyasını ekliyoruz. Sonrada html içerisine ekleyeceğimiz
 swf dosyasının bilgilerini giriyoruz. Sırası ile incelersek
@@ -164,29 +173,30 @@ söylemiştik. Mesela yeni parametre eklerken kodumuzu söyle değiştirmemiz
 yeterli olacaktır
 
 	:::javascript
-	 var flashvars = {}; flashvars.xmlPath
-= "xml/data.xml"; var params = {}; params.menu = "false"; params.wmode =
-"opaque"; var attributes = {}; attributes.id = "myDynamicContent";
-attributes.name = "myDynamicContent"; swfobject.embedSWF("test.swf",
-"myAlternativeContent", "300", "120", "9.0.0", false, flashvars, params,
-attributes); 
+	var flashvars = {}; 
+	flashvars.xmlPath = "xml/data.xml"; 
+	var params = {}; 
+	params.menu = "false"; 
+	params.wmode = "opaque"; 
+	var attributes = {}; 
+	attributes.id = "myDynamicContent"; 
+	attributes.name = "myDynamicContent"; 
+	swfobject.embedSWF("test.swf", "myAlternativeContent", "300", "120", "9.0.0", false, flashvars, params, attributes); 
 
 İlk başta değişkenleri tanımlayıp sonra embed kodu içine ekliyoruz. Bir
 başka şekli ile
 
 	:::javascript
-	 <script type="text/javascript">
-swfobject.embedSWF("test.swf", "myContent", "300", "120",
-"9.0.0","expressInstall.swf", {xmlPath:"xml/data.xml"}, {menu:"false",
-wmode:"opaque"}, {id:"myDynamicContent",name:"myDynamicContent"});
-</script> 
+	<script type="text/javascript">
+		swfobject.embedSWF("test.swf", "myContent", "300", "120", "9.0.0","expressInstall.swf", {xmlPath:"xml/data.xml"}, {menu:"false", wmode:"opaque"}, {id:"myDynamicContent",name:"myDynamicContent"});
+	</script> 
 
 şeklinde de yazabiliyoruz. Parametre olarak ben genelde ya flashvars ile
 xml yolunu yazıyorum, yada wmode özelliğini yazıyorum. Diğerlerini pek
 kullanmıyorum. Bana eski sürümdeki parametre ekleme şekli daha kolay
 geliyordu açıkçası.
 
-### wmode özelliği
+## wmode özelliği
 
 Yeri gelmişken wmode özelliğinede değinelim. window , opaque ve
 transparent özelliklerini alıyor. Ben genelde bu özelliği diğer
@@ -195,7 +205,7 @@ eskiden transparent kullanıyordum ancak transparent kullanınca flash çok
 yavaşlatıyor sayfayı bu nedenle opaque kullanıyorum. Tabi eğer flash
 zemini saydam olmayacak ise ki genelde olmuyor.
 
-### Sonuç
+## Sonuç
 
 SwfObject 2.2'in yanında google code içerisinde "SWFObject 2 HTML and
 JavaScript generator v1.2" yukarıdaki kodu üretmek için bir sayfa
@@ -207,7 +217,7 @@ var, jquery eklentisi var. Ancak ben swfobject'i kullanıyorum. Sizlerede
 kullanmanızı öneriyorum. Kendinize iyi bakın. Görüşmek dileğiyle.
 Hoşçakalın.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://code.google.com/p/swfobject/wiki/documentation][tıklayınız]
 -   [http://www.adobe.com/devnet/flashplayer/articles/swfobject.html][]
@@ -216,15 +226,12 @@ Hoşçakalın.
 -   [http://www.tizag.com/flashTutorial/flashhtmlcode.php][]
 -   [http://www.ispringsolutions.com/articles/how_to_insert_flash_into_html.html][]
 -   [http://groups.google.com/group/swfobject/browse_thread/thread/eeb1c721a0c10a90?pli=1][]
-    (swfobject)
 -   [http://latrine.dgx.cz/how-to-correctly-insert-a-flash-into-xhtml][]
-    (eski yöntem)
 -   [http://www.alistapart.com/articles/flashembedcagematch/][]
 -   [http://www.webogrencisi.com/swfobject-1-5-flash-obje-ekleme-betigi][]
 -   [http://www.reelseo.com/swfobject-video-seo/][]
 -   [http://www.gotoandlearn.com/play?id=77][]
 
-</p>
 
   [İnternet Explorer'ın ActiveX güncellemesi sonrası]: http://www.fatihhayrioglu.com/internet-explorer-activex-guncelmesi-ve-sonrasinda-flashswf-kullanilan-sayfalardaki-sorunlar/
   [Microsoft'un Eolas ile lisans sorunları]: http://www.baekdal.com/articles/technology/microsoft-ie-activex-update/

@@ -3,7 +3,7 @@ Date: 2010-03-11 23:44
 Category: CSS
 Tags: DragonFly, firebug, Firefox, ipucu, Opera, satır-numarası
 
-[![][]][]
+![][]
 
 Bazen kullandığım programların alternatiflerini araştırıyorum. Amacım
 eğer daha güzel ve daha kullanışlı özellikleri varsa onlardan
@@ -31,7 +31,7 @@ bir ayrıntı ama benim çok işime yarıyor. Hemde çok.
 yazıyordum. Sebebi çok açık kodların okunabilirliği artıyordu böylece.
 Sonra fark ettim ki ben kodları okumuyorum artık FireBug ile yakalıyorum
 ve satır numarasından ilgili dokümanı açıp müdahele ediyorum. Bununda
-etkisi ile [her satırda bir tanım yerine her satırda bir seçici şeklinde css dosyalarımı][] yazmaya başladım ve bu bana çok büyük bir yer
+etkisi ile [her satırda bir tanım yerine her satırda bir seçici şeklinde css dosyalarımı](http://www.fatihhayrioglu.com/css-kod-yazma-duzeni/) yazmaya başladım ve bu bana çok büyük bir yer
 kazandırdı.
 
 Evet bazı küçük özellikleri fark etmesekde bize çok büyük faydalar
@@ -39,10 +39,4 @@ sağlayabiliyor.
 
 Sağol FireBug. Sen olmasan bu iş gerçekten zor olurdu.
 
-</p>
-
   []: /images/firebug_satirno.gif
-    "firebug_satirno"
-  [![][]]: /images/firebug_satirno.gif
-  [her satırda bir tanım yerine her satırda bir seçici şeklinde css   dosyalarımı]: http://www.fatihhayrioglu.com/css-kod-yazma-duzeni/
-    "her satırda bir tanım yerine her satırda bir seçici şeklinde css   dosyalarımı"

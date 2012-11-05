@@ -21,7 +21,7 @@ CSS seçici tipleri ve kullanımı hakkında [(X)HTML Sayfa Yapısı ve CSS Kull
 [Sözde-sınıflar(Pseudo-class) ve Sözde-elementler(Pseudo-elements)][]
 makalelerini bir göz atın.
 
-### Performanslı CSS Seçicileri Seçiminde Anahtar Seçicinin Önemi
+## Performanslı CSS Seçicileri Seçiminde Anahtar Seçicinin Önemi
 
 CSS Seçicilerinin performans kazandırma çalışmalarına başlamadan önce
 ilk bilmemiz gereken tarayıcıların CSS seçicilerini nasıl yorumladığını
@@ -32,8 +32,10 @@ okunduğunu düşünerek kodumu yazardım ama gerçek böyle değilmiş.
 bilgiden sonra yazdığımız kodları buna göre düşünerek yazmalıyız.
 
 	:::css
-	 ul li a#smUrunler{color:#000;
-background:url(../images/menu.png) 0 0 no-repeat; } 
+	ul li a#smUrunler{
+		color:#000; 
+		background:url(../images/menu.png) 0 0 no-repeat; 
+	} 
 
 Yukarıdaki tanımlamada ilk olarak tarayıcı doküman içinde geçen
 a#smUrunler seçicisini bulacaktır, bu seçiciye anahtar seçici deniyor.
@@ -43,16 +45,20 @@ Bu bize gösteriyorki css kodlarımızı yazarken buna dikkat etmemiz ve
 buna göre kod yazmamız gerekiyor.
 
 	:::css
-	 ul#solMenu li a{color:#000;
-background:url(../images/menu.png) 0 0 no-repeat; } 
+	ul#solMenu li a{
+		color:#000;
+		background:url(../images/menu.png) 0 0 no-repeat; 
+	} 
 
 şeklindeki bir tanım önerilmiyor. Bu tanımda sağdan sola doğru
-yorumlandığını düşünürsek dokümandaki tüm bağlantıları(<a>)
+yorumlandığını düşünürsek dokümandaki tüm bağlantıları(<a\>)
 arayacaktır tarayıcı. Bunun yerine
 
 	:::css
-	 ul li a#smUrunler{color:#000;
-background:url(../images/menu.png) 0 0 no-repeat; } 
+	ul li a#smUrunler{
+		color:#000;
+		background:url(../images/menu.png) 0 0 no-repeat; 
+	} 
 
 Tanılaması daha efektif bir sonuç verecektir. Tarayıcı direk olarak
 a#smUrunler seçicisi ile elemanı bulacaktır.
@@ -63,7 +69,7 @@ anlayacağız.
 Aynı öneriyi bize Google'un Page Speed eklentisi test sonucuda
 verecektir. Google'un hıza önem verdiğini biliyoruz bu konuda [google'un önerileride][] Mozilla'dan farklı değil.
 
-### Mozilla makalesindeki önerileri sıralarsak
+## Mozilla makalesindeki önerileri sıralarsak
 
 **Evrensel kuralları önleyiniz**  
 CSS seçicilerini yazarken son tanımda evrensel bir seçici kullanmayın.
@@ -73,12 +79,12 @@ Tekil seçiciler zaten en hızlı erişilen seçicilerdir. Bunları tekrar
 etiket ile nitelemeye gerek yoktur.
 
 	:::css
-	 a#slUrunler{...} 
+	a#slUrunler{...} 
 
 yerine
 
 	:::css
-	 #smUrunler{...} 
+	#smUrunler{...} 
 
 şeklinde kullanın.
 
@@ -91,12 +97,12 @@ zamanlarda çok kullanıyordum bu tanımlamayı, artık veda edeceğiz.
 Yukarıda anlattığımız gibi burası içinde geçerlidir.
 
 	:::css
-	 td.taraftarSayi{} 
+	td.taraftarSayi{} 
 
 yerine
 
 	:::css
-	 .taraftarSayi{} 
+	.taraftarSayi{} 
 
 şeklinde kullanın.
 
@@ -104,12 +110,12 @@ yerine
 Uzun seçici listesi kullanmak yerine daha özel bir sınıf tanımı yapın.
 
 	:::css
-	 ul li a{...} 
+	ul li a{...} 
 
 yerine a'ya smUrunler sınıfını atayıp
 
 	:::css
-	 .smUrunler{...} 
+	.smUrunler{...} 
 
 şeklinde kullanın.
 
@@ -122,24 +128,24 @@ Seçici tiplerinden torun seçicileri en yavaş yöntemlerden biridir.
 Etiket tabanlı çocuk seçicileriniz yerine özel seçici kullanınız.
 
 	:::css
-	 treehead > treerow > treecell {...}
+	treehead > treerow > treecell {...}
 
 
 yerine
 
 	:::css
-	 .treecell-header {...} 
+	.treecell-header {...} 
 
 kullanın.
 
-### CSS 3 ile gelen avantajlar
+## CSS 3 ile gelen avantajlar
 
 CSS seçicilerine CSS3 ile birlikte daha özel seçiciler geliyor. Bu
 seçiciler sayesinde daha optimize kodlar elde edeceğiz. Şimdilik
 İnternet Explorer'un mevcut sürümleri bu kullanıma izin vermese de
 gelecekte işimiz daha kolay olacak.
 
-### Sonuç
+## Sonuç
 
 Yukarıdaki önerileri dikkate alarak kodlarımızı yazmalıyız. Ancak bunlar
 kesin kurallar değildir ve uygulamada bazen bu kurallar uymakta
@@ -164,16 +170,12 @@ göre yapalım proje küçük olmuş, büyük olmuş bizi ilgilendirmesin.
 -   [http://www.shauninman.com/archive/2008/05/05/css_qualified_selectors][]
 -   [http://blog.archive.jpsykes.com/153/more-css-performance-testing-pt-3/][]
 -   [http://www.infoq.com/news/2009/01/jquery-1.3][]
--   [http://code.google.com/speed/page-speed/docs/rendering.html][]
-    (google'dan notlar)
+-   [http://code.google.com/speed/page-speed/docs/rendering.html][] (google'dan notlar)
 -   [http://fatagnus.com/guidelines-for-writing-efficient-css-selectors/][]
 -   [http://www.shauninman.com/archive/2008/05/05/css_qualified_selectors][]
 -   [http://css-tricks.com/efficiently-rendering-css/][]
 -   [http://www.nuvographics.com/articles/efficientcss/][]
--   [http://www.css-101.org/descendant-selector/go_fetch_yourself.php][]
-    (yeni)
-
-</p>
+-   [http://www.css-101.org/descendant-selector/go_fetch_yourself.php][] (yeni)
 
   [Writing Efficient CSS for use in the Mozilla UI]: https://developer.mozilla.org/en/Writing_Efficient_CSS
     "Writing Efficient CSS for use in the Mozilla UI"

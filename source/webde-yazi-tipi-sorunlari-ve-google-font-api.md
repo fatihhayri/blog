@@ -107,7 +107,7 @@ Tabi burada da şöyle bir sorunumuz varki oda Google Font Apı'nin
 içerdiği yazı tiplerinde şimdilik Türkçe karakter yok. Ümit ediyoruz ki
 yakında eklenir ve bizlerde bu kaynaktan yararlanırız. 
 
-### Sonuç
+## Sonuç
 
 Her ne kadar burada yazdığım sorunlar şimdilik giderilmese de ilerisi
 için atılan adımlar olumlu yönde. Ümit ediyorum yakında metinlerimiz
@@ -116,7 +116,7 @@ kuvvetlenecektir.
 
 Kalın Sağlıcakla
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://www.ozdtasarim.com/blog/googledan-font-face-hizmeti-google-font-api.html][]
 -   [http://code.google.com/apis/webfonts/docs/getting_started.html][]
@@ -126,8 +126,6 @@ Kalın Sağlıcakla
 -   [http://www.bloggerbuster.com/2010/05/how-to-use-googles-font-api-with.html][]
 -   [http://mashable.com/2010/05/27/type-and-the-web][]
 -   [http://sixrevisions.com/web_design/google-font-api-guide/][]
-
-</p>
 
   []: http://www.google.com/images/logos/font_api_logo_beta.gif
   [Yazı Tipi özellikleri]: http://www.fatihhayrioglu.com/font-ozellikleri/

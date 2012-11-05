@@ -19,14 +19,20 @@ kaynaklardaki bir örneği vereceğim burada size ben.
 HTML kodu
 
 	:::html
-	 <div> <a
-href="#">foo<span>bar</span></a> </div> 
+	<div>
+		<a href="#">foo<span>bar</span></a>
+	</div> 
 
 CSS Kodu
 
 	:::css
-	 span { display: none; } a:hover span {
-display: inline; } 
+	span { 
+		display: none; 
+	} 
+	
+	a:hover span {
+		display: inline; 
+	} 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -45,17 +51,26 @@ sorunu ie7 çözmüş görünüşe göre.
 **padding-top:0** değeri atayınca oluyor.
 
 	:::css
-	 a:hover{ padding-top:0; } span { display:
-none; } a:hover span { display: inline; padding-top:0; } 
+	a:hover{ 
+		padding-top:0; 
+	} 
+	
+	span { 
+		display:none; 
+	} 
+	
+	a:hover span { 
+		display: inline; 
+		padding-top:0; 
+	} 
 
 Örneği görmek için [tıklayınız.][1]
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://haslayout.net/css/Sub-Hover-Bug][]
 -   [http://friendlybit.com/css/ie6-bug-ignored-selector-hover-bug/][]
 
-</p>
 
   [şurada da kullandım]: http://www.fatihhayrioglu.com/css-ile-sekmelitab-menu-yapimi/
     "şurada da kullandım"

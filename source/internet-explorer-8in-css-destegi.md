@@ -19,54 +19,62 @@ desteklediğini açıkladı.
 
 İnternet Explorer 8 ile gelen CSS özellikleri listesi;<!--more-->
 
-### Float
+## Float
 
 Float uygulamalarındaki [hasLayout][]'dan kaynaklanan bir çok sorunun
 giderildiği söyleniyor. İşin aslı hasLayout işleyişi tamamen kaldırılmış
 ie8'de. Bu sürümdeki en büyük gelişme budur.
 
-### Margin Çökme Sorunu
+## Margin Çökme Sorunu
 
 [Margin çökme][] sorunu giderilmiş.
 
-### :focus Sözde Sınıfı
+## :focus Sözde Sınıfı
 
 Klavyeden elementlere odaklanmamızı sağlayan ve erişebilirlik için
 önemli olan bu özellik İnternet Exploerer 8 ile geldi
 
 	:::css
-	 a:focus { border: solid 1px red; }
+	a:focus { 
+		border: solid 1px red; 
+	}
 
-
-### :before and :after Sözde Elementleri
+## :before and :after Sözde Elementleri
 
 Bir elemanın öncesine ve sonrasına **content** özelliği ile birlikte
 içerik eklememizi sağlayan bu özellik ie8 ile birlikte geldi.
 
 	:::css
-	 #box:before { content: "Not:"; }
-#box:after { content: "son"; } 
+	#box:before { 
+		content: "Not:"; 
+	}
+	
+	#box:after { 
+		content: "son"; 
+	} 
 
-### :lang() Sözde sınıfı
+## :lang() Sözde sınıfı
 
 Sayfa içeriğinde farklı dilde kullanılan içeriği yakalamak için
 kullanılan bir seçicidir.
 
 	:::css
-	 :lang(fr) { tanimlar } 
+	:lang(fr) { 
+		tanimlar 
+	} 
 
-### :active Sözde sınıfı işlevselliği arttı
+## :active Sözde sınıfı işlevselliği arttı
 
 Eskiden sadece a bağlantıya verilen özellikleri tanımlayan ie8 şimdi tüm
 HTML elementlerini kapsıyor artık.
 
-### **list-style-type Özelliğine ek değerler eklenmiş**
+## list-style-type Özelliğine ek değerler eklenmiş
 
 list-style-type özelliğinin bir çok değeri var. İnternet Explorer 8
 öncesi bunların yarısını destekliyordu 8 ile birlikte hepsini
 destekliyor.
 
-### content özellikleri destekliyor
+## content özellikleri destekliyor
 
 -   [content][]
 -   [counter-increment][]
@@ -76,14 +84,12 @@ destekliyor.
 :after, :before sözde seçicileri ile birlikte content özelliklerini
 destekliyor artık ie8
 
-### Tablo Özelliklerinin tamamını destekliyor artık
+## Tablo Özelliklerinin tamamını destekliyor artık
 
 -   [caption-side][] 
 -   [border-spacing][]
 
 özelliklerini destekliyor. Ayrıca
-
-  
 
 -   [border-collapse][]
 -   [border-style][]
@@ -93,7 +99,7 @@ destekliyor artık ie8
 destekliyor. Eskiden kısmen desteklediği bu özellikleri şimdi tammen
 destekliyor.
 
-### Yazı ve Metin Özellikleri
+## Yazı ve Metin Özellikleri
 
 -   [font-weight][]
 -   [white-space][] (pre-wrap ve pre-line değerleri destekleniyor)
@@ -102,17 +108,15 @@ destekliyor.
 Ayrıca **text-decoration** özelliğinin **overline** değeride
 destekleniyor.
 
-### Yazdırma Özellikleri
+## Yazdırma Özellikleri
 
 [@page][] özellikleri tam olarak destekleniyor.
-
-  
 
 -   [page-break-inside][]
 -   [widows][]
 -   [orphans][]  
 
-### Dış Hat çizgisi(Outline) Özellikleri
+## Dış Hat çizgisi(Outline) Özellikleri
 
 [Dış hat çizgisi özellikleri][] desteği geldi.
 
@@ -121,7 +125,7 @@ destekleniyor.
 -   [outline-style][]
 -   [outline-width][]
 
-### Data URI Desteği
+## Data URI Desteği
 
 Internet Explorer 8 ile birlikte DATA URI desteği geliyor. DATA URI
 kısaca html dosyasından ayrı yapıların yani resimlerin html içine gömme
@@ -129,7 +133,7 @@ imkanı verir bize. internet Explorer 8 sadece css dosyalarına
 eklenmesine izin veriyor ayrıca bir kısıtlama var ie8 en fazla 32kb
 boyutuna kadar destekliyor.
 
-### Özel uzantılar ile yeni özellik desteği
+## Özel uzantılar ile yeni özellik desteği
 
 Firefox, webkit ve Opera'dan sonra Microsoft'da özel uzantılar ile yeni
 özellik desteğini getirdi. Aşağıda özellikler listelendi;
@@ -167,7 +171,7 @@ Firefox, webkit ve Opera'dan sonra Microsoft'da özel uzantılar ile yeni
 -   [-ms-writing-mode][]
 -   [-ms-zoom][]  
 
-### Sonuç
+## Sonuç
 
 Tüm bu özellikleri sıraladıktan sonra beni sevindiren üç özellik var.
 Birincisi hasLayout'un kaldırılması, ikincisi DATA URI desteğinin
@@ -179,21 +183,17 @@ karşılaştıkça sitemde yayınlayacağım hataları.
 
 Hoşçakalın.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://msdn.microsoft.com/en-us/library/cc304082%28VS.85%29.aspx][]
 -   [http://www.smashingmagazine.com/2009/10/14/css-differences-in-internet-explorer-6-7-and-8/][]
 -   [http://www.howtocreate.co.uk/ie8.html][]
 -   [http://reference.sitepoint.com/css][]
 -   [http://www.evotech.net/blog/2009/03/ie8-css-support/][]
--   [http://css-discuss.incutio.com/wiki/IE8#CSS3_selectors][] (ie8
-    sorunları)
+-   [http://css-discuss.incutio.com/wiki/IE8#CSS3_selectors][] (ie8 sorunları)
 -   [http://jhop.me/ie8-bugs][] (ie8 hataları)
 -   [http://www.gtalbot.org/BrowserBugsSection/][]
--   [http://techblog.procurios.nl/k/news/view/33224/14863/Testing-Internet-Explorer-8-CSS3-for-Web-Design.html][]
-    (CSS3 desteği)  
-
-</p>
+-   [http://techblog.procurios.nl/k/news/view/33224/14863/Testing-Internet-Explorer-8-CSS3-for-Web-Design.html][] (CSS3 desteği)  
 
   [Her ne kadar uyumluluk kodu ile İnternet Explorer]: http://www.fatihhayrioglu.com/internet-explorer-8i-7-gibi-yorumla-kodu/
     "Her ne kadar uyumluluk kodu ile İnternet Explorer"

@@ -18,9 +18,9 @@ Firebug'ın Net panelidir. Burada Firebug'ın Net sekmesini inceleyeceğiz.
 Aşağıda benim anasayfamın net panelindeki görüntüsünü
 görüyorsunuz.<!--more-->
 
-[![][]][]
+![][]
 
-### Genel Net sekmesi görünümü
+## Genel Net sekmesi görünümü
 
 **Net Panel Giriş**
 
@@ -57,7 +57,7 @@ Net sekmesi bize ilk bakışta aşağıdaki bilgileri verir;
 
 Birde en sondaki sonuç bilgi satırı var.
 
-[![][2]][]
+![][2]
 
 -   Sayfada 2 adet istek yapıldı
 -   Bu 2 isteğin toplam boyutu 3kb ve eğer önbellekten alıyorsa ne
@@ -90,7 +90,7 @@ demektir.
 istek başladıktan sonra geçen süreyi gösterir. Eksi değer alması ilk
 istekden önce tetiklendiğini gösterir.
 
-### **Tarayıcı Sırasında Bekleme Zamanı**
+## Tarayıcı Sırasında Bekleme Zamanı
 
 İsteğin sunucuya gönderilmeden önce tarayıcı sırasında beklemesi sonucu
 iki durum orataya çıkar. Bu durumları biraz açarsak;
@@ -113,7 +113,7 @@ gönderimi **response** geri geleni gösterir. Eğer gösterilen öğe
 sunucudan veya ön bellekten geliyorsa bir adet **request** ve
 **response** görünecektir.
 
-[![][4]][]
+![][4]
 
 Açılan alandaki sekmeler ve anlamları;
 
@@ -169,7 +169,7 @@ sekmelerden(javascript, images) yapabiliriz. Buda bize toplam yüklenme
 zamanı ve farklı dosya tiplerinin yüklenme zamanı ayrımını yapma imkanı
 verir.
 
-### XMLHttpRequest İzleme
+## XMLHttpRequest İzleme
 
 Şimdiye kadar yapılan istek ve cevapları inceledik. Bununla birlikte web
 sayfaları asenkron istekler ve cevaplarıda içermektedir, ajax olarak
@@ -180,12 +180,12 @@ izleyebilir ve bilgilerini buradan alabiliriz.
 [http://www.janodvarko.cz/firebug/tests/BreakOnXHR/breakOnXHR.html][]
 Örnek sayfasını incelersek
 
-[![][10]][]
+![][10]
 
 Yukarıda görüldüğü gibi ajax istek ve cevapları hakkında detaylı bilgi
 alıyoruz. **Clear** düğmesi ile isteği silebiliriz.
 
-### **FireBug Net Sekmesine Yardımı İle Performans Değerlendirmesi Yapmak**
+## FireBug Net Sekmesine Yardımı İle Performans Değerlendirmesi Yapmak
 
 Benim açımdan FireBug Firefox'un en önemli eklentisidir. Bu nedenle
 diğer tarayıcılara geçmem şu an itibari ile imkansız. FireBug o kadar
@@ -199,7 +199,7 @@ Bu eklentileri kullanarak web sayfalarımızın performansını ölçebiliriz.
 Ayrıca bu eklentiler bize sitemizdeki yavaşlamaya neden olan durumları
 açıkça gösterir ve düzeltmemiz için önerilerde bulunur.
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://getfirebug.com/net.html][]
 -   [http://www.softwareishard.com/blog/firebug/introduction-to-firebug-net-panel/][]
@@ -211,21 +211,13 @@ açıkça gösterir ve düzeltmemiz için önerilerde bulunur.
     (http headers bilgisi)
 -   [http://www.softwareishard.com/blog/firebug/firebug-net-panel-timings/][]
 
-</p>
 
   []: /images/fh_firebug_net_sekme-298x300.gif
-    "fh_firebug_net_sekme"
-  [![][]]: /images/fh_firebug_net_sekme.gif
   [http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html]: http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html
-    "http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html"
   [1]: http://docs.google.com/File?id=dhctmbn6_408d43xkbc6_b
   [2]: /images/firebug_net3-300x8.gif
-    "firebug_net3"
-  [![][2]]: /images/firebug_net3.gif
   [3]: http://docs.google.com/File?id=dhctmbn6_411zb4pdnd3_b
   [4]: /images/firebug_net6-300x179.gif
-    "firebug_net6"
-  [![][4]]: /images/firebug_net6.gif
   [5]: http://docs.google.com/File?id=dhctmbn6_306f5kscnhq_b
   [6]: http://docs.google.com/File?id=dhctmbn6_307fgjfzcgq_b
   [7]: http://docs.google.com/File?id=dhctmbn6_308g4rd7xgm_b
@@ -234,8 +226,6 @@ açıkça gösterir ve düzeltmemiz için önerilerde bulunur.
   [http://www.janodvarko.cz/firebug/tests/BreakOnXHR/breakOnXHR.html]: http://www.janodvarko.cz/firebug/tests/BreakOnXHR/breakOnXHR.html
     "http://www.janodvarko.cz/firebug/tests/BreakOnXHR/breakOnXHR.html"
   [10]: /images/firebug_net8-255x300.gif
-    "firebug_net8"
-  [![][10]]: /images/firebug_net8.gif
   [YSlow]: https://addons.mozilla.org/en-US/firefox/addon/5369/ "YSlow"
   [Page Speed]: http://code.google.com/speed/page-speed/ "Page Speed"
   [http://getfirebug.com/net.html]: http://getfirebug.com/net.html

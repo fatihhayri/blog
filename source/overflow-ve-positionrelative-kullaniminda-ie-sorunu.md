@@ -20,16 +20,27 @@ overflow uyguladığım elemanın dışına çıkıyor ve scroll olmuyor.
 Şöyle küçük bir örnek durumu daha iyi gösterecektir.
 
 	:::html
-	 <div id="icerikAlani"> <p>İlk
-paragaraf</p> <p class="relative">position:relative uygulanan
-kısım</p> </div> 
+	<div id="icerikAlani">
+	    <p>İlk paragaraf</p>
+	    <p class="relative">position:relative uygulanan kısım</p>
+	</div>
 
 CSS kodu da şöyle
 
 	:::css
-	 #icerikAlani{ height:80px; overflow:auto;
-width:200px; height:80px; background-color:#ccc } .relative{
-position:relative; background-color:lightblue; width:150px; }
+	#icerikAlani{
+	    height:80px;
+	    overflow:auto;
+	    width:200px;
+	    height:80px;
+	    background-color:#ccc
+	}
+	
+	.relative{
+	    position:relative;
+	    background-color:lightblue;
+	    width:150px;
+	}
 
 
 Sonuca ie 6 ve 7 ile baktığımızda aşağıdaki gibi bir sorun ile
@@ -37,7 +48,7 @@ karşılaşacağız.
 
 Örneği görmek içni [tıklayınız.][]
 
-[![][]][]
+![][]
 
 Sorunun çözümü ise çok basit. overflow uyguladığımız elemana
 position:relative tanımı yaparak sorunu giderebilirsiniz.
@@ -47,18 +58,14 @@ overflow:auto; width:200px; height:80px; background-color:#ccc;
 position:relative; } .relative{ position:relative;
 background-color:lightblue; width:150px; } 
 
-### Kaynaklar
+## Kaynaklar
 
 -   [http://snook.ca/archives/html_and_css/position_relative_overflow_ie/][]
 -   [http://www.rowanw.com/bugs/overflow_relative.htm][]
 -   [http://dustyreagan.com/workaround-to-ies-overflow-auto-and/][]
 
-</p>
-
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/position_relative_overflow.html
   []: /images/position_relative_overflow_ie.jpg
-    "position_relative_overflow_ie"
-  [![][]]: /images/position_relative_overflow_ie.jpg
   [http://snook.ca/archives/html_and_css/position_relative_overflow_ie/]: http://snook.ca/archives/html_and_css/position_relative_overflow_ie/
   [http://www.rowanw.com/bugs/overflow_relative.htm]: http://www.rowanw.com/bugs/overflow_relative.htm
   [http://dustyreagan.com/workaround-to-ies-overflow-auto-and/]: http://dustyreagan.com/workaround-to-ies-overflow-auto-and/
