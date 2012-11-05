@@ -167,10 +167,10 @@ getirilecek.
     "W3C Geolocation specification"
   []: /images/font_face-300x78.gif
     "font-face"
-  ![][]]: /images/font_face.gif
+  
   [1]: /images/firefox31_adres_bar-300x61.gif
     "Adres Bar"
-  ![][1]]: /images/firefox31_adres_bar.gif
+  
   [http://developer.mozilla.org/web-tech/2008/10/14/firefox-31-beta-1-an-overview-of-features-for-web-developers/]: http://developer.mozilla.org/web-tech/2008/10/14/firefox-31-beta-1-an-overview-of-features-for-web-developers/
   [http://www.siberkultur.com/?q=firefox-3-1]: http://www.siberkultur.com/?q=firefox-3-1
   [http://mehmetergin.blogspot.com/2008/10/firefox-geolocation-api-specification.html]: http://mehmetergin.blogspot.com/2008/10/firefox-geolocation-api-specification.html

@@ -79,17 +79,17 @@ numaralı yerini kimseye kaptırmıyor.
 -   [http://www.markwarner2008.com/firebug-1-5-updates-with-new-features-still-a-web-developers-dream-downloads/][]
 
   []: /images/teftis_et.gif "teftis_et"
-  ![][]]: /images/teftis_et.gif
+  
   [1]: /images/computed.gif "computed"
-  ![][1]]: /images/computed.gif
+  
   [2]: /images/css_paneli.gif
     "css_paneli"
-  ![][2]]: /images/css_paneli.gif
+  
   [tıklayınız]: http://www.softwareishard.com/blog/firebug/firebug-http-time-monitor/
     "tıklayınız"
   [3]: /images/net_panel.gif
     "net_panel"
-  ![][3]]: /images/net_panel.gif
+  
   [http://getfirebug.com/wiki/index.php/Firebug_Release_Notes]: http://getfirebug.com/wiki/index.php/Firebug_Release_Notes
     "http://getfirebug.com/wiki/index.php/Firebug_Release_Notes"
   [http://www.softwareishard.com/blog/]: http://www.softwareishard.com/blog/

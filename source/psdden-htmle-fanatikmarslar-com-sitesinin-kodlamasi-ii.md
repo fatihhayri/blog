@@ -694,30 +694,30 @@ görüşmek dileğiyle hoşçakalın.
   [I -Kodlama Öncesi Hazırlıklar]: http://www.fatihhayrioglu.com/fanatikmarslar-com-sitesinin-kodlamasi/
   []: /images/anasayfa_kuc.jpg
     "anasayfa_kuc"
-  ![][]]: /images/anasayfa_kuc.jpg
+  
   [1]: /images/ardalan-266x300.jpg
     "ardalan"
-  ![][1]]: /images/ardalan.jpg
+  
   [IE6'un Tekrarlayan Karakter Sorunu]: http://www.fatihhayrioglu.com/ie6un-tekrarlayan-karakter-sorunu/
   [2]: /images/ders_03-300x113.jpg
     "ders_03"
-  ![][2]]: /images/ders_03.jpg
+  
   [CSS kod Yazma Düzeni]: http://www.fatihhayrioglu.com/css-kod-yazma-duzeni/
   [tıklayınız]: http://www.fatihhayrioglu.com/tum-tarayicilar-icin-css-duzeltmelerihack/
   [3]: /images/icerik_alani.jpg
     "icerik_alani"
-  ![][3]]: /images/icerik_alani.jpg
+  
   [basit menü yapımı]: http://www.fatihhayrioglu.com/basit-resimli-menu-yapmak/
   [4]: /images/takim_logolari.gif
     "takim_logolari"
-  ![][4]]: /images/takim_logolari.gif
+  
   [5]: /images/genel_resim.gif
     "genel_resim"
-  ![][5]]: /images/genel_resim.gif
+  
   [http://www.fatihhayrioglu.com/kutu-modeli-sorunlari-ve-cozumleri/]: http://www.fatihhayrioglu.com/kutu-modeli-sorunlari-ve-cozumleri/
   [6]: http://www.fatihhayrioglu.com/internet-explorer-6-ve-7-icin-tablo-tr-elementine-kenar-cizgisi-atamak/
   [7]: /images/sosyal_altalan.jpg
     "sosyal_altalan"
-  ![][7]]: /images/sosyal_altalan.jpg
+  
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/fm/index.html
   [8]: http://www.fatihhayrioglu.com/dokumanlar/fm_anasayfa_html.rar

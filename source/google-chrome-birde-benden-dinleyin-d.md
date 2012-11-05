@@ -137,7 +137,7 @@ javascript motoru 
 
   []: /images/chrome_438x359-300x245.jpg
     "Google Chrome"
-  ![][]]: /images/chrome_438x359.jpg
+  
   [tıklayınız.]: http://www.evotech.net/blog/2008/09/google-chrome-browser-css-selector-support/
     "css özellik listesi"
   [http://www1.qainsight.net:8080/2008/09/04/How+To+View+JavaScript+Errors+In+Google+Chrome.aspx]: http://www1.qainsight.net:8080/2008/09/04/How+To+View+JavaScript+Errors+In+Google+Chrome.aspx

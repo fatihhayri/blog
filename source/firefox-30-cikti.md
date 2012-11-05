@@ -144,25 +144,25 @@ Ben bu yazıyı bir gün öceden yazmıştım ve bugün yayına aldım. Firefox
   [Firefox 3.0 indir]: http://www.mozilla-europe.org/tr/firefox/
   []: /images/browser_memory_test1-300x237.jpg
     "browser_memory_test1"
-  ![][]]: /images/browser_memory_test1.jpg
+  
   [1]: /images/adres_cubug-300x218.jpg
     "adres_cubug"
-  ![][1]]: /images/adres_cubug.jpg
+  
   [2]: /images/site_tani-300x218.jpg
     "site_tani"
-  ![][2]]: /images/site_tani.jpg
+  
   [3]: /images/indir-300x218.jpg
     "indir"
-  ![][3]]: /images/indir.jpg
+  
   [4]: /images/yakinlastir-300x218.jpg
     "yakinlastir"
-  ![][4]]: /images/yakinlastir.jpg
+  
   [5]: /images/yetki-300x218.jpg
     "yetki"
-  ![][5]]: /images/yetki.jpg
+  
   [6]: /images/eklentiler-300x218.jpg
     "eklentiler"
-  ![][6]]: /images/eklentiler.jpg
+  
   [http://www.mozilla-europe.org/tr/firefox/features/]: http://www.mozilla-europe.org/tr/firefox/features/
   [http://www.mozilla.com/en-US/firefox/3.0rc2/releasenotes/]: http://www.mozilla.com/en-US/firefox/3.0rc2/releasenotes/
   [http://www.dria.org/wordpress/archives/2008/06/12/655/]: http://www.dria.org/wordpress/archives/2008/06/12/655/

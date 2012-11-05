@@ -127,7 +127,7 @@ Ne diyelim Internet Explorer 6'ya ölüm.
 
   []: /images/ie6-dur.gif
     "ie6 kullanmayın"
-  ![][]]: /images/ie6-dur.gif
+  
   [M. Dave Auayan]: http://prototypecreative.com/blog/ "M. Dave Auayan"
   [ Death March]: http://iedeathmarch.org/ "ie 6 death"
   [IE’de Hata Ayıklamak için şartlı Yorumlar Kullanmak]: http://www.fatihhayrioglu.com/?p=236

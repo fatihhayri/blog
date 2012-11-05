@@ -82,7 +82,7 @@ Yazının sonunda [Şenol][1]'a tekrar teşekkürlerimi sunarım.
 
   []: /images/code_hig-300x194.gif
     "code_hig"
-  ![][]]: /images/code_hig.gif
+  
   [friendfeed]: http://friendfeed.com/fatihhayri "friendfeed"
   [paylaştım]: http://ff.im/efoQ4 "paylaştım"
   [Şenol]: http://friendfeed.com/senol1 "Şenol"

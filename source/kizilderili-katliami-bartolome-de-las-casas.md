@@ -3,7 +3,7 @@ Date: 2008-06-18 21:54
 Category: Haberler
 Tags: Amerika, Bartolome De Las Casas, Kızılderili Katliamı, Soykırım, Zulüm
 
-![][]Kitaptan aldığım bir kaç not: - İspanyollar oraya gittiklerinde
+
 Hispanyola(Haiti) adasında 3 milyon insan yaşıyordu, şimdi(1544) ise 200
 kişi yazıyor. - Hıristiyanların son kırk yıl içinde gösterdikleri
 zorbaca ve insanlık dışı davranışlar aralarında kadın ve çocuklarında
@@ -24,5 +24,5 @@ olmak için. Ayrıntılı bilgi için [tıklayınız.][]
 
   []: /images/kizildereli.jpg
     "kizildereli"
-  ![][]]: /images/kizildereli.jpg
+  
   [tıklayınız.]: http://en.eren.com.tr/goster/kitap/kitap.asp?kitap=218029&SID=652213573063
