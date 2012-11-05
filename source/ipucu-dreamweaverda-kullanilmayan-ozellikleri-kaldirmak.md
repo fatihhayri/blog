@@ -22,8 +22,8 @@ istemediğimiz etiketleri kaldırıyoruz.
 Örneğin benim ilk kaldırdığım kod widows kodu. Bu kod için xml
 dosyasındaki aşağıdaki kodu silmek gerekiyor.
 
-[xml]<menuitem label="widows" value="widows:"
-icon="shared/mm/images/hintMisc.gif" />[/xml]
+	:::xml
+	<menuitem label="widows" value="widows:"icon="shared/mm/images/hintMisc.gif" />
 
 Bunun dışında xml dokümanındaki kullanmadığım ve bir daha
 kullanmayacağım css kodlarını sildim. Silerken dikkat edin bu dosya
@@ -74,15 +74,9 @@ Yazının sonunda [Şenol][1]'a tekrar teşekkürlerimi sunarım.
 
 ## Kaynak
 
-## 
-
 -   [http://ff.im/efoQ4][]
 
-</p>
-
   []: /images/code_hig-300x194.gif
-    "code_hig"
-  
   [friendfeed]: http://friendfeed.com/fatihhayri "friendfeed"
   [paylaştım]: http://ff.im/efoQ4 "paylaştım"
   [Şenol]: http://friendfeed.com/senol1 "Şenol"

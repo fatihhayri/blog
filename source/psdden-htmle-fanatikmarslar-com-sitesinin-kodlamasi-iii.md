@@ -66,7 +66,7 @@ CSS kodunu yazalım
 
 **Sol Orta Alan**
 
-#solOrtaAlan tanımına margin tanımlarını yapıyorum. Burada "[IE'da İkikat görülen Margin Problemi ve Çözümü][]" sorunu ile karşılaştığım
+\#solOrtaAlan tanımına margin tanımlarını yapıyorum. Burada "[IE'da İkikat görülen Margin Problemi ve Çözümü][]" sorunu ile karşılaştığım
 için display:inline tanımı atadım.
 
 Kodlamaya sol orta alandan devam ediyorum.
@@ -203,7 +203,7 @@ Sadece oyu göstereceğimiz için bu şekilde kodladık.
 		width: 95px;
 	}
 
-#solOrtaAlan table td p.oley tanımını niye p.oley şeklinde yapmıyoruzda
+\#solOrtaAlan table td p.oley tanımını niye p.oley şeklinde yapmıyoruzda
 bu kadar uzun yapıyoruz derseniz, üstten gelen kalıtsal tanımlar alt
 elemanları da etkiliyor bu etkiyi kaldırmak için bu şekilde tanımını
 uzatarak bu tanımı daha etkin yapıyoruz. Konu hakkında detaylı bilgi
