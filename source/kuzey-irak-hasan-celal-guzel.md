@@ -3,7 +3,7 @@ Date: 2007-07-28 11:42
 Category: Kitaplar
 Tags: Kitaplar
 
-[![Kuzey Irak - Hasan Celal Güzel][]][]Türkiye Cumhuriyeti'nin en iyi
+![Kuzey Irak - Hasan Celal Güzel][]Türkiye Cumhuriyeti'nin en iyi
 devirlerinden birini yaşatan Turgut Özal(benim fikrim) devrinide içeren
 bu kitap Hasan Celal Güzel'in kaleminden bugünüde ilgilendiren Kuzey
 Irak sorunu ve gerçeklerine dair güzel bir söyleşi-kitap. Kuzey Irak
@@ -15,7 +15,7 @@ buluyoruz. Hataları ve sevapları ile olayı görme imkanı sunan kitabı
 okumanızı tavsiye ederim. Ayrıntılı bilgi için [tıklayınız][]
 
   [Kuzey Irak - Hasan Celal Güzel]: /images/kuzey_irak.kucukresim.jpg
-  [![Kuzey Irak - Hasan Celal Güzel][]]: /images/kuzey_irak.jpg
+  ![Kuzey Irak - Hasan Celal Güzel][]]: /images/kuzey_irak.jpg
     "Kuzey Irak - Hasan Celal Güzel"
   [tıklayınız]: http://www.timas.com.tr/index.php?key=tkg&id=1624
     "Yayın evi linki"

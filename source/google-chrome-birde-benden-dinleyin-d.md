@@ -3,7 +3,7 @@ Date: 2008-09-04 16:38
 Category: Haberler
 Tags: Google Chrome, İnternet Tarayıcısı, safari, Web Standartları, web tarayıcısı, WebKit
 
-[![][]][] Her yeni çıkan tarayıcının ardından inceleme yapıp yazı
+![][] Her yeni çıkan tarayıcının ardından inceleme yapıp yazı
 yazıyorum genelde. Tabi Google Chrome içinde bunu yapacaktım ki baktım
 çok fazla kaynak var. Beni asıl hayrete düşüren Türkçe kaynaklarında çok
 fazla olması idi. Sonra bir birinin tekrarı içerik oluşturmamak için
@@ -137,7 +137,7 @@ javascript motoru 
 
   []: /images/chrome_438x359-300x245.jpg
     "Google Chrome"
-  [![][]]: /images/chrome_438x359.jpg
+  ![][]]: /images/chrome_438x359.jpg
   [tıklayınız.]: http://www.evotech.net/blog/2008/09/google-chrome-browser-css-selector-support/
     "css özellik listesi"
   [http://www1.qainsight.net:8080/2008/09/04/How+To+View+JavaScript+Errors+In+Google+Chrome.aspx]: http://www1.qainsight.net:8080/2008/09/04/How+To+View+JavaScript+Errors+In+Google+Chrome.aspx

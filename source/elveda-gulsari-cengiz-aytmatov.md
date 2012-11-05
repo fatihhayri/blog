@@ -3,7 +3,7 @@ Date: 2007-06-09 21:14
 Category: Kitaplar
 Tags: Kitaplar
 
-[![Elveda Gülsarı][]][]Gerçekten güzel bir roman. Bazı yerlerde
+![Elveda Gülsarı][]Gerçekten güzel bir roman. Bazı yerlerde
 gerçekten etkilendim. Kitaba isminide veren Gülsarı adlı atın doğumu ve
 ölümü ile biten roman aslında sovyet devrimine inanamış Kırgızların
 yaşadıkları zorlu hayatı anlatan güzel bir roman. <!--more--> Kitabın
@@ -31,5 +31,5 @@ bugünkü dağılma ya da çöküşün kaçınılmazlığını da görüyoruz bu
 duygulandıran ve düşündüren romanda.
 
   [Elveda Gülsarı]: /images/gulsari.kucukresim.jpg
-  [![Elveda Gülsarı][]]: /images/gulsari.jpg
+  ![Elveda Gülsarı][]]: /images/gulsari.jpg
     "Elveda Gülsarı"

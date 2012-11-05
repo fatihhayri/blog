@@ -3,7 +3,7 @@ Date: 2008-03-23 22:27
 Category: Kitaplar
 Tags: Ahmet Refik, kuşatma, Muhteşem Süleyman, osmanlı, Viyana kuşatması, zafer
 
-[![Muhteşem Süleyman’ın Viyana Kuşatması - Ahmed Refik][]][]Kitap
+![Muhteşem Süleyman’ın Viyana Kuşatması - Ahmed Refik][]Kitap
 kuşatma ve sonuçlarını anlatıyor bize. Tarihmizde herzaman bir yenilgi
 gibi algılanan bu kuşatmanın aslında ne kadar önemli sonuçlar
 doğurduğunu anlatan güzel bir eser. Eserin tek hoşuma gitmeyen yönü bazı
@@ -29,6 +29,6 @@ yerleri bir daha elden çıkarmayız. Bunların bizden istirdadı içün
 kollarımızı kesmek icâb ider." Ayrıntılı bilgi için [tıklayınız.][]
 
   [Muhteşem Süleyman’ın Viyana Kuşatması - Ahmed Refik]: /images/viyanakusatmasi.thumbnail.jpg
-  [![Muhteşem Süleyman’ın Viyana Kuşatması - Ahmed Refik][]]: /images/viyanakusatmasi.jpg
+  ![Muhteşem Süleyman’ın Viyana Kuşatması - Ahmed Refik][]]: /images/viyanakusatmasi.jpg
     "Muhteşem Süleyman’ın Viyana Kuşatması - Ahmed Refik"
   [tıklayınız.]: http://www.netkitap.com/kitap/68296/muhtesem_suleymanin_viyana_kusatmasi.htm

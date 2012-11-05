@@ -10,7 +10,7 @@ ve daha hızlı tarayıcılar kullanıcıyı memnun ediyor. Web kod yazarların�
 da sevindiren gelişmeler oluyor bu arada. Yeni sürüm tarayıcılar
 standartlara daha bağlı olarak çıkması en güzel gelişme.
 
-[![][]][]
+![][]
 
 #### **Görünüm**
 
@@ -26,7 +26,7 @@ seçebiliyoruz.  Tem kısmındaki temalar Firefox'un kilere çok benziyor.
 Speed Dial ile en sık kullanılan web sitelerini küçük resimleri ile
 birlikte listeleyebiliyoruz.
 
-[![][1]][]
+![][1]
 
 #### **Hızlı Bulma**
 
@@ -42,7 +42,7 @@ JavaScript tam olarak desteklemenin yanında yeni özelliklerin (HTML5 ve
 CSS3) de desteğini barındırıyor. Acid testlerinden geçen Opera 9.5 Acid
 3 testinden 83 puan alıyor.
 
-[![][2]][]
+![][2]
 
 #### Web Kod Yazarları için DragonFly
 
@@ -77,13 +77,13 @@ edeceğim bir tarayıcı niteliğinde olacak
 
   []: /images/opera95_1-300x225.jpg
     "opera95_1"
-  [![][]]: /images/opera95_1.jpg
+  ![][]]: /images/opera95_1.jpg
   [1]: /images/opera95_13-300x223.jpg
     "opera95_13"
-  [![][1]]: /images/opera95_13.jpg
+  ![][1]]: /images/opera95_13.jpg
   [2]: /images/opera95_3-300x225.jpg
     "opera95_3"
-  [![][2]]: /images/opera95_3.jpg
+  ![][2]]: /images/opera95_3.jpg
   [http://www.opera.com]: http://www.opera.com
   [http://www.css3.info/opera-95-launches-with-lots-of-css-improvements/]: http://www.css3.info/opera-95-launches-with-lots-of-css-improvements/
   [http://css.dzone.com/announcements/opera-95-now-available-downloa-0]: http://css.dzone.com/announcements/opera-95-now-available-downloa-0

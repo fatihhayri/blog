@@ -3,7 +3,7 @@ Date: 2008-06-10 08:45
 Category: Kitaplar
 Tags: Biyografi, Portreler, Türk Tarihi
 
-[![ Türk Tarihinden Portreler][]][]Kitap bir çok Türk büyüğünün
+![ Türk Tarihinden Portreler][]Kitap bir çok Türk büyüğünün
 biyografilerini içinde barındırıyor. Kısa kısada geçilse güzel bir
 derleme olan kitap bizlere Türk büyüklerini hatırlatıyor. Türk tarihine
 iyi yönde etkisi olanların yanı sıra kötü yönde tesir eden şahıslarıda
@@ -26,5 +26,5 @@ bilgi için [tıklayınız.][]
 
   [ Türk Tarihinden Portreler]: /images/turk_portreleri.jpg
     " Türk Tarihinden Portreler"
-  [![ Türk Tarihinden Portreler][]]: /images/turk_portreleri.jpg
+  ![ Türk Tarihinden Portreler][]]: /images/turk_portreleri.jpg
   [tıklayınız.]: http://www.kitapyurdu.com/kitap/18961/turktarihindenportreler

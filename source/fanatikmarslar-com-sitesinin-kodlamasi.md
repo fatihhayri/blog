@@ -42,7 +42,7 @@ gibi yapmak. Klasör ismi verirken Türkçe karakter kullanmamaya dikkat
 ediyoruz. Gerçi dosyalara, klasörlere isim verirken Türkçe
 kullanmayacağımızı biliyoruz.
 
-[![Klasör Yapısı][]][]
+![Klasör Yapısı][]
 
 **00 - Gonderilen:** Bu klasöre proje için gönderilen dosyaları
 koyuyorum. Projenin şablon psd'leri, içerik dokümanları(doc), resimler
@@ -88,12 +88,12 @@ kullandığım projelerde bunlara ek olarak /xml/ klasörü oluşturuyorum.
 Flash yoğunluklu projelerde /swf/ klasörü açıyorum. Yani projeden proje
 farklılıklar gösterebiliyor, ama standardım bu.
 
-[![][]][]
+![][]
 
 Buraya kadar anlattıklarım hazır klasör yapısıdır, bundan sonra projeyi
 kodlamaya başlamadan önceki hazırlıklar olacak.
 
-[![][1]][] [![][2]][] [![][3]][] [![][4]][]
+![][1] ![][2] ![][3] ![][4]
 
 1- İlk olarak tüm psd'leri kontrol ederek hangi bölümlerin tüm
 sayfalarda aynı olduğu belirleyip ona göre kodlama yapmayı düşünüyorum.
@@ -103,7 +103,7 @@ Genel bir değerlendirme bakışıda diyebiliriz buna.
 her zaman bize neyin nasıl olacağı ve hangi alanlarda hangi teknikleri
 kullanacağımızı göstermesi bakımından önemlidir.
 
-[![][5]][]
+![][5]
 
 Her ne kadar sanal dünyada çalışıyor olsak da gerçek çizimler bize
 yardımcı olacaktır.
@@ -212,23 +212,23 @@ Bir sonraki makalede kaldığımız yerden devam edeceğiz.
   [Hasan Yalçın]: http://www.hasanyalcin.com/
   [Klasör Yapısı]: /images/ders_01.gif
     "ders_01"
-  [![Klasör Yapısı][]]: /images/ders_01.gif
+  ![Klasör Yapısı][]]: /images/ders_01.gif
   []: /images/ders_02-e1262041236446.gif
     "ders_02"
-  [![][]]: /images/ders_02-e1262041236446.gif
+  ![][]]: /images/ders_02-e1262041236446.gif
   [1]: /images/fan-200x300.jpg "fan"
-  [![][1]]: /images/fan.jpg
+  ![][1]]: /images/fan.jpg
   [2]: /images/fan-dinle-200x300.jpg
     "fan-dinle"
-  [![][2]]: /images/fan-dinle.jpg
+  ![][2]]: /images/fan-dinle.jpg
   [3]: /images/fan-gonder-200x300.jpg
     "fan-gonder"
-  [![][3]]: /images/fan-gonder.jpg
+  ![][3]]: /images/fan-gonder.jpg
   [4]: /images/fan-listele-200x300.jpg
     "fan-listele"
-  [![][4]]: /images/fan-listele.jpg
+  ![][4]]: /images/fan-listele.jpg
   [5]: /images/fm_eskiz.gif "fm_eskiz"
-  [![][5]]: /images/fm_eskiz.gif
+  ![][5]]: /images/fm_eskiz.gif
   [tıklayınız.]: http://www.fatihhayrioglu.com/dogru-doctype-kullanimi/
     "tıklayınız."
   [6]: http://www.makaleci.com/webmaster-yardimcisi/utf-8-nedir-kodlar-karakterler-ve-hakkinda-hersey-418.html

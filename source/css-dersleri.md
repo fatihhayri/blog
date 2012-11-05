@@ -46,7 +46,7 @@ Date: 2006-08-05 22:06
 -   Gelişmiş CSS Dersleri
 	-   [CSS'de Kalıtsallık(Inheritance)][]
     -   [CSS'de Tanımlamalar ve Etkinlikleri(Specificity)][]
-    -   [!important Tanımı][]
+    -   !important Tanımı][]
     -   [CSS'de Çıktı alma (Print)][]
     -   [CSS ile Kutu modeli][]
     -   [CSS Kodlama Teknikleri ve CSS Kodlarını Azaltma Yöntemleri][]
@@ -291,7 +291,7 @@ Date: 2006-08-05 22:06
   [CSS Seçicilerinin Optimizasyonu]: http://www.fatihhayrioglu.com/css-secicilerinin-optimizasyonu/
   [CSS'de Kalıtsallık(Inheritance)]: http://www.fatihhayrioglu.com/cssde-kalitsallikinheritance/
   [CSS'de Tanımlamalar ve Etkinlikleri(Specificity)]: http://www.fatihhayrioglu.com/cssde-tanimlamalar-ve-etkinliklerispecificity/
-  [!important Tanımı]: http://www.fatihhayrioglu.com/important-tanimi/
+  !important Tanımı]: http://www.fatihhayrioglu.com/important-tanimi/
   [CSS'de Çıktı alma (Print)]: http://www.fatihhayrioglu.com/cssde-cikti-alma-print/
   [CSS ile Kutu modeli]: http://www.fatihhayrioglu.com/kutu-modeli-sorunlari-ve-cozumleri/
   [CSS Kodlama Teknikleri ve CSS Kodlarını Azaltma Yöntemleri]: http://www.fatihhayrioglu.com/css-kodlarini-temizlemeazaltma/

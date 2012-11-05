@@ -3,7 +3,7 @@ Date: 2007-04-28 12:37
 Category: Kitaplar
 Tags: Kitaplar
 
-[![Türk Dış Politikası Belirsizlik Döneminde][]][]ABD'deki ünlü
+![Türk Dış Politikası Belirsizlik Döneminde][]ABD'deki ünlü
 stratejik araştırma kuruluşu RAND Corporation tarafından 2003 yılında
 yayınlanan bu kitap, Türkiye'nin dış politikaları hakkında bir fikir
 veriyor. Yabancı bir kuruluşun ülkemiz hakkındaki bu raporunda sorunlara
@@ -18,6 +18,6 @@ azaltmaya çalışanlar Türkiye'nin içini karıştırıyorlar. Ayrıntılı bi
 için [tıklayınız.][]
 
   [Türk Dış Politikası Belirsizlik Döneminde]: /images/turk_dis_politikasi.kucukresim.jpg
-  [![Türk Dış Politikası Belirsizlik Döneminde][]]: /images/turk_dis_politikasi.jpg
+  ![Türk Dış Politikası Belirsizlik Döneminde][]]: /images/turk_dis_politikasi.jpg
     "Türk Dış Politikası Belirsizlik Döneminde"
   [tıklayınız.]: http://www.kitapyurdu.com/kitap/default.asp?AID=2861&id=78284

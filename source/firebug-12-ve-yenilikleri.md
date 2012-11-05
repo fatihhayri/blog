@@ -3,7 +3,7 @@ Date: 2008-09-16 10:40
 Category: CSS, Haberler, Javascript, XHTML
 Tags: CSS, firebug, Firefox 3, Hata yakalama, Javascript, XHTML
 
-[![][]][]Daha önce [FireBug'ın genel özelliklerinden][] bahsettik. Sıra
+![][]Daha önce [FireBug'ın genel özelliklerinden][] bahsettik. Sıra
 FreiBug ile CSS ve Xhtml yazmaya gelmişti ki yeni sürüm çıkınca bu
 makaleyi yazma ihtiyacı duydum.
 
@@ -118,7 +118,7 @@ Bu arada FireBug 1.3 çalışmalarına başlanmış bile.
 </p>
 
   []: /images/firebug_12.jpg "FireBug"
-  [![][]]: /images/firebug_12.jpg
+  ![][]]: /images/firebug_12.jpg
   [FireBug'ın genel özelliklerinden]: http://www.fatihhayrioglu.com/?p=564
   [https://wiki.mozilla.org/User:Rcampbell/Firebug_performance]: https://wiki.mozilla.org/User:Rcampbell/Firebug_performance
   [FireBug ikonu]: /images/firebug_ikon.gif

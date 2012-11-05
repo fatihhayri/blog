@@ -3,7 +3,7 @@ Date: 2007-08-04 12:27
 Category: Kitaplar
 Tags: Kitaplar
 
-[![Sultan Vahideddin - Kadir Mısıroğlu][]][]Okullarda oktulan tarih
+![Sultan Vahideddin - Kadir Mısıroğlu][]Okullarda oktulan tarih
 içinde en çok eleştirilen ve vatan haini olarak nitelenen Sultan
 Vahideddin hakkında bir bakıma karşıt görüşü savunan Kadir Mısıroğlu bu
 kitapla bize Sultan Vahideddin'i geniş kapsamlı olarak değerlendirme
@@ -17,6 +17,6 @@ sürecini anltan güzel bir eser. Ayrıca Sultan Vahideddin'e yönelik
 iftiralara karşılık veren bir eser. Ayrıntılı bilgi için [tıklayınız.][]
 
   [Sultan Vahideddin - Kadir Mısıroğlu]: /images/vahideddin.kucukresim.gif
-  [![Sultan Vahideddin - Kadir Mısıroğlu][]]: /images/vahideddin.gif
+  ![Sultan Vahideddin - Kadir Mısıroğlu][]]: /images/vahideddin.gif
     "Sultan Vahideddin - Kadir Mısıroğlu"
   [tıklayınız.]: http://www.sebilyayinevi.com/katalog.php?islem=kategori&kategori=1#108

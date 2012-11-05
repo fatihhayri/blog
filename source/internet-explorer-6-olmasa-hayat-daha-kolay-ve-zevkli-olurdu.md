@@ -3,7 +3,7 @@ Date: 2008-09-10 10:23
 Category: CSS, Javascript, Web Standartları, XHTML
 Tags: ie6, internet explorer, İnternet Tarayıcısı
 
-[![][]][]
+![][]
 
 Web kod yazarlarını en çok zorlayan konulardan biri farklı tarayıcılara
 uyumlu kod yazmaktır. Birinin düzgün yorumladığını diğer farklı yorumlar
@@ -127,7 +127,7 @@ Ne diyelim Internet Explorer 6'ya ölüm.
 
   []: /images/ie6-dur.gif
     "ie6 kullanmayın"
-  [![][]]: /images/ie6-dur.gif
+  ![][]]: /images/ie6-dur.gif
   [M. Dave Auayan]: http://prototypecreative.com/blog/ "M. Dave Auayan"
   [ Death March]: http://iedeathmarch.org/ "ie 6 death"
   [IE’de Hata Ayıklamak için şartlı Yorumlar Kullanmak]: http://www.fatihhayrioglu.com/?p=236

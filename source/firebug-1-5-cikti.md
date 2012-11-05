@@ -16,7 +16,7 @@ hemde 3.6'yı destekliyor.
 sorunsuz çalışıyor. **Quick Info** bölümü ile seçilen elemanın bilgileri
 anında görülebiliyor. Ayrıca **Image Map** yakalama kısmı eklenmiş.
 
-[![][]][]
+![][]
 
 **HTML Paneli:** HTML düzenleme kısmı geliştirilmiş. Bir nesneye
 uygulanan tüm stil atamaları ve etkin stil atamaları artık iki ayrı
@@ -24,7 +24,7 @@ sekme(Style ve Computed) halinde verilmiş. Sağdaki Layout kısmına
 position ve z-index değerlerinide gösteriyor artık. MathML ve SVG
 namespace desteği gelmiş.
 
-[![][1]][]
+![][1]
 
 **CSS Paneli:** Css panelde aktif elemanın  sözde-sınıflarının(pseudo)
 hepsi görünüyor ve bunları değiştirebiliyoruz. Bu özellik iyi olmuş,
@@ -34,7 +34,7 @@ Sistemden gelen özellikleri artık görebiliyoruz. Sadece okunabilir.
 
 CSS kısayollarını göster ve gizle yapabiliyoruz.
 
-[![][2]][]
+![][2]
 
 **Javascript Paneli:** Gelişmiş inceleme-noktaları oluşturabilme
 özelliği eklenmiş. Bir çok panel artık inceleme-noktası
@@ -55,7 +55,7 @@ Kolonları çıkarabiliyor ve ekleyebiliyoruz.
 
 Gelen ve giden veriler araç ipuçu içinde gösteriliyor.
 
-[![][3]][]
+![][3]
 
 **Araç Çubuğu ve Menüler:**Arama kısmını geliştirilmiş. Küçük büyük
 harfe duyarlı arama yapabiliyoruz ve ileri doğru ve geriye doğru arama
@@ -79,17 +79,17 @@ numaralı yerini kimseye kaptırmıyor.
 -   [http://www.markwarner2008.com/firebug-1-5-updates-with-new-features-still-a-web-developers-dream-downloads/][]
 
   []: /images/teftis_et.gif "teftis_et"
-  [![][]]: /images/teftis_et.gif
+  ![][]]: /images/teftis_et.gif
   [1]: /images/computed.gif "computed"
-  [![][1]]: /images/computed.gif
+  ![][1]]: /images/computed.gif
   [2]: /images/css_paneli.gif
     "css_paneli"
-  [![][2]]: /images/css_paneli.gif
+  ![][2]]: /images/css_paneli.gif
   [tıklayınız]: http://www.softwareishard.com/blog/firebug/firebug-http-time-monitor/
     "tıklayınız"
   [3]: /images/net_panel.gif
     "net_panel"
-  [![][3]]: /images/net_panel.gif
+  ![][3]]: /images/net_panel.gif
   [http://getfirebug.com/wiki/index.php/Firebug_Release_Notes]: http://getfirebug.com/wiki/index.php/Firebug_Release_Notes
     "http://getfirebug.com/wiki/index.php/Firebug_Release_Notes"
   [http://www.softwareishard.com/blog/]: http://www.softwareishard.com/blog/

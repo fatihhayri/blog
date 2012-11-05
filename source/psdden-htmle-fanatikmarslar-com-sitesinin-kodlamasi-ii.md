@@ -16,7 +16,7 @@ olacaktır.
 -   II – Ana Sayfa Kodlaması (bu sayfa)
 -   III – Alt Sayfaların Kodlaması (yayına hazırlanıyor...)
 
-[![][]][]
+![][]
 
 <!--more-->
 
@@ -28,7 +28,7 @@ deniyorum ara sıra. Ardalan resmi biraz farklı bir yapıya sahip
 tekrarlayan kısmı biraz geniş olduğu için geniş kesmek durumunda kaldık.
 Ardalan resmini body'ye atıyorum.
 
-[![][1]][]
+![][1]
 
 Sayfa ve site sabit bir genişlikte ve ortalı olduğu için ana bir
 kapsül(**anaKapsul**) için alıyorum. katmanı kapattığım yere bir not
@@ -64,7 +64,7 @@ url(../images/ust_ard.gif) 0 0 no-repeat;}
 Ayrıca sayfa kenarları oval bunları ardalan resmi olarak anaKapsul
 ardalan resmi olarak tanımlayabiliriz.
 
-[![][2]][]
+![][2]
 
 ## Üst Alanın Kodlaması
 
@@ -162,7 +162,7 @@ korkmuyoruz"<strong>Didier Deschamps</strong></p> </div>
 
 ## İçerik Alanının kodlaması
 
-[![][3]][]
+![][3]
 
 Ana Sayfa içerik alanını üç kolona ayırıyoruz. Sol, orta ve sağ kolon.
 
@@ -269,7 +269,7 @@ artık. Metodun çıkış amacı bir çok resmi ayrı ayrı sayfada çağırınc
 istek bir zaman aşımına neden oluyor, resmi teke indirdiğimizde tek
 resim ve tek istek olduğu için bu zaman aşımından kurtulmuş oluyoruz.
 
-[![][4]][]
+![][4]
 
 	:::css
 	 table#taraftarZirveTablo td div{
@@ -292,7 +292,7 @@ kodladık. Ben sitede toplu olarak iki adet resim toplama(css sprite)
 tekniği uyguladım. Birincisi yukarıda anlattığım logolar için diğeri ise
 sitedeki sprite tekniğine uyacak diğer resimler için.
 
-[![][5]][]
+![][5]
 
 yukarıdaki resim site genelinde uyguladığım sprite tekniği sonucu ortaya
 çıkmıştır. CSS Sprite tekniği hakkında genel bir makale ayrıca
@@ -546,7 +546,7 @@ ul.oylama a.besYildiz:hover{width: 85px;}
 
 ## Sosyal Alanın ve Alt Alanın Kodlanması
 
-[![][7]][]
+![][7]
 
 Burada üstteki beyaz oval alanı için fazladan bir katman açıp ona
 atamaktan ise zaten ekleyeceğiz sosyalAlan'a üstteki kapsayıcı katmanın
@@ -694,30 +694,30 @@ görüşmek dileğiyle hoşçakalın.
   [I -Kodlama Öncesi Hazırlıklar]: http://www.fatihhayrioglu.com/fanatikmarslar-com-sitesinin-kodlamasi/
   []: /images/anasayfa_kuc.jpg
     "anasayfa_kuc"
-  [![][]]: /images/anasayfa_kuc.jpg
+  ![][]]: /images/anasayfa_kuc.jpg
   [1]: /images/ardalan-266x300.jpg
     "ardalan"
-  [![][1]]: /images/ardalan.jpg
+  ![][1]]: /images/ardalan.jpg
   [IE6'un Tekrarlayan Karakter Sorunu]: http://www.fatihhayrioglu.com/ie6un-tekrarlayan-karakter-sorunu/
   [2]: /images/ders_03-300x113.jpg
     "ders_03"
-  [![][2]]: /images/ders_03.jpg
+  ![][2]]: /images/ders_03.jpg
   [CSS kod Yazma Düzeni]: http://www.fatihhayrioglu.com/css-kod-yazma-duzeni/
   [tıklayınız]: http://www.fatihhayrioglu.com/tum-tarayicilar-icin-css-duzeltmelerihack/
   [3]: /images/icerik_alani.jpg
     "icerik_alani"
-  [![][3]]: /images/icerik_alani.jpg
+  ![][3]]: /images/icerik_alani.jpg
   [basit menü yapımı]: http://www.fatihhayrioglu.com/basit-resimli-menu-yapmak/
   [4]: /images/takim_logolari.gif
     "takim_logolari"
-  [![][4]]: /images/takim_logolari.gif
+  ![][4]]: /images/takim_logolari.gif
   [5]: /images/genel_resim.gif
     "genel_resim"
-  [![][5]]: /images/genel_resim.gif
+  ![][5]]: /images/genel_resim.gif
   [http://www.fatihhayrioglu.com/kutu-modeli-sorunlari-ve-cozumleri/]: http://www.fatihhayrioglu.com/kutu-modeli-sorunlari-ve-cozumleri/
   [6]: http://www.fatihhayrioglu.com/internet-explorer-6-ve-7-icin-tablo-tr-elementine-kenar-cizgisi-atamak/
   [7]: /images/sosyal_altalan.jpg
     "sosyal_altalan"
-  [![][7]]: /images/sosyal_altalan.jpg
+  ![][7]]: /images/sosyal_altalan.jpg
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/fm/index.html
   [8]: http://www.fatihhayrioglu.com/dokumanlar/fm_anasayfa_html.rar

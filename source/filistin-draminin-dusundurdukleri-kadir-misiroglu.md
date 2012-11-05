@@ -3,7 +3,7 @@ Date: 2007-08-01 11:07
 Category: Kitaplar
 Tags: filistin, Kitaplar
 
-[![FİLİSTİN DRAMI’NIN DÜŞÜNDÜRDÜKLERİ][]][]Yahudilerin Filistin
+![FİLİSTİN DRAMI’NIN DÜŞÜNDÜRDÜKLERİ][]Yahudilerin Filistin
 topraklarını almak için yaptıklarını gösteren güzel bir kitap.
 Ayrıntıları ile değil işin özünü anlatan ve olaya farklı yönlerden bakan
 bir kaynak. Zamanında İngilizlerin Filistin'de federe bir devlet kurmak
@@ -12,6 +12,6 @@ istemleri gibi ilginç bilgileride içeren güzel bir kitap. Ayrıntılı
 bilgi için [tıklayınız.][]
 
   [FİLİSTİN DRAMI’NIN DÜŞÜNDÜRDÜKLERİ]: /images/filistin_dirami.kucukresim.jpg
-  [![FİLİSTİN DRAMI’NIN DÜŞÜNDÜRDÜKLERİ][]]: /images/filistin_dirami.jpg
+  ![FİLİSTİN DRAMI’NIN DÜŞÜNDÜRDÜKLERİ][]]: /images/filistin_dirami.jpg
     "FİLİSTİN DRAMI’NIN DÜŞÜNDÜRDÜKLERİ"
   [tıklayınız.]: http://www.sebilyayinevi.com/katalog.php?islem=kategori&kategori=1#

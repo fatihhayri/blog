@@ -3,7 +3,7 @@ Date: 2007-06-25 22:10
 Category: Kitaplar
 Tags: Kitaplar
 
-[![tarih_sohbetleri3.jpg][]][]Tarih sohbetlerinin 3. ve sonuncusu olan
+![tarih_sohbetleri3.jpg][]Tarih sohbetlerinin 3. ve sonuncusu olan
 bu kitap daha çok yakın tarihimizle alakalı. Kitap Dış politika ve İç
 politika diye iki bölüme ayrılmış notları içeriyor. Yakın tarihimize ait
 bir çok olayı tekrar gözden geçirmek ve tarihi olaylarla bağlantısını
@@ -15,6 +15,6 @@ görmek beni şaşırttı. Tarih okumayı bu nednele seviyorum. Böyle bir
 şans. Ayrıntılı bilgi için [tıklayınız.][]
 
   [tarih_sohbetleri3.jpg]: /images/tarih_sohbetleri3.kucukresim.jpg
-  [![tarih_sohbetleri3.jpg][]]: /images/tarih_sohbetleri3.jpg
+  ![tarih_sohbetleri3.jpg][]]: /images/tarih_sohbetleri3.jpg
     "tarih_sohbetleri3.jpg"
   [tıklayınız.]: http://www.kitapyurdu.com/kitap/default.asp?id=18964&session=S5981679266249721022&LogID=

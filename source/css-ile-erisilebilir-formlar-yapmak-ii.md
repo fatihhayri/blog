@@ -18,7 +18,7 @@ zorlukları olacaktır ama genel yapı anlaşılırsa yapılamayacak form
 kodlaması yoktur. Aşağıda kodlayacağımız formun resmini görüyoruz.
 <!--more-->
 
-[![CSS ile Form][]][]
+![CSS ile Form][]
 
 Kodlamayı yaparken dikkat edeceğiz konu kullanıcıyı yormayan güzel
 görünümlü ve erişilebilirliği yüksek formlar hazırlamaktır. [Bir önceki][] yazımızda **fieldset** ve **legend** ve **label**
@@ -375,7 +375,7 @@ düzeltme kodu(fix) yazma gereği duymadık.
   [1]: /images/pdf_ikon.gif
   [pdf olarak indir]: /pdf/CSS_ile_Erisilebilir_Formlar_Yapmak_II.pdf
   [CSS ile Form]: /images/sonuc_sayfasi.kucukresim.gif
-  [![CSS ile Form][]]: /images/sonuc_sayfasi.gif
+  ![CSS ile Form][]]: /images/sonuc_sayfasi.gif
     "CSS ile Form"
   [Bir önceki]: http://www.fatihhayrioglu.com/?p=276
   [tıklayınız.]: /dokumanlar/css_ile_form_2.html

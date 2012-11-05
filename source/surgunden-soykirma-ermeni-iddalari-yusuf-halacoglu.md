@@ -3,7 +3,7 @@ Date: 2008-03-10 23:37
 Category: Kitaplar
 Tags: sözde soykırım, Sürgünden Soykırma Ermeni iddaları, tehcir, Yusuf Halaçoğlu
 
-[![Sürgünden Soykırma Ermeni İddaları - Yusuf Halaçoğlu][]][]Ermeni
+![Sürgünden Soykırma Ermeni İddaları - Yusuf Halaçoğlu][]Ermeni
 tehciri ile alakalı bir çok yayını olan Yusuf Halaçoğlu'nun kısa ve öz
 içerik bir kitabı. Konu hakkında bir çok insanın tam olarak bilgisi yok.
 Sorunda buradan kaynaklanıyor. Bir çok insan(bizlerde dahil) konu
@@ -14,6 +14,6 @@ Kitap bize işin aslını gösteriyor, belgeler ve araştırmalar ışığında.
 Ayrıntılı bilgi için [tıklayınız.][]
 
   [Sürgünden Soykırma Ermeni İddaları - Yusuf Halaçoğlu]: /images/surgunden.thumbnail.gif
-  [![Sürgünden Soykırma Ermeni İddaları - Yusuf Halaçoğlu][]]: /images/surgunden.gif
+  ![Sürgünden Soykırma Ermeni İddaları - Yusuf Halaçoğlu][]]: /images/surgunden.gif
     "Sürgünden Soykırma Ermeni İddaları - Yusuf Halaçoğlu"
   [tıklayınız.]: http://www.kitapyurdu.com/kitap/default.asp?id=100147

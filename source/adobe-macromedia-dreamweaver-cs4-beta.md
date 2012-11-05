@@ -10,7 +10,7 @@ bunlar.
 
 #### Gerçek Görünüm (LiveView) özelliği
 
-[![][]][]
+![][]
 
 Bu özellik ile sayfamızın web tarayıcılarında göründüğü gibi görmemizi
 sağlıyor. Ayrıca CSS ve javascript ile dizayn kısmının aynı anda
@@ -19,7 +19,7 @@ seviyesine erişmesine çok var.
 
 #### Kullanılan Dosyalar Üst Barda
 
-[![][1]][]
+![][1]
 
 Düzenlediğimiz sayfaya ilintili dosyaları üst barda göstererek daha
 hızlı erişim sağlamamıza olan sağlanmış. Bu gerçekten iyi düşünülmüş bir
@@ -32,7 +32,7 @@ yapı kazandırılmış.
 
 #### Özellikler Menüsünde CSS Ayrımı
 
-[![][2]][]
+![][2]
 
 Dreamweaver özellikler menüsündeki CSS kısmı pek kullanışlı değildi. Bu
 kısmı html kısmında ayırıp daha CSS özelliklerine yönelik bir alan
@@ -41,7 +41,7 @@ Etkinlik derecesi için güzel bir araç eklenmiş.
 
 #### Javascript ve javascript kütüphanelerinin otomatik kod tamamlama özelliği
 
-[![][3]][]
+![][3]
 
 Bu konuda Dreamweaver biraz geç kaldı, ama yeni sürümdeki en güzel
 özellikte bu bence. Bu özellikle belli başlı javascript
@@ -107,15 +107,15 @@ videoları izlemenizi öneririm.
 </p>
 
   []: /images/dw03-150x101.jpg "dw03"
-  [![][]]: /images/dw03.jpg
+  ![][]]: /images/dw03.jpg
   [1]: /images/dw02-300x38.jpg "dw02"
-  [![][1]]: /images/dw02.jpg
+  ![][1]]: /images/dw02.jpg
   [2]: /images/css_ozellikler-300x48.jpg
     "css_ozellikler"
-  [![][2]]: /images/css_ozellikler.jpg
+  ![][2]]: /images/css_ozellikler.jpg
   [3]: /images/dw_javascript-300x107.jpg
     "dw_javascript"
-  [![][3]]: /images/dw_javascript.jpg
+  ![][3]]: /images/dw_javascript.jpg
   [http://movielibrary.lynda.com/html/modPage.asp?ID=592]: http://movielibrary.lynda.com/html/modPage.asp?ID=592
   [http://labs.adobe.com/technologies/dreamweavercs4/]: http://labs.adobe.com/technologies/dreamweavercs4/
   [http://www.wz2k.co.uk/index.php/2008/05/dreamweaver-cs4-beta-released/]: http://www.wz2k.co.uk/index.php/2008/05/dreamweaver-cs4-beta-released/

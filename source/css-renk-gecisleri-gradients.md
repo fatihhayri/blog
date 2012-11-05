@@ -102,7 +102,7 @@ tanımlayabiliriz. Diğer tanımlar top, bottom, left, right. Benzer
 tanımları açı ile de yapabiliriz. 0deg(sol); 90deg(alt); 180deg(sağ);
 270deg(üst) ve 360deg(sol) iki sol değeri var.
 
-[![][1]][]
+![][1]
 
 Yukarıdaki tanımı birde dereceli yapalım.
 

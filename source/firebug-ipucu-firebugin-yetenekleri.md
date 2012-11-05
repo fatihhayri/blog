@@ -14,7 +14,7 @@ görmek açısından önemli bir bilgi.
 Sitedeki dokuları tek tek denemeye başladım. Resme sağ tıklayıp konumunu
 kopyaladım.
 
-[![FireBug yetenekleri][]][]
+![FireBug yetenekleri][]
 
 Sonrada kendi siteme gidip FireBug’ı açıp body elementini yakaladım ve
 ardalan olarak konumunu kopyaladığım resmi koydum. İlkini beğenmedim.
@@ -32,5 +32,5 @@ Hiç sitenin kodlarına dokunmadan, herhangi bir resim kopyalamadan, site
 
   [bir makaleye]: http://www.noupe.com/texture/50-high-resolution-textures-tutorials-and-resources.html
   [FireBug yetenekleri]: /images/firebug_yetenekleri01-255x300.jpg
-  [![FireBug yetenekleri][]]: /images/firebug_yetenekleri01.jpg
+  ![FireBug yetenekleri][]]: /images/firebug_yetenekleri01.jpg
   [tıklayınız.]: /images/firebug_yetenekleri.gif
