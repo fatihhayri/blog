@@ -116,12 +116,15 @@ bile bir şeyler içerir.
 XHTML sayfamız
 
 	:::html
-	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
-1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
-http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>FanatikMarşlar.Com</title> </head> <body> </body>
-</html> 
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>FanatikMarşlar.Com</title>
+	</head>
+	<body>
+	</body>
+	</html> 
 
 Bu dokümanı Adobe DreamWeaver ile oluşturduğumda dw benim için
 oluşturuyor.
@@ -136,7 +139,7 @@ oluşturuyor.
 İlk yaptığım iş başlık kısmını değiştirmek olur.
 
 	:::html
-	 <title>FanatikMarşlar.Com</title>
+	<title>FanatikMarşlar.Com</title>
 
 
 Daha sonra boş bir css dokümanı oluştururum. Genelde isim verirken ana,
@@ -145,12 +148,14 @@ site ismini tanımlıyorum **fanatikmarslar.css** Oluşturduğum bu dokümana
 sırası ile imza alanımı ve sıfırlama kodlarını ekliyorum.
 
 	:::css
-	
-/************************
-************************ Fanatik Marşlar -
-http://fanatikmarslar.com/ fatih hayrioglu 24 Eylul 2009 ie6, ff, opera,
-chrome, safari ************************
-************************/ 
+	/************************
+	************************
+	Fanatik Marşlar - http://fanatikmarslar.com/
+	fatih hayrioglu
+	24 Eylul 2009
+	ie6, ff, opera, chrome, safari
+	************************
+	************************/
 
 Bunu benim imzam olarak nitelendirebilirsiniz. Genelde tüm projelerime
 eklerim. Bazılarında unuttuğumda oluyor. Daha sonra css sıfırlama
@@ -160,25 +165,31 @@ bu sefer bazı sıfırlama kodlarının elenmiş halini kullandım ve koduma
 ekledim. Bide kapsayamama sorunu kodunu ekledim.
 
 	:::css
-	 /* Css Sifirlama */ html, body, div, span,
-applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
-abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins,
-kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,
-center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
-caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border:
-0; outline: 0; font-size: 100%; text-decoration:none;} body {
-line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes:
-none; } /* remember to define focus styles! */ :focus, a:focus,
-a:active{ outline: 0; } /* remember to highlight inserts somehow! */
-ins{ text-decoration: none; } del{ text-decoration: line-through; } /*
-tables still need 'cellspacing="0"' in the markup */
-table{border-collapse: collapse; border-spacing: 0;} /* float uygulanan
-elemanları kapsayamama sorunu */ .kapsayamamaSorunu:after {content:
-"."; display: block; height: 0; clear: both; visibility: hidden;}
-.kapsayamamaSorunu {display: inline-block;} /* IE-mac de bu bolumu
-sakla  */ * html .kapsayamamaSorunu {height: 1%;} .kapsayamamaSorunu
-{display: block;} /* IE-mac bu bolumu saklam artik */ /* Css
-Sifirlama */ 
+	/* Css Sifirlama */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; text-decoration:none;}
+
+	body { line-height: 1; }
+	ol, ul { list-style: none; }
+	blockquote, q { quotes: none; }
+	/* remember to define focus styles! */
+	:focus, a:focus, a:active{    outline: 0; }
+
+	/* remember to highlight inserts somehow! */
+	ins{ text-decoration: none; }
+	del{ text-decoration: line-through; }
+
+	/* tables still need 'cellspacing="0"' in the markup */
+	table{border-collapse: collapse; border-spacing: 0;}
+
+	/* float uygulanan elemanları kapsayamama sorunu */
+	.kapsayamamaSorunu:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+	.kapsayamamaSorunu {display: inline-block;}
+	/* IE-mac de bu bolumu sakla \ */
+	* html .kapsayamamaSorunu {height: 1%;}
+	.kapsayamamaSorunu {display: block;}
+	/* IE-mac bu bolumu saklam artik */
+
+	/* Css Sifirlama */
 
 CSS sıfırlama tekniğini kısaca açıklarsak; Farklı tarayıcılarda farklı
 şekillerde yorumlanan html elemanlarının özelliklerini her tarayıcıda
@@ -189,8 +200,11 @@ p{margin:0; padding:0}
 Daha sonra xhtml sayfamıza css kodumuzu ekleyelim.
 
 	:::html
-	 <style type="text/css"> <!-- @import
-url("style/fanatikmarslar.css"); --> </style> 
+	<style type="text/css">
+	<!--
+	@import url("style/fanatikmarslar.css");
+	-->
+	</style>
 
 Bundan sonra genelde ben psd'yi açıp sırası ile eskizde çizdiğim yapıya
 uygun olarak kodlamama başlarım. Bunun dışında bir yöntem daha vardır ki
@@ -205,31 +219,17 @@ kodlaması ile başlayalım
 
 Bir sonraki makalede kaldığımız yerden devam edeceğiz.
 
-</p>
-
   [Ayrıca Mustafa'nın siteyi tanıttığı televidyon'daki etohum   programınıda izleminizi]: http://televidyon.com/p/2107/fanatikmarslarcom
   [Mustafa Özyurt]: http://www.websoldier.net/
   [Hasan Yalçın]: http://www.hasanyalcin.com/
   [Klasör Yapısı]: /images/ders_01.gif
-    "ders_01"
   ![Klasör Yapısı][]]: /images/ders_01.gif
   []: /images/ders_02-e1262041236446.gif
-    "ders_02"
-  
   [1]: /images/fan-200x300.jpg "fan"
-  
   [2]: /images/fan-dinle-200x300.jpg
-    "fan-dinle"
-  
   [3]: /images/fan-gonder-200x300.jpg
-    "fan-gonder"
-  
   [4]: /images/fan-listele-200x300.jpg
-    "fan-listele"
-  
   [5]: /images/fm_eskiz.gif "fm_eskiz"
-  
   [tıklayınız.]: http://www.fatihhayrioglu.com/dogru-doctype-kullanimi/
-    "tıklayınız."
   [6]: http://www.makaleci.com/webmaster-yardimcisi/utf-8-nedir-kodlar-karakterler-ve-hakkinda-hersey-418.html
     "tıklayınız."

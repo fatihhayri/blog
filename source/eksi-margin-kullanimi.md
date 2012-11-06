@@ -34,12 +34,25 @@ Herhangi bir konumlandırma ataması yapılmayan tüm elemanlar sabit
 konumlandırılmıştır.
 
 	:::css
-	 #kutu1 { width: 200px; height: 100px;
-border: 2px solid #659ad8; background-color:#e5ecf9 } #kutu2 { width:
-200px; height: 100px; border: 2px solid #cd8a93;
-background-color:#ffb4bf }  	:::html
+	#kutu1 {
+	    width: 200px; 
+	    height: 100px; 
+	    border: 2px solid #659ad8; 
+	    background-color:#e5ecf9
+	}
+
+	#kutu2 {
+	    width: 200px; 
+	    height: 100px; 
+	    border: 2px solid #cd8a93; 
+	    background-color:#ffb4bf
+	}	
 	
-<div id="kutu1"></div> <div id="kutu2"></div> 
+HTML; 
+
+	:::html
+	<div id="kutu1"></div>
+	<div id="kutu2"></div>
 
 Örnke kodu görmek için [tıklayınız.][]
 
@@ -50,10 +63,21 @@ kutuya eksi margin atarsak örneğin alttan -20px gibi.
 
 Alttaki kutuyu kendi üzerine doğru 20px çekecektir.
 
-[sourcecode language="css" highlight="6"] #kutu1 { width: 200px;
-height: 100px; border: 2px solid #659ad8; background-color:#e5ecf9;
-margin-bottom:-20px } #kutu2 { width: 200px; height: 100px; border: 2px
-solid #cd8a93; background-color:#ffb4bf } 
+	:::css
+	#kutu1 {
+	    width: 200px; 
+	    height: 100px; 
+	    border: 2px solid #659ad8; 
+	    background-color:#e5ecf9; 
+	    margin-bottom:-20px
+	}
+
+	#kutu2 {
+	    width: 200px; 
+	    height: 100px; 
+	    border: 2px solid #cd8a93; 
+	    background-color:#ffb4bf
+	}
 
 Örnke kodu görmek için [tıklayınız.][1]
 
@@ -61,10 +85,21 @@ solid #cd8a93; background-color:#ffb4bf }
 
 Eğer ikinci kutuya yukarıdan eksi margin verirsek
 
-[sourcecode language="css" highlight="13"] #kutu1 { width: 200px;
-height: 100px; border: 2px solid #659ad8; background-color:#e5ecf9; }
-#kutu2 { width: 200px; height: 100px; border: 2px solid #cd8a93;
-background-color:#ffb4bf; margin-top:-20px } 
+	:::css 
+	#kutu1 {
+	    width: 200px; 
+	    height: 100px; 
+	    border: 2px solid #659ad8; 
+	    background-color:#e5ecf9;
+	}
+
+	#kutu2 {
+	    width: 200px; 
+	    height: 100px; 
+	    border: 2px solid #cd8a93; 
+	    background-color:#ffb4bf; 
+	    margin-top:-20px
+	}
 
 Örnke kodu görmek için [tıklayınız.][2]
 
@@ -87,8 +122,9 @@ kullanırız. Bu bize arama motorları içinde avantaj sağlar. 
 Normal bir içerik ve başlık kullanımına örnek verelim.
 
 	:::html
-	 <p>Integer sagittis ... elementum. </p>
-<h1>Donec id ultricies mi.</h1> <p>Lorem ipsum ... eros.</p>
+	<p>Integer sagittis ... elementum. </p>
+	<h1>Donec id ultricies mi.</h1>
+	<p>Lorem ipsum ... eros.</p>
 
 
 Görünüm aşağıdaki gibi olacaktır
@@ -107,18 +143,35 @@ Başlık etiketinin alt margin değerine eksi değer vererek paragraf
 yaklaştırılır. 
 
 	:::css
-	 h1{ margin-bottom:-20px } 
+	h1{ 
+		margin-bottom:-20px 
+	} 
 
 ![negatifmargin_baslik2][]
 
 **1.3. Statik elemanlarda bir başka durumda kutuların iç içe olma
 durumunda vardır.**
 
-[sourcecode language="css" highlight="11"] #kutu1 { width:200px;
-height: 130px; border: 2px solid #659ad8; background-color:#e5ecf9; }
-#kutu2 { height: 100px; border: 2px solid #cd8a93;
-background-color:#ffb4bf; margin:10px -20px }  	:::html
-	 <div id="kutu1"> <div id="kutu2"></div> </div>
+	:::css
+	#kutu1 {
+	    width:200px; 
+	    height: 130px; 
+	    border: 2px solid #659ad8; 
+	    background-color:#e5ecf9;
+	}
+	#kutu2 {
+	    height: 100px; 
+	    border: 2px solid #cd8a93; 
+	    background-color:#ffb4bf; 
+	    margin:10px -20px
+	}
+	
+HTML; 
+	
+	:::html
+	<div id="kutu1"> 
+		<div id="kutu2"></div> 
+	</div>
 
 
 İçteki kutuya sağdan ve soldan eksi değerler verdiğimizde dış kutunu
@@ -144,19 +197,38 @@ ie6'da ise yukarıdaki gibi görünmektedir.
 Bu durumu düzeltmek için düzeltme kodu yazmalıyız. ie7 için min-height:0
 tanımı yeterlidir.
 
-[sourcecode language="css" highlight="12"] #kutu1 { width:200px;
-height: 130px; border: 2px solid #659ad8; background-color:#e5ecf9; }
-#kutu2 { height: 100px; border: 2px solid #cd8a93;
-background-color:#ffb4bf; margin:10px -20px; min-height:0 }
-
+	:::css
+	#kutu1 {
+	    width:200px; 
+	    height: 130px; 
+	    border: 2px solid #659ad8; 
+	    background-color:#e5ecf9;
+	}
+	#kutu2 {
+	    height: 100px; 
+	    border: 2px solid #cd8a93; 
+	    background-color:#ffb4bf; 
+	    margin:10px -20px; 
+	    min-height:0
+	}
 
 ie6 için ise daha farklı bir kod yazmalıyız.
 
-[sourcecode language="css" highlight="11,12,13,14"] #kutu1 {
-width:200px; border: 2px solid #659ad8; background-color:#e5ecf9; }
-#kutu2 { border: 2px solid #cd8a93; background-color:#ffb4bf;
-margin:10px -20px; } * html #kutu2{ position:relative; height:1px }
-
+	:::css
+	#kutu1 {
+	    width:200px; 
+	    border: 2px solid #659ad8; 
+	    background-color:#e5ecf9;
+	}
+	#kutu2 {
+	    border: 2px solid #cd8a93; 
+	    background-color:#ffb4bf; 
+	    margin:10px -20px;
+	}
+	* html #kutu2{
+	    position:relative; 
+	    height:1px
+	}
 
 Örnke kodu görmek için [tıklayınız.][4]
 
@@ -170,22 +242,48 @@ görür.
 Float uygulanmış iki elemanı düşünelim.
 
 	:::css
-	 #kutu1 { float:left; width: 200px; height:
-100px; border: 2px solid #659ad8; background-color:#e5ecf9; } #kutu2
-{ float:left; width: 200px; height: 80px; border: 2px solid #cd8a93;
-background-color:#ffb4bf }  	:::html
-	
-<div id="kutu1"> Lorem ipsum dolor sit amet, consectetur adipiscing
-elit. Donec id ultricies mi. </div> <div id="kutu2"> Etiam vel arcu
-nisl. Sed pharetra gravida diam sed mattis. </div> 
+	#kutu1 {
+	    float:left; 
+	    width: 200px; 
+	    height: 100px; 
+	    border: 2px solid #659ad8; 
+	    background-color:#e5ecf9;
+	}
+	#kutu2 {
+	    float:left; 
+	    width: 200px; 
+	    height: 80px; 
+	    border: 2px solid #cd8a93; 
+	    background-color:#ffb4bf
+	}
+
+
+	:::html
+	<div id="kutu1">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id ultricies mi.
+	</div>
+	<div id="kutu2">
+		Etiam vel arcu nisl. Sed pharetra gravida diam sed mattis.
+	</div>
 
 Birinci kutuya sağ eksi margin verdiğimizde
 
-[sourcecode language="css" highlight="2,7"] #kutu1 { float:left; width:
-200px; height: 100px; border: 2px solid #659ad8;
-background-color:#e5ecf9; margin-right:-50px } #kutu2 { float:left;
-width: 200px; height: 80px; border: 2px solid #cd8a93;
-background-color:#ffb4bf } 
+	:::css
+	#kutu1 {
+	    float:left; 
+	    width: 200px; 
+	    height: 100px; 
+	    border: 2px solid #659ad8; 
+	    background-color:#e5ecf9; 
+	    margin-right:-50px
+	}
+	#kutu2 {
+	    float:left; 
+	    width: 200px; 
+	    height: 80px; 
+	    border: 2px solid #cd8a93; 
+	    background-color:#ffb4bf
+	}
 
 Örnke kodu görmek için [tıklayınız.][5]
 
@@ -210,15 +308,28 @@ oluşturmak istediğimizde yarar.
 sağ kolon eklemek istersek, yukarıdaki kodu devam ettirmemiz yeterli
 olacaktır.
 
-[sourcecode language="css" highlight="6,10"] #kutu1 { float:left;
-width: 100%; height: 100px; background-color:#e5ecf9;
-margin-right:-200px } #kutu2 { float:left; width: 200px; height: 80px;
-background-color:#ffb4bf }  	:::html
-	
-<div id="kutu1"> <p>Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. Donec id ultricies mi.</p> </div> <div
-id="kutu2"> <p>Etiam vel arcu nisl. Sed pharetra gravida diam sed
-mattis.</p> </div> 
+	:::css
+	#kutu1 {
+	    float:left; 
+	    width: 100%; 
+	    height: 100px; 
+	    background-color:#e5ecf9; 
+	    margin-right:-200px
+	}
+	#kutu2 {
+	    float:left; 
+	    width: 200px; 
+	    height: 80px; 
+	    background-color:#ffb4bf
+	}
+
+	:::html
+	<div id="kutu1">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id ultricies mi.</p>
+	</div>
+	<div id="kutu2">
+		<p>Etiam vel arcu nisl. Sed pharetra gravida diam sed mattis.</p>
+	</div>
 
 ![float_eksimargin_esnek][]
 
@@ -226,7 +337,9 @@ mattis.</p> </div>
 içeriğindeki paragrafa sağ margin değeri atamalıyız.
 
 	:::css
-	 #kutu1 p{ margin-right:220px }
+	#kutu1 p{ 
+		margin-right:220px 
+	}
 
 
 Normalde 200px yeterli olacaktı ancak içerik ile sağ kolon arasına 20px
@@ -237,10 +350,23 @@ lik bir mesafe koyarak birbirine yapışmasınıda engellemiş olduk.
 Sağ ve sol kolon diye bir ayrım yapmak içinde soldaki kolonun ardalan
 rengini kaldırıp içindeki paragrafa vererek bu sorunu çözebiliriz.
 
-[sourcecode language="css" highlight="6,7,8,9,10"] #kutu1 { float:left;
-width: 100%; margin-right:-200px } #kutu1 p{ margin:0 220px 0 0;
-height: 100px; background-color:#e5ecf9; } #kutu2 { float:left; width:
-200px; height: 80px; background-color:#ffb4bf } 
+	:::css
+	#kutu1 {
+	    float:left; 
+	    width: 100%; 
+	    margin-right:-200px
+	}
+	#kutu1 p{ 
+	    margin:0 220px 0 0; 
+	    height: 100px; 
+	    background-color:#e5ecf9;
+	}
+	#kutu2 {
+	    float:left; 
+	    width: 200px; 
+	    height: 80px; 
+	    background-color:#ffb4bf
+	}
 
 Örnke kodu görmek için [tıklayınız.][6]
 
@@ -252,13 +378,26 @@ Yukarıda yan yana elemanlardaki durumu gösterdik peki iç içe elemanlarda
 eksi margin kullanımda nasıl sonuçlar çıkacaktır.
 
 	:::css
-	 #kutu1 { float:left; width: 200px; height:
-100px; border: 2px solid #659ad8; background-color:#e5ecf9; } #kutu2
-{ float:right; width: 50px; height: 80px; border: 2px solid #cd8a93;
-background-color:#ffb4bf; }  	:::html
-	
-<div id="kutu1"> <div id="kutu2">Donec id ultricies mi.</div>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+	#kutu1 {
+	    float:left; 
+	    width: 200px; 
+	    height: 100px; 
+	    border: 2px solid #659ad8; 
+	    background-color:#e5ecf9;
+	}
+	#kutu2 {
+	    float:right; 
+	    width: 50px; 
+	    height: 80px; 
+	    border: 2px solid #cd8a93; 
+	    background-color:#ffb4bf;
+	}
+
+	:::html
+	<div id="kutu1">
+	  <div id="kutu2">Donec id ultricies mi.</div>
+	  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	 </div>
 
 
 Örnke kodu görmek için [tıklayınız.][7]
@@ -268,11 +407,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
 Birinci kutu içerisinde sağa hizalanmış ikinci kutuyu sağa doğru birinci
 kutu dışarısına çıkararak bir çok uygulamada işimizie yaracaktır.
 
-[sourcecode language="css" highlight="14"] #kutu1 { float:left; width:
-200px; height: 100px; border: 2px solid #659ad8;
-background-color:#e5ecf9; } #kutu2 { float:right; width: 80px; height:
-80px; border: 2px solid #cd8a93; background-color:#ffb4bf; margin:10px
--50px 0 0 } * html #kutu2{ position:relative; } 
+	:::css
+	#kutu1 {
+	    float:left; 
+	    width: 200px; 
+	    height: 100px; 
+	    border: 2px solid #659ad8; 
+	    background-color:#e5ecf9;
+	}
+	#kutu2 {
+	    float:right; 
+	    width: 80px; 
+	    height: 80px; 
+	    border: 2px solid #cd8a93; 
+	    background-color:#ffb4bf; 
+	    margin:10px -50px 0 0 
+	}
+	* html #kutu2{ 
+	    position:relative; 
+	}
 
 Örnke kodu görmek için [tıklayınız.][8]
 
@@ -283,14 +436,22 @@ Bir başka uygulama şeklide
 Bir içerik ve başlığı normal şekilde normal akış içerisinde iken
 
 	:::css
-	 #kutu1 { float:left; border: 2px solid
-#659ad8; background-color:#e5ecf9; padding:0 20px } #kutu1 h2{
-border: 2px solid #cd8a93; background-color:#ffb4bf; } 
+	#kutu1 {
+	    float:left; 
+	    border: 2px solid #659ad8; 
+	    background-color:#e5ecf9; 
+	    padding:0 20px
+	}
+	#kutu1 h2{
+	    border: 2px solid #cd8a93; 
+	    background-color:#ffb4bf;
+	}
+	
 	:::html
-	 <div id="kutu1"> <h2>Donec id ultricies
-mi.</h2> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Morbi porttitor vehicula nisl, et tincidunt sapien venenatis quis. ..
-felis.</p> </div> 
+	<div id="kutu1">
+	    <h2>Donec id ultricies mi.</h2>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor vehicula nisl, et tincidunt sapien venenatis quis. .. felis.</p>
+	</div> 
 
 Örnke kodu görmek için [tıklayınız.][9]
 
@@ -299,8 +460,12 @@ felis.</p> </div>
 Ancak buradaki başlığı kutu dışına alarak farklı bir görünüm elde
 edebiliriz.
 
-[sourcecode language="css" highlight="4"] #kutu1 h2{ border: 2px solid
-#cd8a93; background-color:#ffb4bf; margin-top:-20px } 
+	:::css
+	#kutu1 h2{
+	    border: 2px solid #cd8a93; 
+	    background-color:#ffb4bf; 
+	    margin-top:-20px
+	}
 
 Örnke kodu görmek için [tıklayınız.][10]
 
@@ -309,8 +474,10 @@ edebiliriz.
 ve tabi ie 6 için
 
 	:::css
-	 * html #kutu1 h2{ position:relative;
-height:1px } 
+	* html #kutu1 h2{ 
+		position:relative;
+		height:1px 
+	} 
 
 **Eksi Margin Uygulamaları**
 
@@ -349,8 +516,6 @@ uygulamamızda eksi margin'i kullanmaya devam edeceğiz.
     (negatif margin ile sayfa yapısı oluşturma)  
 -   [http://haslayout.net/css/Negative-Margin-Bug][] (negatif margin
     sorunları)
-
-</p>
 
   [tıklayınız.]: /dokumanlar/sabit_konumlu.html
   [sabit_konumlu_kutu]: /images/sabit_konumlu_kutu.gif

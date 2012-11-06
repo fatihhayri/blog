@@ -22,22 +22,30 @@ düzeldi. Utf-8 ile kaydedince Türkçe karakterler bozuldu ancak tekrar
 yazıp kaydedince bir sorun olmadı.
 
 	:::html
-	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
-1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
-xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
-http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title> <style type="text/css"> @import
-url("stil.css"); </style> </head> <body> <p class="deneme1
-deneme2">Fatih Hayrioğlu burada yorum yazmış sanane ie6, sen niye sorun
-yapıyorsun ki bu olayı.</p> </body> </html> 
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Untitled Document</title>
+	<style type="text/css">
+	@import url("stil.css");
+	</style>
+	</head>
+	<body>
+	<p class="deneme1 deneme2">Fatih Hayrioğlu burada yorum yazmış sanane ie6, sen niye sorun yapıyorsun ki bu olayı.</p>
+	</body>
+	</html>
 
 Bir paragraf yazı yazdık. Daha sonra
 
 	:::css
-	 .deneme1{ font:12px Arial, Helvetica,
-sans-serif} /*Türkçe katakter içermeyecek miş*/ .deneme2{ color:#f00}
-
+	.deneme1{ 
+		font:12px Arial, Helvetica, sans-serif
+	}
+	/*Türkçe katakter içermeyecek miş*/
+	.deneme2{ 
+		color:#f00
+	}
 
 Css dosyasının içine yukarıdaki kodları yazdım. CSS dosyasını eğer ANSI
 formatında kayıtlı ise ie6 css kodlarımı görmüyor.
@@ -60,13 +68,8 @@ olursa sorun oluyor.
 
 Not: Karakter kodu değişiklikleri için NotePad++ kullandım.
 
-</p>
-
   [FirendFeed]: http://ff.im/af0XB
   [Burak Dönertaş]: http://ff.im/86KsI
   [ansi_ff]: /images/ansi_ff.gif
-    "ansi_ff"
   [ansi_ie6]: /images/ansi_ie6.gif
-    "ansi_ie6"
   [utf8_ie6]: /images/utf8_ie6.gif
-    "utf8_ie6"

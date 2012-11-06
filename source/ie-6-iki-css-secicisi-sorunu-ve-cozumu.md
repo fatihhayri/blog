@@ -21,12 +21,19 @@ Bir bölümü olmayan sayfalarda ana resmimi görünecek bölümü olan
 sayfalarda ise ilgili resim görünecekti. 
 
 	:::css
-	 #tanitimAlani{ background:transparent
-url(../images/genel.jpg) no-repeat scroll center top; text-align:center;
-width:100%; } #tanitimAlani.bolumA { background:transparent
-url(../images/bolumA.jpg) no-repeat scroll center top; }
-#tanitimAlani.bolumB { background:transparent url(../images/bolumB.jpg)
-no-repeat scroll center top; } 
+	#tanitimAlani{
+	    background:transparent url(../images/genel.jpg) no-repeat scroll center top;
+	    text-align:center;
+	    width:100%;
+	}
+
+	#tanitimAlani.bolumA {
+		background:transparent url(../images/bolumA.jpg) no-repeat scroll center top;
+	}
+
+	#tanitimAlani.bolumB {
+		background:transparent url(../images/bolumB.jpg) no-repeat scroll center top;
+	} 
 
 Tanımı ile yapıyordum. Bu düşüncem tüm tarayıcılarda sorunsuz çalışırken
 ie6 sorun çıkardı. İlk atanan genel resmini gösterdi sadece, bölüm
@@ -39,12 +46,22 @@ sınıf(.bolumGenel) tanımladım ve bu sorunu aştım. Yani kodumu şöyle
 değiştirdim.
 
 	:::css
-	 #tanitimalani{ text-align:center;
-width:100%; } .bolumA { background:transparent url(../images/bolumA.jpg)
-no-repeat scroll center top; } .bolumB { background:transparent
-url(../images/bolumB.jpg) no-repeat scroll center top; } .bolumGenel {
-background:transparent url(../images/genel.jpg) no-repeat scroll center
-top; } 
+	#tanitimalani{
+	    text-align:center;
+	    width:100%;
+	}
+
+	.bolumA {
+		background:transparent url(../images/bolumA.jpg) no-repeat scroll center top;
+	}
+
+	.bolumB {
+		background:transparent url(../images/bolumB.jpg) no-repeat scroll center top;
+	}
+
+	.bolumGenel {
+		background:transparent url(../images/genel.jpg) no-repeat scroll center top;
+	}
 
 hribar.info'nun yaptığı örnek güzel inceleyin.
 
@@ -57,8 +74,6 @@ hribar.info'nun yaptığı örnek güzel inceleyin.
 -   [http://hribar.info/en/archive/80/entrie.html][]
 -   [http://www.ryanbrill.com/archives/multiple-classes-in-ie/][]
 -   [http://sonspring.com/journal/ie6-multi-class-bug][]
-
-</p>
 
   [http://hribar.info/static/projects/multi-class_ie6_bug/error.html]: http://hribar.info/static/projects/multi-class_ie6_bug/error.html
   [http://paulirish.com/2008/the-two-css-selector-bugs-in-ie6/]: http://paulirish.com/2008/the-two-css-selector-bugs-in-ie6/

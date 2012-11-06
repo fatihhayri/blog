@@ -9,13 +9,10 @@ Geçen seneyi değerlendirirsem. Genel manada pek verimli bir sene olmadı.
 **Ocak** 
 
 -   [Kuleli 1919 – Şeref Tipi][] Senenin ilk yazısı bir hatıra kitabı.
--   [sIFR, Flash Player10 ve Firefox sorunu][] Sorunlarla daha ilk
-    günlerden boğuşmaya başlamışız.
--   [Operasyon Ergenekon – Şamil Tayyar][] Şimdi anlıyorum ki eskiden
-    daha çok kitap okuyormuşum.
--   [WordPress 2.7′ye geçtikten sonraki sorunlarım – 1][] En çok sorun
-    yaşadığım sürümlerden birisi idi 2.7
--   [Windows Vista / Windows Defender Güncellemesindeki Sorunu ve     Çözümü][] 2009 sorunlarla başlamış, orası kesin.
+-   [sIFR, Flash Player10 ve Firefox sorunu][] Sorunlarla daha ilk günlerden boğuşmaya başlamışız.
+-   [Operasyon Ergenekon – Şamil Tayyar][] Şimdi anlıyorum ki eskiden daha çok kitap okuyormuşum.
+-   [WordPress 2.7′ye geçtikten sonraki sorunlarım – 1][] En çok sorun yaşadığım sürümlerden birisi idi 2.7
+-   [Windows Vista / Windows Defender Güncellemesindeki Sorunu ve Çözümü][] 2009 sorunlarla başlamış, orası kesin.
 
 **Şubat **
 
@@ -24,7 +21,7 @@ Geçen seneyi değerlendirirsem. Genel manada pek verimli bir sene olmadı.
 -   [Float Uygulanmış Elementleri Tam Kapsayamama Sorunu İpuçları][] Bir
     çok projede defalarca karşılaştığımız float uygulanmış nesnelerin
     kapsayamama sorunu için ipuçları.
--   [CSS İpucu 18: Optimizasyon İçin CSS Medya Dosyalarını     Birleştirmek][] Daha önceleri projemizde farklı bölümler için farklı
+-   [CSS İpucu 18: Optimizasyon İçin CSS Medya Dosyalarını Birleştirmek][] Daha önceleri projemizde farklı bölümler için farklı
     css dosyaları kullanmayı önerir iken sonradan fazla dosya çağırmanın
     optimizasyon bakımından dezavantajlı olduğunu öğrendik.
 -   [CSS İpucu 19: Tüm Tarayıcılar İçin CSS İle Saydamlık(Opacity)][]
@@ -102,7 +99,7 @@ Geçen seneyi değerlendirirsem. Genel manada pek verimli bir sene olmadı.
     Ama yinede kalbimizdesin FireBug
 -   [CSS İpucu 22: iPhone için CSS Yazmak][] iPhone için web siteleri
     yaptık ama sonrasında biraz durağanlaştık.
--   [Safari ve Chrome'da metin girdi(textbox) alanlarını kenar çizgileri     kaldıralım][] outline üzerine bir çok yazı yazmışız. Farklı tasarım
+-   [Safari ve Chrome'da metin girdi(textbox) alanlarını kenar çizgileri kaldıralım][] outline üzerine bir çok yazı yazmışız. Farklı tasarım
     uygulandığında kötü sonuçlar doğuruyor.
 
 **Ağustos**
@@ -114,13 +111,13 @@ Geçen seneyi değerlendirirsem. Genel manada pek verimli bir sene olmadı.
 
 **Eylül**
 
--   [VMware Kurarken “Setup failed to write data to the registry” hatası     aldım][] Farklı yerlede ama yine sorunlar konumuz.
+-   [VMware Kurarken “Setup failed to write data to the registry” hatası aldım][] Farklı yerlede ama yine sorunlar konumuz.
 
 **Ekim**
 
 -   [İE 6 iki CSS seçicisi Sorunu ve Çözümü][] ie6 ve sorun. ie6'dan
     bana çok ekmek çıkmış. Ama olmasa daha çok sevinirim.
--   [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi     atamak][] sorunlar, sorunlar, sorunlar = ie
+-   [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi atamak][] sorunlar, sorunlar, sorunlar = ie
 -   [Jquery ipuçları][] jquery çalışma hayatımı çok fazla etkilesede
     makalelerime fazla konu olamadığı kesin. 2010'da daha fazla
     değinmeye çalışacağım.
@@ -137,7 +134,7 @@ Geçen seneyi değerlendirirsem. Genel manada pek verimli bir sene olmadı.
 -   [Eksi Margin Kullanımı][] Çok eski süredir bekleyen bir makale
     konusu idi. Önemli bir konu anlaşılması ve derinlemesine bilinmesi
     gereken.
--   [CSS Yorumlarında Türkçe Karakter Kullandığımızda İE6′da Sorun     Çıkarıyor][] Sosyal medyanın etkilerini yavaş yavaş hissettiğim bu
+-   [CSS Yorumlarında Türkçe Karakter Kullandığımızda İE6′da Sorun Çıkarıyor][] Sosyal medyanın etkilerini yavaş yavaş hissettiğim bu
     senede friendfeed'de boy göstermeye ve geri dönüşlerden makale
     çıkarmaya başladım. İkinci makalem.
 
@@ -148,8 +145,6 @@ Geçen seneyi değerlendirirsem. Genel manada pek verimli bir sene olmadı.
 -   [PSD'den HTML'e – fanatikmarslar.com Sitesinin Kodlaması][] 2
     senelik bir isteğin sonucunda sene sonunda anca çıkarabildim. Devamı
     2010'da gelecek.
-
-</p>
 
   [Kuleli 1919 – Şeref Tipi]: http://www.fatihhayrioglu.com/kuleli-1919-seref-tipi/
     "Kuleli 1919 – Şeref Tipi"
@@ -215,15 +210,15 @@ Geçen seneyi değerlendirirsem. Genel manada pek verimli bir sene olmadı.
     "FireBug 1.4 sürümü çıktı"
   [CSS İpucu 22: iPhone için CSS Yazmak]: http://www.fatihhayrioglu.com/css-ipucu-22-iphone-icin-css-yazmak/
     "CSS İpucu 22: iPhone için CSS Yazmak"
-  [Safari ve Chrome'da metin girdi(textbox) alanlarını kenar çizgileri   kaldıralım]: http://www.fatihhayrioglu.com/safari-ve-chromeda-metin-girditextbox-alanlarini-kenar-cizgileri-kaldiralim/
+  [Safari ve Chrome'da metin girdi(textbox) alanlarını kenar çizgileri kaldıralım]: http://www.fatihhayrioglu.com/safari-ve-chromeda-metin-girditextbox-alanlarini-kenar-cizgileri-kaldiralim/
     "Safari ve Chrome'da metin girdi(textbox) alanlarını kenar çizgileri kaldıralım"
   [iframe virüsü ve Saldırgan Site damgalamasından kurtulmanın yolu]: http://www.fatihhayrioglu.com/iframe-virusu-ve-saldirgan-site-damgalamasindan-kurtulmanin-yolu/
     "iframe virüsü ve Saldırgan Site damgalamasından kurtulmanın yolu"
-  [VMware Kurarken “Setup failed to write data to the registry” hatası   aldım]: http://www.fatihhayrioglu.com/vmware-kurarken-setup-failed-to-write-data-to-the-registry-hatasi-aldimi/
+  [VMware Kurarken “Setup failed to write data to the registry” hatası aldım]: http://www.fatihhayrioglu.com/vmware-kurarken-setup-failed-to-write-data-to-the-registry-hatasi-aldimi/
     "VMware Kurarken “Setup failed to write data to the registry” hatası aldım"
   [İE 6 iki CSS seçicisi Sorunu ve Çözümü]: http://www.fatihhayrioglu.com/ie-6-iki-css-secicisi-sorunu-ve-cozumu/
     "İE 6 iki CSS seçicisi Sorunu ve Çözümü"
-  [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi   atamak]: http://www.fatihhayrioglu.com/internet-explorer-6-ve-7-icin-tablo-tr-elementine-kenar-cizgisi-atamak/
+  [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi atamak]: http://www.fatihhayrioglu.com/internet-explorer-6-ve-7-icin-tablo-tr-elementine-kenar-cizgisi-atamak/
     "İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi atamak"
   [Jquery ipuçları]: http://www.fatihhayrioglu.com/jquery-ipuclari/
     "Jquery ipuçları"
@@ -233,7 +228,7 @@ Geçen seneyi değerlendirirsem. Genel manada pek verimli bir sene olmadı.
     "Arayüz Geliştiricilerin Görev Tanımı"
   [Eksi Margin Kullanımı]: http://www.fatihhayrioglu.com/eksi-margin-kullanimi/
     "Eksi Margin Kullanımı"
-  [CSS Yorumlarında Türkçe Karakter Kullandığımızda İE6′da Sorun   Çıkarıyor]: http://www.fatihhayrioglu.com/css-yorumlarinda-turkce-karakter-kullandigimizda-ie6da-sorun-cikariyor/
+  [CSS Yorumlarında Türkçe Karakter Kullandığımızda İE6′da Sorun Çıkarıyor]: http://www.fatihhayrioglu.com/css-yorumlarinda-turkce-karakter-kullandigimizda-ie6da-sorun-cikariyor/
     "CSS Yorumlarında Türkçe Karakter Kullandığımızda İE6′da Sorun Çıkarıyor"
   [IE6'da Liste Ardalan Görmeme Sorunu]: http://www.fatihhayrioglu.com/ie6da-liste-ardalan-gormeme-sorunu/
     "IE6'da Liste Ardalan Görmeme Sorunu"
