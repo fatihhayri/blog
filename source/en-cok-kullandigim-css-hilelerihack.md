@@ -32,17 +32,29 @@ Kutu genişliği tanımlanmışsa ve padding veya kenar çizgiside
 tanımladığımızda uygulanan bu yöntem için yazdığımız kod aşağıdadır
 
 	:::css
-	#icerik{ width:230px; padding:10px;
-margin:5px; /* Bundan sonraki kısmı ie5win sakla */ voice-family:
-""}""; voice-family:inherit; width:200px; } html>body #icerik {
-width:200px; }
+	#icerik{ 
+	width:230px; 
+	padding:10px; 
+	margin:5px; /* Bundan sonraki kısmı ie5win sakla */ 
+	voice-family: "\"}\""; 
+	voice-family:inherit; 
+	width:200px; 
+	} 
+	html>body #icerik { 
+	width:200px; 
+	}
 
 Sorun olan kodumuza biz sadece
 
 	:::css
-	voice-family: ""}"";
-voice-family:inherit; width:200px; } html>body #icerik { width:200px;
-} 
+		voice-family: "\"}\""; 
+		voice-family:inherit; 
+		width:200px; 
+	} 
+	html>body #icerik { 
+		width:200px; 
+	}
+	
 
 Bölümünü uygulamamız yeterlidir. Daha sonra eğer genişlik ise genişliği
 yükseklik ise yüksekliği ayarlamamız gerekir. Daha sonra **html>body
@@ -61,11 +73,21 @@ element içeriğine göre genişlememesidir.
 Kodumuz;
 
 	:::css
-	.kapsul:after { content: "."; display: block;
-height: 0; clear: both; visibility: hidden; } .kapsul {display:
-inline-block;} /* IE-mac de bu bolumu sakla  */ * html .kapsul
-{height: 1%;} .kapsul {display: block;} /* IE-mac bu bolumu saklam
-artik */ 
+	.kapsul:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	} 
+
+	.kapsul {display: inline-block;} 
+
+	/* IE-mac de bu bolumu sakla \ */ 
+	* html .kapsul {height: 1%;} 
+
+	.kapsul {display: block;} 
+	/* IE-mac bu bolumu saklam artik */
 
   
 Bu kodda **.kapsul** yerine kendi nesne ismimizi yazmamız yeterlidir.
@@ -90,8 +112,9 @@ Son zamanlarda gelen işlerde çok rastlamam nedeni ile bu listeye son
 anda ilave ettim. IE6'nın desteklemediği min-height özelliği için
 
 	:::css
-	min-height:500px; height:auto !important;
-height:500px;
+	min-height:500px;
+	height:auto !important;
+	height:500px;
 
 yazmamız yeterli.
 
@@ -126,8 +149,6 @@ Hemen bu pencereden ilgili başlığa çift tıklayarak kodumuzun içine
 ekleyebiliriz.
 
 ![Dreamweaver Sineppet Penceresi][4]
-
-</p>
 
   [Kutu modeli sorunları ve çözüm önerilerinde]: http://www.fatihhayrioglu.com/kutu-modeli-sorunlari-ve-cozumleri
     "Kutu modeli sorunları ve çözüm önerilerinde"

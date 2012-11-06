@@ -23,15 +23,23 @@ göstermek için koydum, normal resimde bu olmayacak)
 Xhtml kodumuzu yazalım
 
 	:::html
-	[Ana Sayfaya Dön][]
+	<a class="anasayfayaDon" href="anasayfa.htm">Ana Sayfaya Dön</a>
 
 CSS kodumuzu yazalım
 
 	:::css
-	a.anasayfayaDon { display: block; width:
-80px; height: 80px; background: url(images/degisen_resim.gif) 0 0
-no-repeat; text-decoration: none; text-indent:-999px; }
-a:hover.anasayfayaDon { background-position: -80px 0; }
+	a.anasayfayaDon {
+	    display: block;
+	    width: 80px;
+	    height: 80px;
+	    background: url(images/degisen_resim.gif) 0 0 no-repeat;
+	    text-decoration: none;
+	    text-indent:-999px;
+	}
+
+	a:hover.anasayfayaDon {
+	    background-position: -80px 0;
+	}
 
 Yöntemi daha önce anlattığımız gibi ardalan kaydırmaca yöntemidir.
 Hazırladığımız ardalan resminin ilk olarak istediğimiz kısmını
@@ -39,8 +47,6 @@ gösteriyoruz. Fare imleci üzerine geldiğinde ise yatayda aynı eksende
 bulunan başlangıçta görünmeyen resmi eksi konum vererek gösteriyoruz.
 
 Örnek sayfayı görmek için [tıklayınız][]
-
-</p>
 
   [Resimli Menüler]: http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler
     "Resimli Menüler"

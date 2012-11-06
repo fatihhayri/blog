@@ -1,5 +1,5 @@
 Title: Tüm tarayıcılar için CSS Düzeltmeleri(Hack)
-Slug: tum-tarayicilar-icin-css-ile-saydamlik-opacity
+Slug: tum-tarayicilar-icin-css-duzeltmelerihack
 Date: 2008-12-03 00:25
 Category: CSS, XHTML
 Tags: CSS, css düzeltmeleri, düzeltme, hack, ipucu, kod-gizlemek
@@ -47,8 +47,7 @@ IE 6 ve altı
 IE 7 ve altı
 
 	:::css
-	*:first-child+html {} * html
-{}
+	*:first-child+html {} * html{}
 
 sadece IE 7 için
 
@@ -68,8 +67,11 @@ Yalnız yeni nesil tarayıcılar için (IE 7 dışında)
 sadece IE 8 için
 
 	:::css
-	.test { property:value; property: value9;
-*property: value; }
+	.test { 
+		property:value; 
+		property: value9;
+		*property: value; 
+	}
 
 Opera 9 ve altı sürümler için
 
@@ -79,8 +81,7 @@ Opera 9 ve altı sürümler için
 Safari
 
 	:::css
-	html[xmlns*=""] body:last-child
-{}
+	html[xmlns*=""] body:last-child{}
 
 Google Chrome and Safari 3.1
 
@@ -95,20 +96,20 @@ Firefox 2
 FireFox 3
 
 	:::css
-	.foo, x:-moz-any-link, x:default {
-}
+	.foo, x:-moz-any-link, x:default {}
 
 Firefox 2 ve 3 için yazdığımız kodu ie 7 de yorumluyor bunu engellemek
 için (Sonradan eklenmiştir.)
 
 	:::css
-	 .foo, x:-moz-any-link { } .foo,
-x:-moz-any-link, x:default { } *:first-child+html .foo{}/*ie7 icin
-normali yazin*/ 
+	.foo, x:-moz-any-link { } 
+	.foo, x:-moz-any-link, x:default { } 
+	*:first-child+html .foo{}/*ie7 icin normali yazin*/ 
 
-Sadece Firefox 3 	:::css
-	html>;/**/body .foo,
-x:-moz-any-link, x:default { }
+Sadece Firefox 3 	
+
+	:::css
+	html>;/**/body .foo, x:-moz-any-link, x:default { }
 
 Burada önemli olan her tarayıcı farklı görünümünde bu metoda başvurmamak
 gerekir, çözümü olmayan sorunlarla karşılaştığımızda bu kodları
@@ -119,24 +120,46 @@ oluyor. Ama nadirende olsa diğer tarayıcıların düzeltmeleride lazım
 oluyor. Bir örnek yapalım
 
 	:::css
-	 /* Firefox 1 */ .ozelSecici,
-x:-moz-any-link { background-color:#ffd560; } /* Firefox 2 */
-.ozelSecici, x:-moz-any-link { background-color:#ab1b0b; } /* Firefox
-3 */ .ozelSecici, x:-moz-any-link, x:default {
-background-color:#e6831f; } /* Google Chrome and Safari 3.1 */
-body:nth-of-type(1) .ozelSecici{ background-color:#e6f0fa; } /* Opera
-9 ve altı */ html:first-child .ozelSecici{ background-color:#a91614; }
-/* ie7 icin */ *:first-child+html .ozelSecici{
-background-color:#0098de; } /* ie 7 ve alt sürümler icin */
-*:first-child+html .ozelSecici{ background-color:#d4d0c8; } * html
-.ozelSecici{ background-color:#d4d0c8; } /* ie6 ve alti */ * html
-.ozelSecici{ background-color:#996666; }
+	/* Firefox 1 */
+	.ozelSecici, x:-moz-any-link {
+	    background-color:#ffd560;
+	}
+	/* Firefox 2 */
+	.ozelSecici, x:-moz-any-link {
+	    background-color:#ab1b0b;
+	}
+	/* Firefox 3 */
+	.ozelSecici, x:-moz-any-link, x:default {
+	    background-color:#e6831f;
+	}
+	/* Google Chrome and Safari 3.1 */
+	body:nth-of-type(1) .ozelSecici{
+	   background-color:#e6f0fa;
+	}
+	/* Opera 9 ve altı */
+	html:first-child .ozelSecici{
+	    background-color:#a91614;
+	}
+	/* ie7 icin */
+	*:first-child+html .ozelSecici{
+	    background-color:#0098de;
+	}
+	/* ie 7 ve alt sürümler icin */
+	*:first-child+html .ozelSecici{
+	    background-color:#d4d0c8;
+	}
+	* html .ozelSecici{
+	    background-color:#d4d0c8;
+	}
+	/* ie6 ve alti */
+	* html .ozelSecici{
+	    background-color:#996666;
+	}
 
 HTML kodu
 
 	:::html
-	<p
-class="ozelSecici">Tarayıcı</p>
+	<p class="ozelSecici">Tarayıcı</p>
 
 Örneği görmek için [tıklayınız.][]
 

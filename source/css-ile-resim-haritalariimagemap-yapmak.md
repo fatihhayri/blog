@@ -34,11 +34,10 @@ kaldırada biliriz.
 HTML kodumuzu yazalım
 
 	:::html
-	
-
--   [<span class="dis"><span class="ic"><span class="bilgi">Dexter</span></span></span>][]
--   [<span class="dis"><span class="ic"><span class="bilgi">HTML     4</span></span></span>][]
-
+	<ul id="foto"> 
+	<li class="dexter"><a href="http://www.sho.com/site/dexter/"><span class="dis"><span class="ic"><span class="bilgi">Dexter</span></span></span></a></li> 
+	<li class="html"><a href="http://www.w3.org/TR/REC-html40/"><span class="dis"><span class="ic"><span class="bilgi">HTML 4</span></span></span></a></li> 
+	</ul>
 
 
 CSS kodunu kademe kademe açıklayarak yazarsak;
@@ -51,17 +50,27 @@ class="dexter"> ve <li class="html">) mutlak konumlandırma ile
 tanımlayıp resmin üzerinde istediğimiz konuma yerleştiriyoruz.
 
 	:::css
-	 ul#foto{ width: 500px; height: 331px;
-position: relative; background: url(images/dexter.jpg) no-repeat;
-margin: 0; padding: 0; list-style: none; } 
+	ul#foto{ 
+		width: 500px; 
+		height: 331px;
+		position: relative;
+		background: url(images/dexter.jpg) no-repeat;
+		margin: 0; 
+		padding: 0; 
+		list-style: none; 
+	}
 
 Aşağıdaki kodda her bir haritalanacak nesne bir link olduğu için her
 birine tek tek atamaktansa genel bir tanım ile tüm linkleri mutlak
 konumlandırıyoruz ve kenar çizgisini tanımlıyoruz.
 
 	:::css
-	 ul#foto a { position: absolute; color:
-#000; text-decoration: none; border: 1px solid transparent; }
+	ul#foto a { 
+		position: absolute; 
+		color: #000; 
+		text-decoration: none; 
+		border: 1px solid transparent; 
+	}
 
 
 Her bir haritalanacak eleman için genişlik yüksek tanımını yapıyor ve
@@ -76,13 +85,31 @@ için  -webkit-border-radius: 3px; tanımlarını yaptık. Internet Explorer
 kullanıcıları için şimdilik bir çözüm yok.
 
 	:::css
-	 ul#foto .dexter a { width: 110px; height:
-175px; top: 25px; left: 60px; } ul#foto .html a { width: 50px; height:
-80px; top: 195px; left: 408px; } ul#foto a .bilgi { position: absolute;
-bottom: -25px; width: 100%; padding: 2px; background-color:#ffc;
-text-align: center; left: -30000px; font:11px Arial, Helvetica,
-sans-serif; margin-left: -60px; -moz-border-radius: 3px;
--webkit-border-radius: 3px; } 
+	ul#foto .dexter a { 
+		width: 110px; 
+		height: 175px;
+		top: 25px; 
+		left: 60px; 
+	}
+	ul#foto .html a { 
+		width: 50px; 
+		height: 80px;
+		top: 195px;
+		left: 408px; 
+	} 
+	ul#foto a .bilgi { 
+		position: absolute; 
+		bottom: -25px; 
+		width: 100%; 
+		padding: 2px; 
+		background-color:#ffc; 
+		text-align: center; 
+		left: -30000px; 
+		font:11px Arial, Helvetica, sans-serif; 
+		margin-left: -60px; 
+		-moz-border-radius: 3px; 
+		-webkit-border-radius: 3px;
+	} 
 
 Amacımız Flickr tipi bir resim haritası oluşturmak olduğu için, iki
 kenar çizgisi tanımı yapmak için iki adet <span> etiketi yazdık ve
@@ -93,11 +120,25 @@ yükseklerinin 2px daha düşük değerlerini vererek üst üste binmelerini
 etiketlerini kaldırabiliriz, daha sade bir görünüm olur.
 
 	:::css
-	 ul#foto a .dis, ul#foto a .ic { display:
-block; } ul#foto .dexter a .dis { width: 108px; height: 173px; }
-ul#foto .html a .dis { width: 48px; height: 78px; } ul#foto .dexter a
-.ic { width: 106px; height: 171px; } ul#foto .html a .ic { width: 46px;
-height: 76px; } 
+	ul#foto a .dis, ul#foto a .ic {
+	display: block;
+	} 
+	ul#foto .dexter a .dis { 
+	width: 108px; 
+	height: 173px; 
+	} 
+	ul#foto .html a .dis { 
+	width: 48px; 
+	height: 78px; 
+	}    
+	ul#foto .dexter a .ic { 
+	width: 106px; 
+	height: 171px; 
+	} 
+	ul#foto .html a .ic { 
+	width: 46px; 
+	height: 76px; 
+	}
 
 Fare haritalanan alanların üzerine gelince çıkacak bilgilendirme
 alanının yerini belirliyoruz. - 3000px ile görüntüden çıkardığımız bilgi
@@ -112,10 +153,15 @@ gelindiğinde kenar çizgi renklerini değiştirerek farklı bir görünüm
 kazandırıyoruz.
 
 	:::css
-	 ul#foto a:hover { border-color: #d4d82d; }
-ul#foto:hover a .dis, ul#foto a:hover .dis { border: 1px solid #000;
-} ul#foto:hover a .ic, ul#foto a:hover .ic { border: 1px solid #fff;
-} 
+	ul#foto a:hover { 
+		border-color: #d4d82d; 
+	} 
+	ul#foto:hover a .dis, ul#foto a:hover .dis { 
+		border: 1px solid #000; 
+	} 
+	ul#foto:hover a .ic, ul#foto a:hover .ic { 
+		border: 1px solid #fff; 
+	}
 
 Sonuçta görsel ve işlevsel olarak çok güzel bir uygulama elde ettik.
 Uygulanabileceği yerler kısıtlıda olsa, uygulandığın da güzel bir
@@ -134,8 +180,6 @@ avantaj sağlar.
 -   [http://www.marketingtechblog.com/2007/10/02/css-image-map/][]
 -   [http://www.frederikvig.com/temp.html][] 
 -   [http://www.cssplay.co.uk/menu/old_master.html][]
-
-</p>
 
   [Dexter HTML kesiyormuş.]: http://www.flickr.com/photos/mollyeh11/2720714668/
     "Dexter HTML kesiyormuş."

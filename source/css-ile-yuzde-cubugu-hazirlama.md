@@ -19,14 +19,17 @@ halledeceğiz. Anlamlı kodlama açısından avantajlıdır.
 Sayfamıza saydam bir resim ekleriz ve ardalan konumunu kod içinde
 belirleriz
 
-[sourcecode language="xhtml"]![%45][] 
+	:::html
+	<img src="/images/yuzde_cubugu.png" alt="%45" class="yuzdeCubugu" style="background-position: -50px 0;" /> 
 
 Sonrasında CSS kodumuzu yazarsak;
 
 	:::css
-	img.yuzdeCubugu { background:
-url(/images/yuzdeCubugu_ard.gif) top left no-repeat; padding: 0;
-margin: 0; } 
+	img.yuzdeCubugu { 
+		background: url(/images/yuzdeCubugu_ard.gif) top left no-repeat; 
+		padding: 0; 
+		margin: 0; 
+	}
 
 Kod kısmı bu kadar. Evet bu kadar kod ile yüzde çubuğunu oluşturduk.
 Kodun mantığını incelersek;
@@ -56,18 +59,11 @@ Resimlerimiz
 Xhtml kodumuzu yazalım.
 
 	:::html
-	
-
-Amerika Seçim Sonuçları
-=======================
-
-Obama (%56)
-
-![%56][]
-
-McCain (%44)
-
-![%44][%56] 
+	<h1>Amerika Seçim Sonuçları</h1> 
+	<p>Obama (%56)</p> 
+	<img src="yuzde_cubugu.gif" width="104" height="14" alt="%56" class="yuzde1" style="background-position: -42px 0;" /> 
+	<p>McCain (%44)</p> 
+	<img src="yuzde_cubugu.gif" width="104" height="14" alt="%44" class="yuzde2" style="background-position: -54px 0;" />
 
 Yüzde çubuğunun genişliğini 100px yaptım ki, ayarlaması kolay olsun.
 Resim genişliğinin 104px görünmesinin nedeni 2px sağdan ve 2px soldan
@@ -82,12 +78,28 @@ Aynı şekilde **McCain**'in yüzdesini de hesaplarsak. 100 - 44 - = -54px
 CSS kodumuz;
 
 	:::css
-	 h1{ font:18px Arial, Helvetica, sans-serif;
-color:#666; } p{ font:bold 12px Arial, Helvetica, sans-serif;
-margin-bottom:5px; color:#666; } img.yuzde1 {
-background:url(gosteri1.gif) 0 0 no-repeat; padding: 0; margin: 0; }
-img.yuzde2 { background:url(gosteri2.gif) 0 0 no-repeat; padding: 0;
-margin: 0; } 
+	h1{ 
+	    font:18px Arial, Helvetica, sans-serif; 
+	    color:#666; 
+	} 
+
+	p{ 
+	    font:bold 12px Arial, Helvetica, sans-serif; 
+	    margin-bottom:5px; 
+	    color:#666; 
+	} 
+
+	img.yuzde1 { 
+	 background:url(gosteri1.gif) 0 0 no-repeat; 
+	 padding: 0; 
+	 margin: 0; 
+	} 
+
+	img.yuzde2 { 
+	 background:url(gosteri2.gif) 0 0 no-repeat; 
+	 padding: 0; 
+	 margin: 0; 
+	}
 
 ![anket sonuç ekranı][]
 
@@ -104,8 +116,6 @@ test edilmiştir.
 -   [http://www.webappers.com/2007/07/31/webappers-simple-ajax-progress-bar-with-css/][]
 -   [http://mattberseth.com/blog/2008/07/jqueryui_progressbar_widget.html][]
 -   [http://www.dmry.net/css-ile-basit-bir-ilerleme-durum-cubugu-yapimi][]
-
-</p>
 
   [%45]: /images/yuzde_cubugu.png
   [http://www.webappers.com/progressBar/]: http://www.webappers.com/progressBar/

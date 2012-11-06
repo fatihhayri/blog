@@ -146,12 +146,10 @@ göreceğiz.
 -   [http://alternateidea.com/blog/articles/2006/05/12/an-in-depth-look-at-the-future-of-javascript-debugging-with-firebug][]
 -   [http://groups.google.com/group/firebug][]
 -   [http://www.seifi.org/javascript/firebug_tips_and_tricks.html][]
--   [http://www.webdeneyimleri.com/firebug-firefox-eklentisi/][Volkan     Görgülü'nün video anlatımı]  
+-   [http://www.webdeneyimleri.com/firebug-firefox-eklentisi/][Volkan Görgülü'nün video anlatımı]  
 -   [http://www.bildirgec.org/yazi/firebug-web-gelistirimi-gelistirildi][]  
 -   [http://www.burcudogan.com/firebug-ve-hata-ayiklama-sanati-83.html][]  
 -   [http://code.google.com/p/fbug/source/browse/branches/firebug1.1/locale/tr-TR/firebug.dtd?r=350][]
-
-</p>
 
   [Volkan Görgülü'nün video anlatımı]: http://www.webdeneyimleri.com/firebug-firefox-eklentisi/
   [Michael Sync]: http://michaelsync.net/

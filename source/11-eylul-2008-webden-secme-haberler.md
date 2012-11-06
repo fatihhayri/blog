@@ -17,7 +17,7 @@ Tags: CSS ön eki, css3.0, Google Chrome, ie, jquery, Konumlandırma, menü, upl
 -   CSS sıfırlama teknikleri hakkında güzel bir makale. [Bağlantı][6]
 -   Google Chrome'dan beklenen 10 şey. [Bağlantı][7]
 -   Web kod yazarları için 20 Firefox eklentisi. [Bağlantı][8]
--   Güzel <hr> örnekleri. [Bağlantı][9]
+-   Güzel <hr\> örnekleri. [Bağlantı][9]
 -   Neden Webkit yükselirken Mozilla düşüşe geçti. [Bağlantı][10]
 -   CSS 3.0 çalışmalarını sürdüren grup kenarlık(border) ve
     ardalan(background) üzerine son çalışmalarını tamamlamış.
@@ -28,8 +28,6 @@ Tags: CSS ön eki, css3.0, Google Chrome, ie, jquery, Konumlandırma, menü, upl
 -   Wordpress Temanızdan Silebileceğiniz 13 Etiket - alemsite.com geçen
     haberlerde bahsettiğim konuyu Selman Kara Türkçeye çevirmiş.
     [Bağlantı][14]
-
-</p>
 
   [Bağlantı]: http://swedishfika.com/2008/03/04/creating-a-fading-header/
     "jquery"

@@ -57,10 +57,10 @@ Mac ve Windows kullanıcıları için eklenen bu özelikle Linux için Firefox
 Beni en çok sevindiren özelliği bu oldu açıkçası.
 
 	:::css
-	 @font-face { font-family: "Bitstream Vera
-Serif Bold"; src:
-url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
-} 
+	@font-face { 
+		font-family: "Bitstream Vera Serif Bold"; 
+		src: url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
+	} 
 
 ![][]
 
@@ -84,7 +84,7 @@ diyebiliriz.
 ^ işareti ile geçmişte gezdiğimiz sayfalarda arama yapabiliyoruz.  
 * işareti ile favorimize eklediğimiz sitelerde arama yapabiliyoruz  
 + işareti ile eklediğimiz etiketlerde arama yapabiliyoruz.  
-# işareti hem başlıkta hemde etiketde arama yapmak için kullanıyor.  
+\# işareti hem başlıkta hemde etiketde arama yapmak için kullanıyor.  
 
 ## Yeni Javascript Motoru - TraceMonkey
 
@@ -157,8 +157,6 @@ getirilecek.
 -   [http://www.informationweek.com/galleries/showImage.jhtml?galleryID=263&articleID=211201744][]
 -   [http://www.pclabs.com.tr/2008/05/23/mozilla-firefox-31-bu-sene-sonunda-cikiyor/][]
 
-</p>
-
   [geleceğin tarayıcıları hakkındaki düşüncelerinden]: http://labs.mozilla.com/projects/concept-series/
     "Geleceğin konsept tarayıcıları"
   [Buradan]: https://people.mozilla.com/%7Edolske/dist/geode/geode-latest.xpi
@@ -167,10 +165,8 @@ getirilecek.
     "W3C Geolocation specification"
   []: /images/font_face-300x78.gif
     "font-face"
-  
   [1]: /images/firefox31_adres_bar-300x61.gif
     "Adres Bar"
-  
   [http://developer.mozilla.org/web-tech/2008/10/14/firefox-31-beta-1-an-overview-of-features-for-web-developers/]: http://developer.mozilla.org/web-tech/2008/10/14/firefox-31-beta-1-an-overview-of-features-for-web-developers/
   [http://www.siberkultur.com/?q=firefox-3-1]: http://www.siberkultur.com/?q=firefox-3-1
   [http://mehmetergin.blogspot.com/2008/10/firefox-geolocation-api-specification.html]: http://mehmetergin.blogspot.com/2008/10/firefox-geolocation-api-specification.html

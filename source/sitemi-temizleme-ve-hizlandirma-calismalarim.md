@@ -24,8 +24,6 @@ hissetmedim.
 -   [http://blog.wolkanca.com/wordpress-25-ve-wp-super-cache/][]
 -   [http://blog.wolkanca.com/wordpress-js-ve-css-onbellek-eklentileri/][]
 
-</p>
-
   [wp-Cache]: http://wordpress.org/extend/plugins/wp-cache/
   [bahsedilen]: http://www.dmry.net/wordpress-blogunuzdaki-gereksiz-ayar-verilerini-silin
   [Wordpress Temanızdan Silebileceğiniz 13 Etiket]: http://selmankara.com/wordpress-temanizdan-silebileceginiz-13-etiket.html

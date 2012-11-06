@@ -20,32 +20,34 @@ Benim gördüğüm tek sorun kısayol background tanımında tanımlanan
 renkerler gelmiyor. Sayfa yenileme ve 5-10 saniye geçtikten sonra
 geliyor.
 
-1.  background:#f00 url(../images/ardalan.gif) top left repaet-x;
+	:::cs
+	background:#f00 url(../images/ardalan.gif) top left repaet-x; 
 
 ardalan rengi olan #f00 gelmiyor.
 
 CSS filtrelemesi olarak Safari için kullanılan filtreleme
 kullanılabilir.
 
-1.  <html>
-2.  <head>
-3.  <style>
-4.  body:nth-of-type(1) p{
-5.     color: #ff0000; // sadece safari ve chrome görecek
-6.  }
-7.  </style>
-8.  </html>
-9.  <body>
-10. <p>deneme olarak bunu yazıyorum</p>
-11. </body>
-12. </html>
+	:::html	
+    <html>
+    <head>
+    <style>
+    body:nth-of-type(1) p{
+       color: #ff0000; // sadece safari ve chrome görecek
+    }
+    </style>
+    </html>
+    <body>
+    <p>deneme olarak bunu yazıyorum</p>
+    </body>
+    </html>
+
 
 Javascript ile yakalamak içinde 
 
-1.  var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome')
-    > -1;
+	:::javascript
+	var is_chrome = navigator.userAgent.toLowerCase().indexOf(‘chrome’) > -1;
 
-</p>
 yeterli oluyor. Ayrıca javascript hata yakalama konsolu
 için [http://www1.qainsight.net:8080/2008/09/04/How+To+View+JavaScript+Errors+In+Google+Chrome.aspx][]siteyi
 incelmenizi öneririm.
@@ -73,9 +75,7 @@ geçerken [Acid 3][] testinden de mevcut tarayıcıların en yüksek puanı
 olan 79 alması ve standartlar uyması çok güzel bir gelişme. Böyle
 tarayıcının başımızın üstünde yeri var deriz.
 
-<!--more-->
-
-#### Kaynaklar
+### Kaynaklar
 
 Türkçe kaynak
 
@@ -132,8 +132,6 @@ javascript motoru 
 -   [http://arstechnica.com/journals/linux.ars/2008/09/03/new-firefox-javascript-engine-is-faster-than-chromes-v8][]
 -   [http://prosenjit23.wordpress.com/2008/09/03/google-chrome-mozilla-firefox-microsoft-ie-sunspider-javascript-performance-test-results/][]
 -   [http://blogs.zoho.com/uncategorized/firefox-31-google-chrome-javascript-wins-flashsilverlight-lose/][]
-
-</p>
 
   []: /images/chrome_438x359-300x245.jpg
     "Google Chrome"
