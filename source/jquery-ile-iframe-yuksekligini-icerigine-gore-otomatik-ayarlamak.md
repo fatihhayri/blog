@@ -28,22 +28,18 @@ Sayfamıza ilk olarak jQuery kütüphanesini eklemeliyiz. Bu script
 dosyasının ilk sırada olması önemli jQuery için.
 
 	:::html
-	 <script type="text/javascript"
-src="script/jquery.js"></script> 
+	<script type="text/javascript" src="script/jquery.js"></script> 
 
 Iframe otomatik yükseklik vermek için kullandığımız eklenti kodu.
 
 	:::html
-	<script type="text/javascript"
-src="script/jquery.autoheight.js"></script>
+	<script type="text/javascript" src="script/jquery.autoheight.js"></script>
 
 Sayfaya eklediğimiz iframe kodunda yapmamız gereken sadece
 class="autoHeight" eklemek.
 
 	:::html
-	<iframe id="listeCercevesi"
-name="listeCercevesi" class="autoHeight" scrolling="auto"
-frameborder="0" src="/liste.aspx"></iframe>
+	<iframe id="listeCercevesi" name="listeCercevesi" class="autoHeight" scrolling="auto" frameborder="0" src="/liste.aspx"></iframe>
 
 Örnek sayfayı görmek için [tıklayın.][] (sonspring.com alınmıştır)
 
@@ -68,8 +64,6 @@ frameborder="0" src="/liste.aspx"></iframe>
 -   [http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm][]
 -   [http://jbscdev.blogspot.com/2007/08/automatic-iframe-height-sizing-using.html][]
 -   [http://sonspring.com/journal/jquery-iframe-sizing][]
-
-</p>
 
   [jQuery autoHeight eklentisini]: http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm
     "jQuery autoHeight eklentisini"

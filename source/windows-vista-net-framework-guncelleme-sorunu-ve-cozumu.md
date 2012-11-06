@@ -36,14 +36,11 @@ Bir güncelleme için bizi bu kadar uğraştıran Microsoft'a ne demeli
 bilmiyorum. Çıkmadı ki adam akıllı bir işletim sistemi ona geçelim. Ben
 Apple'dan ümitliyim.
 
-Kaynaklar
----------
+## Kaynaklar
 
 -   [http://www.google.com/search?q=Windows+Update+80070645+vista+sp1&hl=en][]
 -   [http://blogs.msdn.com/astebner/archive/2006/05/30/611355.aspx][]
 -   [http://social.answers.microsoft.com/Forums/en-US/vistawu/thread/a3a127a3-2dc5-42b9-8cd7-87e750a5a442][]
-
-</p>
 
   [http://blogs.msdn.com/astebner/archive/2006/05/30/611355.aspx]: http://blogs.msdn.com/astebner/archive/2006/05/30/611355.aspx
     "http://blogs.msdn.com/astebner/archive/2006/05/30/611355.aspx"

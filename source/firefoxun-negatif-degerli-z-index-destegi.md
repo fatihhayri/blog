@@ -35,8 +35,6 @@ tanımı kullanabiliriz.
 -   [http://archivist.incutio.com/viewlist/css-discuss/5061][]
 -   [http://reference.sitepoint.com/css/z-index][]
 
-</p>
-
   [http://buynowshop.com/2009/05/css-tip-firefox-z-index-value/]: http://buynowshop.com/2009/05/css-tip-firefox-z-index-value/
     "http://buynowshop.com/2009/05/css-tip-firefox-z-index-value/"
   [http://www.codingforums.com/archive/index.php/t-112997.html]: http://www.codingforums.com/archive/index.php/t-112997.html

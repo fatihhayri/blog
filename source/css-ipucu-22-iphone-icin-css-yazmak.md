@@ -3,7 +3,9 @@ Date: 2009-07-22 12:38
 Category: CSS
 Tags: CSS, iPhone
 
-![apple-iphone][]Gelişen ve yaygınlaşan mobil cihazlar bizlere bir mecra
+![apple-iphone][]
+
+Gelişen ve yaygınlaşan mobil cihazlar bizlere bir mecra
 daha açacağa benziyor. Gelecekte etkisini daha çok hissettirecek cep
 telefonu vb. ürünlerden internete girme isteği. Şimdilerde kendini
 gösteriyor. Benim size burada bahsedeceğim ipucu küçük ama kullanışlı
@@ -15,15 +17,16 @@ olmamdan dolayı buraya eklemeyi uygun gördüm. Daha önce [çıktı almak içi
 Kodumuz çok basit
 
 	:::html
-	 <!--[if !IE]>–> <link media="only
-screen and (max-device-width: 480px)" href="iPhone.css" type="text/css"
-rel="stylesheet" /> <!–<![endif]–> 
+	<!--[if !IE]>–> <link media="only screen and (max-device-width: 480px)" href="iPhone.css" type="text/css" rel="stylesheet" /> <!–<![endif]–> 
 
 veyahut
 
 	:::css
-	 @media only screen and (max-device-width:
-480px) {   body {color:#000;} } 
+	@media only screen and (max-device-width:480px) {   
+		body {
+			color:#000;
+		}
+	} 
 
 şeklinde bir tanımlamada yapabiliyoruz. İlk koddaki ie şartlı koşulu
 bazı eski ie sürümlerinde bu kodu algılama durumu içindir.
@@ -36,8 +39,6 @@ Yukarıdaki tanımlar sadece iPhone'da görünecektir. İşin püf noktasını
 -   [http://www.w3.org/TR/css3-mediaqueries/][]
 -   [http://www.evotech.net/blog/2007/07/web-development-for-the-iphone/][]
 -   [http://squaregirl.com/blog/2009/6/1/iphone-css.html][]
-
-</p>
 
   [apple-iphone]: /images/apple-iphone.jpg
     "apple-iphone"

@@ -14,8 +14,14 @@ Explorer'un(8. sürüm dahil) desteğinin söz konusu olmaması.
 Kodlama çok basit
 
 	:::css
-	 ::-moz-selection {     background:#c00;   
- color:#fff; } ::selection {     background:#c00;     color:#fff; }
+	::-moz-selection {
+	    background:#c00;
+	    color:#fff;
+	}
+	::selection {
+	    background:#c00;
+	    color:#fff;
+	}
 
 
 Kodlamanın birinci kısmı(**::-moz-selection**) mozilla tabanlı yani
@@ -26,9 +32,15 @@ Ayrıca diğer seçicilerede bunu uygulayabiliyoruz. Bağlantılar için
 farklı bir renk tanımlayalım mesela
 
 	:::css
-	 a::-moz-selection {     background:#1259C7;
-    color:#fff; } a::selection {     background:#1259C7;   
- color:#fff; } 
+	a::-moz-selection {
+	    background:#1259C7;
+	    color:#fff;
+	}
+
+	a::selection {
+	    background:#1259C7;
+	    color:#fff;
+	}
 
 Örnek olarak bu sitede herhangi bir metni seçince göreceksiniz.
 

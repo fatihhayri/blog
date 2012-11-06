@@ -36,11 +36,13 @@ erişmesini sağlamak değil mi?
 
 Dış hat çizgisinin biçemini belirlemek için kullanırız.
 
-**Yapısı:** outline-style: <deger>  
+**Yapısı:** outline-style: <deger\>  
 **Aldığı değerler:** none | dotted | dashed | solid | double | groove |
 ridge | inset | outset | inherit  
-**Başlangıç değeri:** none **Uygulanabilen elemanlar:** Tüm elemanlara
+**Başlangıç değeri:** none 
+**Uygulanabilen elemanlar:** Tüm elemanlara
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 Dış hat biçemi none değeri haricindeki değerler için görüntülenir.
 
@@ -59,72 +61,74 @@ Dış hat biçemi none değeri haricindeki değerler için görüntülenir.
 -   outset: inset'in zıddı; Dış hat çizgisi kutunun tamamının kabartma
     gibi görünmesine sebep olur.
 
-<div class="tarayiciuyum">
+
 **Tarayıcı Uyumu:**  
 Internet Explorer 6, 7(desteklemiyor) 8 (destekliyor)  
 Firefox 1.5+  
 Opera 9.2+  
 Safari 1.3+  
 CSS 2+
+{: .tarayiciuyum}
 
-</div>
 ## Dış hat çizgisi genişliği (outline-width)
 
 Atandığı elemanın dışına çizilen hattın kalınlığını belirlemek için
 kullanırız.
 
-**Yapısı:** outline-width: <deger>  
+**Yapısı:** outline-width: <deger\>  
 **Aldığı değerler:** thin | medium | thick | length | inherit  
 **Başlangıç değeri:** Medium  
 **Uygulanabilen elemanlar:** Tüm elemanlara  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 Dış hat çizgisi genişliği border-width gibi CSS uzunluk değerlerini (px,
 pt, em) ve anahtar kelimeler(thin <= medium <= thick) alır, ancak
 yüzde değer ve eksi değer almaz.
 
-<div class="tarayiciuyum">
+
 **Tarayıcı Uyumu:**  
 Internet Explorer 6, 7(desteklemiyor) 8 (destekliyor)  
 Firefox 1.5+  
 Opera 9.2+  
 Safari 1.3+  
 CSS 2+
+{: .tarayiciuyum}
 
-</div>
 ## Dış hat çizgisi rengi (outline-color)
 
 Atandığı elemanın dışına çizilen hattın rengini belirlemek için
 kullanırız.
 
-**Yapısı:** outline-color: <deger>  
+**Yapısı:** outline-color: <deger\>  
 **Aldığı Değerler:** color | invert | inherit  
 **Başlangıç değeri:** invert  
 **Uygulanabilen elemanlar:** tüm elemanlara  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 CSS'in desteklediği renk değerlerini kullanabiliriz, hatta invert
 değerinide kullanabiliriz. invert, rengi tersine çevirir.
 
-<div class="tarayiciuyum">
 **Tarayıcı Uyumu:**  
 Internet Explorer 6, 7(desteklemiyor) 8 (destekliyor)  
 Firefox 1.5+  
 Opera 9.2+  
 Safari 1.3+  
 CSS 2+
+{: .tarayiciuyum}
 
-</div>
 ## Dış hat çizgisi (outline)
 
 Dış hat çizgisi(outline) özelliği yukarıda gördüğümüz özelliklerin tek
 seferde kullanılmasını sağlayan bir kısa yoldur.
 
-**Yapısı:** outline: <deger>  
-**Aldığı Değerler:** [ <outline-color> || <outline-style> || <outlinewidth>] | inherit  
+**Yapısı:** outline: <deger\>  
+**Aldığı Değerler:** [ <outline-color\> || <outline-style\> || <outlinewidth\>] | inherit  
 **Başlangıç değeri:** Tanımlı değildir  
 **Uygulanabilen elemanlar:** Tüm elemanlara  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 Kenar çizgisi(border) özelliğine benzer bir yapısı vardır. Ancak
 ayrıldıkları kısım kenar çizgisinde(border) her kenar için bir
@@ -150,16 +154,13 @@ biridir.
 Dış hat çizgileri elemana odaklanıldığında görsel bir çıkıntı gibi
 görünmesini sağlayabilir.
 
-<div class="tarayiciuyum">
 **Tarayıcı Uyumu:**  
 Internet Explorer 6, 7(desteklemiyor) 8 (destekliyor)  
 Firefox 1.5+  
 Opera 9.2+  
 Safari 1.3+  
 CSS 2+
-
-</div>
-</p>
+{: .tarayiciuyum}
 
   [dış hat çizgisi]: /images/dis_hat_cizgidi.gif
     "dış hat çizgisi"

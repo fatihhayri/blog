@@ -39,7 +39,9 @@ chrome daki gibi elemanı saran kesikli çizgi bence kötü görünmüyor.
 Firefox'daki bu sorunu çözmek için bir kod var.
 
 	:::css
-	 a{visibility:hidden} 
+	a{
+		visibility:hidden
+	} 
 
 tanımı ie ve chrome gibi göstermesini sağlıyor.
 
@@ -49,7 +51,9 @@ Bide bu çizgileri hiç görmek istemeyenler var. Bunu engellemenin en
 kolay yolu outline:none veya outline:0 tanımlarıdır.
 
 	:::css
-	 a{outline:none} 
+	a{
+		outline:none
+	} 
 
 Bu tanım bir çok css sıfırlama tekniğinde yer almaktadır. Örneğin [Eric Meyer][]'in sıfırlama tekniğinde. Bu yöntem bir çok yerde çözüm olarak
 sunulmaktadır. Kaynaklar kısmındaki linkler bunlardan bir kaçı.
@@ -70,8 +74,11 @@ bağlantıdan bağlantıya geçişlerde durum çubuğunda bağlantıların
 gösterilmesidir.
 
 	:::css
-	 a {color: #004276; text-decoration: none;
-outline: none; } 
+	a {
+		color: #004276; 
+		text-decoration: none;
+		outline: none; 
+	} 
 
 tanımı nedeni ile dış hat çizgileri bize yardımcı olmayacaktır. 
 
@@ -80,8 +87,11 @@ outline değeri standart bırakılmış ve ayrıca odaklanmalar için ayrı bir
 tanım yapılmıştır. 
 
 	:::css
-	 a:active, a:focus, a:hover {
-background-color:#FFFFCC; color:#BF1722; text-decoration:underline; }
+	a:active, a:focus, a:hover {
+		background-color:#FFFFCC; 
+		color:#BF1722; 
+		text-decoration:underline; 
+	}
 
 
 Tanımları yardımı ile odaklanılan bağlantılar daha belirgin hale
@@ -116,11 +126,18 @@ klavyenin tab'ı ile geldiğinde de uygulayalım. outline'ı kaldıralım
 tabi.
 
 	:::css
-	 a.anasayfayaDon { display: block; width:
-80px; height: 80px; background: url(images/degisen_resim.gif) 0 0
-no-repeat; text-decoration: none; text-indent:-999px; }
-a:hover.anasayfayaDon, a:focus.anasayfayaDon { background-position:
--80px 0; outline:none; } 
+	a.anasayfayaDon {
+	    display: block;
+	    width: 80px;
+	    height: 80px;
+	    background: url(images/degisen_resim.gif) 0 0 no-repeat;
+	    text-decoration: none;
+	    text-indent:-999px;
+	}
+	a:hover.anasayfayaDon, a:focus.anasayfayaDon {
+	    background-position: -80px 0;
+	    outline:none;
+	}
 
 ![][1]
 
@@ -133,9 +150,10 @@ desteklemeyen ie 6 ve ie7'de ise hala outline kesikli çizgilerinin
 görülmesi ilginç.  Bunun içinde şöyle bir çözüm yolu var. 
 
 	:::css
-	 a:hover.anasayfayaDon,
-a:focus.anasayfayaDon, a:active.anasayfayaDon { background-position:
--80px 0; outline:expression(hideFocus='true'); outline:none; }
+	a:hover.anasayfayaDon, a:focus.anasayfayaDon, a:active.anasayfayaDon {
+	    background-position: -80px 0;
+	    outline:expression(hideFocus='true'); outline:none;
+	}
 
 
 expression özelliğini sadece ie destekliyor. Daha önce bahsetmiştik. Bu
@@ -165,8 +183,6 @@ sonunda örneğimiz ie de de çalışacaktır.
 -   [http://diveintomark.org/archives/2006/04/25/new-focus-indicator][]
     (odaklanmayı arttıran firefox eklentisi)
 -   [http://accessites.org/site/2007/05/keyboard-friendly-link-focus/][]
-
-</p>
 
   [dış hat çizgisi özellikleri]: http://www.fatihhayrioglu.com/dis-hat-cizgisioutline-ozellikleri/
     "dış hat çizgisi özellikleri"

@@ -7,13 +7,17 @@ Safari ve Google Chrome tarayıcıları her hangi bir metin girdi
 alanına(text input) odaklandığında bu elemanın etrafını bir şerit ile
 belirliyor.
 
-![][] **Google Chrome Normal Hali**
+![][] 
+**Google Chrome Normal Hali**
 
-![][1] **Google Chrome Odaklanmış Hali**
+![][1] 
+**Google Chrome Odaklanmış Hali**
 
-![][2] **Safari Normal Hali**
+![][2] 
+**Safari Normal Hali**
 
-![][3] **Safari Odaklanmış Hali**
+![][3] 
+**Safari Odaklanmış Hali**
 
 Bu normalde güzel bir özellik, ancak biz eğer standart metin girdi alanı
 yerine kendi tasarladığımız bir metin girdi alanı koydu isek bu

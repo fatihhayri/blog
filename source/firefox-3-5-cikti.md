@@ -5,7 +5,9 @@ Tags: Firefox, Geolocation, gizli-sekme, İnternet Tarayıcısı, TraceMonkey, y
 
 <object width="450" height="259"><param name="movie" value="http://www.youtube.com/v/k5Zbc-Rg6e8&amp;hl=en&amp;fs=1&amp;"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/k5Zbc-Rg6e8&amp;hl=en&amp;fs=1&amp;" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="450" height="259"></embed></object>
 
-![firefox-128][]Daha önce [Firefox 3.1 yenilikleri][] adlı bir makale
+![firefox-128][]
+
+Daha önce [Firefox 3.1 yenilikleri][] adlı bir makale
 yazmıştık. Ancak sonra Mozilla bu sürümü biraz daha geliştirip biraz
 daha özellik ekleyip Firefox 3.5 diye sundu bizlere. Yukarıdaki video'da
 aslında bir çok şey açıklanmış. Ama yinede biz bir kaç cümle ile de olsa
@@ -76,8 +78,6 @@ Firefox 3.5 indirmek için [tıklayınız.][]
     (erişebilirlik açısından)
 -   [http://osrevolution.com/os-software/firefox-35-features-review][]
     (10 özellik)
-
-</p>
 
   [firefox-128]: /images/firefox-128.png
     "firefox-128"

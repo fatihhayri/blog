@@ -25,6 +25,4 @@ ve **HKEY_LOCAL_MACHINESOFTWARE** de "VMware, Inc." ve daha sonrada
 bunun altında "VMware Workstation" diye alanlar oluşturup. Kurulumu
 yapalım. Kaynak: [http://communities.vmware.com/message/843711][]
 
-</p>
-
   [http://communities.vmware.com/message/843711]: http://communities.vmware.com/message/843711

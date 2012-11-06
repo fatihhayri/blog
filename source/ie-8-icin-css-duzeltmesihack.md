@@ -11,16 +11,18 @@ Burada ie8'de css düzeltmesi yapmamız gerektiğinde nasıl bir yol
 izleyeceğimiz konusunda bir ipucu vereceğim.
 
 	:::css
-	 .uyari { color /***/: red9 }
+	.uyari { 
+		color /***/: red9 
+	}
 
 
 Bir çok yerde bu kodun tek başına ie8 için yeterli olduğu yazıyor. Ama
 ben test ettiğimde ie7'de bu kodu görüyor. Bunun için
 
 	:::css
-	 .uyari{color:blue} /* tum taricilar */
-.uyari { color /***/: red9 } /* ie8 ve ie 7 */ *+html
-.uyari{color:blue} /* ie 7 */ 
+	.uyari{color:blue} /* tum taricilar */
+    .uyari { color /*\**/: red\9 } /* ie8 ve ie 7 */
+    *+html .uyari{color:blue} /* ie 7 */
 
 Şeklinde bir çözüm işimize yaracaktır.
 
@@ -29,15 +31,19 @@ ben test ettiğimde ie7'de bu kodu görüyor. Bunun için
 Ayrıca şartlı yorumlar yardımı ile de yapabiliriz.
 
 	:::html
-	 <!–[if gte IE 8]> <style
-type="text/css"> .uyari { color: red; } </style> <![endif]–>
+	<!–[if gte IE 8]>
+		<style type="text/css">
+		.uyari {
+			color: red;   
+		}
+	    </style>
+	<![endif]–>
 
 
 Ayrıca daha önce bahsettiğimiz ie7 gibi yorumlama kodu var.
 
 	:::html
-	<meta http-equiv="X-UA-Compatible"
-content="IE=EmulateIE7" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 
 Testlerimi [ietester][] ile yaptım.
 
@@ -46,8 +52,6 @@ Testlerimi [ietester][] ile yaptım.
 -   [http://snipplr.com/view/15167/ie8-csshacks/][]
 -   [http://www.evotech.net/blog/2009/03/ie8-css-support/][]
 -   [http://www.fatihhayrioglu.com/internet-explorer-8i-7-gibi-yorumla-kodu/][]
-
-</p>
 
   [ie8]: /images/ie8.jpg
   [tıklayınız.]: /dokumanlar/ie8_css_duzeltmesi.html

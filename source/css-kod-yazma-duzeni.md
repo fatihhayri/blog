@@ -31,14 +31,19 @@ bir husus bence. Şimdiye kadar hiç uygulamadım ama büyük projelerde
 uygulamanın yararlı olacağını düşündüğüm bir uygulama
 
 	:::css
-	
-/*------------------------------------------------------------------
-[CSS Kod indeksi] 1. Body 2. Üst Alan / #ustAlan 2.1. Menü / #menu 3.
-İçerik Alanı / #icerik 3.1. Sol Kolon / #solKolon 3.2. Sidebar /
-#yanKolon 3.2.1. RSS / #rss 3.2.2. Arama / #arama 3.2.3. Kutular /
-.kutu 4. Alt Alan / #altAlan
--------------------------------------------------------------------*/
-
+	/*------------------------------------------------------------------
+	[CSS Kod indeksi] 
+	1. Body 
+	2. Üst Alan / #ustAlan 
+	2.1. Menü / #menu 
+	3. İçerik Alanı / #icerik 
+	3.1. Sol Kolon / #solKolon 
+	3.2. Sidebar / #yanKolon 
+	3.2.1. RSS / #rss 
+	3.2.2. Arama / #arama 
+	3.2.3. Kutular / .kutu 
+	4. Alt Alan / #altAlan
+	-------------------------------------------------------------------*/
 
 ## 2. CSS dokümanınıza imzanızı atın
 
@@ -47,12 +52,12 @@ kodlarımızı başlamalıyız.(Bende bunu ara sıra unutuyorum. Ama unutmamak
 gerekli)
 
 	:::css
-	
-/************************
-************************ MYK Medya -
-http://myk-medya.com/ yahoyt.com fatih hayrioglu 28 Mayis 2009 ie6, ff,
-opera. chrome, safari ************************
-************************/ 
+	/************************************************ 
+	MYK Medya - http://myk-medya.com/ yahoyt.com 
+	fatih hayrioglu 
+	28 Mayis 2009 
+	ie6, ff, opera. chrome, safari 
+	************************************************/ 
 
 ## 3. Seçici isimlendirirken standart ve anlamlı isimler verin
 
@@ -71,7 +76,7 @@ harf küçük, sonraki kelimelerin baş harfi büyük ile başlar ve bitişik
 yazılır.
 
 	:::css
-	 #icerikOzu{..} #solIcerikAlani{..}
+	#icerikOzu{..} #solIcerikAlani{..}
 
 
 Bu benim standardım. Başka türlü standartlarda vardır. Her kesin
@@ -79,7 +84,7 @@ kendince bir standardı olabilir. Mesela alt çizgiyle ayıranlar var.
 (-)Tire ile ayıranlar var.
 
 	:::css
-	 #icerik_ozu{..} #sol-icerik-alani{..}
+	#icerik_ozu{..} #sol-icerik-alani{..}
 
 
 Bu standardı herkes kendince yapabilir. Benim önerim aynı projede
@@ -94,13 +99,15 @@ fazla bilgi için [http://www.fatihhayrioglu.com/cssde-kisaltmalar/][]
 okumanızı tavsiye ederim.
 
 	:::css
-	 font-weight: bold; font-family: verdana,
-sans-serif; font-size: 11px; line-height: 15px; 
+	font-weight: bold; 
+	font-family: verdana, sans-serif; 
+	font-size: 11px; 
+	line-height: 15px; 
 
 yerine
 
 	:::css
-	 font: bold 11px/15px verdana, sans-serif;
+	font: bold 11px/15px verdana, sans-serif;
 
 
 ## 5. CSS dokümanlarınızı anlamlı bölümlere ayırın.
@@ -109,9 +116,10 @@ Büyük projelerde css dokümanlarını birden fazla bölümlere ayırarak daha
 düzenli ve kolay kodlanabilir dokümanlar elde ederiz.
 
 	:::css
-	 @import url(/css/iskelet.css); @import
-url(/css/fontlar.css); @import url(/css/renkler.css); @import
-url(/css/sifirlama.css); 
+	@import url(/css/iskelet.css); 
+	@import url(/css/fontlar.css); 
+	@import url(/css/renkler.css); 
+	@import url(/css/sifirlama.css); 
 
 Ben yukarıdaki yöntemi genelde çok büyük projelerde kullanmayı tercih
 ediyorum. Normalde ve genellikle tek ve iki css dokümanı ile projeyi
@@ -121,18 +129,26 @@ Eğer CSS sıfırlama tekniklerinden birini kullanacaksam Bunu imzadan
 sonraya yazmak. Yada site genel tanımlarını başa yazmak. [YUI CSS Reset][] ve [Eric Meyer][]'in ki var mesela.
 
 	:::css
-	
-/************************
-************************ MYK Medya -
-http://myk-medya.com/ fatih hayrioglu 28 Mayis 2009 ie6, ff, opera.
-chrome, safari ************************
-************************/ body{margin:0;
-padding:0;} ul{margin:0; padding:0; list-style:none;} /*kapsayamam
-sorunu */ .kapsayamamaSorunu:after {content: "."; display: block;
-height: 0; clear: both; visibility: hidden;} .kapsayamamaSorunu{display:
-inline-block;} /* IE-mac de bu bolumu sakla  */ * html
-.kapsayamamaSorunu{height: 1%;} .kapsayamamaSorunu {display: block;} /*
-IE-mac bu bolumu saklam artik */ /*kapsayamam sorunu */ 
+	/************************
+	************************
+	MYK Medya - http://myk-medya.com/
+	fatih hayrioglu
+	28 Mayis 2009
+	ie6, ff, opera. chrome, safari
+	************************
+	************************/
+
+	body{margin:0; padding:0;}
+	ul{margin:0; padding:0; list-style:none;}
+
+	/*kapsayamam sorunu */
+	.kapsayamamaSorunu:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+	.kapsayamamaSorunu{display: inline-block;}
+	/* IE-mac de bu bolumu sakla \ */
+	* html .kapsayamamaSorunu{height: 1%;}
+	.kapsayamamaSorunu {display: block;}
+	/* IE-mac bu bolumu saklam artik */
+	/*kapsayamam sorunu */ 
 
 ## 6. Her satıra bir tanım yöntemini kullanın
 
@@ -142,8 +158,12 @@ elde edebiliriz.
 Ben daha önce her satıra bir özellik tanımı yapıyordum.
 
 	:::css
-	 #aramaAlani{ float:left; width:265px;
-background-color:#fff; border:3px solid #525252; } 
+	#aramaAlani{
+	    float:left; 
+	    width:265px;
+	    background-color:#fff;
+	    border:3px solid #525252;
+	}
 
 Bu yöntemde kod açık ve görüntü olarak daha kullanışlı görünse de, fazla
 boşluklar sorun oluşturmaya başladı. CSS kodları çok uzayınca kaydırma
@@ -158,19 +178,37 @@ yöntemin daha avantajlı olduğunu gördüm, ayrıca daha derli toplu kodlar
 oluşturmama yaradı. Bundan sonra böyle kod yazamaya başladım.
 
 	:::css
-	 #anaKapsul{...}     #ustalan{...}    
-#icerikAlani{...}     #solIcerikAlani{...}     #sagIcerikAlani{...}
-#altAlan{...}    
+	#anaKapsul{...}    
+	#ustalan{...}    
+	#icerikAlani{...}    
+	#solIcerikAlani{...}    
+	#sagIcerikAlani{...}
+	#altAlan{...} 
 
 Kodlarımızın daha okunabilir olması içinde girintili bir yapıyı tercih
 etmeliyiz.
 
 	:::css
-	 #icerikAlani{float:left; clear:left;
-padding-top:20px;}    #solIcerikAlani{float:left; width:647px;
-margin-right:13px} #icerikOzu{float:left; clear:left;
-margin-top:20px}    #sagIcerikAlani{float:left; width:300px;
-margin:0;}   
+	#icerikAlani{
+		clear: left;
+		float: left;
+		padding-top: 20px;
+	}
+	#solIcerikAlani{
+		float: left;
+		margin-right: 13px;
+		width: 647px;
+	}
+	#icerikOzu{
+		clear: left;
+		float: left;
+		margin-top: 20px;
+	}
+	#sagIcerikAlani{
+		float: left;
+		margin: 0;
+		width: 300px;
+	}
 
 ## 7. Kodlarınızı yorum satırları ile açıklayıcı hale getirin.
 
@@ -180,15 +218,20 @@ arttırabiliriz. Böylelikle bölümler arasında daha kolay ayrım
 yapabiliriz. Kod okunabilirliği daha fazla olacaktır.
 
 	:::css
-	 #anaKapsul{margin:0 auto; width:960px;}    
-/****************************************************
-ustalan   */ #ustalan{padding-top:20px;}
-/****************************************************
-icerikAlani   */ #icerikAlani{float:left; clear:left;
-padding-top:20px;} /*sol icerik alani */    
-#solIcerikAlani{float:left; width:647px; margin-right:13px}
-#icerikOzu{float:left; clear:left; margin-top:20px} /* sagIcerikAlani
-*/ #sagIcerikAlani{float:left; width:300px; margin:0;}       
+	#anaKapsul{margin:0 auto; width:960px;}    
+	/**************************************************** ustalan   */
+	#ustalan{padding-top:20px;}
+
+	/**************************************************** icerikAlani   */
+	#icerikAlani{float:left; clear:left; padding-top:20px;}
+
+	/*sol icerik alani */    
+		#solIcerikAlani{float:left; width:647px; margin-right:13px}
+			#icerikOzu{float:left; clear:left; margin-top:20px}
+
+	/* sagIcerikAlani */
+
+		#sagIcerikAlani{float:left; width:300px; margin:0;}       
 
 
 ## 8. CSS özellik tanımlarını sıralayın.
@@ -199,8 +242,7 @@ oluşturan özellikler(float, width, height gibi özellikleri) ilk sırada
 yazıp sonra diğer özellikleri yazmayı tercih ediniz.
 
 	:::css
-	 #solIcerikAlani{float:left; width:647px;
-margin-right:13px} 
+	#solIcerikAlani{float:left; width:647px; margin-right:13px}
 
 Burada bir diğer yöntemde özellikleri alfabetik sıraya göre yazmaktır.
 Buradaki amaç bir standart oluşturup göz aşinalığı sağlamak ve
@@ -275,45 +317,73 @@ olmalıya bir örnek yazarsak:
 XHTML kodu:
 
 	:::html
-	 <div > <div > </div><!--[if !IE]>ustAlan sonu<![endif]--> <div > <div > <div ><img
-src="images/promo.jpg" width="647" height="264" alt="Promo" /></div>
-<div > </div><!--[if !IE]>icerikOzu sonu<![endif]-->
-</div><!--[if !IE]>solIcerikAlani sonu<![endif]--> <div >
-</div><!--[if !IE]>sagIcerikAlani sonu<![endif]-->
-</div><!--[if !IE]>icerikAlani sonu<![endif]--> <div
-class="kapsayamamaSorunu"> </div> </div><!--[if !IE]>anaKapsul
-sonu<![endif]--> 
+	<div >
+
+	    <div >
+	    </div><!--[if !IE]>ustAlan sonu<![endif]-->
+
+	    <div >
+	        <div >
+	            <div ><img src="images/promo.jpg" width="647" height="264" alt="Promo" /></div>            
+	            <div >
+	            </div><!--[if !IE]>icerikOzu sonu<![endif]-->
+	        </div><!--[if !IE]>solIcerikAlani sonu<![endif]-->
+	        <div >                
+	        </div><!--[if !IE]>sagIcerikAlani sonu<![endif]-->     
+	    </div><!--[if !IE]>icerikAlani sonu<![endif]-->
+
+	    <div  class="kapsayamamaSorunu">
+	    </div>    
+
+	</div><!--[if !IE]>anaKapsul sonu<![endif]-->
 
 CSS kodu
 
 	:::css
-	
-/************************
-************************ MYK Medya -
-http://myk-medya.com/ yahoyt.com fatih hayrioglu 28 Mayis 2009 ie6, ff,
-opera. chrome, safari ************************
-************************/
-/**************************************************
-Genel Tanımlar   */ body{margin:0; padding:0;} ul{margin:0; padding:0;
-list-style:none;} /*kapsayamam sorunu */     .kapsayamamaSorunu:after
-{content: "."; display: block; height: 0; clear: both; visibility:
-hidden;}     .kapsayamamaSorunu{display: inline-block;}     /* IE-mac
-de bu bolumu sakla  */     * html .kapsayamamaSorunu{height: 1%;}   
- .kapsayamamaSorunu {display: block;}     /* IE-mac bu bolumu saklam
-artik */ /*kapsayamam sorunu */ #anaKapsul{margin:0 auto;
-width:960px;}    
-/**************************************************
-ustalan   */ #ustalan{padding-top:20px;}             
-/**************************************************
-icerikAlani   */ #icerikAlani{float:left; clear:left;
-padding-top:20px;}      /*sol icerik alani */       
- #solIcerikAlani{float:left; width:647px; margin-right:13px}   
- #icerikOzu{float:left; clear:left; margin-top:20px}      /*
-sagIcerikAlani */     #sagIcerikAlani{float:left; width:300px;
-margin:0;}                
-/**************************************************
-altAlan */ #altAlan{clear:left; background-color:#404040;
-padding:12px; margin-bottom:20px;} 
+	/************************
+	************************
+	MYK Medya - http://myk-medya.com/
+	yahoyt.com
+	fatih hayrioglu
+	28 Mayis 2009
+	ie6, ff, opera. chrome, safari
+	************************
+	************************/
+
+	/************************************************** Genel Tanımlar   */
+
+	body{margin:0; padding:0;}
+	ul{margin:0; padding:0; list-style:none;}
+
+	/*kapsayamam sorunu */
+	    .kapsayamamaSorunu:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+	    .kapsayamamaSorunu{display: inline-block;}
+	    /* IE-mac de bu bolumu sakla \ */
+	    * html .kapsayamamaSorunu{height: 1%;}
+	    .kapsayamamaSorunu {display: block;}
+	    /* IE-mac bu bolumu saklam artik */
+	/*kapsayamam sorunu */
+
+
+	#anaKapsul{margin:0 auto; width:960px;}    
+
+	/************************************************** ustalan   */
+	#ustalan{padding-top:20px;}
+
+	/************************************************** icerikAlani   */
+	#icerikAlani{float:left; clear:left; padding-top:20px;}
+
+	/*sol icerik alani */    
+	    #solIcerikAlani{float:left; width:647px; margin-right:13px}
+	    #icerikOzu{float:left; clear:left; margin-top:20px}
+
+	/* sagIcerikAlani */
+
+	    #sagIcerikAlani{float:left; width:300px; margin:0;}                
+
+	/************************************************** altAlan */
+
+	#altAlan{clear:left; background-color:#404040; padding:12px; margin-bottom:20px;} 
 
 ## Kaynaklar
 
@@ -335,8 +405,6 @@ padding:12px; margin-bottom:20px;}
     (video)
 -   [http://www.graphicrating.com/2009/02/23/css-code-readability-tips/][]
 -   [http://developer.yahoo.com/performance/rules.html#num_http][]
-
-</p>
 
   [css_duzenleme2]: /images/css_duzenleme2.gif
     "css_duzenleme2"

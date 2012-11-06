@@ -3,7 +3,9 @@ Date: 2009-06-12 13:58
 Category: CSS, Web Standartları, XHTML
 Tags: alta-yapışık-alanlar, CSS, kapsayamama-sorunu, sticky-footer
 
-![yapisik_altalan][]Bir çok sitede karşılaştığımız sayfanın dibine
+![yapisik_altalan][]
+
+Bir çok sitede karşılaştığımız sayfanın dibine
 yapışık alt kısımları bu makalede anlatmaya çalışacağım. Bunu hiç
 javascript kullanmadan sadece css yardımı ile yapacağız.
 
@@ -25,11 +27,20 @@ Kodumuzu yazmaya başlarsak.
 XHTML kodu:
 
 	:::html
-	 <div id="kapsul"> <div id="ustAlan">
-<h1>Lorem ipsum dolor sit amet</h1> </div> <div
-id="icerikAlani"> <div id="icerik"> </div> <div
-id="icerikSagAlani"> </div> </div> </div> <div id="altAlan">
-</div> 
+	<div id="kapsul">
+	    <div id="ustAlan">
+			<h1>Lorem ipsum dolor sit amet</h1>
+	    </div>        
+	    <div id="icerikAlani">
+	        <div id="icerik">
+	        </div>
+
+	        <div id="icerikSagAlani">
+	        </div>
+	    </div>
+	</div>
+	<div id="altAlan">
+	</div>
 
 XHTML kodunda dikkate değer olan kısım içerik alanı ve alt alanı iki
 farklı bölüm olarak kodlamamız. **altAlan** ve diğer alanları kapsayan
@@ -40,11 +51,15 @@ alıyoruz.
 CSS Kodu
 
 	:::css
-	 html, body, #kapsul {height: 100%;} body >
-#kapsul {height: auto; min-height: 100%;} #icerik {padding-bottom:
-133px;} /* altAlan yukseligi ile ayni olmali */ #altAlan { position:
-relative; margin-top: -133px; /* altAlan yuksekliginin eksi degeri */
-height: 133px; clear:both; } 
+	html, body, #kapsul {height: 100%;}
+	body > #kapsul {height: auto; min-height: 100%;}
+	#icerik {padding-bottom: 133px;} /* altAlan yukseligi ile ayni olmali */
+	#altAlan {
+		position: relative;
+	    margin-top: -133px; /* altAlan yuksekliginin eksi degeri */
+	    height: 133px;
+	    clear:both;
+	} 
 
 Buradaki 133px tanımına dikkat etmemiz gerekiyor. 133px altAlan
 yüksekliğidir ve 3 yerde birden aynı değeri kullandığımıza dikkat
@@ -68,21 +83,31 @@ sorunu ile karşılaşıyoruz. Float uygulanmış alanların kapsayamama sorunu
 makalemiz anlattığımız yöntemi kullanıyoruz.
 
 	:::css
-	 .kapsayamamaSorunu:after {content: ".";
-display: block; height: 0; clear: both; visibility: hidden;}
-.kapsayamamaSorunu {display: inline-block;} /*IE-mac de bu bolumu sakla
- */ * html .kapsayamamaSorunu {height: 1%;} .kapsayamamaSorunu
-{display: block;} /* IE-mac bu bolumu saklam artik */ 
+	.kapsayamamaSorunu:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+	.kapsayamamaSorunu {display: inline-block;}
+	/*IE-mac de bu bolumu sakla \ */
+	* html .kapsayamamaSorunu {height: 1%;}
+	.kapsayamamaSorunu {display: block;}
+	/* IE-mac bu bolumu saklam artik */
 
 Bu sınıfı tanımlıyoruz ve içeriği kapsayan(#icerikAlani) katmana
 atıyoruz.
 
 	:::html
-	 <div id="kapsul"> <div id="ustAlan"
-class="kapsayamamaSorunu"> <h1>Lorem ipsum dolor sit amet</h1>
-</div> <div id="icerikAlani" class="kapsayamamaSorunu"> <div
-id="icerik"> </div> <div id="icerikSagAlani"> </div> </div>
-</div> <div id="altAlan"> </div> 
+	<div id="kapsul">
+	    <div id="ustAlan" class="kapsayamamaSorunu">
+			<h1>Lorem ipsum dolor sit amet</h1>
+	    </div>        
+	    <div id="icerikAlani" class="kapsayamamaSorunu">
+	        <div id="icerik">
+	        </div>
+
+	        <div id="icerikSagAlani">
+	        </div>
+	    </div>
+	</div>
+	<div id="altAlan">
+	</div>
 
 Bu yöntemin ryanfait.com'un yöntemine göre en büyük avantajı bence
 ryanfait.com'un yöntemindeki anlamsız tampon katmanı gibi bir fazla
@@ -105,7 +130,9 @@ değerler ile belirlerseniz bu tip sorunları engelleyebilirsiniz.
 kapsanan sayfanızda sorun çıkabilir. Bunu engellemek için kodunuzu
 
 	:::css
-	 html, body, form, #kapsul {height: 100%;}
+	html, body, form, #kapsul {
+		height: 100%;
+	}
 
 
 şeklinde değiştirmelisiniz. [][]
@@ -121,8 +148,6 @@ kapsanan sayfanızda sorun çıkabilir. Bunu engellemek için kodunuzu
 -   [http://stever.ca/web-design/css-sticky-footer/][]
 -   [http://brassblogs.com/blog/sticky-footer][]
 -   [http://www.davidjrush.com/blog/2009/01/css-sticky-footer/][]
-
-</p>
 
   [yapisik_altalan]: /images/yapisik_altalan.gif
     "yapisik_altalan"
