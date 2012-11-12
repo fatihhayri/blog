@@ -7,7 +7,7 @@ Bu makalede CSS'de kullanılan tüm birimleri göreceğiz. Birimler genelde
 mesafe ve renkleri tanımlamak için kullanılır.
 
 Birimleri dört gruba ayıra biliriz. **uzunluk** birimleri, **yüzde**
-birimleri, **renk** birimleri ve **URL** birimleri<!--more-->
+birimleri, **renk** birimleri ve **URL** birimleri
 
 ## Uzunluk Birimleri
 
@@ -15,7 +15,7 @@ CSS'de tanımlanan 8 uzunluk birimi vardır. Bunların üç tanesi
 göreceli(relative) uzunluklar ve kalan beş tanesi
 kesin(absolute)uzunluklardır.
 
-**Göreceli Uzunluklar**
+### Göreceli Uzunluklar
 
 Bu birimler diğer uzunluk birimlerine göre görecelidir. Sayfalarımızın
 ölçeğinin değiştiği ve çıktısının alındığı durumlarda bu uzunluk
@@ -34,7 +34,7 @@ varsayılan font büyüklüğünde ve font ailesinde (font-family) yer alan
 çok küçük kutulardan oluşmuş bir ızgaraya benzer. Burdaki her kutu bir
 pikseldir. Bu da her monitöre göre farklı değer demektir.
 
-**Kesin Uzunluklar**
+### Kesin Uzunluklar
 
 Bu uzunluklar gerçek hayatta kullanılan birimlerdir.
 
@@ -50,32 +50,41 @@ değeridir. Örnek: letter-spacing:1mm
 font-size:14pt
 
 **pc:** Pika. Bir inçin altıda birine eşit olan bir baskı ölçü birimi.
-Bir pika 12 noktaya bölünür.</span></a> Örnek: font-size:2pc
+Bir pika 12 noktaya bölünür. Örnek: font-size:2pc
 
 ## Yüzde Birimleri
 
 Yüzde değerleri her zaman diğer elementlere göre göreceli değerlerdir.
 
 	:::css
-	 /* elementin font-size değerinin %150 si
-dir */ h4 { line-height: 150% } /* satır genişliğinin 10% nu */ p {
-text-indent: 10% } 
+	 /* elementin font-size değerinin %150 si dir */
+	h4 { 
+	    line-height: 150% 
+	}
+	/* satır genişliğinin 10% nu */
+	p { 
+	    text-indent: 10% 
+	} 
 
 ## Renk Birimleri
 
 CSS'de renk değerleri isim olarak ve RGB değeri olarak tanımlanabilir.
 RGB tanımlamasıda dört çeşittir.
 
-**Renk İsimleri**
+### Renk İsimleri
 
 Renklerin ingilizce isimleri kullanılarak tanımlama yapılabilir.
 
 	:::css
-	 p { color:black; } /* renk tanımı siyah
-olarak yapılıyor*/ h1{ background-color: red; } /* h1 başlığının
-ardalanı kırmızı tanımlanıyor */ 
+	p {
+		color:black; 
+	} /* renk tanımı siyah olarak yapılıyor*/ 
 
-**RGB Renk Değerleri**
+	h1{ 
+		background-color: red;
+	} /* h1 başlığının ardalanı kırmızı tanımlanıyor */ 
+
+### RGB Renk Değerleri
 
 CSS'de renk tanımlamak için kullanılan asıl yöntem budur. RGB
 tanımlamanında dört çeşidi vardır.
@@ -100,21 +109,21 @@ arasında bir tanımı vardır. Buna göre tanımlama yapılır. Örnek: h1
 URL tanımlaması için aşağıdaki gib bir tanımlama yapılır.
 
 	:::css
-	
-url(/images/kucuk.gif) 
+	url(/images/kucuk.gif) 
 
 Burada tırnaksız ve tek tırnaklı kullanımları da standarda uygundur.
 
 **Not :** Birde bunların dışında CSS2.0 ile birlikte gelen ekstra
 birimlerde mevcuttur. Ancak bunlar kullanımda değildir.
 
-**Açı Değerleri :** **deg**(derece), **grad**(gradyen) ve
-**rad**(radyan) Örnek: -90deg, 100grad ve 1.57rad
+### Açı Değerleri :
 
-**Zaman Değerleri:** milisaniye (**ms**) ve saniye (**s**) Örnek : 100ms
-ve 0.1s
+**deg**(derece), **grad**(gradyen) ve **rad**(radyan) Örnek: -90deg, 100grad ve 1.57rad
 
-**Frekans Değerleri** : Herz(**Hz**) ve MegaHerz(**mHz**) Örnek: 10mHz
+### Zaman Değerleri:
 
-</p>
+milisaniye (**ms**) ve saniye (**s**) Örnek : 100ms ve 0.1s
 
+### Frekans Değerleri: 
+
+Herz(**Hz**) ve MegaHerz(**mHz**) Örnek: 10mHz

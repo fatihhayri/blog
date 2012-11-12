@@ -3,7 +3,9 @@ Date: 2010-10-22 23:49
 Category: Haberler
 Tags: google reader, güncel, haber, makale, rss, rss reader, yazı, yenilikleri takip
 
-![][]Arayüz Geliştiricilerin Görev Tanımı adlı yazımda arayüz
+![][]
+
+Arayüz Geliştiricilerin Görev Tanımı adlı yazımda arayüz
 geliştiricilerinin görevlerini tanımlarken aşağıdaki metni kullandık.
 
 -   Yenilikçi: Web mecrasındaki gelişmeleri takip etmeli ve uygulamalarında bu yenilikleri gerektiğinde kullanmalıdır.
@@ -55,7 +57,8 @@ Scroll ile ilerledikçe feedlerin okundu olarak işaretlenmesini
 ayarlayabiliyoruz, benim en çok sevdiğim özelliklerinden bir tanesi.
 
 **Arama**  
-![][1]](/images/gr_arama.gif)
+
+![1](/images/gr_arama.gif)
 
 Tüm RSS'leriniz arama imkanı sunuyor. Nispeten hızlı bir araması var.
 İlk başlarda yokken bunu farklı araçlarla sağlıyorduk.
@@ -69,7 +72,7 @@ sıralamaya kavuşturabiliyoruz.
 
 **Görsel Planı**
 
-![][2]](/images/google_reader_genel_gorunum.jpg)
+![2](/images/google_reader_genel_gorunum.jpg)
 
 Google Reader'ın görünümü gayet başarılı. Solda menüde abonelikler
 listeleniyor, ayrıca sol menü üstünde genel özelliklere erişim sağlıyor,
@@ -78,20 +81,20 @@ sağda ise feedleri görüyoruz.
 Favikon desteği sayesinde siteleri daha iyi tanıma imkanı sağlıyor. Bazı
 sitelerin favori ikonlarını görmemesi bir dezavantaj.
 
-![][3]](/images/gr_alinma_yayinlanma_zamani.gif)
+![3](/images/gr_alinma_yayinlanma_zamani.gif)
 
 Alınma ve Yayınlanama zamanını ayrı ayrı gösteriyor olması güzel.
 
-![][4]](/images/gr_abonelik_istatistik.gif)
+![4](/images/gr_abonelik_istatistik.gif)
 
 Feedlerin istatistiklerini kendi içinde görmemizi sağlıyor.
 
-![][5]](/images/gr_sakla.gif)
+![5](/images/gr_sakla.gif)
 
 Daha sonra okumak için "okunmadı olarak sakla" özelliği var. Ayrıca
 alttaki yıldız ekle yardımı ile de işaretleyebiliriz.
 
-![][6]](/images/feed_gosterimi.gif)
+![6](/images/feed_gosterimi.gif)
 
 Genişletilmiş ve Liste Şeklinde feedlerimizi listeleyebiliyoruz, benim
 tercihim genişletilmiş olarak izlemek ama çok fazla birikince listeye
@@ -151,7 +154,7 @@ Klavye kısayolları gayet başarılı. [Kısayolları listesi][] Aşağıda en
 
 Ayrıca gelişmiş bir kısayol çözümleri sunuyor google reader bize
 
-![][7]](/images/kisayollar1.gif)
+![7](/images/kisayollar1.gif)
 
 **g + u**
 
@@ -166,32 +169,32 @@ erişeceksiniz.
 
 **Paylaşım**
 
-![][8]](/images/gr_paylas.gif)
+![8](/images/gr_paylas.gif)
 
 Okuduğumuz yazıyı çok kolay bir şekilde paylaşabiliyoruz.
 
 **İstatistikler**
 
-![][9]](/images/gr_istatistik_sayfasi.gif)
+![9](/images/gr_istatistik_sayfasi.gif)
 
 Google Eğilimler sayfası sayesinde istatistiklerimizi görebiliyoruz
 
 **Dil Seçenekleri**
 
-![][10]](/images/gr_dilime_cevir.gif)
+![10](/images/gr_dilime_cevir.gif)
 
 Türkçe dil desteği mevcut. Dilime çevir özelliği ile yabancı dillerdeki
 RSS'leri izlemek daha kolay, gerçi bu özellik tam randımanlı çalışmıyor.
 
 **Öneri RSS'ler**
 
-![][11]](/images/gr_oneri.gif)
+![11](/images/gr_oneri.gif)
 
 Araştır bölümü altındaki öneriler kısmı gayet başarılı  
 
 **İçe/Dışa Aktar**
 
-![][12]](/images/gr_iceaktar_disa_aktar.gif)
+![12](/images/gr_iceaktar_disa_aktar.gif)
 
 Kolay bir içeri ve dışarı aktarma seçeneği ve xml tabanlı bir yapısı
 olduğu için gayet kolay düzenlene biliyor.
@@ -205,7 +208,7 @@ Google Gear ile internete bağlı olmadan da kullanım imkanı sağlıyor.
 
 **RSS olmayan siteleri takip imkanı**
 
-![][13]](/images/gr_rssyokmu.gif)
+![13](/images/gr_rssyokmu.gif)
 
 Bazı sitelerde RSS olmaya biliyor, bu durumda ne yapacağız, Google
 Reader bu durumda da bize yardımcı oluyor. RSS olmasa da bir web
@@ -214,7 +217,7 @@ bize haber veriyor sistem.
 
 **Feed Puanı Uygulaması**
 
-![][14]](/images/gr_pagerank.gif)
+![14](/images/gr_pagerank.gif)
 
   
 Son olarakta bir eklentiden bahsedeceğim. Greasmonkey ve [PageRank][]

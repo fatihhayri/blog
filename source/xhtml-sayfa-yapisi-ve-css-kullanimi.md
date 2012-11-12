@@ -7,24 +7,44 @@ CSS güçlüdür, çünkü CSS uygun stilleri ve bu stilleri nasıl
 uygulanacağını belirlemek için (X)HTML dökümanının yapısını kullanır.
 (X)HTML Sayfa yapısına stil uygulamanın bir çok yolu vardır. Ancak bu
 yolları öğrenmeden önce (X)HTML hiyerarşisini öğrenmemiz
-gerekir.<!--more-->
+gerekir.
 
-#### (X)HTML Döküman Hiyerarşisini Anlamak
+## (X)HTML Döküman Hiyerarşisini Anlamak
 
 Seçici(Selector) ve Döküman arasındaki ilişkiyi anlayabilmemiz için,
 dökümanların nasıl planlandığını tekrar gözden geçirmemiz gerekir.
-Aşağıdaki basit (X)HTML dökümanı üzerine biraz düşünelim: 	:::html
-	 <html> <head> <title> CSS (X)HTML Hiyerarşisi
-</title> </head> <body> <h1>CSS<em>(X)HTML Hiyerarşisi
-</em></h1> Sitemize hoş geldiniz <em>Merhaba</em>biz
-<strong>sizler için <a href="konu.html"> bazı <em>önemli</em>
-konular </a></strong>! hazırladık <ul> <li>Konu Başlıkları :
-<ul> <li><strong>Asıl</strong> Giriş</li> <li>Önsöz</li>
-<li><em>ilk</em> bölüm: <ol> <li>Elma</li>
-<li>Armut</li> <li>Karpuz</li> </ol> </li> </ul> </li>
-<li>...vd.</li> </ul> <p>Ayrıntılılı bilgi çin <a
-href="mailto:bilgi@zerzebvat.com"> mesaj gönder </a></p> </body>
-</html>  CSS'in güçlü olmasının en büyük nedeni (X)HTML
+Aşağıdaki basit (X)HTML dökümanı üzerine biraz düşünelim: 	
+
+	:::html
+	<html>
+	<head>
+	<title> CSS (X)HTML Hiyerarşisi </title>
+	</head>
+	<body>
+	<h1>CSS<em>(X)HTML Hiyerarşisi </em></h1>
+	Sitemize hoş geldiniz <em>Merhaba</em>biz <strong>sizler için <a href="konu.html"> bazı <em>önemli</em> konular </a></strong>! hazırladık
+	<ul>
+	    <li>Konu Başlıkları :
+	        <ul>
+	        <li><strong>Asıl</strong> Giriş</li>
+	        <li>Önsöz</li>
+	        <li><em>ilk</em> bölüm:
+	            <ol>
+	            <li>Elma</li>
+	            <li>Armut</li>
+	            <li>Karpuz</li>
+	            </ol>
+	        </li>
+	        </ul>
+	    </li>
+		<li>...vd.</li>
+	</ul>
+	<p>Ayrıntılılı bilgi çin <a href="mailto:bilgi@zerzebvat.com"> mesaj gönder </a></p>
+	</body>
+	</html>  
+
+
+CSS'in güçlü olmasının en büyük nedeni (X)HTML
 elementleri arasındaki ilişkiden yararlanmasıdır. (X)HTML dökümanları
 gizli bir hiyararşi ile oluşturulur. Bu hiyerarşi içinde tüm (X)HTML
 elementleri kendilerine uygun bir yer bulur. Bu ilişkiyi biz **soy
@@ -48,7 +68,7 @@ incelersek ilk **ul** elementinin iki adet **li** çocuk elementi
 bulunmaktadır ve bu iki **li** elementinin altındaki tüm elementler ilk
 **ul** elementinin torun elementleridir.
 
-#### Torun Seçicileri (Descendant Selectors)
+## Torun Seçicileri (Descendant Selectors)
 
 Bu modelin avantajlarından birisi Torun Seçicileridir(diğer bir
 isimleride içiçe seçicilerdir). Torun Seçicilere yapılan tanımlama
@@ -59,56 +79,92 @@ tanımlaması yapılarak her **h1** elementi altındaki **em** elementini
 tek tek seçerek bu sınıfı uygulamamız gerekir ki bunun **font** etiketi
 uygulmasından farkı yoktur. Açıkcası bu işlemi yapmak uzun zaman
 alacaktır. Ancak Torun Seçicisi kullanarak bu işi kolayca yapabilriz.
-örnek kod yazarsak: 	:::css
-	 h1 em { color: gray; }
- Bu kod dökümandaki atası **h1** olan tüm **em**
-elementlerini gri yapacaktır. Diğer **em**'ler ise bu kuralı
+örnek kod yazarsak: 	
+
+	:::css
+	h1 em { 
+		color: gray; 
+	}
+
+Bu kod dökümandaki atası **h1** olan tüm **em** elementlerini gri yapacaktır. Diğer **em**'ler ise bu kuralı
 uygulamayacaktır. Torun Seçicilerde, seçici kısmı birbirinden bir
 boşlukla ayrılmış iki veya daha fazla seçiciden oluşur. Aradaki boşluk
 bağlayıcı özellik taşır. Sadece iki elementle sınırlı değiliz, sınırsız
-element tanımlayabiliriz. 	:::css
-	 ul ol ul em {
-color: gray; }  Torun Seçiciler çok kuvvetli olabilirler.
-Onlar (X)HTML ile yapılmasının imkanı olmayan işler yaparlar. Örnek bir
+element tanımlayabiliriz. 	
+
+	:::css
+	ul ol ul em {
+		color: gray; 
+	}  
+
+Torun Seçiciler çok kuvvetli olabilirler. Onlar (X)HTML ile yapılmasının imkanı olmayan işler yaparlar. Örnek bir
 dökümanda iki adet alan oluşturduğumuzu düşünün birinci alanın
 ardalanı(background) mavi, ikinci alanın ardaalanının beyaz olduğunu
 düşünün ve her iki alanın içinde de linkler olduğunu farz edelim. Tüm
 linkleri mavi olarak atamamız mümkün olmayacaktır çünkü ilk alanın
 ardaalanı mavi olduğu için linkler görünmeyecektir. Çözüm Torun
 Seçicilerindedir; ilk alan içindeki linklere farklı renk diğerlerine
-farklı renk tanımlaması yaparak bu işi halledebiliriz. 	:::css
-	 td.sidebar { background: blue; } td.main { background:
-white; } td.sidebar a:link { color: white; } td.main a:link { color:
-blue; }  Bir örnek daha verelim. **blockquote** ve **p**
-elementleri içindeki **b** elementi ile **blockquote** içinde ve normal
-paragraf içinde geçen **b** elementlerine özel bir atama yapmak
-istiyoruz bunun için kod yazarsak: 	:::css
+farklı renk tanımlaması yaparak bu işi halledebiliriz. 	
+
+	:::css
+	td.sidebar {
+		background: blue;
+	}
+	td.main {
+		background: white;
+	}
+	td.sidebar a:link {
+		color: white;
+	}
+	td.main a:link {
+		color: blue;
+	}  
 	
-blockquote b, p b { color: gray; }  Koda dikkat edersek her
-iki atamayı ayrı ayrı yapmak yerine araya bir virgül koyarak birlikte
+Bir örnek daha verelim. **blockquote** ve **p** elementleri içindeki **b** elementi ile **blockquote** içinde ve normal
+paragraf içinde geçen **b** elementlerine özel bir atama yapmak
+istiyoruz bunun için kod yazarsak: 	
+
+	:::css
+	blockquote b, p b { 
+		color: gray; 
+	}  
+	
+Koda dikkat edersek her iki atamayı ayrı ayrı yapmak yerine araya bir virgül koyarak birlikte
 yaptığımızı görürsünüz.
 
-<div class="tarayiciuyum">
-**Browser Uyumu:**
 
-</p>
-Internet Explorer 5.0, 5.5, 6.0, 7.0: destekliyor ; Netscape Navigator
-6.0, 7.0: destekliyor ; Mozilla 1.0: destekliyor ; Opera 5.0 ' 6.0:
-destekliyor
+**Tarayıcı Uyumu**   
+Firefox   
+Chrome   
+Safari   
+Opera   
+İnternet Explorer    
+**Mobil Tarayıcılar**  
+iOS Safari   
+Opera Mobile  
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-#### Çocuk Seçicileri
+## Çocuk Seçicileri
 
 Bazı durumlarda keyfi olarak bir torun seçicisi kullanmaktansa daha
 ayrıntılı bir ayrım yapmak isteyebiliriz. Örneğin bir **h1** elementinin
 altındaki**strong** elementlerinden **sadece** Çocuk Elementi için
 tanımlamalar yapmak istersek (torun elementleri hariç), Bunun için çocuk
-bağlayıcısını kullanırız ( > ) büyüktür işareti 	:::css
-	 h1 > strong { color: red; }  	:::html
-	<h1>Bu <strong>koda</strong>
-uygulanacaktır.</h1> <h1>Bu <em>koddaki <strong> bu kısım
-</strong></em> uygulama dışıdır..</h1>  Yukardaki
-durumda sadece ilk **strong** elementi için tanımlama gerçekleşecektir
+bağlayıcısını kullanırız ( > ) büyüktür işareti 	
+
+	:::css
+	h1 > strong { 
+		color: red; 
+	}  	
+	
+HTML;
+
+	:::html
+	<h1>Bu <strong>koda</strong> uygulanacaktır.</h1>
+	<h1>Bu <em>koddaki <strong> bu kısım </strong></em> uygulama dışıdır..</h1>
+
+Yukardaki durumda sadece ilk **strong** elementi için tanımlama gerçekleşecektir
 ikincisi için herhangi bir stil tanımı uygulanmayacaktır.
 
 ![][1]
@@ -120,46 +176,64 @@ Ancak **p** elementi **strong**'un ebeveyni değildir. Biz burada p > a
 ve a > strong şeklinde tanımlama yapabilriz ancak p > strong
 tanımlamasını yapamayız. Birde aynı seçici içinde hem torun
 birleştiricisini hemde çocuk birleştiricisini kullanabiliriz.
+	
 	:::css
-	 table.summary td > p 
+	table.summary td > p 
 
-<div class="tarayiciuyum">
-**Browser Uyumu** :
 
-</p>
-Internet Explorer 5.0, 5.5, 6.0: *desteklemiyor* (7.0 destekliyor)
-Netscape Navigator 6.0, 7.0: destekliyor Mozilla 1.0: destekliyor Opera
-5.0 ' 6.0: destekliyor
+**Tarayıcı Uyumu**  
+Firefox   
+Chrome   
+Safari   
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari   
+Opera Mobile  
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-#### Bitişik Kardeş Seçiciler
+## Bitişik Kardeş Seçiciler
 
 Bitişik Kardeş Seçicileri biribiri ardına gelen aynı seviyedeki
 elementlerden sonra gelenine stil tanımlamak için kullanılır. Tam olarak
 "Bir Ufak Kardeş Seçicisi" olmalıdır. Bir örnek verelim bir başlığımız
 var ve sonrasında ard arda paragraflar geliyor. Biz başlık ile hemen
 ardından gelen paragrafın arasına mesafe koymak için bu seçiciyi
-kullanabiliriz. 	:::html
-	 <body> <h2>Başlık
-2</h2> <p>Buraya <em>önemli</em> ve <strong>iyi</strong>kod
-gir</p> <p>Buraya <em>önemli</em> ve <strong>iyi</strong>kod
-gir</p> </body>  Dökümanın yapısı:
+kullanabiliriz. 	
+
+	:::html
+	<body>
+	    <h2>Başlık 2</h2>
+	    <p>Buraya <em>önemli</em> ve <strong>iyi</strong>kod gir</p>
+	    <p>Buraya <em>önemli</em> ve <strong>iyi</strong>kod gir</p>
+	</body>
+
+Dökümanın yapısı:
 
 ![][2]
 
 Biz burada **h2** ve **h3** arasında boşluk vermek için aşağıdaki kodu
-kullanırız: 	:::css
-	 h2 + p { margin-top: 10px; }
+kullanırız: 	
+
+	:::css
+	h2 + p { 
+		margin-top: 10px; 
+	}
 
 
-<div class="tarayiciuyum">
-**Browser Uyumu** :
+**Tarayıcı Uyumu**  
+Firefox   
+Chrome    
+Safari    
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari   
+Opera Mobile  
+Android Browser
+{: .tarayiciuyum}
 
-</p>
-Internet Explorer 6.0: *desteklemiyor* (7.0 destekliyor) Firefox 1.0 +
-Opera 9.5+ Chrome 2+ Safari1.3+
-
-</div>
 Sonuç olarak konunun başında söylediğimiz gibi CSS, (X)HTML
 elementlerinin kendi aralarındaki ilişkileri kullanarak bize bir çok
 avantaj sağlar. Bu sayede bir çok kod yığınından kurtulmuş oluruz ve
@@ -168,32 +242,39 @@ anlayacağız. **Çocuk Seçicileri** ve **Bitişik Kardeş Seçicileri**'ni
 Internet Explorer 7 versiyonundan itibaren desteklemeye başlamıştır. Bu
 nedenle kullanımı konusunda dikkat etmeliyiz.
 
-#### Genel Seçiciler
+## Genel Seçiciler
 
 Genel Seçiciler bir elementi bütüne uygulamak için kullanılır bu işlem
 için * işareti kullanılır. Aşağıdaki kod tüm elementleri kırmızı
 yapacaktır.
 
 	:::css
-	 * { color:red; } 
+	* { 
+		color:red; 
+	} 
 
 Ayrıca bir katmanın içindeki sınıflara uygulamak istersek
 
 	:::css
-	 div .uyari * { color:red; } 
+	div .uyari * { 
+		color:red; 
+	} 
 
 katman, .uyari sınıfı içindeki tüm elementler kırmızı olacaktır.
 
-<div class="tarayiciuyum">
-**Browser Uyumu** :  
-  
-Internet Explorer 5.0, 5.5, 6.0,7.0 destekliyor  
-Netscape Navigator 6.0, 7.0: destekliyor  
-Mozilla 1.0: destekliyor  
-Opera 5.0 ' 6.0: destekliyor
+**Tarayıcı Uyumu**  
+Firefox   
+Chrome   
+Safari   
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari   
+Opera Mobile  
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-</p>
+
 
   []: /images/hiyerarsi.gif
   [1]: /images/hiyerarsi02.gif

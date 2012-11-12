@@ -6,7 +6,7 @@ Tags: ardalan-özellikleri, background, background-attachment, background-color,
 CSS, web kodlayıcılarına (X)HTML dökümanlarına stil uygulamalarını
 sağlar. (X)HTML kodu ile stil kodunu birbirinden ayırarak web
 kodlayıcılara büyük kolaylıklar sağlar. Burada genel kullanılan CSS
-özelliklerini hep beraber tek tek kısaca inceleyeceğiz.<!--more-->
+özelliklerini hep beraber tek tek kısaca inceleyeceğiz.
 
 Burada tanımlanacak CSS özellikleri 15 Haziran 2005'de yürürlüğe giren
 CSS2.1 standartlarına göre yazılmıştır.
@@ -25,24 +25,24 @@ Sırası ile aşağıdaki özelliklere değinilecektir.
 
 Burada standart bir özellik tanımı kullanılacaktır.
 
-<div class="cssozelliktanimi">
-**Yapısı :** özellik_ismi: <deger>  
+**Yapısı :** özellik_ismi: <deger\>  
 **Aldığı Değerler :** alınan_deger1 | alınan_deger2 {1,4}*   
 **Başlangıç değeri:** Özelliğin atama yapılmadığı zaman ki değeri   
-**Uygulanabilen elementler:** özelliğin uygulanacağı elementlerin
-isimleri   
-**Kalıtsallık:** Bu özelliğin atanması halinde alt elementlerini(örn:
-çocuk ve torun elementlerini) etkileyip etkilemeyeceği
+**Uygulanabilen elementler:** özelliğin uygulanacağı elementlerin isimleri   
+**Kalıtsallık:** Bu özelliğin atanması halinde alt elementlerini(örn: çocuk ve torun elementlerini) etkileyip etkilemeyeceği
+{: .cssozelliktanimi}
 
-</div>
-* Bu işaretin anlamı bu özelliğin 1'den 4'e kadar değer alabileceğini
-gösterir. Örneğin:
+(*) Bu işaretin anlamı bu özelliğin 1'den 4'e kadar değer alabileceğini
+gösterir. 
 
+Örneğin:
+	
 	:::css
-	 p.deneme { border-style: solid dashed dotted
-solid; } 
+	p.deneme { 
+		border-style: solid dashed dotted solid; 
+	} 
 
-### CSS - Zemin(BACKGROUND) Özellikleri
+## CSS - Zemin(BACKGROUND) Özellikleri
 
 ![Kutu Modeli][]
 
@@ -62,92 +62,131 @@ Zemin özelliklerini tek tek incelersek:
 -   background-position
 -   background
 
-## background-color
+### background-color
 
 Elementlerin zeminine bir renk atamak için kullanılır.
 
-**Yapısı :** background-color: <deger>  
+**Yapısı :** background-color: <deger\>  
 **Aldığı Değerler :** [renk][] | transparent  
 **Başlangıç değeri:** transparent  
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 **Örnek:**
 
 	:::css
-	 p { background-color: #ddd; } 
+	p { 
+		background-color: #ddd; 
+	} 
 
-<div class="tarayiciuyum">
-**Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
-W3C's CSS Level 1+
-
-</div>
-## background-image
+**Tarayıcı Uyumu**
+Firefox    
+Chrome   
+Safari    
+Opera   
+İnternet Explorer    
+**Mobil Tarayıcılar**  
+iOS Safari   
+Opera Mobile  
+Android Browser
+{: .tarayiciuyum}
+	
+### background-image
 
 Elementlerin zeminine resim eklemek için kullanılır.
 
-**Yapısı :** background-image: <deger>  
+**Yapısı :** background-image: <deger\>  
 **Aldığı Değerler :** [url][renk] | none   
 **Başlangıç değeri:** none   
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 **Örnek:**
 
 	:::css
-	 body { background-image:
-url(/images/deneme.gif) } 
+	body { 
+		background-image: url(/images/deneme.gif) 
+	} 
 
-<div class="tarayiciuyum">
-**Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
-W3C's CSS Level 1+
-
-</div>
-## background-repeat
+**Tarayıcı Uyumu**
+Firefox   
+Chrome   
+Safari   
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari   
+Opera Mobile  
+Android Browser
+{: .tarayiciuyum}
+	
+### background-repeat
 
 **background-repeat** özelliği **background-image** ile zemine eklenen
 resmin tekrarı ile özellikleri belirler.
 
-**Yapısı :** background-image: <deger>  
+**Yapısı :** background-image: <deger\>  
 **Aldığı Değerler :** repeat | repeat-x | repeat-y | no-repeat   
 **Başlangıç değeri:** repeat   
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 **Örnek:**
 
 	:::css
-	 body { background: white url(deneme.gif);
-background-repeat: repeat-x; } 
+	body { 
+		background: white url(deneme.gif);
+		background-repeat: repeat-x; 
+	} 
 
-<div class="tarayiciuyum">
-**Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
-W3C's CSS Level 1+
-
-</div>
-## background-attachment
+**Tarayıcı Uyumu**
+Firefox   
+Chrome   
+Safari   
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari   
+Opera Mobile  
+Android Browser
+{: .tarayiciuyum}
+	
+### background-attachment
 
 **background-attachment** özelliği zemine eklenen resmin sayfa ile
 scroll etmesini veya sayfanın zeminin de çakılı kalmasını sağlar.
 
-**Yapısı :** background-attachment: <deger>  
+**Yapısı :** background-attachment: <deger\>  
 **Aldığı Değerler :** scroll | fixed   
 **Başlangıç değeri:** scroll   
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 **Örnek:**
 
 	:::css
-	 body { background: white url(deneme.gif);
-background-attachment: fixed; } 
+	body { 
+		background: white url(deneme.gif);
+		background-attachment: fixed; 
+	} 
 
-<div class="tarayiciuyum">
-**Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
-W3C's CSS Level 1+
+**Tarayıcı Uyumu**
+Firefox   
+Chrome   
+Safari   
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari   
+Opera Mobile  
+Android Browser 
+{: .tarayiciuyum}
 
-</div>
-## background-position
+### background-position
 
 **background-position** özelliği **background-image** ile belirlenen
 resmin başlangıç noktasını belirler. Bu özellik sadece [block-level][]
@@ -155,12 +194,13 @@ ve replaced(Bu elementler kendine özgü boyutları olan elementler olarak
 tanımlanabilir. Örn: **IMG**, **INPUT**, **TEXTAREA**, **SELECT**, ve
 **OBJECT**) elementlere uygulanır.
 
-**Yapısı :** background-position: <deger>  
+**Yapısı :** background-position: <deger\>  
 **Aldığı Değerler :** [[<percentage>][renk] | [<length>][renk]]{1,2}
 | [top | center | bottom] || [left | center | right]  
 **Başlangıç değeri:** 0% 0%   
 **Uygulanabilen elementler:** [Block-level ve replaced elementler][renk]  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 En kolay kullanım şekli;   
 Yatay değerler için: left,center,right  
@@ -194,43 +234,70 @@ edilecektir. Yüzde değerler ve uzunluk değerleri eksi değerler alabilir.
 **Örnek:**
 
 	:::css
-	 body { background-image: url(deneme.gif);
-background-repeat: no-repeat; background-position: center; }
+	body { 
+		background-image: url(deneme.gif);
+		background-repeat: no-repeat; 
+		background-position: center; 
+	}
 
 
-<div class="tarayiciuyum">
-**Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
-W3C's CSS Level 1+
+**Tarayıcı Uyumu**
+Firefox   
+Chrome    
+Safari   
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari   
+Opera Mobile  
+Android Browser 
+{: .tarayiciuyum}
 
-</div>
-## background
+### background
 
 Bu özellik Zemin(background) ile ilgili tüm özelliklerin bir arada
 kullanımı sağlar.
 
-**Yapısı :** background: <deger>  
-**Aldığı Değerler :** <background-color><background-color> ||
-<background-image> || <background-repeat> ||
-<background-attachment> || <background-position>   
+**Yapısı :** background: <deger\>  
+**Aldığı Değerler :** <background-color\><background-color\> || <background-image\> || <background-repeat\> || <background-attachment\> || <background-position\>   
 **Başlangıç değeri:** Tanımsız   
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 **Örnek:**
 
 	:::css
-	 body{ background: white url(deneme.gif) }
-blockquote { background: #f00 } p { background:
-url(../images/deneme.png) #f00 fixed } table{ background: #0c0
-url(deneme.jpg) no-repeat bottom right } 
+	body{ 
+		background: white url(deneme.gif) 
+	}
+	
+	blockquote { 
+		background: #f00 
+	} 
+	
+	p { 
+		background: url(../images/deneme.png) #f00 fixed 
+	} 
+	
+	table{ 
+		background: #0c0 url(deneme.jpg) no-repeat bottom right 
+	} 
 
-<div class="tarayiciuyum">
-**Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
-W3C's CSS Level 1+
+**Tarayıcı Uyumu**  
+Firefox   
+Chrome   
+Safari   
+Opera    
+İnternet Explorer    
+**Mobil Tarayıcılar**   
+iOS Safari   
+Opera Mobile  
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-</p>
 
-  [Kutu Modeli]: http://fatihhayrioglu.com/images/basit_boxmodel.gif
+
+  [Kutu Modeli]: /images/basit_boxmodel.gif
   [renk]: http://www.fatihhayrioglu.com/?p=95
   [block-level]: #
