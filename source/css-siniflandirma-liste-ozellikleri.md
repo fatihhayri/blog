@@ -5,7 +5,7 @@ Tags: CSS, display, list-style, list-style-image, list-style-position, list-styl
 
 Liste özelliği ilk olarak listeleme amaçlı kullanılsa da şimdilerde menü
 yapımında kullanımı revaçtadır. Burada liste özellikleri yanısıra
-display ve white-space özelliklerinden de bahsedilecektir. <!--more-->
+display ve white-space özelliklerinden de bahsedilecektir. 
 
 -   list-style
 -   list-style-type
@@ -14,89 +14,142 @@ display ve white-space özelliklerinden de bahsedilecektir. <!--more-->
 -   white-space
 -   display
 
-## list-style-type <a name="02"></a>
+## list-style-type
 
-**Yapısı :** list-style-type: <deger> **Aldığı Değerler :** disc |
-circle | square | decimal | lower-roman | upper-roman | lower-alpha |
-upper-alpha | none **Başlangıç değeri:** disc **Uygulanabilen
-elementler:** [display][] değeri list-item alan elementler
+**Yapısı :** list-style-type: <deger\>   
+**Aldığı Değerler :** disc | circle | square | decimal | lower-roman | upper-roman | lower-alpha | upper-alpha | none   
+**Başlangıç değeri:** disc 
+**Uygulanabilen elementler:** [display][] değeri list-item alan elementler   
 **Kalıtsallık:** Var
+{: .cssozelliktanimi}
 
 **list-style-type** özelliği list-item işaretinin tipini belirler.
 list-style-images özelliği **none** değeri aldığında veya resim
 görüntülenemediğinde kullanılır.
 
 	:::css
-	 ul.arabalar { list-style-type: none } ol ol
-ol { list-style-type: lower-roman /* i ii iii iv v gibi. */ }
+	ul.arabalar { 
+		list-style-type: none 
+	} 
+	
+	ol ol ol { 
+		list-style-type: lower-roman /* i ii iii iv v gibi. */ 
+	}
 
 
-<div class="tarayiciuyum">
-**Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
-W3C's CSS Level 2+
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-## list-style-image<a name="03"></a>
+## list-style-image
 
-**Yapısı :** list-style-image: <deger> **Aldığı Değerler :**
-<[url][]> | none **Başlangıç değeri:** none **Uygulanabilen
-elementler:** [display][] değeri list-item alan elementler
+**Yapısı :** list-style-image: <deger\>   
+**Aldığı Değerler :** <[url][]> | none   
+**Başlangıç değeri:** none   
+**Uygulanabilen elementler:** [display][] değeri list-item alan elementler   
 **Kalıtsallık:** Var
+{: .cssozelliktanimi}
 
 **list-style-image** özelliği list-style işaretinin yerine resim koymak
-için kullanılır. 	:::css
-	 ul{ list-style-image:
-url(mavitop.gif) } 
+için kullanılır. 	
 
-<div class="tarayiciuyum">
-**Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
-W3C's CSS Level 2+
+	:::css
+	ul{ 
+		list-style-image: url(mavitop.gif) 
+	} 
 
-</div>
-## list-style-position<a name="04"></a>
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-**Yapısı :** list-style-position: <deger> **Aldığı Değerler :** inside
-| outside **Başlangıç değeri:** outside **Uygulanabilen elementler:**
-tüm elementler **Kalıtsallık:** Yok
+## list-style-position
+
+**Yapısı :** list-style-position: <deger\>   
+**Aldığı Değerler :** inside | outside   
+**Başlangıç değeri:** outside   
+**Uygulanabilen elementler:** tüm elementler   
+**Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 **list-style-position** özelliği **list-item** işaretlerin metinin
 içinden(inside) veya soldan dışında(outside) mı olacağını belirler.
 
 	:::css
-	 ul{ list-style-position: inside }
+	ul{ 
+		list-style-position: inside 
+	}
 
 
-<div class="tarayiciuyum">
-**Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
-W3C's CSS Level 2+
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-## list-style<a name="01"></a>
 
-<div class="cssozelliktanimi" id="ozelliktanim">
-**Yapısı :** list-style: <deger> **Aldığı Değerler :**
-<list-style-type> |<list-style-position> | <[url][]> **Başlangıç
-değeri:**0 **Uygulanabilen elementler:** display değeri list-item alan
-elementler **Kalıtsallık:** Var
+## list-style
 
-</div>
+**Yapısı :** list-style: <deger\>    
+**Aldığı Değerler :** <list-style-type\> |<list-style-position\> | <[url][]>   
+**Başlangıç değeri:**0   
+**Uygulanabilen elementler:** display değeri list-item alan elementler   
+**Kalıtsallık:** Var
+{: .cssozelliktanimi}
+
 **list-style** özelliği list-style-type, list-style-position ve
 list-style-image özelliklerinin kısayoludur.
 
 	:::css
-	 ul{ list-style: disc outside } ol{
-list-style: decimal inside } 
+	ul{ 
+		list-style: disc outside 
+	} 
+	
+	ol{ 
+		list-style: decimal inside 
+	} 
 
-<div class="tarayiciuyum">
-**Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
-W3C's CSS Level 2+
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-## white-space<a name="05"></a>
+## white-space
 
-**Yapısı :** white-space: <deger> **Aldığı Değerler :** normal | pre |
-nowrap **Başlangıç değeri:** normal **Uygulanabilen elementler:**
-[Block-level elementler][] **Kalıtsallık:** Var
+**Yapısı :** white-space: <deger\>   
+**Aldığı Değerler :** normal | pre | nowrap    
+**Başlangıç değeri:** normal   
+**Uygulanabilen elementler:** [Block-level elementler][]   
+**Kalıtsallık:** Var
+{: .cssozelliktanimi}
 
 **white-space**özelliği elemetlerin boşluklarının nasıl işlem göreceğini
 belirler. değer alır. **normal:** birden fazla boşluğu tek boşluk gibi
@@ -104,21 +157,31 @@ sayar. **pre :** birden fazla boşluğu birleştirmez. **nowrap :** <br>
 etiketi hariç alt satıra geçişe izin vermez.
 
 	:::css
-	 p { white-space: pre; } 
+	p { 
+		white-space: pre; 
+	} 
 
-<div class="tarayiciuyum">
-**Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
-W3C's CSS Level 2+
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-## display<a name="06" id="06"></a>
+## display
 
-**Yapısı :** display: <deger> **Aldığı Değerler :** none | inline |
-block | inline-block | list-item | run-in | table | inline-table |
-table-row-group | table-header-group | table-footer-group | table-row |
-table-column-group | table-column | table-cell | table-caption | inherit
-**Başlangıç değeri:** inline **Uygulanabilen elementler:** tüm
-elementler **Kalıtsallık:** Yok
+**Yapısı :** display: <deger\>   
+**Aldığı Değerler :** none | inline | block | inline-block | list-item | run-in | table | inline-table | table-row-group | table-header-group | table-footer-group | table-row |
+table-column-group | table-column | table-cell | table-caption | inherit   
+**Başlangıç değeri:** inline    
+**Uygulanabilen elementler:** tüm elementler   
+**Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 **display**özelliği elemetlere aşağıdaki dört değerden birini atamak
 için kullanılır: **block:** elementden önce ve sonra bir satır bırakır.
@@ -130,15 +193,25 @@ uygulmasında kullanılan bir özelliktir.
 Bu dört özellik çok kullanıldıkları için üzerinde duruldu.
 
 	:::css
-	 p { display: inline; } em { display: block;
-} 
+	p { 
+		display: inline; 
+	} 
+	
+	em { 
+		display: block;
+	} 
 
-<div class="tarayiciuyum">
-**Tarayıcı Uyumu:** Internet Explorer+ Firefox+ Chrome+ Safari+ Opera+
-W3C's CSS Level 2+
-
-</div>
-</p>
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
   [display]: #
   [url]: http://www.fatihhayrioglu.com/?p=95

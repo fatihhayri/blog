@@ -5,7 +5,7 @@ Category: CSS
 Tags: Border, border-bottom, border-left, border-right, border-top, CSS, kenarlık
 
 Kenarlık(border), içerik alanı ve padding etrafındaki bir veya daha
-fazla çizgiye denir.<!--more-->
+fazla çizgiye denir.
 
 ![Kutu Modeli][]
 
@@ -24,14 +24,13 @@ Sırasıyla incelersek:
 
 ## border-style
 
-<div class="cssozelliktanimi">
-**Yapısı :** border-style: <deger>  
-**Aldığı Değerler :** [ none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset ]{1,4} | inherit  
-**Başlnagıç değeri:**tanımlama yok   
+**Yapısı :** border-style: <deger>    
+**Aldığı Değerler :** [ none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset ]{1,4} | inherit    
+**Başlnagıç değeri:**tanımlama yok     
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-</div>
 **border-style** özelliği kenarlık stilini belirlememizi sağlar.(Örn:
 dotted(noktalı), double(çift) vd.) 10 farklı değeri CSS
 desteklemektedir. Bu özellik kenarlığın görünmesi için tanımlanması
@@ -42,146 +41,166 @@ veya üç değer ataması yapılmış ise [margin][]'de gördüğümüz sıralam
 konusudur.
 
 	:::css
-	 p.yeni { border-style: solid; }
+	p.yeni { 
+		border-style: solid; 
+	}
 
 
-<div class="tarayiciuyum">
-**Browser Uyumu:**  
-Internet Explorer 4+   
-Netscape 4+   
-Opera 3.6+  
-W3C's CSS Level 1+  
-CSS Profile 1.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
 ## border-top-style, border-right-style, border-bottom-style, border-left-style
 
-<div class="cssozelliktanimi">
 **Yapısı :** border-[top,left,right,bottom]-style: <deger>  
 **Aldığı Değerler :** none | hidden | dotted | dashed | solid | double
 | groove | ridge | inset | outset | inherit  
 **Başlangıç değeri:** tanımlama yok   
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-</div>
 **border-top-style, border-right-style, border-bottom-style,
 border-left-style** border-style özelliğinin her kenara ayrı ayrı
 atamasını yapabilmek için kullanılır.
 
 	:::css
-	 h1{ border-style: solid; border-left-style:
-none; } 
+	h1{ 
+		border-style: solid; 
+		border-left-style: none; 
+	} 
 
-<div class="tarayiciuyum">
-**Browser Uyumu:**  
-Internet Explorer 4+(kısmen),6+ (tam)  
-Netscape 4+(kısmen), 6+ (tam)  
-Opera 3.6+  
-W3C's CSS Level 1+  
-CSS Profile 1.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
 ## border-width
 
-<div class="cssozelliktanimi">
-**Yapısı :** border-width: <deger>  
+**Yapısı :** border-width: <deger\>  
 **Aldığı Değerler :** [ thin | medium | thick | <[uzunluk değeri][]> ]{1,4} | inherit  
 **Başlnagıç değeri:** tanımlama yok  
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-</div>
 İlk olarak stili belirledikten sonra kenarlık kalınlığını belirlemek
 için **border-width** değeri kullanılır.
 
-<p>
-**border-width** yüzde değeri alamaz. 	:::css
-	 p {
-margin: 5px; background-color: silver; border-style: solid;
-border-width: 1px; }
+**border-width** yüzde değeri alamaz. 	
 
-</ol>
+	:::css
+	p {
+		margin: 5px; 
+		background-color: silver; 
+		border-style: solid;
+		border-width: 1px; 
+	}
 
 
-<div class="tarayiciuyum">
-**Browser Uyumu:**  
-Internet Explorer 4+   
-Netscape (kısmen), 6+(tam)   
-Opera 3.6+  
-W3C's CSS Level 1+  
-CSS Profile 1.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
 ## border-top-width, border-right-width, border-bottom-width, border-left-width
 
-<div class="cssozelliktanimi">
-**Yapısı :** border-[top,left,right,bottom]-width: <deger>  
+**Yapısı :** border-[top,left,right,bottom]-width: <deger\>  
 **Aldığı Değerler :** thin | medium | thick | <[uzunluk değeri][] > |
 inherit  
 **Başlnagıç değeri:** tanımlama yok  
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-</div>
 **border-top-width, border-right-width, border-bottom-width,
 border-left-width** border-width özelliğinin her kenara ayrı ayrı
 atamasını yapabilmek için kullanılır.
 
 	:::css
-	 h2 { border-left-width: medium;
-border-style: solid; } 
+	h2 { 
+		border-left-width: medium;
+		border-style: solid; 
+	} 
 
-<div class="tarayiciuyum">
-**Browser Uyumu:**  
-Internet Explorer 4+ (kısmen), 6+(tam)   
-Netscape 4+(kısmen), 6+ (tam)  
-Opera 3.6, 4+  
-W3C's CSS Level 1+  
-CSS Profile 1.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
 ## border-color
 
-<div class="cssozelliktanimi">
-**Yapısı :** border-color: <deger>  
+**Yapısı :** border-color: <deger\>  
 **Aldığı Değerler :** [ <[renk][uzunluk değeri]> | transparent ]{1,4}
 | inherit  
 **Başlnagıç değeri:** tanımlama yok  
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-</div>
 **border-color** özelliği kenarlık rengini belirler. (X)html'deki
 **bordercolor** ile benzerdir.
 
 	:::css
-	 p { border-style: solid; border-color: gray;
-} 
+	p { 
+		border-style: solid; 
+		border-color: gray;
+	} 
 
 Tek değer tüm kenarlık renklerini belirler, her kenar için ayrı renk
 tanımlamasıda yapılabilir.
 
-<div class="tarayiciuyum">
-**Browser Uyumu:**  
-Internet Explorer 4+  
-Netscape 4+(kısmen), 6+(tam)  
-Opera 3.6+  
-W3C's CSS Level 1+  
-CSS Profile 1.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
 ## border-top-color, border-right-color, border-bottom-color, border-left-color
 
-<div class="cssozelliktanimi">
-**Yapısı :** border-[top,left,right,bottom]-color: <deger>  
+**Yapısı :** border-[top,left,right,bottom]-color: <deger\>  
 **Aldığı Değerler :** [ <[renk][uzunluk değeri]> | transparent ]{1,4}
 | inherit  
 **Başlnagıç değeri:** tanımlama yok  
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-</div>
 **border-color**özelliğinin her kenara ayrı ayrı atamasını yapabilmek
 için kullanılır.
 
@@ -190,55 +209,66 @@ CSS2 ile birlikte gelen transparent özelliği vardır ki bu kenarlığı yok
 etmez sadece görünmez yapar.
 
 	:::css
-	 p { border-style: solid; border-color: gray;
-} 
+	p { 
+		border-style: solid; 
+		border-color: gray;
+	} 
 
 Tek değer tüm kenarlık renklerini belirler, her kenar için ayrı renk
 tanımlamasıda yapılabilir.
 
-<div class="tarayiciuyum">
-**Browser Uyumu:**  
-Internet Explorer 4+  
-Netscape 4+(kısmen), 6+(tam)  
-Opera 3.6+  
-W3C's CSS Level 1+  
-CSS Profile 1.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
 ## border
 
 **Yapısı :** border: <[deger][uzunluk değeri]>  
-**Aldığı Değerler :** <border-width> | <border-style> |
-<[renk][uzunluk değeri]>   
+**Aldığı Değerler :** <border-width\> | <border-style\> | <[renk][uzunluk değeri]>   
 **Başlnagıç değeri:** tanımlama yok  
 **Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 **border**yukarıda sıraladığımız özellikleri tek sefer de tanımlamak
 için kullanılır. Bir [kısaltmadır][].
 
 	:::css
-	 h1 { border: thick silver solid; }
+	h1 { 
+		border: thick silver solid; 
+	}
 
 
 Bu özellikleri tek tek atamak isteseydik şöyle bir kod yazmamız
 gerekecekti.
 
 	:::css
-	 h1 { border-top: thick silver solid;
-border-bottom: thick silver solid; border-right: thick silver solid;
-border-left: thick silver solid; }
+	h1 { 
+		border-top: thick silver solid;
+		border-bottom: thick silver solid; 
+		border-right: thick silver solid;
+		border-left: thick silver solid; 
+	}
 
-<div class="tarayiciuyum">
-**Browser Uyumu:**  
-Internet Explorer 4+  
-Netscape 4+(kısmen), 6+(tam)  
-Opera 3.6+  
-W3C's CSS Level 1+  
-CSS Profile 1.0
-
-</div>
-</p>
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
   [Kutu Modeli]: http://fatihhayrioglu.com/images/basit_boxmodel.gif
   [margin]: http://www.fatihhayrioglu.com/?p=6#more-6
