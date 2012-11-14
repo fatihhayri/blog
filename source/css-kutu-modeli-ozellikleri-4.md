@@ -4,7 +4,7 @@ Category: CSS
 Tags: clear, CSS, float, height, width
 
 Kutu modeli özelliklerine devam ediyoruz. Sırasıyla aşağıdaki
-özellikleri inceleyeceğiz: <!--more-->
+özellikleri inceleyeceğiz:
 
 -   Width
 -   Height
@@ -13,10 +13,14 @@ Kutu modeli özelliklerine devam ediyoruz. Sırasıyla aşağıdaki
 
 ![Kutu Modeli][]
 
-## width<a name="01"></a>
+## width
 
-**Yapısı :** width: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto | inherit **Başlnagıç
-değeri:** auto **Uygulanabilen elementler:** [Block-level ve replaced elementler][] **Kalıtsallık:** Yok
+**Yapısı :** width: <deger\>   
+**Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto | inherit   
+**Başlnagıç değeri:** auto   
+**Uygulanabilen elementler:** [Block-level ve replaced elementler][]   
+**Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 [Blok-level ve replaced elementlerin][Block-level ve replaced elementler](örn: img, input, textarea vd.) tümü bir genişlik(width)
 değeri alır. Elementlerin başlangıçtaki genişlik değeri **auto** yani
@@ -25,18 +29,30 @@ değeri [ebveyn elementi][] kıstas alarak uygulanır. Negatif değeri
 almaz.
 
 	:::css
-	 p { width: 200px; } 
+	p { 
+		width: 200px; 
+	} 
 
-<div class="tarayiciuyum">
-**Tarayıcı Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's
-CSS Level 1+ CSS Profile 1.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-## height <a name="02"></a>
+## height
 
-**Yapısı :** height: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | auto | inherit **Başlangıç değeri:** auto **Uygulanabilen
-elementler:** [Block-level ve replaced elementler][] **Kalıtsallık:**
-Yok
+**Yapısı :** height: <deger\>   
+**Aldığı Değerler :** [<uzunluk değeri >][] | auto | inherit   
+**Başlangıç değeri:** auto   
+**Uygulanabilen elementler:** [Block-level ve replaced elementler][]   
+**Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 [Blok-level ve replaced elementlerin][Block-level ve replaced elementler](örn: img, input, textarea vd.) tümü bir yükseklik(height)
 değeri alır. Elementlerin başlangıçtaki yükseklik değeri **auto** yani
@@ -44,18 +60,30 @@ kendi asıl yüksekliğidir. (Örneğin bir resmin yüksekliği gibi) Negatif
 değeri almaz.
 
 	:::css
-	 h2 { height: 0.25in; } 
+	h2 { 
+		height: 0.25in; 
+	} 
 
-<div class="tarayiciuyum">
-**Tarayıcı Uyumu:** Internet Explorer 4+ Netscape 6+ Opera 3.6+ W3C's
-CSS Level 1+ CSS Profile 1.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-## float<a name="03"></a>
+## float
 
-**Yapısı :** float: <deger> **Aldığı Değerler :** left | right | none
-|inherit **Başlnagıç değeri:** none **Uygulanabilen elementler:** tüm
-elementler **Kalıtsallık:** Yok
+**Yapısı :** float: <deger\>   
+**Aldığı Değerler :** left | right | none |inherit    
+**Başlnagıç değeri:** none    
+**Uygulanabilen elementler:** tüm elementler   
+**Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 **float** **özelliği** bir elementi(img, table, div vd.) konumuNu
 belirlemek(sağa veya sola ) için kullanılır. Siz bir elemente
@@ -66,20 +94,34 @@ akar. Bu HTML3,2 deki resime(**img**) uygulanan **align="left"** ve
 **table** için bu özelliği kullanmamıza izin veriyordu. **float**
 özelliği sonraki derslerde daha ayrıntılı gösterilecektir. **float**
 özelliği CSS ile tablosuz web sitesi oluşturma metodunun en önemli
-öğelerinden biridir. 	:::css
-	 p img { float: left;
-margin: 25px; } 
+öğelerinden biridir. 	
 
-<div class="tarayiciuyum">
-**Tarayıcı Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's
-CSS Level 1+ CSS Profile 1.0
+	:::css
+	p img { 
+		float: left;
+		margin: 25px; 
+	} 
 
-</div>
-## clear<a name="04"></a>
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-**Yapısı :** clear: <deger> **Aldığı Değerler :** none | left | right
-| both **Başlnagıç değeri:** tanımsız **Uygulanabilen elementler:** tüm
-elementler **Kalıtsallık:** Yok
+## clear
+
+**Yapısı :** clear: <deger\>   
+**Aldığı Değerler :** none | left | right | both    
+**Başlnagıç değeri:** tanımsız   
+**Uygulanabilen elementler:** tüm elementler   
+**Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 Resim ve metin elementleri diğer elementlere göre floting element olarak
 tanımlanır. **clear** özelliği **floating** uygulanmayan elemente köşe
@@ -92,16 +134,23 @@ ile tablosuz web sitesi oluşturma metodunun en önemli öğelerinden
 biridir.
 
 	:::css
-	 h3 { clear: left; } 
+	h3 { 
+		clear: left; 
+	} 
 
-<div class="tarayiciuyum">
-**Tarayıcı Uyumu:** Internet Explorer 3+ Netscape 4+ Opera 4+ W3C's CSS
-Level 1+ CSS Profile 1.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-</p>
-
-  [Kutu Modeli]: http://fatihhayrioglu.com/images/basit_boxmodel.gif
+  [Kutu Modeli]: /images/basit_boxmodel.gif
   [<uzunluk değeri >]: http://www.fatihhayrioglu.com/?p=95
   [Block-level ve replaced elementler]: http://www.fatihhayrioglu.com/?p=13
   [ebveyn elementi]: http://www.fatihhayrioglu.com/?p=62

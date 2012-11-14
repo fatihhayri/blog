@@ -46,7 +46,7 @@ Date: 2006-08-05 22:06
 -   Gelişmiş CSS Dersleri
 	-   [CSS'de Kalıtsallık(Inheritance)][]
     -   [CSS'de Tanımlamalar ve Etkinlikleri(Specificity)][]
-    -   !important Tanımı][]
+    -   [!important Tanımı][]
     -   [CSS'de Çıktı alma (Print)][]
     -   [CSS ile Kutu modeli][]
     -   [CSS Kodlama Teknikleri ve CSS Kodlarını Azaltma Yöntemleri][]
@@ -93,7 +93,7 @@ Date: 2006-08-05 22:06
     -   [CSS ile Yüzde Çubuğu Hazırlama][]
     -   [CSS ile Resim Haritaları(imagemap) yapmak][]
     -   [CSS ile Basit Şekilde Fare Üzerine Gelince(Rollover) Resim Değişimi Yapmak][]
-    -   [CSS ile <hr \> Stil Vermek][]
+    -   [CSS ile hr Elemanına Stil Vermek][]
     -   [CSS ile sayfalama görselliğini ayarlama][]
     -   [Sayfa Dibine Yapışık Alt Alanlar(Sticky Footer)][]
     -   [CSS ile Ziyaret Edilen Sayfa Bağlantılarına Şekil Vermek][]
@@ -161,6 +161,7 @@ Date: 2006-08-05 22:06
     -   [İnternet Explorer hasLayout Kabulü ve Sorunları][]
     -   [İnternet Explorer’da Renk Geçişi Sorunu ve Çözümü][]
     -   [IE6/IE7 filtre “Renk Geçişi Tanımı – Konumlandırma” Sorunu ve Çözümsüzülüğü :D][]
+	-   [Chrome'un -99999999px sorunu](http://www.fatihhayrioglu.com/chrome-un-99999999px-sorunu/ "Chrome'un -99999999px sorunu")
 
 -   CSS İpuçları
     -   [CSS İpuçları 1 : üç kelimeli font tanımı][]
@@ -291,7 +292,7 @@ Date: 2006-08-05 22:06
   [CSS Seçicilerinin Optimizasyonu]: http://www.fatihhayrioglu.com/css-secicilerinin-optimizasyonu/
   [CSS'de Kalıtsallık(Inheritance)]: http://www.fatihhayrioglu.com/cssde-kalitsallikinheritance/
   [CSS'de Tanımlamalar ve Etkinlikleri(Specificity)]: http://www.fatihhayrioglu.com/cssde-tanimlamalar-ve-etkinliklerispecificity/
-  !important Tanımı]: http://www.fatihhayrioglu.com/important-tanimi/
+  [!important Tanımı]: http://www.fatihhayrioglu.com/important-tanimi/
   [CSS'de Çıktı alma (Print)]: http://www.fatihhayrioglu.com/cssde-cikti-alma-print/
   [CSS ile Kutu modeli]: http://www.fatihhayrioglu.com/kutu-modeli-sorunlari-ve-cozumleri/
   [CSS Kodlama Teknikleri ve CSS Kodlarını Azaltma Yöntemleri]: http://www.fatihhayrioglu.com/css-kodlarini-temizlemeazaltma/
@@ -336,7 +337,7 @@ Date: 2006-08-05 22:06
   [CSS ile Yüzde Çubuğu Hazırlama]: http://www.fatihhayrioglu.com/css-ile-yuzde-cubugu-hazirlama/
   [CSS ile Resim Haritaları(imagemap) yapmak]: http://www.fatihhayrioglu.com/css-ile-resim-haritalariimagemap-yapmak/
   [CSS ile Basit Şekilde Fare Üzerine Gelince(Rollover) Resim Değişimi Yapmak]: http://www.fatihhayrioglu.com/css-ile-basit-sekilde-fare-uzerine-gelincerollover-resim-degisimi-yapmak/
-  [CSS ile <hr /> Stil Vermek]: http://www.fatihhayrioglu.com/css-ile-hr-stil-vermek/
+  [CSS ile hr Elemanına Stil Vermek]: http://www.fatihhayrioglu.com/css-ile-hr-stil-vermek/
   [CSS ile sayfalama görselliğini ayarlama]: http://www.fatihhayrioglu.com/css-ile-sayfalama-gorselligini-ayarlama/
   [Sayfa Dibine Yapışık Alt Alanlar(Sticky Footer)]: http://www.fatihhayrioglu.com/sayfa-dibine-yapisik-alt-alanlarsticky-footer/
   [CSS ile Ziyaret Edilen Sayfa Bağlantılarına Şekil Vermek]: http://www.fatihhayrioglu.com/css-ile-ziyaret-edilen-sayfa-baglantilarina-sekil-vermek/

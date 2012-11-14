@@ -47,17 +47,20 @@ Android Browser
 
 ## font-family
 
-**Yapısı :** font-family : [[<font aile ismi \> | <soysal aile ismi \>],]* [<font aile ismi \> | <soysal aile ismi \>] | inherit 
-**Aldığı Değerler :** <font aile ismi \>- herhangi bir font ailesi ismi kullanılabilir. <soysal aile ismi \>
+**Yapısı :** font-family : [[<font aile ismi \> | <soysal aile ismi \>],]* [<font aile ismi \> | <soysal aile ismi \>] | inherit   
+**Aldığı Değerler :** <font aile ismi \> | <soysal aile ismi \>   
+**Başlangıç değeri:**web tarayıcısı belirler    
+**Uygulanabilen elementler:** tüm elementler   
+**Kalıtsallık:** Var
+{: .cssozelliktanimi}
+
+**soysal yazıtipi aile isimleri**
+
 -   **serif** (*örn:* Times)
 -   **sans-serif** (*örn:* Arial or Helvetica)
 -   **cursive** (*örn:* Zapf-Chancery)
 -   **fantasy** (*örn:* Western)
 -   **monospace** (*örn:* Courier)
-**Başlangıç değeri:**web tarayıcısı belirler 
-**Uygulanabilen elementler:** tüm elementler 
-**Kalıtsallık:** Var
-{: .cssozelliktanimi}
 
 Metinlerin kullanılacağı font ailesini belirlemek için kullanılır.
 Birden fazla fontailesi kullanılacaksa aralarına virgül (,) konur.
@@ -91,16 +94,22 @@ Android Browser
 
 ## font-size
 
-**Yapısı :**font-size: <kesin değerler \> | <göreceli değerler \> | <[uzunluk][renk]> | <[yüzde][renk]> 
-**Aldığı Değerler :** -   <kesin değerler \>  -   xx-small | x-small | small | medium | large | x-large | xx-large
-	-   <göreceli değerler \>
-    -   larger | smaller
-	-   [<uzunluk>][renk]
-	-   [<yüzde>][renk] (üst elementlere(ebveyn) bağlı olarak)
-**Başlangıç değeri:**medium 
-**Uygulanabilen elementler:** tüm elementler
+**Yapısı :**font-size: <kesin değerler \> | <göreceli değerler \> | <[uzunluk][renk]> | <[yüzde][renk]>   
+**Aldığı Değerler :** -   <kesin değerler \> | <göreceli değerler \>   
+**Başlangıç değeri:**medium   
+**Uygulanabilen elementler:** tüm elementler   
 **Kalıtsallık:** Var
 {: .cssozelliktanimi}
+
+**kesirli değerler**
+
+- xx-small 
+- x-small 
+- small
+- medium 
+- large 
+- x-large 
+- xx-large
 
 CSS, Font boyutlandırmaya daha esnek tanımlama yapmamızı olanak sağladı.
 Mesela 11px değeri HTML'de2 ve 3 değeri arasında bir değer denk geliyor
@@ -143,7 +152,7 @@ Android Browser
 **Aldığı Değerler :**normal | **bold** | **bolder** | lighter | 100 | 200 | 300 | 400 | 500 | **600** | **700** | **800** | **900**   
 **Başlangıç değeri:**normal    
 **Uygulanabilen elementler:** tüm elementler     
-**Kalıtsallık:** Var  
+**Kalıtsallık:** Var
 {: .cssozelliktanimi}
 
 Fontun kalınlık incelik durumunu belirler.
@@ -171,8 +180,8 @@ Android Browser
 
 **Yapısı :**font-style: <değer\>   
 **Aldığı Değerler :** normal | italic | oblique | inherit   
-**Başlangıç değeri:**normal    
-**Uygulanabilen elementler:** tüm elementler   
+**Başlangıç değeri:**normal   
+**Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Var
 {: .cssozelliktanimi}
 

@@ -19,8 +19,6 @@ kaybettiriyor ve Microsoft'da bunun farkına geçte olsa vardığı
 söyleniyor ve IE8 ile birlikte tam CSS desteğini bizlere sunacakmış,
 tabi o zamana kadar Firefox IE'yi silip süpürmezse :D
 
-<!--more-->
-
 -   [table-layout][]
 -   [caption-side][]
 -   [border-collapse][]
@@ -29,22 +27,24 @@ tabi o zamana kadar Firefox IE'yi silip süpürmezse :D
 
 ## table-layout
 
-**Yapısı :** table-layout: <deger>  
-**Aldığı Değerler :** auto | fixed | kalıtsallık  
-**Başlnagıç değeri:** auto  
-**Uygulanabilen elementler:** display: table ve display:inline-table
-olarak belirlenen elementlere  
+**Yapısı :** table-layout: <deger\>    
+**Aldığı Değerler :** auto | fixed | kalıtsallık    
+**Başlnagıç değeri:** auto    
+**Uygulanabilen elementler:** display: table ve display:inline-table olarak belirlenen elementlere    
 **Kalıtsallık:** Var
+{: .cssozelliktanimi}
 
-**Browser Uyumu:**  
-  
-Internet Explorer 5.0+  
-Firefox 1+  
-Opera 9.2+  
-Safari 1.3+  
-Chrome 2+  
-W3C's CSS Level 2+  
-CSS Profile 2.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
 Normalde tablolar içeriğindeki bilgiye göre genişliğini arttırır. Bu
 bize bir esnek kazandırır ancak bazen tablo genişliğimizin sabit
@@ -54,88 +54,82 @@ göre arttırır.
 
 	:::html
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-  <html
-  xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>table-layout örneği</title>
-    <style> 
-      table.otomatik {
-        table-layout: auto; 
-        width: 350px; 
-        border-collapse: collapse;
-      }
-      table.sabit {
-        table-layout: fixed; 
-        width: 350px; 
-        border-collapse: collapse;
-      } 
-      td, th {
-        border: 1px solid;
-      }
-    </style>
-  </head>
-  <body>
-    <table cellpadding="0" cellspacing="0" class="otomatik">
-      <caption>Limitli ADSL Fiyatları </caption>
-      <tr>
-        <th>Hızı*(Kbps) </th>
-        <th>Kota(GB) </th>
-        <th>Bağlantı Ücreti** </th>
-        <th>Aylık Ücret </th>
-        <th>Limitin Üzerindeki Her MB için Ücret*** </th>
-      </tr>
-      <tr>
-        <td>1024/256'e kadar</td>
-        <td>4</td>
-        <td rowspan="3">29 YTL</td>
-        <td>29 YTL</td>
-        <td>0,010 YTL</td>
-      </tr>
-      <tr>
-        <td>1024/256'e kadar</td>
-        <td>6</td>
-        <td>39 YTL</td>
-        <td>0,009 YTL</td>
-      </tr>
-      <tr>
-        <td>2048/512'e kadar</td>
-        <td>6</td>
-        <td>49YTL</td>
-        <td>0,009 YTL</td>
-      </tr>
-    </table> 
-    <table cellpadding="0" cellspacing="0" class="sabit">
-      <caption> Limitli ADSL Fiyatları </caption>
-      <tr>
-        <th>Hızı*(Kbps) </th>
-        <th>Kota(GB) </th>
-        <th>Bağlantı Ücreti** </th>
-        <th>Aylık Ücret </th>
-        <th>Limitin Üzerindeki Her MB için Ücret*** </th>
-      </tr>
-      <tr>
-        <td>1024/256'e kadar</td>
-        <td>4</td>
-        <td rowspan="3">29 YTL</td>
-        <td>29 YTL</td>
-        <td>0,010 YTL</td>
-      </tr>
-      <tr>
-        <td>1024/256'e kadar</td>
-        <td>6</td>
-        <td>39 YTL</td>
-        <td>0,009 YTL</td>
-      </tr>
-      <tr>
-        <td>2048/512'e kadar</td>
-        <td>6</td>
-        <td>49YTL</td>
-        <td>0,009 YTL</td>
-      </tr>
-    </table>
-  </body>
-  </html> 
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>table-layout örneği</title>
+	<style> 
+	table.otomatik {table-layout: auto; width: 350px; border-collapse: collapse;} 
+	table.sabit {table-layout: fixed; width: 350px; border-collapse: collapse;} 
+	td, th {border: 1px solid;} 
+	</style>
+	</head>
+	<body>
+	<table cellpadding="0" cellspacing="0" class="otomatik">
+	  <caption>
+	  Limitli ADSL Fiyatları
+	  </caption>
+	  <tr>
+	    <th>Hızı*(Kbps) </th>
+	    <th>Kota(GB) </th>
+	    <th>Bağlantı Ücreti** </th>
+	    <th>Aylık Ücret </th>
+	    <th>Limitin Üzerindeki Her MB için Ücret*** </th>
+	  </tr>
+	  <tr>
+	    <td>1024/256'e kadar</td>
+	    <td>4</td>
+	    <td rowspan="3">29 YTL</td>
+	    <td>29 YTL</td>
+	    <td>0,010 YTL</td>
+	  </tr>
+	  <tr>
+	    <td>1024/256'e kadar</td>
+	    <td>6</td>
+	    <td>39 YTL</td>
+	    <td>0,009 YTL</td>
+	  </tr>
+	  <tr>
+	    <td>2048/512'e kadar</td>
+	    <td>6</td>
+	    <td>49YTL</td>
+	    <td>0,009 YTL</td>
+	  </tr>
+	</table>
+	&nbsp;
+	<table cellpadding="0" cellspacing="0" class="sabit">
+	  <caption>
+	  Limitli ADSL Fiyatları
+	  </caption>
+	  <tr>
+	    <th>Hızı*(Kbps) </th>
+	    <th>Kota(GB) </th>
+	    <th>Bağlantı Ücreti** </th>
+	    <th>Aylık Ücret </th>
+	    <th>Limitin Üzerindeki Her MB için Ücret*** </th>
+	  </tr>
+	  <tr>
+	    <td>1024/256'e kadar</td>
+	    <td>4</td>
+	    <td rowspan="3">29 YTL</td>
+	    <td>29 YTL</td>
+	    <td>0,010 YTL</td>
+	  </tr>
+	  <tr>
+	    <td>1024/256'e kadar</td>
+	    <td>6</td>
+	    <td>39 YTL</td>
+	    <td>0,009 YTL</td>
+	  </tr>
+	  <tr>
+	    <td>2048/512'e kadar</td>
+	    <td>6</td>
+	    <td>49YTL</td>
+	    <td>0,009 YTL</td>
+	  </tr>
+	</table>
+	</body>
+	</html>
 
 ![caption-side örneği][]
 
@@ -149,6 +143,7 @@ göre arttırır.
 **Uygulanabilen elementler:**display: table-caption olarak belirlenen
 elementlere  
 **Kalıtsallık:**Yok
+{: .cssozelliktanimi}
 
 Not: CSS2 ile birlikte left ve right değerleride vardı ancak
 kullanışsızlığı nedeni ile CSS2.1'de kaldırıldı.
@@ -165,20 +160,20 @@ desteklediği şekilde kod yazmak için <caption>
 etiketinin**align**özelliği kullanılmalıdır. Örnek:
 
 	:::html
-	 <caption align="bottom"> ve <caption align="top"> 
+	<caption align="bottom">
+	<caption align="top"> 
 
-<div class="tarayiciuyum">
-**Browser Uyumu:**  
-  
-Internet Explorer 8+  
-Firefox 1+  
-Opera 9.2+  
-Safari 1.3+  
-Chrome 2+  
-W3C's CSS Level 2+  
-CSS Profile 2.1
-
-</div>
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
 ## border-collapse
 
@@ -188,69 +183,64 @@ CSS Profile 2.1
 **Uygulanabilen elementler:**display:table ve display:table-caption
 olarak belirlenen elementlere  
 **Kalıtsallık:**Var
+{: .cssozelliktanimi}
 
-<div class="tarayiciuyum">
-**Browser Uyumu:**  
-  
-Internet Explorer 5.5+  
-Firefox 1+  
-Opera 9.2+  
-Safari 1.3+  
-Chrome 2+  
-W3C's CSS Level 2+  
-CSS Profile 2.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
 border-collapse, tablo hücrelerinin etrafındaki kenarlık ile olan
 mesafeyi azaltmamızı veya açmamızı sağlar.**separate**ataması yapılmış
 ise hücreler arasına bir kaç piksellik mesafe konur, HTML içinden bu
-boşlukları <table> etiketinin cellspacing özelliği ile kaldırmak
+boşlukları <table\> etiketinin cellspacing özelliği ile kaldırmak
 istesek bile tarayıcılar bu seferde iki kenarlığı bir bir üstü
 gösterecektir. Eğer**collapse**değeri verilirse iki hücre arasındaki
 mesafe kalkacaktır ve tek kenarlık görünecektir.
 
 	:::html
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-  <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>border-collapse örneği</title>
-    <style> 
-      table.ayri {
-        border-collapse: separate; 
-      } 
-      table.birlesik { 
-        border-collapse: collapse;
-      } 
-      td { 
-        border: 1px solid black; 
-        padding: 3px; 
-      }
-    </style>
-  </head>
-  <body>
-    <table cellspacing="0" class="ayri">
-      <tr>
-        <td>hücre1</td>
-        <td>hücre2</td>
-      </tr>
-      <tr>
-        <td>hücre3</td>
-        <td>hücre4</td>
-      </tr>
-    </table> &nbsp;
-    <table border="0" cellspacing="0" class="birlesik">
-      <tr>
-        <td>hücre1</td>
-        <td>hücre2</td>
-      </tr>
-      <tr>
-        <td>hücre3</td>
-        <td>hücre4</td>
-      </tr>
-    </table>
-  </body>
-  </html> 
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>border-collapse örneği</title>
+	<style>
+	table.ayri { border-collapse: separate; }
+	table.birlesik { border-collapse: collapse; }
+	td { border: 1px solid black; padding: 3px; }
+	</style>
+	</head>
+	<body>
+	<table cellspacing="0" class="ayri">
+	  <tr>
+	    <td>hücre1</td>
+	    <td>hücre2</td>
+	  </tr>
+	  <tr>
+	    <td>hücre3</td>
+	    <td>hücre4</td>
+	  </tr>
+	</table>
+	&nbsp;
+	<table border="0" cellspacing="0" class="birlesik">
+	  <tr>
+	    <td>hücre1</td>
+	    <td>hücre2</td>
+	  </tr>
+	  <tr>
+	    <td>hücre3</td>
+	    <td>hücre4</td>
+	  </tr>
+	</table>
+	</body>
+	</html>
 
 Örneği görmek için[tıklayınız.][3]
 
@@ -264,61 +254,61 @@ mesafe kalkacaktır ve tek kenarlık görünecektir.
 **Uygulanabilen elementler:**display:table ve display:table-caption
 olarak belirlenen elementlere  
 **Kalıtsallık:**Var
+{: .cssozelliktanimi}
 
-<div class="tarayiciuyum">
-**Browser Uyumu:**  
-  
-Internet Explorer 8+  
-Firefox 1+  
-Opera 9.2+  
-Safari 1.3+  
-Chrome 2+  
-W3C's CSS Level 2+  
-CSS Profile 2.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
 border-spacing, normal uzunluk değerleri alır
 ve**border-collapse:separate**ile birlikte kullanılır. Eğer tek değer
 verilirse bu tüm kenarlar için geçerlidir, iki değer atanırsa ilki
 yatayda boşluk için ikincisi dikey de boşluk vermek için tanımlanmıştır.
 
 	:::html
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-  <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>border-spacing örneği</title>
-    <style> 
-      table.ayri {
-        border-collapse: separate; border-spacing: 3px 5px; } table.birlesik {
-        border-collapse: separate; } td { border: 1px solid black; padding: 3px;
-      } 
-    </style>
-  </head>
-  <body>
-    <table cellspacing="0" class="ayri">
-      <tr>
-        <td>hücre1</td>
-        <td>hücre2</td>
-      </tr>
-      <tr>
-        <td>hücre3</td>
-        <td>hücre4</td>
-      </tr>
-      </table>
-
-      <table border="0" cellspacing="0" class="birlesik">
-      <tr>
-        <td>hücre1</td>
-        <td>hücre2</td>
-      </tr>
-      <tr>
-        <td>hücre3</td>
-        <td>hücre4</td>
-      </tr>
-    </table>
-  </body>
-  </html> 
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>border-spacing örneği</title>
+	<style>
+	table.ayri { border-collapse: separate; border-spacing: 3px 5px; }
+	table.birlesik { border-collapse: separate; }
+	td { border: 1px solid black; padding: 3px; }
+	</style>
+	</head>
+	<body>
+	<table cellspacing="0" class="ayri">
+	  <tr>
+	    <td>hücre1</td>
+	    <td>hücre2</td>
+	  </tr>
+	  <tr>
+	    <td>hücre3</td>
+	    <td>hücre4</td>
+	  </tr>
+	</table>
+	&nbsp;
+	<table border="0" cellspacing="0" class="birlesik">
+	  <tr>
+	    <td>hücre1</td>
+	    <td>hücre2</td>
+	  </tr>
+	  <tr>
+	    <td>hücre3</td>
+	    <td>hücre4</td>
+	  </tr>
+	</table>
+	</body>
+	</html>
 
 Örneği görmek için[tıklayınız.][4]
 
@@ -332,16 +322,19 @@ yatayda boşluk için ikincisi dikey de boşluk vermek için tanımlanmıştır.
 **Uygulanabilen elementler:**display:table-cellolarak belirlenen
 elementlere  
 **Kalıtsallık:**Var
+{: .cssozelliktanimi}
 
-**Browser Uyumu:**  
-  
-Internet Explorer 8+  
-Firefox 1+  
-Opera 9.2+  
-Safari 1.3+  
-Chrome 2+  
-W3C's CSS Level 2+  
-CSS Profile 2.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
 Bir tabloya bazı değerler atadığımızda(örneğin kenarlık değeri) boş olan
 hücreler bu değeri görmez, bu durumu düzeltmek için boş olan hücreler
@@ -354,46 +347,42 @@ davranmasını sağlarız.
 Bu özellik Internet Explorer tarafından desteklenmemektedir.
 
 	:::html
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-  <html xmlns="http://www.w3.org/1999/xhtml"> 
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>empty-cells örneği</title> 
-    <style> 
-      table.goster {
-        empty-cells:show
-      }
-      table.gizle {
-        empty-cells:hide 
-      }
-      td { 
-        border: 1px solid black; padding: 3px; 
-      } 
-    </style>
-  </head> 
-  <body>
-    <table cellspacing="0" class="goster"> 
-      <tr>
-        <td></td>
-        <td>hücre2</td>
-      </tr>
-      <tr> 
-        <td>hücre3</td>
-        <td>hücre4</td>
-      </tr>
-    </table>
-    <table border="0" cellspacing="0" class="gizle">
-      <tr>
-        <td></td>
-        <td>hücre2</td>
-      </tr>
-      <tr>
-        <td>hücre3</td>
-        <td>hücre4</td>
-      </tr>
-    </table>
-  </body>
-  </html> 
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>empty-cells örneği</title>
+	<style>
+	table.goster { empty-cells:show }
+	table.gizle { empty-cells:hide }
+	td { border: 1px solid black; padding: 3px; }
+	</style>
+	</head>
+	<body>
+	<table cellspacing="0" class="goster">
+	  <tr>
+	    <td></td>
+	    <td>hücre2</td>
+	  </tr>
+	  <tr>
+	    <td>hücre3</td>
+	    <td>hücre4</td>
+	  </tr>
+	</table>
+	&nbsp;
+	<table border="0" cellspacing="0" class="gizle">
+	  <tr>
+	    <td></td>
+	    <td>hücre2</td>
+	  </tr>
+	  <tr>
+	    <td>hücre3</td>
+	    <td>hücre4</td>
+	  </tr>
+	</table>
+	</body>
+	</html>
+	
 
 Örneği görmek için[tıklayınız.][5]
 

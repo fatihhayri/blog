@@ -8,7 +8,7 @@ Margin özelliği elementin etrafındaki boşluk olarak tanımlanır.
 Negatifdeğer alabilir. Tek tek özellikler(margin-top,margin-left vd.)
 atanabildiğigibi tek bir özellikle(margin) de tanımlama yapılabilir.
 Margin özelliklerinianlamak için lütfen [Box modellerine][] bir göz
-atın. <!--more-->
+atın.
 
 ![Kutu Modeli][]
 
@@ -18,85 +18,144 @@ atın. <!--more-->
 -   margin-left
 -   margin
 
-## margin-top<a name="01"></a>
+## margin-top
 
-**Yapısı :** margin-top: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
-değeri:** 0 **Uygulanabilen elementler:** tüm elementler
+**Yapısı :** margin-top: <deger\>   
+**Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto   
+**Başlnagıç değeri:** 0   
+**Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 **margin-top** özelliği elementin üst kenar boşluğunu bellibir değer
 kadar veya yüzde olarak belirler.Negatif değer alabilir.
 
 	:::css
-	 body { margin-top: 0 } 
+	body { 
+		margin-top: 0 
+	} 
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's CSS
-Level 1+ CSS Profile 1.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-## margin-right <a name="02"></a>
+## margin-right
 
-**Yapısı :** margin-right: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
-değeri:** 0 **Uygulanabilen elementler:** tüm elementler
+**Yapısı :** margin-right: <deger\>   
+**Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto   
+**Başlnagıç değeri:** 0    
+**Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 **margin-right** özelliği elementin sağ kenar boşluğunu bellibir değer
 kadar veya yüzde olarak belirler.Negatif değer alabilir.
 
 	:::css
-	 p.diger { margin-right: 50% } 
+	p.diger { 
+		margin-right: 50% 
+	} 
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 3+ Netscape 4+ Opera 3.6+ W3C's CSS
-Level 1+ CSS Profile 1.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-## margin-bottom<a name="03"></a>
+## margin-bottom
 
-**Yapısı :** margin-bottom: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
-değeri:** 0 **Uygulanabilen elementler:** tüm elementler
+**Yapısı :** margin-bottom: <deger\>   
+**Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto   
+**Başlnagıç değeri:** 0   
+**Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 **margin-bottom** özelliği elementin alt kenar boşluğunu bellibir değer
-kadar veya yüzde olarak belirler.Negatif değer alabilir. 	:::css
-	 p { margin-bottom: 10px } 
+kadar veya yüzde olarak belirler.Negatif değer alabilir. 	
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's CSS
-Level 1+ CSS Profile 1.0
+	:::css
+	p { 
+		margin-bottom: 10px 
+	} 
 
-</div>
-## margin-left<a name="04"></a>
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-**Yapısı :** margin-left: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto **Başlnagıç
-değeri:** 0 **Uygulanabilen elementler:** tüm elementler
+## margin-left
+
+**Yapısı :** margin-left: <deger\>   
+**Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | auto   
+**Başlnagıç değeri:** 0   
+**Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 **margin-left** özelliği elementin sol kenar boşluğunu bellibir değer
 kadar veya yüzde olarak belirler.Negatif değer alabilir.
 
 	:::css
-	 p { margin-left: 10px } 
+	p { 
+		margin-left: 10px 
+	} 
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 3+ Netscape 4+ Opera 3.6+ W3C's CSS
-Level 1+ CSS Profile 1.0
 
-</div>
-## margin<a name="05"></a>
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-**Yapısı :** margin: <deger> **Aldığı Değerler :** [[<percentage>][]
-| [<length>][<percentage>] |auto]{1,4} **Başlnagıç değeri:**
-Tanımsız **Uygulanabilen elementler:** tüm elementler **Kalıtsallık:**
-Yok
+## margin
+
+**Yapısı :** margin: <deger\>   
+**Aldığı Değerler :** [[<percentage>][] | [<length>][<percentage>] |auto]{1,4}   
+**Başlnagıç değeri:** Tanımsız   
+**Uygulanabilen elementler:** tüm elementler   
+**Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 **margin** özelliği yukardaki özelliklerin tek bir özellikle uygulanması
 içinkullanılır.
 
 	:::css
-	 h1 { margin: 0.25in; background-color:
-silver; } h1 { margin: 10px 20px 15px 5px; } 
+	h1 { 
+		margin: 0.25in; 
+		background-color: silver; 
+	} 
+	
+	h1 { 
+		margin: 10px 20px 15px 5px; 
+	} 
 
 yukarıda **h1** için margin değerleri sıralaması şöyledir:
 
@@ -105,18 +164,33 @@ yukarıda **h1** için margin değerleri sıralaması şöyledir:
 ikili ve üçlü kullanımda mevcuttur
 
 	:::css
-	 h1 {margin: 0.25em 0 0.5em;} /* esittir
-'0.25em 0 0.5em 0' */ h2 {margin: 0.15em 0.2em;} /* esittir '0.15em
-0.2em 0.15em 0.2em' */ p {margin: 0.5em 10px;} /* esittir '0.5em 10px
-0.5em 10px' */ p.close {margin: 0.1em;} /* esittir '0.1em 0.1em 0.1em
-0.1em' */ 
+	h1 {
+		margin: 0.25em 0 0.5em;
+	} /* esittir '0.25em 0 0.5em 0' */ 
+	
+	h2 {
+		margin: 0.15em 0.2em;
+	} /* esittir '0.15em 0.2em 0.15em 0.2em' */ 
+	
+	p {
+		margin: 0.5em 10px;
+	} /* esittir '0.5em 10px 0.5em 10px' */ 
+	
+	p.close {
+		margin: 0.1em;
+	} /* esittir '0.1em 0.1em 0.1em 0.1em' */ 
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's CSS
-Level 1+ CSS Profile 1.0
-
-</div>
-</p>
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
   [Box modellerine]: http://www.fatihhayrioglu.com/?p=13
   [Kutu Modeli]: http://fatihhayrioglu.com/images/basit_boxmodel.gif

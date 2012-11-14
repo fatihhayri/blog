@@ -50,7 +50,7 @@ Daha fazla HTML5, CSS3 ve DOM özelliği desteği geldi.
     mesajlaşma servisi, çok kullanıcılı oyunlar vb çok güzel uygulamalar
     yapma imkanı sağlıyor. Aslında ajax teknolojisinin
     standartlaştırılmış hali gibi geldi bana.
--   HTML5 <progress> etiketi destekleniyor. ::-moz-progress-bar
+-   HTML5 <progress\> etiketi destekleniyor. ::-moz-progress-bar
     özelliği ile stilini ayarlayabiliyoruz.
 -   Yeni -moz-orient özelliği örneğin progress barın dikey mi yataymı
     olacağını ayarlayabiliyoruz.
@@ -74,7 +74,7 @@ Daha fazla HTML5, CSS3 ve DOM özelliği desteği geldi.
 -   window.matchMedia() metodunu kullanarak medya sorgularını
     programatik olarak kontrol edebiliyoruz.
 -   [Server-Sent Events][] desteği eklenmiş. Bu API sunucuya istemci
-    tarafından uyarı mesajları göndermeye izin veriyor. [Bir mesajlaşma     örneği][]
+    tarafından uyarı mesajları göndermeye izin veriyor. [Bir mesajlaşma örneği][]
 -   [Touch eventları][] destekliyor. Dokunmatik ekranlar ve
     trackpadlerde bu özellikleri kullanabiliyoruz artık.
 -   Tüm destek listesini görmek için [tıklayınız.][]

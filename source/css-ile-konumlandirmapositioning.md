@@ -7,7 +7,6 @@ CSS konseptinin üç önemli konusu [kutu modelleme][],
 **konumlandırma(positioning)** ve floating konularıdır.
 
 Burada CSS ile konumlandırma hakkında bilgi vermeye çalışacağız.
-<!--more-->
 
 Konumlandırma ile alakalı olduğu için blok-level ve inline-level
 elementlerin tanımını tekrarlayacağız.
@@ -23,7 +22,7 @@ oluşturmazlar. Örnek: a, strong,span
 
 Ancak bizbu elementlerin başlangıç değerlerini **display** özelliği ile
 değiştirebilriz. Yani biz bir inline-level element olan bir
-linki(<a>....</a>) blok-level bir elemente dönüştürebiliriz. Aynı
+linki(<a\>....</a\>) blok-level bir elemente dönüştürebiliriz. Aynı
 şekilde bilr blok-level elementi inline elemente dönüştürebilriz.
 
 CSS'deüç temel konumlandırma şekli vardır: **normal
@@ -46,35 +45,43 @@ değerleri etkisizdir.
 
 ## position
 
-**Yapısı :** position: <deger> **Aldığı Değerler :**static | relative
-| absolute | fixed | inherit **Başlangıç değeri:** static
-**Uygulanabilen elementler:** tüm elementler **Kalıtsallık:** Yok
+**Yapısı :** position: <deger\>   
+**Aldığı Değerler :**static | relative | absolute | fixed | inherit   
+**Başlangıç değeri:** static   
+**Uygulanabilen elementler:** tüm elementler   
+**Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 4+(kısmen: IE4 den sonra absolute,
-relative, static destekler), IE 7 den sonra (fixed destekliyor)   
-Netscape 4+(kısmen) NN6+ sonra tümünü destekler   
-Opera 5.0+  
-CSS Profile 2.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+{: .tarayiciuyum}
 
-</div>
 ## top, right, bottom, left
 
-**Yapısı :** top, right, bottom, left : <deger> **Aldığı Değerler
-:**<[uzunluk][]> | <[yüzde][uzunluk]> | auto | inherit **Başlangıç
-değeri:** auto **Uygulanabilen elementler:** postion uygulanan
-elementlere **Kalıtsallık:** Yok
+**Yapısı :** top, right, bottom, left : <deger\> 
+**Aldığı Değerler :**<[uzunluk][]\> | <[yüzde][uzunluk]\> | auto | inherit 
+**Başlangıç değeri:** auto 
+**Uygulanabilen elementler:** postion uygulanan elementlere 
+**Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 4+(kısmen: yüzde ve uzunluk
-değeri), IE 6+ tümü(inherit hariç)   
-Netscape 4+(kısmen: yüzde ve uzunluk değeri) NN6+ sonra tümünü
-destekler   
-Opera 5.0+  
-CSS Profile 2.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-## **Göreceli Konumlandırma**(position:relative)
+## Göreceli Konumlandırma(position:relative)
 
 Göreceli konumlandırma anlaşılması kolay bir konsepttir. Bir elemente
 göreceli bir değer verdiğiniz de o bulunduğu yeri dikkate alarak verilen
@@ -85,8 +92,11 @@ kayacaktır, eğer elementin sol(left) değerini 20px olarak tanımlarsak
 elementimiz soldan 20px sağa doğru kayacaktır.
 
 	:::css
-	 p#FarkliParagraf{ position: relative; left:
-20px; top: 20px; } 
+	p#FarkliParagraf{ 
+		position: relative; 
+		left: 20px; 
+		top: 20px; 
+	} 
 
 ![CSS Nisbi konumlandırma][]
 
@@ -127,33 +137,46 @@ ise altta kalacaktır.
 
 ## z-index
 
-**Yapısı :** z-index: <deger> **Aldığı Değerler :**<[sayısal değer][uzunluk] > | auto | inherit **Başlangıç değeri:** auto
-**Uygulanabilen elementler:** postion uygulanan elementlere
+**Yapısı :** z-index: <deger\>   
+**Aldığı Değerler :**<[sayısal değer][uzunluk] \> | auto | inherit    
+**Başlangıç değeri:** auto   
+**Uygulanabilen elementler:** postion uygulanan elementlere   
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 4+(kısmen: IE4 den sonra auto ve
-sayısal değerleri destekliyor)  
-Netscape 4+(kısmen) NN6+ sonra tümünü destekler   
-Opera 5.0+  
-CSS Profile 2.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
 Örneğin geniş bir blok içindeki bir parafratakiyazıların sağ ve altta
 olmasını istiyorsak. Dıştaki içerik kutusunugöreceli konumlandırıp
 içindeki paragrafı mutlak konumlandırarak bu işhalledebilriz.
 
 	:::css
-	 #adresler { width: 700px; height: 100px;
-position: relative; } #adresler .tel { position: absolute; right: 10px;
-bottom: 10px; text-align: right; }  	:::html
+	#adresler { 
+		width: 700px; 
+		height: 100px;
+		position: relative; 
+	} 
 	
+	#adresler .tel { 
+		position: absolute; 
+		right: 10px;
+		bottom: 10px; 
+		text-align: right; 
+	}  	
 
-<div id="adresler">
-Tel: 0845 838 6163
 
-</div>
-
+	:::html
+		<div id="adresler">Tel: 0845 838 6163</div>
 
 Not:Bu kullanım gelişmiş tarayıcılar için geçerlidir. IE 5.5 veIE
 6(Windwos)'da bu sorun çıkarır. Sorunu engellemek için yükseklik ve
@@ -170,7 +193,7 @@ Konumlandırdığınız elementi genişletmekisterseniz örneğin font boyutunu
 arttırdığınızda elementi kapasayan kutu normale göre genişlese de
 etrafındaki elemtlerinakışıdaki yeri değişmeyecektir.
 
-## **Sabit(Fixed) Konumlandırma**
+## Sabit(Fixed) Konumlandırma
 
 Sabitkonumlandırma Mutlak Konumlandırmanın bir alt katagorisidir.
 Sabitkonumlandırılmış elementin sayfadaki görünümü çok farklıdır. Bunu
@@ -188,8 +211,6 @@ destekliyor diğer hallerde desteklemiyor. Ama bu problemi javascript ile
 -   [CSS Mastery: Advanced Web Standards Solutions][]
 -   [Muhammed Sevim][]
 -   [Web Standards Solutions: The Markup and Style Handbook][]  
-
-</p>
 
   [kutu modelleme]: http://www.fatihhayrioglu.com/?p=13
   [Normal Akış şeması]: /images/normal_akis.gif

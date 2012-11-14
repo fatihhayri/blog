@@ -3,8 +3,9 @@ Date: 2009-06-22 22:55
 Category: CSS
 Tags: bağlantılar, Border, dış-hat-çizgisi, Erişebilirlik, kenar-çizgisi, klavye-kullanmak, outline
 
-![dış hat çizgisi][]CSS2 ile birlikte gelen kutu dışı
-şekillendirme(outline) özellikleri kenar  çizgisine(border) benzer bir
+![dış hat çizgisi][]  
+
+CSS2 ile birlikte gelen kutu dışı şekillendirme(outline) özellikleri kenar  çizgisine(border) benzer bir
 özelliktir. Fakat kenar çizgisi özelliğinden iki önemli farkı vardır.
 İlki outline özelliği kenar çizgisi gibi normal akışı etkilemez. Bir
 elemana 10px outline değeri atandığında elemanın etrafındaki

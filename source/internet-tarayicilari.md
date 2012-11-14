@@ -3,13 +3,15 @@ Date: 2008-05-12 22:27
 Category: Haberler
 Tags: firebug, Firefox, ie, İnternet Tarayıcısı, Opera, safari, web tarayıcısı, WebKit
 
-![İnternet Tarayıcıları][]İnternet Tarayıcıları diğer bir ifade ile Web
+![İnternet Tarayıcıları][]  
+
+İnternet Tarayıcıları diğer bir ifade ile Web
 Tarayıcıları, İnternet veya lokal alandaki ağlarda web sayfalarındaki
 interaktif metin, resim, video, müzik vb. göstermek için kullanılan
 programlardır. "Vikipedia"
 
 Şu an genelde kullanılan tarayıcılar: Internet Explorer, Mozilla
-Firefox, Opera ve Safari <!--more-->
+Firefox, Opera ve Safari
 
 [http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg][]
 
@@ -51,7 +53,7 @@ kararlı sürüme kadar bunların düzeltileceğine inanıyorum.
 
 Popüler Tarayıcılara bir göz atalım:
 
-<span>**Firefox**</span>
+##Firefox
 
 Mozilla alt yapısını kullanan Firefox, açık kaynak kodlu olması, web
 standartlarına uyumluluğu ve web geliştiricilere güzel
@@ -69,10 +71,10 @@ Benim için en önemli artısı FireBug gibi bir aracı barındırması,
 standartlara uyumluluğu ve güvenlik açıklarına hızlı cevap vermesi
 bakımından güzel bir tarayıcı.
 
-<span>**İnternet Explorer**</span>
+##İnternet Explorer
 
-<span>Hal</span><span>a</span><span> dünya üzerinde en çok kullanılan
-internet tarayıcısı olma </span><span>özeliğini koruyor. Tabi bunun en
+Halal dünya üzerinde en çok kullanılan
+internet tarayıcısı olma özeliğini koruyor. Tabi bunun en
 önemli nedeni windows işletim sistemi ile birlikte gelmesi. Microsoft
 netscape'ten liderliği aldıktan sonra İnternet tarayıcı olan İnternet
 Explorer'a pek önem vermedi. Bunu iyi değerlendiren Firefox iyi bir
@@ -80,27 +82,27 @@ pazar payı yakalım. Bunun üzerine Microsoft atağa geçti ve yeni sürümler
 üzerinde çalışmalarına başladı. 7. sürümden bir çok sorunları gidersede
 hala yapısal bir çok sorunu var ie'nin. Bunun farkında olan Microsoft
 ie8 ile birlikte atağa geçmeye niyetinde bakalım bunun ne kadarını
-gerçekleştirecek. </span>
+gerçekleştirecek.
 
-<span>Hala piyasada olan ie6'nın bir çok sorunu ile uğraşan biz web
+Hala piyasada olan ie6'nın bir çok sorunu ile uğraşan biz web
 kodlayıcılarını zorlayan bir çok sorunu var. Microsoft'un ie7 deki
 yanlış strateji nedeni ile bizim bu çilemiz 1-2 sende daha sürecek gibi.
 Ne diyelim ie 7 ve 8 hızlı yayılsada bizde bu dertlerden kurtulsak. Yada
-Firefox ve diğerlerine mi ümit bağlasak bilemiyorum.</span>
+Firefox ve diğerlerine mi ümit bağlasak bilemiyorum.
 
 CSS Dersleri bölümündeki problemler ve çözüm önerileri bölümünü dolduran
 internet explorer umut ediyoruz ki bu sorunları halledip bize daha iyi
 tarayıcılar sunacaktır.
 
-<span>**Opera**</span>
+##Opera
 
-<span>Diğer bir popüler internet tarayıcısıda Opera'dır. Opera her ne
+Diğer bir popüler internet tarayıcısıda Opera'dır. Opera her ne
 kadar hızlı erişim ve kullanışlı özellikleri olsada hiç bir zaman
 yeterli ilgiyi kazanmadır. Daha çok mobil araçlarda kullanılan Opera
 mini ile adını duyuran Opera güzel bir alternatif olarak kalmaya devam
-ediyor. </span>
+ediyor.
 
-<span>**Safari**</span>
+###Safari
 
 Apple firması son zamanlarda geçtiği atak ile bir çok yenilikler sunuyor
 kullanıcılara. Mac her nekadar fazla tercih edilen bir işletim sistemi
@@ -111,7 +113,7 @@ geliştiricileri(WebKit) bizlere yeni özellikler kazandırmaya niyetliler.
 Ancak standartlara girmedikten sonra bunların uygulanabilirliği
 kalmayacaktır.
 
-#### Sonuç
+## Sonuç
 
 Sonuç olarak şunu söyleyebilirim ki. Web site ara yüzlerini kodlarken
 bir çok sorunlarla karşılaştığımız internet tarayıcıları yakın gelecekte
@@ -120,7 +122,7 @@ da sonucun ne olacağını tam olarak kestirmek zor. Daha az düzeltme kodu
 yazdığımız bir internet alemi istiyoruz. Bunu sağlayabilmek için rekabet
 olması şart bence.
 
-#### Kaynaklar  
+## Kaynaklar  
 
 -   [http://www.fatihhayrioglu.com/?p=470][]
 -   [http://www.fatihhayrioglu.com/?p=259][]  
@@ -130,7 +132,6 @@ olması şart bence.
 not: Son olarak Nisan 2008'da tarayıcı kullanım oranları.
 [http://www.favbrowser.com/internet-explorer-opera-mini-gains-firefox-and-safari-loses-april-08/][]
 
-</p>
 
   [İnternet Tarayıcıları]: /images/tarayicilar.png
   [http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg]: http://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg

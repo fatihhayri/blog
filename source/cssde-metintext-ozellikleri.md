@@ -4,47 +4,72 @@ Category: CSS
 Tags: CSS, letter-spacing, line-height, text-align, text-decoration, text-indent, text-shadow, text-transform, vertical-align, word-spacing
 
 Font ile Metin(Text) arasında ne fark var ikiside aynı diyorsanız
-yanılıyorsunuz. <!--more-->
+yanılıyorsunuz.
 
 Font özellikleri metni oluşturan karakterlerini nasıl olacağını
 belirlerken, Metin(Text) özellikleri sayfadaki metinlerin düzenini
 kontrol eder. Metin özellikleri metin düzeni için çok avantajlı
 özellikler getirmiştir.
 
-#### text-indent
+## text-indent
 
 Paragrafların ilk cümlelerin soldan içeriye kaydırılması için kullanılan
 bir özelliktir.
 
-**Yapısı :** text-indent: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] **Başlnagıç değeri:** 0
-**Uygulanabilen elementler:** Blok-level elementler **Kalıtsallık:** Var
+**Yapısı :** text-indent: <deger\>   
+**Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >]    
+**Başlnagıç değeri:** 0   
+**Uygulanabilen elementler:** Blok-level elementler   
+**Kalıtsallık:** Var
+{: .cssozelliktanimi}
 
 	:::css
-	 p { text-indent: 10px; } 
+	p { 
+		text-indent: 10px; 
+	} 
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 3+ Netscape 4+ Opera 3.6+ W3C's CSS
-Level 1+ CSS Profile 1.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-#### text-align
+## text-align
 
 Bir elemntin diğerlerine göre hizasını berlilemek için kullanılır.
 Sadece metinler için kullanılmaz, diğer elementler içinde kullanılır.
 
-**Yapısı :** text-align: <deger> **Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | inherit **Başlnagıç
-değeri:** 0 **Uygulanabilen elementler:** tüm elementler
+**Yapısı :** text-align: <deger\> 
+**Aldığı Değerler :** [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] | inherit   
+**Başlnagıç değeri:** 0   
+**Uygulanabilen elementler:** tüm elementler  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 	:::css
-	 p { text-align: justify; } 
+	p { 
+		text-align: justify; 
+	} 
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 3+ Netscape 4+ Opera 3.6+ W3C's CSS
-Level 1+ CSS Profile 1.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-#### vertical-align
+## vertical-align
 
 Bir elementin içeriğinin dikey hizalaması için kullanılır.
 
@@ -57,71 +82,116 @@ Bir elementin içeriğinin dikey hizalaması için kullanılır.
 -   bottom : Alt (Elemente göre)
 -   text-bottom : Alt(Metin içeriğine göre)
 
-**Yapısı :** vertical-align: <deger> **Aldığı Değerler
-:**[<yüzde>][<uzunluk değeri >] | baseline | sub | super | top |
-text-top | middle | bottom | text-bottom **Başlnagıç değeri:** baseline
-**Uygulanabilen elementler:** inline elementler **Kalıtsallık:** Yok
+**Yapısı :** vertical-align: <deger\>   
+**Aldığı Değerler :**[<yüzde>][<uzunluk değeri >] | baseline | sub | super | top | text-top | middle | bottom | text-bottom   
+**Başlnagıç değeri:** baseline   
+**Uygulanabilen elementler:** inline elementler   
+**Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 	:::css
-	 img { vertical-align: baseline; }
+	img { 
+		vertical-align: baseline; 
+	}
 
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 4+ Netscape 6+ Opera 3.6+ W3C's CSS
-Level 1+ CSS Profile 1.0
-
-</div>
-#### line-height
+## line-height
 
 Satırlar arasındaki yüksekliği belirler. **normal**, **pixel** veya
 **yüzde**değerlerin den birini alabilir.
 
-**Yapısı :** line-height: <deger> **Aldığı Değerler :** normal |
-[<sayı>][<uzunluk değeri >] | [<uzunluk değeri >][] |
-[<yüzde>][<uzunluk değeri >] **Başlnagıç değeri:** normal
-**Uygulanabilen elementler:** tüm elementler **Kalıtsallık:** Var
+**Yapısı :** line-height: <deger\> 
+**Aldığı Değerler :** normal | [<sayı>][<uzunluk değeri >] | [<uzunluk değeri >][] | [<yüzde>][<uzunluk değeri >] 
+**Başlnagıç değeri:** normal   
+**Uygulanabilen elementler:** tüm elementler    
+**Kalıtsallık:** Var
+{: .cssozelliktanimi}
 
 	:::css
-	 div{ line-height:30px } 
+	div{ 
+		line-height:30px 
+	} 
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 3+ Netscape 4+ Opera 3.6+ W3C's CSS
-Level 1+ CSS Profile 1.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-#### word-spacing
+## word-spacing
 
 Kelimeler arasındaki boşluk değerini belirler. Eksi değer alabilir.
 
-**Yapısı :** word-spacing: <deger> **Aldığı Değerler :** normal |
-[<uzunluk değeri >][] **Başlnagıç değeri:** normal **Uygulanabilen
-elementler:** tüm elementler **Kalıtsallık:** Var
+**Yapısı :** word-spacing: <deger\>   
+**Aldığı Değerler :** normal | [<uzunluk değeri >][]   
+**Başlnagıç değeri:** normal   
+**Uygulanabilen elementler:** tüm elementler   
+**Kalıtsallık:** Var
+{: .cssozelliktanimi}
 
 	:::css
-	 p { word-spacing: 10px; } 
+	p { 
+		word-spacing: 10px; 
+	} 
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 4.5+(Mac); 6 (Windows) Netscape 6+
-Opera 3.6+ W3C's CSS Level 2+
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-#### letter-spacing
+## letter-spacing
 
 Harfler arasındaki boşluk değerini belirler. Eksi değer alabilir.
 
-**Yapısı :** letter-spacing: <deger> **Aldığı Değerler :** normal |
-[<uzunluk değeri >][] **Başlnagıç değeri:** normal **Uygulanabilen
-elementler:** tüm elementler **Kalıtsallık:** Var
+**Yapısı :** letter-spacing: <deger\>    
+**Aldığı Değerler :** normal | [<uzunluk değeri >][]   
+**Başlnagıç değeri:** normal    
+**Uygulanabilen elementler:** tüm elementler   
+**Kalıtsallık:** Var
+{: .cssozelliktanimi}
 
 	:::css
-	 p { letter-spacing: 5px; } 
+	p { 
+		letter-spacing: 5px; 
+	} 
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's CSS
-Level 1+ CSS Profile 1.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-#### text-transform
+## text-transform
 
 Metnin Büyük-Küçük harf çevirmek için kullanılır.
 
@@ -129,41 +199,63 @@ Metnin Büyük-Küçük harf çevirmek için kullanılır.
 -   **lowercase**(hepsini küçük harf yap)
 -   **capitalize**(sadece baş harfleri büyük yap)
 
-**Yapısı :** text-transform: <deger> **Aldığı Değerler :** none |
-capitalize | uppercase | lowercase **Başlnagıç değeri:** none
-**Uygulanabilen elementler:** tüm elementler **Kalıtsallık:** Var
+**Yapısı :** text-transform: <deger\>   
+**Aldığı Değerler :** none | capitalize | uppercase | lowercase   
+**Başlnagıç değeri:** none   
+**Uygulanabilen elementler:** tüm elementler   
+**Kalıtsallık:** Var
+{: .cssozelliktanimi}
 
 	:::css
-	 p { text-transform: capitalize; }
+	p { 
+		text-transform: capitalize; 
+	}
 
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's CSS
-Level 1+ CSS Profile 1.0
-
-</div>
-#### text-decoration
+## text-decoration
 
 Bu özellik metinlerimize özel işaretler koymamızı sağlar. Örneğin
 metinlerizinaltını çizmek gibi.
 
-**Yapısı :** text-decoration: <deger> **Aldığı Değerler :**none | [ underline || overline || line-through || blink ] **Başlnagıç değeri:**
-none **Uygulanabilen elementler:** tüm elementler **Kalıtsallık:** Yok
+**Yapısı :** text-decoration: <deger\>   
+**Aldığı Değerler :**none | [ underline || overline || line-through || blink ]    
+**Başlnagıç değeri:** none   
+**Uygulanabilen elementler:** tüm elementler   
+**Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 	:::css
-	 a:link, a:visited, a:active {
-text-decoration: none } 
+	a:link, a:visited, a:active {
+		text-decoration: none 
+	} 
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 3+ Netscape 4+ Opera 3.6+ W3C's CSS
-Level 1+ CSS Profile 1.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-#### text-shadow
+## text-shadow
 
 Bu özellik CSS2 ile birlikte geldi ancak internet tarayıcıları bu
-özelliği desteklemeyince CSS2.1 kaldırıldı.
+özelliği desteklemeyince CSS2.1 kaldırıldı. CSS3 ile birlikte tekrar geldi.
 
-</p>
 
   [<uzunluk değeri >]: http://www.fatihhayrioglu.com/?p=95

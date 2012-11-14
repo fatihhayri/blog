@@ -16,16 +16,15 @@ sıralanmıştır.
 -   **clip** - kırpma
 -   **visibility** - görünürlük
 
-<!--more-->
-
 ## Overflow
 
-**Yapısı:** overflow: <deger>  
+**Yapısı:** overflow: <deger\>  
 **Aldığı Değerler:** visible | hidden | scroll | auto | inherit  
 **Başlnagıç değeri:** visible  
 **Uygulanabilen elementler:** blok-level elementler ve replacement
 elementlere   
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
 Türkçeye taşmak(overflow) olarak çevirdiğimiz bu özellik sınırlarını
 belirlediğimiz kutu elementinin içeriğinin sınırları aşması durumunda
@@ -40,26 +39,34 @@ tek tek incelersek.
 -   auto - kutu sınırlarını aşması durumunda scroll ile aynı etkiyi
     yapar.
 
-<div class="tarayiciuyum">
-**Browser Uyumu:**  
-  
-Internet Explorer 6+   
-Mozilla 1.7+   
-Opera 7.5+  
-Safari 1.2   
-W3C's CSS Level 2+   
-CSS Profile 2.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
 **overflow:visible** Overflow'ın başlangıç değeri visible'dır. Bu değer
 taşma olan kısımların gösterilmesini sağlar.
 
 	:::css
-	 div#solMenu { position: absolute; top: 0;
-left: 0; width: 200px; height: 120px; background: #BBB; overflow:
-visible; } 
+	div#solMenu {
+		position: absolute;
+		top: 0;
+		left: 0; 
+		width: 200px;
+		height: 120px;
+		background: #BBB;
+		overflow: visible;
+	}
 
-![overflow][]  
+![overflow][]    
+
 Kodun yeni nesil tarayıcılardaki görünümü
 
 **overflow** özelliğinin değeri **visible** olduğu için içerik taşmasına
@@ -70,20 +77,33 @@ yinede taşan kısımlara ulaşılması için kaydırma çubuğu çıkması içi
 scroll özelliği ekleriz.
 
 	:::css
-	 div#solMenu { position: absolute; top: 0;
-left: 0; width: 200px; height: 120px; background: #BBB; overflow:
-scroll; } 
+	div#solMenu {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 200px;
+		height: 120px;
+		background: #BBB;
+		overflow: scroll;
+	}
 
-![overflow scroll][]  
+![overflow scroll][]    
+
 overflow:scrool olma durumu
 
 **overflow:hidden** Eğer overflow:hidden değeri atarsak. Sınırladığımız
 kutunun dışına taşan kısımlar gösterilmeyecektir.
 
 	:::css
-	 div#solMenu { position: absolute; top: 0;
-left: 0; width: 200px; height: 120px; background: #BBB; overflow:
-hidden; } 
+	div#solMenu {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 200px;
+		height: 120px;
+		background: #BBB;
+		overflow: hidden;
+	} 
 
 kodu bu şekilde değiştirdiğimizde görüntü aşağıdaki gibi olacaktır.
 
@@ -95,9 +115,15 @@ olmuyorsa kaydırma çubuğu çıkmayacaktır. Ama eğer içerik taşıyorsa
 kaydırma çubuğu çıkacaktır.
 
 	:::css
-	 div#solMenu { position: absolute; top: 0;
-left: 0; width: 200px; height: 120px; background: #BBB; overflow:
-hidden; } 
+	div#solMenu {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 200px;
+		height: 120px;
+		background: #BBB;
+		overflow: hidden;
+	}
 
 ![overflow:auto][]
 
@@ -130,48 +156,47 @@ beklemekte yarar var.
 
 Örnekler için [tıklayınız.][1] (brunildo.org'dan)
 
-<div class="tarayiciuyum">
-**Browser Uyumu:**  
-  
-Internet Explorer 5x+   
-Mozilla 1.8+   
-Opera 7.5+  
-Safari 3   
-W3C's CSS Level 3+   
-CSS Profile 3.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
-#### clip
+## clip
 
-**Yapısı :** clip: rect(<üst>,<sağ>,<alt>,<sol>)  
+**Yapısı :** clip: rect(<üst\>,<sağ\>,<alt\>,<sol\>)  
 **Aldığı Değerler :** rect(top, right, bottom, left) | auto | inherit  
 **Başlangıç değeri:** auto  
 **Uygulanabilen elementler:** mutlak konumlandır uygulanmış elementler
 (CSS2'den itibaren blok-level elementler ve replacement elementlere )  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-<div class="tarayiciuyum">
-**Browser Uyumu:**  
-  
-Internet Explorer 4+   
-Mozilla 1+   
-Opera 3+  
-Safari 1   
-W3C's CSS Level 2+   
-CSS Profile 2.0
 
-</div>
-<div class="not">
-<div class="notbaslik">
-Not
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
+**Not**
 W3C standartları belirlerken konumlandırmalar arasında virgül konmasını
 öneriyor. Ancak garip bir şekilde IE virgül kullanılan örnekleri normal
 modda farklı yorumlamaktadır. Acayip modda ise doğru yorumlamaktadır. Ne
 yapalım bizde tüm tarayıcılara uygun olması için virgül kullanamayacağız
 
-</div>
 clip, elementin içeriğinin belli bir bölümünün gösterilmesi sağlar.
 Başlangıç değerinin auto atanmış olması herhangi bir kırpmanın
 olmayacağını gösterir.
@@ -191,16 +216,20 @@ Bir örnek yapalım.
 CSS kodu:
 
 	:::css
-	 .kirpma{ position:absolute; clip:rect(50px
-130px 153px 40px); } 
+	.kirpma{
+		position:absolute;
+		clip:rect(50px 130px 153px 40px);
+	}
 
 HTML kodu:
 
 	:::html
-	<ol> <div class="kirpma"> <img
-src="recepemice.jpg" alt="ahmet emice" /> </div> 
+	<div class="kirpma">
+	<img src="recepemice.jpg" alt="ahmet emice" />
+	</div>
 
-![Kırpma][]  
+![Kırpma][]    
+
 örneğin görüntüsü
 
 Örneği görmek için [tıklayınız.][2]
@@ -212,35 +241,41 @@ src="recepemice.jpg" alt="ahmet emice" /> </div>
 **Başlnagıç değeri:** visible  
 **Uygulanabilen elementler:** tüm elementlere  
 **Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-<div class="tarayiciuyum">
-**Browser Uyumu:**  
-  
-Internet Explorer 4+   
-Mozilla 1+   
-Opera 3.6+  
-W3C's CSS Level 2+   
-CSS Profile 2.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
 Görünürlük(visibility) özelliği nesnelerin görünümünü belirler. Değeri
 visible ise element görünür. Eğer değeri hidden ise element görünmezdir.
 Eğer bir elementin görünürlük değeri hidden olarak atanmış ise element
 sayfa yapısındaki yeri korur ancak gözle görülmez.
 
 	:::html
-	<ol> <html> <head> <title>visibility
-Örneği</title> <meta http-equiv="Content-Type" content="text/html;
-charset=utf-8" /> <style> <li class="alternatifard">body
-{font-family: sans-serif; font-weight: bold; font-size: 14px}</li>
-</style> <li class="alternatifard"></head> <body> <h1
-style="visibility: visible">Görünür Başlık</h1> <h1
-style="visibility: hidden; background-color:#f00; border:1px solid
-#000; margin:20px 0; padding-top:10px;">Görünmez Başlık</h1> <h1
-style="visibility: visible">Görünür Başlık</h1> <p style="font-size:
-large">Görünür metin parçası<b style="visibility: hidden">görünmez
-metin parçası</b> ve burası görünüyor.</p> </body> </html>
-</ol>
+	<html>
+	<head>
+	<title>visibility Örneği</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style>
+	  <li class="alternatifard">body {font-family: sans-serif; font-weight: bold; font-size: 14px}</li>
+	</style>
+	  <li class="alternatifard"></head>
+	<body>
+	<h1 style="visibility: visible">Görünür Başlık</h1>
+	<h1 style="visibility: hidden; background-color:#f00; border:1px solid #000; margin:20px 0; padding-top:10px;">Görünmez Başlık</h1>
+	<h1 style="visibility: visible">Görünür Başlık</h1>
+	<p style="font-size: large">Görünür metin parçası<b style="visibility: hidden">görünmez metin parçası</b> ve burası görünüyor.</p>
+	</body>
+	</html>
 
 ![Visibility örneği][]
 
@@ -259,16 +294,18 @@ değildir. Örnek yaparsak
 CSS kodu
 
 	:::css
-	 p.gorunmez {visibility: hidden;} p.gorunmez
-strong {visibility: visible;} 
+	p.gorunmez {
+		visibility: hidden;
+	} 
+	
+	p.gorunmez strong {
+		visibility: visible;
+	} 
 
 HTML kodu
 
-	:::css
-	 <p class="gorunmez" <strong>Lorem ipsum
-dolor sit amet</strong>, consectetuer adipiscing elit. Cras sem. In
-sagittis mauris eu turpis. Mauris ut lorem nec pede consequat suscipit.
-</p> 
+	:::html
+	<p class="gorunmez" <strong>Lorem ipsum dolor sit amet</strong>, consectetuer adipiscing elit. Cras sem. In sagittis mauris eu turpis. Mauris ut lorem nec pede consequat suscipit. </p> 
 
 ![visibility hiyerarşi][]
 
@@ -285,8 +322,6 @@ display:none özelliği kullanılır.
 -   [http://www.seifi.org/css/creating-thumbnails-using-the-css-clip-property.html][]
 -   [http://www.ibloomstudios.com/articles/misunderstood_css_clip/][]
 -   [http://www.w3schools.com/css/pr_pos_clip.asp][]
-
-</p>
 
   [overflow]: /images/overflow.gif
   [overflow scroll]: /images/overflow_scroll.gif

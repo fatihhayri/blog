@@ -11,8 +11,6 @@ elementlere uygulanır. Bunun anlamı eğer bir elementi aynı z-ekseni
 üzerinde üste veya alt sıraya atmak istiyorsanız ilk olarak
 konumlandırma değeri atamalısınız.
 
-<!--more-->
-
 z-index değeri dokümanımızdaki elementlerin istiflenme sıralarını
 belirler. z-index elementleri z-ekseninde nerede duracağınız belirler,
 üstte veya altta. z-indeks değeri küçük olan elementler altta büyük olan
@@ -26,31 +24,48 @@ değiştirildiğinde uygulanır.
 
 ![][]
 
-**Yapısı:z-index: <deger\>  
-Aldığı Değerler:<[sayısal değer][] > | auto | inherit  
-Başlangıç değeri:auto  
-Uygulanabilen elementler:postion uygulanan elementlere  
-Kalıtsallık:Yok**
+**Yapısı:**z-index: <deger\>    
+**Aldığı Değerler:**<[sayısal değer][] \> | auto | inherit  
+**Başlangıç değeri:**auto   
+**Uygulanabilen elementler:**postion uygulanan elementlere   
+**Kalıtsallık:**Yok
+{: .cssozelliktanimi}
 
-<div class="tarayiciuyum">
-**Browser Uyumu:**  
-  
-Internet Explorer 4+(kısmen, IE4 den sonra auto ve sayısal değerleri
-destekliyor)  
-Netscape 4+(kısmen), 6+(tüm)   
-Opera 5+   
-W3C’s CSS Level 2+   
-CSS Profile 2.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
 Konumlandırma değeri relative, absolute ve fixed uygulanmış katmanların
 görünürlüğünü z-index ile ayarlayabiliriz.
 
 	:::css
-	 div{ position:absolute; width:150px;
-height:150px; } div.bir { background: #FEB3BE; border:2px solid
-#CC8B94; top: 0; left: 0; } div.iki { background: #E5ECF9; border:2px
-solid #BCCCEB; top: 10px; left: 10px; } 
+	div{ 
+		position:absolute; 
+		width:150px;
+		height:150px; 
+	} 
+	
+	div.bir { 
+		background: #FEB3BE; 
+		border:2px solid #CC8B94; 
+		top: 0; 
+		left: 0; 
+	} 
+	
+	div.iki { 
+		background: #E5ECF9; 
+		border:2px solid #BCCCEB; 
+		top: 10px; 
+		left: 10px; 
+	} 
 
 Yukarıda örnekte görüldüğü gibi katmanlar üst üste sıralanmıştır.
 Birbirinden 10px üst ve 10px soldan mesafe bırakılmıştır. Üstte kalan
@@ -59,8 +74,12 @@ atanmamıştır bu nedenle başlangıç değeri olan z-index:auto değerini
 almışlardır.
 
 	:::html
-	<body> <div class='kapsul'> <div
-	class='bir'></div> <div class='iki'></div> </div> </body>
+	<body> 
+		<div class='kapsul'> 
+			<div class='bir'></div>
+			<div class='iki'></div> 
+		</div>
+	</body>
 
 
 z-index değeri otomatik olduğu için her katman html'deki sırasına göre
@@ -78,39 +97,54 @@ Yukarıda yaptığımız örnekte alttaki kırmızı katmanı üste çıkarmak i
 z-index değerini 2 versek. Mavi katmanın z-index değerini 1 verirsek
 katman görünümünü tersine dönecektir.
 
-[sourcecode language="css" highlight="11,18"] div{ position:absolute;
-width:150px; height:150px; } div.bir { background: #FEB3BE; border:2px
-solid #CC8B94; top: 0; left: 0; z-index:2 } div.iki { background:
-#E5ECF9; border:2px solid #BCCCEB; top: 10px; left: 10px; z-index:1 }
+	:::css
+	div{ 
+		position:absolute;
+		width:150px; 
+		height:150px; 
+	} 
+	
+	div.bir { 
+		background: #FEB3BE; 
+		border:2px solid #CC8B94; 
+		top: 0; 
+		left: 0; 
+		z-index:2 
+	} 
+	
+	div.iki { 
+		background: #E5ECF9; 
+		border:2px solid #BCCCEB; 
+		top: 10px; 
+		left: 10px; 
+		z-index:1 
+	}
 
 
-<div align="center">
 ![][2]
 
-</div>
 İçiçe girmiş katmanlarda z-index davranışları farklıdır. İçiçe geçmiş
 katmanlardaki z-index:auto değeri gibi davranır ve sayısal atamaları
 dikkate almaz.
 
 	:::html
-	<body> <div class='kapsul'>
-	<div class='bir'><div class='iki'></div></div> </div> </body>
+	<body> 
+		<div class='kapsul'>
+			<div class='bir'><div class='iki'></div></div>
+		</div>
+	</body>
 
 
 z-index değeri yüksek olmasına rağmen bir sınıfını alan katmana altta
 kalacaktır. Çünkü iç içe geçmiş elementlerde z-index'e atanan sayısal
 değerler geçersizdir. Sıralama z-index:auto ya göre yapılır.
 
-<div class="not">
-<div class="notbaslik">
-Not
 
-</div>
+**Not**
 z-index eksi değerlerinde Firefox sorun çıkarıyor. Firefox 3'da sorun
 giderilmiş.
 
-</div>
-#### Sonuç
+## Sonuç
 
 Sonuç olarak z-index özelliğinin çok kullanışlı ancak sorunları çok bir
 özellik olduğunu düşünüyorum. Birçok makalede istediğim manada detaylı
@@ -125,15 +159,11 @@ daha bilinçli kullanacağımız kesin:
     **fixed** olan nesnelere uygulanır.
 -   Saydamlık değeri(opacity) 1'den küçük verilen nesnelerde z-index
     kullanımı daha kolay anlaşılır.
-
-Konumlandırma uygulanmış elementlerde z-index etkileri  
-
+-	Konumlandırma uygulanmış elementlerde z-index etkileri  
 -   Mevcut sıralama durumunda elementin sırasını belirler
 -   Elementin kendi kısmındaki durumun belirler
-
-Eğer z-index değeri atanmamış ise z-eksenindeki arkadan öne doğru
+-   Eğer z-index değeri atanmamış ise z-eksenindeki arkadan öne doğru
 sıralama aşağıdaki gibidir:  
-
 -   Normal akıştaki kutular koddaki sıraya göre sıralanır
 -   float uygulanmış kutular
 -   Konumlandırma uygulanmış elementlerde ise kodlamadaki sıraya göre   
@@ -159,7 +189,7 @@ listeledik bu linklerdeki çözümleri incelemenizi tavsiye ederiz. Karşıma
 -   Cascading Style Sheets The Definitive Guide
 -   Wrox Beginning CSS 2nd.Edition
 
-#### Sorunlar ve çözümler
+## Sorunlar ve çözümler
 
 -   [http://brandonaaron.net/docs/bgiframe/][]
 -   [http://www.askapache.com/css/getting-flash-to-show-up-in-front-of-content.html][]
@@ -168,8 +198,6 @@ listeledik bu linklerdeki çözümleri incelemenizi tavsiye ederiz. Karşıma
 -   [http://www.hedgerwow.com/360/bugs/css-select-free.html][]
 -   [http://blogs.msdn.com/ie/archive/2006/01/17/514076.aspx][]
 -   [http://randsco.com/index.php/2005/09/11/changing_z_index_on_hover][]
-
-</p>
 
   []: /images/z-ekseni.gif
   [sayısal değer]: http://www.fatihhayrioglu.com/?p=95
