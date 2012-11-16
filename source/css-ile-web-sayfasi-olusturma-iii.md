@@ -7,12 +7,12 @@ Tags: Aksak Kolonlar, CSS, CSS-Layout, CSS-P, Faux Column, Web Standartları, XH
 
 CSS ile sayfa kodlaması yaparken karşımıza çıkan sorunlardan biridir
 Aksak Kolonlar(faux column). Genelde isimlendirme olarak **Faux Kolon**
-diye geçsede ben burada **Aksak kolon** olarak kullanacağım. <!--more-->
+diye geçsede ben burada **Aksak kolon** olarak kullanacağım. 
 Basit bir örnek verecek olursak; içerik ve sağ kolon diye iki kolondan
 oluşan bir yapımız olsun. Bu kolonların zemin renklerinin farklı
 olduğunu düşünelim. Aşağıdaki şekildeki gibi
 
-![][]
+![][]   
 
 İçerik ile sağ kolonun farklı yükseklite olması bir sorundur ve sorunu
 çözmek için bir kaç yöntem mevcuttur. Biz burada en kolayı ve en
@@ -22,8 +22,9 @@ Bu metodda yapılan iki kolon bir kapsayıcı katman içine alınarak iki
 kolonun zemin resmi bu kapsayıcı katmana tanımlanmaktır.
 
 	:::css
-	 #kapsayiciKolon { background: #fff
-url(zemin_ard.gif) repeat-y left top; } 
+	#kapsayiciKolon{
+		background: #fff url(zemin_ard.gif) repeat-y left top;
+	}
 
 Aynı şekilde üç kolonlu yapılar içinde çözüm üretilebilir. Sabit
 genişlikte sayfalarda Aksak Kolonları düzeltmek bu kadar kolaydır. Esnek
@@ -39,21 +40,20 @@ konulandırıldığında, atanan değerler hem üst elemente göre, hem de
 elementin kendine göre konumunu belirler. Örneğin:
 
 	:::css
-	 background: #fff url(resim.gif) no-repeat
-25% 10%; 
+	background: #fff url(resim.gif) no-repeat 25% 10%;
 
 Yukarıdaki tanımlama sonucunda zemin resmi hem üst elementin %10 üst ve
 %25 solundan mesafe alacaktır, hemde kendi içinde %10 üst ve %25 soldan
 mesafe alacaktır. Aşağıdaki şekilde gösterilmiştir:
 
-![][1]
+![][1]   
 
 Likit içerikli üç kolonlu sayfalarda Aksak kolon sorununun çözümüne
 bakalım.
 
 Bir örnek yapacak olursak;
 
-![][2]
+![][2]  
 
 Daha önce likit bir sayfanın nasıl yapılacağını bahsetmiştik. İsterseniz
 yine de bir [göz atın][] Yukarıdaki ekranda da görüldüğü gibi orta
@@ -73,9 +73,12 @@ alalanları(1540px) transparan yapmak için zemin resmimizi .gif
 formatında yapmalıyız.
 
 	:::css
-	 #KapsayiciAlan { width: 85%; margin: 0
-auto; text-align: left; background: #fff
-url(images/sol_zemin_resmi.gif) repeat-y 23% 0; } 
+	#KapsayiciAlan {
+	    width: 85%;
+	    margin: 0 auto; 
+	    text-align: left;
+	    background: #fff url(images/sol_zemin_resmi.gif) repeat-y 23% 0;
+	}
 
 Benzer şekilde ikinci bir içerik oluşturarak sağda kalan iki kolona aynı
 metod uygulanabilir. Yine 2000 piksel genişliğinde 10 piksel
@@ -89,14 +92,13 @@ tane daha **ikinciKapsayiciAlan** eklemeliyiz. Bu yeni
 **ikinciKapsayiciAlan**'nınada zemin resmi atamalıyız.
 
 	:::css
-	 #ikinciKapsayiciAlan { background:
-url(images/sag_zemin_resmi.gif) repeat-y 77% 0; } 
+	#ikinciKapsayiciAlan{
+		background: url(images/sag_zemin_resmi.gif) repeat-y 77% 0;
+	} 
 
 Bu şekilde çok güzel bir 3 kolonlu likit bir sayfa elde ederiz.
 
 Örnek çalışma için [tıklayınız.][]
-
-</p>
 
   []: /images/sorunlu_kolonlar.gif
   [1]: /images/likit_sorunlu_kolonlar.gif

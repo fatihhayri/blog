@@ -8,7 +8,7 @@ ve clear özelliklerinin kullanımı. Float bir elementi Normal Akışın
 dışına çıkarmak için kullanılan bir yöntemdir. Bir biri ardına
 sıralanmış elementlere float uygulandığında elementler eğer yeterli alan
 varsa yan yana dizilirler. Float Dinamik Göreceli Konumlandırma gibidir
-ve bu amaçla kullanılabilir. <!--more-->
+ve bu amaçla kullanılabilir. 
 
 Clear özelliği ile float uygulanmış element'den sonraki elementlere
 float etkisini durdurmamız mümkündür. Örneğin iki paragrafınız olsun ve
@@ -18,16 +18,24 @@ element float uygulanmış elementin altında konumlanacaktır.
 
 ## float
 
-**Yapısı :** float: <deger> **Aldığı Değerler :**left | right | none |
-inherit **Başlangıç değeri:** none **Uygulanabilen elementler:** tüm
-elementler **Kalıtsallık:** Yok
+**Yapısı :** float: <deger\>   
+**Aldığı Değerler :**left | right | none | inherit   
+**Başlangıç değeri:** none   
+**Uygulanabilen elementler:** tüm elementler   
+**Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 4+ Netscape 4+ Opera 3.6+ W3C's CSS
-Level 1+ CSS Profile 1.0
-
-</div>
- 
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
 Float ilk olarak resimleri konumlandırmak için kullanılmıştır.
 Resimlerin metinlere göre konumunu belirlemek için HTML 1.0 ile birlikte
@@ -38,8 +46,10 @@ CSS'in olaya el atması ile tüm elementler için kullanıla geldi. Ayrıca
 float özelliği çoklu kolon oluşturmak için de kullanılır.
 
 	:::css
-	 img { float:left; margin:0 4px 4px 0; }
-
+	img { 
+		float:left; 
+		margin:0 4px 4px 0; 
+	}
 
 **float:left** ataması yapılan resim sola dayanacak ve metin bu resmin
 etrafını saracaktır.
@@ -47,11 +57,8 @@ etrafını saracaktır.
 ![][]
 
 	:::html
-	 ![resim bilgisi][]
-
-... paragraf metni ...
-
-
+	<img src="resim.gif" width="150" height=150 alt="resim bilgisi" />
+	<p>... paragraf metni ... </p>
 
 Bir elemente float uygulandığında, float uygulanan kutu kapsayıcı
 kutunun veya diğer float kutusunun dış kenarının sağına veya soluna
@@ -70,8 +77,15 @@ kutunun en soluna dayanmıştır. Diğer iki kutu ise normal akışına devam
 etmektedir.
 
 	:::css
-	 p { float:left; width:200px; margin:0; } img
-{ float:left; margin:0 4px 4px 0; } 
+	p {
+		float:left; 
+	    width:200px; 
+	    margin:0;
+	}
+	img {
+	    float:left; 
+	    margin:0 4px 4px 0;
+	}
 
 Burada her iki elemente de float uygulanarak metnin resmi sarmasına son
 verilmiştir. Bu çoklu kolon oluşturma tekniğinin basit bir örneğidir.
@@ -83,19 +97,31 @@ Eğer kapsayıcı kutu genişliği her üçünün sığacağı kadar değil ise
 sondaki kutu kendiliğinden aşağı kayacaktır. Eğer kutular farklı
 yükseklikte ise yükseliği düşük olan kutudan sonra gelen kutu bunun
 altında devam edecektir. Bu durumu düzeltmek için clear özelliği
-kullanılır bunu aşığda göreceğiz. ![][3]
+kullanılır bunu aşığda göreceğiz. 
+
+![][3]   
 
 ## clear
 
-**Yapısı :** clear: <deger> **Aldığı Değerler :**none | left | right |
-both **Başlangıç değeri:** tanımsız **Uygulanabilen elementler:** tüm
-elementler **Kalıtsallık:** Yok
+**Yapısı :** clear: <deger\>   
+**Aldığı Değerler :**none | left | right | both   
+**Başlangıç değeri:** tanımsız   
+**Uygulanabilen elementler:** tüm elementler   
+**Kalıtsallık:** Yok
+{: .cssozelliktanimi}
 
-<div class="tarayiciuyum">
-**Browser Uyumu:** Internet Explorer 3+ Netscape 4+ Opera 3.6+ W3C's CSS
-Level 1+ CSS Profile 1.0
+**Tarayıcı Uyumu **   
+Firefox   
+Chrome   
+Safari  
+Opera   
+İnternet Explorer   
+**Mobil Tarayıcılar**  
+iOS Safari  
+Opera Mobile   
+Android Browser
+{: .tarayiciuyum}
 
-</div>
 Float ile sık sık kullanılan diğer özellik clear'dir. Float elementinin
 etkisinden kurtulmak için **clear** özelliğini kullanırız. Float
 uygulanmış kutu sonra gelen elementleri etkiler bu etkiden kurtulmak
@@ -109,12 +135,9 @@ uygulamasından etkilenecektir. Biz bu etkiyi kaldırmak için clear
 mesafeyi koyacaktır, bir bakıma üst kutu ile araya üst margin değeri
 ataması yapmaktır.
 
-![][4]
-
-</p>
+![][4]   
 
   []: /images/floating1a.gif
-  [resim bilgisi]: resim.gif
   [1]: /images/floating01.gif
   [2]: /images/floating02.gif
   [3]: /images/floating03.gif

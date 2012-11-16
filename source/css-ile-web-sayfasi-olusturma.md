@@ -23,27 +23,38 @@ tablo kullanmayayım diye tablo kullanılması gerek yerlerde de tablo
 kullanmamak abesle iştigaldir.
 
 Aslında şimdiye kadar ki makaleler de bu konunun temellerini
-attık.[<acronym title="Stil şablonu">CSS</acronym> ile konumlandırma(positioning)][] , [Float ve Clear özellikler ile konumlandırma][] vd. makaleler bu işin temellerine değindik. Burada daha
+attık. CSS ile konumlandırma(positioning) , [Float ve Clear özellikler ile konumlandırma][] vd. makaleler bu işin temellerine değindik. Burada daha
 elle tutulur örneklerle bu metodu anlatmaya çalışacağız.
 
 CSS sayfa planlama metodları üç temel konu üzerine inşa edilmiştir.
-[Konumlandırma][<acronym title="Stil şablonu">CSS</acronym> ile konumlandırma(positioning)], [floating][Float ve Clear özellikler ile konumlandırma] ve [margin][] farklılıkları. Bu üç temel konu
+CSS ile konumlandırma(positioning)], [floating][Float ve Clear özellikler ile konumlandırma] ve [margin][] farklılıkları. Bu üç temel konu
 anlaşıldıktan sonra CSS ile sayfa planlamayı anlamamız çok kolaydır. Biz
 burada floating metodu ile sayfa oluşturmayı göreceğiz. Bunun dışında
 konumlandırma öğeleleri kullanarak sayfa oluşturma ve eksi margin değeri
 ile sayfa oluşturma metodlarıda vardır. Ancak biz burada bunlara
 değinmeyeceğiz.
 
-#### Sabit Genişlikteki Sayfalarda İki Kolonlu Yapı
+## Sabit Genişlikteki Sayfalarda İki Kolonlu Yapı
 
-![][]
+![][]   
 
 İlk olarak XHTML kodlarını yazalım.
 
 	:::html
-	 <div id="sayfa"> <div id="ustAlan"> ...
-</div> <div id="icerik"> ... </div> <div id="anaMenu"> ...
-</div> <div id="altAlan"> ... </div> </div> 
+	<div id="sayfa">
+	<div id="ustAlan">
+	...
+	</div>
+	<div id="icerik">
+	...
+	</div>
+	<div id="anaMenu">
+	...
+	</div>
+	<div id="altAlan">
+	...
+	</div>
+	</div> 
 
 Önemli bir nokta varki oda **icerik** alanının **anaMenu**'den önce
 gelmesi gerekmektedir. Erişebilirlilik(yani tüm araçlarda sayfamızın en
@@ -53,9 +64,33 @@ sıralamasına göre ekranda görüneceğinden, ilk olarak içerik alanının
 görünmesi tercih sebebidir. şžimdi css kodumuzu yazarsak:
 
 	:::css
-	 #sayfa { width:768px; } #ustAlan { width:
-768px; } #icerik { float: right; width: 568px; } #anaMenu { float:
-left; width: 200px; } #altAlan { width: 768px; clear: both; }
+	#sayfa
+	{
+		width:768px;
+	}
+
+	#ustAlan
+	{ 
+		width: 768px; 
+	} 
+
+	#icerik 
+	{ 
+	    float: right; 
+	    width: 568px; 
+	}
+
+	#anaMenu 
+	{ 
+	    float: left; 
+	    width: 200px; 
+	}
+
+	#altAlan 
+	{ 
+	    width: 768px; 
+	    clear: both; 
+	}
 
 
 Bu kodu yazdıktan sonra sayfamız başta gördüğümüz şekildeki duruma
@@ -64,11 +99,14 @@ sağa, **"anaMenu"** alanının sola yerleşmesi için genişlik değeri ve
 float değerleri tanınmlanmıştır. Ayrıca **altAlan**'ın bu iki bölümün
 altında kalması için **clear:both** tanımlaması yapılmıştır.
 
-[<acronym title="Stil şablonu">CSS</acronym> ile sayfalarımızı ve elementlerimizi ortalamak][] bölümündeki metodu uygulayarak sayfamızı
+CSS ile sayfalarımızı ve elementlerimizi ortalamak][] bölümündeki metodu uygulayarak sayfamızı
 ortalayabilriz.
 
 	:::css
-	 #sayfa{ width: 768px; margin:0 auto; }
+	#sayfa{
+	    width: 768px;
+	    margin:0 auto;
+	}
 
 
 Örnek kodları görmek için [tıklayınız.][]
@@ -76,7 +114,7 @@ ortalayabilriz.
 Sabit Genişlikteki Sayfalarda en çok rastlanan problemler sabit genişlik
 uygulanan katmanlara pading, margin ve border değeri atandığında IE5 de
 sorunlu görünmesidir bu problemi aşmak için iki yöntem vardır. Birinci
-yöntem [<acronym title="Stil şablonu">CSS</acronym> ile Kutu modeli, sorunları ve çözümleri][] bölümünde anlatılmıştır. ikinci yöntem ise
+yöntem CSS ile Kutu modeli, sorunları ve çözümleri bölümünde anlatılmıştır. ikinci yöntem ise
 kapsayıcı katmanlara(**icerik**, **anaMenu** vb.) padding ve margin
 vermek yerine kapsayıcı katman içindeki elementlere bu atamaları
 yapmaktır.
@@ -84,7 +122,7 @@ yapmaktır.
 Basit yapılı sayfalarda ikinci yöntemi, karmaşık yapılı sayfalarda ise
 birinci yöntemi denemenizi öneririm.
 
-#### Likit Sayfalarda İki Kolonlu Yapı
+## Likit Sayfalarda İki Kolonlu Yapı
 
 Likit Sayfalarda Sabit Genişlikteki Sayfalar'dan farklı olarak genişlik
 değerleri piksel(px) olarak değil yüzde(%) olarak verilmesidir. Bu tür
@@ -94,16 +132,39 @@ tarayıcısının genişliği azaltıldığında sayfa genişli azalacaktır. Ko
 yazarsak:
 
 	:::css
-	 #sayfa{ width:83%; margin:0 auto; }
-#ustAlan { width: 100%; } #anaMenu { float: left; width: 30%; }
-#icerik { float: right; width: 70%; } #altAlan { width: 100%; clear:
-both; } 
+	#sayfa{
+	    width:83%;
+	    margin:0 auto;
+	}
+
+	#ustAlan
+	{ 
+		width: 100%; 
+	} 
+
+	#anaMenu 
+	{ 
+	    float: left; 
+	    width: 30%; 
+	}
+
+	#icerik 
+	{ 
+	    float: right; 
+	    width: 70%; 
+	}
+
+	#altAlan 
+	{ 
+	    width: 100%; 
+	    clear: both; 
+	} 	
 
 Örnek kodu görmek için [tıklayınız.][1]
 
-#### 3 Kolonlu Yapı
+## 3 Kolonlu Yapı
 
-![][2]
+![][2]   
 
 Bir çok sitede üç kolonlu yapı kullanılmaktadır. 3 kolonlu yapı ile iki
 kolonlu yapının kodlamasında fazla bir fark yoktur. Tek yapamız gereken
@@ -112,20 +173,68 @@ bir kapsayıcı katman(KapsayiciAlan) içine alarak yapıyı iki kolonlu hale
 getirdik(anaMenu ve KapsayiciAlan)
 
 	:::css
-	 #sayfa{ width:768px; margin:0 auto; }
-#ustAlan { width:768px; } #anaMenu { float: left; width: 200px; }
-#KapsayiciAlan { float: right; width: 568px; } #icerik { float: left;
-width: 368px; } #BannerAlani{ float: right; width: 200px; } #altAlan {
-width:768px; clear: both; } 
+	#sayfa{
+	    width:768px;
+	    margin:0 auto;
+	}
+
+	#ustAlan
+	{ 
+		width:768px;
+	} 
+
+	#anaMenu 
+	{ 
+	    float: left; 
+	    width: 200px; 
+	}
+
+	#KapsayiciAlan
+	{
+	    float: right;
+	    width: 568px;
+	}
+
+	#icerik 
+	{ 
+	    float: left; 
+	    width: 368px; 
+	}
+
+	#BannerAlani{
+	    float: right;
+	    width: 200px;
+	}
+
+	#altAlan 
+	{ 
+	    width:768px;
+	    clear: both; 
+	} 
 
 Ve ayrıca xhtml koda da aşağıdaki değişiklikleri yaptığımızda üç kolonlu
 yapıyı elde ederiz.
 
 	:::html
-	 <div id="sayfa"> <div id="ustAlan"> ...
-</div> <div id="KapsayiciAlan"> <div id="icerik"> ... </div>
-<div id="BannerAlani"> ... </div> </div> <div id="anaMenu"> ...
-</div> <div id="altAlan"> ... </div> </div> 
+	<div id="sayfa">
+	<div id="ustAlan">
+	...
+	</div>
+	<div id="KapsayiciAlan">
+	<div id="icerik">
+	...
+	</div>
+	<div id="BannerAlani">
+	...
+	</div>
+	</div>
+	<div id="anaMenu">
+	...
+	</div>
+	<div id="altAlan">
+	...
+	</div>
+	</div> 
 
 Örneği görmek için [tıklayınız.][3]
 
@@ -136,16 +245,14 @@ gerek tek şey değerleri (%) olarak vermektir.
 yapıdan sonraki kadamelerde(4,5 vd.) tüm katmanlara float:left verilerek
 oluşturmak daha mantıklı ve kolay olur.
 
-</p>
-
   [Zen Garden'ın]: http://www.csszengarden.com/
-  [<acronym title="Stil şablonu">CSS</acronym> ile   konumlandırma(positioning)]: http://www.fatihhayrioglu.com/?p=151
+  [CSS ile   konumlandırma(positioning)]: http://www.fatihhayrioglu.com/?p=151
   [Float ve Clear özellikler ile konumlandırma]: http://www.fatihhayrioglu.com/?p=160
   [margin]: http://www.fatihhayrioglu.com/?p=113
   []: /images/ikikolon.gif
-  [<acronym title="Stil şablonu">CSS</acronym> ile sayfalarımızı ve   elementlerimizi ortalamak]: http://www.fatihhayrioglu.com/css-ile-sayfalarimizi-ve-elementlerimizi-ortalamak/
+  [CSS ile sayfalarımızı ve   elementlerimizi ortalamak]: http://www.fatihhayrioglu.com/css-ile-sayfalarimizi-ve-elementlerimizi-ortalamak/
   [tıklayınız.]: /dokumanlar/sabit_genislikli_websitesi.html
-  [<acronym title="Stil şablonu">CSS</acronym> ile Kutu modeli,   sorunları ve çözümleri]: http://www.fatihhayrioglu.com/kutu-modeli-sorunlari-ve-cozumleri/
+  [CSS ile Kutu modeli,   sorunları ve çözümleri]: http://www.fatihhayrioglu.com/kutu-modeli-sorunlari-ve-cozumleri/
   [1]: /dokumanlar/elastik_ikikolonlu_websitesi.html
   [2]: /images/uckolon.gif
   [3]: /dokumanlar/sabit_uckolonlu_websitesi.html

@@ -8,15 +8,13 @@ işi için bir çok teori ve yöntem ileri sürülmektedir. Ben bunların en
 makbul olanını bulup uygulamak istedim ve bu makalede bunu sizlerle
 paylaşıyorum. Aslında bulunan çözümler beni tam olarak tatmin etmiyor
 desem yeridir. Aşağıda anlatılacak yöntem istediğimiz sonucu elde etmek
-için yeterli olacaktır. <!--more-->
+için yeterli olacaktır.
 
-<div class="ekstrabilgi">
- CSS ile dikey oratalama ile ilgili farklı yöntemler vardır. Ayrıca bazı
+CSS ile dikey oratalama ile ilgili farklı yöntemler vardır. Ayrıca bazı
 şartlara göre de kodlama önerileri vardır, biz burada bunlara değinmeden
 geçeceğiz. İlgilenenler makalenin sonunda verilen kaynaklar bölümündeki
 linkleri takip edip ilgili yöntemlere erişebilirler.
 
-</div>
 CSS ile dikeyde ortalama yapmak için **vertical-align** özelliği var ise
 de bu özellik HTML'deki tablo gibi çalışmaz. Yani istediğimiz sonuca
 bizi ulaştırmaz.
@@ -38,25 +36,46 @@ dikeyde ortalanır. (Bu özelliği IE kavrayamamaktadır. Kavramamakta da
 
 İki çözüm vardır altçizgi(_) ve (#) ile yapılan bir çözüm vardır.
 IE(IE7 hariç) (_) ile tanımlanan kodu görmediği için yorumlamayacaktır.
-# ile başlayan kodları tüm IE versiyonları(IE7 dahil) görmeyecektir. Bu
+\# ile başlayan kodları tüm IE versiyonları(IE7 dahil) görmeyecektir. Bu
 işaretlerin kullanım amacı tüm versiyonlarda aynı sonucu elde etmektir.
 
 Aşağıdaki kod IE5+,FF, Opera 7, Konqueror 3.0.3 altında standart ve
 [garip mod][] da çalışıyor.
 
 	:::html
-	 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML
-4.01//EN"> <html> <head> <title>CSS ile dikey ortalama</title>
-<style> #Kapsul{ display: table; height: 400px; #position: relative;
-overflow: hidden; border: 1px solid green; } #IcerikAlani{ #position:
-absolute; #top: 50%; display: table-cell; vertical-align: middle; }
-#alan{ #position: relative; #top: -50%; border: 1px solid green; }
-</style> </head> <body> <div id="Kapsul"> <div
-id="IcerikAlani"> <div id="alan">Lorem Ipsum is simply dummy text of
-the printing and typesetting industry. Lorem Ipsum has been the
-industry's standard dummy text ever since the 1500s, when an unknown
-printer took a galley of type and scrambled it to make a type specimen
-book. </div> </div> </div> </body> </html> 
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+	<html>
+	<head>
+	<title>CSS ile dikey ortalama</title>
+	<style>
+	#Kapsul{
+		display: table; 
+		height: 400px; 
+		#position: relative; 
+		overflow: hidden;
+		border: 1px solid green;
+	}
+	#IcerikAlani{
+		#position: absolute;
+		#top: 50%; 
+		display: table-cell; 
+		vertical-align: middle;
+	}
+	#alan{
+		#position: relative; 
+		#top: -50%;
+		border: 1px solid green;
+	}
+	</style>
+	</head>
+	<body>
+	  <div id="Kapsul">
+	    <div id="IcerikAlani">
+	    <div id="alan">Lorem Ipsum is simply dummy text of the printing and typesetting  industry. Lorem Ipsum has been the industry's standard dummy text ever  since the 1500s, when an unknown printer took a galley of type and  scrambled it to make a type specimen book. </div>
+	    </div>
+	  </div>
+	</body>
+	</html>	 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -66,8 +85,6 @@ book. </div> </div> </div> </body> </html>
 -   [http://wellstyled.com/][]
 -   [http://www.hicksdesign.co.uk/][]
 -   [http://www.student.oulu.fi/][]
-
-</p>
 
   [garip mod]: http://www.fatihhayrioglu.com/dogru-doctype-kullanimi/
   [tıklayınız.]: /dokumanlar/dikey_ortalama_ornek1.html
