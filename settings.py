@@ -37,8 +37,6 @@ LINKS =  ()
 
 # Social widget
 SOCIAL = (('@fatihhayri', 'http://twitter.com/fatihhayri'),)
-FEED_DOMAIN =  'http://feeds.feedburner.com'
-FEED_ATOM = 'fatihhayri'
 
 PLUGINS=['pelican.plugins.related_posts',]
 
