@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 AUTHOR = 'Fatih'
 SITENAME = u'Fatih Hayrioğlu\'nun not defteri'
-SITESUBTITLE = u'{ CSS, XHTML ve Javascript }'
+SITESUBTITLE = u'{ CSS, HTML ve Javascript }'
 SITEURL = 'http://www.fatihhayrioglu.com'
 
 # Where to output the generated files.
@@ -48,3 +48,4 @@ FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),
                  ('extra/favicon.ico', 'favicon.ico'))
 
 FEED_MAX_ITEMS = 10
+CATEGORY_FEED_ATOM = None
