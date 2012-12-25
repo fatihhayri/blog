@@ -202,6 +202,7 @@ Date: 2006-08-05 22:06
     -   [CSS3 Seçicileri][]
         -   [CSS3 :target seçicisi][]
         -   [CSS3 ::selection seçicisi][CSS İpucu 21: CSS ile Seçilen Metinlerin Rengini Değiştirmek]
+	-   [CSS ile HTML5 Yer Tutucu'ya(placeholder) Stil Vermek](http://www.fatihhayrioglu.com/css-ile-html5-yer-tutucu-ya-placeholder-stil-vermek/)
     -   [CSS3 önek Karmaşası][]
     -   [CSS3 resize özelliği][]
     -   [CSS ile metinlere gölge vermek(text-shadow)][]

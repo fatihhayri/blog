@@ -126,8 +126,10 @@ yerine padding kullanın.
 çıkabileceği söyleniyor. Eğer yazı tipi boyutunu piksel(px) vb. kesin
 değerler ile belirlerseniz bu tip sorunları engelleyebilirsiniz.
 
-- Son olarakta asp.net ile oluşturulan sayfalarda <form> elemanı ile
+- Son olarakta asp.net ile oluşturulan sayfalarda <form\> elemanı ile
 kapsanan sayfanızda sorun çıkabilir. Bunu engellemek için kodunuzu
+
+CSS kodu;
 
 	:::css
 	html, body, form, #kapsul {
@@ -150,29 +152,16 @@ kapsanan sayfanızda sorun çıkabilir. Bunu engellemek için kodunuzu
 -   [http://www.davidjrush.com/blog/2009/01/css-sticky-footer/][]
 
   [yapisik_altalan]: /images/yapisik_altalan.gif
-    "yapisik_altalan"
   [cssstickyfooter.com]: http://www.cssstickyfooter.com
-    "cssstickyfooter.com"
   [http://www.fatihhayrioglu.com/float-uygulanmis-elementleri-tam-kapsayamama-sorunu/]: http://www.fatihhayrioglu.com/float-uygulanmis-elementleri-tam-kapsayamama-sorunu/
-    "http://www.fatihhayrioglu.com/float-uygulanmis-elementleri-tam-kapsayamama-sorunu/"
   [tıklayınız.]: /dokumanlar/sayfa_dibine_yapisik.html
   []: http://www.cssstickyfooter.com/using-sticky-footer-code.html
-    "http://www.cssstickyfooter.com/using-sticky-footer-code.html"
   [http://www.cssstickyfooter.com/]: http://www.cssstickyfooter.com/
-    "http://www.cssstickyfooter.com/"
   [http://www.lwis.net/journal/2008/02/08/pure-css-sticky-footer/]: http://www.lwis.net/journal/2008/02/08/pure-css-sticky-footer/
-    "http://www.lwis.net/journal/2008/02/08/pure-css-sticky-footer/"
   [http://ryanfait.com/resources/footer-stick-to-bottom-of-page/]: http://ryanfait.com/resources/footer-stick-to-bottom-of-page/
-    "http://ryanfait.com/resources/footer-stick-to-bottom-of-page/"
   [http://cokbasit.blogspot.com/2009/01/yapkan-taban-sticky-footer.html]: http://cokbasit.blogspot.com/2009/01/yapkan-taban-sticky-footer.html
-    "http://cokbasit.blogspot.com/2009/01/yapkan-taban-sticky-footer.html"
   [http://css-tricks.com/sticky-footer/]: http://css-tricks.com/sticky-footer/
-    "http://css-tricks.com/sticky-footer/"
   [http://www.waycoolwebdesign.com/Blog/2008/11/15/CSS-Sticky-Footer]: http://www.waycoolwebdesign.com/Blog/2008/11/15/CSS-Sticky-Footer
-    "http://www.waycoolwebdesign.com/Blog/2008/11/15/CSS-Sticky-Footer"
   [http://stever.ca/web-design/css-sticky-footer/]: http://stever.ca/web-design/css-sticky-footer/
-    "http://stever.ca/web-design/css-sticky-footer/"
   [http://brassblogs.com/blog/sticky-footer]: http://brassblogs.com/blog/sticky-footer
-    "http://brassblogs.com/blog/sticky-footer"
   [http://www.davidjrush.com/blog/2009/01/css-sticky-footer/]: http://www.davidjrush.com/blog/2009/01/css-sticky-footer/
-    "http://www.davidjrush.com/blog/2009/01/css-sticky-footer/"

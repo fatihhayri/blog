@@ -4,8 +4,9 @@ Date: 2009-06-01 16:33
 Category: CSS, XHTML
 Tags: css3, Firefox, Google-Checkout, internet explorer, Opera, safari, seçili-metin, WebKit
 
-![metin_secme_rengi][][css-tricks.com][] sitesine her girdiğimde
-metinleri seçince çok hoş bir görüntü ile karşılaşıyorum. Bence çok
+![metin_secme_rengi][]
+
+[css-tricks.com][] sitesine her girdiğimde metinleri seçince çok hoş bir görüntü ile karşılaşıyorum. Bence çok
 güzel. Belkide standart renklerden bıktığım için farklı renkler bana hoş
 geliyor. Metinleri seçince ardalan rengini ve metin rengini
 değiştirebilmek çok güzel bence. Özelliğin tek kötü yanı Internet
@@ -54,11 +55,7 @@ Internet Explore desteklemiyor. Bunun haricinde Firefox 2, Safari, Opera
 -   [http://www.w3.org/TR/css3-selectors/][]
 
   [metin_secme_rengi]: /images/metin_secme_rengi-300x110.gif
-    "metin_secme_rengi"
   [css-tricks.com]: http://css-tricks.com "css-tricks.com"
   [http://www.quirksmode.org/css/selection.html]: http://www.quirksmode.org/css/selection.html
-    "http://www.quirksmode.org/css/selection.html"
   [http://css-tricks.com/overriding-the-default-text-selection-color-with-css/]: http://css-tricks.com/overriding-the-default-text-selection-color-with-css/
-    "http://css-tricks.com/overriding-the-default-text-selection-color-with-css/"
   [http://www.w3.org/TR/css3-selectors/]: http://www.w3.org/TR/css3-selectors/
-    "http://www.w3.org/TR/css3-selectors/"

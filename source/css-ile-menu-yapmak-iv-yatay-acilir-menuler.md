@@ -3,25 +3,32 @@ Date: 2006-11-09 06:52
 Category: CSS, Web Standartları, XHTML
 Tags: CSS, css-menü, float, liste, menü, Web Standartları, XHTML, Yatay Açılır Menüler
 
-<div style="border:1px solid #ddd; color:#f00; padding:8px; margin-bottom:10px">
 **Güncelleme:** Bu makale bazı sorunlar nedeni ile 19/12/2006 tarihinde
 yeniden düzenlenmiştir.
 
-</div>
 [Bir önceki makalede][] dikey açılır menüleri gördük. Bu makalede yatay
-açılır menülere bir örnek vereceğiz. Html kodumuz aynı olsun <!--more-->
+açılır menülere bir örnek vereceğiz. Html kodumuz aynı olsun 
 
 	:::html
-	 <ul id="menu" > <li><a
-href="#">Anasayfa</a></li> <li><a href="#">Haberler</a>
-<ul> <li><a href="#">şžirket Haberleri </a></li> <li><a
-href="#">Yurt içi Haberleri </a></li> <li><a href="#">Yurt
-dışı Haberleri</a></li> </ul> </li> <li><a
-href="#">Ürünler</a> <ul> <li><a
-href="#">Tencere</a></li> <li><a href="#">Tava</a></li>
-<li><a href="#">Ütü</a></li> <li><a href="#">Tost Makinesi
-</a></li> <li><a href="#">El Süpürgesi </a></li> </ul>
-</li> </ul> 
+	<ul id="menu" > 
+	    <li><a href="#">Anasayfa</a></li> 
+	    <li><a href="#">Haberler</a> 
+	    <ul> 
+	        <li><a href="#">şirket Haberleri </a></li> 
+	        <li><a href="#">Yurt içi Haberleri </a></li> 
+	        <li><a href="#">Yurt dışı Haberleri</a></li> 
+	    </ul> 
+	    </li> 
+	    <li><a href="#">Ürünler</a> 
+	    <ul>
+	        <li><a href="#">Tencere</a></li> 
+	        <li><a href="#">Tava</a></li> 
+	        <li><a href="#">Ütü</a></li> 
+	        <li><a href="#">Tost Makinesi </a></li> 
+	        <li><a href="#">El Süpürgesi </a></li> 
+	    </ul> 
+	    </li> 
+	</ul>
 
 ![][]
 
@@ -29,8 +36,11 @@ href="#">Tencere</a></li> <li><a href="#">Tava</a></li>
 olduğu gibi.
 
 	:::css
-	 ul#menu, ul#menu ul { list-style: none;
-margin: 0; padding: 0; } 
+	ul#menu, ul#menu ul { 
+	    list-style: none; 
+	    margin: 0; 
+	    padding: 0; 
+	}
 
 Daha sonra menümüzü yatay hale getirmek için **float**özelliğini
 kullanalım. Normalde bunun için **display:inline** kodunu da
@@ -39,7 +49,6 @@ ilk linkleri göreceli olarak konumlandırmalıyız. Bu konumlandırma
 aslında ikinci kademe açılacak menüye mutlak konumlandırma yapılması
 için kullanılır.
 
-<div class="ekstrabilgi">
 Göreceli olarak konumlandırılmış(postion:relative) bir elementin
 içindeki Mutlak Konumlandırılmış(position:absolute) bir element içerik
 blokunun(burada menünün ilk linkleri) üst,sağ,sol ve alttından
@@ -48,10 +57,12 @@ olacaktır ve bu kullanım ile çok güzel sonuçlar elde edeceğiz.
 
 [CSS ile konumlandırma(positioning)][]
 
-</div>
 	:::css
-	 ul#menu li { float: left; position:
-relative; width: 150px; } 
+	ul#menu li { 
+	    float: left; 
+	    position: relative; 
+	    width: 150px; 
+	}
 
 Sonra ikincil linkleri sayfaya ilk açıldığında görünmez(display:none)
 yapalım. Birincil linklere göre konumlandırmak için postion:absolute
@@ -59,15 +70,21 @@ yapalım. Birincil linklere göre konumlandırmak için postion:absolute
 ekleyeceğiz) + 2px üstten(sonra ekleyeceğiz)) özelliğini kullanalım.
 
 	:::css
-	 ul#menu li ul { display: none; position:
-absolute; top: 19px; /* yukseklik 15px + sonradan eklenecek paddingler
-4px toplam 19px */ left: 0; } 
+	ul#menu li ul { 
+	    display: none; 
+	    position: absolute; 
+	    top: 19px; /* yukseklik 15px + sonradan eklenecek paddingler 4px toplam 19px */ 
+	    left: 0; 
+	}
 
 Yalnız burada IE sorun çıkaracaktır. IE ve Opera ikincil menüleri
 konumlandırmasında sorun çıkarır, bunu engellemek için:
 
 	:::css
-	 ul#menu li > ul { top: auto; left: auto; }
+	ul#menu li > ul { 
+	    top: auto; 
+	    left: auto; 
+	}
 
 
 ![][1]
@@ -75,47 +92,67 @@ konumlandırmasında sorun çıkarır, bunu engellemek için:
 Görünümü biraz güzelleştirelim:
 
 	:::css
-	 ul#menu li a { font: bold 11px arial,
-helvetica, sans-serif; display: block; border-width: 1px; border-style:
-solid; border-color: #ccc #888 #555 #bbb; margin: 0; padding: 2px
-3px; color: #000; background: #efefef; text-decoration: none; }
+	ul#menu li a { 
+	    font: bold 11px arial, helvetica, sans-serif; 
+	    display: block; 
+	    border-width: 1px; 
+	    border-style: solid; 
+	    border-color: #ccc #888 #555 #bbb; 
+	    margin: 0; 
+	    padding: 2px 3px; 
+	    color: #000; 
+	    background: #efefef; 
+	    text-decoration: none; 
+	}
 
 
 ve rollover hali için:
 
 	:::css
-	 ul#menu li a:hover { color: #a00;
-background: #fff; } 
+	ul#menu li a:hover { 
+	    color: #a00; 
+	    background: #fff; 
+	}
 
 Sonra birincil linklerin üzerine gelince ikincil linklerin görünmesi
 için:
 
 	:::css
-	 ul#menu li:hover ul { display: block; }
+	ul#menu li:hover ul { 
+		display: block; 
+	}
 
 
 [Önceki makalede][Bir önceki makalede] belirttiğimiz gibi bu kod IE'de
 çalışmayacaktır. IE'de çalışması için aşağıdaki kodları yazmalıyız.
 
 	:::javascript
-	 startList = function() { if
-(document.all&&document.getElementById) { navRoot =
-document.getElementById("menu"); for (i=0; i<navRoot.childNodes.length;
-i++) { node = navRoot.childNodes[i]; if (node.nodeName=="LI") {
-node.onmouseover=function() { this.className+=" over"; }
-node.onmouseout=function() { this.className=this.className.replace("
-over", ""); } } } } } window.onload=startList; 
+	startList = function() { 
+	    if (document.all&&document.getElementById) { 
+	        navRoot = document.getElementById("menu"); 
+	        for (i=0; i<navRoot.childNodes.length; i++) { 
+	            node = navRoot.childNodes[i]; 
+	            if (node.nodeName=="LI") { 
+	                node.onmouseover=function() { 
+	                this.className+=" over"; 
+	                } 
+	                node.onmouseout=function() { 
+	                this.className=this.className.replace(" over", ""); 
+	                } 
+	            } 
+	        } 
+	    } 
+	} 
+	window.onload=startList;
 
 Ayrıca aşağıdaki kodu da eklemeliyiz.
 
 	:::css
-	 ul#menu li:hover ul, ul#menu li.over ul{
-display: block; } 
+	ul#menu li:hover ul, ul#menu li.over ul{ 
+		display: block; 
+	}
 
-Önemli bir not olarak koddaki <span class="alternatifard">*<ul
-id="**menu**" >*</span> ve javascriptteki
-<span class="alternatifard">*navRoot =
-document.getElementById("**menu**");*</span> aynı olmasına dikkat
+Önemli bir not olarak koddaki <ul id="**menu**" \> ve javascriptteki navRoot = document.getElementById("**menu**"); aynı olmasına dikkat
 edelim.
 
 işte sonuç:
@@ -130,14 +167,12 @@ alt kademeli, değişik renklerde ve değişik ebatlarda menü yapılabilir.
 
 Örnek kodları [indir][]
 
-#### Kaynaklar
+## Kaynaklar
 
 -   [http://www.alistapart.com/articles/dropdowns/][]
 -   [http://www.compassdesigns.net/][]
 -   [http://www.tanfa.co.uk/css/examples/menu/tutorial-h.asp#hs6][]
 -   [http://www.cssplay.co.uk/menus/index.html][]
-
-</p>
 
   [Bir önceki makalede]: http://www.fatihhayrioglu.com/?p=216
   []: /images/menu3_resim1.gif

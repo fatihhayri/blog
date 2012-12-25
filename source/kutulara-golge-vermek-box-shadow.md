@@ -198,14 +198,14 @@ kullanılabilir.
 
 -   [http://blog.w3conversions.com/2011/09/css3-spread-value-and-box-shadow-on-one-side-only/][]
 
-  [Gölgeli Kutu]: http://fatihhayrioglu.com/dokumanlar/box_shadow/box_shadow_1.gif
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/box_shadow/golgeli_kutu.html
-  [Çoklu Gölgeli Kutu]: http://fatihhayrioglu.com/dokumanlar/box_shadow/box_shadow_2.gif
-  [1]: http://fatihhayrioglu.com/dokumanlar/box_shadow/golgeli_kutu_coklu.html
-  [İçe Gölge]: http://fatihhayrioglu.com/dokumanlar/box_shadow/box_shadow_3.gif
-  [2]: http://fatihhayrioglu.com/dokumanlar/box_shadow/golgeli_kutu_icegolge.html
-  [ie gölgeli kutu]: http://fatihhayrioglu.com/dokumanlar/box_shadow/box_shadow_ie.gif
-  [3]: http://fatihhayrioglu.com/dokumanlar/box_shadow/golgeli_kutu_ie.html
+  [Gölgeli Kutu]: /dokumanlar/box_shadow/box_shadow_1.gif
+  [tıklayınız.]: /dokumanlar/box_shadow/golgeli_kutu.html
+  [Çoklu Gölgeli Kutu]: /dokumanlar/box_shadow/box_shadow_2.gif
+  [1]: /dokumanlar/box_shadow/golgeli_kutu_coklu.html
+  [İçe Gölge]: /dokumanlar/box_shadow/box_shadow_3.gif
+  [2]: /dokumanlar/box_shadow/golgeli_kutu_icegolge.html
+  [ie gölgeli kutu]: /dokumanlar/box_shadow/box_shadow_ie.gif
+  [3]: /dokumanlar/box_shadow/golgeli_kutu_ie.html
   [http://www.w3.org/TR/css3-background/#box-shadow]: http://www.w3.org/TR/css3-background/#box-shadow
   [http://robertnyman.com/2010/03/16/drop-shadow-with-css-for-all-web-browsers/]: http://robertnyman.com/2010/03/16/drop-shadow-with-css-for-all-web-browsers/
   [http://www.ruzee.com/blog/shadedborder]: http://www.ruzee.com/blog/shadedborder

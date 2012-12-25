@@ -193,6 +193,6 @@ Android Browser
 {: .tarayiciuyum}
 
   [Box modellerine]: http://www.fatihhayrioglu.com/?p=13
-  [Kutu Modeli]: http://fatihhayrioglu.com/images/basit_boxmodel.gif
+  [Kutu Modeli]: /images/basit_boxmodel.gif
   [<uzunluk değeri >]: http://www.fatihhayrioglu.com/?p=95
   [<percentage>]: #

@@ -9,9 +9,9 @@ Arkaplan Resmi kaydırmaca tanımlamasını [cemsid][]'den aldım. CSS ile
 menü yapımı serimize devam ediyoruz. CSS ile yapılan bir çok menü örneği
 mevcut biz burada bunları katagorize edip her bir katagoriye bir örnek
 yaparak mantığını anlatmaya çalıyoruz, mantığını anladıktan sonra CSS
-ile yapılan tüm menüleri yapabileceğimize inanıyorum. <!--more-->
+ile yapılan tüm menüleri yapabileceğimize inanıyorum. 
 
-CSS menülerinin vazgeçilmezi sırasız listeleri(<ul>) kullanarak her
+CSS menülerinin vazgeçilmezi sırasız listeleri(<ul\>) kullanarak her
 bir linkin iki resimi bulunan(bir normal hali, diğeri fare imlecinin
 üzerine gelince görünecek resim) menü oluşturacağız.
 
@@ -204,10 +204,6 @@ Bizde öyle yapalım. Mesela **Muz** bölümünde olduğumuzu farz edelim.
 
 
   [cemsid]: http://www.cemshid.com/makale/arkaplan_resmi_kaydirmaca.html
-  [Elma]: # "Elma"
-  [Armut]: # "Armut"
-  [Muz]: # "Muz"
-  [Kivi]: # "Kivi"
   []: /images/menu.jpg
   [1]: /images/resimlimenu_01.jpg
   [2]: /images/resimlimenu_02.gif

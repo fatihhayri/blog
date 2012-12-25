@@ -9,7 +9,7 @@ site de Ürünler, İletişim, Hakkımızda vb. bölümlerini menü öğesi olar
 görürüz. Bu makalede sırasız listeler(<ul\>)ve CSS yardımı ile menü
 yapımını anlatacağız. CSS ile yapılan menüler esnek, kolay
 düzenlenebilir, güzel görünen ve rollover efekti uygulana bilen
-menülerdir. <!--more-->
+menülerdir. 
 
 Sırasız listeler(<ul\>) ilk olarak listeleme işlemleri için kullanılsa
 da CSS'in yükselişi ile birlikte menü oluşturmak için kullanılmaya
@@ -37,7 +37,7 @@ Her linkin başındaki imgeleri kaldırmak için:
 
 ![][1]
 
-Bir çok web tarayıcısı sırasız listeleri(<ul>) yorumlarken yukarıda
+Bir çok web tarayıcısı sırasız listeleri(<ul\>) yorumlarken yukarıda
 görüldüğü gibi otomatik olarak soldan bir padding/margin(bazı
 tarayıcılarda padding uygularken bazılarında margin uygular) mesafesi
 uygular bu mesafeyi sıfırlamak için:
@@ -55,7 +55,7 @@ Bu bölüme kadar yazılan kodlamalar hem dikey menüler hem de yatay
 menüler içinde aynıdır. Ancak bundan sonra dikey menü ve yatay menü için
 kodlar değişecektir.
 
-#### Dikey Menüler
+## Dikey Menüler
 
 Dikey menülerde linkler yukarıdan aşağı doğru sıralanmıştır. Link
 elementi(a) inline-elementtir, her linke rollover özelliği kazandırmak
