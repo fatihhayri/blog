@@ -11,9 +11,6 @@ ayırabiliriz. Formların etiketlerinin yerlerini
 planlamak(konumlandırmak) ve form elementlerini güzelleştirerek daha
 göze hoş gelen ve işlevsel bir hala getirmek.
 
-<!--more-->
-
-<div class="ekstrabilgi">
 Makalemizin başlığını "CSS ile Erişilebilir Formlar Yapmak" koyduk peki
 bu Erişilebilirlik(Accessible) nedir? Erişilebilirlik kullanıcının bir
 çok araç(bilgisayar, cep telefonu, pda vb.) ve durumda sayfa ve
@@ -21,8 +18,7 @@ bu Erişilebilirlik(Accessible) nedir? Erişilebilirlik kullanıcının bir
 standartlarına uygun kodlamanın en önemli amaçlarından biridir
 Erişilebilirlik.
 
-</div>
-#### Basit Form yapılarının CSS ile kodlamak
+## Basit Form yapılarının CSS ile kodlamak
 
 Basit bir form yapısını planlayarak başlayalım. Web sitelerinde en çok
 kullanılan formlar kullanıcı giriş formlarıdır. Beraberce CSS ile
