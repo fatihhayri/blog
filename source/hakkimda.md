@@ -18,4 +18,4 @@ kitaplardan aldığım notları burada yazmak.
   [Turkline]: http://www.turkline.com "Eski çalıştığım şirket"
   [PixelPlus]: http://www.pixelplus.net
   [LiveGO.com]: http://www.livego.com/
-  [sahibinden.com]: http://www.sahibinden.com
+  [sahibinden.com]: http://www.sahibinden.com "Şu an çalışıyorum"
