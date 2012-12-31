@@ -27,23 +27,28 @@ anlatacağız ve avantaj, dezavantajlarını sizlerle paylaşacağız.
 
 Todd Fahrner arkadaşımızın ürettiği bu kod en popüler metotlardan
 biridir. Uygulanması en basit metot olması kullanımını arttırmıştır.
-Teknik çok basittir yerine resim konacak metin <span> etiketi içine
+Teknik çok basittir yerine resim konacak metin <span\> etiketi içine
 alınır. Xhtml kodu:
 
 	:::html
-	 <h1> <span>Selam</span> </h1>
+	<h1> <span>Selam</span> </h1>
 
-
-Metin yerine görünecek resim <h1> etiketine uygulanır: CSS kodu
-
-	:::css
-	 h1 { background:url(selam.gif) no-repeat;
-width: 62px; height: 19px; font-size:16px; } 
-
-ve son olarakta <span> etiketi içindeki metni gizlemek için:
+Metin yerine görünecek resim <h1\> etiketine uygulanır: CSS kodu
 
 	:::css
-	 span { display: none; } 
+	h1 { 
+		background:url(selam.gif) no-repeat;
+		width: 62px; 
+		height: 19px; 
+		font-size:16px; 
+	} 
+
+ve son olarakta <span\> etiketi içindeki metni gizlemek için:
+
+	:::css
+	span { 
+		display: none; 
+	} 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -56,19 +61,22 @@ gidermek için başka yöntemler geliştirilmiştir.
 
 www.phark.net'in ürettiği bu teknik ekran okuyucuları tarafından
 görüntülenecektir, bu yönüyle FIR tekniğinden avantajlıdır. Ayrıca
-fazladan <span> etiketi üretmemesi yönüylede avantajlıdır. Html kodu:
+fazladan <span\> etiketi üretmemesi yönüylede avantajlıdır. Html kodu:
 
 	:::css
-	 <h1>Selam</h1> 
+	<h1>Selam</h1> 
 
 FIR tekniğinden farklı olarak bu teknikte **text-indent** değeri yüksek
 eksi değer(genelde -999px) verilerek ekranı dışına atılarak üretilir.
 CSS kodu:
 
 	:::css
-	 h1 { text-indent: -999px;
-background:url(selam.gif) no-repeat; width: 62px; height:19px; }
-
+	h1 { 
+		text-indent: -999px;
+		background:url(selam.gif) no-repeat; 
+		width: 62px; 
+		height:19px; 
+	}
 
 Örneği görmek için [tıklayınız.][1]
 
@@ -80,46 +88,51 @@ sayfalarda sorun yaşayacaktır. Biz bu tekniği [CSS ile Menü Oluşturmak V - 
 
 Tom Gilder ve Levin Alexander bu kodlamayı geliştirmiştir. Ekran
 okuyucularında ve resim görüntülemeyi iptal eden kullanıcılarda sorunsuz
-çalışır. Bu teknikte boş bir <span> etiketi ile yazının üzeri
+çalışır. Bu teknikte boş bir <span\> etiketi ile yazının üzeri
 kapatılır, eğer resimleri kapatıp sitenizi ziyaret eden olursa altındaki
 metni görür.
 
-Bu metot için fazladan <span> etiketi üretilir. Html kodu:
+Bu metot için fazladan <span\> etiketi üretilir. Html kodu:
 
 	:::html
-	 <h1> <span></span>Selam </h1>
+	<h1> <span></span>Selam </h1>
 
 
-<h1> etiketinin boyutları resmin boyutları ile aynı atanır ve göreceli
+<h1\> etiketinin boyutları resmin boyutları ile aynı atanır ve göreceli
 olarak konumlandırılır. CSS kodu
 
 	:::css
-	 h1 { width: 62px; height: 19px; position:
-relative; font-size:16px; } 
+	h1 { 
+		width: 62px; 
+		height: 19px; 
+		position:relative; 
+		font-size:16px; 
+	} 
 
-Ekstradan üretilen <span> etiketi mutlak konumlandırma ile
+Ekstradan üretilen <span\> etiketi mutlak konumlandırma ile
 konumlandırarak metnin üzerini kapatırız. Ayrıca boyutları %100
 verilerek tam kapanma sağlanır. Son olarakta görünecek resim zemin resmi
 olarak atanır.
 
 	:::css
-	 h1 span { background: url(selam.gif)
-no-repeat; position: absolute; width: 100%; height: 100%; }
-
+	h1 span { 
+		background: url(selam.gif) no-repeat; 
+		position: absolute; 
+		width: 100%; 
+		height: 100%; 
+	}
 
 Örneği görmek için [tıklayınız.][2]
 
 Bu metot hem ekran okuyucuları hemde resim göstermeyen tarayıcılarda
-sorunsuz çalışır. Tek dezavantajı fazladan bir <span> etiketi
+sorunsuz çalışır. Tek dezavantajı fazladan bir <span\> etiketi
 eklenmesidir.
 
-<div class="ekstrabilgi">
-Fakat bu metodun boş, anlamsız, ekstra bir <span> elementi ile
+Fakat bu metodun boş, anlamsız, ekstra bir <span\> elementi ile
 gerçekleştirilmesi, "web anlamlılığı" bakımından iyi bir davranış değil.
 "Web Anlamlılığı" bize her HTML elementinin bir görevi olması gerektiği
-ve gereksiz kodlamadan kaçmamızı söylüyor. [Mehmet Doğan][]
+ve gereksiz kodlamadan kaçmamızı söylüyor. Mehmet Doğan
 
-</div>
 Bunların dışında Radu, Leahy/Langridge, Dwyer, Lindsay ve Shea
 Enhancement Teknikleride mevcuttur. Ayrıca hala bir çok teknik
 çıkarılmaktadır.
@@ -148,11 +161,11 @@ gereken dosyaları içeren bir paket hazırlamıştır. Bu metodu uygulamak
 için ilk olarak [buradan][] bu paketi indirmek gerekiyor. İndirdiğimiz
 paketin içinde;
 
--   dokümantasyon
--   css
--   demo
--   flash
--   js
+ - dokümantasyon
+ - css
+ - demo
+ - flash
+ - js
 
 dokümanları var.
 
@@ -200,31 +213,29 @@ ben **fatih.swf** yaptım.
 
 **HTML**
 
-Html dokümanınız açıp <head> içine aşağıdaki kodları eklememiz
+Html dokümanınız açıp <head\> içine aşağıdaki kodları eklememiz
 gerekiyor.
 
 	:::html
-	 <link rel="stylesheet"
-href="sIFR-screen.css" type="text/css" media="screen"> <link
-rel="stylesheet" href="sIFR-print.css" type="text/css" media="print">
-
+	<link rel="stylesheet" href="sIFR-screen.css" type="text/css" media="screen"> 
+	<link rel="stylesheet" href="sIFR-print.css" type="text/css" media="print">
 
 sonra bunların altına javascript dosyalarını ekleyelim.
 
 	:::html
-	 <script src="sifr.js"
-type="text/javascript"></script></li> <script src="sifr-addons.js"
-type="text/javascript"></script> </li> 
+	<script src="sifr.js" type="text/javascript"></script>
+	<script src="sifr-addons.js" type="text/javascript"></script>
 
 Sonra Html içeriğinin sonuna aşağıdaki kodu ekleyelim.
 
 	:::javascript
-	 <script type="text/javascript">
-//<![CDATA[ /* Replacement calls. Please see documentation for more
-information. */ if(typeof sIFR == "function"){ // This is the older,
-ordered syntax sIFR.replaceElement("h2", "fatih.swf", "#000000",
-"#000000", "#FFFFFF", "#FFFFFF", 0, 0, 0, 0); }; //]]> </script>
-</body> </html> 
+	<script type="text/javascript">
+	//<![CDATA[ /* Replacement calls. Please see documentation for more information. */ 
+	if(typeof sIFR == "function"){ // This is the older,
+		ordered syntax sIFR.replaceElement("h2", "fatih.swf", "#000000", "#000000", "#FFFFFF", "#FFFFFF", 0, 0, 0, 0); 
+	}; //]]> 
+	</script>
+		
 
 Bu javascript kodunda metin yerine eklenecek swf fosyasını, metnin
 rengini, hangi elemente(etiket, id ve sınıf) uygulanacağını, padding,
@@ -237,8 +248,13 @@ inceleyerek bu konuda daha ayrıntılı bilgi edinebilirsiniz.
 **sIFR-screen.css** dokümanın açıyoruz.
 
 	:::css
-	 .sIFR-hasFlash h2 { visibility: hidden;
-letter-spacing: -7px; font-size: 36px; margin:0; padding:0; }
+	.sIFR-hasFlash h2 { 
+		visibility: hidden;
+		letter-spacing: -7px; 
+		font-size: 36px; 
+		margin:0; 
+		padding:0; 
+	}
 
 
 Burada ekleyeceğimiz fontun ayarlarını yapıyoruz. font boyutunu kendi
@@ -248,11 +264,10 @@ kullandığımızı bırakıp diğerlerini silebiliriz.
 
 Örneği görmek için [tıklayınız.][6]
 
-<div class="ekstrabilgi">
+
 Bu metodun ayrıntılı olarak anlatımı Adobe'un sitesinde [Introduction to Scalable Inman Flash Replacement (sIFR)][] isimli çok güzel bir video
 var, buradan tekniğin nasıl uygulandığını ayrıntısı ile görebiliriz.
 
-</div>
 Bu tekniğin dezavantajı sayfa yüklenmeden önce javascript'in
 yüklenmesidir. Bu sitemizin açılış hızına etki edecektir.
 
@@ -260,7 +275,9 @@ Not(01.05.2008 eklendi): Bazen sFIR uyguladığımız metin ikinci satıra
 inmiyor bunun için başlığa bir genişlik tanımlamamız gerekiyor.
 
 	:::css
-	 h1{width:250px} 
+	h1{
+		width:250px
+	} 
 
 [sIFR3][]'ün betası var ancak kararlı sürümü çıkmadı.
 
@@ -285,11 +302,9 @@ başlıklar için kullanmak gayet mantıklı. Takdir ve seçim sizin.
 -   [http://novemberborn.net/sifr3/beta1][sIFR3]
 -   [http://labs.tom-lee.com/HeadingReplacement/Alpha/][]
 
-</p>
-
   [tıklayınız.]: /dokumanlar/birinci_teknik.html
   [1]: /dokumanlar/ikinci_teknik.html
-  [CSS ile Menü Oluşturmak V - Resimli Menüler]: http://www.fatihhayrioglu.com/?p=222
+  [CSS ile Menü Oluşturmak V - Resimli Menüler]: http://fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/
   [2]: /dokumanlar/ucuncu_teknik.html
   [Mehmet Doğan]: http://www.altiustutasarim.com/arsiv/2005/03/css_fir_teknigi.php
   [Mike Davidson]: http://www.mikeindustries.com

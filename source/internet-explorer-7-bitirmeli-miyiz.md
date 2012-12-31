@@ -45,25 +45,24 @@ dışında istediğimiz görüntüyü veribileceğiz.
 öğrendiğimize göre ie7 ile ie8 arasında en az 2,5 katlık bir performans
 farkı var.
 
-<div style="padding-left:15px">
-**- Ağ İyileştirmeleri:** ie7 ve altı tarayıcılarda bir sunucudan en
+
+ - **Ağ İyileştirmeleri:** ie7 ve altı tarayıcılarda bir sunucudan en
 fazla 2 öğe indirilebilirken ie8’de bu sayı 6’ya çıkarılmıştır. Buda
 sırada az sayıda bekleme ve site açılış hızının artması demek oluyor.  
 
-**-Script Geliştirmeleri:** Sayfadaki script yorumlamada ciddi
+ - **Script Geliştirmeleri:** Sayfadaki script yorumlamada ciddi
 hızlanmalar olmuş. SunSpider test aracına göre ie7 ile ie8 arasında
 %400’lık hız farkı var.
 
-**- Bellek Kullanımında İyileştirmeler:**ie8’de bellek ile alakalı
+ - **Bellek Kullanımında İyileştirmeler:**ie8’de bellek ile alakalı
 400’den fazla iyileştirme yapılmış.
 
-**-Yorumlayıcı Motor Yenilikleri:** Yeni CSS2.1’e tam uyumlu yorumlayıcı
+ - **Yorumlayıcı Motor Yenilikleri:** Yeni CSS2.1’e tam uyumlu yorumlayıcı
 ile daha az hatalı bir yorumlayıcıya kavuştu.
 
-**- Native Json Desteği:** ie8 ile birlikte gelen native jSON desteği
+ - **Native Json Desteği:** ie8 ile birlikte gelen native jSON desteği
 ile daha hızlı işlem yapabiliyoruz. Ajax isteklerimiz daha hızlı artık.
 
-</div>
 **HTML5 Selector API Desteği:** Javascript ile element bulmak için
 **getElementById()**, **getElementsByName()** and
 **getElementsByTagName()** metotlarını kullanıyoruz. HTML5 Selector API
@@ -88,7 +87,7 @@ padding değerlerinin içerip içermemesi gerektiğini tanımlama imkanı
 sağlıyor. Detaylı bilgi için [tıklayınız.][]
 
 **:active Sözde sınıfı**işlevselliği arttı ie7’de sadece
-bağlantılara(<a>) verilirken artık tüm HTML elementlerini kapsıyor.
+bağlantılara(<a\>) verilirken artık tüm HTML elementlerini kapsıyor.
 
 **IE8 Geliştirici Aracı geldi:** Firebug kadar olmasada ie içinde böyle
 bir aracın olması büyük bir avantaj. CSS özelliklerini görebilmek ve
@@ -130,37 +129,28 @@ https://developer.mozilla.org/en/DOM/window.onhashchange
     sadece **:after**ile çözüm yeterli olacak.
 -   [Tablo Satırına Verilen Ardalan Resminin Tekrarlama Sorunu][] ie
     için yok artık.
--   [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi     atamak][] sorunu yok artık
--   [İnternet Explorer’da sağdaki sabit kaydırma çubuğunu kaldırmak     sorunu][] yok artık
--   [ie6/7′da postion:relative Uygulanmış Elemanlarda z-index Sorunu][]
-    yok artık
+-   [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi atamak][] sorunu yok artık
+-   [İnternet Explorer’da sağdaki sabit kaydırma çubuğunu kaldırmak sorunu][] yok artık
+-   [ie6/7′da postion:relative Uygulanmış Elemanlarda z-index Sorunu][] yok artık
 -   [overflow ve position:relative kullanımında ie sorunu][] yok artık
 -   [IE6 ve IE7′de bağlantılardaki cursor sorunu][] yok artık
--   [overflow:auto içinde %100 genişlikte tablo kullanımında ie7’de     yatay kaydırma çubuğu sorunu][] yok artık
+-   [overflow:auto içinde %100 genişlikte tablo kullanımında ie7’de yatay kaydırma çubuğu sorunu][] yok artık
 -   [İE7 Bitişik Kardeş Seçicisi Sorunu][] yok artık
 -   [Kenar Boşluğu(Margin) Çökmesi][] sorunu yok artık
 -   @import tanımlarındaki ie7 sorunları yok artık.
 -   [border:hidden][] sorunu yok artık
 -   [border-style outset renk farklılığı sorunu][] yok artık
--   <p> elementi standart padding değeri ie7’de farklı idi. Şimdi
-    çözüldü.
--   Microsoft’un kutu modeli kabülü ile w3c’nin kutu modeli arasındaki
-    fark artık yok.
+-   <p> elementi standart padding değeri ie7’de farklı idi. Şimdi çözüldü.
+-   Microsoft’un kutu modeli kabülü ile w3c’nin kutu modeli arasındaki fark artık yok.
 -   **:first-child** dinamik kullanım sorunu ie8 ile birlikte çözüldü.
 -   **counters** desteği **counter-increment** ve **counter-reset**
 -   **position desteği** [http://www.quirksmode.org/css/position.html][]
--   **tablo border desteği**
-    [http://www.quirksmode.org/css/columns.html][]
--   **tablo visibility:collape
-    desteği**[http://www.quirksmode.org/css/columns.html][]
--   **empty-cells desteği**
-    [http://www.quirksmode.org/css/tables.html][]
--   **border-collapse sorunları**
-    [http://www.quirksmode.org/css/tables.html][]
--   **border-spacing desteği**
-    [http://www.quirksmode.org/css/tables.html][]
--   **caption-size desteği**
-    [http://www.quirksmode.org/css/tables.html][]
+-   **tablo border desteği** [http://www.quirksmode.org/css/columns.html][]
+-   **tablo visibility:collape desteği**[http://www.quirksmode.org/css/columns.html][]
+-   **empty-cells desteği** [http://www.quirksmode.org/css/tables.html][]
+-   **border-collapse sorunları** [http://www.quirksmode.org/css/tables.html][]
+-   **border-spacing desteği** [http://www.quirksmode.org/css/tables.html][]
+-   **caption-size desteği** [http://www.quirksmode.org/css/tables.html][]
 -   [http://ajaxian.com/archives/display-table][]
 
 ## Sonuç
@@ -169,9 +159,8 @@ Microsoft’un tarayıcı üretimindeki umursamaz tutumu sonucu oluşmuş ie7
 tarayıcısının kullanım oranının hızla düştüğü bu günlerde ie7 sonrası
 neler kazanacağımızı görmek arayüz geliştiriciler için önemlidir.
 ie6’nın yanında ufak görünse bile aslında bir çok uğraştan bizi
-kurtardığını yukarıda gördük.
-<span style="text-decoration:line-through">Benim tahminim yaz aylarında
-ie7 desteğini keseceğiz gibi görünüyor.</span> Sene sonu olarak
+kurtardığını yukarıda gördük. Benim tahminim yaz aylarında
+ie7 desteğini keseceğiz gibi görünüyor. Sene sonu olarak
 güncelliyorum.
 
 [sahibinden.com][] Haziran istatistiklerine göre %4 olan ie7’nin normal

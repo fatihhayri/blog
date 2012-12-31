@@ -3,7 +3,7 @@ Date: 2010-03-17 00:04
 Category: CSS, Javascript, jquery, Web Standartları, XHTML
 Tags: css3, çok kolonlu, çok kolonlu menüler, Javascript, jquery
 
-![][]](/images/rei.jpg)
+![](/images/rei.jpg)
 
 Son zamanlarda bir çok yerde gözüme çarpan bir menü tipi var; iki
 kolonlu, üç kolonlu vb. menü tipleri. CSS ile en optimum şekilde bu

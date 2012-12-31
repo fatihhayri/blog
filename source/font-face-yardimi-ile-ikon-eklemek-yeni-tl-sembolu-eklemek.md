@@ -79,7 +79,7 @@ Alışveriş için seçtiğimiz sepet ikonun “i” harfi ile ifade edildiği i
 ekleyip boyutunu, rengini kolayca değiştirebiliriz.
 
 Bir başka örnek:
-[http://www.fatihhayrioglu.com/fontface/fontface_ikon_buton.html][]
+[/dokumanlar/fontface/fontface_ikon_buton.html][]
 
 ![][2]
 
@@ -111,7 +111,7 @@ Lirası sembolünü web sitelerimize ekleyebiliriz.
 Yazı tipinde sadece tl sembolünü kullanacağımız için diğer karakterleri
 silip sadece ikonu bırakarak yazı tipi dosya boyutunu küçültebiliriz.
 
-[http://www.fatihhayrioglu.com/fontface/abakutlsymsans.zip][]
+[/dokumanlar/fontface/abakutlsymsans.zip][]
 
 Bağlantısından küçük dosyayı indirebilirsiniz.
 
@@ -142,7 +142,7 @@ biraz da mesafe koyalım.(padding-right:5px bunun için)
 
 ile sayfamıza ekledik.
 
-Örnek: [http://www.fatihhayrioglu.com/fontface/tl_deneme.html][]
+Örnek: [/dokumanlar/fontface/tl_deneme.html][]
 
 ## Kaynaklar
 
@@ -163,16 +163,13 @@ ile sayfamıza ekledik.
   [font-face kullanımını]: http://www.fatihhayrioglu.com/font-face-kullanimi/
   [http://webloti.org/20-modern-fontface-icon-seti/]: http://webloti.org/20-modern-fontface-icon-seti/
   []: https://lh5.googleusercontent.com/79Rggs4m_IPXO4v7JCZQt1fSFLljkf9RuTtZDSPzqeg4D3pjzrKFmyboc6ZmVwnSUw7yDZUvklmSSCqFSo8YL3qslteMuQ8r4I-SxhoO6pJVZ1EhZog
-  [1]: /images/Screen-shot-2012-03-08-at-10.44.09-AM.png "Screen shot 2012-03-08 at 10.44.09 AM"
-  
+  [1]: /images/Screen-shot-2012-03-08-at-10.44.09-AM.png
   [http://www.fatihhayrioglu.com/dokumanlar/fontface_ikon.html]: http://www.fatihhayrioglu.com/dokumanlar/fontface_ikon.html
-  [http://www.fatihhayrioglu.com/fontface/fontface_ikon_buton.html]: http://www.fatihhayrioglu.com/fontface/fontface_ikon_buton.html
-  [2]: /images/Screen-shot-2012-03-08-at-10.45.36-AM.png "Screen shot 2012-03-08 at 10.45.36 AM"
-  
-  [http://www.fatihhayrioglu.com/fontface/abakutlsymsans.zip]: http://www.fatihhayrioglu.com/fontface/abakutlsymsans.zip
-  [3]: /images/Screen-shot-2012-03-08-at-10.47.01-AM.png "Screen shot 2012-03-08 at 10.47.01 AM"
-  
-  [http://www.fatihhayrioglu.com/fontface/tl_deneme.html]: http://www.fatihhayrioglu.com/fontface/tl_deneme.html
+  [/dokumanlar/fontface/fontface_ikon_buton.html]: /dokumanlar/fontface/fontface_ikon_buton.html
+  [2]: /images/Screen-shot-2012-03-08-at-10.45.36-AM.png  
+  [/dokumanlar/fontface/abakutlsymsans.zip]: /dokumanlar/fontface/abakutlsymsans.zip
+  [3]: /images/Screen-shot-2012-03-08-at-10.47.01-AM.png
+  [/dokumanlar/fontface/tl_deneme.html]: /dokumanlar/fontface/tl_deneme.html
   [http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-ever-thought-about-using-font-face-for-icons/]: http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-ever-thought-about-using-font-face-for-icons/
   [http://developer.appdirect.com/blog/make_beautiful_icons_with_image_sprites_css3_font_face_or_svg]: http://developer.appdirect.com/blog/make_beautiful_icons_with_image_sprites_css3_font_face_or_svg
   [http://ikwebdesigner.com/special-characters/#howto]: http://ikwebdesigner.com/special-characters/#howto

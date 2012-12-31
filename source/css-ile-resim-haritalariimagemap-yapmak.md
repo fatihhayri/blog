@@ -11,8 +11,6 @@ ki javascript yardımı ile yapanlar var, ama sadece css ile bu işi
 yapanlarda var. Bu konuyu araştırıp bir yazı yazmayı konuyu CSS Mastery
 kitabında okuduğumda karar vermiştim, ancak olmadı nasip şimdiye imiş.
 
-<!--more-->
-
 ![Dexter - HTML][]
 
 Resim haritalama işi aslında bizim HTML'den aşina olduğumuz bir konu.
@@ -28,7 +26,7 @@ mutlak elemanın konumlandırması tekniğidir. Resmimizi içeren göreceli
 konumlandırılmış bir elaman koyup resim üzerinde belirteceğimiz
 noktalarıda mutlak konumlandıracağız ve bu noktaları farenin üzerine
 geldiğinde belirtip ilgili açıklamayı göstereceğiz. Flickr'dakine benzer
-bir görüntü olması için iki fazladan <span> ekleyeceğiz, bunları
+bir görüntü olması için iki fazladan <span\> ekleyeceğiz, bunları
 kaldırada biliriz.
 
 HTML kodumuzu yazalım
@@ -46,7 +44,7 @@ Burada resmimizi ul elemanı ardalan resmi olarak atadık. Bu teknikde
 önemli olan dıştaki kapsayıcı elemanı(ul#foto) göreceli konumlandırıp,
 fare üzerine geldiğinde resmin etrafını çizip bilgisini göstermek. Bu
 resimde üzerini çizdiğimiz ve bilgisini gösterdiğimiz elemanlarada(<li
-class="dexter"> ve <li class="html">) mutlak konumlandırma ile
+class="dexter"\> ve <li class="html"\>) mutlak konumlandırma ile
 tanımlayıp resmin üzerinde istediğimiz konuma yerleştiriyoruz.
 
 	:::css
@@ -112,11 +110,11 @@ kullanıcıları için şimdilik bir çözüm yok.
 	} 
 
 Amacımız Flickr tipi bir resim haritası oluşturmak olduğu için, iki
-kenar çizgisi tanımı yapmak için iki adet <span> etiketi yazdık ve
+kenar çizgisi tanımı yapmak için iki adet <span\> etiketi yazdık ve
 bunlara dış(.dis) ve iç(.ic) sınıfları tanımladık. Tanımladığımız her
 bir dis ve ic nesnesine haritaladığımız nesnelerin genişlik ve
 yükseklerinin 2px daha düşük değerlerini vererek üst üste binmelerini
-önledik ve görünümünü düzenlemiş olduk. Eğer istersek bu <span>
+önledik ve görünümünü düzenlemiş olduk. Eğer istersek bu <span\>
 etiketlerini kaldırabiliriz, daha sade bir görünüm olur.
 
 	:::css
@@ -182,24 +180,15 @@ avantaj sağlar.
 -   [http://www.cssplay.co.uk/menu/old_master.html][]
 
   [Dexter HTML kesiyormuş.]: http://www.flickr.com/photos/mollyeh11/2720714668/
-    "Dexter HTML kesiyormuş."
   [Dexter - HTML]: /images/flickr_dexter.jpg
   [<span class="dis"><span class="ic"><span class="bilgi">Dexter</span></span></span>]: http://www.sho.com/site/dexter/
   [<span class="dis"><span class="ic"><span class="bilgi">HTML   4</span></span></span>]: http://www.w3.org/TR/REC-html40/
-  [tıklayınız]: http://www.fatihhayrioglu.com/dokumanlar/flickr-rollovers.htm
+  [tıklayınız]: /dokumanlar/flickr-rollovers.htm
   [CSS Mastery: Advanced Web Standards Solutions - Andy Budd]: http://www.cssmastery.com/
-    "CSS Mastery: Advanced Web Standards Solutions - Andy Budd"
   [http://www.frankmanno.com/ideas/css-imagemap/]: http://www.frankmanno.com/ideas/css-imagemap/
-    "http://www.frankmanno.com/ideas/css-imagemap/"
   [http://www.frankmanno.com/ideas/css-imagemap-redux/]: http://www.frankmanno.com/ideas/css-imagemap-redux/
-    "http://www.frankmanno.com/ideas/css-imagemap-redux/"
   [http://www.cssplay.co.uk/menu/imap.html]: http://www.cssplay.co.uk/menu/imap.html
-    "http://www.cssplay.co.uk/menu/imap.html"
   [http://maxxu.casacolor.ro/css-exp/css-image-maps.html]: http://maxxu.casacolor.ro/css-exp/css-image-maps.html
-    "http://maxxu.casacolor.ro/css-exp/css-image-maps.html"
   [http://www.marketingtechblog.com/2007/10/02/css-image-map/]: http://www.marketingtechblog.com/2007/10/02/css-image-map/
-    "http://www.marketingtechblog.com/2007/10/02/css-image-map/"
   [http://www.frederikvig.com/temp.html]: http://www.frederikvig.com/temp.html
-    "http://www.frederikvig.com/temp.html"
   [http://www.cssplay.co.uk/menu/old_master.html]: http://www.cssplay.co.uk/menu/old_master.html
-    "http://www.cssplay.co.uk/menu/old_master.html"

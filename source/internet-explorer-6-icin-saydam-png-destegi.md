@@ -31,8 +31,9 @@ kodlayıcıları Internet Explorer'ı beklemeden bazı düzeltme kodları
 **AlphaImageLoader** özelliği sayesinde saydam PNG desteği sağlanmıştır.
 
 	:::css
-	 img { filter:
-progid:DXImageTransform.Microsoft.AlphaImageLoader(...); } 
+	img { 
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(...); 
+	} 
 
 Bu kod problemimizi çözdü, ancak tümünü değil.
 
@@ -74,20 +75,29 @@ kısmındaki linkleri takip ederek farklı yöntemleri uygulayabilirisiniz.
 
 İlk olarak bir saydam PNG resmini sitemize ekleyelim. Benim logomun bir
 gif birde png halini hazırlayıp saydam PNG'nin gözle görülür faydasını
-anlayalım. 	:::html
-	 <!DOCTYPE html PUBLIC
-"-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
-xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
-http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Saydam PNG</title> <style> .kutu{
-background:url(images/ardalan.gif) top left no-repeat; height:80px;
-padding:10px } </style> </head> <body> <div class="kutu"><img
-src="images/fatihhayri_logo.gif" alt="Logo" width="166" height="82"
-/></div> <p>fatihhayri_logo.gif uygulaması</p> <div
-class="kutu"><img src="images/fatihhayri_logo.png" alt="Logo"
-width="166" height="82" /></div> <p>fatihhayri_logo.png
-uygulaması</p> </body> </html> 
+anlayalım. 	
+
+	:::html
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+	<html xmlns="http://www.w3.org/1999/xhtml"> 
+	<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>Saydam PNG</title> 
+	<style> 
+	.kutu{ 
+		background:url(images/ardalan.gif) top left no-repeat; 
+		height:80px; 
+		padding:10px 
+	} 
+	</style> 
+	</head> 
+	<body> 
+	    <div class="kutu"><img src="images/fatihhayri_logo.gif" alt="Logo" width="166" height="82" /></div> 
+	    <p>fatihhayri_logo.gif uygulaması</p> 
+	    <div class="kutu"><img src="images/fatihhayri_logo.png" alt="Logo" width="166" height="82" /></div> 
+	    <p>fatihhayri_logo.png uygulaması</p> 
+	</body> 
+	</html> 
 
 Örnek sayfayı görmek için [tıklayınız.][]
 
@@ -103,13 +113,23 @@ görüntü aşağıdaki gibi olacaktır.
 Kırmızı ile işaretlediğim ve resmi saran bir gri alan gibi saracaktır.
 Bunun anlamı bu tarayıcının saydam PNG desteğinin olmadığıdır. Bu sorunu
 gidermek için yukarıda bahsettiğimiz İnternet Explorer 6'nın
-desteklediği **filter** tekniği uygulayacağız. [sourcecode language="javascript" highlight="4"] function fixpngs(){ var l =
-document.getElementsByTagName('img'); for(i=0;i<l.length;i++){ p =
-'images/0.gif'; n = l[i].getAttribute('src'); g = n.toLowerCase();
-if(g.substring(g.length-3)=="png"){ l[i].setAttribute('src',p);
-l[i].style.cssText="filter:
-progid:DXImageTransform.Microsoft.AlphaImageLoader (src='"+n+"')"; } } }
-window.onload = fixpngs; 
+desteklediği **filter** tekniği uygulayacağız. 
+
+
+	:::javascript
+	function fixpngs(){
+	var l = document.getElementsByTagName('img');
+		for(i=0;i<l.length;i++){
+		p = 'images/0.gif';
+		n = l[i].getAttribute('src');
+		g = n.toLowerCase();
+			if(g.substring(g.length-3)=="png"){
+			l[i].setAttribute('src',p);
+			l[i].style.cssText="filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='"+n+"')";
+			}
+		}
+	}
+	window.onload = fixpngs;
 
 Yukarıdaki js dosyasını incelersek. Sayfadaki tüm resimleri tarayıp png
 uzantılı olanları bulup IE'nin göstereceği stil özelliklerini bu png'ye
@@ -126,22 +146,31 @@ görünen alanlardaki saydam PNG ile yaşadığım sorunları bu kodun
 çözmesidir.
 
 Yukarıdaki kodu sayfamıza sadece IE7 öncesi görecek şekilde eklersek
+
 	:::html
-	 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML
-1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
-xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
-http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Saydam PNG</title> <style> .kutu{
-background:url(images/ardalan.gif) top left no-repeat; height:80px;
-padding:10px } </style> <!--[if lt IE 7]> <script
-type="text/javascript" src="pngDuzenlemeKodu.js"></script>
-<![endif]--> </head> <body> <div class="kutu"><img
-src="images/fatihhayri_logo.gif" alt="Logo" width="166" height="82"
-/></div> <p>fatihhayri_logo.gif uygulaması</p> <div
-class="kutu"><img src="images/fatihhayri_logo.png" alt="Logo"
-width="166" height="82" /></div> <p>fatihhayri_logo.png
-uygulaması</p> </body> </html> 
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+	<html xmlns="http://www.w3.org/1999/xhtml"> 
+	<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>Saydam PNG</title> 
+	<style> 
+	.kutu{ 
+	background:url(images/ardalan.gif) top left no-repeat; 
+	height:80px; 
+	padding:10px 
+	} 
+	</style> 
+	<!--[if lt IE 7]> 
+	<script type="text/javascript" src="pngDuzenlemeKodu.js"></script> 
+	<![endif]--> 
+	</head> 
+	<body> 
+	    <div class="kutu"><img src="images/fatihhayri_logo.gif" alt="Logo" width="166" height="82" /></div> 
+	    <p>fatihhayri_logo.gif uygulaması</p> 
+	    <div class="kutu"><img src="images/fatihhayri_logo.png" alt="Logo" width="166" height="82" /></div> 
+	    <p>fatihhayri_logo.png uygulaması</p> 
+	</body> 
+	</html>
 
 Örneği görmek için [tıklayınız.][1]
 
@@ -150,7 +179,7 @@ uygulaması</p> </body> </html>
 Yukarıdaki ekran görüntüsü Internet Explorer 6'da sayfamızın
 görüntüsüdür.
 
-#### Ardalan resmi olarak saydam PNG kullanımı
+## Ardalan resmi olarak saydam PNG kullanımı
 
 Resimlerde kullanımının dışında ardalan(background) resmi olarakta
 saydam PNG resimlerini kullanmamız gerekebilir. Benim en çok
@@ -176,30 +205,47 @@ saydam png olarak kaydettim
 ![][]
 
 Saydam png kullanımının farklı yönlerini anlatmak için bu bölümü 3 kısma
-ayırdık. Bu şekilde kodumuzu yazarsak: 	:::html
-	
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html
-xmlns="http://www.w3.org/1999/xhtml"> <head> <meta
-http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Saydam PNG</title> <style> #resim{
-background:url(images/ardalan_resmi.jpg) top left no-repeat;
-width:400px; padding-top:15px; height:300px; } #icerik{ width:207px;
-margin-left:15px; } #icerikUstu{ background:url(images/icerik_ust.png)
-top left no-repeat; height:10px; } #metinAlani{
-background:url(images/icerik_orta.png) top left repeat-y; font:11px
-Arial, Helvetica, sans-serif; padding:0 10px } </style> </head>
-<body> <div id="resim"> <div id="icerik"> <div
-id="icerikUstu"><img src="images/0.gif" width="1" height="1"
-/></div> <div id="metinAlani"> Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit. Praesent ultricies orci quis erat. Nulla
-vulputate sapien sit amet elit. Cum sociis natoque penatibus et magnis
-dis parturient montes, nascetur ridiculus mus. Suspendisse sed nunc. In
-at ligula. Class aptent taciti sociosqu ad litora torquent per conubia
-nostra, per inceptos himenaeos. Ut augue. Phasellus scelerisque vehicula
-orci.</div> <div id="icerikAlt"><img src="images/icerik_alt.png"
-width="207" height="18" alt=" " /></div> </div> </div> </body>
-</html> 
+ayırdık. Bu şekilde kodumuzu yazarsak: 	
+
+
+	:::html
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+	<html xmlns="http://www.w3.org/1999/xhtml"> 
+	<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>Saydam PNG</title> 
+	<style> 
+	#resim{ 
+	background:url(images/ardalan_resmi.jpg) top left no-repeat; 
+	width:400px; 
+	padding-top:15px; 
+	height:300px; 
+	} 
+	#icerik{ 
+	width:207px; 
+	margin-left:15px; 
+	} 
+	#icerikUstu{ 
+	background:url(images/icerik_ust.png) top left no-repeat; 
+	height:10px; 
+	} 
+	#metinAlani{ 
+	background:url(images/icerik_orta.png) top left repeat-y; 
+	font:11px Arial, Helvetica, sans-serif; 
+	padding:0 10px 
+	} 
+	</style> 
+	</head> 
+	<body> 
+	<div id="resim"> 
+	<div id="icerik"> 
+	<div id="icerikUstu"><img src="images/0.gif" width="1" height="1" /></div> 
+	<div id="metinAlani"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent ultricies orci quis erat. Nulla vulputate sapien sit amet elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse sed nunc. In at ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut augue. Phasellus scelerisque vehicula orci.</div> 
+	<div id="icerikAlt"><img src="images/icerik_alt.png" width="207" height="18" alt=" " /></div> 
+	</div> 
+	</div> 
+	</body> 
+	</html> 
 
 Örnek sayfayı görmek için [tıklayınız.][3]
 
@@ -217,10 +263,12 @@ baktığımızda işin rengi değişecektir.
 
 Yukarıdaki resimde görüldüğü gibi saydam png resimlerinin saydam olan
 kısımları gri bir çerçeve ile kaplanmış gibi görünüyor. Yukarıdaki
-kodumuz ekleyerek bu sorunu halledebiliriz. 	:::html
-	
-<!--[if lt IE 7]> <script type="text/javascript"
-src="pngDuzenlemeKodu.js"></script> <![endif]--> 
+kodumuz ekleyerek bu sorunu halledebiliriz. 	
+
+	:::html
+	<!--[if lt IE 7]> 
+		<script type="text/javascript" src="pngDuzenlemeKodu.js"></script> 
+	<![endif]-->
 
 Ancak bu kod bize sadece alt kısma eklediğimiz resmi düzeltmeye
 yaracaktır. Orta ve üst kısımların ardalanında kullandığımız saydam png
@@ -229,12 +277,18 @@ doyarının görünümü yine sorun görülecektir.
 ![Saydam PNG ardalan olarak kullanımı][6]
 
 Peki bunun için bir çözüm yok mu? Elbette var. Yine filter özelliğin
-kullanarak bu işe bir çözüm getireceğiz. 	:::html
-	
-<!--[if lt IE 7]> <style> #icerikUstu{ background:transparent;
-filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/icerik_ust.png',
-sizingMethod='crop'); } </style> <script type="text/javascript"
-src="pngDuzenlemeKodu.js"></script> <![endif]--> 
+kullanarak bu işe bir çözüm getireceğiz. 	
+
+	:::html
+	<!--[if lt IE 7]> 
+	<style> 
+	#icerikUstu{ 
+	    background:transparent; 
+	    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/icerik_ust.png', sizingMethod='crop'); 
+	} 
+	</style> 
+	<script type="text/javascript" src="pngDuzenlemeKodu.js"></script> 
+	<![endif]-->
 
 Yukarıdaki kodu sayfamıza eklediğimizde IE6 içeriğin üst kısmına
 uyguladığımız ardalan resmi düzgün görüntülenecektir. Bu koda dikkat
@@ -244,9 +298,7 @@ background özelliği sıfırlanıyor(**background:none**) Daha sonra filter
 filter özelliğinin iki parametresi var
 
 	:::css
-	
-filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(parametre1,
-parametre2); 
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(parametre1, parametre2);  
 
 parametre1 resmin kaynağını göstermek için kullanılır. parametre2 ise
 kullanılan ardalan resminin nasıl şekillendirileceğini gösterir. İki
@@ -259,15 +311,28 @@ background-repeat:repeat-y özelliğine karşılık gelen bir özelliktir.
 Bunun uygulamasını biraz sonra göreceğiz.
 
 Gelelim metin girdiğimiz kısmın arkasına uyguladığımız ardalan resmini
-uygulamaya, bunu için: 	:::html
-	 <!--[if lt IE 7]>
-<style> #icerikUstu{ background:transparent;
-filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/icerik_ust.png',
-sizingMethod='crop'); } #metinAlani{ background:transparent;
-filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/icerik_orta.png',
-sizingMethod='scale'); height:1%; } </style> <script
-type="text/javascript" src="pngDuzenlemeKodu.js"></script>
-<![endif]--> 
+uygulamaya, bunu için: 	
+
+
+	:::html
+	<!--[if lt IE 7]> 
+	<style> 
+	#icerikUstu{ 
+	background:transparent; 
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/icerik_ust.png', sizingMethod='crop'); 
+	} 
+	#metinAlani{
+
+	background:transparent;
+
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/icerik_orta.png', sizingMethod='scale');
+
+	height:1%;
+
+	} 
+	</style> 
+	<script type="text/javascript" src="pngDuzenlemeKodu.js"></script> 
+	<![endif]-->
 
 Örnek sayfayı görmek için [tıklayınız.][7]
 
@@ -291,14 +356,25 @@ gizli bir alana altında kalıyor gibi. Bizde linkleri bu alanın üzerine
 
 Bu durumu çözmek için:
 
-[sourcecode language="html" highlight="12,13,14,15"] <!--[if lt IE 7]>
-<style> #icerikUstu{ background:transparent;
-filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/icerik_ust.png',
-sizingMethod='crop'); } #metinAlani{ background:transparent;
-filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/icerik_orta.png',
-sizingMethod='scale'); height:1%; } #metinAlani a{ position: relative;
-z-index: 1; } </style> <script type="text/javascript"
-src="pngDuzenlemeKodu.js"></script> <![endif]--> 
+	:::html
+	<!--[if lt IE 7]> 
+	<style> 
+	#icerikUstu{ 
+	    background:transparent; 
+	    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/icerik_ust.png', sizingMethod='crop'); 
+	} 
+	#metinAlani{ 
+	    background:transparent; 
+	    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/icerik_orta.png', sizingMethod='scale'); 
+	    height:1%; 
+	} 
+	#metinAlani a{
+	    position: relative;
+	    z-index: 1;
+	} 
+	</style> 
+	<script type="text/javascript" src="pngDuzenlemeKodu.js"></script> 
+	<![endif]-->
 
 Örnek sayfayı görmek için [tıklayınız.][10]
 
@@ -336,7 +412,6 @@ için kullandığım yöntemi sizlerle paylaştım. Muhakkak daha iyi yöntemler
 -   [http://blogs.pathf.com/agileajax/2008/04/hacking-transpa.html][]
 -   [http://www.bluehostforum.com/archive/index.php/t-8396.html][]  
 
-</p>
 
   [tıklayınız.]: /dokumanlar/resim_ekle.html
   [Saydam PNG resim]: /images/saydampng_resim.gif

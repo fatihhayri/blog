@@ -455,8 +455,8 @@ Artık çekinmeden !important tanımını kullanabileceğiz.
 -   [IE6′da CEE-EEE(peek-a-boo) Hatası][]
 -   [Göreceli-Mutlak Konumlandırma Sorunu][]
 -   [Kenar Boşluğu(Margin) Çökmesi][]
--   [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi     atamak][]
--   [CSS Yorumlarında Türkçe Karakter Kullandığımızda İE6′da Sorun     Çıkarıyor][]
+-   [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi atamak][]
+-   [CSS Yorumlarında Türkçe Karakter Kullandığımızda İE6′da Sorun Çıkarıyor][]
 -   [IE6′da Liste Ardalan Görmeme Sorunu][]
 -   [ie6′da border-color:transparent desteği sağlamak][]
 
@@ -467,25 +467,19 @@ ve CSS dersleri altındaki CSS Problemleri ve Çözüm Önerileri başlıklı
 içeriğin bir çoğunu tek başına oluşturan ie6 sorunlarını düzeltmeyeceğiz
 artık.
 
-Artık sol ve sağ margin tanımları yaptık diye display:inline tanımı
-yapmak zorunda değiliz,  
-Artık tekrarlayan karakter sorunu nedeni ile HTML yorumlarımızı silmek
-veya değiştirmek zorunda değliz,  
-Artık 3px sorunu için takla atmak zorunda değiliz,  
-Artık cee-ee sorunu nedeni yüzünden background değerlerini silmek
-zorunda değiliz,  
-Artık relative içindeki absolute tanımlar için fazladan kod yazmak
-zorunda değiliz.,  
-Artık yorum satırlarında Türkçe karakter kullanabileceğiz,  
-Artık saydam kenar çizgileri kullanabileceğiz,  
-Artık line-height sorunuları nedeni ile fazladan kod yazmayacağız.,  
-Artık liste işaretleri sorunu ile uğraşmayacağız,  
-Artık overflow sorunu nedeni ile fazladan position:relative ve
-height:100% tanımı yapmayacağız.,  
-Artık ie6 için çözüm üretmek için *html, _ ile çözüm üretmeyeceğiz.,  
-Artık kenar çizgilerinden dotted  dashed gibi görünüyor diye dert
-etmeyeceğiz,  
-Artık ie6 yok.
+ - Artık sol ve sağ margin tanımları yaptık diye display:inline tanımı yapmak zorunda değiliz,  
+ - Artık tekrarlayan karakter sorunu nedeni ile HTML yorumlarımızı silmek veya değiştirmek zorunda değliz,  
+ - Artık 3px sorunu için takla atmak zorunda değiliz,
+ - Artık cee-ee sorunu nedeni yüzünden background değerlerini silmek zorunda değiliz,  
+ - Artık relative içindeki absolute tanımlar için fazladan kod yazmak zorunda değiliz.,  
+ - Artık yorum satırlarında Türkçe karakter kullanabileceğiz,  
+ - Artık saydam kenar çizgileri kullanabileceğiz,  
+ - Artık line-height sorunuları nedeni ile fazladan kod yazmayacağız.,  
+ - Artık liste işaretleri sorunu ile uğraşmayacağız,  
+ - Artık overflow sorunu nedeni ile fazladan position:relative ve height:100% tanımı yapmayacağız.,  
+ - Artık ie6 için çözüm üretmek için *html, _ ile çözüm üretmeyeceğiz.,  
+ - Artık kenar çizgilerinden dotted  dashed gibi görünüyor diye dert etmeyeceğiz,  
+ - Artık ie6 yok.
 
 Kodlarımızı bu gerçeklere göre tekrar gözden geçirelim.
 
@@ -549,8 +543,8 @@ ie6 öldü.
   [IE6′da CEE-EEE(peek-a-boo) Hatası]: http://www.fatihhayrioglu.com/?p=235
   [Göreceli-Mutlak Konumlandırma Sorunu]: http://www.fatihhayrioglu.com/?p=240
   [Kenar Boşluğu(Margin) Çökmesi]: http://www.fatihhayrioglu.com/?p=362
-  [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi   atamak]: http://www.fatihhayrioglu.com/internet-explorer-6-ve-7-icin-tablo-tr-elementine-kenar-cizgisi-atamak/
-  [CSS Yorumlarında Türkçe Karakter Kullandığımızda İE6′da Sorun   Çıkarıyor]: http://www.fatihhayrioglu.com/css-yorumlarinda-turkce-karakter-kullandigimizda-ie6da-sorun-cikariyor/
+  [İnternet Explorer 6 ve 7 için Tablo tr elementine kenar çizgisi atamak]: http://www.fatihhayrioglu.com/internet-explorer-6-ve-7-icin-tablo-tr-elementine-kenar-cizgisi-atamak/
+  [CSS Yorumlarında Türkçe Karakter Kullandığımızda İE6′da Sorun Çıkarıyor]: http://www.fatihhayrioglu.com/css-yorumlarinda-turkce-karakter-kullandigimizda-ie6da-sorun-cikariyor/
   [IE6′da Liste Ardalan Görmeme Sorunu]: http://www.fatihhayrioglu.com/ie6da-liste-ardalan-gormeme-sorunu/
   [ie6′da border-color:transparent desteği sağlamak]: http://www.fatihhayrioglu.com/ie6da-border-colortransparent-destegi-saglamak/
   [http://blogs.msdn.com/b/ie/archive/2006/08/22/712830.aspx]: http://blogs.msdn.com/b/ie/archive/2006/08/22/712830.aspx

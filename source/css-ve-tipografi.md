@@ -22,8 +22,6 @@ göreceğiz. Tipografihakkında genel bir bilgi vermesi açısından güzel bir
 ederim. Ayrıca kaynakçakısmındaki linklerden de daha fazla bilgi
 alabilirsiniz.
 
-<!--more-->
-
 Diğer makaleleri yazarken bazı konularda kaynak bulma konusunda ciddi
 sorunlar yaşadığım oldu, ancak tipografi hakkında makale yazmaya karar
 verip bilgi toplamaya başladığımda önceki yazılarımın aksine tipografi
@@ -99,8 +97,9 @@ font kullanılmaz diye bir mana çıkaramayız elbette kullanılabilir ancak
 sans-serif daha çok tercih edilir. Genel font kullanımı:
 
 	:::css
-	 body{ font-family:Arial, Helvetica,
-sans-serif } 
+	body{ 
+		font-family:Arial, Helvetica, sans-serif 
+	} 
 
 Şeklindedir. Burada birincil fontumuz Arial'dir alternatifi Helvatica ve
 yazı tipi ailesi sans-serif olduğunu belirtiyoruz. Normalde sadece Arial
@@ -139,31 +138,35 @@ Bir çok web sayfası kodlayıcısı aşağı yukarı tüm sayfalarında belli
 standart yazı boyutları kullanır. Bizde burada bu genel kullanılan yazı
 boyutları önerilerini sıralayalım:
 
--   İçerik metinleri için 11px/16.5px arasında değerler
--   Ana başlıklar(Anasayfa, Ürünler gibi başlıklar için) 24px
--   Ana başlıkların altındaki ikincil başlıklar için 18px
--   Menü elemanları ve üçüncü derece başlıklar için 16px
--   Diğer başlıklar için 13px
+ -   İçerik metinleri için 11px/16.5px arasında değerler
+ -   Ana başlıklar(Anasayfa, Ürünler gibi başlıklar için) 24px
+ -   Ana başlıkların altındaki ikincil başlıklar için 18px
+ -   Menü elemanları ve üçüncü derece başlıklar için 16px
+ -   Diğer başlıklar için 13px
 
 Genel bir css kodunu yazarsak
 
 	:::css
-	 body {font: 11px/1.5em "Lucida Grande"; }
-h1, h2, h3, h4, h5, h6 {font-family: helvetica, arial, verdana,
-sans-serif; font-weight: normal;} h1 { font-size: 24px; } h2 {
-font-size: 18px; } h3 { font-size: 16px; line-height:2; } h4 {
-font-size: 13px; line-height:1.25; font-weight:bold; } h5 { font-size:
-12px; font-weight:bold; } h6 { font-size: 12px; } 
+	body {font: 11px/1.5em "Lucida Grande"; } 
+	h1, h2, h3, h4, h5, h6 {font-family: helvetica, arial, verdana, sans-serif; font-weight: normal;} 
+	h1 { font-size: 24px; }
+	h2 { font-size: 18px; }
+	h3 { font-size: 16px; line-height:2; }
+	h4 { font-size: 13px; line-height:1.25; font-weight:bold; }
+	h5 { font-size: 12px; font-weight:bold; }
+	h6 { font-size: 12px; }
 
 veya **em** cinsinden
 
 	:::css
-	 body {font: 11px/1.5em "Lucida Grande";} h1,
-h2, h3, h4, h5, h6 {font-family: helvetica, arial, verdana, sans-serif;
-font-weight: normal;} h1 { font-size: 3em; } h2 { font-size: 2em; } h3 {
-font-size: 1.5em; line-height:2; } h4 { font-size: 1.2em;
-line-height:1.25; font-weight:bold; } h5 { font-size: 1em;
-font-weight:bold; } h6 { font-size: 1em; } 
+	body {font: 11px/1.5em "Lucida Grande";} 
+	h1, h2, h3, h4, h5, h6 {font-family: helvetica, arial, verdana, sans-serif; font-weight: normal;} 
+	h1 { font-size: 3em; }
+	h2 { font-size: 2em; }
+	h3 { font-size: 1.5em; line-height:2; }
+	h4 { font-size: 1.2em; line-height:1.25; font-weight:bold; }
+	h5 { font-size: 1em; font-weight:bold; }
+	h6 { font-size: 1em; } 
 
 Bu konuda çok güzel bir doküman hazırlayan [BluePrint CSS Anaçatısının][] tipografi kısmına göz atmanızı tavsiye ederim.
 
@@ -176,16 +179,19 @@ için genel kabul **yazı boyutunun1.4-1.6 katı** kadar bir mesafedir.
 ![Satırlar arası yükseklik][]
 
 	:::css
-	 body { font-family: "Lucida Grande",
-Helvetica, Arial, Verdana, sans-serif; line-height: 1.5em; }
+	body {
+	    font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif; 
+	    line-height: 1.5em; 
+	}
 
 
 CSS kısaltmalarında tek yazı tipi değerine tüm yazı özellikleri ekleme
 imkanı sunar.
 
 	:::css
-	 body { font:11px/1.5em "Lucida Grande",
-Helvetica, Arial, Verdana, sans-serif; } 
+	body { 
+		font:11px/1.5em "Lucida Grande", Helvetica, Arial, Verdana, sans-serif; 
+	} 
 
 ## Yazılara Vurgu Eklemek
 
@@ -198,7 +204,9 @@ tiplerinde böyle bir seçim yapamıyoruz bu nedenle yazılarımıza kalınlık
 kazandırmak için
 
 	:::css
-	 h1{ font-weight:bold; } 
+	h1{ 
+		font-weight:bold; 
+	} 
 
 kodunu kullanırız. Kalın yazılmış yazılar diğer yazılara göre  daha
 dikkat çekici görünecektir. Genelde başlıklar ve önemli alanlar
@@ -209,22 +217,30 @@ Eğik yazı şekli ekranda okunurluğu azaltsa da kullanıcıya farklı bir
 görünüm ile dikkat çeker.
 
 	:::css
-	 blockquote { margin: 1.5em 0 1.5em 1.5em;
-color: #666; font-style: italic; } 
+	blockquote { 
+		margin: 1.5em 0 1.5em 1.5em;
+		color: #666; 
+		font-style: italic; 
+	} 
 
 **Altıçizili:** Üçüncü olarak altı çizili yazılar kullanılır. Web'de
 genelde altı çizili yazılar link olarak kullanılır ve böyle algılanır.
 
 	:::css
-	a{ color: #125AA7; text-decoration:
-underline; outline: none; } 
+	a{ 
+		color: #125AA7; 
+		text-decoration: underline; 
+		outline: none; 
+	} 
 
 **Renk:** Yazılarımızda farklı alanlara vurgu yapmak için kullanılan
 özelliklerden biride renk(color) özelliğidir. Meselahatalı alanları
 belirlemek için kırmızı renk kullanımı yaygındır.
 
 	:::css
-	.hata{ color:#f00}
+	.hata{ 
+		color:#f00
+	}
 
 **Büyük Yazı:** Vurgu yapmak için nadiren de olsa tipografi bakımdan
 buda kullanılabilir bir seçenektir ama en azkullanılan vurgu tipidir.
@@ -232,7 +248,7 @@ buda kullanılabilir bir seçenektir ama en azkullanılan vurgu tipidir.
 ## Metin hizalama
 
 CSS'in metin ve sayfa yatay hizalaması
-için<span style="FONT-WEIGHT:bold">text-align</span> özelliğini
+için **text-align** özelliğini
 kullanırız. 
 
 **Aldığı değerler:** **left**(metni sola yaslar), **right**(metni sağa
@@ -244,14 +260,13 @@ olabilir. Özellikle son satırda sorunları vardır.
 ![][2]
 
 justify(iki yana hizalı)  kullanımında meydana gelen sorunları gören W3C
-çalışmaları devam eden CSS3 ile birlikte
-<span style="FONT-WEIGHT:bold">inter-word</span>
-ve<span style="FONT-WEIGHT:bold">inter-character</span> özelliklerini
+çalışmaları devam eden CSS3 ile birlikte **inter-word**
+ve **inter-character** özelliklerini
 eklenmiştir.Bu özellikler yardımı ile ileride justify özelliğini daha
 fazla kullanacağımızıdüşünüyorum.
 
 Ayrıca CSS3 ile birlikte
-<span style="FONT-WEIGHT:bold">text-align-last</span>özelliğide
+**text-align-last** özelliğide
 gelmektedir ki  bu özellik sayesinde justify ataması
 yaptığımızmetinlerin son satırında meydana gelen kelimeler arası fazla
 boşluk sorununuçözmüş olacağız. Ancak biraz daha sabır gerekiyor.
@@ -272,7 +287,9 @@ sayfası aynıdeğerleri kullanacak diye bir şey yoktur. Bazen farklı
 sonuçlar elde etmek içinfarklı değerler kullanabiliriz.
 
 	:::css
-	p {word-spacing: .2em;} 
+	p {
+		word-spacing: .2em;
+	} 
 
 ## Paragrafın ilk satırını içeriden başlatmak (text-indent)
 
@@ -280,7 +297,9 @@ Birçok dergi, gazete ve yazıda karşılaştığımız bu yöntemi CSS yardım�
 ile çok basit bir şekilde yaparız.
 
 	:::css
-	 p { text-indent: 2.5em; } 
+	p { 
+		text-indent: 2.5em; 
+	} 
 
 Göreceli değer kullanmak daha mantıklıdır.
 
@@ -305,52 +324,37 @@ Sınırları zorlayan güzel örnekler
 -   [http://webtypography.net/toc/][]
 -   [http://www.sitepoint.com/print/anatomy-web-fonts][]
 -   [http://www.markboulton.co.uk/journal/comments/five_simple_steps_to_better_typography/][]
--   [http://www.digital-web.com/articles/css_typography/][] (css ve
-    tipografi hakkında genel bir yazı)
--   [http://www.digital-web.com/articles/css_101/][] (uygulamalı css ve
-    tipografi)  
--   [http://www.fotografya.gen.tr/issue-6/hasip.html][İnternetteki     Tipografi Sorunları ve GörselKirlenmeye Karşı Öneriler] (genel
-    tipografi bilgisi Türkçe)  
+-   [http://www.digital-web.com/articles/css_typography/][] (css ve tipografi hakkında genel bir yazı)
+-   [http://www.digital-web.com/articles/css_101/][] (uygulamalı css ve tipografi)  
+-   [http://www.fotografya.gen.tr/issue-6/hasip.html][İnternetteki Tipografi Sorunları ve GörselKirlenmeye Karşı Öneriler] (genel tipografi bilgisi Türkçe)  
 -   [http://www.webmonkey.com/design/fonts/tutorials/tutorial3.html][]
-    (Çok geniş bir tipografi bilgisi)  
--   [http://clagnut.com/search/index.php?q=typography][] (tipografi
-    linkleri)
+-   [http://clagnut.com/search/index.php?q=typography][] (tipografi linkleri)
 -   [http://www.wpdfd.com/issues/23/typography/][] (genel bilgi)
 -   [http://www.3point7designs.com/blog/2006/09/20/advanced-typography-techniques-using-css/][] 
-    (farklı metin uygulamaları)  
--   [http://www.alistapart.com/articles/sizematters/][] (font boyutunu
-    farklı tarayıcılarda farklı olma sorunu ve çözümü)  
--   [http://www.lifeclever.com/web-typography-40-resources-tools/][]
-    (Tipografi araçları)  
+-   [http://www.alistapart.com/articles/sizematters/][] (font boyutunu farklı tarayıcılarda farklı olma sorunu ve çözümü)  
+-   [http://www.lifeclever.com/web-typography-40-resources-tools/][] (Tipografi araçları)  
 -   [http://www.mandarindesign.com/troops.html][] (uygulamlar var)  
 -   [http://www.3point7designs.com/blog/2007/08/16/web-typography-50-sources-for-inspiration-and-instruction/][]
 -   [http://typetester.maratz.com/][]
 -   [http://www.webstyleguide.com/type/][]
 -   [http://www.sitepoint.com/blogs/2007/04/30/typography-baseline-rhythm-deciphered/][]  
 -   [http://ceyhunaksan.com/css-ve-tipografi/][]
--   [http://topfunky.com/baseline-rhythm-calculator/][] (tipografi
-    çevirimiçi aracı)
+-   [http://topfunky.com/baseline-rhythm-calculator/][] (tipografi çevirimiçi aracı)
 -   [http://www.wpdfd.com/issues/23/typography/][]
 -   [http://www.peachpit.com/store/product.aspx?isbn=0321305256][]
-
-</p>
 
   [Yunanca]: http://tr.wikipedia.org/wiki/Yunanca "Yunanca"
   [Vikipedi]: http://tr.wikipedia.org/wiki/Tipografi "Tipografi tanımı"
   [İnternetteki Tipografi Sorunları ve GörselKirlenmeye Karşı Öneriler]: http://www.fotografya.gen.tr/issue-6/hasip.html
   [Yazı Ölçüsü]: /images/tipografi_olcu.gif
   [CSS Birimleri]: http://www.fatihhayrioglu.com/?p=95
-    "CSS birimleri em göz at"
   [CSS İLE WEB SAYFASI OLUŞTURMA II]: http://www.fatihhayrioglu.com/?p=179
-    "Elastik web sayfaları oluşturmak"
   [visbone.com]: http://www.visibone.com/font/FontResults.html
   []: /images/anti_aliasing.gif
   [serif sans-serif]: /images/serif.gif
   [Metin Yerine Resim/Flash Ekleme Teknikleri (Image Replacement)]: http://www.fatihhayrioglu.com/?p=294
-    "metin yerine resim/flash koymak"
   [1]: /images/yazi_boyutlari.png
   [BluePrint CSS Anaçatısının]: http://code.google.com/p/blueprintcss/
-    "CSS Anaçatısı"
   [Satırlar arası yükseklik]: /images/line_height.gif
   [2]: /images/tipografi_hizalama.gif
   [Microsoft]: http://www.microsoft.com/typography/web/embedding/weft3/default.htm

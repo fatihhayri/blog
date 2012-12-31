@@ -162,8 +162,8 @@ Ayrıca birçok mailing programı flash desteklemez bu nedenle mailing
 kodlarımıza flash import edemeyiz.
 
 Bazı HTML etiketlerini kullanılması anlamsız ve sorun yaratabilir. Bu
-etiketleri sıralayalım; <META>, <BASE>, <LINK>, <SCRIPT>,
-<FRAMESET>, <FRAME>, <IFRAME> ve yorum kodu <!-- yorum -->
+etiketleri sıralayalım; <META\>, <BASE\>, <LINK\>, <SCRIPT\>,
+<FRAMESET\>, <FRAME\>, <IFRAME\> ve yorum kodu
 
 **Spam Mailden Kaçınmak için Yapmamız Gerekenler**
 

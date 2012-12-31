@@ -4,7 +4,7 @@ Category: CSS, XHTML
 
 Mailin kodlamanın çeşitli yöntemleri var ben burada kendi tercih ettiğim
 yöntemi anlatmaya çalışacağım. Basit bir mailing örnek olarak
-kodlayacağım, ancak birçok mailing aynı yöntem ile kodlanabilir. </span>
+kodlayacağım, ancak birçok mailing aynı yöntem ile kodlanabilir. </span\>
 
 Tasarımcıdan gelen kaynak dosya(psd veya png) resim işleme programı ile
 açılır. Benim elim daha çok Phoshop’a alışık olduğu için onun üzerinden
@@ -68,7 +68,7 @@ oluşturur ve resimlerimizide otomatik olarak images klasörü içine
 kaydeder.
 
 Daha sonra ufak tefek düzeltmeler için html sayfamızı bir html editörü
-ile açarız. <body> bg rengi olarak beyaz atanmış olarak gelir
+ile açarız. <body\> bg rengi olarak beyaz atanmış olarak gelir
 htmlimiz, bizim bg rengimiz gridir bu atamayı yaparız.
 
 	:::html
@@ -145,14 +145,14 @@ Sağlıcakla kalın.
 -   [http://sixrevisions.com/web_design/creating-html-emails/][]</a>
 
   [Can Gürbü]: http://www.cangurbuz.com/
-  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/mailing_yapmak/mailing.rar
+  [tıklayınız.]: /dokumanlar/mailing_yapmak/mailing.rar
   []: /images/mailing_ornegi.jpg
   [1]: /images/mail_yapmak_slice_araci.gif
   [2]: /images/mail_yapmak_slicelanmis-300x269.jpg
   [3]: /images/mail_yapmak_webicin_kaydet.gif
   [4]: /images/mail_yapmak_webicin_ekrani-300x172.jpg
   [5]: /images/mail_yapmak_format_drdn.gif
-  [6]: http://www.fatihhayrioglu.com/dokumanlar/mailing_yapmak/mailing.html
+  [6]: /dokumanlar/mailing_yapmak/mailing.html
   [http://www.campaignmonitor.com/templates/]: http://www.campaignmonitor.com/templates/
   [http://www.mediaministryblog.com/2009/08/how-to-create-a-free-email-newsletter/]: http://www.mediaministryblog.com/2009/08/how-to-create-a-free-email-newsletter/
   [http://www.anandgraves.com/html-email-guide/#unnecessary_htmltags]: http://www.anandgraves.com/html-email-guide/#unnecessary_htmltags

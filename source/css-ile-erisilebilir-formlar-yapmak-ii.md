@@ -3,9 +3,7 @@ Date: 2007-03-06 00:10
 Category: CSS, Web Standartları, XHTML
 Tags: CSS, Web Standartları, XHTML
 
-![][] [sayfanın çıktısını al][] || ![][1] [pdf olarak indir][]
-
-#### Gelişmiş Form Yapıları
+## Gelişmiş Form Yapıları
 
 Gelişmiş yapılı formlarda tablo kullanmak daha kolayımıza geliyor. Ancak
 burada bir sorunumuz varki formlar veri içeren tablolar değildir ve
@@ -16,7 +14,6 @@ Biz burada daha karışık yapılı bir formu nasıl tablo kullanmadan planlar
 ve güzelleştiririz onu anlatmaya çalışacağız. Tabi bu kodlamanın bazı
 zorlukları olacaktır ama genel yapı anlaşılırsa yapılamayacak form
 kodlaması yoktur. Aşağıda kodlayacağımız formun resmini görüyoruz.
-<!--more-->
 
 ![CSS ile Form][]
 
@@ -28,73 +25,57 @@ kodları verip sonra açıklamalarını yapacağız, bunun nedeni form
 alanlarına ait tanımların bir çoğunun genel tanımlama olması ve bir
 tanımın bir çok etiketi etkilemesidir. XHTML Kodumuzu yazalım:
 
-1.  <form action="gonder.html" method="post" id="formset">  
-2.  <fieldset>   
-3.  <legend>Genel Bilgiler</legend>  
-4.  <label class="adAlani">Ad <em>&#42;</em>  
-5.  <input name="ad" type="text" id="ad" value="" />  
-6.  </label>  
-7.  <label class="soyadAlani">Soyad <em>&#42;</em>  
-8.  <input name="soyad" type="text" id="soyad" value="" />  
-9.  </label>  
-10. <label class="adresAlani">Ev Adresi <em>&#42;</em>  
-11. <input name="adres" type="text" id="adres" value="" />  
-12. </label>  
-13. <label class="sehirAlani">Şehir <em>&#42;</em>  
-14. <input name="sehir" type="text" id="sehir" value="" />  
-15. </label>  
-16. <label class="postakoduAlani">Posta Kodu <em>&#42;</em>  
-17. <input name="postakodu" type="text" id="postakodu" value="" />
-18. </label>   
-19. <label class="epostaAlani hata">Eposta &#42;  
-20. <input name="eposta" type="text" id="eposta" value="" class="hata"
-    />  
-21. </label>  
-22. <label class="telAlani">Telefon<input name="tel" type="text"
-    id="tel" value="" />  
-23. </label>  
-24. </fieldset>  
-25. <fieldset>  
-26. <legend>Konu <em>&#42;</em></legend>  
-27. <input id="radiobutton_1" type="radio" name="radiobutton_type"
-    value="" />  
-28. <label class="konuRadyoButon" for="radiobutton_1">Lorem ipsum
-    dolor sit amet, consectetuer adipiscing elit. </label>  
-29. <input id="radiobutton_2" type="radio" name="radiobutton_type"
-    value="" />  
-30. <label class="konuRadyoButon" for="radiobutton_2">Cras diam.
-    Suspendisse potenti. In dictum bibendum est. Aliquam semper. Sed vel
-    massa. Praesent imperdiet nisi eget lacus. </label>  
-31. <input id="radiobutton_3" type="radio" name="radiobutton_type"
-    value="" />  
-32. <label class="konuRadyoButon" for="radiobutton_3">Phasellus quis
-    enim. </label>  
-33. <input id="radiobutton_4" type="radio" name="radiobutton_type"
-    value="" />  
-34. <label class="konuRadyoButon" for="radiobutton_4">Vestibulum ut
-    lectus ac leo luctus aliquam. </label>  
-35. </fieldset>  
-36. <fieldset>  
-37. <legend>Düşünceleriniz</legend>   
-38. <label class="aciklamaAlani">Düşüncelerinizi aşağıdaki alana
-    yazınız.<br /><textarea name="describe" cols="35"
-    rows="5"></textarea>  
-39. </label>  
-40. </fieldset>  
-41. <fieldset>  
-42. <legend>Onay Alanı</legend>  
-43. <input id="checkbox_1" type="checkbox" name="kabul" value="y"
-    /><label for="checkbox_1" class="onayAlaniIsaretKutusu">Site
-    kurallarını kabul ediyorum.</label>  
-44. <input id="checkbox_2" type="checkbox" name="kabul" value="y"
-    /><label for="checkbox_2" class="onayAlaniIsaretKutusu">Site
-    kurallarını kabul etmiyorum.</label>  
-45. </fieldset>  
-46. <blockquote><strong>Not:</strong> Yanında (<em>*</em>)
-    işareti olanlar zorunlu alanlardır.</blockquote>  
-47. <input type="submit" name="submit" value="GÖNDER"
-    class="formbutton" />   
-48. </form>
+	:::html
+	
+    <form action="gonder.html" method="post" id="formset">
+    <fieldset>
+    <legend>Genel Bilgiler</legend>
+    <label class="adAlani">Ad <em>&#42;</em>
+    <input name="ad" type="text" id="ad" value="" />
+    </label>
+    <label class="soyadAlani">Soyad <em>&#42;</em>
+    <input name="soyad" type="text" id="soyad" value="" />
+    </label>
+    <label class="adresAlani">Ev Adresi <em>&#42;</em>
+    <input name="adres" type="text" id="adres" value="" />
+    </label>
+    <label class="sehirAlani">Şehir <em>&#42;</em>
+    <input name="sehir" type="text" id="sehir" value="" />
+    </label>
+    <label class="postakoduAlani">Posta Kodu <em>&#42;</em>
+    <input name="postakodu" type="text" id="postakodu" value="" />
+    </label>
+    <label class="epostaAlani hata">Eposta &#42;
+    <input name="eposta" type="text" id="eposta" value="" class="hata" />
+    </label>
+    <label class="telAlani">Telefon<input name="tel" type="text" id="tel" value="" />
+    </label>
+    </fieldset>
+    <fieldset>
+    <legend>Konu <em>&#42;</em></legend>
+    <input id="radiobutton_1" type="radio" name="radiobutton_type" value="" />
+    <label class="konuRadyoButon" for="radiobutton_1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </label>
+    <input id="radiobutton_2" type="radio" name="radiobutton_type" value="" />
+    <label class="konuRadyoButon" for="radiobutton_2">Cras diam. Suspendisse potenti. In dictum bibendum est. Aliquam semper. Sed vel massa. Praesent imperdiet nisi eget lacus. </label>
+    <input id="radiobutton_3" type="radio" name="radiobutton_type" value="" />
+    <label class="konuRadyoButon" for="radiobutton_3">Phasellus quis enim. </label>
+    <input id="radiobutton_4" type="radio" name="radiobutton_type" value="" />
+    <label class="konuRadyoButon" for="radiobutton_4">Vestibulum ut lectus ac leo luctus aliquam. </label>
+    </fieldset>
+    <fieldset>
+    <legend>Düşünceleriniz</legend>
+    <label class="aciklamaAlani">Düşüncelerinizi aşağıdaki alana yazınız.<br /><textarea name="describe" cols="35" rows="5"></textarea>
+    </label>
+    </fieldset>
+    <fieldset>
+    <legend>Onay Alanı</legend>
+    <input id="checkbox_1" type="checkbox" name="kabul" value="y" /><label for="checkbox_1" class="onayAlaniIsaretKutusu">Site kurallarını kabul ediyorum.</label>
+    <input id="checkbox_2" type="checkbox" name="kabul" value="y" /><label for="checkbox_2" class="onayAlaniIsaretKutusu">Site kurallarını kabul etmiyorum.</label>
+    </fieldset>
+    <blockquote><strong>Not:</strong> Yanında (<em>*</em>) işareti olanlar zorunlu alanlardır.</blockquote>
+    <input type="submit" name="submit" value="GÖNDER" class="formbutton" />
+    </form>
+
 
 Yukarıdaki kodlama aslında bir çok açıdan basit yapılı formalara
 benziyor. "Bir çok karmaşık yapı basit yapıların birleşiminden oluşur"
@@ -103,128 +84,138 @@ akış dışına çıkacak(yani iki kolonlu olacak yerlerde) elementlere id
 tanımı yaparak konumlandırma işlemi yapmaktır. Şimdi sıra CSS kodunu
 yazmaya geldi.
 
-1.  /* genel stiller */
-2.  * {  
-3.  margin: 0;  
-4.  padding: 0;  
-5.  }
-6.  body {  
-7.  font: 12px/14px Arial, Helvetica, sans-serif;  
-8.  background-color:#07A;  
-9.  text-align: center;  
-10. margin:20px 0;
-11. }
-12. /* form stilleri */
-13. form#formset {  
-14. width: 360px;  
-15. margin: 0 auto;  
-16. text-align: left;  
-17. color:#fff;
-18. }
-19. form#formset fieldset {  
-20. margin: 0 0 1em 0;  
-21. padding: 1.5em 1.5em 0 1.5em;
-22. border: #DDD 1px solid;  
-23. }
-24. form#formset fieldset legend {  
-25. font-weight: bold;  
-26. color: #fff;  
-27. padding:0 0.5em;  
-28. }
-29. form#formset label {  
-30. display: block;  
-31. width: 290px;  
-32. font-size: 12px;  
-33. line-height: 14px;  
-34. padding: 0px 0px 12px 0px;  
-35. }
-36. form#formset fieldset input {  
-37. display: block;  
-38. margin-top: 3px;  
-39. border:1px solid #fff;  
-40. border-left:5px solid #fff;  
-41. background-color:#09c;  
-42. color:#ffc;  
-43. }
-44. form#formset label.adAlani, form#formset label.adresAlani,
-    form#formset label.sehirAlani, form#formset label.epostaAlani {  
-45. clear: left;  
-46. }
-47. form#formset label.adAlani, form#formset label.soyadAlani,
-    form#formset label.sehirAlani, form#formset label.epostaAlani,
-    form#formset label.telAlani {  
-48. float: left;  
-49. margin: 0px 10px 0px 0px;  
-50. width: 150px;  
-51. }
-52. form#formset label.adAlani input, form#formset label.soyadAlani
-    input, form#formset label.epostaAlani input, form#formset
-    label.sehirAlani input, form#formset label.telAlani input {  
-53. float: left;  
-54. width: 150px;  
-55. padding: 0px;  
-56. }
-57. form#formset label.postakoduAlani {  
-58. float: left;  
-59. width: 80px;  
-60. }
-61. form#formset label.postakoduAlani input {  
-62. float: left;  
-63. width: 80px;  
-64. }
-65. form#formset label.adresAlani {  
-66. float: left;  
-67. width: 310px;  
-68. margin: 0px 0px 0px 0px;  
-69. }
-70. form#formset label.adresAlani input {  
-71. float: left;  
-72. width: 310px;  
-73. padding: 0px;  
-74. }
-75. form#formset fieldset input#radiobutton_1, form#formset fieldset
-    input#radiobutton_2, form#formset fieldset input#radiobutton_3,
-    form#formset fieldset input#radiobutton_4 {  
-76. clear: left;  
-77. float: left;  
-78. padding: 0px;  
-79. border:0;  
-80. margin: 0px 0px 0px 0px;  
-81. background-color:#07a;  
-82. }
-83. form#formset label.konuRadyoButon {  
-84. clear: none;  
-85. margin: 0px 0px 0px 25px;  
-86. padding: 0px 0px 15px 0px;  
-87. }
-88. form#formset fieldset input#checkbox_1, form#formset fieldset
-    input#checkbox_2, form#formset fieldset input#checkbox_3 {  
-89. clear: both;  
-90. float: left;  
-91. padding: 0px;  
-92. margin: 0px;  
-93. border:0;  
-94. background-color:#07a;  
-95. }
-96. form#formset label.onayAlaniIsaretKutusu {  
-97. clear: none;  
-98. margin: 0px 0px 0px 25px;  
-99. padding: 0px 0px 15px 0px;  
-100. }
-101. form#formset textarea {  
-102. display: block;  
-103. margin-top: 3px;  
-104. border:1px solid #fff;  
-105. border-left:5px solid #fff;  
-106. background-color:#09c;  
-107. color:#ffc;  
-108. }
-109. form#formset blockquote{  
-110. margin-bottom:10px;  
-111. }
-112. form#formset fieldset em, form#formset blockquote em{  
-113. color:#ff0;  
-114. }
+	:::css
+	
+    /* genel stiller */
+    * {
+	    margin: 0;
+	    padding: 0;
+    }
+    body {
+	    font: 12px/14px Arial, Helvetica, sans-serif;
+	    background-color:#07A;
+	    text-align: center;
+	    margin:20px 0;
+    }
+    /* form stilleri */
+    form#formset {
+	    width: 360px;
+	    margin: 0 auto;
+	    text-align: left;
+	    color:#fff;
+    }
+    form#formset fieldset {
+	    margin: 0 0 1em 0;
+	    padding: 1.5em 1.5em 0 1.5em;
+	    border: #DDD 1px solid;
+    }
+    form#formset fieldset legend {
+	    font-weight: bold;
+	    color: #fff;
+	    padding:0 0.5em;
+    }
+    form#formset label {
+	    display: block;
+	    width: 290px;
+	    font-size: 12px;
+	    line-height: 14px;
+	    padding: 0px 0px 12px 0px;
+    }
+    form#formset fieldset input {
+	    display: block;
+	    margin-top: 3px;
+	    border:1px solid #fff;
+	    border-left:5px solid #fff;
+	    background-color:#09c;
+	    color:#ffc;
+    }
+    form#formset label.adAlani, form#formset label.adresAlani,
+    form#formset label.sehirAlani,
+    form#formset label.epostaAlani {
+	    clear: left;
+    }
+    form#formset label.adAlani,
+    form#formset label.soyadAlani,
+    form#formset label.sehirAlani,
+    form#formset label.epostaAlani,
+    form#formset label.telAlani {
+	    float: left;
+	    margin: 0px 10px 0px 0px;
+	    width: 150px;
+    }
+    form#formset label.adAlani input,
+    form#formset label.soyadAlani input,
+    form#formset label.epostaAlani input,
+    form#formset label.sehirAlani input,
+    form#formset label.telAlani input {
+	    float: left;
+	    width: 150px;
+	    padding: 0px;
+    }
+    form#formset label.postakoduAlani {
+	    float: left;
+	    width: 80px;
+    }
+    form#formset label.postakoduAlani input {
+	    float: left;
+	    width: 80px;
+    }
+    form#formset label.adresAlani {
+	    float: left;
+	    width: 310px;
+	    margin: 0px 0px 0px 0px;
+    }
+    form#formset label.adresAlani input {
+	    float: left;
+	    width: 310px;
+	    padding: 0px;
+    }
+    form#formset fieldset input#radiobutton_1,
+    form#formset fieldset input#radiobutton_2,
+    form#formset fieldset input#radiobutton_3,
+    form#formset fieldset input#radiobutton_4 {
+	    clear: left;
+	    float: left;
+	    padding: 0px;
+	    border:0;
+	    margin: 0px 0px 0px 0px;
+	    background-color:#07a;
+    }
+    form#formset label.konuRadyoButon {
+	    clear: none;
+	    margin: 0px 0px 0px 25px;
+	    padding: 0px 0px 15px 0px;
+    }
+    form#formset fieldset input#checkbox_1,
+    form#formset fieldset input#checkbox_2,
+    form#formset fieldset input#checkbox_3 {
+	    clear: both;
+	    float: left;
+	    padding: 0px;
+	    margin: 0px;
+	    border:0;
+	    background-color:#07a;
+    }
+    form#formset label.onayAlaniIsaretKutusu {
+	    clear: none;
+	    margin: 0px 0px 0px 25px;
+	    padding: 0px 0px 15px 0px;
+    }
+    form#formset textarea {
+	    display: block;
+	    margin-top: 3px;
+	    border:1px solid #fff;
+	    border-left:5px solid #fff;
+	    background-color:#09c;
+	    color:#ffc;
+    }
+    form#formset blockquote{
+	    margin-bottom:10px;
+    }
+	    form#formset fieldset em, form#formset blockquote em{
+	    color:#ff0;
+    }
+
 
 Yukarıdaki kodlamada önemli görülen tanımları biraz daha açıklamaya
 çalışalım:
@@ -238,7 +229,7 @@ Yukarıdaki kodlamada önemli görülen tanımları biraz daha açıklamaya
     eğer birden fazla form olursa veya sitede genel bir css dosyası
     kullanıyorsak diğer formları etkilememek. Burada yapılan tanımlar
     genel tanımlardır.
--   <span class="alternatifard">**form#formset fieldset**</span>
+-   <span class="alternatifard"\>**form#formset fieldset**</span\>
     tanımında form alanlarını bir çerçeve içine aldık ve içerikle
     kenarlık arasına boşluk koyduk. Her bölümü ayrı çerçeveye almamızın
     nedeni bölümler arasındaki farka vurgu yapmaktır.
@@ -280,38 +271,42 @@ gereken bir alanın doldurulmaması halinde çıkacak uyarı mesajı ve
 bilginin girilmesi gereken alanın kullanıcının daha kolay görmesi için
 stil tanımını yapalım. XHTML kodunu başına
 
-1.  <div class="hata">
-2.  Dikkat aşağıda sarı renk ile belirtilen yerlerde hata var.
-3.  </div>
+	:::html	
+    <div class="hata">
+    	Dikkat aşağıda sarı renk ile belirtilen yerlerde hata var.
+    </div>
+
 
 tanımlaması ve hataya neden olan alana(mesela e-posta girilmemiş olsun)
 sınıf tanımlaması ekleyelim.
 
-1.  <label class="epostaAlani **hata**">Eposta &#42;
-2.  <input name="eposta" type="text" id="eposta" value=""
-    **class="hata"** />
+	:::html
+    <label class="epostaAlani hata">Eposta &#42;
+    <input name="eposta" type="text" id="eposta" value="" class="hata" />
 
 CSS kodunu ekleyelim
 
-1.  form#formset fieldset input.hata {  
-2.  display: block;  
-3.  margin-top: 3px;  
-4.  border:1px solid #ff0;  
-5.  border-left:5px solid #ff0;  
-6.  background-color:#ccc;  
-7.  color:#ffc;  
-8.  }
-9.  form#formset fieldset label.hata {  
-10. color:#ff0;  
-11. font-weight:bold;  
-12. }
-13. div.hata {
-14. background:#FFFFCC url(images/hata.png) no-repeat scroll 5px;
-15. border:1px solid #FFCC66;
-16. margin:0pt 0pt 10px;
-17. padding:5px 10px 5px 35px;
-18. color:#000;
-19. }
+	:::css	
+    form#formset fieldset input.hata {
+	    display: block;
+	    margin-top: 3px;
+	    border:1px solid #ff0;
+	    border-left:5px solid #ff0;
+	    background-color:#ccc;
+	    color:#ffc;
+    }
+    form#formset fieldset label.hata {
+	    color:#ff0;
+	    font-weight:bold;
+    }
+    div.hata {
+	    background:#FFFFCC url(images/hata.png) no-repeat scroll 5px;
+	    border:1px solid #FFCC66;
+	    margin:0pt 0pt 10px;
+	    padding:5px 10px 5px 35px;
+	    color:#000;
+    }
+
 
 Hata mesajının yanına bir ünlem ikonu koyduk ve farklı zemin rengi ve
 kenarlığı ile kullanıcının dikkatini buraya çektik. Ayrıca hatanın
@@ -321,15 +316,17 @@ anlaşılabilir ve kolay erişilebilir yapmak.
 
 En son gönder butonunun css kodunu yazalım.
 
-1.  .formbutton{  
-2.  cursor:pointer;  
-3.  border:0;
-4.  background:#999;  
-5.  color:#666;  
-6.  font-weight:bold;  
-7.  padding: 1px 2px;  
-8.  background:url(images/buton_bg2.gif) repeat-x left top;  
-9.  }
+	:::css	
+    .formbutton{
+	    cursor:pointer;
+	    border:0;
+	    background:#999;
+	    color:#666;
+	    font-weight:bold;
+	    padding: 1px 2px;
+	    background:url(images/buton_bg2.gif) repeat-x left top;
+    }
+
 
 Buton zeminine degrade 1px genişliğinde bir resim koyarak hoş görünümlü
 bir buton elde ettik.
@@ -345,13 +342,11 @@ tarayıcılarında test edilmiştir.
 -   Internet Explorer 5.5 +
 -   Opera 7.54 +
 
-<div class="ekstrabilgi">
 **Not:** Görünümde Firefox ve Internet Explorer arasında ufak
 farklılıklar mevcut, bu farklılıkların çok ufak olması nedeni ile bir
 düzeltme kodu(fix) yazma gereği duymadık.
 
-</div>
-#### Kaynaklar
+## Kaynaklar
 
 -   [http://www.webcredible.co.uk][]
 -   [http://www.websiteoptimization.com/][]
@@ -368,15 +363,12 @@ düzeltme kodu(fix) yazma gereği duymadık.
 -   [http://www.alistapart.com/][]
 -   [http://www.roscripts.com/][]
 
-</p>
-
   []: /images/yazici_ikon.gif
   [sayfanın çıktısını al]: javascript:print()
   [1]: /images/pdf_ikon.gif
   [pdf olarak indir]: /pdf/CSS_ile_Erisilebilir_Formlar_Yapmak_II.pdf
   [CSS ile Form]: /images/sonuc_sayfasi.kucukresim.gif
-  ![CSS ile Form][]]: /images/sonuc_sayfasi.gif
-    "CSS ile Form"
+  ![CSS ile Form]: /images/sonuc_sayfasi.gif
   [Bir önceki]: http://www.fatihhayrioglu.com/?p=276
   [tıklayınız.]: /dokumanlar/css_ile_form_2.html
   [http://www.webcredible.co.uk]: http://www.webcredible.co.uk/user-friendly-resources/css/css-forms.shtml

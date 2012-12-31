@@ -16,7 +16,7 @@ bir görünüm kazandırırlar. Bu durumu biz css ile yapabiliyoruz. 
 Biz bu görüntüyü [first-letter][] seçicisi ile elde edebiliyoruz. Hatta
 bu seçicinin adı drop caps-ilk harfi büyük harf seçicisi diyede geçiyor.
 Bizim için en büyük avantajı ie6 dahil tüm tarayıcıların bu özelliği
-desteklemesi.<!--more-->
+desteklemesi.
 
 :first-letter seçicisini tanımlanabilen özellikler listesi;
 
@@ -66,8 +66,6 @@ CSS kodlarımız
 ![][]
 
 Firefox'da yukarıdaki görüntüyü elde ederken
-
- 
 
 ![][1]
 
@@ -220,8 +218,7 @@ tanımlamaktır.
 ## CSS3 ile ekstra kod kullanmadan
 
 Sayfamızın ilk paragrafının ilk harfine uygulama yapıyoruz.
-[first-child][] seçicisi bu imkanı bize sağlar. ancak bu özelliği ie <
-9 desteklemiyor.
+[first-child][] seçicisi bu imkanı bize sağlar. ancak bu özelliği ie < 9 desteklemiyor.
 
 	:::css
 	p:first-child:first-letter{
@@ -245,27 +242,26 @@ Sayfamızın ilk paragrafının ilk harfine uygulama yapıyoruz.
 -   [http://www.akxl.net/labs/articles/text-wrapped-drop-caps-in-css-using-the-first-letter-selector/][]
 -   [http://www.users.globalnet.co.uk/~arcus/html/dropcaps.html][]
 
-  [first-letter]: http://www.fatihhayrioglu.com/pseudo-siniflari-ve-pseudo-elementleri/
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk.html
+  [first-letter]: http://fatihhayrioglu.com/pseudo-siniflari-ve-pseudo-elementleri/
+  [tıklayınız.]: /dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk.html
   []: http://docs.google.com/File?id=dhctmbn6_387cfvfq39n_b
   [1]: http://docs.google.com/File?id=dhctmbn6_388ggzd5sfq_b
   [2]: http://docs.google.com/File?id=dhctmbn6_389dg3pbzc4_b
   [font-face]: http://www.fatihhayrioglu.com/font-face-kullanimi/
   [http://www.fontsquirrel.com/fontface]: http://www.fontsquirrel.com/fontface
-  [3]: http://fatihhayrioglu.com/dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk2.html
+  [3]: /dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk2.html
   [4]: http://docs.google.com/File?id=dhctmbn6_390fmrwjjfj_b
-  [5]: http://fatihhayrioglu.com/dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk3.html
+  [5]: /dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk3.html
   [6]: http://docs.google.com/File?id=dhctmbn6_391dzsg3mht_b
-  [7]: http://fatihhayrioglu.com/dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk4.html
+  [7]: /dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk4.html
   [8]: http://docs.google.com/File?id=dhctmbn6_392ghn2nsg2_b
   [9]: http://docs.google.com/File?id=dhctmbn6_393wq6xv9fg_b
-  [10]: http://fatihhayrioglu.com/dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk4c.html
+  [10]: /dokumanlar/ilk_harf_buyuk/ilk_harf_buyuk4c.html
   [11]: http://docs.google.com/File?id=dhctmbn6_394cpsn3shg_b
-  [first-child]: http://www.fatihhayrioglu.com/pseudo-siniflari-ve-pseudo-elementleri/
+  [first-child]: http://fatihhayrioglu.com/pseudo-siniflari-ve-pseudo-elementleri/
   [http://www.sitepoint.com/blogs/2010/04/15/a-simple-css-drop-cap/]: http://www.sitepoint.com/blogs/2010/04/15/a-simple-css-drop-cap/
   [http://safalra.com/web-design/typography/css-drop-caps/]: http://safalra.com/web-design/typography/css-drop-caps/
   [http://www.texaswebdevelopers.com/blog/template_permalink.asp?id=111]: http://www.texaswebdevelopers.com/blog/template_permalink.asp?id=111
-    "http://www.texaswebdevelopers.com/blog/template_permalink.asp?id=111"
   [http://www.pauldruce.com/CSS%20DROP%20CAP]: http://www.pauldruce.com/CSS%20DROP%20CAP
   [http://www.learningjquery.com/2006/12/multiple-fancy-drop-caps]: http://www.learningjquery.com/2006/12/multiple-fancy-drop-caps
   [http://www.htmldog.com/articles/dropcaps/]: http://www.htmldog.com/articles/dropcaps/
