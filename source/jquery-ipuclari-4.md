@@ -211,9 +211,9 @@ kullanabiliriz.
   [Jquery ipuçları - 2]: http://www.fatihhayrioglu.com/jquery-ipuclari-2/
   [Jquery ipuçları - 3]: http://www.fatihhayrioglu.com/jquery-ipuclari-3/
   []: https://docs.google.com/File?id=dhctmbn6_475gb79fp54_b
-  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/console_log.html
-  [1]: http://www.fatihhayrioglu.com/dokumanlar/delay_metodu.html
-  [2]: http://www.fatihhayrioglu.com/dokumanlar/has_metodu.html
+  [tıklayınız.]: /dokumanlar/console_log.html
+  [1]: /dokumanlar/delay_metodu.html
+  [2]: /dokumanlar/has_metodu.html
   [http://www.tripwiremagazine.com/2009/10/jquery-and-general-javascript-tips-to-improve-your-code.html]: http://www.tripwiremagazine.com/2009/10/jquery-and-general-javascript-tips-to-improve-your-code.html
   [http://www.tvidesign.co.uk/blog/improve-your-jquery-25-excellent-tips.aspx]: http://www.tvidesign.co.uk/blog/improve-your-jquery-25-excellent-tips.aspx
   [http://webdevmania.com/archive/top_10_jquery_snippets_including_jquery_1.4/]: http://webdevmania.com/archive/top_10_jquery_snippets_including_jquery_1.4/

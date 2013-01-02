@@ -73,7 +73,7 @@ Alışveriş için seçtiğimiz sepet ikonun “i” harfi ile ifade edildiği i
 
 ![][1]
 
-Örnek: [http://www.fatihhayrioglu.com/dokumanlar/fontface_ikon.html][]
+Örnek: [/dokumanlar/fontface_ikon.html][]
 
 Örnekte gördüğümüz gibi bir çok yerde ikonlarımızı CSS yardımı ile
 ekleyip boyutunu, rengini kolayca değiştirebiliriz.
@@ -164,7 +164,7 @@ ile sayfamıza ekledik.
   [http://webloti.org/20-modern-fontface-icon-seti/]: http://webloti.org/20-modern-fontface-icon-seti/
   []: https://lh5.googleusercontent.com/79Rggs4m_IPXO4v7JCZQt1fSFLljkf9RuTtZDSPzqeg4D3pjzrKFmyboc6ZmVwnSUw7yDZUvklmSSCqFSo8YL3qslteMuQ8r4I-SxhoO6pJVZ1EhZog
   [1]: /images/Screen-shot-2012-03-08-at-10.44.09-AM.png
-  [http://www.fatihhayrioglu.com/dokumanlar/fontface_ikon.html]: http://www.fatihhayrioglu.com/dokumanlar/fontface_ikon.html
+  [/dokumanlar/fontface_ikon.html]: /dokumanlar/fontface_ikon.html
   [/dokumanlar/fontface/fontface_ikon_buton.html]: /dokumanlar/fontface/fontface_ikon_buton.html
   [2]: /images/Screen-shot-2012-03-08-at-10.45.36-AM.png  
   [/dokumanlar/fontface/abakutlsymsans.zip]: /dokumanlar/fontface/abakutlsymsans.zip

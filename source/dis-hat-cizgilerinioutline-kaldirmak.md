@@ -22,7 +22,7 @@ kullandığım metin yerine resim koyma metodunu kullanarak yaptığım
 
 -   [http://www.fatihhayrioglu.com/css-ile-basit-sekilde-fare-uzerine-gelincerollover-resim-degisimi-yapmak/][]
 -   [http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/][]
--   [http://www.fatihhayrioglu.com/dokumanlar/basit_resimli_menu.html][]
+-   [/dokumanlar/basit_resimli_menu.html][]
 
 text-indent:-9999px  ile görünmez yaptığımız metinleri outline ile
 görünür hale getirdiğimizde pek hoş görüntüler ile karşılaşmayız.
@@ -190,8 +190,8 @@ sonunda örneğimiz ie de de çalışacaktır.
     "http://www.fatihhayrioglu.com/css-ile-basit-sekilde-fare-uzerine-gelincerollover-resim-degisimi-yapmak/"
   [http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/]: http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/
     "http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-v-resimli-menuler/"
-  [http://www.fatihhayrioglu.com/dokumanlar/basit_resimli_menu.html]: http://www.fatihhayrioglu.com/dokumanlar/basit_resimli_menu.html
-    "http://www.fatihhayrioglu.com/dokumanlar/basit_resimli_menu.html"
+  [/dokumanlar/basit_resimli_menu.html]: /dokumanlar/basit_resimli_menu.html
+    "/dokumanlar/basit_resimli_menu.html"
   [outline çizgileri]: /images/outline_cizgi.gif
   [outline çizgi düzeltme]: /images/outline_cizgi_ff.gif
   [Eric Meyer]: http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/

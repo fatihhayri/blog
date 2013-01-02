@@ -195,7 +195,7 @@ Internet Explorer 7/6/5.5, Opera 9.6 ile test edilmiştir.
     "CSS Derslerindeki"
   [IE'de Hata Ayıklamak için şartlı Yorumlar Kullanmak]: http://www.fatihhayrioglu.com/iede-hata-ayiklamak-icin-sartli-yorumlar-kullanmak/
     "IE’de Hata Ayıklamak için şartlı Yorumlar Kullanmak"
-  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/css_duzeltme.html
+  [tıklayınız.]: /dokumanlar/css_duzeltme.html
     "tıklayınız."
   []: /images/tarayici_tes.jpg
   [http://www.webdevout.net/css-hacks]: http://www.webdevout.net/css-hacks

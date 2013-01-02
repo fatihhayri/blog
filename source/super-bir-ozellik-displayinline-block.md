@@ -202,13 +202,13 @@ Bu kodları ekledikten sonra sorunumuz düzeldi.
 -   [http://blog.ternstyle.us/blog/float-vs-inline-block][]
 -   [http://www.sitepoint.com/forums/showthread.php?t=596130][] (sorun )
 
-  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/display_inline_block.html
+  [tıklayınız.]: /dokumanlar/display_inline_block.html
   []: /images/display_inline_block.jpg
     "display_inline_block"
-  [1]: http://www.fatihhayrioglu.com/dokumanlar/display_inline_block2.html
+  [1]: /dokumanlar/display_inline_block2.html
   [2]: /images/display_inline_block2.gif
     "display_inline_block2"
-  [3]: http://www.fatihhayrioglu.com/dokumanlar/display_inline_block3.html
+  [3]: /dokumanlar/display_inline_block3.html
   [4]: /images/display_inline_block3.gif
     "display_inline_block3"
   [tüm tarayıcılar için düzeltmeler]: http://www.fatihhayrioglu.com/tum-tarayicilar-icin-css-duzeltmelerihack/

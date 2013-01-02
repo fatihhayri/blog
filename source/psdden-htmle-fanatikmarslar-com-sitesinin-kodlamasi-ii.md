@@ -969,4 +969,4 @@ görüşmek dileğiyle hoşçakalın.
   [7]: /images/sosyal_altalan.jpg
     "sosyal_altalan"
   [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/fm/index.html
-  [8]: http://www.fatihhayrioglu.com/dokumanlar/fm_anasayfa_html.rar
+  [8]: /dokumanlar/fm_anasayfa_html.rar

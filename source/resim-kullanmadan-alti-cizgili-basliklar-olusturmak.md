@@ -61,4 +61,4 @@ Kalın sağlıcakla
 
   []: https://lh5.googleusercontent.com/aR4P1P7q5fw7wUkyO7Q-4a4nmxCgWM3X8BzEEVm1c5JeR_oSjCjJJR19dEnrr6pGE7aDQkbzTsuuRqawtN7GjnifQzvoYnBEunQLUdRcSrfND7DZzgM
   [Float uygulanmış elemanların kapsayamama sorunu]: http://www.fatihhayrioglu.com/float-uygulanmis-elementleri-tam-kapsayamama-sorunu/
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/cizgili_baslik.html
+  [tıklayınız.]: /dokumanlar/cizgili_baslik.html

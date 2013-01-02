@@ -104,4 +104,4 @@ Bu şekilde çok güzel bir 3 kolonlu likit bir sayfa elde ederiz.
   [1]: /images/likit_sorunlu_kolonlar.gif
   [2]: /images/likit_sorunlu_kolonlar2.gif
   [göz atın]: http://www.fatihhayrioglu.com/?p=179
-  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/aksak-3-kol-likid.htm
+  [tıklayınız.]: /dokumanlar/aksak-3-kol-likid.htm

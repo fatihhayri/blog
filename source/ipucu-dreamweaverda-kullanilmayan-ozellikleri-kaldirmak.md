@@ -80,7 +80,7 @@ Yazının sonunda [Şenol][1]'a tekrar teşekkürlerimi sunarım.
   [friendfeed]: http://friendfeed.com/fatihhayri "friendfeed"
   [paylaştım]: http://ff.im/efoQ4 "paylaştım"
   [Şenol]: http://friendfeed.com/senol1 "Şenol"
-  [CodeHints.xml dosyasını indirmek için tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/CodeHints.rar
+  [CodeHints.xml dosyasını indirmek için tıklayınız.]: /dokumanlar/CodeHints.rar
   [CodeHints.xml dosyasını indirmek için tıklayınız. (Şenol'un   geliştridiği)]: http://www.4shared.com/file/197529116/bfc9e2ec/CodeHints.html?err=no-sess
   [1]: http://friendfeed.com/senol1
   [http://ff.im/efoQ4]: http://ff.im/efoQ4

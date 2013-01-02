@@ -74,11 +74,11 @@ denemedim bir bakın isterseniz.
 -   [http://mfyz.com/?/dokuman/82/css-ve-transparanlik/][]
 -   [http://scriptiz.org/?p=1067][]
 
-  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/donukluk.html
+  [tıklayınız.]: /dokumanlar/donukluk.html
   [W3C doğrulamasından]: http://jigsaw.w3.org/css-validator/
   [donuklasma_val2]: /images/donuklasma_val2.gif
     "donuklasma_val2"
-  [1]: http://www.fatihhayrioglu.com/dokumanlar/donukluk_dog.html
+  [1]: /dokumanlar/donukluk_dog.html
   [http://robertnyman.com/2010/01/11/css-background-transparency-without-affecting-child-elements-through-rgba-and-filters/]: http://robertnyman.com/2010/01/11/css-background-transparency-without-affecting-child-elements-through-rgba-and-filters/
   [http://blog.evaria.com/2007/validate-css-style-opacity/]: http://blog.evaria.com/2007/validate-css-style-opacity/
     "http://blog.evaria.com/2007/validate-css-style-opacity/"

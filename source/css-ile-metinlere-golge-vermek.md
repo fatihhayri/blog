@@ -325,28 +325,28 @@ Sağlıcakla kalın.
 
   []: /images/metinlere_golge_1.gif
     "metinlere_golge_1"
-  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/metinlere_golge_vermek/metinlere_golge_1.html
+  [tıklayınız.]: /dokumanlar/metinlere_golge_vermek/metinlere_golge_1.html
   [1]: /images/metinlere_golge_2.gif
     "metinlere_golge_2"
-  [2]: http://www.fatihhayrioglu.com/dokumanlar/metinlere_golge_vermek/metinlere_golge_2.html
+  [2]: /dokumanlar/metinlere_golge_vermek/metinlere_golge_2.html
   [3]: /images/metinlere_golge_3.gif
     "metinlere_golge_3"
-  [4]: http://www.fatihhayrioglu.com/dokumanlar/metinlere_golge_vermek/metinlere_golge_3.html
+  [4]: /dokumanlar/metinlere_golge_vermek/metinlere_golge_3.html
   [5]: /images/metinlere_golge_4.gif
     "metinlere_golge_4"
-  [6]: http://www.fatihhayrioglu.com/dokumanlar/metinlere_golge_vermek/metinlere_golge_4.html
+  [6]: /dokumanlar/metinlere_golge_vermek/metinlere_golge_4.html
   [7]: /images/metinlere_golge_5.jpg
     "metinlere_golge_5"
-  [8]: http://www.fatihhayrioglu.com/dokumanlar/metinlere_golge_vermek/metinlere_golge_5.html
+  [8]: /dokumanlar/metinlere_golge_vermek/metinlere_golge_5.html
   [9]: http://msdn.microsoft.com/en-us/library/ms673539%28VS.85%29.aspx
   [10]: /images/metinlere_golge_1_ie.gif
     "metinlere_golge_1_ie"
-  [11]: http://www.fatihhayrioglu.com/dokumanlar/metinlere_golge_vermek/metinlere_golge_1_ie.html
-  [12]: http://www.fatihhayrioglu.com/dokumanlar/metinlere_golge_vermek/metinlere_golge_2_ie.html
+  [11]: /dokumanlar/metinlere_golge_vermek/metinlere_golge_1_ie.html
+  [12]: /dokumanlar/metinlere_golge_vermek/metinlere_golge_2_ie.html
   [13]: http://kilianvalkhof.com/uploads/ieshadow.html
   [14]: /images/metinlere_golge_1_fr.gif
     "metinlere_golge_1_fr"
-  [15]: http://www.fatihhayrioglu.com/dokumanlar/metinlere_golge_vermek/metinlere_golge_1_fr.html
+  [15]: /dokumanlar/metinlere_golge_vermek/metinlere_golge_1_fr.html
   [http://www.kremalicious.com/2008/04/make-cool-and-clever-text-effects-with-css-text-shadow/]: http://www.kremalicious.com/2008/04/make-cool-and-clever-text-effects-with-css-text-shadow/
   [http://tutorials.assistprogramming.com/text-shadow-using-css.html]: http://tutorials.assistprogramming.com/text-shadow-using-css.html
   [http://www.workingwith.me.uk/articles/css/cross-browser-drop-shadows]: http://www.workingwith.me.uk/articles/css/cross-browser-drop-shadows

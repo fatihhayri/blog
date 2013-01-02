@@ -179,7 +179,7 @@ alt kademeli, değişik renklerde ve değişik ebatlarda menü yapılabilir.
   [CSS ile Menü Yapmak II - Yatay Menüler]: http://www.fatihhayrioglu.com/?p=211
   [CSS ile konumlandırma(positioning)]: http://www.fatihhayrioglu.com/?p=151
   [1]: /images/menu4_resim2.gif
-  [indir]: http://www.fatihhayrioglu.com/dokumanlar/menu4yeni.zip
+  [indir]: /dokumanlar/menu4yeni.zip
   [http://www.alistapart.com/articles/dropdowns/]: http://www.alistapart.com/articles/dropdowns/
   [http://www.compassdesigns.net/]: http://www.compassdesigns.net/tutorials/joomla-tutorials/css-drop-down-menu.html
   [http://www.tanfa.co.uk/css/examples/menu/tutorial-h.asp#hs6]: http://www.tanfa.co.uk/css/examples/menu/tutorial-h.asp#hs6

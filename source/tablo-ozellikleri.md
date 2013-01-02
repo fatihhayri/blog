@@ -401,14 +401,14 @@ Bu özellik Internet Explorer tarafından desteklenmemektedir.
 [border-spacing]: #boder-spacing
 [empty-cells]: #empty-cells
 [caption-side örneği]: /images/table_layout.gif
-[tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/table-layout.html
+[tıklayınız.]: /dokumanlar/table-layout.html
 [1]: /images/caption_side.gif
-[2]: http://www.fatihhayrioglu.com/dokumanlar/caption_side.html
-[3]: http://www.fatihhayrioglu.com/dokumanlar/border-collapse.html
+[2]: /dokumanlar/caption_side.html
+[3]: /dokumanlar/border-collapse.html
 [border-collapse örneği]: /images/border-collapse.gif
-[4]: http://www.fatihhayrioglu.com/dokumanlar/border-spacing.html
+[4]: /dokumanlar/border-spacing.html
 [border-spacing örneği]: /images/border_spacing.gif
-[5]: http://www.fatihhayrioglu.com/dokumanlar/empty_cells.html
+[5]: /dokumanlar/empty_cells.html
 [empty-cells örneği]: /images/empty_cells.gif
 [http://www.w3.org/TR/REC-CSS2/tables.html]: http://www.w3.org/TR/REC-CSS2/tables.html
 [http://www.w3schools.com/css/css_table.asp]: http://www.w3schools.com/css/css_table.asp

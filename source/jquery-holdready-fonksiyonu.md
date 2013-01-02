@@ -85,7 +85,7 @@ bekler.
 -   [http://jquerybyexample.blogspot.com/2011/05/jqueryholdready-new-in-jquery-16.html][]
 -   [http://blogs.sitepoint.com/whats-new-in-jquery-16/][]
 
-  [tıklayınız.]: http://www.fatihhayrioglu.com/dokumanlar/holdReady.html
+  [tıklayınız.]: /dokumanlar/holdReady.html
   [http://api.jquery.com/jQuery.holdReady/]: http://api.jquery.com/jQuery.holdReady/
   [http://jquerybyexample.blogspot.com/2011/05/jqueryholdready-new-in-jquery-16.html]: http://jquerybyexample.blogspot.com/2011/05/jqueryholdready-new-in-jquery-16.html
   [http://blogs.sitepoint.com/whats-new-in-jquery-16/]: http://blogs.sitepoint.com/whats-new-in-jquery-16/

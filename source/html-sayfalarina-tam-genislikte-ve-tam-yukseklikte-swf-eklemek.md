@@ -78,6 +78,6 @@ için bir backgroun-color tanımı yapıyoruz. Bu kadar.
 -   [http://blog.deconcept.com/2005/01/02/100-height-and-100-width-xhtml-flash-embed/][]
 -   [http://www.kirupa.com/developer/mx2004/fullscreen.htm][]
 
-  [tıklayınız]: http://www.fatihhayrioglu.com/dokumanlar/tamekran_flash/tamekran.html
+  [tıklayınız]: /dokumanlar/tamekran_flash/tamekran.html
   [http://blog.deconcept.com/2005/01/02/100-height-and-100-width-xhtml-flash-embed/]: http://blog.deconcept.com/2005/01/02/100-height-and-100-width-xhtml-flash-embed/
   [http://www.kirupa.com/developer/mx2004/fullscreen.htm]: http://www.kirupa.com/developer/mx2004/fullscreen.htm
