@@ -75,19 +75,13 @@ Bu kodu yazdıktan sonra sayfa aşağıdaki gibi görünecektir.
 -   [http://archivist.incutio.com/viewlist/css-discuss/34926][]
 -   [http://gtwebdev.com/workshop/gaps/white-space-bug.php][]  
 
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/ie6_fazla_bosluk_sorunu/ie_listede_fazla_bosluk_sorunu.html
+  [tıklayınız.]: /dokumanlar/ie6_fazla_bosluk_sorunu/ie_listede_fazla_bosluk_sorunu.html
   []: http://docs.google.com/File?id=dhctmbn6_421fk5d9mft_b
-  [1]: http://fatihhayrioglu.com/dokumanlar/ie6_fazla_bosluk_sorunu/ie_listede_fazla_bosluk_sorunu_cev.html
+  [1]: /dokumanlar/ie6_fazla_bosluk_sorunu/ie_listede_fazla_bosluk_sorunu_cev.html
   [2]: http://docs.google.com/File?id=dhctmbn6_422dgmtm9g8_b
   [http://www.brunildo.org/test/IEWlispace.php]: http://www.brunildo.org/test/IEWlispace.php
-    "http://www.brunildo.org/test/IEWlispace.php"
   [http://www.hicksdesign.co.uk/journal/ie-whitespace-bug]: http://www.hicksdesign.co.uk/journal/ie-whitespace-bug
-    "http://www.hicksdesign.co.uk/journal/ie-whitespace-bug"
   [http://www.cssnewbie.com/fixing-ie6-whitespace-bug/]: http://www.cssnewbie.com/fixing-ie6-whitespace-bug/
-    "http://www.cssnewbie.com/fixing-ie6-whitespace-bug/"
   [http://orlandodefrias.com/2008/11/23/ie-unordered-list-extra-space-bug/]: http://orlandodefrias.com/2008/11/23/ie-unordered-list-extra-space-bug/
-    "http://orlandodefrias.com/2008/11/23/ie-unordered-list-extra-space-bug/"
   [http://archivist.incutio.com/viewlist/css-discuss/34926]: http://archivist.incutio.com/viewlist/css-discuss/34926
-    "http://archivist.incutio.com/viewlist/css-discuss/34926"
   [http://gtwebdev.com/workshop/gaps/white-space-bug.php]: http://gtwebdev.com/workshop/gaps/white-space-bug.php
-    "http://gtwebdev.com/workshop/gaps/white-space-bug.php"

@@ -8,12 +8,20 @@ komşu metinlerin maruz kaldığı bir hatadır. Örneği bir elementinize
 **float:left** tanımı yaptınız ve yanına bir paraf yazı eklemek
 istediğinizde, ie5-6 versiyonlarında soldaki float uygulanmış element
 içeriği boyunda sağdaki metin soldan 3 piksel kadar içeriğini
-öteleyecektir. <!--more-->
+öteleyecektir. 
 
 	:::css
-	 .solKolon { float: left; width: 200px;
-background-color:#00CCFF; } p { margin-left: 200px;
-background-color:#CCCCCC; } 
+	.solKolon { 
+		float: left; 
+		width: 200px;
+		background-color:#00CCFF; 
+	} 
+	
+	p { 
+		margin-left: 200px;
+		background-color:#CCCCCC; 
+	} 
+
 
 ![][]
 
@@ -26,9 +34,9 @@ web tarayıcılarını etkileyecektir bu nedenle diğer web tarayıcılarından
 bu kodu gizlemeliyiz.
 
 	:::css
-	 /* E5-Mac gizleyelim. sadece IE-Win görsün
-bu kodu. */ * html p { height: 1%; } /* IE5/Mac den gizlemeye son
-*/ 
+	/* E5-Mac gizleyelim. sadece IE-Win görsün bu kodu. */ 
+	* html p { height: 1%; } 
+	/* IE5/Mac den gizlemeye son*/ 
 
 ![][1]
 
@@ -38,17 +46,18 @@ kat görecektir bunu engellemek için **margin-left** değerini
 sıfırlamalıyız.
 
 	:::css
-	 /* E5-Mac gizleyelim. sadece IE-Win görsün
-bu kodu. */ * html p { height: 1%; margin-left: 0; } /* IE5/Mac den
-gizlemeye son */ 
+	/* E5-Mac gizleyelim. sadece IE-Win görsün bu kodu. */ 
+	* html p { height: 1%; margin-left: 0; } 
+	/* IE5/Mac den gizlemeye son */ 
 
 İçerideki boşluğu aldık ancak elementler arasında boşluk kaldı bunu
 kaldırmak için sağ margin değerine -3 piksel atama yapmalıyız.
 
 	:::html
-	 /* E5-Mac gizleyelim. sadece IE-Win görsün
-bu kodu. */ * html p { height: 1%; margin-left: 0; } * html
-.solKolon { margin-right: -3px; } /* IE5/Mac den gizlemeye son */
+	/* E5-Mac gizleyelim. sadece IE-Win görsün bu kodu. */ 
+	* html p { height: 1%; margin-left: 0; } 
+	* html .solKolon { margin-right: -3px; } 
+	/* IE5/Mac den gizlemeye son */
 
 
 Bu tüm sorunlarımız çözecektir. Tabi float uygulanan elementin içinde
@@ -58,23 +67,21 @@ yapmalıyız. IE6 bu margin'leri görmemelidir. Bunun için kodumuz şöyle
 olacaktır:
 
 	:::html
-	 /* E5-Mac gizleyelim. sadece IE-Win görsün
-bu kodu. */ * html p { height: 1%; margin-left: 0; } * html
-img.solKolon { margin: 0 -3px; margin: 0; } /* IE5/Mac den gizlemeye
-son */ 
+	/* E5-Mac gizleyelim. sadece IE-Win görsün bu kodu. */ 
+	* html p { height: 1%; margin-left: 0; } 
+	* html img.solKolon { margin: 0 -3px; margin: 0; } 
+	/* IE5/Mac den gizlemeye son */ 
 
 Biliyorum bu kod bizim sade ve temiz kod mantığımıza çok ters ama
 yapılabilecek pek bir şey de yok. Bu CSS'in sorunu değil tamamen IE'nin
 sorunundan kaynaklanıyor.
 
-<div class="ekstrabilgi">
 Microsoft bu hatasını sonunda anladı ve yeni versiyonu [IE7][]'de bu
 sorunu giderdi. Ama bu bizim hatayı ayıklamamız anlamına gelmiyor. En
 azında IE7 kullananlar çoğalana kadar. Hala 1999'da çıkan IE5 için kod
 yazdığımızı düşünürsek bayağı bir zaman daha bu kodları yazmamız
 gerekiyor:/
 
-</div>
 ## Kaynaklar
 
 -   [http://www.positioniseverything.net/explorer/threepxtest.html][]
@@ -83,7 +90,6 @@ gerekiyor:/
 -   [http://www.communitymx.com/][]
 -   [http://www.friendsofed.com/][]
 
-</p>
 
   []: /dokumanlar/3piksel_sorunu.gif
   [1]: /dokumanlar/3piksel_sorunu2.gif

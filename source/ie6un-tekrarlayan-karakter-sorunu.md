@@ -7,16 +7,20 @@ Bu hata birden fazla float uygulanmış içiçe elementlerde meydana gelir.
 Son float uygulanmış elementin son karakterleri tekrarlar.
 
 	:::html
-	 <div id="icerik"> <!-- icerik alani-->
-<div id="anaIcerik"> .... </div><!-- anaIcerik sonu --> <!--
-sagkolon baslangici --> <div id="sagKolon"> ... </div> </div>
+	<div id="icerik"> 
+		<!-- icerik alani-->
+			<div id="anaIcerik"> .... </div>
+		<!-- anaIcerik sonu --> 
+		<!-- sagkolon baslangici --> 
+		<div id="sagKolon"> ... </div> 
+	</div>
 
 
 Örnek sayfayı görmek için [tıklayınız.][] (hatayı görmek için IE6 ile
 bakmalısınız.)
 
 Float uygulanmış elementlerin ilki ve sonuncusu arasında bir çok yorum
-kodu(<!-- bunun gibi -->) var ise bu hata meydana gelir. İlk iki
+kodu(<\!-- bunun gibi --\>) var ise bu hata meydana gelir. İlk iki
 yorumun hiç bir etkisi yoktur, ama iki yorumdan sonraki her bir yorum
 iki karakterin kopyalanmasına neden olur. yorum varsa iki karkater
 tekrarlayacak, dört yorum olduğunda da dört karkater ve beş yorum olunca
@@ -33,23 +37,19 @@ için en kolay ve sağlıklı yol bu bu yorumları kullanmamaktır.
 Ancak illa yorum kullanmalıyım derseniz onun içinde çözüm:
 
 	:::html
-	 <!--[if !IE]>Yorumunu buraya yaz
-<![endif]--> 
+	<!--[if !IE]>Yorumunu buraya yaz<![endif]--> 
 
 şeklinde yorum satırlarınzı eklemelisiniz.
 
 Örnek kodu görmek için [tıklayınız.][1]
 
-<div class="ekstrabilgi">
 Bu sorun [IE7][] versiyonunda giderilmiştir.
 
-</div>
 ## Kaynaklar
 
 -   [http://www.positioniseverything.net/explorer/dup-characters.html][]
 -   [http://www.friendsofed.com/][]
 
-</p>
 
   [tıklayınız.]: /dokumanlar/ie_tekrarlayan_karakter_sorunu_ornek.html
   []: /dokumanlar/ie_tekrarlananlrak.gif

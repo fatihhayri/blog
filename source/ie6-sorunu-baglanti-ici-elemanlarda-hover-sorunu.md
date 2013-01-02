@@ -73,11 +73,8 @@ sorunu ie7 çözmüş görünüşe göre.
 
 
   [şurada da kullandım]: http://www.fatihhayrioglu.com/css-ile-sekmelitab-menu-yapimi/
-    "şurada da kullandım"
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/sub_hover/ie_sub_hover.html
+  [tıklayınız.]: /dokumanlar/sub_hover/ie_sub_hover.html
   [friendlybit.com]: http://friendlybit.com "friendlybit.com"
-  [1]: http://fatihhayrioglu.com/dokumanlar/sub_hover/ie_sub_hover_coz.html
+  [1]: /dokumanlar/sub_hover/ie_sub_hover_coz.html
   [http://haslayout.net/css/Sub-Hover-Bug]: http://haslayout.net/css/Sub-Hover-Bug
-    "http://haslayout.net/css/Sub-Hover-Bug"
   [http://friendlybit.com/css/ie6-bug-ignored-selector-hover-bug/]: http://friendlybit.com/css/ie6-bug-ignored-selector-hover-bug/
-    "http://friendlybit.com/css/ie6-bug-ignored-selector-hover-bug/"

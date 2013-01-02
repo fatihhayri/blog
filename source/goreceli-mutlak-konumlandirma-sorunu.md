@@ -29,14 +29,13 @@ uygulanmış kapsayıcı katmana genişlik ve yükseklik vermektir.
 uygulanan bir yöntemdir.
 
 	:::css
-	 /* IE-mac den gizle */ * html
-.container1 {height: 1%;} /* IE-mac den gizleme sonu */ 
+	/* IE-mac den gizle */ 
+	* html .container1 {height: 1%;} 
+	/* IE-mac den gizleme sonu */ 
 
 ## Kaynak
 
 -   [http://www.positioniseverything.net/abs_relbugs.html][]
-
-</p>
 
   []: /images/konumlandirma_hata_ff.gif
   [1]: /images/konumlandirma_hata_ie.gif

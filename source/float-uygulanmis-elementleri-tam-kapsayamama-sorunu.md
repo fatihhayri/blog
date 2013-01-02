@@ -24,16 +24,22 @@ Bir örnek yaparsak daha iyi anlayacağız.
 CSS kodu:
 
 	:::css
-	 .kapsul { border: 1px solid #000; padding:
-2px; } img { float: left; } 
+	.kapsul { 
+		border: 1px solid #000; 
+		padding: 2px; 
+	} 
+	
+	img { 
+		float: left; 
+	} 
 
 Html kodu:
 
 	:::html
-	 <div class="kapsul"> <img
-src="koy_01.jpg" alt="Bizim köy" weight="250" height="160" />
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-</div> 
+	<div class="kapsul"> 
+		<img src="koy_01.jpg" alt="Bizim köy" weight="250" height="160" />
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+	</div> 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -50,22 +56,24 @@ uygulanan div elementin tüm içeriği kapsaması için sonuna **clear**
 özelliği atanmış bir nesne koymalıyız. Bu işlemi farklı yöntemlerle
 yapabiliriz.
 
-#### Boş bir elemente clear atayarak çözmek
+## Boş bir elemente clear atayarak çözmek
 
 Geneldekutuların içeriğine göre uzamasını isteriz. Bu sorunu çözmek
 küçük bir yapısalekleme yapmak yeterli olacaktır.  
   
 	:::html
-	 <div class="kapsul"> <img
-src="resim.png"> <p>Lorem ipsum dolor sit amet, consectetuer
-adipiscing elit. </p> <div style="clear:both;"></div> </div>
- Buşekilde sorunumuzu çözmüş oluruz ancak bu sorunla
+	<div class="kapsul"> 
+		<img src="resim.png"> 
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p> 
+		<div style="clear:both;"></div> 
+	</div>
+	
+Buşekilde sorunumuzu çözmüş oluruz ancak bu sorunla
 karşılaştığımız heryerde bu eklemeyi yapmak zorun kalacağız ve sırf bu
 düzeltme için boşbir div ekleyeceğiz. Buda mantıklı(semantik) kodlama
-açısından uygun değildir. Pekibunu başka nasıl çözeriz.   
-  
+açısından uygun değildir. Pekibunu başka nasıl çözeriz.     
 
-#### :after ile çözüm
+## :after ile çözüm
 
 CSS2ile birlikte gelen **:after** özelliğini kullanarak çözebiliriz.
 Css(:after) kodu ile bir elementinsonuna bir içerik ekleyebiliyoruz ve
@@ -76,8 +84,13 @@ olacaktır. Tabi birde bunoktayı görünmez yapmamız gerekiyor, Kutuların
 sonunda nokta görünmesipek hoş olmaya bilir.
 
 	:::css
-	 .kapsul:after { content: "."; display:
-block; height: 0; clear: both; visibility: hidden; } 
+	.kapsul:after { 
+		content: "."; 
+		display: block; 
+		height: 0; 
+		clear: both; 
+		visibility: hidden; 
+	} 
 
 Ayrıca**display:block** koyduk çünkü satır için(inline-level) elementler
 clear özelliğiatamasını kabul etmiyor. Aslında **overflow** ile de bu
@@ -85,10 +98,16 @@ sorun halledilebilir ancakMozilla Firefox'un yeni sürümlerinde bu metot
 sorun çıkarıyor.
 
 	:::css
-	 .kapsul:after { content: "."; display:
-block; height: 0; clear: both; visibility: hidden; } /*IE-mac den bu
-bolumu sakla */ * html .clearfix {height: 1%;} /* IE-mac bu bolumu
-saklama artik */ 
+	.kapsul:after { 
+		content: "."; 
+		display: block; 
+		height: 0; 
+		clear: both; 
+		visibility: hidden; 
+	} 
+	/*IE-mac den bu bolumu sakla */ 
+	* html .clearfix {height: 1%;} 
+	/* IE-mac bu bolumu saklama artik */ 
 
 Tabibu kod burada kalmıyor çünkü IE ile sorunları var. Normalde IE'nin
 float uygulanmış elementin tamamı kapsamama sorunu diye bir problemi(bu
@@ -105,15 +124,26 @@ tarayıcılarının bundan etkilenmemesi için IE/Mac'den gizlediğimiz alana
 **display: block;** atamasını eklemeliyiz.
 
 	:::css
-	 .kapsul:after { content: "."; display:
-block; height: 0; clear: both; visibility: hidden; } .kapsul {display:
-inline-block;} /*IE-mac de bu bolumu sakla  */ * html .kapsul
-{height: 1%;} .kapsul {display: block;} /* IE-mac bu bolumu saklam
-artik */ 
+	.kapsul:after { 
+		content: "."; 
+		display: block; 
+		height: 0; 
+		clear: both; 
+		visibility: hidden; 
+	} 
+	
+	.kapsul {
+		display: inline-block;
+	} 
+	/*IE-mac de bu bolumu sakla  */ 
+	* html .kapsul {height: 1%;} 
+	.kapsul {display: block;} 
+	/* IE-mac bu bolumu saklam artik */ 
 
 Örneğin son halini görmek için [tıklayınız.][1]
 
 ![float çözümü][]  
+
 **şekil2** float sorununun çözülmüş hali
 
 Bu metot bu sorunun çözümü için en ideal çözümdür. Bu sorunun çözümünde
@@ -125,12 +155,24 @@ Bu yöntemi biraz daha kolaylaştıralım. Sonuçta macde ie kullanan
 kalmadağına göre kodumuzu
 
 	:::css
-	 .clearfix:after { visibility: hidden; display: block; font-size:
-0; content: " "; clear: both; height: 0; } * html .clearfix { zoom: 1;
-} /* IE6 */ *:first-child+html .clearfix { zoom: 1; } /* IE7 */
+	.clearfix:after { 
+		visibility: hidden; 
+		display: block; 
+		font-size: 0; 
+		content: " "; 
+		clear: both; 
+		height: 0; 
+	}
+	
+	* html .clearfix { 
+		zoom: 1;
+	} 
+	/* IE6 */ 
+	*:first-child+html .clearfix { zoom: 1; } 
+	/* IE7 */
 
 
-#### CSS3 ile sorunun çözümü
+## CSS3 ile sorunun çözümü
 
 Bu sorunun farkında olan CSS standart geliştiriciler bu soruna kökten
 çözüm getirmişler. [clear-after][] yeni özelliği sayesinde bu kodlardan
@@ -138,11 +180,11 @@ kurtulacağız tabi biraz zaman gerekecek bu özelliği kullanmak için.
 Malum hala uygulamada değil CSS3.0
 
 	:::css
-	 .kapsul { clear-after: both; } 
+	.kapsul { clear-after: both; } 
 
 Yukarıdaki örnekteki gibi tek satırlık bir kod sorunumuzu çözecektir.
 
-#### Sonuç
+## Sonuç
 
 Sonuç olarak şunu söyleyebiliriz ki bu sorunu çözmek için bir kaç çözüm
 yolu mevcut olsada şu an için **:after ile çözüm** başlığı altındaki
@@ -151,31 +193,25 @@ sorunla çok karşılaştığım için bir yere not ettim(Macromedia Dreamweaver
 - Snippets) ve lazım olduğu zaman hemen ekliyorum. Bu şekilde sorun
 hızlı bir şekilde çözmek mümkün oluyor.
 
-#### Kaynaklar
+## Kaynaklar
 
-  
-
--   [http://www.positioniseverything.net/easyclearing.html][]
--   [http://www.complexspiral.com/publications/containing-floats/][]
--   [http://www.dahaiyi.net/yazilar/temiz-bir-clearfix-metodu/][dahaiyi.net]
--   [http://csscreator.com/?q=attributes/containedfloat.php][]
--   [http://css-discuss.incutio.com/?page=ClearingSpace][]
--   [http://www.cs.hmc.edu/~mbrubeck/clear-after/][]
--   [http://www.w3.org/TR/2002/WD-css3-box-20021024/#the-clear-after][clear-after]  
-
-</p>
+ - [http://www.positioniseverything.net/easyclearing.html][]
+ - [http://www.complexspiral.com/publications/containing-floats/][]
+ - [http://www.dahaiyi.net/yazilar/temiz-bir-clearfix-metodu/][dahaiyi.net]
+ - [http://csscreator.com/?q=attributes/containedfloat.php][]
+ - [http://css-discuss.incutio.com/?page=ClearingSpace][]
+ - [http://www.cs.hmc.edu/~mbrubeck/clear-after/][]
+ - [http://www.w3.org/TR/2002/WD-css3-box-20021024/#the-clear-after][clear-after]  
 
   [float sorunu]: /images/clearfix_sorun.gif
   [tıklayınız.]: /dokumanlar/float_sorunu.html
   [tıklayınız]: http://www.fatihhayrioglu.com/?p=86
-    "psedu elementleri ve seçicileri "
   [1]: /dokumanlar/float_cozumu.html
   [float çözümü]: /images/clearfix_cozum.gif
   [Doug]: http://dougsdvds.info/ "Doug"
   [Mark Hadley]: http://www.nolocation.com/ "Mark Hadley"
   [Matt Keogh]: http://www.loungepenguin.co.uk/indexno.htm "Matt Keogh"
   [Holly’n John]: http://www.positioniseverything.net/design/
-    "Holly'n John"
   [Tony Asslet]: http://www.csscreator.com/ "CSSCreator"
   [dahaiyi.net]: http://www.dahaiyi.net/yazilar/temiz-bir-clearfix-metodu/
   [clear-after]: http://www.w3.org/TR/2002/WD-css3-box-20021024/#the-clear-after

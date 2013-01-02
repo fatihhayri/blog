@@ -8,7 +8,7 @@ karşılaşınca yazmaya karar verdim. Sorunu açıklamaya çalışayım;
 postion:relative uyguladığımız elemanların(li) içinde postion:absolute
 kullanarak eklediğimiz elemanlar sıralı elemanlarının altında kalıyor.
 Genelde bu durumla liste(li) elemanı içinde üzerine gelince açılan bir
-alan(menü) açtırmak istediğimizde karşılaşıyoruz.<!--more--> Basit bir
+alan(menü) açtırmak istediğimizde karşılaşıyoruz. Basit bir
 örnek ile durumu gösterelim. 	
 
 	:::css
@@ -88,7 +88,7 @@ HTMl kodunu aşağıdaki gibi değiştirince sorun çözüldü.
 -   [Beginning CSS: Cascading Style Sheets for Web Design][]
 -   [http://benhollis.net/experiments/ie7_tests/zindex.html][]
 
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/ie67_z_index_sorunu/ie67_zindex_sorunu.htm
+  [tıklayınız.]: /dokumanlar/ie67_z_index_sorunu/ie67_zindex_sorunu.htm
   []: http://docs.google.com/File?id=dhctmbn6_3972h6zm4fm_b
   [1]: http://docs.google.com/File?id=dhctmbn6_398hb6k5ngw_b
   [2]: http://fatihhayrioglu.com/dokumanlar/ie67_z_index_sorunu/ie67_zindex_sorunu_cozumu.htm

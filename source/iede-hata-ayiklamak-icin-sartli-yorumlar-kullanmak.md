@@ -16,17 +16,20 @@ Internet Explorer 5 versiyonu ile birlikte kullanılmaya başlanmıştır.
 şartlı Yorumlar xhtml kodunun yorumlanıp yorumlanmayacağını belirler.
 
 	:::html
-	 <!--[if IE]> Bu kod Interner Explorer 5
-ve üzeri versiyonlarda çalışır. <![endif]--> 
+	<!--[if IE]> Bu kod Interner Explorer 5 ve üzeri versiyonlarda çalışır. <![endif]--> 
 
 Bu kodlama bizim bir çok hatayı ayıklamamız için biçilmiş kaftandır.
 Ayrıca şartlı komutlar bize versiyon farklılıklarına göre kod
 yazmamızıda sağlar
 
-	:::css
-	 <!--[if IE 6]> <style type='text/css'>
-a:link, a:visited, a:active { text-decoration: none; } </style>
-<![endif]--> 
+	:::html
+	<!--[if IE 6]> 
+	<style type='text/css'>
+		a:link, a:visited, a:active { 
+			text-decoration: none; 
+		} 
+	</style>
+	<![endif]--> 
 
 Bu kod ile sadece IE 6 versiyonunda linklerin altının çizilmesini
 engellemiş oluyoruz.
@@ -36,30 +39,35 @@ tarayıcısından gizlemek istediğimiz durumlarda şartlı Komuta (!)
 operatörünü ekleyerek bunu sağlayabiliriz.
 
 	:::html
-	 <!--[if !IE 6]> <style type='text/css'>
-a:link, a:visited, a:active { text-decoration: none; } </style>
-<![endif]--> 
+	<!--[if !IE 6]> 
+	<style type='text/css'>
+		a:link, a:visited, a:active { 
+			text-decoration: none; 
+		} 
+	</style>
+	<![endif]--> 
 
 Bu kod ile sadece IE6'da bu kodun uygulanmasını engelledik.
 
 Bunun gibi başka işlevsel operatörlerde mevcuttur.
 
-  Operatör   Açıklama                Örnek
-  ---------- ----------------------- ------------------------
-  gt         - den büyük             <!--[if IE gt 5.5]>
-  gte        - den büyük veya eşit   <!--[if IE gte 5.5]>
-  lt         - den küçük             <!--[if IE lt 5.5]>
-  lte        - den küçük veya eşit   <!--[if IE lte 5.5]>
-  !          değilse                 <!--[if !IE 5.5]>
+ | Operatör   | Açıklama                | Örnek					  |
+ | :----------| -----------------------:|:-----------------------:|
+ | gt         | - den büyük             | <!--[if IE gt 5.5]>	  |
+ | gte        | - den büyük veya eşit   | <!--[if IE gte 5.5]>	  |
+ | lt         | - den küçük             | <!--[if IE lt 5.5]>	  |
+ | lte        | - den küçük veya eşit   | <!--[if IE lte 5.5]>	  |
+ | !          | değilse                 | <!--[if !IE 5.5]>		  |
 
  
 
 	:::html
-	 <!--[if lt IE 6]> <style
-type="text/css"> @import ("ie.css"); </style> <![endif]–>
+	<!--[if lt IE 6]> 
+		<style type="text/css"> 
+			@import ("ie.css"); 
+		</style> 
+	<![endif]–>
 
 
 Birçok hata ayıklama metodunda şartlı Komutlar kullanılabilir.
-
-</p>
 

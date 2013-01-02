@@ -311,7 +311,7 @@ Date: 2006-08-05 22:06
   [CSS ile Web Sayfası Oluşturma II]: http://www.fatihhayrioglu.com/css-ile-web-sayfasi-olusturma-ii/
   [CSS ile Web Sayfası Oluşturma III]: http://www.fatihhayrioglu.com/css-ile-web-sayfasi-olusturma-iii/
   [%100 Genişlik ve %100 Yükseklite Sayfa İskeleti Hazırlama]: http://www.fatihhayrioglu.com/100-genislik-ve-100-yukseklite-sayfa-iskeleti-hazirlama/
-  [Genişlik ve Yüksekliğin Sınırlarını Belirlemek(min-width, min-height,max-width, max-height)]: htttp://www.fatihhayrioglu.com/genislik-ve-yuksekligin-sinirlarini-belirlemekmin-width-min-heightmax-width-max-height/
+  [Genişlik ve Yüksekliğin Sınırlarını Belirlemek(min-width, min-height,max-width, max-height)]: htttp://www.fatihhayrioglu.com/min-width-min-heightmax-width-max-height/
   [Yuvarlak Kenarlı Kutular]: http://www.fatihhayrioglu.com/yuvarlak-kenarli-kutular/
   [CSS ile Menü Yapmak I - Dikey Menüler]: http://www.fatihhayrioglu.com/css-ile-menu-yapmak/
   [CSS ile Menü Yapmak II - Yatay Menüler]: http://www.fatihhayrioglu.com/css-ile-menu-olusturmak-ii/

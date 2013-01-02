@@ -10,7 +10,7 @@ Microsoft bu tanımlamadaki hatasını kabul etti ve ie8 de "hasLayout"
 kabulunü bıraktı. Buna da şükür.
 
 Ben genelde bu sorun ile özel textbox alanlarını kodlarken
-karşılaşıyorum.<!--more-->
+karşılaşıyorum.
 
 ![][]
 
@@ -91,14 +91,10 @@ elemanında bu sorun ile karşılaşılmıyor.
 
   [bu siteye göz atın]: http://www.satzansatz.de/cssd/onhavinglayout.html
   []: /images/arama_ardalan1.gif
-    "arama_ardalan1"
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/margin_inherit_form/inherit_margin_form_orn.html
+  [tıklayınız.]: /dokumanlar/margin_inherit_form/inherit_margin_form_orn.html
   [1]: /images/margin_inherit_ff.gif
-    "margin_inherit_ff"
   [2]: /images/margin_inherit_ie.gif
-    "margin_inherit_ie"
   [IE'da İkikat görülen Margin Problemi ve Çözümü]: http://www.fatihhayrioglu.com/ieda-ikikat-gorulen-margin-problemi-ve-cozumu/
   [3]: http://fatihhayrioglu.com/dokumanlar/margin_inherit_form/inherit_margin_form_ornc.html
   [4]: /images/margin_inherit_ie_c.gif
-    "margin_inherit_ie_c"
   [http://www.positioniseverything.net/explorer/inherited_margin.html]: http://www.positioniseverything.net/explorer/inherited_margin.html

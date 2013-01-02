@@ -11,7 +11,7 @@ Türkçe kelimeler kullanmayı tercih ediyorum, ancak bazı kelimelerin
 karşılılarını bulmakta zorlanıyorum. Neyse asıl konuya geçelim.
 
 Kenar boşluğu çökmesi nedir? Kenar boşluğu nasıl meydana gelir ve nasıl
-çözülür? Bu makalede bu sorulara cevap bulacağız. <!--more-->
+çözülür? Bu makalede bu sorulara cevap bulacağız.
 
 Kenar boşluğu çökmesini [W3C][] **bitişik kenar boşluğu** olarak
 tanımlar. İki veya daha fazla kutunun(sonraki bir nesne veya kutu
@@ -35,15 +35,16 @@ bir çökme meydana gelir. Bir örnek yapalım.
 
 Html kodu:
 
-	:::css
-	 <p>Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit.<p> <p>Morbi eros lacus, volutpat at,
-interdum nec, dignissim at, turpis.</p> 
+	:::html
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<p> 
+	<p>Morbi eros lacus, volutpat at, interdum nec, dignissim at, turpis.</p> 
 
 CSS kodu:
 
 	:::css
-	 p{ margin:10px 0; } 
+	p{ 
+		margin:10px 0; 
+	} 
 
 Örneği görmek için [tıklayınız.][]
 
@@ -51,10 +52,12 @@ Bu kodu uyguladığımızda normalde aşağıdaki Resim-1'deki gibi bir görünt
 elde etmemiz gerekirken, kodu çalıştırdığımızda Resim-2'deki görüntüyü
 alırız.
 
-![Resim - 1][]  
+![Resim - 1][]
+
 Resim -1 Olması gereken kenar boşluğu          
 
 ![Resim - 2][]  
+
 Resim - 2 Görünen kenar boşluğu görünümü         
 
 **Çözüm:** Çözüm için bir kaç yöntem var ben burada bir tanesi örnek
@@ -62,8 +65,12 @@ olarak vereceğim, ayrıca makalenin sonundaki çözümlerde göz atmanızda
 yarar var.
 
 	:::css
-	 p{ margin:10px 0; float:left; clear:both;
-width:100% } 
+	p{ 
+		margin:10px 0; 
+		float:left; 
+		clear:both;
+		width:100% 
+	} 
 
 Bu kodlar sonrasında resim-1 deki görüntüyü alırız.
 
@@ -73,15 +80,25 @@ Bir elemente ve içindeki elemente kenar boşluğu atadığımızda içte kalan
 elementin kenar boşlukları kaybolacaktır. Bir uygulama yapalım:
 
 	:::css
-	 *{ margin:0; padding:0; } div#kapsul{
-margin:10px; background-color:#0066CC; } p{ margin:10px;
-background-color:#0CF; } 
+	* { 
+		margin:0; 
+		padding:0; 
+	} 
+	
+	div#kapsul{
+		margin:10px; 
+		background-color:#0066CC; 
+	} 
+	
+	p{ 
+		margin:10px;
+		background-color:#0CF; 
+	} 
 
 Html kodu yazalım:
 
 	:::html
-	 <div id="kapsul"> <p>Lorem ipsum dolor
-sit amet, consectetuer adipiscing elit.</p> </div> 
+	<div id="kapsul"> <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p> </div> 
 
 Örneği görmek için [tıklayınız.][1]
 
@@ -90,18 +107,33 @@ görünmemektedir. Sadece dıştaki kapsul nesnesinin üst ve alt kenar
 boşlukları etki etmektedir.
 
 ![Olması gerek kenar boşluğu görünüm][]  
+
 Resim -1 Görünen kenar boşluğu        
 
 ![][]  
+
 Resim - 2 Olması gereken kenar boşluğu
 
 **Çözüm:** Bu tip kenar boşluğu çökmelerinde 1px'lik bir padding
 eklersek ve paragrafın kenar boşluk değerini de 1px azaltırsak sorun
 çözülür. Kodu aşağıdaki gibi değiştirirsek sorunumuz hallolacaktır.
 
-[sourcecode language="css" highlight="7,11"] *{ margin:0; padding:0; }
-div#kapsul{ margin:10px; padding:1px; background-color:#0066CC; } p{
-margin:9px; background-color:#0CF; } 
+	:::css 
+	*{ 
+		margin:0; 
+		padding:0; 
+	}
+	
+	div#kapsul{ 
+		margin:10px; 
+		padding:1px; 
+		background-color:#0066CC; 
+	} 
+	
+	p{
+		margin:9px; 
+		background-color:#0CF; 
+	} 
 
 ## 3- Sadece İçteki Elemente Kenar Boşluğu Uyulanmış İç içe Bulunan Elementler Arasında Meydana Gelen Çökme
 
@@ -111,20 +143,33 @@ varken(margin:10px) dıştaki **kapsul** nesnesinin kenar boşluğu
 değerinin sıfır olması durumunda meydana gelir. İçteki elementin dikey
 kenar boşlukları çökecektir.
 
-[sourcecode language="css" highlight="6"] *{ margin:0; padding:0; }
-div#kapsul{ margin:0; background-color:#0066CC; } p{ margin:10px;
-background-color:#0CF; } 
+	:::css 
+	*{ 
+		margin:0; 
+		padding:0; 
+	}
+	
+	div#kapsul{ 
+		margin:0; 
+		background-color:#0066CC; 
+	} 
+	
+	p{ 
+		margin:10px;
+		background-color:#0CF; 
+	} 
 
 Html kodu yazarsak:
 
 	:::html
-	 <div id="kapsul"> <p>Lorem ipsum dolor
-sit amet, consectetuer adipiscing elit.</p> </div> 
+	<div id="kapsul"> <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p> </div> 
 
 ![][2]  
+
 Resim -1 Görünen kenar boşluğu        
 
 ![][3]  
+
 Resim - 2 Olması gereken kenar boşluğu     
 
 Örneği görmek için [tıklayınız.][4]
@@ -158,7 +203,6 @@ hakkındaki aşağıdaki bilgilerde bize çözüm konusunda yardımcı olacaktı
 -   [http://reference.sitepoint.com/css/collapsingmargins][]
 -   [http://www.seifi.org/css/understanding-taming-collapsing-margins-in-css.html][]
 
-</p>
 
   [W3C]: http://www.w3.org/TR/CSS21/box.html#collapsing-margins
   [tıklayınız.]: /dokumanlar/margin_cokmesi_01.html

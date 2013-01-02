@@ -9,7 +9,7 @@ yenilikler içeren IE7 eski versiyonlardaki CSS sorunlarının bir çoğunuda
 çözmüş görünüyor. Bu bizim gibi kodlayıcılar için çok güzel bir gelişme,
 IE gibi web tarayıcı pazarında %75'ni(değişik oranlar mevcut ben de
 ortalamayı aldım) elinde bulunduran bir web tarayıcısının standartlara
-daha uyumlu olması bizi sevindiriyor. <!--more-->
+daha uyumlu olması bizi sevindiriyor. 
 
 Bu makale IE7 ile çözülen CSS hatalarına bir göz atacağız.
 
@@ -99,7 +99,7 @@ padding-bottom: 1px; }
     (Bu sayede menu oluştururken IE için script yazmayacağız, tabi bunu
     için erken daha)
 -   **Background-attachment: fixed** tüm elementlerde çalışıyor
--   **<?xml>** ön tanımlamasını **[Garip Mod][<!DOCTYPE> switch]**
+-   **<\?xml\>** ön tanımlamasını **[Garip Mod][<!DOCTYPE> switch]**
     olarak algılamıyor artık
 -   **Overflow** şimdi çalışıyor(Bunun anlamı kutular artık otomatik
     büyümeyecek.)
@@ -136,9 +136,7 @@ Tüm liste için [tıklayınız][13].
 -   [http://www.webcredible.co.uk][]
 -   [http://www.mezzoblue.com][]
 
-</p>
-
-  [<!DOCTYPE> switch]: http://www.fatihhayrioglu.com/?p=164
+  [<!DOCTYPE> switch]: http://fatihhayrioglu.com/dogru-doctype-kullanimi/
   [tıklayınız]: http://www.positioniseverything.net/explorer/peekaboo.html
   [tıklayınız.]: http://www.positioniseverything.net/explorer/guillotine.html
   [1]: http://www.fatihhayrioglu.com/?p=232

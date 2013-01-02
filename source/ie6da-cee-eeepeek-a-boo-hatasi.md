@@ -8,7 +8,7 @@ ise **peek-a-boo** namıyla gezinen; bu ismin verilmesinin nedeni
 içeriğin bir orataya çıkıp bir kaybolmasıdır, hani bizim bebekleri
 eğlendirmek için yüzmüzü ellerimizle kapatıp cee-eee diye birden açarak
 bebeleri eğlendirdiğimiz oyun varya işte o oyundan geliyor bu isim.) adı
-ile tanımladığım hatadır. <!--more--> Hata uzun içeriği olan ve float
+ile tanımladığım hatadır. Hata uzun içeriği olan ve float
 elementi içeren likit kutularda meydana gelir. Sadece IE6 versiyonunda
 karşılaşılır. Kaydırma çubuğu ile aşağı yukarı gidince veya programlar
 arasında geçiş yapınca (alt+tab kısayolu ile mesela)düzelir. Ama bu
@@ -45,8 +45,6 @@ konumunu göreceli olarak belirlediğimizde de bu sorun görülmeyecektir.
 ## Kaynak
 
 -   [http://www.positioniseverything.net/explorer/peekaboo.html][]
-
-</p>
 
   [tıklayınız.]: /dokumanlar/ie_peekaboo_hatasi_ornek.html
   []: /dokumanlar/ceee_sorunlu.gif

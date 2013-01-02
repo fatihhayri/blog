@@ -15,7 +15,6 @@ ve seviniyorum, korktuğum kadar beni uğraştırmadığı için.
 Sorunu şöyle tanımlayabilirim; overflow kullandığım bir eleman içindeki
 bir elemana position:relative tanımladığımda relative verdiğim eleman
 overflow uyguladığım elemanın dışına çıkıyor ve scroll olmuyor.
-<!--more-->
 
 Şöyle küçük bir örnek durumu daha iyi gösterecektir.
 
@@ -64,7 +63,7 @@ background-color:lightblue; width:150px; }
 -   [http://www.rowanw.com/bugs/overflow_relative.htm][]
 -   [http://dustyreagan.com/workaround-to-ies-overflow-auto-and/][]
 
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/position_relative_overflow.html
+  [tıklayınız.]: /dokumanlar/position_relative_overflow.html
   []: /images/position_relative_overflow_ie.jpg
   [http://snook.ca/archives/html_and_css/position_relative_overflow_ie/]: http://snook.ca/archives/html_and_css/position_relative_overflow_ie/
   [http://www.rowanw.com/bugs/overflow_relative.htm]: http://www.rowanw.com/bugs/overflow_relative.htm

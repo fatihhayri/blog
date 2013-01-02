@@ -1,5 +1,5 @@
 Title: Genişlik ve Yüksekliğin Sınırlarını Belirlemek(min-width, min-height,max-width, max-height)
-Slug: genislik-ve-yuksekligin-sinirlarini-belirlemekmin-width-min-heightmax-width-max-height
+Slug: min-width-min-heightmax-width-max-height
 Date: 2006-10-09 11:21
 Category: CSS, Javascript, Web Standartları, XHTML
 Tags: CSS, css2, expression, ie-fix, Javascript, maksimum, max-height, max-width, min-height, min-width, Web Standartları, XHTML

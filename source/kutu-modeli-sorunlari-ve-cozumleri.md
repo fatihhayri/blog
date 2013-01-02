@@ -62,8 +62,7 @@ alanı değeri olarak belirlenir.
 Standart web tarayıcıları bu durumu şöyle yorumlayacaklardır. 200px +
 10px sol kenar iç boşluğu + 5px sol kenar çizgisi + 10px sağ kenar iç
 boşluğu + 5px sağ kenar çizgisi = 230px toplam genişlik kutu elemetinin
-genişliği 230px olacaktır. Ancak
-<acronym title="İnternet Explorer">IE</acronym>'un IE6/strict'den önceki
+genişliği 230px olacaktır. Ancak IE'un IE6/strict'den önceki
 versiyonlar için kutu elementinin genişlik değeri 200px'dir.
 Margin(Kenar dış boşluğu) değeri width değerini direk etkilemese de
 dolaylı olarak etkiler. Kutular arasındaki genişliği hesaplarken margin
@@ -110,8 +109,8 @@ Not: Aynı şeyler yükseklik(height) içinde geçerlidir.
 -   [http://www.createwebmagic.com/css101/lesson2/?inc=part3][]
 -   [CSS Hacks and Filters : Making Cascading Stylesheets Work][]
 
-  []: http://fatihhayrioglu.com/images/basit_boxmodel.gif
-  [1]: http://fatihhayrioglu.com/images/box_model.gif
+  []: /images/basit_boxmodel.gif
+  [1]: /images/box_model.gif
   [tantek]: http://www.tantek.com/CSS/Examples/boxmodelhack.html
   [http://tantek.com/CSS/Examples/boxmodelhack.html]: http://tantek.com/CSS/Examples/boxmodelhack.html
   [http://css-discuss.incutio.com/?page=BoxModelHack]: http://css-discuss.incutio.com/?page=BoxModelHack
