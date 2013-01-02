@@ -968,5 +968,5 @@ görüşmek dileğiyle hoşçakalın.
   [6]: http://www.fatihhayrioglu.com/internet-explorer-6-ve-7-icin-tablo-tr-elementine-kenar-cizgisi-atamak/
   [7]: /images/sosyal_altalan.jpg
     "sosyal_altalan"
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/fm/index.html
+  [tıklayınız.]: /dokumanlar/fm/index.html
   [8]: /dokumanlar/fm_anasayfa_html.rar

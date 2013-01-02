@@ -139,9 +139,9 @@ Kalın sağlıcakla.
 -   [http://www.sitepoint.com/forums/showthread.php?t=661150][]
 -   [http://forums.mozillazine.org/viewtopic.php?t=538190][]
 
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/ie7_yatay_scroll_sorunu_.html
+  [tıklayınız.]: /dokumanlar/ie7_yatay_scroll_sorunu_.html
   []: https://lh6.googleusercontent.com/-GwzjXCJuKx4ySpkBUYTvTUxa8Z1OeTBgQTM7louaZaXwMc24ETkXTy-ULml0IK3Ed1m050j2ahhFpJKPc70akaQaei1mVvNPW61ji4vywk5HI395Q
-  [1]: http://fatihhayrioglu.com/dokumanlar/ie7_yatay_scroll_sorunu_cozum.html
+  [1]: /dokumanlar/ie7_yatay_scroll_sorunu_cozum.html
   [http://stackoverflow.com/questions/139000/div-with-overflowauto-and-a-100-wide-table-problem]: http://stackoverflow.com/questions/139000/div-with-overflowauto-and-a-100-wide-table-problem
   [http://bytes.com/topic/html-css/answers/100751-overflow-auto-problem-ie]: http://bytes.com/topic/html-css/answers/100751-overflow-auto-problem-ie
   [http://www.sitepoint.com/forums/showthread.php?t=661150]: http://www.sitepoint.com/forums/showthread.php?t=661150

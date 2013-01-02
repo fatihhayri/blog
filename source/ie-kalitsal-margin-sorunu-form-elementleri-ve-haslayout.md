@@ -95,6 +95,6 @@ elemanında bu sorun ile karşılaşılmıyor.
   [1]: /images/margin_inherit_ff.gif
   [2]: /images/margin_inherit_ie.gif
   [IE'da İkikat görülen Margin Problemi ve Çözümü]: http://www.fatihhayrioglu.com/ieda-ikikat-gorulen-margin-problemi-ve-cozumu/
-  [3]: http://fatihhayrioglu.com/dokumanlar/margin_inherit_form/inherit_margin_form_ornc.html
+  [3]: /dokumanlar/margin_inherit_form/inherit_margin_form_ornc.html
   [4]: /images/margin_inherit_ie_c.gif
   [http://www.positioniseverything.net/explorer/inherited_margin.html]: http://www.positioniseverything.net/explorer/inherited_margin.html

@@ -91,7 +91,7 @@ HTMl kodunu aşağıdaki gibi değiştirince sorun çözüldü.
   [tıklayınız.]: /dokumanlar/ie67_z_index_sorunu/ie67_zindex_sorunu.htm
   []: http://docs.google.com/File?id=dhctmbn6_3972h6zm4fm_b
   [1]: http://docs.google.com/File?id=dhctmbn6_398hb6k5ngw_b
-  [2]: http://fatihhayrioglu.com/dokumanlar/ie67_z_index_sorunu/ie67_zindex_sorunu_cozumu.htm
+  [2]: /dokumanlar/ie67_z_index_sorunu/ie67_zindex_sorunu_cozumu.htm
   [3]: http://docs.google.com/File?id=dhctmbn6_399f9hf3mg7_b
   [Beginning CSS: Cascading Style Sheets for Web Design]: http://www.wrox.com/WileyCDA/WroxTitle/productCd-0764576429.html
     "Beginning CSS: Cascading Style Sheets for Web Design"

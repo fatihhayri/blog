@@ -12,4 +12,4 @@ sitelerde sorun çıkarıyor. Bu durumu engellemek için <iframe\> koduna
 	:::html
 	<iframe allowtransparency="true"></iframe>
 
-Örnek: http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/allowTransparency.htm
+Örnek: [http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/allowTransparency.htm](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/allowTransparency.htm)

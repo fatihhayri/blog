@@ -30,7 +30,7 @@ gösteren bir göstergedir.
 
 Örnek bir sayfa ile devam edelim.
 
-[http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html][]
+[/dokumanlar/fare_degisen_resim.html][]
 
 ![][1]
 
@@ -213,7 +213,7 @@ açıkça gösterir ve düzeltmemiz için önerilerde bulunur.
 
 
   []: /images/fh_firebug_net_sekme-298x300.gif
-  [http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html]: http://fatihhayrioglu.com/dokumanlar/fare_degisen_resim.html
+  [/dokumanlar/fare_degisen_resim.html]: /dokumanlar/fare_degisen_resim.html
   [1]: http://docs.google.com/File?id=dhctmbn6_408d43xkbc6_b
   [2]: /images/firebug_net3-300x8.gif
   [3]: http://docs.google.com/File?id=dhctmbn6_411zb4pdnd3_b

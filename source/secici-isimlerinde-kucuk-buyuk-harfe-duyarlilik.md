@@ -17,5 +17,7 @@ büyüklükleri kullanıyorsanız buna çok fazla dikkat etmelisiniz.
 		font:12px Arial, Verdan, serif
 	}
 	
+HTML kodu;
+
 	:::html
 	<p class="DenemeYazisi">Dikkatli ol!</p> 

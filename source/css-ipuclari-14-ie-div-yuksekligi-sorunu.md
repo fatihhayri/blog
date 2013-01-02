@@ -4,26 +4,31 @@ Category: CSS, XHTML
 Tags: CSS, div yüksekliği sorunu, ie, internet explorer, XHTML
 
 	:::css
-	 our_style { height: 1px; width: 100px;
-background-color: black; } 	:::html
+	our_style { 
+		height: 1px; 
+		width: 100px;
+		background-color: black; 
+	} 	
 	
-
-<div class="test">
-</div>
-
+HTML kodu;
+	
+	:::html	
+	<div class="test"></div>
 
 Bu kod Firefox'da sorunsuz çalışmasına karşın IE'de yükseklik 10px
 görünecektir. Bir bakıma IE boş içeriğin yüksekliğini 10px kabul ediyor,
 ancak bu bizim işimizi bozuyor. Çözüm ise çok basit.
 
 	:::css
-	.test { font-size: 0; height: 1px; width:
-100px; background-color: black; }
+	.test { 
+		font-size: 0; 
+		height: 1px; 
+		width:100px; 
+		background-color: black; 
+	}
 
 Sadece font-size tanımını 0 atamamız yeterli.
 
 Kaynak: [http://vaig.be/2007/04/07/div-styleheight-1px-bug-in-ie/][]
-
-</p>
 
   [http://vaig.be/2007/04/07/div-styleheight-1px-bug-in-ie/]: http://vaig.be/2007/04/07/div-styleheight-1px-bug-in-ie/

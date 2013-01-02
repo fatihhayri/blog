@@ -15,6 +15,9 @@ kenar çizgisi(border) atamaktır.
 	}
 
 Diğer bir yöntemde elemente ardalan rengi(background-color) uygulamaktır.
+
+CSS kodu;
+
 	:::css
 	#icerikalani {
 		background-color:#999;

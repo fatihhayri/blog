@@ -128,7 +128,7 @@ Bu kodu tüm tarayıcılar destekliyor.
 -   [http://www.456bereastreet.com/lab/centered/both/][]
 
   []: /images/dikey_yatayda_ortalama_ornek.gif
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/dikey_yatay_ortalama.html
+  [tıklayınız.]: /dokumanlar/dikey_yatay_ortalama.html
   [1]: /images/dikey_yatayda_ortalama-300x223.gif
   [http://www.joe2torials.com/view_tutorial.php?view=37]: http://www.joe2torials.com/view_tutorial.php?view=37
   [http://perishablepress.com/press/2006/09/18/absolutely-centered-layout/]: http://perishablepress.com/press/2006/09/18/absolutely-centered-layout/

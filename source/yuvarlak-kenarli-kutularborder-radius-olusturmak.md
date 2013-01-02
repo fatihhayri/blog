@@ -209,9 +209,9 @@ sitesinde olduğu gibi.)
 -   [http://muddledramblings.com/table-of-css3-border-radius-compliance][](taraycı destek tablosu)
 -   [http://stackoverflow.com/questions/2687804/emulating-css3-border-radius-and-box-shadow-in-ie7-8][]
 
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/border_radius1.html
+  [tıklayınız.]: /dokumanlar/border_radius1.html
   []: /images/border_radius_1.jpg
-  [1]: http://fatihhayrioglu.com/dokumanlar/border_radius2.html
+  [1]: /dokumanlar/border_radius2.html
   [2]: /images/border_radius_2.jpg
   [http://muddledramblings.com/table-of-css3-border-radius-compliance]: http://muddledramblings.com/table-of-css3-border-radius-compliance
     "http://muddledramblings.com/table-of-css3-border-radius-compliance"

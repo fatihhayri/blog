@@ -175,7 +175,7 @@ Kalın sağlıacakla
 -   [http://snipplr.com/view.php?codeview&id=9612][]
 
   []: /images/resim_on_yukleme_jquery-300x195.gif
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/onyukleme.html
+  [tıklayınız.]: /dokumanlar/onyukleme.html
   [1]: /images/resim_on_yukleme_jquery2-300x194.gif
   [http://perishablepress.com/press/2009/12/28/3-ways-preload-images-css-javascript-ajax/]: http://perishablepress.com/press/2009/12/28/3-ways-preload-images-css-javascript-ajax/
   [http://engineeredweb.com/blog/09/12/preloading-images-jquery-and-javascript]: http://engineeredweb.com/blog/09/12/preloading-images-jquery-and-javascript

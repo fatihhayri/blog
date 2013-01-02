@@ -175,7 +175,7 @@ Yukarıda konu daha iyi anlaşılması için ayrı ayrı gösterilmiştir.
 	    border-image: url(border_image_desen.png) 33 stretch;    
 	} 
 
-<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/myzQX/25/embedded/result,css,html"></iframe>  
+<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/myzQX/26/embedded/result,css,html"></iframe>  
 
 **strech**
 
@@ -190,7 +190,7 @@ Yukarıda konu daha iyi anlaşılması için ayrı ayrı gösterilmiştir.
 	    border-image: url(border_image_desen.png) 33 repeat;    
 	} 
 
-<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/egcdh/1/embedded/result,css,html"></iframe>  
+<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/egcdh/2/embedded/result,css,html"></iframe>  
 
 **repeat**
 
@@ -205,7 +205,7 @@ Yukarıda konu daha iyi anlaşılması için ayrı ayrı gösterilmiştir.
 	    border-image: url(border_image_desen.png) 33 round;    
 	} 
 
-<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/VnJnz/1/embedded/result,css,html"></iframe>  
+<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/VnJnz/2/embedded/result,css,html"></iframe>  
 
 **round**
 
@@ -233,7 +233,7 @@ esnek bir buton çıktık.
 		border-width:0 5px 0 14px;
 	}
 
-<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/3SHNk/11/embedded/result,css,html"></iframe>
+<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/3SHNk/14/embedded/result,css,html"></iframe>
 
 Yukarıdaki örnekte görüldüğü gibi basit bir kod ile(siz bakmayın
 öneklerin kalabalığına) ensek bir buton elde etmiş oluyoruz.

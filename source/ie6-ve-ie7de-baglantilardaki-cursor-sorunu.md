@@ -78,5 +78,5 @@ ama hiç bu sorun ile karşılaşanı görmedim, belki ben tam anahtar
 kelimeleri bulamadım
 
   [CSS ile buton yapmak]: http://www.fatihhayrioglu.com/css-ile-buton-yapmak/
-  [tıklayınız.]: http://fatihhayrioglu.com/dokumanlar/cursor_sorunu.html
+  [tıklayınız.]: /dokumanlar/cursor_sorunu.html
   []: https://lh4.googleusercontent.com/fZqsPR_QQBH2juKgQhlheWgW3gH-8SJ2ER8u3j24jSyHU2r18ruXvOLQvIhq2qCqrgldgvbGjltA30kVNxOc4H3OKOQZ5yM0MuHTGK-vSPBExD6ZSQ
