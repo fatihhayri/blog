@@ -1,4 +1,5 @@
 Title: 05 Aralık 2007 Web&#039;den Seçme Haberler
+Slug: 05-aralik-2007-webden-secme-haberler
 Date: 2007-12-05 15:50
 Category: Haberler
 Tags: blog, caps-lock, font, Haberler, oval-buton, takvim
@@ -20,7 +21,6 @@ Tags: blog, caps-lock, font, Haberler, oval-buton, takvim
 -   Caps Lock tuşunu açın scripti. [Bağlantı][11]
 -   Kullanışlı CSS araçları [Bağlantı][12]
 
-</p>
 
   [Bağlantı]: http://creativecurio.com/2007/11/how-in-the-world-do-i-choose-a-font-format/
     "yazı tipi formatı"

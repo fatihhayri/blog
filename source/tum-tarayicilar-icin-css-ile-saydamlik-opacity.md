@@ -1,6 +1,5 @@
-Title: CSS İpucu 19: Tüm Tarayıcılar İçin CSS İle Saydamlık(Opacity)
-Slug : tum-tarayicilar-icin-css-ile-saydamlik-opacity
-Date: 2009-02-23 16:47
+Title: CSS İpucu 19: Tüm Tarayıcılar İçin CSS İle Saydamlık
+Date: 2009-02-21 16:47
 Category: CSS, Web Standartları, XHTML
 Tags: css doğrulama, donuklaştırma, İnternet Tarayıcısı, opacity, saydamlık
 
