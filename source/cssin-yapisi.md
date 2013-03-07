@@ -144,7 +144,7 @@ Seçicisinde **.onemli.uyari** şeklinde yazıyoruz.
 
 ## Id Seçecileri
 
-Id Seçicisi Sınıf Seçicisinden farklıdır. Sınıf Seçicisi sayfada birden
+Id Seçicileri Sınıf Seçicisinden farklıdır. Sınıf Seçicisi sayfada birden
 fazla elemente atanırken Id Seçicisi sadece bir tane elemente atanır.
 Seçicisi adının başında # işareti olan Seçiciler Id Seçicisidir.
 	

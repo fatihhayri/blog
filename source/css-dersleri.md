@@ -64,7 +64,7 @@ Date: 2006-08-05 22:06
     -   [CSS ile Web Sayfası Oluşturma II][]
     -   [CSS ile Web Sayfası Oluşturma III][]
     -   [%100 Genişlik ve %100 Yükseklite Sayfa İskeleti Hazırlama][]
-    -   [Genişlik ve Yüksekliğin Sınırlarını Belirlemek(min-width, min-height,max-width, max-height)][]
+    -   [Genişlik ve Yüksekliğin Sınırlarını Belirlemek(min-width, min-height,max-width, max-height)](http://fatihhayrioglu.com/min-width-min-heightmax-width-max-height/)
     -   [Yuvarlak Kenarlı Kutular][]
     -   [CSS ile Menü Yapmak I - Dikey Menüler][]
     -   [CSS ile Menü Yapmak II - Yatay Menüler][]
@@ -122,7 +122,7 @@ Date: 2006-08-05 22:06
     -   [Css de kodumuzu İE'den gizleme][]
     -   [CSS ile Kutu modeli, sorunları ve çözümleri][CSS ile Kutu modeli]
     -   [IE'da İkikat görülen Margin Problemi ve Çözümü][]
-    -   [IE'da min-width, min-height,max-width, max-height Kullanmak][Genişlik ve Yüksekliğin Sınırlarını Belirlemek(min-width, min-height,max-width, max-height)]
+    -   [IE'da min-width, min-height,max-width, max-height Kullanmak](http://fatihhayrioglu.com/min-width-min-heightmax-width-max-height/)
     -   [Satır Dönüşü(word wrap) Firefox sorunu nasıl çözülür?][]
     -   [IE6'un Tekrarlayan Karakter Sorunu][]
     -   [IE'un 3 piksel Metin Öteleme Hatası][]
@@ -228,7 +228,8 @@ Date: 2006-08-05 22:06
     -   [CSS3 Esnek Kutu Yerleşimi(Flexible Box Layout)][]
     -   [CSS3 pointer-events özelliği][]
     -   [CSS3 Dönüştürme Özellikleri(Transforms) ve 2B Dönüştürme][]
-    -   [CSS3 Dönüştürme(Transforms) ve 3B Dönüştürme][]        
+    -   [CSS3 Dönüştürme(Transforms) ve 3B Dönüştürme][]     
+	-   [CSS3 Geçiş Efektleri(Transitions)](http://fatihhayrioglu.com/css3-gecis-efektleri-transitions/)     
     -   [CSS3 Çevrimiçi Araçları][]
 
 -   CSS Kaynakları

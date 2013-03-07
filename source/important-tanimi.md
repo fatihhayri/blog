@@ -116,7 +116,7 @@ satıriçi kodu ezemiyecektir. Tek çare important tanımıdır.
 
 	:::html
 	<ul style="background-color:#3CF">
-		<li>Deneme</li>
+		<li class="deneme">Deneme</li>
 	<ul 
 
 Tanımı olsun biz bu elemanı background rengini değiştirmek istersek
