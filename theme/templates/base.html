@@ -46,7 +46,12 @@
             </section>
         </div>
         <header id="banner" class="body">
-                <h1><a href="{{ SITEURL }}">{{ SITENAME }}</a>{% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</h1>
+                <h1>
+					<div id="ceviKazi">
+					    <span class="gudi"> </span>
+					    <span class="slogan">damlaya damlaya göl olur.</span>
+					  </div>
+					<a href="{{ SITEURL }}">{{ SITENAME }}</a>{% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</h1>
                 <nav><ul>
                 {% for title, link in MENUITEMS %}
                     <li><a href="{{ link }}">{{ title }}</a></li>

@@ -4,7 +4,6 @@ Category: Haberler
 Tags: açılır-menü, CSS, css hataları, css ile site yapmak, CSS sıfırlama, çek bırak, dikey kayan haber scripti, Firefox, hızlı döngü, internette gezmek, Javascript, jquery, klavye kısayolları, outline, resim galerisi, textbox
 
 -   CSS'de 20 adet genel karşılaşılan hatalar. [Bağlantı][]
--   İnternette gezmeyi kolaylaştıran 50 Firefox eklentisi. [Bağlantı][1]
 -   jQuery ipucu: açılır menüde seçili olan seçeneği ve değerini bulmak.
     [Bağlantı][2]
 -   Javascript yazarken en hızlı kodu yazmak önemli. En hızlı döngüyü
@@ -26,31 +25,16 @@ Tags: açılır-menü, CSS, css hataları, css ile site yapmak, CSS sıfırlama,
     [Bağlantı][12]
 -   CSS Sıfırlama Tekniği - webdeneyimleri.com [Bağlantı][13]
 
-</p>
-
   [Bağlantı]: http://www.noupe.com/css/using-css-to-fix-anything-20-common-bugs-and-fixes.html
-    "düzelt"
-  [1]: http://www.bestcollegesonline.com/blog/2008/07/17/50-firefox-3-add-ons-that-will-change-the-way-you-surf-the-web/
-    "Firefox eklentileri"
   [2]: http://marcgrabanski.com/article/jquery-select-list-values
-    "selectlist"
   [3]: http://blogs.sun.com/greimer/entry/best_way_to_code_a
-    "hızlı döngü"
   [4]: http://www.noupe.com/css/css-layouts-40-tutorials-tips-demos-and-best-practices.html
-    "css ile planlama yapmak"
   [5]: http://css-tricks.com/removing-the-dotted-outline/
-    "outline kaldırmak"
   [6]: http://woork.blogspot.com/2008/07/fantastic-news-ticker-newsvine-like.html
-    "dikey de kayan haber scripti"
   [7]: http://www.jankoatwarpspeed.com/post/2008/07/27/Enhance-your-input-fields-with-simple-CSS-tricks.aspx
-    "textbox"
   [8]: http://eyecon.ro/spacegallery/#about "resim galerisisi"
   [9]: http://www.hackszine.com/blog/archive/2008/07/web_application_hotkeys_with_j.html?CMP=OTC-7G2N43923558
-    "klavye kısayolu"
   [10]: http://johannburkard.de/blog/programming/javascript/6-more-jquery-tips-text-searching-page-load-time-and-others.html
-    "jQuery ipucu"
   [11]: http://www.eburhan.com/jquery-ile-cek-birak-ozellikli-nesneler-olusturmak/
-    "jquery çek bırak"
   [12]: http://www.alistapart.com/articles/survey2008 "webciler"
   [13]: http://www.webdeneyimleri.com/css-sifirlama-teknigi/
-    "css sıfırlama tekniği"
