@@ -581,6 +581,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 
 .entry-content{
 	position:relative;
+	font-size:120%;
 }
 
 .entry-content h2{

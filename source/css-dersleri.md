@@ -230,7 +230,8 @@ Date: 2006-08-05 22:06
     -   [CSS3 Dönüştürme Özellikleri(Transforms) ve 2B Dönüştürme][]
     -   [CSS3 Dönüştürme(Transforms) ve 3B Dönüştürme][]     
 	-   [CSS3 Geçiş Efektleri(Transitions)](http://fatihhayrioglu.com/css3-gecis-efektleri-transitions/)     
-    -   [CSS3 Çevrimiçi Araçları][]
+    -   [CSS3 Çevrimiçi Araçları][]   
+    -   [CSS3 Animasyon(Animation)](http://fatihhayrioglu.com/css3-animasyonanimation/)
 
 -   CSS Kaynakları
     -   [Web Standards Solutions: The Markup and Style Handbook : Dan Cederholm][]

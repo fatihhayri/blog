@@ -77,7 +77,7 @@ Safari3+(-webkit-), 4.1(standart)
 Opera 9.5+(-o-), 10+(standart)
 {: .tarayiciuyum}
 
-<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/TrWy2/1/embedded/result,css,html"></iframe>
+<iframe width="100%" height="300" src="http://jsfiddle.net/fatihhayri/TrWy2/8/embedded/result,css,html" frameborder="0"></iframe>
 
 Daha detaylı örnekler için [http://whereswalden.com/files/mozilla/background-size/more-examples.html][] sitesine bakınız.
 
@@ -139,4 +139,4 @@ Kalın sağlıcakla
   [http://www.pziecina.com/design/turorial_demos/resize_background.php]: http://www.pziecina.com/design/turorial_demos/resize_background.php
   [http://www.alistapart.com/articles/supersize-that-background-please/]: http://www.alistapart.com/articles/supersize-that-background-please/
   [http://dev.w3.org/csswg/css3-page/img_scale.png]: http://dev.w3.org/csswg/css3-page/img_scale.png
-  []: http://www.netmagazine.com/tutorials/take-advantage-css-background-size-property
+  []: images/background-size_cover_contain.gif

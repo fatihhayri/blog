@@ -23,7 +23,7 @@ hücreleri ve inline block elementler
 
 	:::css
 	div{
-		overfloaw:auto; /* bu tanim gerekli */
+		overflow:auto; /* bu tanim gerekli */
 		resize:both;
 	}
 

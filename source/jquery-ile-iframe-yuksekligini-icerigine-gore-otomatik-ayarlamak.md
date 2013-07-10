@@ -61,11 +61,10 @@ class="autoHeight" eklemek.
 ## Kaynaklar
 
 -   [http://www.lost-in-code.com/programming/jquery-auto-iframe-height/][]
--   [http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm][]
 -   [http://jbscdev.blogspot.com/2007/08/automatic-iframe-height-sizing-using.html][]
 -   [http://sonspring.com/journal/jquery-iframe-sizing][]
 
-  [jQuery autoHeight eklentisini]: http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm
+  [jQuery autoHeight eklentisini]: https://github.com/house9/jquery-iframe-auto-height
     "jQuery autoHeight eklentisini"
   [link]: http://www.dynamicdrive.com/dynamicindex17/iframessi2.htm
     "link"
@@ -73,7 +72,6 @@ class="autoHeight" eklemek.
   [http://www.lost-in-code.com/programming/jquery-auto-iframe-height/]: http://www.lost-in-code.com/programming/jquery-auto-iframe-height/
     "http://www.lost-in-code.com/programming/jquery-auto-iframe-height/"
   [http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm]: http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm
-    "http://lib.mobius.tw/jquery/myplugin/iframe_autoHeight/api.htm"
   [http://jbscdev.blogspot.com/2007/08/automatic-iframe-height-sizing-using.html]: http://jbscdev.blogspot.com/2007/08/automatic-iframe-height-sizing-using.html
     "http://jbscdev.blogspot.com/2007/08/automatic-iframe-height-sizing-using.html"
   [http://sonspring.com/journal/jquery-iframe-sizing]: http://sonspring.com/journal/jquery-iframe-sizing

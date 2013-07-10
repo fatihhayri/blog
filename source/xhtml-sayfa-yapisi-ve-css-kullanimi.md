@@ -205,6 +205,7 @@ kullanabiliriz.
 	:::html
 	<body>
 	    <h2>Başlık 2</h2>
+	    <h3>Başlık 3</h3>
 	    <p>Buraya <em>önemli</em> ve <strong>iyi</strong>kod gir</p>
 	    <p>Buraya <em>önemli</em> ve <strong>iyi</strong>kod gir</p>
 	</body>
@@ -217,7 +218,7 @@ Biz burada **h2** ve **h3** arasında boşluk vermek için aşağıdaki kodu
 kullanırız: 	
 
 	:::css
-	h2 + p { 
+	h2 + h3 { 
 		margin-top: 10px; 
 	}
 
