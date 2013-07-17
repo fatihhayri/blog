@@ -196,6 +196,7 @@ Date: 2006-08-05 22:06
     -   [CSS İpucu 30 : background() tanımında tırnak kullanımı][]
     -   [CSS İpucu 31 : Webkit Tabanlı Tarayıcılar(Chrome ve Safari) İçin Düzeltme(Hack) Sorunu ve Çözümü][]
     -   [CSS İpucu 32: CSS3 Renk Geçişinin elemanına uygulamasındaki sorun ve çözümü][]
+    -   [CSS İpucu 33: İE için renk geçişi çözümü filtre tanımını sıfırlamak](http://www.fatihhayrioglu.com/ie-icin-renk-gecisi-cozumu-filtre-tanimini-sifirlamak/)
 
 -   CSS 3
     -   [CSS 3 medya sorguları][]
@@ -232,6 +233,7 @@ Date: 2006-08-05 22:06
 	-   [CSS3 Geçiş Efektleri(Transitions)](http://fatihhayrioglu.com/css3-gecis-efektleri-transitions/)     
     -   [CSS3 Çevrimiçi Araçları][]   
     -   [CSS3 Animasyon(Animation)](http://fatihhayrioglu.com/css3-animasyonanimation/)
+    -   [CSS3 Plan Modülleri](http://fatihhayrioglu.com/css3-plan-modulleri/)
 
 -   CSS Kaynakları
     -   [Web Standards Solutions: The Markup and Style Handbook : Dan Cederholm][]
