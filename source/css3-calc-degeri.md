@@ -55,16 +55,17 @@ mod, toplama , çıkarma sıralaması ile olur.
 
 şeklinde margin üst/alt ve sağ/sol tanımları yapılabilir.   
 
-## Tarayıcı Desteği
-
-Baştada belirttiğimiz gibi şu an sadece Firefox4 ve İnternet Explorer 9
-ve üstü sürümleri destek sağlıyor. Microsoft’tan böyle bir destek
-beklemiyordum açıkçası. Webkit ve Opera desteğini en yakın zamanda
-bekliyorum.
-
-http://www.webkit.org/blog/1804/last-week-in-webkit-calculated-css-values-and-the-translate-attribute/
-webkit tabanlı tarayıcılarda calc() değerini destekliyor artık. 20 Şubat
-2012
+**Tarayıcı Destekleme Listesi**   
+Firefox   
+Chrome   
+Safari   
+Opera 15+   
+İnternet Explorer 9+   
+**Mobil Tarayıcılar **   
+iOS Safari 6+   
+Opera Mobile Desteklemiyor  
+Android Browser Desteklemiyor
+{: .tarayiciuyum}
 
 ## Kaynaklar
 

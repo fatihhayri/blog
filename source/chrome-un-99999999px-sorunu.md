@@ -19,4 +19,4 @@ gibi. Bazen yüksek çözünürlükteki ekranlar düşünülerek bu değer uçuk
 gibi. Bu durumda Chrome 7. karakterden sonraki tanımları görmüyor ve bu atama yapılmamış gibi davranıyor. 
 
 
-<iframe scrolling="no" height="150" frameborder="0" style="width: 100%;border: none; overflow: hidden;" allowtransparency="true" data-height="150" src="http://codepen.io/fatihhayri/embed/mcICs?type=css&amp;height=150" id="cp_embed_hgplm"></iframe>
+<iframe scrolling="no" height="150" frameborder="0" style="width: 100%; overflow: hidden;" allowtransparency="true" data-height="150" src="http://codepen.io/fatihhayri/embed/mcICs?type=css&amp;height=150" id="cp_embed_hgplm"></iframe>
