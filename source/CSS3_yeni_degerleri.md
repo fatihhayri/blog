@@ -3,7 +3,7 @@ Date: 2013-08-06 15:10
 Category: CSS
 Tags: CSS, CSS3, CSS-Değerleri, ch, rem, vw, vh, vmin, vmax, rgba, hsl, hsla, turn, calc(), counter(), attr(), cycle()
 
-CSS3 özellikleri anlatan makalelerden sonra fark ettim ki yeni CSS3 değerleri hakkında bir makale yazmama gerekiyor. 
+CSS3 özellikleri anlatan makalelerden sonra fark ettim ki yeni CSS3 değerleri hakkında bir makale yazmam gerekiyor. 
 
 CSS tanımları 3 ana yapıdan oluşmaktadır. Seçiciler, özellik ve değer. CSS3 ile gelen yeni seçicileri [CSS3 Seçicileri](http://fatihhayrioglu.com/css3-secicileri/) makalesinde anlatmıştık. CSS3 özelliklerini CSS Dersleri altındaki CSS3 başlığı altında anlattık. Sıra geldi CSS3 ile gelen yeni değerler. 
 
