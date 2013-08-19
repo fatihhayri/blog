@@ -200,6 +200,7 @@ Date: 2006-08-05 22:06
 
 -   CSS 3
     -   [CSS 3 medya sorguları][]
+    -   [@support kuralı ile CSS özelliklerinin kontrolü](http://www.fatihhayrioglu.com/support-kurali-ile-css-ozelliklerinin-kontrolu/)
     -   [CSS3 Seçicileri][]
         -   [CSS3 :target seçicisi][]
         -   [CSS3 ::selection seçicisi][CSS İpucu 21: CSS ile Seçilen Metinlerin Rengini Değiştirmek]
@@ -207,6 +208,7 @@ Date: 2006-08-05 22:06
     -   [CSS ile HTML5 Yer Tutucu'ya(placeholder) Stil Vermek](http://www.fatihhayrioglu.com/css-ile-html5-yer-tutucu-ya-placeholder-stil-vermek/)
     -   [CSS3 önek Karmaşası][]
     -   [CSS3 resize özelliği][]
+    -   [CSS3 ile Kısa Çizgi(tire) Ekleme](http://www.fatihhayrioglu.com/css3-ile-kisa-cizgitire-ekleme/)
     -   [CSS ile metinlere gölge vermek(text-shadow)][]
     -   [Kutulara Gölge Vermek (box-shadow)][]
     -   [CSS3 box-shadow örnekleri][]
@@ -235,6 +237,7 @@ Date: 2006-08-05 22:06
     -   [CSS3 Çevrimiçi Araçları][]   
     -   [CSS3 Animasyon(Animation)](http://fatihhayrioglu.com/css3-animasyonanimation/)
     -   [CSS3 Plan Modülleri](http://fatihhayrioglu.com/css3-plan-modulleri/)
+    -   [CSS Filtre Efektleri](http://fatihhayrioglu.com/css-filtre-efektleri/)
 
 -   CSS Kaynakları
     -   [Web Standards Solutions: The Markup and Style Handbook : Dan Cederholm][]
