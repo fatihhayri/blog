@@ -199,6 +199,7 @@ Date: 2006-08-05 22:06
     -   [CSS İpucu 33: İE için renk geçişi çözümü filtre tanımını sıfırlamak](http://www.fatihhayrioglu.com/ie-icin-renk-gecisi-cozumu-filtre-tanimini-sifirlamak/)
 
 -   CSS 3
+    -   [CSS3 Hakkında](http://www.fatihhayrioglu.com/css3-hakkinda/)
     -   [CSS 3 medya sorguları][]
     -   [@support kuralı ile CSS özelliklerinin kontrolü](http://www.fatihhayrioglu.com/support-kurali-ile-css-ozelliklerinin-kontrolu/)
     -   [CSS3 Seçicileri][]
