@@ -3,7 +3,7 @@ Date: 2006-08-05 22:06
 
 -   Temel CSS Dersleri
     -   [Arayüz Geliştiricilerin Görev Tanımı][]
-    -   [Yeniliklerin Takibi ve Google Reader][]
+    -   [Yeniliklerin Takibi][]
     -   [Arayüz Geliştiriciler(HTML-ci) Tasarımcıdan Ne İster?][]
     -   [CSS'e başlamak][]
     -   [CSS'in Yapısı][]
@@ -262,7 +262,7 @@ Date: 2006-08-05 22:06
     -   [Firebug 1.10 Sürümü Yenilikleri][]
 
   [Arayüz Geliştiricilerin Görev Tanımı]: http://www.fatihhayrioglu.com/arayuz-gelistiricilerin-gorev-tanimi/
-  [Yeniliklerin Takibi ve Google Reader]: http://www.fatihhayrioglu.com/yeniliklerin-takibi-ve-google-reader/
+  [Yeniliklerin Takibi]: http://www.fatihhayrioglu.com/yeniliklerin-takibi/
   [Arayüz Geliştiriciler(HTML-ci) Tasarımcıdan Ne İster?]: http://www.fatihhayrioglu.com/arayuz-gelistiricilerhtml-ci-tasarimcidan-ne-ister/
   [CSS'e başlamak]: http://www.fatihhayrioglu.com/csse-baslamak/
   [CSS'in Yapısı]: http://www.fatihhayrioglu.com/cssin-yapisi/
