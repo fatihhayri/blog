@@ -115,6 +115,7 @@ Date: 2006-08-05 22:06
     -   [@font-face yardımı ile ikon eklemek – Yeni TL sembolü eklemek][]
     -   [~ "Genel Kardeş Seçicisini" Cümle İçinde Kullanalım][]
     -   [İnternet Explorer 7'yi Bitirmeli miyiz?][]
+    -   [İnternet Explorer 8 Olmasa Neler Olurdu](http://fatihhayrioglu.com/internet-explorer-8-olmasa-neler-olurdu)
 
 -   CSS Problemleri ve Çözüm Önerileri
     -   [IE'de Hata Ayıklamak için şartlı Yorumlar Kullanmak][]
@@ -429,7 +430,7 @@ Date: 2006-08-05 22:06
   [CSS İpucu 16: Evrensel seçicilerde yazıtipi kısaltması kullanımında sorun]: http://www.fatihhayrioglu.com/css-ipucu-15-evrensel-secicilerde-yazitipi-kisaltmasi-kullaniminda-sorun/
   [CSS İpucu 17: Float Uygulanmış Elementleri Tam Kapsayamama Sorunu İpuçları]: http://www.fatihhayrioglu.com/float-uygulanmis-elementleri-tam-kapsayamama-sorunu-ipuclari/
   [CSS İpucu 18: Optimizasyon İçin CSS Medya Dosyalarını Birleştirmek]: http://www.fatihhayrioglu.com/optimizasyon-icin-css-medya-dosyalarini-birlestirmek/
-  [CSS İpucu 19: Tüm Tarayıcılar İçin CSS İle Saydamlık(Opacity)]: http://www.fatihhayrioglu.com/tum-tarayicilar-icin-css-ile-saydamlik-opacity/
+  [CSS İpucu 19: Tüm Tarayıcılar İçin CSS İle Saydamlık(Opacity)]: http://www.fatihhayrioglu.com/css-ipucu-19-tum-tarayicilar-icin-css-ile-saydamlik/
   [CSS İpucu 20: Firefox'da Kaydırma Çubuğu Çıkarma]: http://www.fatihhayrioglu.com/css-ipucu-20-firefoxda-kaydirma-cubugu-cikarma/
   [CSS İpucu 21: CSS ile Seçilen Metinlerin Rengini Değiştirmek]: http://www.fatihhayrioglu.com/css-ile-secilen-metinlerin-rengini-degistirmek/
   [CSS İpucu 22: iPhone için CSS Yazmak]: http://www.fatihhayrioglu.com/css-ipucu-22-iphone-icin-css-yazmak/

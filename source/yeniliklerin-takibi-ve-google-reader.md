@@ -1,9 +1,11 @@
-Title: Yeniliklerin Takibi ve Google Reader
+Title: Yeniliklerin Takibi
 Date: 2010-10-22 23:49
 Category: Haberler
 Tags: google reader, güncel, haber, makale, rss, rss reader, yazı, yenilikleri takip
 
-![][]
+Google Reader kapandı :(
+
+Ancak RSS desteği olan herhangi bir araç ile takibe devam. Ben şimdi [feedly](feedly.com) kullanıyorum.
 
 Arayüz Geliştiricilerin Görev Tanımı adlı yazımda arayüz
 geliştiricilerinin görevlerini tanımlarken aşağıdaki metni kullandık.

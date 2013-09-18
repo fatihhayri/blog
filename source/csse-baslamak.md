@@ -42,8 +42,8 @@ ekleyebiliriz.)
 ## Kullanım Kolaylığı
 
 HTML'de her elmente artı özellikler eklemek için başka bir element ve
-özellik eklmemiz gerekiyor ve bu işlemi geniş çaplı bir sitede yaptımızı
-düşünütseniz çok büyük zaman kaybı ve uğraş gerektiğini göreceksiniz.
+özellik eklmemiz gerekiyor ve bu işlemi geniş çaplı bir sitede yaptığımızı
+düşünürseniz çok büyük zaman kaybı ve uğraş gerektiğini göreceksiniz.
 
 	:::html
 	<h1><font color="blue">Başlık</font></h1>

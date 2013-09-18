@@ -16,19 +16,12 @@ düzeltmeye çalışacağım.
 Umarım herkesin yararlanacağı bir Türkçe kaynak olur.
 
   ---------------- ------------------------------
-  [Download CSS'e Başlangıç](http://98.131.10.194/dokumanlar/CSS_GIRIS.zip)
+  [Download CSS'e Başlangıç](/dokumanlar/CSS_GIRIS.zip)
   Boyut: 2.77 MB
   ------------------ -----------------------------
-  [Download Kaynak Kodları](http://98.131.10.194/dokumanlar/kodlar.zip)
+  [Download Kaynak Kodları](/dokumanlar/kodlar.zip)
   Kaynak: 63.50 KB
   ------------------ -----------------------------
-**Alternatif ve hızlı bir çözüm(Rapidshare)**
-  Ömer Akın'ın pdf'e bookmarklar eklediği hali. Erişebilirliği daha iyi(Rapidshare)
-
-  ---------------- -------------------------------------------
-  [Download CSS’e Başlangıç(Rapidshare)](http://rapidshare.com/files/305881410/CSS_GIRIS.zip)
-  Boyut: 2.12 MB
-  ---------------- -------------------------------------------
 
 ## Hata ve düzeltmeler
 
@@ -69,3 +62,4 @@ Umarım herkesin yararlanacağı bir Türkçe kaynak olur.
     yardımı ile biçimlendirmemizi saglar.
 -   @Yılmazcan sayfa 23: http://www.bradsoft.com/topstyle/ yerine
     http://topstyle.en.softonic.com/
+-   Music Is My Life 142. sayfa **margin** yazılması gereken yere **magrin** yazılmış.
