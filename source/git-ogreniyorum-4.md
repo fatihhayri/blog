@@ -85,7 +85,7 @@ Sadece belirtilen dosyayı geri almak için kullanılır.
 ##6- Arama sonuçları dosyaya yazdırma
 
     :::git
-    git grep “arama_metni” dosya_adi
+    git grep “arama_metni” > dosya_adi
 
 [@muratcorlu][3] teşekkür.
 
