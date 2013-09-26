@@ -76,7 +76,7 @@ yapıldığında
 	  background:#CCC;
 	  box-sizing:border-box;
 	  -webkit-box-sizing:border-box;
-	  -moz-box-sizing:box-border;
+	  -moz-box-sizing:border-box;
 	}
 	 
 <iframe style="width: 100%; height: 400px" src="http://jsfiddle.net/fatihhayri/y6uyv/embedded/result,css,html"></iframe>

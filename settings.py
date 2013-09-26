@@ -31,7 +31,8 @@ STATIC_PATHS = ['dokumanlar', 'images',]
 MENUITEMS = [('Anasayfa', '/'),
              (u'Hakkımda', '/hakkimda/'),
              ('CSS Dersleri', '/css-dersleri/'),
-             ('Kitap', '/kitap/'),
+             ('Git', '/git/'),
+		('Kitap', '/kitap/'),
 	     (u'İletişim', '/iletisim/')]
 # Blogroll
 LINKS =  ()
