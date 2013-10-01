@@ -84,6 +84,7 @@ Date: 2006-08-05 22:06
     -   [Internet Explorer 6 için saydam PNG desteği][]
     -   [Eksi Margin Kullanımı][]
     -   [Süper bir özellik display:inline-block][]
+    -   [Stylus ile Dinamik CSS Yazmak](http://fatihhayrioglu.com/stylus-ile-dinamik-css-yazmak/)
 
 -   CSS Teknikleri
     -   [Xhtml - CSS : Başlıklar][]
