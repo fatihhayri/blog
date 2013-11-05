@@ -25,68 +25,7 @@ Chrome 2+
 
 Sayfa içi bağlantıları nasıl yaptığımı hatırlayalım.
 
-	:::html
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-	<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Hedef Trabzon</title>
-	<style>
-	body {
-	 width:550px;
-	 margin:0 auto;
-	 font:14px/1.5em Arial, Helvetica, sans-serif;
-	 border-color:#C03;
-	 border-style:solid;
-	 border-width:20px 5px 50px 5px;
-	 padding:20px
-	}
-	div {
-	 border:1px solid #06F;
-	 margin-bottom:15px;
-	 padding:10px;
-	 border-radius:15px;
-	 -moz-border-radius:15px;
-	 -webkit-border-radius:15px;
-	}
-	div:target {
-	 -moz-box-shadow: 0 0 10px #9c9c9c;
-	 -webkit-box-shadow: 0 0 10px #9c9c9c;
-	 box-shadow: 0 0 10px #9c9c9c;
-	 background-color:#D5E3FD;
-	 border-width:2px
-	}
-	</style>
-	</head>
-
-	<body id="tepe">
-	<h1>Trabzon</h1>
-	<p><a href="#b1">Coğrafya</a> | <a href="#b2">Nüfus</a> | <a href="#b3">Tarihçe</a> | <a href="#b4">Toplum ve Kültür</a></p>
-	<p>Trabzon, Karadeniz Bölgesi'nin Doğu Karadeniz bölümünde yer alan merkezii bir şehirdir....</p>
-	<div id="b1">
-	  <h3>Coğrafya</h3>
-	  <p>Dar bir sahil şeridinin ardında denize dikey uzanan dağlık bir araziye sahip olan ilin merkezi Boztepe (antik Minthrion tepesi) üzerine kurulmuştur. İl topraklarının % 22,4 yayla, % 77,6 si ise tepelerden oluşmaktadır. <strong>Dereler</strong> Değirmendere (Piksidis), Yanbolu, Fol, Ağasar, İskefiye, Kalenima, Karadere (Araklı), Küçükdere, Koha, Sürmene (Manahos), Solaklı, Baltacı deresi, Sera Deresi...</p>
-	  <p><a href="#tepe">yukarı</a></p>
-	</div>
-	<div id="b2">
-	  <h3>Nüfus</h3>
-	  <p>Toplam nüfusu 765.127'dur. Bu nüfusun yaklaşık %54'ü şehir ve ilçe gibi merkezlerde,%46'sı ise kırsal kesimlerde yani köylerde yaşamaktadır.</p>
-	  <p><a href="#tepe">yukarı</a></p>
-	</div>
-	<div id="b3">
-	  <h3>Tarihçe</h3>
-	  <p> Eusebius'a göre şehrin kuruluş tarihini MÖ 756 olmakla birlikte bu iddia Trabzon'u İstanbul, Roma hatta, genel kanıya göre Trabzon ve diğer Doğu Karadeniz kolonizasyonunu gerçekleştiren Sinop'tan daha eski bir kent yapmaktadır...</p>
-	  <p><a href="#tepe">yukarı</a></p>
-	</div>
-	<div id="b4">
-	  <h3>Toplum ve Kültür</h3>
-	  <p><strong>Halk</strong> Trabzon halkı adet , yaşam tarzı , gelenek ve görenek bakımından kendine ve yöreye özgü özellikler taşımaktadır...</p>
-	  <p><a href="#tepe">yukarı</a></p>
-	</div>
-	</body>
-	</html>
-
-Örneği görmek için [tıklayınız.][]
+<iframe scrolling="no" height="350" frameborder="0" style="width: 100%;border: none; overflow: hidden;" allowtransparency="true" data-height="250" src="http://codepen.io/fatihhayri/embed/Fmvnz?type=result&amp;height=250" id="cp_embed_hgplm"></iframe>
 
 ![][]
 
@@ -94,7 +33,7 @@ Benzer yapının yatay kaydırma çubuğu ile olanını yapabiliriz
 
 ![][1]
 
-Örneği görmek için [tıklayınız.][2]
+<iframe scrolling="no" height="350" frameborder="0" style="width: 100%;border: none; overflow: hidden;" allowtransparency="true" data-height="250" src="http://codepen.io/fatihhayri/embed/JuKqF?type=result&amp;height=250" id="cp_embed_hgplm"></iframe>
 
 Sayfa içi linklerden farklı olarak **name** ile değil **id** ile
 tanımlanan alanları hedef seçiyoruz. Buda bizi fazla kod yazmaktan

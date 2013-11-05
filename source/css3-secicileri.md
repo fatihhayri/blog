@@ -224,7 +224,7 @@ html kodu
 	<p>Kedi (Felis catus),...</p> <p>2,5 ile 12 kilo ...</p>
 	<p>Kediler hoş görünüşlü, ..</p> 
 
-<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/KGkAK/1/embedded/result,css,html"></iframe>
+<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/KGkAK/15/embedded/result,css,html"></iframe>
 
 Bu seçiciyi ie7’nin seçicisini destekliyor.
 

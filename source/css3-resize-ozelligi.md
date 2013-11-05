@@ -107,7 +107,7 @@ Resimler için güzel bir uygulama olabilir.
 		height:auto;
 	}
 	 
-<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/Xk3Gr/1/embedded/result,css,html"></iframe>
+<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/fatihhayri/Xk3Gr/8/embedded/result,css,html"></iframe>
 
 **Tarayıcı Desteği**  
 Google Chrome 5+  
