@@ -94,7 +94,7 @@ jQuery Kodu;
 
 <iframe scrolling="no" height="250" frameborder="0" style="width: 100%;border: none; overflow: hidden;" allowtransparency="true" data-height="250" src="http://codepen.io/fatihhayri/embed/CzjJI?type=result&amp;height=250" id="cp_embed_hgplm"></iframe>
 
-kaynak: http://black-flag.net/jquery/20120229-3696.html 
+kaynak: [http://black-flag.net/jquery/20120229-3696.html][103]
 
 ## Jquery Trim() sorunu ve çözümü
 
@@ -175,4 +175,4 @@ Kalın sağlıcakla.
   [26]: http://api.jquery.com/event.preventDefault/
   [27]: http://jquerybyexample.blogspot.com/2011/04/how-to-always-reference-latest-version.html
   [28]: http://jquerybyexample.blogspot.com/2011/10/jquery-performance-tips-tricks-from.html
-	everflow: auto;
+  [103]: http://black-flag.net/jquery/20120229-3696.html
