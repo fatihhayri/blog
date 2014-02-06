@@ -13,7 +13,11 @@ Ben sizlere bu makalelerden okuduklarımı özet olarak yazacağım.
 
 Genelde hazırlanan resimlerin kaliteleri, retina ekranlar için düşük kalır. Bundan dolayı retina ekranlarda resimlerimiz daha bulanık görünür. 
 
+![bulanık görüntü][20]
+
 Yukarıdaki resimde görüldüğü gibi resmin normal halinde net bir görüntü var iken sağdaki 2 kat büyütülmüş resimdeki net olmayan bulanık bir görüntü görünmektedir.
+
+![retina oranlar][21]
 
 Yukarıdaki görüntü kısaca olayı özetliyor aslında. Android ekranlar 1.5:1 oranına sahip, apple ürünleri(retina) 2:1 oranına sahip.
 
@@ -201,3 +205,5 @@ Kalın sağlıcakla.
   [17]: http://net.tutsplus.com/tutorials/html-css-techniques/better-responsive-images-with-the-picture-element/
   [18]: http://html5doctor.com/html5-adaptive-images-end-of-round-one/
   [19]: http://css-tricks.com/examples/IconFont/
+  [20]: /images/retina_ornek.png
+  [21]: /images/retina_2.png
