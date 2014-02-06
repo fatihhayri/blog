@@ -242,6 +242,11 @@ Date: 2006-08-05 22:06
     -   [CSS3 Plan Modülleri](http://fatihhayrioglu.com/css3-plan-modulleri/)
     -   [CSS Filtre Efektleri](http://fatihhayrioglu.com/css-filtre-efektleri/)
 
+
+- Duyarlı(Responsive) Web
+    -   [Resimlerimizi retina ekranlara uygun hale getirmek](http://fatihhayrioglu.com/resimlerimizi-retina-ekranlara-uygun-hale-getirmek/)
+
+
 -   CSS Kaynakları
     -   [Web Standards Solutions: The Markup and Style Handbook : Dan Cederholm][]
     -   [Cascading Style Sheets: The Definitive Guide, 2nd Edition - Eric Meyer][]
